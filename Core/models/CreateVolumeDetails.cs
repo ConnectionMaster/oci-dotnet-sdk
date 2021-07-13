@@ -20,14 +20,10 @@ namespace Oci.CoreService.Models
     {
         
         /// <value>
-        /// The availability domain of the volume.
+        /// The availability domain of the volume. Omissible for cloning a volume. The new volume will be created in the availability domain of the source volume.
         /// <br/>
         /// Example: Uocm:PHX-AD-1
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "AvailabilityDomain is required.")]
         [JsonProperty(PropertyName = "availabilityDomain")]
         public string AvailabilityDomain { get; set; }
         
@@ -51,7 +47,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -68,7 +64,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -86,7 +82,7 @@ namespace Oci.CoreService.Models
         /// <value>
         /// The number of volume performance units (VPUs) that will be applied to this volume per GB,
         /// representing the Block Volume service's elastic performance options.
-        /// See [Block Volume Elastic Performance](https://docs.cloud.oracle.com/Content/Block/Concepts/blockvolumeelasticperformance.htm) for more information.
+        /// See [Block Volume Elastic Performance](https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/blockvolumeelasticperformance.htm) for more information.
         /// <br/>
         /// Allowed values:
         /// <br/>
@@ -132,6 +128,14 @@ namespace Oci.CoreService.Models
         /// </value>
         [JsonProperty(PropertyName = "isAutoTuneEnabled")]
         public System.Nullable<bool> IsAutoTuneEnabled { get; set; }
+        
+        /// <value>
+        /// The list of block volume replicas to be enabled for this volume
+        /// in the specified destination availability domains.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "blockVolumeReplicas")]
+        public System.Collections.Generic.List<BlockVolumeReplicaDetails> BlockVolumeReplicas { get; set; }
         
     }
 }

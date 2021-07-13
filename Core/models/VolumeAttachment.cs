@@ -21,7 +21,7 @@ namespace Oci.CoreService.Models
     /// {@link IScsiVolumeAttachment}.
     /// <br/>
     /// For general information about volume attachments, see
-    /// [Overview of Block Volume Storage](https://docs.cloud.oracle.com/Content/Block/Concepts/overview.htm).
+    /// [Overview of Block Volume Storage](https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/overview.htm).
     /// <br/>
     /// **Warning:** Oracle recommends that you avoid using any confidential information when you
     /// supply string values using the API.
@@ -96,7 +96,11 @@ namespace Oci.CoreService.Models
         public System.Nullable<bool> IsReadOnly { get; set; }
         
         /// <value>
-        /// Whether the attachment should be created in shareable mode. If an attachment is created in shareable mode, then other instances can attach the same volume, provided that they also create their attachments in shareable mode. Only certain volume types can be attached in shareable mode. Defaults to false if not specified.
+        /// Whether the attachment should be created in shareable mode. If an attachment
+        /// is created in shareable mode, then other instances can attach the same volume, provided
+        /// that they also create their attachments in shareable mode. Only certain volume types can
+        /// be attached in shareable mode. Defaults to false if not specified.
+        /// 
         /// </value>
         [JsonProperty(PropertyName = "isShareable")]
         public System.Nullable<bool> IsShareable { get; set; }
@@ -154,6 +158,44 @@ namespace Oci.CoreService.Models
         /// </value>
         [JsonProperty(PropertyName = "isPvEncryptionInTransitEnabled")]
         public System.Nullable<bool> IsPvEncryptionInTransitEnabled { get; set; }
+        
+        /// <value>
+        /// Whether the attachment is multipath or not.
+        /// </value>
+        [JsonProperty(PropertyName = "isMultipath")]
+        public System.Nullable<bool> IsMultipath { get; set; }
+                ///
+        /// <value>
+        /// The iscsi login state of the volume attachment. For a multipath volume attachment,
+        /// all iscsi sessions need to be all logged-in or logged-out to be in logged-in or logged-out state.
+        /// 
+        /// </value>
+        ///
+        public enum IscsiLoginStateEnum {
+            [EnumMember(Value = "UNKNOWN")]
+            Unknown,
+            [EnumMember(Value = "LOGGING_IN")]
+            LoggingIn,
+            [EnumMember(Value = "LOGIN_SUCCEEDED")]
+            LoginSucceeded,
+            [EnumMember(Value = "LOGIN_FAILED")]
+            LoginFailed,
+            [EnumMember(Value = "LOGGING_OUT")]
+            LoggingOut,
+            [EnumMember(Value = "LOGOUT_SUCCEEDED")]
+            LogoutSucceeded,
+            [EnumMember(Value = "LOGOUT_FAILED")]
+            LogoutFailed
+        };
+
+        /// <value>
+        /// The iscsi login state of the volume attachment. For a multipath volume attachment,
+        /// all iscsi sessions need to be all logged-in or logged-out to be in logged-in or logged-out state.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "iscsiLoginState")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<IscsiLoginStateEnum> IscsiLoginState { get; set; }
         
     }
 

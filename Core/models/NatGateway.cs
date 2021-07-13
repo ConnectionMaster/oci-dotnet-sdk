@@ -19,23 +19,20 @@ namespace Oci.CoreService.Models
     /// A NAT (Network Address Translation) gateway, which represents a router that lets instances
     /// without public IPs contact the public internet without exposing the instance to inbound
     /// internet traffic. For more information, see
-    /// [NAT Gateway](https://docs.cloud.oracle.com/Content/Network/Tasks/NATgateway.htm).
+    /// [NAT Gateway](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/NATgateway.htm).
     /// <br/>
     /// To use any of the API operations, you must be authorized in an
     /// IAM policy. If you are not authorized, talk to an
     /// administrator. If you are an administrator who needs to write
     /// policies to give users access, see [Getting Started with
-    /// Policies](https://docs.cloud.oracle.com/Content/Identity/Concepts/policygetstarted.htm).
-    /// <br/>
-    /// **Warning:** Oracle recommends that you avoid using any confidential information when you
-    /// supply string values using the API.
+    /// Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// 
     /// </summary>
     public class NatGateway 
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment that contains
+        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains
         /// the NAT gateway.
         /// 
         /// </value>
@@ -48,7 +45,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -65,7 +62,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -73,7 +70,9 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the NAT gateway.
+        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the
+        /// NAT gateway.
+        /// 
         /// </value>
         /// <remarks>
         /// Required
@@ -144,7 +143,7 @@ namespace Oci.CoreService.Models
         public System.Nullable<System.DateTime> TimeCreated { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VCN the NAT gateway
+        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VCN the NAT gateway
         /// belongs to.
         /// 
         /// </value>
@@ -156,7 +155,7 @@ namespace Oci.CoreService.Models
         public string VcnId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the public IP address associated with the NAT gateway.
+        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the public IP address associated with the NAT gateway.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "publicIpId")]

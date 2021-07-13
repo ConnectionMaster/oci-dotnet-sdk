@@ -42,6 +42,13 @@ namespace Oci.ContainerengineService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
+        /// The network configuration for access to the Cluster control plane.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "endpointConfig")]
+        public CreateClusterEndpointConfigDetails EndpointConfig { get; set; }
+        
+        /// <value>
         /// The OCID of the virtual cloud network (VCN) in which to create the cluster.
         /// </value>
         /// <remarks>
@@ -74,6 +81,15 @@ namespace Oci.ContainerengineService.Models
         /// </value>
         [JsonProperty(PropertyName = "options")]
         public ClusterCreateOptions Options { get; set; }
+        
+        /// <value>
+        /// The image verification policy for signature validation. Once a policy is created and enabled with
+        /// one or more kms keys, the policy will ensure all images deployed has been signed with the key(s)
+        /// attached to the policy.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "imagePolicyConfig")]
+        public CreateImagePolicyConfigDetails ImagePolicyConfig { get; set; }
         
     }
 }

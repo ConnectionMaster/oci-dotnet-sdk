@@ -41,8 +41,43 @@ namespace Oci.Common.Retry
             mockCallHttpMethod.Verify(mock => mock.Invoke(It.IsAny<HttpRequestMessage>(), It.IsAny<CancellationToken>()), Times.Exactly(1));
         }
 
+        [Fact]
+        [Trait("Category", "Unit")]
+        [DisplayTestMethodNameAttribute]
+        public async void TestNoRetryForNotImplemented()
+        {
+            var retrier = new GenericRetrier(new RetryConfiguration());
+            var mockCallHttpMethod = new Mock<Func<HttpRequestMessage, CancellationToken, Task<HttpResponseMessage>>>();
+            var requestMessage = new HttpRequestMessage();
+
+            mockCallHttpMethod.Setup(httpMethod => httpMethod(It.IsAny<HttpRequestMessage>(), It.IsAny<CancellationToken>()))
+                .ReturnsAsync(new HttpResponseMessage()
+                {
+                    StatusCode = System.Net.HttpStatusCode.NotImplemented,
+                    Content = ContentHelper.CreateHttpContent(new ErrorCodeAndMessage("NotImplemented", "Some Error"))
+                });
+
+            await retrier.MakeRetryingCall(
+                mockCallHttpMethod.Object,
+                requestMessage,
+                default);
+
+            // Verify if httpMethod has been invoked only once.
+            mockCallHttpMethod.Verify(mock => mock.Invoke(It.IsAny<HttpRequestMessage>(), It.IsAny<CancellationToken>()), Times.Exactly(1));
+        }
+
         [Theory]
+        [InlineData(409, "IncorrectState")]
+        [InlineData(429, "RandomError")]
         [InlineData(500, "InternalServerError")]
+        [InlineData(502, null)]
+        [InlineData(504, "")]
+        [InlineData(505, "")]
+        [InlineData(506, "")]
+        [InlineData(507, "")]
+        [InlineData(508, "")]
+        [InlineData(510, "")]
+        [InlineData(511, "")]
         [Trait("Category", "Unit")]
         [DisplayTestMethodNameAttribute]
         public async void TestRetryForDefaultRetryConfig(int statusCode, string message)
@@ -57,6 +92,37 @@ namespace Oci.Common.Retry
                     StatusCode = (System.Net.HttpStatusCode)statusCode,
                     Content = ContentHelper.CreateHttpContent(new ErrorCodeAndMessage(message, "Some Error"))
                 });
+
+            await retrier.MakeRetryingCall(
+                mockCallHttpMethod.Object,
+                requestMessage,
+                default);
+
+            var maxDefaultRetries = RetryConfiguration.DefaultWaiterConfiguration.MaxAttempts;
+            // verify the number of retries. Total tries = maxDefaultRetries + 1 (original request).
+            mockCallHttpMethod.Verify(mock => mock.Invoke(It.IsAny<HttpRequestMessage>(), It.IsAny<CancellationToken>()), Times.Exactly(maxDefaultRetries + 1));
+        }
+
+        [Theory]
+        [InlineData(409, "IncorrectState")]
+        [InlineData(429, "RandomError")]
+        [InlineData(500, "InternalServerError")]
+        [Trait("Category", "Unit")]
+        [DisplayTestMethodNameAttribute]
+        public async void TestRetryForGlobalRetryEnabled(int statusCode, string message)
+        {
+            Environment.SetEnvironmentVariable("OCI_SDK_DEFAULT_RETRY_ENABLED", "true");
+            RetryConfiguration.DefaultRetryConfiguration = new RetryConfiguration { GetNextDelayInSeconds = _ => 0 }; // disabling sleep time
+            var retrier = Retrier.GetPreferredRetrier(null, null);
+            var mockCallHttpMethod = new Mock<Func<HttpRequestMessage, CancellationToken, Task<HttpResponseMessage>>>();
+            var requestMessage = new HttpRequestMessage();
+
+            mockCallHttpMethod.Setup(httpMethod => httpMethod(It.IsAny<HttpRequestMessage>(), It.IsAny<CancellationToken>()))
+                    .ReturnsAsync(new HttpResponseMessage()
+                    {
+                        StatusCode = (System.Net.HttpStatusCode)statusCode,
+                        Content = ContentHelper.CreateHttpContent(new ErrorCodeAndMessage(message, "Some Error"))
+                    });
 
             await retrier.MakeRetryingCall(
                 mockCallHttpMethod.Object,
@@ -101,7 +167,7 @@ namespace Oci.Common.Retry
         }
 
         [Theory]
-        [InlineData(404, "NotAuthorizedOrNotFound")]
+        [InlineData(409, "IncorrectState")]
         [Trait("Category", "Unit")]
         [DisplayTestMethodNameAttribute]
         public async void TestRetryThrowsTimeoutException(int statusCode, string message)

@@ -22,6 +22,9 @@ namespace Oci.DatacatalogService.Models
     /// EXPORT - Export jobs export data catalog metadata for imports into other data catalog repositories.
     /// IMPORT_GLOSSARY - Job type to import glossary metadata from a file.
     /// EXPORT_GLOSSARY - Job type to export glossary metadata to a file.
+    /// ASYNC_DELETE - Job type for asynchronous bulk delete on data assets, folders and data entities.
+    /// PURGE - Job type for cleaning up schedules, executions and logs of a Job.
+    /// IMPORT_DATA_ASSET - Job type to import technical objects to a data asset.
     /// 
   /// </summary>
   public enum JobType {
@@ -54,6 +57,10 @@ namespace Oci.DatacatalogService.Models
       [EnumMember(Value = "SCHEDULED_EXECUTION")]
       ScheduledExecution,
       [EnumMember(Value = "SCHEDULED_EXECUTION_INSTANCE")]
-      ScheduledExecutionInstance
+      ScheduledExecutionInstance,
+      [EnumMember(Value = "ASYNC_DELETE")]
+      AsyncDelete,
+      [EnumMember(Value = "IMPORT_DATA_ASSET")]
+      ImportDataAsset
   }
 }

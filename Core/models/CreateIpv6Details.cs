@@ -21,7 +21,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -38,7 +38,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -57,20 +57,7 @@ namespace Oci.CoreService.Models
         public string IpAddress { get; set; }
         
         /// <value>
-        /// Whether the IPv6 can be used for internet communication. Allowed by default for an IPv6 in
-        /// a public subnet. Never allowed for an IPv6 in a private subnet. If the value is `true`, the
-        /// IPv6 uses its public IP address for internet communication.
-        /// <br/>
-        /// If `isInternetAccessAllowed` is set to `false`, the resulting `publicIpAddress` attribute
-        /// for the Ipv6 is null.
-        /// <br/>
-        /// Example: true
-        /// </value>
-        [JsonProperty(PropertyName = "isInternetAccessAllowed")]
-        public System.Nullable<bool> IsInternetAccessAllowed { get; set; }
-        
-        /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VNIC to assign the IPv6 to. The
+        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC to assign the IPv6 to. The
         /// IPv6 will be in the VNIC's subnet.
         /// 
         /// </value>

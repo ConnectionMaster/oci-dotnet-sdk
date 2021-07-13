@@ -51,5 +51,17 @@ namespace Oci.LoganalyticsService.Models
         [JsonProperty(PropertyName = "isOnboarded")]
         public System.Nullable<bool> IsOnboarded { get; set; }
         
+        /// <value>
+        /// This indicates if the log set feature is enabled for the tenancy
+        /// </value>
+        [JsonProperty(PropertyName = "isLogSetEnabled")]
+        public System.Nullable<bool> IsLogSetEnabled { get; set; }
+        
+        /// <value>
+        /// This indicates if data has ever been ingested for the tenancy in Logging Analytics
+        /// </value>
+        [JsonProperty(PropertyName = "isDataEverIngested")]
+        public System.Nullable<bool> IsDataEverIngested { get; set; }
+        
     }
 }

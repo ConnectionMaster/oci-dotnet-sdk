@@ -64,7 +64,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -80,7 +80,9 @@ namespace Oci.CoreService.Models
         public string DhcpOptionsId { get; set; }
         
         /// <value>
-        /// A user-friendly name. Does not have to be unique, and it's changeable. Avoid entering confidential information.
+        /// A user-friendly name. Does not have to be unique, and it's changeable.
+        /// Avoid entering confidential information.
+        /// 
         /// </value>
         [JsonProperty(PropertyName = "displayName")]
         public string DisplayName { get; set; }
@@ -97,7 +99,7 @@ namespace Oci.CoreService.Models
         /// was created with a DNS label.
         /// <br/>
         /// For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// <br/>
         /// Example: subnet123
         /// </value>
@@ -106,7 +108,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -118,12 +120,26 @@ namespace Oci.CoreService.Models
         /// You can't change this subnet characteristic later. All subnets are /64 in size. The subnet
         /// portion of the IPv6 address is the fourth hextet from the left (1111 in the following example).
         /// <br/>
-        /// For important details about IPv6 addressing in a VCN, see [IPv6 Addresses](https://docs.cloud.oracle.com/Content/Network/Concepts/ipv6.htm).
+        /// For important details about IPv6 addressing in a VCN, see [IPv6 Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
         /// <br/>
         /// Example: 2001:0db8:0123:1111::/64
         /// </value>
         [JsonProperty(PropertyName = "ipv6CidrBlock")]
         public string Ipv6CidrBlock { get; set; }
+        
+        /// <value>
+        /// Whether to disallow ingress internet traffic to VNICs within this subnet. Defaults to false.
+        /// <br/>
+        /// For IPv6, if `prohibitInternetIngress` is set to `true`, internet access is not allowed for any
+        /// IPv6s assigned to VNICs in the subnet. Otherwise, ingress internet traffic is allowed by default.
+        /// <br/>
+        /// `prohibitPublicIpOnVnic` will be set to the value of `prohibitInternetIngress` to dictate IPv4
+        /// behavior in this subnet. Only one or the other flag should be specified.
+        /// <br/>
+        /// Example: true
+        /// </value>
+        [JsonProperty(PropertyName = "prohibitInternetIngress")]
+        public System.Nullable<bool> ProhibitInternetIngress { get; set; }
         
         /// <value>
         /// Whether VNICs within this subnet can have public IP addresses.
@@ -135,8 +151,8 @@ namespace Oci.CoreService.Models
         /// subnet cannot have public IP addresses (that is, it's a private
         /// subnet).
         /// <br/>
-        /// For IPv6, if `prohibitPublicIpOnVnic` is set to `true`, internet access is not allowed for any
-        /// IPv6s assigned to VNICs in the subnet.
+        /// If you intend to use an IPv6 CIDR block, you should use the flag `prohibitInternetIngress` to
+        /// specify ingress internet traffic behavior of the subnet.
         /// <br/>
         /// Example: true
         /// </value>

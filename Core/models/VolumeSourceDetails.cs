@@ -15,7 +15,12 @@ using Newtonsoft.Json.Linq;
 
 namespace Oci.CoreService.Models
 {
-    
+    /// <summary>
+    /// Specifies the volume source details for a new Block volume. The volume source is either another Block volume in the same Availability Domain or a Block volume backup.
+    /// This is an optional field. If not specified or set to null, the new Block volume will be empty.
+    /// When specified, the new Block volume will contain data from the source volume or backup.
+    /// 
+    /// </summary>
     [JsonConverter(typeof(VolumeSourceDetailsModelConverter))]
     public class VolumeSourceDetails 
     {
@@ -43,6 +48,9 @@ namespace Oci.CoreService.Models
             var discriminator = jsonObject["type"].Value<string>();
             switch (discriminator)
             {
+                case "blockVolumeReplica":
+                    obj = new VolumeSourceFromBlockVolumeReplicaDetails();
+                    break;
                 case "volume":
                     obj = new VolumeSourceFromVolumeDetails();
                     break;

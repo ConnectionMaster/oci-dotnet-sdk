@@ -17,11 +17,11 @@ namespace Oci.CoreService.Models
 {
     /// <summary>
     /// A detachable boot volume device that contains the image used to boot a Compute instance. For more information, see
-    /// [Overview of Boot Volumes](https://docs.cloud.oracle.com/Content/Block/Concepts/bootvolumes.htm).
+    /// [Overview of Boot Volumes](https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/bootvolumes.htm).
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,
     /// talk to an administrator. If you're an administrator who needs to write policies to give users access, see
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/Content/Identity/Concepts/policygetstarted.htm).
+    /// [Getting Started with Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// <br/>
     /// **Warning:** Oracle recommends that you avoid using any confidential information when you
     /// supply string values using the API.
@@ -54,7 +54,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -78,7 +78,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -102,7 +102,9 @@ namespace Oci.CoreService.Models
         public string ImageId { get; set; }
         
         /// <value>
-        /// Specifies whether the boot volume's data has finished copying from the source boot volume or boot volume backup.
+        /// Specifies whether the boot volume's data has finished copying
+        /// from the source boot volume or boot volume backup.
+        /// 
         /// </value>
         [JsonProperty(PropertyName = "isHydrated")]
         public System.Nullable<bool> IsHydrated { get; set; }
@@ -110,7 +112,7 @@ namespace Oci.CoreService.Models
         /// <value>
         /// The number of volume performance units (VPUs) that will be applied to this boot volume per GB,
         /// representing the Block Volume service's elastic performance options.
-        /// See [Block Volume Elastic Performance](https://docs.cloud.oracle.com/Content/Block/Concepts/blockvolumeelasticperformance.htm) for more information.
+        /// See [Block Volume Elastic Performance](https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/blockvolumeelasticperformance.htm) for more information.
         /// <br/>
         /// Allowed values:
         /// <br/>
@@ -210,6 +212,12 @@ namespace Oci.CoreService.Models
         /// </value>
         [JsonProperty(PropertyName = "autoTunedVpusPerGB")]
         public System.Nullable<long> AutoTunedVpusPerGB { get; set; }
+        
+        /// <value>
+        /// The list of boot volume replicas of this boot volume
+        /// </value>
+        [JsonProperty(PropertyName = "bootVolumeReplicas")]
+        public System.Collections.Generic.List<BootVolumeReplicaInfo> BootVolumeReplicas { get; set; }
         
     }
 }

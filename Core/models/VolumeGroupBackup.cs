@@ -17,11 +17,11 @@ namespace Oci.CoreService.Models
 {
     /// <summary>
     /// A point-in-time copy of a volume group that can then be used to create a new volume group
-    /// or restore a volume group. For more information, see [Volume Groups](https://docs.cloud.oracle.com/Content/Block/Concepts/volumegroups.htm).
+    /// or restore a volume group. For more information, see [Volume Groups](https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/volumegroups.htm).
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,
     /// talk to an administrator. If you're an administrator who needs to write policies to give users access, see
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/Content/Identity/Concepts/policygetstarted.htm).
+    /// [Getting Started with Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// <br/>
     /// **Warning:** Oracle recommends that you avoid using any confidential information when you
     /// supply string values using the API.
@@ -42,7 +42,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -50,7 +50,9 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
         
         /// <value>
-        /// A user-friendly name for the volume group backup. Does not have to be unique and it's changeable. Avoid entering confidential information.
+        /// A user-friendly name for the volume group backup. Does not have
+        /// to be unique and it's changeable. Avoid entering confidential information.
+        /// 
         /// </value>
         /// <remarks>
         /// Required
@@ -72,7 +74,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -136,7 +138,9 @@ namespace Oci.CoreService.Models
         public System.Nullable<long> SizeInGBs { get; set; }
                 ///
         /// <value>
-        /// Specifies whether the volume group backup was created manually, or via scheduled backup policy.
+        /// Specifies whether the volume group backup was created manually, or via scheduled
+        /// backup policy.
+        /// 
         /// </value>
         ///
         public enum SourceTypeEnum {
@@ -147,7 +151,9 @@ namespace Oci.CoreService.Models
         };
 
         /// <value>
-        /// Specifies whether the volume group backup was created manually, or via scheduled backup policy.
+        /// Specifies whether the volume group backup was created manually, or via scheduled
+        /// backup policy.
+        /// 
         /// </value>
         [JsonProperty(PropertyName = "sourceType")]
         [JsonConverter(typeof(StringEnumConverter))]
@@ -195,18 +201,20 @@ namespace Oci.CoreService.Models
         public System.Nullable<TypeEnum> Type { get; set; }
         
         /// <value>
-        /// The aggregate size used by the volume group backup, in MBs. 
-        /// It is typically smaller than sizeInMBs, depending on the space
-        /// consumed on the volume group and whether the volume backup is full or incremental.
+        /// The aggregate size used by the volume group backup, in MBs.
+        /// <br/>
+        /// It is typically smaller than sizeInMBs, depending on the spaceconsumed
+        /// on the volume group and whether the volume backup is full or incremental.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "uniqueSizeInMbs")]
         public System.Nullable<long> UniqueSizeInMbs { get; set; }
         
         /// <value>
-        /// The aggregate size used by the volume group backup, in GBs. 
-        /// It is typically smaller than sizeInGBs, depending on the space
-        /// consumed on the volume group and whether the volume backup is full or incremental.
+        /// The aggregate size used by the volume group backup, in GBs.
+        /// <br/>
+        /// It is typically smaller than sizeInGBs, depending on the spaceconsumed
+        /// on the volume group and whether the volume backup is full or incremental.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "uniqueSizeInGbs")]

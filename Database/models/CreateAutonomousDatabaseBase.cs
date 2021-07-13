@@ -17,6 +17,8 @@ namespace Oci.DatabaseService.Models
 {
     /// <summary>
     /// Details to create an Oracle Autonomous Database.
+    /// Choose either Fractional ocpuCount or cpuCoreCount.
+    /// Choose either dataStorageSizeInGBs or dataStorageSizeInTBs
     /// <br/>
     /// **Warning:** Oracle recommends that you avoid using any confidential information when you supply string values using the API.
     /// 
@@ -48,12 +50,14 @@ namespace Oci.DatabaseService.Models
         /// <value>
         /// The number of OCPU cores to be made available to the database.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "CpuCoreCount is required.")]
         [JsonProperty(PropertyName = "cpuCoreCount")]
         public System.Nullable<int> CpuCoreCount { get; set; }
+        
+        /// <value>
+        /// The number of Fractional OCPU cores to be made available to the database.
+        /// </value>
+        [JsonProperty(PropertyName = "ocpuCount")]
+        public System.Nullable<float> OcpuCount { get; set; }
                 ///
         /// <value>
         /// The Autonomous Database workload type. The following values are valid:
@@ -97,11 +101,30 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<int> DataStorageSizeInTBs { get; set; }
         
         /// <value>
+        /// The size, in gigabytes, of the data volume that will be created and attached to the database. This storage can later be scaled up if needed.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "dataStorageSizeInGBs")]
+        public System.Nullable<int> DataStorageSizeInGBs { get; set; }
+        
+        /// <value>
         /// Indicates if this is an Always Free resource. The default value is false. Note that Always Free Autonomous Databases have 1 CPU and 20GB of memory. For Always Free databases, memory and CPU cannot be scaled.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isFreeTier")]
         public System.Nullable<bool> IsFreeTier { get; set; }
+        
+        /// <value>
+        /// The OCID of the key container that is used as the master encryption key in database transparent data encryption (TDE) operations.
+        /// </value>
+        [JsonProperty(PropertyName = "kmsKeyId")]
+        public string KmsKeyId { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Oracle Cloud Infrastructure [vault](https://docs.cloud.oracle.com/Content/KeyManagement/Concepts/keyoverview.htm#concepts).
+        /// </value>
+        [JsonProperty(PropertyName = "vaultId")]
+        public string VaultId { get; set; }
         
         /// <value>
         /// The password must be between 12 and 30 characters long, and must contain at least 1 uppercase, 1 lowercase, and 1 numeric character. It cannot contain the double quote symbol (\") or the username \"admin\", regardless of casing.
@@ -292,6 +315,12 @@ namespace Oci.DatabaseService.Models
             CloneToRefreshable
         };
 
+        
+        /// <value>
+        /// Customer Contacts.
+        /// </value>
+        [JsonProperty(PropertyName = "customerContacts")]
+        public System.Collections.Generic.List<CustomerContact> CustomerContacts { get; set; }
         
     }
 

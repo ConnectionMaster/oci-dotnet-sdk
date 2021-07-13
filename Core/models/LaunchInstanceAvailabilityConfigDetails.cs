@@ -16,11 +16,21 @@ using Newtonsoft.Json.Converters;
 namespace Oci.CoreService.Models
 {
     /// <summary>
-    /// Options for defining the availability of a VM instance after a maintenance event that impacts the underlying hardware.
+    /// Options for VM migration during infrastructure maintenance events and for defining 
+    /// the availability of a VM instance after a maintenance event that impacts the underlying hardware.
     /// 
     /// </summary>
     public class LaunchInstanceAvailabilityConfigDetails 
     {
+        
+        /// <value>
+        /// Whether to live migrate supported VM instances to a healthy physical VM host without
+        /// disrupting running instances during infrastructure maintenance events. If null, Oracle
+        /// chooses the best option for migrating the VM during infrastructure maintenance events.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isLiveMigrationPreferred")]
+        public System.Nullable<bool> IsLiveMigrationPreferred { get; set; }
                 ///
         /// <value>
         /// The lifecycle state for an instance when it is recovered after infrastructure maintenance.

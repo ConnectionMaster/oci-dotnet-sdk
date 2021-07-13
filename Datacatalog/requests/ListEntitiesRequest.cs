@@ -46,6 +46,27 @@ namespace Oci.DatacatalogService.Requests
         public string DisplayName { get; set; }
         
         /// <value>
+        /// A filter to return only resources that match the entire business name given. The match is not case sensitive.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "businessName")]
+        public string BusinessName { get; set; }
+        
+        /// <value>
+        /// A filter to return only resources that match display name or business name pattern given. The match is not case sensitive.
+        /// For Example : /folders?displayOrBusinessNameContains=Cu.*
+        /// The above would match all folders with display name or business name that starts with \"Cu\".
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "displayOrBusinessNameContains")]
+        public string DisplayOrBusinessNameContains { get; set; }
+        
+        /// <value>
+        /// The key of the object type.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "typeKey")]
+        public string TypeKey { get; set; }
+        
+        /// <value>
         /// A filter to return only resources that match display name pattern given. The match is not case sensitive.
         /// For Example : /folders?displayNameContains=Cu.*
         /// The above would match all folders with display name that starts with \"Cu\".
@@ -184,7 +205,7 @@ namespace Oci.DatacatalogService.Requests
         /// Specifies the fields to return in an entity summary response.
         /// 
         /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "fields")]
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "fields", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<FieldsEnum> Fields { get; set; }
         
         ///

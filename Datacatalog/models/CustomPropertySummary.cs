@@ -88,6 +88,12 @@ namespace Oci.DatacatalogService.Models
         public System.Nullable<bool> IsEditable { get; set; }
         
         /// <value>
+        /// If this field is displayed in a list view of applicable objects.
+        /// </value>
+        [JsonProperty(PropertyName = "isShownInList")]
+        public System.Nullable<bool> IsShownInList { get; set; }
+        
+        /// <value>
         /// If this field is defined by service or by a user
         /// </value>
         [JsonProperty(PropertyName = "isServiceDefined")]
@@ -131,6 +137,31 @@ namespace Oci.DatacatalogService.Models
         /// </value>
         [JsonProperty(PropertyName = "allowedValues")]
         public System.Collections.Generic.List<string> AllowedValues { get; set; }
+        
+        /// <value>
+        /// The last time that any change was made to the custom property. An [RFC3339](https://tools.ietf.org/html/rfc3339) formatted datetime string.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "timeUpdated")]
+        public System.Nullable<System.DateTime> TimeUpdated { get; set; }
+        
+        /// <value>
+        /// OCID of the user who created the custom property.
+        /// </value>
+        [JsonProperty(PropertyName = "createdById")]
+        public string CreatedById { get; set; }
+        
+        /// <value>
+        /// OCID of the user who last modified the custom property.
+        /// </value>
+        [JsonProperty(PropertyName = "updatedById")]
+        public string UpdatedById { get; set; }
+        
+        /// <value>
+        /// If an OCI Event will be emitted when the custom property is modified.
+        /// </value>
+        [JsonProperty(PropertyName = "isEventEnabled")]
+        public System.Nullable<bool> IsEventEnabled { get; set; }
         
     }
 }

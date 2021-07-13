@@ -34,6 +34,12 @@ namespace Oci.CoreService.Models
         public string AvailabilityDomain { get; set; }
         
         /// <value>
+        /// The OCID of the compute capacity reservation this instance is launched under.
+        /// </value>
+        [JsonProperty(PropertyName = "capacityReservationId")]
+        public string CapacityReservationId { get; set; }
+        
+        /// <value>
         /// The OCID of the compartment.
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
@@ -44,7 +50,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -76,7 +82,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -105,7 +111,7 @@ namespace Oci.CoreService.Models
         /// <br/>
         /// For more information about the Bring Your Own Image feature of
         /// Oracle Cloud Infrastructure, see
-        /// [Bring Your Own Image](https://docs.cloud.oracle.com/Content/Compute/References/bringyourownimage.htm).
+        /// [Bring Your Own Image](https://docs.cloud.oracle.com/iaas/Content/Compute/References/bringyourownimage.htm).
         /// <br/>
         /// For more information about iPXE, see http://ipxe.org.
         /// 
@@ -180,6 +186,9 @@ namespace Oci.CoreService.Models
         [JsonProperty(PropertyName = "shapeConfig")]
         public InstanceConfigurationLaunchInstanceShapeConfigDetails ShapeConfig { get; set; }
         
+        [JsonProperty(PropertyName = "platformConfig")]
+        public InstanceConfigurationLaunchInstancePlatformConfig PlatformConfig { get; set; }
+        
         [JsonProperty(PropertyName = "sourceDetails")]
         public InstanceConfigurationInstanceSourceDetails SourceDetails { get; set; }
         
@@ -214,7 +223,7 @@ namespace Oci.CoreService.Models
                 ///
         /// <value>
         /// Specifies the configuration mode for launching virtual machine (VM) instances. The configuration modes are:
-        /// * `NATIVE` - VM instances launch with iSCSI boot and VFIO devices. The default value for Oracle-provided images.
+        /// * `NATIVE` - VM instances launch with iSCSI boot and VFIO devices. The default value for platform images.
         /// * `EMULATED` - VM instances launch with emulated devices, such as the E1000 network driver and emulated SCSI disk controller.
         /// * `PARAVIRTUALIZED` - VM instances launch with paravirtualized devices using VirtIO drivers.
         /// * `CUSTOM` - VM instances launch with custom configuration settings specified in the `LaunchOptions` parameter.
@@ -234,7 +243,7 @@ namespace Oci.CoreService.Models
 
         /// <value>
         /// Specifies the configuration mode for launching virtual machine (VM) instances. The configuration modes are:
-        /// * `NATIVE` - VM instances launch with iSCSI boot and VFIO devices. The default value for Oracle-provided images.
+        /// * `NATIVE` - VM instances launch with iSCSI boot and VFIO devices. The default value for platform images.
         /// * `EMULATED` - VM instances launch with emulated devices, such as the E1000 network driver and emulated SCSI disk controller.
         /// * `PARAVIRTUALIZED` - VM instances launch with paravirtualized devices using VirtIO drivers.
         /// * `CUSTOM` - VM instances launch with custom configuration settings specified in the `LaunchOptions` parameter.
@@ -285,6 +294,9 @@ namespace Oci.CoreService.Models
         
         [JsonProperty(PropertyName = "availabilityConfig")]
         public InstanceConfigurationAvailabilityConfig AvailabilityConfig { get; set; }
+        
+        [JsonProperty(PropertyName = "preemptibleInstanceConfig")]
+        public PreemptibleInstanceConfigDetails PreemptibleInstanceConfig { get; set; }
         
     }
 }

@@ -32,7 +32,7 @@ namespace Oci.OpsiService.Requests
         ///
         /// <value>
         /// Filter by one or more database type.
-        /// Possible values are ADW-S, ATP-S, ADW-D, ATP-D
+        /// Possible values are ADW-S, ATP-S, ADW-D, ATP-D, EXTERNAL-PDB, EXTERNAL-NONCDB.
         /// 
         /// </value>
         ///
@@ -44,23 +44,41 @@ namespace Oci.OpsiService.Requests
             [EnumMember(Value = "ADW-D")]
             AdwD,
             [EnumMember(Value = "ATP-D")]
-            AtpD
+            AtpD,
+            [EnumMember(Value = "EXTERNAL-PDB")]
+            ExternalPdb,
+            [EnumMember(Value = "EXTERNAL-NONCDB")]
+            ExternalNoncdb
         };
 
         /// <value>
         /// Filter by one or more database type.
-        /// Possible values are ADW-S, ATP-S, ADW-D, ATP-D
+        /// Possible values are ADW-S, ATP-S, ADW-D, ATP-D, EXTERNAL-PDB, EXTERNAL-NONCDB.
         /// 
         /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "databaseType")]
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "databaseType", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<DatabaseTypeEnum> DatabaseType { get; set; }
         
         /// <value>
-        /// Optional list of database [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Optional list of database [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the associated DBaaS entity.
         /// 
         /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "databaseId")]
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "databaseId", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<string> DatabaseId { get; set; }
+        
+        /// <value>
+        /// Optional list of database insight resource [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database insight resource.
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "id", Oci.Common.Http.CollectionFormatType.Multi)]
+        public System.Collections.Generic.List<string> Id { get; set; }
+        
+        /// <value>
+        /// Filter by one or more hostname.
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "hostName", Oci.Common.Http.CollectionFormatType.Multi)]
+        public System.Collections.Generic.List<string> HostName { get; set; }
         
         /// <value>
         /// Filter sqls by percentage of db time.
@@ -73,7 +91,7 @@ namespace Oci.OpsiService.Requests
         /// One or more unique SQL_IDs for a SQL Statement.
         /// Example: 6rgjh9bjmy2s7
         /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "sqlIdentifier")]
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "sqlIdentifier", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<string> SqlIdentifier { get; set; }
         
         /// <value>
@@ -258,7 +276,7 @@ namespace Oci.OpsiService.Requests
         /// Filter sqls by one or more performance categories.
         /// 
         /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "category")]
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "category", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<CategoryEnum> Category { get; set; }
     }
 }

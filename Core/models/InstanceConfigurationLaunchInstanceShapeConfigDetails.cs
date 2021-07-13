@@ -23,11 +23,8 @@ namespace Oci.CoreService.Models
     /// the entire parameter is not provided, the instance is created with the default
     /// configuration values for the `shape` that you specify.
     /// <br/>
-    /// Each shape only supports certain configurable values. If the values that you provid are not valid for the
+    /// Each shape only supports certain configurable values. If the values that you provide are not valid for the
     /// specified `shape`, an error is returned.
-    /// <br/>
-    /// For more information about customizing the resources that are allocated to a flexible shapes, see
-    /// [Flexible Shapes](https://docs.cloud.oracle.com/Content/Compute/References/computeshapes.htm#flexible).
     /// 
     /// </summary>
     public class InstanceConfigurationLaunchInstanceShapeConfigDetails 
@@ -46,6 +43,40 @@ namespace Oci.CoreService.Models
         /// </value>
         [JsonProperty(PropertyName = "memoryInGBs")]
         public System.Nullable<float> MemoryInGBs { get; set; }
+                ///
+        /// <value>
+        /// The baseline OCPU utilization for a subcore burstable VM instance. Leave this attribute blank for a
+        /// non-burstable instance, or explicitly specify non-burstable with `BASELINE_1_1`.
+        /// <br/>
+        /// The following values are supported:
+        /// - `BASELINE_1_8` - baseline usage is 1/8 of an OCPU.
+        /// - `BASELINE_1_2` - baseline usage is 1/2 of an OCPU.
+        /// - `BASELINE_1_1` - baseline usage is an entire OCPU. This represents a non-burstable instance.
+        /// 
+        /// </value>
+        ///
+        public enum BaselineOcpuUtilizationEnum {
+            [EnumMember(Value = "BASELINE_1_8")]
+            Baseline18,
+            [EnumMember(Value = "BASELINE_1_2")]
+            Baseline12,
+            [EnumMember(Value = "BASELINE_1_1")]
+            Baseline11
+        };
+
+        /// <value>
+        /// The baseline OCPU utilization for a subcore burstable VM instance. Leave this attribute blank for a
+        /// non-burstable instance, or explicitly specify non-burstable with `BASELINE_1_1`.
+        /// <br/>
+        /// The following values are supported:
+        /// - `BASELINE_1_8` - baseline usage is 1/8 of an OCPU.
+        /// - `BASELINE_1_2` - baseline usage is 1/2 of an OCPU.
+        /// - `BASELINE_1_1` - baseline usage is an entire OCPU. This represents a non-burstable instance.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "baselineOcpuUtilization")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<BaselineOcpuUtilizationEnum> BaselineOcpuUtilization { get; set; }
         
     }
 }

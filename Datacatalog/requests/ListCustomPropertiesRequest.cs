@@ -58,7 +58,7 @@ namespace Oci.DatacatalogService.Requests
         /// Return the custom properties which has specified data types
         /// 
         /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "dataTypes")]
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "dataTypes", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<CustomPropertyDataType> DataTypes { get; set; }
         
         ///
@@ -103,6 +103,32 @@ namespace Oci.DatacatalogService.Requests
             Attribute,
             [EnumMember(Value = "FOLDER")]
             Folder,
+            [EnumMember(Value = "ORACLE_ANALYTICS_SERVER")]
+            OracleAnalyticsServer,
+            [EnumMember(Value = "ORACLE_ANALYTICS_CLOUD")]
+            OracleAnalyticsCloud,
+            [EnumMember(Value = "ORACLE_ANALYTICS_SUBJECT_AREA")]
+            OracleAnalyticsSubjectArea,
+            [EnumMember(Value = "ORACLE_ANALYTICS_DASHBOARD")]
+            OracleAnalyticsDashboard,
+            [EnumMember(Value = "ORACLE_ANALYTICS_BUSINESS_MODEL")]
+            OracleAnalyticsBusinessModel,
+            [EnumMember(Value = "ORACLE_ANALYTICS_PHYSICAL_DATABASE")]
+            OracleAnalyticsPhysicalDatabase,
+            [EnumMember(Value = "ORACLE_ANALYTICS_PHYSICAL_SCHEMA")]
+            OracleAnalyticsPhysicalSchema,
+            [EnumMember(Value = "ORACLE_ANALYTICS_PRESENTATION_TABLE")]
+            OracleAnalyticsPresentationTable,
+            [EnumMember(Value = "ORACLE_ANALYTICS_LOGICAL_TABLE")]
+            OracleAnalyticsLogicalTable,
+            [EnumMember(Value = "ORACLE_ANALYTICS_PHYSICAL_TABLE")]
+            OracleAnalyticsPhysicalTable,
+            [EnumMember(Value = "ORACLE_ANALYTICS_ANALYSIS")]
+            OracleAnalyticsAnalysis,
+            [EnumMember(Value = "DATABASE_SCHEMA")]
+            DatabaseSchema,
+            [EnumMember(Value = "TOPIC")]
+            Topic,
             [EnumMember(Value = "CONNECTION")]
             Connection,
             [EnumMember(Value = "GLOSSARY")]
@@ -124,7 +150,7 @@ namespace Oci.DatacatalogService.Requests
         /// <value>
         /// A filter to return only resources that match the entire type name given. The match is not case sensitive
         /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "typeName")]
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "typeName", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<TypeNameEnum> TypeName { get; set; }
         
         /// <value>
@@ -184,7 +210,7 @@ namespace Oci.DatacatalogService.Requests
         /// Specifies the fields to return in a custom property summary response.
         /// 
         /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "fields")]
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "fields", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<FieldsEnum> Fields { get; set; }
         
         ///

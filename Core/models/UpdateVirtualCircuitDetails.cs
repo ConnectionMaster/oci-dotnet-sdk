@@ -40,6 +40,28 @@ namespace Oci.CoreService.Models
         /// </value>
         [JsonProperty(PropertyName = "crossConnectMappings")]
         public System.Collections.Generic.List<CrossConnectMapping> CrossConnectMappings { get; set; }
+                ///
+        ///
+        public enum RoutingPolicyEnum {
+            [EnumMember(Value = "ORACLE_SERVICE_NETWORK")]
+            OracleServiceNetwork,
+            [EnumMember(Value = "REGIONAL")]
+            Regional,
+            [EnumMember(Value = "MARKET_LEVEL")]
+            MarketLevel,
+            [EnumMember(Value = "GLOBAL")]
+            Global
+        };
+
+        /// <value>
+        /// The routing policy sets how routing information about the Oracle cloud is shared over a public virtual circuit.
+        /// Policies available are: `ORACLE_SERVICE_NETWORK`, `REGIONAL`, `MARKET_LEVEL`, and `GLOBAL`.
+        /// See [Route Filtering](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/routingonprem.htm#route_filtering) for details.
+        /// By default, routing information is shared for all routes in the same market.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "routingPolicy", ItemConverterType = typeof(StringEnumConverter))]
+        public System.Collections.Generic.List<RoutingPolicyEnum> RoutingPolicy { get; set; }
         
         /// <value>
         /// Deprecated. Instead use `customerAsn`.
@@ -69,7 +91,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -88,7 +110,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -107,7 +129,7 @@ namespace Oci.CoreService.Models
                 ///
         /// <value>
         /// The provider's state in relation to this virtual circuit. Relevant only
-        /// if the customer is using FastConnect via a provider.  ACTIVE
+        /// if the customer is using FastConnect via a provider. ACTIVE
         /// means the provider has provisioned the virtual circuit from their
         /// end. INACTIVE means the provider has not yet provisioned the virtual
         /// circuit, or has de-provisioned it.
@@ -125,7 +147,7 @@ namespace Oci.CoreService.Models
 
         /// <value>
         /// The provider's state in relation to this virtual circuit. Relevant only
-        /// if the customer is using FastConnect via a provider.  ACTIVE
+        /// if the customer is using FastConnect via a provider. ACTIVE
         /// means the provider has provisioned the virtual circuit from their
         /// end. INACTIVE means the provider has not yet provisioned the virtual
         /// circuit, or has de-provisioned it.

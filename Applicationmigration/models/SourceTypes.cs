@@ -19,6 +19,12 @@ namespace Oci.ApplicationmigrationService.Models
       [EnumMember(Value = "OCIC")]
       Ocic,
       [EnumMember(Value = "INTERNAL_COMPUTE")]
-      InternalCompute
+      InternalCompute,
+      [EnumMember(Value = "OCC")]
+      Occ,
+      [EnumMember(Value = "OCIC_IDCS")]
+      OcicIdcs,
+      [EnumMember(Value = "IMPORT")]
+      Import
   }
 }

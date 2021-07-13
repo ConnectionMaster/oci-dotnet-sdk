@@ -42,20 +42,26 @@ namespace Oci.OpsiService.Models
         public System.Nullable<System.DateTime> TimeIntervalEnd { get; set; }
                 ///
         /// <value>
-        /// Defines the type of resource metric (CPU, STORAGE)
-        /// 
+        /// Defines the type of resource metric (Example: CPU, STORAGE)
         /// </value>
         ///
         public enum ResourceMetricEnum {
             [EnumMember(Value = "CPU")]
             Cpu,
             [EnumMember(Value = "STORAGE")]
-            Storage
+            Storage,
+            [EnumMember(Value = "IO")]
+            Io,
+            [EnumMember(Value = "MEMORY")]
+            Memory,
+            [EnumMember(Value = "MEMORY_PGA")]
+            MemoryPga,
+            [EnumMember(Value = "MEMORY_SGA")]
+            MemorySga
         };
 
         /// <value>
-        /// Defines the type of resource metric (CPU, STORAGE)
-        /// 
+        /// Defines the type of resource metric (Example: CPU, STORAGE)
         /// </value>
         /// <remarks>
         /// Required
@@ -110,6 +116,16 @@ namespace Oci.OpsiService.Models
         [JsonProperty(PropertyName = "pattern")]
         [JsonConverter(typeof(StringEnumConverter))]
         public System.Nullable<PatternEnum> Pattern { get; set; }
+        
+        /// <value>
+        /// The name of tablespace.
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "TablespaceName is required.")]
+        [JsonProperty(PropertyName = "tablespaceName")]
+        public string TablespaceName { get; set; }
         
         /// <value>
         /// Time series data used for the forecast analysis.

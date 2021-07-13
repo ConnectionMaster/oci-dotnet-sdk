@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabaseService.Models
 {
     /// <summary>
-    /// A maintenance update for a cloud VM cluster. Applies to Exadata Cloud Service instances only. 
+    /// A maintenance update for a cloud VM cluster. Applies to Exadata Cloud Service instances only.
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,
     /// talk to an administrator. If you're an administrator who needs to write policies to give users access,
@@ -56,7 +56,9 @@ namespace Oci.DatabaseService.Models
             [EnumMember(Value = "NON_ROLLING_APPLY")]
             NonRollingApply,
             [EnumMember(Value = "PRECHECK")]
-            Precheck
+            Precheck,
+            [EnumMember(Value = "ROLLBACK")]
+            Rollback
         };
 
         /// <value>
@@ -76,7 +78,9 @@ namespace Oci.DatabaseService.Models
             [EnumMember(Value = "NON_ROLLING_APPLY")]
             NonRollingApply,
             [EnumMember(Value = "PRECHECK")]
-            Precheck
+            Precheck,
+            [EnumMember(Value = "ROLLBACK")]
+            Rollback
         };
 
         /// <value>
@@ -93,7 +97,9 @@ namespace Oci.DatabaseService.Models
             [EnumMember(Value = "GI_UPGRADE")]
             GiUpgrade,
             [EnumMember(Value = "GI_PATCH")]
-            GiPatch
+            GiPatch,
+            [EnumMember(Value = "OS_UPDATE")]
+            OsUpdate
         };
 
         /// <value>

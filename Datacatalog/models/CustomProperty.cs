@@ -94,6 +94,12 @@ namespace Oci.DatacatalogService.Models
         public System.Nullable<bool> IsEditable { get; set; }
         
         /// <value>
+        /// If this field is displayed in a list view of applicable objects.
+        /// </value>
+        [JsonProperty(PropertyName = "isShownInList")]
+        public System.Nullable<bool> IsShownInList { get; set; }
+        
+        /// <value>
         /// If this field is defined by service or by a user
         /// </value>
         [JsonProperty(PropertyName = "isServiceDefined")]
@@ -143,6 +149,12 @@ namespace Oci.DatacatalogService.Models
         /// </value>
         [JsonProperty(PropertyName = "usageCount")]
         public System.Nullable<int> UsageCount { get; set; }
+        
+        /// <value>
+        /// If an OCI Event will be emitted when the custom property is modified.
+        /// </value>
+        [JsonProperty(PropertyName = "isEventEnabled")]
+        public System.Nullable<bool> IsEventEnabled { get; set; }
         
         /// <value>
         /// Type or scope of the custom property belongs to. This will be an array of type id it will be belongs to

@@ -29,7 +29,7 @@ namespace Oci.CoreService.Models
         /// <value>
         /// The list of one or more IPv4 CIDR blocks for the VCN that meet the following criteria:
         /// - The CIDR blocks must be valid.
-        /// - They must not overlap with each other or with the on-premises network CIDR block. 
+        /// - They must not overlap with each other or with the on-premises network CIDR block.
         /// - The number of CIDR blocks must not exceed the limit of CIDR blocks allowed per VCN.
         /// <br/>
         /// **Important:** Do *not* specify a value for `cidrBlock`. Use this parameter instead.
@@ -49,33 +49,8 @@ namespace Oci.CoreService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// If you enable IPv6 for the VCN (see `isIpv6Enabled`), you may optionally provide an IPv6
-        /// /48 CIDR block from the supported ranges (see [IPv6 Addresses](https://docs.cloud.oracle.com/Content/Network/Concepts/ipv6.htm).
-        /// The addresses in this block will be considered private and cannot be accessed
-        /// from the internet. The documentation refers to this as a *custom CIDR* for the VCN.
-        /// <br/>
-        /// If you don't provide a custom CIDR for the VCN, Oracle assigns the VCN's IPv6 /48 CIDR block.
-        /// <br/>
-        /// Regardless of whether you or Oracle assigns the `ipv6CidrBlock`,
-        /// Oracle *also* assigns the VCN an IPv6 CIDR block for the VCN's public IP address space
-        /// (see the `ipv6PublicCidrBlock` of the {@link Vcn} object). If you do
-        /// not assign a custom CIDR, Oracle uses the *same* Oracle-assigned CIDR for both the private
-        /// IP address space (`ipv6CidrBlock` in the `Vcn` object) and the public IP addreses space
-        /// (`ipv6PublicCidrBlock` in the `Vcn` object). This means that a given VNIC might use the same
-        /// IPv6 IP address for both private and public (internet) communication. You control whether
-        /// an IPv6 address can be used for internet communication by using the `isInternetAccessAllowed`
-        /// attribute in the {@link Ipv6} object.
-        /// <br/>
-        /// For important details about IPv6 addressing in a VCN, see [IPv6 Addresses](https://docs.cloud.oracle.com/Content/Network/Concepts/ipv6.htm).
-        /// <br/>
-        /// Example: 2001:0db8:0123::/48
-        /// </value>
-        [JsonProperty(PropertyName = "ipv6CidrBlock")]
-        public string Ipv6CidrBlock { get; set; }
-        
-        /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -83,7 +58,9 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
         
         /// <value>
-        /// A user-friendly name. Does not have to be unique, and it's changeable. Avoid entering confidential information.
+        /// A user-friendly name. Does not have to be unique, and it's changeable.
+        /// Avoid entering confidential information.
+        /// 
         /// </value>
         [JsonProperty(PropertyName = "displayName")]
         public string DisplayName { get; set; }
@@ -101,7 +78,7 @@ namespace Oci.CoreService.Models
         /// will not work.
         /// <br/>
         /// For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// <br/>
         /// Example: vcn1
         /// </value>
@@ -110,7 +87,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -118,8 +95,9 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
         
         /// <value>
-        /// Whether IPv6 is enabled for the VCN. Default is `false`. You cannot change this later.
-        /// For important details about IPv6 addressing in a VCN, see [IPv6 Addresses](https://docs.cloud.oracle.com/Content/Network/Concepts/ipv6.htm).
+        /// Whether IPv6 is enabled for the VCN. Default is `false`.
+        /// If enabled, Oracle will assign the VCN a IPv6 /56 CIDR block.
+        /// For important details about IPv6 addressing in a VCN, see [IPv6 Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
         /// <br/>
         /// Example: true
         /// </value>

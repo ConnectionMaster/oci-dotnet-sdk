@@ -22,7 +22,7 @@ namespace Oci.UsageapiService.Models
     {
         
         /// <value>
-        /// Tenant ID
+        /// Tenant ID.
         /// </value>
         /// <remarks>
         /// Required
@@ -86,11 +86,23 @@ namespace Oci.UsageapiService.Models
         [JsonProperty(PropertyName = "granularity")]
         [JsonConverter(typeof(StringEnumConverter))]
         public System.Nullable<GranularityEnum> Granularity { get; set; }
+        
+        /// <value>
+        /// Whether aggregated by time. If isAggregateByTime is true, all usage/cost over the query time period will be added up.
+        /// </value>
+        [JsonProperty(PropertyName = "isAggregateByTime")]
+        public System.Nullable<bool> IsAggregateByTime { get; set; }
+        
+        [JsonProperty(PropertyName = "forecast")]
+        public Forecast Forecast { get; set; }
                 ///
         /// <value>
-        /// The query usage type.
+        /// The query usage type. COST by default if it is missing.
         /// Usage - Query the usage data.
         /// Cost - Query the cost/billing data.
+        /// Credit - Query the credit adjustments data.
+        /// ExpiredCredit - Query the expired credits data.
+        /// AllCredit - Query the credit adjustments and expired credit.
         /// 
         /// </value>
         ///
@@ -98,13 +110,22 @@ namespace Oci.UsageapiService.Models
             [EnumMember(Value = "USAGE")]
             Usage,
             [EnumMember(Value = "COST")]
-            Cost
+            Cost,
+            [EnumMember(Value = "CREDIT")]
+            Credit,
+            [EnumMember(Value = "EXPIREDCREDIT")]
+            Expiredcredit,
+            [EnumMember(Value = "ALLCREDIT")]
+            Allcredit
         };
 
         /// <value>
-        /// The query usage type.
+        /// The query usage type. COST by default if it is missing.
         /// Usage - Query the usage data.
         /// Cost - Query the cost/billing data.
+        /// Credit - Query the credit adjustments data.
+        /// ExpiredCredit - Query the expired credits data.
+        /// AllCredit - Query the credit adjustments and expired credit.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "queryType")]
@@ -113,10 +134,17 @@ namespace Oci.UsageapiService.Models
         
         /// <value>
         /// Aggregate the result by.
-        /// Example:   [&quot;service&quot;]
+        /// Example:   [&quot;tagNamespace&quot;, &quot;tagKey&quot;, &quot;tagValue&quot;, &quot;service&quot;, &quot;skuName&quot;, &quot;skuPartNumber&quot;, &quot;unit&quot;,    &quot;compartmentName&quot;, &quot;compartmentPath&quot;, &quot;compartmentId&quot;, &quot;platform&quot;, &quot;region&quot;, &quot;logicalAd&quot;,    &quot;resourceId&quot;, &quot;tenantId&quot;, &quot;tenantName&quot;]
         /// </value>
         [JsonProperty(PropertyName = "groupBy")]
         public System.Collections.Generic.List<string> GroupBy { get; set; }
+        
+        /// <value>
+        /// GroupBy a specific tagKey. Provide the tagNamespace and tagKey in the tag object. Only supports one tag in the list.
+        /// For Example:   [{&quot;namespace&quot;:&quot;oracle&quot;, &quot;key&quot;:&quot;createdBy&quot;]
+        /// </value>
+        [JsonProperty(PropertyName = "groupByTag")]
+        public System.Collections.Generic.List<Tag> GroupByTag { get; set; }
         
         /// <value>
         /// The compartment depth level.

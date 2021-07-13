@@ -105,8 +105,8 @@ namespace Oci.CoreService.Models
         /// <br/>
         /// There's one exception: for a public virtual circuit, Oracle specifies the BGP IPv6 addresses.
         /// <br/>
-        /// Note that IPv6 addressing is currently supported only in certain regions. See
-        /// [IPv6 Addresses](https://docs.cloud.oracle.com/Content/Network/Concepts/ipv6.htm).
+        /// IPv6 addressing is supported for all commercial and government regions. See
+        /// [IPv6 Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
         /// <br/>
         /// Example: 2001:db8::1/64
         /// </value>
@@ -114,7 +114,7 @@ namespace Oci.CoreService.Models
         public string CustomerBgpPeeringIpv6 { get; set; }
         
         /// <value>
-        /// The IPv6 address for Oracle's end of the BGP session.  Only subnet masks from /64 up to /127 are allowed.
+        /// The IPv6 address for Oracle's end of the BGP session. Only subnet masks from /64 up to /127 are allowed.
         /// If the session goes from Oracle to a customer's edge router,
         /// the customer specifies this information. If the session goes from Oracle to
         /// a provider's edge router, the provider specifies this.
@@ -122,7 +122,7 @@ namespace Oci.CoreService.Models
         /// There's one exception: for a public virtual circuit, Oracle specifies the BGP IPv6 addresses.
         /// <br/>
         /// Note that IPv6 addressing is currently supported only in certain regions. See
-        /// [IPv6 Addresses](https://docs.cloud.oracle.com/Content/Network/Concepts/ipv6.htm).
+        /// [IPv6 Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
         /// <br/>
         /// Example: 2001:db8::2/64
         /// </value>

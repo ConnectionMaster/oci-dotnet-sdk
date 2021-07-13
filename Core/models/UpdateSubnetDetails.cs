@@ -21,7 +21,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -45,7 +45,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -78,6 +78,20 @@ namespace Oci.CoreService.Models
         /// </value>
         [JsonProperty(PropertyName = "cidrBlock")]
         public string CidrBlock { get; set; }
+        
+        /// <value>
+        /// This is the IPv6 CIDR block for the subnet's IP address space.
+        /// The subnet size is always /64.
+        /// See [IPv6 Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
+        /// The provided CIDR must maintain the following rules -
+        /// <br/>
+        /// a. The IPv6 CIDR block is valid and correctly formatted.
+        /// b. The IPv6 CIDR is within the parent VCN IPv6 range.
+        /// <br/>
+        /// Example: 2001:0db8:0123:1111::/64
+        /// </value>
+        [JsonProperty(PropertyName = "ipv6CidrBlock")]
+        public string Ipv6CidrBlock { get; set; }
         
     }
 }

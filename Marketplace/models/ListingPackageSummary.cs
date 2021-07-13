@@ -40,6 +40,9 @@ namespace Oci.MarketplaceService.Models
         [JsonConverter(typeof(StringEnumConverter))]
         public System.Nullable<PackageTypeEnum> PackageType { get; set; }
         
+        [JsonProperty(PropertyName = "pricing")]
+        public PricingModel Pricing { get; set; }
+        
         /// <value>
         /// The regions where you can deploy the listing package. (Some packages have restrictions that limit their deployment to United States regions only.)
         /// 
@@ -54,7 +57,7 @@ namespace Oci.MarketplaceService.Models
         public string ResourceId { get; set; }
         
         /// <value>
-        /// The date and time this listing package was created, expressed in [RFC 3339](https://tools.ietf.org/html/rfc3339) 
+        /// The date and time this listing package was created, expressed in [RFC 3339](https://tools.ietf.org/html/rfc3339)
         /// timestamp format.
         /// <br/>
         /// Example: 2016-08-25T21:10:29.600Z

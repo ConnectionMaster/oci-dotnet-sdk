@@ -61,8 +61,14 @@ namespace Oci.ResourcemanagerService.Models
                 case "GIT_CONFIG_SOURCE":
                     obj = new CreateGitConfigSourceDetails();
                     break;
+                case "OBJECT_STORAGE_CONFIG_SOURCE":
+                    obj = new CreateObjectStorageConfigSourceDetails();
+                    break;
                 case "COMPARTMENT_CONFIG_SOURCE":
                     obj = new CreateCompartmentConfigSourceDetails();
+                    break;
+                case "TEMPLATE_CONFIG_SOURCE":
+                    obj = new CreateStackTemplateConfigSourceDetails();
                     break;
             }
             serializer.Populate(jsonObject.CreateReader(), obj);

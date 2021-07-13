@@ -22,7 +22,7 @@ namespace Oci.MarketplaceService.Requests
         /// <value>
         /// The name of the listing.
         /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "name")]
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "name", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<string> Name { get; set; }
         
         /// <value>
@@ -110,7 +110,7 @@ namespace Oci.MarketplaceService.Requests
         /// one or more matching categories.
         /// 
         /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "category")]
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "category", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<string> Category { get; set; }
         
         /// <value>
@@ -118,7 +118,7 @@ namespace Oci.MarketplaceService.Requests
         /// one or more matching pricing models will be returned.
         /// 
         /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "pricing")]
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "pricing", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<PricingTypeEnum> Pricing { get; set; }
         
         /// <value>
@@ -127,6 +127,18 @@ namespace Oci.MarketplaceService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "isFeatured")]
         public System.Nullable<bool> IsFeatured { get; set; }
+        
+        /// <value>
+        /// The type of the listing.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "listingTypes", Oci.Common.Http.CollectionFormatType.Multi)]
+        public System.Collections.Generic.List<ListingType> ListingTypes { get; set; }
+        
+        /// <value>
+        /// The operating system of the listing.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "operatingSystems", Oci.Common.Http.CollectionFormatType.Multi)]
+        public System.Collections.Generic.List<string> OperatingSystems { get; set; }
         
         /// <value>
         /// The unique identifier for the compartment.

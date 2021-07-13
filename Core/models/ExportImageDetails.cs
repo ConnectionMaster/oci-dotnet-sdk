@@ -31,6 +31,50 @@ namespace Oci.CoreService.Models
     public class ExportImageDetails 
     {
         
+                ///
+        /// <value>
+        /// The format to export the image to. The default value is `OCI`.
+        /// <br/>
+        /// The following image formats are available:
+        /// <br/>
+        /// - `OCI` - Oracle Cloud Infrastructure file with a QCOW2 image and Oracle Cloud Infrastructure metadata (.oci).
+        /// Use this format to export a custom image that you want to import into other tenancies or regions.
+        /// - `QCOW2` - QEMU Copy On Write (.qcow2)
+        /// - `VDI` - Virtual Disk Image (.vdi) for Oracle VM VirtualBox
+        /// - `VHD` - Virtual Hard Disk (.vhd) for Hyper-V
+        /// - `VMDK` - Virtual Machine Disk (.vmdk)
+        /// 
+        /// </value>
+        ///
+        public enum ExportFormatEnum {
+            [EnumMember(Value = "QCOW2")]
+            Qcow2,
+            [EnumMember(Value = "VMDK")]
+            Vmdk,
+            [EnumMember(Value = "OCI")]
+            Oci,
+            [EnumMember(Value = "VHD")]
+            Vhd,
+            [EnumMember(Value = "VDI")]
+            Vdi
+        };
+
+        /// <value>
+        /// The format to export the image to. The default value is `OCI`.
+        /// <br/>
+        /// The following image formats are available:
+        /// <br/>
+        /// - `OCI` - Oracle Cloud Infrastructure file with a QCOW2 image and Oracle Cloud Infrastructure metadata (.oci).
+        /// Use this format to export a custom image that you want to import into other tenancies or regions.
+        /// - `QCOW2` - QEMU Copy On Write (.qcow2)
+        /// - `VDI` - Virtual Disk Image (.vdi) for Oracle VM VirtualBox
+        /// - `VHD` - Virtual Hard Disk (.vhd) for Hyper-V
+        /// - `VMDK` - Virtual Machine Disk (.vmdk)
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "exportFormat")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<ExportFormatEnum> ExportFormat { get; set; }
         
     }
 

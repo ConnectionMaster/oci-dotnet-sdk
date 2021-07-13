@@ -31,11 +31,24 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<int> CpuCoreCount { get; set; }
         
         /// <value>
+        /// The number of Fractional OCPU cores to be made available to the database.
+        /// </value>
+        [JsonProperty(PropertyName = "ocpuCount")]
+        public System.Nullable<float> OcpuCount { get; set; }
+        
+        /// <value>
         /// The size, in terabytes, of the data volume that will be attached to the database.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "dataStorageSizeInTBs")]
         public System.Nullable<int> DataStorageSizeInTBs { get; set; }
+        
+        /// <value>
+        /// The size, in gigabytes, of the data volume that will be attached to the database.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "dataStorageSizeInGBs")]
+        public System.Nullable<int> DataStorageSizeInGBs { get; set; }
         
         /// <value>
         /// The user-friendly name for the Autonomous Database. The name does not have to be unique. Can only be updated for Autonomous Databases
@@ -221,6 +234,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Indicates whether the Autonomous Database has Data Guard enabled.
+        /// 
         /// </value>
         [JsonProperty(PropertyName = "isDataGuardEnabled")]
         public System.Nullable<bool> IsDataGuardEnabled { get; set; }
@@ -297,6 +311,12 @@ namespace Oci.DatabaseService.Models
         /// </value>
         [JsonProperty(PropertyName = "nsgIds")]
         public System.Collections.Generic.List<string> NsgIds { get; set; }
+        
+        /// <value>
+        /// Customer Contacts. Setting this to an empty list removes all customer contacts of an Oracle Autonomous Database.
+        /// </value>
+        [JsonProperty(PropertyName = "customerContacts")]
+        public System.Collections.Generic.List<CustomerContact> CustomerContacts { get; set; }
         
     }
 }

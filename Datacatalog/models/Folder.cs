@@ -44,6 +44,12 @@ namespace Oci.DatacatalogService.Models
         public string DisplayName { get; set; }
         
         /// <value>
+        /// Optional user friendly business name of the folder. If set, this supplements the harvested display name of the object.
+        /// </value>
+        [JsonProperty(PropertyName = "businessName")]
+        public string BusinessName { get; set; }
+        
+        /// <value>
         /// Detailed description of a folder.
         /// </value>
         [JsonProperty(PropertyName = "description")]
@@ -54,6 +60,25 @@ namespace Oci.DatacatalogService.Models
         /// </value>
         [JsonProperty(PropertyName = "parentFolderKey")]
         public string ParentFolderKey { get; set; }
+        
+        /// <value>
+        /// The type of folder object. Type keys can be found via the '/types' endpoint.
+        /// </value>
+        [JsonProperty(PropertyName = "typeKey")]
+        public string TypeKey { get; set; }
+        
+        /// <value>
+        /// The date and time the folder was harvested, in the format defined by [RFC3339](https://tools.ietf.org/html/rfc3339).
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "timeHarvested")]
+        public System.Nullable<System.DateTime> TimeHarvested { get; set; }
+        
+        /// <value>
+        /// List of objects and their relationships to this folder.
+        /// </value>
+        [JsonProperty(PropertyName = "objectRelationships")]
+        public System.Collections.Generic.List<ObjectRelationship> ObjectRelationships { get; set; }
         
         /// <value>
         /// Full path of the folder.

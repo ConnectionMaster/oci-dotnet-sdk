@@ -22,7 +22,7 @@ namespace Oci.CoreService.Models
     /// network connections to provide a single, logical connection between the edge router
     /// on the customer's existing network and Oracle Cloud Infrastructure. *Private*
     /// virtual circuits support private peering, and *public* virtual circuits support
-    /// public peering. For more information, see [FastConnect Overview](https://docs.cloud.oracle.com/Content/Network/Concepts/fastconnect.htm).
+    /// public peering. For more information, see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
     /// <br/>
     /// Each virtual circuit is made up of information shared between a customer, Oracle,
     /// and a provider (if the customer is using FastConnect via a provider). Who fills in
@@ -34,17 +34,14 @@ namespace Oci.CoreService.Models
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,
     /// talk to an administrator. If you're an administrator who needs to write policies to give users access, see
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/Content/Identity/Concepts/policygetstarted.htm).
-    /// <br/>
-    /// **Warning:** Oracle recommends that you avoid using any confidential information when you
-    /// supply string values using the API.
+    /// [Getting Started with Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// 
     /// </summary>
     public class VirtualCircuit 
     {
         
         /// <value>
-        /// The provisioned data rate of the connection.  To get a list of the
+        /// The provisioned data rate of the connection. To get a list of the
         /// available bandwidth levels (that is, shapes), see
         /// {@link #listFastConnectProviderVirtualCircuitBandwidthShapes(ListFastConnectProviderVirtualCircuitBandwidthShapesRequest) listFastConnectProviderVirtualCircuitBandwidthShapes}.
         /// <br/>
@@ -78,7 +75,7 @@ namespace Oci.CoreService.Models
         public System.Nullable<BgpManagementEnum> BgpManagement { get; set; }
                 ///
         /// <value>
-        /// The state of the BGP session associated with the virtual circuit.
+        /// The state of the Ipv4 BGP session associated with the virtual circuit.
         /// </value>
         ///
         public enum BgpSessionStateEnum {
@@ -89,11 +86,29 @@ namespace Oci.CoreService.Models
         };
 
         /// <value>
-        /// The state of the BGP session associated with the virtual circuit.
+        /// The state of the Ipv4 BGP session associated with the virtual circuit.
         /// </value>
         [JsonProperty(PropertyName = "bgpSessionState")]
         [JsonConverter(typeof(StringEnumConverter))]
         public System.Nullable<BgpSessionStateEnum> BgpSessionState { get; set; }
+                ///
+        /// <value>
+        /// The state of the Ipv6 BGP session associated with the virtual circuit.
+        /// </value>
+        ///
+        public enum BgpIpv6SessionStateEnum {
+            [EnumMember(Value = "UP")]
+            Up,
+            [EnumMember(Value = "DOWN")]
+            Down
+        };
+
+        /// <value>
+        /// The state of the Ipv6 BGP session associated with the virtual circuit.
+        /// </value>
+        [JsonProperty(PropertyName = "bgpIpv6SessionState")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<BgpIpv6SessionStateEnum> BgpIpv6SessionState { get; set; }
         
         /// <value>
         /// The OCID of the compartment containing the virtual circuit.
@@ -109,6 +124,28 @@ namespace Oci.CoreService.Models
         /// </value>
         [JsonProperty(PropertyName = "crossConnectMappings")]
         public System.Collections.Generic.List<CrossConnectMapping> CrossConnectMappings { get; set; }
+                ///
+        ///
+        public enum RoutingPolicyEnum {
+            [EnumMember(Value = "ORACLE_SERVICE_NETWORK")]
+            OracleServiceNetwork,
+            [EnumMember(Value = "REGIONAL")]
+            Regional,
+            [EnumMember(Value = "MARKET_LEVEL")]
+            MarketLevel,
+            [EnumMember(Value = "GLOBAL")]
+            Global
+        };
+
+        /// <value>
+        /// The routing policy sets how routing information about the Oracle cloud is shared over a public virtual circuit.
+        /// Policies available are: `ORACLE_SERVICE_NETWORK`, `REGIONAL`, `MARKET_LEVEL`, and `GLOBAL`.
+        /// See [Route Filtering](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/routingonprem.htm#route_filtering) for details.
+        /// By default, routing information is shared for all routes in the same market.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "routingPolicy", ItemConverterType = typeof(StringEnumConverter))]
+        public System.Collections.Generic.List<RoutingPolicyEnum> RoutingPolicy { get; set; }
         
         /// <value>
         /// Deprecated. Instead use `customerAsn`.
@@ -132,7 +169,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -149,7 +186,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -173,7 +210,7 @@ namespace Oci.CoreService.Models
         /// <value>
         /// The virtual circuit's current state. For information about
         /// the different states, see
-        /// [FastConnect Overview](https://docs.cloud.oracle.com/Content/Network/Concepts/fastconnect.htm).
+        /// [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </value>
         ///
@@ -199,7 +236,7 @@ namespace Oci.CoreService.Models
         /// <value>
         /// The virtual circuit's current state. For information about
         /// the different states, see
-        /// [FastConnect Overview](https://docs.cloud.oracle.com/Content/Network/Concepts/fastconnect.htm).
+        /// [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "lifecycleState")]
@@ -325,7 +362,7 @@ namespace Oci.CoreService.Models
                 ///
         /// <value>
         /// Whether the virtual circuit supports private or public peering. For more information,
-        /// see [FastConnect Overview](https://docs.cloud.oracle.com/Content/Network/Concepts/fastconnect.htm).
+        /// see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </value>
         ///
@@ -338,7 +375,7 @@ namespace Oci.CoreService.Models
 
         /// <value>
         /// Whether the virtual circuit supports private or public peering. For more information,
-        /// see [FastConnect Overview](https://docs.cloud.oracle.com/Content/Network/Concepts/fastconnect.htm).
+        /// see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "type")]

@@ -17,6 +17,7 @@ namespace Oci.CoreService.Models
 {
     /// <summary>
     /// Either instanceId or imageSourceDetails must be provided in addition to other required parameters.
+    /// 
     /// </summary>
     public class CreateImageDetails 
     {
@@ -33,7 +34,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -44,7 +45,7 @@ namespace Oci.CoreService.Models
         /// A user-friendly name for the image. It does not have to be unique, and it's changeable.
         /// Avoid entering confidential information.
         /// <br/>
-        /// You cannot use an Oracle-provided image name as a custom image name.
+        /// You cannot use a platform image name as a custom image name.
         /// <br/>
         /// Example: My Oracle Linux image
         /// </value>
@@ -53,7 +54,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -65,13 +66,14 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// The OCID of the instance you want to use as the basis for the image.
+        /// 
         /// </value>
         [JsonProperty(PropertyName = "instanceId")]
         public string InstanceId { get; set; }
                 ///
         /// <value>
         /// Specifies the configuration mode for launching virtual machine (VM) instances. The configuration modes are:
-        /// * `NATIVE` - VM instances launch with paravirtualized boot and VFIO devices. The default value for Oracle-provided images.
+        /// * `NATIVE` - VM instances launch with paravirtualized boot and VFIO devices. The default value for platform images.
         /// * `EMULATED` - VM instances launch with emulated devices, such as the E1000 network driver and emulated SCSI disk controller.
         /// * `PARAVIRTUALIZED` - VM instances launch with paravirtualized devices using VirtIO drivers.
         /// * `CUSTOM` - VM instances launch with custom configuration settings specified in the `LaunchOptions` parameter.
@@ -91,7 +93,7 @@ namespace Oci.CoreService.Models
 
         /// <value>
         /// Specifies the configuration mode for launching virtual machine (VM) instances. The configuration modes are:
-        /// * `NATIVE` - VM instances launch with paravirtualized boot and VFIO devices. The default value for Oracle-provided images.
+        /// * `NATIVE` - VM instances launch with paravirtualized boot and VFIO devices. The default value for platform images.
         /// * `EMULATED` - VM instances launch with emulated devices, such as the E1000 network driver and emulated SCSI disk controller.
         /// * `PARAVIRTUALIZED` - VM instances launch with paravirtualized devices using VirtIO drivers.
         /// * `CUSTOM` - VM instances launch with custom configuration settings specified in the `LaunchOptions` parameter.

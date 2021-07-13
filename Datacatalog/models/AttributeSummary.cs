@@ -40,6 +40,12 @@ namespace Oci.DatacatalogService.Models
         public string DisplayName { get; set; }
         
         /// <value>
+        /// Optional user friendly business name of the attribute. If set, this supplements the harvested display name of the object.
+        /// </value>
+        [JsonProperty(PropertyName = "businessName")]
+        public string BusinessName { get; set; }
+        
+        /// <value>
         /// Detailed description of the attribute.
         /// </value>
         [JsonProperty(PropertyName = "description")]
@@ -62,6 +68,18 @@ namespace Oci.DatacatalogService.Models
         /// </value>
         [JsonProperty(PropertyName = "length")]
         public System.Nullable<long> Length { get; set; }
+        
+        /// <value>
+        /// Precision of the attribute value usually applies to float data type.
+        /// </value>
+        [JsonProperty(PropertyName = "precision")]
+        public System.Nullable<int> Precision { get; set; }
+        
+        /// <value>
+        /// Scale of the attribute value usually applies to float data type.
+        /// </value>
+        [JsonProperty(PropertyName = "scale")]
+        public System.Nullable<int> Scale { get; set; }
         
         /// <value>
         /// Property that identifies if this attribute can be assigned null values.
@@ -141,10 +159,29 @@ namespace Oci.DatacatalogService.Models
         public string Path { get; set; }
         
         /// <value>
+        /// The list of customized properties along with the values for this object
+        /// </value>
+        [JsonProperty(PropertyName = "customPropertyMembers")]
+        public System.Collections.Generic.List<CustomPropertyGetUsage> CustomPropertyMembers { get; set; }
+        
+        /// <value>
         /// Rule types associated with attribute.
         /// </value>
         [JsonProperty(PropertyName = "associatedRuleTypes", ItemConverterType = typeof(StringEnumConverter))]
         public System.Collections.Generic.List<RuleType> AssociatedRuleTypes { get; set; }
+        
+        /// <value>
+        /// Whether a column is derived or not.
+        /// </value>
+        [JsonProperty(PropertyName = "isDerivedAttribute")]
+        public System.Nullable<bool> IsDerivedAttribute { get; set; }
+        
+        /// <value>
+        /// The last time that any change was made to the attribute. An [RFC3339](https://tools.ietf.org/html/rfc3339) formatted datetime string.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "timeUpdated")]
+        public System.Nullable<System.DateTime> TimeUpdated { get; set; }
         
     }
 }

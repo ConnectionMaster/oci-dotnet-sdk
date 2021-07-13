@@ -66,6 +66,48 @@ namespace Oci.CoreService
         }
 
         /// <summary>
+        /// Attaches an instance to an instance pool. For information about the prerequisites
+        /// that an instance must meet before you can attach it to a pool, see
+        /// [Attaching an Instance to an Instance Pool](https://docs.cloud.oracle.com/iaas/Content/Compute/Tasks/updatinginstancepool.htm#attach-instance).
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AttachInstancePoolInstance.cs.html">here</a> to see an example of how to use AttachInstancePoolInstance API.</example>
+        public async Task<AttachInstancePoolInstanceResponse> AttachInstancePoolInstance(AttachInstancePoolInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called attachInstancePoolInstance");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/instances".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<AttachInstancePoolInstanceResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"AttachInstancePoolInstance failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Attach a load balancer to the instance pool.
         /// 
         /// </summary>
@@ -408,6 +450,46 @@ namespace Oci.CoreService
         }
 
         /// <summary>
+        /// Detaches an instance from an instance pool.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DetachInstancePoolInstance.cs.html">here</a> to see an example of how to use DetachInstancePoolInstance API.</example>
+        public async Task<DetachInstancePoolInstanceResponse> DetachInstancePoolInstance(DetachInstancePoolInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called detachInstancePoolInstance");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/detachInstance".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<DetachInstancePoolInstanceResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"DetachInstancePoolInstance failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Detach a load balancer from the instance pool.
         /// 
         /// </summary>
@@ -560,6 +642,45 @@ namespace Oci.CoreService
             catch (Exception e)
             {
                 logger.Error($"GetInstancePool failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Gets information about an instance that belongs to an instance pool.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetInstancePoolInstance.cs.html">here</a> to see an example of how to use GetInstancePoolInstance API.</example>
+        public async Task<GetInstancePoolInstanceResponse> GetInstancePoolInstance(GetInstancePoolInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called getInstancePoolInstance");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/instances/{instanceId}".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<GetInstancePoolInstanceResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetInstancePoolInstance failed with error: {e.Message}");
                 throw;
             }
         }
@@ -847,7 +968,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Performs the reset (power off and power on) action on the specified instance pool,
+        /// Performs the reset (immediate power off and power on) action on the specified instance pool,
         /// which performs the action on all the instances in the pool.
         /// 
         /// </summary>
@@ -890,6 +1011,9 @@ namespace Oci.CoreService
         /// <summary>
         /// Performs the softreset (ACPI shutdown and power on) action on the specified instance pool,
         /// which performs the action on all the instances in the pool.
+        /// &lt;br/&gt;
+        /// Softreset gracefully reboots the instances by sending a shutdown command to the operating systems.
+        /// After waiting 15 minutes for the OS to shut down, the instances are powered off and then powered back on.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -970,7 +1094,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Performs the stop (power off) action on the specified instance pool,
+        /// Performs the stop (immediate power off) action on the specified instance pool,
         /// which performs the action on all the instances in the pool.
         /// 
         /// </summary>

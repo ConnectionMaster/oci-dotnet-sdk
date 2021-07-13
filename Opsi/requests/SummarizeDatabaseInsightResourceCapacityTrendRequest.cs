@@ -31,7 +31,7 @@ namespace Oci.OpsiService.Requests
         
         /// <value>
         /// Filter by resource metric.
-        /// Supported values are CPU and STORAGE.
+        /// Supported values are CPU , STORAGE, MEMORY and IO.
         /// 
         /// </value>
         /// <remarks>
@@ -75,7 +75,7 @@ namespace Oci.OpsiService.Requests
         ///
         /// <value>
         /// Filter by one or more database type.
-        /// Possible values are ADW-S, ATP-S, ADW-D, ATP-D
+        /// Possible values are ADW-S, ATP-S, ADW-D, ATP-D, EXTERNAL-PDB, EXTERNAL-NONCDB.
         /// 
         /// </value>
         ///
@@ -87,23 +87,34 @@ namespace Oci.OpsiService.Requests
             [EnumMember(Value = "ADW-D")]
             AdwD,
             [EnumMember(Value = "ATP-D")]
-            AtpD
+            AtpD,
+            [EnumMember(Value = "EXTERNAL-PDB")]
+            ExternalPdb,
+            [EnumMember(Value = "EXTERNAL-NONCDB")]
+            ExternalNoncdb
         };
 
         /// <value>
         /// Filter by one or more database type.
-        /// Possible values are ADW-S, ATP-S, ADW-D, ATP-D
+        /// Possible values are ADW-S, ATP-S, ADW-D, ATP-D, EXTERNAL-PDB, EXTERNAL-NONCDB.
         /// 
         /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "databaseType")]
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "databaseType", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<DatabaseTypeEnum> DatabaseType { get; set; }
         
         /// <value>
-        /// Optional list of database [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Optional list of database [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the associated DBaaS entity.
         /// 
         /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "databaseId")]
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "databaseId", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<string> DatabaseId { get; set; }
+        
+        /// <value>
+        /// Optional list of database insight resource [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database insight resource.
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "id", Oci.Common.Http.CollectionFormatType.Multi)]
+        public System.Collections.Generic.List<string> Id { get; set; }
         
         ///
         /// <value>
@@ -174,6 +185,29 @@ namespace Oci.OpsiService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "sortBy")]
         public System.Nullable<SortByEnum> SortBy { get; set; }
+        
+        /// <value>
+        /// Tablespace name for a database
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "tablespaceName")]
+        public string TablespaceName { get; set; }
+        
+        /// <value>
+        /// Filter by one or more hostname.
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "hostName", Oci.Common.Http.CollectionFormatType.Multi)]
+        public System.Collections.Generic.List<string> HostName { get; set; }
+        
+        /// <value>
+        /// Flag to indicate if database instance level metrics should be returned. The flag is ignored when a host name filter is not applied.
+        /// When a hostname filter is applied this flag will determine whether to return metrics for the instances located on the specified host or for the
+        /// whole database which contains an instance on this host.
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "isDatabaseInstanceLevelMetrics")]
+        public System.Nullable<bool> IsDatabaseInstanceLevelMetrics { get; set; }
         
         /// <value>
         /// Unique Oracle-assigned identifier for the request. If you need to contact

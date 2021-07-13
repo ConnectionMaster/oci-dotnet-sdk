@@ -45,6 +45,30 @@ namespace Oci.DatabaseService.Models
         /// </value>
         [JsonProperty(PropertyName = "patchId")]
         public string PatchId { get; set; }
+                ///
+        /// <value>
+        /// Cloud Exadata infrastructure node patching method, either \"ROLLING\" or \"NONROLLING\". Default value is ROLLING.
+        /// <br/>
+        /// *IMPORTANT*: Non-rolling infrastructure patching involves system down time. See [Oracle-Managed Infrastructure Maintenance Updates](https://docs.cloud.oracle.com/iaas/Content/Database/Concepts/examaintenance.htm#Oracle) for more information.
+        /// 
+        /// </value>
+        ///
+        public enum PatchingModeEnum {
+            [EnumMember(Value = "ROLLING")]
+            Rolling,
+            [EnumMember(Value = "NONROLLING")]
+            Nonrolling
+        };
+
+        /// <value>
+        /// Cloud Exadata infrastructure node patching method, either \"ROLLING\" or \"NONROLLING\". Default value is ROLLING.
+        /// <br/>
+        /// *IMPORTANT*: Non-rolling infrastructure patching involves system down time. See [Oracle-Managed Infrastructure Maintenance Updates](https://docs.cloud.oracle.com/iaas/Content/Database/Concepts/examaintenance.htm#Oracle) for more information.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "patchingMode")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<PatchingModeEnum> PatchingMode { get; set; }
         
     }
 }

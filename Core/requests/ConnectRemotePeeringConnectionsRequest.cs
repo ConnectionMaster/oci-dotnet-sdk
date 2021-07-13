@@ -20,7 +20,7 @@ namespace Oci.CoreService.Requests
     {
         
         /// <value>
-        /// The OCID of the remote peering connection (RPC).
+        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the remote peering connection (RPC).
         /// </value>
         /// <remarks>
         /// Required
@@ -31,6 +31,7 @@ namespace Oci.CoreService.Requests
         
         /// <value>
         /// Details to connect peering connection with peering connection from remote region
+        /// 
         /// </value>
         /// <remarks>
         /// Required

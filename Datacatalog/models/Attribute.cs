@@ -42,6 +42,12 @@ namespace Oci.DatacatalogService.Models
         public string DisplayName { get; set; }
         
         /// <value>
+        /// Optional user friendly business name of the attribute. If set, this supplements the harvested display name of the object.
+        /// </value>
+        [JsonProperty(PropertyName = "businessName")]
+        public string BusinessName { get; set; }
+        
+        /// <value>
         /// Detailed description of the attribute.
         /// </value>
         [JsonProperty(PropertyName = "description")]
@@ -182,6 +188,24 @@ namespace Oci.DatacatalogService.Models
         /// </value>
         [JsonProperty(PropertyName = "timeExternal")]
         public System.Nullable<System.DateTime> TimeExternal { get; set; }
+        
+        /// <value>
+        /// The date and time the attribute was harvested, in the format defined by [RFC3339](https://tools.ietf.org/html/rfc3339).
+        /// </value>
+        [JsonProperty(PropertyName = "timeHarvested")]
+        public System.Nullable<System.DateTime> TimeHarvested { get; set; }
+        
+        /// <value>
+        /// List of objects and their relationships to this attribute.
+        /// </value>
+        [JsonProperty(PropertyName = "objectRelationships")]
+        public System.Collections.Generic.List<ObjectRelationship> ObjectRelationships { get; set; }
+        
+        /// <value>
+        /// Whether a column is derived or not.
+        /// </value>
+        [JsonProperty(PropertyName = "isDerivedAttribute")]
+        public System.Nullable<bool> IsDerivedAttribute { get; set; }
         
         /// <value>
         /// URI to the attribute instance in the API.

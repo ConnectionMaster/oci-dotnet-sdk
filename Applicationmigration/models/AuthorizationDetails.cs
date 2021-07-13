@@ -47,8 +47,14 @@ namespace Oci.ApplicationmigrationService.Models
             var discriminator = jsonObject["type"].Value<string>();
             switch (discriminator)
             {
+                case "OCC":
+                    obj = new OccAuthorizationDetails();
+                    break;
                 case "INTERNAL_COMPUTE":
                     obj = new InternalAuthorizationDetails();
+                    break;
+                case "OCIC_IDCS":
+                    obj = new OcicAuthorizationTokenDetails();
                     break;
                 case "OCIC":
                     obj = new OcicAuthorizationDetails();

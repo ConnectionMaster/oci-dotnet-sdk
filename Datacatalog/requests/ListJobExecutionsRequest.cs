@@ -174,24 +174,22 @@ namespace Oci.DatacatalogService.Requests
         /// Specifies the fields to return in a job execution summary response.
         /// 
         /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "fields")]
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "fields", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<FieldsEnum> Fields { get; set; }
         
         ///
         /// <value>
-        /// The field to sort by. Only one sort order may be provided. Default order for TIMECREATED is descending. Default order for DISPLAYNAME is ascending. If no value is specified TIMECREATED is default.
+        /// The field to sort by. Only one sort order may be provided; the default is descending. Use sortOrder query param to specify order.
         /// 
         /// </value>
         ///
         public enum SortByEnum {
             [EnumMember(Value = "TIMECREATED")]
-            Timecreated,
-            [EnumMember(Value = "DISPLAYNAME")]
-            Displayname
+            Timecreated
         };
 
         /// <value>
-        /// The field to sort by. Only one sort order may be provided. Default order for TIMECREATED is descending. Default order for DISPLAYNAME is ascending. If no value is specified TIMECREATED is default.
+        /// The field to sort by. Only one sort order may be provided; the default is descending. Use sortOrder query param to specify order.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "sortBy")]

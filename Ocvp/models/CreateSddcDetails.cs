@@ -94,18 +94,37 @@ namespace Oci.OcvpService.Models
         public System.Nullable<int> EsxiHostsCount { get; set; }
         
         /// <value>
-        /// This flag tells us if HCX is enabled or not.
+        /// Billing option selected during SDDC creation.
+        /// Oracle Cloud Infrastructure VMware Solution supports the following billing interval SKUs:
+        /// HOUR, MONTH, ONE_YEAR, and THREE_YEARS.
+        /// {@link #listSupportedSkus(ListSupportedSkusRequest) listSupportedSkus}.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "initialSku")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<Sku> InitialSku { get; set; }
+        
+        /// <value>
+        /// Indicates whether to enable HCX for this SDDC.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isHcxEnabled")]
         public System.Nullable<bool> IsHcxEnabled { get; set; }
         
         /// <value>
-        /// This id is required only when hcxEnabled is true
+        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VLAN to use for the HCX
+        /// component of the VMware environment. This value is required only when `isHcxEnabled` is true.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "hcxVlanId")]
         public string HcxVlanId { get; set; }
+        
+        /// <value>
+        /// Indicates whether to enable HCX Enterprise for this SDDC.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isHcxEnterpriseEnabled")]
+        public System.Nullable<bool> IsHcxEnterpriseEnabled { get; set; }
         
         /// <value>
         /// One or more public SSH keys to be included in the `~/.ssh/authorized_keys` file for
@@ -215,6 +234,8 @@ namespace Oci.OcvpService.Models
         /// <value>
         /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VLAN to use for the NSX Edge
         /// Uplink 2 component of the VMware environment.
+        /// <br/>
+        /// **Note:** This VLAN is reserved for future use to deploy public-facing applications on the VMware SDDC.
         /// 
         /// </value>
         /// <remarks>
@@ -223,6 +244,22 @@ namespace Oci.OcvpService.Models
         [Required(ErrorMessage = "NsxEdgeUplink2VlanId is required.")]
         [JsonProperty(PropertyName = "nsxEdgeUplink2VlanId")]
         public string NsxEdgeUplink2VlanId { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VLAN used by the SDDC
+        /// for the vSphere Replication component of the VMware environment.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "replicationVlanId")]
+        public string ReplicationVlanId { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VLAN used by the SDDC
+        /// for the Provisioning component of the VMware environment.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "provisioningVlanId")]
+        public string ProvisioningVlanId { get; set; }
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no

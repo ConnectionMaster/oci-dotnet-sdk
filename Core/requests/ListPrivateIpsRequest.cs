@@ -46,7 +46,7 @@ namespace Oci.CoreService.Requests
         public string IpAddress { get; set; }
         
         /// <value>
-        /// The OCID of the subnet.
+        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the subnet.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "subnetId")]
         public string SubnetId { get; set; }
@@ -58,7 +58,7 @@ namespace Oci.CoreService.Requests
         public string VnicId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VLAN.
+        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "vlanId")]
         public string VlanId { get; set; }

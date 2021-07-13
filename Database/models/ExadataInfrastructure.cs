@@ -158,6 +158,30 @@ namespace Oci.DatabaseService.Models
         public System.Double MaxDataStorageInTBs { get; set; }
         
         /// <value>
+        /// The number of Exadata storage servers for the Exadata infrastructure.
+        /// </value>
+        [JsonProperty(PropertyName = "storageCount")]
+        public System.Nullable<int> StorageCount { get; set; }
+        
+        /// <value>
+        /// The requested number of additional storage servers for the Exadata infrastructure.
+        /// </value>
+        [JsonProperty(PropertyName = "additionalStorageCount")]
+        public System.Nullable<int> AdditionalStorageCount { get; set; }
+        
+        /// <value>
+        /// The requested number of additional storage servers activated for the Exadata infrastructure.
+        /// </value>
+        [JsonProperty(PropertyName = "activatedStorageCount")]
+        public System.Nullable<int> ActivatedStorageCount { get; set; }
+        
+        /// <value>
+        /// The number of compute servers for the Exadata infrastructure.
+        /// </value>
+        [JsonProperty(PropertyName = "computeCount")]
+        public System.Nullable<int> ComputeCount { get; set; }
+        
+        /// <value>
         /// The IP address for the first control plane server.
         /// </value>
         [JsonProperty(PropertyName = "cloudControlPlaneServer1")]
@@ -234,9 +258,39 @@ namespace Oci.DatabaseService.Models
         /// </value>
         [JsonProperty(PropertyName = "contacts")]
         public System.Collections.Generic.List<ExadataInfrastructureContact> Contacts { get; set; }
+                ///
+        /// <value>
+        /// A field to capture \u2018Maintenance SLO Status\u2019 for the Exadata infrastructure with values \u2018OK\u2019, \u2018DEGRADED\u2019. Default is \u2018OK\u2019 when the infrastructure is provisioned.
+        /// </value>
+        ///
+        public enum MaintenanceSLOStatusEnum {
+            [EnumMember(Value = "OK")]
+            Ok,
+            [EnumMember(Value = "DEGRADED")]
+            Degraded
+        };
+
+        /// <value>
+        /// A field to capture \u2018Maintenance SLO Status\u2019 for the Exadata infrastructure with values \u2018OK\u2019, \u2018DEGRADED\u2019. Default is \u2018OK\u2019 when the infrastructure is provisioned.
+        /// </value>
+        [JsonProperty(PropertyName = "maintenanceSLOStatus")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<MaintenanceSLOStatusEnum> MaintenanceSLOStatus { get; set; }
         
         [JsonProperty(PropertyName = "maintenanceWindow")]
         public MaintenanceWindow MaintenanceWindow { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the last maintenance run.
+        /// </value>
+        [JsonProperty(PropertyName = "lastMaintenanceRunId")]
+        public string LastMaintenanceRunId { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the next maintenance run.
+        /// </value>
+        [JsonProperty(PropertyName = "nextMaintenanceRunId")]
+        public string NextMaintenanceRunId { get; set; }
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.

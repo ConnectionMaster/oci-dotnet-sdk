@@ -66,6 +66,127 @@ namespace Oci.CoreService
         }
 
         /// <summary>
+        /// Adds one or more route distribution statements to the specified route distribution.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddDrgRouteDistributionStatements.cs.html">here</a> to see an example of how to use AddDrgRouteDistributionStatements API.</example>
+        public async Task<AddDrgRouteDistributionStatementsResponse> AddDrgRouteDistributionStatements(AddDrgRouteDistributionStatementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called addDrgRouteDistributionStatements");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}/actions/addDrgRouteDistributionStatements".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<AddDrgRouteDistributionStatementsResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"AddDrgRouteDistributionStatements failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Adds one or more static route rules to the specified DRG route table.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddDrgRouteRules.cs.html">here</a> to see an example of how to use AddDrgRouteRules API.</example>
+        public async Task<AddDrgRouteRulesResponse> AddDrgRouteRules(AddDrgRouteRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called addDrgRouteRules");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}/actions/addDrgRouteRules".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<AddDrgRouteRulesResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"AddDrgRouteRules failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Add an IPv6 CIDR to a VCN. The VCN size is always /56 and assigned by Oracle.
+        /// Once added the IPv6 CIDR block cannot be removed or modified.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddIpv6VcnCidr.cs.html">here</a> to see an example of how to use AddIpv6VcnCidr API.</example>
+        public async Task<AddIpv6VcnCidrResponse> AddIpv6VcnCidr(AddIpv6VcnCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called addIpv6VcnCidr");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}/actions/addIpv6Cidr".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<AddIpv6VcnCidrResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"AddIpv6VcnCidr failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Adds one or more security rules to the specified network security group.
         /// 
         /// </summary>
@@ -1261,7 +1382,7 @@ namespace Oci.CoreService
         /// an Identity and Access Management (IAM) policy that gives the requestor permission
         /// to connect to LPGs in the acceptor&#39;s compartment. Without that permission, this
         /// operation will fail. For more information, see
-        /// [VCN Peering](https://docs.cloud.oracle.com/Content/Network/Tasks/VCNpeering.htm).
+        /// [VCN Peering](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/VCNpeering.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1308,7 +1429,7 @@ namespace Oci.CoreService
         /// an Identity and Access Management (IAM) policy that gives the requestor permission
         /// to connect to RPCs in the acceptor&#39;s compartment. Without that permission, this
         /// operation will fail. For more information, see
-        /// [VCN Peering](https://docs.cloud.oracle.com/Content/Network/Tasks/VCNpeering.htm).
+        /// [VCN Peering](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/VCNpeering.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1389,17 +1510,17 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Creates a new virtual customer-premises equipment (CPE) object in the specified compartment. For
-        /// more information, see [IPSec VPNs](https://docs.cloud.oracle.com/Content/Network/Tasks/managingIPsec.htm).
+        /// more information, see [IPSec VPNs](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingIPsec.htm).
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the OCID of the compartment where you want
+        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment where you want
         /// the CPE to reside. Notice that the CPE doesn&#39;t have to be in the same compartment as the IPSec
         /// connection or other Networking Service components. If you&#39;re not sure which compartment to
         /// use, put the CPE in the same compartment as the DRG. For more information about
-        /// compartments and access control, see [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm).
-        /// For information about OCIDs, see [Resource Identifiers](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// compartments and access control, see [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
+        /// For information about OCIDs, see [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You must provide the public IP address of your on-premises router. See
-        /// [Configuring Your On-Premises Router for an IPSec VPN](https://docs.cloud.oracle.com/Content/Network/Tasks/configuringCPE.htm).
+        /// [Configuring Your On-Premises Router for an IPSec VPN](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/configuringCPE.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the CPE, otherwise a default is provided. It does not have to
         /// be unique, and you can change it. Avoid entering confidential information.
@@ -1448,16 +1569,16 @@ namespace Oci.CoreService
         /// &lt;br/&gt;
         /// After creating the &#x60;CrossConnect&#x60; object, you need to go the FastConnect location
         /// and request to have the physical cable installed. For more information, see
-        /// [FastConnect Overview](https://docs.cloud.oracle.com/Content/Network/Concepts/fastconnect.htm).
+        /// [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the OCID of the
+        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the
         /// compartment where you want the cross-connect to reside. If you&#39;re
         /// not sure which compartment to use, put the cross-connect in the
         /// same compartment with your VCN. For more information about
         /// compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm).
+        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// For information about OCIDs, see
-        /// [Resource Identifiers](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the cross-connect.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -1502,16 +1623,16 @@ namespace Oci.CoreService
         /// <summary>
         /// Creates a new cross-connect group to use with Oracle Cloud Infrastructure
         /// FastConnect. For more information, see
-        /// [FastConnect Overview](https://docs.cloud.oracle.com/Content/Network/Concepts/fastconnect.htm).
+        /// [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the OCID of the
+        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the
         /// compartment where you want the cross-connect group to reside. If you&#39;re
         /// not sure which compartment to use, put the cross-connect group in the
         /// same compartment with your VCN. For more information about
         /// compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm).
+        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// For information about OCIDs, see
-        /// [Resource Identifiers](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the cross-connect group.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -1557,12 +1678,12 @@ namespace Oci.CoreService
         /// Creates a new set of DHCP options for the specified VCN. For more information, see
         /// {@link DhcpOptions}.
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the OCID of the compartment where you want the set of
+        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment where you want the set of
         /// DHCP options to reside. Notice that the set of options doesn&#39;t have to be in the same compartment as the VCN,
         /// subnets, or other Networking Service components. If you&#39;re not sure which compartment to use, put the set
         /// of DHCP options in the same compartment as the VCN. For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
-        /// [Resource Identifiers](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
+        /// [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the set of DHCP options, otherwise a default is provided.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -1606,14 +1727,14 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Creates a new dynamic routing gateway (DRG) in the specified compartment. For more information,
-        /// see [Dynamic Routing Gateways (DRGs)](https://docs.cloud.oracle.com/Content/Network/Tasks/managingDRGs.htm).
+        /// see [Dynamic Routing Gateways (DRGs)](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingDRGs.htm).
         /// &lt;br/&gt;
         /// For the purposes of access control, you must provide the OCID of the compartment where you want
         /// the DRG to reside. Notice that the DRG doesn&#39;t have to be in the same compartment as the VCN,
         /// the DRG attachment, or other Networking Service components. If you&#39;re not sure which compartment
         /// to use, put the DRG in the same compartment as the VCN. For more information about compartments
-        /// and access control, see [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm).
-        /// For information about OCIDs, see [Resource Identifiers](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// and access control, see [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
+        /// For information about OCIDs, see [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the DRG, otherwise a default is provided.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -1656,17 +1777,17 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Attaches the specified DRG to the specified VCN. A VCN can be attached to only one DRG at a time,
-        /// and vice versa. The response includes a &#x60;DrgAttachment&#x60; object with its own OCID. For more
-        /// information about DRGs, see
-        /// [Dynamic Routing Gateways (DRGs)](https://docs.cloud.oracle.com/Content/Network/Tasks/managingDRGs.htm).
+        /// Attaches the specified DRG to the specified network resource. A VCN can be attached to only one DRG
+        /// at a time, but a DRG can be attached to more than one VCN. The response includes a &#x60;DrgAttachment&#x60;
+        /// object with its own [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm). For more information about DRGs, see
+        /// [Dynamic Routing Gateways (DRGs)](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingDRGs.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the attachment, otherwise a default is provided.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
         /// &lt;br/&gt;
-        /// For the purposes of access control, the DRG attachment is automatically placed into the same compartment
-        /// as the VCN. For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm).
+        /// For the purposes of access control, the DRG attachment is automatically placed into the currently selected compartment.
+        /// For more information about compartments and access control, see
+        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1706,8 +1827,92 @@ namespace Oci.CoreService
         }
 
         /// <summary>
+        /// Creates a new route distribution for the specified DRG. 
+        /// Assign the route distribution as an import distribution to a DRG route table using the &#x60;UpdateDrgRouteTable&#x60; or &#x60;CreateDrgRouteTable&#x60; operations.
+        /// Assign the route distribution as an export distribution to a DRG attachment
+        /// using the &#x60;UpdateDrgAttachment&#x60; or &#x60;CreateDrgAttachment&#x60; operations.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateDrgRouteDistribution.cs.html">here</a> to see an example of how to use CreateDrgRouteDistribution API.</example>
+        public async Task<CreateDrgRouteDistributionResponse> CreateDrgRouteDistribution(CreateDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called createDrgRouteDistribution");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<CreateDrgRouteDistributionResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"CreateDrgRouteDistribution failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Creates a new DRG route table for the specified DRG. Assign the DRG route table to a DRG attachment
+        /// using the &#x60;UpdateDrgAttachment&#x60; or &#x60;CreateDrgAttachment&#x60; operations.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateDrgRouteTable.cs.html">here</a> to see an example of how to use CreateDrgRouteTable API.</example>
+        public async Task<CreateDrgRouteTableResponse> CreateDrgRouteTable(CreateDrgRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called createDrgRouteTable");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<CreateDrgRouteTableResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"CreateDrgRouteTable failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Creates a new IPSec connection between the specified DRG and CPE. For more information, see
-        /// [IPSec VPNs](https://docs.cloud.oracle.com/Content/Network/Tasks/managingIPsec.htm).
+        /// [IPSec VPNs](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingIPsec.htm).
         /// &lt;br/&gt;
         /// If you configure at least one tunnel to use static routing, then in the request you must provide
         /// at least one valid static route (you&#39;re allowed a maximum of 10). For example: 10.0.0.0/16.
@@ -1715,13 +1920,12 @@ namespace Oci.CoreService
         /// the static routes. For more information, see the important note in
         /// {@link IPSecConnection}.
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the OCID of the compartment where you want the
+        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment where you want the
         /// IPSec connection to reside. Notice that the IPSec connection doesn&#39;t have to be in the same compartment
         /// as the DRG, CPE, or other Networking Service components. If you&#39;re not sure which compartment to
         /// use, put the IPSec connection in the same compartment as the DRG. For more information about
         /// compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm).
-        /// For information about OCIDs, see [Resource Identifiers](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the IPSec connection, otherwise a default is provided.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -1734,7 +1938,7 @@ namespace Oci.CoreService
         /// &lt;br/&gt;
         /// For each tunnel, you need the IP address of Oracle&#39;s VPN headend and the shared secret
         /// (that is, the pre-shared key). For more information, see
-        /// [Configuring Your On-Premises Router for an IPSec VPN](https://docs.cloud.oracle.com/Content/Network/Tasks/configuringCPE.htm).
+        /// [Configuring Your On-Premises Router for an IPSec VPN](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/configuringCPE.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1775,14 +1979,13 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Creates a new internet gateway for the specified VCN. For more information, see
-        /// [Access to the Internet](https://docs.cloud.oracle.com/Content/Network/Tasks/managingIGs.htm).
+        /// [Access to the Internet](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingIGs.htm).
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the OCID of the compartment where you want the Internet
+        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment where you want the Internet
         /// Gateway to reside. Notice that the internet gateway doesn&#39;t have to be in the same compartment as the VCN or
         /// other Networking Service components. If you&#39;re not sure which compartment to use, put the Internet
         /// Gateway in the same compartment with the VCN. For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
-        /// [Resource Identifiers](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the internet gateway, otherwise a default is provided. It
         /// does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -1997,7 +2200,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Creates a secondary private IP for the specified VNIC.
         /// For more information about secondary private IPs, see
-        /// [IP Addresses](https://docs.cloud.oracle.com/Content/Network/Tasks/managingIPaddresses.htm).
+        /// [IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingIPaddresses.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2039,7 +2242,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Creates a public IP. Use the &#x60;lifetime&#x60; property to specify whether it&#39;s an ephemeral or
         /// reserved public IP. For information about limits on how many you can create, see
-        /// [Public IP Addresses](https://docs.cloud.oracle.com/Content/Network/Tasks/managingpublicIPs.htm).
+        /// [Public IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
         /// &lt;br/&gt;
         /// * **For an ephemeral public IP assigned to a private IP:** You must also specify a &#x60;privateIpId&#x60;
         /// with the OCID of the primary private IP you want to assign the public IP to. The public IP is
@@ -2179,16 +2382,16 @@ namespace Oci.CoreService
         /// <summary>
         /// Creates a new route table for the specified VCN. In the request you must also include at least one route
         /// rule for the new route table. For information on the number of rules you can have in a route table, see
-        /// [Service Limits](https://docs.cloud.oracle.com/Content/General/Concepts/servicelimits.htm). For general information about route
+        /// [Service Limits](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/servicelimits.htm). For general information about route
         /// tables in your VCN and the types of targets you can use in route rules,
-        /// see [Route Tables](https://docs.cloud.oracle.com/Content/Network/Tasks/managingroutetables.htm).
+        /// see [Route Tables](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm).
         /// &lt;br/&gt;
         /// For the purposes of access control, you must provide the OCID of the compartment where you want the route
         /// table to reside. Notice that the route table doesn&#39;t have to be in the same compartment as the VCN, subnets,
         /// or other Networking Service components. If you&#39;re not sure which compartment to use, put the route
         /// table in the same compartment as the VCN. For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
-        /// [Resource Identifiers](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
+        /// [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the route table, otherwise a default is provided.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -2232,16 +2435,16 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Creates a new security list for the specified VCN. For more information
-        /// about security lists, see [Security Lists](https://docs.cloud.oracle.com/Content/Network/Concepts/securitylists.htm).
+        /// about security lists, see [Security Lists](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/securitylists.htm).
         /// For information on the number of rules you can have in a security list, see
-        /// [Service Limits](https://docs.cloud.oracle.com/Content/General/Concepts/servicelimits.htm).
+        /// [Service Limits](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/servicelimits.htm).
         /// &lt;br/&gt;
         /// For the purposes of access control, you must provide the OCID of the compartment where you want the security
         /// list to reside. Notice that the security list doesn&#39;t have to be in the same compartment as the VCN, subnets,
         /// or other Networking Service components. If you&#39;re not sure which compartment to use, put the security
         /// list in the same compartment as the VCN. For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
-        /// [Resource Identifiers](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
+        /// [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the security list, otherwise a default is provided.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -2288,8 +2491,8 @@ namespace Oci.CoreService
         /// &lt;br/&gt;
         /// For the purposes of access control, you must provide the OCID of the compartment where you want
         /// the service gateway to reside. For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm).
-        /// For information about OCIDs, see [Resource Identifiers](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
+        /// For information about OCIDs, see [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the service gateway, otherwise a default is provided.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -2334,35 +2537,35 @@ namespace Oci.CoreService
         /// <summary>
         /// Creates a new subnet in the specified VCN. You can&#39;t change the size of the subnet after creation,
         /// so it&#39;s important to think about the size of subnets you need before creating them.
-        /// For more information, see [VCNs and Subnets](https://docs.cloud.oracle.com/Content/Network/Tasks/managingVCNs.htm).
+        /// For more information, see [VCNs and Subnets](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingVCNs.htm).
         /// For information on the number of subnets you can have in a VCN, see
-        /// [Service Limits](https://docs.cloud.oracle.com/Content/General/Concepts/servicelimits.htm).
+        /// [Service Limits](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/servicelimits.htm).
         /// &lt;br/&gt;
         /// For the purposes of access control, you must provide the OCID of the compartment where you want the subnet
         /// to reside. Notice that the subnet doesn&#39;t have to be in the same compartment as the VCN, route tables, or
         /// other Networking Service components. If you&#39;re not sure which compartment to use, put the subnet in
         /// the same compartment as the VCN. For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm). For information about OCIDs,
-        /// see [Resource Identifiers](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm). For information about OCIDs,
+        /// see [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally associate a route table with the subnet. If you don&#39;t, the subnet will use the
         /// VCN&#39;s default route table. For more information about route tables, see
-        /// [Route Tables](https://docs.cloud.oracle.com/Content/Network/Tasks/managingroutetables.htm).
+        /// [Route Tables](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm).
         /// &lt;br/&gt;
         /// You may optionally associate a security list with the subnet. If you don&#39;t, the subnet will use the
         /// VCN&#39;s default security list. For more information about security lists, see
-        /// [Security Lists](https://docs.cloud.oracle.com/Content/Network/Concepts/securitylists.htm).
+        /// [Security Lists](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/securitylists.htm).
         /// &lt;br/&gt;
         /// You may optionally associate a set of DHCP options with the subnet. If you don&#39;t, the subnet will use the
         /// VCN&#39;s default set. For more information about DHCP options, see
-        /// [DHCP Options](https://docs.cloud.oracle.com/Content/Network/Tasks/managingDHCP.htm).
+        /// [DHCP Options](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingDHCP.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the subnet, otherwise a default is provided.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
         /// &lt;br/&gt;
         /// You can also add a DNS label for the subnet, which is required if you want the Internet and
         /// VCN Resolver to resolve hostnames for instances in the subnet. For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2403,7 +2606,7 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Creates a new virtual cloud network (VCN). For more information, see
-        /// [VCNs and Subnets](https://docs.cloud.oracle.com/Content/Network/Tasks/managingVCNs.htm).
+        /// [VCNs and Subnets](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingVCNs.htm).
         /// &lt;br/&gt;
         /// For the VCN, you specify a list of one or more IPv4 CIDR blocks that meet the following criteria:
         /// &lt;br/&gt;
@@ -2418,15 +2621,15 @@ namespace Oci.CoreService
         /// reside. Consult an Oracle Cloud Infrastructure administrator in your organization if you&#39;re not sure which
         /// compartment to use. Notice that the VCN doesn&#39;t have to be in the same compartment as the subnets or other
         /// Networking Service components. For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
-        /// [Resource Identifiers](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
+        /// [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the VCN, otherwise a default is provided. It does not have to
         /// be unique, and you can change it. Avoid entering confidential information.
         /// &lt;br/&gt;
         /// You can also add a DNS label for the VCN, which is required if you want the instances to use the
         /// Interent and VCN Resolver option for DNS in the VCN. For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// &lt;br/&gt;
         /// The VCN automatically comes with a default route table, default security list, and default set of DHCP options.
         /// The OCID for each is returned in the response. You can&#39;t delete these default objects, but you can change their
@@ -2434,7 +2637,7 @@ namespace Oci.CoreService
         /// &lt;br/&gt;
         /// The VCN and subnets you create are not accessible until you attach an internet gateway or set up an IPSec VPN
         /// or FastConnect. For more information, see
-        /// [Overview of the Networking Service](https://docs.cloud.oracle.com/Content/Network/Concepts/overview.htm).
+        /// [Overview of the Networking Service](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/overview.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2476,16 +2679,16 @@ namespace Oci.CoreService
         /// <summary>
         /// Creates a new virtual circuit to use with Oracle Cloud
         /// Infrastructure FastConnect. For more information, see
-        /// [FastConnect Overview](https://docs.cloud.oracle.com/Content/Network/Concepts/fastconnect.htm).
+        /// [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// &lt;br/&gt;
         /// For the purposes of access control, you must provide the OCID of the
         /// compartment where you want the virtual circuit to reside. If you&#39;re
         /// not sure which compartment to use, put the virtual circuit in the
         /// same compartment with the DRG it&#39;s using. For more information about
         /// compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm).
+        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// For information about OCIDs, see
-        /// [Resource Identifiers](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the virtual circuit.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -2494,7 +2697,7 @@ namespace Oci.CoreService
         /// the traffic to flow through. Make sure you attach the DRG to your
         /// VCN and confirm the VCN&#39;s routing sends traffic to the DRG. Otherwise
         /// traffic will not flow. For more information, see
-        /// [Route Tables](https://docs.cloud.oracle.com/Content/Network/Tasks/managingroutetables.htm).
+        /// [Route Tables](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2577,7 +2780,7 @@ namespace Oci.CoreService
         /// Deletes the specified &#x60;ByoipRange&#x60; resource.
         /// The resource must be in one of the following states: CREATING, PROVISIONED, ACTIVE, or FAILED.
         /// It must not have any subranges currently allocated to a PublicIpPool object or the deletion will fail.
-        /// You must specify the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// You must specify the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// If the &#x60;ByoipRange&#x60; resource is currently in the PROVISIONED or ACTIVE state, it will be de-provisioned and then deleted.
         /// 
         /// </summary>
@@ -2830,8 +3033,8 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Detaches a DRG from a VCN by deleting the corresponding &#x60;DrgAttachment&#x60;. This is an asynchronous
-        /// operation. The attachment&#39;s &#x60;lifecycleState&#x60; will change to DETACHING temporarily until the attachment
+        /// Detaches a DRG from a network resource by deleting the corresponding &#x60;DrgAttachment&#x60; resource. This is an asynchronous
+        /// operation. The attachment&#39;s &#x60;lifecycleState&#x60; will temporarily change to DETACHING until the attachment
         /// is completely removed.
         /// 
         /// </summary>
@@ -2867,6 +3070,88 @@ namespace Oci.CoreService
             catch (Exception e)
             {
                 logger.Error($"DeleteDrgAttachment failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Deletes the specified route distribution. You can&#39;t delete a route distribution currently in use by a DRG attachment or DRG route table.
+        /// &lt;br/&gt;
+        /// Remove the DRG route distribution from a DRG attachment or DRG route table by using the \&quot;RemoveExportDrgRouteDistribution\&quot; or \&quot;RemoveImportDrgRouteDistribution&#39; operations.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteDrgRouteDistribution.cs.html">here</a> to see an example of how to use DeleteDrgRouteDistribution API.</example>
+        public async Task<DeleteDrgRouteDistributionResponse> DeleteDrgRouteDistribution(DeleteDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called deleteDrgRouteDistribution");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}".Trim('/')));
+            HttpMethod method = new HttpMethod("DELETE");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<DeleteDrgRouteDistributionResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"DeleteDrgRouteDistribution failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Deletes the specified DRG route table. There must not be any DRG attachments assigned.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteDrgRouteTable.cs.html">here</a> to see an example of how to use DeleteDrgRouteTable API.</example>
+        public async Task<DeleteDrgRouteTableResponse> DeleteDrgRouteTable(DeleteDrgRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called deleteDrgRouteTable");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}".Trim('/')));
+            HttpMethod method = new HttpMethod("DELETE");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<DeleteDrgRouteTableResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"DeleteDrgRouteTable failed with error: {e.Message}");
                 throw;
             }
         }
@@ -2963,7 +3248,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Unassigns and deletes the specified IPv6. You must specify the object&#39;s OCID.
+        /// Unassigns and deletes the specified IPv6. You must specify the object&#39;s [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
         /// The IPv6 address is returned to the subnet&#39;s pool of available addresses.
         /// 
         /// </summary>
@@ -3145,7 +3430,7 @@ namespace Oci.CoreService
         /// automatically unassigned and deleted when the VNIC is terminated.
         /// &lt;br/&gt;
         /// **Important:** If a secondary private IP is the
-        /// [target of a route rule](https://docs.cloud.oracle.com/Content/Network/Tasks/managingroutetables.htm#privateip),
+        /// [target of a route rule](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm#privateip),
         /// unassigning it from the VNIC causes that route rule to blackhole and the traffic
         /// will be dropped.
         /// 
@@ -3243,7 +3528,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Deletes the specified public IP pool.
         /// To delete a public IP pool it must not have any active IP address allocations.
-        /// You must specify the object&#39;s [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) when deleting an IP pool.
+        /// You must specify the object&#39;s [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) when deleting an IP pool.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -3674,7 +3959,47 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Gets the &#x60;ByoipRange&#x60; resource. You must specify the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Returns a complete list of DRG attachments that belong to a particular DRG.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetAllDrgAttachments.cs.html">here</a> to see an example of how to use GetAllDrgAttachments API.</example>
+        public async Task<GetAllDrgAttachmentsResponse> GetAllDrgAttachments(GetAllDrgAttachmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called getAllDrgAttachments");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}/actions/getAllDrgAttachments".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<GetAllDrgAttachmentsResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetAllDrgAttachments failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Gets the &#x60;ByoipRange&#x60; resource. You must specify the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -4093,7 +4418,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Gets the information for the specified &#x60;DrgAttachment&#x60;.
+        /// Gets the &#x60;DrgAttachment&#x60; resource.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -4133,7 +4458,7 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Gets the redundancy status for the specified DRG. For more information, see
-        /// [Redundancy Remedies](https://docs.cloud.oracle.com/Content/Network/Troubleshoot/drgredundancy.htm).
+        /// [Redundancy Remedies](https://docs.cloud.oracle.com/iaas/Content/Network/Troubleshoot/drgredundancy.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -4173,8 +4498,86 @@ namespace Oci.CoreService
         }
 
         /// <summary>
+        /// Gets the specified route distribution&#39;s information.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetDrgRouteDistribution.cs.html">here</a> to see an example of how to use GetDrgRouteDistribution API.</example>
+        public async Task<GetDrgRouteDistributionResponse> GetDrgRouteDistribution(GetDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called getDrgRouteDistribution");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<GetDrgRouteDistributionResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetDrgRouteDistribution failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Gets the specified DRG route table&#39;s information.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetDrgRouteTable.cs.html">here</a> to see an example of how to use GetDrgRouteTable API.</example>
+        public async Task<GetDrgRouteTableResponse> GetDrgRouteTable(GetDrgRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called getDrgRouteTable");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<GetDrgRouteTableResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetDrgRouteTable failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Gets the specified provider service.
-        /// For more information, see [FastConnect Overview](https://docs.cloud.oracle.com/Content/Network/Concepts/fastconnect.htm).
+        /// For more information, see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -4561,7 +4964,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Gets the specified IPv6. You must specify the object&#39;s OCID.
+        /// Gets the specified IPv6. You must specify the object&#39;s [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
         /// Alternatively, you can get the object by using
         /// {@link #listIpv6s(ListIpv6sRequest) listIpv6s}
         /// with the IPv6 address (for example, 2001:0db8:0123:1111:98fe:dcba:9876:4321) and subnet OCID.
@@ -4723,6 +5126,45 @@ namespace Oci.CoreService
             catch (Exception e)
             {
                 logger.Error($"GetNetworkSecurityGroup failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Gets a virtual networking topology for the current region.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetNetworkingTopology.cs.html">here</a> to see an example of how to use GetNetworkingTopology API.</example>
+        public async Task<GetNetworkingTopologyResponse> GetNetworkingTopology(GetNetworkingTopologyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called getNetworkingTopology");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/networkingTopology".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<GetNetworkingTopologyResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetNetworkingTopology failed with error: {e.Message}");
                 throw;
             }
         }
@@ -4915,7 +5357,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Gets the specified &#x60;PublicIpPool&#x60; object. You must specify the object&#39;s [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Gets the specified &#x60;PublicIpPool&#x60; object. You must specify the object&#39;s [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -5292,6 +5734,46 @@ namespace Oci.CoreService
         }
 
         /// <summary>
+        /// Returns the DRG upgrade status. The status can be not updated, in progress, or updated. Also indicates how much of the upgrade is completed.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetUpgradeStatus.cs.html">here</a> to see an example of how to use GetUpgradeStatus API.</example>
+        public async Task<GetUpgradeStatusResponse> GetUpgradeStatus(GetUpgradeStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called getUpgradeStatus");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}/actions/upgradeStatus".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<GetUpgradeStatusResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetUpgradeStatus failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Gets the specified VCN&#39;s information.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -5365,6 +5847,45 @@ namespace Oci.CoreService
             catch (Exception e)
             {
                 logger.Error($"GetVcnDnsResolverAssociation failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Gets a virtual network topology for a given VCN.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVcnTopology.cs.html">here</a> to see an example of how to use GetVcnTopology API.</example>
+        public async Task<GetVcnTopologyResponse> GetVcnTopology(GetVcnTopologyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called getVcnTopology");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vcnTopology".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<GetVcnTopologyResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetVcnTopology failed with error: {e.Message}");
                 throw;
             }
         }
@@ -5492,7 +6013,7 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Lists the regions that support remote VCN peering (which is peering across regions).
-        /// For more information, see [VCN Peering](https://docs.cloud.oracle.com/Content/Network/Tasks/VCNpeering.htm).
+        /// For more information, see [VCN Peering](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/VCNpeering.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -5620,7 +6141,7 @@ namespace Oci.CoreService
         /// &lt;br/&gt;
         /// If you want to generate CPE configuration content for one of the returned CPE device types,
         /// ensure that the {@link Cpe} object&#39;s &#x60;cpeDeviceShapeId&#x60; attribute is set
-        /// to the CPE device type&#39;s OCID (returned by this operation).
+        /// to the CPE device type&#39;s [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) (returned by this operation).
         /// &lt;br/&gt;
         /// For information about generating CPE configuration content, see these operations:
         /// &lt;br/&gt;
@@ -5787,8 +6308,49 @@ namespace Oci.CoreService
         }
 
         /// <summary>
+        /// Lists the Cross Connect mapping Details for the specified
+        /// virtual circuit.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCrossConnectMappings.cs.html">here</a> to see an example of how to use ListCrossConnectMappings API.</example>
+        public async Task<ListCrossConnectMappingsResponse> ListCrossConnectMappings(ListCrossConnectMappingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called listCrossConnectMappings");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}/crossConnectMappings".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<ListCrossConnectMappingsResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListCrossConnectMappings failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Lists the cross-connects in the specified compartment. You can filter the list
-        /// by specifying the OCID of a cross-connect group.
+        /// by specifying the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of a cross-connect group.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -5913,8 +6475,12 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Lists the &#x60;DrgAttachment&#x60; objects for the specified compartment. You can filter the
-        /// results by VCN or DRG.
+        /// Lists the &#x60;DrgAttachment&#x60; resource for the specified compartment. You can filter the
+        /// results by DRG, attached network, attachment type, DRG route table or
+        /// VCN route table.
+        /// &lt;br/&gt;
+        /// The LIST API lists DRG attachments by attachment type. It will default to list VCN attachments,
+        /// but you may request to list ALL attachments of ALL types. 
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -5949,6 +6515,169 @@ namespace Oci.CoreService
             catch (Exception e)
             {
                 logger.Error($"ListDrgAttachments failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Lists the statements for the specified route distribution.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDrgRouteDistributionStatements.cs.html">here</a> to see an example of how to use ListDrgRouteDistributionStatements API.</example>
+        public async Task<ListDrgRouteDistributionStatementsResponse> ListDrgRouteDistributionStatements(ListDrgRouteDistributionStatementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called listDrgRouteDistributionStatements");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}/drgRouteDistributionStatements".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<ListDrgRouteDistributionStatementsResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListDrgRouteDistributionStatements failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Lists the route distributions in the specified DRG.
+        /// &lt;br/&gt;
+        /// To retrieve the statements in a distribution, use the
+        /// ListDrgRouteDistributionStatements operation.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDrgRouteDistributions.cs.html">here</a> to see an example of how to use ListDrgRouteDistributions API.</example>
+        public async Task<ListDrgRouteDistributionsResponse> ListDrgRouteDistributions(ListDrgRouteDistributionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called listDrgRouteDistributions");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<ListDrgRouteDistributionsResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListDrgRouteDistributions failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Lists the route rules in the specified DRG route table.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDrgRouteRules.cs.html">here</a> to see an example of how to use ListDrgRouteRules API.</example>
+        public async Task<ListDrgRouteRulesResponse> ListDrgRouteRules(ListDrgRouteRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called listDrgRouteRules");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}/drgRouteRules".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<ListDrgRouteRulesResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListDrgRouteRules failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Lists the DRG route tables for the specified DRG.
+        /// &lt;br/&gt;
+        /// Use the &#x60;ListDrgRouteRules&#x60; operation to retrieve the route rules in a table.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDrgRouteTables.cs.html">here</a> to see an example of how to use ListDrgRouteTables API.</example>
+        public async Task<ListDrgRouteTablesResponse> ListDrgRouteTables(ListDrgRouteTablesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called listDrgRouteTables");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<ListDrgRouteTablesResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListDrgRouteTables failed with error: {e.Message}");
                 throw;
             }
         }
@@ -5998,9 +6727,9 @@ namespace Oci.CoreService
         /// information so you can specify your desired provider and service
         /// offering when you create a virtual circuit.
         /// &lt;br/&gt;
-        /// For the compartment ID, provide the OCID of your tenancy (the root compartment).
+        /// For the compartment ID, provide the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of your tenancy (the root compartment).
         /// &lt;br/&gt;
-        /// For more information, see [FastConnect Overview](https://docs.cloud.oracle.com/Content/Network/Concepts/fastconnect.htm).
+        /// For more information, see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -6043,7 +6772,7 @@ namespace Oci.CoreService
         /// Gets the list of available virtual circuit bandwidth levels for a provider.
         /// You need this information so you can specify your desired bandwidth level (shape) when you create a virtual circuit.
         /// &lt;br/&gt;
-        /// For more information about virtual circuits, see [FastConnect Overview](https://docs.cloud.oracle.com/Content/Network/Concepts/fastconnect.htm).
+        /// For more information about virtual circuits, see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -6414,7 +7143,8 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Lists the network security groups in the specified compartment.
+        /// Lists either the network security groups in the specified compartment, or those associated with the specified VLAN.
+        /// You must specify either a &#x60;vlanId&#x60; or a &#x60;compartmentId&#x60;, but not both. If you specify a &#x60;vlanId&#x60;, all other parameters are ignored.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -7106,6 +7836,167 @@ namespace Oci.CoreService
         }
 
         /// <summary>
+        /// Removes one or more route distribution statements from the specified route distribution&#39;s map.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveDrgRouteDistributionStatements.cs.html">here</a> to see an example of how to use RemoveDrgRouteDistributionStatements API.</example>
+        public async Task<RemoveDrgRouteDistributionStatementsResponse> RemoveDrgRouteDistributionStatements(RemoveDrgRouteDistributionStatementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called removeDrgRouteDistributionStatements");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}/actions/removeDrgRouteDistributionStatements".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<RemoveDrgRouteDistributionStatementsResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"RemoveDrgRouteDistributionStatements failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Removes one or more route rules from the specified DRG route table.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveDrgRouteRules.cs.html">here</a> to see an example of how to use RemoveDrgRouteRules API.</example>
+        public async Task<RemoveDrgRouteRulesResponse> RemoveDrgRouteRules(RemoveDrgRouteRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called removeDrgRouteRules");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}/actions/removeDrgRouteRules".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<RemoveDrgRouteRulesResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"RemoveDrgRouteRules failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Removes the export route distribution from the DRG attachment so no routes are advertised to it.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveExportDrgRouteDistribution.cs.html">here</a> to see an example of how to use RemoveExportDrgRouteDistribution API.</example>
+        public async Task<RemoveExportDrgRouteDistributionResponse> RemoveExportDrgRouteDistribution(RemoveExportDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called removeExportDrgRouteDistribution");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgAttachments/{drgAttachmentId}/actions/removeExportDrgRouteDistribution".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<RemoveExportDrgRouteDistributionResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"RemoveExportDrgRouteDistribution failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Removes the import route distribution from the DRG route table so no routes are imported
+        /// into it.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveImportDrgRouteDistribution.cs.html">here</a> to see an example of how to use RemoveImportDrgRouteDistribution API.</example>
+        public async Task<RemoveImportDrgRouteDistributionResponse> RemoveImportDrgRouteDistribution(RemoveImportDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called removeImportDrgRouteDistribution");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}/actions/removeImportDrgRouteDistribution".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<RemoveImportDrgRouteDistributionResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"RemoveImportDrgRouteDistribution failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Removes one or more security rules from the specified network security group.
         /// 
         /// </summary>
@@ -7474,7 +8365,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Updates the display name for the specified &#x60;DrgAttachment&#x60;.
+        /// Updates the display name and routing information for the specified &#x60;DrgAttachment&#x60;.
         /// Avoid entering confidential information.
         /// 
         /// </summary>
@@ -7510,6 +8401,166 @@ namespace Oci.CoreService
             catch (Exception e)
             {
                 logger.Error($"UpdateDrgAttachment failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Updates the specified route distribution
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDrgRouteDistribution.cs.html">here</a> to see an example of how to use UpdateDrgRouteDistribution API.</example>
+        public async Task<UpdateDrgRouteDistributionResponse> UpdateDrgRouteDistribution(UpdateDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called updateDrgRouteDistribution");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}".Trim('/')));
+            HttpMethod method = new HttpMethod("PUT");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<UpdateDrgRouteDistributionResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"UpdateDrgRouteDistribution failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Updates one or more route distribution statements in the specified route distribution.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDrgRouteDistributionStatements.cs.html">here</a> to see an example of how to use UpdateDrgRouteDistributionStatements API.</example>
+        public async Task<UpdateDrgRouteDistributionStatementsResponse> UpdateDrgRouteDistributionStatements(UpdateDrgRouteDistributionStatementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called updateDrgRouteDistributionStatements");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}/actions/updateDrgRouteDistributionStatements".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<UpdateDrgRouteDistributionStatementsResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"UpdateDrgRouteDistributionStatements failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Updates one or more route rules in the specified DRG route table.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDrgRouteRules.cs.html">here</a> to see an example of how to use UpdateDrgRouteRules API.</example>
+        public async Task<UpdateDrgRouteRulesResponse> UpdateDrgRouteRules(UpdateDrgRouteRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called updateDrgRouteRules");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}/actions/updateDrgRouteRules".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<UpdateDrgRouteRulesResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"UpdateDrgRouteRules failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Updates the specified DRG route table.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDrgRouteTable.cs.html">here</a> to see an example of how to use UpdateDrgRouteTable API.</example>
+        public async Task<UpdateDrgRouteTableResponse> UpdateDrgRouteTable(UpdateDrgRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called updateDrgRouteTable");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}".Trim('/')));
+            HttpMethod method = new HttpMethod("PUT");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<UpdateDrgRouteTableResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"UpdateDrgRouteTable failed with error: {e.Message}");
                 throw;
             }
         }
@@ -8002,7 +9053,7 @@ namespace Oci.CoreService
         /// a VNIC or instance can have. If you try to move a reserved public IP
         /// to a VNIC or instance that has already reached its public IP limit, an error is
         /// returned. For information about the public IP limits, see
-        /// [Public IP Addresses](https://docs.cloud.oracle.com/Content/Network/Tasks/managingpublicIPs.htm).
+        /// [Public IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -8387,7 +9438,7 @@ namespace Oci.CoreService
         /// its state will return to PROVISIONED. Make sure you confirm that
         /// the associated BGP session is back up. For more information
         /// about the various states and how to test connectivity, see
-        /// [FastConnect Overview](https://docs.cloud.oracle.com/Content/Network/Concepts/fastconnect.htm).
+        /// [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// &lt;br/&gt;
         /// To change the list of public IP prefixes for a public virtual circuit,
         /// use {@link #bulkAddVirtualCircuitPublicPrefixes(BulkAddVirtualCircuitPublicPrefixesRequest) bulkAddVirtualCircuitPublicPrefixes}
@@ -8516,8 +9567,49 @@ namespace Oci.CoreService
         }
 
         /// <summary>
+        /// Upgrades the DRG. After upgrade, you can control routing inside your DRG
+        /// via DRG attachments, route distributions, and DRG route tables.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpgradeDrg.cs.html">here</a> to see an example of how to use UpgradeDrg API.</example>
+        public async Task<UpgradeDrgResponse> UpgradeDrg(UpgradeDrgRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            logger.Trace("Called upgradeDrg");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}/actions/upgrade".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage).ConfigureAwait(false);
+                }
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage);
+
+                return Converter.FromHttpResponseMessage<UpgradeDrgResponse>(responseMessage);
+            }
+            catch (Exception e)
+            {
+                logger.Error($"UpgradeDrg failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Submits the BYOIP CIDR block you are importing for validation. Do not submit to Oracle for validation if you have not already
-        /// modified the information for the BYOIP CIDR block with your Regional Internet Registry. See [To import a CIDR block](https://docs.cloud.oracle.com/Content/Network/Concepts/BYOIP.htm#import_cidr) for details.
+        /// modified the information for the BYOIP CIDR block with your Regional Internet Registry. See [To import a CIDR block](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/BYOIP.htm#import_cidr) for details.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>

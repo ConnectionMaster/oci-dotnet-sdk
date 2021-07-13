@@ -20,7 +20,7 @@ namespace Oci.CoreService.Requests
     {
         
         /// <value>
-        /// The OCID of the virtual circuit.
+        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the virtual circuit.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,9 @@ namespace Oci.CoreService.Requests
         public string VirtualCircuitId { get; set; }
         
         /// <value>
-        /// A filter to only return resources that match the given verification state.
+        /// A filter to only return resources that match the given verification
+        /// state.
+        /// <br/>
         /// The state value is case-insensitive.
         /// 
         /// </value>

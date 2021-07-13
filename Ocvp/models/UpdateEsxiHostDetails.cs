@@ -32,6 +32,17 @@ namespace Oci.OcvpService.Models
         public string DisplayName { get; set; }
         
         /// <value>
+        /// Billing option to switch to after the existing billing cycle ends.
+        /// Oracle Cloud Infrastructure VMware Solution supports the following billing interval SKUs:
+        /// HOUR, MONTH, ONE_YEAR, and THREE_YEARS.
+        /// {@link #listSupportedSkus(ListSupportedSkusRequest) listSupportedSkus}.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "nextSku")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<Sku> NextSku { get; set; }
+        
+        /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
         /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
         /// <br/>

@@ -32,14 +32,11 @@ namespace Oci.CoreService.Models
     /// if that tunnel's `routing` attribute = `STATIC`. Otherwise the static routes are ignored.
     /// <br/>
     /// For more information about the workflow for setting up an IPSec connection, see
-    /// [IPSec VPN](https://docs.cloud.oracle.com/Content/Network/Tasks/managingIPsec.htm).
+    /// [IPSec VPN](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingIPsec.htm).
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,
     /// talk to an administrator. If you're an administrator who needs to write policies to give users access, see
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/Content/Identity/Concepts/policygetstarted.htm).
-    /// <br/>
-    /// **Warning:** Oracle recommends that you avoid using any confidential information when you
-    /// supply string values using the API.
+    /// [Getting Started with Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// 
     /// </summary>
     public class IPSecConnection 
@@ -67,7 +64,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -83,7 +80,7 @@ namespace Oci.CoreService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The OCID of the DRG.
+        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the DRG.
         /// </value>
         /// <remarks>
         /// Required
@@ -94,7 +91,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -102,7 +99,7 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
         
         /// <value>
-        /// The IPSec connection's Oracle ID (OCID).
+        /// The IPSec connection's Oracle ID ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)).
         /// </value>
         /// <remarks>
         /// Required
@@ -146,7 +143,7 @@ namespace Oci.CoreService.Models
         /// for the {@link Cpe} object specified by `cpeId` is used as the `cpeLocalIdentifier`.
         /// <br/>
         /// For information about why you'd provide this value, see
-        /// [If Your CPE Is Behind a NAT Device](https://docs.cloud.oracle.com/Content/Network/Tasks/overviewIPsec.htm#nat).
+        /// [If Your CPE Is Behind a NAT Device](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/overviewIPsec.htm#nat).
         /// <br/>
         /// Example IP address: `10.0.3.3`
         /// <br/>
@@ -187,8 +184,8 @@ namespace Oci.CoreService.Models
         /// you must provide at least one valid static route. If you configure both
         /// tunnels to use BGP dynamic routing, you can provide an empty list for the static routes.
         /// <br/>
-        /// The CIDR can be either IPv4 or IPv6. Note that IPv6 addressing is currently supported only
-        /// in certain regions. See [IPv6 Addresses](https://docs.cloud.oracle.com/Content/Network/Concepts/ipv6.htm).
+        /// The CIDR can be either IPv4 or IPv6. IPv6 addressing is supported for all commercial and government regions.
+        /// See [IPv6 Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
         /// <br/>
         /// Example: 10.0.1.0/24
         /// </value>

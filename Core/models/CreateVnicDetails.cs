@@ -19,7 +19,7 @@ namespace Oci.CoreService.Models
     /// Contains properties for a VNIC. You use this object when creating the
     /// primary VNIC during instance launch or when creating a secondary VNIC.
     /// For more information about VNICs, see
-    /// [Virtual Network Interface Cards (VNICs)](https://docs.cloud.oracle.com/Content/Network/Tasks/managingVNICs.htm).
+    /// [Virtual Network Interface Cards (VNICs)](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingVNICs.htm).
     /// 
     /// </summary>
     public class CreateVnicDetails 
@@ -36,23 +36,34 @@ namespace Oci.CoreService.Models
         /// <br/>
         /// **Note:** This public IP address is associated with the primary private IP
         /// on the VNIC. For more information, see
-        /// [IP Addresses](https://docs.cloud.oracle.com/Content/Network/Tasks/managingIPaddresses.htm).
+        /// [IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingIPaddresses.htm).
         /// <br/>
         /// **Note:** There's a limit to the number of {@link PublicIp}
         /// a VNIC or instance can have. If you try to create a secondary VNIC
         /// with an assigned public IP for an instance that has already
         /// reached its public IP limit, an error is returned. For information
         /// about the public IP limits, see
-        /// [Public IP Addresses](https://docs.cloud.oracle.com/Content/Network/Tasks/managingpublicIPs.htm).
+        /// [Public IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
         /// <br/>
-        /// Example: falseIf you specify a vlanId, the assignPublicIp is required to be set to false. See{@link Vlan}.
+        /// Example: falseIf you specify a vlanId, then assignPublicIp must be set to false. See{@link Vlan}.
         /// </value>
         [JsonProperty(PropertyName = "assignPublicIp")]
         public System.Nullable<bool> AssignPublicIp { get; set; }
         
         /// <value>
+        /// Whether the VNIC should be assigned a DNS record. If set to false, there will be no DNS record
+        /// registration for the VNIC. If set to true, the DNS record will be registered. The default
+        /// value is true.
+        /// <br/>
+        /// If you specify a `hostnameLabel`, then `assignPrivateDnsRecord` must be set to true.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "assignPrivateDnsRecord")]
+        public System.Nullable<bool> AssignPrivateDnsRecord { get; set; }
+        
+        /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -69,7 +80,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -89,14 +100,14 @@ namespace Oci.CoreService.Models
         /// {@link #getPrivateIp(GetPrivateIpRequest) getPrivateIp}.
         /// <br/>
         /// For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// <br/>
         /// When launching an instance, use this `hostnameLabel` instead
         /// of the deprecated `hostnameLabel` in
         /// {@link #launchInstanceDetails(LaunchInstanceDetailsRequest) launchInstanceDetails}.
         /// If you provide both, the values must match.
         /// <br/>
-        /// Example: bminstance-1If you specify a vlanId, the hostnameLabel cannot be specified. vnics on a Vlancan not be assigned a hostname  See {@link Vlan}.
+        /// Example: bminstance-1If you specify a vlanId, the hostnameLabel cannot be specified. VNICs on a VLANcan not be assigned a hostname. See {@link Vlan}.
         /// </value>
         [JsonProperty(PropertyName = "hostnameLabel")]
         public string HostnameLabel { get; set; }
@@ -138,7 +149,7 @@ namespace Oci.CoreService.Models
         /// Whether the source/destination check is disabled on the VNIC.
         /// Defaults to `false`, which means the check is performed. For information
         /// about why you would skip the source/destination check, see
-        /// [Using a Private IP as a Route Target](https://docs.cloud.oracle.com/Content/Network/Tasks/managingroutetables.htm#privateip).
+        /// [Using a Private IP as a Route Target](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm#privateip).
         /// <br/>
         /// 
         /// If you specify a `vlanId`, the `skipSourceDestCheck` cannot be specified because the

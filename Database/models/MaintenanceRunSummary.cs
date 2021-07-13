@@ -59,7 +59,8 @@ namespace Oci.DatabaseService.Models
         public string Description { get; set; }
                 ///
         /// <value>
-        /// The current state of the maintenance run.
+        /// The current state of the maintenance run. For Autonomous Database on shared Exadata infrastructure, valid states are IN_PROGRESS, SUCCEEDED and FAILED.
+        /// 
         /// </value>
         ///
         public enum LifecycleStateEnum {
@@ -78,11 +79,14 @@ namespace Oci.DatabaseService.Models
             [EnumMember(Value = "DELETING")]
             Deleting,
             [EnumMember(Value = "DELETED")]
-            Deleted
+            Deleted,
+            [EnumMember(Value = "CANCELED")]
+            Canceled
         };
 
         /// <value>
-        /// The current state of the maintenance run.
+        /// The current state of the maintenance run. For Autonomous Database on shared Exadata infrastructure, valid states are IN_PROGRESS, SUCCEEDED and FAILED.
+        /// 
         /// </value>
         /// <remarks>
         /// Required
@@ -134,7 +138,9 @@ namespace Oci.DatabaseService.Models
             [EnumMember(Value = "CLOUD_EXADATA_INFRASTRUCTURE")]
             CloudExadataInfrastructure,
             [EnumMember(Value = "EXACC_INFRASTRUCTURE")]
-            ExaccInfrastructure
+            ExaccInfrastructure,
+            [EnumMember(Value = "AUTONOMOUS_DATABASE")]
+            AutonomousDatabase
         };
 
         /// <value>
@@ -169,7 +175,7 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<MaintenanceTypeEnum> MaintenanceType { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the patch to be applied in the maintenance run.
+        /// The unique identifier of the patch. The identifier string includes the patch type, the Oracle Database version, and the patch creation date (using the format YYMMDD). For example, the identifier `ru_patch_19.9.0.0_201030` is used for an RU patch for Oracle Database 19.9.0.0 that was released October 30, 2020.
         /// </value>
         [JsonProperty(PropertyName = "patchId")]
         public string PatchId { get; set; }
@@ -184,7 +190,13 @@ namespace Oci.DatabaseService.Models
             [EnumMember(Value = "HARDWARE")]
             Hardware,
             [EnumMember(Value = "CRITICAL")]
-            Critical
+            Critical,
+            [EnumMember(Value = "INFRASTRUCTURE")]
+            Infrastructure,
+            [EnumMember(Value = "DATABASE")]
+            Database,
+            [EnumMember(Value = "ONEOFF")]
+            Oneoff
         };
 
         /// <value>
@@ -199,6 +211,36 @@ namespace Oci.DatabaseService.Models
         /// </value>
         [JsonProperty(PropertyName = "peerMaintenanceRunId")]
         public string PeerMaintenanceRunId { get; set; }
+                ///
+        /// <value>
+        /// Cloud Exadata infrastructure node patching method, either \"ROLLING\" or \"NONROLLING\". Default value is ROLLING.
+        /// <br/>
+        /// *IMPORTANT*: Non-rolling infrastructure patching involves system down time. See [Oracle-Managed Infrastructure Maintenance Updates](https://docs.cloud.oracle.com/iaas/Content/Database/Concepts/examaintenance.htm#Oracle) for more information.
+        /// 
+        /// </value>
+        ///
+        public enum PatchingModeEnum {
+            [EnumMember(Value = "ROLLING")]
+            Rolling,
+            [EnumMember(Value = "NONROLLING")]
+            Nonrolling
+        };
+
+        /// <value>
+        /// Cloud Exadata infrastructure node patching method, either \"ROLLING\" or \"NONROLLING\". Default value is ROLLING.
+        /// <br/>
+        /// *IMPORTANT*: Non-rolling infrastructure patching involves system down time. See [Oracle-Managed Infrastructure Maintenance Updates](https://docs.cloud.oracle.com/iaas/Content/Database/Concepts/examaintenance.htm#Oracle) for more information.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "patchingMode")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<PatchingModeEnum> PatchingMode { get; set; }
+        
+        /// <value>
+        /// Contain the patch failure count.
+        /// </value>
+        [JsonProperty(PropertyName = "patchFailureCount")]
+        public System.Nullable<int> PatchFailureCount { get; set; }
         
     }
 }

@@ -48,14 +48,16 @@ namespace Oci.MysqlService.Requests
             [EnumMember(Value = "DBSYSTEM")]
             Dbsystem,
             [EnumMember(Value = "ANALYTICSCLUSTER")]
-            Analyticscluster
+            Analyticscluster,
+            [EnumMember(Value = "HEATWAVECLUSTER")]
+            Heatwavecluster
         };
 
         /// <value>
         /// Return shapes that are supported by the service feature.
         /// 
         /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "isSupportedFor")]
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "isSupportedFor", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<IsSupportedForEnum> IsSupportedFor { get; set; }
         
         /// <value>

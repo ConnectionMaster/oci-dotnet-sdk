@@ -25,7 +25,7 @@ namespace Oci.CoreService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment containing the tunnel.
+        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the tunnel.
         /// 
         /// </value>
         /// <remarks>
@@ -36,7 +36,7 @@ namespace Oci.CoreService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the tunnel.
+        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the tunnel.
         /// </value>
         /// <remarks>
         /// Required
@@ -71,7 +71,9 @@ namespace Oci.CoreService.Models
             [EnumMember(Value = "DOWN")]
             Down,
             [EnumMember(Value = "DOWN_FOR_MAINTENANCE")]
-            DownForMaintenance
+            DownForMaintenance,
+            [EnumMember(Value = "PARTIAL_UP")]
+            PartialUp
         };
 
         /// <value>
@@ -137,6 +139,9 @@ namespace Oci.CoreService.Models
         
         [JsonProperty(PropertyName = "bgpSessionInfo")]
         public BgpSessionInfo BgpSessionInfo { get; set; }
+        
+        [JsonProperty(PropertyName = "encryptionDomainConfig")]
+        public EncryptionDomainConfig EncryptionDomainConfig { get; set; }
                 ///
         /// <value>
         /// The type of routing used for this tunnel (either BGP dynamic routing or static routing).
@@ -147,7 +152,9 @@ namespace Oci.CoreService.Models
             [EnumMember(Value = "BGP")]
             Bgp,
             [EnumMember(Value = "STATIC")]
-            Static
+            Static,
+            [EnumMember(Value = "POLICY")]
+            Policy
         };
 
         /// <value>
