@@ -37,7 +37,7 @@ namespace Oci.LoganalyticsService.Models
         public string AgentVersion { get; set; }
         
         /// <value>
-        /// A flag idicating whether or not hte filter is currently being used.
+        /// A flag indicating whether or not the filter is currently being used.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isInUse")]

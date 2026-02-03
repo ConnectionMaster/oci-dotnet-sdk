@@ -227,6 +227,42 @@ namespace Oci.DatabaseService.Models
         /// </value>
         [JsonProperty(PropertyName = "exascaleDbStorageVaultId")]
         public string ExascaleDbStorageVaultId { get; set; }
+                ///
+        /// <value>
+        /// Specifies the type of file system storage and supported values are LOCAL and EXASCALE. - LOCAL if selected then file system storage will be on DB Servers. - EXASCALE if selected then file system storage will be on Exascale Storage Servers. Default Value is LOCAL
+        /// </value>
+        ///
+        public enum VmFileSystemStorageTypeEnum {
+            [EnumMember(Value = "LOCAL")]
+            Local,
+            [EnumMember(Value = "EXASCALE")]
+            Exascale
+        };
+
+        /// <value>
+        /// Specifies the type of file system storage and supported values are LOCAL and EXASCALE. - LOCAL if selected then file system storage will be on DB Servers. - EXASCALE if selected then file system storage will be on Exascale Storage Servers. Default Value is LOCAL
+        /// </value>
+        [JsonProperty(PropertyName = "vmFileSystemStorageType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<VmFileSystemStorageTypeEnum> VmFileSystemStorageType { get; set; }
+                ///
+        /// <value>
+        /// Specifies the type of VM Backups Storage and supported values are LOCAL and EXASCALE. - LOCAL if selected then VM Backups storage will be on DB Servers. - EXASCALE if selected then VM Backups storage will be on Exascale Storage Servers. Default Value is LOCAL
+        /// </value>
+        ///
+        public enum VmBackupStorageTypeEnum {
+            [EnumMember(Value = "LOCAL")]
+            Local,
+            [EnumMember(Value = "EXASCALE")]
+            Exascale
+        };
+
+        /// <value>
+        /// Specifies the type of VM Backups Storage and supported values are LOCAL and EXASCALE. - LOCAL if selected then VM Backups storage will be on DB Servers. - EXASCALE if selected then VM Backups storage will be on Exascale Storage Servers. Default Value is LOCAL
+        /// </value>
+        [JsonProperty(PropertyName = "vmBackupStorageType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<VmBackupStorageTypeEnum> VmBackupStorageType { get; set; }
         
     }
 }

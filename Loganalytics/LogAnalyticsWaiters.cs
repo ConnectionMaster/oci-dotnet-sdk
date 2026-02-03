@@ -172,6 +172,33 @@ namespace Oci.LoganalyticsService
         /// <param name="request">Request to send.</param>
         /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetNamespaceRequest, GetNamespaceResponse> ForNamespace(GetNamespaceRequest request, params Namespace.LifecycleStateEnum[] targetStates)
+        {
+            return this.ForNamespace(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetNamespaceRequest, GetNamespaceResponse> ForNamespace(GetNamespaceRequest request, WaiterConfiguration config, params Namespace.LifecycleStateEnum[] targetStates)
+        {
+            var agent = new WaiterAgent<GetNamespaceRequest, GetNamespaceResponse>(
+                request,
+                request => client.GetNamespace(request),
+                response => targetStates.Contains(response.Namespace.LifecycleState.Value)
+            );
+            return new Waiter<GetNamespaceRequest, GetNamespaceResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<GetQueryWorkRequestRequest, GetQueryWorkRequestResponse> ForQueryWorkRequest(GetQueryWorkRequestRequest request, params WorkRequestStatus[] targetStates)
         {
             return this.ForQueryWorkRequest(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);

@@ -20,7 +20,7 @@ namespace Oci.LoganalyticsService.Requests
     {
         
         /// <value>
-        /// The Logging Analytics namespace used for the request.
+        /// The Log Analytics namespace used for the request. The namespace can be obtained by running 'oci os ns get'
         /// 
         /// </value>
         /// <remarks>
@@ -31,7 +31,7 @@ namespace Oci.LoganalyticsService.Requests
         public string NamespaceName { get; set; }
         
         /// <value>
-        /// The label name.
+        /// The label name. Label name can be obtained by running 'oci log-analytics label list-labels --namespace-name <namespace>'. The json output 'name' parameter value contains the label name.
         /// </value>
         /// <remarks>
         /// Required

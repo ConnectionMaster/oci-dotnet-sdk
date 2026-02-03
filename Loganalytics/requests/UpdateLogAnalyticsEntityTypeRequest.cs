@@ -20,7 +20,7 @@ namespace Oci.LoganalyticsService.Requests
     {
         
         /// <value>
-        /// The Logging Analytics namespace used for the request.
+        /// The Log Analytics namespace used for the request. The namespace can be obtained by running 'oci os ns get'
         /// 
         /// </value>
         /// <remarks>
@@ -41,7 +41,7 @@ namespace Oci.LoganalyticsService.Requests
         public UpdateLogAnalyticsEntityTypeDetails UpdateLogAnalyticsEntityTypeDetails { get; set; }
         
         /// <value>
-        /// Log analytics entity type name.
+        /// Log analytics entity type name. Entity type name can be obtained by running 'oci log-analytics entity-type list --namespace-name <namespacename> --all'. The json output 'internal-name' parameter value contains the entity type name.
         /// 
         /// </value>
         /// <remarks>

@@ -171,7 +171,7 @@ namespace Oci.LoganalyticsService.Models
         public System.Nullable<bool> IsAutoAssociationEnabled { get; set; }
         
         /// <value>
-        /// A flag indicating whether or not the auto-association state should be overriden.
+        /// A flag indicating whether or not the auto-association state should be overridden.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isAutoAssociationOverride")]
@@ -208,7 +208,7 @@ namespace Oci.LoganalyticsService.Models
         public System.Collections.Generic.List<LogAnalyticsSourceMetadataField> MetadataFields { get; set; }
         
         /// <value>
-        /// The labls used by the source.
+        /// The labels used by the source.
         /// </value>
         [JsonProperty(PropertyName = "labelDefinitions")]
         public System.Collections.Generic.List<LogAnalyticsLabelDefinition> LabelDefinitions { get; set; }
@@ -263,6 +263,29 @@ namespace Oci.LoganalyticsService.Models
         /// </value>
         [JsonProperty(PropertyName = "sourceProperties")]
         public System.Collections.Generic.List<LogAnalyticsProperty> SourceProperties { get; set; }
+                ///
+        /// <value>
+        /// The current state of the Log Analytics source.
+        /// 
+        /// </value>
+        ///
+        public enum LifecycleStateEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "ACTIVE")]
+            Active,
+            [EnumMember(Value = "DELETED")]
+            Deleted
+        };
+
+        /// <value>
+        /// The current state of the Log Analytics source.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "lifecycleState")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<LifecycleStateEnum> LifecycleState { get; set; }
         
     }
 }

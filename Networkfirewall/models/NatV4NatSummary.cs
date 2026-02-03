@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.NetworkfirewallService.Models
 {
     /// <summary>
-    /// Request for updating NATV4 type Nat Rule used in the firewall policy.
+    /// Request for updating NATv4 type NAT rule used in the firewall policy.
     /// 
     /// </summary>
     public class NatV4NatSummary : NatRuleSummary

@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.LoganalyticsService.Models
 {
     /// <summary>
-    /// A collection of Logging Analytics ingest time rules.
+    /// A collection of Log Analytics ingest time rules.
     /// </summary>
     public class IngestTimeRuleSummaryCollection 
     {

@@ -87,6 +87,12 @@ namespace Oci.NetworkfirewallService.Models
         public NatConfigurationRequest NatConfiguration { get; set; }
         
         /// <value>
+        /// The shape of a firewall to determine the bandwidth that the firewall allows.
+        /// </value>
+        [JsonProperty(PropertyName = "shape")]
+        public string Shape { get; set; }
+        
+        /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
         /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}

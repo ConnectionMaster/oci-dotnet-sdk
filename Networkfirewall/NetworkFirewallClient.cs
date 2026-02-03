@@ -471,7 +471,7 @@ namespace Oci.NetworkfirewallService
         }
 
         /// <summary>
-        /// Creates a new NAT Rule at bulk for the Network Firewall Policy.
+        /// Creates a new [NAT rule](https://docs.cloud.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) at bulk for the Network Firewall policy.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -508,7 +508,7 @@ namespace Oci.NetworkfirewallService
                     ServiceName = "NetworkFirewall",
                     OperationName = "BulkUploadNatRules",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/network-firewall/20230501/natRule/BulkUploadNatRules",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/network-firewall/20230501/NatRule/BulkUploadNatRules",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1379,7 +1379,7 @@ namespace Oci.NetworkfirewallService
         }
 
         /// <summary>
-        /// Creates a new NAT Rule for the Network Firewall Policy.
+        /// Creates a new [NAT rule](https://docs.cloud.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) for the Network Firewall policy.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2171,7 +2171,7 @@ namespace Oci.NetworkfirewallService
         }
 
         /// <summary>
-        /// Deletes a NAT Rule resource with the given identifier.
+        /// Deletes a [NAT rule](https://docs.cloud.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) resource with the given identifier.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -2955,7 +2955,7 @@ namespace Oci.NetworkfirewallService
         }
 
         /// <summary>
-        /// Get NAT Rule by the given name in the context of network firewall policy.
+        /// Get a [NAT rule](https://docs.cloud.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) by the given name in the context of Network Firewall policy.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -3801,7 +3801,7 @@ namespace Oci.NetworkfirewallService
         }
 
         /// <summary>
-        /// Returns a list of NAT Rules for the Network Firewall Policy.
+        /// Returns a list of [NAT rules](https://docs.cloud.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) for the Network Firewall policy.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -4820,7 +4820,7 @@ namespace Oci.NetworkfirewallService
         }
 
         /// <summary>
-        /// Updates the NAT Rule with the given name in the network firewall policy.
+        /// Updates the [NAT rule](https://docs.cloud.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) with the given name in the Network Firewall policy.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>

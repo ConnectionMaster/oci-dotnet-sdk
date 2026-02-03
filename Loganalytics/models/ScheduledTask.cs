@@ -61,6 +61,13 @@ namespace Oci.LoganalyticsService.Models
         public string DisplayName { get; set; }
         
         /// <value>
+        /// Description for this resource.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "description")]
+        public string Description { get; set; }
+        
+        /// <value>
         /// Task type.
         /// </value>
         /// <remarks>
@@ -128,7 +135,9 @@ namespace Oci.LoganalyticsService.Models
             [EnumMember(Value = "TENANCY_LIFECYCLE")]
             TenancyLifecycle,
             [EnumMember(Value = "PURGE_RESOURCE_NOT_FOUND")]
-            PurgeResourceNotFound
+            PurgeResourceNotFound,
+            [EnumMember(Value = "LIMIT_EXCEEDED")]
+            LimitExceeded
         };
 
         /// <value>

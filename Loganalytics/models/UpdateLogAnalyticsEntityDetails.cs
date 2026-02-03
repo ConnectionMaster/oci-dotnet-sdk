@@ -83,5 +83,13 @@ namespace Oci.LoganalyticsService.Models
         [JsonProperty(PropertyName = "metadata")]
         public LogAnalyticsMetadataDetails Metadata { get; set; }
         
+        /// <value>
+        /// The OCID of the Cloud resource which this entity is a representation of. This may be blank when the entity
+        /// represents a non-cloud resource that the customer may have on their premises.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "cloudResourceId")]
+        public string CloudResourceId { get; set; }
+        
     }
 }

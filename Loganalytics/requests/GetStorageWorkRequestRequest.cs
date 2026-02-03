@@ -20,7 +20,7 @@ namespace Oci.LoganalyticsService.Requests
     {
         
         /// <value>
-        /// Work Request Identifier [OCID] (https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the asynchronous request.
+        /// Work Request Identifier [OCID] (https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the asynchronous request. The work request id can be usually obtained from the 'opc-work-request-id' response header of the asynchronous request.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.LoganalyticsService.Requests
         public string WorkRequestId { get; set; }
         
         /// <value>
-        /// The Logging Analytics namespace used for the request.
+        /// The Log Analytics namespace used for the request. The namespace can be obtained by running 'oci os ns get'
         /// 
         /// </value>
         /// <remarks>

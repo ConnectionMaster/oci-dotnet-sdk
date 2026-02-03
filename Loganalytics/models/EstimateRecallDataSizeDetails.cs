@@ -54,5 +54,13 @@ namespace Oci.LoganalyticsService.Models
         [JsonProperty(PropertyName = "isRecallNewDataOnly")]
         public System.Nullable<bool> IsRecallNewDataOnly { get; set; }
         
+        /// <value>
+        /// This is the existing recalled data collection ID, to be used only for recalling new data.
+        /// If specified, the recall new data will be estimated only for this collection
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "collectionId")]
+        public System.Nullable<long> CollectionId { get; set; }
+        
     }
 }

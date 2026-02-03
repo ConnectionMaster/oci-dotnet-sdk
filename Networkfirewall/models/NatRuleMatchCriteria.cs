@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.NetworkfirewallService.Models
 {
     /// <summary>
-    /// Match criteria used in NAT Rule used on the firewall policy.
+    /// Match criteria used in NAT rule used on the firewall policy.
     /// </summary>
     public class NatRuleMatchCriteria 
     {

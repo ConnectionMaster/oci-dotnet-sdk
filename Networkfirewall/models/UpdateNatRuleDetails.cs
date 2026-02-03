@@ -16,8 +16,8 @@ using Newtonsoft.Json.Linq;
 namespace Oci.NetworkfirewallService.Models
 {
     /// <summary>
-    /// Request for updating NAT Rule used in the firewall policy.
-    /// A Nat Rule is used to define to which traffic NAT should be applied by the firewall, and how it should do so.
+    /// Request for updating a NAT rule used in the firewall policy.
+    /// A [NAT rule](https://docs.cloud.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) defines which traffic NAT should be applied to by the firewall, and how it should do so.
     /// 
     /// </summary>
     [JsonConverter(typeof(UpdateNatRuleDetailsModelConverter))]

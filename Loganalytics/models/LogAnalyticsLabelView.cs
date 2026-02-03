@@ -22,7 +22,7 @@ namespace Oci.LoganalyticsService.Models
     {
         
         /// <value>
-        /// An arrya of label aliases.
+        /// An array of label aliases.
         /// </value>
         [JsonProperty(PropertyName = "aliases")]
         public System.Collections.Generic.List<LogAnalyticsLabelAlias> Aliases { get; set; }

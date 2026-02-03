@@ -16,7 +16,7 @@ using Newtonsoft.Json.Linq;
 namespace Oci.NetworkfirewallService.Models
 {
     /// <summary>
-    /// A Nat Rule is used to define to which traffic NAT should be applied by the firewall.
+    /// A [NAT rule](https://docs.cloud.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) defines which traffic NAT should be applied to by the firewall.
     /// 
     /// </summary>
     [JsonConverter(typeof(NatRuleModelConverter))]
@@ -50,7 +50,8 @@ namespace Oci.NetworkfirewallService.Models
         public RulePosition Position { get; set; }
         
         /// <value>
-        /// OCID of the Network Firewall Policy this decryption profile belongs to.
+        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Network Firewall policy this NAT rule belongs to.
+        /// 
         /// </value>
         /// <remarks>
         /// Required

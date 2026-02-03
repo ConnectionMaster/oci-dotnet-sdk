@@ -22,7 +22,7 @@ namespace Oci.LoganalyticsService.Models
     {
         
         /// <value>
-        /// The currnet input sequence match.
+        /// The current input sequence match.
         /// </value>
         [JsonProperty(PropertyName = "inputSequenceCurrentMatch")]
         public string InputSequenceCurrentMatch { get; set; }

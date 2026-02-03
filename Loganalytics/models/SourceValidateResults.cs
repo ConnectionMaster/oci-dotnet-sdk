@@ -22,7 +22,7 @@ namespace Oci.LoganalyticsService.Models
     {
         
         /// <value>
-        /// An arrya of source validation details.
+        /// An array of source validation details.
         /// </value>
         [JsonProperty(PropertyName = "items")]
         public System.Collections.Generic.List<SourceValidateDetails> Items { get; set; }

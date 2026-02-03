@@ -30,7 +30,7 @@ namespace Oci.NetworkfirewallService.Requests
         public string NetworkFirewallPolicyId { get; set; }
         
         /// <value>
-        /// Request Details to create NAT rule under a Network Firewall Policy Resource.
+        /// Request details used to create NAT rule under a Network Firewall policy resource.
         /// </value>
         /// <remarks>
         /// Required

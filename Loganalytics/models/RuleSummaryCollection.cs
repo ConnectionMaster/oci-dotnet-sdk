@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.LoganalyticsService.Models
 {
     /// <summary>
-    /// A collection of Logging Analytics rules.
+    /// A collection of Log Analytics rules.
     /// </summary>
     public class RuleSummaryCollection 
     {

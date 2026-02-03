@@ -34,7 +34,7 @@ namespace Oci.LoganalyticsService.Models
         public System.Nullable<int> OobCount { get; set; }
         
         /// <value>
-        /// Field usage detailss
+        /// Field usage details
         /// </value>
         [JsonProperty(PropertyName = "usageDetails")]
         public System.Collections.Generic.List<UsageStatusItem> UsageDetails { get; set; }

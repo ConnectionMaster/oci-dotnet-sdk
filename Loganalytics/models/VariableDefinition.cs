@@ -66,6 +66,13 @@ namespace Oci.LoganalyticsService.Models
         public System.Nullable<TypeEnum> Type { get; set; }
         
         /// <value>
+        /// List of variables if this variable is a map.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "mapKeys")]
+        public System.Collections.Generic.List<VariableDefinition> MapKeys { get; set; }
+        
+        /// <value>
         /// Default value of the variable is not already set.
         /// 
         /// </value>

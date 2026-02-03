@@ -32,7 +32,9 @@ namespace Oci.DesktopsService.Models
             [EnumMember(Value = "NONE")]
             None,
             [EnumMember(Value = "STOP")]
-            Stop
+            Stop,
+            [EnumMember(Value = "DELETE")]
+            Delete
         };
 
         /// <value>

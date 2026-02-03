@@ -2050,6 +2050,42 @@ namespace Oci.DatabaseService
         /// <param name="request">Request to send.</param>
         /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<CreateAdvancedClusterFileSystemRequest, CreateAdvancedClusterFileSystemResponse> ForCreateAdvancedClusterFileSystem(CreateAdvancedClusterFileSystemRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return this.ForCreateAdvancedClusterFileSystem(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<CreateAdvancedClusterFileSystemRequest, CreateAdvancedClusterFileSystemResponse> ForCreateAdvancedClusterFileSystem(CreateAdvancedClusterFileSystemRequest request, WaiterConfiguration config, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return new Waiter<CreateAdvancedClusterFileSystemRequest, CreateAdvancedClusterFileSystemResponse>(() =>
+            {
+                var response = client.CreateAdvancedClusterFileSystem(request).Result;
+                if (response.OpcWorkRequestId == null)
+                {
+                    return response;
+                }
+                var getWorkRequestRequest = new Oci.WorkrequestsService.Requests.GetWorkRequestRequest
+                {
+                    WorkRequestId = response.OpcWorkRequestId
+                };
+                workRequestClient.Waiters.ForWorkRequest(getWorkRequestRequest, config, targetStates).Execute();
+                return response;
+            });
+        }
+        
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<CreateApplicationVipRequest, CreateApplicationVipResponse> ForCreateApplicationVip(CreateApplicationVipRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
         {
             return this.ForCreateApplicationVip(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
@@ -3363,6 +3399,42 @@ namespace Oci.DatabaseService
             return new Waiter<DbNodeActionRequest, DbNodeActionResponse>(() =>
             {
                 var response = client.DbNodeAction(request).Result;
+                if (response.OpcWorkRequestId == null)
+                {
+                    return response;
+                }
+                var getWorkRequestRequest = new Oci.WorkrequestsService.Requests.GetWorkRequestRequest
+                {
+                    WorkRequestId = response.OpcWorkRequestId
+                };
+                workRequestClient.Waiters.ForWorkRequest(getWorkRequestRequest, config, targetStates).Execute();
+                return response;
+            });
+        }
+        
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<DeleteAdvancedClusterFileSystemRequest, DeleteAdvancedClusterFileSystemResponse> ForDeleteAdvancedClusterFileSystem(DeleteAdvancedClusterFileSystemRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return this.ForDeleteAdvancedClusterFileSystem(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<DeleteAdvancedClusterFileSystemRequest, DeleteAdvancedClusterFileSystemResponse> ForDeleteAdvancedClusterFileSystem(DeleteAdvancedClusterFileSystemRequest request, WaiterConfiguration config, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return new Waiter<DeleteAdvancedClusterFileSystemRequest, DeleteAdvancedClusterFileSystemResponse>(() =>
+            {
+                var response = client.DeleteAdvancedClusterFileSystem(request).Result;
                 if (response.OpcWorkRequestId == null)
                 {
                     return response;
@@ -5578,6 +5650,34 @@ namespace Oci.DatabaseService
         /// <param name="request">Request to send.</param>
         /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetAdvancedClusterFileSystemRequest, GetAdvancedClusterFileSystemResponse> ForAdvancedClusterFileSystem(GetAdvancedClusterFileSystemRequest request, params AdvancedClusterFileSystem.LifecycleStateEnum[] targetStates)
+        {
+            return this.ForAdvancedClusterFileSystem(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetAdvancedClusterFileSystemRequest, GetAdvancedClusterFileSystemResponse> ForAdvancedClusterFileSystem(GetAdvancedClusterFileSystemRequest request, WaiterConfiguration config, params AdvancedClusterFileSystem.LifecycleStateEnum[] targetStates)
+        {
+            var agent = new WaiterAgent<GetAdvancedClusterFileSystemRequest, GetAdvancedClusterFileSystemResponse>(
+                request,
+                request => client.GetAdvancedClusterFileSystem(request),
+                response => targetStates.Contains(response.AdvancedClusterFileSystem.LifecycleState.Value),
+                targetStates.Contains(AdvancedClusterFileSystem.LifecycleStateEnum.Deleted)
+            );
+            return new Waiter<GetAdvancedClusterFileSystemRequest, GetAdvancedClusterFileSystemResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<GetApplicationVipRequest, GetApplicationVipResponse> ForApplicationVip(GetApplicationVipRequest request, params ApplicationVip.LifecycleStateEnum[] targetStates)
         {
             return this.ForApplicationVip(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
@@ -7496,6 +7596,42 @@ namespace Oci.DatabaseService
         /// <param name="request">Request to send.</param>
         /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<MountAdvancedClusterFileSystemRequest, MountAdvancedClusterFileSystemResponse> ForMountAdvancedClusterFileSystem(MountAdvancedClusterFileSystemRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return this.ForMountAdvancedClusterFileSystem(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<MountAdvancedClusterFileSystemRequest, MountAdvancedClusterFileSystemResponse> ForMountAdvancedClusterFileSystem(MountAdvancedClusterFileSystemRequest request, WaiterConfiguration config, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return new Waiter<MountAdvancedClusterFileSystemRequest, MountAdvancedClusterFileSystemResponse>(() =>
+            {
+                var response = client.MountAdvancedClusterFileSystem(request).Result;
+                if (response.OpcWorkRequestId == null)
+                {
+                    return response;
+                }
+                var getWorkRequestRequest = new Oci.WorkrequestsService.Requests.GetWorkRequestRequest
+                {
+                    WorkRequestId = response.OpcWorkRequestId
+                };
+                workRequestClient.Waiters.ForWorkRequest(getWorkRequestRequest, config, targetStates).Execute();
+                return response;
+            });
+        }
+        
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<MountDbnodeSnapshotRequest, MountDbnodeSnapshotResponse> ForMountDbnodeSnapshot(MountDbnodeSnapshotRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
         {
             return this.ForMountDbnodeSnapshot(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
@@ -9260,6 +9396,42 @@ namespace Oci.DatabaseService
         /// <param name="request">Request to send.</param>
         /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<UnmountAdvancedClusterFileSystemRequest, UnmountAdvancedClusterFileSystemResponse> ForUnmountAdvancedClusterFileSystem(UnmountAdvancedClusterFileSystemRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return this.ForUnmountAdvancedClusterFileSystem(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<UnmountAdvancedClusterFileSystemRequest, UnmountAdvancedClusterFileSystemResponse> ForUnmountAdvancedClusterFileSystem(UnmountAdvancedClusterFileSystemRequest request, WaiterConfiguration config, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return new Waiter<UnmountAdvancedClusterFileSystemRequest, UnmountAdvancedClusterFileSystemResponse>(() =>
+            {
+                var response = client.UnmountAdvancedClusterFileSystem(request).Result;
+                if (response.OpcWorkRequestId == null)
+                {
+                    return response;
+                }
+                var getWorkRequestRequest = new Oci.WorkrequestsService.Requests.GetWorkRequestRequest
+                {
+                    WorkRequestId = response.OpcWorkRequestId
+                };
+                workRequestClient.Waiters.ForWorkRequest(getWorkRequestRequest, config, targetStates).Execute();
+                return response;
+            });
+        }
+        
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<UnmountDbnodeSnapshotRequest, UnmountDbnodeSnapshotResponse> ForUnmountDbnodeSnapshot(UnmountDbnodeSnapshotRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
         {
             return this.ForUnmountDbnodeSnapshot(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
@@ -9349,6 +9521,42 @@ namespace Oci.DatabaseService
             return new Waiter<UnregisterCloudVmClusterPkcsRequest, UnregisterCloudVmClusterPkcsResponse>(() =>
             {
                 var response = client.UnregisterCloudVmClusterPkcs(request).Result;
+                if (response.OpcWorkRequestId == null)
+                {
+                    return response;
+                }
+                var getWorkRequestRequest = new Oci.WorkrequestsService.Requests.GetWorkRequestRequest
+                {
+                    WorkRequestId = response.OpcWorkRequestId
+                };
+                workRequestClient.Waiters.ForWorkRequest(getWorkRequestRequest, config, targetStates).Execute();
+                return response;
+            });
+        }
+        
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<UpdateAdvancedClusterFileSystemRequest, UpdateAdvancedClusterFileSystemResponse> ForUpdateAdvancedClusterFileSystem(UpdateAdvancedClusterFileSystemRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return this.ForUpdateAdvancedClusterFileSystem(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<UpdateAdvancedClusterFileSystemRequest, UpdateAdvancedClusterFileSystemResponse> ForUpdateAdvancedClusterFileSystem(UpdateAdvancedClusterFileSystemRequest request, WaiterConfiguration config, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return new Waiter<UpdateAdvancedClusterFileSystemRequest, UpdateAdvancedClusterFileSystemResponse>(() =>
+            {
+                var response = client.UpdateAdvancedClusterFileSystem(request).Result;
                 if (response.OpcWorkRequestId == null)
                 {
                     return response;

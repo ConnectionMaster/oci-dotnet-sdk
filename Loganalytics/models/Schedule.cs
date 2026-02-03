@@ -64,6 +64,19 @@ namespace Oci.LoganalyticsService.Models
         [JsonProperty(PropertyName = "timeOfFirstExecution")]
         public System.Nullable<System.DateTime> TimeOfFirstExecution { get; set; }
         
+        /// <value>
+        /// Number of seconds to offset the query time window by to accommodate capture late arriving data. For example, a schedule run at 12:00 with a 10 minute interval and queryOffsetSecs=120 will use the query time window of 11:48-11:58 rather than 11:50-12:00 without queryOffsetSecs.
+        /// </value>
+        [JsonProperty(PropertyName = "queryOffsetSecs")]
+        public System.Nullable<int> QueryOffsetSecs { get; set; }
+        
+        /// <value>
+        /// End time for the schedule, even if the schedule would otherwise have remaining executions.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "timeEnd")]
+        public System.Nullable<System.DateTime> TimeEnd { get; set; }
+        
     }
 
     public class ScheduleModelConverter : JsonConverter

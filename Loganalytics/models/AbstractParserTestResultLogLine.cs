@@ -33,5 +33,41 @@ namespace Oci.LoganalyticsService.Models
         [JsonProperty(PropertyName = "preProcessedLogLine")]
         public string PreProcessedLogLine { get; set; }
         
+        /// <value>
+        /// The find start index.
+        /// </value>
+        [JsonProperty(PropertyName = "findStartIndex")]
+        public System.Nullable<int> FindStartIndex { get; set; }
+        
+        /// <value>
+        /// The find end index.
+        /// </value>
+        [JsonProperty(PropertyName = "findEndIndex")]
+        public System.Nullable<int> FindEndIndex { get; set; }
+        
+        /// <value>
+        /// The replacement string.
+        /// </value>
+        [JsonProperty(PropertyName = "replaceString")]
+        public string ReplaceString { get; set; }
+        
+        /// <value>
+        /// The replace start index.
+        /// </value>
+        [JsonProperty(PropertyName = "replaceStartIndex")]
+        public System.Nullable<int> ReplaceStartIndex { get; set; }
+        
+        /// <value>
+        /// The replace end index.
+        /// </value>
+        [JsonProperty(PropertyName = "replaceEndIndex")]
+        public System.Nullable<int> ReplaceEndIndex { get; set; }
+        
+        /// <value>
+        /// The group name value map.
+        /// </value>
+        [JsonProperty(PropertyName = "grpNameValueMap")]
+        public System.Collections.Generic.Dictionary<string, NamedCaptureValue> GrpNameValueMap { get; set; }
+        
     }
 }
