@@ -136,5 +136,11 @@ namespace Oci.LoganalyticsService.Models
         [JsonProperty(PropertyName = "isUserDeleted")]
         public System.Nullable<bool> IsUserDeleted { get; set; }
         
+        /// <value>
+        /// The last updated date.
+        /// </value>
+        [JsonProperty(PropertyName = "timeUpdated")]
+        public System.Nullable<System.DateTime> TimeUpdated { get; set; }
+        
     }
 }

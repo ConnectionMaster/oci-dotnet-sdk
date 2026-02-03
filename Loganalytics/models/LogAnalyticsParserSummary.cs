@@ -156,7 +156,7 @@ namespace Oci.LoganalyticsService.Models
         public LogAnalyticsParserFilter ParserFilter { get; set; }
         
         /// <value>
-        /// A flag indicating whther or not the parser is write once.
+        /// A flag indicating whether or not the parser is write once.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isParserWrittenOnce")]

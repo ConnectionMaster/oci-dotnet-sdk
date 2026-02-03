@@ -37,6 +37,8 @@ namespace Oci.LoganalyticsService.Models
       [EnumMember(Value = "ENCRYPT_ACTIVE_DATA")]
       EncryptActiveData,
       [EnumMember(Value = "ENCRYPT_ARCHIVAL_DATA")]
-      EncryptArchivalData
+      EncryptArchivalData,
+      [EnumMember(Value = "ENCRYPT_ALL_DATA")]
+      EncryptAllData
   }
 }

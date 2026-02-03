@@ -26,6 +26,8 @@ namespace Oci.GenerativeaiService.Models
       [EnumMember(Value = "EMBEDDING")]
       Embedding,
       [EnumMember(Value = "RERANK")]
-      Rerank
+      Rerank,
+      [EnumMember(Value = "TEXT_TO_IMAGE")]
+      TextToImage
   }
 }

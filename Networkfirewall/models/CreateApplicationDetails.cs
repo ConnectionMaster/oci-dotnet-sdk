@@ -33,6 +33,12 @@ namespace Oci.NetworkfirewallService.Models
         public string Name { get; set; }
         
         
+        /// <value>
+        /// The description of the application. This field can be used to add additional info.
+        /// </value>
+        [JsonProperty(PropertyName = "description")]
+        public string Description { get; set; }
+        
     }
 
     public class CreateApplicationDetailsModelConverter : JsonConverter

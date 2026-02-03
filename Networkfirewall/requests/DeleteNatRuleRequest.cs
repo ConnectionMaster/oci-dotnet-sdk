@@ -30,7 +30,7 @@ namespace Oci.NetworkfirewallService.Requests
         public string NetworkFirewallPolicyId { get; set; }
         
         /// <value>
-        /// Unique identifier for NAT Rules in the network firewall policy.
+        /// Unique identifier for NAT rules in the Network Firewall policy.
         /// </value>
         /// <remarks>
         /// Required

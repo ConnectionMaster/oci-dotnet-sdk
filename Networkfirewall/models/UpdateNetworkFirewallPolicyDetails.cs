@@ -28,6 +28,12 @@ namespace Oci.NetworkfirewallService.Models
         public string DisplayName { get; set; }
         
         /// <value>
+        /// The description of the network firewall policy. This field can be used to add additional info.
+        /// </value>
+        [JsonProperty(PropertyName = "description")]
+        public string Description { get; set; }
+        
+        /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
         /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}

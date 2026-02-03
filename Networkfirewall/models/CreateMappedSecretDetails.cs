@@ -49,6 +49,12 @@ namespace Oci.NetworkfirewallService.Models
         [JsonConverter(typeof(StringEnumConverter))]
         public System.Nullable<InspectionType> Type { get; set; }
         
+        /// <value>
+        /// The description of the mapped secret. This field can be used to add additional info.
+        /// </value>
+        [JsonProperty(PropertyName = "description")]
+        public string Description { get; set; }
+        
     }
 
     public class CreateMappedSecretDetailsModelConverter : JsonConverter

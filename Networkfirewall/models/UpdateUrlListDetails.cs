@@ -31,5 +31,11 @@ namespace Oci.NetworkfirewallService.Models
         [JsonProperty(PropertyName = "urls")]
         public System.Collections.Generic.List<UrlPattern> Urls { get; set; }
         
+        /// <value>
+        /// The description of the Url list. This field can be used to add additional info.
+        /// </value>
+        [JsonProperty(PropertyName = "description")]
+        public string Description { get; set; }
+        
     }
 }

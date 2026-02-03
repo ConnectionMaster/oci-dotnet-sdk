@@ -119,6 +119,24 @@ namespace Oci.DatabaseService.Models
         
         [JsonProperty(PropertyName = "cloudAutomationUpdateDetails")]
         public CloudAutomationUpdateDetails CloudAutomationUpdateDetails { get; set; }
+                ///
+        /// <value>
+        /// Specifies the type of VM Backups Storage and supported values are LOCAL and EXASCALE. Storage Type can only be changed once from LOCAL to EXASCALE. EXASCALE to LOCAL is not permitted.
+        /// </value>
+        ///
+        public enum VmBackupStorageTypeEnum {
+            [EnumMember(Value = "LOCAL")]
+            Local,
+            [EnumMember(Value = "EXASCALE")]
+            Exascale
+        };
+
+        /// <value>
+        /// Specifies the type of VM Backups Storage and supported values are LOCAL and EXASCALE. Storage Type can only be changed once from LOCAL to EXASCALE. EXASCALE to LOCAL is not permitted.
+        /// </value>
+        [JsonProperty(PropertyName = "vmBackupStorageType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<VmBackupStorageTypeEnum> VmBackupStorageType { get; set; }
         
     }
 }

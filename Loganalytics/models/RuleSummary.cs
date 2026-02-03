@@ -80,7 +80,7 @@ namespace Oci.LoganalyticsService.Models
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
         
         /// <value>
-        /// The current state of the logging analytics rule.
+        /// The current state of the Log Analytics rule.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "lifecycleState")]
@@ -147,6 +147,31 @@ namespace Oci.LoganalyticsService.Models
         /// </value>
         [JsonProperty(PropertyName = "timeLastExecuted")]
         public System.Nullable<System.DateTime> TimeLastExecuted { get; set; }
+                ///
+        /// <value>
+        /// The task status of the rule.
+        /// </value>
+        ///
+        public enum TaskStatusEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "READY")]
+            Ready,
+            [EnumMember(Value = "PAUSED")]
+            Paused,
+            [EnumMember(Value = "COMPLETED")]
+            Completed,
+            [EnumMember(Value = "BLOCKED")]
+            Blocked
+        };
+
+        /// <value>
+        /// The task status of the rule.
+        /// </value>
+        [JsonProperty(PropertyName = "taskStatus")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<TaskStatusEnum> TaskStatus { get; set; }
         
     }
 }

@@ -13,7 +13,7 @@ using System.Runtime.Serialization;
 namespace Oci.LoganalyticsService.Models
 {
   /// <summary>
-  /// Entities are auto-created when enterprise manager bridge is configured in logging analytics, or
+  /// Entities are auto-created when enterprise manager bridge is configured in log analytics, or
     /// when logs are forwarded from service connector or through bulk discovery from object store.
     /// 
   /// </summary>

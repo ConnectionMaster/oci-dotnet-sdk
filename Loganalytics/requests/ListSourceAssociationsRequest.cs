@@ -20,7 +20,7 @@ namespace Oci.LoganalyticsService.Requests
     {
         
         /// <value>
-        /// The Logging Analytics namespace used for the request.
+        /// The Log Analytics namespace used for the request. The namespace can be obtained by running 'oci os ns get'
         /// 
         /// </value>
         /// <remarks>
@@ -56,6 +56,13 @@ namespace Oci.LoganalyticsService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "entityId")]
         public string EntityId { get; set; }
+        
+        /// <value>
+        /// The entity name used for filtering.
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "entityName")]
+        public string EntityName { get; set; }
         
         ///
         /// <value>

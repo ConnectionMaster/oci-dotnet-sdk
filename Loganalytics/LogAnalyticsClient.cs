@@ -1793,7 +1793,7 @@ namespace Oci.LoganalyticsService
 
         /// <summary>
         /// Deletes the configured object storage bucket based collection rule and stop the log collection.
-        /// It will not delete the existing processed data associated with this bucket from logging analytics storage.
+        /// It will not delete the existing processed data associated with this bucket from Log Analytics Storage.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2903,7 +2903,7 @@ namespace Oci.LoganalyticsService
             Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/namespaces/{namespaceName}/contents/actions/exportCustomContent".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
-            requestMessage.Headers.Add("Accept", "application/octet-stream");
+            requestMessage.Headers.Add("Accept", "application/octet-stream, application/json");
             requestMessage.Headers.Add("Expect", "100-continue");
             GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
             HttpResponseMessage responseMessage;
@@ -4366,7 +4366,7 @@ namespace Oci.LoganalyticsService
         }
 
         /// <summary>
-        /// This API gets the namespace details of a tenancy already onboarded in Logging Analytics Application
+        /// This API gets the namespace details of a tenancy already onboarded in Log Analytics Application
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -6811,7 +6811,7 @@ namespace Oci.LoganalyticsService
 
         /// <summary>
         /// Given a tenancy OCID, this API returns the namespace of the tenancy if it is valid and subscribed to the region.  The
-        /// result also indicates if the tenancy is onboarded with Logging Analytics.
+        /// result also indicates if the tenancy is onboarded with Log Analytics.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -8630,7 +8630,7 @@ namespace Oci.LoganalyticsService
         }
 
         /// <summary>
-        /// Off-boards a tenant from Logging Analytics
+        /// Off-boards a tenant from Log Analytics
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -8686,7 +8686,7 @@ namespace Oci.LoganalyticsService
         }
 
         /// <summary>
-        /// On-boards a tenant to Logging Analytics.
+        /// On-boards a tenant to Log Analytics.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -10532,7 +10532,7 @@ namespace Oci.LoganalyticsService
         }
 
         /// <summary>
-        /// Accepts discovery data for processing by Logging Analytics.
+        /// Accepts discovery data for processing by Log Analytics.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -10591,7 +10591,7 @@ namespace Oci.LoganalyticsService
         }
 
         /// <summary>
-        /// Accepts log events for processing by Logging Analytics.
+        /// Accepts log events for processing by Log Analytics.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -10650,7 +10650,7 @@ namespace Oci.LoganalyticsService
         }
 
         /// <summary>
-        /// Accepts log data for processing by Logging Analytics.
+        /// Accepts log data for processing by Log Analytics.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>

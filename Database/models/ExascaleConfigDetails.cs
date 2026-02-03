@@ -38,5 +38,17 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "availableStorageInGBs")]
         public System.Nullable<int> AvailableStorageInGBs { get; set; }
         
+        /// <value>
+        /// Storage size needed for VM storage on Exascale in GBs.
+        /// </value>
+        [JsonProperty(PropertyName = "totalVmStorageInGBs")]
+        public System.Nullable<int> TotalVmStorageInGBs { get; set; }
+        
+        /// <value>
+        /// Available storage size for VM storage on Exascale in GBs.
+        /// </value>
+        [JsonProperty(PropertyName = "availableVmStorageInGBs")]
+        public System.Nullable<int> AvailableVmStorageInGBs { get; set; }
+        
     }
 }

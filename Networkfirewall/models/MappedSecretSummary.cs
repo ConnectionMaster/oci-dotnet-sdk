@@ -66,5 +66,11 @@ namespace Oci.NetworkfirewallService.Models
         [JsonProperty(PropertyName = "parentResourceId")]
         public string ParentResourceId { get; set; }
         
+        /// <value>
+        /// The description of the mapped secret. This field can be used to add additional info.
+        /// </value>
+        [JsonProperty(PropertyName = "description")]
+        public string Description { get; set; }
+        
     }
 }

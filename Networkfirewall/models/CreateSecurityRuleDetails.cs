@@ -72,5 +72,11 @@ namespace Oci.NetworkfirewallService.Models
         [JsonProperty(PropertyName = "position")]
         public RulePosition Position { get; set; }
         
+        /// <value>
+        /// The description of the security rule. This field can be used to add additional info.
+        /// </value>
+        [JsonProperty(PropertyName = "description")]
+        public string Description { get; set; }
+        
     }
 }

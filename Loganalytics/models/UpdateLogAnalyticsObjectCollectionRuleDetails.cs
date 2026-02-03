@@ -31,19 +31,19 @@ namespace Oci.LoganalyticsService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// Logging Analytics Log group OCID to associate the processed logs with.
+        /// Log Analytics Log group OCID to associate the processed logs with.
         /// </value>
         [JsonProperty(PropertyName = "logGroupId")]
         public string LogGroupId { get; set; }
         
         /// <value>
-        /// Name of the Logging Analytics Source to use for the processing.
+        /// Name of the Log Analytics Source to use for the processing.
         /// </value>
         [JsonProperty(PropertyName = "logSourceName")]
         public string LogSourceName { get; set; }
         
         /// <value>
-        /// Logging Analytics entity OCID. Associates the processed logs with the given entity (optional).
+        /// Log Analytics entity OCID. Associates the processed logs with the given entity (optional).
         /// </value>
         [JsonProperty(PropertyName = "entityId")]
         public string EntityId { get; set; }
@@ -118,7 +118,7 @@ namespace Oci.LoganalyticsService.Models
         public System.Collections.Generic.List<string> ObjectNameFilters { get; set; }
         
         /// <value>
-        /// A Stream OCID is required for Object Collection rules of type LIVE or HISTORIC_LIVE, which will be used by Logging Analytics while creating Event Rule and consume the event notifications created by the Object Storage.
+        /// A Stream OCID is required for Object Collection rules of type LIVE or HISTORIC_LIVE, which will be used by Log Analytics while creating Event Rule and consume the event notifications created by the Object Storage.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "streamId")]

@@ -48,7 +48,7 @@ namespace Oci.LoganalyticsService.Models
         public string SavedSearchId { get; set; }
         
         /// <value>
-        /// Query to perform. Must conform to logging analytic querylanguage syntax. Syntax errors will be returned if present.
+        /// Query to perform. Must conform to log analytics querylanguage syntax. Syntax errors will be returned if present.
         /// </value>
         /// <remarks>
         /// Required
@@ -85,6 +85,13 @@ namespace Oci.LoganalyticsService.Models
         /// </value>
         [JsonProperty(PropertyName = "scopeFilters")]
         public System.Collections.Generic.List<ScopeFilter> ScopeFilters { get; set; }
+        
+        /// <value>
+        /// List of variables to be prepended to the query string.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "variables")]
+        public System.Collections.Generic.List<string> Variables { get; set; }
         
         /// <value>
         /// Amount of time, in seconds, allowed for a query to execute. If this time expires before the query is complete, any partial results will be returned.

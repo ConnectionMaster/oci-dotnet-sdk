@@ -34,5 +34,12 @@ namespace Oci.LoganalyticsService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-request-id")]
         public string OpcRequestId { get; set; }
+        
+        /// <value>
+        /// if true, the request is from compartment delete service.
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "isCompartmentDelete")]
+        public System.Nullable<bool> IsCompartmentDelete { get; set; }
     }
 }

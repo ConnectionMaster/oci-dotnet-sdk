@@ -20,7 +20,7 @@ namespace Oci.LoganalyticsService.Requests
     {
         
         /// <value>
-        /// The Logging Analytics namespace used for the request.
+        /// The Log Analytics namespace used for the request. The namespace can be obtained by running 'oci os ns get'
         /// 
         /// </value>
         /// <remarks>
@@ -51,7 +51,9 @@ namespace Oci.LoganalyticsService.Requests
             [EnumMember(Value = "JSON")]
             Json,
             [EnumMember(Value = "DELIMITED")]
-            Delimited
+            Delimited,
+            [EnumMember(Value = "REGEX")]
+            Regex
         };
 
         /// <value>

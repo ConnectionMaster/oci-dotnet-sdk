@@ -13,7 +13,7 @@ using System.Runtime.Serialization;
 namespace Oci.LoganalyticsService.Models
 {
   /// <summary>
-  /// Logging Analytics rule kinds. Supported values are INGEST_TIME and SAVED_SEARCH.
+  /// Log Analytics rule kinds. Supported values are INGEST_TIME and SAVED_SEARCH.
     /// 
   /// </summary>
   public enum RuleKind {

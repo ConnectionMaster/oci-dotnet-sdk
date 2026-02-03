@@ -79,6 +79,9 @@ namespace Oci.DesktopsService.Models
         [JsonProperty(PropertyName = "timeCreated")]
         public System.Nullable<System.DateTime> TimeCreated { get; set; }
         
+        [JsonProperty(PropertyName = "image")]
+        public DesktopImage Image { get; set; }
+        
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
@@ -93,6 +96,9 @@ namespace Oci.DesktopsService.Models
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
+        
+        [JsonProperty(PropertyName = "connection")]
+        public DesktopConnection Connection { get; set; }
         
     }
 }

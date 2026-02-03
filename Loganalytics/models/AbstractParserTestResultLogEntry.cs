@@ -69,5 +69,69 @@ namespace Oci.LoganalyticsService.Models
         [JsonProperty(PropertyName = "matchStatusDescription")]
         public string MatchStatusDescription { get; set; }
         
+        /// <value>
+        /// Additional properties on the field map.
+        /// </value>
+        [JsonProperty(PropertyName = "fieldMapping")]
+        public System.Collections.Generic.List<ParserTestResultFieldValue> FieldMapping { get; set; }
+        
+        /// <value>
+        /// Additional properties on the field map if sub parser with actions defined.
+        /// </value>
+        [JsonProperty(PropertyName = "metadata")]
+        public System.Collections.Generic.List<ParserTestResultFieldValue> Metadata { get; set; }
+        
+        /// <value>
+        /// The parser action.
+        /// </value>
+        [JsonProperty(PropertyName = "action")]
+        public string Action { get; set; }
+        
+        /// <value>
+        /// The timezone corresponding to the timestamp detected in the log entry (e.g. GMT).
+        /// </value>
+        [JsonProperty(PropertyName = "timestampZone")]
+        public string TimestampZone { get; set; }
+        
+        /// <value>
+        /// In case of regex parser, if there is any timestamp identified in the log entry, 
+        /// this value signifies the index in the log entry from which timestamp starts.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "timestampStartIndex")]
+        public System.Nullable<int> TimestampStartIndex { get; set; }
+        
+        /// <value>
+        /// In case of regex parser, if there is any timestamp identified in the log entry, 
+        /// this value signifies the index in the log entry at which timestamp ends.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "timestampEndIndex")]
+        public System.Nullable<int> TimestampEndIndex { get; set; }
+        
+        /// <value>
+        /// The timestamp epoch in milliseconds.
+        /// </value>
+        [JsonProperty(PropertyName = "timestampEpochMillisec")]
+        public System.Nullable<long> TimestampEpochMillisec { get; set; }
+        
+        [JsonProperty(PropertyName = "textMatchInfo")]
+        public AbstractParserTestResultLogLine TextMatchInfo { get; set; }
+        
+        [JsonProperty(PropertyName = "matchResult")]
+        public RegexMatchResult MatchResult { get; set; }
+        
+        /// <value>
+        /// Test result log lines.
+        /// </value>
+        [JsonProperty(PropertyName = "loglines")]
+        public System.Collections.Generic.List<AbstractParserTestResultLogLine> Loglines { get; set; }
+        
+        /// <value>
+        /// The parser function names.
+        /// </value>
+        [JsonProperty(PropertyName = "functionNames")]
+        public System.Collections.Generic.List<string> FunctionNames { get; set; }
+        
     }
 }

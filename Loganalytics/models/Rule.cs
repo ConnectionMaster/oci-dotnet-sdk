@@ -80,7 +80,7 @@ namespace Oci.LoganalyticsService.Models
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
         
         /// <value>
-        /// The current state of the logging analytics rule.
+        /// The current state of the Log Analytics rule.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "lifecycleState")]

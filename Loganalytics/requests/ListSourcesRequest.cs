@@ -20,7 +20,7 @@ namespace Oci.LoganalyticsService.Requests
     {
         
         /// <value>
-        /// The Logging Analytics namespace used for the request.
+        /// The Log Analytics namespace used for the request. The namespace can be obtained by running 'oci os ns get'
         /// 
         /// </value>
         /// <remarks>
@@ -81,6 +81,30 @@ namespace Oci.LoganalyticsService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "isSystem")]
         public System.Nullable<IsSystemEnum> IsSystem { get; set; }
+        
+        ///
+        /// <value>
+        /// The source lifecycle state used for filtering. Currently supported
+        /// values are ACTIVE and DELETED.
+        /// 
+        /// </value>
+        ///
+        public enum LifecycleStateEnum {
+            [EnumMember(Value = "ACTIVE")]
+            Active,
+            [EnumMember(Value = "DELETED")]
+            Deleted,
+            [EnumMember(Value = "ALL")]
+            All
+        };
+
+        /// <value>
+        /// The source lifecycle state used for filtering. Currently supported
+        /// values are ACTIVE and DELETED.
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "lifecycleState")]
+        public System.Nullable<LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
         /// An auto-associate flag used for filtering.  Only sources which are marked for automatic

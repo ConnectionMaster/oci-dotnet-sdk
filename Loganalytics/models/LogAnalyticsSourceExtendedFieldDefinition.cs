@@ -79,7 +79,7 @@ namespace Oci.LoganalyticsService.Models
         public string ConvertedRegularExpression { get; set; }
         
         /// <value>
-        /// A flag inidcating whether or not the extended definition is enabled.
+        /// A flag indicating whether or not the extended definition is enabled.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isEnabled")]

@@ -91,5 +91,14 @@ namespace Oci.DesktopsService.Models
         [JsonProperty(PropertyName = "sessionLifecycleActions")]
         public UpdateDesktopPoolDesktopSessionLifecycleActions SessionLifecycleActions { get; set; }
         
+        [JsonProperty(PropertyName = "image")]
+        public UpdateDesktopImage Image { get; set; }
+        
+        /// <value>
+        /// The size in GBs of the boot volume for the desktop pool.
+        /// </value>
+        [JsonProperty(PropertyName = "bootVolumeSizeInGBs")]
+        public System.Nullable<int> BootVolumeSizeInGBs { get; set; }
+        
     }
 }

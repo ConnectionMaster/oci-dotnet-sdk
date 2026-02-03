@@ -41,5 +41,11 @@ namespace Oci.NetworkfirewallService.Models
         [JsonProperty(PropertyName = "services")]
         public System.Collections.Generic.List<string> Services { get; set; }
         
+        /// <value>
+        /// The description of the service list. This field can be used to add additional info.
+        /// </value>
+        [JsonProperty(PropertyName = "description")]
+        public string Description { get; set; }
+        
     }
 }

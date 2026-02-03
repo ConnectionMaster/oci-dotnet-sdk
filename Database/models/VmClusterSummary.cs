@@ -328,6 +328,48 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "computeModel")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<ComputeModelEnum> ComputeModel { get; set; }
+                ///
+        /// <value>
+        /// Specifies the type of file system storage and supported values are LOCAL and EXASCALE. - LOCAL if selected then file system storage will be on DB Servers. - EXASCALE if selected then file system storage will be on Exascale Storage Servers. Default Value is LOCAL
+        /// </value>
+        ///
+        public enum VmFileSystemStorageTypeEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "LOCAL")]
+            Local,
+            [EnumMember(Value = "EXASCALE")]
+            Exascale
+        };
+
+        /// <value>
+        /// Specifies the type of file system storage and supported values are LOCAL and EXASCALE. - LOCAL if selected then file system storage will be on DB Servers. - EXASCALE if selected then file system storage will be on Exascale Storage Servers. Default Value is LOCAL
+        /// </value>
+        [JsonProperty(PropertyName = "vmFileSystemStorageType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<VmFileSystemStorageTypeEnum> VmFileSystemStorageType { get; set; }
+                ///
+        /// <value>
+        /// Specifies the type of VM Backups Storage and supported values are LOCAL and EXASCALE. - LOCAL if selected then VM Backups storage will be on DB Servers. - EXASCALE if selected then VM Backups storage will be on Exascale Storage Servers. Default Value is LOCAL.
+        /// </value>
+        ///
+        public enum VmBackupStorageTypeEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "LOCAL")]
+            Local,
+            [EnumMember(Value = "EXASCALE")]
+            Exascale
+        };
+
+        /// <value>
+        /// Specifies the type of VM Backups Storage and supported values are LOCAL and EXASCALE. - LOCAL if selected then VM Backups storage will be on DB Servers. - EXASCALE if selected then VM Backups storage will be on Exascale Storage Servers. Default Value is LOCAL.
+        /// </value>
+        [JsonProperty(PropertyName = "vmBackupStorageType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<VmBackupStorageTypeEnum> VmBackupStorageType { get; set; }
         
     }
 }

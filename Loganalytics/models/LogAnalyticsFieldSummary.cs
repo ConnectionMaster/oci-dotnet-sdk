@@ -72,21 +72,21 @@ namespace Oci.LoganalyticsService.Models
         public string Name { get; set; }
         
         /// <value>
-        /// A flag inidcating whether or not the facet is elibigle for use.
+        /// A flag indicating whether or not the facet is eligible for use.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isFacetEligible")]
         public System.Nullable<bool> IsFacetEligible { get; set; }
         
         /// <value>
-        /// A flag inidcating whether or not the cardinality of the field is high.
+        /// A flag indicating whether or not the cardinality of the field is high.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isHighCardinality")]
         public System.Nullable<bool> IsHighCardinality { get; set; }
         
         /// <value>
-        /// A flag inidcating whether or not the field is a large data field.
+        /// A flag indicating whether or not the field is a large data field.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isLargeData")]
@@ -100,7 +100,7 @@ namespace Oci.LoganalyticsService.Models
         public System.Nullable<bool> IsMultiValued { get; set; }
         
         /// <value>
-        /// A flag inidcating whether or not this is a primary field.
+        /// A flag indicating whether or not this is a primary field.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isPrimary")]
@@ -115,7 +115,7 @@ namespace Oci.LoganalyticsService.Models
         public System.Nullable<bool> IsSystem { get; set; }
         
         /// <value>
-        /// A flag inidcating whether or not the field can be summarized.
+        /// A flag indicating whether or not the field can be summarized.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isSummarizable")]
@@ -128,28 +128,28 @@ namespace Oci.LoganalyticsService.Models
         public string MappedValue { get; set; }
         
         /// <value>
-        /// A flag inidcating whether or not the field is metric key eligible.
+        /// A flag indicating whether or not the field is metric key eligible.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isMetricKeyEligible")]
         public System.Nullable<bool> IsMetricKeyEligible { get; set; }
         
         /// <value>
-        /// A flag inidcating whether or not the field is metric value eligible.
+        /// A flag indicating whether or not the field is metric value eligible.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isMetricValueEligible")]
         public System.Nullable<bool> IsMetricValueEligible { get; set; }
         
         /// <value>
-        /// A flag inidcating whether or not the field is range facet eligible.
+        /// A flag indicating whether or not the field is range facet eligible.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "rangeFacetEligible")]
         public System.Nullable<long> RangeFacetEligible { get; set; }
         
         /// <value>
-        /// A flag inidcating whether or not the field is table eligible.
+        /// A flag indicating whether or not the field is table eligible.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isTableEligible")]
