@@ -82,6 +82,13 @@ namespace Oci.CoreService.Models
         public string HpcIslandId { get; set; }
         
         /// <value>
+        /// The ID that remains consistent when a host moves between capacity pools within the same tenancy.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "hostCorrelationId")]
+        public string HostCorrelationId { get; set; }
+        
+        /// <value>
         /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the Customer-unique host group
         /// 
         /// </value>

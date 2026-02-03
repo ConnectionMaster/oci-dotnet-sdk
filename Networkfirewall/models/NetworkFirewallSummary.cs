@@ -85,6 +85,12 @@ namespace Oci.NetworkfirewallService.Models
         public NatConfigurationResponse NatConfiguration { get; set; }
         
         /// <value>
+        /// The shape of a firewall to determine the bandwidth that the firewall allows.
+        /// </value>
+        [JsonProperty(PropertyName = "shape")]
+        public string Shape { get; set; }
+        
+        /// <value>
         /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Network Firewall Policy.
         /// </value>
         /// <remarks>

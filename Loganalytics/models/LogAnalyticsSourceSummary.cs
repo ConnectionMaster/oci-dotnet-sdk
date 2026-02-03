@@ -171,7 +171,7 @@ namespace Oci.LoganalyticsService.Models
         public System.Nullable<bool> IsAutoAssociationEnabled { get; set; }
         
         /// <value>
-        /// A flag indicating whether or not the auto-association state should be overriden.
+        /// A flag indicating whether or not the auto-association state should be overridden.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isAutoAssociationOverride")]
@@ -249,6 +249,14 @@ namespace Oci.LoganalyticsService.Models
         /// </value>
         [JsonProperty(PropertyName = "sourceProperties")]
         public System.Collections.Generic.List<LogAnalyticsProperty> SourceProperties { get; set; }
+        
+        /// <value>
+        /// The current state of the Log Analytics source.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "lifecycleState")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<LogAnalyticsSource.LifecycleStateEnum> LifecycleState { get; set; }
         
     }
 }

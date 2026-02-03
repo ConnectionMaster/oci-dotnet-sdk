@@ -51,5 +51,11 @@ namespace Oci.LoganalyticsService.Models
         [JsonProperty(PropertyName = "namedCaptureGroups")]
         public System.Collections.Generic.List<string> NamedCaptureGroups { get; set; }
         
+        /// <value>
+        /// The test violations.
+        /// </value>
+        [JsonProperty(PropertyName = "violations")]
+        public System.Collections.Generic.List<Violation> Violations { get; set; }
+        
     }
 }

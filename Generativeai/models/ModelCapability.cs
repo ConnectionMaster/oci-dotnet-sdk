@@ -30,6 +30,8 @@ namespace Oci.GenerativeaiService.Models
       [EnumMember(Value = "CHAT")]
       Chat,
       [EnumMember(Value = "TEXT_RERANK")]
-      TextRerank
+      TextRerank,
+      [EnumMember(Value = "TEXT_TO_IMAGE")]
+      TextToImage
   }
 }

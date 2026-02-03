@@ -97,7 +97,7 @@ namespace Oci.LoganalyticsService.Models
         public System.Collections.Generic.List<string> MissingProperties { get; set; }
         
         /// <value>
-        /// A list of requried properties.
+        /// A list of required properties.
         /// </value>
         [JsonProperty(PropertyName = "requiredProperties")]
         public System.Collections.Generic.List<string> RequiredProperties { get; set; }

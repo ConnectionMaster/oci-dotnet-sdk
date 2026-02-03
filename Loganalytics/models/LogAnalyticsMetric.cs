@@ -70,7 +70,7 @@ namespace Oci.LoganalyticsService.Models
         public string GroupingField { get; set; }
         
         /// <value>
-        /// A flag inidcating whether or not the metric is enabled.
+        /// A flag indicating whether or not the metric is enabled.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isEnabled")]
@@ -103,7 +103,7 @@ namespace Oci.LoganalyticsService.Models
         public string Name { get; set; }
                 ///
         /// <value>
-        /// The metric type, specifying the type of aggreation to perform.  Default value
+        /// The metric type, specifying the type of aggregation to perform. Default value
         /// is COUNT.
         /// 
         /// </value>
@@ -127,7 +127,7 @@ namespace Oci.LoganalyticsService.Models
         };
 
         /// <value>
-        /// The metric type, specifying the type of aggreation to perform.  Default value
+        /// The metric type, specifying the type of aggregation to perform. Default value
         /// is COUNT.
         /// 
         /// </value>

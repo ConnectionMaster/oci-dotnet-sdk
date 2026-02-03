@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.LoganalyticsService.Models
 {
     /// <summary>
-    /// This is the namespace details of a tenancy in Logging Analytics application
+    /// This is the namespace details of a tenancy in Log Analytics application
     /// </summary>
     public class Namespace 
     {
@@ -42,7 +42,7 @@ namespace Oci.LoganalyticsService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// This indicates if the tenancy is onboarded to Logging Analytics
+        /// This indicates if the tenancy is onboarded to Log Analytics
         /// </value>
         /// <remarks>
         /// Required
@@ -58,7 +58,7 @@ namespace Oci.LoganalyticsService.Models
         public System.Nullable<bool> IsLogSetEnabled { get; set; }
         
         /// <value>
-        /// This indicates if data has ever been ingested for the tenancy in Logging Analytics
+        /// This indicates if data has ever been ingested for the tenancy in Log Analytics
         /// </value>
         [JsonProperty(PropertyName = "isDataEverIngested")]
         public System.Nullable<bool> IsDataEverIngested { get; set; }
@@ -68,6 +68,27 @@ namespace Oci.LoganalyticsService.Models
         /// </value>
         [JsonProperty(PropertyName = "isArchivingEnabled")]
         public System.Nullable<bool> IsArchivingEnabled { get; set; }
+                ///
+        /// <value>
+        /// The current state of the compartment.
+        /// </value>
+        ///
+        public enum LifecycleStateEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "ACTIVE")]
+            Active,
+            [EnumMember(Value = "INACTIVE")]
+            Inactive
+        };
+
+        /// <value>
+        /// The current state of the compartment.
+        /// </value>
+        [JsonProperty(PropertyName = "lifecycleState")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<LifecycleStateEnum> LifecycleState { get; set; }
         
     }
 }

@@ -80,7 +80,7 @@ namespace Oci.NetworkfirewallService.Requests
         public string DisplayName { get; set; }
         
         /// <value>
-        /// Unique priority order for NAT Rules in the network firewall policy.
+        /// Unique priority order for NAT rules in the Network Firewall policy.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "natRulePriorityOrder")]
         public System.Nullable<int> NatRulePriorityOrder { get; set; }

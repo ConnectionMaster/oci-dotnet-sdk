@@ -175,5 +175,11 @@ namespace Oci.DesktopsService.Models
         [JsonProperty(PropertyName = "isDisplayEnabled")]
         public System.Nullable<bool> IsDisplayEnabled { get; set; }
         
+        /// <value>
+        /// Indicates whether video input is enabled.
+        /// </value>
+        [JsonProperty(PropertyName = "isVideoInputEnabled")]
+        public System.Nullable<bool> IsVideoInputEnabled { get; set; }
+        
     }
 }

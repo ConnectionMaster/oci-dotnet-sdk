@@ -39,5 +39,11 @@ namespace Oci.LoganalyticsService.Models
         [JsonProperty(PropertyName = "archivalStorageDuration")]
         public string ArchivalStorageDuration { get; set; }
         
+        /// <value>
+        /// end time of the oldest active CoreGroup
+        /// </value>
+        [JsonProperty(PropertyName = "timeOldestActiveBucketEnded")]
+        public System.Nullable<System.DateTime> TimeOldestActiveBucketEnded { get; set; }
+        
     }
 }

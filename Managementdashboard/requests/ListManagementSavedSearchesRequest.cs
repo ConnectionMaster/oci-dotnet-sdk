@@ -78,5 +78,11 @@ namespace Oci.ManagementdashboardService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "sortBy")]
         public System.Nullable<SortByEnum> SortBy { get; set; }
+        
+        /// <value>
+        /// This parameter applies only when compartmentId is root compartment. When set to true, all accessible resources will be returned. Default is false.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "compartmentIdInSubtree")]
+        public string CompartmentIdInSubtree { get; set; }
     }
 }

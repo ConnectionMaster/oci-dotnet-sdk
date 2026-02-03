@@ -37,7 +37,7 @@ namespace Oci.LoganalyticsService.Models
         public string ParserFunctionName { get; set; }
         
         /// <value>
-        /// A flag inidcating whether or not the parser function is enabled.
+        /// A flag indicating whether or not the parser function is enabled.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isEnabled")]

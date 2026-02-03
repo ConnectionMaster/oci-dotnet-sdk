@@ -33,6 +33,12 @@ namespace Oci.NetworkfirewallService.Models
         [JsonProperty(PropertyName = "name")]
         public string Name { get; set; }
         
+        /// <value>
+        /// The description of the decryption rule. This field can be used to add additional info.
+        /// </value>
+        [JsonProperty(PropertyName = "description")]
+        public string Description { get; set; }
+        
         /// <remarks>
         /// Required
         /// </remarks>

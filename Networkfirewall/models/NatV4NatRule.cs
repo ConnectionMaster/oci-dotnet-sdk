@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.NetworkfirewallService.Models
 {
     /// <summary>
-    /// A Nat Rule is used to define to which traffic NAT should be applied by the firewall.
+    /// A [NAT rule](https://docs.cloud.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) defines which traffic NAT should be applied to by the firewall.
     /// 
     /// </summary>
     public class NatV4NatRule : NatRule

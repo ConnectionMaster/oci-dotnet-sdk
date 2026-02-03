@@ -57,5 +57,11 @@ namespace Oci.LoganalyticsService.Models
         [JsonProperty(PropertyName = "resourceGroup")]
         public string ResourceGroup { get; set; }
         
+        /// <value>
+        /// Details for the metrics to be collected.
+        /// </value>
+        [JsonProperty(PropertyName = "metricCollections")]
+        public System.Collections.Generic.List<MetricCollection> MetricCollections { get; set; }
+        
     }
 }

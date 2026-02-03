@@ -40,7 +40,7 @@ namespace Oci.LoganalyticsService.Models
         public System.Nullable<long> EditVersion { get; set; }
         
         /// <value>
-        /// A flag inidcating whether or not the filter is enabled.
+        /// A flag indicating whether or not the filter is enabled.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isEnabled")]

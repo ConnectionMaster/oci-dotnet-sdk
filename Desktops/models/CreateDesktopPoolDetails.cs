@@ -231,5 +231,11 @@ namespace Oci.DesktopsService.Models
         [JsonProperty(PropertyName = "privateAccessDetails")]
         public CreateDesktopPoolPrivateAccessDetails PrivateAccessDetails { get; set; }
         
+        /// <value>
+        /// The size in GBs of the boot volume for the desktop pool.
+        /// </value>
+        [JsonProperty(PropertyName = "bootVolumeSizeInGBs")]
+        public System.Nullable<int> BootVolumeSizeInGBs { get; set; }
+        
     }
 }
