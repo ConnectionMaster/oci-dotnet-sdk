@@ -58,5 +58,19 @@ namespace Oci.DatabasemigrationService.Models
         [JsonProperty(PropertyName = "action")]
         public string Action { get; set; }
         
+        /// <value>
+        /// The link to the documentation
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "actionLink")]
+        public string ActionLink { get; set; }
+        
+        /// <value>
+        /// The text for the link to the documentation
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "actionText")]
+        public string ActionText { get; set; }
+        
     }
 }

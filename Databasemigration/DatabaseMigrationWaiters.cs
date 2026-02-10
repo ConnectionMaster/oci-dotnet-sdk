@@ -32,6 +32,61 @@ namespace Oci.DatabasemigrationService
         /// <param name="request">Request to send.</param>
         /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetAssessmentRequest, GetAssessmentResponse> ForAssessment(GetAssessmentRequest request, params AssessmentLifecycleStates[] targetStates)
+        {
+            return this.ForAssessment(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetAssessmentRequest, GetAssessmentResponse> ForAssessment(GetAssessmentRequest request, WaiterConfiguration config, params AssessmentLifecycleStates[] targetStates)
+        {
+            var agent = new WaiterAgent<GetAssessmentRequest, GetAssessmentResponse>(
+                request,
+                request => client.GetAssessment(request),
+                response => targetStates.Contains(response.Assessment.LifecycleState.Value),
+                targetStates.Contains(AssessmentLifecycleStates.Deleted)
+            );
+            return new Waiter<GetAssessmentRequest, GetAssessmentResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetAssessorRequest, GetAssessorResponse> ForAssessor(GetAssessorRequest request, params AssessorLifecycleStates[] targetStates)
+        {
+            return this.ForAssessor(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetAssessorRequest, GetAssessorResponse> ForAssessor(GetAssessorRequest request, WaiterConfiguration config, params AssessorLifecycleStates[] targetStates)
+        {
+            var agent = new WaiterAgent<GetAssessorRequest, GetAssessorResponse>(
+                request,
+                request => client.GetAssessor(request),
+                response => targetStates.Contains(response.Assessor.LifecycleState.Value)
+            );
+            return new Waiter<GetAssessorRequest, GetAssessorResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<GetConnectionRequest, GetConnectionResponse> ForConnection(GetConnectionRequest request, params Connection.LifecycleStateEnum[] targetStates)
         {
             return this.ForConnection(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);

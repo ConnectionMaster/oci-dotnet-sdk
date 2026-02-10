@@ -37,5 +37,8 @@ namespace Oci.DatabasemigrationService.Models
         [JsonProperty(PropertyName = "error")]
         public ResultError Error { get; set; }
         
+        [JsonProperty(PropertyName = "databaseInformation")]
+        public DatabaseInformation DatabaseInformation { get; set; }
+        
     }
 }

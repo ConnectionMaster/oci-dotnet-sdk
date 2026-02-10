@@ -109,5 +109,12 @@ namespace Oci.DatabasemigrationService.Models
         [JsonProperty(PropertyName = "editableParameterFiles", ItemConverterType = typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Collections.Generic.List<JobParameterFileVersionKind> EditableParameterFiles { get; set; }
         
+        /// <value>
+        /// Job Phase group display name e.g. 'Step 1: Migration'
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "groupDisplayName")]
+        public string GroupDisplayName { get; set; }
+        
     }
 }

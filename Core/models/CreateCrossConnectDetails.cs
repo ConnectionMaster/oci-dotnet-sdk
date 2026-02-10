@@ -119,5 +119,19 @@ namespace Oci.CoreService.Models
         [JsonProperty(PropertyName = "macsecProperties")]
         public CreateMacsecProperties MacsecProperties { get; set; }
         
+        /// <value>
+        /// The name of the FastConnect device where this cross-connect is installed.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "ociPhysicalDeviceName")]
+        public string OciPhysicalDeviceName { get; set; }
+        
+        /// <value>
+        /// The name of the FastConnect interface where this cross-connect is installed.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "interfaceName")]
+        public string InterfaceName { get; set; }
+        
     }
 }

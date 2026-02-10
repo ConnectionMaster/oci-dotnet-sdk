@@ -64,20 +64,12 @@ namespace Oci.DatabasemigrationService.Models
         /// <value>
         /// The OCID of the resource being referenced.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "SourceDatabaseConnectionId is required.")]
         [JsonProperty(PropertyName = "sourceDatabaseConnectionId")]
         public string SourceDatabaseConnectionId { get; set; }
         
         /// <value>
         /// The OCID of the resource being referenced.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "TargetDatabaseConnectionId is required.")]
         [JsonProperty(PropertyName = "targetDatabaseConnectionId")]
         public string TargetDatabaseConnectionId { get; set; }
         
@@ -94,6 +86,12 @@ namespace Oci.DatabasemigrationService.Models
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
+        
+        /// <value>
+        /// The OCID of the resource being referenced.
+        /// </value>
+        [JsonProperty(PropertyName = "assessmentId")]
+        public string AssessmentId { get; set; }
         
     }
 

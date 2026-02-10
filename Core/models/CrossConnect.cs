@@ -166,5 +166,12 @@ namespace Oci.CoreService.Models
         [JsonProperty(PropertyName = "ociLogicalDeviceName")]
         public string OciLogicalDeviceName { get; set; }
         
+        /// <value>
+        /// The name of the FastConnect interface where this cross-connect is installed.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "interfaceName")]
+        public string InterfaceName { get; set; }
+        
     }
 }

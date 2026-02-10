@@ -61,6 +61,12 @@ namespace Oci.MysqlService.Models
         public ConfigurationVariables Variables { get; set; }
         
         /// <value>
+        /// The MySQL options defined in the Configuration.
+        /// </value>
+        [JsonProperty(PropertyName = "options")]
+        public System.Collections.Generic.List<Option> Options { get; set; }
+        
+        /// <value>
         /// The OCID of the Configuration from which the new Configuration is derived. The values in CreateConfigurationDetails.variables supersede the variables of the parent Configuration.
         /// 
         /// </value>

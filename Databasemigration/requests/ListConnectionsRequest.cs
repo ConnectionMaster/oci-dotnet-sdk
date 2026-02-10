@@ -45,6 +45,12 @@ namespace Oci.DatabasemigrationService.Requests
         public System.Collections.Generic.List<TechnologyType> TechnologyType { get; set; }
         
         /// <value>
+        /// The database technology sub-type.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "technologySubType")]
+        public string TechnologySubType { get; set; }
+        
+        /// <value>
         /// The array of connection types.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "connectionType", Oci.Common.Http.CollectionFormatType.Multi)]
