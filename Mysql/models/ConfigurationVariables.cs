@@ -16,7 +16,9 @@ using Newtonsoft.Json.Converters;
 namespace Oci.MysqlService.Models
 {
     /// <summary>
+    /// DEPRECATED -- please use the `options` field instead.
     /// User-defined service variables.
+    /// 
     /// </summary>
     public class ConfigurationVariables 
     {

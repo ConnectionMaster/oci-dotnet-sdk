@@ -17,6 +17,9 @@ namespace Oci.DatabasemigrationService.Models
     /// Example: OCI_AUTONOMOUS_DATABASE for an ORACLE connection type.
   /// </summary>
   public enum TechnologyType {
+      /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+      [EnumMember(Value = null)]
+      UnknownEnumValue,
       [EnumMember(Value = "OCI_AUTONOMOUS_DATABASE")]
       OciAutonomousDatabase,
       [EnumMember(Value = "OCI_MYSQL")]

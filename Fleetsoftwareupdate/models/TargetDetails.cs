@@ -34,7 +34,9 @@ namespace Oci.FleetsoftwareupdateService.Models
             [EnumMember(Value = "VMCLUSTER")]
             Vmcluster,
             [EnumMember(Value = "CLOUDVMCLUSTER")]
-            Cloudvmcluster
+            Cloudvmcluster,
+            [EnumMember(Value = "EXADBVMCLUSTER")]
+            Exadbvmcluster
         };
 
         
@@ -74,6 +76,9 @@ namespace Oci.FleetsoftwareupdateService.Models
             var discriminator = jsonObject["entityType"].Value<string>();
             switch (discriminator)
             {
+                case "EXADBVMCLUSTER":
+                    obj = new ExadbVmClusterTargetSummary();
+                    break;
                 case "VMCLUSTER":
                     obj = new VmClusterTargetSummary();
                     break;

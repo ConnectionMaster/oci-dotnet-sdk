@@ -58,6 +58,12 @@ namespace Oci.DatabasemigrationService.Models
         public string TargetDatabaseConnectionId { get; set; }
         
         /// <value>
+        /// The OCID of the resource being referenced.
+        /// </value>
+        [JsonProperty(PropertyName = "assessmentId")]
+        public string AssessmentId { get; set; }
+        
+        /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace. 
         /// For more information, see Resource Tags. Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>

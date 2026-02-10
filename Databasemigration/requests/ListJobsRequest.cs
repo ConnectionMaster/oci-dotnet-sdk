@@ -94,5 +94,12 @@ namespace Oci.DatabasemigrationService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "lifecycleState")]
         public System.Nullable<JobLifecycleStates> LifecycleState { get; set; }
+        
+        /// <value>
+        /// The ID of the Job to exclude from the list of jobs.
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "jobIdNotEqualTo")]
+        public string JobIdNotEqualTo { get; set; }
     }
 }

@@ -16,7 +16,9 @@ using Newtonsoft.Json.Converters;
 namespace Oci.MysqlService.Models
 {
     /// <summary>
+    /// DEPRECATED -- please use the `options` field instead.
     /// User-defined service variables set only at DB system initialization. These variables cannot be changed later at runtime.
+    /// 
     /// </summary>
     public class InitializationVariables 
     {

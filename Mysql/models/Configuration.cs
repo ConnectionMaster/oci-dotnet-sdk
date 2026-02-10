@@ -134,6 +134,16 @@ namespace Oci.MysqlService.Models
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<LifecycleStateEnum> LifecycleState { get; set; }
         
+        /// <value>
+        /// The MySQL options defined in the Configuration.
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "Options is required.")]
+        [JsonProperty(PropertyName = "options")]
+        public System.Collections.Generic.List<Option> Options { get; set; }
+        
         [JsonProperty(PropertyName = "initVariables")]
         public InitializationVariables InitVariables { get; set; }
         

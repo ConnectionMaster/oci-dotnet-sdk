@@ -24,6 +24,8 @@ namespace Oci.DatabasemigrationService.Models
       Succeeded,
       [EnumMember(Value = "FAILED")]
       Failed,
+      [EnumMember(Value = "WARNING")]
+      Warning,
       [EnumMember(Value = "TIMED_OUT")]
       TimedOut
   }

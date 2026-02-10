@@ -27,6 +27,8 @@ namespace Oci.DatabasemigrationService.Models
       Validating,
       [EnumMember(Value = "VALIDATED")]
       Validated,
+      [EnumMember(Value = "ASSESSED")]
+      Assessed,
       [EnumMember(Value = "WAITING")]
       Waiting,
       [EnumMember(Value = "MIGRATING")]

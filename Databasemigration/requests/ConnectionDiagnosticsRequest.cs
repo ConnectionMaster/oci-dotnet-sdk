@@ -58,5 +58,11 @@ namespace Oci.DatabasemigrationService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-retry-token")]
         public string OpcRetryToken { get; set; }
+        
+        /// <value>
+        /// When true, run assessment validation checks (e.g., DMSROLE) and include database information (name/version/size) in the response.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "isAssessmentValidation")]
+        public System.Nullable<bool> IsAssessmentValidation { get; set; }
     }
 }
