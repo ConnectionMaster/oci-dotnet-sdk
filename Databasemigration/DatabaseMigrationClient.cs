@@ -138,6 +138,63 @@ namespace Oci.DatabasemigrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/AddAssessmentObjects.cs.html">here</a> to see an example of how to use AddAssessmentObjects API.</example>
+        public async Task<AddAssessmentObjectsResponse> AddAssessmentObjects(AddAssessmentObjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called addAssessmentObjects");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}/actions/addAssessmentObjects".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "AddAssessmentObjects",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/Assessment/AddAssessmentObjects",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<AddAssessmentObjectsResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"AddAssessmentObjects failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Add excluded/included object to the list.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
         /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/AddMigrationObjects.cs.html">here</a> to see an example of how to use AddMigrationObjects API.</example>
         public async Task<AddMigrationObjectsResponse> AddMigrationObjects(AddMigrationObjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
@@ -182,6 +239,63 @@ namespace Oci.DatabasemigrationService
             catch (Exception e)
             {
                 logger.Error($"AddMigrationObjects failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Used to change the Assessment compartment.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ChangeAssessmentCompartment.cs.html">here</a> to see an example of how to use ChangeAssessmentCompartment API.</example>
+        public async Task<ChangeAssessmentCompartmentResponse> ChangeAssessmentCompartment(ChangeAssessmentCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called changeAssessmentCompartment");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}/actions/changeCompartment".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "ChangeAssessmentCompartment",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/Assessment/ChangeAssessmentCompartment",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ChangeAssessmentCompartmentResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ChangeAssessmentCompartment failed with error: {e.Message}");
                 throw;
             }
         }
@@ -296,6 +410,63 @@ namespace Oci.DatabasemigrationService
             catch (Exception e)
             {
                 logger.Error($"ChangeMigrationCompartment failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Clone a configuration from an existing Assessment.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/CloneAssessment.cs.html">here</a> to see an example of how to use CloneAssessment API.</example>
+        public async Task<CloneAssessmentResponse> CloneAssessment(CloneAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called cloneAssessment");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}/actions/clone".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "CloneAssessment",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/Assessment/CloneAssessment",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<CloneAssessmentResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"CloneAssessment failed with error: {e.Message}");
                 throw;
             }
         }
@@ -472,6 +643,65 @@ namespace Oci.DatabasemigrationService
         }
 
         /// <summary>
+        /// Create an Assessment resource that contains all the details to perform the
+        /// database assessment operation, such as source and destination database
+        /// details, network throughput, accepted downtime etc.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/CreateAssessment.cs.html">here</a> to see an example of how to use CreateAssessment API.</example>
+        public async Task<CreateAssessmentResponse> CreateAssessment(CreateAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called createAssessment");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "CreateAssessment",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/Assessment/CreateAssessment",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<CreateAssessmentResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"CreateAssessment failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Create a Database Connection resource that contains the details to connect to either a Source or Target Database
         /// in the migration.
         /// 
@@ -641,6 +871,63 @@ namespace Oci.DatabasemigrationService
             catch (Exception e)
             {
                 logger.Error($"CreateParameterFileVersion failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Deletes the Assessment represented by the specified assessment ID.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/DeleteAssessment.cs.html">here</a> to see an example of how to use DeleteAssessment API.</example>
+        public async Task<DeleteAssessmentResponse> DeleteAssessment(DeleteAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called deleteAssessment");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}".Trim('/')));
+            HttpMethod method = new HttpMethod("DELETE");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "DeleteAssessment",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/Assessment/DeleteAssessment",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<DeleteAssessmentResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"DeleteAssessment failed with error: {e.Message}");
                 throw;
             }
         }
@@ -988,6 +1275,176 @@ namespace Oci.DatabasemigrationService
         }
 
         /// <summary>
+        /// Display Assessment details.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/GetAssessment.cs.html">here</a> to see an example of how to use GetAssessment API.</example>
+        public async Task<GetAssessmentResponse> GetAssessment(GetAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called getAssessment");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "GetAssessment",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/Assessment/GetAssessment",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<GetAssessmentResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetAssessment failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Display Assessor details.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/GetAssessor.cs.html">here</a> to see an example of how to use GetAssessor API.</example>
+        public async Task<GetAssessorResponse> GetAssessor(GetAssessorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called getAssessor");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}/assessors/{assessorName}".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "GetAssessor",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/Assessor/GetAssessor",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<GetAssessorResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetAssessor failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Get Assessor Check details.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/GetAssessorCheck.cs.html">here</a> to see an example of how to use GetAssessorCheck API.</example>
+        public async Task<GetAssessorCheckResponse> GetAssessorCheck(GetAssessorCheckRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called getAssessorCheck");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}/assessors/{assessorName}/checks/{checkName}".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "GetAssessorCheck",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/AssessorCheck/GetAssessorCheck",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<GetAssessorCheckResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetAssessorCheck failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Display Database Connection details.
         /// 
         /// </summary>
@@ -1274,6 +1731,62 @@ namespace Oci.DatabasemigrationService
         }
 
         /// <summary>
+        /// Download DMS script.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/GetScript.cs.html">here</a> to see an example of how to use GetScript API.</example>
+        public async Task<GetScriptResponse> GetScript(GetScriptRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called getScript");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/scripts/{scriptId}".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "GetScript",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<GetScriptResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetScript failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Gets the details of a work request.
         /// 
         /// </summary>
@@ -1331,6 +1844,462 @@ namespace Oci.DatabasemigrationService
         }
 
         /// <summary>
+        /// Get the Pre-Migration extended Advisor report object list.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ListAdvisorReportCheckObjects.cs.html">here</a> to see an example of how to use ListAdvisorReportCheckObjects API.</example>
+        public async Task<ListAdvisorReportCheckObjectsResponse> ListAdvisorReportCheckObjects(ListAdvisorReportCheckObjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called listAdvisorReportCheckObjects");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/jobs/{jobId}/advisorReportChecks/{advisorReportCheckId}/objects".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "ListAdvisorReportCheckObjects",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/Job/ListAdvisorReportCheckObjects",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ListAdvisorReportCheckObjectsResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListAdvisorReportCheckObjects failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// List of Pre-Migration checks from the advisor.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ListAdvisorReportChecks.cs.html">here</a> to see an example of how to use ListAdvisorReportChecks API.</example>
+        public async Task<ListAdvisorReportChecksResponse> ListAdvisorReportChecks(ListAdvisorReportChecksRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called listAdvisorReportChecks");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/jobs/{jobId}/advisorReportChecks".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "ListAdvisorReportChecks",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/Job/ListAdvisorReportChecks",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ListAdvisorReportChecksResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListAdvisorReportChecks failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Display Check Affected objects.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ListAffectedObjects.cs.html">here</a> to see an example of how to use ListAffectedObjects API.</example>
+        public async Task<ListAffectedObjectsResponse> ListAffectedObjects(ListAffectedObjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called listAffectedObjects");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}/assessors/{assessorName}/checks/{checkName}/affectedObjects".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "ListAffectedObjects",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/AssessorCheck/ListAffectedObjects",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ListAffectedObjectsResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListAffectedObjects failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Display sample object types to exclude or include for an Assessment.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ListAssessmentObjectTypes.cs.html">here</a> to see an example of how to use ListAssessmentObjectTypes API.</example>
+        public async Task<ListAssessmentObjectTypesResponse> ListAssessmentObjectTypes(ListAssessmentObjectTypesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called listAssessmentObjectTypes");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessmentObjectTypes".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "ListAssessmentObjectTypes",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/AssessmentObjectTypeSummary/ListAssessmentObjectTypes",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ListAssessmentObjectTypesResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListAssessmentObjectTypes failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Display excluded/included objects.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ListAssessmentObjects.cs.html">here</a> to see an example of how to use ListAssessmentObjects API.</example>
+        public async Task<ListAssessmentObjectsResponse> ListAssessmentObjects(ListAssessmentObjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called listAssessmentObjects");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}/assessmentObjects".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "ListAssessmentObjects",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/AssessmentObjectCollection/ListAssessmentObjects",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ListAssessmentObjectsResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListAssessmentObjects failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// List all Assessments.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ListAssessments.cs.html">here</a> to see an example of how to use ListAssessments API.</example>
+        public async Task<ListAssessmentsResponse> ListAssessments(ListAssessmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called listAssessments");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "ListAssessments",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/AssessmentSummary/ListAssessments",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ListAssessmentsResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListAssessments failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// List Assessor Check Summaries.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ListAssessorChecks.cs.html">here</a> to see an example of how to use ListAssessorChecks API.</example>
+        public async Task<ListAssessorChecksResponse> ListAssessorChecks(ListAssessorChecksRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called listAssessorChecks");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}/assessors/{assessorName}/checks".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "ListAssessorChecks",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/AssessorCheckSummary/ListAssessorChecks",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ListAssessorChecksResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListAssessorChecks failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// List all Assessors.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ListAssessors.cs.html">here</a> to see an example of how to use ListAssessors API.</example>
+        public async Task<ListAssessorsResponse> ListAssessors(ListAssessorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called listAssessors");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}/assessors".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "ListAssessors",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/AssessorSummary/ListAssessors",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ListAssessorsResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListAssessors failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// List all Database Connections.
         /// 
         /// </summary>
@@ -1383,6 +2352,62 @@ namespace Oci.DatabasemigrationService
             catch (Exception e)
             {
                 logger.Error($"ListConnections failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// List supported Database Types, Sub-types and Versions.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ListDatabaseConnectionType.cs.html">here</a> to see an example of how to use ListDatabaseConnectionType API.</example>
+        public async Task<ListDatabaseConnectionTypeResponse> ListDatabaseConnectionType(ListDatabaseConnectionTypeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called listDatabaseConnectionType");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/connections/databaseconnectiontype".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "ListDatabaseConnectionType",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/DatabaseConnectionTypeSummary/ListDatabaseConnectionType",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ListDatabaseConnectionTypeResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListDatabaseConnectionType failed with error: {e.Message}");
                 throw;
             }
         }
@@ -2074,6 +3099,231 @@ namespace Oci.DatabasemigrationService
         }
 
         /// <summary>
+        /// Assessor Action.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/PerformAssessorAction.cs.html">here</a> to see an example of how to use PerformAssessorAction API.</example>
+        public async Task<PerformAssessorActionResponse> PerformAssessorAction(PerformAssessorActionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called performAssessorAction");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}/assessors/{assessorName}/assessorActions/{assessorAction}".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "PerformAssessorAction",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/Assessment/PerformAssessorAction",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<PerformAssessorActionResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"PerformAssessorAction failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Download SQL script Assessor Action.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/PerformAssessorActionDownloadSql.cs.html">here</a> to see an example of how to use PerformAssessorActionDownloadSql API.</example>
+        public async Task<PerformAssessorActionDownloadSqlResponse> PerformAssessorActionDownloadSql(PerformAssessorActionDownloadSqlRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called performAssessorActionDownloadSql");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}/assessors/{assessorName}/actions/download_sql".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "PerformAssessorActionDownloadSql",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/Assessment/PerformAssessorActionDownloadSql",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<PerformAssessorActionDownloadSqlResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"PerformAssessorActionDownloadSql failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Assessor Check Action.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/PerformAssessorCheckAction.cs.html">here</a> to see an example of how to use PerformAssessorCheckAction API.</example>
+        public async Task<PerformAssessorCheckActionResponse> PerformAssessorCheckAction(PerformAssessorCheckActionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called performAssessorCheckAction");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}/assessors/{assessorName}/checks/{checkName}/actions/{assessorCheckAction}".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "PerformAssessorCheckAction",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/Assessment/PerformAssessorCheckAction",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<PerformAssessorCheckActionResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"PerformAssessorCheckAction failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Remove excluded/included objects.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/RemoveAssessmentObjects.cs.html">here</a> to see an example of how to use RemoveAssessmentObjects API.</example>
+        public async Task<RemoveAssessmentObjectsResponse> RemoveAssessmentObjects(RemoveAssessmentObjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called removeAssessmentObjects");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}/actions/removeAssessmentObjects".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "RemoveAssessmentObjects",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/Assessment/RemoveAssessmentObjects",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<RemoveAssessmentObjectsResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"RemoveAssessmentObjects failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Remove excluded/included objects.
         /// 
         /// </summary>
@@ -2354,6 +3604,234 @@ namespace Oci.DatabasemigrationService
             catch (Exception e)
             {
                 logger.Error($"SuspendJob failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Update the premigration extended Advisor report check.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/UpdateAdvisorReportCheck.cs.html">here</a> to see an example of how to use UpdateAdvisorReportCheck API.</example>
+        public async Task<UpdateAdvisorReportCheckResponse> UpdateAdvisorReportCheck(UpdateAdvisorReportCheckRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called updateAdvisorReportCheck");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/jobs/{jobId}/advisorReportChecks/{advisorReportCheckId}".Trim('/')));
+            HttpMethod method = new HttpMethod("PUT");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "UpdateAdvisorReportCheck",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<UpdateAdvisorReportCheckResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"UpdateAdvisorReportCheck failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Update the Pre-Migration extended Advisor report object list.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/UpdateAdvisorReportCheckObjects.cs.html">here</a> to see an example of how to use UpdateAdvisorReportCheckObjects API.</example>
+        public async Task<UpdateAdvisorReportCheckObjectsResponse> UpdateAdvisorReportCheckObjects(UpdateAdvisorReportCheckObjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called updateAdvisorReportCheckObjects");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/jobs/{jobId}/advisorReportChecks/{advisorReportCheckId}/actions/updateObjects".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "UpdateAdvisorReportCheckObjects",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/AdvisorReportCheckCollection/UpdateAdvisorReportCheckObjects",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<UpdateAdvisorReportCheckObjectsResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"UpdateAdvisorReportCheckObjects failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Update Assessment resource details.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/UpdateAssessment.cs.html">here</a> to see an example of how to use UpdateAssessment API.</example>
+        public async Task<UpdateAssessmentResponse> UpdateAssessment(UpdateAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called updateAssessment");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}".Trim('/')));
+            HttpMethod method = new HttpMethod("PUT");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "UpdateAssessment",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/Assessment/UpdateAssessment",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<UpdateAssessmentResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"UpdateAssessment failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Update the advisor report object list.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/UpdateCheckActionUpdateObject.cs.html">here</a> to see an example of how to use UpdateCheckActionUpdateObject API.</example>
+        public async Task<UpdateCheckActionUpdateObjectResponse> UpdateCheckActionUpdateObject(UpdateCheckActionUpdateObjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called updateCheckActionUpdateObject");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/assessments/{assessmentId}/assessors/{assessorName}/checks/{checkName}/actions/updateObjects".Trim('/')));
+            HttpMethod method = new HttpMethod("PUT");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DatabaseMigration",
+                    OperationName = "UpdateCheckActionUpdateObject",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-migration/20230518/AdvisorReportCheckCollection/UpdateCheckActionUpdateObject",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<UpdateCheckActionUpdateObjectResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"UpdateCheckActionUpdateObject failed with error: {e.Message}");
                 throw;
             }
         }

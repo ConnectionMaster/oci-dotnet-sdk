@@ -23,6 +23,8 @@ namespace Oci.FleetsoftwareupdateService.Models
       [EnumMember(Value = "EXACS")]
       Exacs,
       [EnumMember(Value = "EXACC")]
-      Exacc
+      Exacc,
+      [EnumMember(Value = "EXADBXS")]
+      Exadbxs
   }
 }

@@ -111,6 +111,12 @@ namespace Oci.DatabasemigrationService.Models
         public string ExecutingJobId { get; set; }
         
         /// <value>
+        /// The OCID of the resource being referenced.
+        /// </value>
+        [JsonProperty(PropertyName = "assessmentId")]
+        public string AssessmentId { get; set; }
+        
+        /// <value>
         /// An RFC3339 formatted datetime string such as `2016-08-25T21:10:29.600Z`.
         /// 
         /// </value>

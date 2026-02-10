@@ -722,6 +722,234 @@ namespace Oci.CoreService
         }
 
         /// <summary>
+        /// Create new IPv6s for a VNIC or Subnet.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkCreateIpv6s.cs.html">here</a> to see an example of how to use BulkCreateIpv6s API.</example>
+        public async Task<BulkCreateIpv6sResponse> BulkCreateIpv6s(BulkCreateIpv6sRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called bulkCreateIpv6s");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/actions/bulkCreateIpv6s".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "VirtualNetwork",
+                    OperationName = "BulkCreateIpv6s",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/iaas/20160918/Ipv6/BulkCreateIpv6s",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<BulkCreateIpv6sResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"BulkCreateIpv6s failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Create secondary private IPv4 addresses.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkCreatePrivateIps.cs.html">here</a> to see an example of how to use BulkCreatePrivateIps API.</example>
+        public async Task<BulkCreatePrivateIpsResponse> BulkCreatePrivateIps(BulkCreatePrivateIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called bulkCreatePrivateIps");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/actions/bulkCreatePrivateIps".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "VirtualNetwork",
+                    OperationName = "BulkCreatePrivateIps",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/iaas/20160918/PrivateIp/BulkCreatePrivateIps",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<BulkCreatePrivateIpsResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"BulkCreatePrivateIps failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Unassigns and deletes IPv6s for a VNIC.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDeleteIpv6s.cs.html">here</a> to see an example of how to use BulkDeleteIpv6s API.</example>
+        public async Task<BulkDeleteIpv6sResponse> BulkDeleteIpv6s(BulkDeleteIpv6sRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called bulkDeleteIpv6s");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/actions/bulkDeleteIpv6s".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "VirtualNetwork",
+                    OperationName = "BulkDeleteIpv6s",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/iaas/20160918/Ipv6/BulkDeleteIpv6s",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<BulkDeleteIpv6sResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"BulkDeleteIpv6s failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Unassigns and deletes secondary private IPv4s for a VNIC.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDeletePrivateIps.cs.html">here</a> to see an example of how to use BulkDeletePrivateIps API.</example>
+        public async Task<BulkDeletePrivateIpsResponse> BulkDeletePrivateIps(BulkDeletePrivateIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called bulkDeletePrivateIps");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/actions/bulkDeletePrivateIps".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "VirtualNetwork",
+                    OperationName = "BulkDeletePrivateIps",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/iaas/20160918/PrivateIp/BulkDeletePrivateIps",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<BulkDeletePrivateIpsResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"BulkDeletePrivateIps failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Removes one or more customer public IP prefixes from the specified public virtual circuit.
         /// Use this operation (and not {@link #updateVirtualCircuit(UpdateVirtualCircuitRequest) updateVirtualCircuit})
         /// to remove prefixes from the virtual circuit. When the virtual circuit&#39;s state switches
@@ -777,6 +1005,233 @@ namespace Oci.CoreService
             catch (Exception e)
             {
                 logger.Error($"BulkDeleteVirtualCircuitPublicPrefixes failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// detach the specified IPv6s.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDetachIpv6s.cs.html">here</a> to see an example of how to use BulkDetachIpv6s API.</example>
+        public async Task<BulkDetachIpv6sResponse> BulkDetachIpv6s(BulkDetachIpv6sRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called bulkDetachIpv6s");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/actions/bulkDetachIpv6s".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "VirtualNetwork",
+                    OperationName = "BulkDetachIpv6s",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/iaas/20160918/Ipv6/BulkDetachIpv6s",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<BulkDetachIpv6sResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"BulkDetachIpv6s failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Unassign the specified PrivateIP address from Virtual Network Interface Card (VNIC). You must specify the PrivateIP [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDetachPrivateIps.cs.html">here</a> to see an example of how to use BulkDetachPrivateIps API.</example>
+        public async Task<BulkDetachPrivateIpsResponse> BulkDetachPrivateIps(BulkDetachPrivateIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called bulkDetachPrivateIps");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/actions/bulkDetachPrivateIps".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "VirtualNetwork",
+                    OperationName = "BulkDetachPrivateIps",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/iaas/20160918/PrivateIp/BulkDetachPrivateIps",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<BulkDetachPrivateIpsResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"BulkDetachPrivateIps failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Updates the specified IPv6s.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkUpdateIpv6s.cs.html">here</a> to see an example of how to use BulkUpdateIpv6s API.</example>
+        public async Task<BulkUpdateIpv6sResponse> BulkUpdateIpv6s(BulkUpdateIpv6sRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called bulkUpdateIpv6s");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/actions/bulkUpdateIpv6s".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "VirtualNetwork",
+                    OperationName = "BulkUpdateIpv6s",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/iaas/20160918/Ipv6/BulkUpdateIpv6s",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<BulkUpdateIpv6sResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"BulkUpdateIpv6s failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Updates existing secondary Private IPv4s for a VNIC.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkUpdatePrivateIps.cs.html">here</a> to see an example of how to use BulkUpdatePrivateIps API.</example>
+        public async Task<BulkUpdatePrivateIpsResponse> BulkUpdatePrivateIps(BulkUpdatePrivateIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called bulkUpdatePrivateIps");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/actions/bulkUpdatePrivateIps".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "VirtualNetwork",
+                    OperationName = "BulkUpdatePrivateIps",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/iaas/20160918/PrivateIp/BulkUpdatePrivateIps",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<BulkUpdatePrivateIpsResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"BulkUpdatePrivateIps failed with error: {e.Message}");
                 throw;
             }
         }

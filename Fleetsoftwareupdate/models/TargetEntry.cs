@@ -33,7 +33,9 @@ namespace Oci.FleetsoftwareupdateService.Models
             [EnumMember(Value = "VMCLUSTER")]
             Vmcluster,
             [EnumMember(Value = "CLOUDVMCLUSTER")]
-            Cloudvmcluster
+            Cloudvmcluster,
+            [EnumMember(Value = "EXADBVMCLUSTER")]
+            Exadbvmcluster
         };
 
         /// <value>

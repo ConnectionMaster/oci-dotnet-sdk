@@ -37,6 +37,30 @@ namespace Oci.DatabasemigrationService.Models
       [EnumMember(Value = "DELETE_CONNECTION")]
       DeleteConnection,
       [EnumMember(Value = "UPDATE_CONNECTION")]
-      UpdateConnection
+      UpdateConnection,
+      [EnumMember(Value = "CREATE_ASSESSMENT")]
+      CreateAssessment,
+      [EnumMember(Value = "DELETE_ASSESSMENT")]
+      DeleteAssessment,
+      [EnumMember(Value = "UPDATE_ASSESSMENT")]
+      UpdateAssessment,
+      [EnumMember(Value = "RUN_ASSESSOR_ACTION")]
+      RunAssessorAction,
+      [EnumMember(Value = "RUN_MIGRATE_TABLE_ASSESSOR")]
+      RunMigrateTableAssessor,
+      [EnumMember(Value = "RUN_COMPATIBILITY_ASSESSOR")]
+      RunCompatibilityAssessor,
+      [EnumMember(Value = "RUN_VIABILITY_ASSESSOR")]
+      RunViabilityAssessor,
+      [EnumMember(Value = "CONFIGURE_MIGRATION_ASSESSOR")]
+      ConfigureMigrationAssessor,
+      [EnumMember(Value = "CREATE_MIGRATION_ASSESSOR")]
+      CreateMigrationAssessor,
+      [EnumMember(Value = "PREPARE_SOURCE_ASSESSOR")]
+      PrepareSourceAssessor,
+      [EnumMember(Value = "PREPARE_TARGET_ASSESSOR")]
+      PrepareTargetAssessor,
+      [EnumMember(Value = "CONFIRM_VIABILITY_ASSESSOR")]
+      ConfirmViabilityAssessor
   }
 }
