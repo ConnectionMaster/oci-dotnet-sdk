@@ -284,6 +284,118 @@ namespace Oci.DatabasemanagementService
         /// <param name="request">Request to send.</param>
         /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetCloudExadataInfrastructureRequest, GetCloudExadataInfrastructureResponse> ForCloudExadataInfrastructure(GetCloudExadataInfrastructureRequest request, params CloudExadataInfrastructure.LifecycleStateEnum[] targetStates)
+        {
+            return this.ForCloudExadataInfrastructure(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetCloudExadataInfrastructureRequest, GetCloudExadataInfrastructureResponse> ForCloudExadataInfrastructure(GetCloudExadataInfrastructureRequest request, WaiterConfiguration config, params CloudExadataInfrastructure.LifecycleStateEnum[] targetStates)
+        {
+            var agent = new WaiterAgent<GetCloudExadataInfrastructureRequest, GetCloudExadataInfrastructureResponse>(
+                request,
+                request => client.GetCloudExadataInfrastructure(request),
+                response => targetStates.Contains(response.CloudExadataInfrastructure.LifecycleState.Value),
+                targetStates.Contains(CloudExadataInfrastructure.LifecycleStateEnum.Deleted)
+            );
+            return new Waiter<GetCloudExadataInfrastructureRequest, GetCloudExadataInfrastructureResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetCloudExadataStorageConnectorRequest, GetCloudExadataStorageConnectorResponse> ForCloudExadataStorageConnector(GetCloudExadataStorageConnectorRequest request, params CloudExadataStorageConnector.LifecycleStateEnum[] targetStates)
+        {
+            return this.ForCloudExadataStorageConnector(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetCloudExadataStorageConnectorRequest, GetCloudExadataStorageConnectorResponse> ForCloudExadataStorageConnector(GetCloudExadataStorageConnectorRequest request, WaiterConfiguration config, params CloudExadataStorageConnector.LifecycleStateEnum[] targetStates)
+        {
+            var agent = new WaiterAgent<GetCloudExadataStorageConnectorRequest, GetCloudExadataStorageConnectorResponse>(
+                request,
+                request => client.GetCloudExadataStorageConnector(request),
+                response => targetStates.Contains(response.CloudExadataStorageConnector.LifecycleState.Value),
+                targetStates.Contains(CloudExadataStorageConnector.LifecycleStateEnum.Deleted)
+            );
+            return new Waiter<GetCloudExadataStorageConnectorRequest, GetCloudExadataStorageConnectorResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetCloudExadataStorageGridRequest, GetCloudExadataStorageGridResponse> ForCloudExadataStorageGrid(GetCloudExadataStorageGridRequest request, params CloudExadataStorageGrid.LifecycleStateEnum[] targetStates)
+        {
+            return this.ForCloudExadataStorageGrid(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetCloudExadataStorageGridRequest, GetCloudExadataStorageGridResponse> ForCloudExadataStorageGrid(GetCloudExadataStorageGridRequest request, WaiterConfiguration config, params CloudExadataStorageGrid.LifecycleStateEnum[] targetStates)
+        {
+            var agent = new WaiterAgent<GetCloudExadataStorageGridRequest, GetCloudExadataStorageGridResponse>(
+                request,
+                request => client.GetCloudExadataStorageGrid(request),
+                response => targetStates.Contains(response.CloudExadataStorageGrid.LifecycleState.Value),
+                targetStates.Contains(CloudExadataStorageGrid.LifecycleStateEnum.Deleted)
+            );
+            return new Waiter<GetCloudExadataStorageGridRequest, GetCloudExadataStorageGridResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetCloudExadataStorageServerRequest, GetCloudExadataStorageServerResponse> ForCloudExadataStorageServer(GetCloudExadataStorageServerRequest request, params CloudExadataStorageServer.LifecycleStateEnum[] targetStates)
+        {
+            return this.ForCloudExadataStorageServer(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetCloudExadataStorageServerRequest, GetCloudExadataStorageServerResponse> ForCloudExadataStorageServer(GetCloudExadataStorageServerRequest request, WaiterConfiguration config, params CloudExadataStorageServer.LifecycleStateEnum[] targetStates)
+        {
+            var agent = new WaiterAgent<GetCloudExadataStorageServerRequest, GetCloudExadataStorageServerResponse>(
+                request,
+                request => client.GetCloudExadataStorageServer(request),
+                response => targetStates.Contains(response.CloudExadataStorageServer.LifecycleState.Value),
+                targetStates.Contains(CloudExadataStorageServer.LifecycleStateEnum.Deleted)
+            );
+            return new Waiter<GetCloudExadataStorageServerRequest, GetCloudExadataStorageServerResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<GetCloudListenerRequest, GetCloudListenerResponse> ForCloudListener(GetCloudListenerRequest request, params CloudListener.LifecycleStateEnum[] targetStates)
         {
             return this.ForCloudListener(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);

@@ -116,7 +116,17 @@ namespace Oci.DatabasemanagementService.Models
             [EnumMember(Value = "INFRASTRUCTURE_DISCOVER_SUMMARY")]
             InfrastructureDiscoverSummary,
             [EnumMember(Value = "INFRASTRUCTURE_DISCOVER")]
-            InfrastructureDiscover
+            InfrastructureDiscover,
+            [EnumMember(Value = "MANAGED_STORAGE_SERVER_DISCOVER_SUMMARY")]
+            ManagedStorageServerDiscoverSummary,
+            [EnumMember(Value = "MANAGED_STORAGE_GRID_DISCOVER_SUMMARY")]
+            ManagedStorageGridDiscoverSummary,
+            [EnumMember(Value = "VM_CLUSTER_DISCOVER_SUMMARY")]
+            VmClusterDiscoverSummary,
+            [EnumMember(Value = "MANAGED_INFRASTRUCTURE_DISCOVER_SUMMARY")]
+            ManagedInfrastructureDiscoverSummary,
+            [EnumMember(Value = "CLOUD_INFRASTRUCTURE_DISCOVER")]
+            CloudInfrastructureDiscover
         };
 
         
@@ -143,6 +153,12 @@ namespace Oci.DatabasemanagementService.Models
             var discriminator = jsonObject["entityType"].Value<string>();
             switch (discriminator)
             {
+                case "MANAGED_INFRASTRUCTURE_DISCOVER_SUMMARY":
+                    obj = new ExadataInfrastructureDiscoverySummary();
+                    break;
+                case "MANAGED_STORAGE_GRID_DISCOVER_SUMMARY":
+                    obj = new StorageGridDiscoverySummary();
+                    break;
                 case "STORAGE_GRID_DISCOVER_SUMMARY":
                     obj = new ExternalStorageGridDiscoverySummary();
                     break;
@@ -152,11 +168,20 @@ namespace Oci.DatabasemanagementService.Models
                 case "DATABASE_SYSTEM_DISCOVER_SUMMARY":
                     obj = new ExternalDatabaseSystemDiscoverySummary();
                     break;
+                case "CLOUD_INFRASTRUCTURE_DISCOVER":
+                    obj = new CloudExadataInfrastructureDiscovery();
+                    break;
                 case "INFRASTRUCTURE_DISCOVER_SUMMARY":
                     obj = new ExternalExadataInfrastructureDiscoverySummary();
                     break;
                 case "STORAGE_SERVER_DISCOVER_SUMMARY":
                     obj = new ExternalStorageServerDiscoverySummary();
+                    break;
+                case "MANAGED_STORAGE_SERVER_DISCOVER_SUMMARY":
+                    obj = new StorageServerDiscoverySummary();
+                    break;
+                case "VM_CLUSTER_DISCOVER_SUMMARY":
+                    obj = new VMClusterDiscoverySummary();
                     break;
             }
             if (obj != null)

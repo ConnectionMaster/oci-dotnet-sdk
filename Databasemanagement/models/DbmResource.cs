@@ -137,7 +137,27 @@ namespace Oci.DatabasemanagementService.Models
             [EnumMember(Value = "DATABASE_SYSTEM_SUMMARY")]
             DatabaseSystemSummary,
             [EnumMember(Value = "DATABASE_SUMMARY")]
-            DatabaseSummary
+            DatabaseSummary,
+            [EnumMember(Value = "VM_CLUSTER_SUMMARY")]
+            VmClusterSummary,
+            [EnumMember(Value = "CLOUD_INFRASTRUCTURE_SUMMARY")]
+            CloudInfrastructureSummary,
+            [EnumMember(Value = "CLOUD_INFRASTRUCTURE")]
+            CloudInfrastructure,
+            [EnumMember(Value = "CLOUD_STORAGE_SERVER_SUMMARY")]
+            CloudStorageServerSummary,
+            [EnumMember(Value = "CLOUD_STORAGE_SERVER")]
+            CloudStorageServer,
+            [EnumMember(Value = "CLOUD_STORAGE_GRID_SUMMARY")]
+            CloudStorageGridSummary,
+            [EnumMember(Value = "CLOUD_STORAGE_GRID")]
+            CloudStorageGrid,
+            [EnumMember(Value = "CLOUD_STORAGE_CONNECTOR_SUMMARY")]
+            CloudStorageConnectorSummary,
+            [EnumMember(Value = "CLOUD_STORAGE_CONNECTOR")]
+            CloudStorageConnector,
+            [EnumMember(Value = "MANAGED_DATABASE_SUMMARY")]
+            ManagedDatabaseSummary
         };
 
         
@@ -167,23 +187,50 @@ namespace Oci.DatabasemanagementService.Models
                 case "STORAGE_CONNECTOR":
                     obj = new ExternalExadataStorageConnector();
                     break;
-                case "STORAGE_GRID_SUMMARY":
-                    obj = new ExternalExadataStorageGridSummary();
+                case "VM_CLUSTER_SUMMARY":
+                    obj = new ExadataVmClusterSummary();
                     break;
-                case "STORAGE_SERVER":
-                    obj = new ExternalExadataStorageServer();
+                case "CLOUD_STORAGE_CONNECTOR_SUMMARY":
+                    obj = new CloudExadataStorageConnectorSummary();
                     break;
                 case "INFRASTRUCTURE":
                     obj = new ExternalExadataInfrastructure();
                     break;
-                case "STORAGE_GRID":
-                    obj = new ExternalExadataStorageGrid();
-                    break;
                 case "INFRASTRUCTURE_SUMMARY":
                     obj = new ExternalExadataInfrastructureSummary();
                     break;
+                case "CLOUD_INFRASTRUCTURE":
+                    obj = new CloudExadataInfrastructure();
+                    break;
+                case "CLOUD_STORAGE_SERVER_SUMMARY":
+                    obj = new CloudExadataStorageServerSummary();
+                    break;
+                case "CLOUD_STORAGE_GRID":
+                    obj = new CloudExadataStorageGrid();
+                    break;
+                case "STORAGE_GRID_SUMMARY":
+                    obj = new ExternalExadataStorageGridSummary();
+                    break;
+                case "CLOUD_STORAGE_CONNECTOR":
+                    obj = new CloudExadataStorageConnector();
+                    break;
+                case "CLOUD_INFRASTRUCTURE_SUMMARY":
+                    obj = new CloudExadataInfrastructureSummary();
+                    break;
+                case "STORAGE_SERVER":
+                    obj = new ExternalExadataStorageServer();
+                    break;
+                case "STORAGE_GRID":
+                    obj = new ExternalExadataStorageGrid();
+                    break;
+                case "CLOUD_STORAGE_GRID_SUMMARY":
+                    obj = new CloudExadataStorageGridSummary();
+                    break;
                 case "DATABASE_SYSTEM_SUMMARY":
                     obj = new ExternalExadataDatabaseSystemSummary();
+                    break;
+                case "CLOUD_STORAGE_SERVER":
+                    obj = new CloudExadataStorageServer();
                     break;
                 case "STORAGE_CONNECTOR_SUMMARY":
                     obj = new ExternalExadataStorageConnectorSummary();

@@ -26,6 +26,9 @@ namespace Oci.DatabasemanagementService.Models
         /// </value>
         ///
         public enum StateEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
             [EnumMember(Value = "CREATING")]
             Creating,
             [EnumMember(Value = "ACTIVE")]
@@ -48,7 +51,7 @@ namespace Oci.DatabasemanagementService.Models
         /// The current lifecycle state of the Exadata infrastructure resource.
         /// </value>
         [JsonProperty(PropertyName = "state")]
-        [JsonConverter(typeof(StringEnumConverter))]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<StateEnum> State { get; set; }
         
     }

@@ -20,7 +20,7 @@ using Xunit;
 namespace Oci.Common
 {
     [ExcludeFromCodeCoverage]
-    public class RealmSpecificParameterizedClientTest : BaseTest
+    public class RestClientTest : BaseTest
     {
         [Theory]
         [InlineData("https://{namespaceName+Dot}oracle.com", "https://foobar.oracle.com/")]
@@ -31,6 +31,22 @@ namespace Oci.Common
         public void TestPopulateServiceParametersInEndpointTemplate(string parameterizedTemplate, string expectedEndpoint)
         {
             RestClient restclient = new RestClient { RealmSpecificEndpointTemplate = parameterizedTemplate };
+            Dictionary<string, object> requiredParametersDictionary = new Dictionary<string, object> { { "namespaceName", "foobar" }, { "bucketName", "puppies" }, { "objectName", "kittens" } };
+            Uri updatedEndpointTemplate = RegionalClientBase.PopulateServiceParametersInEndpointTemplate(restclient, requiredParametersDictionary);
+            Assert.Equal(expectedEndpoint, updatedEndpointTemplate.ToString());
+        }
+
+        [Theory]
+        [InlineData("https://{namespaceName+Dot}{dualStack?ds.:}oracle.com", "https://foobar.ds.oracle.com/")]
+        [InlineData("https://{namespaceName+Dot}{dualStack?ds.:}{bucketName}.oracle.com", "https://foobar.ds.puppies.oracle.com/")]
+        [InlineData("https://{randomName+Dot}{dualStack?ds.:}oracle.com", "https://ds.oracle.com/")]
+        [InlineData("https://{namespaceName+Dot}{dualStack?ds.oci.:}oracle.com", "https://foobar.ds.oci.oracle.com/")]
+        [Trait("Category", "Unit")]
+        [DisplayTestMethodNameAttribute]
+        public void TestDualStackParametersInEndpointTemplate(string parameterizedTemplate, string expectedEndpoint)
+        {
+            RestClient restclient = new RestClient { RealmSpecificEndpointTemplate = parameterizedTemplate };
+            restclient.OptionsMap["dualStack"] = true;
             Dictionary<string, object> requiredParametersDictionary = new Dictionary<string, object> { { "namespaceName", "foobar" }, { "bucketName", "puppies" }, { "objectName", "kittens" } };
             Uri updatedEndpointTemplate = RegionalClientBase.PopulateServiceParametersInEndpointTemplate(restclient, requiredParametersDictionary);
             Assert.Equal(expectedEndpoint, updatedEndpointTemplate.ToString());

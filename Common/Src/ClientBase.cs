@@ -49,6 +49,7 @@ namespace Oci.Common
             ClientConfiguration clientConfigurationToUse = clientConfiguration ?? new ClientConfiguration();
             this.restClient = new RestClient(authProvider, clientConfigurationToUse, requestSigner);
             this.restClient.SetDefaultUserAgent(BuildUserAgent(clientConfigurationToUse.ClientUserAgent));
+            EnableDualStackEndpoints(EndpointTemplateForOptionsUtils.IsDualStackEnabledForClientDefault(this.service));
         }
 
         /// <summary>Disposes the rest client.</summary>
@@ -76,7 +77,7 @@ namespace Oci.Common
         [MethodImpl(MethodImplOptions.Synchronized)]
         public void SetEndpoint(string endpoint)
         {
-            logger.Info($"Setting endpoint to {endpoint}");
+            logger.Info($"Setting default endpoint to {endpoint}");
             this.restClient.SetEndpoint(endpoint);
         }
 
@@ -101,6 +102,20 @@ namespace Oci.Common
         {
             logger.Info($"Setting SetRealmSpecificEndpointTemplate to {endpoint}");
             this.restClient.RealmSpecificEndpointTemplate = endpoint;
+        }
+
+        /// <summary>
+        /// Enables or disables dual stack endpoints for this client at runtime.
+        /// Propagates the dualStack option into the internal RestClient's OptionsMap.
+        /// </summary>
+        [MethodImpl(MethodImplOptions.Synchronized)]
+        public void EnableDualStackEndpoints(bool dualStackEndpointTemplateEnabled)
+        {
+            if (this.restClient != null)
+            {
+                logger.Info($"Enabling DualStack endpoints: {dualStackEndpointTemplateEnabled}");
+                this.restClient.OptionsMap[EndpointTemplateForOptionsUtils.DUAL_STACK_OPTION] = dualStackEndpointTemplateEnabled;
+            }
         }
     }
 }
