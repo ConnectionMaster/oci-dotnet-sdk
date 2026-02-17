@@ -85,5 +85,14 @@ namespace Oci.MysqlService.Models
         [JsonProperty(PropertyName = "targetVersion")]
         public string TargetVersion { get; set; }
         
+        /// <value>
+        /// Time window during which downtime-inducing maintenance shall not be performed.
+        /// Downtime-free maintenance may be performed to apply required security patches.
+        /// At most one configured window is supported.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "maintenanceDisabledWindows")]
+        public System.Collections.Generic.List<MaintenanceDisabledWindow> MaintenanceDisabledWindows { get; set; }
+        
     }
 }

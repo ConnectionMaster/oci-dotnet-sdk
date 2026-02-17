@@ -736,6 +736,153 @@ namespace Oci.DatabasemanagementService
         }
 
         /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListCloudExadataInfrastructures operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListCloudExadataInfrastructuresResponse> ListCloudExadataInfrastructuresResponseEnumerator(ListCloudExadataInfrastructuresRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListCloudExadataInfrastructuresRequest, ListCloudExadataInfrastructuresResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListCloudExadataInfrastructures(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the CloudExadataInfrastructureSummary objects
+        /// contained in responses from the ListCloudExadataInfrastructures operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<CloudExadataInfrastructureSummary> ListCloudExadataInfrastructuresRecordEnumerator(ListCloudExadataInfrastructuresRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListCloudExadataInfrastructuresRequest, ListCloudExadataInfrastructuresResponse, CloudExadataInfrastructureSummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListCloudExadataInfrastructures(request, retryConfiguration, cancellationToken),
+                response => response.CloudExadataInfrastructureCollection.Items
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListCloudExadataStorageConnectors operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListCloudExadataStorageConnectorsResponse> ListCloudExadataStorageConnectorsResponseEnumerator(ListCloudExadataStorageConnectorsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListCloudExadataStorageConnectorsRequest, ListCloudExadataStorageConnectorsResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListCloudExadataStorageConnectors(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the CloudExadataStorageConnectorSummary objects
+        /// contained in responses from the ListCloudExadataStorageConnectors operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<CloudExadataStorageConnectorSummary> ListCloudExadataStorageConnectorsRecordEnumerator(ListCloudExadataStorageConnectorsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListCloudExadataStorageConnectorsRequest, ListCloudExadataStorageConnectorsResponse, CloudExadataStorageConnectorSummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListCloudExadataStorageConnectors(request, retryConfiguration, cancellationToken),
+                response => response.CloudExadataStorageConnectorCollection.Items
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListCloudExadataStorageServers operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListCloudExadataStorageServersResponse> ListCloudExadataStorageServersResponseEnumerator(ListCloudExadataStorageServersRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListCloudExadataStorageServersRequest, ListCloudExadataStorageServersResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListCloudExadataStorageServers(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the CloudExadataStorageServerSummary objects
+        /// contained in responses from the ListCloudExadataStorageServers operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<CloudExadataStorageServerSummary> ListCloudExadataStorageServersRecordEnumerator(ListCloudExadataStorageServersRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListCloudExadataStorageServersRequest, ListCloudExadataStorageServersResponse, CloudExadataStorageServerSummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListCloudExadataStorageServers(request, retryConfiguration, cancellationToken),
+                response => response.CloudExadataStorageServerCollection.Items
+            );
+        }
+
+        /// <summary>
         /// Creates a new enumerable which will iterate over the responses received from the ListCloudListenerServices operation. This enumerable
         /// will fetch more data from the server as needed.
         /// </summary>

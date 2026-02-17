@@ -14,6 +14,7 @@ using Oci.Common.DeveloperToolConfigurations;
 using Oci.Common.Auth;
 using Oci.Common.Http;
 using Oci.Common.Http.Signing;
+using Oci.Common.Internal;
 using Oci.Common.Utils;
 
 namespace Oci.Common
@@ -100,57 +101,10 @@ namespace Oci.Common
             {
                 return client.GetEndpoint();
             }
-            string[] parameters = parseEndpointForParameters(endpointTemplate);
-            string updatedEndpoint = null;
-            // If the endpoint template has parameters but there are no required parameters, then replace the parameters with empty string.
-            if (parameters != null && parameters.Length > 0 && requiredParametersDictionary.Count == 0)
-            {
-                updatedEndpoint = Regex.Replace(endpointTemplate, @"{.*?}", "");
-                return new Uri(updatedEndpoint);
-            }
-            updatedEndpoint = endpointTemplate;
-            foreach (string parameter in parameters)
-            {
-                bool appendDot = false;
-                string paramName;
-                // If the parameter is defined with a "+Dot" string, it means we need to append a "." after populating the paramName value
-                if (parameter.EndsWith("+Dot}"))
-                {
-                    appendDot = true;
-                    paramName = parameter.Substring(1, parameter.IndexOf("+") - 1);
-                }
-                else
-                {
-                    paramName = parameter.Substring(1, parameter.Length - 2);
-                }
 
-                if (requiredParametersDictionary.ContainsKey(paramName))
-                {
-                    if (requiredParametersDictionary[paramName] is string paramValue)
-                    {
-                        if (appendDot)
-                        {
-                            updatedEndpoint = updatedEndpoint.Replace(parameter, paramValue + ".");
-                        }
-                        else
-                        {
-                            updatedEndpoint = updatedEndpoint.Replace(parameter, paramValue);
-                        }
-
-                    }
-                    else
-                    {
-                        logger.Debug($"The parameter for {paramName} cannot be populated since the value is not of type string");
-                        updatedEndpoint = updatedEndpoint.Replace(parameter, "");
-                        continue;
-                    }
-
-                }
-                else
-                {
-                    updatedEndpoint = updatedEndpoint.Replace(parameter, "");
-                }
-            }
+            String updatedEndpoint = EndpointBuilder.GetEndpointWithPopulatedServiceParams(endpointTemplate,
+                requiredParametersDictionary, client.OptionsMap);
+            logger.Info($"Setting endpoint to: {updatedEndpoint}");
             return new Uri(updatedEndpoint);
         }
 

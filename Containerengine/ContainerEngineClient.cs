@@ -857,6 +857,64 @@ namespace Oci.ContainerengineService
         }
 
         /// <summary>
+        /// Extend the rollback deadline of public api endpoint decommission for a cluster. 
+        /// The operation can only be performed within decommission rollback deadline.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ExtendEndpointDecommissionRollbackDeadline.cs.html">here</a> to see an example of how to use ExtendEndpointDecommissionRollbackDeadline API.</example>
+        public async Task<ExtendEndpointDecommissionRollbackDeadlineResponse> ExtendEndpointDecommissionRollbackDeadline(ExtendEndpointDecommissionRollbackDeadlineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called extendEndpointDecommissionRollbackDeadline");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/clusters/{clusterId}/actions/extendEndpointDecommissionRollbackDeadline".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "ContainerEngine",
+                    OperationName = "ExtendEndpointDecommissionRollbackDeadline",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/containerengine/20180222/Cluster/ExtendEndpointDecommissionRollbackDeadline",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ExtendEndpointDecommissionRollbackDeadlineResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ExtendEndpointDecommissionRollbackDeadline failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Get the specified addon for a cluster.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1244,6 +1302,62 @@ namespace Oci.ContainerengineService
             catch (Exception e)
             {
                 logger.Error($"GetNodePoolOptions failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Get cluster public api endpoint decommission status.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetPublicApiEndpointDecommissionStatus.cs.html">here</a> to see an example of how to use GetPublicApiEndpointDecommissionStatus API.</example>
+        public async Task<GetPublicApiEndpointDecommissionStatusResponse> GetPublicApiEndpointDecommissionStatus(GetPublicApiEndpointDecommissionStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called getPublicApiEndpointDecommissionStatus");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/clusters/{clusterId}/publicApiEndpointDecommissionStatus".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "ContainerEngine",
+                    OperationName = "GetPublicApiEndpointDecommissionStatus",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/containerengine/20180222/Cluster/GetPublicApiEndpointDecommissionStatus",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<GetPublicApiEndpointDecommissionStatusResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetPublicApiEndpointDecommissionStatus failed with error: {e.Message}");
                 throw;
             }
         }
@@ -2257,6 +2371,64 @@ namespace Oci.ContainerengineService
         }
 
         /// <summary>
+        /// Rollback public api endpoint decommission for a cluster, legacy kubernetes endpoint will be brought back once the operation is completed. 
+        /// The operation can only be performed within decommission rollback deadline.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/RollbackPublicApiEndpointDecommission.cs.html">here</a> to see an example of how to use RollbackPublicApiEndpointDecommission API.</example>
+        public async Task<RollbackPublicApiEndpointDecommissionResponse> RollbackPublicApiEndpointDecommission(RollbackPublicApiEndpointDecommissionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called rollbackPublicApiEndpointDecommission");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/clusters/{clusterId}/actions/rollbackPublicApiEndpointDecommission".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "ContainerEngine",
+                    OperationName = "RollbackPublicApiEndpointDecommission",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/containerengine/20180222/Cluster/RollbackPublicApiEndpointDecommission",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<RollbackPublicApiEndpointDecommissionResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"RollbackPublicApiEndpointDecommission failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Start cluster credential rotation by adding new credentials, old credentials will still work after this operation.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2308,6 +2480,62 @@ namespace Oci.ContainerengineService
             catch (Exception e)
             {
                 logger.Error($"StartCredentialRotation failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Start public api endpoint decommission for a cluster, legacy kubernetes endpoint will no longer available after this operation.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/StartPublicApiEndpointDecommission.cs.html">here</a> to see an example of how to use StartPublicApiEndpointDecommission API.</example>
+        public async Task<StartPublicApiEndpointDecommissionResponse> StartPublicApiEndpointDecommission(StartPublicApiEndpointDecommissionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called startPublicApiEndpointDecommission");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/clusters/{clusterId}/actions/startPublicApiEndpointDecommission".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "ContainerEngine",
+                    OperationName = "StartPublicApiEndpointDecommission",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/containerengine/20180222/Cluster/StartPublicApiEndpointDecommission",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<StartPublicApiEndpointDecommissionResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"StartPublicApiEndpointDecommission failed with error: {e.Message}");
                 throw;
             }
         }

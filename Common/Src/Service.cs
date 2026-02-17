@@ -57,5 +57,11 @@ namespace Oci.Common
         {
             return REALM_SPECIFIC_ENDPOINT_TEMPLATE_DICTIONARY;
         }
+
+        /// <summary>
+        /// Gets or sets whether the service uses dual stack by default. Defaults to false.
+        /// </summary>
+        public bool ServiceUsesDualStackByDefault { get; set; } = false;
+
     }
 }

@@ -29,6 +29,19 @@ namespace Oci.Common.Http
         private readonly IBasicAuthenticationDetailsProvider authProvider;
         public string RealmSpecificEndpointTemplate { get; set; }
 
+        private string encodedEndpoint = null;
+
+        // OptionsMap for endpoint customization (dualStack, etc)
+        private Dictionary<string, bool> optionsMap = new Dictionary<string, bool>();
+        /// <summary>
+        /// Gets or sets the options map for this client (endpoint customization options like dualStack).
+        /// </summary>
+        public Dictionary<string, bool> OptionsMap
+        {
+            get { return optionsMap; }
+            set { optionsMap = value ?? new Dictionary<string, bool>(); }
+        }
+
         private void RefreshSigner()
         {
             ((AbstractRequestingAuthenticationDetailsProvider)this.authProvider).Refresh();
@@ -42,6 +55,7 @@ namespace Oci.Common.Http
         public RestClient(RestClientHandler handler)
         {
             this.httpClient = new HttpClient(handler);
+            this.optionsMap = new Dictionary<string, bool>();
         }
 
         /// This is DEPRECATED. Please use the RestClient constructor using IBasicAuthenticationDetailsProvider.
@@ -50,6 +64,7 @@ namespace Oci.Common.Http
             this.httpClient = new HttpClient(handler);
             this.httpClient.Timeout = TimeSpan.FromMilliseconds(clientConfiguration.TimeoutMillis);
             this.httpClient.MaxResponseContentBufferSize = clientConfiguration.ResponseContentBufferBytes;
+            this.optionsMap = new Dictionary<string, bool>();
         }
 
         public RestClient(IBasicAuthenticationDetailsProvider authProvider, RequestSigner requestSigner)
@@ -59,6 +74,7 @@ namespace Oci.Common.Http
             this.httpClient = new HttpClient(restClientHandler);
             this.requestSigner = requestSigner;
             this.availableRequestSigners = GetAvailableRequestSigners(this.authProvider);
+            this.optionsMap = new Dictionary<string, bool>();
         }
 
         public RestClient(IBasicAuthenticationDetailsProvider authProvider, ClientConfiguration clientConfiguration, RequestSigner requestSigner)
@@ -70,6 +86,7 @@ namespace Oci.Common.Http
             this.httpClient.MaxResponseContentBufferSize = clientConfiguration.ResponseContentBufferBytes;
             this.requestSigner = requestSigner;
             this.availableRequestSigners = GetAvailableRequestSigners(this.authProvider);
+            this.optionsMap = new Dictionary<string, bool>();
         }
 
         public RestClient() : this(null as IBasicAuthenticationDetailsProvider, null as RequestSigner) { }
@@ -83,18 +100,37 @@ namespace Oci.Common.Http
             }
         }
 
-        /// <summary>Sets the base address for the HTTP client.</summary>
+        /// <summary>Sets the base address for the HTTP client and synchronizes encodedEndpoint.</summary>
         /// <param name="endpoint">The service endpoint.</param>
         public void SetEndpoint(string endpoint)
         {
             logger.Debug($"Setting endpoint to: {endpoint}");
+
+            // Track both plain and encoded endpoint for parity with Java implementation.
             this.httpClient.BaseAddress = new Uri(endpoint);
+            this.encodedEndpoint = Uri.EscapeDataString(endpoint);
         }
 
-        /// <summary>Retrieves the endpoint Uri.</summary>
+        /// <summary>
+        /// Retrieves the endpoint Uri (decoded if necessary).
+        /// </summary>
         /// <returns>The base address of the HTTP client.</returns>
         public Uri GetEndpoint()
         {
+            if (!string.IsNullOrEmpty(this.encodedEndpoint))
+            {
+                try
+                {
+                    var decoded = Uri.UnescapeDataString(this.encodedEndpoint);
+                    return new Uri(decoded);
+                }
+                catch (Exception e)
+                {
+                    logger.Debug($"Cannot decode the endpoint: {this.encodedEndpoint}, error: {e.Message}");
+                    // Return the raw encodedEndpoint as fallback
+                    return new Uri(this.encodedEndpoint);
+                }
+            }
             return this.httpClient.BaseAddress;
         }
 

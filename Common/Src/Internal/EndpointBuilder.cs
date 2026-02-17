@@ -27,6 +27,29 @@ namespace Oci.Common.Internal
         private static readonly string SECOND_LEVEL_DOMAIN_TEMPLATE = "{secondLevelDomain}";
         public static readonly string DEFAULT_ENDPOINT_TEMPLATE = $"https://{SERVICE_ENDPOINT_PREFIX_TEMPLATE}.{REGION_ID_TEMPLATE}.{SECOND_LEVEL_DOMAIN_TEMPLATE}";
         public static readonly string DOTTED_REGION_ENDPOINT_TEMPLATE = $"https://{SERVICE_TEMPLATE}.{REGION_ID_TEMPLATE}";
+
+        private static readonly Regex PLACEHOLDER_PATTERN = new Regex(@"\{(.*?)\}", RegexOptions.Compiled);
+        /// <summary>
+        /// Regex to detect options defined in the endpoint template. It checks for the following pattern:
+        /// <list type="bullet">
+        ///   <item>Starts with an opening curly brace ({)</item>
+        ///   <item>Followed by 1 or more word characters</item>
+        ///   <item>Followed by a question mark (?)</item>
+        ///   <item>Followed by any one of the following:
+        ///     <list type="bullet">
+        ///         <item>one or more word characters, followed by a period:one or more word characters, followed by a period</item>
+        ///         <item>one or more word characters, followed by a period:zero or more whitespace characters</item>
+        ///         <item>zero or more whitespace characters:one or more word characters, followed by a period</item>
+        ///     </list>
+        ///   </item>
+        ///   <item>Ends with a closing curly brace (})</item>
+        /// </list>
+        /// <para>Example: {option?v1.:v2.}, {option?:v2.}, {option?v1.:} are valid patterns</para>
+        /// <para>Example: {option?v1:v2+}, {option?:v2}, {option?v1?:} {option?:} are invalid pattern</para>
+        /// </summary>
+        public static readonly string OPTIONS_REGEX = @"\{(\w+)\?(((\w+\.)+\:(\w+\.)+)|((\w+\.)+:\s*)|(\s*:(\w+\.)+))\}+";
+        public static readonly Regex OPTIONS_PATTERN = new Regex(OPTIONS_REGEX, RegexOptions.Compiled);
+
         private static readonly Dictionary<string, string> OVERRIDE_REGION_IDS = new Dictionary<string, string>();
 
         /// <summary>Creates the service endpoint</summary>
@@ -41,9 +64,10 @@ namespace Oci.Common.Internal
             {
                 throw new ArgumentNullException();
             }
-            if (!OVERRIDE_REGION_IDS.TryGetValue(regionId, out var regionIdToUse))
+            string regionIdToUse;
+            lock (OVERRIDE_REGION_IDS)
             {
-                regionIdToUse = regionId;
+                regionIdToUse = OVERRIDE_REGION_IDS.TryGetValue(regionId, out var val) ? val : regionId;
             }
             // If the region is dotted, return endpoint using the "{service}.{region}" template.
             if (regionIdToUse.Contains("."))
@@ -175,5 +199,107 @@ namespace Oci.Common.Internal
             logger.Debug($"Setting endpoint template to: {endpointTemplateToUse}");
             return BuildEndpoint(endpointTemplateToUse, regionId, service.ServiceEndpointPrefix, realm);
         }
+
+        /// <summary>
+        /// Populate the parameters and handle option blocks in the endpoint template.
+        /// </summary>
+        /// <param name="baseUriString">The template endpoint with placeholders.</param>
+        /// <param name="requiredParametersDictionary">Dictionary of request parameters to populate.</param>
+        /// <param name="optionsMap">Options map for enabled/disabled flags (e.g. dualStack).</param>
+        /// <returns>Processed endpoint string with parameters and options.</returns>
+        public static string GetEndpointWithPopulatedServiceParams(
+            string baseUriString,
+            Dictionary<string, object> requiredParametersDictionary,
+            Dictionary<string, bool> optionsMap)
+        {
+            string endpoint = baseUriString;
+            logger.Trace($"getEndpointWithPopulateServiceParameters: baseUriString='{endpoint}'");
+            if (!IsEndpointParameterized(endpoint))
+            {
+                logger.Trace($"baseUriString not parameterized; endpoint='{endpoint}'");
+                return endpoint;
+            }
+
+            var updatedEndpointBuilder = new System.Text.StringBuilder();
+            int afterLastMatch = 0;
+            var matcher = PLACEHOLDER_PATTERN.Matches(endpoint);
+
+            foreach (Match match in matcher)
+            {
+                // Append part between last match and this match
+                updatedEndpointBuilder.Append(endpoint.Substring(afterLastMatch, match.Index - afterLastMatch));
+                afterLastMatch = match.Index + match.Length;
+
+                string group = match.Value;
+                // Option block
+                if (OPTIONS_PATTERN.IsMatch(group))
+                {
+                    var optionMatch = OPTIONS_PATTERN.Match(group);
+                    if (optionMatch.Success)
+                    {
+                        string optionName = optionMatch.Groups[1].Value;
+                        if (!optionsMap.ContainsKey(optionName))
+                        {
+                            logger.Debug($"The option {optionName} cannot be populated since its value was not provided, removing {group} from endpoint entirely");
+                            continue;
+                        }
+                        bool optionValue = optionsMap[optionName];
+                        // Parse choices
+                        var qMark = group.IndexOf("?");
+                        var colon = group.IndexOf(":", qMark);
+                        var close = group.IndexOf("}", colon);
+                        string onChoice = group.Substring(qMark + 1, colon - qMark - 1);
+                        string offChoice = group.Substring(colon + 1, close - colon - 1);
+                        string replacement = optionValue ? onChoice : offChoice;
+                        updatedEndpointBuilder.Append(replacement);
+                    }
+                }
+                else
+                {
+                    // Generic parameter
+                    string parameter = match.Value; // e.g. "{param}", or "{param+Dot}"
+                    bool appendDot = false;
+                    string paramName;
+                    if (parameter.EndsWith("+Dot}"))
+                    {
+                        appendDot = true;
+                        paramName = parameter.Substring(1, parameter.IndexOf("+")-1);
+                    }
+                    else
+                    {
+                        paramName = parameter.Substring(1, parameter.Length - 2);
+                    }
+                    if (requiredParametersDictionary.ContainsKey(paramName))
+                    {
+                        if (!(requiredParametersDictionary[paramName] is string paramValue))
+                        {
+                            logger.Debug($"The parameter for {paramName} cannot be populated since the value is not of type string");
+                            continue;
+                        }
+                        updatedEndpointBuilder.Append(paramValue);
+                        if (appendDot)
+                            updatedEndpointBuilder.Append('.');
+                    }
+                    else
+                    {
+                        logger.Trace($"GetEndpointWithPopulatedServiceParams: parameter '{paramName}' not found in requiredParameters dictionary");
+                    }
+                }
+            }
+            // Append rest
+            updatedEndpointBuilder.Append(endpoint.Substring(afterLastMatch));
+            string updatedEndpoint = updatedEndpointBuilder.ToString();
+            logger.Trace($"Processed all parameters, endpoint='{updatedEndpoint}'");
+            return updatedEndpoint;
+        }
+
+        /// <summary>
+        /// Checks if the given endpoint string contains any placeholders.
+        /// </summary>
+        public static bool IsEndpointParameterized(string endpoint)
+        {
+            return endpoint.Contains("{");
+        }
+
     }
 }

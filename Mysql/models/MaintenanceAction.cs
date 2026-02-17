@@ -15,14 +15,23 @@ namespace Oci.MysqlService.Models
   /// <summary>
   /// The nature of the maintenance event.
     /// <br/>
-    /// DATABASE:  maintenance event causing a MySQL version upgrade.
+    /// DATABASE:  maintenance event causing a MySQL version upgrade. This may also include OS updates.
     /// OS_UPDATE: maintenance event causing an OS update.
+    /// ONLINE_UPDATE: maintenance event causing downtime-free OS security patches.
+    /// HARDWARE: hardware maintenance event affecting the DB System's VMs and BMs.
     /// 
   /// </summary>
   public enum MaintenanceAction {
+      /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+      [EnumMember(Value = null)]
+      UnknownEnumValue,
       [EnumMember(Value = "DATABASE")]
       Database,
       [EnumMember(Value = "OS_UPDATE")]
-      OsUpdate
+      OsUpdate,
+      [EnumMember(Value = "ONLINE_UPDATE")]
+      OnlineUpdate,
+      [EnumMember(Value = "HARDWARE")]
+      Hardware
   }
 }
