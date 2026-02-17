@@ -21,6 +21,9 @@ namespace Oci.MysqlService.Models
     /// 
   /// </summary>
   public enum MaintenanceType {
+      /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+      [EnumMember(Value = null)]
+      UnknownEnumValue,
       [EnumMember(Value = "AUTOMATIC")]
       Automatic,
       [EnumMember(Value = "MANUAL")]

@@ -62,5 +62,8 @@ namespace Oci.CoreService.Models
         [JsonProperty(PropertyName = "displayName")]
         public string DisplayName { get; set; }
         
+        [JsonProperty(PropertyName = "gpuMemoryClusterScaleConfig")]
+        public UpdateComputeGpuMemoryClusterScaleConfig GpuMemoryClusterScaleConfig { get; set; }
+        
     }
 }

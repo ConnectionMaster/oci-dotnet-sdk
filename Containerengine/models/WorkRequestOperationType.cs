@@ -58,6 +58,10 @@ namespace Oci.ContainerengineService.Models
       [EnumMember(Value = "CLUSTER_NODE_REBOOT")]
       ClusterNodeReboot,
       [EnumMember(Value = "CLUSTER_NODE_REPLACE_BOOT_VOLUME")]
-      ClusterNodeReplaceBootVolume
+      ClusterNodeReplaceBootVolume,
+      [EnumMember(Value = "START_PUBLIC_API_ENDPOINT_DECOMMISSION")]
+      StartPublicApiEndpointDecommission,
+      [EnumMember(Value = "ROLLBACK_PUBLIC_API_ENDPOINT_DECOMMISSION")]
+      RollbackPublicApiEndpointDecommission
   }
 }
