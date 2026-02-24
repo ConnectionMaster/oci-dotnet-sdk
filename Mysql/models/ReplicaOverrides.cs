@@ -60,5 +60,8 @@ namespace Oci.MysqlService.Models
         [JsonProperty(PropertyName = "securityAttributes")]
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> SecurityAttributes { get; set; }
         
+        [JsonProperty(PropertyName = "telemetryConfiguration")]
+        public TelemetryConfigurationDetails TelemetryConfiguration { get; set; }
+        
     }
 }

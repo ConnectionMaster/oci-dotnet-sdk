@@ -491,6 +491,8 @@ namespace Oci.DnsService
         /// &lt;br/&gt;
         /// For the purposes of access control, the attachment is automatically placed
         /// into the same compartment as the domain&#39;s zone.
+        /// &lt;br/&gt;
+        /// Attachments cannot be created for private zones.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>

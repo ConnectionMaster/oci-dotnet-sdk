@@ -77,6 +77,14 @@ namespace Oci.DnsService.Models
         public System.Collections.Generic.List<ExternalDownstream> ExternalDownstreams { get; set; }
         
         /// <value>
+        /// The resolution mode of a zone defines behavior related to how query responses can be handled.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "resolutionMode")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<ZoneResolutionMode> ResolutionMode { get; set; }
+        
+        /// <value>
         /// The state of DNSSEC on the zone.
         /// <br/>
         /// For DNSSEC to function, every parent zone in the DNS tree up to the top-level domain (or an independent

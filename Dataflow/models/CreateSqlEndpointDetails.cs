@@ -163,5 +163,29 @@ namespace Oci.DataflowService.Models
         [JsonProperty(PropertyName = "networkConfiguration")]
         public SqlEndpointNetworkConfiguration NetworkConfiguration { get; set; }
         
+        /// <value>
+        /// The identifier of the log group used with the SQL Endpoint.
+        /// </value>
+        [JsonProperty(PropertyName = "logGroupId")]
+        public string LogGroupId { get; set; }
+        
+        /// <value>
+        /// The identifier of the log group compartment used with the SQL Endpoint.
+        /// </value>
+        [JsonProperty(PropertyName = "logCompartmentId")]
+        public string LogCompartmentId { get; set; }
+        
+        /// <value>
+        /// The friendly name of the log object used with the SQL Endpoint.
+        /// </value>
+        [JsonProperty(PropertyName = "logDisplayName")]
+        public string LogDisplayName { get; set; }
+        
+        /// <value>
+        /// Log retention duration in days
+        /// </value>
+        [JsonProperty(PropertyName = "logRetentionDuration")]
+        public System.Nullable<int> LogRetentionDuration { get; set; }
+        
     }
 }

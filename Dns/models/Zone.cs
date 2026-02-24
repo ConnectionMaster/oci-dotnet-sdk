@@ -120,6 +120,18 @@ namespace Oci.DnsService.Models
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
         
         /// <value>
+        /// The resolution mode of a zone defines behavior related to how query responses can be handled.
+        /// 
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "ResolutionMode is required.")]
+        [JsonProperty(PropertyName = "resolutionMode")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<ZoneResolutionMode> ResolutionMode { get; set; }
+        
+        /// <value>
         /// The state of DNSSEC on the zone.
         /// <br/>
         /// For DNSSEC to function, every parent zone in the DNS tree up to the top-level domain (or an independent

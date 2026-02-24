@@ -38,7 +38,7 @@ namespace Oci.DnsService.Models
         public string SteeringPolicyId { get; set; }
         
         /// <value>
-        /// The OCID of the attached zone.
+        /// The OCID of the attached zone. Must be a public zone.
         /// </value>
         /// <remarks>
         /// Required

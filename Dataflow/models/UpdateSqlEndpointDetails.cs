@@ -91,6 +91,37 @@ namespace Oci.DataflowService.Models
         public string LakeId { get; set; }
         
         /// <value>
+        /// The identifier of the log group used with the SQL Endpoint.
+        /// </value>
+        [JsonProperty(PropertyName = "logGroupId")]
+        public string LogGroupId { get; set; }
+        
+        /// <value>
+        /// The identifier of the log group compartment used with the SQL Endpoint.
+        /// </value>
+        [JsonProperty(PropertyName = "logCompartmentId")]
+        public string LogCompartmentId { get; set; }
+        
+        /// <value>
+        /// The friendly name of the log object used with the SQL Endpoint.
+        /// </value>
+        [JsonProperty(PropertyName = "logDisplayName")]
+        public string LogDisplayName { get; set; }
+        
+        /// <value>
+        /// Log retention duration in days
+        /// </value>
+        [JsonProperty(PropertyName = "logRetentionDuration")]
+        public System.Nullable<int> LogRetentionDuration { get; set; }
+        
+        /// <value>
+        /// The log operation will be performed for the Sql Endpoint.
+        /// </value>
+        [JsonProperty(PropertyName = "logOperation")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<SqlEndpointLogOperation> LogOperation { get; set; }
+        
+        /// <value>
         /// The Spark configuration passed to the running process.
         /// See https://spark.apache.org/docs/latest/configuration.html#available-properties.
         /// Example: { &quot;spark.app.name&quot; : &quot;My App Name&quot;, &quot;spark.shuffle.io.maxRetries&quot; : &quot;4&quot; }Note: Not all Spark properties are permitted to be set.  Attempting to set a property that isnot allowed to be overwritten will cause a 400 status to be returned.

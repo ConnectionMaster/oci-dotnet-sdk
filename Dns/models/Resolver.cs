@@ -203,7 +203,8 @@ namespace Oci.DnsService.Models
         public System.Collections.Generic.List<AttachedView> AttachedViews { get; set; }
         
         /// <value>
-        /// Rules for the resolver. Rules are evaluated in order.
+        /// Rules for the resolver. Rules are evaluated in order, and only the first matching rule will have its action
+        /// applied.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "rules")]
