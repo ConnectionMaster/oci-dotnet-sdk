@@ -67,6 +67,12 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<int> DrScanListenerPortTcp { get; set; }
         
         /// <value>
+        /// The DR SCAN TCPIP SSL port. Default is 2484.
+        /// </value>
+        [JsonProperty(PropertyName = "drScanListenerPortTcpSsl")]
+        public System.Nullable<int> DrScanListenerPortTcpSsl { get; set; }
+        
+        /// <value>
         /// List of parameters for generation of the client and backup networks.
         /// </value>
         /// <remarks>

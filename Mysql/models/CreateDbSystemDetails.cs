@@ -289,5 +289,8 @@ namespace Oci.MysqlService.Models
         [JsonProperty(PropertyName = "readEndpoint")]
         public CreateReadEndpointDetails ReadEndpoint { get; set; }
         
+        [JsonProperty(PropertyName = "telemetryConfiguration")]
+        public CreateTelemetryConfigurationDetails TelemetryConfiguration { get; set; }
+        
     }
 }

@@ -52,5 +52,11 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "ips")]
         public System.Collections.Generic.List<string> Ips { get; set; }
         
+        /// <value>
+        /// The DR SCAN TCPIP SSL port. Default is 2484.
+        /// </value>
+        [JsonProperty(PropertyName = "scanListenerPortTcpSsl")]
+        public System.Nullable<int> ScanListenerPortTcpSsl { get; set; }
+        
     }
 }

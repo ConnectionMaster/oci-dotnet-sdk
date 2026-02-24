@@ -66,6 +66,10 @@ namespace Oci.FleetsoftwareupdateService.Models
       [EnumMember(Value = "PRECHECK_ACTION")]
       PrecheckAction,
       [EnumMember(Value = "STAGE_ACTION")]
-      StageAction
+      StageAction,
+      [EnumMember(Value = "CREATE_READINESS_CHECK")]
+      CreateReadinessCheck,
+      [EnumMember(Value = "DELETE_READINESS_CHECK")]
+      DeleteReadinessCheck
   }
 }

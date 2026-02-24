@@ -238,5 +238,8 @@ namespace Oci.MysqlService.Models
         [JsonProperty(PropertyName = "replicaOverrides")]
         public ReplicaOverrides ReplicaOverrides { get; set; }
         
+        [JsonProperty(PropertyName = "telemetryConfiguration")]
+        public TelemetryConfigurationDetails TelemetryConfiguration { get; set; }
+        
     }
 }

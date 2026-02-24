@@ -58,6 +58,7 @@ namespace Oci.Common
         public static readonly Region EU_MADRID_3 = Register("eu-madrid-3", Realm.OC1, "orf");
         public static readonly Region EU_TURIN_1 = Register("eu-turin-1", Realm.OC1, "nrq");
         public static readonly Region AP_KULAI_2 = Register("ap-kulai-2", Realm.OC1, "jbp");
+        public static readonly Region AF_CASABLANCA_1 = Register("af-casablanca-1", Realm.OC1, "lej");
 
         // OC2
         public static readonly Region US_LANGLEY_1 = Register("us-langley-1", Realm.OC2, "lfi");
