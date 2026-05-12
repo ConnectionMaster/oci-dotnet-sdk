@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasetoolsService.Models
 {
     /// <summary>
-    /// Connection validaton result for the Oracle Database.
+    /// Connection validation result for the Oracle Database.
     /// </summary>
     public class ValidateDatabaseToolsConnectionOracleDatabaseResult : ValidateDatabaseToolsConnectionResult
     {
@@ -36,6 +36,36 @@ namespace Oci.DatabasetoolsService.Models
         [Required(ErrorMessage = "DatabaseVersion is required.")]
         [JsonProperty(PropertyName = "databaseVersion")]
         public string DatabaseVersion { get; set; }
+        
+        /// <value>
+        /// The name of the currently active default schema.
+        /// </value>
+        [JsonProperty(PropertyName = "currentSchema")]
+        public string CurrentSchema { get; set; }
+        
+        /// <value>
+        /// The name of the session user (the user who logged on).
+        /// </value>
+        [JsonProperty(PropertyName = "sessionUser")]
+        public string SessionUser { get; set; }
+        
+        /// <value>
+        /// Name of the database user who opened the current session on behalf of sessionUser.
+        /// </value>
+        [JsonProperty(PropertyName = "proxyUser")]
+        public string ProxyUser { get; set; }
+        
+        /// <value>
+        /// Returns the identity used in authentication.
+        /// </value>
+        [JsonProperty(PropertyName = "authenticatedIdentity")]
+        public string AuthenticatedIdentity { get; set; }
+        
+        /// <value>
+        /// Returns the method of authentication.
+        /// </value>
+        [JsonProperty(PropertyName = "authenticationMethod")]
+        public string AuthenticationMethod { get; set; }
         
         /// <value>
         /// The DBMS_CLOUD package installation status.
@@ -59,6 +89,24 @@ namespace Oci.DatabasetoolsService.Models
         /// </value>
         [JsonProperty(PropertyName = "databaseToolsIdentityStatuses")]
         public System.Collections.Generic.List<ValidationIdentityStatus> DatabaseToolsIdentityStatuses { get; set; }
+        
+        /// <value>
+        /// Displays the enterprise identity value within the USERENV context
+        /// </value>
+        [JsonProperty(PropertyName = "enterpriseIdentity")]
+        public string EnterpriseIdentity { get; set; }
+        
+        /// <value>
+        /// Displays the proxy enterprise identity value within the USERENV context
+        /// </value>
+        [JsonProperty(PropertyName = "proxyEnterpriseIdentity")]
+        public string ProxyEnterpriseIdentity { get; set; }
+        
+        /// <value>
+        /// Status on whether an external authentication can be used with this connection or not.
+        /// </value>
+        [JsonProperty(PropertyName = "externalAuthenticationStatuses")]
+        public System.Collections.Generic.List<ValidationExternalAuthenticationStatus> ExternalAuthenticationStatuses { get; set; }
         
         [JsonProperty(PropertyName = "type")]
         private readonly string type = "ORACLE_DATABASE";

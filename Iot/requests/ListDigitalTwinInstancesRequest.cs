@@ -122,6 +122,13 @@ namespace Oci.IotService.Requests
         public string DigitalTwinModelSpecUri { get; set; }
         
         /// <value>
+        /// Filter resources whose connectivityType matches the specified value.
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "connectivityType")]
+        public System.Nullable<DigitalTwinInstanceConnectivityType> ConnectivityType { get; set; }
+        
+        /// <value>
         /// Filter resources by [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Must be a valid OCID of the resource type.
         /// 
         /// </value>

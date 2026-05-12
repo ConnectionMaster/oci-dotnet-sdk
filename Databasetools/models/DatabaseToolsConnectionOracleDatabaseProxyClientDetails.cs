@@ -48,6 +48,9 @@ namespace Oci.DatabasetoolsService.Models
                 case "USER_NAME":
                     obj = new DatabaseToolsConnectionOracleDatabaseProxyClientUserNameDetails();
                     break;
+                case "USER_NAME_AUTO_DETECT":
+                    obj = new DatabaseToolsConnectionOracleDatabaseProxyClientUserNameAutoDetectDetails();
+                    break;
                 case "NO_PROXY":
                     obj = new DatabaseToolsConnectionOracleDatabaseProxyClientNoProxyDetails();
                     break;

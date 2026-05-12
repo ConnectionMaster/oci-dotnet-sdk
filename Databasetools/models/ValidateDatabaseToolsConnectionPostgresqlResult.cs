@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasetoolsService.Models
 {
     /// <summary>
-    /// Connection validaton result for the PostgreSQL Server.
+    /// Connection validation result for the PostgreSQL Server.
     /// </summary>
     public class ValidateDatabaseToolsConnectionPostgresqlResult : ValidateDatabaseToolsConnectionResult
     {

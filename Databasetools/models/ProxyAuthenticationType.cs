@@ -21,6 +21,8 @@ namespace Oci.DatabasetoolsService.Models
       UnknownEnumValue,
       [EnumMember(Value = "USER_NAME")]
       UserName,
+      [EnumMember(Value = "USER_NAME_AUTO_DETECT")]
+      UserNameAutoDetect,
       [EnumMember(Value = "NO_PROXY")]
       NoProxy
   }
