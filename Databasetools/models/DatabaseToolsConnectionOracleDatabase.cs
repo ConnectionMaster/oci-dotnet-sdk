@@ -35,7 +35,7 @@ namespace Oci.DatabasetoolsService.Models
         public string ConnectionString { get; set; }
         
         /// <value>
-        /// The database user name.
+        /// The database user name. When authenticationType is TOKEN, if provided, userName must be in square brackets (for example, [proxyClient]).
         /// </value>
         [JsonProperty(PropertyName = "userName")]
         public string UserName { get; set; }
@@ -65,6 +65,17 @@ namespace Oci.DatabasetoolsService.Models
         
         [JsonProperty(PropertyName = "proxyClient")]
         public DatabaseToolsConnectionOracleDatabaseProxyClient ProxyClient { get; set; }
+        
+        /// <value>
+        /// Specifies the authentication type used to connect to the database.
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "AuthenticationType is required.")]
+        [JsonProperty(PropertyName = "authenticationType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<AuthenticationType> AuthenticationType { get; set; }
         
         [JsonProperty(PropertyName = "type")]
         private readonly string type = "ORACLE_DATABASE";

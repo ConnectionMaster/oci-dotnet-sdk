@@ -37,17 +37,9 @@ namespace Oci.DatabasetoolsService.Models
         /// <value>
         /// The database user name.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "UserName is required.")]
         [JsonProperty(PropertyName = "userName")]
         public string UserName { get; set; }
         
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "UserPassword is required.")]
         [JsonProperty(PropertyName = "userPassword")]
         public DatabaseToolsUserPasswordDetails UserPassword { get; set; }
         
@@ -73,6 +65,13 @@ namespace Oci.DatabasetoolsService.Models
         
         [JsonProperty(PropertyName = "proxyClient")]
         public DatabaseToolsConnectionOracleDatabaseProxyClientDetails ProxyClient { get; set; }
+        
+        /// <value>
+        /// Specifies the authentication type used by the Database Tools service to authenticate with the database.
+        /// </value>
+        [JsonProperty(PropertyName = "authenticationType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<AuthenticationType> AuthenticationType { get; set; }
         
         [JsonProperty(PropertyName = "type")]
         private readonly string type = "ORACLE_DATABASE";

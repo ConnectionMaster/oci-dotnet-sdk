@@ -99,6 +99,55 @@ namespace Oci.DatabasetoolsService
         }
 
         /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListDatabaseToolsDatabaseApiGatewayConfigs operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListDatabaseToolsDatabaseApiGatewayConfigsResponse> ListDatabaseToolsDatabaseApiGatewayConfigsResponseEnumerator(ListDatabaseToolsDatabaseApiGatewayConfigsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListDatabaseToolsDatabaseApiGatewayConfigsRequest, ListDatabaseToolsDatabaseApiGatewayConfigsResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListDatabaseToolsDatabaseApiGatewayConfigs(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the DatabaseToolsDatabaseApiGatewayConfigSummary objects
+        /// contained in responses from the ListDatabaseToolsDatabaseApiGatewayConfigs operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<DatabaseToolsDatabaseApiGatewayConfigSummary> ListDatabaseToolsDatabaseApiGatewayConfigsRecordEnumerator(ListDatabaseToolsDatabaseApiGatewayConfigsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListDatabaseToolsDatabaseApiGatewayConfigsRequest, ListDatabaseToolsDatabaseApiGatewayConfigsResponse, DatabaseToolsDatabaseApiGatewayConfigSummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListDatabaseToolsDatabaseApiGatewayConfigs(request, retryConfiguration, cancellationToken),
+                response => response.DatabaseToolsDatabaseApiGatewayConfigCollection.Items
+            );
+        }
+
+        /// <summary>
         /// Creates a new enumerable which will iterate over the responses received from the ListDatabaseToolsEndpointServices operation. This enumerable
         /// will fetch more data from the server as needed.
         /// </summary>
@@ -197,6 +246,104 @@ namespace Oci.DatabasetoolsService
         }
 
         /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListDatabaseToolsMcpServers operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListDatabaseToolsMcpServersResponse> ListDatabaseToolsMcpServersResponseEnumerator(ListDatabaseToolsMcpServersRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListDatabaseToolsMcpServersRequest, ListDatabaseToolsMcpServersResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListDatabaseToolsMcpServers(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the DatabaseToolsMcpServerSummary objects
+        /// contained in responses from the ListDatabaseToolsMcpServers operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<DatabaseToolsMcpServerSummary> ListDatabaseToolsMcpServersRecordEnumerator(ListDatabaseToolsMcpServersRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListDatabaseToolsMcpServersRequest, ListDatabaseToolsMcpServersResponse, DatabaseToolsMcpServerSummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListDatabaseToolsMcpServers(request, retryConfiguration, cancellationToken),
+                response => response.DatabaseToolsMcpServerCollection.Items
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListDatabaseToolsMcpToolsets operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListDatabaseToolsMcpToolsetsResponse> ListDatabaseToolsMcpToolsetsResponseEnumerator(ListDatabaseToolsMcpToolsetsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListDatabaseToolsMcpToolsetsRequest, ListDatabaseToolsMcpToolsetsResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListDatabaseToolsMcpToolsets(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the DatabaseToolsMcpToolsetSummary objects
+        /// contained in responses from the ListDatabaseToolsMcpToolsets operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<DatabaseToolsMcpToolsetSummary> ListDatabaseToolsMcpToolsetsRecordEnumerator(ListDatabaseToolsMcpToolsetsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListDatabaseToolsMcpToolsetsRequest, ListDatabaseToolsMcpToolsetsResponse, DatabaseToolsMcpToolsetSummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListDatabaseToolsMcpToolsets(request, retryConfiguration, cancellationToken),
+                response => response.DatabaseToolsMcpToolsetCollection.Items
+            );
+        }
+
+        /// <summary>
         /// Creates a new enumerable which will iterate over the responses received from the ListDatabaseToolsPrivateEndpoints operation. This enumerable
         /// will fetch more data from the server as needed.
         /// </summary>
@@ -242,6 +389,55 @@ namespace Oci.DatabasetoolsService
                 },
                 request => client.ListDatabaseToolsPrivateEndpoints(request, retryConfiguration, cancellationToken),
                 response => response.DatabaseToolsPrivateEndpointCollection.Items
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListDatabaseToolsSqlReports operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListDatabaseToolsSqlReportsResponse> ListDatabaseToolsSqlReportsResponseEnumerator(ListDatabaseToolsSqlReportsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListDatabaseToolsSqlReportsRequest, ListDatabaseToolsSqlReportsResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListDatabaseToolsSqlReports(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the DatabaseToolsSqlReportSummary objects
+        /// contained in responses from the ListDatabaseToolsSqlReports operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<DatabaseToolsSqlReportSummary> ListDatabaseToolsSqlReportsRecordEnumerator(ListDatabaseToolsSqlReportsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListDatabaseToolsSqlReportsRequest, ListDatabaseToolsSqlReportsResponse, DatabaseToolsSqlReportSummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListDatabaseToolsSqlReports(request, retryConfiguration, cancellationToken),
+                response => response.DatabaseToolsSqlReportCollection.Items
             );
         }
 

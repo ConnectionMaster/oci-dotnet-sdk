@@ -13,7 +13,8 @@ using System.Runtime.Serialization;
 namespace Oci.DatabasetoolsService.Models
 {
   /// <summary>
-  /// The runtime identity to use.
+  /// Determines the identity used when accessing OCI resources at runtime. AUTHENTICATED_PRINCIPAL to use the caller\u2019s identity (On-Behalf-Of token), or RESOURCE_PRINCIPAL to use the connection\u2019s resource principal (RPST).
+    /// 
   /// </summary>
   public enum RuntimeIdentity {
       /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.

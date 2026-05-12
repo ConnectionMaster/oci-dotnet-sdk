@@ -44,6 +44,18 @@ namespace Oci.DatabasetoolsService.Models
       [EnumMember(Value = "UPDATE_DATABASE_TOOLS_IDENTITY")]
       UpdateDatabaseToolsIdentity,
       [EnumMember(Value = "REFRESH_DATABASE_TOOLS_IDENTITY_CREDENTIAL")]
-      RefreshDatabaseToolsIdentityCredential
+      RefreshDatabaseToolsIdentityCredential,
+      [EnumMember(Value = "CREATE_DATABASE_TOOLS_MCP_SERVER")]
+      CreateDatabaseToolsMcpServer,
+      [EnumMember(Value = "DELETE_DATABASE_TOOLS_MCP_SERVER")]
+      DeleteDatabaseToolsMcpServer,
+      [EnumMember(Value = "UPDATE_DATABASE_TOOLS_MCP_SERVER")]
+      UpdateDatabaseToolsMcpServer,
+      [EnumMember(Value = "CREATE_DATABASE_TOOLS_MCP_TOOLSET")]
+      CreateDatabaseToolsMcpToolset,
+      [EnumMember(Value = "DELETE_DATABASE_TOOLS_MCP_TOOLSET")]
+      DeleteDatabaseToolsMcpToolset,
+      [EnumMember(Value = "UPDATE_DATABASE_TOOLS_MCP_TOOLSET")]
+      UpdateDatabaseToolsMcpToolset
   }
 }
