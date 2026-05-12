@@ -139,7 +139,8 @@ namespace Oci.DatabasetoolsService.Models
         public string RuntimeEndpoint { get; set; }
         
         /// <value>
-        /// Specifies the identity used by the Database Tools service to issue requests to other OCI services (e.g., Secrets in Vault).
+        /// Specifies the identity used when accessing OCI resources at runtime. AUTHENTICATED_PRINCIPAL to use the caller\u2019s identity (On-Behalf-Of token), or RESOURCE_PRINCIPAL to use the connection\u2019s resource principal (RPST).
+        /// 
         /// </value>
         /// <remarks>
         /// Required

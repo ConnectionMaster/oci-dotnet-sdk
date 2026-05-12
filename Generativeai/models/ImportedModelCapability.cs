@@ -28,6 +28,22 @@ namespace Oci.GenerativeaiService.Models
       [EnumMember(Value = "RERANK")]
       Rerank,
       [EnumMember(Value = "TEXT_TO_IMAGE")]
-      TextToImage
+      TextToImage,
+      [EnumMember(Value = "IMAGE_TEXT_TO_IMAGE")]
+      ImageTextToImage,
+      [EnumMember(Value = "IMAGE_TEXT_TO_VIDEO")]
+      ImageTextToVideo,
+      [EnumMember(Value = "IMAGE_TO_IMAGE")]
+      ImageToImage,
+      [EnumMember(Value = "REALTIME")]
+      Realtime,
+      [EnumMember(Value = "AUDIO_TO_AUDIO")]
+      AudioToAudio,
+      [EnumMember(Value = "AUDIO_TO_TEXT")]
+      AudioToText,
+      [EnumMember(Value = "TEXT_TO_AUDIO")]
+      TextToAudio,
+      [EnumMember(Value = "TEXT_TO_VIDEO")]
+      TextToVideo
   }
 }

@@ -42,6 +42,17 @@ namespace Oci.IotService.Models
         public string IotDomainId { get; set; }
         
         /// <value>
+        /// Connectivity type of the digital twin instance
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "ConnectivityType is required.")]
+        [JsonProperty(PropertyName = "connectivityType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<DigitalTwinInstanceConnectivityType> ConnectivityType { get; set; }
+        
+        /// <value>
         /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the resource (like VaultSecret, ClientCertificate etc.,) used to authenticate the digital twin instance.
         /// </value>
         [JsonProperty(PropertyName = "authId")]
@@ -90,6 +101,13 @@ namespace Oci.IotService.Models
         /// </value>
         [JsonProperty(PropertyName = "digitalTwinAdapterId")]
         public string DigitalTwinAdapterId { get; set; }
+        
+        /// <value>
+        /// An array of unique ids ([OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the IoT digital twin instances with connectivityType equals to GATEWAY.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "gateways")]
+        public System.Collections.Generic.List<string> Gateways { get; set; }
         
         /// <value>
         /// The current state of the digital twin instance.

@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasetoolsService.Models
 {
     /// <summary>
-    /// Connection validaton result for the MySQL Server.
+    /// Connection validation result for the MySQL Server.
     /// </summary>
     public class ValidateDatabaseToolsConnectionMySqlResult : ValidateDatabaseToolsConnectionResult
     {

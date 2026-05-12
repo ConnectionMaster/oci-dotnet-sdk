@@ -69,6 +69,13 @@ namespace Oci.IotService.Models
         public string DigitalTwinModelSpecUri { get; set; }
         
         /// <value>
+        /// An array of unique ids ([OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the IoT digital twin instances with connectivityType equals to GATEWAY.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "gateways")]
+        public System.Collections.Generic.List<string> Gateways { get; set; }
+        
+        /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
         /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
