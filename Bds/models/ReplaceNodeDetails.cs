@@ -34,10 +34,6 @@ namespace Oci.BdsService.Models
         /// <value>
         /// The id of the nodeBackup to use for replacing the node.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "NodeBackupId is required.")]
         [JsonProperty(PropertyName = "nodeBackupId")]
         public string NodeBackupId { get; set; }
         
@@ -46,6 +42,12 @@ namespace Oci.BdsService.Models
         /// </value>
         [JsonProperty(PropertyName = "clusterAdminPassword")]
         public string ClusterAdminPassword { get; set; }
+        
+        /// <value>
+        /// Heterogeneous shape of the node if the default shape is not available.
+        /// </value>
+        [JsonProperty(PropertyName = "heterogeneousShapes")]
+        public System.Collections.Generic.List<string> HeterogeneousShapes { get; set; }
         
         /// <value>
         /// The secretId for the clusterAdminPassword.

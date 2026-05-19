@@ -68,6 +68,29 @@ namespace Oci.ResourceanalyticsService.Models
         public System.Nullable<bool> IsReportingTenancy { get; set; }
         
         /// <value>
+        /// The overall status of the data population from the tenancy.
+        /// </value>
+        [JsonProperty(PropertyName = "dataPopulationStatus")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<TenancyAttachment.DataPopulationStatusEnum> DataPopulationStatus { get; set; }
+        
+        /// <value>
+        /// The date and time the data population tasks started, in the format defined by [RFC 3339](https://tools.ietf.org/html/rfc3339).
+        /// <br/>
+        /// Example: 2016-08-25T21:10:29.600Z
+        /// </value>
+        [JsonProperty(PropertyName = "timeDataPopulationStarted")]
+        public System.Nullable<System.DateTime> TimeDataPopulationStarted { get; set; }
+        
+        /// <value>
+        /// The date and time the data population tasks completed, in the format defined by [RFC 3339](https://tools.ietf.org/html/rfc3339).
+        /// <br/>
+        /// Example: 2016-08-25T21:10:29.600Z
+        /// </value>
+        [JsonProperty(PropertyName = "timeDataPopulationEnded")]
+        public System.Nullable<System.DateTime> TimeDataPopulationEnded { get; set; }
+        
+        /// <value>
         /// The date and time the TenancyAttachment was created, in the format defined by [RFC 3339](https://tools.ietf.org/html/rfc3339).
         /// <br/>
         /// Example: 2016-08-25T21:10:29.600Z
