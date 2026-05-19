@@ -73,6 +73,71 @@ namespace Oci.ResourceanalyticsService.Models
         public System.Nullable<bool> IsReportingTenancy { get; set; }
         
         /// <value>
+        /// List of monitored regions with their data population status.
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "MonitoredRegions is required.")]
+        [JsonProperty(PropertyName = "monitoredRegions")]
+        public System.Collections.Generic.List<TenancyAttachmentMonitoredRegionSummary> MonitoredRegions { get; set; }
+                ///
+        /// <value>
+        /// The overall status of the data population from the tenancy.
+        /// </value>
+        ///
+        public enum DataPopulationStatusEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "ACCEPTED")]
+            Accepted,
+            [EnumMember(Value = "IN_PROGRESS")]
+            InProgress,
+            [EnumMember(Value = "WAITING")]
+            Waiting,
+            [EnumMember(Value = "FAILED")]
+            Failed,
+            [EnumMember(Value = "SUCCEEDED")]
+            Succeeded,
+            [EnumMember(Value = "CANCELING")]
+            Canceling,
+            [EnumMember(Value = "CANCELED")]
+            Canceled,
+            [EnumMember(Value = "NEEDS_ATTENTION")]
+            NeedsAttention,
+            [EnumMember(Value = "PARTIALLY_SUCCEEDED")]
+            PartiallySucceeded
+        };
+
+        /// <value>
+        /// The overall status of the data population from the tenancy.
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "DataPopulationStatus is required.")]
+        [JsonProperty(PropertyName = "dataPopulationStatus")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<DataPopulationStatusEnum> DataPopulationStatus { get; set; }
+        
+        /// <value>
+        /// The date and time the data population tasks started, in the format defined by [RFC 3339](https://tools.ietf.org/html/rfc3339).
+        /// <br/>
+        /// Example: 2016-08-25T21:10:29.600Z
+        /// </value>
+        [JsonProperty(PropertyName = "timeDataPopulationStarted")]
+        public System.Nullable<System.DateTime> TimeDataPopulationStarted { get; set; }
+        
+        /// <value>
+        /// The date and time the data population tasks completed, in the format defined by [RFC 3339](https://tools.ietf.org/html/rfc3339).
+        /// <br/>
+        /// Example: 2016-08-25T21:10:29.600Z
+        /// </value>
+        [JsonProperty(PropertyName = "timeDataPopulationEnded")]
+        public System.Nullable<System.DateTime> TimeDataPopulationEnded { get; set; }
+        
+        /// <value>
         /// The date and time the TenancyAttachment was created, in the format defined by [RFC 3339](https://tools.ietf.org/html/rfc3339).
         /// <br/>
         /// Example: 2016-08-25T21:10:29.600Z

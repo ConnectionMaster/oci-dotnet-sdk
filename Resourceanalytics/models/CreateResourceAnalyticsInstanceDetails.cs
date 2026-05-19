@@ -74,6 +74,12 @@ namespace Oci.ResourceanalyticsService.Models
         /// </value>
         [JsonProperty(PropertyName = "nsgIds")]
         public System.Collections.Generic.List<string> NsgIds { get; set; }
+        
+        /// <value>
+        /// The compute amount (CPUs) available to the Autonomous Database.
+        /// </value>
+        [JsonProperty(PropertyName = "computeCount")]
+        public System.Nullable<int> ComputeCount { get; set; }
                 ///
         /// <value>
         /// The Oracle license model that applies to the ADW instance.

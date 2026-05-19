@@ -65,6 +65,30 @@ namespace Oci.ResourceanalyticsService.Models
         [JsonProperty(PropertyName = "licenseModel")]
         [JsonConverter(typeof(StringEnumConverter))]
         public System.Nullable<LicenseModelEnum> LicenseModel { get; set; }
+                ///
+        /// <value>
+        /// The capacity model to use for the Analytics Instance.
+        /// </value>
+        ///
+        public enum CapacityTypeEnum {
+            [EnumMember(Value = "OLPU_COUNT")]
+            OlpuCount,
+            [EnumMember(Value = "USER_COUNT")]
+            UserCount
+        };
+
+        /// <value>
+        /// The capacity model to use for the Analytics Instance.
+        /// </value>
+        [JsonProperty(PropertyName = "capacityType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<CapacityTypeEnum> CapacityType { get; set; }
+        
+        /// <value>
+        /// The capacity value selected, either the number of OCPUs (OLPU_COUNT) or the number of users (USER_COUNT). This parameter affects the number of OCPUs, amount of memory, and other resources allocated to the Analytics Instance.
+        /// </value>
+        [JsonProperty(PropertyName = "capacityValue")]
+        public System.Nullable<int> CapacityValue { get; set; }
         
     }
 }
