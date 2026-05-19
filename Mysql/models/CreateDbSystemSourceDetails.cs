@@ -36,7 +36,9 @@ namespace Oci.MysqlService.Models
             [EnumMember(Value = "PITR")]
             Pitr,
             [EnumMember(Value = "IMPORTURL")]
-            Importurl
+            Importurl,
+            [EnumMember(Value = "DBSYSTEM")]
+            Dbsystem
         };
 
         
@@ -62,6 +64,9 @@ namespace Oci.MysqlService.Models
             var discriminator = jsonObject["sourceType"].Value<string>();
             switch (discriminator)
             {
+                case "DBSYSTEM":
+                    obj = new CreateDbSystemSourceFromDbSystemDetails();
+                    break;
                 case "BACKUP":
                     obj = new CreateDbSystemSourceFromBackupDetails();
                     break;

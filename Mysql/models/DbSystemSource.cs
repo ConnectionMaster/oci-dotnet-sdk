@@ -36,7 +36,9 @@ namespace Oci.MysqlService.Models
             [EnumMember(Value = "PITR")]
             Pitr,
             [EnumMember(Value = "IMPORTURL")]
-            Importurl
+            Importurl,
+            [EnumMember(Value = "DBSYSTEM")]
+            Dbsystem
         };
 
         
@@ -71,6 +73,9 @@ namespace Oci.MysqlService.Models
                     break;
                 case "NONE":
                     obj = new DbSystemSourceFromNone();
+                    break;
+                case "DBSYSTEM":
+                    obj = new DbSystemSourceFromDbSystem();
                     break;
                 case "IMPORTURL":
                     obj = new DbSystemSourceImportFromUrl();

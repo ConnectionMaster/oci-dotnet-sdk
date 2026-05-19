@@ -28,5 +28,8 @@ namespace Oci.GenerativeaiinferenceService.Models
         [JsonProperty(PropertyName = "results")]
         public GuardrailsResults Results { get; set; }
         
+        [JsonProperty(PropertyName = "guardrailVersion")]
+        public GuardrailVersionResponse GuardrailVersion { get; set; }
+        
     }
 }

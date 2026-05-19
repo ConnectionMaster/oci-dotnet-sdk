@@ -35,6 +35,9 @@ namespace Oci.GenerativeaiinferenceService.Models
         [JsonProperty(PropertyName = "guardrailConfigs")]
         public GuardrailConfigs GuardrailConfigs { get; set; }
         
+        [JsonProperty(PropertyName = "guardrailVersionConfig")]
+        public GuardrailVersionConfig GuardrailVersionConfig { get; set; }
+        
         /// <value>
         /// The OCID of the compartment to apply guardrails.
         /// </value>

@@ -21,6 +21,11 @@ namespace Oci.StreamingService.Models
     public class UpdateStreamPoolDetails 
     {
         
+        /// <value>
+        /// The name of the stream pool. Avoid entering confidential information.
+        /// <br/>
+        /// Example: MyStreamPool
+        /// </value>
         [JsonProperty(PropertyName = "name")]
         public string Name { get; set; }
         
