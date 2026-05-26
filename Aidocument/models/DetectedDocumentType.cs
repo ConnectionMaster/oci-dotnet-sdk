@@ -32,7 +32,7 @@ namespace Oci.AidocumentService.Models
         public string DocumentType { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Key-Value Extraction model that was used to extract the key-value pairs.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Key-Value Extraction model that was used to extract the key-value pairs.
         /// </value>
         [JsonProperty(PropertyName = "documentId")]
         public string DocumentId { get; set; }

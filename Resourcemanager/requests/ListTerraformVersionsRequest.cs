@@ -14,7 +14,7 @@ using Oci.ResourcemanagerService.Models;
 namespace Oci.ResourcemanagerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListTerraformVersions.cs.html">here</a> to see an example of how to use ListTerraformVersions request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListTerraformVersions.cs.html">here</a> to see an example of how to use ListTerraformVersions request.
     /// </example>
     public class ListTerraformVersionsRequest : Oci.Common.IOciRequest
     {
@@ -28,7 +28,7 @@ namespace Oci.ResourcemanagerService.Requests
         public string OpcRequestId { get; set; }
         
         /// <value>
-        /// A filter to return only resources that exist in the compartment, identified by [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// A filter to return only resources that exist in the compartment, identified by [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "compartmentId")]

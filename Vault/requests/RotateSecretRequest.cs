@@ -14,7 +14,7 @@ using Oci.VaultService.Models;
 namespace Oci.VaultService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vault/RotateSecret.cs.html">here</a> to see an example of how to use RotateSecret request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vault/RotateSecret.cs.html">here</a> to see an example of how to use RotateSecret request.
     /// </example>
     public class RotateSecretRequest : Oci.Common.IOciRequest
     {

@@ -55,7 +55,7 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<DatabaseManagementStatusEnum> DatabaseManagementStatus { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the
         /// {@link #createExternalDatabaseConnectorDetails(CreateExternalDatabaseConnectorDetailsRequest) createExternalDatabaseConnectorDetails}.
         /// 
         /// </value>

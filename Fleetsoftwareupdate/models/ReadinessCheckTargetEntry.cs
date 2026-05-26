@@ -48,7 +48,7 @@ namespace Oci.FleetsoftwareupdateService.Models
         public System.Nullable<EntityTypeEnum> EntityType { get; set; }
         
         /// <value>
-        /// Resource identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)
+        /// Resource identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)
         /// 
         /// </value>
         /// <remarks>

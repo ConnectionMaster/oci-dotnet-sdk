@@ -33,7 +33,7 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.List<string> RegionList { get; set; }
         
         /// <value>
-        /// List the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartments.
+        /// List the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartments.
         /// </value>
         /// <remarks>
         /// Required
@@ -140,14 +140,14 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Most List operations paginate results. Results are paginated for the ListInstances operations. When you call a paginated List operation, the response indicates more pages of results by including the opc-next-page header.
-        /// For more information, see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// For more information, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "paginationOffset")]
         public System.Nullable<int> PaginationOffset { get; set; }
         
         /// <value>
-        /// Specifies the maximum number of results displayed per page for a paginated \"List\" call. For more information, see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// Specifies the maximum number of results displayed per page for a paginated \"List\" call. For more information, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// Example: 50
         /// </value>
         [JsonProperty(PropertyName = "paginationLimit")]

@@ -18,14 +18,14 @@ namespace Oci.SchService.Models
     /// <summary>
     /// The Streaming source.
     /// For configuration instructions, see
-    /// [Creating a Connector with a Streaming Source](https://docs.cloud.oracle.com/iaas/Content/connector-hub/create-service-connector-streaming-source.htm).
+    /// [Creating a Connector with a Streaming Source](https://docs.oracle.com/iaas/Content/connector-hub/create-service-connector-streaming-source.htm).
     /// 
     /// </summary>
     public class StreamingSourceDetails : SourceDetails
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the stream.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the stream.
         /// 
         /// </value>
         /// <remarks>

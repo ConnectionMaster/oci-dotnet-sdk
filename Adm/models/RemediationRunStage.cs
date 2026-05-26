@@ -84,7 +84,7 @@ namespace Oci.AdmService.Models
         public string Summary { get; set; }
         
         /// <value>
-        /// The Oracle Cloud identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the remediation run.
+        /// The Oracle Cloud identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the remediation run.
         /// </value>
         /// <remarks>
         /// Required

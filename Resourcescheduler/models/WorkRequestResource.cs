@@ -47,7 +47,7 @@ namespace Oci.ResourceschedulerService.Models
         public System.Nullable<ActionType> ActionType { get; set; }
         
         /// <value>
-        /// This is an [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) or other unique identifier for the resource.
+        /// This is an [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) or other unique identifier for the resource.
         /// </value>
         /// <remarks>
         /// Required

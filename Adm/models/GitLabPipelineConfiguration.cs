@@ -44,7 +44,7 @@ namespace Oci.AdmService.Models
         public string Username { get; set; }
         
         /// <value>
-        /// The Oracle Cloud Identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the Private Access Token (PAT) Secret.
+        /// The Oracle Cloud Identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the Private Access Token (PAT) Secret.
         /// The PAT provides the credentials to access the GitLab pipeline.
         /// 
         /// </value>
@@ -56,7 +56,7 @@ namespace Oci.AdmService.Models
         public string PatSecretId { get; set; }
         
         /// <value>
-        /// The Oracle Cloud Identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the trigger Secret.
+        /// The Oracle Cloud Identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the trigger Secret.
         /// The Secret provides access to the trigger for a GitLab pipeline.
         /// 
         /// </value>

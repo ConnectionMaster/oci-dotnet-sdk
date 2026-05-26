@@ -14,13 +14,13 @@ using Oci.ComputeinstanceagentService.Models;
 namespace Oci.ComputeinstanceagentService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computeinstanceagent/GetInstanceAgentCommand.cs.html">here</a> to see an example of how to use GetInstanceAgentCommand request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computeinstanceagent/GetInstanceAgentCommand.cs.html">here</a> to see an example of how to use GetInstanceAgentCommand request.
     /// </example>
     public class GetInstanceAgentCommandRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the command.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the command.
         /// </value>
         /// <remarks>
         /// Required

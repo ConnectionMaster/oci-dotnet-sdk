@@ -14,7 +14,7 @@ using Oci.KeymanagementService.Models;
 namespace Oci.KeymanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ListVaultReplicas.cs.html">here</a> to see an example of how to use ListVaultReplicas request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ListVaultReplicas.cs.html">here</a> to see an example of how to use ListVaultReplicas request.
     /// </example>
     public class ListVaultReplicasRequest : Oci.Common.IOciRequest
     {

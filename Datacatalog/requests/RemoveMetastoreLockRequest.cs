@@ -14,7 +14,7 @@ using Oci.DatacatalogService.Models;
 namespace Oci.DatacatalogService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datacatalog/RemoveMetastoreLock.cs.html">here</a> to see an example of how to use RemoveMetastoreLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datacatalog/RemoveMetastoreLock.cs.html">here</a> to see an example of how to use RemoveMetastoreLock request.
     /// </example>
     public class RemoveMetastoreLockRequest : Oci.Common.IOciRequest
     {

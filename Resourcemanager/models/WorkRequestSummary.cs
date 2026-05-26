@@ -44,7 +44,7 @@ namespace Oci.ResourcemanagerService.Models
         public System.Nullable<WorkRequest.StatusEnum> Status { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) identifying this work request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) identifying this work request.
         /// </value>
         /// <remarks>
         /// Required
@@ -54,7 +54,7 @@ namespace Oci.ResourcemanagerService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// Unique identifier ([OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the compartment that contains the work request.
+        /// Unique identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the compartment that contains the work request.
         /// </value>
         /// <remarks>
         /// Required

@@ -14,7 +14,7 @@ using Oci.IdentityService.Models;
 namespace Oci.IdentityService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identity/ListAllowedDomainLicenseTypes.cs.html">here</a> to see an example of how to use ListAllowedDomainLicenseTypes request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identity/ListAllowedDomainLicenseTypes.cs.html">here</a> to see an example of how to use ListAllowedDomainLicenseTypes request.
     /// </example>
     public class ListAllowedDomainLicenseTypesRequest : Oci.Common.IOciRequest
     {

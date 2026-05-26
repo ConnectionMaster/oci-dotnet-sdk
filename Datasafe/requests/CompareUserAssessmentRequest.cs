@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CompareUserAssessment.cs.html">here</a> to see an example of how to use CompareUserAssessment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CompareUserAssessment.cs.html">here</a> to see an example of how to use CompareUserAssessment request.
     /// </example>
     public class CompareUserAssessmentRequest : Oci.Common.IOciRequest
     {

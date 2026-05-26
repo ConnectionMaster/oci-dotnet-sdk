@@ -23,7 +23,7 @@ namespace Oci.DnsService.Models
     /// A rule may optionally include a sequence of cases, each with an optional `caseCondition`
     /// expression. Cases allow a sequence of conditions to be defined that will apply different
     /// parameters to the rule when the conditions are met. For more information about cases,
-    /// see [Traffic Management API Guide](https://docs.cloud.oracle.com/iaas/Content/TrafficManagement/Concepts/trafficmanagementapi.htm).
+    /// see [Traffic Management API Guide](https://docs.oracle.com/iaas/Content/TrafficManagement/Concepts/trafficmanagementapi.htm).
     /// <br/>
     /// 
     /// **Warning:** Oracle recommends that you avoid using any confidential information when you supply string values using the API.

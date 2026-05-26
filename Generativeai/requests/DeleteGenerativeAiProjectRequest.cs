@@ -14,13 +14,13 @@ using Oci.GenerativeaiService.Models;
 namespace Oci.GenerativeaiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteGenerativeAiProject.cs.html">here</a> to see an example of how to use DeleteGenerativeAiProject request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteGenerativeAiProject.cs.html">here</a> to see an example of how to use DeleteGenerativeAiProject request.
     /// </example>
     public class DeleteGenerativeAiProjectRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the generativeAiProject.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the generativeAiProject.
         /// </value>
         /// <remarks>
         /// Required

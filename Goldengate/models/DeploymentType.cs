@@ -39,6 +39,10 @@ namespace Oci.GoldengateService.Models
       [EnumMember(Value = "GGSA")]
       Ggsa,
       [EnumMember(Value = "DATA_TRANSFORMS")]
-      DataTransforms
+      DataTransforms,
+      [EnumMember(Value = "VERIDATA_SERVER")]
+      VeridataServer,
+      [EnumMember(Value = "VERIDATA_AGENT")]
+      VeridataAgent
   }
 }

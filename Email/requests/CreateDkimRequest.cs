@@ -14,7 +14,7 @@ using Oci.EmailService.Models;
 namespace Oci.EmailService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateDkim.cs.html">here</a> to see an example of how to use CreateDkim request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateDkim.cs.html">here</a> to see an example of how to use CreateDkim request.
     /// </example>
     public class CreateDkimRequest : Oci.Common.IOciRequest
     {

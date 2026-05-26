@@ -14,7 +14,7 @@ using Oci.DevopsService.Models;
 namespace Oci.DevopsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateDeployStage.cs.html">here</a> to see an example of how to use UpdateDeployStage request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateDeployStage.cs.html">here</a> to see an example of how to use UpdateDeployStage request.
     /// </example>
     public class UpdateDeployStageRequest : Oci.Common.IOciRequest
     {

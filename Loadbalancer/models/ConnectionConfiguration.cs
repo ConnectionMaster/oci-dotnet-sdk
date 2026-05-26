@@ -27,7 +27,7 @@ namespace Oci.LoadbalancerService.Models
         /// between the client and backend servers. A send operation does not reset the timer for receive operations. A
         /// receive operation does not reset the timer for send operations.
         /// <br/>
-        /// For more information, see [Connection Configuration](https://docs.cloud.oracle.com/Content/Balance/Reference/connectionreuse.htm#ConnectionConfiguration).
+        /// For more information, see [Connection Configuration](https://docs.oracle.com/iaas/Content/Balance/Reference/connectionreuse.htm#ConnectionConfiguration).
         /// <br/>
         /// Example: 1200
         /// </value>

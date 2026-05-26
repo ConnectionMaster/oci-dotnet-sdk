@@ -19,7 +19,7 @@ namespace Oci.AuditService.Responses
         /// For pagination of a list of audit events. When this header appears in the response,
         /// it means you received a partial list and there are more results. Include this value as the `page`
         /// parameter for the subsequent ListEvents request to get the next batch of events. For important
-        /// details about how pagination works, see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// details about how pagination works, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-next-page")]

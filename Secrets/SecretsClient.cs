@@ -79,7 +79,7 @@ namespace Oci.SecretsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/secrets/GetSecretBundle.cs.html">here</a> to see an example of how to use GetSecretBundle API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/secrets/GetSecretBundle.cs.html">here</a> to see an example of how to use GetSecretBundle API.</example>
         public async Task<GetSecretBundleResponse> GetSecretBundle(GetSecretBundleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecretBundle");
@@ -137,7 +137,7 @@ namespace Oci.SecretsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/secrets/GetSecretBundleByName.cs.html">here</a> to see an example of how to use GetSecretBundleByName API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/secrets/GetSecretBundleByName.cs.html">here</a> to see an example of how to use GetSecretBundleByName API.</example>
         public async Task<GetSecretBundleByNameResponse> GetSecretBundleByName(GetSecretBundleByNameRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecretBundleByName");
@@ -193,7 +193,7 @@ namespace Oci.SecretsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/secrets/ListSecretBundleVersions.cs.html">here</a> to see an example of how to use ListSecretBundleVersions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/secrets/ListSecretBundleVersions.cs.html">here</a> to see an example of how to use ListSecretBundleVersions API.</example>
         public async Task<ListSecretBundleVersionsResponse> ListSecretBundleVersions(ListSecretBundleVersionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecretBundleVersions");

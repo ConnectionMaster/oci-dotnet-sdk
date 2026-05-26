@@ -24,7 +24,7 @@ namespace Oci.ComputecloudatcustomerService.Models
     {
         
         /// <value>
-        /// The Compute Cloud@Customer infrastructure [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// The Compute Cloud@Customer infrastructure [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// This cannot be changed once created.
         /// 
         /// </value>
@@ -66,7 +66,7 @@ namespace Oci.ComputecloudatcustomerService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The infrastructure compartment [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// The infrastructure compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required
@@ -76,7 +76,7 @@ namespace Oci.ComputecloudatcustomerService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the network subnet that is
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the network subnet that is
         /// used to communicate with Compute Cloud@Customer infrastructure.
         /// 
         /// </value>

@@ -14,7 +14,7 @@ using Oci.AilanguageService.Models;
 namespace Oci.AilanguageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ChangeJobCompartment.cs.html">here</a> to see an example of how to use ChangeJobCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ChangeJobCompartment.cs.html">here</a> to see an example of how to use ChangeJobCompartment request.
     /// </example>
     public class ChangeJobCompartmentRequest : Oci.Common.IOciRequest
     {

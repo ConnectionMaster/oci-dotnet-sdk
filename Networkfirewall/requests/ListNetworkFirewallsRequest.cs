@@ -14,7 +14,7 @@ using Oci.NetworkfirewallService.Models;
 namespace Oci.NetworkfirewallService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListNetworkFirewalls.cs.html">here</a> to see an example of how to use ListNetworkFirewalls request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListNetworkFirewalls.cs.html">here</a> to see an example of how to use ListNetworkFirewalls request.
     /// </example>
     public class ListNetworkFirewallsRequest : Oci.Common.IOciRequest
     {
@@ -42,7 +42,7 @@ namespace Oci.NetworkfirewallService.Requests
         public string NetworkFirewallPolicyId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Network Firewall resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Network Firewall resource.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "id")]
         public string Id { get; set; }

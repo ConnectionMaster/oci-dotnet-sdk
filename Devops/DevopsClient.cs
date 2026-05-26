@@ -80,7 +80,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ApproveDeployment.cs.html">here</a> to see an example of how to use ApproveDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ApproveDeployment.cs.html">here</a> to see an example of how to use ApproveDeployment API.</example>
         public async Task<ApproveDeploymentResponse> ApproveDeployment(ApproveDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called approveDeployment");
@@ -136,7 +136,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CancelBuildRun.cs.html">here</a> to see an example of how to use CancelBuildRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CancelBuildRun.cs.html">here</a> to see an example of how to use CancelBuildRun API.</example>
         public async Task<CancelBuildRunResponse> CancelBuildRun(CancelBuildRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelBuildRun");
@@ -192,7 +192,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CancelDeployment.cs.html">here</a> to see an example of how to use CancelDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CancelDeployment.cs.html">here</a> to see an example of how to use CancelDeployment API.</example>
         public async Task<CancelDeploymentResponse> CancelDeployment(CancelDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelDeployment");
@@ -248,7 +248,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CancelScheduledCascadingProjectDeletion.cs.html">here</a> to see an example of how to use CancelScheduledCascadingProjectDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CancelScheduledCascadingProjectDeletion.cs.html">here</a> to see an example of how to use CancelScheduledCascadingProjectDeletion API.</example>
         public async Task<CancelScheduledCascadingProjectDeletionResponse> CancelScheduledCascadingProjectDeletion(CancelScheduledCascadingProjectDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelScheduledCascadingProjectDeletion");
@@ -304,7 +304,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ChangeProjectCompartment.cs.html">here</a> to see an example of how to use ChangeProjectCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ChangeProjectCompartment.cs.html">here</a> to see an example of how to use ChangeProjectCompartment API.</example>
         public async Task<ChangeProjectCompartmentResponse> ChangeProjectCompartment(ChangeProjectCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeProjectCompartment");
@@ -361,7 +361,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateBuildPipeline.cs.html">here</a> to see an example of how to use CreateBuildPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateBuildPipeline.cs.html">here</a> to see an example of how to use CreateBuildPipeline API.</example>
         public async Task<CreateBuildPipelineResponse> CreateBuildPipeline(CreateBuildPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBuildPipeline");
@@ -418,7 +418,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateBuildPipelineStage.cs.html">here</a> to see an example of how to use CreateBuildPipelineStage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateBuildPipelineStage.cs.html">here</a> to see an example of how to use CreateBuildPipelineStage API.</example>
         public async Task<CreateBuildPipelineStageResponse> CreateBuildPipelineStage(CreateBuildPipelineStageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBuildPipelineStage");
@@ -475,7 +475,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateBuildRun.cs.html">here</a> to see an example of how to use CreateBuildRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateBuildRun.cs.html">here</a> to see an example of how to use CreateBuildRun API.</example>
         public async Task<CreateBuildRunResponse> CreateBuildRun(CreateBuildRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBuildRun");
@@ -532,7 +532,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateConnection.cs.html">here</a> to see an example of how to use CreateConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateConnection.cs.html">here</a> to see an example of how to use CreateConnection API.</example>
         public async Task<CreateConnectionResponse> CreateConnection(CreateConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createConnection");
@@ -588,7 +588,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateDeployArtifact.cs.html">here</a> to see an example of how to use CreateDeployArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateDeployArtifact.cs.html">here</a> to see an example of how to use CreateDeployArtifact API.</example>
         public async Task<CreateDeployArtifactResponse> CreateDeployArtifact(CreateDeployArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDeployArtifact");
@@ -644,7 +644,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateDeployEnvironment.cs.html">here</a> to see an example of how to use CreateDeployEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateDeployEnvironment.cs.html">here</a> to see an example of how to use CreateDeployEnvironment API.</example>
         public async Task<CreateDeployEnvironmentResponse> CreateDeployEnvironment(CreateDeployEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDeployEnvironment");
@@ -700,7 +700,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateDeployPipeline.cs.html">here</a> to see an example of how to use CreateDeployPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateDeployPipeline.cs.html">here</a> to see an example of how to use CreateDeployPipeline API.</example>
         public async Task<CreateDeployPipelineResponse> CreateDeployPipeline(CreateDeployPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDeployPipeline");
@@ -756,7 +756,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateDeployStage.cs.html">here</a> to see an example of how to use CreateDeployStage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateDeployStage.cs.html">here</a> to see an example of how to use CreateDeployStage API.</example>
         public async Task<CreateDeployStageResponse> CreateDeployStage(CreateDeployStageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDeployStage");
@@ -812,7 +812,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateDeployment.cs.html">here</a> to see an example of how to use CreateDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateDeployment.cs.html">here</a> to see an example of how to use CreateDeployment API.</example>
         public async Task<CreateDeploymentResponse> CreateDeployment(CreateDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDeployment");
@@ -869,7 +869,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateOrUpdateGitRef.cs.html">here</a> to see an example of how to use CreateOrUpdateGitRef API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateOrUpdateGitRef.cs.html">here</a> to see an example of how to use CreateOrUpdateGitRef API.</example>
         public async Task<CreateOrUpdateGitRefResponse> CreateOrUpdateGitRef(CreateOrUpdateGitRefRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOrUpdateGitRef");
@@ -925,7 +925,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateOrUpdateProtectedBranch.cs.html">here</a> to see an example of how to use CreateOrUpdateProtectedBranch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateOrUpdateProtectedBranch.cs.html">here</a> to see an example of how to use CreateOrUpdateProtectedBranch API.</example>
         public async Task<CreateOrUpdateProtectedBranchResponse> CreateOrUpdateProtectedBranch(CreateOrUpdateProtectedBranchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOrUpdateProtectedBranch");
@@ -981,7 +981,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateProject.cs.html">here</a> to see an example of how to use CreateProject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateProject.cs.html">here</a> to see an example of how to use CreateProject API.</example>
         public async Task<CreateProjectResponse> CreateProject(CreateProjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createProject");
@@ -1038,7 +1038,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreatePullRequest.cs.html">here</a> to see an example of how to use CreatePullRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreatePullRequest.cs.html">here</a> to see an example of how to use CreatePullRequest API.</example>
         public async Task<CreatePullRequestResponse> CreatePullRequest(CreatePullRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPullRequest");
@@ -1095,7 +1095,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreatePullRequestAttachment.cs.html">here</a> to see an example of how to use CreatePullRequestAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreatePullRequestAttachment.cs.html">here</a> to see an example of how to use CreatePullRequestAttachment API.</example>
         public async Task<CreatePullRequestAttachmentResponse> CreatePullRequestAttachment(CreatePullRequestAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPullRequestAttachment");
@@ -1152,7 +1152,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreatePullRequestComment.cs.html">here</a> to see an example of how to use CreatePullRequestComment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreatePullRequestComment.cs.html">here</a> to see an example of how to use CreatePullRequestComment API.</example>
         public async Task<CreatePullRequestCommentResponse> CreatePullRequestComment(CreatePullRequestCommentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPullRequestComment");
@@ -1209,7 +1209,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateRepository.cs.html">here</a> to see an example of how to use CreateRepository API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateRepository.cs.html">here</a> to see an example of how to use CreateRepository API.</example>
         public async Task<CreateRepositoryResponse> CreateRepository(CreateRepositoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRepository");
@@ -1266,7 +1266,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateTrigger.cs.html">here</a> to see an example of how to use CreateTrigger API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/CreateTrigger.cs.html">here</a> to see an example of how to use CreateTrigger API.</example>
         public async Task<CreateTriggerResponse> CreateTrigger(CreateTriggerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createTrigger");
@@ -1323,7 +1323,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeclinePullRequest.cs.html">here</a> to see an example of how to use DeclinePullRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeclinePullRequest.cs.html">here</a> to see an example of how to use DeclinePullRequest API.</example>
         public async Task<DeclinePullRequestResponse> DeclinePullRequest(DeclinePullRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called declinePullRequest");
@@ -1379,7 +1379,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteBuildPipeline.cs.html">here</a> to see an example of how to use DeleteBuildPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteBuildPipeline.cs.html">here</a> to see an example of how to use DeleteBuildPipeline API.</example>
         public async Task<DeleteBuildPipelineResponse> DeleteBuildPipeline(DeleteBuildPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBuildPipeline");
@@ -1435,7 +1435,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteBuildPipelineStage.cs.html">here</a> to see an example of how to use DeleteBuildPipelineStage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteBuildPipelineStage.cs.html">here</a> to see an example of how to use DeleteBuildPipelineStage API.</example>
         public async Task<DeleteBuildPipelineStageResponse> DeleteBuildPipelineStage(DeleteBuildPipelineStageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBuildPipelineStage");
@@ -1491,7 +1491,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteConnection.cs.html">here</a> to see an example of how to use DeleteConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteConnection.cs.html">here</a> to see an example of how to use DeleteConnection API.</example>
         public async Task<DeleteConnectionResponse> DeleteConnection(DeleteConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteConnection");
@@ -1547,7 +1547,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteDeployArtifact.cs.html">here</a> to see an example of how to use DeleteDeployArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteDeployArtifact.cs.html">here</a> to see an example of how to use DeleteDeployArtifact API.</example>
         public async Task<DeleteDeployArtifactResponse> DeleteDeployArtifact(DeleteDeployArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDeployArtifact");
@@ -1603,7 +1603,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteDeployEnvironment.cs.html">here</a> to see an example of how to use DeleteDeployEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteDeployEnvironment.cs.html">here</a> to see an example of how to use DeleteDeployEnvironment API.</example>
         public async Task<DeleteDeployEnvironmentResponse> DeleteDeployEnvironment(DeleteDeployEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDeployEnvironment");
@@ -1659,7 +1659,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteDeployPipeline.cs.html">here</a> to see an example of how to use DeleteDeployPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteDeployPipeline.cs.html">here</a> to see an example of how to use DeleteDeployPipeline API.</example>
         public async Task<DeleteDeployPipelineResponse> DeleteDeployPipeline(DeleteDeployPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDeployPipeline");
@@ -1715,7 +1715,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteDeployStage.cs.html">here</a> to see an example of how to use DeleteDeployStage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteDeployStage.cs.html">here</a> to see an example of how to use DeleteDeployStage API.</example>
         public async Task<DeleteDeployStageResponse> DeleteDeployStage(DeleteDeployStageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDeployStage");
@@ -1771,7 +1771,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteGitRef.cs.html">here</a> to see an example of how to use DeleteGitRef API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteGitRef.cs.html">here</a> to see an example of how to use DeleteGitRef API.</example>
         public async Task<DeleteGitRefResponse> DeleteGitRef(DeleteGitRefRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteGitRef");
@@ -1827,7 +1827,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteProject.cs.html">here</a> to see an example of how to use DeleteProject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteProject.cs.html">here</a> to see an example of how to use DeleteProject API.</example>
         public async Task<DeleteProjectResponse> DeleteProject(DeleteProjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteProject");
@@ -1883,7 +1883,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteProjectRepositorySettings.cs.html">here</a> to see an example of how to use DeleteProjectRepositorySettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteProjectRepositorySettings.cs.html">here</a> to see an example of how to use DeleteProjectRepositorySettings API.</example>
         public async Task<DeleteProjectRepositorySettingsResponse> DeleteProjectRepositorySettings(DeleteProjectRepositorySettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteProjectRepositorySettings");
@@ -1939,7 +1939,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteProtectedBranch.cs.html">here</a> to see an example of how to use DeleteProtectedBranch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteProtectedBranch.cs.html">here</a> to see an example of how to use DeleteProtectedBranch API.</example>
         public async Task<DeleteProtectedBranchResponse> DeleteProtectedBranch(DeleteProtectedBranchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteProtectedBranch");
@@ -1995,7 +1995,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeletePullRequest.cs.html">here</a> to see an example of how to use DeletePullRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeletePullRequest.cs.html">here</a> to see an example of how to use DeletePullRequest API.</example>
         public async Task<DeletePullRequestResponse> DeletePullRequest(DeletePullRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePullRequest");
@@ -2051,7 +2051,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeletePullRequestAttachment.cs.html">here</a> to see an example of how to use DeletePullRequestAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeletePullRequestAttachment.cs.html">here</a> to see an example of how to use DeletePullRequestAttachment API.</example>
         public async Task<DeletePullRequestAttachmentResponse> DeletePullRequestAttachment(DeletePullRequestAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePullRequestAttachment");
@@ -2107,7 +2107,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeletePullRequestComment.cs.html">here</a> to see an example of how to use DeletePullRequestComment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeletePullRequestComment.cs.html">here</a> to see an example of how to use DeletePullRequestComment API.</example>
         public async Task<DeletePullRequestCommentResponse> DeletePullRequestComment(DeletePullRequestCommentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePullRequestComment");
@@ -2163,7 +2163,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteRef.cs.html">here</a> to see an example of how to use DeleteRef API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteRef.cs.html">here</a> to see an example of how to use DeleteRef API.</example>
         public async Task<DeleteRefResponse> DeleteRef(DeleteRefRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRef");
@@ -2219,7 +2219,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteRepository.cs.html">here</a> to see an example of how to use DeleteRepository API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteRepository.cs.html">here</a> to see an example of how to use DeleteRepository API.</example>
         public async Task<DeleteRepositoryResponse> DeleteRepository(DeleteRepositoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRepository");
@@ -2275,7 +2275,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteRepositorySettings.cs.html">here</a> to see an example of how to use DeleteRepositorySettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteRepositorySettings.cs.html">here</a> to see an example of how to use DeleteRepositorySettings API.</example>
         public async Task<DeleteRepositorySettingsResponse> DeleteRepositorySettings(DeleteRepositorySettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRepositorySettings");
@@ -2331,7 +2331,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteTrigger.cs.html">here</a> to see an example of how to use DeleteTrigger API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteTrigger.cs.html">here</a> to see an example of how to use DeleteTrigger API.</example>
         public async Task<DeleteTriggerResponse> DeleteTrigger(DeleteTriggerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteTrigger");
@@ -2387,7 +2387,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetBuildPipeline.cs.html">here</a> to see an example of how to use GetBuildPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetBuildPipeline.cs.html">here</a> to see an example of how to use GetBuildPipeline API.</example>
         public async Task<GetBuildPipelineResponse> GetBuildPipeline(GetBuildPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBuildPipeline");
@@ -2443,7 +2443,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetBuildPipelineStage.cs.html">here</a> to see an example of how to use GetBuildPipelineStage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetBuildPipelineStage.cs.html">here</a> to see an example of how to use GetBuildPipelineStage API.</example>
         public async Task<GetBuildPipelineStageResponse> GetBuildPipelineStage(GetBuildPipelineStageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBuildPipelineStage");
@@ -2500,7 +2500,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetBuildRun.cs.html">here</a> to see an example of how to use GetBuildRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetBuildRun.cs.html">here</a> to see an example of how to use GetBuildRun API.</example>
         public async Task<GetBuildRunResponse> GetBuildRun(GetBuildRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBuildRun");
@@ -2556,7 +2556,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetCommit.cs.html">here</a> to see an example of how to use GetCommit API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetCommit.cs.html">here</a> to see an example of how to use GetCommit API.</example>
         public async Task<GetCommitResponse> GetCommit(GetCommitRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCommit");
@@ -2613,7 +2613,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetCommitDiff.cs.html">here</a> to see an example of how to use GetCommitDiff API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetCommitDiff.cs.html">here</a> to see an example of how to use GetCommitDiff API.</example>
         public async Task<GetCommitDiffResponse> GetCommitDiff(GetCommitDiffRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCommitDiff");
@@ -2669,7 +2669,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetConnection.cs.html">here</a> to see an example of how to use GetConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetConnection.cs.html">here</a> to see an example of how to use GetConnection API.</example>
         public async Task<GetConnectionResponse> GetConnection(GetConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getConnection");
@@ -2725,7 +2725,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetDeployArtifact.cs.html">here</a> to see an example of how to use GetDeployArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetDeployArtifact.cs.html">here</a> to see an example of how to use GetDeployArtifact API.</example>
         public async Task<GetDeployArtifactResponse> GetDeployArtifact(GetDeployArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDeployArtifact");
@@ -2781,7 +2781,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetDeployEnvironment.cs.html">here</a> to see an example of how to use GetDeployEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetDeployEnvironment.cs.html">here</a> to see an example of how to use GetDeployEnvironment API.</example>
         public async Task<GetDeployEnvironmentResponse> GetDeployEnvironment(GetDeployEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDeployEnvironment");
@@ -2837,7 +2837,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetDeployPipeline.cs.html">here</a> to see an example of how to use GetDeployPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetDeployPipeline.cs.html">here</a> to see an example of how to use GetDeployPipeline API.</example>
         public async Task<GetDeployPipelineResponse> GetDeployPipeline(GetDeployPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDeployPipeline");
@@ -2893,7 +2893,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetDeployStage.cs.html">here</a> to see an example of how to use GetDeployStage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetDeployStage.cs.html">here</a> to see an example of how to use GetDeployStage API.</example>
         public async Task<GetDeployStageResponse> GetDeployStage(GetDeployStageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDeployStage");
@@ -2949,7 +2949,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetDeployment.cs.html">here</a> to see an example of how to use GetDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetDeployment.cs.html">here</a> to see an example of how to use GetDeployment API.</example>
         public async Task<GetDeploymentResponse> GetDeployment(GetDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDeployment");
@@ -3006,7 +3006,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetFileDiff.cs.html">here</a> to see an example of how to use GetFileDiff API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetFileDiff.cs.html">here</a> to see an example of how to use GetFileDiff API.</example>
         public async Task<GetFileDiffResponse> GetFileDiff(GetFileDiffRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFileDiff");
@@ -3063,7 +3063,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetMirrorRecord.cs.html">here</a> to see an example of how to use GetMirrorRecord API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetMirrorRecord.cs.html">here</a> to see an example of how to use GetMirrorRecord API.</example>
         public async Task<GetMirrorRecordResponse> GetMirrorRecord(GetMirrorRecordRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMirrorRecord");
@@ -3120,7 +3120,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetObject.cs.html">here</a> to see an example of how to use GetObject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetObject.cs.html">here</a> to see an example of how to use GetObject API.</example>
         public async Task<GetObjectResponse> GetObject(GetObjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getObject");
@@ -3177,7 +3177,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetObjectContent.cs.html">here</a> to see an example of how to use GetObjectContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetObjectContent.cs.html">here</a> to see an example of how to use GetObjectContent API.</example>
         public async Task<GetObjectContentResponse> GetObjectContent(GetObjectContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getObjectContent");
@@ -3233,7 +3233,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetProject.cs.html">here</a> to see an example of how to use GetProject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetProject.cs.html">here</a> to see an example of how to use GetProject API.</example>
         public async Task<GetProjectResponse> GetProject(GetProjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getProject");
@@ -3289,7 +3289,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetProjectNotificationPreference.cs.html">here</a> to see an example of how to use GetProjectNotificationPreference API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetProjectNotificationPreference.cs.html">here</a> to see an example of how to use GetProjectNotificationPreference API.</example>
         public async Task<GetProjectNotificationPreferenceResponse> GetProjectNotificationPreference(GetProjectNotificationPreferenceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getProjectNotificationPreference");
@@ -3345,7 +3345,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetProjectRepositorySettings.cs.html">here</a> to see an example of how to use GetProjectRepositorySettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetProjectRepositorySettings.cs.html">here</a> to see an example of how to use GetProjectRepositorySettings API.</example>
         public async Task<GetProjectRepositorySettingsResponse> GetProjectRepositorySettings(GetProjectRepositorySettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getProjectRepositorySettings");
@@ -3401,7 +3401,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetPullRequest.cs.html">here</a> to see an example of how to use GetPullRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetPullRequest.cs.html">here</a> to see an example of how to use GetPullRequest API.</example>
         public async Task<GetPullRequestResponse> GetPullRequest(GetPullRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPullRequest");
@@ -3457,7 +3457,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetPullRequestAttachment.cs.html">here</a> to see an example of how to use GetPullRequestAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetPullRequestAttachment.cs.html">here</a> to see an example of how to use GetPullRequestAttachment API.</example>
         public async Task<GetPullRequestAttachmentResponse> GetPullRequestAttachment(GetPullRequestAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPullRequestAttachment");
@@ -3513,7 +3513,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetPullRequestAttachmentContent.cs.html">here</a> to see an example of how to use GetPullRequestAttachmentContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetPullRequestAttachmentContent.cs.html">here</a> to see an example of how to use GetPullRequestAttachmentContent API.</example>
         public async Task<GetPullRequestAttachmentContentResponse> GetPullRequestAttachmentContent(GetPullRequestAttachmentContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPullRequestAttachmentContent");
@@ -3569,7 +3569,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetPullRequestComment.cs.html">here</a> to see an example of how to use GetPullRequestComment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetPullRequestComment.cs.html">here</a> to see an example of how to use GetPullRequestComment API.</example>
         public async Task<GetPullRequestCommentResponse> GetPullRequestComment(GetPullRequestCommentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPullRequestComment");
@@ -3625,7 +3625,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetPullRequestNotificationPreference.cs.html">here</a> to see an example of how to use GetPullRequestNotificationPreference API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetPullRequestNotificationPreference.cs.html">here</a> to see an example of how to use GetPullRequestNotificationPreference API.</example>
         public async Task<GetPullRequestNotificationPreferenceResponse> GetPullRequestNotificationPreference(GetPullRequestNotificationPreferenceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPullRequestNotificationPreference");
@@ -3681,7 +3681,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetRef.cs.html">here</a> to see an example of how to use GetRef API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetRef.cs.html">here</a> to see an example of how to use GetRef API.</example>
         public async Task<GetRefResponse> GetRef(GetRefRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRef");
@@ -3738,7 +3738,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetRepoFileDiff.cs.html">here</a> to see an example of how to use GetRepoFileDiff API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetRepoFileDiff.cs.html">here</a> to see an example of how to use GetRepoFileDiff API.</example>
         public async Task<GetRepoFileDiffResponse> GetRepoFileDiff(GetRepoFileDiffRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRepoFileDiff");
@@ -3795,7 +3795,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetRepoFileLines.cs.html">here</a> to see an example of how to use GetRepoFileLines API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetRepoFileLines.cs.html">here</a> to see an example of how to use GetRepoFileLines API.</example>
         public async Task<GetRepoFileLinesResponse> GetRepoFileLines(GetRepoFileLinesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRepoFileLines");
@@ -3851,7 +3851,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetRepository.cs.html">here</a> to see an example of how to use GetRepository API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetRepository.cs.html">here</a> to see an example of how to use GetRepository API.</example>
         public async Task<GetRepositoryResponse> GetRepository(GetRepositoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRepository");
@@ -3908,7 +3908,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetRepositoryArchiveContent.cs.html">here</a> to see an example of how to use GetRepositoryArchiveContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetRepositoryArchiveContent.cs.html">here</a> to see an example of how to use GetRepositoryArchiveContent API.</example>
         public async Task<GetRepositoryArchiveContentResponse> GetRepositoryArchiveContent(GetRepositoryArchiveContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRepositoryArchiveContent");
@@ -3965,7 +3965,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetRepositoryFileLines.cs.html">here</a> to see an example of how to use GetRepositoryFileLines API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetRepositoryFileLines.cs.html">here</a> to see an example of how to use GetRepositoryFileLines API.</example>
         public async Task<GetRepositoryFileLinesResponse> GetRepositoryFileLines(GetRepositoryFileLinesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRepositoryFileLines");
@@ -4021,7 +4021,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetRepositoryNotificationPreference.cs.html">here</a> to see an example of how to use GetRepositoryNotificationPreference API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetRepositoryNotificationPreference.cs.html">here</a> to see an example of how to use GetRepositoryNotificationPreference API.</example>
         public async Task<GetRepositoryNotificationPreferenceResponse> GetRepositoryNotificationPreference(GetRepositoryNotificationPreferenceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRepositoryNotificationPreference");
@@ -4077,7 +4077,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetRepositorySettings.cs.html">here</a> to see an example of how to use GetRepositorySettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetRepositorySettings.cs.html">here</a> to see an example of how to use GetRepositorySettings API.</example>
         public async Task<GetRepositorySettingsResponse> GetRepositorySettings(GetRepositorySettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRepositorySettings");
@@ -4133,7 +4133,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetTrigger.cs.html">here</a> to see an example of how to use GetTrigger API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetTrigger.cs.html">here</a> to see an example of how to use GetTrigger API.</example>
         public async Task<GetTriggerResponse> GetTrigger(GetTriggerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTrigger");
@@ -4189,7 +4189,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -4246,7 +4246,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/LikePullRequestComment.cs.html">here</a> to see an example of how to use LikePullRequestComment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/LikePullRequestComment.cs.html">here</a> to see an example of how to use LikePullRequestComment API.</example>
         public async Task<LikePullRequestCommentResponse> LikePullRequestComment(LikePullRequestCommentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called likePullRequestComment");
@@ -4303,7 +4303,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListAuthors.cs.html">here</a> to see an example of how to use ListAuthors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListAuthors.cs.html">here</a> to see an example of how to use ListAuthors API.</example>
         public async Task<ListAuthorsResponse> ListAuthors(ListAuthorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAuthors");
@@ -4360,7 +4360,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListBuildPipelineStages.cs.html">here</a> to see an example of how to use ListBuildPipelineStages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListBuildPipelineStages.cs.html">here</a> to see an example of how to use ListBuildPipelineStages API.</example>
         public async Task<ListBuildPipelineStagesResponse> ListBuildPipelineStages(ListBuildPipelineStagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBuildPipelineStages");
@@ -4417,7 +4417,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListBuildPipelines.cs.html">here</a> to see an example of how to use ListBuildPipelines API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListBuildPipelines.cs.html">here</a> to see an example of how to use ListBuildPipelines API.</example>
         public async Task<ListBuildPipelinesResponse> ListBuildPipelines(ListBuildPipelinesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBuildPipelines");
@@ -4474,7 +4474,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListBuildRunSnapshots.cs.html">here</a> to see an example of how to use ListBuildRunSnapshots API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListBuildRunSnapshots.cs.html">here</a> to see an example of how to use ListBuildRunSnapshots API.</example>
         public async Task<ListBuildRunSnapshotsResponse> ListBuildRunSnapshots(ListBuildRunSnapshotsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBuildRunSnapshots");
@@ -4531,7 +4531,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListBuildRuns.cs.html">here</a> to see an example of how to use ListBuildRuns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListBuildRuns.cs.html">here</a> to see an example of how to use ListBuildRuns API.</example>
         public async Task<ListBuildRunsResponse> ListBuildRuns(ListBuildRunsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBuildRuns");
@@ -4588,7 +4588,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListCommitDiffs.cs.html">here</a> to see an example of how to use ListCommitDiffs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListCommitDiffs.cs.html">here</a> to see an example of how to use ListCommitDiffs API.</example>
         public async Task<ListCommitDiffsResponse> ListCommitDiffs(ListCommitDiffsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCommitDiffs");
@@ -4645,7 +4645,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListCommits.cs.html">here</a> to see an example of how to use ListCommits API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListCommits.cs.html">here</a> to see an example of how to use ListCommits API.</example>
         public async Task<ListCommitsResponse> ListCommits(ListCommitsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCommits");
@@ -4702,7 +4702,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListConnections.cs.html">here</a> to see an example of how to use ListConnections API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListConnections.cs.html">here</a> to see an example of how to use ListConnections API.</example>
         public async Task<ListConnectionsResponse> ListConnections(ListConnectionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listConnections");
@@ -4758,7 +4758,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListDeployArtifacts.cs.html">here</a> to see an example of how to use ListDeployArtifacts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListDeployArtifacts.cs.html">here</a> to see an example of how to use ListDeployArtifacts API.</example>
         public async Task<ListDeployArtifactsResponse> ListDeployArtifacts(ListDeployArtifactsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDeployArtifacts");
@@ -4814,7 +4814,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListDeployEnvironments.cs.html">here</a> to see an example of how to use ListDeployEnvironments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListDeployEnvironments.cs.html">here</a> to see an example of how to use ListDeployEnvironments API.</example>
         public async Task<ListDeployEnvironmentsResponse> ListDeployEnvironments(ListDeployEnvironmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDeployEnvironments");
@@ -4870,7 +4870,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListDeployPipelines.cs.html">here</a> to see an example of how to use ListDeployPipelines API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListDeployPipelines.cs.html">here</a> to see an example of how to use ListDeployPipelines API.</example>
         public async Task<ListDeployPipelinesResponse> ListDeployPipelines(ListDeployPipelinesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDeployPipelines");
@@ -4926,7 +4926,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListDeployStages.cs.html">here</a> to see an example of how to use ListDeployStages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListDeployStages.cs.html">here</a> to see an example of how to use ListDeployStages API.</example>
         public async Task<ListDeployStagesResponse> ListDeployStages(ListDeployStagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDeployStages");
@@ -4982,7 +4982,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListDeployments.cs.html">here</a> to see an example of how to use ListDeployments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListDeployments.cs.html">here</a> to see an example of how to use ListDeployments API.</example>
         public async Task<ListDeploymentsResponse> ListDeployments(ListDeploymentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDeployments");
@@ -5038,7 +5038,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListForkSyncStatuses.cs.html">here</a> to see an example of how to use ListForkSyncStatuses API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListForkSyncStatuses.cs.html">here</a> to see an example of how to use ListForkSyncStatuses API.</example>
         public async Task<ListForkSyncStatusesResponse> ListForkSyncStatuses(ListForkSyncStatusesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listForkSyncStatuses");
@@ -5095,7 +5095,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListMirrorRecords.cs.html">here</a> to see an example of how to use ListMirrorRecords API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListMirrorRecords.cs.html">here</a> to see an example of how to use ListMirrorRecords API.</example>
         public async Task<ListMirrorRecordsResponse> ListMirrorRecords(ListMirrorRecordsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMirrorRecords");
@@ -5152,7 +5152,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListPaths.cs.html">here</a> to see an example of how to use ListPaths API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListPaths.cs.html">here</a> to see an example of how to use ListPaths API.</example>
         public async Task<ListPathsResponse> ListPaths(ListPathsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPaths");
@@ -5209,7 +5209,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListProjectCommitAnalyticsAuthors.cs.html">here</a> to see an example of how to use ListProjectCommitAnalyticsAuthors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListProjectCommitAnalyticsAuthors.cs.html">here</a> to see an example of how to use ListProjectCommitAnalyticsAuthors API.</example>
         public async Task<ListProjectCommitAnalyticsAuthorsResponse> ListProjectCommitAnalyticsAuthors(ListProjectCommitAnalyticsAuthorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProjectCommitAnalyticsAuthors");
@@ -5265,7 +5265,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListProjects.cs.html">here</a> to see an example of how to use ListProjects API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListProjects.cs.html">here</a> to see an example of how to use ListProjects API.</example>
         public async Task<ListProjectsResponse> ListProjects(ListProjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProjects");
@@ -5322,7 +5322,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListProtectedBranches.cs.html">here</a> to see an example of how to use ListProtectedBranches API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListProtectedBranches.cs.html">here</a> to see an example of how to use ListProtectedBranches API.</example>
         public async Task<ListProtectedBranchesResponse> ListProtectedBranches(ListProtectedBranchesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProtectedBranches");
@@ -5378,7 +5378,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListPullRequestActivities.cs.html">here</a> to see an example of how to use ListPullRequestActivities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListPullRequestActivities.cs.html">here</a> to see an example of how to use ListPullRequestActivities API.</example>
         public async Task<ListPullRequestActivitiesResponse> ListPullRequestActivities(ListPullRequestActivitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPullRequestActivities");
@@ -5434,7 +5434,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListPullRequestAttachments.cs.html">here</a> to see an example of how to use ListPullRequestAttachments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListPullRequestAttachments.cs.html">here</a> to see an example of how to use ListPullRequestAttachments API.</example>
         public async Task<ListPullRequestAttachmentsResponse> ListPullRequestAttachments(ListPullRequestAttachmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPullRequestAttachments");
@@ -5491,7 +5491,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListPullRequestAuthors.cs.html">here</a> to see an example of how to use ListPullRequestAuthors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListPullRequestAuthors.cs.html">here</a> to see an example of how to use ListPullRequestAuthors API.</example>
         public async Task<ListPullRequestAuthorsResponse> ListPullRequestAuthors(ListPullRequestAuthorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPullRequestAuthors");
@@ -5547,7 +5547,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListPullRequestComments.cs.html">here</a> to see an example of how to use ListPullRequestComments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListPullRequestComments.cs.html">here</a> to see an example of how to use ListPullRequestComments API.</example>
         public async Task<ListPullRequestCommentsResponse> ListPullRequestComments(ListPullRequestCommentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPullRequestComments");
@@ -5604,7 +5604,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListPullRequests.cs.html">here</a> to see an example of how to use ListPullRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListPullRequests.cs.html">here</a> to see an example of how to use ListPullRequests API.</example>
         public async Task<ListPullRequestsResponse> ListPullRequests(ListPullRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPullRequests");
@@ -5661,7 +5661,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListRefs.cs.html">here</a> to see an example of how to use ListRefs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListRefs.cs.html">here</a> to see an example of how to use ListRefs API.</example>
         public async Task<ListRefsResponse> ListRefs(ListRefsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRefs");
@@ -5718,7 +5718,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListRepositories.cs.html">here</a> to see an example of how to use ListRepositories API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListRepositories.cs.html">here</a> to see an example of how to use ListRepositories API.</example>
         public async Task<ListRepositoriesResponse> ListRepositories(ListRepositoriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRepositories");
@@ -5775,7 +5775,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListRepositoryCommitAnalyticsAuthors.cs.html">here</a> to see an example of how to use ListRepositoryCommitAnalyticsAuthors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListRepositoryCommitAnalyticsAuthors.cs.html">here</a> to see an example of how to use ListRepositoryCommitAnalyticsAuthors API.</example>
         public async Task<ListRepositoryCommitAnalyticsAuthorsResponse> ListRepositoryCommitAnalyticsAuthors(ListRepositoryCommitAnalyticsAuthorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRepositoryCommitAnalyticsAuthors");
@@ -5832,7 +5832,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListTriggers.cs.html">here</a> to see an example of how to use ListTriggers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListTriggers.cs.html">here</a> to see an example of how to use ListTriggers API.</example>
         public async Task<ListTriggersResponse> ListTriggers(ListTriggersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTriggers");
@@ -5888,7 +5888,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -5944,7 +5944,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -6000,7 +6000,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -6056,7 +6056,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/MergePullRequest.cs.html">here</a> to see an example of how to use MergePullRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/MergePullRequest.cs.html">here</a> to see an example of how to use MergePullRequest API.</example>
         public async Task<MergePullRequestResponse> MergePullRequest(MergePullRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called mergePullRequest");
@@ -6113,7 +6113,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/MirrorRepository.cs.html">here</a> to see an example of how to use MirrorRepository API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/MirrorRepository.cs.html">here</a> to see an example of how to use MirrorRepository API.</example>
         public async Task<MirrorRepositoryResponse> MirrorRepository(MirrorRepositoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called mirrorRepository");
@@ -6170,7 +6170,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/PatchPullRequest.cs.html">here</a> to see an example of how to use PatchPullRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/PatchPullRequest.cs.html">here</a> to see an example of how to use PatchPullRequest API.</example>
         public async Task<PatchPullRequestResponse> PatchPullRequest(PatchPullRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchPullRequest");
@@ -6227,7 +6227,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/PutRepositoryRef.cs.html">here</a> to see an example of how to use PutRepositoryRef API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/PutRepositoryRef.cs.html">here</a> to see an example of how to use PutRepositoryRef API.</example>
         public async Task<PutRepositoryRefResponse> PutRepositoryRef(PutRepositoryRefRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putRepositoryRef");
@@ -6284,7 +6284,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ReopenPullRequest.cs.html">here</a> to see an example of how to use ReopenPullRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ReopenPullRequest.cs.html">here</a> to see an example of how to use ReopenPullRequest API.</example>
         public async Task<ReopenPullRequestResponse> ReopenPullRequest(ReopenPullRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called reopenPullRequest");
@@ -6341,7 +6341,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ReviewPullRequest.cs.html">here</a> to see an example of how to use ReviewPullRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ReviewPullRequest.cs.html">here</a> to see an example of how to use ReviewPullRequest API.</example>
         public async Task<ReviewPullRequestResponse> ReviewPullRequest(ReviewPullRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called reviewPullRequest");
@@ -6397,7 +6397,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ScheduleCascadingProjectDeletion.cs.html">here</a> to see an example of how to use ScheduleCascadingProjectDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ScheduleCascadingProjectDeletion.cs.html">here</a> to see an example of how to use ScheduleCascadingProjectDeletion API.</example>
         public async Task<ScheduleCascadingProjectDeletionResponse> ScheduleCascadingProjectDeletion(ScheduleCascadingProjectDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called scheduleCascadingProjectDeletion");
@@ -6453,7 +6453,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/SummarizeProjectRepositoryAnalytics.cs.html">here</a> to see an example of how to use SummarizeProjectRepositoryAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/SummarizeProjectRepositoryAnalytics.cs.html">here</a> to see an example of how to use SummarizeProjectRepositoryAnalytics API.</example>
         public async Task<SummarizeProjectRepositoryAnalyticsResponse> SummarizeProjectRepositoryAnalytics(SummarizeProjectRepositoryAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeProjectRepositoryAnalytics");
@@ -6509,7 +6509,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/SummarizeRepositoryAnalytics.cs.html">here</a> to see an example of how to use SummarizeRepositoryAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/SummarizeRepositoryAnalytics.cs.html">here</a> to see an example of how to use SummarizeRepositoryAnalytics API.</example>
         public async Task<SummarizeRepositoryAnalyticsResponse> SummarizeRepositoryAnalytics(SummarizeRepositoryAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeRepositoryAnalytics");
@@ -6566,7 +6566,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/SyncRepository.cs.html">here</a> to see an example of how to use SyncRepository API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/SyncRepository.cs.html">here</a> to see an example of how to use SyncRepository API.</example>
         public async Task<SyncRepositoryResponse> SyncRepository(SyncRepositoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called syncRepository");
@@ -6622,7 +6622,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/TriggerDeploymentDryRun.cs.html">here</a> to see an example of how to use TriggerDeploymentDryRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/TriggerDeploymentDryRun.cs.html">here</a> to see an example of how to use TriggerDeploymentDryRun API.</example>
         public async Task<TriggerDeploymentDryRunResponse> TriggerDeploymentDryRun(TriggerDeploymentDryRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called triggerDeploymentDryRun");
@@ -6679,7 +6679,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UnlikePullRequestComment.cs.html">here</a> to see an example of how to use UnlikePullRequestComment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UnlikePullRequestComment.cs.html">here</a> to see an example of how to use UnlikePullRequestComment API.</example>
         public async Task<UnlikePullRequestCommentResponse> UnlikePullRequestComment(UnlikePullRequestCommentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called unlikePullRequestComment");
@@ -6735,7 +6735,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UnsubscribePullRequest.cs.html">here</a> to see an example of how to use UnsubscribePullRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UnsubscribePullRequest.cs.html">here</a> to see an example of how to use UnsubscribePullRequest API.</example>
         public async Task<UnsubscribePullRequestResponse> UnsubscribePullRequest(UnsubscribePullRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called unsubscribePullRequest");
@@ -6791,7 +6791,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateBuildPipeline.cs.html">here</a> to see an example of how to use UpdateBuildPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateBuildPipeline.cs.html">here</a> to see an example of how to use UpdateBuildPipeline API.</example>
         public async Task<UpdateBuildPipelineResponse> UpdateBuildPipeline(UpdateBuildPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateBuildPipeline");
@@ -6847,7 +6847,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateBuildPipelineStage.cs.html">here</a> to see an example of how to use UpdateBuildPipelineStage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateBuildPipelineStage.cs.html">here</a> to see an example of how to use UpdateBuildPipelineStage API.</example>
         public async Task<UpdateBuildPipelineStageResponse> UpdateBuildPipelineStage(UpdateBuildPipelineStageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateBuildPipelineStage");
@@ -6903,7 +6903,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateBuildRun.cs.html">here</a> to see an example of how to use UpdateBuildRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateBuildRun.cs.html">here</a> to see an example of how to use UpdateBuildRun API.</example>
         public async Task<UpdateBuildRunResponse> UpdateBuildRun(UpdateBuildRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateBuildRun");
@@ -6959,7 +6959,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateConnection.cs.html">here</a> to see an example of how to use UpdateConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateConnection.cs.html">here</a> to see an example of how to use UpdateConnection API.</example>
         public async Task<UpdateConnectionResponse> UpdateConnection(UpdateConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateConnection");
@@ -7015,7 +7015,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateDeployArtifact.cs.html">here</a> to see an example of how to use UpdateDeployArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateDeployArtifact.cs.html">here</a> to see an example of how to use UpdateDeployArtifact API.</example>
         public async Task<UpdateDeployArtifactResponse> UpdateDeployArtifact(UpdateDeployArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDeployArtifact");
@@ -7071,7 +7071,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateDeployEnvironment.cs.html">here</a> to see an example of how to use UpdateDeployEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateDeployEnvironment.cs.html">here</a> to see an example of how to use UpdateDeployEnvironment API.</example>
         public async Task<UpdateDeployEnvironmentResponse> UpdateDeployEnvironment(UpdateDeployEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDeployEnvironment");
@@ -7127,7 +7127,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateDeployPipeline.cs.html">here</a> to see an example of how to use UpdateDeployPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateDeployPipeline.cs.html">here</a> to see an example of how to use UpdateDeployPipeline API.</example>
         public async Task<UpdateDeployPipelineResponse> UpdateDeployPipeline(UpdateDeployPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDeployPipeline");
@@ -7183,7 +7183,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateDeployStage.cs.html">here</a> to see an example of how to use UpdateDeployStage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateDeployStage.cs.html">here</a> to see an example of how to use UpdateDeployStage API.</example>
         public async Task<UpdateDeployStageResponse> UpdateDeployStage(UpdateDeployStageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDeployStage");
@@ -7239,7 +7239,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateDeployment.cs.html">here</a> to see an example of how to use UpdateDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateDeployment.cs.html">here</a> to see an example of how to use UpdateDeployment API.</example>
         public async Task<UpdateDeploymentResponse> UpdateDeployment(UpdateDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDeployment");
@@ -7295,7 +7295,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateProject.cs.html">here</a> to see an example of how to use UpdateProject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateProject.cs.html">here</a> to see an example of how to use UpdateProject API.</example>
         public async Task<UpdateProjectResponse> UpdateProject(UpdateProjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateProject");
@@ -7351,7 +7351,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateProjectNotificationPreference.cs.html">here</a> to see an example of how to use UpdateProjectNotificationPreference API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateProjectNotificationPreference.cs.html">here</a> to see an example of how to use UpdateProjectNotificationPreference API.</example>
         public async Task<UpdateProjectNotificationPreferenceResponse> UpdateProjectNotificationPreference(UpdateProjectNotificationPreferenceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateProjectNotificationPreference");
@@ -7407,7 +7407,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateProjectRepositorySettings.cs.html">here</a> to see an example of how to use UpdateProjectRepositorySettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateProjectRepositorySettings.cs.html">here</a> to see an example of how to use UpdateProjectRepositorySettings API.</example>
         public async Task<UpdateProjectRepositorySettingsResponse> UpdateProjectRepositorySettings(UpdateProjectRepositorySettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateProjectRepositorySettings");
@@ -7463,7 +7463,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdatePullRequest.cs.html">here</a> to see an example of how to use UpdatePullRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdatePullRequest.cs.html">here</a> to see an example of how to use UpdatePullRequest API.</example>
         public async Task<UpdatePullRequestResponse> UpdatePullRequest(UpdatePullRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePullRequest");
@@ -7519,7 +7519,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdatePullRequestComment.cs.html">here</a> to see an example of how to use UpdatePullRequestComment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdatePullRequestComment.cs.html">here</a> to see an example of how to use UpdatePullRequestComment API.</example>
         public async Task<UpdatePullRequestCommentResponse> UpdatePullRequestComment(UpdatePullRequestCommentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePullRequestComment");
@@ -7575,7 +7575,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdatePullRequestNotificationPreference.cs.html">here</a> to see an example of how to use UpdatePullRequestNotificationPreference API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdatePullRequestNotificationPreference.cs.html">here</a> to see an example of how to use UpdatePullRequestNotificationPreference API.</example>
         public async Task<UpdatePullRequestNotificationPreferenceResponse> UpdatePullRequestNotificationPreference(UpdatePullRequestNotificationPreferenceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePullRequestNotificationPreference");
@@ -7631,7 +7631,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateRepository.cs.html">here</a> to see an example of how to use UpdateRepository API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateRepository.cs.html">here</a> to see an example of how to use UpdateRepository API.</example>
         public async Task<UpdateRepositoryResponse> UpdateRepository(UpdateRepositoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRepository");
@@ -7687,7 +7687,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateRepositoryNotificationPreference.cs.html">here</a> to see an example of how to use UpdateRepositoryNotificationPreference API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateRepositoryNotificationPreference.cs.html">here</a> to see an example of how to use UpdateRepositoryNotificationPreference API.</example>
         public async Task<UpdateRepositoryNotificationPreferenceResponse> UpdateRepositoryNotificationPreference(UpdateRepositoryNotificationPreferenceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRepositoryNotificationPreference");
@@ -7743,7 +7743,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateRepositorySettings.cs.html">here</a> to see an example of how to use UpdateRepositorySettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateRepositorySettings.cs.html">here</a> to see an example of how to use UpdateRepositorySettings API.</example>
         public async Task<UpdateRepositorySettingsResponse> UpdateRepositorySettings(UpdateRepositorySettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRepositorySettings");
@@ -7799,7 +7799,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateTrigger.cs.html">here</a> to see an example of how to use UpdateTrigger API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateTrigger.cs.html">here</a> to see an example of how to use UpdateTrigger API.</example>
         public async Task<UpdateTriggerResponse> UpdateTrigger(UpdateTriggerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateTrigger");
@@ -7856,7 +7856,7 @@ namespace Oci.DevopsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ValidateConnection.cs.html">here</a> to see an example of how to use ValidateConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/ValidateConnection.cs.html">here</a> to see an example of how to use ValidateConnection API.</example>
         public async Task<ValidateConnectionResponse> ValidateConnection(ValidateConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called validateConnection");

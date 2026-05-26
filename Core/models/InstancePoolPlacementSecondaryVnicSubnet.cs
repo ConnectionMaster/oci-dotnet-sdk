@@ -51,7 +51,7 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.List<InstancePoolPlacementIpv6AddressIpv6SubnetCidrDetails> Ipv6AddressIpv6SubnetCidrPairDetails { get; set; }
         
         /// <value>
-        /// The subnet [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the secondary VNIC.
+        /// The subnet [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the secondary VNIC.
         /// </value>
         /// <remarks>
         /// Required

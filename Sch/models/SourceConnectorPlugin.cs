@@ -18,7 +18,7 @@ namespace Oci.SchService.Models
     /// <summary>
     /// A connector plugin for fetching data from a source service.
     /// For configuration instructions, see
-    /// [Creating a Connector](https://docs.cloud.oracle.com/iaas/Content/connector-hub/create-service-connector.htm).
+    /// [Creating a Connector](https://docs.oracle.com/iaas/Content/connector-hub/create-service-connector.htm).
     /// 
     /// </summary>
     public class SourceConnectorPlugin : ConnectorPlugin

@@ -14,7 +14,7 @@ using Oci.CertificatesmanagementService.Models;
 namespace Oci.CertificatesmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/GetCertificateAuthority.cs.html">here</a> to see an example of how to use GetCertificateAuthority request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/GetCertificateAuthority.cs.html">here</a> to see an example of how to use GetCertificateAuthority request.
     /// </example>
     public class GetCertificateAuthorityRequest : Oci.Common.IOciRequest
     {

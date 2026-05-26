@@ -22,7 +22,7 @@ namespace Oci.MngdmacService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to move the MacOrder to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to move the MacOrder to.
         /// 
         /// </value>
         /// <remarks>

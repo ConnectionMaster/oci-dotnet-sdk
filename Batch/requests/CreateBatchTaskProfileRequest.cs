@@ -14,7 +14,7 @@ using Oci.BatchService.Models;
 namespace Oci.BatchService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/CreateBatchTaskProfile.cs.html">here</a> to see an example of how to use CreateBatchTaskProfile request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/CreateBatchTaskProfile.cs.html">here</a> to see an example of how to use CreateBatchTaskProfile request.
     /// </example>
     public class CreateBatchTaskProfileRequest : Oci.Common.IOciRequest
     {

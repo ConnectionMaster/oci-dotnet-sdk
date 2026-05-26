@@ -14,7 +14,7 @@ using Oci.WlmsService.Models;
 namespace Oci.WlmsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/SummarizeResourceInventory.cs.html">here</a> to see an example of how to use SummarizeResourceInventory request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/SummarizeResourceInventory.cs.html">here</a> to see an example of how to use SummarizeResourceInventory request.
     /// </example>
     public class SummarizeResourceInventoryRequest : Oci.Common.IOciRequest
     {

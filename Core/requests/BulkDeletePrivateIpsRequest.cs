@@ -14,7 +14,7 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDeletePrivateIps.cs.html">here</a> to see an example of how to use BulkDeletePrivateIps request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDeletePrivateIps.cs.html">here</a> to see an example of how to use BulkDeletePrivateIps request.
     /// </example>
     public class BulkDeletePrivateIpsRequest : Oci.Common.IOciRequest
     {

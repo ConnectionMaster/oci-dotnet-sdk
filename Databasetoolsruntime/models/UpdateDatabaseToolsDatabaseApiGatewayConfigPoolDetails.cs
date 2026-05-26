@@ -36,7 +36,7 @@ namespace Oci.DatabasetoolsruntimeService.Models
         public string PoolRouteValue { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the related Database Tools connection. Specifies the OCI database tools connection ocid to build the connection pool from.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the related Database Tools connection. Specifies the OCI database tools connection ocid to build the connection pool from.
         /// </value>
         [JsonProperty(PropertyName = "databaseToolsConnectionId")]
         public string DatabaseToolsConnectionId { get; set; }

@@ -18,7 +18,7 @@ namespace Oci.GovernancerulescontrolplaneService.Models
     /// <summary>
     /// Validates a definedTag value. Each validator performs validation steps in addition to the standard
     /// validation for definedTag values. For more information, see
-    /// [Limits on Tags](https://docs.cloud.oracle.com/Content/Tagging/Concepts/taggingoverview.htm#limits).
+    /// [Limits on Tags](https://docs.oracle.com/iaas/Content/Tagging/Concepts/taggingoverview.htm#limits).
     /// <br/>
     /// If you define a validator after a value has been set for a defined tag, then any updates that
     /// attempt to change the value must pass the additional validation defined by the current rule.
@@ -26,7 +26,7 @@ namespace Oci.GovernancerulescontrolplaneService.Models
     /// still update other attributes to resources that contain a non-valid defined tag.
     /// <br/>
     /// To clear the validator call UpdateTag with
-    /// [DefaultTagDefinitionValidator](https://docs.cloud.oracle.com/api/#/en/identity/latest/datatypes/DefaultTagDefinitionValidator).
+    /// [DefaultTagDefinitionValidator](https://docs.oracle.com/iaas/api/#/en/identity/latest/datatypes/DefaultTagDefinitionValidator).
     /// 
     /// </summary>
     [JsonConverter(typeof(BaseTagDefinitionValidatorModelConverter))]

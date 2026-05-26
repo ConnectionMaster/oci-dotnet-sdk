@@ -22,7 +22,7 @@ namespace Oci.AppmgmtcontrolService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of monitored instance.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of monitored instance.
         /// </value>
         /// <remarks>
         /// Required
@@ -32,7 +32,7 @@ namespace Oci.AppmgmtcontrolService.Models
         public string InstanceId { get; set; }
         
         /// <value>
-        /// Compartment Identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)
+        /// Compartment Identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)
         /// </value>
         /// <remarks>
         /// Required
@@ -42,15 +42,15 @@ namespace Oci.AppmgmtcontrolService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// A user-friendly name of the monitored instance. It is binded to [Compute Instance](https://docs.cloud.oracle.com/Content/Compute/Concepts/computeoverview.htm).
-        /// DisplayName is fetched from [Core Service API](https://docs.cloud.oracle.com/api/#/en/iaas/20160918/Instance/).
+        /// A user-friendly name of the monitored instance. It is binded to [Compute Instance](https://docs.oracle.com/iaas/Content/Compute/Concepts/computeoverview.htm).
+        /// DisplayName is fetched from [Core Service API](https://docs.oracle.com/iaas/api/#/en/iaas/20160918/Instance/).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "displayName")]
         public string DisplayName { get; set; }
         
         /// <value>
-        /// Management Agent Identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Management Agent Identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// Used to invoke manage operations on Management Agent Cloud Service.
         /// 
         /// </value>

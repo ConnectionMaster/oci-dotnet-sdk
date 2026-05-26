@@ -32,7 +32,7 @@ namespace Oci.VnmonitoringService.Models
         public string LoopBackIp { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the network attached to the DRG.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the network attached to the DRG.
         /// </value>
         /// <remarks>
         /// Required

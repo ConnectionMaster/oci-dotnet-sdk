@@ -14,13 +14,13 @@ using Oci.GoldengateService.Models;
 namespace Oci.GoldengateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/TestConnectionAssignment.cs.html">here</a> to see an example of how to use TestConnectionAssignment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/TestConnectionAssignment.cs.html">here</a> to see an example of how to use TestConnectionAssignment request.
     /// </example>
     public class TestConnectionAssignmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Connection Assignment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Connection Assignment.
         /// 
         /// </value>
         /// <remarks>

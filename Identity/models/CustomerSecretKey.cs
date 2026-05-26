@@ -17,12 +17,12 @@ namespace Oci.IdentityService.Models
 {
     /// <summary>
     /// A `CustomerSecretKey` is an Oracle-provided key for using the Object Storage Service's
-    /// [Amazon S3 compatible API](https://docs.cloud.oracle.com/Content/Object/Tasks/s3compatibleapi.htm). The key consists of a
+    /// [Amazon S3 compatible API](https://docs.oracle.com/iaas/Content/Object/Tasks/s3compatibleapi.htm). The key consists of a
     /// secret key/access key pair. A user can have up to two secret keys at a time.
     /// <br/>
     /// **Note:** The secret key is always an Oracle-generated string; you can't change it to a string of your choice.
     /// <br/>
-    /// For more information, see [Managing User Credentials](https://docs.cloud.oracle.com/Content/Identity/access/managing-user-credentials.htm).
+    /// For more information, see [Managing User Credentials](https://docs.oracle.com/iaas/Content/Identity/access/managing-user-credentials.htm).
     /// 
     /// </summary>
     public class CustomerSecretKey 

@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateDiscoveryJob.cs.html">here</a> to see an example of how to use CreateDiscoveryJob request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateDiscoveryJob.cs.html">here</a> to see an example of how to use CreateDiscoveryJob request.
     /// </example>
     public class CreateDiscoveryJobRequest : Oci.Common.IOciRequest
     {

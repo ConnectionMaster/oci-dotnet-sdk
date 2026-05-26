@@ -16,14 +16,14 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FleetsoftwareupdateService.Models
 {
     /// <summary>
-    /// [Defined tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm) to include when discovering Exadata VM Cluster targets for a 'GUEST_OS' collection.
+    /// [Defined tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm) to include when discovering Exadata VM Cluster targets for a 'GUEST_OS' collection.
     /// 
     /// </summary>
     public class GuestOsDefinedTagsFilter : GuestOsFleetDiscoveryFilter
     {
         
         /// <value>
-        /// [Defined tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm) to include when discovering Exadata VM Cluster targets for a 'GUEST_OS' collection.
+        /// [Defined tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm) to include when discovering Exadata VM Cluster targets for a 'GUEST_OS' collection.
         /// 
         /// </value>
         /// <remarks>

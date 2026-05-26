@@ -22,7 +22,7 @@ namespace Oci.AivisionService.Models
     {
         
         /// <value>
-        /// [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of secret where credentials are stored in username:password format.
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of secret where credentials are stored in username:password format.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "secretId")]

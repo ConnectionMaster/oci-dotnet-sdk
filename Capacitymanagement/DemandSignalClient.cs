@@ -82,7 +82,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/BulkCreateOccmDemandSignalItem.cs.html">here</a> to see an example of how to use BulkCreateOccmDemandSignalItem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/BulkCreateOccmDemandSignalItem.cs.html">here</a> to see an example of how to use BulkCreateOccmDemandSignalItem API.</example>
         public async Task<BulkCreateOccmDemandSignalItemResponse> BulkCreateOccmDemandSignalItem(BulkCreateOccmDemandSignalItemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkCreateOccmDemandSignalItem");
@@ -139,7 +139,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/CreateOccmDemandSignal.cs.html">here</a> to see an example of how to use CreateOccmDemandSignal API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/CreateOccmDemandSignal.cs.html">here</a> to see an example of how to use CreateOccmDemandSignal API.</example>
         public async Task<CreateOccmDemandSignalResponse> CreateOccmDemandSignal(CreateOccmDemandSignalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOccmDemandSignal");
@@ -196,7 +196,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/CreateOccmDemandSignalItem.cs.html">here</a> to see an example of how to use CreateOccmDemandSignalItem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/CreateOccmDemandSignalItem.cs.html">here</a> to see an example of how to use CreateOccmDemandSignalItem API.</example>
         public async Task<CreateOccmDemandSignalItemResponse> CreateOccmDemandSignalItem(CreateOccmDemandSignalItemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOccmDemandSignalItem");
@@ -253,7 +253,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/DeleteOccmDemandSignal.cs.html">here</a> to see an example of how to use DeleteOccmDemandSignal API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/DeleteOccmDemandSignal.cs.html">here</a> to see an example of how to use DeleteOccmDemandSignal API.</example>
         public async Task<DeleteOccmDemandSignalResponse> DeleteOccmDemandSignal(DeleteOccmDemandSignalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOccmDemandSignal");
@@ -310,7 +310,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/DeleteOccmDemandSignalItem.cs.html">here</a> to see an example of how to use DeleteOccmDemandSignalItem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/DeleteOccmDemandSignalItem.cs.html">here</a> to see an example of how to use DeleteOccmDemandSignalItem API.</example>
         public async Task<DeleteOccmDemandSignalItemResponse> DeleteOccmDemandSignalItem(DeleteOccmDemandSignalItemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOccmDemandSignalItem");
@@ -367,7 +367,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/GetOccmDemandSignal.cs.html">here</a> to see an example of how to use GetOccmDemandSignal API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/GetOccmDemandSignal.cs.html">here</a> to see an example of how to use GetOccmDemandSignal API.</example>
         public async Task<GetOccmDemandSignalResponse> GetOccmDemandSignal(GetOccmDemandSignalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOccmDemandSignal");
@@ -424,7 +424,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/GetOccmDemandSignalItem.cs.html">here</a> to see an example of how to use GetOccmDemandSignalItem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/GetOccmDemandSignalItem.cs.html">here</a> to see an example of how to use GetOccmDemandSignalItem API.</example>
         public async Task<GetOccmDemandSignalItemResponse> GetOccmDemandSignalItem(GetOccmDemandSignalItemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOccmDemandSignalItem");
@@ -481,7 +481,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccmDemandSignalCatalogResources.cs.html">here</a> to see an example of how to use ListOccmDemandSignalCatalogResources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccmDemandSignalCatalogResources.cs.html">here</a> to see an example of how to use ListOccmDemandSignalCatalogResources API.</example>
         public async Task<ListOccmDemandSignalCatalogResourcesResponse> ListOccmDemandSignalCatalogResources(ListOccmDemandSignalCatalogResourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOccmDemandSignalCatalogResources");
@@ -538,7 +538,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccmDemandSignalDeliveries.cs.html">here</a> to see an example of how to use ListOccmDemandSignalDeliveries API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccmDemandSignalDeliveries.cs.html">here</a> to see an example of how to use ListOccmDemandSignalDeliveries API.</example>
         public async Task<ListOccmDemandSignalDeliveriesResponse> ListOccmDemandSignalDeliveries(ListOccmDemandSignalDeliveriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOccmDemandSignalDeliveries");
@@ -595,7 +595,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccmDemandSignalItems.cs.html">here</a> to see an example of how to use ListOccmDemandSignalItems API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccmDemandSignalItems.cs.html">here</a> to see an example of how to use ListOccmDemandSignalItems API.</example>
         public async Task<ListOccmDemandSignalItemsResponse> ListOccmDemandSignalItems(ListOccmDemandSignalItemsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOccmDemandSignalItems");
@@ -652,7 +652,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccmDemandSignals.cs.html">here</a> to see an example of how to use ListOccmDemandSignals API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccmDemandSignals.cs.html">here</a> to see an example of how to use ListOccmDemandSignals API.</example>
         public async Task<ListOccmDemandSignalsResponse> ListOccmDemandSignals(ListOccmDemandSignalsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOccmDemandSignals");
@@ -709,7 +709,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateOccmDemandSignal.cs.html">here</a> to see an example of how to use UpdateOccmDemandSignal API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateOccmDemandSignal.cs.html">here</a> to see an example of how to use UpdateOccmDemandSignal API.</example>
         public async Task<UpdateOccmDemandSignalResponse> UpdateOccmDemandSignal(UpdateOccmDemandSignalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOccmDemandSignal");
@@ -766,7 +766,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateOccmDemandSignalItem.cs.html">here</a> to see an example of how to use UpdateOccmDemandSignalItem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateOccmDemandSignalItem.cs.html">here</a> to see an example of how to use UpdateOccmDemandSignalItem API.</example>
         public async Task<UpdateOccmDemandSignalItemResponse> UpdateOccmDemandSignalItem(UpdateOccmDemandSignalItemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOccmDemandSignalItem");

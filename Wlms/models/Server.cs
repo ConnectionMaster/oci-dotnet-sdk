@@ -25,7 +25,7 @@ namespace Oci.WlmsService.Models
         /// <value>
         /// The unique identifier of the server.
         /// <br/>
-        /// **Note:** Not an [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// **Note:** Not an [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "id")]

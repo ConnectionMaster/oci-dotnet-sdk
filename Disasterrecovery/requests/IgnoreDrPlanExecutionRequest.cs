@@ -14,7 +14,7 @@ using Oci.DisasterrecoveryService.Models;
 namespace Oci.DisasterrecoveryService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/IgnoreDrPlanExecution.cs.html">here</a> to see an example of how to use IgnoreDrPlanExecution request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/IgnoreDrPlanExecution.cs.html">here</a> to see an example of how to use IgnoreDrPlanExecution request.
     /// </example>
     public class IgnoreDrPlanExecutionRequest : Oci.Common.IOciRequest
     {

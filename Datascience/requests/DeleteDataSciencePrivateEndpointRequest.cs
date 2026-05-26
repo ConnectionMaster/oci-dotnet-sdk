@@ -14,7 +14,7 @@ using Oci.DatascienceService.Models;
 namespace Oci.DatascienceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteDataSciencePrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteDataSciencePrivateEndpoint request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteDataSciencePrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteDataSciencePrivateEndpoint request.
     /// </example>
     public class DeleteDataSciencePrivateEndpointRequest : Oci.Common.IOciRequest
     {

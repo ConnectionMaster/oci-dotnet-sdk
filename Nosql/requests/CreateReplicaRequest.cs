@@ -14,7 +14,7 @@ using Oci.NosqlService.Models;
 namespace Oci.NosqlService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/nosql/CreateReplica.cs.html">here</a> to see an example of how to use CreateReplica request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/nosql/CreateReplica.cs.html">here</a> to see an example of how to use CreateReplica request.
     /// </example>
     public class CreateReplicaRequest : Oci.Common.IOciRequest
     {

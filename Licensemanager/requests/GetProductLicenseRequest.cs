@@ -14,7 +14,7 @@ using Oci.LicensemanagerService.Models;
 namespace Oci.LicensemanagerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/GetProductLicense.cs.html">here</a> to see an example of how to use GetProductLicense request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/GetProductLicense.cs.html">here</a> to see an example of how to use GetProductLicense request.
     /// </example>
     public class GetProductLicenseRequest : Oci.Common.IOciRequest
     {

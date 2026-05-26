@@ -53,7 +53,7 @@ namespace Oci.OsmanagementhubService.Models
         public ModuleStreamDetails SwitchModuleStreamsDetails { get; set; }
         
         /// <value>
-        /// The software source [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). 
+        /// The software source [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). 
         /// This parameter only applies when the scheduled job is for attaching or detaching software sources.
         /// 
         /// </value>

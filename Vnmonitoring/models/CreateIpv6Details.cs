@@ -66,7 +66,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Nullable<bool> IsInternetAccessAllowed { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC to assign the IPv6 to. The
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC to assign the IPv6 to. The
         /// IPv6 will be in the VNIC's subnet.
         /// 
         /// </value>

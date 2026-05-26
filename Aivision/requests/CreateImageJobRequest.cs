@@ -14,7 +14,7 @@ using Oci.AivisionService.Models;
 namespace Oci.AivisionService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aivision/CreateImageJob.cs.html">here</a> to see an example of how to use CreateImageJob request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aivision/CreateImageJob.cs.html">here</a> to see an example of how to use CreateImageJob request.
     /// </example>
     public class CreateImageJobRequest : Oci.Common.IOciRequest
     {

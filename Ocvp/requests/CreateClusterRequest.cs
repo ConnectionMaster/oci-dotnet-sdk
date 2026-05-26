@@ -14,7 +14,7 @@ using Oci.OcvpService.Models;
 namespace Oci.OcvpService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/CreateCluster.cs.html">here</a> to see an example of how to use CreateCluster request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/CreateCluster.cs.html">here</a> to see an example of how to use CreateCluster request.
     /// </example>
     public class CreateClusterRequest : Oci.Common.IOciRequest
     {

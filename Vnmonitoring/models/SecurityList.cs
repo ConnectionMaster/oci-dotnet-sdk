@@ -19,7 +19,7 @@ namespace Oci.VnmonitoringService.Models
     /// A set of virtual firewall rules for your VCN. Security lists are configured at the subnet
     /// level, but the rules are applied to the ingress and egress traffic for the individual instances
     /// in the subnet. The rules can be stateful or stateless. For more information, see
-    /// [Security Lists](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/securitylists.htm).
+    /// [Security Lists](https://docs.oracle.com/iaas/Content/Network/Concepts/securitylists.htm).
     /// **Note:** Compare security lists to {@link NetworkSecurityGroup}s,
     /// which let you apply a set of security rules to a *specific set of VNICs* instead of an entire
     /// subnet. Oracle recommends using network security groups instead of security lists, although you
@@ -32,14 +32,14 @@ namespace Oci.VnmonitoringService.Models
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,
     /// talk to an administrator. If you're an administrator who needs to write policies to give users access, see
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
+    /// [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// 
     /// </summary>
     public class SecurityList 
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the security list.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the security list.
         /// </value>
         /// <remarks>
         /// Required
@@ -85,7 +85,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
         
         /// <value>
-        /// The security list's Oracle Cloud ID ([OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
+        /// The security list's Oracle Cloud ID ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
         /// </value>
         /// <remarks>
         /// Required
@@ -143,7 +143,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Nullable<System.DateTime> TimeCreated { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VCN the security list belongs to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VCN the security list belongs to.
         /// </value>
         /// <remarks>
         /// Required

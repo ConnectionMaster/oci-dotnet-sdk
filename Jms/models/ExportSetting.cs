@@ -30,7 +30,7 @@ namespace Oci.JmsService.Models
         public string ExportSettingKey { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the fleet.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the fleet.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "fleetId")]

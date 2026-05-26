@@ -14,7 +14,7 @@ using Oci.OpsiService.Models;
 namespace Oci.OpsiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetAwrDatabaseReport.cs.html">here</a> to see an example of how to use GetAwrDatabaseReport request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetAwrDatabaseReport.cs.html">here</a> to see an example of how to use GetAwrDatabaseReport request.
     /// </example>
     public class GetAwrDatabaseReportRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.OpsiService.Requests
         public string AwrHubId { get; set; }
         
         /// <value>
-        /// The internal ID of the database. The internal ID of the database is not the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The internal ID of the database. The internal ID of the database is not the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// It can be retrieved from the following endpoint:
         /// /awrHubs/{awrHubId}/awrDatabases
         /// 

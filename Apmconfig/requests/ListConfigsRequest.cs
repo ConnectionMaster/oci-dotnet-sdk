@@ -14,7 +14,7 @@ using Oci.ApmconfigService.Models;
 namespace Oci.ApmconfigService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/ListConfigs.cs.html">here</a> to see an example of how to use ListConfigs request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/ListConfigs.cs.html">here</a> to see an example of how to use ListConfigs request.
     /// </example>
     public class ListConfigsRequest : Oci.Common.IOciRequest
     {
@@ -60,7 +60,7 @@ namespace Oci.ApmconfigService.Requests
         
         /// <value>
         /// The maximum number of results per page, or items to return in a paginated \"List\" call. For information on
-        /// how pagination works, see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// how pagination works, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// Example: 50
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]

@@ -77,7 +77,7 @@ namespace Oci.OspgatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/AuthorizeSubscriptionPayment.cs.html">here</a> to see an example of how to use AuthorizeSubscriptionPayment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/AuthorizeSubscriptionPayment.cs.html">here</a> to see an example of how to use AuthorizeSubscriptionPayment API.</example>
         public async Task<AuthorizeSubscriptionPaymentResponse> AuthorizeSubscriptionPayment(AuthorizeSubscriptionPaymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called authorizeSubscriptionPayment");
@@ -133,7 +133,7 @@ namespace Oci.OspgatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/GetSubscription.cs.html">here</a> to see an example of how to use GetSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/GetSubscription.cs.html">here</a> to see an example of how to use GetSubscription API.</example>
         public async Task<GetSubscriptionResponse> GetSubscription(GetSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSubscription");
@@ -189,7 +189,7 @@ namespace Oci.OspgatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/ListSubscriptions.cs.html">here</a> to see an example of how to use ListSubscriptions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/ListSubscriptions.cs.html">here</a> to see an example of how to use ListSubscriptions API.</example>
         public async Task<ListSubscriptionsResponse> ListSubscriptions(ListSubscriptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSubscriptions");
@@ -245,7 +245,7 @@ namespace Oci.OspgatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/PaySubscription.cs.html">here</a> to see an example of how to use PaySubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/PaySubscription.cs.html">here</a> to see an example of how to use PaySubscription API.</example>
         public async Task<PaySubscriptionResponse> PaySubscription(PaySubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called paySubscription");
@@ -301,7 +301,7 @@ namespace Oci.OspgatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/UpdateSubscription.cs.html">here</a> to see an example of how to use UpdateSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/UpdateSubscription.cs.html">here</a> to see an example of how to use UpdateSubscription API.</example>
         public async Task<UpdateSubscriptionResponse> UpdateSubscription(UpdateSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSubscription");

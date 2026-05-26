@@ -80,7 +80,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/CreateAnnouncementsPreference.cs.html">here</a> to see an example of how to use CreateAnnouncementsPreference API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/CreateAnnouncementsPreference.cs.html">here</a> to see an example of how to use CreateAnnouncementsPreference API.</example>
         public async Task<CreateAnnouncementsPreferenceResponse> CreateAnnouncementsPreference(CreateAnnouncementsPreferenceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAnnouncementsPreference");
@@ -139,7 +139,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/GetAnnouncementsPreference.cs.html">here</a> to see an example of how to use GetAnnouncementsPreference API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/GetAnnouncementsPreference.cs.html">here</a> to see an example of how to use GetAnnouncementsPreference API.</example>
         public async Task<GetAnnouncementsPreferenceResponse> GetAnnouncementsPreference(GetAnnouncementsPreferenceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAnnouncementsPreference");
@@ -198,7 +198,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/ListAnnouncementsPreferences.cs.html">here</a> to see an example of how to use ListAnnouncementsPreferences API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/ListAnnouncementsPreferences.cs.html">here</a> to see an example of how to use ListAnnouncementsPreferences API.</example>
         public async Task<ListAnnouncementsPreferencesResponse> ListAnnouncementsPreferences(ListAnnouncementsPreferencesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAnnouncementsPreferences");
@@ -257,7 +257,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/UpdateAnnouncementsPreference.cs.html">here</a> to see an example of how to use UpdateAnnouncementsPreference API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/UpdateAnnouncementsPreference.cs.html">here</a> to see an example of how to use UpdateAnnouncementsPreference API.</example>
         public async Task<UpdateAnnouncementsPreferenceResponse> UpdateAnnouncementsPreference(UpdateAnnouncementsPreferenceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAnnouncementsPreference");

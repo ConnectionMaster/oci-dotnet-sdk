@@ -14,7 +14,7 @@ using Oci.IdentitydomainsService.Models;
 namespace Oci.IdentitydomainsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutPolicy.cs.html">here</a> to see an example of how to use PutPolicy request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutPolicy.cs.html">here</a> to see an example of how to use PutPolicy request.
     /// </example>
     public class PutPolicyRequest : Oci.Common.IOciRequest
     {

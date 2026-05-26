@@ -14,13 +14,13 @@ using Oci.WafService.Models;
 namespace Oci.WafService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ChangeNetworkAddressListCompartment.cs.html">here</a> to see an example of how to use ChangeNetworkAddressListCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ChangeNetworkAddressListCompartment.cs.html">here</a> to see an example of how to use ChangeNetworkAddressListCompartment request.
     /// </example>
     public class ChangeNetworkAddressListCompartmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the NetworkAddressList.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the NetworkAddressList.
         /// </value>
         /// <remarks>
         /// Required

@@ -14,7 +14,7 @@ using Oci.NetworkfirewallService.Models;
 namespace Oci.NetworkfirewallService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteApplicationGroup.cs.html">here</a> to see an example of how to use DeleteApplicationGroup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteApplicationGroup.cs.html">here</a> to see an example of how to use DeleteApplicationGroup request.
     /// </example>
     public class DeleteApplicationGroupRequest : Oci.Common.IOciRequest
     {

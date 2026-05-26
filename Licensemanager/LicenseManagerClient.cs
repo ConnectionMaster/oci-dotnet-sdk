@@ -80,7 +80,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/BulkUploadLicenseRecords.cs.html">here</a> to see an example of how to use BulkUploadLicenseRecords API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/BulkUploadLicenseRecords.cs.html">here</a> to see an example of how to use BulkUploadLicenseRecords API.</example>
         public async Task<BulkUploadLicenseRecordsResponse> BulkUploadLicenseRecords(BulkUploadLicenseRecordsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUploadLicenseRecords");
@@ -136,7 +136,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/CreateLicenseRecord.cs.html">here</a> to see an example of how to use CreateLicenseRecord API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/CreateLicenseRecord.cs.html">here</a> to see an example of how to use CreateLicenseRecord API.</example>
         public async Task<CreateLicenseRecordResponse> CreateLicenseRecord(CreateLicenseRecordRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createLicenseRecord");
@@ -192,7 +192,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/CreateProductLicense.cs.html">here</a> to see an example of how to use CreateProductLicense API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/CreateProductLicense.cs.html">here</a> to see an example of how to use CreateProductLicense API.</example>
         public async Task<CreateProductLicenseResponse> CreateProductLicense(CreateProductLicenseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createProductLicense");
@@ -248,7 +248,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/DeleteLicenseRecord.cs.html">here</a> to see an example of how to use DeleteLicenseRecord API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/DeleteLicenseRecord.cs.html">here</a> to see an example of how to use DeleteLicenseRecord API.</example>
         public async Task<DeleteLicenseRecordResponse> DeleteLicenseRecord(DeleteLicenseRecordRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteLicenseRecord");
@@ -304,7 +304,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/DeleteProductLicense.cs.html">here</a> to see an example of how to use DeleteProductLicense API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/DeleteProductLicense.cs.html">here</a> to see an example of how to use DeleteProductLicense API.</example>
         public async Task<DeleteProductLicenseResponse> DeleteProductLicense(DeleteProductLicenseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteProductLicense");
@@ -360,7 +360,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/GetBulkUploadTemplate.cs.html">here</a> to see an example of how to use GetBulkUploadTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/GetBulkUploadTemplate.cs.html">here</a> to see an example of how to use GetBulkUploadTemplate API.</example>
         public async Task<GetBulkUploadTemplateResponse> GetBulkUploadTemplate(GetBulkUploadTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBulkUploadTemplate");
@@ -416,7 +416,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/GetConfiguration.cs.html">here</a> to see an example of how to use GetConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/GetConfiguration.cs.html">here</a> to see an example of how to use GetConfiguration API.</example>
         public async Task<GetConfigurationResponse> GetConfiguration(GetConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getConfiguration");
@@ -472,7 +472,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/GetLicenseMetric.cs.html">here</a> to see an example of how to use GetLicenseMetric API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/GetLicenseMetric.cs.html">here</a> to see an example of how to use GetLicenseMetric API.</example>
         public async Task<GetLicenseMetricResponse> GetLicenseMetric(GetLicenseMetricRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getLicenseMetric");
@@ -528,7 +528,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/GetLicenseRecord.cs.html">here</a> to see an example of how to use GetLicenseRecord API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/GetLicenseRecord.cs.html">here</a> to see an example of how to use GetLicenseRecord API.</example>
         public async Task<GetLicenseRecordResponse> GetLicenseRecord(GetLicenseRecordRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getLicenseRecord");
@@ -584,7 +584,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/GetProductLicense.cs.html">here</a> to see an example of how to use GetProductLicense API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/GetProductLicense.cs.html">here</a> to see an example of how to use GetProductLicense API.</example>
         public async Task<GetProductLicenseResponse> GetProductLicense(GetProductLicenseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getProductLicense");
@@ -640,7 +640,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/ListLicenseRecords.cs.html">here</a> to see an example of how to use ListLicenseRecords API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/ListLicenseRecords.cs.html">here</a> to see an example of how to use ListLicenseRecords API.</example>
         public async Task<ListLicenseRecordsResponse> ListLicenseRecords(ListLicenseRecordsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLicenseRecords");
@@ -696,7 +696,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/ListProductLicenseConsumers.cs.html">here</a> to see an example of how to use ListProductLicenseConsumers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/ListProductLicenseConsumers.cs.html">here</a> to see an example of how to use ListProductLicenseConsumers API.</example>
         public async Task<ListProductLicenseConsumersResponse> ListProductLicenseConsumers(ListProductLicenseConsumersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProductLicenseConsumers");
@@ -752,7 +752,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/ListProductLicenses.cs.html">here</a> to see an example of how to use ListProductLicenses API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/ListProductLicenses.cs.html">here</a> to see an example of how to use ListProductLicenses API.</example>
         public async Task<ListProductLicensesResponse> ListProductLicenses(ListProductLicensesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProductLicenses");
@@ -808,7 +808,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/ListTopUtilizedProductLicenses.cs.html">here</a> to see an example of how to use ListTopUtilizedProductLicenses API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/ListTopUtilizedProductLicenses.cs.html">here</a> to see an example of how to use ListTopUtilizedProductLicenses API.</example>
         public async Task<ListTopUtilizedProductLicensesResponse> ListTopUtilizedProductLicenses(ListTopUtilizedProductLicensesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTopUtilizedProductLicenses");
@@ -864,7 +864,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/ListTopUtilizedResources.cs.html">here</a> to see an example of how to use ListTopUtilizedResources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/ListTopUtilizedResources.cs.html">here</a> to see an example of how to use ListTopUtilizedResources API.</example>
         public async Task<ListTopUtilizedResourcesResponse> ListTopUtilizedResources(ListTopUtilizedResourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTopUtilizedResources");
@@ -920,7 +920,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/UpdateConfiguration.cs.html">here</a> to see an example of how to use UpdateConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/UpdateConfiguration.cs.html">here</a> to see an example of how to use UpdateConfiguration API.</example>
         public async Task<UpdateConfigurationResponse> UpdateConfiguration(UpdateConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateConfiguration");
@@ -976,7 +976,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/UpdateLicenseRecord.cs.html">here</a> to see an example of how to use UpdateLicenseRecord API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/UpdateLicenseRecord.cs.html">here</a> to see an example of how to use UpdateLicenseRecord API.</example>
         public async Task<UpdateLicenseRecordResponse> UpdateLicenseRecord(UpdateLicenseRecordRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateLicenseRecord");
@@ -1032,7 +1032,7 @@ namespace Oci.LicensemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/UpdateProductLicense.cs.html">here</a> to see an example of how to use UpdateProductLicense API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/UpdateProductLicense.cs.html">here</a> to see an example of how to use UpdateProductLicense API.</example>
         public async Task<UpdateProductLicenseResponse> UpdateProductLicense(UpdateProductLicenseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateProductLicense");

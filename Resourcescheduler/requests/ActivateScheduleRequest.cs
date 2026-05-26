@@ -14,13 +14,13 @@ using Oci.ResourceschedulerService.Models;
 namespace Oci.ResourceschedulerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcescheduler/ActivateSchedule.cs.html">here</a> to see an example of how to use ActivateSchedule request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcescheduler/ActivateSchedule.cs.html">here</a> to see an example of how to use ActivateSchedule request.
     /// </example>
     public class ActivateScheduleRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// This is the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the schedule.
+        /// This is the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the schedule.
         /// </value>
         /// <remarks>
         /// Required

@@ -22,7 +22,7 @@ namespace Oci.OsmanagementhubService.Models
     {
         
         /// <value>
-        /// List of managed instance [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) to affected by the rerun of the work request.
+        /// List of managed instance [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) to affected by the rerun of the work request.
         /// </value>
         [JsonProperty(PropertyName = "managedInstances")]
         public System.Collections.Generic.List<string> ManagedInstances { get; set; }

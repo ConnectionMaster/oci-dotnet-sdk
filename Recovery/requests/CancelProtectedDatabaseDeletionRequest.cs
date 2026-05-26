@@ -14,7 +14,7 @@ using Oci.RecoveryService.Models;
 namespace Oci.RecoveryService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/CancelProtectedDatabaseDeletion.cs.html">here</a> to see an example of how to use CancelProtectedDatabaseDeletion request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/CancelProtectedDatabaseDeletion.cs.html">here</a> to see an example of how to use CancelProtectedDatabaseDeletion request.
     /// </example>
     public class CancelProtectedDatabaseDeletionRequest : Oci.Common.IOciRequest
     {

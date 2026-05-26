@@ -63,7 +63,7 @@ namespace Oci.DnsService.Models
         /// 
         /// **Note:** To use the Health Check monitoring feature in a steering policy, a monitor
         /// must be created using the Health Checks service first. For more information on how to
-        /// create a monitor, please see [Managing Health Checks](https://docs.cloud.oracle.com/iaas/Content/HealthChecks/Tasks/managinghealthchecks.htm).
+        /// create a monitor, please see [Managing Health Checks](https://docs.oracle.com/iaas/Content/HealthChecks/Tasks/managinghealthchecks.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "healthCheckMonitorId")]
@@ -75,7 +75,7 @@ namespace Oci.DnsService.Models
         /// results when answering DNS queries.
         /// <br/>
         /// 
-        /// **Example: ** The FAILOVER template determines answers by filtering the policy's answersusing the FILTER rule first, then the following rules in succession: HEALTH, PRIORITY,and LIMIT. This gives the domain dynamic failover capability.It is **strongly recommended** to use a template other than CUSTOM when creatinga steering policy.All templates require the rule order to begin with an unconditional FILTER rule that keepsanswers contingent upon answer.isDisabled != true, except for CUSTOM. A definedHEALTH rule must follow the FILTER rule if the policy references a healthCheckMonitorId.The last rule of a template must must be a LIMIT rule. For more information about templatesand code examples, see [Traffic Management API Guide](https://docs.cloud.oracle.com/iaas/Content/TrafficManagement/Concepts/trafficmanagementapi.htm).**Template Types*** FAILOVER - Uses health check information on your endpoints to determine which DNS answersto serve. If an endpoint fails a health check, the answer for that endpoint will be removedfrom the list of available answers until the endpoint is detected as healthy.* LOAD_BALANCE - Distributes web traffic to specified endpoints based on defined weights.* ROUTE_BY_GEO - Answers DNS queries based on the query's geographic location. For a list of geographiclocations to route by, see [Traffic Management Geographic Locations](https://docs.cloud.oracle.com/iaas/Content/TrafficManagement/Reference/trafficmanagementgeo.htm).* ROUTE_BY_ASN - Answers DNS queries based on the query's originating ASN.* ROUTE_BY_IP - Answers DNS queries based on the query's IP address.* CUSTOM - Allows a customized configuration of rules.
+        /// **Example: ** The FAILOVER template determines answers by filtering the policy's answersusing the FILTER rule first, then the following rules in succession: HEALTH, PRIORITY,and LIMIT. This gives the domain dynamic failover capability.It is **strongly recommended** to use a template other than CUSTOM when creatinga steering policy.All templates require the rule order to begin with an unconditional FILTER rule that keepsanswers contingent upon answer.isDisabled != true, except for CUSTOM. A definedHEALTH rule must follow the FILTER rule if the policy references a healthCheckMonitorId.The last rule of a template must must be a LIMIT rule. For more information about templatesand code examples, see [Traffic Management API Guide](https://docs.oracle.com/iaas/Content/TrafficManagement/Concepts/trafficmanagementapi.htm).**Template Types*** FAILOVER - Uses health check information on your endpoints to determine which DNS answersto serve. If an endpoint fails a health check, the answer for that endpoint will be removedfrom the list of available answers until the endpoint is detected as healthy.* LOAD_BALANCE - Distributes web traffic to specified endpoints based on defined weights.* ROUTE_BY_GEO - Answers DNS queries based on the query's geographic location. For a list of geographiclocations to route by, see [Traffic Management Geographic Locations](https://docs.oracle.com/iaas/Content/TrafficManagement/Reference/trafficmanagementgeo.htm).* ROUTE_BY_ASN - Answers DNS queries based on the query's originating ASN.* ROUTE_BY_IP - Answers DNS queries based on the query's IP address.* CUSTOM - Allows a customized configuration of rules.
         /// </value>
         ///
         public enum TemplateEnum {
@@ -99,7 +99,7 @@ namespace Oci.DnsService.Models
         /// results when answering DNS queries.
         /// <br/>
         /// 
-        /// **Example: ** The FAILOVER template determines answers by filtering the policy's answersusing the FILTER rule first, then the following rules in succession: HEALTH, PRIORITY,and LIMIT. This gives the domain dynamic failover capability.It is **strongly recommended** to use a template other than CUSTOM when creatinga steering policy.All templates require the rule order to begin with an unconditional FILTER rule that keepsanswers contingent upon answer.isDisabled != true, except for CUSTOM. A definedHEALTH rule must follow the FILTER rule if the policy references a healthCheckMonitorId.The last rule of a template must must be a LIMIT rule. For more information about templatesand code examples, see [Traffic Management API Guide](https://docs.cloud.oracle.com/iaas/Content/TrafficManagement/Concepts/trafficmanagementapi.htm).**Template Types*** FAILOVER - Uses health check information on your endpoints to determine which DNS answersto serve. If an endpoint fails a health check, the answer for that endpoint will be removedfrom the list of available answers until the endpoint is detected as healthy.* LOAD_BALANCE - Distributes web traffic to specified endpoints based on defined weights.* ROUTE_BY_GEO - Answers DNS queries based on the query's geographic location. For a list of geographiclocations to route by, see [Traffic Management Geographic Locations](https://docs.cloud.oracle.com/iaas/Content/TrafficManagement/Reference/trafficmanagementgeo.htm).* ROUTE_BY_ASN - Answers DNS queries based on the query's originating ASN.* ROUTE_BY_IP - Answers DNS queries based on the query's IP address.* CUSTOM - Allows a customized configuration of rules.
+        /// **Example: ** The FAILOVER template determines answers by filtering the policy's answersusing the FILTER rule first, then the following rules in succession: HEALTH, PRIORITY,and LIMIT. This gives the domain dynamic failover capability.It is **strongly recommended** to use a template other than CUSTOM when creatinga steering policy.All templates require the rule order to begin with an unconditional FILTER rule that keepsanswers contingent upon answer.isDisabled != true, except for CUSTOM. A definedHEALTH rule must follow the FILTER rule if the policy references a healthCheckMonitorId.The last rule of a template must must be a LIMIT rule. For more information about templatesand code examples, see [Traffic Management API Guide](https://docs.oracle.com/iaas/Content/TrafficManagement/Concepts/trafficmanagementapi.htm).**Template Types*** FAILOVER - Uses health check information on your endpoints to determine which DNS answersto serve. If an endpoint fails a health check, the answer for that endpoint will be removedfrom the list of available answers until the endpoint is detected as healthy.* LOAD_BALANCE - Distributes web traffic to specified endpoints based on defined weights.* ROUTE_BY_GEO - Answers DNS queries based on the query's geographic location. For a list of geographiclocations to route by, see [Traffic Management Geographic Locations](https://docs.oracle.com/iaas/Content/TrafficManagement/Reference/trafficmanagementgeo.htm).* ROUTE_BY_ASN - Answers DNS queries based on the query's originating ASN.* ROUTE_BY_IP - Answers DNS queries based on the query's IP address.* CUSTOM - Allows a customized configuration of rules.
         /// </value>
         /// <remarks>
         /// Required
@@ -111,7 +111,7 @@ namespace Oci.DnsService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// 
         /// **Example: ** {&quot;Department&quot;: &quot;Finance&quot;}
@@ -121,7 +121,7 @@ namespace Oci.DnsService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// 
         /// **Example: ** {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}

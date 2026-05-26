@@ -14,13 +14,13 @@ using Oci.ResourcemanagerService.Models;
 namespace Oci.ResourcemanagerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/DeleteConfigurationSourceProvider.cs.html">here</a> to see an example of how to use DeleteConfigurationSourceProvider request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/DeleteConfigurationSourceProvider.cs.html">here</a> to see an example of how to use DeleteConfigurationSourceProvider request.
     /// </example>
     public class DeleteConfigurationSourceProviderRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the configuration source provider.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the configuration source provider.
         /// 
         /// </value>
         /// <remarks>

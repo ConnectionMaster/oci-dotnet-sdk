@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSecurityPolicyDeployment.cs.html">here</a> to see an example of how to use UpdateSecurityPolicyDeployment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSecurityPolicyDeployment.cs.html">here</a> to see an example of how to use UpdateSecurityPolicyDeployment request.
     /// </example>
     public class UpdateSecurityPolicyDeploymentRequest : Oci.Common.IOciRequest
     {

@@ -14,7 +14,7 @@ using Oci.IntegrationService.Models;
 namespace Oci.IntegrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/DisableProcessAutomation.cs.html">here</a> to see an example of how to use DisableProcessAutomation request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/DisableProcessAutomation.cs.html">here</a> to see an example of how to use DisableProcessAutomation request.
     /// </example>
     public class DisableProcessAutomationRequest : Oci.Common.IOciRequest
     {

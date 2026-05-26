@@ -14,7 +14,7 @@ using Oci.ResourceanalyticsService.Models;
 namespace Oci.ResourceanalyticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/CreateResourceAnalyticsInstance.cs.html">here</a> to see an example of how to use CreateResourceAnalyticsInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/CreateResourceAnalyticsInstance.cs.html">here</a> to see an example of how to use CreateResourceAnalyticsInstance request.
     /// </example>
     public class CreateResourceAnalyticsInstanceRequest : Oci.Common.IOciRequest
     {

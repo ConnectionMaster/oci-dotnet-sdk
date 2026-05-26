@@ -14,7 +14,7 @@ using Oci.WafService.Models;
 namespace Oci.WafService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/CreateWebAppFirewall.cs.html">here</a> to see an example of how to use CreateWebAppFirewall request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/CreateWebAppFirewall.cs.html">here</a> to see an example of how to use CreateWebAppFirewall request.
     /// </example>
     public class CreateWebAppFirewallRequest : Oci.Common.IOciRequest
     {

@@ -14,7 +14,7 @@ using Oci.LoganalyticsService.Models;
 namespace Oci.LoganalyticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/GetLogAnalyticsObjectCollectionRule.cs.html">here</a> to see an example of how to use GetLogAnalyticsObjectCollectionRule request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/GetLogAnalyticsObjectCollectionRule.cs.html">here</a> to see an example of how to use GetLogAnalyticsObjectCollectionRule request.
     /// </example>
     public class GetLogAnalyticsObjectCollectionRuleRequest : Oci.Common.IOciRequest
     {
@@ -31,7 +31,7 @@ namespace Oci.LoganalyticsService.Requests
         public string NamespaceName { get; set; }
         
         /// <value>
-        /// The Log Analytics Object Collection Rule [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// The Log Analytics Object Collection Rule [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

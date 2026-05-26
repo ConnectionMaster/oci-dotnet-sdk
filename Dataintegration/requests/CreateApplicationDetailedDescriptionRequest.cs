@@ -14,7 +14,7 @@ using Oci.DataintegrationService.Models;
 namespace Oci.DataintegrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dataintegration/CreateApplicationDetailedDescription.cs.html">here</a> to see an example of how to use CreateApplicationDetailedDescription request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dataintegration/CreateApplicationDetailedDescription.cs.html">here</a> to see an example of how to use CreateApplicationDetailedDescription request.
     /// </example>
     public class CreateApplicationDetailedDescriptionRequest : Oci.Common.IOciRequest
     {

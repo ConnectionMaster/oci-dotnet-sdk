@@ -19,7 +19,7 @@ namespace Oci.IdentityService.Models
     /// Information about the UIPassword, which is a text password that enables a user to sign in to the Console,
     /// the user interface for interacting with Oracle Cloud Infrastructure.
     /// <br/>
-    /// For more information about user credentials, see [User Credentials](https://docs.cloud.oracle.com/Content/Identity/Concepts/usercredentials.htm).
+    /// For more information about user credentials, see [User Credentials](https://docs.oracle.com/iaas/Content/Identity/Concepts/usercredentials.htm).
     /// 
     /// </summary>
     public class UIPasswordInformation 

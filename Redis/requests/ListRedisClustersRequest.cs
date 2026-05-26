@@ -14,7 +14,7 @@ using Oci.RedisService.Models;
 namespace Oci.RedisService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ListRedisClusters.cs.html">here</a> to see an example of how to use ListRedisClusters request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ListRedisClusters.cs.html">here</a> to see an example of how to use ListRedisClusters request.
     /// </example>
     public class ListRedisClustersRequest : Oci.Common.IOciRequest
     {
@@ -38,7 +38,7 @@ namespace Oci.RedisService.Requests
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the cluster.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "id")]
         public string Id { get; set; }

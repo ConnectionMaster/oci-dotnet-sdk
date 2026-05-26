@@ -14,7 +14,7 @@ using Oci.LimitsincreaseService.Models;
 namespace Oci.LimitsincreaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/CreateLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use CreateLimitsIncreaseRequest request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/CreateLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use CreateLimitsIncreaseRequest request.
     /// </example>
     public class CreateLimitsIncreaseRequestRequest : Oci.Common.IOciRequest
     {

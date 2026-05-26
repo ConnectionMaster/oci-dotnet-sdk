@@ -14,13 +14,13 @@ using Oci.DemandsignalService.Models;
 namespace Oci.DemandsignalService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/DeleteOccDemandSignal.cs.html">here</a> to see an example of how to use DeleteOccDemandSignal request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/DeleteOccDemandSignal.cs.html">here</a> to see an example of how to use DeleteOccDemandSignal request.
     /// </example>
     public class DeleteOccDemandSignalRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the OccDemandSignal.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the OccDemandSignal.
         /// </value>
         /// <remarks>
         /// Required

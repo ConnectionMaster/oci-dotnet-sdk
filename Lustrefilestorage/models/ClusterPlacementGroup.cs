@@ -22,7 +22,7 @@ namespace Oci.LustrefilestorageService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Lustre file system.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Lustre file system.
         /// </value>
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }

@@ -80,7 +80,7 @@ namespace Oci.ThreatintelligenceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/threatintelligence/GetIndicator.cs.html">here</a> to see an example of how to use GetIndicator API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/threatintelligence/GetIndicator.cs.html">here</a> to see an example of how to use GetIndicator API.</example>
         public async Task<GetIndicatorResponse> GetIndicator(GetIndicatorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIndicator");
@@ -136,7 +136,7 @@ namespace Oci.ThreatintelligenceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/threatintelligence/ListIndicatorCounts.cs.html">here</a> to see an example of how to use ListIndicatorCounts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/threatintelligence/ListIndicatorCounts.cs.html">here</a> to see an example of how to use ListIndicatorCounts API.</example>
         public async Task<ListIndicatorCountsResponse> ListIndicatorCounts(ListIndicatorCountsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIndicatorCounts");
@@ -193,7 +193,7 @@ namespace Oci.ThreatintelligenceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/threatintelligence/ListIndicators.cs.html">here</a> to see an example of how to use ListIndicators API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/threatintelligence/ListIndicators.cs.html">here</a> to see an example of how to use ListIndicators API.</example>
         public async Task<ListIndicatorsResponse> ListIndicators(ListIndicatorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIndicators");
@@ -251,7 +251,7 @@ namespace Oci.ThreatintelligenceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/threatintelligence/ListThreatTypes.cs.html">here</a> to see an example of how to use ListThreatTypes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/threatintelligence/ListThreatTypes.cs.html">here</a> to see an example of how to use ListThreatTypes API.</example>
         public async Task<ListThreatTypesResponse> ListThreatTypes(ListThreatTypesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listThreatTypes");
@@ -307,7 +307,7 @@ namespace Oci.ThreatintelligenceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/threatintelligence/SummarizeIndicators.cs.html">here</a> to see an example of how to use SummarizeIndicators API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/threatintelligence/SummarizeIndicators.cs.html">here</a> to see an example of how to use SummarizeIndicators API.</example>
         public async Task<SummarizeIndicatorsResponse> SummarizeIndicators(SummarizeIndicatorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeIndicators");

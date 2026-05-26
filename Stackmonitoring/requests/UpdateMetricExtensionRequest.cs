@@ -14,13 +14,13 @@ using Oci.StackmonitoringService.Models;
 namespace Oci.StackmonitoringService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateMetricExtension.cs.html">here</a> to see an example of how to use UpdateMetricExtension request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateMetricExtension.cs.html">here</a> to see an example of how to use UpdateMetricExtension request.
     /// </example>
     public class UpdateMetricExtensionRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the metric extension resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the metric extension resource.
         /// </value>
         /// <remarks>
         /// Required

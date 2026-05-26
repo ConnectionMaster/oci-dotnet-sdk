@@ -14,7 +14,7 @@ using Oci.DisasterrecoveryService.Models;
 namespace Oci.DisasterrecoveryService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ListDrPlanExecutions.cs.html">here</a> to see an example of how to use ListDrPlanExecutions request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ListDrPlanExecutions.cs.html">here</a> to see an example of how to use ListDrPlanExecutions request.
     /// </example>
     public class ListDrPlanExecutionsRequest : Oci.Common.IOciRequest
     {
@@ -60,7 +60,7 @@ namespace Oci.DisasterrecoveryService.Requests
         /// 1 is the minimum, 1000 is the maximum.
         /// <br/>
         /// For important details about how pagination works,
-        /// see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// <br/>
         /// Example: 100
         /// </value>
@@ -72,7 +72,7 @@ namespace Oci.DisasterrecoveryService.Requests
         /// header from the previous \"List\" call.
         /// <br/>
         /// For important details about how pagination works,
-        /// see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]

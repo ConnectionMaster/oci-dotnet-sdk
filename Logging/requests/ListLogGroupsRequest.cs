@@ -14,7 +14,7 @@ using Oci.LoggingService.Models;
 namespace Oci.LoggingService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListLogGroups.cs.html">here</a> to see an example of how to use ListLogGroups request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListLogGroups.cs.html">here</a> to see an example of how to use ListLogGroups request.
     /// </example>
     public class ListLogGroupsRequest : Oci.Common.IOciRequest
     {
@@ -45,7 +45,7 @@ namespace Oci.LoggingService.Requests
         
         /// <value>
         /// For list pagination. The value of the `opc-next-page` or `opc-previous-page` response header from the previous \"List\" call.
-        /// For important details about how pagination works, see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// For important details about how pagination works, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]

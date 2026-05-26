@@ -81,7 +81,7 @@ namespace Oci.MarketplaceprivateofferService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplaceprivateoffer/CreateOffer.cs.html">here</a> to see an example of how to use CreateOffer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplaceprivateoffer/CreateOffer.cs.html">here</a> to see an example of how to use CreateOffer API.</example>
         public async Task<CreateOfferResponse> CreateOffer(CreateOfferRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOffer");
@@ -137,7 +137,7 @@ namespace Oci.MarketplaceprivateofferService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplaceprivateoffer/DeleteOffer.cs.html">here</a> to see an example of how to use DeleteOffer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplaceprivateoffer/DeleteOffer.cs.html">here</a> to see an example of how to use DeleteOffer API.</example>
         public async Task<DeleteOfferResponse> DeleteOffer(DeleteOfferRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOffer");
@@ -193,7 +193,7 @@ namespace Oci.MarketplaceprivateofferService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplaceprivateoffer/GetOffer.cs.html">here</a> to see an example of how to use GetOffer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplaceprivateoffer/GetOffer.cs.html">here</a> to see an example of how to use GetOffer API.</example>
         public async Task<GetOfferResponse> GetOffer(GetOfferRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOffer");
@@ -249,7 +249,7 @@ namespace Oci.MarketplaceprivateofferService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplaceprivateoffer/GetOfferInternalDetail.cs.html">here</a> to see an example of how to use GetOfferInternalDetail API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplaceprivateoffer/GetOfferInternalDetail.cs.html">here</a> to see an example of how to use GetOfferInternalDetail API.</example>
         public async Task<GetOfferInternalDetailResponse> GetOfferInternalDetail(GetOfferInternalDetailRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOfferInternalDetail");
@@ -306,7 +306,7 @@ namespace Oci.MarketplaceprivateofferService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplaceprivateoffer/ListOffers.cs.html">here</a> to see an example of how to use ListOffers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplaceprivateoffer/ListOffers.cs.html">here</a> to see an example of how to use ListOffers API.</example>
         public async Task<ListOffersResponse> ListOffers(ListOffersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOffers");
@@ -362,7 +362,7 @@ namespace Oci.MarketplaceprivateofferService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplaceprivateoffer/UpdateOffer.cs.html">here</a> to see an example of how to use UpdateOffer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplaceprivateoffer/UpdateOffer.cs.html">here</a> to see an example of how to use UpdateOffer API.</example>
         public async Task<UpdateOfferResponse> UpdateOffer(UpdateOfferRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOffer");

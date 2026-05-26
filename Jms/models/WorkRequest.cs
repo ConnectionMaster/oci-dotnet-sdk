@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.JmsService.Models
 {
     /// <summary>
-    /// An asynchronous work request. See [Work Requests](https://docs.cloud.oracle.com/Content/General/Concepts/workrequestoverview.htm).
+    /// An asynchronous work request. See [Work Requests](https://docs.oracle.com/iaas/Content/General/Concepts/workrequestoverview.htm).
     /// </summary>
     public class WorkRequest 
     {
@@ -44,7 +44,7 @@ namespace Oci.JmsService.Models
         public System.Nullable<OperationStatus> Status { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the work request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the work request.
         /// </value>
         /// <remarks>
         /// Required
@@ -54,7 +54,7 @@ namespace Oci.JmsService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment that contains the work request. Work requests should be scoped to
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the work request. Work requests should be scoped to
         /// the same compartment as the resource the work request affects. If the work request affects multiple resources,
         /// and those resources aren't in the same compartment, it's up to the service team to pick the primary
         /// resource whose compartment should be used.

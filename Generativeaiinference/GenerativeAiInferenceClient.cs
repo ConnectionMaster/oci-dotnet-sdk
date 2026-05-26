@@ -79,7 +79,7 @@ namespace Oci.GenerativeaiinferenceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/ApplyGuardrails.cs.html">here</a> to see an example of how to use ApplyGuardrails API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/ApplyGuardrails.cs.html">here</a> to see an example of how to use ApplyGuardrails API.</example>
         public async Task<ApplyGuardrailsResponse> ApplyGuardrails(ApplyGuardrailsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called applyGuardrails");
@@ -137,7 +137,7 @@ namespace Oci.GenerativeaiinferenceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/Chat.cs.html">here</a> to see an example of how to use Chat API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/Chat.cs.html">here</a> to see an example of how to use Chat API.</example>
         public async Task<ChatResponse> Chat(ChatRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called chat");
@@ -197,7 +197,7 @@ namespace Oci.GenerativeaiinferenceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/EmbedText.cs.html">here</a> to see an example of how to use EmbedText API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/EmbedText.cs.html">here</a> to see an example of how to use EmbedText API.</example>
         public async Task<EmbedTextResponse> EmbedText(EmbedTextRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called embedText");
@@ -255,7 +255,7 @@ namespace Oci.GenerativeaiinferenceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/GenerateText.cs.html">here</a> to see an example of how to use GenerateText API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/GenerateText.cs.html">here</a> to see an example of how to use GenerateText API.</example>
         public async Task<GenerateTextResponse> GenerateText(GenerateTextRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateText");
@@ -313,7 +313,7 @@ namespace Oci.GenerativeaiinferenceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/ListGuardrailVersions.cs.html">here</a> to see an example of how to use ListGuardrailVersions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/ListGuardrailVersions.cs.html">here</a> to see an example of how to use ListGuardrailVersions API.</example>
         public async Task<ListGuardrailVersionsResponse> ListGuardrailVersions(ListGuardrailVersionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listGuardrailVersions");
@@ -373,7 +373,7 @@ namespace Oci.GenerativeaiinferenceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/RerankText.cs.html">here</a> to see an example of how to use RerankText API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/RerankText.cs.html">here</a> to see an example of how to use RerankText API.</example>
         public async Task<RerankTextResponse> RerankText(RerankTextRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called rerankText");
@@ -431,7 +431,7 @@ namespace Oci.GenerativeaiinferenceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/SummarizeText.cs.html">here</a> to see an example of how to use SummarizeText API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/SummarizeText.cs.html">here</a> to see an example of how to use SummarizeText API.</example>
         public async Task<SummarizeTextResponse> SummarizeText(SummarizeTextRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeText");

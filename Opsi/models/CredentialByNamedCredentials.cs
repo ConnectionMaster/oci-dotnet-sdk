@@ -23,7 +23,7 @@ namespace Oci.OpsiService.Models
     {
         
         /// <value>
-        /// The credential [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) stored in management agent.
+        /// The credential [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) stored in management agent.
         /// </value>
         [JsonProperty(PropertyName = "namedCredentialId")]
         public string NamedCredentialId { get; set; }

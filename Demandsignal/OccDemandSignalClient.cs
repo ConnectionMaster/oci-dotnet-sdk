@@ -75,7 +75,7 @@ namespace Oci.DemandsignalService
 
         /// <summary>
         /// Moves a OccDemandSignal into a different compartment within the same tenancy. For information about moving resources between
-        /// compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -83,7 +83,7 @@ namespace Oci.DemandsignalService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/ChangeOccDemandSignalCompartment.cs.html">here</a> to see an example of how to use ChangeOccDemandSignalCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/ChangeOccDemandSignalCompartment.cs.html">here</a> to see an example of how to use ChangeOccDemandSignalCompartment API.</example>
         public async Task<ChangeOccDemandSignalCompartmentResponse> ChangeOccDemandSignalCompartment(ChangeOccDemandSignalCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeOccDemandSignalCompartment");
@@ -140,7 +140,7 @@ namespace Oci.DemandsignalService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/CreateOccDemandSignal.cs.html">here</a> to see an example of how to use CreateOccDemandSignal API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/CreateOccDemandSignal.cs.html">here</a> to see an example of how to use CreateOccDemandSignal API.</example>
         public async Task<CreateOccDemandSignalResponse> CreateOccDemandSignal(CreateOccDemandSignalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOccDemandSignal");
@@ -196,7 +196,7 @@ namespace Oci.DemandsignalService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/DeleteOccDemandSignal.cs.html">here</a> to see an example of how to use DeleteOccDemandSignal API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/DeleteOccDemandSignal.cs.html">here</a> to see an example of how to use DeleteOccDemandSignal API.</example>
         public async Task<DeleteOccDemandSignalResponse> DeleteOccDemandSignal(DeleteOccDemandSignalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOccDemandSignal");
@@ -252,7 +252,7 @@ namespace Oci.DemandsignalService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/GetOccDemandSignal.cs.html">here</a> to see an example of how to use GetOccDemandSignal API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/GetOccDemandSignal.cs.html">here</a> to see an example of how to use GetOccDemandSignal API.</example>
         public async Task<GetOccDemandSignalResponse> GetOccDemandSignal(GetOccDemandSignalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOccDemandSignal");
@@ -309,7 +309,7 @@ namespace Oci.DemandsignalService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/ListOccDemandSignals.cs.html">here</a> to see an example of how to use ListOccDemandSignals API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/ListOccDemandSignals.cs.html">here</a> to see an example of how to use ListOccDemandSignals API.</example>
         public async Task<ListOccDemandSignalsResponse> ListOccDemandSignals(ListOccDemandSignalsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOccDemandSignals");
@@ -365,7 +365,7 @@ namespace Oci.DemandsignalService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/PatchOccDemandSignal.cs.html">here</a> to see an example of how to use PatchOccDemandSignal API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/PatchOccDemandSignal.cs.html">here</a> to see an example of how to use PatchOccDemandSignal API.</example>
         public async Task<PatchOccDemandSignalResponse> PatchOccDemandSignal(PatchOccDemandSignalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchOccDemandSignal");
@@ -421,7 +421,7 @@ namespace Oci.DemandsignalService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/UpdateOccDemandSignal.cs.html">here</a> to see an example of how to use UpdateOccDemandSignal API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/UpdateOccDemandSignal.cs.html">here</a> to see an example of how to use UpdateOccDemandSignal API.</example>
         public async Task<UpdateOccDemandSignalResponse> UpdateOccDemandSignal(UpdateOccDemandSignalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOccDemandSignal");

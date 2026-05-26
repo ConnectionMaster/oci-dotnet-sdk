@@ -22,7 +22,7 @@ namespace Oci.DbmulticloudService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Oracle DB AWS Connector resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Oracle DB AWS Connector resource.
         /// </value>
         [JsonProperty(PropertyName = "oracleDbAwsConnectorId")]
         public string OracleDbAwsConnectorId { get; set; }

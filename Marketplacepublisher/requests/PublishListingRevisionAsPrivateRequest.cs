@@ -14,7 +14,7 @@ using Oci.MarketplacepublisherService.Models;
 namespace Oci.MarketplacepublisherService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplacepublisher/PublishListingRevisionAsPrivate.cs.html">here</a> to see an example of how to use PublishListingRevisionAsPrivate request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplacepublisher/PublishListingRevisionAsPrivate.cs.html">here</a> to see an example of how to use PublishListingRevisionAsPrivate request.
     /// </example>
     public class PublishListingRevisionAsPrivateRequest : Oci.Common.IOciRequest
     {

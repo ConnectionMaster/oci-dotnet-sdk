@@ -36,7 +36,7 @@ namespace Oci.LoganalyticsService.Models
 
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the data plane resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the data plane resource.
         /// 
         /// </value>
         /// <remarks>
@@ -148,7 +148,7 @@ namespace Oci.LoganalyticsService.Models
         public System.Nullable<PauseReasonEnum> PauseReason { get; set; }
         
         /// <value>
-        /// most recent Work Request Identifier [OCID] (https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the asynchronous request.
+        /// most recent Work Request Identifier [OCID] (https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the asynchronous request.
         /// </value>
         [JsonProperty(PropertyName = "workRequestId")]
         public string WorkRequestId { get; set; }
@@ -160,7 +160,7 @@ namespace Oci.LoganalyticsService.Models
         public System.Nullable<long> NumOccurrences { get; set; }
         
         /// <value>
-        /// Compartment Identifier [OCID] (https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Compartment Identifier [OCID] (https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

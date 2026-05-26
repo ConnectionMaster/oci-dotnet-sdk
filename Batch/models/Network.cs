@@ -22,7 +22,7 @@ namespace Oci.BatchService.Models
     {
         
         /// <value>
-        /// [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of associated subnet.
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of associated subnet.
         /// 
         /// </value>
         /// <remarks>
@@ -33,7 +33,7 @@ namespace Oci.BatchService.Models
         public string SubnetId { get; set; }
         
         /// <value>
-        /// A list of [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of associated network security groups.
+        /// A list of [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of associated network security groups.
         /// 
         /// </value>
         /// <remarks>

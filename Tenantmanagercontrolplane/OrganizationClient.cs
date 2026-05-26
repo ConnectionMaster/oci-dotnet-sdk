@@ -80,7 +80,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/ApproveOrganizationTenancyForTransfer.cs.html">here</a> to see an example of how to use ApproveOrganizationTenancyForTransfer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/ApproveOrganizationTenancyForTransfer.cs.html">here</a> to see an example of how to use ApproveOrganizationTenancyForTransfer API.</example>
         public async Task<ApproveOrganizationTenancyForTransferResponse> ApproveOrganizationTenancyForTransfer(ApproveOrganizationTenancyForTransferRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called approveOrganizationTenancyForTransfer");
@@ -136,7 +136,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/CreateChildTenancy.cs.html">here</a> to see an example of how to use CreateChildTenancy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/CreateChildTenancy.cs.html">here</a> to see an example of how to use CreateChildTenancy API.</example>
         public async Task<CreateChildTenancyResponse> CreateChildTenancy(CreateChildTenancyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createChildTenancy");
@@ -192,7 +192,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/DeleteOrganizationTenancy.cs.html">here</a> to see an example of how to use DeleteOrganizationTenancy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/DeleteOrganizationTenancy.cs.html">here</a> to see an example of how to use DeleteOrganizationTenancy API.</example>
         public async Task<DeleteOrganizationTenancyResponse> DeleteOrganizationTenancy(DeleteOrganizationTenancyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOrganizationTenancy");
@@ -248,7 +248,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/GetOrganization.cs.html">here</a> to see an example of how to use GetOrganization API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/GetOrganization.cs.html">here</a> to see an example of how to use GetOrganization API.</example>
         public async Task<GetOrganizationResponse> GetOrganization(GetOrganizationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOrganization");
@@ -304,7 +304,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/GetOrganizationTenancy.cs.html">here</a> to see an example of how to use GetOrganizationTenancy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/GetOrganizationTenancy.cs.html">here</a> to see an example of how to use GetOrganizationTenancy API.</example>
         public async Task<GetOrganizationTenancyResponse> GetOrganizationTenancy(GetOrganizationTenancyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOrganizationTenancy");
@@ -360,7 +360,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/ListOrganizationTenancies.cs.html">here</a> to see an example of how to use ListOrganizationTenancies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/ListOrganizationTenancies.cs.html">here</a> to see an example of how to use ListOrganizationTenancies API.</example>
         public async Task<ListOrganizationTenanciesResponse> ListOrganizationTenancies(ListOrganizationTenanciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOrganizationTenancies");
@@ -416,7 +416,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/ListOrganizations.cs.html">here</a> to see an example of how to use ListOrganizations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/ListOrganizations.cs.html">here</a> to see an example of how to use ListOrganizations API.</example>
         public async Task<ListOrganizationsResponse> ListOrganizations(ListOrganizationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOrganizations");
@@ -472,7 +472,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/RestoreOrganizationTenancy.cs.html">here</a> to see an example of how to use RestoreOrganizationTenancy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/RestoreOrganizationTenancy.cs.html">here</a> to see an example of how to use RestoreOrganizationTenancy API.</example>
         public async Task<RestoreOrganizationTenancyResponse> RestoreOrganizationTenancy(RestoreOrganizationTenancyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called restoreOrganizationTenancy");
@@ -528,7 +528,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/UnapproveOrganizationTenancyForTransfer.cs.html">here</a> to see an example of how to use UnapproveOrganizationTenancyForTransfer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/UnapproveOrganizationTenancyForTransfer.cs.html">here</a> to see an example of how to use UnapproveOrganizationTenancyForTransfer API.</example>
         public async Task<UnapproveOrganizationTenancyForTransferResponse> UnapproveOrganizationTenancyForTransfer(UnapproveOrganizationTenancyForTransferRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called unapproveOrganizationTenancyForTransfer");
@@ -584,7 +584,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/UpdateOrganization.cs.html">here</a> to see an example of how to use UpdateOrganization API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/UpdateOrganization.cs.html">here</a> to see an example of how to use UpdateOrganization API.</example>
         public async Task<UpdateOrganizationResponse> UpdateOrganization(UpdateOrganizationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOrganization");

@@ -46,7 +46,7 @@ namespace Oci.ApmsyntheticsService.Models
         public System.Collections.Generic.List<MonitorResultData> ResultDataSet { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the monitor.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the monitor.
         /// </value>
         [JsonProperty(PropertyName = "monitorId")]
         public string MonitorId { get; set; }

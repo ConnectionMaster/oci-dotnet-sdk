@@ -15,7 +15,7 @@ namespace Oci.ObjectstorageService.Transfer
 
         /// <summary>
         /// Max length supported in Object Storage's object.
-        /// https://docs.cloud.oracle.com/iaas/Content/Object/Tasks/usingmultipartuploads.htm
+        /// https://docs.oracle.com/iaas/Content/Object/Tasks/usingmultipartuploads.htm
         /// </summary>
         public static readonly long MAX_SUPPORTED_CONTENT_LENGTH = 10 * MiB * MiB; // 10 TiB
 
@@ -44,7 +44,7 @@ namespace Oci.ObjectstorageService.Transfer
 
         /// <summary>
         /// Validates the current PartNumber based on the conditions mentioned here:
-        /// https://docs.cloud.oracle.com/en-us/iaas/Content/Object/Tasks/usingmultipartuploads.htm
+        /// https://docs.oracle.com/en-us/iaas/Content/Object/Tasks/usingmultipartuploads.htm
         /// </summary>
         /// <param name="partNum"></param>
         public static void ValidatePartNumber(int partNum)

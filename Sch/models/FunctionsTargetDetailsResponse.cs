@@ -18,14 +18,14 @@ namespace Oci.SchService.Models
     /// <summary>
     /// The destination function for data transferred from the source.
     /// For configuration instructions, see
-    /// [Creating a Connector](https://docs.cloud.oracle.com/iaas/Content/connector-hub/create-service-connector.htm).
+    /// [Creating a Connector](https://docs.oracle.com/iaas/Content/connector-hub/create-service-connector.htm).
     /// 
     /// </summary>
     public class FunctionsTargetDetailsResponse : TargetDetailsResponse
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the function.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the function.
         /// 
         /// </value>
         /// <remarks>

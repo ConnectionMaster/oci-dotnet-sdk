@@ -17,14 +17,14 @@ namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
     /// The details for creating a cloud connector that is used to connect to a cloud DB system component
-    /// using the [Management Agent Cloud Service (MACS)](https://docs.cloud.oracle.com/iaas/management-agents/index.html).
+    /// using the [Management Agent Cloud Service (MACS)](https://docs.oracle.com/iaas/management-agents/index.html).
     /// 
     /// </summary>
     public class CreateCloudDbSystemMacsConnectorDetails : CreateCloudDbSystemConnectorDetails
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the management agent
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the management agent
         /// used for the cloud DB system connector.
         /// 
         /// </value>
@@ -40,7 +40,7 @@ namespace Oci.DatabasemanagementService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
         [JsonProperty(PropertyName = "freeformTags")]
@@ -48,7 +48,7 @@ namespace Oci.DatabasemanagementService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]

@@ -14,7 +14,7 @@ using Oci.ApigatewayService.Models;
 namespace Oci.ApigatewayService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/CreateUsagePlan.cs.html">here</a> to see an example of how to use CreateUsagePlan request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/CreateUsagePlan.cs.html">here</a> to see an example of how to use CreateUsagePlan request.
     /// </example>
     public class CreateUsagePlanRequest : Oci.Common.IOciRequest
     {

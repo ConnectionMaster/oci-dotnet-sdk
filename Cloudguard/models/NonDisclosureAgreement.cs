@@ -22,7 +22,7 @@ namespace Oci.CloudguardService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the non-disclosure agreement, which is assigned 
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the non-disclosure agreement, which is assigned 
         /// when you create the non-disclosure agreement as an Oracle Cloud Infrastructure resource and is immutable.
         /// 
         /// </value>
@@ -51,7 +51,7 @@ namespace Oci.CloudguardService.Models
         public string DocumentId { get; set; }
         
         /// <value>
-        /// The OCID of the principal that called [CreateNonDisclosureAgreement](https://docs.cloud.oracle.com/api/#/en/compliancedocs/release/NonDisclosureAgreement/CreateNonDisclosureAgreement).
+        /// The OCID of the principal that called [CreateNonDisclosureAgreement](https://docs.oracle.com/iaas/api/#/en/compliancedocs/release/NonDisclosureAgreement/CreateNonDisclosureAgreement).
         /// </value>
         /// <remarks>
         /// Required

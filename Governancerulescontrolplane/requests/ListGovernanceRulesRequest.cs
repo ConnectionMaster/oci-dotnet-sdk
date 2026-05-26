@@ -14,7 +14,7 @@ using Oci.GovernancerulescontrolplaneService.Models;
 namespace Oci.GovernancerulescontrolplaneService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/ListGovernanceRules.cs.html">here</a> to see an example of how to use ListGovernanceRules request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/ListGovernanceRules.cs.html">here</a> to see an example of how to use ListGovernanceRules request.
     /// </example>
     public class ListGovernanceRulesRequest : Oci.Common.IOciRequest
     {

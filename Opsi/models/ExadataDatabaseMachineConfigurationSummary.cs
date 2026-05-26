@@ -82,7 +82,7 @@ namespace Oci.OpsiService.Models
         public string EnterpriseManagerEntityType { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database.
         /// </value>
         [JsonProperty(PropertyName = "parentId")]
         public string ParentId { get; set; }

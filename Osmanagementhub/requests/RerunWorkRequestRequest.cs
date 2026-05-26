@@ -14,13 +14,13 @@ using Oci.OsmanagementhubService.Models;
 namespace Oci.OsmanagementhubService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RerunWorkRequest.cs.html">here</a> to see an example of how to use RerunWorkRequest request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RerunWorkRequest.cs.html">here</a> to see an example of how to use RerunWorkRequest request.
     /// </example>
     public class RerunWorkRequestRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the work request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the work request.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.OsmanagementhubService.Requests
         public string WorkRequestId { get; set; }
         
         /// <value>
-        /// The resource [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) to rerun the work requests for. If no OCIDs are provided, rerun will apply to all failed work requests associated with the specified work request id.
+        /// The resource [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) to rerun the work requests for. If no OCIDs are provided, rerun will apply to all failed work requests associated with the specified work request id.
         /// </value>
         /// <remarks>
         /// Required

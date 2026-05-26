@@ -14,7 +14,7 @@ using Oci.UsageapiService.Models;
 namespace Oci.UsageapiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/GetCustomTable.cs.html">here</a> to see an example of how to use GetCustomTable request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/GetCustomTable.cs.html">here</a> to see an example of how to use GetCustomTable request.
     /// </example>
     public class GetCustomTableRequest : Oci.Common.IOciRequest
     {

@@ -25,7 +25,7 @@ namespace Oci.IdentityService.Models
     /// <br/>
     /// **Note:** The token is always an Oracle-generated string; you can't change it to a string of your choice.
     /// <br/>
-    /// For more information, see [Managing User Credentials](https://docs.cloud.oracle.com/Content/Identity/access/managing-user-credentials.htm).
+    /// For more information, see [Managing User Credentials](https://docs.oracle.com/iaas/Content/Identity/access/managing-user-credentials.htm).
     /// 
     /// </summary>
     public class AuthToken 

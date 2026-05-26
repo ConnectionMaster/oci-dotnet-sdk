@@ -23,7 +23,7 @@ namespace Oci.OnsService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to move the specified topic
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to move the specified topic
         /// or subscription to.
         /// 
         /// </value>

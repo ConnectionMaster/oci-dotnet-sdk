@@ -23,7 +23,7 @@ namespace Oci.AnnouncementsService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the announcement subscription.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the announcement subscription.
         /// </value>
         /// <remarks>
         /// Required

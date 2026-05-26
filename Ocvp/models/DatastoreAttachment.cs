@@ -33,7 +33,7 @@ namespace Oci.OcvpService.Models
         public string VolumeIqn { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Block Volume that belongs to the datastore.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Block Volume that belongs to the datastore.
         /// </value>
         /// <remarks>
         /// Required
@@ -43,7 +43,7 @@ namespace Oci.OcvpService.Models
         public string BlockVolumeId { get; set; }
         
         /// <value>
-        /// The [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Datastore that ESXi host is attached to.
+        /// The [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Datastore that ESXi host is attached to.
         /// 
         /// </value>
         /// <remarks>

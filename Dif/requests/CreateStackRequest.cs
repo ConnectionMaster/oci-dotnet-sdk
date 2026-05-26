@@ -14,7 +14,7 @@ using Oci.DifService.Models;
 namespace Oci.DifService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dif/CreateStack.cs.html">here</a> to see an example of how to use CreateStack request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dif/CreateStack.cs.html">here</a> to see an example of how to use CreateStack request.
     /// </example>
     public class CreateStackRequest : Oci.Common.IOciRequest
     {

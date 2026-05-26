@@ -48,7 +48,7 @@ namespace Oci.FilestorageService.Models
     /// reference the same file system.
     /// <br/>
     /// Use `exportOptions` to control access to an export. For more information, see
-    /// [Export Options](https://docs.cloud.oracle.com/Content/File/Tasks/exportoptions.htm).
+    /// [Export Options](https://docs.oracle.com/iaas/Content/File/Tasks/exportoptions.htm).
     /// 
     /// </summary>
     public class Export 
@@ -90,7 +90,7 @@ namespace Oci.FilestorageService.Models
         public System.Collections.Generic.List<ClientOptions> ExportOptions { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of this export's export set.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of this export's export set.
         /// </value>
         /// <remarks>
         /// Required
@@ -100,7 +100,7 @@ namespace Oci.FilestorageService.Models
         public string ExportSetId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of this export's file system.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of this export's file system.
         /// </value>
         /// <remarks>
         /// Required
@@ -110,7 +110,7 @@ namespace Oci.FilestorageService.Models
         public string FileSystemId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of this export.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of this export.
         /// </value>
         /// <remarks>
         /// Required

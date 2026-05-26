@@ -14,7 +14,7 @@ using Oci.GenerativeaiService.Models;
 namespace Oci.GenerativeaiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteGenerativeAiPrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteGenerativeAiPrivateEndpoint request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteGenerativeAiPrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteGenerativeAiPrivateEndpoint request.
     /// </example>
     public class DeleteGenerativeAiPrivateEndpointRequest : Oci.Common.IOciRequest
     {

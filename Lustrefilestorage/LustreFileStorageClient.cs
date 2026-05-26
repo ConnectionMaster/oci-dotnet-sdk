@@ -80,7 +80,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
         public async Task<CancelWorkRequestResponse> CancelWorkRequest(CancelWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelWorkRequest");
@@ -130,7 +130,7 @@ namespace Oci.LustrefilestorageService
 
         /// <summary>
         /// Moves a Lustre file system into a different compartment within the same tenancy. For information about moving resources between
-        /// compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -138,7 +138,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ChangeLustreFileSystemCompartment.cs.html">here</a> to see an example of how to use ChangeLustreFileSystemCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ChangeLustreFileSystemCompartment.cs.html">here</a> to see an example of how to use ChangeLustreFileSystemCompartment API.</example>
         public async Task<ChangeLustreFileSystemCompartmentResponse> ChangeLustreFileSystemCompartment(ChangeLustreFileSystemCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeLustreFileSystemCompartment");
@@ -188,7 +188,7 @@ namespace Oci.LustrefilestorageService
 
         /// <summary>
         /// Moves an Object Storage link into a different compartment within the same tenancy. For information about moving resources between
-        /// compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -196,7 +196,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ChangeObjectStorageLinkCompartment.cs.html">here</a> to see an example of how to use ChangeObjectStorageLinkCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ChangeObjectStorageLinkCompartment.cs.html">here</a> to see an example of how to use ChangeObjectStorageLinkCompartment API.</example>
         public async Task<ChangeObjectStorageLinkCompartmentResponse> ChangeObjectStorageLinkCompartment(ChangeObjectStorageLinkCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeObjectStorageLinkCompartment");
@@ -253,7 +253,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/CreateLustreFileSystem.cs.html">here</a> to see an example of how to use CreateLustreFileSystem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/CreateLustreFileSystem.cs.html">here</a> to see an example of how to use CreateLustreFileSystem API.</example>
         public async Task<CreateLustreFileSystemResponse> CreateLustreFileSystem(CreateLustreFileSystemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createLustreFileSystem");
@@ -310,7 +310,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/CreateObjectStorageLink.cs.html">here</a> to see an example of how to use CreateObjectStorageLink API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/CreateObjectStorageLink.cs.html">here</a> to see an example of how to use CreateObjectStorageLink API.</example>
         public async Task<CreateObjectStorageLinkResponse> CreateObjectStorageLink(CreateObjectStorageLinkRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createObjectStorageLink");
@@ -366,7 +366,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/DeleteLustreFileSystem.cs.html">here</a> to see an example of how to use DeleteLustreFileSystem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/DeleteLustreFileSystem.cs.html">here</a> to see an example of how to use DeleteLustreFileSystem API.</example>
         public async Task<DeleteLustreFileSystemResponse> DeleteLustreFileSystem(DeleteLustreFileSystemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteLustreFileSystem");
@@ -422,7 +422,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/DeleteObjectStorageLink.cs.html">here</a> to see an example of how to use DeleteObjectStorageLink API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/DeleteObjectStorageLink.cs.html">here</a> to see an example of how to use DeleteObjectStorageLink API.</example>
         public async Task<DeleteObjectStorageLinkResponse> DeleteObjectStorageLink(DeleteObjectStorageLinkRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteObjectStorageLink");
@@ -478,7 +478,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/GetLustreFileSystem.cs.html">here</a> to see an example of how to use GetLustreFileSystem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/GetLustreFileSystem.cs.html">here</a> to see an example of how to use GetLustreFileSystem API.</example>
         public async Task<GetLustreFileSystemResponse> GetLustreFileSystem(GetLustreFileSystemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getLustreFileSystem");
@@ -534,7 +534,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/GetObjectStorageLink.cs.html">here</a> to see an example of how to use GetObjectStorageLink API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/GetObjectStorageLink.cs.html">here</a> to see an example of how to use GetObjectStorageLink API.</example>
         public async Task<GetObjectStorageLinkResponse> GetObjectStorageLink(GetObjectStorageLinkRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getObjectStorageLink");
@@ -591,7 +591,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/GetSyncJob.cs.html">here</a> to see an example of how to use GetSyncJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/GetSyncJob.cs.html">here</a> to see an example of how to use GetSyncJob API.</example>
         public async Task<GetSyncJobResponse> GetSyncJob(GetSyncJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSyncJob");
@@ -647,7 +647,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -703,7 +703,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ListAvailableMaintenanceScheduleStartTimes.cs.html">here</a> to see an example of how to use ListAvailableMaintenanceScheduleStartTimes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ListAvailableMaintenanceScheduleStartTimes.cs.html">here</a> to see an example of how to use ListAvailableMaintenanceScheduleStartTimes API.</example>
         public async Task<ListAvailableMaintenanceScheduleStartTimesResponse> ListAvailableMaintenanceScheduleStartTimes(ListAvailableMaintenanceScheduleStartTimesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAvailableMaintenanceScheduleStartTimes");
@@ -759,7 +759,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ListAvailableOverrideMaintenanceStartTimes.cs.html">here</a> to see an example of how to use ListAvailableOverrideMaintenanceStartTimes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ListAvailableOverrideMaintenanceStartTimes.cs.html">here</a> to see an example of how to use ListAvailableOverrideMaintenanceStartTimes API.</example>
         public async Task<ListAvailableOverrideMaintenanceStartTimesResponse> ListAvailableOverrideMaintenanceStartTimes(ListAvailableOverrideMaintenanceStartTimesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAvailableOverrideMaintenanceStartTimes");
@@ -816,7 +816,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ListLustreFileSystems.cs.html">here</a> to see an example of how to use ListLustreFileSystems API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ListLustreFileSystems.cs.html">here</a> to see an example of how to use ListLustreFileSystems API.</example>
         public async Task<ListLustreFileSystemsResponse> ListLustreFileSystems(ListLustreFileSystemsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLustreFileSystems");
@@ -873,7 +873,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ListObjectStorageLinks.cs.html">here</a> to see an example of how to use ListObjectStorageLinks API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ListObjectStorageLinks.cs.html">here</a> to see an example of how to use ListObjectStorageLinks API.</example>
         public async Task<ListObjectStorageLinksResponse> ListObjectStorageLinks(ListObjectStorageLinksRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listObjectStorageLinks");
@@ -930,7 +930,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ListSyncJobs.cs.html">here</a> to see an example of how to use ListSyncJobs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ListSyncJobs.cs.html">here</a> to see an example of how to use ListSyncJobs API.</example>
         public async Task<ListSyncJobsResponse> ListSyncJobs(ListSyncJobsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSyncJobs");
@@ -987,7 +987,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -1044,7 +1044,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -1101,7 +1101,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1157,7 +1157,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/OverrideMaintenance.cs.html">here</a> to see an example of how to use OverrideMaintenance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/OverrideMaintenance.cs.html">here</a> to see an example of how to use OverrideMaintenance API.</example>
         public async Task<OverrideMaintenanceResponse> OverrideMaintenance(OverrideMaintenanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called overrideMaintenance");
@@ -1215,7 +1215,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/StartExportToObject.cs.html">here</a> to see an example of how to use StartExportToObject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/StartExportToObject.cs.html">here</a> to see an example of how to use StartExportToObject API.</example>
         public async Task<StartExportToObjectResponse> StartExportToObject(StartExportToObjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startExportToObject");
@@ -1273,7 +1273,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/StartImportFromObject.cs.html">here</a> to see an example of how to use StartImportFromObject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/StartImportFromObject.cs.html">here</a> to see an example of how to use StartImportFromObject API.</example>
         public async Task<StartImportFromObjectResponse> StartImportFromObject(StartImportFromObjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startImportFromObject");
@@ -1331,7 +1331,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/StopExportToObject.cs.html">here</a> to see an example of how to use StopExportToObject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/StopExportToObject.cs.html">here</a> to see an example of how to use StopExportToObject API.</example>
         public async Task<StopExportToObjectResponse> StopExportToObject(StopExportToObjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopExportToObject");
@@ -1389,7 +1389,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/StopImportFromObject.cs.html">here</a> to see an example of how to use StopImportFromObject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/StopImportFromObject.cs.html">here</a> to see an example of how to use StopImportFromObject API.</example>
         public async Task<StopImportFromObjectResponse> StopImportFromObject(StopImportFromObjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopImportFromObject");
@@ -1445,7 +1445,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/UpdateLustreFileSystem.cs.html">here</a> to see an example of how to use UpdateLustreFileSystem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/UpdateLustreFileSystem.cs.html">here</a> to see an example of how to use UpdateLustreFileSystem API.</example>
         public async Task<UpdateLustreFileSystemResponse> UpdateLustreFileSystem(UpdateLustreFileSystemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateLustreFileSystem");
@@ -1501,7 +1501,7 @@ namespace Oci.LustrefilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/UpdateObjectStorageLink.cs.html">here</a> to see an example of how to use UpdateObjectStorageLink API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/UpdateObjectStorageLink.cs.html">here</a> to see an example of how to use UpdateObjectStorageLink API.</example>
         public async Task<UpdateObjectStorageLinkResponse> UpdateObjectStorageLink(UpdateObjectStorageLinkRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateObjectStorageLink");

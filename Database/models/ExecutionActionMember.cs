@@ -33,7 +33,7 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<int> MemberOrder { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the parent resource the execution action belongs to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the parent resource the execution action belongs to.
         /// </value>
         /// <remarks>
         /// Required

@@ -14,7 +14,7 @@ using Oci.EmwarehouseService.Models;
 namespace Oci.EmwarehouseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/emwarehouse/DeleteEmWarehouse.cs.html">here</a> to see an example of how to use DeleteEmWarehouse request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/emwarehouse/DeleteEmWarehouse.cs.html">here</a> to see an example of how to use DeleteEmWarehouse request.
     /// </example>
     public class DeleteEmWarehouseRequest : Oci.Common.IOciRequest
     {

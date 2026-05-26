@@ -14,7 +14,7 @@ using Oci.GenerativeaiinferenceService.Models;
 namespace Oci.GenerativeaiinferenceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/EmbedText.cs.html">here</a> to see an example of how to use EmbedText request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/EmbedText.cs.html">here</a> to see an example of how to use EmbedText request.
     /// </example>
     public class EmbedTextRequest : Oci.Common.IOciRequest
     {

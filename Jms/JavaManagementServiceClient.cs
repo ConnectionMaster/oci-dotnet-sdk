@@ -83,7 +83,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/AddFleetInstallationSites.cs.html">here</a> to see an example of how to use AddFleetInstallationSites API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/AddFleetInstallationSites.cs.html">here</a> to see an example of how to use AddFleetInstallationSites API.</example>
         public async Task<AddFleetInstallationSitesResponse> AddFleetInstallationSites(AddFleetInstallationSitesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addFleetInstallationSites");
@@ -140,7 +140,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
         public async Task<CancelWorkRequestResponse> CancelWorkRequest(CancelWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelWorkRequest");
@@ -198,7 +198,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ChangeFleetCompartment.cs.html">here</a> to see an example of how to use ChangeFleetCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ChangeFleetCompartment.cs.html">here</a> to see an example of how to use ChangeFleetCompartment API.</example>
         public async Task<ChangeFleetCompartmentResponse> ChangeFleetCompartment(ChangeFleetCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeFleetCompartment");
@@ -256,7 +256,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/CreateBlocklist.cs.html">here</a> to see an example of how to use CreateBlocklist API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/CreateBlocklist.cs.html">here</a> to see an example of how to use CreateBlocklist API.</example>
         public async Task<CreateBlocklistResponse> CreateBlocklist(CreateBlocklistRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBlocklist");
@@ -314,7 +314,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/CreateDrsFile.cs.html">here</a> to see an example of how to use CreateDrsFile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/CreateDrsFile.cs.html">here</a> to see an example of how to use CreateDrsFile API.</example>
         public async Task<CreateDrsFileResponse> CreateDrsFile(CreateDrsFileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDrsFile");
@@ -378,7 +378,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/CreateFleet.cs.html">here</a> to see an example of how to use CreateFleet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/CreateFleet.cs.html">here</a> to see an example of how to use CreateFleet API.</example>
         public async Task<CreateFleetResponse> CreateFleet(CreateFleetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createFleet");
@@ -438,7 +438,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/CreateJmsPlugin.cs.html">here</a> to see an example of how to use CreateJmsPlugin API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/CreateJmsPlugin.cs.html">here</a> to see an example of how to use CreateJmsPlugin API.</example>
         public async Task<CreateJmsPluginResponse> CreateJmsPlugin(CreateJmsPluginRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createJmsPlugin");
@@ -495,7 +495,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/CreateTaskSchedule.cs.html">here</a> to see an example of how to use CreateTaskSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/CreateTaskSchedule.cs.html">here</a> to see an example of how to use CreateTaskSchedule API.</example>
         public async Task<CreateTaskScheduleResponse> CreateTaskSchedule(CreateTaskScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createTaskSchedule");
@@ -552,7 +552,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeleteBlocklist.cs.html">here</a> to see an example of how to use DeleteBlocklist API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeleteBlocklist.cs.html">here</a> to see an example of how to use DeleteBlocklist API.</example>
         public async Task<DeleteBlocklistResponse> DeleteBlocklist(DeleteBlocklistRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBlocklist");
@@ -609,7 +609,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeleteCryptoAnalysisResult.cs.html">here</a> to see an example of how to use DeleteCryptoAnalysisResult API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeleteCryptoAnalysisResult.cs.html">here</a> to see an example of how to use DeleteCryptoAnalysisResult API.</example>
         public async Task<DeleteCryptoAnalysisResultResponse> DeleteCryptoAnalysisResult(DeleteCryptoAnalysisResultRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCryptoAnalysisResult");
@@ -667,7 +667,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeleteDrsFile.cs.html">here</a> to see an example of how to use DeleteDrsFile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeleteDrsFile.cs.html">here</a> to see an example of how to use DeleteDrsFile API.</example>
         public async Task<DeleteDrsFileResponse> DeleteDrsFile(DeleteDrsFileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDrsFile");
@@ -724,7 +724,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeleteFleet.cs.html">here</a> to see an example of how to use DeleteFleet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeleteFleet.cs.html">here</a> to see an example of how to use DeleteFleet API.</example>
         public async Task<DeleteFleetResponse> DeleteFleet(DeleteFleetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteFleet");
@@ -781,7 +781,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeleteJavaMigrationAnalysisResult.cs.html">here</a> to see an example of how to use DeleteJavaMigrationAnalysisResult API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeleteJavaMigrationAnalysisResult.cs.html">here</a> to see an example of how to use DeleteJavaMigrationAnalysisResult API.</example>
         public async Task<DeleteJavaMigrationAnalysisResultResponse> DeleteJavaMigrationAnalysisResult(DeleteJavaMigrationAnalysisResultRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteJavaMigrationAnalysisResult");
@@ -840,7 +840,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeleteJmsPlugin.cs.html">here</a> to see an example of how to use DeleteJmsPlugin API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeleteJmsPlugin.cs.html">here</a> to see an example of how to use DeleteJmsPlugin API.</example>
         public async Task<DeleteJmsPluginResponse> DeleteJmsPlugin(DeleteJmsPluginRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteJmsPlugin");
@@ -897,7 +897,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeletePerformanceTuningAnalysisResult.cs.html">here</a> to see an example of how to use DeletePerformanceTuningAnalysisResult API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeletePerformanceTuningAnalysisResult.cs.html">here</a> to see an example of how to use DeletePerformanceTuningAnalysisResult API.</example>
         public async Task<DeletePerformanceTuningAnalysisResultResponse> DeletePerformanceTuningAnalysisResult(DeletePerformanceTuningAnalysisResultRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePerformanceTuningAnalysisResult");
@@ -954,7 +954,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeleteTaskSchedule.cs.html">here</a> to see an example of how to use DeleteTaskSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeleteTaskSchedule.cs.html">here</a> to see an example of how to use DeleteTaskSchedule API.</example>
         public async Task<DeleteTaskScheduleResponse> DeleteTaskSchedule(DeleteTaskScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteTaskSchedule");
@@ -1012,7 +1012,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DisableDrs.cs.html">here</a> to see an example of how to use DisableDrs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DisableDrs.cs.html">here</a> to see an example of how to use DisableDrs API.</example>
         public async Task<DisableDrsResponse> DisableDrs(DisableDrsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableDrs");
@@ -1070,7 +1070,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/EnableDrs.cs.html">here</a> to see an example of how to use EnableDrs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/EnableDrs.cs.html">here</a> to see an example of how to use EnableDrs API.</example>
         public async Task<EnableDrsResponse> EnableDrs(EnableDrsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enableDrs");
@@ -1128,7 +1128,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GenerateAgentDeployScript.cs.html">here</a> to see an example of how to use GenerateAgentDeployScript API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GenerateAgentDeployScript.cs.html">here</a> to see an example of how to use GenerateAgentDeployScript API.</example>
         public async Task<GenerateAgentDeployScriptResponse> GenerateAgentDeployScript(GenerateAgentDeployScriptRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateAgentDeployScript");
@@ -1186,7 +1186,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GenerateAgentInstallerConfiguration.cs.html">here</a> to see an example of how to use GenerateAgentInstallerConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GenerateAgentInstallerConfiguration.cs.html">here</a> to see an example of how to use GenerateAgentInstallerConfiguration API.</example>
         public async Task<GenerateAgentInstallerConfigurationResponse> GenerateAgentInstallerConfiguration(GenerateAgentInstallerConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateAgentInstallerConfiguration");
@@ -1244,7 +1244,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GenerateLoadPipelineScript.cs.html">here</a> to see an example of how to use GenerateLoadPipelineScript API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GenerateLoadPipelineScript.cs.html">here</a> to see an example of how to use GenerateLoadPipelineScript API.</example>
         public async Task<GenerateLoadPipelineScriptResponse> GenerateLoadPipelineScript(GenerateLoadPipelineScriptRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateLoadPipelineScript");
@@ -1301,7 +1301,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetCryptoAnalysisResult.cs.html">here</a> to see an example of how to use GetCryptoAnalysisResult API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetCryptoAnalysisResult.cs.html">here</a> to see an example of how to use GetCryptoAnalysisResult API.</example>
         public async Task<GetCryptoAnalysisResultResponse> GetCryptoAnalysisResult(GetCryptoAnalysisResultRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCryptoAnalysisResult");
@@ -1358,7 +1358,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetDrsFile.cs.html">here</a> to see an example of how to use GetDrsFile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetDrsFile.cs.html">here</a> to see an example of how to use GetDrsFile API.</example>
         public async Task<GetDrsFileResponse> GetDrsFile(GetDrsFileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDrsFile");
@@ -1415,7 +1415,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetExportSetting.cs.html">here</a> to see an example of how to use GetExportSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetExportSetting.cs.html">here</a> to see an example of how to use GetExportSetting API.</example>
         public async Task<GetExportSettingResponse> GetExportSetting(GetExportSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getExportSetting");
@@ -1472,7 +1472,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetExportStatus.cs.html">here</a> to see an example of how to use GetExportStatus API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetExportStatus.cs.html">here</a> to see an example of how to use GetExportStatus API.</example>
         public async Task<GetExportStatusResponse> GetExportStatus(GetExportStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getExportStatus");
@@ -1529,7 +1529,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetFleet.cs.html">here</a> to see an example of how to use GetFleet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetFleet.cs.html">here</a> to see an example of how to use GetFleet API.</example>
         public async Task<GetFleetResponse> GetFleet(GetFleetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFleet");
@@ -1587,7 +1587,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetFleetAdvancedFeatureConfiguration.cs.html">here</a> to see an example of how to use GetFleetAdvancedFeatureConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetFleetAdvancedFeatureConfiguration.cs.html">here</a> to see an example of how to use GetFleetAdvancedFeatureConfiguration API.</example>
         public async Task<GetFleetAdvancedFeatureConfigurationResponse> GetFleetAdvancedFeatureConfiguration(GetFleetAdvancedFeatureConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFleetAdvancedFeatureConfiguration");
@@ -1644,7 +1644,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetFleetAgentConfiguration.cs.html">here</a> to see an example of how to use GetFleetAgentConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetFleetAgentConfiguration.cs.html">here</a> to see an example of how to use GetFleetAgentConfiguration API.</example>
         public async Task<GetFleetAgentConfigurationResponse> GetFleetAgentConfiguration(GetFleetAgentConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFleetAgentConfiguration");
@@ -1702,7 +1702,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetJavaFamily.cs.html">here</a> to see an example of how to use GetJavaFamily API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetJavaFamily.cs.html">here</a> to see an example of how to use GetJavaFamily API.</example>
         public async Task<GetJavaFamilyResponse> GetJavaFamily(GetJavaFamilyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJavaFamily");
@@ -1759,7 +1759,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetJavaMigrationAnalysisResult.cs.html">here</a> to see an example of how to use GetJavaMigrationAnalysisResult API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetJavaMigrationAnalysisResult.cs.html">here</a> to see an example of how to use GetJavaMigrationAnalysisResult API.</example>
         public async Task<GetJavaMigrationAnalysisResultResponse> GetJavaMigrationAnalysisResult(GetJavaMigrationAnalysisResultRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJavaMigrationAnalysisResult");
@@ -1816,7 +1816,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetJavaRelease.cs.html">here</a> to see an example of how to use GetJavaRelease API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetJavaRelease.cs.html">here</a> to see an example of how to use GetJavaRelease API.</example>
         public async Task<GetJavaReleaseResponse> GetJavaRelease(GetJavaReleaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJavaRelease");
@@ -1873,7 +1873,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetJmsPlugin.cs.html">here</a> to see an example of how to use GetJmsPlugin API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetJmsPlugin.cs.html">here</a> to see an example of how to use GetJmsPlugin API.</example>
         public async Task<GetJmsPluginResponse> GetJmsPlugin(GetJmsPluginRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJmsPlugin");
@@ -1930,7 +1930,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetPerformanceTuningAnalysisResult.cs.html">here</a> to see an example of how to use GetPerformanceTuningAnalysisResult API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetPerformanceTuningAnalysisResult.cs.html">here</a> to see an example of how to use GetPerformanceTuningAnalysisResult API.</example>
         public async Task<GetPerformanceTuningAnalysisResultResponse> GetPerformanceTuningAnalysisResult(GetPerformanceTuningAnalysisResultRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPerformanceTuningAnalysisResult");
@@ -1988,7 +1988,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetTaskSchedule.cs.html">here</a> to see an example of how to use GetTaskSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetTaskSchedule.cs.html">here</a> to see an example of how to use GetTaskSchedule API.</example>
         public async Task<GetTaskScheduleResponse> GetTaskSchedule(GetTaskScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTaskSchedule");
@@ -2045,7 +2045,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -2103,7 +2103,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListAgentInstallers.cs.html">here</a> to see an example of how to use ListAgentInstallers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListAgentInstallers.cs.html">here</a> to see an example of how to use ListAgentInstallers API.</example>
         public async Task<ListAgentInstallersResponse> ListAgentInstallers(ListAgentInstallersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAgentInstallers");
@@ -2160,7 +2160,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListAnnouncements.cs.html">here</a> to see an example of how to use ListAnnouncements API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListAnnouncements.cs.html">here</a> to see an example of how to use ListAnnouncements API.</example>
         public async Task<ListAnnouncementsResponse> ListAnnouncements(ListAnnouncementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAnnouncements");
@@ -2218,7 +2218,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListBlocklists.cs.html">here</a> to see an example of how to use ListBlocklists API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListBlocklists.cs.html">here</a> to see an example of how to use ListBlocklists API.</example>
         public async Task<ListBlocklistsResponse> ListBlocklists(ListBlocklistsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBlocklists");
@@ -2275,7 +2275,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListContainers.cs.html">here</a> to see an example of how to use ListContainers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListContainers.cs.html">here</a> to see an example of how to use ListContainers API.</example>
         public async Task<ListContainersResponse> ListContainers(ListContainersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listContainers");
@@ -2332,7 +2332,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListCryptoAnalysisResults.cs.html">here</a> to see an example of how to use ListCryptoAnalysisResults API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListCryptoAnalysisResults.cs.html">here</a> to see an example of how to use ListCryptoAnalysisResults API.</example>
         public async Task<ListCryptoAnalysisResultsResponse> ListCryptoAnalysisResults(ListCryptoAnalysisResultsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCryptoAnalysisResults");
@@ -2389,7 +2389,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListDrsFiles.cs.html">here</a> to see an example of how to use ListDrsFiles API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListDrsFiles.cs.html">here</a> to see an example of how to use ListDrsFiles API.</example>
         public async Task<ListDrsFilesResponse> ListDrsFiles(ListDrsFilesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDrsFiles");
@@ -2447,7 +2447,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListFleetDiagnoses.cs.html">here</a> to see an example of how to use ListFleetDiagnoses API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListFleetDiagnoses.cs.html">here</a> to see an example of how to use ListFleetDiagnoses API.</example>
         public async Task<ListFleetDiagnosesResponse> ListFleetDiagnoses(ListFleetDiagnosesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFleetDiagnoses");
@@ -2504,7 +2504,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListFleetErrors.cs.html">here</a> to see an example of how to use ListFleetErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListFleetErrors.cs.html">here</a> to see an example of how to use ListFleetErrors API.</example>
         public async Task<ListFleetErrorsResponse> ListFleetErrors(ListFleetErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFleetErrors");
@@ -2563,7 +2563,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListFleets.cs.html">here</a> to see an example of how to use ListFleets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListFleets.cs.html">here</a> to see an example of how to use ListFleets API.</example>
         public async Task<ListFleetsResponse> ListFleets(ListFleetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFleets");
@@ -2620,7 +2620,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListInstallationSites.cs.html">here</a> to see an example of how to use ListInstallationSites API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListInstallationSites.cs.html">here</a> to see an example of how to use ListInstallationSites API.</example>
         public async Task<ListInstallationSitesResponse> ListInstallationSites(ListInstallationSitesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInstallationSites");
@@ -2679,7 +2679,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListJavaFamilies.cs.html">here</a> to see an example of how to use ListJavaFamilies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListJavaFamilies.cs.html">here</a> to see an example of how to use ListJavaFamilies API.</example>
         public async Task<ListJavaFamiliesResponse> ListJavaFamilies(ListJavaFamiliesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJavaFamilies");
@@ -2736,7 +2736,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListJavaMigrationAnalysisResults.cs.html">here</a> to see an example of how to use ListJavaMigrationAnalysisResults API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListJavaMigrationAnalysisResults.cs.html">here</a> to see an example of how to use ListJavaMigrationAnalysisResults API.</example>
         public async Task<ListJavaMigrationAnalysisResultsResponse> ListJavaMigrationAnalysisResults(ListJavaMigrationAnalysisResultsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJavaMigrationAnalysisResults");
@@ -2794,7 +2794,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListJavaReleases.cs.html">here</a> to see an example of how to use ListJavaReleases API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListJavaReleases.cs.html">here</a> to see an example of how to use ListJavaReleases API.</example>
         public async Task<ListJavaReleasesResponse> ListJavaReleases(ListJavaReleasesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJavaReleases");
@@ -2851,7 +2851,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListJmsPlugins.cs.html">here</a> to see an example of how to use ListJmsPlugins API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListJmsPlugins.cs.html">here</a> to see an example of how to use ListJmsPlugins API.</example>
         public async Task<ListJmsPluginsResponse> ListJmsPlugins(ListJmsPluginsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJmsPlugins");
@@ -2908,7 +2908,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListJreUsage.cs.html">here</a> to see an example of how to use ListJreUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListJreUsage.cs.html">here</a> to see an example of how to use ListJreUsage API.</example>
         public async Task<ListJreUsageResponse> ListJreUsage(ListJreUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJreUsage");
@@ -2966,7 +2966,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListLibraryApplicationUsage.cs.html">here</a> to see an example of how to use ListLibraryApplicationUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListLibraryApplicationUsage.cs.html">here</a> to see an example of how to use ListLibraryApplicationUsage API.</example>
         public async Task<ListLibraryApplicationUsageResponse> ListLibraryApplicationUsage(ListLibraryApplicationUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLibraryApplicationUsage");
@@ -3024,7 +3024,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListLibraryManagedInstanceUsage.cs.html">here</a> to see an example of how to use ListLibraryManagedInstanceUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListLibraryManagedInstanceUsage.cs.html">here</a> to see an example of how to use ListLibraryManagedInstanceUsage API.</example>
         public async Task<ListLibraryManagedInstanceUsageResponse> ListLibraryManagedInstanceUsage(ListLibraryManagedInstanceUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLibraryManagedInstanceUsage");
@@ -3081,7 +3081,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListPerformanceTuningAnalysisResults.cs.html">here</a> to see an example of how to use ListPerformanceTuningAnalysisResults API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListPerformanceTuningAnalysisResults.cs.html">here</a> to see an example of how to use ListPerformanceTuningAnalysisResults API.</example>
         public async Task<ListPerformanceTuningAnalysisResultsResponse> ListPerformanceTuningAnalysisResults(ListPerformanceTuningAnalysisResultsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPerformanceTuningAnalysisResults");
@@ -3138,7 +3138,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListPluginErrors.cs.html">here</a> to see an example of how to use ListPluginErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListPluginErrors.cs.html">here</a> to see an example of how to use ListPluginErrors API.</example>
         public async Task<ListPluginErrorsResponse> ListPluginErrors(ListPluginErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPluginErrors");
@@ -3196,7 +3196,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListTaskSchedules.cs.html">here</a> to see an example of how to use ListTaskSchedules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListTaskSchedules.cs.html">here</a> to see an example of how to use ListTaskSchedules API.</example>
         public async Task<ListTaskSchedulesResponse> ListTaskSchedules(ListTaskSchedulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTaskSchedules");
@@ -3254,7 +3254,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListUncorrelatedPackageApplicationUsage.cs.html">here</a> to see an example of how to use ListUncorrelatedPackageApplicationUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListUncorrelatedPackageApplicationUsage.cs.html">here</a> to see an example of how to use ListUncorrelatedPackageApplicationUsage API.</example>
         public async Task<ListUncorrelatedPackageApplicationUsageResponse> ListUncorrelatedPackageApplicationUsage(ListUncorrelatedPackageApplicationUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUncorrelatedPackageApplicationUsage");
@@ -3312,7 +3312,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListUncorrelatedPackageManagedInstanceUsage.cs.html">here</a> to see an example of how to use ListUncorrelatedPackageManagedInstanceUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListUncorrelatedPackageManagedInstanceUsage.cs.html">here</a> to see an example of how to use ListUncorrelatedPackageManagedInstanceUsage API.</example>
         public async Task<ListUncorrelatedPackageManagedInstanceUsageResponse> ListUncorrelatedPackageManagedInstanceUsage(ListUncorrelatedPackageManagedInstanceUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUncorrelatedPackageManagedInstanceUsage");
@@ -3370,7 +3370,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListUncorrelatedPackageUsage.cs.html">here</a> to see an example of how to use ListUncorrelatedPackageUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListUncorrelatedPackageUsage.cs.html">here</a> to see an example of how to use ListUncorrelatedPackageUsage API.</example>
         public async Task<ListUncorrelatedPackageUsageResponse> ListUncorrelatedPackageUsage(ListUncorrelatedPackageUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUncorrelatedPackageUsage");
@@ -3428,7 +3428,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListWorkItems.cs.html">here</a> to see an example of how to use ListWorkItems API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListWorkItems.cs.html">here</a> to see an example of how to use ListWorkItems API.</example>
         public async Task<ListWorkItemsResponse> ListWorkItems(ListWorkItemsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkItems");
@@ -3486,7 +3486,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -3544,7 +3544,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -3602,7 +3602,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -3659,7 +3659,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/RemoveFleetInstallationSites.cs.html">here</a> to see an example of how to use RemoveFleetInstallationSites API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/RemoveFleetInstallationSites.cs.html">here</a> to see an example of how to use RemoveFleetInstallationSites API.</example>
         public async Task<RemoveFleetInstallationSitesResponse> RemoveFleetInstallationSites(RemoveFleetInstallationSitesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeFleetInstallationSites");
@@ -3717,7 +3717,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/RequestCryptoAnalyses.cs.html">here</a> to see an example of how to use RequestCryptoAnalyses API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/RequestCryptoAnalyses.cs.html">here</a> to see an example of how to use RequestCryptoAnalyses API.</example>
         public async Task<RequestCryptoAnalysesResponse> RequestCryptoAnalyses(RequestCryptoAnalysesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestCryptoAnalyses");
@@ -3776,7 +3776,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/RequestDeployedApplicationMigrationAnalyses.cs.html">here</a> to see an example of how to use RequestDeployedApplicationMigrationAnalyses API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/RequestDeployedApplicationMigrationAnalyses.cs.html">here</a> to see an example of how to use RequestDeployedApplicationMigrationAnalyses API.</example>
         public async Task<RequestDeployedApplicationMigrationAnalysesResponse> RequestDeployedApplicationMigrationAnalyses(RequestDeployedApplicationMigrationAnalysesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestDeployedApplicationMigrationAnalyses");
@@ -3835,7 +3835,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/RequestJavaMigrationAnalyses.cs.html">here</a> to see an example of how to use RequestJavaMigrationAnalyses API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/RequestJavaMigrationAnalyses.cs.html">here</a> to see an example of how to use RequestJavaMigrationAnalyses API.</example>
         public async Task<RequestJavaMigrationAnalysesResponse> RequestJavaMigrationAnalyses(RequestJavaMigrationAnalysesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestJavaMigrationAnalyses");
@@ -3893,7 +3893,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/RequestJfrRecordings.cs.html">here</a> to see an example of how to use RequestJfrRecordings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/RequestJfrRecordings.cs.html">here</a> to see an example of how to use RequestJfrRecordings API.</example>
         public async Task<RequestJfrRecordingsResponse> RequestJfrRecordings(RequestJfrRecordingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestJfrRecordings");
@@ -3952,7 +3952,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/RequestPerformanceTuningAnalyses.cs.html">here</a> to see an example of how to use RequestPerformanceTuningAnalyses API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/RequestPerformanceTuningAnalyses.cs.html">here</a> to see an example of how to use RequestPerformanceTuningAnalyses API.</example>
         public async Task<RequestPerformanceTuningAnalysesResponse> RequestPerformanceTuningAnalyses(RequestPerformanceTuningAnalysesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestPerformanceTuningAnalyses");
@@ -4009,7 +4009,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ScanJavaServerUsage.cs.html">here</a> to see an example of how to use ScanJavaServerUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ScanJavaServerUsage.cs.html">here</a> to see an example of how to use ScanJavaServerUsage API.</example>
         public async Task<ScanJavaServerUsageResponse> ScanJavaServerUsage(ScanJavaServerUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called scanJavaServerUsage");
@@ -4066,7 +4066,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ScanLibraryUsage.cs.html">here</a> to see an example of how to use ScanLibraryUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/ScanLibraryUsage.cs.html">here</a> to see an example of how to use ScanLibraryUsage API.</example>
         public async Task<ScanLibraryUsageResponse> ScanLibraryUsage(ScanLibraryUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called scanLibraryUsage");
@@ -4124,7 +4124,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeApplicationInstallationUsage.cs.html">here</a> to see an example of how to use SummarizeApplicationInstallationUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeApplicationInstallationUsage.cs.html">here</a> to see an example of how to use SummarizeApplicationInstallationUsage API.</example>
         public async Task<SummarizeApplicationInstallationUsageResponse> SummarizeApplicationInstallationUsage(SummarizeApplicationInstallationUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeApplicationInstallationUsage");
@@ -4181,7 +4181,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeApplicationUsage.cs.html">here</a> to see an example of how to use SummarizeApplicationUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeApplicationUsage.cs.html">here</a> to see an example of how to use SummarizeApplicationUsage API.</example>
         public async Task<SummarizeApplicationUsageResponse> SummarizeApplicationUsage(SummarizeApplicationUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeApplicationUsage");
@@ -4239,7 +4239,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeDeployedApplicationInstallationUsage.cs.html">here</a> to see an example of how to use SummarizeDeployedApplicationInstallationUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeDeployedApplicationInstallationUsage.cs.html">here</a> to see an example of how to use SummarizeDeployedApplicationInstallationUsage API.</example>
         public async Task<SummarizeDeployedApplicationInstallationUsageResponse> SummarizeDeployedApplicationInstallationUsage(SummarizeDeployedApplicationInstallationUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeDeployedApplicationInstallationUsage");
@@ -4297,7 +4297,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeDeployedApplicationUsage.cs.html">here</a> to see an example of how to use SummarizeDeployedApplicationUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeDeployedApplicationUsage.cs.html">here</a> to see an example of how to use SummarizeDeployedApplicationUsage API.</example>
         public async Task<SummarizeDeployedApplicationUsageResponse> SummarizeDeployedApplicationUsage(SummarizeDeployedApplicationUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeDeployedApplicationUsage");
@@ -4354,7 +4354,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeFleetErrors.cs.html">here</a> to see an example of how to use SummarizeFleetErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeFleetErrors.cs.html">here</a> to see an example of how to use SummarizeFleetErrors API.</example>
         public async Task<SummarizeFleetErrorsResponse> SummarizeFleetErrors(SummarizeFleetErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeFleetErrors");
@@ -4411,7 +4411,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeInstallationUsage.cs.html">here</a> to see an example of how to use SummarizeInstallationUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeInstallationUsage.cs.html">here</a> to see an example of how to use SummarizeInstallationUsage API.</example>
         public async Task<SummarizeInstallationUsageResponse> SummarizeInstallationUsage(SummarizeInstallationUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeInstallationUsage");
@@ -4469,7 +4469,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeJavaServerInstanceUsage.cs.html">here</a> to see an example of how to use SummarizeJavaServerInstanceUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeJavaServerInstanceUsage.cs.html">here</a> to see an example of how to use SummarizeJavaServerInstanceUsage API.</example>
         public async Task<SummarizeJavaServerInstanceUsageResponse> SummarizeJavaServerInstanceUsage(SummarizeJavaServerInstanceUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeJavaServerInstanceUsage");
@@ -4527,7 +4527,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeJavaServerUsage.cs.html">here</a> to see an example of how to use SummarizeJavaServerUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeJavaServerUsage.cs.html">here</a> to see an example of how to use SummarizeJavaServerUsage API.</example>
         public async Task<SummarizeJavaServerUsageResponse> SummarizeJavaServerUsage(SummarizeJavaServerUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeJavaServerUsage");
@@ -4584,7 +4584,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeJreUsage.cs.html">here</a> to see an example of how to use SummarizeJreUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeJreUsage.cs.html">here</a> to see an example of how to use SummarizeJreUsage API.</example>
         public async Task<SummarizeJreUsageResponse> SummarizeJreUsage(SummarizeJreUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeJreUsage");
@@ -4642,7 +4642,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeLibraryInventory.cs.html">here</a> to see an example of how to use SummarizeLibraryInventory API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeLibraryInventory.cs.html">here</a> to see an example of how to use SummarizeLibraryInventory API.</example>
         public async Task<SummarizeLibraryInventoryResponse> SummarizeLibraryInventory(SummarizeLibraryInventoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeLibraryInventory");
@@ -4700,7 +4700,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeLibraryUsage.cs.html">here</a> to see an example of how to use SummarizeLibraryUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeLibraryUsage.cs.html">here</a> to see an example of how to use SummarizeLibraryUsage API.</example>
         public async Task<SummarizeLibraryUsageResponse> SummarizeLibraryUsage(SummarizeLibraryUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeLibraryUsage");
@@ -4757,7 +4757,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeManagedInstanceUsage.cs.html">here</a> to see an example of how to use SummarizeManagedInstanceUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeManagedInstanceUsage.cs.html">here</a> to see an example of how to use SummarizeManagedInstanceUsage API.</example>
         public async Task<SummarizeManagedInstanceUsageResponse> SummarizeManagedInstanceUsage(SummarizeManagedInstanceUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeManagedInstanceUsage");
@@ -4814,7 +4814,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizePluginErrors.cs.html">here</a> to see an example of how to use SummarizePluginErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizePluginErrors.cs.html">here</a> to see an example of how to use SummarizePluginErrors API.</example>
         public async Task<SummarizePluginErrorsResponse> SummarizePluginErrors(SummarizePluginErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizePluginErrors");
@@ -4872,7 +4872,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeResourceInventory.cs.html">here</a> to see an example of how to use SummarizeResourceInventory API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeResourceInventory.cs.html">here</a> to see an example of how to use SummarizeResourceInventory API.</example>
         public async Task<SummarizeResourceInventoryResponse> SummarizeResourceInventory(SummarizeResourceInventoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeResourceInventory");
@@ -4930,7 +4930,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/UpdateDrsFile.cs.html">here</a> to see an example of how to use UpdateDrsFile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/UpdateDrsFile.cs.html">here</a> to see an example of how to use UpdateDrsFile API.</example>
         public async Task<UpdateDrsFileResponse> UpdateDrsFile(UpdateDrsFileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrsFile");
@@ -4987,7 +4987,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/UpdateExportSetting.cs.html">here</a> to see an example of how to use UpdateExportSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/UpdateExportSetting.cs.html">here</a> to see an example of how to use UpdateExportSetting API.</example>
         public async Task<UpdateExportSettingResponse> UpdateExportSetting(UpdateExportSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateExportSetting");
@@ -5044,7 +5044,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/UpdateFleet.cs.html">here</a> to see an example of how to use UpdateFleet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/UpdateFleet.cs.html">here</a> to see an example of how to use UpdateFleet API.</example>
         public async Task<UpdateFleetResponse> UpdateFleet(UpdateFleetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateFleet");
@@ -5103,7 +5103,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/UpdateFleetAdvancedFeatureConfiguration.cs.html">here</a> to see an example of how to use UpdateFleetAdvancedFeatureConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/UpdateFleetAdvancedFeatureConfiguration.cs.html">here</a> to see an example of how to use UpdateFleetAdvancedFeatureConfiguration API.</example>
         public async Task<UpdateFleetAdvancedFeatureConfigurationResponse> UpdateFleetAdvancedFeatureConfiguration(UpdateFleetAdvancedFeatureConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateFleetAdvancedFeatureConfiguration");
@@ -5160,7 +5160,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/UpdateFleetAgentConfiguration.cs.html">here</a> to see an example of how to use UpdateFleetAgentConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/UpdateFleetAgentConfiguration.cs.html">here</a> to see an example of how to use UpdateFleetAgentConfiguration API.</example>
         public async Task<UpdateFleetAgentConfigurationResponse> UpdateFleetAgentConfiguration(UpdateFleetAgentConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateFleetAgentConfiguration");
@@ -5217,7 +5217,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/UpdateJmsPlugin.cs.html">here</a> to see an example of how to use UpdateJmsPlugin API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/UpdateJmsPlugin.cs.html">here</a> to see an example of how to use UpdateJmsPlugin API.</example>
         public async Task<UpdateJmsPluginResponse> UpdateJmsPlugin(UpdateJmsPluginRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateJmsPlugin");
@@ -5275,7 +5275,7 @@ namespace Oci.JmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/UpdateTaskSchedule.cs.html">here</a> to see an example of how to use UpdateTaskSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/UpdateTaskSchedule.cs.html">here</a> to see an example of how to use UpdateTaskSchedule API.</example>
         public async Task<UpdateTaskScheduleResponse> UpdateTaskSchedule(UpdateTaskScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateTaskSchedule");

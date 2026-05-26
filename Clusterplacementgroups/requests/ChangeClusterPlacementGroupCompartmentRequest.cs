@@ -14,7 +14,7 @@ using Oci.ClusterplacementgroupsService.Models;
 namespace Oci.ClusterplacementgroupsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/ChangeClusterPlacementGroupCompartment.cs.html">here</a> to see an example of how to use ChangeClusterPlacementGroupCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/ChangeClusterPlacementGroupCompartment.cs.html">here</a> to see an example of how to use ChangeClusterPlacementGroupCompartment request.
     /// </example>
     public class ChangeClusterPlacementGroupCompartmentRequest : Oci.Common.IOciRequest
     {

@@ -14,7 +14,7 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ChangeAutonomousVmClusterCompartment.cs.html">here</a> to see an example of how to use ChangeAutonomousVmClusterCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ChangeAutonomousVmClusterCompartment.cs.html">here</a> to see an example of how to use ChangeAutonomousVmClusterCompartment request.
     /// </example>
     public class ChangeAutonomousVmClusterCompartmentRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.DatabaseService.Requests
         public ChangeAutonomousVmClusterCompartmentDetails ChangeAutonomousVmClusterCompartmentDetails { get; set; }
         
         /// <value>
-        /// The autonomous VM cluster [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The autonomous VM cluster [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

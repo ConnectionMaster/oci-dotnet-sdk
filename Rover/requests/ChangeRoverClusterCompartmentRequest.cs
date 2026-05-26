@@ -14,7 +14,7 @@ using Oci.RoverService.Models;
 namespace Oci.RoverService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ChangeRoverClusterCompartment.cs.html">here</a> to see an example of how to use ChangeRoverClusterCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ChangeRoverClusterCompartment.cs.html">here</a> to see an example of how to use ChangeRoverClusterCompartment request.
     /// </example>
     public class ChangeRoverClusterCompartmentRequest : Oci.Common.IOciRequest
     {

@@ -53,7 +53,7 @@ namespace Oci.DatascienceService.Models
         public string TrainingScript { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a training session(Job or NotebookSession) in which the model was trained. It is used for model reproducibility purposes.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a training session(Job or NotebookSession) in which the model was trained. It is used for model reproducibility purposes.
         /// </value>
         [JsonProperty(PropertyName = "trainingId")]
         public string TrainingId { get; set; }

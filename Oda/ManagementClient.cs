@@ -81,7 +81,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/BulkCreateSkillEntities.cs.html">here</a> to see an example of how to use BulkCreateSkillEntities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/BulkCreateSkillEntities.cs.html">here</a> to see an example of how to use BulkCreateSkillEntities API.</example>
         public async Task<BulkCreateSkillEntitiesResponse> BulkCreateSkillEntities(BulkCreateSkillEntitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkCreateSkillEntities");
@@ -138,7 +138,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CascadingDeleteSkillCustomEntities.cs.html">here</a> to see an example of how to use CascadingDeleteSkillCustomEntities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CascadingDeleteSkillCustomEntities.cs.html">here</a> to see an example of how to use CascadingDeleteSkillCustomEntities API.</example>
         public async Task<CascadingDeleteSkillCustomEntitiesResponse> CascadingDeleteSkillCustomEntities(CascadingDeleteSkillCustomEntitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cascadingDeleteSkillCustomEntities");
@@ -199,7 +199,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ChangeOdaPrivateEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeOdaPrivateEndpointCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ChangeOdaPrivateEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeOdaPrivateEndpointCompartment API.</example>
         public async Task<ChangeOdaPrivateEndpointCompartmentResponse> ChangeOdaPrivateEndpointCompartment(ChangeOdaPrivateEndpointCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeOdaPrivateEndpointCompartment");
@@ -256,7 +256,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ConfigureDigitalAssistantParameters.cs.html">here</a> to see an example of how to use ConfigureDigitalAssistantParameters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ConfigureDigitalAssistantParameters.cs.html">here</a> to see an example of how to use ConfigureDigitalAssistantParameters API.</example>
         public async Task<ConfigureDigitalAssistantParametersResponse> ConfigureDigitalAssistantParameters(ConfigureDigitalAssistantParametersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called configureDigitalAssistantParameters");
@@ -313,7 +313,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateAuthenticationProvider.cs.html">here</a> to see an example of how to use CreateAuthenticationProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateAuthenticationProvider.cs.html">here</a> to see an example of how to use CreateAuthenticationProvider API.</example>
         public async Task<CreateAuthenticationProviderResponse> CreateAuthenticationProvider(CreateAuthenticationProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAuthenticationProvider");
@@ -370,7 +370,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateChannel.cs.html">here</a> to see an example of how to use CreateChannel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateChannel.cs.html">here</a> to see an example of how to use CreateChannel API.</example>
         public async Task<CreateChannelResponse> CreateChannel(CreateChannelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createChannel");
@@ -427,7 +427,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateDigitalAssistant.cs.html">here</a> to see an example of how to use CreateDigitalAssistant API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateDigitalAssistant.cs.html">here</a> to see an example of how to use CreateDigitalAssistant API.</example>
         public async Task<CreateDigitalAssistantResponse> CreateDigitalAssistant(CreateDigitalAssistantRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDigitalAssistant");
@@ -487,7 +487,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateOdaPrivateEndpoint.cs.html">here</a> to see an example of how to use CreateOdaPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateOdaPrivateEndpoint.cs.html">here</a> to see an example of how to use CreateOdaPrivateEndpoint API.</example>
         public async Task<CreateOdaPrivateEndpointResponse> CreateOdaPrivateEndpoint(CreateOdaPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOdaPrivateEndpoint");
@@ -547,7 +547,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateOdaPrivateEndpointAttachment.cs.html">here</a> to see an example of how to use CreateOdaPrivateEndpointAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateOdaPrivateEndpointAttachment.cs.html">here</a> to see an example of how to use CreateOdaPrivateEndpointAttachment API.</example>
         public async Task<CreateOdaPrivateEndpointAttachmentResponse> CreateOdaPrivateEndpointAttachment(CreateOdaPrivateEndpointAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOdaPrivateEndpointAttachment");
@@ -607,7 +607,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateOdaPrivateEndpointScanProxy.cs.html">here</a> to see an example of how to use CreateOdaPrivateEndpointScanProxy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateOdaPrivateEndpointScanProxy.cs.html">here</a> to see an example of how to use CreateOdaPrivateEndpointScanProxy API.</example>
         public async Task<CreateOdaPrivateEndpointScanProxyResponse> CreateOdaPrivateEndpointScanProxy(CreateOdaPrivateEndpointScanProxyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOdaPrivateEndpointScanProxy");
@@ -664,7 +664,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateSkill.cs.html">here</a> to see an example of how to use CreateSkill API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateSkill.cs.html">here</a> to see an example of how to use CreateSkill API.</example>
         public async Task<CreateSkillResponse> CreateSkill(CreateSkillRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSkill");
@@ -721,7 +721,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateSkillParameter.cs.html">here</a> to see an example of how to use CreateSkillParameter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateSkillParameter.cs.html">here</a> to see an example of how to use CreateSkillParameter API.</example>
         public async Task<CreateSkillParameterResponse> CreateSkillParameter(CreateSkillParameterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSkillParameter");
@@ -778,7 +778,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateTranslator.cs.html">here</a> to see an example of how to use CreateTranslator API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/CreateTranslator.cs.html">here</a> to see an example of how to use CreateTranslator API.</example>
         public async Task<CreateTranslatorResponse> CreateTranslator(CreateTranslatorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createTranslator");
@@ -834,7 +834,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteAuthenticationProvider.cs.html">here</a> to see an example of how to use DeleteAuthenticationProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteAuthenticationProvider.cs.html">here</a> to see an example of how to use DeleteAuthenticationProvider API.</example>
         public async Task<DeleteAuthenticationProviderResponse> DeleteAuthenticationProvider(DeleteAuthenticationProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAuthenticationProvider");
@@ -890,7 +890,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteChannel.cs.html">here</a> to see an example of how to use DeleteChannel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteChannel.cs.html">here</a> to see an example of how to use DeleteChannel API.</example>
         public async Task<DeleteChannelResponse> DeleteChannel(DeleteChannelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteChannel");
@@ -947,7 +947,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteDigitalAssistant.cs.html">here</a> to see an example of how to use DeleteDigitalAssistant API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteDigitalAssistant.cs.html">here</a> to see an example of how to use DeleteDigitalAssistant API.</example>
         public async Task<DeleteDigitalAssistantResponse> DeleteDigitalAssistant(DeleteDigitalAssistantRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDigitalAssistant");
@@ -1004,7 +1004,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteOdaPrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteOdaPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteOdaPrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteOdaPrivateEndpoint API.</example>
         public async Task<DeleteOdaPrivateEndpointResponse> DeleteOdaPrivateEndpoint(DeleteOdaPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOdaPrivateEndpoint");
@@ -1061,7 +1061,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteOdaPrivateEndpointAttachment.cs.html">here</a> to see an example of how to use DeleteOdaPrivateEndpointAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteOdaPrivateEndpointAttachment.cs.html">here</a> to see an example of how to use DeleteOdaPrivateEndpointAttachment API.</example>
         public async Task<DeleteOdaPrivateEndpointAttachmentResponse> DeleteOdaPrivateEndpointAttachment(DeleteOdaPrivateEndpointAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOdaPrivateEndpointAttachment");
@@ -1118,7 +1118,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteOdaPrivateEndpointScanProxy.cs.html">here</a> to see an example of how to use DeleteOdaPrivateEndpointScanProxy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteOdaPrivateEndpointScanProxy.cs.html">here</a> to see an example of how to use DeleteOdaPrivateEndpointScanProxy API.</example>
         public async Task<DeleteOdaPrivateEndpointScanProxyResponse> DeleteOdaPrivateEndpointScanProxy(DeleteOdaPrivateEndpointScanProxyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOdaPrivateEndpointScanProxy");
@@ -1175,7 +1175,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteSkill.cs.html">here</a> to see an example of how to use DeleteSkill API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteSkill.cs.html">here</a> to see an example of how to use DeleteSkill API.</example>
         public async Task<DeleteSkillResponse> DeleteSkill(DeleteSkillRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSkill");
@@ -1232,7 +1232,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteSkillParameter.cs.html">here</a> to see an example of how to use DeleteSkillParameter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteSkillParameter.cs.html">here</a> to see an example of how to use DeleteSkillParameter API.</example>
         public async Task<DeleteSkillParameterResponse> DeleteSkillParameter(DeleteSkillParameterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSkillParameter");
@@ -1288,7 +1288,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteTranslator.cs.html">here</a> to see an example of how to use DeleteTranslator API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteTranslator.cs.html">here</a> to see an example of how to use DeleteTranslator API.</example>
         public async Task<DeleteTranslatorResponse> DeleteTranslator(DeleteTranslatorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteTranslator");
@@ -1344,7 +1344,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ExportDigitalAssistant.cs.html">here</a> to see an example of how to use ExportDigitalAssistant API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ExportDigitalAssistant.cs.html">here</a> to see an example of how to use ExportDigitalAssistant API.</example>
         public async Task<ExportDigitalAssistantResponse> ExportDigitalAssistant(ExportDigitalAssistantRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called exportDigitalAssistant");
@@ -1400,7 +1400,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ExportSkill.cs.html">here</a> to see an example of how to use ExportSkill API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ExportSkill.cs.html">here</a> to see an example of how to use ExportSkill API.</example>
         public async Task<ExportSkillResponse> ExportSkill(ExportSkillRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called exportSkill");
@@ -1456,7 +1456,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetAuthenticationProvider.cs.html">here</a> to see an example of how to use GetAuthenticationProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetAuthenticationProvider.cs.html">here</a> to see an example of how to use GetAuthenticationProvider API.</example>
         public async Task<GetAuthenticationProviderResponse> GetAuthenticationProvider(GetAuthenticationProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAuthenticationProvider");
@@ -1512,7 +1512,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetChannel.cs.html">here</a> to see an example of how to use GetChannel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetChannel.cs.html">here</a> to see an example of how to use GetChannel API.</example>
         public async Task<GetChannelResponse> GetChannel(GetChannelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getChannel");
@@ -1568,7 +1568,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetDigitalAssistant.cs.html">here</a> to see an example of how to use GetDigitalAssistant API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetDigitalAssistant.cs.html">here</a> to see an example of how to use GetDigitalAssistant API.</example>
         public async Task<GetDigitalAssistantResponse> GetDigitalAssistant(GetDigitalAssistantRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDigitalAssistant");
@@ -1624,7 +1624,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetDigitalAssistantParameter.cs.html">here</a> to see an example of how to use GetDigitalAssistantParameter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetDigitalAssistantParameter.cs.html">here</a> to see an example of how to use GetDigitalAssistantParameter API.</example>
         public async Task<GetDigitalAssistantParameterResponse> GetDigitalAssistantParameter(GetDigitalAssistantParameterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDigitalAssistantParameter");
@@ -1680,7 +1680,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetOdaPrivateEndpoint.cs.html">here</a> to see an example of how to use GetOdaPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetOdaPrivateEndpoint.cs.html">here</a> to see an example of how to use GetOdaPrivateEndpoint API.</example>
         public async Task<GetOdaPrivateEndpointResponse> GetOdaPrivateEndpoint(GetOdaPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOdaPrivateEndpoint");
@@ -1736,7 +1736,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetOdaPrivateEndpointAttachment.cs.html">here</a> to see an example of how to use GetOdaPrivateEndpointAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetOdaPrivateEndpointAttachment.cs.html">here</a> to see an example of how to use GetOdaPrivateEndpointAttachment API.</example>
         public async Task<GetOdaPrivateEndpointAttachmentResponse> GetOdaPrivateEndpointAttachment(GetOdaPrivateEndpointAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOdaPrivateEndpointAttachment");
@@ -1792,7 +1792,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetOdaPrivateEndpointScanProxy.cs.html">here</a> to see an example of how to use GetOdaPrivateEndpointScanProxy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetOdaPrivateEndpointScanProxy.cs.html">here</a> to see an example of how to use GetOdaPrivateEndpointScanProxy API.</example>
         public async Task<GetOdaPrivateEndpointScanProxyResponse> GetOdaPrivateEndpointScanProxy(GetOdaPrivateEndpointScanProxyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOdaPrivateEndpointScanProxy");
@@ -1848,7 +1848,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetSkill.cs.html">here</a> to see an example of how to use GetSkill API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetSkill.cs.html">here</a> to see an example of how to use GetSkill API.</example>
         public async Task<GetSkillResponse> GetSkill(GetSkillRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSkill");
@@ -1904,7 +1904,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetSkillParameter.cs.html">here</a> to see an example of how to use GetSkillParameter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetSkillParameter.cs.html">here</a> to see an example of how to use GetSkillParameter API.</example>
         public async Task<GetSkillParameterResponse> GetSkillParameter(GetSkillParameterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSkillParameter");
@@ -1960,7 +1960,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetTranslator.cs.html">here</a> to see an example of how to use GetTranslator API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetTranslator.cs.html">here</a> to see an example of how to use GetTranslator API.</example>
         public async Task<GetTranslatorResponse> GetTranslator(GetTranslatorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTranslator");
@@ -2016,7 +2016,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ImportBot.cs.html">here</a> to see an example of how to use ImportBot API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ImportBot.cs.html">here</a> to see an example of how to use ImportBot API.</example>
         public async Task<ImportBotResponse> ImportBot(ImportBotRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called importBot");
@@ -2077,7 +2077,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListAuthenticationProviders.cs.html">here</a> to see an example of how to use ListAuthenticationProviders API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListAuthenticationProviders.cs.html">here</a> to see an example of how to use ListAuthenticationProviders API.</example>
         public async Task<ListAuthenticationProvidersResponse> ListAuthenticationProviders(ListAuthenticationProvidersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAuthenticationProviders");
@@ -2138,7 +2138,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListChannels.cs.html">here</a> to see an example of how to use ListChannels API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListChannels.cs.html">here</a> to see an example of how to use ListChannels API.</example>
         public async Task<ListChannelsResponse> ListChannels(ListChannelsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listChannels");
@@ -2199,7 +2199,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListDigitalAssistantParameters.cs.html">here</a> to see an example of how to use ListDigitalAssistantParameters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListDigitalAssistantParameters.cs.html">here</a> to see an example of how to use ListDigitalAssistantParameters API.</example>
         public async Task<ListDigitalAssistantParametersResponse> ListDigitalAssistantParameters(ListDigitalAssistantParametersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDigitalAssistantParameters");
@@ -2260,7 +2260,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListDigitalAssistants.cs.html">here</a> to see an example of how to use ListDigitalAssistants API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListDigitalAssistants.cs.html">here</a> to see an example of how to use ListDigitalAssistants API.</example>
         public async Task<ListDigitalAssistantsResponse> ListDigitalAssistants(ListDigitalAssistantsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDigitalAssistants");
@@ -2321,7 +2321,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListOdaPrivateEndpointAttachments.cs.html">here</a> to see an example of how to use ListOdaPrivateEndpointAttachments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListOdaPrivateEndpointAttachments.cs.html">here</a> to see an example of how to use ListOdaPrivateEndpointAttachments API.</example>
         public async Task<ListOdaPrivateEndpointAttachmentsResponse> ListOdaPrivateEndpointAttachments(ListOdaPrivateEndpointAttachmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOdaPrivateEndpointAttachments");
@@ -2383,7 +2383,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListOdaPrivateEndpointScanProxies.cs.html">here</a> to see an example of how to use ListOdaPrivateEndpointScanProxies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListOdaPrivateEndpointScanProxies.cs.html">here</a> to see an example of how to use ListOdaPrivateEndpointScanProxies API.</example>
         public async Task<ListOdaPrivateEndpointScanProxiesResponse> ListOdaPrivateEndpointScanProxies(ListOdaPrivateEndpointScanProxiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOdaPrivateEndpointScanProxies");
@@ -2445,7 +2445,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListOdaPrivateEndpoints.cs.html">here</a> to see an example of how to use ListOdaPrivateEndpoints API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListOdaPrivateEndpoints.cs.html">here</a> to see an example of how to use ListOdaPrivateEndpoints API.</example>
         public async Task<ListOdaPrivateEndpointsResponse> ListOdaPrivateEndpoints(ListOdaPrivateEndpointsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOdaPrivateEndpoints");
@@ -2506,7 +2506,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListSkillParameters.cs.html">here</a> to see an example of how to use ListSkillParameters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListSkillParameters.cs.html">here</a> to see an example of how to use ListSkillParameters API.</example>
         public async Task<ListSkillParametersResponse> ListSkillParameters(ListSkillParametersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSkillParameters");
@@ -2567,7 +2567,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListSkills.cs.html">here</a> to see an example of how to use ListSkills API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListSkills.cs.html">here</a> to see an example of how to use ListSkills API.</example>
         public async Task<ListSkillsResponse> ListSkills(ListSkillsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSkills");
@@ -2628,7 +2628,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListTranslators.cs.html">here</a> to see an example of how to use ListTranslators API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListTranslators.cs.html">here</a> to see an example of how to use ListTranslators API.</example>
         public async Task<ListTranslatorsResponse> ListTranslators(ListTranslatorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTranslators");
@@ -2686,7 +2686,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/PublishDigitalAssistant.cs.html">here</a> to see an example of how to use PublishDigitalAssistant API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/PublishDigitalAssistant.cs.html">here</a> to see an example of how to use PublishDigitalAssistant API.</example>
         public async Task<PublishDigitalAssistantResponse> PublishDigitalAssistant(PublishDigitalAssistantRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called publishDigitalAssistant");
@@ -2744,7 +2744,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/PublishSkill.cs.html">here</a> to see an example of how to use PublishSkill API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/PublishSkill.cs.html">here</a> to see an example of how to use PublishSkill API.</example>
         public async Task<PublishSkillResponse> PublishSkill(PublishSkillRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called publishSkill");
@@ -2803,7 +2803,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/RotateChannelKeys.cs.html">here</a> to see an example of how to use RotateChannelKeys API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/RotateChannelKeys.cs.html">here</a> to see an example of how to use RotateChannelKeys API.</example>
         public async Task<RotateChannelKeysResponse> RotateChannelKeys(RotateChannelKeysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called rotateChannelKeys");
@@ -2860,7 +2860,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/StartChannel.cs.html">here</a> to see an example of how to use StartChannel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/StartChannel.cs.html">here</a> to see an example of how to use StartChannel API.</example>
         public async Task<StartChannelResponse> StartChannel(StartChannelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startChannel");
@@ -2917,7 +2917,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/StopChannel.cs.html">here</a> to see an example of how to use StopChannel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/StopChannel.cs.html">here</a> to see an example of how to use StopChannel API.</example>
         public async Task<StopChannelResponse> StopChannel(StopChannelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopChannel");
@@ -2973,7 +2973,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/TrainSkill.cs.html">here</a> to see an example of how to use TrainSkill API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/TrainSkill.cs.html">here</a> to see an example of how to use TrainSkill API.</example>
         public async Task<TrainSkillResponse> TrainSkill(TrainSkillRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called trainSkill");
@@ -3029,7 +3029,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateAuthenticationProvider.cs.html">here</a> to see an example of how to use UpdateAuthenticationProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateAuthenticationProvider.cs.html">here</a> to see an example of how to use UpdateAuthenticationProvider API.</example>
         public async Task<UpdateAuthenticationProviderResponse> UpdateAuthenticationProvider(UpdateAuthenticationProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAuthenticationProvider");
@@ -3085,7 +3085,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateChannel.cs.html">here</a> to see an example of how to use UpdateChannel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateChannel.cs.html">here</a> to see an example of how to use UpdateChannel API.</example>
         public async Task<UpdateChannelResponse> UpdateChannel(UpdateChannelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateChannel");
@@ -3141,7 +3141,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateDigitalAssistant.cs.html">here</a> to see an example of how to use UpdateDigitalAssistant API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateDigitalAssistant.cs.html">here</a> to see an example of how to use UpdateDigitalAssistant API.</example>
         public async Task<UpdateDigitalAssistantResponse> UpdateDigitalAssistant(UpdateDigitalAssistantRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDigitalAssistant");
@@ -3197,7 +3197,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateDigitalAssistantParameter.cs.html">here</a> to see an example of how to use UpdateDigitalAssistantParameter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateDigitalAssistantParameter.cs.html">here</a> to see an example of how to use UpdateDigitalAssistantParameter API.</example>
         public async Task<UpdateDigitalAssistantParameterResponse> UpdateDigitalAssistantParameter(UpdateDigitalAssistantParameterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDigitalAssistantParameter");
@@ -3253,7 +3253,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateOdaPrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateOdaPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateOdaPrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateOdaPrivateEndpoint API.</example>
         public async Task<UpdateOdaPrivateEndpointResponse> UpdateOdaPrivateEndpoint(UpdateOdaPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOdaPrivateEndpoint");
@@ -3309,7 +3309,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateSkill.cs.html">here</a> to see an example of how to use UpdateSkill API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateSkill.cs.html">here</a> to see an example of how to use UpdateSkill API.</example>
         public async Task<UpdateSkillResponse> UpdateSkill(UpdateSkillRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSkill");
@@ -3365,7 +3365,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateSkillParameter.cs.html">here</a> to see an example of how to use UpdateSkillParameter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateSkillParameter.cs.html">here</a> to see an example of how to use UpdateSkillParameter API.</example>
         public async Task<UpdateSkillParameterResponse> UpdateSkillParameter(UpdateSkillParameterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSkillParameter");
@@ -3421,7 +3421,7 @@ namespace Oci.OdaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateTranslator.cs.html">here</a> to see an example of how to use UpdateTranslator API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateTranslator.cs.html">here</a> to see an example of how to use UpdateTranslator API.</example>
         public async Task<UpdateTranslatorResponse> UpdateTranslator(UpdateTranslatorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateTranslator");

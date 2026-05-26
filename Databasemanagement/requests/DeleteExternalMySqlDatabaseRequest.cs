@@ -14,7 +14,7 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/DeleteExternalMySqlDatabase.cs.html">here</a> to see an example of how to use DeleteExternalMySqlDatabase request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/DeleteExternalMySqlDatabase.cs.html">here</a> to see an example of how to use DeleteExternalMySqlDatabase request.
     /// </example>
     public class DeleteExternalMySqlDatabaseRequest : Oci.Common.IOciRequest
     {

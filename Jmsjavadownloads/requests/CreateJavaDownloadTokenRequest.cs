@@ -14,7 +14,7 @@ using Oci.JmsjavadownloadsService.Models;
 namespace Oci.JmsjavadownloadsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/CreateJavaDownloadToken.cs.html">here</a> to see an example of how to use CreateJavaDownloadToken request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/CreateJavaDownloadToken.cs.html">here</a> to see an example of how to use CreateJavaDownloadToken request.
     /// </example>
     public class CreateJavaDownloadTokenRequest : Oci.Common.IOciRequest
     {

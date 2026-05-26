@@ -14,7 +14,7 @@ using Oci.DatabasemigrationService.Models;
 namespace Oci.DatabasemigrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/AbortJob.cs.html">here</a> to see an example of how to use AbortJob request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/AbortJob.cs.html">here</a> to see an example of how to use AbortJob request.
     /// </example>
     public class AbortJobRequest : Oci.Common.IOciRequest
     {

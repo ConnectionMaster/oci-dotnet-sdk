@@ -22,7 +22,7 @@ namespace Oci.CloudguardService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compliance document, which is assigned
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compliance document, which is assigned
         /// when you create the document as an Oracle Cloud Infrastructure resource and is immutable.
         /// 
         /// </value>
@@ -99,7 +99,7 @@ namespace Oci.CloudguardService.Models
         public System.Nullable<int> Version { get; set; }
         
         /// <value>
-        /// The type of compliance document. For definitions of supported types of compliance documents, see [Types of Compliance Documents](https://docs.cloud.oracle.com/en-us/iaas/Content/ComplianceDocuments/Concepts/compliancedocsoverview.htm#DocTypes).
+        /// The type of compliance document. For definitions of supported types of compliance documents, see [Types of Compliance Documents](https://docs.oracle.com/en-us/iaas/Content/ComplianceDocuments/Concepts/compliancedocsoverview.htm#DocTypes).
         /// 
         /// </value>
         /// <remarks>
@@ -111,7 +111,7 @@ namespace Oci.CloudguardService.Models
         
         /// <value>
         /// The information technology infrastructure platform, or set of services, to which the compliance document belongs. A platform
-        /// can also be described as an environment or a business pillar. For definitions of supported environments, see [Types of Environments](https://docs.cloud.oracle.com/en-us/iaas/Content/ComplianceDocuments/Concepts/compliancedocsoverview.htm#EnvironmentTypes).
+        /// can also be described as an environment or a business pillar. For definitions of supported environments, see [Types of Environments](https://docs.oracle.com/en-us/iaas/Content/ComplianceDocuments/Concepts/compliancedocsoverview.htm#EnvironmentTypes).
         /// 
         /// </value>
         /// <remarks>

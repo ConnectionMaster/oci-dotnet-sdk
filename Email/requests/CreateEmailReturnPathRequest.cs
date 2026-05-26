@@ -14,7 +14,7 @@ using Oci.EmailService.Models;
 namespace Oci.EmailService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateEmailReturnPath.cs.html">here</a> to see an example of how to use CreateEmailReturnPath request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateEmailReturnPath.cs.html">here</a> to see an example of how to use CreateEmailReturnPath request.
     /// </example>
     public class CreateEmailReturnPathRequest : Oci.Common.IOciRequest
     {

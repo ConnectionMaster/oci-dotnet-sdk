@@ -22,7 +22,7 @@ namespace Oci.BatchService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the batch task profile used for this task.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the batch task profile used for this task.
         /// </value>
         [JsonProperty(PropertyName = "batchTaskProfileId")]
         public string BatchTaskProfileId { get; set; }
@@ -43,7 +43,7 @@ namespace Oci.BatchService.Models
         public FleetAssignmentPolicy FleetAssignmentPolicy { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the BatchTaskEnvironment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the BatchTaskEnvironment.
         /// </value>
         /// <remarks>
         /// Required

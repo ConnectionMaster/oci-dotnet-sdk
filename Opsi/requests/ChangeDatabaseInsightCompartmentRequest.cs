@@ -14,7 +14,7 @@ using Oci.OpsiService.Models;
 namespace Oci.OpsiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeDatabaseInsightCompartment.cs.html">here</a> to see an example of how to use ChangeDatabaseInsightCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeDatabaseInsightCompartment.cs.html">here</a> to see an example of how to use ChangeDatabaseInsightCompartment request.
     /// </example>
     public class ChangeDatabaseInsightCompartmentRequest : Oci.Common.IOciRequest
     {

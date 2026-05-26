@@ -38,7 +38,7 @@ namespace Oci.AivisionService.Models
         public string ImageData { get; set; }
         
         /// <value>
-        /// [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of streamJob.
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of streamJob.
         /// 
         /// </value>
         /// <remarks>
@@ -49,7 +49,7 @@ namespace Oci.AivisionService.Models
         public string StreamJobId { get; set; }
         
         /// <value>
-        /// [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of StreamSource.
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of StreamSource.
         /// 
         /// </value>
         /// <remarks>

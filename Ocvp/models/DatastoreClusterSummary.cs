@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.OcvpService.Models
 {
     /// <summary>
-    /// An [Oracle Cloud VMware Solution](https://docs.cloud.oracle.com/iaas/Content/VMware/Concepts/ocvsoverview.htm) Datastore Cluster for software-defined data center. 
+    /// An [Oracle Cloud VMware Solution](https://docs.oracle.com/iaas/Content/VMware/Concepts/ocvsoverview.htm) Datastore Cluster for software-defined data center. 
     /// <br/>
     /// The Datastore Cluster combines multiple datastores into a single datastore cluster.
     /// 
@@ -25,7 +25,7 @@ namespace Oci.OcvpService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Datastore.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Datastore.
         /// 
         /// </value>
         /// <remarks>
@@ -36,7 +36,7 @@ namespace Oci.OcvpService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Datastores that belong to the Datastore Cluster
+        /// The [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Datastores that belong to the Datastore Cluster
         /// 
         /// </value>
         /// <remarks>
@@ -47,7 +47,7 @@ namespace Oci.OcvpService.Models
         public System.Collections.Generic.List<string> DatastoreIds { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment that
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that
         /// contains the Datastore Cluster.
         /// 
         /// </value>
@@ -72,21 +72,21 @@ namespace Oci.OcvpService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VMware Cluster that Datastore Cluster is attached to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VMware Cluster that Datastore Cluster is attached to.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "clusterId")]
         public string ClusterId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the SDDC that Datastore Cluster is associated with.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the SDDC that Datastore Cluster is associated with.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "sddcId")]
         public string SddcId { get; set; }
         
         /// <value>
-        /// The [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the ESXi hosts attached to Datastore Cluster.
+        /// The [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the ESXi hosts attached to Datastore Cluster.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "esxiHostIds")]
@@ -141,7 +141,7 @@ namespace Oci.OcvpService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -150,7 +150,7 @@ namespace Oci.OcvpService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>

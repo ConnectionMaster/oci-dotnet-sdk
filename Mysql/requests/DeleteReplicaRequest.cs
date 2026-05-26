@@ -14,13 +14,13 @@ using Oci.MysqlService.Models;
 namespace Oci.MysqlService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/DeleteReplica.cs.html">here</a> to see an example of how to use DeleteReplica request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/DeleteReplica.cs.html">here</a> to see an example of how to use DeleteReplica request.
     /// </example>
     public class DeleteReplicaRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The Replica [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The Replica [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

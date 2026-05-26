@@ -14,7 +14,7 @@ using Oci.JmsService.Models;
 namespace Oci.JmsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/UpdateTaskSchedule.cs.html">here</a> to see an example of how to use UpdateTaskSchedule request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/UpdateTaskSchedule.cs.html">here</a> to see an example of how to use UpdateTaskSchedule request.
     /// </example>
     public class UpdateTaskScheduleRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.JmsService.Requests
         public UpdateTaskScheduleDetails UpdateTaskScheduleDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) to identify this task schedule.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) to identify this task schedule.
         /// </value>
         /// <remarks>
         /// Required

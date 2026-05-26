@@ -14,7 +14,7 @@ using Oci.MarketplacepublisherService.Models;
 namespace Oci.MarketplacepublisherService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplacepublisher/GetListingRevisionAttachment.cs.html">here</a> to see an example of how to use GetListingRevisionAttachment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplacepublisher/GetListingRevisionAttachment.cs.html">here</a> to see an example of how to use GetListingRevisionAttachment request.
     /// </example>
     public class GetListingRevisionAttachmentRequest : Oci.Common.IOciRequest
     {

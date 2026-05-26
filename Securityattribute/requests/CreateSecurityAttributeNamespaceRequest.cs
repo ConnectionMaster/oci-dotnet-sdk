@@ -14,7 +14,7 @@ using Oci.SecurityattributeService.Models;
 namespace Oci.SecurityattributeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/CreateSecurityAttributeNamespace.cs.html">here</a> to see an example of how to use CreateSecurityAttributeNamespace request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/CreateSecurityAttributeNamespace.cs.html">here</a> to see an example of how to use CreateSecurityAttributeNamespace request.
     /// </example>
     public class CreateSecurityAttributeNamespaceRequest : Oci.Common.IOciRequest
     {

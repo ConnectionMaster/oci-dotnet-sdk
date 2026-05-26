@@ -17,14 +17,14 @@ namespace Oci.SchService.Models
 {
     /// <summary>
     /// The Streaming source response. Private metadata is included when the target is a stream accessed through 
-    /// a [private endpoint](https://docs.cloud.oracle.com/iaas/Content/Streaming/Concepts/streamsecurity.htm#private_endpoints).
+    /// a [private endpoint](https://docs.oracle.com/iaas/Content/Streaming/Concepts/streamsecurity.htm#private_endpoints).
     /// 
     /// </summary>
     public class StreamingSourceDetailsResponse : SourceDetailsResponse
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the stream.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the stream.
         /// 
         /// </value>
         /// <remarks>

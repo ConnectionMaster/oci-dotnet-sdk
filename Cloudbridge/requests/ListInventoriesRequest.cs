@@ -14,7 +14,7 @@ using Oci.CloudbridgeService.Models;
 namespace Oci.CloudbridgeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListInventories.cs.html">here</a> to see an example of how to use ListInventories request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListInventories.cs.html">here</a> to see an example of how to use ListInventories request.
     /// </example>
     public class ListInventoriesRequest : Oci.Common.IOciRequest
     {

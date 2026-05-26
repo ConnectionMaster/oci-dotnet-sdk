@@ -83,7 +83,7 @@ namespace Oci.GoldengateService.Models
         public string Password { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the password is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the password is stored.
         /// The password Oracle GoldenGate uses to connect the associated system of the given technology.
         /// It must conform to the specific security requirements including length, case sensitivity, and so on.
         /// If secretId is used plaintext field must not be provided.
@@ -102,7 +102,7 @@ namespace Oci.GoldengateService.Models
         public string TrustStore { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret that stores the content of the TrustStore file.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret that stores the content of the TrustStore file.
         /// Note: When provided, 'trustStore' field must not be provided.
         /// 
         /// </value>
@@ -118,7 +118,7 @@ namespace Oci.GoldengateService.Models
         public string TrustStorePassword { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the Redis TrustStore password is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the Redis TrustStore password is stored.
         /// Note: When provided, 'trustStorePassword' field must not be provided.
         /// 
         /// </value>
@@ -134,7 +134,7 @@ namespace Oci.GoldengateService.Models
         public string KeyStore { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret that stores the content of the KeyStore file.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret that stores the content of the KeyStore file.
         /// Note: When provided, 'keyStore' field must not be provided.
         /// 
         /// </value>
@@ -150,7 +150,7 @@ namespace Oci.GoldengateService.Models
         public string KeyStorePassword { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the Redis KeyStore password is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the Redis KeyStore password is stored.
         /// Note: When provided, 'keyStorePassword' field must not be provided.
         /// 
         /// </value>
@@ -158,7 +158,7 @@ namespace Oci.GoldengateService.Models
         public string KeyStorePasswordSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Redis cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Redis cluster.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "redisClusterId")]

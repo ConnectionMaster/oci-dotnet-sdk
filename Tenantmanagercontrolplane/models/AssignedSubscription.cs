@@ -35,7 +35,7 @@ namespace Oci.TenantmanagercontrolplaneService.Models
 
         
         /// <value>
-        /// The Oracle ID ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the subscription.
+        /// The Oracle ID ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the subscription.
         /// </value>
         /// <remarks>
         /// Required
@@ -45,7 +45,7 @@ namespace Oci.TenantmanagercontrolplaneService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The Oracle ID ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the owning compartment. Always a tenancy OCID.
+        /// The Oracle ID ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the owning compartment. Always a tenancy OCID.
         /// </value>
         /// <remarks>
         /// Required

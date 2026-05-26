@@ -25,7 +25,7 @@ namespace Oci.LoadbalancerService.Models
     {
         
         /// <value>
-        /// An array of NSG [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) associated with the load
+        /// An array of NSG [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) associated with the load
         /// balancer.
         /// <br/>
         /// During the load balancer's creation, the service adds the new load balancer to the specified NSGs.

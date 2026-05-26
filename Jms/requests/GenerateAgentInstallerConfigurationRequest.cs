@@ -14,7 +14,7 @@ using Oci.JmsService.Models;
 namespace Oci.JmsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GenerateAgentInstallerConfiguration.cs.html">here</a> to see an example of how to use GenerateAgentInstallerConfiguration request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GenerateAgentInstallerConfiguration.cs.html">here</a> to see an example of how to use GenerateAgentInstallerConfiguration request.
     /// </example>
     public class GenerateAgentInstallerConfigurationRequest : Oci.Common.IOciRequest
     {

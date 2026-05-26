@@ -14,13 +14,13 @@ using Oci.ResourcemanagerService.Models;
 namespace Oci.ResourcemanagerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetStackTfConfig.cs.html">here</a> to see an example of how to use GetStackTfConfig request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetStackTfConfig.cs.html">here</a> to see an example of how to use GetStackTfConfig request.
     /// </example>
     public class GetStackTfConfigRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the stack.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the stack.
         /// </value>
         /// <remarks>
         /// Required

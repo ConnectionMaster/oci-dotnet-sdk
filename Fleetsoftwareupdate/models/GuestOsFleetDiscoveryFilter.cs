@@ -16,7 +16,7 @@ using Newtonsoft.Json.Linq;
 namespace Oci.FleetsoftwareupdateService.Models
 {
     /// <summary>
-    /// Discover Exadata VM Cluster targets for a 'GUEST_OS' collection by querying [OCI Search Service](https://docs.cloud.oracle.com/Content/Search/Concepts/queryoverview.htm) using specified filters.
+    /// Discover Exadata VM Cluster targets for a 'GUEST_OS' collection by querying [OCI Search Service](https://docs.oracle.com/iaas/Content/Search/Concepts/queryoverview.htm) using specified filters.
     /// 
     /// </summary>
     [JsonConverter(typeof(GuestOsFleetDiscoveryFilterModelConverter))]

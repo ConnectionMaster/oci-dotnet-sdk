@@ -80,7 +80,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/AddUsagePlanLock.cs.html">here</a> to see an example of how to use AddUsagePlanLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/AddUsagePlanLock.cs.html">here</a> to see an example of how to use AddUsagePlanLock API.</example>
         public async Task<AddUsagePlanLockResponse> AddUsagePlanLock(AddUsagePlanLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addUsagePlanLock");
@@ -136,7 +136,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/ChangeUsagePlanCompartment.cs.html">here</a> to see an example of how to use ChangeUsagePlanCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/ChangeUsagePlanCompartment.cs.html">here</a> to see an example of how to use ChangeUsagePlanCompartment API.</example>
         public async Task<ChangeUsagePlanCompartmentResponse> ChangeUsagePlanCompartment(ChangeUsagePlanCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeUsagePlanCompartment");
@@ -192,7 +192,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/CreateUsagePlan.cs.html">here</a> to see an example of how to use CreateUsagePlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/CreateUsagePlan.cs.html">here</a> to see an example of how to use CreateUsagePlan API.</example>
         public async Task<CreateUsagePlanResponse> CreateUsagePlan(CreateUsagePlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createUsagePlan");
@@ -248,7 +248,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/DeleteUsagePlan.cs.html">here</a> to see an example of how to use DeleteUsagePlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/DeleteUsagePlan.cs.html">here</a> to see an example of how to use DeleteUsagePlan API.</example>
         public async Task<DeleteUsagePlanResponse> DeleteUsagePlan(DeleteUsagePlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteUsagePlan");
@@ -304,7 +304,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/GetUsagePlan.cs.html">here</a> to see an example of how to use GetUsagePlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/GetUsagePlan.cs.html">here</a> to see an example of how to use GetUsagePlan API.</example>
         public async Task<GetUsagePlanResponse> GetUsagePlan(GetUsagePlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getUsagePlan");
@@ -360,7 +360,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/ListUsagePlans.cs.html">here</a> to see an example of how to use ListUsagePlans API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/ListUsagePlans.cs.html">here</a> to see an example of how to use ListUsagePlans API.</example>
         public async Task<ListUsagePlansResponse> ListUsagePlans(ListUsagePlansRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUsagePlans");
@@ -416,7 +416,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/RemoveUsagePlanLock.cs.html">here</a> to see an example of how to use RemoveUsagePlanLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/RemoveUsagePlanLock.cs.html">here</a> to see an example of how to use RemoveUsagePlanLock API.</example>
         public async Task<RemoveUsagePlanLockResponse> RemoveUsagePlanLock(RemoveUsagePlanLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeUsagePlanLock");
@@ -472,7 +472,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/UpdateUsagePlan.cs.html">here</a> to see an example of how to use UpdateUsagePlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/UpdateUsagePlan.cs.html">here</a> to see an example of how to use UpdateUsagePlan API.</example>
         public async Task<UpdateUsagePlanResponse> UpdateUsagePlan(UpdateUsagePlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateUsagePlan");

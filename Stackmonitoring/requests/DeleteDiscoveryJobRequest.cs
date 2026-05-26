@@ -14,7 +14,7 @@ using Oci.StackmonitoringService.Models;
 namespace Oci.StackmonitoringService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteDiscoveryJob.cs.html">here</a> to see an example of how to use DeleteDiscoveryJob request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteDiscoveryJob.cs.html">here</a> to see an example of how to use DeleteDiscoveryJob request.
     /// </example>
     public class DeleteDiscoveryJobRequest : Oci.Common.IOciRequest
     {

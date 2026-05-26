@@ -22,21 +22,21 @@ namespace Oci.CoreService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC to assign the private IPs to. The VNIC and private IPs must be in the same subnet.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC to assign the private IPs to. The VNIC and private IPs must be in the same subnet.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "vnicId")]
         public string VnicId { get; set; }
         
         /// <value>
-        /// Use this attribute only with the Oracle Cloud VMware Solution. The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN from which the private IPs is to be drawn. The IP addresses, *if supplied*, must be valid for the given VLAN. See {@link Vlan}.
+        /// Use this attribute only with the Oracle Cloud VMware Solution. The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN from which the private IPs is to be drawn. The IP addresses, *if supplied*, must be valid for the given VLAN. See {@link Vlan}.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "vlanId")]
         public string VlanId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet from which the private IPs is to be drawn. The IP addresses,
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet from which the private IPs is to be drawn. The IP addresses,
         /// *if supplied*, must be valid for the given subnet.
         /// 
         /// </value>

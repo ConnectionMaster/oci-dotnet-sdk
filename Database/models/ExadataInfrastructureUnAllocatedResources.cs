@@ -16,14 +16,15 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabaseService.Models
 {
     /// <summary>
-    /// Un allocated resources details of the Exadata Cloud@Customer infrastructure. Applies to Exadata Cloud@Customer instances only.
+    /// Displays details of unallocated resources for the Exadata Cloud@Customer infrastructure.
+    /// Applies to Exadata Cloud@Customer instances only.
     /// 
     /// </summary>
     public class ExadataInfrastructureUnAllocatedResources 
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Exadata infrastructure.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Exadata infrastructure.
         /// </value>
         /// <remarks>
         /// Required

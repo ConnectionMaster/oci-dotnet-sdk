@@ -115,14 +115,14 @@ namespace Oci.GoldengateService.Models
         public string PrivateIp { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the database system being referenced.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database system being referenced.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "dbSystemId")]
         public string DbSystemId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the password is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the password is stored.
         /// The password Oracle GoldenGate uses to connect the associated system of the given technology.
         /// It must conform to the specific security requirements including length, case sensitivity, and so on.
         /// If secretId is used plaintext field must not be provided.
@@ -133,7 +133,7 @@ namespace Oci.GoldengateService.Models
         public string PasswordSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret that stores the private key of the PostgreSQL server. The supported file formats are .pem and .crt. 
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret that stores the private key of the PostgreSQL server. The supported file formats are .pem and .crt. 
         /// Note: When provided, 'sslKey' field must not be provided.
         /// 
         /// </value>

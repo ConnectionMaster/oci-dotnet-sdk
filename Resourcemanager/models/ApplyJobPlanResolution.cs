@@ -23,15 +23,15 @@ namespace Oci.ResourcemanagerService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that specifies the most recently executed plan job.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that specifies the most recently executed plan job.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "planJobId")]
         public string PlanJobId { get; set; }
         
         /// <value>
-        /// Specifies whether to use the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the most recently run plan job.
-        /// `True` if using the latest job [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Must be a plan job that completed successfully.
+        /// Specifies whether to use the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the most recently run plan job.
+        /// `True` if using the latest job [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Must be a plan job that completed successfully.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isUseLatestJobId")]

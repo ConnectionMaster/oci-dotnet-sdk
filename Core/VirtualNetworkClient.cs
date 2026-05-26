@@ -81,7 +81,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddDrgRouteDistributionStatements.cs.html">here</a> to see an example of how to use AddDrgRouteDistributionStatements API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddDrgRouteDistributionStatements.cs.html">here</a> to see an example of how to use AddDrgRouteDistributionStatements API.</example>
         public async Task<AddDrgRouteDistributionStatementsResponse> AddDrgRouteDistributionStatements(AddDrgRouteDistributionStatementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addDrgRouteDistributionStatements");
@@ -138,7 +138,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddDrgRouteRules.cs.html">here</a> to see an example of how to use AddDrgRouteRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddDrgRouteRules.cs.html">here</a> to see an example of how to use AddDrgRouteRules API.</example>
         public async Task<AddDrgRouteRulesResponse> AddDrgRouteRules(AddDrgRouteRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addDrgRouteRules");
@@ -195,7 +195,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddIpv4SubnetCidr.cs.html">here</a> to see an example of how to use AddIpv4SubnetCidr API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddIpv4SubnetCidr.cs.html">here</a> to see an example of how to use AddIpv4SubnetCidr API.</example>
         public async Task<AddIpv4SubnetCidrResponse> AddIpv4SubnetCidr(AddIpv4SubnetCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addIpv4SubnetCidr");
@@ -252,7 +252,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddIpv6SubnetCidr.cs.html">here</a> to see an example of how to use AddIpv6SubnetCidr API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddIpv6SubnetCidr.cs.html">here</a> to see an example of how to use AddIpv6SubnetCidr API.</example>
         public async Task<AddIpv6SubnetCidrResponse> AddIpv6SubnetCidr(AddIpv6SubnetCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addIpv6SubnetCidr");
@@ -310,7 +310,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddIpv6VcnCidr.cs.html">here</a> to see an example of how to use AddIpv6VcnCidr API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddIpv6VcnCidr.cs.html">here</a> to see an example of how to use AddIpv6VcnCidr API.</example>
         public async Task<AddIpv6VcnCidrResponse> AddIpv6VcnCidr(AddIpv6VcnCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addIpv6VcnCidr");
@@ -367,7 +367,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddNetworkSecurityGroupSecurityRules.cs.html">here</a> to see an example of how to use AddNetworkSecurityGroupSecurityRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddNetworkSecurityGroupSecurityRules.cs.html">here</a> to see an example of how to use AddNetworkSecurityGroupSecurityRules API.</example>
         public async Task<AddNetworkSecurityGroupSecurityRulesResponse> AddNetworkSecurityGroupSecurityRules(AddNetworkSecurityGroupSecurityRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addNetworkSecurityGroupSecurityRules");
@@ -426,7 +426,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddPublicIpPoolCapacity.cs.html">here</a> to see an example of how to use AddPublicIpPoolCapacity API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddPublicIpPoolCapacity.cs.html">here</a> to see an example of how to use AddPublicIpPoolCapacity API.</example>
         public async Task<AddPublicIpPoolCapacityResponse> AddPublicIpPoolCapacity(AddPublicIpPoolCapacityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addPublicIpPoolCapacity");
@@ -489,7 +489,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddVcnCidr.cs.html">here</a> to see an example of how to use AddVcnCidr API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddVcnCidr.cs.html">here</a> to see an example of how to use AddVcnCidr API.</example>
         public async Task<AddVcnCidrResponse> AddVcnCidr(AddVcnCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addVcnCidr");
@@ -547,7 +547,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AdvertiseByoipRange.cs.html">here</a> to see an example of how to use AdvertiseByoipRange API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AdvertiseByoipRange.cs.html">here</a> to see an example of how to use AdvertiseByoipRange API.</example>
         public async Task<AdvertiseByoipRangeResponse> AdvertiseByoipRange(AdvertiseByoipRangeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called advertiseByoipRange");
@@ -613,7 +613,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AttachServiceId.cs.html">here</a> to see an example of how to use AttachServiceId API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AttachServiceId.cs.html">here</a> to see an example of how to use AttachServiceId API.</example>
         public async Task<AttachServiceIdResponse> AttachServiceId(AttachServiceIdRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called attachServiceId");
@@ -673,7 +673,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkAddVirtualCircuitPublicPrefixes.cs.html">here</a> to see an example of how to use BulkAddVirtualCircuitPublicPrefixes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkAddVirtualCircuitPublicPrefixes.cs.html">here</a> to see an example of how to use BulkAddVirtualCircuitPublicPrefixes API.</example>
         public async Task<BulkAddVirtualCircuitPublicPrefixesResponse> BulkAddVirtualCircuitPublicPrefixes(BulkAddVirtualCircuitPublicPrefixesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkAddVirtualCircuitPublicPrefixes");
@@ -730,7 +730,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkCreateIpv6s.cs.html">here</a> to see an example of how to use BulkCreateIpv6s API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkCreateIpv6s.cs.html">here</a> to see an example of how to use BulkCreateIpv6s API.</example>
         public async Task<BulkCreateIpv6sResponse> BulkCreateIpv6s(BulkCreateIpv6sRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkCreateIpv6s");
@@ -787,7 +787,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkCreatePrivateIps.cs.html">here</a> to see an example of how to use BulkCreatePrivateIps API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkCreatePrivateIps.cs.html">here</a> to see an example of how to use BulkCreatePrivateIps API.</example>
         public async Task<BulkCreatePrivateIpsResponse> BulkCreatePrivateIps(BulkCreatePrivateIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkCreatePrivateIps");
@@ -844,7 +844,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDeleteIpv6s.cs.html">here</a> to see an example of how to use BulkDeleteIpv6s API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDeleteIpv6s.cs.html">here</a> to see an example of how to use BulkDeleteIpv6s API.</example>
         public async Task<BulkDeleteIpv6sResponse> BulkDeleteIpv6s(BulkDeleteIpv6sRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkDeleteIpv6s");
@@ -901,7 +901,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDeletePrivateIps.cs.html">here</a> to see an example of how to use BulkDeletePrivateIps API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDeletePrivateIps.cs.html">here</a> to see an example of how to use BulkDeletePrivateIps API.</example>
         public async Task<BulkDeletePrivateIpsResponse> BulkDeletePrivateIps(BulkDeletePrivateIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkDeletePrivateIps");
@@ -961,7 +961,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDeleteVirtualCircuitPublicPrefixes.cs.html">here</a> to see an example of how to use BulkDeleteVirtualCircuitPublicPrefixes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDeleteVirtualCircuitPublicPrefixes.cs.html">here</a> to see an example of how to use BulkDeleteVirtualCircuitPublicPrefixes API.</example>
         public async Task<BulkDeleteVirtualCircuitPublicPrefixesResponse> BulkDeleteVirtualCircuitPublicPrefixes(BulkDeleteVirtualCircuitPublicPrefixesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkDeleteVirtualCircuitPublicPrefixes");
@@ -1018,7 +1018,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDetachIpv6s.cs.html">here</a> to see an example of how to use BulkDetachIpv6s API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDetachIpv6s.cs.html">here</a> to see an example of how to use BulkDetachIpv6s API.</example>
         public async Task<BulkDetachIpv6sResponse> BulkDetachIpv6s(BulkDetachIpv6sRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkDetachIpv6s");
@@ -1067,7 +1067,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Unassign the specified private IP addresses from the Virtual Network Interface Card (VNIC). You must specify the PrivateIP object&#39;s [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Unassign the specified private IP addresses from the Virtual Network Interface Card (VNIC). You must specify the PrivateIP object&#39;s [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1075,7 +1075,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDetachPrivateIps.cs.html">here</a> to see an example of how to use BulkDetachPrivateIps API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDetachPrivateIps.cs.html">here</a> to see an example of how to use BulkDetachPrivateIps API.</example>
         public async Task<BulkDetachPrivateIpsResponse> BulkDetachPrivateIps(BulkDetachPrivateIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkDetachPrivateIps");
@@ -1132,7 +1132,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkUpdateIpv6s.cs.html">here</a> to see an example of how to use BulkUpdateIpv6s API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkUpdateIpv6s.cs.html">here</a> to see an example of how to use BulkUpdateIpv6s API.</example>
         public async Task<BulkUpdateIpv6sResponse> BulkUpdateIpv6s(BulkUpdateIpv6sRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUpdateIpv6s");
@@ -1188,7 +1188,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkUpdatePrivateIps.cs.html">here</a> to see an example of how to use BulkUpdatePrivateIps API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkUpdatePrivateIps.cs.html">here</a> to see an example of how to use BulkUpdatePrivateIps API.</example>
         public async Task<BulkUpdatePrivateIpsResponse> BulkUpdatePrivateIps(BulkUpdatePrivateIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUpdatePrivateIps");
@@ -1239,7 +1239,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a BYOASN Resource to a different compartment. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1247,7 +1247,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeByoasnCompartment.cs.html">here</a> to see an example of how to use ChangeByoasnCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeByoasnCompartment.cs.html">here</a> to see an example of how to use ChangeByoasnCompartment API.</example>
         public async Task<ChangeByoasnCompartmentResponse> ChangeByoasnCompartment(ChangeByoasnCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeByoasnCompartment");
@@ -1298,7 +1298,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a BYOIP CIDR block to a different compartment. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1306,7 +1306,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeByoipRangeCompartment.cs.html">here</a> to see an example of how to use ChangeByoipRangeCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeByoipRangeCompartment.cs.html">here</a> to see an example of how to use ChangeByoipRangeCompartment API.</example>
         public async Task<ChangeByoipRangeCompartmentResponse> ChangeByoipRangeCompartment(ChangeByoipRangeCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeByoipRangeCompartment");
@@ -1357,7 +1357,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a capture filter to a new compartment in the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1365,7 +1365,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeCaptureFilterCompartment.cs.html">here</a> to see an example of how to use ChangeCaptureFilterCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeCaptureFilterCompartment.cs.html">here</a> to see an example of how to use ChangeCaptureFilterCompartment API.</example>
         public async Task<ChangeCaptureFilterCompartmentResponse> ChangeCaptureFilterCompartment(ChangeCaptureFilterCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeCaptureFilterCompartment");
@@ -1416,7 +1416,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a CPE object into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1424,7 +1424,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeCpeCompartment.cs.html">here</a> to see an example of how to use ChangeCpeCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeCpeCompartment.cs.html">here</a> to see an example of how to use ChangeCpeCompartment API.</example>
         public async Task<ChangeCpeCompartmentResponse> ChangeCpeCompartment(ChangeCpeCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeCpeCompartment");
@@ -1475,7 +1475,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a cross-connect into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1483,7 +1483,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeCrossConnectCompartment.cs.html">here</a> to see an example of how to use ChangeCrossConnectCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeCrossConnectCompartment.cs.html">here</a> to see an example of how to use ChangeCrossConnectCompartment API.</example>
         public async Task<ChangeCrossConnectCompartmentResponse> ChangeCrossConnectCompartment(ChangeCrossConnectCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeCrossConnectCompartment");
@@ -1534,7 +1534,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a cross-connect group into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1542,7 +1542,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeCrossConnectGroupCompartment.cs.html">here</a> to see an example of how to use ChangeCrossConnectGroupCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeCrossConnectGroupCompartment.cs.html">here</a> to see an example of how to use ChangeCrossConnectGroupCompartment API.</example>
         public async Task<ChangeCrossConnectGroupCompartmentResponse> ChangeCrossConnectGroupCompartment(ChangeCrossConnectGroupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeCrossConnectGroupCompartment");
@@ -1593,7 +1593,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a set of DHCP options into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1601,7 +1601,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeDhcpOptionsCompartment.cs.html">here</a> to see an example of how to use ChangeDhcpOptionsCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeDhcpOptionsCompartment.cs.html">here</a> to see an example of how to use ChangeDhcpOptionsCompartment API.</example>
         public async Task<ChangeDhcpOptionsCompartmentResponse> ChangeDhcpOptionsCompartment(ChangeDhcpOptionsCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDhcpOptionsCompartment");
@@ -1652,7 +1652,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a DRG into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1660,7 +1660,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeDrgCompartment.cs.html">here</a> to see an example of how to use ChangeDrgCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeDrgCompartment.cs.html">here</a> to see an example of how to use ChangeDrgCompartment API.</example>
         public async Task<ChangeDrgCompartmentResponse> ChangeDrgCompartment(ChangeDrgCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDrgCompartment");
@@ -1711,7 +1711,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves an IPSec connection into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1719,7 +1719,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeIPSecConnectionCompartment.cs.html">here</a> to see an example of how to use ChangeIPSecConnectionCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeIPSecConnectionCompartment.cs.html">here</a> to see an example of how to use ChangeIPSecConnectionCompartment API.</example>
         public async Task<ChangeIPSecConnectionCompartmentResponse> ChangeIPSecConnectionCompartment(ChangeIPSecConnectionCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeIPSecConnectionCompartment");
@@ -1770,7 +1770,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves an internet gateway into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1778,7 +1778,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeInternetGatewayCompartment.cs.html">here</a> to see an example of how to use ChangeInternetGatewayCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeInternetGatewayCompartment.cs.html">here</a> to see an example of how to use ChangeInternetGatewayCompartment API.</example>
         public async Task<ChangeInternetGatewayCompartmentResponse> ChangeInternetGatewayCompartment(ChangeInternetGatewayCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeInternetGatewayCompartment");
@@ -1829,7 +1829,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a local peering gateway into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1837,7 +1837,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeLocalPeeringGatewayCompartment.cs.html">here</a> to see an example of how to use ChangeLocalPeeringGatewayCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeLocalPeeringGatewayCompartment.cs.html">here</a> to see an example of how to use ChangeLocalPeeringGatewayCompartment API.</example>
         public async Task<ChangeLocalPeeringGatewayCompartmentResponse> ChangeLocalPeeringGatewayCompartment(ChangeLocalPeeringGatewayCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeLocalPeeringGatewayCompartment");
@@ -1888,7 +1888,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a NAT gateway into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1896,7 +1896,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeNatGatewayCompartment.cs.html">here</a> to see an example of how to use ChangeNatGatewayCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeNatGatewayCompartment.cs.html">here</a> to see an example of how to use ChangeNatGatewayCompartment API.</example>
         public async Task<ChangeNatGatewayCompartmentResponse> ChangeNatGatewayCompartment(ChangeNatGatewayCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeNatGatewayCompartment");
@@ -1946,7 +1946,7 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Moves a network security group into a different compartment within the same tenancy. For
-        /// information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1954,7 +1954,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeNetworkSecurityGroupCompartment.cs.html">here</a> to see an example of how to use ChangeNetworkSecurityGroupCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeNetworkSecurityGroupCompartment.cs.html">here</a> to see an example of how to use ChangeNetworkSecurityGroupCompartment API.</example>
         public async Task<ChangeNetworkSecurityGroupCompartmentResponse> ChangeNetworkSecurityGroupCompartment(ChangeNetworkSecurityGroupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeNetworkSecurityGroupCompartment");
@@ -2005,7 +2005,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a public IP into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// &lt;br/&gt;
         /// This operation applies only to reserved public IPs. Ephemeral public IPs always belong to the
         /// same compartment as their VNIC and move accordingly.
@@ -2016,7 +2016,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangePublicIpCompartment.cs.html">here</a> to see an example of how to use ChangePublicIpCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangePublicIpCompartment.cs.html">here</a> to see an example of how to use ChangePublicIpCompartment API.</example>
         public async Task<ChangePublicIpCompartmentResponse> ChangePublicIpCompartment(ChangePublicIpCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changePublicIpCompartment");
@@ -2067,7 +2067,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a public IP pool to a different compartment. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2075,7 +2075,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangePublicIpPoolCompartment.cs.html">here</a> to see an example of how to use ChangePublicIpPoolCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangePublicIpPoolCompartment.cs.html">here</a> to see an example of how to use ChangePublicIpPoolCompartment API.</example>
         public async Task<ChangePublicIpPoolCompartmentResponse> ChangePublicIpPoolCompartment(ChangePublicIpPoolCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changePublicIpPoolCompartment");
@@ -2126,7 +2126,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a remote peering connection (RPC) into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2134,7 +2134,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeRemotePeeringConnectionCompartment.cs.html">here</a> to see an example of how to use ChangeRemotePeeringConnectionCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeRemotePeeringConnectionCompartment.cs.html">here</a> to see an example of how to use ChangeRemotePeeringConnectionCompartment API.</example>
         public async Task<ChangeRemotePeeringConnectionCompartmentResponse> ChangeRemotePeeringConnectionCompartment(ChangeRemotePeeringConnectionCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeRemotePeeringConnectionCompartment");
@@ -2185,7 +2185,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a route table into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2193,7 +2193,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeRouteTableCompartment.cs.html">here</a> to see an example of how to use ChangeRouteTableCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeRouteTableCompartment.cs.html">here</a> to see an example of how to use ChangeRouteTableCompartment API.</example>
         public async Task<ChangeRouteTableCompartmentResponse> ChangeRouteTableCompartment(ChangeRouteTableCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeRouteTableCompartment");
@@ -2244,7 +2244,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a security list into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2252,7 +2252,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeSecurityListCompartment.cs.html">here</a> to see an example of how to use ChangeSecurityListCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeSecurityListCompartment.cs.html">here</a> to see an example of how to use ChangeSecurityListCompartment API.</example>
         public async Task<ChangeSecurityListCompartmentResponse> ChangeSecurityListCompartment(ChangeSecurityListCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSecurityListCompartment");
@@ -2303,7 +2303,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a service gateway into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2311,7 +2311,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeServiceGatewayCompartment.cs.html">here</a> to see an example of how to use ChangeServiceGatewayCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeServiceGatewayCompartment.cs.html">here</a> to see an example of how to use ChangeServiceGatewayCompartment API.</example>
         public async Task<ChangeServiceGatewayCompartmentResponse> ChangeServiceGatewayCompartment(ChangeServiceGatewayCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeServiceGatewayCompartment");
@@ -2362,7 +2362,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a subnet into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2370,7 +2370,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeSubnetCompartment.cs.html">here</a> to see an example of how to use ChangeSubnetCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeSubnetCompartment.cs.html">here</a> to see an example of how to use ChangeSubnetCompartment API.</example>
         public async Task<ChangeSubnetCompartmentResponse> ChangeSubnetCompartment(ChangeSubnetCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSubnetCompartment");
@@ -2421,7 +2421,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a VCN into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2429,7 +2429,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeVcnCompartment.cs.html">here</a> to see an example of how to use ChangeVcnCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeVcnCompartment.cs.html">here</a> to see an example of how to use ChangeVcnCompartment API.</example>
         public async Task<ChangeVcnCompartmentResponse> ChangeVcnCompartment(ChangeVcnCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeVcnCompartment");
@@ -2480,7 +2480,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a virtual circuit into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2488,7 +2488,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeVirtualCircuitCompartment.cs.html">here</a> to see an example of how to use ChangeVirtualCircuitCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeVirtualCircuitCompartment.cs.html">here</a> to see an example of how to use ChangeVirtualCircuitCompartment API.</example>
         public async Task<ChangeVirtualCircuitCompartmentResponse> ChangeVirtualCircuitCompartment(ChangeVirtualCircuitCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeVirtualCircuitCompartment");
@@ -2539,7 +2539,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a VLAN into a different compartment within the same tenancy.
         /// For information about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2547,7 +2547,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeVlanCompartment.cs.html">here</a> to see an example of how to use ChangeVlanCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeVlanCompartment.cs.html">here</a> to see an example of how to use ChangeVlanCompartment API.</example>
         public async Task<ChangeVlanCompartmentResponse> ChangeVlanCompartment(ChangeVlanCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeVlanCompartment");
@@ -2598,7 +2598,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Moves a VTAP to a new compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2606,7 +2606,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeVtapCompartment.cs.html">here</a> to see an example of how to use ChangeVtapCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeVtapCompartment.cs.html">here</a> to see an example of how to use ChangeVtapCompartment API.</example>
         public async Task<ChangeVtapCompartmentResponse> ChangeVtapCompartment(ChangeVtapCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeVtapCompartment");
@@ -2662,7 +2662,7 @@ namespace Oci.CoreService
         /// an Identity and Access Management (IAM) policy that gives the requestor permission
         /// to connect to LPGs in the acceptor&#39;s compartment. Without that permission, this
         /// operation will fail. For more information, see
-        /// [VCN Peering](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/VCNpeering.htm).
+        /// [VCN Peering](https://docs.oracle.com/iaas/Content/Network/Tasks/VCNpeering.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2670,7 +2670,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ConnectLocalPeeringGateways.cs.html">here</a> to see an example of how to use ConnectLocalPeeringGateways API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ConnectLocalPeeringGateways.cs.html">here</a> to see an example of how to use ConnectLocalPeeringGateways API.</example>
         public async Task<ConnectLocalPeeringGatewaysResponse> ConnectLocalPeeringGateways(ConnectLocalPeeringGatewaysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called connectLocalPeeringGateways");
@@ -2726,7 +2726,7 @@ namespace Oci.CoreService
         /// an Identity and Access Management (IAM) policy that gives the requestor permission
         /// to connect to RPCs in the acceptor&#39;s compartment. Without that permission, this
         /// operation will fail. For more information, see
-        /// [VCN Peering](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/VCNpeering.htm).
+        /// [VCN Peering](https://docs.oracle.com/iaas/Content/Network/Tasks/VCNpeering.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2734,7 +2734,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ConnectRemotePeeringConnections.cs.html">here</a> to see an example of how to use ConnectRemotePeeringConnections API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ConnectRemotePeeringConnections.cs.html">here</a> to see an example of how to use ConnectRemotePeeringConnections API.</example>
         public async Task<ConnectRemotePeeringConnectionsResponse> ConnectRemotePeeringConnections(ConnectRemotePeeringConnectionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called connectRemotePeeringConnections");
@@ -2791,7 +2791,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateByoasn.cs.html">here</a> to see an example of how to use CreateByoasn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateByoasn.cs.html">here</a> to see an example of how to use CreateByoasn API.</example>
         public async Task<CreateByoasnResponse> CreateByoasn(CreateByoasnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createByoasn");
@@ -2848,7 +2848,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateByoipRange.cs.html">here</a> to see an example of how to use CreateByoipRange API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateByoipRange.cs.html">here</a> to see an example of how to use CreateByoipRange API.</example>
         public async Task<CreateByoipRangeResponse> CreateByoipRange(CreateByoipRangeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createByoipRange");
@@ -2899,10 +2899,10 @@ namespace Oci.CoreService
         /// <summary>
         /// Creates a virtual test access point (VTAP) capture filter in the specified compartment.
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains
+        /// For the purposes of access control, you must provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains
         /// the VTAP. For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
-        /// For information about OCIDs, see [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
+        /// For information about OCIDs, see [Resource Identifiers](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the VTAP, otherwise a default is provided.
         /// It does not have to be unique, and you can change it.
@@ -2913,7 +2913,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateCaptureFilter.cs.html">here</a> to see an example of how to use CreateCaptureFilter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateCaptureFilter.cs.html">here</a> to see an example of how to use CreateCaptureFilter API.</example>
         public async Task<CreateCaptureFilterResponse> CreateCaptureFilter(CreateCaptureFilterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCaptureFilter");
@@ -2963,17 +2963,17 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Creates a new virtual customer-premises equipment (CPE) object in the specified compartment. For
-        /// more information, see [Site-to-Site VPN Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/overviewIPsec.htm).
+        /// more information, see [Site-to-Site VPN Overview](https://docs.oracle.com/iaas/Content/Network/Tasks/overviewIPsec.htm).
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want
+        /// For the purposes of access control, you must provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want
         /// the CPE to reside. Notice that the CPE doesn&#39;t have to be in the same compartment as the IPSec
         /// connection or other Networking Service components. If you&#39;re not sure which compartment to
         /// use, put the CPE in the same compartment as the DRG. For more information about
-        /// compartments and access control, see [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
-        /// For information about OCIDs, see [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// compartments and access control, see [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
+        /// For information about OCIDs, see [Resource Identifiers](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You must provide the public IP address of your on-premises router. See
-        /// [CPE Configuration](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/configuringCPE.htm).
+        /// [CPE Configuration](https://docs.oracle.com/iaas/Content/Network/Tasks/configuringCPE.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the CPE, otherwise a default is provided. It does not have to
         /// be unique, and you can change it. Avoid entering confidential information.
@@ -2984,7 +2984,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateCpe.cs.html">here</a> to see an example of how to use CreateCpe API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateCpe.cs.html">here</a> to see an example of how to use CreateCpe API.</example>
         public async Task<CreateCpeResponse> CreateCpe(CreateCpeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCpe");
@@ -3039,16 +3039,16 @@ namespace Oci.CoreService
         /// &lt;br/&gt;
         /// After creating the &#x60;CrossConnect&#x60; object, you need to go the FastConnect location
         /// and request to have the physical cable installed. For more information, see
-        /// [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+        /// [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the
+        /// For the purposes of access control, you must provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the
         /// compartment where you want the cross-connect to reside. If you&#39;re
         /// not sure which compartment to use, put the cross-connect in the
         /// same compartment with your VCN. For more information about
         /// compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// For information about OCIDs, see
-        /// [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// [Resource Identifiers](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the cross-connect.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -3059,7 +3059,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateCrossConnect.cs.html">here</a> to see an example of how to use CreateCrossConnect API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateCrossConnect.cs.html">here</a> to see an example of how to use CreateCrossConnect API.</example>
         public async Task<CreateCrossConnectResponse> CreateCrossConnect(CreateCrossConnectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCrossConnect");
@@ -3110,16 +3110,16 @@ namespace Oci.CoreService
         /// <summary>
         /// Creates a new cross-connect group to use with Oracle Cloud Infrastructure
         /// FastConnect. For more information, see
-        /// [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+        /// [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the
+        /// For the purposes of access control, you must provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the
         /// compartment where you want the cross-connect group to reside. If you&#39;re
         /// not sure which compartment to use, put the cross-connect group in the
         /// same compartment with your VCN. For more information about
         /// compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// For information about OCIDs, see
-        /// [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// [Resource Identifiers](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the cross-connect group.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -3130,7 +3130,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateCrossConnectGroup.cs.html">here</a> to see an example of how to use CreateCrossConnectGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateCrossConnectGroup.cs.html">here</a> to see an example of how to use CreateCrossConnectGroup API.</example>
         public async Task<CreateCrossConnectGroupResponse> CreateCrossConnectGroup(CreateCrossConnectGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCrossConnectGroup");
@@ -3182,12 +3182,12 @@ namespace Oci.CoreService
         /// Creates a new set of DHCP options for the specified VCN. For more information, see
         /// {@link DhcpOptions}.
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want the set of
+        /// For the purposes of access control, you must provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want the set of
         /// DHCP options to reside. Notice that the set of options doesn&#39;t have to be in the same compartment as the VCN,
         /// subnets, or other Networking Service components. If you&#39;re not sure which compartment to use, put the set
         /// of DHCP options in the same compartment as the VCN. For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
-        /// [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
+        /// [Resource Identifiers](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the set of DHCP options, otherwise a default is provided.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -3198,7 +3198,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateDhcpOptions.cs.html">here</a> to see an example of how to use CreateDhcpOptions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateDhcpOptions.cs.html">here</a> to see an example of how to use CreateDhcpOptions API.</example>
         public async Task<CreateDhcpOptionsResponse> CreateDhcpOptions(CreateDhcpOptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDhcpOptions");
@@ -3248,14 +3248,14 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Creates a new dynamic routing gateway (DRG) in the specified compartment. For more information,
-        /// see [Dynamic Routing Gateways (DRGs)](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingDRGs.htm).
+        /// see [Dynamic Routing Gateways (DRGs)](https://docs.oracle.com/iaas/Content/Network/Tasks/managingDRGs.htm).
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want
+        /// For the purposes of access control, you must provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want
         /// the DRG to reside. Notice that the DRG doesn&#39;t have to be in the same compartment as the VCN,
         /// the DRG attachment, or other Networking Service components. If you&#39;re not sure which compartment
         /// to use, put the DRG in the same compartment as the VCN. For more information about compartments
-        /// and access control, see [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
-        /// For information about OCIDs, see [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// and access control, see [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
+        /// For information about OCIDs, see [Resource Identifiers](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the DRG, otherwise a default is provided.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -3266,7 +3266,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateDrg.cs.html">here</a> to see an example of how to use CreateDrg API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateDrg.cs.html">here</a> to see an example of how to use CreateDrg API.</example>
         public async Task<CreateDrgResponse> CreateDrg(CreateDrgRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDrg");
@@ -3317,15 +3317,15 @@ namespace Oci.CoreService
         /// <summary>
         /// Attaches the specified DRG to the specified network resource. A VCN can be attached to only one DRG
         /// at a time, but a DRG can be attached to more than one VCN. The response includes a &#x60;DrgAttachment&#x60;
-        /// object with its own [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). For more information about DRGs, see
-        /// [Dynamic Routing Gateways (DRGs)](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingDRGs.htm).
+        /// object with its own [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). For more information about DRGs, see
+        /// [Dynamic Routing Gateways (DRGs)](https://docs.oracle.com/iaas/Content/Network/Tasks/managingDRGs.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the attachment, otherwise a default is provided.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
         /// &lt;br/&gt;
         /// For the purposes of access control, the DRG attachment is automatically placed into the currently selected compartment.
         /// For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -3333,7 +3333,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateDrgAttachment.cs.html">here</a> to see an example of how to use CreateDrgAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateDrgAttachment.cs.html">here</a> to see an example of how to use CreateDrgAttachment API.</example>
         public async Task<CreateDrgAttachmentResponse> CreateDrgAttachment(CreateDrgAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDrgAttachment");
@@ -3393,7 +3393,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateDrgRouteDistribution.cs.html">here</a> to see an example of how to use CreateDrgRouteDistribution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateDrgRouteDistribution.cs.html">here</a> to see an example of how to use CreateDrgRouteDistribution API.</example>
         public async Task<CreateDrgRouteDistributionResponse> CreateDrgRouteDistribution(CreateDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDrgRouteDistribution");
@@ -3451,7 +3451,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateDrgRouteTable.cs.html">here</a> to see an example of how to use CreateDrgRouteTable API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateDrgRouteTable.cs.html">here</a> to see an example of how to use CreateDrgRouteTable API.</example>
         public async Task<CreateDrgRouteTableResponse> CreateDrgRouteTable(CreateDrgRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDrgRouteTable");
@@ -3501,7 +3501,7 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Creates a new IPSec connection between the specified DRG and CPE. For more information, see
-        /// [Site-to-Site VPN Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/overviewIPsec.htm).
+        /// [Site-to-Site VPN Overview](https://docs.oracle.com/iaas/Content/Network/Tasks/overviewIPsec.htm).
         /// &lt;br/&gt;
         /// If you configure at least one tunnel to use static routing, then in the request you must provide
         /// at least one valid static route (you&#39;re allowed a maximum of 10). For example: 10.0.0.0/16.
@@ -3509,12 +3509,12 @@ namespace Oci.CoreService
         /// the static routes. For more information, see the important note in
         /// {@link IPSecConnection}.
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want the
+        /// For the purposes of access control, you must provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want the
         /// IPSec connection to reside. Notice that the IPSec connection doesn&#39;t have to be in the same compartment
         /// as the DRG, CPE, or other Networking Service components. If you&#39;re not sure which compartment to
         /// use, put the IPSec connection in the same compartment as the DRG. For more information about
         /// compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the IPSec connection, otherwise a default is provided.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -3527,7 +3527,7 @@ namespace Oci.CoreService
         /// &lt;br/&gt;
         /// For each tunnel, you need the IP address of Oracle&#39;s VPN headend and the shared secret
         /// (that is, the pre-shared key). For more information, see
-        /// [CPE Configuration](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/configuringCPE.htm).
+        /// [CPE Configuration](https://docs.oracle.com/iaas/Content/Network/Tasks/configuringCPE.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -3535,7 +3535,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateIPSecConnection.cs.html">here</a> to see an example of how to use CreateIPSecConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateIPSecConnection.cs.html">here</a> to see an example of how to use CreateIPSecConnection API.</example>
         public async Task<CreateIPSecConnectionResponse> CreateIPSecConnection(CreateIPSecConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createIPSecConnection");
@@ -3585,13 +3585,13 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Creates a new internet gateway for the specified VCN. For more information, see
-        /// [Access to the Internet](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingIGs.htm).
+        /// [Access to the Internet](https://docs.oracle.com/iaas/Content/Network/Tasks/managingIGs.htm).
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want the Internet
+        /// For the purposes of access control, you must provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want the Internet
         /// Gateway to reside. Notice that the internet gateway doesn&#39;t have to be in the same compartment as the VCN or
         /// other Networking Service components. If you&#39;re not sure which compartment to use, put the Internet
         /// Gateway in the same compartment with the VCN. For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the internet gateway, otherwise a default is provided. It
         /// does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -3611,7 +3611,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateInternetGateway.cs.html">here</a> to see an example of how to use CreateInternetGateway API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateInternetGateway.cs.html">here</a> to see an example of how to use CreateInternetGateway API.</example>
         public async Task<CreateInternetGatewayResponse> CreateInternetGateway(CreateInternetGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createInternetGateway");
@@ -3668,7 +3668,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateIpv6.cs.html">here</a> to see an example of how to use CreateIpv6 API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateIpv6.cs.html">here</a> to see an example of how to use CreateIpv6 API.</example>
         public async Task<CreateIpv6Response> CreateIpv6(CreateIpv6Request request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createIpv6");
@@ -3725,7 +3725,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateLocalPeeringGateway.cs.html">here</a> to see an example of how to use CreateLocalPeeringGateway API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateLocalPeeringGateway.cs.html">here</a> to see an example of how to use CreateLocalPeeringGateway API.</example>
         public async Task<CreateLocalPeeringGatewayResponse> CreateLocalPeeringGateway(CreateLocalPeeringGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createLocalPeeringGateway");
@@ -3783,7 +3783,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateNatGateway.cs.html">here</a> to see an example of how to use CreateNatGateway API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateNatGateway.cs.html">here</a> to see an example of how to use CreateNatGateway API.</example>
         public async Task<CreateNatGatewayResponse> CreateNatGateway(CreateNatGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createNatGateway");
@@ -3840,7 +3840,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateNetworkSecurityGroup.cs.html">here</a> to see an example of how to use CreateNetworkSecurityGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateNetworkSecurityGroup.cs.html">here</a> to see an example of how to use CreateNetworkSecurityGroup API.</example>
         public async Task<CreateNetworkSecurityGroupResponse> CreateNetworkSecurityGroup(CreateNetworkSecurityGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createNetworkSecurityGroup");
@@ -3891,7 +3891,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Creates a private IP.
         /// For more information about private IPs, see
-        /// [IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingIPaddresses.htm).
+        /// [IP Addresses](https://docs.oracle.com/iaas/Content/Network/Tasks/managingIPaddresses.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -3899,7 +3899,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreatePrivateIp.cs.html">here</a> to see an example of how to use CreatePrivateIp API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreatePrivateIp.cs.html">here</a> to see an example of how to use CreatePrivateIp API.</example>
         public async Task<CreatePrivateIpResponse> CreatePrivateIp(CreatePrivateIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPrivateIp");
@@ -3950,10 +3950,10 @@ namespace Oci.CoreService
         /// <summary>
         /// Creates a public IP. Use the &#x60;lifetime&#x60; property to specify whether it&#39;s an ephemeral or
         /// reserved public IP. For information about limits on how many you can create, see
-        /// [Public IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
+        /// [Public IP Addresses](https://docs.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
         /// &lt;br/&gt;
         /// * **For an ephemeral public IP assigned to a private IP:** You must also specify a &#x60;privateIpId&#x60;
-        /// with the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the primary private IP you want to assign the public IP to. The public IP is
+        /// with the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the primary private IP you want to assign the public IP to. The public IP is
         /// created in the same availability domain as the private IP. An ephemeral public IP must always be
         /// assigned to a private IP, and only to the *primary* private IP on a VNIC, not a secondary
         /// private IP. Exception: If you create a {@link NatGateway}, Oracle
@@ -3976,7 +3976,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreatePublicIp.cs.html">here</a> to see an example of how to use CreatePublicIp API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreatePublicIp.cs.html">here</a> to see an example of how to use CreatePublicIp API.</example>
         public async Task<CreatePublicIpResponse> CreatePublicIp(CreatePublicIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPublicIp");
@@ -4033,7 +4033,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreatePublicIpPool.cs.html">here</a> to see an example of how to use CreatePublicIpPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreatePublicIpPool.cs.html">here</a> to see an example of how to use CreatePublicIpPool API.</example>
         public async Task<CreatePublicIpPoolResponse> CreatePublicIpPool(CreatePublicIpPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPublicIpPool");
@@ -4090,7 +4090,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateRemotePeeringConnection.cs.html">here</a> to see an example of how to use CreateRemotePeeringConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateRemotePeeringConnection.cs.html">here</a> to see an example of how to use CreateRemotePeeringConnection API.</example>
         public async Task<CreateRemotePeeringConnectionResponse> CreateRemotePeeringConnection(CreateRemotePeeringConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRemotePeeringConnection");
@@ -4141,16 +4141,16 @@ namespace Oci.CoreService
         /// <summary>
         /// Creates a new route table for the specified VCN. In the request you must also include at least one route
         /// rule for the new route table. For information on the number of rules you can have in a route table, see
-        /// [Service Limits](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/servicelimits.htm). For general information about route
+        /// [Service Limits](https://docs.oracle.com/iaas/Content/General/Concepts/servicelimits.htm). For general information about route
         /// tables in your VCN and the types of targets you can use in route rules,
-        /// see [Route Tables](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm).
+        /// see [Route Tables](https://docs.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm).
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want the route
+        /// For the purposes of access control, you must provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want the route
         /// table to reside. Notice that the route table doesn&#39;t have to be in the same compartment as the VCN, subnets,
         /// or other Networking Service components. If you&#39;re not sure which compartment to use, put the route
         /// table in the same compartment as the VCN. For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
-        /// [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
+        /// [Resource Identifiers](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the route table, otherwise a default is provided.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -4161,7 +4161,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateRouteTable.cs.html">here</a> to see an example of how to use CreateRouteTable API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateRouteTable.cs.html">here</a> to see an example of how to use CreateRouteTable API.</example>
         public async Task<CreateRouteTableResponse> CreateRouteTable(CreateRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRouteTable");
@@ -4211,16 +4211,16 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Creates a new security list for the specified VCN. For more information
-        /// about security lists, see [Security Lists](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/securitylists.htm).
+        /// about security lists, see [Security Lists](https://docs.oracle.com/iaas/Content/Network/Concepts/securitylists.htm).
         /// For information on the number of rules you can have in a security list, see
-        /// [Service Limits](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/servicelimits.htm).
+        /// [Service Limits](https://docs.oracle.com/iaas/Content/General/Concepts/servicelimits.htm).
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want the security
+        /// For the purposes of access control, you must provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want the security
         /// list to reside. Notice that the security list doesn&#39;t have to be in the same compartment as the VCN, subnets,
         /// or other Networking Service components. If you&#39;re not sure which compartment to use, put the security
         /// list in the same compartment as the VCN. For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
-        /// [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
+        /// [Resource Identifiers](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the security list, otherwise a default is provided.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -4231,7 +4231,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateSecurityList.cs.html">here</a> to see an example of how to use CreateSecurityList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateSecurityList.cs.html">here</a> to see an example of how to use CreateSecurityList API.</example>
         public async Task<CreateSecurityListResponse> CreateSecurityList(CreateSecurityListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSecurityList");
@@ -4282,10 +4282,10 @@ namespace Oci.CoreService
         /// <summary>
         /// Creates a new service gateway in the specified compartment.
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want
+        /// For the purposes of access control, you must provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want
         /// the service gateway to reside. For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
-        /// For information about OCIDs, see [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
+        /// For information about OCIDs, see [Resource Identifiers](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the service gateway, otherwise a default is provided.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -4299,7 +4299,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateServiceGateway.cs.html">here</a> to see an example of how to use CreateServiceGateway API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateServiceGateway.cs.html">here</a> to see an example of how to use CreateServiceGateway API.</example>
         public async Task<CreateServiceGatewayResponse> CreateServiceGateway(CreateServiceGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createServiceGateway");
@@ -4350,35 +4350,35 @@ namespace Oci.CoreService
         /// <summary>
         /// Creates a new subnet in the specified VCN. You can&#39;t change the size of the subnet after creation,
         /// so it&#39;s important to think about the size of subnets you need before creating them.
-        /// For more information, see [VCNs and Subnets](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingVCNs.htm).
+        /// For more information, see [VCNs and Subnets](https://docs.oracle.com/iaas/Content/Network/Tasks/managingVCNs.htm).
         /// For information on the number of subnets you can have in a VCN, see
-        /// [Service Limits](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/servicelimits.htm).
+        /// [Service Limits](https://docs.oracle.com/iaas/Content/General/Concepts/servicelimits.htm).
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want the subnet
+        /// For the purposes of access control, you must provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want the subnet
         /// to reside. Notice that the subnet doesn&#39;t have to be in the same compartment as the VCN, route tables, or
         /// other Networking Service components. If you&#39;re not sure which compartment to use, put the subnet in
         /// the same compartment as the VCN. For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm). For information about OCIDs,
-        /// see [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm). For information about OCIDs,
+        /// see [Resource Identifiers](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally associate a route table with the subnet. If you don&#39;t, the subnet will use the
         /// VCN&#39;s default route table. For more information about route tables, see
-        /// [Route Tables](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm).
+        /// [Route Tables](https://docs.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm).
         /// &lt;br/&gt;
         /// You may optionally associate a security list with the subnet. If you don&#39;t, the subnet will use the
         /// VCN&#39;s default security list. For more information about security lists, see
-        /// [Security Lists](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/securitylists.htm).
+        /// [Security Lists](https://docs.oracle.com/iaas/Content/Network/Concepts/securitylists.htm).
         /// &lt;br/&gt;
         /// You may optionally associate a set of DHCP options with the subnet. If you don&#39;t, the subnet will use the
         /// VCN&#39;s default set. For more information about DHCP options, see
-        /// [DHCP Options](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingDHCP.htm).
+        /// [DHCP Options](https://docs.oracle.com/iaas/Content/Network/Tasks/managingDHCP.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the subnet, otherwise a default is provided.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
         /// &lt;br/&gt;
         /// You can also add a DNS label for the subnet, which is required if you want the Internet and
         /// VCN Resolver to resolve hostnames for instances in the subnet. For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -4386,7 +4386,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateSubnet.cs.html">here</a> to see an example of how to use CreateSubnet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateSubnet.cs.html">here</a> to see an example of how to use CreateSubnet API.</example>
         public async Task<CreateSubnetResponse> CreateSubnet(CreateSubnetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSubnet");
@@ -4436,7 +4436,7 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Creates a new virtual cloud network (VCN). For more information, see
-        /// [VCNs and Subnets](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingVCNs.htm).
+        /// [VCNs and Subnets](https://docs.oracle.com/iaas/Content/Network/Tasks/managingVCNs.htm).
         /// &lt;br/&gt;
         /// For the VCN, you specify a list of one or more IPv4 CIDR blocks that meet the following criteria:
         /// &lt;br/&gt;
@@ -4447,27 +4447,27 @@ namespace Oci.CoreService
         /// For a CIDR block, Oracle recommends that you use one of the private IP address ranges specified in [RFC 1918](https://tools.ietf.org/html/rfc1918) (10.0.0.0/8, 172.16/12, and 192.168/16). Example:
         /// 172.16.0.0/16. The CIDR blocks can range from /16 to /30.
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want the VCN to
+        /// For the purposes of access control, you must provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want the VCN to
         /// reside. Consult an Oracle Cloud Infrastructure administrator in your organization if you&#39;re not sure which
         /// compartment to use. Notice that the VCN doesn&#39;t have to be in the same compartment as the subnets or other
         /// Networking Service components. For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
-        /// [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm). For information about OCIDs, see
+        /// [Resource Identifiers](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the VCN, otherwise a default is provided. It does not have to
         /// be unique, and you can change it. Avoid entering confidential information.
         /// &lt;br/&gt;
         /// You can also add a DNS label for the VCN, which is required if you want the instances to use the
         /// Interent and VCN Resolver option for DNS in the VCN. For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// &lt;br/&gt;
         /// The VCN automatically comes with a default route table, default security list, and default set of DHCP options.
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for each is returned in the response. You can&#39;t delete these default objects, but you can change their
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for each is returned in the response. You can&#39;t delete these default objects, but you can change their
         /// contents (that is, change the route rules, security list rules, and so on).
         /// &lt;br/&gt;
         /// The VCN and subnets you create are not accessible until you attach an internet gateway or set up a Site-to-Site VPN
         /// or FastConnect. For more information, see
-        /// [Overview of the Networking Service](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/overview.htm).
+        /// [Overview of the Networking Service](https://docs.oracle.com/iaas/Content/Network/Concepts/overview.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -4475,7 +4475,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateVcn.cs.html">here</a> to see an example of how to use CreateVcn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateVcn.cs.html">here</a> to see an example of how to use CreateVcn API.</example>
         public async Task<CreateVcnResponse> CreateVcn(CreateVcnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVcn");
@@ -4526,16 +4526,16 @@ namespace Oci.CoreService
         /// <summary>
         /// Creates a new virtual circuit to use with Oracle Cloud
         /// Infrastructure FastConnect. For more information, see
-        /// [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+        /// [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the
+        /// For the purposes of access control, you must provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the
         /// compartment where you want the virtual circuit to reside. If you&#39;re
         /// not sure which compartment to use, put the virtual circuit in the
         /// same compartment with the DRG it&#39;s using. For more information about
         /// compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// For information about OCIDs, see
-        /// [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// [Resource Identifiers](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the virtual circuit.
         /// It does not have to be unique, and you can change it. Avoid entering confidential information.
@@ -4544,7 +4544,7 @@ namespace Oci.CoreService
         /// the traffic to flow through. Make sure you attach the DRG to your
         /// VCN and confirm the VCN&#39;s routing sends traffic to the DRG. Otherwise
         /// traffic will not flow. For more information, see
-        /// [Route Tables](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm).
+        /// [Route Tables](https://docs.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -4552,7 +4552,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateVirtualCircuit.cs.html">here</a> to see an example of how to use CreateVirtualCircuit API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateVirtualCircuit.cs.html">here</a> to see an example of how to use CreateVirtualCircuit API.</example>
         public async Task<CreateVirtualCircuitResponse> CreateVirtualCircuit(CreateVirtualCircuitRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVirtualCircuit");
@@ -4609,7 +4609,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateVlan.cs.html">here</a> to see an example of how to use CreateVlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateVlan.cs.html">here</a> to see an example of how to use CreateVlan API.</example>
         public async Task<CreateVlanResponse> CreateVlan(CreateVlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVlan");
@@ -4660,10 +4660,10 @@ namespace Oci.CoreService
         /// <summary>
         /// Creates a virtual test access point (VTAP) in the specified compartment.
         /// &lt;br/&gt;
-        /// For the purposes of access control, you must provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the VTAP.
+        /// For the purposes of access control, you must provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the VTAP.
         /// For more information about compartments and access control, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
-        /// For information about OCIDs, see [Resource Identifiers](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
+        /// For information about OCIDs, see [Resource Identifiers](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// You may optionally specify a *display name* for the VTAP, otherwise a default is provided.
         /// It does not have to be unique, and you can change it.
@@ -4674,7 +4674,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateVtap.cs.html">here</a> to see an example of how to use CreateVtap API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateVtap.cs.html">here</a> to see an example of how to use CreateVtap API.</example>
         public async Task<CreateVtapResponse> CreateVtap(CreateVtapRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVtap");
@@ -4726,7 +4726,7 @@ namespace Oci.CoreService
         /// Deletes the specified &#x60;Byoasn&#x60; resource.
         /// The resource must be in one of the following states: CREATING, ACTIVE or FAILED.
         /// It must not be in use by any of the byoipRanges or deletion will fail.
-        /// You must specify the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// You must specify the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -4734,7 +4734,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteByoasn.cs.html">here</a> to see an example of how to use DeleteByoasn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteByoasn.cs.html">here</a> to see an example of how to use DeleteByoasn API.</example>
         public async Task<DeleteByoasnResponse> DeleteByoasn(DeleteByoasnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteByoasn");
@@ -4786,7 +4786,7 @@ namespace Oci.CoreService
         /// Deletes the specified &#x60;ByoipRange&#x60; resource.
         /// The resource must be in one of the following states: CREATING, PROVISIONED, ACTIVE, or FAILED.
         /// It must not have any subranges currently allocated to a PublicIpPool object or the deletion will fail.
-        /// You must specify the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// You must specify the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// If the &#x60;ByoipRange&#x60; resource is currently in the PROVISIONED or ACTIVE state, it will be de-provisioned and then deleted.
         /// 
         /// </summary>
@@ -4795,7 +4795,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteByoipRange.cs.html">here</a> to see an example of how to use DeleteByoipRange API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteByoipRange.cs.html">here</a> to see an example of how to use DeleteByoipRange API.</example>
         public async Task<DeleteByoipRangeResponse> DeleteByoipRange(DeleteByoipRangeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteByoipRange");
@@ -4853,7 +4853,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteCaptureFilter.cs.html">here</a> to see an example of how to use DeleteCaptureFilter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteCaptureFilter.cs.html">here</a> to see an example of how to use DeleteCaptureFilter API.</example>
         public async Task<DeleteCaptureFilterResponse> DeleteCaptureFilter(DeleteCaptureFilterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCaptureFilter");
@@ -4912,7 +4912,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteCpe.cs.html">here</a> to see an example of how to use DeleteCpe API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteCpe.cs.html">here</a> to see an example of how to use DeleteCpe API.</example>
         public async Task<DeleteCpeResponse> DeleteCpe(DeleteCpeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCpe");
@@ -4970,7 +4970,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteCrossConnect.cs.html">here</a> to see an example of how to use DeleteCrossConnect API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteCrossConnect.cs.html">here</a> to see an example of how to use DeleteCrossConnect API.</example>
         public async Task<DeleteCrossConnectResponse> DeleteCrossConnect(DeleteCrossConnectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCrossConnect");
@@ -5029,7 +5029,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteCrossConnectGroup.cs.html">here</a> to see an example of how to use DeleteCrossConnectGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteCrossConnectGroup.cs.html">here</a> to see an example of how to use DeleteCrossConnectGroup API.</example>
         public async Task<DeleteCrossConnectGroupResponse> DeleteCrossConnectGroup(DeleteCrossConnectGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCrossConnectGroup");
@@ -5090,7 +5090,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteDhcpOptions.cs.html">here</a> to see an example of how to use DeleteDhcpOptions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteDhcpOptions.cs.html">here</a> to see an example of how to use DeleteDhcpOptions API.</example>
         public async Task<DeleteDhcpOptionsResponse> DeleteDhcpOptions(DeleteDhcpOptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDhcpOptions");
@@ -5150,7 +5150,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteDrg.cs.html">here</a> to see an example of how to use DeleteDrg API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteDrg.cs.html">here</a> to see an example of how to use DeleteDrg API.</example>
         public async Task<DeleteDrgResponse> DeleteDrg(DeleteDrgRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDrg");
@@ -5209,7 +5209,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteDrgAttachment.cs.html">here</a> to see an example of how to use DeleteDrgAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteDrgAttachment.cs.html">here</a> to see an example of how to use DeleteDrgAttachment API.</example>
         public async Task<DeleteDrgAttachmentResponse> DeleteDrgAttachment(DeleteDrgAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDrgAttachment");
@@ -5268,7 +5268,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteDrgRouteDistribution.cs.html">here</a> to see an example of how to use DeleteDrgRouteDistribution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteDrgRouteDistribution.cs.html">here</a> to see an example of how to use DeleteDrgRouteDistribution API.</example>
         public async Task<DeleteDrgRouteDistributionResponse> DeleteDrgRouteDistribution(DeleteDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDrgRouteDistribution");
@@ -5325,7 +5325,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteDrgRouteTable.cs.html">here</a> to see an example of how to use DeleteDrgRouteTable API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteDrgRouteTable.cs.html">here</a> to see an example of how to use DeleteDrgRouteTable API.</example>
         public async Task<DeleteDrgRouteTableResponse> DeleteDrgRouteTable(DeleteDrgRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDrgRouteTable");
@@ -5389,7 +5389,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteIPSecConnection.cs.html">here</a> to see an example of how to use DeleteIPSecConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteIPSecConnection.cs.html">here</a> to see an example of how to use DeleteIPSecConnection API.</example>
         public async Task<DeleteIPSecConnectionResponse> DeleteIPSecConnection(DeleteIPSecConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteIPSecConnection");
@@ -5450,7 +5450,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteInternetGateway.cs.html">here</a> to see an example of how to use DeleteInternetGateway API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteInternetGateway.cs.html">here</a> to see an example of how to use DeleteInternetGateway API.</example>
         public async Task<DeleteInternetGatewayResponse> DeleteInternetGateway(DeleteInternetGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteInternetGateway");
@@ -5499,7 +5499,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Unassigns and deletes the specified IPv6. You must specify the object&#39;s [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Unassigns and deletes the specified IPv6. You must specify the object&#39;s [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// The IPv6 address is returned to the subnet&#39;s pool of available addresses.
         /// 
         /// </summary>
@@ -5508,7 +5508,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteIpv6.cs.html">here</a> to see an example of how to use DeleteIpv6 API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteIpv6.cs.html">here</a> to see an example of how to use DeleteIpv6 API.</example>
         public async Task<DeleteIpv6Response> DeleteIpv6(DeleteIpv6Request request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteIpv6");
@@ -5568,7 +5568,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteLocalPeeringGateway.cs.html">here</a> to see an example of how to use DeleteLocalPeeringGateway API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteLocalPeeringGateway.cs.html">here</a> to see an example of how to use DeleteLocalPeeringGateway API.</example>
         public async Task<DeleteLocalPeeringGatewayResponse> DeleteLocalPeeringGateway(DeleteLocalPeeringGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteLocalPeeringGateway");
@@ -5629,7 +5629,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteNatGateway.cs.html">here</a> to see an example of how to use DeleteNatGateway API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteNatGateway.cs.html">here</a> to see an example of how to use DeleteNatGateway API.</example>
         public async Task<DeleteNatGatewayResponse> DeleteNatGateway(DeleteNatGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteNatGateway");
@@ -5683,7 +5683,7 @@ namespace Oci.CoreService
         /// To get a list of the VNICs in a network security group, use
         /// {@link #listNetworkSecurityGroupVnics(ListNetworkSecurityGroupVnicsRequest) listNetworkSecurityGroupVnics}.
         /// Each returned {@link NetworkSecurityGroupVnic} object
-        /// contains both the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC and the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC&#39;s parent resource (for example,
+        /// contains both the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC and the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC&#39;s parent resource (for example,
         /// the Compute instance that the VNIC is attached to).
         /// 
         /// </summary>
@@ -5692,7 +5692,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteNetworkSecurityGroup.cs.html">here</a> to see an example of how to use DeleteNetworkSecurityGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteNetworkSecurityGroup.cs.html">here</a> to see an example of how to use DeleteNetworkSecurityGroup API.</example>
         public async Task<DeleteNetworkSecurityGroupResponse> DeleteNetworkSecurityGroup(DeleteNetworkSecurityGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteNetworkSecurityGroup");
@@ -5742,14 +5742,14 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Unassigns and deletes the specified private IP. You must
-        /// specify the object&#39;s [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). The private IP address is returned to
+        /// specify the object&#39;s [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). The private IP address is returned to
         /// the subnet&#39;s pool of available addresses.
         /// &lt;br/&gt;
         /// This operation cannot be used with primary private IPs, which are
         /// automatically unassigned and deleted when the VNIC is terminated.
         /// &lt;br/&gt;
         /// **Important:** If a secondary private IP is the
-        /// [target of a route rule](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm#privateip),
+        /// [target of a route rule](https://docs.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm#privateip),
         /// unassigning it from the VNIC causes that route rule to blackhole and the traffic
         /// will be dropped.
         /// 
@@ -5759,7 +5759,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeletePrivateIp.cs.html">here</a> to see an example of how to use DeletePrivateIp API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeletePrivateIp.cs.html">here</a> to see an example of how to use DeletePrivateIp API.</example>
         public async Task<DeletePrivateIpResponse> DeletePrivateIp(DeletePrivateIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePrivateIp");
@@ -5809,7 +5809,7 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Unassigns and deletes the specified public IP (either ephemeral or reserved).
-        /// You must specify the object&#39;s [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). The public IP address is returned to the
+        /// You must specify the object&#39;s [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). The public IP address is returned to the
         /// Oracle Cloud Infrastructure public IP pool.
         /// &lt;br/&gt;
         /// **Note:** You cannot update, unassign, or delete the public IP that Oracle automatically
@@ -5830,7 +5830,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeletePublicIp.cs.html">here</a> to see an example of how to use DeletePublicIp API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeletePublicIp.cs.html">here</a> to see an example of how to use DeletePublicIp API.</example>
         public async Task<DeletePublicIpResponse> DeletePublicIp(DeletePublicIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePublicIp");
@@ -5881,7 +5881,7 @@ namespace Oci.CoreService
         /// <summary>
         /// Deletes the specified public IP pool.
         /// To delete a public IP pool it must not have any active IP address allocations.
-        /// You must specify the object&#39;s [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) when deleting an IP pool.
+        /// You must specify the object&#39;s [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) when deleting an IP pool.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -5889,7 +5889,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeletePublicIpPool.cs.html">here</a> to see an example of how to use DeletePublicIpPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeletePublicIpPool.cs.html">here</a> to see an example of how to use DeletePublicIpPool API.</example>
         public async Task<DeletePublicIpPoolResponse> DeletePublicIpPool(DeletePublicIpPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePublicIpPool");
@@ -5949,7 +5949,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteRemotePeeringConnection.cs.html">here</a> to see an example of how to use DeleteRemotePeeringConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteRemotePeeringConnection.cs.html">here</a> to see an example of how to use DeleteRemotePeeringConnection API.</example>
         public async Task<DeleteRemotePeeringConnectionResponse> DeleteRemotePeeringConnection(DeleteRemotePeeringConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRemotePeeringConnection");
@@ -6010,7 +6010,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteRouteTable.cs.html">here</a> to see an example of how to use DeleteRouteTable API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteRouteTable.cs.html">here</a> to see an example of how to use DeleteRouteTable API.</example>
         public async Task<DeleteRouteTableResponse> DeleteRouteTable(DeleteRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRouteTable");
@@ -6071,7 +6071,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteSecurityList.cs.html">here</a> to see an example of how to use DeleteSecurityList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteSecurityList.cs.html">here</a> to see an example of how to use DeleteSecurityList API.</example>
         public async Task<DeleteSecurityListResponse> DeleteSecurityList(DeleteSecurityListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSecurityList");
@@ -6129,7 +6129,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteServiceGateway.cs.html">here</a> to see an example of how to use DeleteServiceGateway API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteServiceGateway.cs.html">here</a> to see an example of how to use DeleteServiceGateway API.</example>
         public async Task<DeleteServiceGatewayResponse> DeleteServiceGateway(DeleteServiceGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteServiceGateway");
@@ -6188,7 +6188,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteSubnet.cs.html">here</a> to see an example of how to use DeleteSubnet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteSubnet.cs.html">here</a> to see an example of how to use DeleteSubnet API.</example>
         public async Task<DeleteSubnetResponse> DeleteSubnet(DeleteSubnetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSubnet");
@@ -6250,7 +6250,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteVcn.cs.html">here</a> to see an example of how to use DeleteVcn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteVcn.cs.html">here</a> to see an example of how to use DeleteVcn API.</example>
         public async Task<DeleteVcnResponse> DeleteVcn(DeleteVcnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVcn");
@@ -6311,7 +6311,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteVirtualCircuit.cs.html">here</a> to see an example of how to use DeleteVirtualCircuit API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteVirtualCircuit.cs.html">here</a> to see an example of how to use DeleteVirtualCircuit API.</example>
         public async Task<DeleteVirtualCircuitResponse> DeleteVirtualCircuit(DeleteVirtualCircuitRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVirtualCircuit");
@@ -6368,7 +6368,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteVlan.cs.html">here</a> to see an example of how to use DeleteVlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteVlan.cs.html">here</a> to see an example of how to use DeleteVlan API.</example>
         public async Task<DeleteVlanResponse> DeleteVlan(DeleteVlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVlan");
@@ -6426,7 +6426,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteVtap.cs.html">here</a> to see an example of how to use DeleteVtap API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DeleteVtap.cs.html">here</a> to see an example of how to use DeleteVtap API.</example>
         public async Task<DeleteVtapResponse> DeleteVtap(DeleteVtapRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVtap");
@@ -6494,7 +6494,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DetachServiceId.cs.html">here</a> to see an example of how to use DetachServiceId API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/DetachServiceId.cs.html">here</a> to see an example of how to use DetachServiceId API.</example>
         public async Task<DetachServiceIdResponse> DetachServiceId(DetachServiceIdRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detachServiceId");
@@ -6551,7 +6551,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetAllDrgAttachments.cs.html">here</a> to see an example of how to use GetAllDrgAttachments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetAllDrgAttachments.cs.html">here</a> to see an example of how to use GetAllDrgAttachments API.</example>
         public async Task<GetAllDrgAttachmentsResponse> GetAllDrgAttachments(GetAllDrgAttachmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAllDrgAttachments");
@@ -6608,7 +6608,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetAllowedIkeIPSecParameters.cs.html">here</a> to see an example of how to use GetAllowedIkeIPSecParameters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetAllowedIkeIPSecParameters.cs.html">here</a> to see an example of how to use GetAllowedIkeIPSecParameters API.</example>
         public async Task<GetAllowedIkeIPSecParametersResponse> GetAllowedIkeIPSecParameters(GetAllowedIkeIPSecParametersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAllowedIkeIPSecParameters");
@@ -6657,7 +6657,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Gets the &#x60;Byoasn&#x60; resource. You must specify the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Gets the &#x60;Byoasn&#x60; resource. You must specify the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -6665,7 +6665,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetByoasn.cs.html">here</a> to see an example of how to use GetByoasn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetByoasn.cs.html">here</a> to see an example of how to use GetByoasn API.</example>
         public async Task<GetByoasnResponse> GetByoasn(GetByoasnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getByoasn");
@@ -6714,7 +6714,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Gets the &#x60;ByoipRange&#x60; resource. You must specify the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Gets the &#x60;ByoipRange&#x60; resource. You must specify the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -6722,7 +6722,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetByoipRange.cs.html">here</a> to see an example of how to use GetByoipRange API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetByoipRange.cs.html">here</a> to see an example of how to use GetByoipRange API.</example>
         public async Task<GetByoipRangeResponse> GetByoipRange(GetByoipRangeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getByoipRange");
@@ -6778,7 +6778,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCaptureFilter.cs.html">here</a> to see an example of how to use GetCaptureFilter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCaptureFilter.cs.html">here</a> to see an example of how to use GetCaptureFilter API.</example>
         public async Task<GetCaptureFilterResponse> GetCaptureFilter(GetCaptureFilterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCaptureFilter");
@@ -6834,7 +6834,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCpe.cs.html">here</a> to see an example of how to use GetCpe API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCpe.cs.html">here</a> to see an example of how to use GetCpe API.</example>
         public async Task<GetCpeResponse> GetCpe(GetCpeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCpe");
@@ -6908,7 +6908,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCpeDeviceConfigContent.cs.html">here</a> to see an example of how to use GetCpeDeviceConfigContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCpeDeviceConfigContent.cs.html">here</a> to see an example of how to use GetCpeDeviceConfigContent API.</example>
         public async Task<GetCpeDeviceConfigContentResponse> GetCpeDeviceConfigContent(GetCpeDeviceConfigContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCpeDeviceConfigContent");
@@ -6973,7 +6973,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCpeDeviceShape.cs.html">here</a> to see an example of how to use GetCpeDeviceShape API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCpeDeviceShape.cs.html">here</a> to see an example of how to use GetCpeDeviceShape API.</example>
         public async Task<GetCpeDeviceShapeResponse> GetCpeDeviceShape(GetCpeDeviceShapeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCpeDeviceShape");
@@ -7029,7 +7029,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCrossConnect.cs.html">here</a> to see an example of how to use GetCrossConnect API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCrossConnect.cs.html">here</a> to see an example of how to use GetCrossConnect API.</example>
         public async Task<GetCrossConnectResponse> GetCrossConnect(GetCrossConnectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCrossConnect");
@@ -7085,7 +7085,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCrossConnectGroup.cs.html">here</a> to see an example of how to use GetCrossConnectGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCrossConnectGroup.cs.html">here</a> to see an example of how to use GetCrossConnectGroup API.</example>
         public async Task<GetCrossConnectGroupResponse> GetCrossConnectGroup(GetCrossConnectGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCrossConnectGroup");
@@ -7141,7 +7141,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCrossConnectLetterOfAuthority.cs.html">here</a> to see an example of how to use GetCrossConnectLetterOfAuthority API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCrossConnectLetterOfAuthority.cs.html">here</a> to see an example of how to use GetCrossConnectLetterOfAuthority API.</example>
         public async Task<GetCrossConnectLetterOfAuthorityResponse> GetCrossConnectLetterOfAuthority(GetCrossConnectLetterOfAuthorityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCrossConnectLetterOfAuthority");
@@ -7198,7 +7198,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCrossConnectStatus.cs.html">here</a> to see an example of how to use GetCrossConnectStatus API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCrossConnectStatus.cs.html">here</a> to see an example of how to use GetCrossConnectStatus API.</example>
         public async Task<GetCrossConnectStatusResponse> GetCrossConnectStatus(GetCrossConnectStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCrossConnectStatus");
@@ -7254,7 +7254,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetDhcpOptions.cs.html">here</a> to see an example of how to use GetDhcpOptions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetDhcpOptions.cs.html">here</a> to see an example of how to use GetDhcpOptions API.</example>
         public async Task<GetDhcpOptionsResponse> GetDhcpOptions(GetDhcpOptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDhcpOptions");
@@ -7310,7 +7310,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetDrg.cs.html">here</a> to see an example of how to use GetDrg API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetDrg.cs.html">here</a> to see an example of how to use GetDrg API.</example>
         public async Task<GetDrgResponse> GetDrg(GetDrgRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDrg");
@@ -7366,7 +7366,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetDrgAttachment.cs.html">here</a> to see an example of how to use GetDrgAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetDrgAttachment.cs.html">here</a> to see an example of how to use GetDrgAttachment API.</example>
         public async Task<GetDrgAttachmentResponse> GetDrgAttachment(GetDrgAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDrgAttachment");
@@ -7416,7 +7416,7 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Gets the redundancy status for the specified DRG. For more information, see
-        /// [Redundancy Remedies](https://docs.cloud.oracle.com/iaas/Content/Network/Troubleshoot/drgredundancy.htm).
+        /// [Redundancy Remedies](https://docs.oracle.com/iaas/Content/Network/Troubleshoot/drgredundancy.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -7424,7 +7424,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetDrgRedundancyStatus.cs.html">here</a> to see an example of how to use GetDrgRedundancyStatus API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetDrgRedundancyStatus.cs.html">here</a> to see an example of how to use GetDrgRedundancyStatus API.</example>
         public async Task<GetDrgRedundancyStatusResponse> GetDrgRedundancyStatus(GetDrgRedundancyStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDrgRedundancyStatus");
@@ -7480,7 +7480,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetDrgRouteDistribution.cs.html">here</a> to see an example of how to use GetDrgRouteDistribution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetDrgRouteDistribution.cs.html">here</a> to see an example of how to use GetDrgRouteDistribution API.</example>
         public async Task<GetDrgRouteDistributionResponse> GetDrgRouteDistribution(GetDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDrgRouteDistribution");
@@ -7536,7 +7536,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetDrgRouteTable.cs.html">here</a> to see an example of how to use GetDrgRouteTable API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetDrgRouteTable.cs.html">here</a> to see an example of how to use GetDrgRouteTable API.</example>
         public async Task<GetDrgRouteTableResponse> GetDrgRouteTable(GetDrgRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDrgRouteTable");
@@ -7586,7 +7586,7 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Gets the specified provider service.
-        /// For more information, see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+        /// For more information, see [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -7594,7 +7594,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetFastConnectProviderService.cs.html">here</a> to see an example of how to use GetFastConnectProviderService API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetFastConnectProviderService.cs.html">here</a> to see an example of how to use GetFastConnectProviderService API.</example>
         public async Task<GetFastConnectProviderServiceResponse> GetFastConnectProviderService(GetFastConnectProviderServiceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFastConnectProviderService");
@@ -7652,7 +7652,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetFastConnectProviderServiceKey.cs.html">here</a> to see an example of how to use GetFastConnectProviderServiceKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetFastConnectProviderServiceKey.cs.html">here</a> to see an example of how to use GetFastConnectProviderServiceKey API.</example>
         public async Task<GetFastConnectProviderServiceKeyResponse> GetFastConnectProviderServiceKey(GetFastConnectProviderServiceKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFastConnectProviderServiceKey");
@@ -7711,7 +7711,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIPSecConnection.cs.html">here</a> to see an example of how to use GetIPSecConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIPSecConnection.cs.html">here</a> to see an example of how to use GetIPSecConnection API.</example>
         public async Task<GetIPSecConnectionResponse> GetIPSecConnection(GetIPSecConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIPSecConnection");
@@ -7771,7 +7771,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIPSecConnectionDeviceConfig.cs.html">here</a> to see an example of how to use GetIPSecConnectionDeviceConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIPSecConnectionDeviceConfig.cs.html">here</a> to see an example of how to use GetIPSecConnectionDeviceConfig API.</example>
         public async Task<GetIPSecConnectionDeviceConfigResponse> GetIPSecConnectionDeviceConfig(GetIPSecConnectionDeviceConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIPSecConnectionDeviceConfig");
@@ -7829,7 +7829,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIPSecConnectionDeviceStatus.cs.html">here</a> to see an example of how to use GetIPSecConnectionDeviceStatus API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIPSecConnectionDeviceStatus.cs.html">here</a> to see an example of how to use GetIPSecConnectionDeviceStatus API.</example>
         public async Task<GetIPSecConnectionDeviceStatusResponse> GetIPSecConnectionDeviceStatus(GetIPSecConnectionDeviceStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIPSecConnectionDeviceStatus");
@@ -7888,7 +7888,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIPSecConnectionTunnel.cs.html">here</a> to see an example of how to use GetIPSecConnectionTunnel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIPSecConnectionTunnel.cs.html">here</a> to see an example of how to use GetIPSecConnectionTunnel API.</example>
         public async Task<GetIPSecConnectionTunnelResponse> GetIPSecConnectionTunnel(GetIPSecConnectionTunnelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIPSecConnectionTunnel");
@@ -7945,7 +7945,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIPSecConnectionTunnelError.cs.html">here</a> to see an example of how to use GetIPSecConnectionTunnelError API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIPSecConnectionTunnelError.cs.html">here</a> to see an example of how to use GetIPSecConnectionTunnelError API.</example>
         public async Task<GetIPSecConnectionTunnelErrorResponse> GetIPSecConnectionTunnelError(GetIPSecConnectionTunnelErrorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIPSecConnectionTunnelError");
@@ -8003,7 +8003,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIPSecConnectionTunnelSharedSecret.cs.html">here</a> to see an example of how to use GetIPSecConnectionTunnelSharedSecret API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIPSecConnectionTunnelSharedSecret.cs.html">here</a> to see an example of how to use GetIPSecConnectionTunnelSharedSecret API.</example>
         public async Task<GetIPSecConnectionTunnelSharedSecretResponse> GetIPSecConnectionTunnelSharedSecret(GetIPSecConnectionTunnelSharedSecretRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIPSecConnectionTunnelSharedSecret");
@@ -8059,7 +8059,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetInternetGateway.cs.html">here</a> to see an example of how to use GetInternetGateway API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetInternetGateway.cs.html">here</a> to see an example of how to use GetInternetGateway API.</example>
         public async Task<GetInternetGatewayResponse> GetInternetGateway(GetInternetGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getInternetGateway");
@@ -8134,7 +8134,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIpsecCpeDeviceConfigContent.cs.html">here</a> to see an example of how to use GetIpsecCpeDeviceConfigContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIpsecCpeDeviceConfigContent.cs.html">here</a> to see an example of how to use GetIpsecCpeDeviceConfigContent API.</example>
         public async Task<GetIpsecCpeDeviceConfigContentResponse> GetIpsecCpeDeviceConfigContent(GetIpsecCpeDeviceConfigContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIpsecCpeDeviceConfigContent");
@@ -8183,10 +8183,10 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Gets the specified IPv6. You must specify the object&#39;s [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Gets the specified IPv6. You must specify the object&#39;s [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// Alternatively, you can get the object by using
         /// {@link #listIpv6s(ListIpv6sRequest) listIpv6s}
-        /// with the IPv6 address (for example, 2001:0db8:0123:1111:98fe:dcba:9876:4321) and subnet [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// with the IPv6 address (for example, 2001:0db8:0123:1111:98fe:dcba:9876:4321) and subnet [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -8194,7 +8194,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIpv6.cs.html">here</a> to see an example of how to use GetIpv6 API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIpv6.cs.html">here</a> to see an example of how to use GetIpv6 API.</example>
         public async Task<GetIpv6Response> GetIpv6(GetIpv6Request request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIpv6");
@@ -8250,7 +8250,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetLocalPeeringGateway.cs.html">here</a> to see an example of how to use GetLocalPeeringGateway API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetLocalPeeringGateway.cs.html">here</a> to see an example of how to use GetLocalPeeringGateway API.</example>
         public async Task<GetLocalPeeringGatewayResponse> GetLocalPeeringGateway(GetLocalPeeringGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getLocalPeeringGateway");
@@ -8306,7 +8306,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetNatGateway.cs.html">here</a> to see an example of how to use GetNatGateway API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetNatGateway.cs.html">here</a> to see an example of how to use GetNatGateway API.</example>
         public async Task<GetNatGatewayResponse> GetNatGateway(GetNatGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNatGateway");
@@ -8369,7 +8369,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetNetworkSecurityGroup.cs.html">here</a> to see an example of how to use GetNetworkSecurityGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetNetworkSecurityGroup.cs.html">here</a> to see an example of how to use GetNetworkSecurityGroup API.</example>
         public async Task<GetNetworkSecurityGroupResponse> GetNetworkSecurityGroup(GetNetworkSecurityGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNetworkSecurityGroup");
@@ -8425,7 +8425,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetNetworkingTopology.cs.html">here</a> to see an example of how to use GetNetworkingTopology API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetNetworkingTopology.cs.html">here</a> to see an example of how to use GetNetworkingTopology API.</example>
         public async Task<GetNetworkingTopologyResponse> GetNetworkingTopology(GetNetworkingTopologyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNetworkingTopology");
@@ -8474,10 +8474,10 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Gets the specified private IP. You must specify the object&#39;s [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Gets the specified private IP. You must specify the object&#39;s [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// Alternatively, you can get the object by using
         /// {@link #listPrivateIps(ListPrivateIpsRequest) listPrivateIps}
-        /// with the private IP address (for example, 10.0.3.3) and subnet [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// with the private IP address (for example, 10.0.3.3) and subnet [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -8485,7 +8485,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetPrivateIp.cs.html">here</a> to see an example of how to use GetPrivateIp API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetPrivateIp.cs.html">here</a> to see an example of how to use GetPrivateIp API.</example>
         public async Task<GetPrivateIpResponse> GetPrivateIp(GetPrivateIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPrivateIp");
@@ -8534,17 +8534,17 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Gets the specified public IP. You must specify the object&#39;s [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Gets the specified public IP. You must specify the object&#39;s [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// Alternatively, you can get the object by using {@link #getPublicIpByIpAddress(GetPublicIpByIpAddressRequest) getPublicIpByIpAddress}
         /// with the public IP address (for example, 203.0.113.2).
         /// &lt;br/&gt;
         /// Or you can use {@link #getPublicIpByPrivateIpId(GetPublicIpByPrivateIpIdRequest) getPublicIpByPrivateIpId}
-        /// with the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private IP that the public IP is assigned to.
+        /// with the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private IP that the public IP is assigned to.
         /// &lt;br/&gt;
         /// **Note:** If you&#39;re fetching a reserved public IP that is in the process of being
         /// moved to a different private IP, the service returns the public IP object with
-        /// &#x60;lifecycleState&#x60; &#x3D; ASSIGNING and &#x60;assignedEntityId&#x60; &#x3D; [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the target private IP.
+        /// &#x60;lifecycleState&#x60; &#x3D; ASSIGNING and &#x60;assignedEntityId&#x60; &#x3D; [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the target private IP.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -8552,7 +8552,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetPublicIp.cs.html">here</a> to see an example of how to use GetPublicIp API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetPublicIp.cs.html">here</a> to see an example of how to use GetPublicIp API.</example>
         public async Task<GetPublicIpResponse> GetPublicIp(GetPublicIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPublicIp");
@@ -8605,7 +8605,7 @@ namespace Oci.CoreService
         /// &lt;br/&gt;
         /// **Note:** If you&#39;re fetching a reserved public IP that is in the process of being
         /// moved to a different private IP, the service returns the public IP object with
-        /// &#x60;lifecycleState&#x60; &#x3D; ASSIGNING and &#x60;assignedEntityId&#x60; &#x3D; [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the target private IP.
+        /// &#x60;lifecycleState&#x60; &#x3D; ASSIGNING and &#x60;assignedEntityId&#x60; &#x3D; [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the target private IP.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -8613,7 +8613,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetPublicIpByIpAddress.cs.html">here</a> to see an example of how to use GetPublicIpByIpAddress API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetPublicIpByIpAddress.cs.html">here</a> to see an example of how to use GetPublicIpByIpAddress API.</example>
         public async Task<GetPublicIpByIpAddressResponse> GetPublicIpByIpAddress(GetPublicIpByIpAddressRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPublicIpByIpAddress");
@@ -8666,13 +8666,13 @@ namespace Oci.CoreService
         /// of the private IP. If no public IP is assigned, a 404 is returned.
         /// &lt;br/&gt;
         /// **Note:** If you&#39;re fetching a reserved public IP that is in the process of being
-        /// moved to a different private IP, and you provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the original private
-        /// IP, this operation returns a 404. If you instead provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the target
+        /// moved to a different private IP, and you provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the original private
+        /// IP, this operation returns a 404. If you instead provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the target
         /// private IP, or if you instead call
         /// {@link #getPublicIp(GetPublicIpRequest) getPublicIp} or
         /// {@link #getPublicIpByIpAddress(GetPublicIpByIpAddressRequest) getPublicIpByIpAddress}, the
         /// service returns the public IP object with &#x60;lifecycleState&#x60; &#x3D; ASSIGNING and
-        /// &#x60;assignedEntityId&#x60; &#x3D; [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the target private IP.
+        /// &#x60;assignedEntityId&#x60; &#x3D; [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the target private IP.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -8680,7 +8680,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetPublicIpByPrivateIpId.cs.html">here</a> to see an example of how to use GetPublicIpByPrivateIpId API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetPublicIpByPrivateIpId.cs.html">here</a> to see an example of how to use GetPublicIpByPrivateIpId API.</example>
         public async Task<GetPublicIpByPrivateIpIdResponse> GetPublicIpByPrivateIpId(GetPublicIpByPrivateIpIdRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPublicIpByPrivateIpId");
@@ -8729,7 +8729,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Gets the specified &#x60;PublicIpPool&#x60; object. You must specify the object&#39;s [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Gets the specified &#x60;PublicIpPool&#x60; object. You must specify the object&#39;s [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -8737,7 +8737,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetPublicIpPool.cs.html">here</a> to see an example of how to use GetPublicIpPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetPublicIpPool.cs.html">here</a> to see an example of how to use GetPublicIpPool API.</example>
         public async Task<GetPublicIpPoolResponse> GetPublicIpPool(GetPublicIpPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPublicIpPool");
@@ -8794,7 +8794,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetRemotePeeringConnection.cs.html">here</a> to see an example of how to use GetRemotePeeringConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetRemotePeeringConnection.cs.html">here</a> to see an example of how to use GetRemotePeeringConnection API.</example>
         public async Task<GetRemotePeeringConnectionResponse> GetRemotePeeringConnection(GetRemotePeeringConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRemotePeeringConnection");
@@ -8851,7 +8851,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetResourceIpInventory.cs.html">here</a> to see an example of how to use GetResourceIpInventory API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetResourceIpInventory.cs.html">here</a> to see an example of how to use GetResourceIpInventory API.</example>
         public async Task<GetResourceIpInventoryResponse> GetResourceIpInventory(GetResourceIpInventoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getResourceIpInventory");
@@ -8907,7 +8907,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetRouteTable.cs.html">here</a> to see an example of how to use GetRouteTable API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetRouteTable.cs.html">here</a> to see an example of how to use GetRouteTable API.</example>
         public async Task<GetRouteTableResponse> GetRouteTable(GetRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRouteTable");
@@ -8963,7 +8963,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetSecurityList.cs.html">here</a> to see an example of how to use GetSecurityList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetSecurityList.cs.html">here</a> to see an example of how to use GetSecurityList API.</example>
         public async Task<GetSecurityListResponse> GetSecurityList(GetSecurityListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecurityList");
@@ -9020,7 +9020,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetService.cs.html">here</a> to see an example of how to use GetService API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetService.cs.html">here</a> to see an example of how to use GetService API.</example>
         public async Task<GetServiceResponse> GetService(GetServiceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getService");
@@ -9076,7 +9076,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetServiceGateway.cs.html">here</a> to see an example of how to use GetServiceGateway API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetServiceGateway.cs.html">here</a> to see an example of how to use GetServiceGateway API.</example>
         public async Task<GetServiceGatewayResponse> GetServiceGateway(GetServiceGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getServiceGateway");
@@ -9132,7 +9132,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetSubnet.cs.html">here</a> to see an example of how to use GetSubnet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetSubnet.cs.html">here</a> to see an example of how to use GetSubnet API.</example>
         public async Task<GetSubnetResponse> GetSubnet(GetSubnetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSubnet");
@@ -9181,7 +9181,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Gets the CIDR utilization data of the specified subnet. Specify the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Gets the CIDR utilization data of the specified subnet. Specify the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -9189,7 +9189,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetSubnetCidrUtilization.cs.html">here</a> to see an example of how to use GetSubnetCidrUtilization API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetSubnetCidrUtilization.cs.html">here</a> to see an example of how to use GetSubnetCidrUtilization API.</example>
         public async Task<GetSubnetCidrUtilizationResponse> GetSubnetCidrUtilization(GetSubnetCidrUtilizationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSubnetCidrUtilization");
@@ -9238,7 +9238,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Gets the IP Inventory data of the specified subnet. Specify the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Gets the IP Inventory data of the specified subnet. Specify the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -9246,7 +9246,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetSubnetIpInventory.cs.html">here</a> to see an example of how to use GetSubnetIpInventory API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetSubnetIpInventory.cs.html">here</a> to see an example of how to use GetSubnetIpInventory API.</example>
         public async Task<GetSubnetIpInventoryResponse> GetSubnetIpInventory(GetSubnetIpInventoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSubnetIpInventory");
@@ -9302,7 +9302,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetSubnetTopology.cs.html">here</a> to see an example of how to use GetSubnetTopology API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetSubnetTopology.cs.html">here</a> to see an example of how to use GetSubnetTopology API.</example>
         public async Task<GetSubnetTopologyResponse> GetSubnetTopology(GetSubnetTopologyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSubnetTopology");
@@ -9363,7 +9363,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetTunnelCpeDeviceConfig.cs.html">here</a> to see an example of how to use GetTunnelCpeDeviceConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetTunnelCpeDeviceConfig.cs.html">here</a> to see an example of how to use GetTunnelCpeDeviceConfig API.</example>
         public async Task<GetTunnelCpeDeviceConfigResponse> GetTunnelCpeDeviceConfig(GetTunnelCpeDeviceConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTunnelCpeDeviceConfig");
@@ -9437,7 +9437,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetTunnelCpeDeviceConfigContent.cs.html">here</a> to see an example of how to use GetTunnelCpeDeviceConfigContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetTunnelCpeDeviceConfigContent.cs.html">here</a> to see an example of how to use GetTunnelCpeDeviceConfigContent API.</example>
         public async Task<GetTunnelCpeDeviceConfigContentResponse> GetTunnelCpeDeviceConfigContent(GetTunnelCpeDeviceConfigContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTunnelCpeDeviceConfigContent");
@@ -9494,7 +9494,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetUpgradeStatus.cs.html">here</a> to see an example of how to use GetUpgradeStatus API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetUpgradeStatus.cs.html">here</a> to see an example of how to use GetUpgradeStatus API.</example>
         public async Task<GetUpgradeStatusResponse> GetUpgradeStatus(GetUpgradeStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getUpgradeStatus");
@@ -9550,7 +9550,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVcn.cs.html">here</a> to see an example of how to use GetVcn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVcn.cs.html">here</a> to see an example of how to use GetVcn API.</example>
         public async Task<GetVcnResponse> GetVcn(GetVcnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVcn");
@@ -9606,7 +9606,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVcnDnsResolverAssociation.cs.html">here</a> to see an example of how to use GetVcnDnsResolverAssociation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVcnDnsResolverAssociation.cs.html">here</a> to see an example of how to use GetVcnDnsResolverAssociation API.</example>
         public async Task<GetVcnDnsResolverAssociationResponse> GetVcnDnsResolverAssociation(GetVcnDnsResolverAssociationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVcnDnsResolverAssociation");
@@ -9655,7 +9655,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Gets the CIDR overlap information of the specified VCN in selected compartments. Specify the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Gets the CIDR overlap information of the specified VCN in selected compartments. Specify the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -9663,7 +9663,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVcnOverlap.cs.html">here</a> to see an example of how to use GetVcnOverlap API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVcnOverlap.cs.html">here</a> to see an example of how to use GetVcnOverlap API.</example>
         public async Task<GetVcnOverlapResponse> GetVcnOverlap(GetVcnOverlapRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVcnOverlap");
@@ -9719,7 +9719,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVcnTopology.cs.html">here</a> to see an example of how to use GetVcnTopology API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVcnTopology.cs.html">here</a> to see an example of how to use GetVcnTopology API.</example>
         public async Task<GetVcnTopologyResponse> GetVcnTopology(GetVcnTopologyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVcnTopology");
@@ -9775,7 +9775,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVirtualCircuit.cs.html">here</a> to see an example of how to use GetVirtualCircuit API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVirtualCircuit.cs.html">here</a> to see an example of how to use GetVirtualCircuit API.</example>
         public async Task<GetVirtualCircuitResponse> GetVirtualCircuit(GetVirtualCircuitRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVirtualCircuit");
@@ -9831,7 +9831,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVlan.cs.html">here</a> to see an example of how to use GetVlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVlan.cs.html">here</a> to see an example of how to use GetVlan API.</example>
         public async Task<GetVlanResponse> GetVlan(GetVlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVlan");
@@ -9881,7 +9881,7 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Gets the information for the specified virtual network interface card (VNIC).
-        /// You can get the VNIC [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) from the
+        /// You can get the VNIC [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) from the
         /// {@link #listVnicAttachments(ListVnicAttachmentsRequest) listVnicAttachments}
         /// operation.
         /// 
@@ -9891,7 +9891,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVnic.cs.html">here</a> to see an example of how to use GetVnic API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVnic.cs.html">here</a> to see an example of how to use GetVnic API.</example>
         public async Task<GetVnicResponse> GetVnic(GetVnicRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVnic");
@@ -9947,7 +9947,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVtap.cs.html">here</a> to see an example of how to use GetVtap API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVtap.cs.html">here</a> to see an example of how to use GetVtap API.</example>
         public async Task<GetVtapResponse> GetVtap(GetVtapRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVtap");
@@ -9996,7 +9996,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Unassign the specified IPv6 address from Virtual Network Interface Card (VNIC). You must specify the IPv6 [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Unassign the specified IPv6 address from Virtual Network Interface Card (VNIC). You must specify the IPv6 [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -10004,7 +10004,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/Ipv6VnicDetach.cs.html">here</a> to see an example of how to use Ipv6VnicDetach API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/Ipv6VnicDetach.cs.html">here</a> to see an example of how to use Ipv6VnicDetach API.</example>
         public async Task<Ipv6VnicDetachResponse> Ipv6VnicDetach(Ipv6VnicDetachRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called ipv6VnicDetach");
@@ -10054,7 +10054,7 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Lists the regions that support remote VCN peering (which is peering across regions).
-        /// For more information, see [VCN Peering](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/VCNpeering.htm).
+        /// For more information, see [VCN Peering](https://docs.oracle.com/iaas/Content/Network/Tasks/VCNpeering.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -10062,7 +10062,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListAllowedPeerRegionsForRemotePeering.cs.html">here</a> to see an example of how to use ListAllowedPeerRegionsForRemotePeering API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListAllowedPeerRegionsForRemotePeering.cs.html">here</a> to see an example of how to use ListAllowedPeerRegionsForRemotePeering API.</example>
         public async Task<ListAllowedPeerRegionsForRemotePeeringResponse> ListAllowedPeerRegionsForRemotePeering(ListAllowedPeerRegionsForRemotePeeringRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAllowedPeerRegionsForRemotePeering");
@@ -10120,7 +10120,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListByoasns.cs.html">here</a> to see an example of how to use ListByoasns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListByoasns.cs.html">here</a> to see an example of how to use ListByoasns API.</example>
         public async Task<ListByoasnsResponse> ListByoasns(ListByoasnsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listByoasns");
@@ -10178,7 +10178,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListByoipAllocatedRanges.cs.html">here</a> to see an example of how to use ListByoipAllocatedRanges API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListByoipAllocatedRanges.cs.html">here</a> to see an example of how to use ListByoipAllocatedRanges API.</example>
         public async Task<ListByoipAllocatedRangesResponse> ListByoipAllocatedRanges(ListByoipAllocatedRangesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listByoipAllocatedRanges");
@@ -10236,7 +10236,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListByoipRanges.cs.html">here</a> to see an example of how to use ListByoipRanges API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListByoipRanges.cs.html">here</a> to see an example of how to use ListByoipRanges API.</example>
         public async Task<ListByoipRangesResponse> ListByoipRanges(ListByoipRangesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listByoipRanges");
@@ -10293,7 +10293,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCaptureFilters.cs.html">here</a> to see an example of how to use ListCaptureFilters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCaptureFilters.cs.html">here</a> to see an example of how to use ListCaptureFilters API.</example>
         public async Task<ListCaptureFiltersResponse> ListCaptureFilters(ListCaptureFiltersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCaptureFilters");
@@ -10348,7 +10348,7 @@ namespace Oci.CoreService
         /// &lt;br/&gt;
         /// If you want to generate CPE configuration content for one of the returned CPE device types,
         /// ensure that the {@link Cpe} object&#39;s &#x60;cpeDeviceShapeId&#x60; attribute is set
-        /// to the CPE device type&#39;s [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) (returned by this operation).
+        /// to the CPE device type&#39;s [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) (returned by this operation).
         /// &lt;br/&gt;
         /// For information about generating CPE configuration content, see these operations:
         /// &lt;br/&gt;
@@ -10362,7 +10362,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCpeDeviceShapes.cs.html">here</a> to see an example of how to use ListCpeDeviceShapes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCpeDeviceShapes.cs.html">here</a> to see an example of how to use ListCpeDeviceShapes API.</example>
         public async Task<ListCpeDeviceShapesResponse> ListCpeDeviceShapes(ListCpeDeviceShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCpeDeviceShapes");
@@ -10419,7 +10419,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCpes.cs.html">here</a> to see an example of how to use ListCpes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCpes.cs.html">here</a> to see an example of how to use ListCpes API.</example>
         public async Task<ListCpesResponse> ListCpes(ListCpesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCpes");
@@ -10476,7 +10476,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCrossConnectGroups.cs.html">here</a> to see an example of how to use ListCrossConnectGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCrossConnectGroups.cs.html">here</a> to see an example of how to use ListCrossConnectGroups API.</example>
         public async Task<ListCrossConnectGroupsResponse> ListCrossConnectGroups(ListCrossConnectGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCrossConnectGroups");
@@ -10534,7 +10534,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCrossConnectLocations.cs.html">here</a> to see an example of how to use ListCrossConnectLocations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCrossConnectLocations.cs.html">here</a> to see an example of how to use ListCrossConnectLocations API.</example>
         public async Task<ListCrossConnectLocationsResponse> ListCrossConnectLocations(ListCrossConnectLocationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCrossConnectLocations");
@@ -10592,7 +10592,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCrossConnectMappings.cs.html">here</a> to see an example of how to use ListCrossConnectMappings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCrossConnectMappings.cs.html">here</a> to see an example of how to use ListCrossConnectMappings API.</example>
         public async Task<ListCrossConnectMappingsResponse> ListCrossConnectMappings(ListCrossConnectMappingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCrossConnectMappings");
@@ -10642,7 +10642,7 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Lists the cross-connects in the specified compartment. You can filter the list
-        /// by specifying the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a cross-connect group.
+        /// by specifying the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a cross-connect group.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -10650,7 +10650,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCrossConnects.cs.html">here</a> to see an example of how to use ListCrossConnects API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCrossConnects.cs.html">here</a> to see an example of how to use ListCrossConnects API.</example>
         public async Task<ListCrossConnectsResponse> ListCrossConnects(ListCrossConnectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCrossConnects");
@@ -10709,7 +10709,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCrossconnectPortSpeedShapes.cs.html">here</a> to see an example of how to use ListCrossconnectPortSpeedShapes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListCrossconnectPortSpeedShapes.cs.html">here</a> to see an example of how to use ListCrossconnectPortSpeedShapes API.</example>
         public async Task<ListCrossconnectPortSpeedShapesResponse> ListCrossconnectPortSpeedShapes(ListCrossconnectPortSpeedShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCrossconnectPortSpeedShapes");
@@ -10769,7 +10769,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDhcpOptions.cs.html">here</a> to see an example of how to use ListDhcpOptions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDhcpOptions.cs.html">here</a> to see an example of how to use ListDhcpOptions API.</example>
         public async Task<ListDhcpOptionsResponse> ListDhcpOptions(ListDhcpOptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDhcpOptions");
@@ -10831,7 +10831,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDrgAttachments.cs.html">here</a> to see an example of how to use ListDrgAttachments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDrgAttachments.cs.html">here</a> to see an example of how to use ListDrgAttachments API.</example>
         public async Task<ListDrgAttachmentsResponse> ListDrgAttachments(ListDrgAttachmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDrgAttachments");
@@ -10887,7 +10887,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDrgRouteDistributionStatements.cs.html">here</a> to see an example of how to use ListDrgRouteDistributionStatements API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDrgRouteDistributionStatements.cs.html">here</a> to see an example of how to use ListDrgRouteDistributionStatements API.</example>
         public async Task<ListDrgRouteDistributionStatementsResponse> ListDrgRouteDistributionStatements(ListDrgRouteDistributionStatementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDrgRouteDistributionStatements");
@@ -10947,7 +10947,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDrgRouteDistributions.cs.html">here</a> to see an example of how to use ListDrgRouteDistributions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDrgRouteDistributions.cs.html">here</a> to see an example of how to use ListDrgRouteDistributions API.</example>
         public async Task<ListDrgRouteDistributionsResponse> ListDrgRouteDistributions(ListDrgRouteDistributionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDrgRouteDistributions");
@@ -11003,7 +11003,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDrgRouteRules.cs.html">here</a> to see an example of how to use ListDrgRouteRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDrgRouteRules.cs.html">here</a> to see an example of how to use ListDrgRouteRules API.</example>
         public async Task<ListDrgRouteRulesResponse> ListDrgRouteRules(ListDrgRouteRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDrgRouteRules");
@@ -11062,7 +11062,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDrgRouteTables.cs.html">here</a> to see an example of how to use ListDrgRouteTables API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDrgRouteTables.cs.html">here</a> to see an example of how to use ListDrgRouteTables API.</example>
         public async Task<ListDrgRouteTablesResponse> ListDrgRouteTables(ListDrgRouteTablesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDrgRouteTables");
@@ -11119,7 +11119,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDrgs.cs.html">here</a> to see an example of how to use ListDrgs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDrgs.cs.html">here</a> to see an example of how to use ListDrgs API.</example>
         public async Task<ListDrgsResponse> ListDrgs(ListDrgsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDrgs");
@@ -11172,9 +11172,9 @@ namespace Oci.CoreService
         /// information so you can specify your desired provider and service
         /// offering when you create a virtual circuit.
         /// &lt;br/&gt;
-        /// For the compartment ID, provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of your tenancy (the root compartment).
+        /// For the compartment ID, provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of your tenancy (the root compartment).
         /// &lt;br/&gt;
-        /// For more information, see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+        /// For more information, see [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -11182,7 +11182,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListFastConnectProviderServices.cs.html">here</a> to see an example of how to use ListFastConnectProviderServices API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListFastConnectProviderServices.cs.html">here</a> to see an example of how to use ListFastConnectProviderServices API.</example>
         public async Task<ListFastConnectProviderServicesResponse> ListFastConnectProviderServices(ListFastConnectProviderServicesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFastConnectProviderServices");
@@ -11234,7 +11234,7 @@ namespace Oci.CoreService
         /// Gets the list of available virtual circuit bandwidth levels for a provider.
         /// You need this information so you can specify your desired bandwidth level (shape) when you create a virtual circuit.
         /// &lt;br/&gt;
-        /// For more information about virtual circuits, see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+        /// For more information about virtual circuits, see [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -11242,7 +11242,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListFastConnectProviderVirtualCircuitBandwidthShapes.cs.html">here</a> to see an example of how to use ListFastConnectProviderVirtualCircuitBandwidthShapes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListFastConnectProviderVirtualCircuitBandwidthShapes.cs.html">here</a> to see an example of how to use ListFastConnectProviderVirtualCircuitBandwidthShapes API.</example>
         public async Task<ListFastConnectProviderVirtualCircuitBandwidthShapesResponse> ListFastConnectProviderVirtualCircuitBandwidthShapes(ListFastConnectProviderVirtualCircuitBandwidthShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFastConnectProviderVirtualCircuitBandwidthShapes");
@@ -11299,7 +11299,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListIPSecConnectionTunnelRoutes.cs.html">here</a> to see an example of how to use ListIPSecConnectionTunnelRoutes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListIPSecConnectionTunnelRoutes.cs.html">here</a> to see an example of how to use ListIPSecConnectionTunnelRoutes API.</example>
         public async Task<ListIPSecConnectionTunnelRoutesResponse> ListIPSecConnectionTunnelRoutes(ListIPSecConnectionTunnelRoutesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIPSecConnectionTunnelRoutes");
@@ -11356,7 +11356,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListIPSecConnectionTunnelSecurityAssociations.cs.html">here</a> to see an example of how to use ListIPSecConnectionTunnelSecurityAssociations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListIPSecConnectionTunnelSecurityAssociations.cs.html">here</a> to see an example of how to use ListIPSecConnectionTunnelSecurityAssociations API.</example>
         public async Task<ListIPSecConnectionTunnelSecurityAssociationsResponse> ListIPSecConnectionTunnelSecurityAssociations(ListIPSecConnectionTunnelSecurityAssociationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIPSecConnectionTunnelSecurityAssociations");
@@ -11413,7 +11413,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListIPSecConnectionTunnels.cs.html">here</a> to see an example of how to use ListIPSecConnectionTunnels API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListIPSecConnectionTunnels.cs.html">here</a> to see an example of how to use ListIPSecConnectionTunnels API.</example>
         public async Task<ListIPSecConnectionTunnelsResponse> ListIPSecConnectionTunnels(ListIPSecConnectionTunnelsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIPSecConnectionTunnels");
@@ -11471,7 +11471,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListIPSecConnections.cs.html">here</a> to see an example of how to use ListIPSecConnections API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListIPSecConnections.cs.html">here</a> to see an example of how to use ListIPSecConnections API.</example>
         public async Task<ListIPSecConnectionsResponse> ListIPSecConnections(ListIPSecConnectionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIPSecConnections");
@@ -11529,7 +11529,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListInternetGateways.cs.html">here</a> to see an example of how to use ListInternetGateways API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListInternetGateways.cs.html">here</a> to see an example of how to use ListInternetGateways API.</example>
         public async Task<ListInternetGatewaysResponse> ListInternetGateways(ListInternetGatewaysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInternetGateways");
@@ -11586,7 +11586,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListIpInventory.cs.html">here</a> to see an example of how to use ListIpInventory API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListIpInventory.cs.html">here</a> to see an example of how to use ListIpInventory API.</example>
         public async Task<ListIpInventoryResponse> ListIpInventory(ListIpInventoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIpInventory");
@@ -11638,11 +11638,11 @@ namespace Oci.CoreService
         /// Lists the {@link Ipv6} objects based
         /// on one of these filters:
         /// &lt;br/&gt;
-        ///   * Subnet [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
-        ///   * VNIC [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        ///   * Subnet [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        ///   * VNIC [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         ///   * Both IPv6 address and subnet OCID: This lets you get an &#x60;Ipv6&#x60; object based on its private
-        ///   IPv6 address (for example, 2001:0db8:0123:1111:abcd:ef01:2345:6789) and not its [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). For comparison,
-        ///   {@link #getIpv6(GetIpv6Request) getIpv6} requires the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        ///   IPv6 address (for example, 2001:0db8:0123:1111:abcd:ef01:2345:6789) and not its [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). For comparison,
+        ///   {@link #getIpv6(GetIpv6Request) getIpv6} requires the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -11650,7 +11650,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListIpv6s.cs.html">here</a> to see an example of how to use ListIpv6s API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListIpv6s.cs.html">here</a> to see an example of how to use ListIpv6s API.</example>
         public async Task<ListIpv6sResponse> ListIpv6s(ListIpv6sRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIpv6s");
@@ -11708,7 +11708,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListLocalPeeringGateways.cs.html">here</a> to see an example of how to use ListLocalPeeringGateways API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListLocalPeeringGateways.cs.html">here</a> to see an example of how to use ListLocalPeeringGateways API.</example>
         public async Task<ListLocalPeeringGatewaysResponse> ListLocalPeeringGateways(ListLocalPeeringGatewaysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLocalPeeringGateways");
@@ -11766,7 +11766,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListNatGateways.cs.html">here</a> to see an example of how to use ListNatGateways API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListNatGateways.cs.html">here</a> to see an example of how to use ListNatGateways API.</example>
         public async Task<ListNatGatewaysResponse> ListNatGateways(ListNatGatewaysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNatGateways");
@@ -11823,7 +11823,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListNetworkSecurityGroupSecurityRules.cs.html">here</a> to see an example of how to use ListNetworkSecurityGroupSecurityRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListNetworkSecurityGroupSecurityRules.cs.html">here</a> to see an example of how to use ListNetworkSecurityGroupSecurityRules API.</example>
         public async Task<ListNetworkSecurityGroupSecurityRulesResponse> ListNetworkSecurityGroupSecurityRules(ListNetworkSecurityGroupSecurityRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNetworkSecurityGroupSecurityRules");
@@ -11880,7 +11880,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListNetworkSecurityGroupVnics.cs.html">here</a> to see an example of how to use ListNetworkSecurityGroupVnics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListNetworkSecurityGroupVnics.cs.html">here</a> to see an example of how to use ListNetworkSecurityGroupVnics API.</example>
         public async Task<ListNetworkSecurityGroupVnicsResponse> ListNetworkSecurityGroupVnics(ListNetworkSecurityGroupVnicsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNetworkSecurityGroupVnics");
@@ -11938,7 +11938,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListNetworkSecurityGroups.cs.html">here</a> to see an example of how to use ListNetworkSecurityGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListNetworkSecurityGroups.cs.html">here</a> to see an example of how to use ListNetworkSecurityGroups API.</example>
         public async Task<ListNetworkSecurityGroupsResponse> ListNetworkSecurityGroups(ListNetworkSecurityGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNetworkSecurityGroups");
@@ -11990,19 +11990,19 @@ namespace Oci.CoreService
         /// Lists the {@link PrivateIp} objects based
         /// on one of these filters:
         /// &lt;br/&gt;
-        ///   - Subnet [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
-        ///   - VNIC [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        ///   - Subnet [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        ///   - VNIC [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         ///   - Both private IP address and subnet OCID: This lets
         ///   you get a &#x60;privateIP&#x60; object based on its private IP
-        ///   address (for example, 10.0.3.3) and not its [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). For comparison,
+        ///   address (for example, 10.0.3.3) and not its [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). For comparison,
         ///   {@link #getPrivateIp(GetPrivateIpRequest) getPrivateIp}
-        ///   requires the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        ///   requires the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// If you&#39;re listing all the private IPs associated with a given subnet
         /// or VNIC, the response includes both primary and secondary private IPs.
         /// &lt;br/&gt;
         /// If you are an Oracle Cloud VMware Solution customer and have VLANs
-        /// in your VCN, you can filter the list by VLAN [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). See {@link Vlan}.
+        /// in your VCN, you can filter the list by VLAN [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). See {@link Vlan}.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -12010,7 +12010,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListPrivateIps.cs.html">here</a> to see an example of how to use ListPrivateIps API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListPrivateIps.cs.html">here</a> to see an example of how to use ListPrivateIps API.</example>
         public async Task<ListPrivateIpsResponse> ListPrivateIps(ListPrivateIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPrivateIps");
@@ -12068,7 +12068,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListPublicIpPools.cs.html">here</a> to see an example of how to use ListPublicIpPools API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListPublicIpPools.cs.html">here</a> to see an example of how to use ListPublicIpPools API.</example>
         public async Task<ListPublicIpPoolsResponse> ListPublicIpPools(ListPublicIpPoolsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPublicIpPools");
@@ -12144,7 +12144,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListPublicIps.cs.html">here</a> to see an example of how to use ListPublicIps API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListPublicIps.cs.html">here</a> to see an example of how to use ListPublicIps API.</example>
         public async Task<ListPublicIpsResponse> ListPublicIps(ListPublicIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPublicIps");
@@ -12202,7 +12202,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListRemotePeeringConnections.cs.html">here</a> to see an example of how to use ListRemotePeeringConnections API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListRemotePeeringConnections.cs.html">here</a> to see an example of how to use ListRemotePeeringConnections API.</example>
         public async Task<ListRemotePeeringConnectionsResponse> ListRemotePeeringConnections(ListRemotePeeringConnectionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRemotePeeringConnections");
@@ -12262,7 +12262,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListRouteTables.cs.html">here</a> to see an example of how to use ListRouteTables API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListRouteTables.cs.html">here</a> to see an example of how to use ListRouteTables API.</example>
         public async Task<ListRouteTablesResponse> ListRouteTables(ListRouteTablesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRouteTables");
@@ -12320,7 +12320,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListSecurityLists.cs.html">here</a> to see an example of how to use ListSecurityLists API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListSecurityLists.cs.html">here</a> to see an example of how to use ListSecurityLists API.</example>
         public async Task<ListSecurityListsResponse> ListSecurityLists(ListSecurityListsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityLists");
@@ -12378,7 +12378,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListServiceGateways.cs.html">here</a> to see an example of how to use ListServiceGateways API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListServiceGateways.cs.html">here</a> to see an example of how to use ListServiceGateways API.</example>
         public async Task<ListServiceGatewaysResponse> ListServiceGateways(ListServiceGatewaysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listServiceGateways");
@@ -12436,7 +12436,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListServices.cs.html">here</a> to see an example of how to use ListServices API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListServices.cs.html">here</a> to see an example of how to use ListServices API.</example>
         public async Task<ListServicesResponse> ListServices(ListServicesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listServices");
@@ -12494,7 +12494,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListSubnets.cs.html">here</a> to see an example of how to use ListSubnets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListSubnets.cs.html">here</a> to see an example of how to use ListSubnets API.</example>
         public async Task<ListSubnetsResponse> ListSubnets(ListSubnetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSubnets");
@@ -12551,7 +12551,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListVcns.cs.html">here</a> to see an example of how to use ListVcns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListVcns.cs.html">here</a> to see an example of how to use ListVcns API.</example>
         public async Task<ListVcnsResponse> ListVcns(ListVcnsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVcns");
@@ -12607,7 +12607,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListVirtualCircuitAssociatedTunnels.cs.html">here</a> to see an example of how to use ListVirtualCircuitAssociatedTunnels API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListVirtualCircuitAssociatedTunnels.cs.html">here</a> to see an example of how to use ListVirtualCircuitAssociatedTunnels API.</example>
         public async Task<ListVirtualCircuitAssociatedTunnelsResponse> ListVirtualCircuitAssociatedTunnels(ListVirtualCircuitAssociatedTunnelsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVirtualCircuitAssociatedTunnels");
@@ -12656,7 +12656,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// The operation lists available bandwidth levels for virtual circuits. For the compartment ID, provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of your tenancy (the root compartment).
+        /// The operation lists available bandwidth levels for virtual circuits. For the compartment ID, provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of your tenancy (the root compartment).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -12664,7 +12664,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListVirtualCircuitBandwidthShapes.cs.html">here</a> to see an example of how to use ListVirtualCircuitBandwidthShapes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListVirtualCircuitBandwidthShapes.cs.html">here</a> to see an example of how to use ListVirtualCircuitBandwidthShapes API.</example>
         public async Task<ListVirtualCircuitBandwidthShapesResponse> ListVirtualCircuitBandwidthShapes(ListVirtualCircuitBandwidthShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVirtualCircuitBandwidthShapes");
@@ -12722,7 +12722,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListVirtualCircuitPublicPrefixes.cs.html">here</a> to see an example of how to use ListVirtualCircuitPublicPrefixes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListVirtualCircuitPublicPrefixes.cs.html">here</a> to see an example of how to use ListVirtualCircuitPublicPrefixes API.</example>
         public async Task<ListVirtualCircuitPublicPrefixesResponse> ListVirtualCircuitPublicPrefixes(ListVirtualCircuitPublicPrefixesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVirtualCircuitPublicPrefixes");
@@ -12779,7 +12779,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListVirtualCircuits.cs.html">here</a> to see an example of how to use ListVirtualCircuits API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListVirtualCircuits.cs.html">here</a> to see an example of how to use ListVirtualCircuits API.</example>
         public async Task<ListVirtualCircuitsResponse> ListVirtualCircuits(ListVirtualCircuitsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVirtualCircuits");
@@ -12836,7 +12836,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListVlans.cs.html">here</a> to see an example of how to use ListVlans API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListVlans.cs.html">here</a> to see an example of how to use ListVlans API.</example>
         public async Task<ListVlansResponse> ListVlans(ListVlansRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVlans");
@@ -12893,7 +12893,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListVtaps.cs.html">here</a> to see an example of how to use ListVtaps API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListVtaps.cs.html">here</a> to see an example of how to use ListVtaps API.</example>
         public async Task<ListVtapsResponse> ListVtaps(ListVtapsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVtaps");
@@ -12956,7 +12956,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ModifyIpv4SubnetCidr.cs.html">here</a> to see an example of how to use ModifyIpv4SubnetCidr API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ModifyIpv4SubnetCidr.cs.html">here</a> to see an example of how to use ModifyIpv4SubnetCidr API.</example>
         public async Task<ModifyIpv4SubnetCidrResponse> ModifyIpv4SubnetCidr(ModifyIpv4SubnetCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called modifyIpv4SubnetCidr");
@@ -13021,7 +13021,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ModifyVcnCidr.cs.html">here</a> to see an example of how to use ModifyVcnCidr API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ModifyVcnCidr.cs.html">here</a> to see an example of how to use ModifyVcnCidr API.</example>
         public async Task<ModifyVcnCidrResponse> ModifyVcnCidr(ModifyVcnCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called modifyVcnCidr");
@@ -13087,7 +13087,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/PatchSubnet.cs.html">here</a> to see an example of how to use PatchSubnet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/PatchSubnet.cs.html">here</a> to see an example of how to use PatchSubnet API.</example>
         public async Task<PatchSubnetResponse> PatchSubnet(PatchSubnetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchSubnet");
@@ -13158,7 +13158,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/PatchVcn.cs.html">here</a> to see an example of how to use PatchVcn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/PatchVcn.cs.html">here</a> to see an example of how to use PatchVcn API.</example>
         public async Task<PatchVcnResponse> PatchVcn(PatchVcnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchVcn");
@@ -13207,7 +13207,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Unassign the specified PrivateIP address from Virtual Network Interface Card (VNIC). You must specify the PrivateIP [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Unassign the specified PrivateIP address from Virtual Network Interface Card (VNIC). You must specify the PrivateIP [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -13215,7 +13215,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/PrivateIpVnicDetach.cs.html">here</a> to see an example of how to use PrivateIpVnicDetach API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/PrivateIpVnicDetach.cs.html">here</a> to see an example of how to use PrivateIpVnicDetach API.</example>
         public async Task<PrivateIpVnicDetachResponse> PrivateIpVnicDetach(PrivateIpVnicDetachRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called privateIpVnicDetach");
@@ -13272,7 +13272,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveDrgRouteDistributionStatements.cs.html">here</a> to see an example of how to use RemoveDrgRouteDistributionStatements API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveDrgRouteDistributionStatements.cs.html">here</a> to see an example of how to use RemoveDrgRouteDistributionStatements API.</example>
         public async Task<RemoveDrgRouteDistributionStatementsResponse> RemoveDrgRouteDistributionStatements(RemoveDrgRouteDistributionStatementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeDrgRouteDistributionStatements");
@@ -13329,7 +13329,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveDrgRouteRules.cs.html">here</a> to see an example of how to use RemoveDrgRouteRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveDrgRouteRules.cs.html">here</a> to see an example of how to use RemoveDrgRouteRules API.</example>
         public async Task<RemoveDrgRouteRulesResponse> RemoveDrgRouteRules(RemoveDrgRouteRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeDrgRouteRules");
@@ -13386,7 +13386,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveExportDrgRouteDistribution.cs.html">here</a> to see an example of how to use RemoveExportDrgRouteDistribution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveExportDrgRouteDistribution.cs.html">here</a> to see an example of how to use RemoveExportDrgRouteDistribution API.</example>
         public async Task<RemoveExportDrgRouteDistributionResponse> RemoveExportDrgRouteDistribution(RemoveExportDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeExportDrgRouteDistribution");
@@ -13444,7 +13444,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveImportDrgRouteDistribution.cs.html">here</a> to see an example of how to use RemoveImportDrgRouteDistribution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveImportDrgRouteDistribution.cs.html">here</a> to see an example of how to use RemoveImportDrgRouteDistribution API.</example>
         public async Task<RemoveImportDrgRouteDistributionResponse> RemoveImportDrgRouteDistribution(RemoveImportDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeImportDrgRouteDistribution");
@@ -13501,7 +13501,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveIpv4SubnetCidr.cs.html">here</a> to see an example of how to use RemoveIpv4SubnetCidr API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveIpv4SubnetCidr.cs.html">here</a> to see an example of how to use RemoveIpv4SubnetCidr API.</example>
         public async Task<RemoveIpv4SubnetCidrResponse> RemoveIpv4SubnetCidr(RemoveIpv4SubnetCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeIpv4SubnetCidr");
@@ -13558,7 +13558,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveIpv6SubnetCidr.cs.html">here</a> to see an example of how to use RemoveIpv6SubnetCidr API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveIpv6SubnetCidr.cs.html">here</a> to see an example of how to use RemoveIpv6SubnetCidr API.</example>
         public async Task<RemoveIpv6SubnetCidrResponse> RemoveIpv6SubnetCidr(RemoveIpv6SubnetCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeIpv6SubnetCidr");
@@ -13615,7 +13615,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveIpv6VcnCidr.cs.html">here</a> to see an example of how to use RemoveIpv6VcnCidr API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveIpv6VcnCidr.cs.html">here</a> to see an example of how to use RemoveIpv6VcnCidr API.</example>
         public async Task<RemoveIpv6VcnCidrResponse> RemoveIpv6VcnCidr(RemoveIpv6VcnCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeIpv6VcnCidr");
@@ -13672,7 +13672,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveNetworkSecurityGroupSecurityRules.cs.html">here</a> to see an example of how to use RemoveNetworkSecurityGroupSecurityRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveNetworkSecurityGroupSecurityRules.cs.html">here</a> to see an example of how to use RemoveNetworkSecurityGroupSecurityRules API.</example>
         public async Task<RemoveNetworkSecurityGroupSecurityRulesResponse> RemoveNetworkSecurityGroupSecurityRules(RemoveNetworkSecurityGroupSecurityRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeNetworkSecurityGroupSecurityRules");
@@ -13729,7 +13729,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemovePublicIpPoolCapacity.cs.html">here</a> to see an example of how to use RemovePublicIpPoolCapacity API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemovePublicIpPoolCapacity.cs.html">here</a> to see an example of how to use RemovePublicIpPoolCapacity API.</example>
         public async Task<RemovePublicIpPoolCapacityResponse> RemovePublicIpPoolCapacity(RemovePublicIpPoolCapacityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removePublicIpPoolCapacity");
@@ -13790,7 +13790,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveVcnCidr.cs.html">here</a> to see an example of how to use RemoveVcnCidr API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/RemoveVcnCidr.cs.html">here</a> to see an example of how to use RemoveVcnCidr API.</example>
         public async Task<RemoveVcnCidrResponse> RemoveVcnCidr(RemoveVcnCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeVcnCidr");
@@ -13847,7 +13847,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/SetOriginAsn.cs.html">here</a> to see an example of how to use SetOriginAsn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/SetOriginAsn.cs.html">here</a> to see an example of how to use SetOriginAsn API.</example>
         public async Task<SetOriginAsnResponse> SetOriginAsn(SetOriginAsnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called setOriginAsn");
@@ -13904,7 +13904,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/SetOriginAsnToOracle.cs.html">here</a> to see an example of how to use SetOriginAsnToOracle API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/SetOriginAsnToOracle.cs.html">here</a> to see an example of how to use SetOriginAsnToOracle API.</example>
         public async Task<SetOriginAsnToOracleResponse> SetOriginAsnToOracle(SetOriginAsnToOracleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called setOriginAsnToOracle");
@@ -13961,7 +13961,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateByoasn.cs.html">here</a> to see an example of how to use UpdateByoasn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateByoasn.cs.html">here</a> to see an example of how to use UpdateByoasn API.</example>
         public async Task<UpdateByoasnResponse> UpdateByoasn(UpdateByoasnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateByoasn");
@@ -14018,7 +14018,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateByoipRange.cs.html">here</a> to see an example of how to use UpdateByoipRange API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateByoipRange.cs.html">here</a> to see an example of how to use UpdateByoipRange API.</example>
         public async Task<UpdateByoipRangeResponse> UpdateByoipRange(UpdateByoipRangeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateByoipRange");
@@ -14075,7 +14075,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateCaptureFilter.cs.html">here</a> to see an example of how to use UpdateCaptureFilter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateCaptureFilter.cs.html">here</a> to see an example of how to use UpdateCaptureFilter API.</example>
         public async Task<UpdateCaptureFilterResponse> UpdateCaptureFilter(UpdateCaptureFilterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCaptureFilter");
@@ -14133,7 +14133,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateCpe.cs.html">here</a> to see an example of how to use UpdateCpe API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateCpe.cs.html">here</a> to see an example of how to use UpdateCpe API.</example>
         public async Task<UpdateCpeResponse> UpdateCpe(UpdateCpeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCpe");
@@ -14189,7 +14189,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateCrossConnect.cs.html">here</a> to see an example of how to use UpdateCrossConnect API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateCrossConnect.cs.html">here</a> to see an example of how to use UpdateCrossConnect API.</example>
         public async Task<UpdateCrossConnectResponse> UpdateCrossConnect(UpdateCrossConnectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCrossConnect");
@@ -14247,7 +14247,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateCrossConnectGroup.cs.html">here</a> to see an example of how to use UpdateCrossConnectGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateCrossConnectGroup.cs.html">here</a> to see an example of how to use UpdateCrossConnectGroup API.</example>
         public async Task<UpdateCrossConnectGroupResponse> UpdateCrossConnectGroup(UpdateCrossConnectGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCrossConnectGroup");
@@ -14307,7 +14307,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDhcpOptions.cs.html">here</a> to see an example of how to use UpdateDhcpOptions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDhcpOptions.cs.html">here</a> to see an example of how to use UpdateDhcpOptions API.</example>
         public async Task<UpdateDhcpOptionsResponse> UpdateDhcpOptions(UpdateDhcpOptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDhcpOptions");
@@ -14364,7 +14364,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDrg.cs.html">here</a> to see an example of how to use UpdateDrg API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDrg.cs.html">here</a> to see an example of how to use UpdateDrg API.</example>
         public async Task<UpdateDrgResponse> UpdateDrg(UpdateDrgRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrg");
@@ -14422,7 +14422,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDrgAttachment.cs.html">here</a> to see an example of how to use UpdateDrgAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDrgAttachment.cs.html">here</a> to see an example of how to use UpdateDrgAttachment API.</example>
         public async Task<UpdateDrgAttachmentResponse> UpdateDrgAttachment(UpdateDrgAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrgAttachment");
@@ -14479,7 +14479,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDrgRouteDistribution.cs.html">here</a> to see an example of how to use UpdateDrgRouteDistribution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDrgRouteDistribution.cs.html">here</a> to see an example of how to use UpdateDrgRouteDistribution API.</example>
         public async Task<UpdateDrgRouteDistributionResponse> UpdateDrgRouteDistribution(UpdateDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrgRouteDistribution");
@@ -14536,7 +14536,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDrgRouteDistributionStatements.cs.html">here</a> to see an example of how to use UpdateDrgRouteDistributionStatements API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDrgRouteDistributionStatements.cs.html">here</a> to see an example of how to use UpdateDrgRouteDistributionStatements API.</example>
         public async Task<UpdateDrgRouteDistributionStatementsResponse> UpdateDrgRouteDistributionStatements(UpdateDrgRouteDistributionStatementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrgRouteDistributionStatements");
@@ -14593,7 +14593,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDrgRouteRules.cs.html">here</a> to see an example of how to use UpdateDrgRouteRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDrgRouteRules.cs.html">here</a> to see an example of how to use UpdateDrgRouteRules API.</example>
         public async Task<UpdateDrgRouteRulesResponse> UpdateDrgRouteRules(UpdateDrgRouteRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrgRouteRules");
@@ -14650,7 +14650,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDrgRouteTable.cs.html">here</a> to see an example of how to use UpdateDrgRouteTable API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateDrgRouteTable.cs.html">here</a> to see an example of how to use UpdateDrgRouteTable API.</example>
         public async Task<UpdateDrgRouteTableResponse> UpdateDrgRouteTable(UpdateDrgRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrgRouteTable");
@@ -14710,7 +14710,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateIPSecConnection.cs.html">here</a> to see an example of how to use UpdateIPSecConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateIPSecConnection.cs.html">here</a> to see an example of how to use UpdateIPSecConnection API.</example>
         public async Task<UpdateIPSecConnectionResponse> UpdateIPSecConnection(UpdateIPSecConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateIPSecConnection");
@@ -14778,7 +14778,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateIPSecConnectionTunnel.cs.html">here</a> to see an example of how to use UpdateIPSecConnectionTunnel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateIPSecConnectionTunnel.cs.html">here</a> to see an example of how to use UpdateIPSecConnectionTunnel API.</example>
         public async Task<UpdateIPSecConnectionTunnelResponse> UpdateIPSecConnectionTunnel(UpdateIPSecConnectionTunnelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateIPSecConnectionTunnel");
@@ -14837,7 +14837,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateIPSecConnectionTunnelSharedSecret.cs.html">here</a> to see an example of how to use UpdateIPSecConnectionTunnelSharedSecret API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateIPSecConnectionTunnelSharedSecret.cs.html">here</a> to see an example of how to use UpdateIPSecConnectionTunnelSharedSecret API.</example>
         public async Task<UpdateIPSecConnectionTunnelSharedSecretResponse> UpdateIPSecConnectionTunnelSharedSecret(UpdateIPSecConnectionTunnelSharedSecretRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateIPSecConnectionTunnelSharedSecret");
@@ -14898,7 +14898,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateInternetGateway.cs.html">here</a> to see an example of how to use UpdateInternetGateway API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateInternetGateway.cs.html">here</a> to see an example of how to use UpdateInternetGateway API.</example>
         public async Task<UpdateInternetGatewayResponse> UpdateInternetGateway(UpdateInternetGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateInternetGateway");
@@ -14947,7 +14947,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Updates the specified IPv6. You must specify the object&#39;s [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Updates the specified IPv6. You must specify the object&#39;s [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// Use this operation if you want to:
         /// &lt;br/&gt;
         ///   * Move an IPv6 to a different VNIC in the same subnet.
@@ -14961,7 +14961,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateIpv6.cs.html">here</a> to see an example of how to use UpdateIpv6 API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateIpv6.cs.html">here</a> to see an example of how to use UpdateIpv6 API.</example>
         public async Task<UpdateIpv6Response> UpdateIpv6(UpdateIpv6Request request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateIpv6");
@@ -15018,7 +15018,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateLocalPeeringGateway.cs.html">here</a> to see an example of how to use UpdateLocalPeeringGateway API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateLocalPeeringGateway.cs.html">here</a> to see an example of how to use UpdateLocalPeeringGateway API.</example>
         public async Task<UpdateLocalPeeringGatewayResponse> UpdateLocalPeeringGateway(UpdateLocalPeeringGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateLocalPeeringGateway");
@@ -15075,7 +15075,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateNatGateway.cs.html">here</a> to see an example of how to use UpdateNatGateway API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateNatGateway.cs.html">here</a> to see an example of how to use UpdateNatGateway API.</example>
         public async Task<UpdateNatGatewayResponse> UpdateNatGateway(UpdateNatGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNatGateway");
@@ -15129,7 +15129,7 @@ namespace Oci.CoreService
         /// To add or remove an existing VNIC from the group, use
         /// {@link #updateVnic(UpdateVnicRequest) updateVnic}.
         /// &lt;br/&gt;
-        /// To add a VNIC to the group *when you create the VNIC*, specify the NSG&#39;s [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) during creation.
+        /// To add a VNIC to the group *when you create the VNIC*, specify the NSG&#39;s [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) during creation.
         /// For example, see the &#x60;nsgIds&#x60; attribute in {@link #createVnicDetails(CreateVnicDetailsRequest) createVnicDetails}.
         /// &lt;br/&gt;
         /// To add or remove security rules from the group, use
@@ -15146,7 +15146,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateNetworkSecurityGroup.cs.html">here</a> to see an example of how to use UpdateNetworkSecurityGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateNetworkSecurityGroup.cs.html">here</a> to see an example of how to use UpdateNetworkSecurityGroup API.</example>
         public async Task<UpdateNetworkSecurityGroupResponse> UpdateNetworkSecurityGroup(UpdateNetworkSecurityGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNetworkSecurityGroup");
@@ -15203,7 +15203,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateNetworkSecurityGroupSecurityRules.cs.html">here</a> to see an example of how to use UpdateNetworkSecurityGroupSecurityRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateNetworkSecurityGroupSecurityRules.cs.html">here</a> to see an example of how to use UpdateNetworkSecurityGroupSecurityRules API.</example>
         public async Task<UpdateNetworkSecurityGroupSecurityRulesResponse> UpdateNetworkSecurityGroupSecurityRules(UpdateNetworkSecurityGroupSecurityRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNetworkSecurityGroupSecurityRules");
@@ -15252,7 +15252,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Updates the specified private IP. You must specify the object&#39;s [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Updates the specified private IP. You must specify the object&#39;s [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// Use this operation if you want to:
         /// &lt;br/&gt;
         ///   - Move a secondary private IP to a different VNIC in the same subnet.
@@ -15269,7 +15269,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdatePrivateIp.cs.html">here</a> to see an example of how to use UpdatePrivateIp API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdatePrivateIp.cs.html">here</a> to see an example of how to use UpdatePrivateIp API.</example>
         public async Task<UpdatePrivateIpResponse> UpdatePrivateIp(UpdatePrivateIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePrivateIp");
@@ -15318,7 +15318,7 @@ namespace Oci.CoreService
         }
 
         /// <summary>
-        /// Updates the specified public IP. You must specify the object&#39;s [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Use this operation if you want to:
+        /// Updates the specified public IP. You must specify the object&#39;s [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Use this operation if you want to:
         /// &lt;br/&gt;
         /// * Assign a reserved public IP in your pool to a private IP.
         /// * Move a reserved public IP to a different private IP.
@@ -15356,7 +15356,7 @@ namespace Oci.CoreService
         /// a VNIC or instance can have. If you try to move a reserved public IP
         /// to a VNIC or instance that has already reached its public IP limit, an error is
         /// returned. For information about the public IP limits, see
-        /// [Public IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
+        /// [Public IP Addresses](https://docs.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -15364,7 +15364,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdatePublicIp.cs.html">here</a> to see an example of how to use UpdatePublicIp API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdatePublicIp.cs.html">here</a> to see an example of how to use UpdatePublicIp API.</example>
         public async Task<UpdatePublicIpResponse> UpdatePublicIp(UpdatePublicIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePublicIp");
@@ -15421,7 +15421,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdatePublicIpPool.cs.html">here</a> to see an example of how to use UpdatePublicIpPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdatePublicIpPool.cs.html">here</a> to see an example of how to use UpdatePublicIpPool API.</example>
         public async Task<UpdatePublicIpPoolResponse> UpdatePublicIpPool(UpdatePublicIpPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePublicIpPool");
@@ -15478,7 +15478,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateRemotePeeringConnection.cs.html">here</a> to see an example of how to use UpdateRemotePeeringConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateRemotePeeringConnection.cs.html">here</a> to see an example of how to use UpdateRemotePeeringConnection API.</example>
         public async Task<UpdateRemotePeeringConnectionResponse> UpdateRemotePeeringConnection(UpdateRemotePeeringConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRemotePeeringConnection");
@@ -15538,7 +15538,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateRouteTable.cs.html">here</a> to see an example of how to use UpdateRouteTable API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateRouteTable.cs.html">here</a> to see an example of how to use UpdateRouteTable API.</example>
         public async Task<UpdateRouteTableResponse> UpdateRouteTable(UpdateRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRouteTable");
@@ -15599,7 +15599,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateSecurityList.cs.html">here</a> to see an example of how to use UpdateSecurityList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateSecurityList.cs.html">here</a> to see an example of how to use UpdateSecurityList API.</example>
         public async Task<UpdateSecurityListResponse> UpdateSecurityList(UpdateSecurityListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSecurityList");
@@ -15657,7 +15657,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateServiceGateway.cs.html">here</a> to see an example of how to use UpdateServiceGateway API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateServiceGateway.cs.html">here</a> to see an example of how to use UpdateServiceGateway API.</example>
         public async Task<UpdateServiceGatewayResponse> UpdateServiceGateway(UpdateServiceGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateServiceGateway");
@@ -15714,7 +15714,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateSubnet.cs.html">here</a> to see an example of how to use UpdateSubnet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateSubnet.cs.html">here</a> to see an example of how to use UpdateSubnet API.</example>
         public async Task<UpdateSubnetResponse> UpdateSubnet(UpdateSubnetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSubnet");
@@ -15773,7 +15773,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateTunnelCpeDeviceConfig.cs.html">here</a> to see an example of how to use UpdateTunnelCpeDeviceConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateTunnelCpeDeviceConfig.cs.html">here</a> to see an example of how to use UpdateTunnelCpeDeviceConfig API.</example>
         public async Task<UpdateTunnelCpeDeviceConfigResponse> UpdateTunnelCpeDeviceConfig(UpdateTunnelCpeDeviceConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateTunnelCpeDeviceConfig");
@@ -15830,7 +15830,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateVcn.cs.html">here</a> to see an example of how to use UpdateVcn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateVcn.cs.html">here</a> to see an example of how to use UpdateVcn API.</example>
         public async Task<UpdateVcnResponse> UpdateVcn(UpdateVcnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVcn");
@@ -15894,7 +15894,7 @@ namespace Oci.CoreService
         /// its state will return to PROVISIONED. Make sure you confirm that
         /// the associated BGP session is back up. For more information
         /// about the various states and how to test connectivity, see
-        /// [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+        /// [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// &lt;br/&gt;
         /// To change the list of public IP prefixes for a public virtual circuit,
         /// use {@link #bulkAddVirtualCircuitPublicPrefixes(BulkAddVirtualCircuitPublicPrefixesRequest) bulkAddVirtualCircuitPublicPrefixes}
@@ -15910,7 +15910,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateVirtualCircuit.cs.html">here</a> to see an example of how to use UpdateVirtualCircuit API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateVirtualCircuit.cs.html">here</a> to see an example of how to use UpdateVirtualCircuit API.</example>
         public async Task<UpdateVirtualCircuitResponse> UpdateVirtualCircuit(UpdateVirtualCircuitRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVirtualCircuit");
@@ -15968,7 +15968,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateVlan.cs.html">here</a> to see an example of how to use UpdateVlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateVlan.cs.html">here</a> to see an example of how to use UpdateVlan API.</example>
         public async Task<UpdateVlanResponse> UpdateVlan(UpdateVlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVlan");
@@ -16025,7 +16025,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateVnic.cs.html">here</a> to see an example of how to use UpdateVnic API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateVnic.cs.html">here</a> to see an example of how to use UpdateVnic API.</example>
         public async Task<UpdateVnicResponse> UpdateVnic(UpdateVnicRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVnic");
@@ -16082,7 +16082,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateVtap.cs.html">here</a> to see an example of how to use UpdateVtap API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateVtap.cs.html">here</a> to see an example of how to use UpdateVtap API.</example>
         public async Task<UpdateVtapResponse> UpdateVtap(UpdateVtapRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVtap");
@@ -16140,7 +16140,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpgradeDrg.cs.html">here</a> to see an example of how to use UpgradeDrg API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpgradeDrg.cs.html">here</a> to see an example of how to use UpgradeDrg API.</example>
         public async Task<UpgradeDrgResponse> UpgradeDrg(UpgradeDrgRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called upgradeDrg");
@@ -16190,7 +16190,7 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Submits the BYOASN for validation. Please do not submit to Oracle for validation if the information for the BYOASN is not already modified in the Regional Internet Registry.
-        /// See [To import a BYOASN](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/BYOASN.htm) for details.
+        /// See [To import a BYOASN](https://docs.oracle.com/iaas/Content/Network/Concepts/BYOASN.htm) for details.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -16198,7 +16198,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ValidateByoasn.cs.html">here</a> to see an example of how to use ValidateByoasn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ValidateByoasn.cs.html">here</a> to see an example of how to use ValidateByoasn API.</example>
         public async Task<ValidateByoasnResponse> ValidateByoasn(ValidateByoasnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called validateByoasn");
@@ -16248,7 +16248,7 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Submits the BYOIP CIDR block you are importing for validation. Do not submit to Oracle for validation if you have not already
-        /// modified the information for the BYOIP CIDR block with your Regional Internet Registry. See [To import a CIDR block](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/BYOIP.htm#import_cidr) for details.
+        /// modified the information for the BYOIP CIDR block with your Regional Internet Registry. See [To import a CIDR block](https://docs.oracle.com/iaas/Content/Network/Concepts/BYOIP.htm#import_cidr) for details.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -16256,7 +16256,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ValidateByoipRange.cs.html">here</a> to see an example of how to use ValidateByoipRange API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ValidateByoipRange.cs.html">here</a> to see an example of how to use ValidateByoipRange API.</example>
         public async Task<ValidateByoipRangeResponse> ValidateByoipRange(ValidateByoipRangeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called validateByoipRange");
@@ -16313,7 +16313,7 @@ namespace Oci.CoreService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/WithdrawByoipRange.cs.html">here</a> to see an example of how to use WithdrawByoipRange API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/WithdrawByoipRange.cs.html">here</a> to see an example of how to use WithdrawByoipRange API.</example>
         public async Task<WithdrawByoipRangeResponse> WithdrawByoipRange(WithdrawByoipRangeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called withdrawByoipRange");

@@ -14,13 +14,13 @@ using Oci.ComputecloudatcustomerService.Models;
 namespace Oci.ComputecloudatcustomerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/DeleteCccInfrastructure.cs.html">here</a> to see an example of how to use DeleteCccInfrastructure request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/DeleteCccInfrastructure.cs.html">here</a> to see an example of how to use DeleteCccInfrastructure request.
     /// </example>
     public class DeleteCccInfrastructureRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// An [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for a 
+        /// An [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for a 
         /// Compute Cloud@Customer Infrastructure.
         /// 
         /// </value>
@@ -43,7 +43,7 @@ namespace Oci.ComputecloudatcustomerService.Requests
         public string IfMatch { get; set; }
         
         /// <value>
-        /// The client request [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for tracing.
+        /// The client request [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for tracing.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-request-id")]

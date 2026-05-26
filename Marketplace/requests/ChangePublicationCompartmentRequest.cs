@@ -14,7 +14,7 @@ using Oci.MarketplaceService.Models;
 namespace Oci.MarketplaceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ChangePublicationCompartment.cs.html">here</a> to see an example of how to use ChangePublicationCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ChangePublicationCompartment.cs.html">here</a> to see an example of how to use ChangePublicationCompartment request.
     /// </example>
     public class ChangePublicationCompartmentRequest : Oci.Common.IOciRequest
     {

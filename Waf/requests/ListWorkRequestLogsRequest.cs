@@ -14,13 +14,13 @@ using Oci.WafService.Models;
 namespace Oci.WafService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs request.
     /// </example>
     public class ListWorkRequestLogsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the asynchronous request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the asynchronous request.
         /// </value>
         /// <remarks>
         /// Required

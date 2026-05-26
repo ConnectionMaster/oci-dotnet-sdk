@@ -14,7 +14,7 @@ using Oci.AccessgovernancecpService.Models;
 namespace Oci.AccessgovernancecpService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/ChangeGovernanceInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeGovernanceInstanceCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/ChangeGovernanceInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeGovernanceInstanceCompartment request.
     /// </example>
     public class ChangeGovernanceInstanceCompartmentRequest : Oci.Common.IOciRequest
     {

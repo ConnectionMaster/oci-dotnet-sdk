@@ -14,13 +14,13 @@ using Oci.IotService.Models;
 namespace Oci.IotService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/UpdateIotDomain.cs.html">here</a> to see an example of how to use UpdateIotDomain request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/UpdateIotDomain.cs.html">here</a> to see an example of how to use UpdateIotDomain request.
     /// </example>
     public class UpdateIotDomainRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the IoT domain.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the IoT domain.
         /// </value>
         /// <remarks>
         /// Required

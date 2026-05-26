@@ -14,7 +14,7 @@ using Oci.AivisionService.Models;
 namespace Oci.AivisionService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aivision/GetVisionPrivateEndpoint.cs.html">here</a> to see an example of how to use GetVisionPrivateEndpoint request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aivision/GetVisionPrivateEndpoint.cs.html">here</a> to see an example of how to use GetVisionPrivateEndpoint request.
     /// </example>
     public class GetVisionPrivateEndpointRequest : Oci.Common.IOciRequest
     {

@@ -14,7 +14,7 @@ using Oci.DatalabelingService.Models;
 namespace Oci.DatalabelingService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datalabelingservice/ListAnnotationFormats.cs.html">here</a> to see an example of how to use ListAnnotationFormats request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datalabelingservice/ListAnnotationFormats.cs.html">here</a> to see an example of how to use ListAnnotationFormats request.
     /// </example>
     public class ListAnnotationFormatsRequest : Oci.Common.IOciRequest
     {

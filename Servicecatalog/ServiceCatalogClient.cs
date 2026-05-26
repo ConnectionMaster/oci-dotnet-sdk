@@ -80,7 +80,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/BulkReplaceServiceCatalogAssociations.cs.html">here</a> to see an example of how to use BulkReplaceServiceCatalogAssociations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/BulkReplaceServiceCatalogAssociations.cs.html">here</a> to see an example of how to use BulkReplaceServiceCatalogAssociations API.</example>
         public async Task<BulkReplaceServiceCatalogAssociationsResponse> BulkReplaceServiceCatalogAssociations(BulkReplaceServiceCatalogAssociationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkReplaceServiceCatalogAssociations");
@@ -136,7 +136,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ChangePrivateApplicationCompartment.cs.html">here</a> to see an example of how to use ChangePrivateApplicationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ChangePrivateApplicationCompartment.cs.html">here</a> to see an example of how to use ChangePrivateApplicationCompartment API.</example>
         public async Task<ChangePrivateApplicationCompartmentResponse> ChangePrivateApplicationCompartment(ChangePrivateApplicationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changePrivateApplicationCompartment");
@@ -192,7 +192,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ChangeServiceCatalogCompartment.cs.html">here</a> to see an example of how to use ChangeServiceCatalogCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ChangeServiceCatalogCompartment.cs.html">here</a> to see an example of how to use ChangeServiceCatalogCompartment API.</example>
         public async Task<ChangeServiceCatalogCompartmentResponse> ChangeServiceCatalogCompartment(ChangeServiceCatalogCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeServiceCatalogCompartment");
@@ -248,7 +248,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/CreatePrivateApplication.cs.html">here</a> to see an example of how to use CreatePrivateApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/CreatePrivateApplication.cs.html">here</a> to see an example of how to use CreatePrivateApplication API.</example>
         public async Task<CreatePrivateApplicationResponse> CreatePrivateApplication(CreatePrivateApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPrivateApplication");
@@ -304,7 +304,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/CreateServiceCatalog.cs.html">here</a> to see an example of how to use CreateServiceCatalog API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/CreateServiceCatalog.cs.html">here</a> to see an example of how to use CreateServiceCatalog API.</example>
         public async Task<CreateServiceCatalogResponse> CreateServiceCatalog(CreateServiceCatalogRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createServiceCatalog");
@@ -360,7 +360,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/CreateServiceCatalogAssociation.cs.html">here</a> to see an example of how to use CreateServiceCatalogAssociation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/CreateServiceCatalogAssociation.cs.html">here</a> to see an example of how to use CreateServiceCatalogAssociation API.</example>
         public async Task<CreateServiceCatalogAssociationResponse> CreateServiceCatalogAssociation(CreateServiceCatalogAssociationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createServiceCatalogAssociation");
@@ -416,7 +416,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/DeletePrivateApplication.cs.html">here</a> to see an example of how to use DeletePrivateApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/DeletePrivateApplication.cs.html">here</a> to see an example of how to use DeletePrivateApplication API.</example>
         public async Task<DeletePrivateApplicationResponse> DeletePrivateApplication(DeletePrivateApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePrivateApplication");
@@ -472,7 +472,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/DeleteServiceCatalog.cs.html">here</a> to see an example of how to use DeleteServiceCatalog API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/DeleteServiceCatalog.cs.html">here</a> to see an example of how to use DeleteServiceCatalog API.</example>
         public async Task<DeleteServiceCatalogResponse> DeleteServiceCatalog(DeleteServiceCatalogRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteServiceCatalog");
@@ -528,7 +528,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/DeleteServiceCatalogAssociation.cs.html">here</a> to see an example of how to use DeleteServiceCatalogAssociation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/DeleteServiceCatalogAssociation.cs.html">here</a> to see an example of how to use DeleteServiceCatalogAssociation API.</example>
         public async Task<DeleteServiceCatalogAssociationResponse> DeleteServiceCatalogAssociation(DeleteServiceCatalogAssociationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteServiceCatalogAssociation");
@@ -584,7 +584,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetConfiguration.cs.html">here</a> to see an example of how to use GetConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetConfiguration.cs.html">here</a> to see an example of how to use GetConfiguration API.</example>
         public async Task<GetConfigurationResponse> GetConfiguration(GetConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getConfiguration");
@@ -640,7 +640,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetPrivateApplication.cs.html">here</a> to see an example of how to use GetPrivateApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetPrivateApplication.cs.html">here</a> to see an example of how to use GetPrivateApplication API.</example>
         public async Task<GetPrivateApplicationResponse> GetPrivateApplication(GetPrivateApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPrivateApplication");
@@ -696,7 +696,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetPrivateApplicationActionDownloadLogo.cs.html">here</a> to see an example of how to use GetPrivateApplicationActionDownloadLogo API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetPrivateApplicationActionDownloadLogo.cs.html">here</a> to see an example of how to use GetPrivateApplicationActionDownloadLogo API.</example>
         public async Task<GetPrivateApplicationActionDownloadLogoResponse> GetPrivateApplicationActionDownloadLogo(GetPrivateApplicationActionDownloadLogoRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPrivateApplicationActionDownloadLogo");
@@ -752,7 +752,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetPrivateApplicationPackage.cs.html">here</a> to see an example of how to use GetPrivateApplicationPackage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetPrivateApplicationPackage.cs.html">here</a> to see an example of how to use GetPrivateApplicationPackage API.</example>
         public async Task<GetPrivateApplicationPackageResponse> GetPrivateApplicationPackage(GetPrivateApplicationPackageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPrivateApplicationPackage");
@@ -808,7 +808,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetPrivateApplicationPackageActionDownloadConfig.cs.html">here</a> to see an example of how to use GetPrivateApplicationPackageActionDownloadConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetPrivateApplicationPackageActionDownloadConfig.cs.html">here</a> to see an example of how to use GetPrivateApplicationPackageActionDownloadConfig API.</example>
         public async Task<GetPrivateApplicationPackageActionDownloadConfigResponse> GetPrivateApplicationPackageActionDownloadConfig(GetPrivateApplicationPackageActionDownloadConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPrivateApplicationPackageActionDownloadConfig");
@@ -864,7 +864,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetServiceCatalog.cs.html">here</a> to see an example of how to use GetServiceCatalog API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetServiceCatalog.cs.html">here</a> to see an example of how to use GetServiceCatalog API.</example>
         public async Task<GetServiceCatalogResponse> GetServiceCatalog(GetServiceCatalogRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getServiceCatalog");
@@ -920,7 +920,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetServiceCatalogAssociation.cs.html">here</a> to see an example of how to use GetServiceCatalogAssociation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetServiceCatalogAssociation.cs.html">here</a> to see an example of how to use GetServiceCatalogAssociation API.</example>
         public async Task<GetServiceCatalogAssociationResponse> GetServiceCatalogAssociation(GetServiceCatalogAssociationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getServiceCatalogAssociation");
@@ -976,7 +976,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -1034,7 +1034,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListAllApplications.cs.html">here</a> to see an example of how to use ListAllApplications API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListAllApplications.cs.html">here</a> to see an example of how to use ListAllApplications API.</example>
         public async Task<ListAllApplicationsResponse> ListAllApplications(ListAllApplicationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAllApplications");
@@ -1093,7 +1093,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListApplications.cs.html">here</a> to see an example of how to use ListApplications API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListApplications.cs.html">here</a> to see an example of how to use ListApplications API.</example>
         public async Task<ListApplicationsResponse> ListApplications(ListApplicationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listApplications");
@@ -1149,7 +1149,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListPrivateApplicationPackages.cs.html">here</a> to see an example of how to use ListPrivateApplicationPackages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListPrivateApplicationPackages.cs.html">here</a> to see an example of how to use ListPrivateApplicationPackages API.</example>
         public async Task<ListPrivateApplicationPackagesResponse> ListPrivateApplicationPackages(ListPrivateApplicationPackagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPrivateApplicationPackages");
@@ -1205,7 +1205,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListPrivateApplications.cs.html">here</a> to see an example of how to use ListPrivateApplications API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListPrivateApplications.cs.html">here</a> to see an example of how to use ListPrivateApplications API.</example>
         public async Task<ListPrivateApplicationsResponse> ListPrivateApplications(ListPrivateApplicationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPrivateApplications");
@@ -1261,7 +1261,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListServiceCatalogAssociations.cs.html">here</a> to see an example of how to use ListServiceCatalogAssociations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListServiceCatalogAssociations.cs.html">here</a> to see an example of how to use ListServiceCatalogAssociations API.</example>
         public async Task<ListServiceCatalogAssociationsResponse> ListServiceCatalogAssociations(ListServiceCatalogAssociationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listServiceCatalogAssociations");
@@ -1317,7 +1317,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListServiceCatalogs.cs.html">here</a> to see an example of how to use ListServiceCatalogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListServiceCatalogs.cs.html">here</a> to see an example of how to use ListServiceCatalogs API.</example>
         public async Task<ListServiceCatalogsResponse> ListServiceCatalogs(ListServiceCatalogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listServiceCatalogs");
@@ -1374,7 +1374,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -1431,7 +1431,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -1488,7 +1488,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1544,7 +1544,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/UpdatePrivateApplication.cs.html">here</a> to see an example of how to use UpdatePrivateApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/UpdatePrivateApplication.cs.html">here</a> to see an example of how to use UpdatePrivateApplication API.</example>
         public async Task<UpdatePrivateApplicationResponse> UpdatePrivateApplication(UpdatePrivateApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePrivateApplication");
@@ -1600,7 +1600,7 @@ namespace Oci.ServicecatalogService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/UpdateServiceCatalog.cs.html">here</a> to see an example of how to use UpdateServiceCatalog API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/UpdateServiceCatalog.cs.html">here</a> to see an example of how to use UpdateServiceCatalog API.</example>
         public async Task<UpdateServiceCatalogResponse> UpdateServiceCatalog(UpdateServiceCatalogRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateServiceCatalog");

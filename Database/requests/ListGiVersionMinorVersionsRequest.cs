@@ -14,7 +14,7 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListGiVersionMinorVersions.cs.html">here</a> to see an example of how to use ListGiVersionMinorVersions request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListGiVersionMinorVersions.cs.html">here</a> to see an example of how to use ListGiVersionMinorVersions request.
     /// </example>
     public class ListGiVersionMinorVersionsRequest : Oci.Common.IOciRequest
     {
@@ -36,7 +36,7 @@ namespace Oci.DatabaseService.Requests
         public string AvailabilityDomain { get; set; }
         
         /// <value>
-        /// The compartment [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "compartmentId")]
         public string CompartmentId { get; set; }

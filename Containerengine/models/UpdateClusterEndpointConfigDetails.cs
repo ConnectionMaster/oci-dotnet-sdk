@@ -34,5 +34,14 @@ namespace Oci.ContainerengineService.Models
         [JsonProperty(PropertyName = "isPublicIpEnabled")]
         public System.Nullable<bool> IsPublicIpEnabled { get; set; }
         
+        /// <value>
+        /// [Security attributes](https://docs.oracle.com/iaas/Content/zero-trust-packet-routing/zpr-artifacts.htm#security-attributes) are labels
+        ///         for a resource that can be referenced in a [Zero Trust Packet Routing](https://docs.oracle.com/iaas/Content/zero-trust-packet-routing/overview.htm)
+        ///         (ZPR) policy to control access to ZPR-supported resources.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "securityAttributes")]
+        public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> SecurityAttributes { get; set; }
+        
     }
 }

@@ -14,7 +14,7 @@ using Oci.NetworkfirewallService.Models;
 namespace Oci.NetworkfirewallService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListTunnelInspectionRules.cs.html">here</a> to see an example of how to use ListTunnelInspectionRules request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListTunnelInspectionRules.cs.html">here</a> to see an example of how to use ListTunnelInspectionRules request.
     /// </example>
     public class ListTunnelInspectionRulesRequest : Oci.Common.IOciRequest
     {

@@ -14,13 +14,13 @@ using Oci.ServicemanagerproxyService.Models;
 namespace Oci.ServicemanagerproxyService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicemanagerproxy/ListServiceEnvironments.cs.html">here</a> to see an example of how to use ListServiceEnvironments request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicemanagerproxy/ListServiceEnvironments.cs.html">here</a> to see an example of how to use ListServiceEnvironments request.
     /// </example>
     public class ListServiceEnvironmentsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) for the compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the compartment.
         /// </value>
         /// <remarks>
         /// Required
@@ -32,7 +32,7 @@ namespace Oci.ServicemanagerproxyService.Requests
         /// <value>
         /// The unique identifier associated with the service environment. 
         /// <br/>
-        /// **Note:** Not an [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// **Note:** Not an [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "serviceEnvironmentId")]

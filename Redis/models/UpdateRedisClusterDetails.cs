@@ -59,9 +59,9 @@ namespace Oci.RedisService.Models
         public System.Nullable<RedisCluster.SoftwareVersionEnum> SoftwareVersion { get; set; }
         
         /// <value>
-        /// A list of Network Security Group (NSG) [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)
+        /// A list of Network Security Group (NSG) [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)
         /// associated with this cluster. For more information,
-        /// see [Using an NSG for Clusters](https://docs.cloud.oracle.com/iaas/Content/ocicache/connecttocluster.htm#connecttocluster__networksecuritygroup).
+        /// see [Using an NSG for Clusters](https://docs.oracle.com/iaas/Content/ocicache/connecttocluster.htm#connecttocluster__networksecuritygroup).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "nsgIds")]
@@ -69,7 +69,7 @@ namespace Oci.RedisService.Models
         
         /// <value>
         /// Security attributes for redis cluster resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Oracle-ZPR&quot;: {&quot;MaxEgressCount&quot;: {&quot;value&quot;: &quot;42&quot;, &quot;mode&quot;: &quot;enforce&quot;}}}
         /// </value>

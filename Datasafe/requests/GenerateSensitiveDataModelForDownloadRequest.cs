@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateSensitiveDataModelForDownload.cs.html">here</a> to see an example of how to use GenerateSensitiveDataModelForDownload request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateSensitiveDataModelForDownload.cs.html">here</a> to see an example of how to use GenerateSensitiveDataModelForDownload request.
     /// </example>
     public class GenerateSensitiveDataModelForDownloadRequest : Oci.Common.IOciRequest
     {

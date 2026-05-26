@@ -14,7 +14,7 @@ using Oci.ApigatewayService.Models;
 namespace Oci.ApigatewayService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/UpdateSdk.cs.html">here</a> to see an example of how to use UpdateSdk request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/UpdateSdk.cs.html">here</a> to see an example of how to use UpdateSdk request.
     /// </example>
     public class UpdateSdkRequest : Oci.Common.IOciRequest
     {

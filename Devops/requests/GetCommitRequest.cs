@@ -14,7 +14,7 @@ using Oci.DevopsService.Models;
 namespace Oci.DevopsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetCommit.cs.html">here</a> to see an example of how to use GetCommit request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetCommit.cs.html">here</a> to see an example of how to use GetCommit request.
     /// </example>
     public class GetCommitRequest : Oci.Common.IOciRequest
     {

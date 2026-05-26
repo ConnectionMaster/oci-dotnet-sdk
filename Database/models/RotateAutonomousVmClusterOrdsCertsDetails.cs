@@ -45,21 +45,21 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<CertificateGenerationTypeEnum> CertificateGenerationType { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the certificate to use.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the certificate to use.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "certificateId")]
         public string CertificateId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the certificate authority.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the certificate authority.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "certificateAuthorityId")]
         public string CertificateAuthorityId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the certificate bundle.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the certificate bundle.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "caBundleId")]

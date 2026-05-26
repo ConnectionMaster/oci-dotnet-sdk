@@ -14,7 +14,7 @@ using Oci.DatalabelingservicedataplaneService.Models;
 namespace Oci.DatalabelingservicedataplaneService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datalabelingservicedataplane/UpdateAnnotation.cs.html">here</a> to see an example of how to use UpdateAnnotation request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datalabelingservicedataplane/UpdateAnnotation.cs.html">here</a> to see an example of how to use UpdateAnnotation request.
     /// </example>
     public class UpdateAnnotationRequest : Oci.Common.IOciRequest
     {

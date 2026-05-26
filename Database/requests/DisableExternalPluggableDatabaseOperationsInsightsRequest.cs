@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/DisableExternalPluggableDatabaseOperationsInsights.cs.html">here</a> to see an example of how to use DisableExternalPluggableDatabaseOperationsInsights request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/DisableExternalPluggableDatabaseOperationsInsights.cs.html">here</a> to see an example of how to use DisableExternalPluggableDatabaseOperationsInsights request.
     /// </example>
     public class DisableExternalPluggableDatabaseOperationsInsightsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The ExternalPluggableDatabaseId [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The ExternalPluggableDatabaseId [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

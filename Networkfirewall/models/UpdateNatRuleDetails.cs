@@ -17,7 +17,7 @@ namespace Oci.NetworkfirewallService.Models
 {
     /// <summary>
     /// Request for updating a NAT rule used in the firewall policy.
-    /// A [NAT rule](https://docs.cloud.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) defines which traffic NAT should be applied to by the firewall, and how it should do so.
+    /// A [NAT rule](https://docs.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) defines which traffic NAT should be applied to by the firewall, and how it should do so.
     /// 
     /// </summary>
     [JsonConverter(typeof(UpdateNatRuleDetailsModelConverter))]

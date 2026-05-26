@@ -14,13 +14,13 @@ using Oci.WlmsService.Models;
 namespace Oci.WlmsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetWlsDomain.cs.html">here</a> to see an example of how to use GetWlsDomain request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetWlsDomain.cs.html">here</a> to see an example of how to use GetWlsDomain request.
     /// </example>
     public class GetWlsDomainRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the WebLogic domain.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the WebLogic domain.
         /// </value>
         /// <remarks>
         /// Required

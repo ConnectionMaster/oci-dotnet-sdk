@@ -14,13 +14,13 @@ using Oci.DatabasetoolsService.Models;
 namespace Oci.DatabasetoolsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetools/AddDatabaseToolsSqlReportLock.cs.html">here</a> to see an example of how to use AddDatabaseToolsSqlReportLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetools/AddDatabaseToolsSqlReportLock.cs.html">here</a> to see an example of how to use AddDatabaseToolsSqlReportLock request.
     /// </example>
     public class AddDatabaseToolsSqlReportLockRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of a Database Tools SQL Report.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a Database Tools SQL Report.
         /// </value>
         /// <remarks>
         /// Required

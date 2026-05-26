@@ -14,13 +14,13 @@ using Oci.ArtifactsService.Models;
 namespace Oci.ArtifactsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/artifacts/DeleteContainerRepository.cs.html">here</a> to see an example of how to use DeleteContainerRepository request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/artifacts/DeleteContainerRepository.cs.html">here</a> to see an example of how to use DeleteContainerRepository request.
     /// </example>
     public class DeleteContainerRepositoryRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the container repository.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the container repository.
         /// <br/>
         /// Example: ocid1.containerrepo.oc1..exampleuniqueID
         /// </value>

@@ -14,13 +14,13 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/DeleteCloudDbSystemConnector.cs.html">here</a> to see an example of how to use DeleteCloudDbSystemConnector request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/DeleteCloudDbSystemConnector.cs.html">here</a> to see an example of how to use DeleteCloudDbSystemConnector request.
     /// </example>
     public class DeleteCloudDbSystemConnectorRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the cloud connector.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cloud connector.
         /// </value>
         /// <remarks>
         /// Required

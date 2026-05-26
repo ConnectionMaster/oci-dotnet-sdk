@@ -18,10 +18,10 @@ namespace Oci.DatabaseService.Models
     /// <summary>
     /// The Database service supports the upgrade history of databases.
     /// <br/>
-    /// To use any of the API operations, you must be authorized in an IAM policy. If you are not authorized, talk to an administrator. If you are an administrator who needs to write policies to give users access, see [Getting Started with Policies](https://docs.cloud.oracle.com/Content/Identity/Concepts/policygetstarted.htm).
+    /// To use any of the API operations, you must be authorized in an IAM policy. If you are not authorized, talk to an administrator. If you are an administrator who needs to write policies to give users access, see [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// <br/>
     /// For information about access control and compartments, see
-    /// [Overview of the Identity Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm).
+    /// [Overview of the Identity Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
     /// <br/>
     /// **Warning:** Oracle recommends that you avoid using any confidential information when you supply string values using the API.
     /// 
@@ -30,7 +30,7 @@ namespace Oci.DatabaseService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the database upgrade history.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database upgrade history.
         /// </value>
         /// <remarks>
         /// Required
@@ -70,7 +70,7 @@ namespace Oci.DatabaseService.Models
         /// The source of the Oracle Database software to be used for the upgrade.
         ///  - Use `DB_HOME` to specify an existing Database Home to upgrade the database. The database is moved to the target Database Home and makes use of the Oracle Database software version of the target Database Home.
         ///  - Use `DB_VERSION` to specify a generally-available Oracle Database software version to upgrade the database.
-        ///  - Use `DB_SOFTWARE_IMAGE` to specify a [database software image](https://docs.cloud.oracle.com/iaas/Content/Database/Concepts/databasesoftwareimage.htm) to upgrade the database.
+        ///  - Use `DB_SOFTWARE_IMAGE` to specify a [database software image](https://docs.oracle.com/iaas/Content/Database/Concepts/databasesoftwareimage.htm) to upgrade the database.
         /// 
         /// </value>
         ///
@@ -90,7 +90,7 @@ namespace Oci.DatabaseService.Models
         /// The source of the Oracle Database software to be used for the upgrade.
         ///  - Use `DB_HOME` to specify an existing Database Home to upgrade the database. The database is moved to the target Database Home and makes use of the Oracle Database software version of the target Database Home.
         ///  - Use `DB_VERSION` to specify a generally-available Oracle Database software version to upgrade the database.
-        ///  - Use `DB_SOFTWARE_IMAGE` to specify a [database software image](https://docs.cloud.oracle.com/iaas/Content/Database/Concepts/databasesoftwareimage.htm) to upgrade the database.
+        ///  - Use `DB_SOFTWARE_IMAGE` to specify a [database software image](https://docs.oracle.com/iaas/Content/Database/Concepts/databasesoftwareimage.htm) to upgrade the database.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "source")]
@@ -146,13 +146,13 @@ namespace Oci.DatabaseService.Models
         public string TargetDatabaseSoftwareImageId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Database Home.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Database Home.
         /// </value>
         [JsonProperty(PropertyName = "targetDbHomeId")]
         public string TargetDbHomeId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Database Home.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Database Home.
         /// </value>
         [JsonProperty(PropertyName = "sourceDbHomeId")]
         public string SourceDbHomeId { get; set; }

@@ -81,7 +81,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/AddMediaAssetLock.cs.html">here</a> to see an example of how to use AddMediaAssetLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/AddMediaAssetLock.cs.html">here</a> to see an example of how to use AddMediaAssetLock API.</example>
         public async Task<AddMediaAssetLockResponse> AddMediaAssetLock(AddMediaAssetLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addMediaAssetLock");
@@ -138,7 +138,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/AddMediaWorkflowConfigurationLock.cs.html">here</a> to see an example of how to use AddMediaWorkflowConfigurationLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/AddMediaWorkflowConfigurationLock.cs.html">here</a> to see an example of how to use AddMediaWorkflowConfigurationLock API.</example>
         public async Task<AddMediaWorkflowConfigurationLockResponse> AddMediaWorkflowConfigurationLock(AddMediaWorkflowConfigurationLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addMediaWorkflowConfigurationLock");
@@ -195,7 +195,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/AddMediaWorkflowJobLock.cs.html">here</a> to see an example of how to use AddMediaWorkflowJobLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/AddMediaWorkflowJobLock.cs.html">here</a> to see an example of how to use AddMediaWorkflowJobLock API.</example>
         public async Task<AddMediaWorkflowJobLockResponse> AddMediaWorkflowJobLock(AddMediaWorkflowJobLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addMediaWorkflowJobLock");
@@ -252,7 +252,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/AddMediaWorkflowLock.cs.html">here</a> to see an example of how to use AddMediaWorkflowLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/AddMediaWorkflowLock.cs.html">here</a> to see an example of how to use AddMediaWorkflowLock API.</example>
         public async Task<AddMediaWorkflowLockResponse> AddMediaWorkflowLock(AddMediaWorkflowLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addMediaWorkflowLock");
@@ -309,7 +309,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/AddStreamCdnConfigLock.cs.html">here</a> to see an example of how to use AddStreamCdnConfigLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/AddStreamCdnConfigLock.cs.html">here</a> to see an example of how to use AddStreamCdnConfigLock API.</example>
         public async Task<AddStreamCdnConfigLockResponse> AddStreamCdnConfigLock(AddStreamCdnConfigLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addStreamCdnConfigLock");
@@ -366,7 +366,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/AddStreamDistributionChannelLock.cs.html">here</a> to see an example of how to use AddStreamDistributionChannelLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/AddStreamDistributionChannelLock.cs.html">here</a> to see an example of how to use AddStreamDistributionChannelLock API.</example>
         public async Task<AddStreamDistributionChannelLockResponse> AddStreamDistributionChannelLock(AddStreamDistributionChannelLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addStreamDistributionChannelLock");
@@ -423,7 +423,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/AddStreamPackagingConfigLock.cs.html">here</a> to see an example of how to use AddStreamPackagingConfigLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/AddStreamPackagingConfigLock.cs.html">here</a> to see an example of how to use AddStreamPackagingConfigLock API.</example>
         public async Task<AddStreamPackagingConfigLockResponse> AddStreamPackagingConfigLock(AddStreamPackagingConfigLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addStreamPackagingConfigLock");
@@ -479,7 +479,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ChangeMediaAssetCompartment.cs.html">here</a> to see an example of how to use ChangeMediaAssetCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ChangeMediaAssetCompartment.cs.html">here</a> to see an example of how to use ChangeMediaAssetCompartment API.</example>
         public async Task<ChangeMediaAssetCompartmentResponse> ChangeMediaAssetCompartment(ChangeMediaAssetCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMediaAssetCompartment");
@@ -535,7 +535,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ChangeMediaWorkflowCompartment.cs.html">here</a> to see an example of how to use ChangeMediaWorkflowCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ChangeMediaWorkflowCompartment.cs.html">here</a> to see an example of how to use ChangeMediaWorkflowCompartment API.</example>
         public async Task<ChangeMediaWorkflowCompartmentResponse> ChangeMediaWorkflowCompartment(ChangeMediaWorkflowCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMediaWorkflowCompartment");
@@ -591,7 +591,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ChangeMediaWorkflowConfigurationCompartment.cs.html">here</a> to see an example of how to use ChangeMediaWorkflowConfigurationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ChangeMediaWorkflowConfigurationCompartment.cs.html">here</a> to see an example of how to use ChangeMediaWorkflowConfigurationCompartment API.</example>
         public async Task<ChangeMediaWorkflowConfigurationCompartmentResponse> ChangeMediaWorkflowConfigurationCompartment(ChangeMediaWorkflowConfigurationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMediaWorkflowConfigurationCompartment");
@@ -647,7 +647,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ChangeMediaWorkflowJobCompartment.cs.html">here</a> to see an example of how to use ChangeMediaWorkflowJobCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ChangeMediaWorkflowJobCompartment.cs.html">here</a> to see an example of how to use ChangeMediaWorkflowJobCompartment API.</example>
         public async Task<ChangeMediaWorkflowJobCompartmentResponse> ChangeMediaWorkflowJobCompartment(ChangeMediaWorkflowJobCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMediaWorkflowJobCompartment");
@@ -703,7 +703,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ChangeStreamDistributionChannelCompartment.cs.html">here</a> to see an example of how to use ChangeStreamDistributionChannelCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ChangeStreamDistributionChannelCompartment.cs.html">here</a> to see an example of how to use ChangeStreamDistributionChannelCompartment API.</example>
         public async Task<ChangeStreamDistributionChannelCompartmentResponse> ChangeStreamDistributionChannelCompartment(ChangeStreamDistributionChannelCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeStreamDistributionChannelCompartment");
@@ -760,7 +760,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/CreateMediaAsset.cs.html">here</a> to see an example of how to use CreateMediaAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/CreateMediaAsset.cs.html">here</a> to see an example of how to use CreateMediaAsset API.</example>
         public async Task<CreateMediaAssetResponse> CreateMediaAsset(CreateMediaAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMediaAsset");
@@ -817,7 +817,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/CreateMediaWorkflow.cs.html">here</a> to see an example of how to use CreateMediaWorkflow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/CreateMediaWorkflow.cs.html">here</a> to see an example of how to use CreateMediaWorkflow API.</example>
         public async Task<CreateMediaWorkflowResponse> CreateMediaWorkflow(CreateMediaWorkflowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMediaWorkflow");
@@ -874,7 +874,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/CreateMediaWorkflowConfiguration.cs.html">here</a> to see an example of how to use CreateMediaWorkflowConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/CreateMediaWorkflowConfiguration.cs.html">here</a> to see an example of how to use CreateMediaWorkflowConfiguration API.</example>
         public async Task<CreateMediaWorkflowConfigurationResponse> CreateMediaWorkflowConfiguration(CreateMediaWorkflowConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMediaWorkflowConfiguration");
@@ -930,7 +930,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/CreateMediaWorkflowJob.cs.html">here</a> to see an example of how to use CreateMediaWorkflowJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/CreateMediaWorkflowJob.cs.html">here</a> to see an example of how to use CreateMediaWorkflowJob API.</example>
         public async Task<CreateMediaWorkflowJobResponse> CreateMediaWorkflowJob(CreateMediaWorkflowJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMediaWorkflowJob");
@@ -987,7 +987,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/CreateStreamCdnConfig.cs.html">here</a> to see an example of how to use CreateStreamCdnConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/CreateStreamCdnConfig.cs.html">here</a> to see an example of how to use CreateStreamCdnConfig API.</example>
         public async Task<CreateStreamCdnConfigResponse> CreateStreamCdnConfig(CreateStreamCdnConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createStreamCdnConfig");
@@ -1044,7 +1044,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/CreateStreamDistributionChannel.cs.html">here</a> to see an example of how to use CreateStreamDistributionChannel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/CreateStreamDistributionChannel.cs.html">here</a> to see an example of how to use CreateStreamDistributionChannel API.</example>
         public async Task<CreateStreamDistributionChannelResponse> CreateStreamDistributionChannel(CreateStreamDistributionChannelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createStreamDistributionChannel");
@@ -1101,7 +1101,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/CreateStreamPackagingConfig.cs.html">here</a> to see an example of how to use CreateStreamPackagingConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/CreateStreamPackagingConfig.cs.html">here</a> to see an example of how to use CreateStreamPackagingConfig API.</example>
         public async Task<CreateStreamPackagingConfigResponse> CreateStreamPackagingConfig(CreateStreamPackagingConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createStreamPackagingConfig");
@@ -1157,7 +1157,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteMediaAsset.cs.html">here</a> to see an example of how to use DeleteMediaAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteMediaAsset.cs.html">here</a> to see an example of how to use DeleteMediaAsset API.</example>
         public async Task<DeleteMediaAssetResponse> DeleteMediaAsset(DeleteMediaAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMediaAsset");
@@ -1213,7 +1213,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteMediaAssetDistributionChannelAttachment.cs.html">here</a> to see an example of how to use DeleteMediaAssetDistributionChannelAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteMediaAssetDistributionChannelAttachment.cs.html">here</a> to see an example of how to use DeleteMediaAssetDistributionChannelAttachment API.</example>
         public async Task<DeleteMediaAssetDistributionChannelAttachmentResponse> DeleteMediaAssetDistributionChannelAttachment(DeleteMediaAssetDistributionChannelAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMediaAssetDistributionChannelAttachment");
@@ -1269,7 +1269,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteMediaWorkflow.cs.html">here</a> to see an example of how to use DeleteMediaWorkflow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteMediaWorkflow.cs.html">here</a> to see an example of how to use DeleteMediaWorkflow API.</example>
         public async Task<DeleteMediaWorkflowResponse> DeleteMediaWorkflow(DeleteMediaWorkflowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMediaWorkflow");
@@ -1325,7 +1325,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteMediaWorkflowConfiguration.cs.html">here</a> to see an example of how to use DeleteMediaWorkflowConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteMediaWorkflowConfiguration.cs.html">here</a> to see an example of how to use DeleteMediaWorkflowConfiguration API.</example>
         public async Task<DeleteMediaWorkflowConfigurationResponse> DeleteMediaWorkflowConfiguration(DeleteMediaWorkflowConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMediaWorkflowConfiguration");
@@ -1381,7 +1381,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteMediaWorkflowJob.cs.html">here</a> to see an example of how to use DeleteMediaWorkflowJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteMediaWorkflowJob.cs.html">here</a> to see an example of how to use DeleteMediaWorkflowJob API.</example>
         public async Task<DeleteMediaWorkflowJobResponse> DeleteMediaWorkflowJob(DeleteMediaWorkflowJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMediaWorkflowJob");
@@ -1437,7 +1437,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteStreamCdnConfig.cs.html">here</a> to see an example of how to use DeleteStreamCdnConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteStreamCdnConfig.cs.html">here</a> to see an example of how to use DeleteStreamCdnConfig API.</example>
         public async Task<DeleteStreamCdnConfigResponse> DeleteStreamCdnConfig(DeleteStreamCdnConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteStreamCdnConfig");
@@ -1493,7 +1493,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteStreamDistributionChannel.cs.html">here</a> to see an example of how to use DeleteStreamDistributionChannel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteStreamDistributionChannel.cs.html">here</a> to see an example of how to use DeleteStreamDistributionChannel API.</example>
         public async Task<DeleteStreamDistributionChannelResponse> DeleteStreamDistributionChannel(DeleteStreamDistributionChannelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteStreamDistributionChannel");
@@ -1549,7 +1549,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteStreamPackagingConfig.cs.html">here</a> to see an example of how to use DeleteStreamPackagingConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteStreamPackagingConfig.cs.html">here</a> to see an example of how to use DeleteStreamPackagingConfig API.</example>
         public async Task<DeleteStreamPackagingConfigResponse> DeleteStreamPackagingConfig(DeleteStreamPackagingConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteStreamPackagingConfig");
@@ -1605,7 +1605,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GetMediaAsset.cs.html">here</a> to see an example of how to use GetMediaAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GetMediaAsset.cs.html">here</a> to see an example of how to use GetMediaAsset API.</example>
         public async Task<GetMediaAssetResponse> GetMediaAsset(GetMediaAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMediaAsset");
@@ -1661,7 +1661,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GetMediaAssetDistributionChannelAttachment.cs.html">here</a> to see an example of how to use GetMediaAssetDistributionChannelAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GetMediaAssetDistributionChannelAttachment.cs.html">here</a> to see an example of how to use GetMediaAssetDistributionChannelAttachment API.</example>
         public async Task<GetMediaAssetDistributionChannelAttachmentResponse> GetMediaAssetDistributionChannelAttachment(GetMediaAssetDistributionChannelAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMediaAssetDistributionChannelAttachment");
@@ -1717,7 +1717,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GetMediaWorkflow.cs.html">here</a> to see an example of how to use GetMediaWorkflow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GetMediaWorkflow.cs.html">here</a> to see an example of how to use GetMediaWorkflow API.</example>
         public async Task<GetMediaWorkflowResponse> GetMediaWorkflow(GetMediaWorkflowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMediaWorkflow");
@@ -1773,7 +1773,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GetMediaWorkflowConfiguration.cs.html">here</a> to see an example of how to use GetMediaWorkflowConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GetMediaWorkflowConfiguration.cs.html">here</a> to see an example of how to use GetMediaWorkflowConfiguration API.</example>
         public async Task<GetMediaWorkflowConfigurationResponse> GetMediaWorkflowConfiguration(GetMediaWorkflowConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMediaWorkflowConfiguration");
@@ -1829,7 +1829,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GetMediaWorkflowJob.cs.html">here</a> to see an example of how to use GetMediaWorkflowJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GetMediaWorkflowJob.cs.html">here</a> to see an example of how to use GetMediaWorkflowJob API.</example>
         public async Task<GetMediaWorkflowJobResponse> GetMediaWorkflowJob(GetMediaWorkflowJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMediaWorkflowJob");
@@ -1885,7 +1885,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GetStreamCdnConfig.cs.html">here</a> to see an example of how to use GetStreamCdnConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GetStreamCdnConfig.cs.html">here</a> to see an example of how to use GetStreamCdnConfig API.</example>
         public async Task<GetStreamCdnConfigResponse> GetStreamCdnConfig(GetStreamCdnConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getStreamCdnConfig");
@@ -1941,7 +1941,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GetStreamDistributionChannel.cs.html">here</a> to see an example of how to use GetStreamDistributionChannel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GetStreamDistributionChannel.cs.html">here</a> to see an example of how to use GetStreamDistributionChannel API.</example>
         public async Task<GetStreamDistributionChannelResponse> GetStreamDistributionChannel(GetStreamDistributionChannelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getStreamDistributionChannel");
@@ -1997,7 +1997,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GetStreamPackagingConfig.cs.html">here</a> to see an example of how to use GetStreamPackagingConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GetStreamPackagingConfig.cs.html">here</a> to see an example of how to use GetStreamPackagingConfig API.</example>
         public async Task<GetStreamPackagingConfigResponse> GetStreamPackagingConfig(GetStreamPackagingConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getStreamPackagingConfig");
@@ -2053,7 +2053,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/IngestStreamDistributionChannel.cs.html">here</a> to see an example of how to use IngestStreamDistributionChannel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/IngestStreamDistributionChannel.cs.html">here</a> to see an example of how to use IngestStreamDistributionChannel API.</example>
         public async Task<IngestStreamDistributionChannelResponse> IngestStreamDistributionChannel(IngestStreamDistributionChannelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called ingestStreamDistributionChannel");
@@ -2109,7 +2109,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListMediaAssetDistributionChannelAttachments.cs.html">here</a> to see an example of how to use ListMediaAssetDistributionChannelAttachments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListMediaAssetDistributionChannelAttachments.cs.html">here</a> to see an example of how to use ListMediaAssetDistributionChannelAttachments API.</example>
         public async Task<ListMediaAssetDistributionChannelAttachmentsResponse> ListMediaAssetDistributionChannelAttachments(ListMediaAssetDistributionChannelAttachmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMediaAssetDistributionChannelAttachments");
@@ -2166,7 +2166,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListMediaAssets.cs.html">here</a> to see an example of how to use ListMediaAssets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListMediaAssets.cs.html">here</a> to see an example of how to use ListMediaAssets API.</example>
         public async Task<ListMediaAssetsResponse> ListMediaAssets(ListMediaAssetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMediaAssets");
@@ -2223,7 +2223,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListMediaWorkflowConfigurations.cs.html">here</a> to see an example of how to use ListMediaWorkflowConfigurations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListMediaWorkflowConfigurations.cs.html">here</a> to see an example of how to use ListMediaWorkflowConfigurations API.</example>
         public async Task<ListMediaWorkflowConfigurationsResponse> ListMediaWorkflowConfigurations(ListMediaWorkflowConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMediaWorkflowConfigurations");
@@ -2279,7 +2279,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListMediaWorkflowJobs.cs.html">here</a> to see an example of how to use ListMediaWorkflowJobs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListMediaWorkflowJobs.cs.html">here</a> to see an example of how to use ListMediaWorkflowJobs API.</example>
         public async Task<ListMediaWorkflowJobsResponse> ListMediaWorkflowJobs(ListMediaWorkflowJobsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMediaWorkflowJobs");
@@ -2336,7 +2336,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListMediaWorkflowTaskDeclarations.cs.html">here</a> to see an example of how to use ListMediaWorkflowTaskDeclarations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListMediaWorkflowTaskDeclarations.cs.html">here</a> to see an example of how to use ListMediaWorkflowTaskDeclarations API.</example>
         public async Task<ListMediaWorkflowTaskDeclarationsResponse> ListMediaWorkflowTaskDeclarations(ListMediaWorkflowTaskDeclarationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMediaWorkflowTaskDeclarations");
@@ -2392,7 +2392,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListMediaWorkflows.cs.html">here</a> to see an example of how to use ListMediaWorkflows API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListMediaWorkflows.cs.html">here</a> to see an example of how to use ListMediaWorkflows API.</example>
         public async Task<ListMediaWorkflowsResponse> ListMediaWorkflows(ListMediaWorkflowsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMediaWorkflows");
@@ -2448,7 +2448,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListStreamCdnConfigs.cs.html">here</a> to see an example of how to use ListStreamCdnConfigs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListStreamCdnConfigs.cs.html">here</a> to see an example of how to use ListStreamCdnConfigs API.</example>
         public async Task<ListStreamCdnConfigsResponse> ListStreamCdnConfigs(ListStreamCdnConfigsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listStreamCdnConfigs");
@@ -2504,7 +2504,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListStreamDistributionChannels.cs.html">here</a> to see an example of how to use ListStreamDistributionChannels API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListStreamDistributionChannels.cs.html">here</a> to see an example of how to use ListStreamDistributionChannels API.</example>
         public async Task<ListStreamDistributionChannelsResponse> ListStreamDistributionChannels(ListStreamDistributionChannelsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listStreamDistributionChannels");
@@ -2560,7 +2560,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListStreamPackagingConfigs.cs.html">here</a> to see an example of how to use ListStreamPackagingConfigs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListStreamPackagingConfigs.cs.html">here</a> to see an example of how to use ListStreamPackagingConfigs API.</example>
         public async Task<ListStreamPackagingConfigsResponse> ListStreamPackagingConfigs(ListStreamPackagingConfigsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listStreamPackagingConfigs");
@@ -2617,7 +2617,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListSystemMediaWorkflows.cs.html">here</a> to see an example of how to use ListSystemMediaWorkflows API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/ListSystemMediaWorkflows.cs.html">here</a> to see an example of how to use ListSystemMediaWorkflows API.</example>
         public async Task<ListSystemMediaWorkflowsResponse> ListSystemMediaWorkflows(ListSystemMediaWorkflowsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSystemMediaWorkflows");
@@ -2674,7 +2674,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/RemoveMediaAssetLock.cs.html">here</a> to see an example of how to use RemoveMediaAssetLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/RemoveMediaAssetLock.cs.html">here</a> to see an example of how to use RemoveMediaAssetLock API.</example>
         public async Task<RemoveMediaAssetLockResponse> RemoveMediaAssetLock(RemoveMediaAssetLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeMediaAssetLock");
@@ -2731,7 +2731,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/RemoveMediaWorkflowConfigurationLock.cs.html">here</a> to see an example of how to use RemoveMediaWorkflowConfigurationLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/RemoveMediaWorkflowConfigurationLock.cs.html">here</a> to see an example of how to use RemoveMediaWorkflowConfigurationLock API.</example>
         public async Task<RemoveMediaWorkflowConfigurationLockResponse> RemoveMediaWorkflowConfigurationLock(RemoveMediaWorkflowConfigurationLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeMediaWorkflowConfigurationLock");
@@ -2788,7 +2788,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/RemoveMediaWorkflowJobLock.cs.html">here</a> to see an example of how to use RemoveMediaWorkflowJobLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/RemoveMediaWorkflowJobLock.cs.html">here</a> to see an example of how to use RemoveMediaWorkflowJobLock API.</example>
         public async Task<RemoveMediaWorkflowJobLockResponse> RemoveMediaWorkflowJobLock(RemoveMediaWorkflowJobLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeMediaWorkflowJobLock");
@@ -2845,7 +2845,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/RemoveMediaWorkflowLock.cs.html">here</a> to see an example of how to use RemoveMediaWorkflowLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/RemoveMediaWorkflowLock.cs.html">here</a> to see an example of how to use RemoveMediaWorkflowLock API.</example>
         public async Task<RemoveMediaWorkflowLockResponse> RemoveMediaWorkflowLock(RemoveMediaWorkflowLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeMediaWorkflowLock");
@@ -2902,7 +2902,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/RemoveStreamCdnConfigLock.cs.html">here</a> to see an example of how to use RemoveStreamCdnConfigLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/RemoveStreamCdnConfigLock.cs.html">here</a> to see an example of how to use RemoveStreamCdnConfigLock API.</example>
         public async Task<RemoveStreamCdnConfigLockResponse> RemoveStreamCdnConfigLock(RemoveStreamCdnConfigLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeStreamCdnConfigLock");
@@ -2959,7 +2959,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/RemoveStreamDistributionChannelLock.cs.html">here</a> to see an example of how to use RemoveStreamDistributionChannelLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/RemoveStreamDistributionChannelLock.cs.html">here</a> to see an example of how to use RemoveStreamDistributionChannelLock API.</example>
         public async Task<RemoveStreamDistributionChannelLockResponse> RemoveStreamDistributionChannelLock(RemoveStreamDistributionChannelLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeStreamDistributionChannelLock");
@@ -3016,7 +3016,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/RemoveStreamPackagingConfigLock.cs.html">here</a> to see an example of how to use RemoveStreamPackagingConfigLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/RemoveStreamPackagingConfigLock.cs.html">here</a> to see an example of how to use RemoveStreamPackagingConfigLock API.</example>
         public async Task<RemoveStreamPackagingConfigLockResponse> RemoveStreamPackagingConfigLock(RemoveStreamPackagingConfigLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeStreamPackagingConfigLock");
@@ -3072,7 +3072,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/UpdateMediaAsset.cs.html">here</a> to see an example of how to use UpdateMediaAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/UpdateMediaAsset.cs.html">here</a> to see an example of how to use UpdateMediaAsset API.</example>
         public async Task<UpdateMediaAssetResponse> UpdateMediaAsset(UpdateMediaAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMediaAsset");
@@ -3128,7 +3128,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/UpdateMediaWorkflow.cs.html">here</a> to see an example of how to use UpdateMediaWorkflow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/UpdateMediaWorkflow.cs.html">here</a> to see an example of how to use UpdateMediaWorkflow API.</example>
         public async Task<UpdateMediaWorkflowResponse> UpdateMediaWorkflow(UpdateMediaWorkflowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMediaWorkflow");
@@ -3184,7 +3184,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/UpdateMediaWorkflowConfiguration.cs.html">here</a> to see an example of how to use UpdateMediaWorkflowConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/UpdateMediaWorkflowConfiguration.cs.html">here</a> to see an example of how to use UpdateMediaWorkflowConfiguration API.</example>
         public async Task<UpdateMediaWorkflowConfigurationResponse> UpdateMediaWorkflowConfiguration(UpdateMediaWorkflowConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMediaWorkflowConfiguration");
@@ -3240,7 +3240,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/UpdateMediaWorkflowJob.cs.html">here</a> to see an example of how to use UpdateMediaWorkflowJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/UpdateMediaWorkflowJob.cs.html">here</a> to see an example of how to use UpdateMediaWorkflowJob API.</example>
         public async Task<UpdateMediaWorkflowJobResponse> UpdateMediaWorkflowJob(UpdateMediaWorkflowJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMediaWorkflowJob");
@@ -3296,7 +3296,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/UpdateStreamCdnConfig.cs.html">here</a> to see an example of how to use UpdateStreamCdnConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/UpdateStreamCdnConfig.cs.html">here</a> to see an example of how to use UpdateStreamCdnConfig API.</example>
         public async Task<UpdateStreamCdnConfigResponse> UpdateStreamCdnConfig(UpdateStreamCdnConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateStreamCdnConfig");
@@ -3352,7 +3352,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/UpdateStreamDistributionChannel.cs.html">here</a> to see an example of how to use UpdateStreamDistributionChannel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/UpdateStreamDistributionChannel.cs.html">here</a> to see an example of how to use UpdateStreamDistributionChannel API.</example>
         public async Task<UpdateStreamDistributionChannelResponse> UpdateStreamDistributionChannel(UpdateStreamDistributionChannelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateStreamDistributionChannel");
@@ -3408,7 +3408,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/UpdateStreamPackagingConfig.cs.html">here</a> to see an example of how to use UpdateStreamPackagingConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/UpdateStreamPackagingConfig.cs.html">here</a> to see an example of how to use UpdateStreamPackagingConfig API.</example>
         public async Task<UpdateStreamPackagingConfigResponse> UpdateStreamPackagingConfig(UpdateStreamPackagingConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateStreamPackagingConfig");

@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/GetAutonomousExadataInfrastructure.cs.html">here</a> to see an example of how to use GetAutonomousExadataInfrastructure request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/GetAutonomousExadataInfrastructure.cs.html">here</a> to see an example of how to use GetAutonomousExadataInfrastructure request.
     /// </example>
     public class GetAutonomousExadataInfrastructureRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The Autonomous Exadata Infrastructure  [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The Autonomous Exadata Infrastructure  [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

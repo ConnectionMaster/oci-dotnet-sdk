@@ -14,7 +14,7 @@ using Oci.BdsService.Models;
 namespace Oci.BdsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateResourcePrincipalConfiguration.cs.html">here</a> to see an example of how to use CreateResourcePrincipalConfiguration request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateResourcePrincipalConfiguration.cs.html">here</a> to see an example of how to use CreateResourcePrincipalConfiguration request.
     /// </example>
     public class CreateResourcePrincipalConfigurationRequest : Oci.Common.IOciRequest
     {

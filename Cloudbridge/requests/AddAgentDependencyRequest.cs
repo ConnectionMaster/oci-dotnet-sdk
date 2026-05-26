@@ -14,7 +14,7 @@ using Oci.CloudbridgeService.Models;
 namespace Oci.CloudbridgeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/AddAgentDependency.cs.html">here</a> to see an example of how to use AddAgentDependency request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/AddAgentDependency.cs.html">here</a> to see an example of how to use AddAgentDependency request.
     /// </example>
     public class AddAgentDependencyRequest : Oci.Common.IOciRequest
     {

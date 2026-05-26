@@ -14,7 +14,7 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ChangeSchedulingPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeSchedulingPolicyCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ChangeSchedulingPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeSchedulingPolicyCompartment request.
     /// </example>
     public class ChangeSchedulingPolicyCompartmentRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.DatabaseService.Requests
         public ChangeSchedulingPolicyCompartmentDetails ChangeSchedulingPolicyCompartmentDetails { get; set; }
         
         /// <value>
-        /// The Scheduling Policy [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The Scheduling Policy [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

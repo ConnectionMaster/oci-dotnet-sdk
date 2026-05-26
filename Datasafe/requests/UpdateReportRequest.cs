@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateReport.cs.html">here</a> to see an example of how to use UpdateReport request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateReport.cs.html">here</a> to see an example of how to use UpdateReport request.
     /// </example>
     public class UpdateReportRequest : Oci.Common.IOciRequest
     {

@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ConfirmKeyStoreDetailsAreCorrect.cs.html">here</a> to see an example of how to use ConfirmKeyStoreDetailsAreCorrect request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ConfirmKeyStoreDetailsAreCorrect.cs.html">here</a> to see an example of how to use ConfirmKeyStoreDetailsAreCorrect request.
     /// </example>
     public class ConfirmKeyStoreDetailsAreCorrectRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the key store.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the key store.
         /// </value>
         /// <remarks>
         /// Required

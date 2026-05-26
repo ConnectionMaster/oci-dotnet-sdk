@@ -14,7 +14,7 @@ using Oci.AispeechService.Models;
 namespace Oci.AispeechService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ListCustomizations.cs.html">here</a> to see an example of how to use ListCustomizations request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ListCustomizations.cs.html">here</a> to see an example of how to use ListCustomizations request.
     /// </example>
     public class ListCustomizationsRequest : Oci.Common.IOciRequest
     {

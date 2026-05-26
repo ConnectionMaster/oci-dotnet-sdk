@@ -78,7 +78,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/CloneSqlTuningTask.cs.html">here</a> to see an example of how to use CloneSqlTuningTask API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/CloneSqlTuningTask.cs.html">here</a> to see an example of how to use CloneSqlTuningTask API.</example>
         public async Task<CloneSqlTuningTaskResponse> CloneSqlTuningTask(CloneSqlTuningTaskRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cloneSqlTuningTask");
@@ -135,7 +135,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/CreateSqlTuningSet.cs.html">here</a> to see an example of how to use CreateSqlTuningSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/CreateSqlTuningSet.cs.html">here</a> to see an example of how to use CreateSqlTuningSet API.</example>
         public async Task<CreateSqlTuningSetResponse> CreateSqlTuningSet(CreateSqlTuningSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSqlTuningSet");
@@ -192,7 +192,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/DropSqlTuningSet.cs.html">here</a> to see an example of how to use DropSqlTuningSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/DropSqlTuningSet.cs.html">here</a> to see an example of how to use DropSqlTuningSet API.</example>
         public async Task<DropSqlTuningSetResponse> DropSqlTuningSet(DropSqlTuningSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called dropSqlTuningSet");
@@ -249,7 +249,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/DropSqlTuningTask.cs.html">here</a> to see an example of how to use DropSqlTuningTask API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/DropSqlTuningTask.cs.html">here</a> to see an example of how to use DropSqlTuningTask API.</example>
         public async Task<DropSqlTuningTaskResponse> DropSqlTuningTask(DropSqlTuningTaskRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called dropSqlTuningTask");
@@ -307,7 +307,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/DropSqlsInSqlTuningSet.cs.html">here</a> to see an example of how to use DropSqlsInSqlTuningSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/DropSqlsInSqlTuningSet.cs.html">here</a> to see an example of how to use DropSqlsInSqlTuningSet API.</example>
         public async Task<DropSqlsInSqlTuningSetResponse> DropSqlsInSqlTuningSet(DropSqlsInSqlTuningSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called dropSqlsInSqlTuningSet");
@@ -364,7 +364,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/FetchSqlTuningSet.cs.html">here</a> to see an example of how to use FetchSqlTuningSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/FetchSqlTuningSet.cs.html">here</a> to see an example of how to use FetchSqlTuningSet API.</example>
         public async Task<FetchSqlTuningSetResponse> FetchSqlTuningSet(FetchSqlTuningSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called fetchSqlTuningSet");
@@ -423,7 +423,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetExecutionPlanStatsComparision.cs.html">here</a> to see an example of how to use GetExecutionPlanStatsComparision API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetExecutionPlanStatsComparision.cs.html">here</a> to see an example of how to use GetExecutionPlanStatsComparision API.</example>
         public async Task<GetExecutionPlanStatsComparisionResponse> GetExecutionPlanStatsComparision(GetExecutionPlanStatsComparisionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getExecutionPlanStatsComparision");
@@ -480,7 +480,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetSqlExecutionPlan.cs.html">here</a> to see an example of how to use GetSqlExecutionPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetSqlExecutionPlan.cs.html">here</a> to see an example of how to use GetSqlExecutionPlan API.</example>
         public async Task<GetSqlExecutionPlanResponse> GetSqlExecutionPlan(GetSqlExecutionPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSqlExecutionPlan");
@@ -537,7 +537,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetSqlTuningAdvisorTaskSummaryReport.cs.html">here</a> to see an example of how to use GetSqlTuningAdvisorTaskSummaryReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetSqlTuningAdvisorTaskSummaryReport.cs.html">here</a> to see an example of how to use GetSqlTuningAdvisorTaskSummaryReport API.</example>
         public async Task<GetSqlTuningAdvisorTaskSummaryReportResponse> GetSqlTuningAdvisorTaskSummaryReport(GetSqlTuningAdvisorTaskSummaryReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSqlTuningAdvisorTaskSummaryReport");
@@ -594,7 +594,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListSqlTuningAdvisorTaskFindings.cs.html">here</a> to see an example of how to use ListSqlTuningAdvisorTaskFindings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListSqlTuningAdvisorTaskFindings.cs.html">here</a> to see an example of how to use ListSqlTuningAdvisorTaskFindings API.</example>
         public async Task<ListSqlTuningAdvisorTaskFindingsResponse> ListSqlTuningAdvisorTaskFindings(ListSqlTuningAdvisorTaskFindingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSqlTuningAdvisorTaskFindings");
@@ -652,7 +652,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListSqlTuningAdvisorTaskRecommendations.cs.html">here</a> to see an example of how to use ListSqlTuningAdvisorTaskRecommendations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListSqlTuningAdvisorTaskRecommendations.cs.html">here</a> to see an example of how to use ListSqlTuningAdvisorTaskRecommendations API.</example>
         public async Task<ListSqlTuningAdvisorTaskRecommendationsResponse> ListSqlTuningAdvisorTaskRecommendations(ListSqlTuningAdvisorTaskRecommendationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSqlTuningAdvisorTaskRecommendations");
@@ -709,7 +709,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListSqlTuningAdvisorTasks.cs.html">here</a> to see an example of how to use ListSqlTuningAdvisorTasks API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListSqlTuningAdvisorTasks.cs.html">here</a> to see an example of how to use ListSqlTuningAdvisorTasks API.</example>
         public async Task<ListSqlTuningAdvisorTasksResponse> ListSqlTuningAdvisorTasks(ListSqlTuningAdvisorTasksRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSqlTuningAdvisorTasks");
@@ -766,7 +766,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListSqlTuningSets.cs.html">here</a> to see an example of how to use ListSqlTuningSets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListSqlTuningSets.cs.html">here</a> to see an example of how to use ListSqlTuningSets API.</example>
         public async Task<ListSqlTuningSetsResponse> ListSqlTuningSets(ListSqlTuningSetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSqlTuningSets");
@@ -823,7 +823,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/LoadSqlTuningSet.cs.html">here</a> to see an example of how to use LoadSqlTuningSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/LoadSqlTuningSet.cs.html">here</a> to see an example of how to use LoadSqlTuningSet API.</example>
         public async Task<LoadSqlTuningSetResponse> LoadSqlTuningSet(LoadSqlTuningSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called loadSqlTuningSet");
@@ -880,7 +880,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/SaveSqlTuningSetAs.cs.html">here</a> to see an example of how to use SaveSqlTuningSetAs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/SaveSqlTuningSetAs.cs.html">here</a> to see an example of how to use SaveSqlTuningSetAs API.</example>
         public async Task<SaveSqlTuningSetAsResponse> SaveSqlTuningSetAs(SaveSqlTuningSetAsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called saveSqlTuningSetAs");
@@ -937,7 +937,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/StartSqlTuningTask.cs.html">here</a> to see an example of how to use StartSqlTuningTask API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/StartSqlTuningTask.cs.html">here</a> to see an example of how to use StartSqlTuningTask API.</example>
         public async Task<StartSqlTuningTaskResponse> StartSqlTuningTask(StartSqlTuningTaskRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startSqlTuningTask");
@@ -994,7 +994,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ValidateBasicFilter.cs.html">here</a> to see an example of how to use ValidateBasicFilter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ValidateBasicFilter.cs.html">here</a> to see an example of how to use ValidateBasicFilter API.</example>
         public async Task<ValidateBasicFilterResponse> ValidateBasicFilter(ValidateBasicFilterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called validateBasicFilter");

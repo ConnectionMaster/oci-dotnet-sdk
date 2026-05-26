@@ -82,7 +82,7 @@ namespace Oci.WaaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/ChangeWebAppAccelerationCompartment.cs.html">here</a> to see an example of how to use ChangeWebAppAccelerationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/ChangeWebAppAccelerationCompartment.cs.html">here</a> to see an example of how to use ChangeWebAppAccelerationCompartment API.</example>
         public async Task<ChangeWebAppAccelerationCompartmentResponse> ChangeWebAppAccelerationCompartment(ChangeWebAppAccelerationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeWebAppAccelerationCompartment");
@@ -140,7 +140,7 @@ namespace Oci.WaaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/ChangeWebAppAccelerationPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeWebAppAccelerationPolicyCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/ChangeWebAppAccelerationPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeWebAppAccelerationPolicyCompartment API.</example>
         public async Task<ChangeWebAppAccelerationPolicyCompartmentResponse> ChangeWebAppAccelerationPolicyCompartment(ChangeWebAppAccelerationPolicyCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeWebAppAccelerationPolicyCompartment");
@@ -197,7 +197,7 @@ namespace Oci.WaaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/CreateWebAppAcceleration.cs.html">here</a> to see an example of how to use CreateWebAppAcceleration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/CreateWebAppAcceleration.cs.html">here</a> to see an example of how to use CreateWebAppAcceleration API.</example>
         public async Task<CreateWebAppAccelerationResponse> CreateWebAppAcceleration(CreateWebAppAccelerationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createWebAppAcceleration");
@@ -254,7 +254,7 @@ namespace Oci.WaaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/CreateWebAppAccelerationPolicy.cs.html">here</a> to see an example of how to use CreateWebAppAccelerationPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/CreateWebAppAccelerationPolicy.cs.html">here</a> to see an example of how to use CreateWebAppAccelerationPolicy API.</example>
         public async Task<CreateWebAppAccelerationPolicyResponse> CreateWebAppAccelerationPolicy(CreateWebAppAccelerationPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createWebAppAccelerationPolicy");
@@ -310,7 +310,7 @@ namespace Oci.WaaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/DeleteWebAppAcceleration.cs.html">here</a> to see an example of how to use DeleteWebAppAcceleration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/DeleteWebAppAcceleration.cs.html">here</a> to see an example of how to use DeleteWebAppAcceleration API.</example>
         public async Task<DeleteWebAppAccelerationResponse> DeleteWebAppAcceleration(DeleteWebAppAccelerationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteWebAppAcceleration");
@@ -366,7 +366,7 @@ namespace Oci.WaaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/DeleteWebAppAccelerationPolicy.cs.html">here</a> to see an example of how to use DeleteWebAppAccelerationPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/DeleteWebAppAccelerationPolicy.cs.html">here</a> to see an example of how to use DeleteWebAppAccelerationPolicy API.</example>
         public async Task<DeleteWebAppAccelerationPolicyResponse> DeleteWebAppAccelerationPolicy(DeleteWebAppAccelerationPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteWebAppAccelerationPolicy");
@@ -422,7 +422,7 @@ namespace Oci.WaaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/GetWebAppAcceleration.cs.html">here</a> to see an example of how to use GetWebAppAcceleration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/GetWebAppAcceleration.cs.html">here</a> to see an example of how to use GetWebAppAcceleration API.</example>
         public async Task<GetWebAppAccelerationResponse> GetWebAppAcceleration(GetWebAppAccelerationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWebAppAcceleration");
@@ -478,7 +478,7 @@ namespace Oci.WaaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/GetWebAppAccelerationPolicy.cs.html">here</a> to see an example of how to use GetWebAppAccelerationPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/GetWebAppAccelerationPolicy.cs.html">here</a> to see an example of how to use GetWebAppAccelerationPolicy API.</example>
         public async Task<GetWebAppAccelerationPolicyResponse> GetWebAppAccelerationPolicy(GetWebAppAccelerationPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWebAppAccelerationPolicy");
@@ -535,7 +535,7 @@ namespace Oci.WaaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/ListWebAppAccelerationPolicies.cs.html">here</a> to see an example of how to use ListWebAppAccelerationPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/ListWebAppAccelerationPolicies.cs.html">here</a> to see an example of how to use ListWebAppAccelerationPolicies API.</example>
         public async Task<ListWebAppAccelerationPoliciesResponse> ListWebAppAccelerationPolicies(ListWebAppAccelerationPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWebAppAccelerationPolicies");
@@ -592,7 +592,7 @@ namespace Oci.WaaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/ListWebAppAccelerations.cs.html">here</a> to see an example of how to use ListWebAppAccelerations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/ListWebAppAccelerations.cs.html">here</a> to see an example of how to use ListWebAppAccelerations API.</example>
         public async Task<ListWebAppAccelerationsResponse> ListWebAppAccelerations(ListWebAppAccelerationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWebAppAccelerations");
@@ -650,7 +650,7 @@ namespace Oci.WaaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/PurgeWebAppAccelerationCache.cs.html">here</a> to see an example of how to use PurgeWebAppAccelerationCache API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/PurgeWebAppAccelerationCache.cs.html">here</a> to see an example of how to use PurgeWebAppAccelerationCache API.</example>
         public async Task<PurgeWebAppAccelerationCacheResponse> PurgeWebAppAccelerationCache(PurgeWebAppAccelerationCacheRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called purgeWebAppAccelerationCache");
@@ -706,7 +706,7 @@ namespace Oci.WaaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/UpdateWebAppAcceleration.cs.html">here</a> to see an example of how to use UpdateWebAppAcceleration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/UpdateWebAppAcceleration.cs.html">here</a> to see an example of how to use UpdateWebAppAcceleration API.</example>
         public async Task<UpdateWebAppAccelerationResponse> UpdateWebAppAcceleration(UpdateWebAppAccelerationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateWebAppAcceleration");
@@ -762,7 +762,7 @@ namespace Oci.WaaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/UpdateWebAppAccelerationPolicy.cs.html">here</a> to see an example of how to use UpdateWebAppAccelerationPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/UpdateWebAppAccelerationPolicy.cs.html">here</a> to see an example of how to use UpdateWebAppAccelerationPolicy API.</example>
         public async Task<UpdateWebAppAccelerationPolicyResponse> UpdateWebAppAccelerationPolicy(UpdateWebAppAccelerationPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateWebAppAccelerationPolicy");

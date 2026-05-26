@@ -14,13 +14,13 @@ using Oci.EmailService.Models;
 namespace Oci.EmailService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/UpdateDkim.cs.html">here</a> to see an example of how to use UpdateDkim request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/UpdateDkim.cs.html">here</a> to see an example of how to use UpdateDkim request.
     /// </example>
     public class UpdateDkimRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of this DKIM.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of this DKIM.
         /// </value>
         /// <remarks>
         /// Required

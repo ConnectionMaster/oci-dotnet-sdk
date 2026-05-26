@@ -14,7 +14,7 @@ using Oci.DbmulticloudService.Models;
 namespace Oci.DbmulticloudService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbGcpIdentityConnector.cs.html">here</a> to see an example of how to use CreateOracleDbGcpIdentityConnector request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbGcpIdentityConnector.cs.html">here</a> to see an example of how to use CreateOracleDbGcpIdentityConnector request.
     /// </example>
     public class CreateOracleDbGcpIdentityConnectorRequest : Oci.Common.IOciRequest
     {

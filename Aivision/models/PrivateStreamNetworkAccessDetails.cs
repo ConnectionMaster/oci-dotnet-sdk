@@ -22,7 +22,7 @@ namespace Oci.AivisionService.Models
     {
         
         /// <value>
-        /// [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the private Endpoint
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private Endpoint
         /// 
         /// </value>
         /// <remarks>

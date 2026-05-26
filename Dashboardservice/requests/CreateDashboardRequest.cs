@@ -14,7 +14,7 @@ using Oci.DashboardService.Models;
 namespace Oci.DashboardService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dashboardservice/CreateDashboard.cs.html">here</a> to see an example of how to use CreateDashboard request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dashboardservice/CreateDashboard.cs.html">here</a> to see an example of how to use CreateDashboard request.
     /// </example>
     public class CreateDashboardRequest : Oci.Common.IOciRequest
     {

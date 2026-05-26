@@ -80,7 +80,7 @@ namespace Oci.ResourcemanagerService
         /// A forced cancellation can result in an incorrect state file.
         /// For example, the state file might not reflect the exact state of the provisioned resources.
         /// For more information, see
-        /// [Canceling a Job](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/cancel-job.htm).
+        /// [Canceling a Job](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/cancel-job.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -88,7 +88,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/CancelJob.cs.html">here</a> to see an example of how to use CancelJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/CancelJob.cs.html">here</a> to see an example of how to use CancelJob API.</example>
         public async Task<CancelJobResponse> CancelJob(CancelJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelJob");
@@ -139,7 +139,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Moves a configuration source provider into a different compartment within the same tenancy.
         /// For more information, see
-        /// [Moving a Configuration Source Provider](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/change-compartment-csp.htm).
+        /// [Moving a Configuration Source Provider](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/change-compartment-csp.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -147,7 +147,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ChangeConfigurationSourceProviderCompartment.cs.html">here</a> to see an example of how to use ChangeConfigurationSourceProviderCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ChangeConfigurationSourceProviderCompartment.cs.html">here</a> to see an example of how to use ChangeConfigurationSourceProviderCompartment API.</example>
         public async Task<ChangeConfigurationSourceProviderCompartmentResponse> ChangeConfigurationSourceProviderCompartment(ChangeConfigurationSourceProviderCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeConfigurationSourceProviderCompartment");
@@ -198,7 +198,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Moves a private endpoint to a different compartment within the same tenancy.
         /// For more information, see
-        /// [Moving a Private Endpoint](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/move-private-endpoints.htm).
+        /// [Moving a Private Endpoint](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/move-private-endpoints.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -206,7 +206,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ChangePrivateEndpointCompartment.cs.html">here</a> to see an example of how to use ChangePrivateEndpointCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ChangePrivateEndpointCompartment.cs.html">here</a> to see an example of how to use ChangePrivateEndpointCompartment API.</example>
         public async Task<ChangePrivateEndpointCompartmentResponse> ChangePrivateEndpointCompartment(ChangePrivateEndpointCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changePrivateEndpointCompartment");
@@ -257,7 +257,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Moves a stack (and its associated jobs) into a different compartment within the same tenancy.
         /// For more information, see
-        /// [Moving a Stack](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/change-compartment-stack.htm).
+        /// [Moving a Stack](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/change-compartment-stack.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -265,7 +265,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ChangeStackCompartment.cs.html">here</a> to see an example of how to use ChangeStackCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ChangeStackCompartment.cs.html">here</a> to see an example of how to use ChangeStackCompartment API.</example>
         public async Task<ChangeStackCompartmentResponse> ChangeStackCompartment(ChangeStackCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeStackCompartment");
@@ -316,7 +316,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Moves a template into a different compartment within the same tenancy.
         /// For more information, see
-        /// [Moving a Private Template](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/change-compartment-template.htm).
+        /// [Moving a Private Template](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/change-compartment-template.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -324,7 +324,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ChangeTemplateCompartment.cs.html">here</a> to see an example of how to use ChangeTemplateCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ChangeTemplateCompartment.cs.html">here</a> to see an example of how to use ChangeTemplateCompartment API.</example>
         public async Task<ChangeTemplateCompartmentResponse> ChangeTemplateCompartment(ChangeTemplateCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeTemplateCompartment");
@@ -375,7 +375,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Creates a configuration source provider in the specified compartment.
         /// For more information, see
-        /// [Creating a Configuration Source Provider](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/create-csp.htm).
+        /// [Creating a Configuration Source Provider](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/create-csp.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -383,7 +383,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/CreateConfigurationSourceProvider.cs.html">here</a> to see an example of how to use CreateConfigurationSourceProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/CreateConfigurationSourceProvider.cs.html">here</a> to see an example of how to use CreateConfigurationSourceProvider API.</example>
         public async Task<CreateConfigurationSourceProviderResponse> CreateConfigurationSourceProvider(CreateConfigurationSourceProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createConfigurationSourceProvider");
@@ -434,7 +434,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Creates a job.
         /// For more information, see
-        /// [Creating a Job](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/create-job.htm).
+        /// [Creating a Job](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/create-job.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -442,7 +442,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/CreateJob.cs.html">here</a> to see an example of how to use CreateJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/CreateJob.cs.html">here</a> to see an example of how to use CreateJob API.</example>
         public async Task<CreateJobResponse> CreateJob(CreateJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createJob");
@@ -493,7 +493,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Creates a private endpoint in the specified compartment.
         /// For more information, see
-        /// [Creating a Private Endpoint](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/create-private-endpoints.htm).
+        /// [Creating a Private Endpoint](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/create-private-endpoints.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -501,7 +501,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/CreatePrivateEndpoint.cs.html">here</a> to see an example of how to use CreatePrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/CreatePrivateEndpoint.cs.html">here</a> to see an example of how to use CreatePrivateEndpoint API.</example>
         public async Task<CreatePrivateEndpointResponse> CreatePrivateEndpoint(CreatePrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPrivateEndpoint");
@@ -556,7 +556,7 @@ namespace Oci.ResourcemanagerService
         /// You can also create a stack from an existing compartment, which generates a Terraform configuration.
         /// You can also upload the Terraform configuration from an Object Storage bucket.
         /// For more information, see
-        /// [Creating a Stack](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/create-stack.htm).
+        /// [Creating a Stack](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/create-stack.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -564,7 +564,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/CreateStack.cs.html">here</a> to see an example of how to use CreateStack API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/CreateStack.cs.html">here</a> to see an example of how to use CreateStack API.</example>
         public async Task<CreateStackResponse> CreateStack(CreateStackRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createStack");
@@ -615,7 +615,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Creates a private template in the specified compartment.
         /// For more information, see
-        /// [Creating a Private Template](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/create-template.htm).
+        /// [Creating a Private Template](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/create-template.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -623,7 +623,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/CreateTemplate.cs.html">here</a> to see an example of how to use CreateTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/CreateTemplate.cs.html">here</a> to see an example of how to use CreateTemplate API.</example>
         public async Task<CreateTemplateResponse> CreateTemplate(CreateTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createTemplate");
@@ -674,7 +674,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Deletes the specified configuration source provider.
         /// For more information, see
-        /// [Deleting a Configuration Source Provider](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/delete-csp.htm).
+        /// [Deleting a Configuration Source Provider](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/delete-csp.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -682,7 +682,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/DeleteConfigurationSourceProvider.cs.html">here</a> to see an example of how to use DeleteConfigurationSourceProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/DeleteConfigurationSourceProvider.cs.html">here</a> to see an example of how to use DeleteConfigurationSourceProvider API.</example>
         public async Task<DeleteConfigurationSourceProviderResponse> DeleteConfigurationSourceProvider(DeleteConfigurationSourceProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteConfigurationSourceProvider");
@@ -733,7 +733,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Deletes the specified private endpoint.
         /// For more information, see
-        /// [Deleting a Private Endpoint](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/delete-private-endpoints.htm).
+        /// [Deleting a Private Endpoint](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/delete-private-endpoints.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -741,7 +741,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/DeletePrivateEndpoint.cs.html">here</a> to see an example of how to use DeletePrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/DeletePrivateEndpoint.cs.html">here</a> to see an example of how to use DeletePrivateEndpoint API.</example>
         public async Task<DeletePrivateEndpointResponse> DeletePrivateEndpoint(DeletePrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePrivateEndpoint");
@@ -792,7 +792,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Deletes the specified stack.
         /// For more information, see
-        /// [Deleting a Stack](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/delete-stack.htm).
+        /// [Deleting a Stack](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/delete-stack.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -800,7 +800,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/DeleteStack.cs.html">here</a> to see an example of how to use DeleteStack API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/DeleteStack.cs.html">here</a> to see an example of how to use DeleteStack API.</example>
         public async Task<DeleteStackResponse> DeleteStack(DeleteStackRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteStack");
@@ -851,7 +851,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Deletes the specified template.
         /// For more information, see
-        /// [Deleting a Private Template](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/delete-template.htm).
+        /// [Deleting a Private Template](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/delete-template.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -859,7 +859,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/DeleteTemplate.cs.html">here</a> to see an example of how to use DeleteTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/DeleteTemplate.cs.html">here</a> to see an example of how to use DeleteTemplate API.</example>
         public async Task<DeleteTemplateResponse> DeleteTemplate(DeleteTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteTemplate");
@@ -910,7 +910,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Checks drift status for the specified stack.
         /// For more information, see
-        /// [Detecting Drift](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/detect-drift.htm).
+        /// [Detecting Drift](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/detect-drift.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -918,7 +918,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/DetectStackDrift.cs.html">here</a> to see an example of how to use DetectStackDrift API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/DetectStackDrift.cs.html">here</a> to see an example of how to use DetectStackDrift API.</example>
         public async Task<DetectStackDriftResponse> DetectStackDrift(DetectStackDriftRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detectStackDrift");
@@ -969,7 +969,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Gets the properties of the specified configuration source provider.
         /// For more information, see
-        /// [Getting a Configuration Source Provider&#39;s Details](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-csp.htm).
+        /// [Getting a Configuration Source Provider&#39;s Details](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-csp.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -977,7 +977,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetConfigurationSourceProvider.cs.html">here</a> to see an example of how to use GetConfigurationSourceProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetConfigurationSourceProvider.cs.html">here</a> to see an example of how to use GetConfigurationSourceProvider API.</example>
         public async Task<GetConfigurationSourceProviderResponse> GetConfigurationSourceProvider(GetConfigurationSourceProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getConfigurationSourceProvider");
@@ -1028,7 +1028,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Gets the properties of the specified job.
         /// For more information, see
-        /// [Getting a Job&#39;s Details](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-job.htm).
+        /// [Getting a Job&#39;s Details](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-job.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1036,7 +1036,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetJob.cs.html">here</a> to see an example of how to use GetJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetJob.cs.html">here</a> to see an example of how to use GetJob API.</example>
         public async Task<GetJobResponse> GetJob(GetJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJob");
@@ -1088,7 +1088,7 @@ namespace Oci.ResourcemanagerService
         /// Returns the Terraform detailed log content for the specified job in plain text.
         /// [Learn about Terraform detailed log.](https://www.terraform.io/docs/internals/debugging.html)
         /// For more information, see
-        /// [Getting Detailed Log Content for a Job](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-job-detailed-log-content.htm).
+        /// [Getting Detailed Log Content for a Job](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-job-detailed-log-content.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1096,7 +1096,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetJobDetailedLogContent.cs.html">here</a> to see an example of how to use GetJobDetailedLogContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetJobDetailedLogContent.cs.html">here</a> to see an example of how to use GetJobDetailedLogContent API.</example>
         public async Task<GetJobDetailedLogContentResponse> GetJobDetailedLogContent(GetJobDetailedLogContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJobDetailedLogContent");
@@ -1147,7 +1147,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Returns console log entries for the specified job in JSON format.
         /// For more information, see
-        /// [Getting Logs for a Job](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-job-logs.htm).
+        /// [Getting Logs for a Job](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-job-logs.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1155,7 +1155,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetJobLogs.cs.html">here</a> to see an example of how to use GetJobLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetJobLogs.cs.html">here</a> to see an example of how to use GetJobLogs API.</example>
         public async Task<GetJobLogsResponse> GetJobLogs(GetJobLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJobLogs");
@@ -1207,7 +1207,7 @@ namespace Oci.ResourcemanagerService
         /// Returns the raw log file for the specified job in text format.
         /// The file includes a maximum of 100,000 log entries.
         /// For more information, see
-        /// [Getting Logs Content for a Job](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-job-logs-content.htm).
+        /// [Getting Logs Content for a Job](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-job-logs-content.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1215,7 +1215,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetJobLogsContent.cs.html">here</a> to see an example of how to use GetJobLogsContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetJobLogsContent.cs.html">here</a> to see an example of how to use GetJobLogsContent API.</example>
         public async Task<GetJobLogsContentResponse> GetJobLogsContent(GetJobLogsContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJobLogsContent");
@@ -1267,7 +1267,7 @@ namespace Oci.ResourcemanagerService
         /// Returns the Terraform configuration for the specified job in zip format.
         /// If no zip file is found, returns an error.
         /// For more information, see
-        /// [Getting a Job Terraform Configuration](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-job-tf-config.htm).
+        /// [Getting a Job Terraform Configuration](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-job-tf-config.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1275,7 +1275,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetJobTfConfig.cs.html">here</a> to see an example of how to use GetJobTfConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetJobTfConfig.cs.html">here</a> to see an example of how to use GetJobTfConfig API.</example>
         public async Task<GetJobTfConfigResponse> GetJobTfConfig(GetJobTfConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJobTfConfig");
@@ -1326,7 +1326,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Returns the output of the specified Terraform plan job in binary or JSON format.
         /// For more information, see
-        /// [Getting the Terraform Output for a Plan Job](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-job-tf-plan.htm).
+        /// [Getting the Terraform Output for a Plan Job](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-job-tf-plan.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1334,7 +1334,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetJobTfPlan.cs.html">here</a> to see an example of how to use GetJobTfPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetJobTfPlan.cs.html">here</a> to see an example of how to use GetJobTfPlan API.</example>
         public async Task<GetJobTfPlanResponse> GetJobTfPlan(GetJobTfPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJobTfPlan");
@@ -1385,7 +1385,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Returns the Terraform state for the specified job.
         /// For more information, see
-        /// [Getting a Job Terraform Configuration](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-job-tf-config.htm).
+        /// [Getting a Job Terraform Configuration](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-job-tf-config.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1393,7 +1393,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetJobTfState.cs.html">here</a> to see an example of how to use GetJobTfState API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetJobTfState.cs.html">here</a> to see an example of how to use GetJobTfState API.</example>
         public async Task<GetJobTfStateResponse> GetJobTfState(GetJobTfStateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJobTfState");
@@ -1444,7 +1444,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Gets the specified private endpoint.
         /// For more information, see
-        /// [Getting a Private Endpoint&#39;s Details](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-private-endpoints.htm).
+        /// [Getting a Private Endpoint&#39;s Details](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-private-endpoints.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1452,7 +1452,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetPrivateEndpoint.cs.html">here</a> to see an example of how to use GetPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetPrivateEndpoint.cs.html">here</a> to see an example of how to use GetPrivateEndpoint API.</example>
         public async Task<GetPrivateEndpointResponse> GetPrivateEndpoint(GetPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPrivateEndpoint");
@@ -1504,7 +1504,7 @@ namespace Oci.ResourcemanagerService
         /// Gets the reachable, or alternative, IP address for a nonpublic IP address that is associated with the private endpoint.
         /// Resource Manager uses this IP address to connect to nonpublic resources through the associated private endpoint.
         /// For more information, see
-        /// [Getting the Reachable IP Address for a Private Endpoint](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-private-endpoint-reachable-ip.htm).
+        /// [Getting the Reachable IP Address for a Private Endpoint](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-private-endpoint-reachable-ip.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1512,7 +1512,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetReachableIp.cs.html">here</a> to see an example of how to use GetReachableIp API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetReachableIp.cs.html">here</a> to see an example of how to use GetReachableIp API.</example>
         public async Task<GetReachableIpResponse> GetReachableIp(GetReachableIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getReachableIp");
@@ -1563,7 +1563,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Gets the specified stack.
         /// For more information, see
-        /// [Getting a Stack&#39;s Details](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-stack.htm).
+        /// [Getting a Stack&#39;s Details](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-stack.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1571,7 +1571,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetStack.cs.html">here</a> to see an example of how to use GetStack API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetStack.cs.html">here</a> to see an example of how to use GetStack API.</example>
         public async Task<GetStackResponse> GetStack(GetStackRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getStack");
@@ -1623,7 +1623,7 @@ namespace Oci.ResourcemanagerService
         /// Returns the Terraform configuration file for the specified stack in zip format.
         /// Returns an error if no zip file is found.
         /// For more information, see
-        /// [Getting a Stack Terraform Configuration](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-stack-tf-config.htm).
+        /// [Getting a Stack Terraform Configuration](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-stack-tf-config.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1631,7 +1631,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetStackTfConfig.cs.html">here</a> to see an example of how to use GetStackTfConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetStackTfConfig.cs.html">here</a> to see an example of how to use GetStackTfConfig API.</example>
         public async Task<GetStackTfConfigResponse> GetStackTfConfig(GetStackTfConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getStackTfConfig");
@@ -1682,7 +1682,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Returns the Terraform state for the specified stack.
         /// For more information, see
-        /// [Getting a Stack State File](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-stack-tf-state.htm).
+        /// [Getting a Stack State File](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-stack-tf-state.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1690,7 +1690,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetStackTfState.cs.html">here</a> to see an example of how to use GetStackTfState API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetStackTfState.cs.html">here</a> to see an example of how to use GetStackTfState API.</example>
         public async Task<GetStackTfStateResponse> GetStackTfState(GetStackTfStateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getStackTfState");
@@ -1741,7 +1741,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Gets the specified template.
         /// For more information, see
-        /// [Getting a Private Template&#39;s Details](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-template.htm).
+        /// [Getting a Private Template&#39;s Details](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-template.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1749,7 +1749,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetTemplate.cs.html">here</a> to see an example of how to use GetTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetTemplate.cs.html">here</a> to see an example of how to use GetTemplate API.</example>
         public async Task<GetTemplateResponse> GetTemplate(GetTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTemplate");
@@ -1801,7 +1801,7 @@ namespace Oci.ResourcemanagerService
         /// Returns the Terraform logo file in .logo format for the specified template.
         /// Returns an error if no logo file is found.
         /// For more information, see
-        /// [Getting a Private Template&#39;s Logo](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-template-logo.htm).
+        /// [Getting a Private Template&#39;s Logo](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-template-logo.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1809,7 +1809,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetTemplateLogo.cs.html">here</a> to see an example of how to use GetTemplateLogo API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetTemplateLogo.cs.html">here</a> to see an example of how to use GetTemplateLogo API.</example>
         public async Task<GetTemplateLogoResponse> GetTemplateLogo(GetTemplateLogoRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTemplateLogo");
@@ -1861,7 +1861,7 @@ namespace Oci.ResourcemanagerService
         /// Returns the Terraform configuration file in zip format for the specified template.
         /// Returns an error if no zip file is found.
         /// For more information, see
-        /// [Getting a Private Template&#39;s Terraform Configuration](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-template-tf-config.htm).
+        /// [Getting a Private Template&#39;s Terraform Configuration](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-template-tf-config.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1869,7 +1869,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetTemplateTfConfig.cs.html">here</a> to see an example of how to use GetTemplateTfConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetTemplateTfConfig.cs.html">here</a> to see an example of how to use GetTemplateTfConfig API.</example>
         public async Task<GetTemplateTfConfigResponse> GetTemplateTfConfig(GetTemplateTfConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTemplateTfConfig");
@@ -1920,7 +1920,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Returns the specified work request.
         /// For more information, see
-        /// [Getting a Work Request&#39;s Details](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/get-work-request.htm).
+        /// [Getting a Work Request&#39;s Details](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/get-work-request.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1928,7 +1928,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -1979,7 +1979,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Lists configuration source providers according to the specified filter.
         /// For more information, see
-        /// [Listing Configuration Source Providers](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/list-csp.htm).
+        /// [Listing Configuration Source Providers](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/list-csp.htm).
         /// - For &#x60;compartmentId&#x60;, lists all configuration source providers in the matching compartment.
         /// - For &#x60;configurationSourceProviderId&#x60;, lists the matching configuration source provider.
         /// 
@@ -1989,7 +1989,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListConfigurationSourceProviders.cs.html">here</a> to see an example of how to use ListConfigurationSourceProviders API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListConfigurationSourceProviders.cs.html">here</a> to see an example of how to use ListConfigurationSourceProviders API.</example>
         public async Task<ListConfigurationSourceProvidersResponse> ListConfigurationSourceProviders(ListConfigurationSourceProvidersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listConfigurationSourceProviders");
@@ -2040,7 +2040,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Gets the list of resources associated with the specified job.
         /// For more information, see
-        /// [Listing Job Resources](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/list-job-resources.htm).
+        /// [Listing Job Resources](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/list-job-resources.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2048,7 +2048,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListJobAssociatedResources.cs.html">here</a> to see an example of how to use ListJobAssociatedResources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListJobAssociatedResources.cs.html">here</a> to see an example of how to use ListJobAssociatedResources API.</example>
         public async Task<ListJobAssociatedResourcesResponse> ListJobAssociatedResources(ListJobAssociatedResourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJobAssociatedResources");
@@ -2099,7 +2099,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Gets the list of outputs associated with the specified job.
         /// For more information, see
-        /// [Listing Job Outputs](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/list-job-outputs.htm).
+        /// [Listing Job Outputs](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/list-job-outputs.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2107,7 +2107,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListJobOutputs.cs.html">here</a> to see an example of how to use ListJobOutputs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListJobOutputs.cs.html">here</a> to see an example of how to use ListJobOutputs API.</example>
         public async Task<ListJobOutputsResponse> ListJobOutputs(ListJobOutputsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJobOutputs");
@@ -2158,11 +2158,11 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Lists jobs according to the specified filter. By default, the list is ordered by time created.
         /// For more information, see
-        /// [Listing Jobs](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/list-jobs.htm).
+        /// [Listing Jobs](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/list-jobs.htm).
         /// &lt;br/&gt;
-        /// - To list all jobs in a stack, provide the stack [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
-        /// - To list all jobs in a compartment, provide the compartment [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
-        /// - To return a specific job, provide the job [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). (Equivalent to {@link #getStack(GetStackRequest) getStack}.)
+        /// - To list all jobs in a stack, provide the stack [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// - To list all jobs in a compartment, provide the compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// - To return a specific job, provide the job [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). (Equivalent to {@link #getStack(GetStackRequest) getStack}.)
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2170,7 +2170,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListJobs.cs.html">here</a> to see an example of how to use ListJobs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListJobs.cs.html">here</a> to see an example of how to use ListJobs API.</example>
         public async Task<ListJobsResponse> ListJobs(ListJobsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJobs");
@@ -2221,7 +2221,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Lists private endpoints according to the specified filter.
         /// For more information, see
-        /// [Listing Private Endpoints](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/list-private-endpoints.htm).
+        /// [Listing Private Endpoints](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/list-private-endpoints.htm).
         /// - For &#x60;compartmentId&#x60;, lists all private endpoints in the matching compartment.
         /// - For &#x60;privateEndpointId&#x60;, lists the matching private endpoint.
         /// 
@@ -2231,7 +2231,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListPrivateEndpoints.cs.html">here</a> to see an example of how to use ListPrivateEndpoints API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListPrivateEndpoints.cs.html">here</a> to see an example of how to use ListPrivateEndpoints API.</example>
         public async Task<ListPrivateEndpointsResponse> ListPrivateEndpoints(ListPrivateEndpointsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPrivateEndpoints");
@@ -2280,10 +2280,10 @@ namespace Oci.ResourcemanagerService
         }
 
         /// <summary>
-        /// Returns a list of supported services for [Resource Discovery](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Concepts/resource-discovery.htm).
+        /// Returns a list of supported services for [Resource Discovery](https://docs.oracle.com/iaas/Content/ResourceManager/Concepts/resource-discovery.htm).
         /// For reference on service names, see the [Terraform provider documentation](https://www.terraform.io/docs/providers/oci/guides/resource_discovery.html#services).
         /// For more information, see
-        /// [Listing Resource Discovery Services](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/list-discovery-services.htm).
+        /// [Listing Resource Discovery Services](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/list-discovery-services.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2291,7 +2291,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListResourceDiscoveryServices.cs.html">here</a> to see an example of how to use ListResourceDiscoveryServices API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListResourceDiscoveryServices.cs.html">here</a> to see an example of how to use ListResourceDiscoveryServices API.</example>
         public async Task<ListResourceDiscoveryServicesResponse> ListResourceDiscoveryServices(ListResourceDiscoveryServicesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listResourceDiscoveryServices");
@@ -2342,7 +2342,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Gets the list of resources associated with the specified stack.
         /// For more information, see
-        /// [Listing Stack Resources](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/list-stack-resources.htm).
+        /// [Listing Stack Resources](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/list-stack-resources.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2350,7 +2350,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListStackAssociatedResources.cs.html">here</a> to see an example of how to use ListStackAssociatedResources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListStackAssociatedResources.cs.html">here</a> to see an example of how to use ListStackAssociatedResources API.</example>
         public async Task<ListStackAssociatedResourcesResponse> ListStackAssociatedResources(ListStackAssociatedResourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listStackAssociatedResources");
@@ -2405,7 +2405,7 @@ namespace Oci.ResourcemanagerService
         /// The drift status details correspond to the specified work request (&#x60;workRequestId&#x60;).
         /// If no work request is specified, then the drift status details correspond to the latest completed work request for the stack.
         /// For more information, see
-        /// [Listing Drift Status](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/list-drift.htm).
+        /// [Listing Drift Status](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/list-drift.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2413,7 +2413,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListStackResourceDriftDetails.cs.html">here</a> to see an example of how to use ListStackResourceDriftDetails API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListStackResourceDriftDetails.cs.html">here</a> to see an example of how to use ListStackResourceDriftDetails API.</example>
         public async Task<ListStackResourceDriftDetailsResponse> ListStackResourceDriftDetails(ListStackResourceDriftDetailsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listStackResourceDriftDetails");
@@ -2464,7 +2464,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Lists stacks according to the specified filter.
         /// For more information, see
-        /// [Listing Stacks](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/list-stacks.htm).
+        /// [Listing Stacks](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/list-stacks.htm).
         /// - If called using the compartment ID, returns all stacks in the specified compartment.
         /// - If called using the stack ID, returns the specified stack. (See also {@link #getStack(GetStackRequest) getStack}.)
         /// 
@@ -2474,7 +2474,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListStacks.cs.html">here</a> to see an example of how to use ListStacks API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListStacks.cs.html">here</a> to see an example of how to use ListStacks API.</example>
         public async Task<ListStacksResponse> ListStacks(ListStacksRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listStacks");
@@ -2525,7 +2525,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Lists template categories.
         /// For more information, see
-        /// [Listing Template Categories](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/list-template-categories.htm).
+        /// [Listing Template Categories](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/list-template-categories.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2533,7 +2533,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListTemplateCategories.cs.html">here</a> to see an example of how to use ListTemplateCategories API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListTemplateCategories.cs.html">here</a> to see an example of how to use ListTemplateCategories API.</example>
         public async Task<ListTemplateCategoriesResponse> ListTemplateCategories(ListTemplateCategoriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTemplateCategories");
@@ -2585,7 +2585,7 @@ namespace Oci.ResourcemanagerService
         /// Lists templates according to the specified filter.
         /// The attributes &#x60;compartmentId&#x60; and &#x60;templateCategoryId&#x60; are required unless &#x60;templateId&#x60; is specified.
         /// For more information, see
-        /// [Listing Templates](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/list-template.htm).
+        /// [Listing Templates](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/list-template.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2593,7 +2593,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListTemplates.cs.html">here</a> to see an example of how to use ListTemplates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListTemplates.cs.html">here</a> to see an example of how to use ListTemplates API.</example>
         public async Task<ListTemplatesResponse> ListTemplates(ListTemplatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTemplates");
@@ -2644,7 +2644,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Returns a list of supported Terraform versions for use with stacks.
         /// For more information, see
-        /// [Listing Terraform Versions](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/list-tf-versions.htm).
+        /// [Listing Terraform Versions](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/list-tf-versions.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2652,7 +2652,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListTerraformVersions.cs.html">here</a> to see an example of how to use ListTerraformVersions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListTerraformVersions.cs.html">here</a> to see an example of how to use ListTerraformVersions API.</example>
         public async Task<ListTerraformVersionsResponse> ListTerraformVersions(ListTerraformVersionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTerraformVersions");
@@ -2703,7 +2703,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Returns a paginated list of errors for the specified work request.
         /// For more information, see
-        /// [Listing Errors for a Work Request](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/list-work-request-errors.htm).
+        /// [Listing Errors for a Work Request](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/list-work-request-errors.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2711,7 +2711,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -2762,7 +2762,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Returns a paginated list of logs for the specified work request.
         /// For more information, see
-        /// [Listing Logs for a Work Request](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/list-work-request-logs.htm).
+        /// [Listing Logs for a Work Request](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/list-work-request-logs.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2770,7 +2770,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -2821,7 +2821,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Lists the work requests in the specified compartment or for the specified resource.
         /// For more information, see
-        /// [Listing Work Requests](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/list-work-request.htm).
+        /// [Listing Work Requests](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/list-work-request.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2829,7 +2829,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -2880,7 +2880,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Updates the properties of the specified configuration source provider.
         /// For more information, see
-        /// [Updating a Configuration Source Provider](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/update-csp.htm).
+        /// [Updating a Configuration Source Provider](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/update-csp.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2888,7 +2888,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/UpdateConfigurationSourceProvider.cs.html">here</a> to see an example of how to use UpdateConfigurationSourceProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/UpdateConfigurationSourceProvider.cs.html">here</a> to see an example of how to use UpdateConfigurationSourceProvider API.</example>
         public async Task<UpdateConfigurationSourceProviderResponse> UpdateConfigurationSourceProvider(UpdateConfigurationSourceProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateConfigurationSourceProvider");
@@ -2939,7 +2939,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Updates the specified job.
         /// For more information, see
-        /// [Updating a Job](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/update-job.htm).
+        /// [Updating a Job](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/update-job.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2947,7 +2947,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/UpdateJob.cs.html">here</a> to see an example of how to use UpdateJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/UpdateJob.cs.html">here</a> to see an example of how to use UpdateJob API.</example>
         public async Task<UpdateJobResponse> UpdateJob(UpdateJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateJob");
@@ -2998,7 +2998,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Updates the specified private endpoint.
         /// For more information, see
-        /// [Updating a Private Endpoint](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/update-private-endpoints.htm).
+        /// [Updating a Private Endpoint](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/update-private-endpoints.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -3006,7 +3006,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/UpdatePrivateEndpoint.cs.html">here</a> to see an example of how to use UpdatePrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/UpdatePrivateEndpoint.cs.html">here</a> to see an example of how to use UpdatePrivateEndpoint API.</example>
         public async Task<UpdatePrivateEndpointResponse> UpdatePrivateEndpoint(UpdatePrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePrivateEndpoint");
@@ -3059,7 +3059,7 @@ namespace Oci.ResourcemanagerService
         /// Use &#x60;UpdateStack&#x60; when you update your Terraform configuration
         /// and want your changes to be reflected in the execution plan.
         /// For more information, see
-        /// [Updating a Stack](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/update-stack.htm).
+        /// [Updating a Stack](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/update-stack.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -3067,7 +3067,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/UpdateStack.cs.html">here</a> to see an example of how to use UpdateStack API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/UpdateStack.cs.html">here</a> to see an example of how to use UpdateStack API.</example>
         public async Task<UpdateStackResponse> UpdateStack(UpdateStackRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateStack");
@@ -3118,7 +3118,7 @@ namespace Oci.ResourcemanagerService
         /// <summary>
         /// Updates the specified template.
         /// For more information, see
-        /// [Updating a Private Template](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/update-template.htm).
+        /// [Updating a Private Template](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/update-template.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -3126,7 +3126,7 @@ namespace Oci.ResourcemanagerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/UpdateTemplate.cs.html">here</a> to see an example of how to use UpdateTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/UpdateTemplate.cs.html">here</a> to see an example of how to use UpdateTemplate API.</example>
         public async Task<UpdateTemplateResponse> UpdateTemplate(UpdateTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateTemplate");

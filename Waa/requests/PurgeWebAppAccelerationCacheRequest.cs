@@ -14,13 +14,13 @@ using Oci.WaaService.Models;
 namespace Oci.WaaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/PurgeWebAppAccelerationCache.cs.html">here</a> to see an example of how to use PurgeWebAppAccelerationCache request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/PurgeWebAppAccelerationCache.cs.html">here</a> to see an example of how to use PurgeWebAppAccelerationCache request.
     /// </example>
     public class PurgeWebAppAccelerationCacheRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the WebAppAcceleration.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the WebAppAcceleration.
         /// </value>
         /// <remarks>
         /// Required

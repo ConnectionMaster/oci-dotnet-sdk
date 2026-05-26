@@ -14,7 +14,7 @@ using Oci.CostadService.Models;
 namespace Oci.CostadService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/UpdateCostAnomalyEvent.cs.html">here</a> to see an example of how to use UpdateCostAnomalyEvent request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/UpdateCostAnomalyEvent.cs.html">here</a> to see an example of how to use UpdateCostAnomalyEvent request.
     /// </example>
     public class UpdateCostAnomalyEventRequest : Oci.Common.IOciRequest
     {

@@ -81,7 +81,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachManagedInstancesToLifecycleStage.cs.html">here</a> to see an example of how to use AttachManagedInstancesToLifecycleStage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachManagedInstancesToLifecycleStage.cs.html">here</a> to see an example of how to use AttachManagedInstancesToLifecycleStage API.</example>
         public async Task<AttachManagedInstancesToLifecycleStageResponse> AttachManagedInstancesToLifecycleStage(AttachManagedInstancesToLifecycleStageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called attachManagedInstancesToLifecycleStage");
@@ -130,7 +130,7 @@ namespace Oci.OsmanagementhubService
         }
 
         /// <summary>
-        /// Moves a lifecycle environment into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Moves a lifecycle environment into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -138,7 +138,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ChangeLifecycleEnvironmentCompartment.cs.html">here</a> to see an example of how to use ChangeLifecycleEnvironmentCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ChangeLifecycleEnvironmentCompartment.cs.html">here</a> to see an example of how to use ChangeLifecycleEnvironmentCompartment API.</example>
         public async Task<ChangeLifecycleEnvironmentCompartmentResponse> ChangeLifecycleEnvironmentCompartment(ChangeLifecycleEnvironmentCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeLifecycleEnvironmentCompartment");
@@ -195,7 +195,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/CreateLifecycleEnvironment.cs.html">here</a> to see an example of how to use CreateLifecycleEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/CreateLifecycleEnvironment.cs.html">here</a> to see an example of how to use CreateLifecycleEnvironment API.</example>
         public async Task<CreateLifecycleEnvironmentResponse> CreateLifecycleEnvironment(CreateLifecycleEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createLifecycleEnvironment");
@@ -252,7 +252,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteLifecycleEnvironment.cs.html">here</a> to see an example of how to use DeleteLifecycleEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteLifecycleEnvironment.cs.html">here</a> to see an example of how to use DeleteLifecycleEnvironment API.</example>
         public async Task<DeleteLifecycleEnvironmentResponse> DeleteLifecycleEnvironment(DeleteLifecycleEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteLifecycleEnvironment");
@@ -309,7 +309,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DetachManagedInstancesFromLifecycleStage.cs.html">here</a> to see an example of how to use DetachManagedInstancesFromLifecycleStage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DetachManagedInstancesFromLifecycleStage.cs.html">here</a> to see an example of how to use DetachManagedInstancesFromLifecycleStage API.</example>
         public async Task<DetachManagedInstancesFromLifecycleStageResponse> DetachManagedInstancesFromLifecycleStage(DetachManagedInstancesFromLifecycleStageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detachManagedInstancesFromLifecycleStage");
@@ -365,7 +365,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetLifecycleEnvironment.cs.html">here</a> to see an example of how to use GetLifecycleEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetLifecycleEnvironment.cs.html">here</a> to see an example of how to use GetLifecycleEnvironment API.</example>
         public async Task<GetLifecycleEnvironmentResponse> GetLifecycleEnvironment(GetLifecycleEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getLifecycleEnvironment");
@@ -422,7 +422,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetLifecycleStage.cs.html">here</a> to see an example of how to use GetLifecycleStage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetLifecycleStage.cs.html">here</a> to see an example of how to use GetLifecycleStage API.</example>
         public async Task<GetLifecycleStageResponse> GetLifecycleStage(GetLifecycleStageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getLifecycleStage");
@@ -480,7 +480,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListLifecycleEnvironments.cs.html">here</a> to see an example of how to use ListLifecycleEnvironments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListLifecycleEnvironments.cs.html">here</a> to see an example of how to use ListLifecycleEnvironments API.</example>
         public async Task<ListLifecycleEnvironmentsResponse> ListLifecycleEnvironments(ListLifecycleEnvironmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLifecycleEnvironments");
@@ -538,7 +538,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListLifecycleStageInstalledPackages.cs.html">here</a> to see an example of how to use ListLifecycleStageInstalledPackages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListLifecycleStageInstalledPackages.cs.html">here</a> to see an example of how to use ListLifecycleStageInstalledPackages API.</example>
         public async Task<ListLifecycleStageInstalledPackagesResponse> ListLifecycleStageInstalledPackages(ListLifecycleStageInstalledPackagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLifecycleStageInstalledPackages");
@@ -587,7 +587,7 @@ namespace Oci.OsmanagementhubService
         }
 
         /// <summary>
-        /// Lists lifecycle stages that match the specified compartment or lifecycle stage [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Filter the list against
+        /// Lists lifecycle stages that match the specified compartment or lifecycle stage [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Filter the list against
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -595,7 +595,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListLifecycleStages.cs.html">here</a> to see an example of how to use ListLifecycleStages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListLifecycleStages.cs.html">here</a> to see an example of how to use ListLifecycleStages API.</example>
         public async Task<ListLifecycleStagesResponse> ListLifecycleStages(ListLifecycleStagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLifecycleStages");
@@ -654,7 +654,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/PromoteSoftwareSourceToLifecycleStage.cs.html">here</a> to see an example of how to use PromoteSoftwareSourceToLifecycleStage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/PromoteSoftwareSourceToLifecycleStage.cs.html">here</a> to see an example of how to use PromoteSoftwareSourceToLifecycleStage API.</example>
         public async Task<PromoteSoftwareSourceToLifecycleStageResponse> PromoteSoftwareSourceToLifecycleStage(PromoteSoftwareSourceToLifecycleStageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called promoteSoftwareSourceToLifecycleStage");
@@ -711,7 +711,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RebootLifecycleStage.cs.html">here</a> to see an example of how to use RebootLifecycleStage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RebootLifecycleStage.cs.html">here</a> to see an example of how to use RebootLifecycleStage API.</example>
         public async Task<RebootLifecycleStageResponse> RebootLifecycleStage(RebootLifecycleStageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called rebootLifecycleStage");
@@ -767,7 +767,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateLifecycleEnvironment.cs.html">here</a> to see an example of how to use UpdateLifecycleEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateLifecycleEnvironment.cs.html">here</a> to see an example of how to use UpdateLifecycleEnvironment API.</example>
         public async Task<UpdateLifecycleEnvironmentResponse> UpdateLifecycleEnvironment(UpdateLifecycleEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateLifecycleEnvironment");

@@ -33,7 +33,7 @@ namespace Oci.FilestorageService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the file System.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the file System.
         /// </value>
         /// <remarks>
         /// Required

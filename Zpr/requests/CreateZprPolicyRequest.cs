@@ -14,7 +14,7 @@ using Oci.ZprService.Models;
 namespace Oci.ZprService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/CreateZprPolicy.cs.html">here</a> to see an example of how to use CreateZprPolicy request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/CreateZprPolicy.cs.html">here</a> to see an example of how to use CreateZprPolicy request.
     /// </example>
     public class CreateZprPolicyRequest : Oci.Common.IOciRequest
     {

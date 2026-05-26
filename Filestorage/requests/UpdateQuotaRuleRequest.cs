@@ -14,7 +14,7 @@ using Oci.FilestorageService.Models;
 namespace Oci.FilestorageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateQuotaRule.cs.html">here</a> to see an example of how to use UpdateQuotaRule request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateQuotaRule.cs.html">here</a> to see an example of how to use UpdateQuotaRule request.
     /// </example>
     public class UpdateQuotaRuleRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.FilestorageService.Requests
         public UpdateQuotaRuleDetails UpdateQuotaRuleDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the file system.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the file system.
         /// </value>
         /// <remarks>
         /// Required

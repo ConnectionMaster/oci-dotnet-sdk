@@ -56,7 +56,7 @@ namespace Oci.CoreService.Models
         public System.Nullable<ConfigurationState> ConfigurationState { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the Customer-unique firmware bundle associated with the Host Configuration.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the Customer-unique firmware bundle associated with the Host Configuration.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "firmwareBundleId")]

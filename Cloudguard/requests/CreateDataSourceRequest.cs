@@ -14,7 +14,7 @@ using Oci.CloudguardService.Models;
 namespace Oci.CloudguardService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudguard/CreateDataSource.cs.html">here</a> to see an example of how to use CreateDataSource request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudguard/CreateDataSource.cs.html">here</a> to see an example of how to use CreateDataSource request.
     /// </example>
     public class CreateDataSourceRequest : Oci.Common.IOciRequest
     {

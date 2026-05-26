@@ -14,7 +14,7 @@ using Oci.DatabasemigrationService.Models;
 namespace Oci.DatabasemigrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ListMigrationObjectTypes.cs.html">here</a> to see an example of how to use ListMigrationObjectTypes request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ListMigrationObjectTypes.cs.html">here</a> to see an example of how to use ListMigrationObjectTypes request.
     /// </example>
     public class ListMigrationObjectTypesRequest : Oci.Common.IOciRequest
     {

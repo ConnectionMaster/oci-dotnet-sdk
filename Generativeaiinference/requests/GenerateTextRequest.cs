@@ -14,7 +14,7 @@ using Oci.GenerativeaiinferenceService.Models;
 namespace Oci.GenerativeaiinferenceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/GenerateText.cs.html">here</a> to see an example of how to use GenerateText request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/GenerateText.cs.html">here</a> to see an example of how to use GenerateText request.
     /// </example>
     public class GenerateTextRequest : Oci.Common.IOciRequest
     {

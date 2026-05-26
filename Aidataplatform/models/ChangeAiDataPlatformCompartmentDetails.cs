@@ -22,7 +22,7 @@ namespace Oci.AidataplatformService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to move the AiDataPlatform to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to move the AiDataPlatform to.
         /// 
         /// </value>
         /// <remarks>

@@ -103,7 +103,7 @@ namespace Oci.FleetappsmanagementService.Models
         public System.Collections.Generic.List<AssociatedFleetPropertyDetails> Properties { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the fleet that would be the parent for this fleet.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the fleet that would be the parent for this fleet.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "parentFleetId")]

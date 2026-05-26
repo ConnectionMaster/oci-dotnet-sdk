@@ -14,7 +14,7 @@ using Oci.VisualbuilderService.Models;
 namespace Oci.VisualbuilderService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/visualbuilder/StartVbInstance.cs.html">here</a> to see an example of how to use StartVbInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/visualbuilder/StartVbInstance.cs.html">here</a> to see an example of how to use StartVbInstance request.
     /// </example>
     public class StartVbInstanceRequest : Oci.Common.IOciRequest
     {

@@ -14,7 +14,7 @@ using Oci.OdaService.Models;
 namespace Oci.OdaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/TrainSkill.cs.html">here</a> to see an example of how to use TrainSkill request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/TrainSkill.cs.html">here</a> to see an example of how to use TrainSkill request.
     /// </example>
     public class TrainSkillRequest : Oci.Common.IOciRequest
     {

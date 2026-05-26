@@ -14,7 +14,7 @@ using Oci.CloudmigrationsService.Models;
 namespace Oci.CloudmigrationsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetMigrationAsset.cs.html">here</a> to see an example of how to use GetMigrationAsset request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetMigrationAsset.cs.html">here</a> to see an example of how to use GetMigrationAsset request.
     /// </example>
     public class GetMigrationAssetRequest : Oci.Common.IOciRequest
     {

@@ -25,10 +25,6 @@ namespace Oci.NetworkfirewallService.Models
         /// <value>
         /// Collection of application names.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "Apps is required.")]
         [JsonProperty(PropertyName = "apps")]
         public System.Collections.Generic.List<string> Apps { get; set; }
         

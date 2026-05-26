@@ -14,13 +14,13 @@ using Oci.DatascienceService.Models;
 namespace Oci.DatascienceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteModelGroupVersionHistory.cs.html">here</a> to see an example of how to use DeleteModelGroupVersionHistory request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteModelGroupVersionHistory.cs.html">here</a> to see an example of how to use DeleteModelGroupVersionHistory request.
     /// </example>
     public class DeleteModelGroupVersionHistoryRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the modelGroupVersionHistory.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the modelGroupVersionHistory.
         /// </value>
         /// <remarks>
         /// Required

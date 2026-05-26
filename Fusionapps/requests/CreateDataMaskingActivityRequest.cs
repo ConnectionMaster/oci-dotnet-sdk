@@ -14,7 +14,7 @@ using Oci.FusionappsService.Models;
 namespace Oci.FusionappsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateDataMaskingActivity.cs.html">here</a> to see an example of how to use CreateDataMaskingActivity request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateDataMaskingActivity.cs.html">here</a> to see an example of how to use CreateDataMaskingActivity request.
     /// </example>
     public class CreateDataMaskingActivityRequest : Oci.Common.IOciRequest
     {

@@ -18,7 +18,7 @@ namespace Oci.SchService.Models
     /// <summary>
     /// The Monitoring source.
     /// For configuration instructions, see
-    /// [Creating a Connector with a Monitoring Source](https://docs.cloud.oracle.com/iaas/Content/connector-hub/create-service-connector-monitoring-source.htm).
+    /// [Creating a Connector with a Monitoring Source](https://docs.oracle.com/iaas/Content/connector-hub/create-service-connector-monitoring-source.htm).
     /// 
     /// </summary>
     public class MonitoringSourceDetails : SourceDetails

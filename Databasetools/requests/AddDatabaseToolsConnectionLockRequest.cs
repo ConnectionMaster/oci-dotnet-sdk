@@ -14,13 +14,13 @@ using Oci.DatabasetoolsService.Models;
 namespace Oci.DatabasetoolsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetools/AddDatabaseToolsConnectionLock.cs.html">here</a> to see an example of how to use AddDatabaseToolsConnectionLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetools/AddDatabaseToolsConnectionLock.cs.html">here</a> to see an example of how to use AddDatabaseToolsConnectionLock request.
     /// </example>
     public class AddDatabaseToolsConnectionLockRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of a Database Tools connection.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a Database Tools connection.
         /// </value>
         /// <remarks>
         /// Required

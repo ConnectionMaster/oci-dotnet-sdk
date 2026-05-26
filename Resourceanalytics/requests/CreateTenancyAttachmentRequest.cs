@@ -14,7 +14,7 @@ using Oci.ResourceanalyticsService.Models;
 namespace Oci.ResourceanalyticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/CreateTenancyAttachment.cs.html">here</a> to see an example of how to use CreateTenancyAttachment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/CreateTenancyAttachment.cs.html">here</a> to see an example of how to use CreateTenancyAttachment request.
     /// </example>
     public class CreateTenancyAttachmentRequest : Oci.Common.IOciRequest
     {

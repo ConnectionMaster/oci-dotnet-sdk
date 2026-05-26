@@ -33,7 +33,7 @@ namespace Oci.VnmonitoringService.Models
         public string Address { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the subnet containing the IP address.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet containing the IP address.
         /// This can be used to disambiguate which subnet is intended, in case the IP address
         /// is used in more than one subnet (when there are subnets with overlapping IP ranges).
         /// 

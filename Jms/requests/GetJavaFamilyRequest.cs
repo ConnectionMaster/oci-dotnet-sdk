@@ -14,7 +14,7 @@ using Oci.JmsService.Models;
 namespace Oci.JmsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetJavaFamily.cs.html">here</a> to see an example of how to use GetJavaFamily request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/GetJavaFamily.cs.html">here</a> to see an example of how to use GetJavaFamily request.
     /// </example>
     public class GetJavaFamilyRequest : Oci.Common.IOciRequest
     {

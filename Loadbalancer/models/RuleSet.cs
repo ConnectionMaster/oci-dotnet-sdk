@@ -18,7 +18,7 @@ namespace Oci.LoadbalancerService.Models
     /// <summary>
     /// A named set of rules associated with a load balancer. Rules are objects that represent actions to apply to a listener,
     /// such as adding, altering, or removing HTTP headers. For more information, see
-    /// [Managing Rule Sets](https://docs.cloud.oracle.com/Content/Balance/Tasks/managingrulesets.htm).
+    /// [Managing Rule Sets](https://docs.oracle.com/iaas/Content/Balance/Tasks/managingrulesets.htm).
     /// 
     /// </summary>
     public class RuleSet 

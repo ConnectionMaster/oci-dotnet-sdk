@@ -14,7 +14,7 @@ using Oci.GenerativeaiService.Models;
 namespace Oci.GenerativeaiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateHostedApplicationStorage.cs.html">here</a> to see an example of how to use CreateHostedApplicationStorage request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateHostedApplicationStorage.cs.html">here</a> to see an example of how to use CreateHostedApplicationStorage request.
     /// </example>
     public class CreateHostedApplicationStorageRequest : Oci.Common.IOciRequest
     {

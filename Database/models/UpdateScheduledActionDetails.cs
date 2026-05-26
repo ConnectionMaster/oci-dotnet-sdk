@@ -36,7 +36,7 @@ namespace Oci.DatabaseService.Models
         public System.Collections.Generic.List<ActionMember> ActionMembers { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Scheduling Window.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Scheduling Window.
         /// </value>
         [JsonProperty(PropertyName = "schedulingWindowId")]
         public string SchedulingWindowId { get; set; }

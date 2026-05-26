@@ -48,7 +48,7 @@ namespace Oci.AilanguageService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)  for the project's compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)  for the project's compartment.
         /// </value>
         /// <remarks>
         /// Required

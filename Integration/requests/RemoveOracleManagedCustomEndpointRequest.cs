@@ -14,7 +14,7 @@ using Oci.IntegrationService.Models;
 namespace Oci.IntegrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/RemoveOracleManagedCustomEndpoint.cs.html">here</a> to see an example of how to use RemoveOracleManagedCustomEndpoint request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/RemoveOracleManagedCustomEndpoint.cs.html">here</a> to see an example of how to use RemoveOracleManagedCustomEndpoint request.
     /// </example>
     public class RemoveOracleManagedCustomEndpointRequest : Oci.Common.IOciRequest
     {

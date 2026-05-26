@@ -81,7 +81,7 @@ namespace Oci.ApmtracesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/CreateScheduledQuery.cs.html">here</a> to see an example of how to use CreateScheduledQuery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/CreateScheduledQuery.cs.html">here</a> to see an example of how to use CreateScheduledQuery API.</example>
         public async Task<CreateScheduledQueryResponse> CreateScheduledQuery(CreateScheduledQueryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createScheduledQuery");
@@ -138,7 +138,7 @@ namespace Oci.ApmtracesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/DeleteScheduledQuery.cs.html">here</a> to see an example of how to use DeleteScheduledQuery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/DeleteScheduledQuery.cs.html">here</a> to see an example of how to use DeleteScheduledQuery API.</example>
         public async Task<DeleteScheduledQueryResponse> DeleteScheduledQuery(DeleteScheduledQueryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteScheduledQuery");
@@ -195,7 +195,7 @@ namespace Oci.ApmtracesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/GetScheduledQuery.cs.html">here</a> to see an example of how to use GetScheduledQuery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/GetScheduledQuery.cs.html">here</a> to see an example of how to use GetScheduledQuery API.</example>
         public async Task<GetScheduledQueryResponse> GetScheduledQuery(GetScheduledQueryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getScheduledQuery");
@@ -252,7 +252,7 @@ namespace Oci.ApmtracesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/ListScheduledQueries.cs.html">here</a> to see an example of how to use ListScheduledQueries API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/ListScheduledQueries.cs.html">here</a> to see an example of how to use ListScheduledQueries API.</example>
         public async Task<ListScheduledQueriesResponse> ListScheduledQueries(ListScheduledQueriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listScheduledQueries");
@@ -309,7 +309,7 @@ namespace Oci.ApmtracesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/UpdateScheduledQuery.cs.html">here</a> to see an example of how to use UpdateScheduledQuery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/UpdateScheduledQuery.cs.html">here</a> to see an example of how to use UpdateScheduledQuery API.</example>
         public async Task<UpdateScheduledQueryResponse> UpdateScheduledQuery(UpdateScheduledQueryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateScheduledQuery");

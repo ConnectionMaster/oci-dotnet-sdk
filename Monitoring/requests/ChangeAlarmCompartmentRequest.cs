@@ -14,13 +14,13 @@ using Oci.MonitoringService.Models;
 namespace Oci.MonitoringService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/monitoring/ChangeAlarmCompartment.cs.html">here</a> to see an example of how to use ChangeAlarmCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/monitoring/ChangeAlarmCompartment.cs.html">here</a> to see an example of how to use ChangeAlarmCompartment request.
     /// </example>
     public class ChangeAlarmCompartmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of an alarm.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of an alarm.
         /// 
         /// </value>
         /// <remarks>

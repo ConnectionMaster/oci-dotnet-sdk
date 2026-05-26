@@ -14,7 +14,7 @@ using Oci.GenerativeaidataService.Models;
 namespace Oci.GenerativeaidataService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaidata/CancelEnrichmentJob.cs.html">here</a> to see an example of how to use CancelEnrichmentJob request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaidata/CancelEnrichmentJob.cs.html">here</a> to see an example of how to use CancelEnrichmentJob request.
     /// </example>
     public class CancelEnrichmentJobRequest : Oci.Common.IOciRequest
     {

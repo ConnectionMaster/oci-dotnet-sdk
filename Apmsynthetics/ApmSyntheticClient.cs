@@ -78,7 +78,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/AggregateNetworkData.cs.html">here</a> to see an example of how to use AggregateNetworkData API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/AggregateNetworkData.cs.html">here</a> to see an example of how to use AggregateNetworkData API.</example>
         public async Task<AggregateNetworkDataResponse> AggregateNetworkData(AggregateNetworkDataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called aggregateNetworkData");
@@ -135,7 +135,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/CreateDedicatedVantagePoint.cs.html">here</a> to see an example of how to use CreateDedicatedVantagePoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/CreateDedicatedVantagePoint.cs.html">here</a> to see an example of how to use CreateDedicatedVantagePoint API.</example>
         public async Task<CreateDedicatedVantagePointResponse> CreateDedicatedVantagePoint(CreateDedicatedVantagePointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDedicatedVantagePoint");
@@ -192,7 +192,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/CreateMonitor.cs.html">here</a> to see an example of how to use CreateMonitor API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/CreateMonitor.cs.html">here</a> to see an example of how to use CreateMonitor API.</example>
         public async Task<CreateMonitorResponse> CreateMonitor(CreateMonitorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMonitor");
@@ -249,7 +249,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/CreateOnPremiseVantagePoint.cs.html">here</a> to see an example of how to use CreateOnPremiseVantagePoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/CreateOnPremiseVantagePoint.cs.html">here</a> to see an example of how to use CreateOnPremiseVantagePoint API.</example>
         public async Task<CreateOnPremiseVantagePointResponse> CreateOnPremiseVantagePoint(CreateOnPremiseVantagePointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOnPremiseVantagePoint");
@@ -306,7 +306,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/CreateScript.cs.html">here</a> to see an example of how to use CreateScript API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/CreateScript.cs.html">here</a> to see an example of how to use CreateScript API.</example>
         public async Task<CreateScriptResponse> CreateScript(CreateScriptRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createScript");
@@ -363,7 +363,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/CreateWorker.cs.html">here</a> to see an example of how to use CreateWorker API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/CreateWorker.cs.html">here</a> to see an example of how to use CreateWorker API.</example>
         public async Task<CreateWorkerResponse> CreateWorker(CreateWorkerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createWorker");
@@ -419,7 +419,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/DeleteDedicatedVantagePoint.cs.html">here</a> to see an example of how to use DeleteDedicatedVantagePoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/DeleteDedicatedVantagePoint.cs.html">here</a> to see an example of how to use DeleteDedicatedVantagePoint API.</example>
         public async Task<DeleteDedicatedVantagePointResponse> DeleteDedicatedVantagePoint(DeleteDedicatedVantagePointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDedicatedVantagePoint");
@@ -475,7 +475,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/DeleteMonitor.cs.html">here</a> to see an example of how to use DeleteMonitor API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/DeleteMonitor.cs.html">here</a> to see an example of how to use DeleteMonitor API.</example>
         public async Task<DeleteMonitorResponse> DeleteMonitor(DeleteMonitorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMonitor");
@@ -531,7 +531,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/DeleteOnPremiseVantagePoint.cs.html">here</a> to see an example of how to use DeleteOnPremiseVantagePoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/DeleteOnPremiseVantagePoint.cs.html">here</a> to see an example of how to use DeleteOnPremiseVantagePoint API.</example>
         public async Task<DeleteOnPremiseVantagePointResponse> DeleteOnPremiseVantagePoint(DeleteOnPremiseVantagePointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOnPremiseVantagePoint");
@@ -587,7 +587,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/DeleteScript.cs.html">here</a> to see an example of how to use DeleteScript API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/DeleteScript.cs.html">here</a> to see an example of how to use DeleteScript API.</example>
         public async Task<DeleteScriptResponse> DeleteScript(DeleteScriptRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteScript");
@@ -643,7 +643,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/DeleteWorker.cs.html">here</a> to see an example of how to use DeleteWorker API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/DeleteWorker.cs.html">here</a> to see an example of how to use DeleteWorker API.</example>
         public async Task<DeleteWorkerResponse> DeleteWorker(DeleteWorkerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteWorker");
@@ -699,7 +699,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/GetDedicatedVantagePoint.cs.html">here</a> to see an example of how to use GetDedicatedVantagePoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/GetDedicatedVantagePoint.cs.html">here</a> to see an example of how to use GetDedicatedVantagePoint API.</example>
         public async Task<GetDedicatedVantagePointResponse> GetDedicatedVantagePoint(GetDedicatedVantagePointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDedicatedVantagePoint");
@@ -755,7 +755,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/GetMonitor.cs.html">here</a> to see an example of how to use GetMonitor API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/GetMonitor.cs.html">here</a> to see an example of how to use GetMonitor API.</example>
         public async Task<GetMonitorResponse> GetMonitor(GetMonitorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMonitor");
@@ -812,7 +812,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/GetMonitorResult.cs.html">here</a> to see an example of how to use GetMonitorResult API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/GetMonitorResult.cs.html">here</a> to see an example of how to use GetMonitorResult API.</example>
         public async Task<GetMonitorResultResponse> GetMonitorResult(GetMonitorResultRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMonitorResult");
@@ -868,7 +868,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/GetOnPremiseVantagePoint.cs.html">here</a> to see an example of how to use GetOnPremiseVantagePoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/GetOnPremiseVantagePoint.cs.html">here</a> to see an example of how to use GetOnPremiseVantagePoint API.</example>
         public async Task<GetOnPremiseVantagePointResponse> GetOnPremiseVantagePoint(GetOnPremiseVantagePointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOnPremiseVantagePoint");
@@ -924,7 +924,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/GetScript.cs.html">here</a> to see an example of how to use GetScript API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/GetScript.cs.html">here</a> to see an example of how to use GetScript API.</example>
         public async Task<GetScriptResponse> GetScript(GetScriptRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getScript");
@@ -980,7 +980,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/GetWorker.cs.html">here</a> to see an example of how to use GetWorker API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/GetWorker.cs.html">here</a> to see an example of how to use GetWorker API.</example>
         public async Task<GetWorkerResponse> GetWorker(GetWorkerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorker");
@@ -1037,7 +1037,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/ListDedicatedVantagePoints.cs.html">here</a> to see an example of how to use ListDedicatedVantagePoints API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/ListDedicatedVantagePoints.cs.html">here</a> to see an example of how to use ListDedicatedVantagePoints API.</example>
         public async Task<ListDedicatedVantagePointsResponse> ListDedicatedVantagePoints(ListDedicatedVantagePointsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDedicatedVantagePoints");
@@ -1094,7 +1094,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/ListMonitors.cs.html">here</a> to see an example of how to use ListMonitors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/ListMonitors.cs.html">here</a> to see an example of how to use ListMonitors API.</example>
         public async Task<ListMonitorsResponse> ListMonitors(ListMonitorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMonitors");
@@ -1151,7 +1151,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/ListOnPremiseVantagePoints.cs.html">here</a> to see an example of how to use ListOnPremiseVantagePoints API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/ListOnPremiseVantagePoints.cs.html">here</a> to see an example of how to use ListOnPremiseVantagePoints API.</example>
         public async Task<ListOnPremiseVantagePointsResponse> ListOnPremiseVantagePoints(ListOnPremiseVantagePointsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOnPremiseVantagePoints");
@@ -1208,7 +1208,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/ListPublicVantagePoints.cs.html">here</a> to see an example of how to use ListPublicVantagePoints API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/ListPublicVantagePoints.cs.html">here</a> to see an example of how to use ListPublicVantagePoints API.</example>
         public async Task<ListPublicVantagePointsResponse> ListPublicVantagePoints(ListPublicVantagePointsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPublicVantagePoints");
@@ -1265,7 +1265,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/ListScripts.cs.html">here</a> to see an example of how to use ListScripts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/ListScripts.cs.html">here</a> to see an example of how to use ListScripts API.</example>
         public async Task<ListScriptsResponse> ListScripts(ListScriptsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listScripts");
@@ -1322,7 +1322,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/ListWorkers.cs.html">here</a> to see an example of how to use ListWorkers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/ListWorkers.cs.html">here</a> to see an example of how to use ListWorkers API.</example>
         public async Task<ListWorkersResponse> ListWorkers(ListWorkersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkers");
@@ -1378,7 +1378,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/UpdateDedicatedVantagePoint.cs.html">here</a> to see an example of how to use UpdateDedicatedVantagePoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/UpdateDedicatedVantagePoint.cs.html">here</a> to see an example of how to use UpdateDedicatedVantagePoint API.</example>
         public async Task<UpdateDedicatedVantagePointResponse> UpdateDedicatedVantagePoint(UpdateDedicatedVantagePointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDedicatedVantagePoint");
@@ -1434,7 +1434,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/UpdateMonitor.cs.html">here</a> to see an example of how to use UpdateMonitor API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/UpdateMonitor.cs.html">here</a> to see an example of how to use UpdateMonitor API.</example>
         public async Task<UpdateMonitorResponse> UpdateMonitor(UpdateMonitorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMonitor");
@@ -1490,7 +1490,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/UpdateOnPremiseVantagePoint.cs.html">here</a> to see an example of how to use UpdateOnPremiseVantagePoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/UpdateOnPremiseVantagePoint.cs.html">here</a> to see an example of how to use UpdateOnPremiseVantagePoint API.</example>
         public async Task<UpdateOnPremiseVantagePointResponse> UpdateOnPremiseVantagePoint(UpdateOnPremiseVantagePointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOnPremiseVantagePoint");
@@ -1546,7 +1546,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/UpdateScript.cs.html">here</a> to see an example of how to use UpdateScript API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/UpdateScript.cs.html">here</a> to see an example of how to use UpdateScript API.</example>
         public async Task<UpdateScriptResponse> UpdateScript(UpdateScriptRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateScript");
@@ -1602,7 +1602,7 @@ namespace Oci.ApmsyntheticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/UpdateWorker.cs.html">here</a> to see an example of how to use UpdateWorker API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/UpdateWorker.cs.html">here</a> to see an example of how to use UpdateWorker API.</example>
         public async Task<UpdateWorkerResponse> UpdateWorker(UpdateWorkerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateWorker");

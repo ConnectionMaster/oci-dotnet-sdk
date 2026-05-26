@@ -40,7 +40,7 @@ namespace Oci.AuditService.Models
         public string EventName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment of the resource 
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment of the resource 
         /// emitting the event.
         /// 
         /// </value>
@@ -65,7 +65,7 @@ namespace Oci.AuditService.Models
         public string ResourceName { get; set; }
         
         /// <value>
-        /// An [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) or some other ID for the resource
+        /// An [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) or some other ID for the resource
         /// emitting the event.
         /// 
         /// </value>
@@ -82,7 +82,7 @@ namespace Oci.AuditService.Models
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, 
         /// type, or namespace. Exists for cross-compatibility only. For more information, 
-        /// see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -91,7 +91,7 @@ namespace Oci.AuditService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace. For more
-        /// information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>

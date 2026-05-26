@@ -80,7 +80,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/AddConnectionLock.cs.html">here</a> to see an example of how to use AddConnectionLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/AddConnectionLock.cs.html">here</a> to see an example of how to use AddConnectionLock API.</example>
         public async Task<AddConnectionLockResponse> AddConnectionLock(AddConnectionLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addConnectionLock");
@@ -136,7 +136,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/AddDeploymentBackupLock.cs.html">here</a> to see an example of how to use AddDeploymentBackupLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/AddDeploymentBackupLock.cs.html">here</a> to see an example of how to use AddDeploymentBackupLock API.</example>
         public async Task<AddDeploymentBackupLockResponse> AddDeploymentBackupLock(AddDeploymentBackupLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addDeploymentBackupLock");
@@ -193,7 +193,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/AddDeploymentLocalPeer.cs.html">here</a> to see an example of how to use AddDeploymentLocalPeer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/AddDeploymentLocalPeer.cs.html">here</a> to see an example of how to use AddDeploymentLocalPeer API.</example>
         public async Task<AddDeploymentLocalPeerResponse> AddDeploymentLocalPeer(AddDeploymentLocalPeerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addDeploymentLocalPeer");
@@ -249,7 +249,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/AddDeploymentLock.cs.html">here</a> to see an example of how to use AddDeploymentLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/AddDeploymentLock.cs.html">here</a> to see an example of how to use AddDeploymentLock API.</example>
         public async Task<AddDeploymentLockResponse> AddDeploymentLock(AddDeploymentLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addDeploymentLock");
@@ -305,7 +305,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CancelDeploymentBackup.cs.html">here</a> to see an example of how to use CancelDeploymentBackup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CancelDeploymentBackup.cs.html">here</a> to see an example of how to use CancelDeploymentBackup API.</example>
         public async Task<CancelDeploymentBackupResponse> CancelDeploymentBackup(CancelDeploymentBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelDeploymentBackup");
@@ -362,7 +362,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CancelDeploymentUpgrade.cs.html">here</a> to see an example of how to use CancelDeploymentUpgrade API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CancelDeploymentUpgrade.cs.html">here</a> to see an example of how to use CancelDeploymentUpgrade API.</example>
         public async Task<CancelDeploymentUpgradeResponse> CancelDeploymentUpgrade(CancelDeploymentUpgradeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelDeploymentUpgrade");
@@ -419,7 +419,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CancelSnoozeDeploymentUpgrade.cs.html">here</a> to see an example of how to use CancelSnoozeDeploymentUpgrade API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CancelSnoozeDeploymentUpgrade.cs.html">here</a> to see an example of how to use CancelSnoozeDeploymentUpgrade API.</example>
         public async Task<CancelSnoozeDeploymentUpgradeResponse> CancelSnoozeDeploymentUpgrade(CancelSnoozeDeploymentUpgradeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelSnoozeDeploymentUpgrade");
@@ -471,7 +471,7 @@ namespace Oci.GoldengateService
         /// Moves the Connection into a different compartment within the same tenancy. When
         /// provided, If-Match is checked against ETag values of the resource.  For information about
         /// moving resources between compartments, see [Moving Resources Between
-        /// Compartments](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Compartments](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -479,7 +479,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ChangeConnectionCompartment.cs.html">here</a> to see an example of how to use ChangeConnectionCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ChangeConnectionCompartment.cs.html">here</a> to see an example of how to use ChangeConnectionCompartment API.</example>
         public async Task<ChangeConnectionCompartmentResponse> ChangeConnectionCompartment(ChangeConnectionCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeConnectionCompartment");
@@ -536,7 +536,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ChangeConnectionSubscription.cs.html">here</a> to see an example of how to use ChangeConnectionSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ChangeConnectionSubscription.cs.html">here</a> to see an example of how to use ChangeConnectionSubscription API.</example>
         public async Task<ChangeConnectionSubscriptionResponse> ChangeConnectionSubscription(ChangeConnectionSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeConnectionSubscription");
@@ -589,7 +589,7 @@ namespace Oci.GoldengateService
         /// Moves the DatabaseRegistration into a different compartment within the same tenancy. When
         /// provided, If-Match is checked against ETag values of the resource.  For information about
         /// moving resources between compartments, see [Moving Resources Between
-        /// Compartments](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Compartments](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -597,7 +597,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ChangeDatabaseRegistrationCompartment.cs.html">here</a> to see an example of how to use ChangeDatabaseRegistrationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ChangeDatabaseRegistrationCompartment.cs.html">here</a> to see an example of how to use ChangeDatabaseRegistrationCompartment API.</example>
         public async Task<ChangeDatabaseRegistrationCompartmentResponse> ChangeDatabaseRegistrationCompartment(ChangeDatabaseRegistrationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDatabaseRegistrationCompartment");
@@ -649,7 +649,7 @@ namespace Oci.GoldengateService
         /// Moves a DeploymentBackup into a different compartment within the same tenancy.  When provided,
         /// If-Match is checked against ETag values of the resource.  For information about moving
         /// resources between compartments, see [Moving Resources Between
-        /// Compartments](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Compartments](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -657,7 +657,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ChangeDeploymentBackupCompartment.cs.html">here</a> to see an example of how to use ChangeDeploymentBackupCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ChangeDeploymentBackupCompartment.cs.html">here</a> to see an example of how to use ChangeDeploymentBackupCompartment API.</example>
         public async Task<ChangeDeploymentBackupCompartmentResponse> ChangeDeploymentBackupCompartment(ChangeDeploymentBackupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDeploymentBackupCompartment");
@@ -709,7 +709,7 @@ namespace Oci.GoldengateService
         /// Moves the Deployment into a different compartment within the same tenancy.  When provided,
         /// If-Match is checked against ETag values of the resource.  For information about moving
         /// resources between compartments, see [Moving Resources Between
-        /// Compartments](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Compartments](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -717,7 +717,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ChangeDeploymentCompartment.cs.html">here</a> to see an example of how to use ChangeDeploymentCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ChangeDeploymentCompartment.cs.html">here</a> to see an example of how to use ChangeDeploymentCompartment API.</example>
         public async Task<ChangeDeploymentCompartmentResponse> ChangeDeploymentCompartment(ChangeDeploymentCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDeploymentCompartment");
@@ -774,7 +774,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ChangeDeploymentSubscription.cs.html">here</a> to see an example of how to use ChangeDeploymentSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ChangeDeploymentSubscription.cs.html">here</a> to see an example of how to use ChangeDeploymentSubscription API.</example>
         public async Task<ChangeDeploymentSubscriptionResponse> ChangeDeploymentSubscription(ChangeDeploymentSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDeploymentSubscription");
@@ -826,7 +826,7 @@ namespace Oci.GoldengateService
         /// Moves the Pipeline into a different compartment within the same tenancy. When
         /// provided, If-Match is checked against ETag values of the resource.  For information about
         /// moving resources between compartments, see [Moving Resources Between
-        /// Compartments](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Compartments](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -834,7 +834,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ChangePipelineCompartment.cs.html">here</a> to see an example of how to use ChangePipelineCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ChangePipelineCompartment.cs.html">here</a> to see an example of how to use ChangePipelineCompartment API.</example>
         public async Task<ChangePipelineCompartmentResponse> ChangePipelineCompartment(ChangePipelineCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changePipelineCompartment");
@@ -883,6 +883,63 @@ namespace Oci.GoldengateService
         }
 
         /// <summary>
+        /// Clones the pipeline.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ClonePipeline.cs.html">here</a> to see an example of how to use ClonePipeline API.</example>
+        public async Task<ClonePipelineResponse> ClonePipeline(ClonePipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called clonePipeline");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/pipelines/actions/clone".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "GoldenGate",
+                    OperationName = "ClonePipeline",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/goldengate/20200407/Pipeline/ClonePipeline",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ClonePipelineResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ClonePipeline failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Collects the diagnostic of a Deployment. When provided, If-Match is checked against ETag values of the resource.
         /// 
         /// </summary>
@@ -891,7 +948,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CollectDeploymentDiagnostic.cs.html">here</a> to see an example of how to use CollectDeploymentDiagnostic API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CollectDeploymentDiagnostic.cs.html">here</a> to see an example of how to use CollectDeploymentDiagnostic API.</example>
         public async Task<CollectDeploymentDiagnosticResponse> CollectDeploymentDiagnostic(CollectDeploymentDiagnosticRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called collectDeploymentDiagnostic");
@@ -948,7 +1005,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CollectPipelineDiagnostic.cs.html">here</a> to see an example of how to use CollectPipelineDiagnostic API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CollectPipelineDiagnostic.cs.html">here</a> to see an example of how to use CollectPipelineDiagnostic API.</example>
         public async Task<CollectPipelineDiagnosticResponse> CollectPipelineDiagnostic(CollectPipelineDiagnosticRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called collectPipelineDiagnostic");
@@ -1004,7 +1061,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CopyDeploymentBackup.cs.html">here</a> to see an example of how to use CopyDeploymentBackup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CopyDeploymentBackup.cs.html">here</a> to see an example of how to use CopyDeploymentBackup API.</example>
         public async Task<CopyDeploymentBackupResponse> CopyDeploymentBackup(CopyDeploymentBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called copyDeploymentBackup");
@@ -1061,7 +1118,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CreateCertificate.cs.html">here</a> to see an example of how to use CreateCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CreateCertificate.cs.html">here</a> to see an example of how to use CreateCertificate API.</example>
         public async Task<CreateCertificateResponse> CreateCertificate(CreateCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCertificate");
@@ -1118,7 +1175,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CreateConnection.cs.html">here</a> to see an example of how to use CreateConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CreateConnection.cs.html">here</a> to see an example of how to use CreateConnection API.</example>
         public async Task<CreateConnectionResponse> CreateConnection(CreateConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createConnection");
@@ -1174,7 +1231,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CreateConnectionAssignment.cs.html">here</a> to see an example of how to use CreateConnectionAssignment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CreateConnectionAssignment.cs.html">here</a> to see an example of how to use CreateConnectionAssignment API.</example>
         public async Task<CreateConnectionAssignmentResponse> CreateConnectionAssignment(CreateConnectionAssignmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createConnectionAssignment");
@@ -1232,7 +1289,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CreateDatabaseRegistration.cs.html">here</a> to see an example of how to use CreateDatabaseRegistration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CreateDatabaseRegistration.cs.html">here</a> to see an example of how to use CreateDatabaseRegistration API.</example>
         public async Task<CreateDatabaseRegistrationResponse> CreateDatabaseRegistration(CreateDatabaseRegistrationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDatabaseRegistration");
@@ -1289,7 +1346,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CreateDeployment.cs.html">here</a> to see an example of how to use CreateDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CreateDeployment.cs.html">here</a> to see an example of how to use CreateDeployment API.</example>
         public async Task<CreateDeploymentResponse> CreateDeployment(CreateDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDeployment");
@@ -1345,7 +1402,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CreateDeploymentBackup.cs.html">here</a> to see an example of how to use CreateDeploymentBackup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CreateDeploymentBackup.cs.html">here</a> to see an example of how to use CreateDeploymentBackup API.</example>
         public async Task<CreateDeploymentBackupResponse> CreateDeploymentBackup(CreateDeploymentBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDeploymentBackup");
@@ -1402,7 +1459,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CreatePipeline.cs.html">here</a> to see an example of how to use CreatePipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CreatePipeline.cs.html">here</a> to see an example of how to use CreatePipeline API.</example>
         public async Task<CreatePipelineResponse> CreatePipeline(CreatePipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPipeline");
@@ -1459,7 +1516,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeleteCertificate.cs.html">here</a> to see an example of how to use DeleteCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeleteCertificate.cs.html">here</a> to see an example of how to use DeleteCertificate API.</example>
         public async Task<DeleteCertificateResponse> DeleteCertificate(DeleteCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCertificate");
@@ -1516,7 +1573,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeleteConnection.cs.html">here</a> to see an example of how to use DeleteConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeleteConnection.cs.html">here</a> to see an example of how to use DeleteConnection API.</example>
         public async Task<DeleteConnectionResponse> DeleteConnection(DeleteConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteConnection");
@@ -1572,7 +1629,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeleteConnectionAssignment.cs.html">here</a> to see an example of how to use DeleteConnectionAssignment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeleteConnectionAssignment.cs.html">here</a> to see an example of how to use DeleteConnectionAssignment API.</example>
         public async Task<DeleteConnectionAssignmentResponse> DeleteConnectionAssignment(DeleteConnectionAssignmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteConnectionAssignment");
@@ -1630,7 +1687,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeleteDatabaseRegistration.cs.html">here</a> to see an example of how to use DeleteDatabaseRegistration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeleteDatabaseRegistration.cs.html">here</a> to see an example of how to use DeleteDatabaseRegistration API.</example>
         public async Task<DeleteDatabaseRegistrationResponse> DeleteDatabaseRegistration(DeleteDatabaseRegistrationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDatabaseRegistration");
@@ -1687,7 +1744,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeleteDeployment.cs.html">here</a> to see an example of how to use DeleteDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeleteDeployment.cs.html">here</a> to see an example of how to use DeleteDeployment API.</example>
         public async Task<DeleteDeploymentResponse> DeleteDeployment(DeleteDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDeployment");
@@ -1744,7 +1801,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeleteDeploymentBackup.cs.html">here</a> to see an example of how to use DeleteDeploymentBackup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeleteDeploymentBackup.cs.html">here</a> to see an example of how to use DeleteDeploymentBackup API.</example>
         public async Task<DeleteDeploymentBackupResponse> DeleteDeploymentBackup(DeleteDeploymentBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDeploymentBackup");
@@ -1801,7 +1858,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeletePipeline.cs.html">here</a> to see an example of how to use DeletePipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeletePipeline.cs.html">here</a> to see an example of how to use DeletePipeline API.</example>
         public async Task<DeletePipelineResponse> DeletePipeline(DeletePipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePipeline");
@@ -1858,7 +1915,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeploymentWalletExists.cs.html">here</a> to see an example of how to use DeploymentWalletExists API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeploymentWalletExists.cs.html">here</a> to see an example of how to use DeploymentWalletExists API.</example>
         public async Task<DeploymentWalletExistsResponse> DeploymentWalletExists(DeploymentWalletExistsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deploymentWalletExists");
@@ -1915,7 +1972,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ExportDeploymentWallet.cs.html">here</a> to see an example of how to use ExportDeploymentWallet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ExportDeploymentWallet.cs.html">here</a> to see an example of how to use ExportDeploymentWallet API.</example>
         public async Task<ExportDeploymentWalletResponse> ExportDeploymentWallet(ExportDeploymentWalletRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called exportDeploymentWallet");
@@ -1964,6 +2021,63 @@ namespace Oci.GoldengateService
         }
 
         /// <summary>
+        /// Generates disaster recovery precheck report for standby peer.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GenerateDisasterRecoveryPrecheckReport.cs.html">here</a> to see an example of how to use GenerateDisasterRecoveryPrecheckReport API.</example>
+        public async Task<GenerateDisasterRecoveryPrecheckReportResponse> GenerateDisasterRecoveryPrecheckReport(GenerateDisasterRecoveryPrecheckReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called generateDisasterRecoveryPrecheckReport");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/deployments/{deploymentId}/actions/generateDisasterRecoveryPrecheckReport".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "GoldenGate",
+                    OperationName = "GenerateDisasterRecoveryPrecheckReport",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/goldengate/20200407/Deployment/GenerateDisasterRecoveryPrecheckReport",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<GenerateDisasterRecoveryPrecheckReportResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GenerateDisasterRecoveryPrecheckReport failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Generates a Pre-Authenticated Request Object URL to a DB2 for z/OS library that needs to be uploaded to your DB2 for z/OS server in order to establish GoldenGate connections to it. For licensing reasons, the URL is accessible for 10 minutes only.
         /// 
         /// </summary>
@@ -1972,7 +2086,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GenerateLibraryUrl.cs.html">here</a> to see an example of how to use GenerateLibraryUrl API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GenerateLibraryUrl.cs.html">here</a> to see an example of how to use GenerateLibraryUrl API.</example>
         public async Task<GenerateLibraryUrlResponse> GenerateLibraryUrl(GenerateLibraryUrlRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateLibraryUrl");
@@ -2029,7 +2143,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetCertificate.cs.html">here</a> to see an example of how to use GetCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetCertificate.cs.html">here</a> to see an example of how to use GetCertificate API.</example>
         public async Task<GetCertificateResponse> GetCertificate(GetCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCertificate");
@@ -2086,7 +2200,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetConnection.cs.html">here</a> to see an example of how to use GetConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetConnection.cs.html">here</a> to see an example of how to use GetConnection API.</example>
         public async Task<GetConnectionResponse> GetConnection(GetConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getConnection");
@@ -2143,7 +2257,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetConnectionAssignment.cs.html">here</a> to see an example of how to use GetConnectionAssignment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetConnectionAssignment.cs.html">here</a> to see an example of how to use GetConnectionAssignment API.</example>
         public async Task<GetConnectionAssignmentResponse> GetConnectionAssignment(GetConnectionAssignmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getConnectionAssignment");
@@ -2201,7 +2315,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetDatabaseRegistration.cs.html">here</a> to see an example of how to use GetDatabaseRegistration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetDatabaseRegistration.cs.html">here</a> to see an example of how to use GetDatabaseRegistration API.</example>
         public async Task<GetDatabaseRegistrationResponse> GetDatabaseRegistration(GetDatabaseRegistrationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDatabaseRegistration");
@@ -2258,7 +2372,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetDeployment.cs.html">here</a> to see an example of how to use GetDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetDeployment.cs.html">here</a> to see an example of how to use GetDeployment API.</example>
         public async Task<GetDeploymentResponse> GetDeployment(GetDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDeployment");
@@ -2315,7 +2429,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetDeploymentBackup.cs.html">here</a> to see an example of how to use GetDeploymentBackup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetDeploymentBackup.cs.html">here</a> to see an example of how to use GetDeploymentBackup API.</example>
         public async Task<GetDeploymentBackupResponse> GetDeploymentBackup(GetDeploymentBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDeploymentBackup");
@@ -2372,7 +2486,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetDeploymentUpgrade.cs.html">here</a> to see an example of how to use GetDeploymentUpgrade API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetDeploymentUpgrade.cs.html">here</a> to see an example of how to use GetDeploymentUpgrade API.</example>
         public async Task<GetDeploymentUpgradeResponse> GetDeploymentUpgrade(GetDeploymentUpgradeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDeploymentUpgrade");
@@ -2421,6 +2535,63 @@ namespace Oci.GoldengateService
         }
 
         /// <summary>
+        /// Returns DR precheck report for a standby peer with the specified placement (availabilityDomain and faultDomain).
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetDisasterRecoveryPrecheckReport.cs.html">here</a> to see an example of how to use GetDisasterRecoveryPrecheckReport API.</example>
+        public async Task<GetDisasterRecoveryPrecheckReportResponse> GetDisasterRecoveryPrecheckReport(GetDisasterRecoveryPrecheckReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called getDisasterRecoveryPrecheckReport");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/deployments/{deploymentId}/disasterRecoveryPrecheckReport".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "GoldenGate",
+                    OperationName = "GetDisasterRecoveryPrecheckReport",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/goldengate/20200407/Deployment/GetDisasterRecoveryPrecheckReport",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<GetDisasterRecoveryPrecheckReportResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetDisasterRecoveryPrecheckReport failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Retrieves a Pipeline details.
         /// 
         /// </summary>
@@ -2429,7 +2600,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetPipeline.cs.html">here</a> to see an example of how to use GetPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetPipeline.cs.html">here</a> to see an example of how to use GetPipeline API.</example>
         public async Task<GetPipelineResponse> GetPipeline(GetPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPipeline");
@@ -2486,7 +2657,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -2543,7 +2714,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ImportDeploymentWallet.cs.html">here</a> to see an example of how to use ImportDeploymentWallet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ImportDeploymentWallet.cs.html">here</a> to see an example of how to use ImportDeploymentWallet API.</example>
         public async Task<ImportDeploymentWalletResponse> ImportDeploymentWallet(ImportDeploymentWalletRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called importDeploymentWallet");
@@ -2599,7 +2770,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListCertificates.cs.html">here</a> to see an example of how to use ListCertificates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListCertificates.cs.html">here</a> to see an example of how to use ListCertificates API.</example>
         public async Task<ListCertificatesResponse> ListCertificates(ListCertificatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCertificates");
@@ -2655,7 +2826,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListConnectionAssignments.cs.html">here</a> to see an example of how to use ListConnectionAssignments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListConnectionAssignments.cs.html">here</a> to see an example of how to use ListConnectionAssignments API.</example>
         public async Task<ListConnectionAssignmentsResponse> ListConnectionAssignments(ListConnectionAssignmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listConnectionAssignments");
@@ -2712,7 +2883,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListConnections.cs.html">here</a> to see an example of how to use ListConnections API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListConnections.cs.html">here</a> to see an example of how to use ListConnections API.</example>
         public async Task<ListConnectionsResponse> ListConnections(ListConnectionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listConnections");
@@ -2770,7 +2941,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDatabaseRegistrations.cs.html">here</a> to see an example of how to use ListDatabaseRegistrations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDatabaseRegistrations.cs.html">here</a> to see an example of how to use ListDatabaseRegistrations API.</example>
         public async Task<ListDatabaseRegistrationsResponse> ListDatabaseRegistrations(ListDatabaseRegistrationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDatabaseRegistrations");
@@ -2827,7 +2998,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeploymentBackups.cs.html">here</a> to see an example of how to use ListDeploymentBackups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeploymentBackups.cs.html">here</a> to see an example of how to use ListDeploymentBackups API.</example>
         public async Task<ListDeploymentBackupsResponse> ListDeploymentBackups(ListDeploymentBackupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDeploymentBackups");
@@ -2884,7 +3055,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeploymentEnvironments.cs.html">here</a> to see an example of how to use ListDeploymentEnvironments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeploymentEnvironments.cs.html">here</a> to see an example of how to use ListDeploymentEnvironments API.</example>
         public async Task<ListDeploymentEnvironmentsResponse> ListDeploymentEnvironments(ListDeploymentEnvironmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDeploymentEnvironments");
@@ -2941,7 +3112,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeploymentPeers.cs.html">here</a> to see an example of how to use ListDeploymentPeers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeploymentPeers.cs.html">here</a> to see an example of how to use ListDeploymentPeers API.</example>
         public async Task<ListDeploymentPeersResponse> ListDeploymentPeers(ListDeploymentPeersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDeploymentPeers");
@@ -2998,7 +3169,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeploymentTypes.cs.html">here</a> to see an example of how to use ListDeploymentTypes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeploymentTypes.cs.html">here</a> to see an example of how to use ListDeploymentTypes API.</example>
         public async Task<ListDeploymentTypesResponse> ListDeploymentTypes(ListDeploymentTypesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDeploymentTypes");
@@ -3055,7 +3226,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeploymentUpgrades.cs.html">here</a> to see an example of how to use ListDeploymentUpgrades API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeploymentUpgrades.cs.html">here</a> to see an example of how to use ListDeploymentUpgrades API.</example>
         public async Task<ListDeploymentUpgradesResponse> ListDeploymentUpgrades(ListDeploymentUpgradesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDeploymentUpgrades");
@@ -3112,7 +3283,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeploymentVersions.cs.html">here</a> to see an example of how to use ListDeploymentVersions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeploymentVersions.cs.html">here</a> to see an example of how to use ListDeploymentVersions API.</example>
         public async Task<ListDeploymentVersionsResponse> ListDeploymentVersions(ListDeploymentVersionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDeploymentVersions");
@@ -3169,7 +3340,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeploymentWalletsOperations.cs.html">here</a> to see an example of how to use ListDeploymentWalletsOperations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeploymentWalletsOperations.cs.html">here</a> to see an example of how to use ListDeploymentWalletsOperations API.</example>
         public async Task<ListDeploymentWalletsOperationsResponse> ListDeploymentWalletsOperations(ListDeploymentWalletsOperationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDeploymentWalletsOperations");
@@ -3226,7 +3397,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeployments.cs.html">here</a> to see an example of how to use ListDeployments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeployments.cs.html">here</a> to see an example of how to use ListDeployments API.</example>
         public async Task<ListDeploymentsResponse> ListDeployments(ListDeploymentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDeployments");
@@ -3283,7 +3454,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListMessages.cs.html">here</a> to see an example of how to use ListMessages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListMessages.cs.html">here</a> to see an example of how to use ListMessages API.</example>
         public async Task<ListMessagesResponse> ListMessages(ListMessagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMessages");
@@ -3340,7 +3511,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListPipelineInitializationSteps.cs.html">here</a> to see an example of how to use ListPipelineInitializationSteps API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListPipelineInitializationSteps.cs.html">here</a> to see an example of how to use ListPipelineInitializationSteps API.</example>
         public async Task<ListPipelineInitializationStepsResponse> ListPipelineInitializationSteps(ListPipelineInitializationStepsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPipelineInitializationSteps");
@@ -3397,7 +3568,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListPipelineRunningProcesses.cs.html">here</a> to see an example of how to use ListPipelineRunningProcesses API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListPipelineRunningProcesses.cs.html">here</a> to see an example of how to use ListPipelineRunningProcesses API.</example>
         public async Task<ListPipelineRunningProcessesResponse> ListPipelineRunningProcesses(ListPipelineRunningProcessesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPipelineRunningProcesses");
@@ -3454,7 +3625,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListPipelineSchemaTables.cs.html">here</a> to see an example of how to use ListPipelineSchemaTables API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListPipelineSchemaTables.cs.html">here</a> to see an example of how to use ListPipelineSchemaTables API.</example>
         public async Task<ListPipelineSchemaTablesResponse> ListPipelineSchemaTables(ListPipelineSchemaTablesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPipelineSchemaTables");
@@ -3511,7 +3682,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListPipelineSchemas.cs.html">here</a> to see an example of how to use ListPipelineSchemas API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListPipelineSchemas.cs.html">here</a> to see an example of how to use ListPipelineSchemas API.</example>
         public async Task<ListPipelineSchemasResponse> ListPipelineSchemas(ListPipelineSchemasRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPipelineSchemas");
@@ -3568,7 +3739,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListPipelines.cs.html">here</a> to see an example of how to use ListPipelines API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListPipelines.cs.html">here</a> to see an example of how to use ListPipelines API.</example>
         public async Task<ListPipelinesResponse> ListPipelines(ListPipelinesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPipelines");
@@ -3625,7 +3796,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListRecipes.cs.html">here</a> to see an example of how to use ListRecipes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListRecipes.cs.html">here</a> to see an example of how to use ListRecipes API.</example>
         public async Task<ListRecipesResponse> ListRecipes(ListRecipesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRecipes");
@@ -3683,7 +3854,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListTrailFiles.cs.html">here</a> to see an example of how to use ListTrailFiles API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListTrailFiles.cs.html">here</a> to see an example of how to use ListTrailFiles API.</example>
         public async Task<ListTrailFilesResponse> ListTrailFiles(ListTrailFilesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTrailFiles");
@@ -3741,7 +3912,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListTrailSequences.cs.html">here</a> to see an example of how to use ListTrailSequences API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListTrailSequences.cs.html">here</a> to see an example of how to use ListTrailSequences API.</example>
         public async Task<ListTrailSequencesResponse> ListTrailSequences(ListTrailSequencesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTrailSequences");
@@ -3798,7 +3969,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -3855,7 +4026,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -3912,7 +4083,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -3969,7 +4140,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/MigrateConnection.cs.html">here</a> to see an example of how to use MigrateConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/MigrateConnection.cs.html">here</a> to see an example of how to use MigrateConnection API.</example>
         public async Task<MigrateConnectionResponse> MigrateConnection(MigrateConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called migrateConnection");
@@ -4026,7 +4197,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/PausePipeline.cs.html">here</a> to see an example of how to use PausePipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/PausePipeline.cs.html">here</a> to see an example of how to use PausePipeline API.</example>
         public async Task<PausePipelineResponse> PausePipeline(PausePipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called pausePipeline");
@@ -4083,7 +4254,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RefreshConnection.cs.html">here</a> to see an example of how to use RefreshConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RefreshConnection.cs.html">here</a> to see an example of how to use RefreshConnection API.</example>
         public async Task<RefreshConnectionResponse> RefreshConnection(RefreshConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshConnection");
@@ -4139,7 +4310,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RemoveConnectionLock.cs.html">here</a> to see an example of how to use RemoveConnectionLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RemoveConnectionLock.cs.html">here</a> to see an example of how to use RemoveConnectionLock API.</example>
         public async Task<RemoveConnectionLockResponse> RemoveConnectionLock(RemoveConnectionLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeConnectionLock");
@@ -4195,7 +4366,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RemoveDeploymentBackupLock.cs.html">here</a> to see an example of how to use RemoveDeploymentBackupLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RemoveDeploymentBackupLock.cs.html">here</a> to see an example of how to use RemoveDeploymentBackupLock API.</example>
         public async Task<RemoveDeploymentBackupLockResponse> RemoveDeploymentBackupLock(RemoveDeploymentBackupLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeDeploymentBackupLock");
@@ -4252,7 +4423,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RemoveDeploymentLocalPeer.cs.html">here</a> to see an example of how to use RemoveDeploymentLocalPeer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RemoveDeploymentLocalPeer.cs.html">here</a> to see an example of how to use RemoveDeploymentLocalPeer API.</example>
         public async Task<RemoveDeploymentLocalPeerResponse> RemoveDeploymentLocalPeer(RemoveDeploymentLocalPeerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeDeploymentLocalPeer");
@@ -4308,7 +4479,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RemoveDeploymentLock.cs.html">here</a> to see an example of how to use RemoveDeploymentLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RemoveDeploymentLock.cs.html">here</a> to see an example of how to use RemoveDeploymentLock API.</example>
         public async Task<RemoveDeploymentLockResponse> RemoveDeploymentLock(RemoveDeploymentLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeDeploymentLock");
@@ -4365,7 +4536,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RescheduleDeploymentUpgrade.cs.html">here</a> to see an example of how to use RescheduleDeploymentUpgrade API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RescheduleDeploymentUpgrade.cs.html">here</a> to see an example of how to use RescheduleDeploymentUpgrade API.</example>
         public async Task<RescheduleDeploymentUpgradeResponse> RescheduleDeploymentUpgrade(RescheduleDeploymentUpgradeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called rescheduleDeploymentUpgrade");
@@ -4421,7 +4592,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RestoreDeployment.cs.html">here</a> to see an example of how to use RestoreDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RestoreDeployment.cs.html">here</a> to see an example of how to use RestoreDeployment API.</example>
         public async Task<RestoreDeploymentResponse> RestoreDeployment(RestoreDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called restoreDeployment");
@@ -4478,7 +4649,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RollbackDeploymentUpgrade.cs.html">here</a> to see an example of how to use RollbackDeploymentUpgrade API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RollbackDeploymentUpgrade.cs.html">here</a> to see an example of how to use RollbackDeploymentUpgrade API.</example>
         public async Task<RollbackDeploymentUpgradeResponse> RollbackDeploymentUpgrade(RollbackDeploymentUpgradeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called rollbackDeploymentUpgrade");
@@ -4535,7 +4706,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/SnoozeDeploymentUpgrade.cs.html">here</a> to see an example of how to use SnoozeDeploymentUpgrade API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/SnoozeDeploymentUpgrade.cs.html">here</a> to see an example of how to use SnoozeDeploymentUpgrade API.</example>
         public async Task<SnoozeDeploymentUpgradeResponse> SnoozeDeploymentUpgrade(SnoozeDeploymentUpgradeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called snoozeDeploymentUpgrade");
@@ -4592,7 +4763,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/StartDeployment.cs.html">here</a> to see an example of how to use StartDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/StartDeployment.cs.html">here</a> to see an example of how to use StartDeployment API.</example>
         public async Task<StartDeploymentResponse> StartDeployment(StartDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startDeployment");
@@ -4649,7 +4820,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/StartPipeline.cs.html">here</a> to see an example of how to use StartPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/StartPipeline.cs.html">here</a> to see an example of how to use StartPipeline API.</example>
         public async Task<StartPipelineResponse> StartPipeline(StartPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startPipeline");
@@ -4706,7 +4877,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/StopDeployment.cs.html">here</a> to see an example of how to use StopDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/StopDeployment.cs.html">here</a> to see an example of how to use StopDeployment API.</example>
         public async Task<StopDeploymentResponse> StopDeployment(StopDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopDeployment");
@@ -4763,7 +4934,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/StopPipeline.cs.html">here</a> to see an example of how to use StopPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/StopPipeline.cs.html">here</a> to see an example of how to use StopPipeline API.</example>
         public async Task<StopPipelineResponse> StopPipeline(StopPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopPipeline");
@@ -4820,7 +4991,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/SwitchoverDeploymentPeer.cs.html">here</a> to see an example of how to use SwitchoverDeploymentPeer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/SwitchoverDeploymentPeer.cs.html">here</a> to see an example of how to use SwitchoverDeploymentPeer API.</example>
         public async Task<SwitchoverDeploymentPeerResponse> SwitchoverDeploymentPeer(SwitchoverDeploymentPeerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called switchoverDeploymentPeer");
@@ -4878,7 +5049,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/TestConnectionAssignment.cs.html">here</a> to see an example of how to use TestConnectionAssignment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/TestConnectionAssignment.cs.html">here</a> to see an example of how to use TestConnectionAssignment API.</example>
         public async Task<TestConnectionAssignmentResponse> TestConnectionAssignment(TestConnectionAssignmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called testConnectionAssignment");
@@ -4936,7 +5107,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/TestPipelineConnection.cs.html">here</a> to see an example of how to use TestPipelineConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/TestPipelineConnection.cs.html">here</a> to see an example of how to use TestPipelineConnection API.</example>
         public async Task<TestPipelineConnectionResponse> TestPipelineConnection(TestPipelineConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called testPipelineConnection");
@@ -4993,7 +5164,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/UpdateConnection.cs.html">here</a> to see an example of how to use UpdateConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/UpdateConnection.cs.html">here</a> to see an example of how to use UpdateConnection API.</example>
         public async Task<UpdateConnectionResponse> UpdateConnection(UpdateConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateConnection");
@@ -5051,7 +5222,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/UpdateDatabaseRegistration.cs.html">here</a> to see an example of how to use UpdateDatabaseRegistration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/UpdateDatabaseRegistration.cs.html">here</a> to see an example of how to use UpdateDatabaseRegistration API.</example>
         public async Task<UpdateDatabaseRegistrationResponse> UpdateDatabaseRegistration(UpdateDatabaseRegistrationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDatabaseRegistration");
@@ -5108,7 +5279,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/UpdateDeployment.cs.html">here</a> to see an example of how to use UpdateDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/UpdateDeployment.cs.html">here</a> to see an example of how to use UpdateDeployment API.</example>
         public async Task<UpdateDeploymentResponse> UpdateDeployment(UpdateDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDeployment");
@@ -5165,7 +5336,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/UpdateDeploymentBackup.cs.html">here</a> to see an example of how to use UpdateDeploymentBackup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/UpdateDeploymentBackup.cs.html">here</a> to see an example of how to use UpdateDeploymentBackup API.</example>
         public async Task<UpdateDeploymentBackupResponse> UpdateDeploymentBackup(UpdateDeploymentBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDeploymentBackup");
@@ -5222,7 +5393,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/UpdatePipeline.cs.html">here</a> to see an example of how to use UpdatePipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/UpdatePipeline.cs.html">here</a> to see an example of how to use UpdatePipeline API.</example>
         public async Task<UpdatePipelineResponse> UpdatePipeline(UpdatePipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePipeline");
@@ -5279,7 +5450,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/UpgradeDeployment.cs.html">here</a> to see an example of how to use UpgradeDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/UpgradeDeployment.cs.html">here</a> to see an example of how to use UpgradeDeployment API.</example>
         public async Task<UpgradeDeploymentResponse> UpgradeDeployment(UpgradeDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called upgradeDeployment");
@@ -5336,7 +5507,7 @@ namespace Oci.GoldengateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/UpgradeDeploymentUpgrade.cs.html">here</a> to see an example of how to use UpgradeDeploymentUpgrade API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/UpgradeDeploymentUpgrade.cs.html">here</a> to see an example of how to use UpgradeDeploymentUpgrade API.</example>
         public async Task<UpgradeDeploymentUpgradeResponse> UpgradeDeploymentUpgrade(UpgradeDeploymentUpgradeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called upgradeDeploymentUpgrade");

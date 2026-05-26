@@ -14,7 +14,7 @@ using Oci.DatacatalogService.Models;
 namespace Oci.DatacatalogService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datacatalog/SynchronousExportDataAsset.cs.html">here</a> to see an example of how to use SynchronousExportDataAsset request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datacatalog/SynchronousExportDataAsset.cs.html">here</a> to see an example of how to use SynchronousExportDataAsset request.
     /// </example>
     public class SynchronousExportDataAssetRequest : Oci.Common.IOciRequest
     {

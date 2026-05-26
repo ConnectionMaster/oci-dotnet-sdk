@@ -14,7 +14,7 @@ namespace Oci.EmailService.Models
 {
   /// <summary>
   /// The reason that the email address was suppressed. For more information
-    /// on the types of bounces, see [Suppression List](https://docs.us-phoenix-1.oraclecloud.com/Content/Email/Concepts/overview.htm#components).
+    /// on the types of bounces, see [Suppression List](https://docs.oracle.com/iaas/Content/Email/Concepts/overview.htm#components).
     /// 
   /// </summary>
   public enum SuppressionReason {

@@ -14,13 +14,13 @@ using Oci.ArtifactsService.Models;
 namespace Oci.ArtifactsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/artifacts/UpdateGenericArtifact.cs.html">here</a> to see an example of how to use UpdateGenericArtifact request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/artifacts/UpdateGenericArtifact.cs.html">here</a> to see an example of how to use UpdateGenericArtifact request.
     /// </example>
     public class UpdateGenericArtifactRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the artifact.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the artifact.
         /// <br/>
         /// Example: ocid1.genericartifact.oc1..exampleuniqueID
         /// </value>
@@ -32,7 +32,7 @@ namespace Oci.ArtifactsService.Requests
         public string ArtifactId { get; set; }
         
         /// <value>
-        /// Updates the artifact with the specified [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). You can only update the tags of an artifact.
+        /// Updates the artifact with the specified [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). You can only update the tags of an artifact.
         /// </value>
         /// <remarks>
         /// Required

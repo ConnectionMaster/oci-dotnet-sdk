@@ -14,7 +14,7 @@ using Oci.AilanguageService.Models;
 namespace Oci.AilanguageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListEvaluationResults.cs.html">here</a> to see an example of how to use ListEvaluationResults request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListEvaluationResults.cs.html">here</a> to see an example of how to use ListEvaluationResults request.
     /// </example>
     public class ListEvaluationResultsRequest : Oci.Common.IOciRequest
     {

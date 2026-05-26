@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListVmClusterPatches.cs.html">here</a> to see an example of how to use ListVmClusterPatches request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListVmClusterPatches.cs.html">here</a> to see an example of how to use ListVmClusterPatches request.
     /// </example>
     public class ListVmClusterPatchesRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The VM cluster [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The VM cluster [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

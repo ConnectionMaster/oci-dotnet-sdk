@@ -14,7 +14,7 @@ using Oci.OsubusageService.Models;
 namespace Oci.OsubusageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osubusage/ListComputedUsages.cs.html">here</a> to see an example of how to use ListComputedUsages request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osubusage/ListComputedUsages.cs.html">here</a> to see an example of how to use ListComputedUsages request.
     /// </example>
     public class ListComputedUsagesRequest : Oci.Common.IOciRequest
     {

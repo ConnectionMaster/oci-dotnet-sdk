@@ -14,13 +14,13 @@ using Oci.GoldengateService.Models;
 namespace Oci.GoldengateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListPipelineRunningProcesses.cs.html">here</a> to see an example of how to use ListPipelineRunningProcesses request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListPipelineRunningProcesses.cs.html">here</a> to see an example of how to use ListPipelineRunningProcesses request.
     /// </example>
     public class ListPipelineRunningProcessesRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the pipeline created.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the pipeline created.
         /// 
         /// </value>
         /// <remarks>

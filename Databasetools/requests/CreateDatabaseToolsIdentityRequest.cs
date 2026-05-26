@@ -14,7 +14,7 @@ using Oci.DatabasetoolsService.Models;
 namespace Oci.DatabasetoolsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetools/CreateDatabaseToolsIdentity.cs.html">here</a> to see an example of how to use CreateDatabaseToolsIdentity request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetools/CreateDatabaseToolsIdentity.cs.html">here</a> to see an example of how to use CreateDatabaseToolsIdentity request.
     /// </example>
     public class CreateDatabaseToolsIdentityRequest : Oci.Common.IOciRequest
     {

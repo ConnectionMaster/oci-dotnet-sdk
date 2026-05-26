@@ -14,13 +14,13 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ConnectRemotePeeringConnections.cs.html">here</a> to see an example of how to use ConnectRemotePeeringConnections request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ConnectRemotePeeringConnections.cs.html">here</a> to see an example of how to use ConnectRemotePeeringConnections request.
     /// </example>
     public class ConnectRemotePeeringConnectionsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the remote peering connection (RPC).
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the remote peering connection (RPC).
         /// </value>
         /// <remarks>
         /// Required

@@ -19,7 +19,7 @@ namespace Oci.MysqlService.Models
     /// The shape of the DB System. The shape determines resources to allocate
     /// to the DB System - CPU cores and memory for VM shapes; CPU cores, memory
     /// and storage for non-VM (or bare metal) shapes.  For a description of
-    /// shapes, see [DB System Shape Options](https://docs.cloud.oracle.com/mysql-database/doc/shapes.htm).
+    /// shapes, see [DB System Shape Options](https://docs.oracle.com/mysql-database/doc/shapes.htm).
     /// 
     /// </summary>
     public class ShapeSummary 

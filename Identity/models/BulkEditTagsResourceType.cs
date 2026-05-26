@@ -35,8 +35,8 @@ namespace Oci.IdentityService.Models
         /// <br/>
         /// For example, for a bucket, the value of `metadataKeys` will be [\"namespaceName\", \"bucketName\"].
         /// This information will match the API documentation.
-        /// See [UpdateBucket](https://docs.cloud.oracle.com/api/#/en/objectstorage/latest/Bucket/UpdateBucket) and
-        /// [DeleteBucket](https://docs.cloud.oracle.com/api/#/en/objectstorage/latest/Bucket/DeleteBucket).
+        /// See [UpdateBucket](https://docs.oracle.com/iaas/api/#/en/objectstorage/latest/Bucket/UpdateBucket) and
+        /// [DeleteBucket](https://docs.oracle.com/iaas/api/#/en/objectstorage/latest/Bucket/DeleteBucket).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "metadataKeys")]

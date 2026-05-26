@@ -14,7 +14,7 @@ using Oci.OperatoraccesscontrolService.Models;
 namespace Oci.OperatoraccesscontrolService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/DeleteOperatorControl.cs.html">here</a> to see an example of how to use DeleteOperatorControl request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/DeleteOperatorControl.cs.html">here</a> to see an example of how to use DeleteOperatorControl request.
     /// </example>
     public class DeleteOperatorControlRequest : Oci.Common.IOciRequest
     {

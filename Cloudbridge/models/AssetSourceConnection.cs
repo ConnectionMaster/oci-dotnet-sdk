@@ -33,7 +33,7 @@ namespace Oci.CloudbridgeService.Models
         public System.Nullable<AssetSourceConnectionType> ConnectionType { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the cloud bridge connector used for migration operations.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cloud bridge connector used for migration operations.
         /// </value>
         /// <remarks>
         /// Required

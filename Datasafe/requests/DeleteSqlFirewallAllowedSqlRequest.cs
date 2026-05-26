@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSqlFirewallAllowedSql.cs.html">here</a> to see an example of how to use DeleteSqlFirewallAllowedSql request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSqlFirewallAllowedSql.cs.html">here</a> to see an example of how to use DeleteSqlFirewallAllowedSql request.
     /// </example>
     public class DeleteSqlFirewallAllowedSqlRequest : Oci.Common.IOciRequest
     {

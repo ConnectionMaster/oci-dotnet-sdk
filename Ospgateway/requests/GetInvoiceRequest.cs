@@ -14,7 +14,7 @@ using Oci.OspgatewayService.Models;
 namespace Oci.OspgatewayService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/GetInvoice.cs.html">here</a> to see an example of how to use GetInvoice request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/GetInvoice.cs.html">here</a> to see an example of how to use GetInvoice request.
     /// </example>
     public class GetInvoiceRequest : Oci.Common.IOciRequest
     {
@@ -31,7 +31,7 @@ namespace Oci.OspgatewayService.Requests
         public string OspHomeRegion { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
         /// 
         /// </value>
         /// <remarks>

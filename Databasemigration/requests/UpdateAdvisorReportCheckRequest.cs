@@ -14,7 +14,7 @@ using Oci.DatabasemigrationService.Models;
 namespace Oci.DatabasemigrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/UpdateAdvisorReportCheck.cs.html">here</a> to see an example of how to use UpdateAdvisorReportCheck request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/UpdateAdvisorReportCheck.cs.html">here</a> to see an example of how to use UpdateAdvisorReportCheck request.
     /// </example>
     public class UpdateAdvisorReportCheckRequest : Oci.Common.IOciRequest
     {

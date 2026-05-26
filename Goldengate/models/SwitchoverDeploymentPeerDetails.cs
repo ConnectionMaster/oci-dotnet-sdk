@@ -41,6 +41,26 @@ namespace Oci.GoldengateService.Models
         [Required(ErrorMessage = "FaultDomain is required.")]
         [JsonProperty(PropertyName = "faultDomain")]
         public string FaultDomain { get; set; }
+                ///
+        /// <value>
+        /// Specifies the switchover mode. SWITCHOVER performs a planned role transition to the standby; FAILOVER performs a forced promotion when the primary is not available.
+        /// 
+        /// </value>
+        ///
+        public enum ModeEnum {
+            [EnumMember(Value = "SWITCHOVER")]
+            Switchover,
+            [EnumMember(Value = "FAILOVER")]
+            Failover
+        };
+
+        /// <value>
+        /// Specifies the switchover mode. SWITCHOVER performs a planned role transition to the standby; FAILOVER performs a forced promotion when the primary is not available.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "mode")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<ModeEnum> Mode { get; set; }
         
     }
 }

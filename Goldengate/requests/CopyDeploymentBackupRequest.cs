@@ -14,7 +14,7 @@ using Oci.GoldengateService.Models;
 namespace Oci.GoldengateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CopyDeploymentBackup.cs.html">here</a> to see an example of how to use CopyDeploymentBackup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CopyDeploymentBackup.cs.html">here</a> to see an example of how to use CopyDeploymentBackup request.
     /// </example>
     public class CopyDeploymentBackupRequest : Oci.Common.IOciRequest
     {

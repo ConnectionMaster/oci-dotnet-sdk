@@ -14,7 +14,7 @@ using Oci.ResourcemanagerService.Models;
 namespace Oci.ResourcemanagerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/CreatePrivateEndpoint.cs.html">here</a> to see an example of how to use CreatePrivateEndpoint request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/CreatePrivateEndpoint.cs.html">here</a> to see an example of how to use CreatePrivateEndpoint request.
     /// </example>
     public class CreatePrivateEndpointRequest : Oci.Common.IOciRequest
     {

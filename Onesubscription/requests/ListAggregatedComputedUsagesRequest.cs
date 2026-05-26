@@ -14,7 +14,7 @@ using Oci.OnesubscriptionService.Models;
 namespace Oci.OnesubscriptionService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/onesubscription/ListAggregatedComputedUsages.cs.html">here</a> to see an example of how to use ListAggregatedComputedUsages request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/onesubscription/ListAggregatedComputedUsages.cs.html">here</a> to see an example of how to use ListAggregatedComputedUsages request.
     /// </example>
     public class ListAggregatedComputedUsagesRequest : Oci.Common.IOciRequest
     {

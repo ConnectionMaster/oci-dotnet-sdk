@@ -14,7 +14,7 @@ using Oci.FusionappsService.Models;
 namespace Oci.FusionappsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetRefreshActivity.cs.html">here</a> to see an example of how to use GetRefreshActivity request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetRefreshActivity.cs.html">here</a> to see an example of how to use GetRefreshActivity request.
     /// </example>
     public class GetRefreshActivityRequest : Oci.Common.IOciRequest
     {

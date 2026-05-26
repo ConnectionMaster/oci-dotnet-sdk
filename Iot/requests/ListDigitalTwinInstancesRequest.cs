@@ -14,13 +14,13 @@ using Oci.IotService.Models;
 namespace Oci.IotService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListDigitalTwinInstances.cs.html">here</a> to see an example of how to use ListDigitalTwinInstances request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListDigitalTwinInstances.cs.html">here</a> to see an example of how to use ListDigitalTwinInstances request.
     /// </example>
     public class ListDigitalTwinInstancesRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the IoT domain in which to list digital twin resources.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the IoT domain in which to list digital twin resources.
         /// 
         /// </value>
         /// <remarks>
@@ -40,7 +40,7 @@ namespace Oci.IotService.Requests
         /// <value>
         /// For list pagination. The maximum number of results per page, or items to return in a
         /// paginated \"List\" call. For important details about how pagination works, see
-        /// [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "limit")]
@@ -108,7 +108,7 @@ namespace Oci.IotService.Requests
         public string OpcRequestId { get; set; }
         
         /// <value>
-        /// Filter resources that match the specified [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the digital twin model.
+        /// Filter resources that match the specified [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the digital twin model.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "digitalTwinModelId")]
@@ -129,7 +129,7 @@ namespace Oci.IotService.Requests
         public System.Nullable<DigitalTwinInstanceConnectivityType> ConnectivityType { get; set; }
         
         /// <value>
-        /// Filter resources by [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Must be a valid OCID of the resource type.
+        /// Filter resources by [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Must be a valid OCID of the resource type.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "id")]

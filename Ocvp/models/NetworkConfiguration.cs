@@ -17,14 +17,14 @@ namespace Oci.OcvpService.Models
 {
     /// <summary>
     /// The network configurations used by Cluster, including
-    /// [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the management subnet and VLANs.
+    /// [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the management subnet and VLANs.
     /// 
     /// </summary>
     public class NetworkConfiguration 
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the management subnet used
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the management subnet used
         /// to provision the Cluster.
         /// 
         /// </value>
@@ -36,7 +36,7 @@ namespace Oci.OcvpService.Models
         public string ProvisioningSubnetId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VLAN used by the SDDC
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN used by the SDDC
         /// for the vSphere component of the VMware environment. This VLAN is a mandatory attribute
         /// for Management Cluster.
         /// <br/>
@@ -56,7 +56,7 @@ namespace Oci.OcvpService.Models
         public string VsphereVlanId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VLAN used by the Cluster
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN used by the Cluster
         /// for the vMotion component of the VMware environment.
         /// <br/>
         /// This attribute is not guaranteed to reflect the vMotion VLAN
@@ -79,7 +79,7 @@ namespace Oci.OcvpService.Models
         public string VmotionVlanId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VLAN used by the Cluster
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN used by the Cluster
         /// for the vSAN component of the VMware environment.
         /// <br/>
         /// This attribute is not guaranteed to reflect the vSAN VLAN
@@ -102,7 +102,7 @@ namespace Oci.OcvpService.Models
         public string VsanVlanId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VLAN used by the Cluster
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN used by the Cluster
         /// for the NSX VTEP component of the VMware environment.
         /// <br/>
         /// This attribute is not guaranteed to reflect the NSX VTEP VLAN
@@ -125,7 +125,7 @@ namespace Oci.OcvpService.Models
         public string NsxVTepVlanId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VLAN used by the Cluster
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN used by the Cluster
         /// for the NSX Edge VTEP component of the VMware environment.
         /// <br/>
         /// This attribute is not guaranteed to reflect the NSX Edge VTEP VLAN
@@ -148,7 +148,7 @@ namespace Oci.OcvpService.Models
         public string NsxEdgeVTepVlanId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VLAN used by the SDDC
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN used by the SDDC
         /// for the NSX Edge Uplink 1 component of the VMware environment. This VLAN is a mandatory
         /// attribute for Management Cluster.
         /// <br/>
@@ -168,7 +168,7 @@ namespace Oci.OcvpService.Models
         public string NsxEdgeUplink1VlanId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VLAN used by the SDDC 
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN used by the SDDC 
         /// for the NSX Edge Uplink 2 component of the VMware environment. This VLAN is a mandatory
         /// attribute for Management Cluster.
         /// <br/>
@@ -188,7 +188,7 @@ namespace Oci.OcvpService.Models
         public string NsxEdgeUplink2VlanId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VLAN used by the Cluster
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN used by the Cluster
         /// for the vSphere Replication component of the VMware environment.
         /// 
         /// </value>
@@ -196,7 +196,7 @@ namespace Oci.OcvpService.Models
         public string ReplicationVlanId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VLAN used by the Cluster
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN used by the Cluster
         /// for the Provisioning component of the VMware environment.
         /// 
         /// </value>
@@ -204,7 +204,7 @@ namespace Oci.OcvpService.Models
         public string ProvisioningVlanId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VLAN used by the SDDC
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN used by the SDDC
         /// for the HCX component of the VMware environment. This VLAN is a mandatory attribute 
         /// for Management Cluster when HCX is enabled.
         /// <br/>

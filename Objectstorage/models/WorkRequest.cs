@@ -84,7 +84,7 @@ namespace Oci.ObjectstorageService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment that contains the work request. Work
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the work request. Work
         /// requests are scoped to the same compartment as the resource the work request affects.
         /// <br/>
         /// If the work request affects multiple resources and those resources are not in the same compartment, the OCID of

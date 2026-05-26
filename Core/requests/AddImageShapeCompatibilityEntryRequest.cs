@@ -14,13 +14,13 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddImageShapeCompatibilityEntry.cs.html">here</a> to see an example of how to use AddImageShapeCompatibilityEntry request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddImageShapeCompatibilityEntry.cs.html">here</a> to see an example of how to use AddImageShapeCompatibilityEntry request.
     /// </example>
     public class AddImageShapeCompatibilityEntryRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the image.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the image.
         /// </value>
         /// <remarks>
         /// Required

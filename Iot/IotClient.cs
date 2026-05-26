@@ -74,7 +74,7 @@ namespace Oci.IotService
 
         /// <summary>
         /// Moves an IoT domain to a different compartment within the same tenancy. For information about moving resources between
-        /// compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -82,7 +82,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ChangeIotDomainCompartment.cs.html">here</a> to see an example of how to use ChangeIotDomainCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ChangeIotDomainCompartment.cs.html">here</a> to see an example of how to use ChangeIotDomainCompartment API.</example>
         public async Task<ChangeIotDomainCompartmentResponse> ChangeIotDomainCompartment(ChangeIotDomainCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeIotDomainCompartment");
@@ -139,7 +139,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ChangeIotDomainDataRetentionPeriod.cs.html">here</a> to see an example of how to use ChangeIotDomainDataRetentionPeriod API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ChangeIotDomainDataRetentionPeriod.cs.html">here</a> to see an example of how to use ChangeIotDomainDataRetentionPeriod API.</example>
         public async Task<ChangeIotDomainDataRetentionPeriodResponse> ChangeIotDomainDataRetentionPeriod(ChangeIotDomainDataRetentionPeriodRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeIotDomainDataRetentionPeriod");
@@ -189,7 +189,7 @@ namespace Oci.IotService
 
         /// <summary>
         /// Moves an IoT domain group to a different compartment within the same tenancy. For information about moving resources between
-        /// compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -197,7 +197,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ChangeIotDomainGroupCompartment.cs.html">here</a> to see an example of how to use ChangeIotDomainGroupCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ChangeIotDomainGroupCompartment.cs.html">here</a> to see an example of how to use ChangeIotDomainGroupCompartment API.</example>
         public async Task<ChangeIotDomainGroupCompartmentResponse> ChangeIotDomainGroupCompartment(ChangeIotDomainGroupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeIotDomainGroupCompartment");
@@ -254,7 +254,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ConfigureIotDomainDataAccess.cs.html">here</a> to see an example of how to use ConfigureIotDomainDataAccess API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ConfigureIotDomainDataAccess.cs.html">here</a> to see an example of how to use ConfigureIotDomainDataAccess API.</example>
         public async Task<ConfigureIotDomainDataAccessResponse> ConfigureIotDomainDataAccess(ConfigureIotDomainDataAccessRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called configureIotDomainDataAccess");
@@ -311,7 +311,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ConfigureIotDomainGroupDataAccess.cs.html">here</a> to see an example of how to use ConfigureIotDomainGroupDataAccess API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ConfigureIotDomainGroupDataAccess.cs.html">here</a> to see an example of how to use ConfigureIotDomainGroupDataAccess API.</example>
         public async Task<ConfigureIotDomainGroupDataAccessResponse> ConfigureIotDomainGroupDataAccess(ConfigureIotDomainGroupDataAccessRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called configureIotDomainGroupDataAccess");
@@ -367,7 +367,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/CreateDigitalTwinAdapter.cs.html">here</a> to see an example of how to use CreateDigitalTwinAdapter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/CreateDigitalTwinAdapter.cs.html">here</a> to see an example of how to use CreateDigitalTwinAdapter API.</example>
         public async Task<CreateDigitalTwinAdapterResponse> CreateDigitalTwinAdapter(CreateDigitalTwinAdapterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDigitalTwinAdapter");
@@ -424,7 +424,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/CreateDigitalTwinInstance.cs.html">here</a> to see an example of how to use CreateDigitalTwinInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/CreateDigitalTwinInstance.cs.html">here</a> to see an example of how to use CreateDigitalTwinInstance API.</example>
         public async Task<CreateDigitalTwinInstanceResponse> CreateDigitalTwinInstance(CreateDigitalTwinInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDigitalTwinInstance");
@@ -481,7 +481,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/CreateDigitalTwinModel.cs.html">here</a> to see an example of how to use CreateDigitalTwinModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/CreateDigitalTwinModel.cs.html">here</a> to see an example of how to use CreateDigitalTwinModel API.</example>
         public async Task<CreateDigitalTwinModelResponse> CreateDigitalTwinModel(CreateDigitalTwinModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDigitalTwinModel");
@@ -538,7 +538,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/CreateDigitalTwinRelationship.cs.html">here</a> to see an example of how to use CreateDigitalTwinRelationship API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/CreateDigitalTwinRelationship.cs.html">here</a> to see an example of how to use CreateDigitalTwinRelationship API.</example>
         public async Task<CreateDigitalTwinRelationshipResponse> CreateDigitalTwinRelationship(CreateDigitalTwinRelationshipRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDigitalTwinRelationship");
@@ -595,7 +595,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/CreateIotDomain.cs.html">here</a> to see an example of how to use CreateIotDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/CreateIotDomain.cs.html">here</a> to see an example of how to use CreateIotDomain API.</example>
         public async Task<CreateIotDomainResponse> CreateIotDomain(CreateIotDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createIotDomain");
@@ -652,7 +652,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/CreateIotDomainGroup.cs.html">here</a> to see an example of how to use CreateIotDomainGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/CreateIotDomainGroup.cs.html">here</a> to see an example of how to use CreateIotDomainGroup API.</example>
         public async Task<CreateIotDomainGroupResponse> CreateIotDomainGroup(CreateIotDomainGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createIotDomainGroup");
@@ -708,7 +708,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/DeleteDigitalTwinAdapter.cs.html">here</a> to see an example of how to use DeleteDigitalTwinAdapter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/DeleteDigitalTwinAdapter.cs.html">here</a> to see an example of how to use DeleteDigitalTwinAdapter API.</example>
         public async Task<DeleteDigitalTwinAdapterResponse> DeleteDigitalTwinAdapter(DeleteDigitalTwinAdapterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDigitalTwinAdapter");
@@ -764,7 +764,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/DeleteDigitalTwinInstance.cs.html">here</a> to see an example of how to use DeleteDigitalTwinInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/DeleteDigitalTwinInstance.cs.html">here</a> to see an example of how to use DeleteDigitalTwinInstance API.</example>
         public async Task<DeleteDigitalTwinInstanceResponse> DeleteDigitalTwinInstance(DeleteDigitalTwinInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDigitalTwinInstance");
@@ -820,7 +820,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/DeleteDigitalTwinModel.cs.html">here</a> to see an example of how to use DeleteDigitalTwinModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/DeleteDigitalTwinModel.cs.html">here</a> to see an example of how to use DeleteDigitalTwinModel API.</example>
         public async Task<DeleteDigitalTwinModelResponse> DeleteDigitalTwinModel(DeleteDigitalTwinModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDigitalTwinModel");
@@ -876,7 +876,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/DeleteDigitalTwinRelationship.cs.html">here</a> to see an example of how to use DeleteDigitalTwinRelationship API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/DeleteDigitalTwinRelationship.cs.html">here</a> to see an example of how to use DeleteDigitalTwinRelationship API.</example>
         public async Task<DeleteDigitalTwinRelationshipResponse> DeleteDigitalTwinRelationship(DeleteDigitalTwinRelationshipRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDigitalTwinRelationship");
@@ -932,7 +932,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/DeleteIotDomain.cs.html">here</a> to see an example of how to use DeleteIotDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/DeleteIotDomain.cs.html">here</a> to see an example of how to use DeleteIotDomain API.</example>
         public async Task<DeleteIotDomainResponse> DeleteIotDomain(DeleteIotDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteIotDomain");
@@ -988,7 +988,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/DeleteIotDomainGroup.cs.html">here</a> to see an example of how to use DeleteIotDomainGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/DeleteIotDomainGroup.cs.html">here</a> to see an example of how to use DeleteIotDomainGroup API.</example>
         public async Task<DeleteIotDomainGroupResponse> DeleteIotDomainGroup(DeleteIotDomainGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteIotDomainGroup");
@@ -1044,7 +1044,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetDigitalTwinAdapter.cs.html">here</a> to see an example of how to use GetDigitalTwinAdapter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetDigitalTwinAdapter.cs.html">here</a> to see an example of how to use GetDigitalTwinAdapter API.</example>
         public async Task<GetDigitalTwinAdapterResponse> GetDigitalTwinAdapter(GetDigitalTwinAdapterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDigitalTwinAdapter");
@@ -1100,7 +1100,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetDigitalTwinInstance.cs.html">here</a> to see an example of how to use GetDigitalTwinInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetDigitalTwinInstance.cs.html">here</a> to see an example of how to use GetDigitalTwinInstance API.</example>
         public async Task<GetDigitalTwinInstanceResponse> GetDigitalTwinInstance(GetDigitalTwinInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDigitalTwinInstance");
@@ -1158,7 +1158,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetDigitalTwinInstanceContent.cs.html">here</a> to see an example of how to use GetDigitalTwinInstanceContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetDigitalTwinInstanceContent.cs.html">here</a> to see an example of how to use GetDigitalTwinInstanceContent API.</example>
         public async Task<GetDigitalTwinInstanceContentResponse> GetDigitalTwinInstanceContent(GetDigitalTwinInstanceContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDigitalTwinInstanceContent");
@@ -1214,7 +1214,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetDigitalTwinModel.cs.html">here</a> to see an example of how to use GetDigitalTwinModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetDigitalTwinModel.cs.html">here</a> to see an example of how to use GetDigitalTwinModel API.</example>
         public async Task<GetDigitalTwinModelResponse> GetDigitalTwinModel(GetDigitalTwinModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDigitalTwinModel");
@@ -1270,7 +1270,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetDigitalTwinModelSpec.cs.html">here</a> to see an example of how to use GetDigitalTwinModelSpec API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetDigitalTwinModelSpec.cs.html">here</a> to see an example of how to use GetDigitalTwinModelSpec API.</example>
         public async Task<GetDigitalTwinModelSpecResponse> GetDigitalTwinModelSpec(GetDigitalTwinModelSpecRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDigitalTwinModelSpec");
@@ -1326,7 +1326,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetDigitalTwinRelationship.cs.html">here</a> to see an example of how to use GetDigitalTwinRelationship API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetDigitalTwinRelationship.cs.html">here</a> to see an example of how to use GetDigitalTwinRelationship API.</example>
         public async Task<GetDigitalTwinRelationshipResponse> GetDigitalTwinRelationship(GetDigitalTwinRelationshipRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDigitalTwinRelationship");
@@ -1382,7 +1382,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetIotDomain.cs.html">here</a> to see an example of how to use GetIotDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetIotDomain.cs.html">here</a> to see an example of how to use GetIotDomain API.</example>
         public async Task<GetIotDomainResponse> GetIotDomain(GetIotDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIotDomain");
@@ -1438,7 +1438,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetIotDomainGroup.cs.html">here</a> to see an example of how to use GetIotDomainGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetIotDomainGroup.cs.html">here</a> to see an example of how to use GetIotDomainGroup API.</example>
         public async Task<GetIotDomainGroupResponse> GetIotDomainGroup(GetIotDomainGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIotDomainGroup");
@@ -1494,7 +1494,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -1551,7 +1551,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/InvokeRawCommand.cs.html">here</a> to see an example of how to use InvokeRawCommand API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/InvokeRawCommand.cs.html">here</a> to see an example of how to use InvokeRawCommand API.</example>
         public async Task<InvokeRawCommandResponse> InvokeRawCommand(InvokeRawCommandRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called invokeRawCommand");
@@ -1608,7 +1608,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListDigitalTwinAdapters.cs.html">here</a> to see an example of how to use ListDigitalTwinAdapters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListDigitalTwinAdapters.cs.html">here</a> to see an example of how to use ListDigitalTwinAdapters API.</example>
         public async Task<ListDigitalTwinAdaptersResponse> ListDigitalTwinAdapters(ListDigitalTwinAdaptersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDigitalTwinAdapters");
@@ -1665,7 +1665,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListDigitalTwinInstances.cs.html">here</a> to see an example of how to use ListDigitalTwinInstances API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListDigitalTwinInstances.cs.html">here</a> to see an example of how to use ListDigitalTwinInstances API.</example>
         public async Task<ListDigitalTwinInstancesResponse> ListDigitalTwinInstances(ListDigitalTwinInstancesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDigitalTwinInstances");
@@ -1722,7 +1722,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListDigitalTwinModels.cs.html">here</a> to see an example of how to use ListDigitalTwinModels API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListDigitalTwinModels.cs.html">here</a> to see an example of how to use ListDigitalTwinModels API.</example>
         public async Task<ListDigitalTwinModelsResponse> ListDigitalTwinModels(ListDigitalTwinModelsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDigitalTwinModels");
@@ -1779,7 +1779,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListDigitalTwinRelationships.cs.html">here</a> to see an example of how to use ListDigitalTwinRelationships API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListDigitalTwinRelationships.cs.html">here</a> to see an example of how to use ListDigitalTwinRelationships API.</example>
         public async Task<ListDigitalTwinRelationshipsResponse> ListDigitalTwinRelationships(ListDigitalTwinRelationshipsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDigitalTwinRelationships");
@@ -1836,7 +1836,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListIotDomainGroups.cs.html">here</a> to see an example of how to use ListIotDomainGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListIotDomainGroups.cs.html">here</a> to see an example of how to use ListIotDomainGroups API.</example>
         public async Task<ListIotDomainGroupsResponse> ListIotDomainGroups(ListIotDomainGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIotDomainGroups");
@@ -1893,7 +1893,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListIotDomains.cs.html">here</a> to see an example of how to use ListIotDomains API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListIotDomains.cs.html">here</a> to see an example of how to use ListIotDomains API.</example>
         public async Task<ListIotDomainsResponse> ListIotDomains(ListIotDomainsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIotDomains");
@@ -1950,7 +1950,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -2007,7 +2007,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -2064,7 +2064,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -2120,7 +2120,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/UpdateDigitalTwinAdapter.cs.html">here</a> to see an example of how to use UpdateDigitalTwinAdapter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/UpdateDigitalTwinAdapter.cs.html">here</a> to see an example of how to use UpdateDigitalTwinAdapter API.</example>
         public async Task<UpdateDigitalTwinAdapterResponse> UpdateDigitalTwinAdapter(UpdateDigitalTwinAdapterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDigitalTwinAdapter");
@@ -2176,7 +2176,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/UpdateDigitalTwinInstance.cs.html">here</a> to see an example of how to use UpdateDigitalTwinInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/UpdateDigitalTwinInstance.cs.html">here</a> to see an example of how to use UpdateDigitalTwinInstance API.</example>
         public async Task<UpdateDigitalTwinInstanceResponse> UpdateDigitalTwinInstance(UpdateDigitalTwinInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDigitalTwinInstance");
@@ -2232,7 +2232,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/UpdateDigitalTwinModel.cs.html">here</a> to see an example of how to use UpdateDigitalTwinModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/UpdateDigitalTwinModel.cs.html">here</a> to see an example of how to use UpdateDigitalTwinModel API.</example>
         public async Task<UpdateDigitalTwinModelResponse> UpdateDigitalTwinModel(UpdateDigitalTwinModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDigitalTwinModel");
@@ -2288,7 +2288,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/UpdateDigitalTwinRelationship.cs.html">here</a> to see an example of how to use UpdateDigitalTwinRelationship API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/UpdateDigitalTwinRelationship.cs.html">here</a> to see an example of how to use UpdateDigitalTwinRelationship API.</example>
         public async Task<UpdateDigitalTwinRelationshipResponse> UpdateDigitalTwinRelationship(UpdateDigitalTwinRelationshipRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDigitalTwinRelationship");
@@ -2344,7 +2344,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/UpdateIotDomain.cs.html">here</a> to see an example of how to use UpdateIotDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/UpdateIotDomain.cs.html">here</a> to see an example of how to use UpdateIotDomain API.</example>
         public async Task<UpdateIotDomainResponse> UpdateIotDomain(UpdateIotDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateIotDomain");
@@ -2400,7 +2400,7 @@ namespace Oci.IotService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/UpdateIotDomainGroup.cs.html">here</a> to see an example of how to use UpdateIotDomainGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/UpdateIotDomainGroup.cs.html">here</a> to see an example of how to use UpdateIotDomainGroup API.</example>
         public async Task<UpdateIotDomainGroupResponse> UpdateIotDomainGroup(UpdateIotDomainGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateIotDomainGroup");

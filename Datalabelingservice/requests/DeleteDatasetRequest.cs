@@ -14,7 +14,7 @@ using Oci.DatalabelingService.Models;
 namespace Oci.DatalabelingService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datalabelingservice/DeleteDataset.cs.html">here</a> to see an example of how to use DeleteDataset request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datalabelingservice/DeleteDataset.cs.html">here</a> to see an example of how to use DeleteDataset request.
     /// </example>
     public class DeleteDatasetRequest : Oci.Common.IOciRequest
     {

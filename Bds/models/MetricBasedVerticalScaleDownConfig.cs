@@ -25,25 +25,25 @@ namespace Oci.BdsService.Models
         public AutoScalePolicyMetricRule Metric { get; set; }
         
         /// <value>
-        /// For nodes with [flexible compute shapes](https://docs.cloud.oracle.com/iaas/Content/bigdata/create-cluster.htm#cluster-plan-shape), this value is the minimum number of OCPUs each node can be scaled-down to. This value is not used for nodes with fixed compute shapes.
+        /// For nodes with [flexible compute shapes](https://docs.oracle.com/iaas/Content/bigdata/create-cluster.htm#cluster-plan-shape), this value is the minimum number of OCPUs each node can be scaled-down to. This value is not used for nodes with fixed compute shapes.
         /// </value>
         [JsonProperty(PropertyName = "minOcpusPerNode")]
         public System.Nullable<int> MinOcpusPerNode { get; set; }
         
         /// <value>
-        /// For nodes with [flexible compute shapes](https://docs.cloud.oracle.com/iaas/Content/bigdata/create-cluster.htm#cluster-plan-shape), this value is the minimum memory in GBs each node can be scaled-down to. This value is not used for nodes with fixed compute shapes.
+        /// For nodes with [flexible compute shapes](https://docs.oracle.com/iaas/Content/bigdata/create-cluster.htm#cluster-plan-shape), this value is the minimum memory in GBs each node can be scaled-down to. This value is not used for nodes with fixed compute shapes.
         /// </value>
         [JsonProperty(PropertyName = "minMemoryPerNode")]
         public System.Nullable<int> MinMemoryPerNode { get; set; }
         
         /// <value>
-        /// For nodes with [flexible compute shapes](https://docs.cloud.oracle.com/iaas/Content/bigdata/create-cluster.htm#cluster-plan-shape), this value is the number of OCPUs to remove from each node during a scale-down event. This value is not used for nodes with fixed compute shapes.
+        /// For nodes with [flexible compute shapes](https://docs.oracle.com/iaas/Content/bigdata/create-cluster.htm#cluster-plan-shape), this value is the number of OCPUs to remove from each node during a scale-down event. This value is not used for nodes with fixed compute shapes.
         /// </value>
         [JsonProperty(PropertyName = "ocpuStepSize")]
         public System.Nullable<int> OcpuStepSize { get; set; }
         
         /// <value>
-        /// For nodes with [flexible compute shapes](https://docs.cloud.oracle.com/iaas/Content/bigdata/create-cluster.htm#cluster-plan-shape), this value is the size of memory in GBs to remove from each node during a scale-down event. This value is not used for nodes with fixed compute shapes.
+        /// For nodes with [flexible compute shapes](https://docs.oracle.com/iaas/Content/bigdata/create-cluster.htm#cluster-plan-shape), this value is the size of memory in GBs to remove from each node during a scale-down event. This value is not used for nodes with fixed compute shapes.
         /// </value>
         [JsonProperty(PropertyName = "memoryStepSize")]
         public System.Nullable<int> MemoryStepSize { get; set; }

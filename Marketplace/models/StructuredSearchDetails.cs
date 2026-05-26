@@ -17,7 +17,7 @@ namespace Oci.MarketplaceService.Models
 {
     /// <summary>
     /// A request that uses Search's structured query language to specify filter conditions to 
-    /// apply to search listings. For more information about writing search queries, see [Search Language Syntax](https://docs.cloud.oracle.com/Content/Search/Concepts/querysyntax.htm).
+    /// apply to search listings. For more information about writing search queries, see [Search Language Syntax](https://docs.oracle.com/iaas/Content/Search/Concepts/querysyntax.htm).
     /// 
     /// </summary>
     public class StructuredSearchDetails : SearchListingsDetails

@@ -81,7 +81,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ApproveDelegatedResourceAccessRequest.cs.html">here</a> to see an example of how to use ApproveDelegatedResourceAccessRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ApproveDelegatedResourceAccessRequest.cs.html">here</a> to see an example of how to use ApproveDelegatedResourceAccessRequest API.</example>
         public async Task<ApproveDelegatedResourceAccessRequestResponse> ApproveDelegatedResourceAccessRequest(ApproveDelegatedResourceAccessRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called approveDelegatedResourceAccessRequest");
@@ -138,7 +138,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ChangeDelegationControlCompartment.cs.html">here</a> to see an example of how to use ChangeDelegationControlCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ChangeDelegationControlCompartment.cs.html">here</a> to see an example of how to use ChangeDelegationControlCompartment API.</example>
         public async Task<ChangeDelegationControlCompartmentResponse> ChangeDelegationControlCompartment(ChangeDelegationControlCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDelegationControlCompartment");
@@ -195,7 +195,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ChangeDelegationSubscriptionCompartment.cs.html">here</a> to see an example of how to use ChangeDelegationSubscriptionCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ChangeDelegationSubscriptionCompartment.cs.html">here</a> to see an example of how to use ChangeDelegationSubscriptionCompartment API.</example>
         public async Task<ChangeDelegationSubscriptionCompartmentResponse> ChangeDelegationSubscriptionCompartment(ChangeDelegationSubscriptionCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDelegationSubscriptionCompartment");
@@ -252,7 +252,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/CreateDelegationControl.cs.html">here</a> to see an example of how to use CreateDelegationControl API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/CreateDelegationControl.cs.html">here</a> to see an example of how to use CreateDelegationControl API.</example>
         public async Task<CreateDelegationControlResponse> CreateDelegationControl(CreateDelegationControlRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDelegationControl");
@@ -309,7 +309,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/CreateDelegationSubscription.cs.html">here</a> to see an example of how to use CreateDelegationSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/CreateDelegationSubscription.cs.html">here</a> to see an example of how to use CreateDelegationSubscription API.</example>
         public async Task<CreateDelegationSubscriptionResponse> CreateDelegationSubscription(CreateDelegationSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDelegationSubscription");
@@ -370,7 +370,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/DeleteDelegationControl.cs.html">here</a> to see an example of how to use DeleteDelegationControl API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/DeleteDelegationControl.cs.html">here</a> to see an example of how to use DeleteDelegationControl API.</example>
         public async Task<DeleteDelegationControlResponse> DeleteDelegationControl(DeleteDelegationControlRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDelegationControl");
@@ -426,7 +426,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/DeleteDelegationSubscription.cs.html">here</a> to see an example of how to use DeleteDelegationSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/DeleteDelegationSubscription.cs.html">here</a> to see an example of how to use DeleteDelegationSubscription API.</example>
         public async Task<DeleteDelegationSubscriptionResponse> DeleteDelegationSubscription(DeleteDelegationSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDelegationSubscription");
@@ -482,7 +482,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/GetDelegatedResourceAccessRequest.cs.html">here</a> to see an example of how to use GetDelegatedResourceAccessRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/GetDelegatedResourceAccessRequest.cs.html">here</a> to see an example of how to use GetDelegatedResourceAccessRequest API.</example>
         public async Task<GetDelegatedResourceAccessRequestResponse> GetDelegatedResourceAccessRequest(GetDelegatedResourceAccessRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDelegatedResourceAccessRequest");
@@ -538,7 +538,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/GetDelegatedResourceAccessRequestAuditLogReport.cs.html">here</a> to see an example of how to use GetDelegatedResourceAccessRequestAuditLogReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/GetDelegatedResourceAccessRequestAuditLogReport.cs.html">here</a> to see an example of how to use GetDelegatedResourceAccessRequestAuditLogReport API.</example>
         public async Task<GetDelegatedResourceAccessRequestAuditLogReportResponse> GetDelegatedResourceAccessRequestAuditLogReport(GetDelegatedResourceAccessRequestAuditLogReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDelegatedResourceAccessRequestAuditLogReport");
@@ -594,7 +594,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/GetDelegationControl.cs.html">here</a> to see an example of how to use GetDelegationControl API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/GetDelegationControl.cs.html">here</a> to see an example of how to use GetDelegationControl API.</example>
         public async Task<GetDelegationControlResponse> GetDelegationControl(GetDelegationControlRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDelegationControl");
@@ -650,7 +650,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/GetDelegationSubscription.cs.html">here</a> to see an example of how to use GetDelegationSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/GetDelegationSubscription.cs.html">here</a> to see an example of how to use GetDelegationSubscription API.</example>
         public async Task<GetDelegationSubscriptionResponse> GetDelegationSubscription(GetDelegationSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDelegationSubscription");
@@ -706,7 +706,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/GetServiceProvider.cs.html">here</a> to see an example of how to use GetServiceProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/GetServiceProvider.cs.html">here</a> to see an example of how to use GetServiceProvider API.</example>
         public async Task<GetServiceProviderResponse> GetServiceProvider(GetServiceProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getServiceProvider");
@@ -762,7 +762,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/GetServiceProviderAction.cs.html">here</a> to see an example of how to use GetServiceProviderAction API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/GetServiceProviderAction.cs.html">here</a> to see an example of how to use GetServiceProviderAction API.</example>
         public async Task<GetServiceProviderActionResponse> GetServiceProviderAction(GetServiceProviderActionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getServiceProviderAction");
@@ -819,7 +819,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListDelegatedResourceAccessRequestHistories.cs.html">here</a> to see an example of how to use ListDelegatedResourceAccessRequestHistories API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListDelegatedResourceAccessRequestHistories.cs.html">here</a> to see an example of how to use ListDelegatedResourceAccessRequestHistories API.</example>
         public async Task<ListDelegatedResourceAccessRequestHistoriesResponse> ListDelegatedResourceAccessRequestHistories(ListDelegatedResourceAccessRequestHistoriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDelegatedResourceAccessRequestHistories");
@@ -876,7 +876,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListDelegatedResourceAccessRequests.cs.html">here</a> to see an example of how to use ListDelegatedResourceAccessRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListDelegatedResourceAccessRequests.cs.html">here</a> to see an example of how to use ListDelegatedResourceAccessRequests API.</example>
         public async Task<ListDelegatedResourceAccessRequestsResponse> ListDelegatedResourceAccessRequests(ListDelegatedResourceAccessRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDelegatedResourceAccessRequests");
@@ -933,7 +933,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListDelegationControlResources.cs.html">here</a> to see an example of how to use ListDelegationControlResources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListDelegationControlResources.cs.html">here</a> to see an example of how to use ListDelegationControlResources API.</example>
         public async Task<ListDelegationControlResourcesResponse> ListDelegationControlResources(ListDelegationControlResourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDelegationControlResources");
@@ -990,7 +990,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListDelegationControls.cs.html">here</a> to see an example of how to use ListDelegationControls API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListDelegationControls.cs.html">here</a> to see an example of how to use ListDelegationControls API.</example>
         public async Task<ListDelegationControlsResponse> ListDelegationControls(ListDelegationControlsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDelegationControls");
@@ -1047,7 +1047,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListDelegationSubscriptions.cs.html">here</a> to see an example of how to use ListDelegationSubscriptions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListDelegationSubscriptions.cs.html">here</a> to see an example of how to use ListDelegationSubscriptions API.</example>
         public async Task<ListDelegationSubscriptionsResponse> ListDelegationSubscriptions(ListDelegationSubscriptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDelegationSubscriptions");
@@ -1104,7 +1104,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListServiceProviderActions.cs.html">here</a> to see an example of how to use ListServiceProviderActions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListServiceProviderActions.cs.html">here</a> to see an example of how to use ListServiceProviderActions API.</example>
         public async Task<ListServiceProviderActionsResponse> ListServiceProviderActions(ListServiceProviderActionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listServiceProviderActions");
@@ -1161,7 +1161,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListServiceProviderInteractions.cs.html">here</a> to see an example of how to use ListServiceProviderInteractions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListServiceProviderInteractions.cs.html">here</a> to see an example of how to use ListServiceProviderInteractions API.</example>
         public async Task<ListServiceProviderInteractionsResponse> ListServiceProviderInteractions(ListServiceProviderInteractionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listServiceProviderInteractions");
@@ -1218,7 +1218,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListServiceProviders.cs.html">here</a> to see an example of how to use ListServiceProviders API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListServiceProviders.cs.html">here</a> to see an example of how to use ListServiceProviders API.</example>
         public async Task<ListServiceProvidersResponse> ListServiceProviders(ListServiceProvidersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listServiceProviders");
@@ -1275,7 +1275,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/RejectDelegatedResourceAccessRequest.cs.html">here</a> to see an example of how to use RejectDelegatedResourceAccessRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/RejectDelegatedResourceAccessRequest.cs.html">here</a> to see an example of how to use RejectDelegatedResourceAccessRequest API.</example>
         public async Task<RejectDelegatedResourceAccessRequestResponse> RejectDelegatedResourceAccessRequest(RejectDelegatedResourceAccessRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called rejectDelegatedResourceAccessRequest");
@@ -1332,7 +1332,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/RevokeDelegatedResourceAccessRequest.cs.html">here</a> to see an example of how to use RevokeDelegatedResourceAccessRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/RevokeDelegatedResourceAccessRequest.cs.html">here</a> to see an example of how to use RevokeDelegatedResourceAccessRequest API.</example>
         public async Task<RevokeDelegatedResourceAccessRequestResponse> RevokeDelegatedResourceAccessRequest(RevokeDelegatedResourceAccessRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called revokeDelegatedResourceAccessRequest");
@@ -1389,7 +1389,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ServiceProviderInteractionRequest.cs.html">here</a> to see an example of how to use ServiceProviderInteractionRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ServiceProviderInteractionRequest.cs.html">here</a> to see an example of how to use ServiceProviderInteractionRequest API.</example>
         public async Task<ServiceProviderInteractionRequestResponse> ServiceProviderInteractionRequest(ServiceProviderInteractionRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called serviceProviderInteractionRequest");
@@ -1446,7 +1446,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/UpdateDelegationControl.cs.html">here</a> to see an example of how to use UpdateDelegationControl API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/UpdateDelegationControl.cs.html">here</a> to see an example of how to use UpdateDelegationControl API.</example>
         public async Task<UpdateDelegationControlResponse> UpdateDelegationControl(UpdateDelegationControlRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDelegationControl");
@@ -1503,7 +1503,7 @@ namespace Oci.DelegateaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/UpdateDelegationSubscription.cs.html">here</a> to see an example of how to use UpdateDelegationSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/UpdateDelegationSubscription.cs.html">here</a> to see an example of how to use UpdateDelegationSubscription API.</example>
         public async Task<UpdateDelegationSubscriptionResponse> UpdateDelegationSubscription(UpdateDelegationSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDelegationSubscription");

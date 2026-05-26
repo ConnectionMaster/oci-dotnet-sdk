@@ -22,7 +22,7 @@ namespace Oci.DatabaseService.Models
     {
         
         /// <value>
-        /// Key version ocid of the key provided by the user for rotate operation. [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Key version ocid of the key provided by the user for rotate operation. [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         [JsonProperty(PropertyName = "keyVersionId")]
         public string KeyVersionId { get; set; }

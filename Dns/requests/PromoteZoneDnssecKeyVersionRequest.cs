@@ -14,7 +14,7 @@ using Oci.DnsService.Models;
 namespace Oci.DnsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dns/PromoteZoneDnssecKeyVersion.cs.html">here</a> to see an example of how to use PromoteZoneDnssecKeyVersion request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dns/PromoteZoneDnssecKeyVersion.cs.html">here</a> to see an example of how to use PromoteZoneDnssecKeyVersion request.
     /// </example>
     public class PromoteZoneDnssecKeyVersionRequest : Oci.Common.IOciRequest
     {

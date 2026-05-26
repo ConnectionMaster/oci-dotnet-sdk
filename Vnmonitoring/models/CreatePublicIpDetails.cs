@@ -20,8 +20,8 @@ namespace Oci.VnmonitoringService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to contain the public IP. For ephemeral public IPs,
-        /// you must set this to the private IP's compartment [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to contain the public IP. For ephemeral public IPs,
+        /// you must set this to the private IP's compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         /// <remarks>
@@ -56,7 +56,7 @@ namespace Oci.VnmonitoringService.Models
         /// <value>
         /// Defines when the public IP is deleted and released back to the Oracle Cloud
         /// Infrastructure public IP pool. For more information, see
-        /// [Public IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
+        /// [Public IP Addresses](https://docs.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
         /// 
         /// </value>
         ///
@@ -70,7 +70,7 @@ namespace Oci.VnmonitoringService.Models
         /// <value>
         /// Defines when the public IP is deleted and released back to the Oracle Cloud
         /// Infrastructure public IP pool. For more information, see
-        /// [Public IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
+        /// [Public IP Addresses](https://docs.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
         /// 
         /// </value>
         /// <remarks>
@@ -82,7 +82,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Nullable<LifetimeEnum> Lifetime { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private IP to assign the public IP to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private IP to assign the public IP to.
         /// <br/>
         /// Required for an ephemeral public IP because it must always be assigned to a private IP
         /// (specifically a *primary* private IP).

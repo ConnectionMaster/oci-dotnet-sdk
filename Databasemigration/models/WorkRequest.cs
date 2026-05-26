@@ -47,7 +47,7 @@ namespace Oci.DatabasemigrationService.Models
         public System.Nullable<OperationStatus> Status { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the work request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the work request.
         /// 
         /// </value>
         /// <remarks>
@@ -58,7 +58,7 @@ namespace Oci.DatabasemigrationService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment
         /// that contains the work request.
         /// 
         /// </value>

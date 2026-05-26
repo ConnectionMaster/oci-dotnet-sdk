@@ -47,8 +47,8 @@ namespace Oci.CoreService.Models
         /// <br/>
         /// 
         /// For more information about the Vault service and encryption keys, see
-        /// [Overview of Vault service](https://docs.cloud.oracle.com/iaas/Content/KeyManagement/Concepts/keyoverview.htm) and
-        /// [Using Keys](https://docs.cloud.oracle.com/iaas/Content/KeyManagement/Tasks/usingkeys.htm).
+        /// [Overview of Vault service](https://docs.oracle.com/iaas/Content/KeyManagement/Concepts/keyoverview.htm) and
+        /// [Using Keys](https://docs.oracle.com/iaas/Content/KeyManagement/Tasks/usingkeys.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "kmsKeyId")]

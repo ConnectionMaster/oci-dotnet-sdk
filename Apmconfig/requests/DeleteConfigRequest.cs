@@ -14,7 +14,7 @@ using Oci.ApmconfigService.Models;
 namespace Oci.ApmconfigService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/DeleteConfig.cs.html">here</a> to see an example of how to use DeleteConfig request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/DeleteConfig.cs.html">here</a> to see an example of how to use DeleteConfig request.
     /// </example>
     public class DeleteConfigRequest : Oci.Common.IOciRequest
     {
@@ -31,7 +31,7 @@ namespace Oci.ApmconfigService.Requests
         public string ApmDomainId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the configuration item.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the configuration item.
         /// 
         /// </value>
         /// <remarks>

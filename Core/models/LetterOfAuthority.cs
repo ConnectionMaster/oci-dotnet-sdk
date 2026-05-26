@@ -51,7 +51,7 @@ namespace Oci.CoreService.Models
         public System.Nullable<CircuitTypeEnum> CircuitType { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cross-connect.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cross-connect.
         /// </value>
         [JsonProperty(PropertyName = "crossConnectId")]
         public string CrossConnectId { get; set; }

@@ -78,7 +78,7 @@ namespace Oci.OpsiService.Models
         public string EnterpriseManagerBridgeId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Exadata insight.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Exadata insight.
         /// </value>
         [JsonProperty(PropertyName = "exadataInsightId")]
         public string ExadataInsightId { get; set; }

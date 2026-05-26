@@ -24,7 +24,7 @@ namespace Oci.ResourcemanagerService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to use
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to use
         /// for creating the stack. The new stack will include definitions for supported
         /// resource types in this compartment.
         /// 

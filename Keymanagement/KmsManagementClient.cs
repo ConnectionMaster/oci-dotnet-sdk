@@ -76,7 +76,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/BackupKey.cs.html">here</a> to see an example of how to use BackupKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/BackupKey.cs.html">here</a> to see an example of how to use BackupKey API.</example>
         public async Task<BackupKeyResponse> BackupKey(BackupKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called backupKey");
@@ -140,7 +140,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/CancelKeyDeletion.cs.html">here</a> to see an example of how to use CancelKeyDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/CancelKeyDeletion.cs.html">here</a> to see an example of how to use CancelKeyDeletion API.</example>
         public async Task<CancelKeyDeletionResponse> CancelKeyDeletion(CancelKeyDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelKeyDeletion");
@@ -204,7 +204,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/CancelKeyVersionDeletion.cs.html">here</a> to see an example of how to use CancelKeyVersionDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/CancelKeyVersionDeletion.cs.html">here</a> to see an example of how to use CancelKeyVersionDeletion API.</example>
         public async Task<CancelKeyVersionDeletionResponse> CancelKeyVersionDeletion(CancelKeyVersionDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelKeyVersionDeletion");
@@ -254,7 +254,7 @@ namespace Oci.KeymanagementService
 
         /// <summary>
         /// Moves a key into a different compartment within the same tenancy. For information about
-        /// moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// &lt;br/&gt;
         /// When provided, if-match is checked against the ETag values of the key.
         /// &lt;br/&gt;
@@ -269,7 +269,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ChangeKeyCompartment.cs.html">here</a> to see an example of how to use ChangeKeyCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ChangeKeyCompartment.cs.html">here</a> to see an example of how to use ChangeKeyCompartment API.</example>
         public async Task<ChangeKeyCompartmentResponse> ChangeKeyCompartment(ChangeKeyCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeKeyCompartment");
@@ -331,7 +331,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/CreateKey.cs.html">here</a> to see an example of how to use CreateKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/CreateKey.cs.html">here</a> to see an example of how to use CreateKey API.</example>
         public async Task<CreateKeyResponse> CreateKey(CreateKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createKey");
@@ -380,7 +380,7 @@ namespace Oci.KeymanagementService
         }
 
         /// <summary>
-        /// Generates a new [KeyVersion](https://docs.cloud.oracle.com/api/#/en/key/latest/KeyVersion/) resource that provides new cryptographic
+        /// Generates a new [KeyVersion](https://docs.oracle.com/iaas/api/#/en/key/latest/KeyVersion/) resource that provides new cryptographic
         /// material for a master encryption key. The key must be in an &#x60;ENABLED&#x60; state to be rotated.
         /// &lt;br/&gt;
         /// As a management operation, this call is subject to a Key Management limit that applies to the total number
@@ -394,7 +394,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/CreateKeyVersion.cs.html">here</a> to see an example of how to use CreateKeyVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/CreateKeyVersion.cs.html">here</a> to see an example of how to use CreateKeyVersion API.</example>
         public async Task<CreateKeyVersionResponse> CreateKeyVersion(CreateKeyVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createKeyVersion");
@@ -457,7 +457,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/DisableKey.cs.html">here</a> to see an example of how to use DisableKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/DisableKey.cs.html">here</a> to see an example of how to use DisableKey API.</example>
         public async Task<DisableKeyResponse> DisableKey(DisableKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableKey");
@@ -520,7 +520,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/EnableKey.cs.html">here</a> to see an example of how to use EnableKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/EnableKey.cs.html">here</a> to see an example of how to use EnableKey API.</example>
         public async Task<EnableKeyResponse> EnableKey(EnableKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enableKey");
@@ -582,7 +582,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetKey.cs.html">here</a> to see an example of how to use GetKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetKey.cs.html">here</a> to see an example of how to use GetKey API.</example>
         public async Task<GetKeyResponse> GetKey(GetKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getKey");
@@ -644,7 +644,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetKeyVersion.cs.html">here</a> to see an example of how to use GetKeyVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetKeyVersion.cs.html">here</a> to see an example of how to use GetKeyVersion API.</example>
         public async Task<GetKeyVersionResponse> GetKeyVersion(GetKeyVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getKeyVersion");
@@ -704,7 +704,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetReplicationStatus.cs.html">here</a> to see an example of how to use GetReplicationStatus API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetReplicationStatus.cs.html">here</a> to see an example of how to use GetReplicationStatus API.</example>
         public async Task<GetReplicationStatusResponse> GetReplicationStatus(GetReplicationStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getReplicationStatus");
@@ -762,7 +762,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetWrappingKey.cs.html">here</a> to see an example of how to use GetWrappingKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetWrappingKey.cs.html">here</a> to see an example of how to use GetWrappingKey API.</example>
         public async Task<GetWrappingKeyResponse> GetWrappingKey(GetWrappingKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWrappingKey");
@@ -824,7 +824,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ImportKey.cs.html">here</a> to see an example of how to use ImportKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ImportKey.cs.html">here</a> to see an example of how to use ImportKey API.</example>
         public async Task<ImportKeyResponse> ImportKey(ImportKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called importKey");
@@ -886,7 +886,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ImportKeyVersion.cs.html">here</a> to see an example of how to use ImportKeyVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ImportKeyVersion.cs.html">here</a> to see an example of how to use ImportKeyVersion API.</example>
         public async Task<ImportKeyVersionResponse> ImportKeyVersion(ImportKeyVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called importKeyVersion");
@@ -935,7 +935,7 @@ namespace Oci.KeymanagementService
         }
 
         /// <summary>
-        /// Lists all [KeyVersion](https://docs.cloud.oracle.com/api/#/en/key/latest/KeyVersion/) resources for the specified
+        /// Lists all [KeyVersion](https://docs.oracle.com/iaas/api/#/en/key/latest/KeyVersion/) resources for the specified
         /// master encryption key.
         /// &lt;br/&gt;
         /// As a management operation, this call is subject to a Key Management limit that applies to the total number
@@ -949,7 +949,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ListKeyVersions.cs.html">here</a> to see an example of how to use ListKeyVersions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ListKeyVersions.cs.html">here</a> to see an example of how to use ListKeyVersions API.</example>
         public async Task<ListKeyVersionsResponse> ListKeyVersions(ListKeyVersionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listKeyVersions");
@@ -1011,7 +1011,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ListKeys.cs.html">here</a> to see an example of how to use ListKeys API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ListKeys.cs.html">here</a> to see an example of how to use ListKeys API.</example>
         public async Task<ListKeysResponse> ListKeys(ListKeysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listKeys");
@@ -1070,7 +1070,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/RestoreKeyFromFile.cs.html">here</a> to see an example of how to use RestoreKeyFromFile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/RestoreKeyFromFile.cs.html">here</a> to see an example of how to use RestoreKeyFromFile API.</example>
         public async Task<RestoreKeyFromFileResponse> RestoreKeyFromFile(RestoreKeyFromFileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called restoreKeyFromFile");
@@ -1129,7 +1129,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/RestoreKeyFromObjectStore.cs.html">here</a> to see an example of how to use RestoreKeyFromObjectStore API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/RestoreKeyFromObjectStore.cs.html">here</a> to see an example of how to use RestoreKeyFromObjectStore API.</example>
         public async Task<RestoreKeyFromObjectStoreResponse> RestoreKeyFromObjectStore(RestoreKeyFromObjectStoreRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called restoreKeyFromObjectStore");
@@ -1192,7 +1192,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ScheduleKeyDeletion.cs.html">here</a> to see an example of how to use ScheduleKeyDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ScheduleKeyDeletion.cs.html">here</a> to see an example of how to use ScheduleKeyDeletion API.</example>
         public async Task<ScheduleKeyDeletionResponse> ScheduleKeyDeletion(ScheduleKeyDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called scheduleKeyDeletion");
@@ -1255,7 +1255,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ScheduleKeyVersionDeletion.cs.html">here</a> to see an example of how to use ScheduleKeyVersionDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ScheduleKeyVersionDeletion.cs.html">here</a> to see an example of how to use ScheduleKeyVersionDeletion API.</example>
         public async Task<ScheduleKeyVersionDeletionResponse> ScheduleKeyVersionDeletion(ScheduleKeyVersionDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called scheduleKeyVersionDeletion");
@@ -1319,7 +1319,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/UpdateKey.cs.html">here</a> to see an example of how to use UpdateKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/UpdateKey.cs.html">here</a> to see an example of how to use UpdateKey API.</example>
         public async Task<UpdateKeyResponse> UpdateKey(UpdateKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateKey");

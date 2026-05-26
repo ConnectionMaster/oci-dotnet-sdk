@@ -14,7 +14,7 @@ using Oci.IotService.Models;
 namespace Oci.IotService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/CreateDigitalTwinRelationship.cs.html">here</a> to see an example of how to use CreateDigitalTwinRelationship request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/CreateDigitalTwinRelationship.cs.html">here</a> to see an example of how to use CreateDigitalTwinRelationship request.
     /// </example>
     public class CreateDigitalTwinRelationshipRequest : Oci.Common.IOciRequest
     {

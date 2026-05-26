@@ -34,7 +34,7 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.List<string> NetworkBlockIds { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the HPC island.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the HPC island.
         /// 
         /// </value>
         /// <remarks>

@@ -22,7 +22,7 @@ namespace Oci.OpsiService.Models
     {
         
         /// <value>
-        /// [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Chargeback plan report.
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Chargeback plan report.
         /// 
         /// </value>
         /// <remarks>
@@ -70,7 +70,7 @@ namespace Oci.OpsiService.Models
         public System.Nullable<ResourceTypeEnum> ResourceType { get; set; }
         
         /// <value>
-        /// [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Chargeback plan report.
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Chargeback plan report.
         /// 
         /// </value>
         /// <remarks>

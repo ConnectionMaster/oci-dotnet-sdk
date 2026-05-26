@@ -14,7 +14,7 @@ using Oci.GenerativeaiinferenceService.Models;
 namespace Oci.GenerativeaiinferenceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/RerankText.cs.html">here</a> to see an example of how to use RerankText request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiinference/RerankText.cs.html">here</a> to see an example of how to use RerankText request.
     /// </example>
     public class RerankTextRequest : Oci.Common.IOciRequest
     {

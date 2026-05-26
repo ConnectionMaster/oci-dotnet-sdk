@@ -23,7 +23,7 @@ namespace Oci.DatabaseService.Models
     {
         
         /// <value>
-        /// The database software image [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the image to be used to upgrade a database.
+        /// The database software image [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the image to be used to upgrade a database.
         /// </value>
         /// <remarks>
         /// Required

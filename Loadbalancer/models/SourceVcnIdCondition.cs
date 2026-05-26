@@ -23,7 +23,7 @@ namespace Oci.LoadbalancerService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the originating VCN that an incoming packet
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the originating VCN that an incoming packet
         /// must match.
         /// <br/>
         /// You can use this condition in conjunction with `SourceVcnIpAddressCondition`.

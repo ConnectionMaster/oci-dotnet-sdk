@@ -14,7 +14,7 @@ using Oci.FleetsoftwareupdateService.Models;
 namespace Oci.FleetsoftwareupdateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ChangeFsuCycleCompartment.cs.html">here</a> to see an example of how to use ChangeFsuCycleCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ChangeFsuCycleCompartment.cs.html">here</a> to see an example of how to use ChangeFsuCycleCompartment request.
     /// </example>
     public class ChangeFsuCycleCompartmentRequest : Oci.Common.IOciRequest
     {

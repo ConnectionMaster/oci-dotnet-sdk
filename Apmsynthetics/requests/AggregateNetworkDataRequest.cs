@@ -14,7 +14,7 @@ using Oci.ApmsyntheticsService.Models;
 namespace Oci.ApmsyntheticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/AggregateNetworkData.cs.html">here</a> to see an example of how to use AggregateNetworkData request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/AggregateNetworkData.cs.html">here</a> to see an example of how to use AggregateNetworkData request.
     /// </example>
     public class AggregateNetworkDataRequest : Oci.Common.IOciRequest
     {

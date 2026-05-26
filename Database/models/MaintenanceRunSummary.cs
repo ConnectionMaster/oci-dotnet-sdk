@@ -237,7 +237,7 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<bool> IsDstFileUpdateEnabled { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the maintenance run for the Autonomous Data Guard association's peer container database.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the maintenance run for the Autonomous Data Guard association's peer container database.
         /// </value>
         [JsonProperty(PropertyName = "peerMaintenanceRunId")]
         public string PeerMaintenanceRunId { get; set; }
@@ -251,7 +251,7 @@ namespace Oci.DatabaseService.Models
         /// <value>
         /// Cloud Exadata infrastructure node patching method, either \"ROLLING\" or \"NONROLLING\". Default value is ROLLING.
         /// <br/>
-        /// *IMPORTANT*: Non-rolling infrastructure patching involves system down time. See [Oracle-Managed Infrastructure Maintenance Updates](https://docs.cloud.oracle.com/iaas/Content/Database/Concepts/examaintenance.htm#Oracle) for more information.
+        /// *IMPORTANT*: Non-rolling infrastructure patching involves system down time. See [Oracle-Managed Infrastructure Maintenance Updates](https://docs.oracle.com/iaas/Content/Database/Concepts/examaintenance.htm#Oracle) for more information.
         /// 
         /// </value>
         ///
@@ -268,7 +268,7 @@ namespace Oci.DatabaseService.Models
         /// <value>
         /// Cloud Exadata infrastructure node patching method, either \"ROLLING\" or \"NONROLLING\". Default value is ROLLING.
         /// <br/>
-        /// *IMPORTANT*: Non-rolling infrastructure patching involves system down time. See [Oracle-Managed Infrastructure Maintenance Updates](https://docs.cloud.oracle.com/iaas/Content/Database/Concepts/examaintenance.htm#Oracle) for more information.
+        /// *IMPORTANT*: Non-rolling infrastructure patching involves system down time. See [Oracle-Managed Infrastructure Maintenance Updates](https://docs.oracle.com/iaas/Content/Database/Concepts/examaintenance.htm#Oracle) for more information.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "patchingMode")]
@@ -369,7 +369,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// System tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "systemTags")]
@@ -388,10 +388,26 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<int> TotalTimeTakenInMins { get; set; }
         
         /// <value>
-        /// The Autonomous AI Database Software Image [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the resource the maintenance run will refer to when trying to fetch target versions.
+        /// This field is set during maintenance run creation based on infrastructure's maintenance run version preferences. 
+        /// Currently this is only be supported for monthly maintenance runs created via scheduling plans.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "referenceResourceIdForImageUpdates")]
+        public string ReferenceResourceIdForImageUpdates { get; set; }
+        
+        /// <value>
+        /// The Autonomous AI Database Software Image [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)
         /// </value>
         [JsonProperty(PropertyName = "databaseSoftwareImageId")]
         public string DatabaseSoftwareImageId { get; set; }
+        
+        /// <value>
+        /// A list of key-value pairs where the key will contain the window type and value contains all the windowDetails of that window type.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "windowTypeDescriptions")]
+        public System.Collections.Generic.List<WindowTypeDescription> WindowTypeDescriptions { get; set; }
         
     }
 }

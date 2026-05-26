@@ -14,7 +14,7 @@ using Oci.DisasterrecoveryService.Models;
 namespace Oci.DisasterrecoveryService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/CreateDrPlan.cs.html">here</a> to see an example of how to use CreateDrPlan request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/CreateDrPlan.cs.html">here</a> to see an example of how to use CreateDrPlan request.
     /// </example>
     public class CreateDrPlanRequest : Oci.Common.IOciRequest
     {

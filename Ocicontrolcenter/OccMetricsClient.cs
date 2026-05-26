@@ -78,7 +78,7 @@ namespace Oci.OcicontrolcenterService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocicontrolcenter/ListMetricProperties.cs.html">here</a> to see an example of how to use ListMetricProperties API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocicontrolcenter/ListMetricProperties.cs.html">here</a> to see an example of how to use ListMetricProperties API.</example>
         public async Task<ListMetricPropertiesResponse> ListMetricProperties(ListMetricPropertiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMetricProperties");
@@ -135,7 +135,7 @@ namespace Oci.OcicontrolcenterService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocicontrolcenter/ListNamespaces.cs.html">here</a> to see an example of how to use ListNamespaces API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocicontrolcenter/ListNamespaces.cs.html">here</a> to see an example of how to use ListNamespaces API.</example>
         public async Task<ListNamespacesResponse> ListNamespaces(ListNamespacesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNamespaces");
@@ -194,7 +194,7 @@ namespace Oci.OcicontrolcenterService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocicontrolcenter/RequestSummarizedMetricData.cs.html">here</a> to see an example of how to use RequestSummarizedMetricData API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocicontrolcenter/RequestSummarizedMetricData.cs.html">here</a> to see an example of how to use RequestSummarizedMetricData API.</example>
         public async Task<RequestSummarizedMetricDataResponse> RequestSummarizedMetricData(RequestSummarizedMetricDataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestSummarizedMetricData");

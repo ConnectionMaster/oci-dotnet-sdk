@@ -22,7 +22,7 @@ namespace Oci.JmsjavadownloadsService.Models
     {
         
         /// <value>
-        /// The compartment [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) here should be the tenancy OCID.
+        /// The compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) here should be the tenancy OCID.
         /// 
         /// </value>
         /// <remarks>

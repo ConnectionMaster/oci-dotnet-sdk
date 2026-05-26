@@ -14,7 +14,7 @@ using Oci.ManagementdashboardService.Models;
 namespace Oci.ManagementdashboardService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/GetOobManagementDashboard.cs.html">here</a> to see an example of how to use GetOobManagementDashboard request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/GetOobManagementDashboard.cs.html">here</a> to see an example of how to use GetOobManagementDashboard request.
     /// </example>
     public class GetOobManagementDashboardRequest : Oci.Common.IOciRequest
     {

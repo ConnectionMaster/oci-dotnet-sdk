@@ -20,7 +20,7 @@ namespace Oci.IdentityService.Models
     {
         
         /// <value>
-        /// The regions's key. See [Regions and Availability Domains](https://docs.cloud.oracle.com/Content/General/Concepts/regions.htm) for
+        /// The regions's key. See [Regions and Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm) for
         /// the full list of supported 3-letter region codes.
         /// <br/>
         /// Example: PHX

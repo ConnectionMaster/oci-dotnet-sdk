@@ -22,7 +22,7 @@ namespace Oci.WafService.Models
     {
         
         /// <value>
-        /// LoadBalancer [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) to which the WebAppFirewallPolicy is attached to.
+        /// LoadBalancer [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) to which the WebAppFirewallPolicy is attached to.
         /// </value>
         /// <remarks>
         /// Required

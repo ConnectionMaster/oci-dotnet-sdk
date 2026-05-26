@@ -110,7 +110,7 @@ namespace Oci.GoldengateService.Models
         public string Endpoint { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the account key is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the account key is stored.
         /// Note: When provided, 'accountKey' field must not be provided.
         /// 
         /// </value>
@@ -118,7 +118,7 @@ namespace Oci.GoldengateService.Models
         public string AccountKeySecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the sas token is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the sas token is stored.
         /// Note: When provided, 'sasToken' field must not be provided.
         /// 
         /// </value>
@@ -126,7 +126,7 @@ namespace Oci.GoldengateService.Models
         public string SasTokenSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the client secret is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the client secret is stored.
         /// Note: When provided, 'clientSecret' field must not be provided.
         /// 
         /// </value>

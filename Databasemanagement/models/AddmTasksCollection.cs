@@ -32,7 +32,7 @@ namespace Oci.DatabasemanagementService.Models
         public System.Collections.Generic.List<AddmTaskSummary> Items { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Managed Database.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Managed Database.
         /// </value>
         /// <remarks>
         /// Required

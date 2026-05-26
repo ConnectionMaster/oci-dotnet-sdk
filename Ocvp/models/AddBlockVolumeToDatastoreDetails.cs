@@ -22,7 +22,7 @@ namespace Oci.OcvpService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Block Volume to be added to the Datastore.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Block Volume to be added to the Datastore.
         /// </value>
         /// <remarks>
         /// Required

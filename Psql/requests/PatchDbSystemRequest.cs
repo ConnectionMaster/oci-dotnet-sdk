@@ -14,7 +14,7 @@ using Oci.PsqlService.Models;
 namespace Oci.PsqlService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psql/PatchDbSystem.cs.html">here</a> to see an example of how to use PatchDbSystem request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psql/PatchDbSystem.cs.html">here</a> to see an example of how to use PatchDbSystem request.
     /// </example>
     public class PatchDbSystemRequest : Oci.Common.IOciRequest
     {

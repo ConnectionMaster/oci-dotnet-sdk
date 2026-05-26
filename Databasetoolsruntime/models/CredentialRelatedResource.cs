@@ -33,7 +33,7 @@ namespace Oci.DatabasetoolsruntimeService.Models
         public System.Nullable<CredentialRelatedResourceType> Type { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the related resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the related resource.
         /// </value>
         /// <remarks>
         /// Required

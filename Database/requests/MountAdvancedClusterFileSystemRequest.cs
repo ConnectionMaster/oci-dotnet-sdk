@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/MountAdvancedClusterFileSystem.cs.html">here</a> to see an example of how to use MountAdvancedClusterFileSystem request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/MountAdvancedClusterFileSystem.cs.html">here</a> to see an example of how to use MountAdvancedClusterFileSystem request.
     /// </example>
     public class MountAdvancedClusterFileSystemRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The advanced cluster file system Id [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The advanced cluster file system Id [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

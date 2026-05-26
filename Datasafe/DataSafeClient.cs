@@ -81,7 +81,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ActivateTargetDatabase.cs.html">here</a> to see an example of how to use ActivateTargetDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ActivateTargetDatabase.cs.html">here</a> to see an example of how to use ActivateTargetDatabase API.</example>
         public async Task<ActivateTargetDatabaseResponse> ActivateTargetDatabase(ActivateTargetDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called activateTargetDatabase");
@@ -141,7 +141,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/AddMaskingColumnsFromSdm.cs.html">here</a> to see an example of how to use AddMaskingColumnsFromSdm API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/AddMaskingColumnsFromSdm.cs.html">here</a> to see an example of how to use AddMaskingColumnsFromSdm API.</example>
         public async Task<AddMaskingColumnsFromSdmResponse> AddMaskingColumnsFromSdm(AddMaskingColumnsFromSdmRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addMaskingColumnsFromSdm");
@@ -197,7 +197,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/AlertsUpdate.cs.html">here</a> to see an example of how to use AlertsUpdate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/AlertsUpdate.cs.html">here</a> to see an example of how to use AlertsUpdate API.</example>
         public async Task<AlertsUpdateResponse> AlertsUpdate(AlertsUpdateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called alertsUpdate");
@@ -257,7 +257,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ApplyDiscoveryJobResults.cs.html">here</a> to see an example of how to use ApplyDiscoveryJobResults API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ApplyDiscoveryJobResults.cs.html">here</a> to see an example of how to use ApplyDiscoveryJobResults API.</example>
         public async Task<ApplyDiscoveryJobResultsResponse> ApplyDiscoveryJobResults(ApplyDiscoveryJobResultsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called applyDiscoveryJobResults");
@@ -319,7 +319,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ApplySdmMaskingPolicyDifference.cs.html">here</a> to see an example of how to use ApplySdmMaskingPolicyDifference API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ApplySdmMaskingPolicyDifference.cs.html">here</a> to see an example of how to use ApplySdmMaskingPolicyDifference API.</example>
         public async Task<ApplySdmMaskingPolicyDifferenceResponse> ApplySdmMaskingPolicyDifference(ApplySdmMaskingPolicyDifferenceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called applySdmMaskingPolicyDifference");
@@ -375,7 +375,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ApplySecurityAssessmentTemplate.cs.html">here</a> to see an example of how to use ApplySecurityAssessmentTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ApplySecurityAssessmentTemplate.cs.html">here</a> to see an example of how to use ApplySecurityAssessmentTemplate API.</example>
         public async Task<ApplySecurityAssessmentTemplateResponse> ApplySecurityAssessmentTemplate(ApplySecurityAssessmentTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called applySecurityAssessmentTemplate");
@@ -432,7 +432,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/BulkCreateSensitiveTypes.cs.html">here</a> to see an example of how to use BulkCreateSensitiveTypes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/BulkCreateSensitiveTypes.cs.html">here</a> to see an example of how to use BulkCreateSensitiveTypes API.</example>
         public async Task<BulkCreateSensitiveTypesResponse> BulkCreateSensitiveTypes(BulkCreateSensitiveTypesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkCreateSensitiveTypes");
@@ -488,7 +488,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/BulkCreateSqlFirewallAllowedSqls.cs.html">here</a> to see an example of how to use BulkCreateSqlFirewallAllowedSqls API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/BulkCreateSqlFirewallAllowedSqls.cs.html">here</a> to see an example of how to use BulkCreateSqlFirewallAllowedSqls API.</example>
         public async Task<BulkCreateSqlFirewallAllowedSqlsResponse> BulkCreateSqlFirewallAllowedSqls(BulkCreateSqlFirewallAllowedSqlsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkCreateSqlFirewallAllowedSqls");
@@ -544,7 +544,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/BulkCreateUnifiedAuditPolicy.cs.html">here</a> to see an example of how to use BulkCreateUnifiedAuditPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/BulkCreateUnifiedAuditPolicy.cs.html">here</a> to see an example of how to use BulkCreateUnifiedAuditPolicy API.</example>
         public async Task<BulkCreateUnifiedAuditPolicyResponse> BulkCreateUnifiedAuditPolicy(BulkCreateUnifiedAuditPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkCreateUnifiedAuditPolicy");
@@ -600,7 +600,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/BulkDeleteSqlFirewallAllowedSqls.cs.html">here</a> to see an example of how to use BulkDeleteSqlFirewallAllowedSqls API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/BulkDeleteSqlFirewallAllowedSqls.cs.html">here</a> to see an example of how to use BulkDeleteSqlFirewallAllowedSqls API.</example>
         public async Task<BulkDeleteSqlFirewallAllowedSqlsResponse> BulkDeleteSqlFirewallAllowedSqls(BulkDeleteSqlFirewallAllowedSqlsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkDeleteSqlFirewallAllowedSqls");
@@ -656,7 +656,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CalculateAuditVolumeAvailable.cs.html">here</a> to see an example of how to use CalculateAuditVolumeAvailable API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CalculateAuditVolumeAvailable.cs.html">here</a> to see an example of how to use CalculateAuditVolumeAvailable API.</example>
         public async Task<CalculateAuditVolumeAvailableResponse> CalculateAuditVolumeAvailable(CalculateAuditVolumeAvailableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called calculateAuditVolumeAvailable");
@@ -712,7 +712,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CalculateAuditVolumeCollected.cs.html">here</a> to see an example of how to use CalculateAuditVolumeCollected API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CalculateAuditVolumeCollected.cs.html">here</a> to see an example of how to use CalculateAuditVolumeCollected API.</example>
         public async Task<CalculateAuditVolumeCollectedResponse> CalculateAuditVolumeCollected(CalculateAuditVolumeCollectedRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called calculateAuditVolumeCollected");
@@ -769,7 +769,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
         public async Task<CancelWorkRequestResponse> CancelWorkRequest(CancelWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelWorkRequest");
@@ -825,7 +825,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeAlertCompartment.cs.html">here</a> to see an example of how to use ChangeAlertCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeAlertCompartment.cs.html">here</a> to see an example of how to use ChangeAlertCompartment API.</example>
         public async Task<ChangeAlertCompartmentResponse> ChangeAlertCompartment(ChangeAlertCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeAlertCompartment");
@@ -881,7 +881,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeAlertPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeAlertPolicyCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeAlertPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeAlertPolicyCompartment API.</example>
         public async Task<ChangeAlertPolicyCompartmentResponse> ChangeAlertPolicyCompartment(ChangeAlertPolicyCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeAlertPolicyCompartment");
@@ -938,7 +938,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeAttributeSetCompartment.cs.html">here</a> to see an example of how to use ChangeAttributeSetCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeAttributeSetCompartment.cs.html">here</a> to see an example of how to use ChangeAttributeSetCompartment API.</example>
         public async Task<ChangeAttributeSetCompartmentResponse> ChangeAttributeSetCompartment(ChangeAttributeSetCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeAttributeSetCompartment");
@@ -995,7 +995,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeAuditArchiveRetrievalCompartment.cs.html">here</a> to see an example of how to use ChangeAuditArchiveRetrievalCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeAuditArchiveRetrievalCompartment.cs.html">here</a> to see an example of how to use ChangeAuditArchiveRetrievalCompartment API.</example>
         public async Task<ChangeAuditArchiveRetrievalCompartmentResponse> ChangeAuditArchiveRetrievalCompartment(ChangeAuditArchiveRetrievalCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeAuditArchiveRetrievalCompartment");
@@ -1051,7 +1051,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeAuditPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeAuditPolicyCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeAuditPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeAuditPolicyCompartment API.</example>
         public async Task<ChangeAuditPolicyCompartmentResponse> ChangeAuditPolicyCompartment(ChangeAuditPolicyCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeAuditPolicyCompartment");
@@ -1107,7 +1107,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeAuditProfileCompartment.cs.html">here</a> to see an example of how to use ChangeAuditProfileCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeAuditProfileCompartment.cs.html">here</a> to see an example of how to use ChangeAuditProfileCompartment API.</example>
         public async Task<ChangeAuditProfileCompartmentResponse> ChangeAuditProfileCompartment(ChangeAuditProfileCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeAuditProfileCompartment");
@@ -1163,7 +1163,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeDataSafePrivateEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeDataSafePrivateEndpointCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeDataSafePrivateEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeDataSafePrivateEndpointCompartment API.</example>
         public async Task<ChangeDataSafePrivateEndpointCompartmentResponse> ChangeDataSafePrivateEndpointCompartment(ChangeDataSafePrivateEndpointCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDataSafePrivateEndpointCompartment");
@@ -1219,7 +1219,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeDatabaseSecurityConfigCompartment.cs.html">here</a> to see an example of how to use ChangeDatabaseSecurityConfigCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeDatabaseSecurityConfigCompartment.cs.html">here</a> to see an example of how to use ChangeDatabaseSecurityConfigCompartment API.</example>
         public async Task<ChangeDatabaseSecurityConfigCompartmentResponse> ChangeDatabaseSecurityConfigCompartment(ChangeDatabaseSecurityConfigCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDatabaseSecurityConfigCompartment");
@@ -1275,7 +1275,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeDiscoveryJobCompartment.cs.html">here</a> to see an example of how to use ChangeDiscoveryJobCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeDiscoveryJobCompartment.cs.html">here</a> to see an example of how to use ChangeDiscoveryJobCompartment API.</example>
         public async Task<ChangeDiscoveryJobCompartmentResponse> ChangeDiscoveryJobCompartment(ChangeDiscoveryJobCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDiscoveryJobCompartment");
@@ -1331,7 +1331,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeLibraryMaskingFormatCompartment.cs.html">here</a> to see an example of how to use ChangeLibraryMaskingFormatCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeLibraryMaskingFormatCompartment.cs.html">here</a> to see an example of how to use ChangeLibraryMaskingFormatCompartment API.</example>
         public async Task<ChangeLibraryMaskingFormatCompartmentResponse> ChangeLibraryMaskingFormatCompartment(ChangeLibraryMaskingFormatCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeLibraryMaskingFormatCompartment");
@@ -1387,7 +1387,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeMaskingPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeMaskingPolicyCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeMaskingPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeMaskingPolicyCompartment API.</example>
         public async Task<ChangeMaskingPolicyCompartmentResponse> ChangeMaskingPolicyCompartment(ChangeMaskingPolicyCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMaskingPolicyCompartment");
@@ -1443,7 +1443,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeMaskingPolicyHealthReportCompartment.cs.html">here</a> to see an example of how to use ChangeMaskingPolicyHealthReportCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeMaskingPolicyHealthReportCompartment.cs.html">here</a> to see an example of how to use ChangeMaskingPolicyHealthReportCompartment API.</example>
         public async Task<ChangeMaskingPolicyHealthReportCompartmentResponse> ChangeMaskingPolicyHealthReportCompartment(ChangeMaskingPolicyHealthReportCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMaskingPolicyHealthReportCompartment");
@@ -1499,7 +1499,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeOnPremConnectorCompartment.cs.html">here</a> to see an example of how to use ChangeOnPremConnectorCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeOnPremConnectorCompartment.cs.html">here</a> to see an example of how to use ChangeOnPremConnectorCompartment API.</example>
         public async Task<ChangeOnPremConnectorCompartmentResponse> ChangeOnPremConnectorCompartment(ChangeOnPremConnectorCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeOnPremConnectorCompartment");
@@ -1555,7 +1555,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeReportCompartment.cs.html">here</a> to see an example of how to use ChangeReportCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeReportCompartment.cs.html">here</a> to see an example of how to use ChangeReportCompartment API.</example>
         public async Task<ChangeReportCompartmentResponse> ChangeReportCompartment(ChangeReportCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeReportCompartment");
@@ -1611,7 +1611,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeReportDefinitionCompartment.cs.html">here</a> to see an example of how to use ChangeReportDefinitionCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeReportDefinitionCompartment.cs.html">here</a> to see an example of how to use ChangeReportDefinitionCompartment API.</example>
         public async Task<ChangeReportDefinitionCompartmentResponse> ChangeReportDefinitionCompartment(ChangeReportDefinitionCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeReportDefinitionCompartment");
@@ -1667,7 +1667,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeRetention.cs.html">here</a> to see an example of how to use ChangeRetention API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeRetention.cs.html">here</a> to see an example of how to use ChangeRetention API.</example>
         public async Task<ChangeRetentionResponse> ChangeRetention(ChangeRetentionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeRetention");
@@ -1723,7 +1723,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSdmMaskingPolicyDifferenceCompartment.cs.html">here</a> to see an example of how to use ChangeSdmMaskingPolicyDifferenceCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSdmMaskingPolicyDifferenceCompartment.cs.html">here</a> to see an example of how to use ChangeSdmMaskingPolicyDifferenceCompartment API.</example>
         public async Task<ChangeSdmMaskingPolicyDifferenceCompartmentResponse> ChangeSdmMaskingPolicyDifferenceCompartment(ChangeSdmMaskingPolicyDifferenceCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSdmMaskingPolicyDifferenceCompartment");
@@ -1784,7 +1784,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSecurityAssessmentCompartment.cs.html">here</a> to see an example of how to use ChangeSecurityAssessmentCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSecurityAssessmentCompartment.cs.html">here</a> to see an example of how to use ChangeSecurityAssessmentCompartment API.</example>
         public async Task<ChangeSecurityAssessmentCompartmentResponse> ChangeSecurityAssessmentCompartment(ChangeSecurityAssessmentCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSecurityAssessmentCompartment");
@@ -1840,7 +1840,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSecurityPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeSecurityPolicyCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSecurityPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeSecurityPolicyCompartment API.</example>
         public async Task<ChangeSecurityPolicyCompartmentResponse> ChangeSecurityPolicyCompartment(ChangeSecurityPolicyCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSecurityPolicyCompartment");
@@ -1896,7 +1896,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSecurityPolicyConfigCompartment.cs.html">here</a> to see an example of how to use ChangeSecurityPolicyConfigCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSecurityPolicyConfigCompartment.cs.html">here</a> to see an example of how to use ChangeSecurityPolicyConfigCompartment API.</example>
         public async Task<ChangeSecurityPolicyConfigCompartmentResponse> ChangeSecurityPolicyConfigCompartment(ChangeSecurityPolicyConfigCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSecurityPolicyConfigCompartment");
@@ -1952,7 +1952,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSecurityPolicyDeploymentCompartment.cs.html">here</a> to see an example of how to use ChangeSecurityPolicyDeploymentCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSecurityPolicyDeploymentCompartment.cs.html">here</a> to see an example of how to use ChangeSecurityPolicyDeploymentCompartment API.</example>
         public async Task<ChangeSecurityPolicyDeploymentCompartmentResponse> ChangeSecurityPolicyDeploymentCompartment(ChangeSecurityPolicyDeploymentCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSecurityPolicyDeploymentCompartment");
@@ -2008,7 +2008,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSensitiveDataModelCompartment.cs.html">here</a> to see an example of how to use ChangeSensitiveDataModelCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSensitiveDataModelCompartment.cs.html">here</a> to see an example of how to use ChangeSensitiveDataModelCompartment API.</example>
         public async Task<ChangeSensitiveDataModelCompartmentResponse> ChangeSensitiveDataModelCompartment(ChangeSensitiveDataModelCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSensitiveDataModelCompartment");
@@ -2064,7 +2064,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSensitiveTypeCompartment.cs.html">here</a> to see an example of how to use ChangeSensitiveTypeCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSensitiveTypeCompartment.cs.html">here</a> to see an example of how to use ChangeSensitiveTypeCompartment API.</example>
         public async Task<ChangeSensitiveTypeCompartmentResponse> ChangeSensitiveTypeCompartment(ChangeSensitiveTypeCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSensitiveTypeCompartment");
@@ -2120,7 +2120,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSensitiveTypeGroupCompartment.cs.html">here</a> to see an example of how to use ChangeSensitiveTypeGroupCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSensitiveTypeGroupCompartment.cs.html">here</a> to see an example of how to use ChangeSensitiveTypeGroupCompartment API.</example>
         public async Task<ChangeSensitiveTypeGroupCompartmentResponse> ChangeSensitiveTypeGroupCompartment(ChangeSensitiveTypeGroupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSensitiveTypeGroupCompartment");
@@ -2176,7 +2176,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSensitiveTypesExportCompartment.cs.html">here</a> to see an example of how to use ChangeSensitiveTypesExportCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSensitiveTypesExportCompartment.cs.html">here</a> to see an example of how to use ChangeSensitiveTypesExportCompartment API.</example>
         public async Task<ChangeSensitiveTypesExportCompartmentResponse> ChangeSensitiveTypesExportCompartment(ChangeSensitiveTypesExportCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSensitiveTypesExportCompartment");
@@ -2232,7 +2232,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSqlCollectionCompartment.cs.html">here</a> to see an example of how to use ChangeSqlCollectionCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSqlCollectionCompartment.cs.html">here</a> to see an example of how to use ChangeSqlCollectionCompartment API.</example>
         public async Task<ChangeSqlCollectionCompartmentResponse> ChangeSqlCollectionCompartment(ChangeSqlCollectionCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSqlCollectionCompartment");
@@ -2288,7 +2288,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSqlFirewallPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeSqlFirewallPolicyCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSqlFirewallPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeSqlFirewallPolicyCompartment API.</example>
         public async Task<ChangeSqlFirewallPolicyCompartmentResponse> ChangeSqlFirewallPolicyCompartment(ChangeSqlFirewallPolicyCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSqlFirewallPolicyCompartment");
@@ -2344,7 +2344,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeTargetAlertPolicyAssociationCompartment.cs.html">here</a> to see an example of how to use ChangeTargetAlertPolicyAssociationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeTargetAlertPolicyAssociationCompartment.cs.html">here</a> to see an example of how to use ChangeTargetAlertPolicyAssociationCompartment API.</example>
         public async Task<ChangeTargetAlertPolicyAssociationCompartmentResponse> ChangeTargetAlertPolicyAssociationCompartment(ChangeTargetAlertPolicyAssociationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeTargetAlertPolicyAssociationCompartment");
@@ -2400,7 +2400,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeTargetDatabaseCompartment.cs.html">here</a> to see an example of how to use ChangeTargetDatabaseCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeTargetDatabaseCompartment.cs.html">here</a> to see an example of how to use ChangeTargetDatabaseCompartment API.</example>
         public async Task<ChangeTargetDatabaseCompartmentResponse> ChangeTargetDatabaseCompartment(ChangeTargetDatabaseCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeTargetDatabaseCompartment");
@@ -2456,7 +2456,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeTargetDatabaseGroupCompartment.cs.html">here</a> to see an example of how to use ChangeTargetDatabaseGroupCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeTargetDatabaseGroupCompartment.cs.html">here</a> to see an example of how to use ChangeTargetDatabaseGroupCompartment API.</example>
         public async Task<ChangeTargetDatabaseGroupCompartmentResponse> ChangeTargetDatabaseGroupCompartment(ChangeTargetDatabaseGroupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeTargetDatabaseGroupCompartment");
@@ -2512,7 +2512,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeUnifiedAuditPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeUnifiedAuditPolicyCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeUnifiedAuditPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeUnifiedAuditPolicyCompartment API.</example>
         public async Task<ChangeUnifiedAuditPolicyCompartmentResponse> ChangeUnifiedAuditPolicyCompartment(ChangeUnifiedAuditPolicyCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeUnifiedAuditPolicyCompartment");
@@ -2568,7 +2568,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeUnifiedAuditPolicyDefinitionCompartment.cs.html">here</a> to see an example of how to use ChangeUnifiedAuditPolicyDefinitionCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeUnifiedAuditPolicyDefinitionCompartment.cs.html">here</a> to see an example of how to use ChangeUnifiedAuditPolicyDefinitionCompartment API.</example>
         public async Task<ChangeUnifiedAuditPolicyDefinitionCompartmentResponse> ChangeUnifiedAuditPolicyDefinitionCompartment(ChangeUnifiedAuditPolicyDefinitionCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeUnifiedAuditPolicyDefinitionCompartment");
@@ -2629,7 +2629,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeUserAssessmentCompartment.cs.html">here</a> to see an example of how to use ChangeUserAssessmentCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeUserAssessmentCompartment.cs.html">here</a> to see an example of how to use ChangeUserAssessmentCompartment API.</example>
         public async Task<ChangeUserAssessmentCompartmentResponse> ChangeUserAssessmentCompartment(ChangeUserAssessmentCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeUserAssessmentCompartment");
@@ -2687,7 +2687,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CompareSecurityAssessment.cs.html">here</a> to see an example of how to use CompareSecurityAssessment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CompareSecurityAssessment.cs.html">here</a> to see an example of how to use CompareSecurityAssessment API.</example>
         public async Task<CompareSecurityAssessmentResponse> CompareSecurityAssessment(CompareSecurityAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called compareSecurityAssessment");
@@ -2744,7 +2744,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CompareToTemplateBaseline.cs.html">here</a> to see an example of how to use CompareToTemplateBaseline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CompareToTemplateBaseline.cs.html">here</a> to see an example of how to use CompareToTemplateBaseline API.</example>
         public async Task<CompareToTemplateBaselineResponse> CompareToTemplateBaseline(CompareToTemplateBaselineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called compareToTemplateBaseline");
@@ -2802,7 +2802,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CompareUserAssessment.cs.html">here</a> to see an example of how to use CompareUserAssessment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CompareUserAssessment.cs.html">here</a> to see an example of how to use CompareUserAssessment API.</example>
         public async Task<CompareUserAssessmentResponse> CompareUserAssessment(CompareUserAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called compareUserAssessment");
@@ -2859,7 +2859,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateAlertPolicy.cs.html">here</a> to see an example of how to use CreateAlertPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateAlertPolicy.cs.html">here</a> to see an example of how to use CreateAlertPolicy API.</example>
         public async Task<CreateAlertPolicyResponse> CreateAlertPolicy(CreateAlertPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAlertPolicy");
@@ -2916,7 +2916,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateAlertPolicyRule.cs.html">here</a> to see an example of how to use CreateAlertPolicyRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateAlertPolicyRule.cs.html">here</a> to see an example of how to use CreateAlertPolicyRule API.</example>
         public async Task<CreateAlertPolicyRuleResponse> CreateAlertPolicyRule(CreateAlertPolicyRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAlertPolicyRule");
@@ -2973,7 +2973,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateAttributeSet.cs.html">here</a> to see an example of how to use CreateAttributeSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateAttributeSet.cs.html">here</a> to see an example of how to use CreateAttributeSet API.</example>
         public async Task<CreateAttributeSetResponse> CreateAttributeSet(CreateAttributeSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAttributeSet");
@@ -3032,7 +3032,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateAuditArchiveRetrieval.cs.html">here</a> to see an example of how to use CreateAuditArchiveRetrieval API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateAuditArchiveRetrieval.cs.html">here</a> to see an example of how to use CreateAuditArchiveRetrieval API.</example>
         public async Task<CreateAuditArchiveRetrievalResponse> CreateAuditArchiveRetrieval(CreateAuditArchiveRetrievalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAuditArchiveRetrieval");
@@ -3088,7 +3088,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateAuditProfile.cs.html">here</a> to see an example of how to use CreateAuditProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateAuditProfile.cs.html">here</a> to see an example of how to use CreateAuditProfile API.</example>
         public async Task<CreateAuditProfileResponse> CreateAuditProfile(CreateAuditProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAuditProfile");
@@ -3145,7 +3145,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateDataSafePrivateEndpoint.cs.html">here</a> to see an example of how to use CreateDataSafePrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateDataSafePrivateEndpoint.cs.html">here</a> to see an example of how to use CreateDataSafePrivateEndpoint API.</example>
         public async Task<CreateDataSafePrivateEndpointResponse> CreateDataSafePrivateEndpoint(CreateDataSafePrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDataSafePrivateEndpoint");
@@ -3206,7 +3206,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateDiscoveryJob.cs.html">here</a> to see an example of how to use CreateDiscoveryJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateDiscoveryJob.cs.html">here</a> to see an example of how to use CreateDiscoveryJob API.</example>
         public async Task<CreateDiscoveryJobResponse> CreateDiscoveryJob(CreateDiscoveryJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDiscoveryJob");
@@ -3267,7 +3267,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateLibraryMaskingFormat.cs.html">here</a> to see an example of how to use CreateLibraryMaskingFormat API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateLibraryMaskingFormat.cs.html">here</a> to see an example of how to use CreateLibraryMaskingFormat API.</example>
         public async Task<CreateLibraryMaskingFormatResponse> CreateLibraryMaskingFormat(CreateLibraryMaskingFormatRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createLibraryMaskingFormat");
@@ -3343,7 +3343,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateMaskingColumn.cs.html">here</a> to see an example of how to use CreateMaskingColumn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateMaskingColumn.cs.html">here</a> to see an example of how to use CreateMaskingColumn API.</example>
         public async Task<CreateMaskingColumnResponse> CreateMaskingColumn(CreateMaskingColumnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMaskingColumn");
@@ -3416,7 +3416,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateMaskingPolicy.cs.html">here</a> to see an example of how to use CreateMaskingPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateMaskingPolicy.cs.html">here</a> to see an example of how to use CreateMaskingPolicy API.</example>
         public async Task<CreateMaskingPolicyResponse> CreateMaskingPolicy(CreateMaskingPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMaskingPolicy");
@@ -3473,7 +3473,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateOnPremConnector.cs.html">here</a> to see an example of how to use CreateOnPremConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateOnPremConnector.cs.html">here</a> to see an example of how to use CreateOnPremConnector API.</example>
         public async Task<CreateOnPremConnectorResponse> CreateOnPremConnector(CreateOnPremConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOnPremConnector");
@@ -3529,7 +3529,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreatePeerTargetDatabase.cs.html">here</a> to see an example of how to use CreatePeerTargetDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreatePeerTargetDatabase.cs.html">here</a> to see an example of how to use CreatePeerTargetDatabase API.</example>
         public async Task<CreatePeerTargetDatabaseResponse> CreatePeerTargetDatabase(CreatePeerTargetDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPeerTargetDatabase");
@@ -3586,7 +3586,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateReferentialRelation.cs.html">here</a> to see an example of how to use CreateReferentialRelation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateReferentialRelation.cs.html">here</a> to see an example of how to use CreateReferentialRelation API.</example>
         public async Task<CreateReferentialRelationResponse> CreateReferentialRelation(CreateReferentialRelationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createReferentialRelation");
@@ -3643,7 +3643,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateReportDefinition.cs.html">here</a> to see an example of how to use CreateReportDefinition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateReportDefinition.cs.html">here</a> to see an example of how to use CreateReportDefinition API.</example>
         public async Task<CreateReportDefinitionResponse> CreateReportDefinition(CreateReportDefinitionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createReportDefinition");
@@ -3704,7 +3704,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSdmMaskingPolicyDifference.cs.html">here</a> to see an example of how to use CreateSdmMaskingPolicyDifference API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSdmMaskingPolicyDifference.cs.html">here</a> to see an example of how to use CreateSdmMaskingPolicyDifference API.</example>
         public async Task<CreateSdmMaskingPolicyDifferenceResponse> CreateSdmMaskingPolicyDifference(CreateSdmMaskingPolicyDifferenceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSdmMaskingPolicyDifference");
@@ -3763,7 +3763,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSecurityAssessment.cs.html">here</a> to see an example of how to use CreateSecurityAssessment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSecurityAssessment.cs.html">here</a> to see an example of how to use CreateSecurityAssessment API.</example>
         public async Task<CreateSecurityAssessmentResponse> CreateSecurityAssessment(CreateSecurityAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSecurityAssessment");
@@ -3820,7 +3820,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSecurityPolicy.cs.html">here</a> to see an example of how to use CreateSecurityPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSecurityPolicy.cs.html">here</a> to see an example of how to use CreateSecurityPolicy API.</example>
         public async Task<CreateSecurityPolicyResponse> CreateSecurityPolicy(CreateSecurityPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSecurityPolicy");
@@ -3877,7 +3877,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSecurityPolicyConfig.cs.html">here</a> to see an example of how to use CreateSecurityPolicyConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSecurityPolicyConfig.cs.html">here</a> to see an example of how to use CreateSecurityPolicyConfig API.</example>
         public async Task<CreateSecurityPolicyConfigResponse> CreateSecurityPolicyConfig(CreateSecurityPolicyConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSecurityPolicyConfig");
@@ -3934,7 +3934,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSecurityPolicyDeployment.cs.html">here</a> to see an example of how to use CreateSecurityPolicyDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSecurityPolicyDeployment.cs.html">here</a> to see an example of how to use CreateSecurityPolicyDeployment API.</example>
         public async Task<CreateSecurityPolicyDeploymentResponse> CreateSecurityPolicyDeployment(CreateSecurityPolicyDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSecurityPolicyDeployment");
@@ -3991,7 +3991,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSensitiveColumn.cs.html">here</a> to see an example of how to use CreateSensitiveColumn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSensitiveColumn.cs.html">here</a> to see an example of how to use CreateSensitiveColumn API.</example>
         public async Task<CreateSensitiveColumnResponse> CreateSensitiveColumn(CreateSensitiveColumnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSensitiveColumn");
@@ -4050,7 +4050,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSensitiveDataModel.cs.html">here</a> to see an example of how to use CreateSensitiveDataModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSensitiveDataModel.cs.html">here</a> to see an example of how to use CreateSensitiveDataModel API.</example>
         public async Task<CreateSensitiveDataModelResponse> CreateSensitiveDataModel(CreateSensitiveDataModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSensitiveDataModel");
@@ -4109,7 +4109,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSensitiveType.cs.html">here</a> to see an example of how to use CreateSensitiveType API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSensitiveType.cs.html">here</a> to see an example of how to use CreateSensitiveType API.</example>
         public async Task<CreateSensitiveTypeResponse> CreateSensitiveType(CreateSensitiveTypeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSensitiveType");
@@ -4166,7 +4166,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSensitiveTypeGroup.cs.html">here</a> to see an example of how to use CreateSensitiveTypeGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSensitiveTypeGroup.cs.html">here</a> to see an example of how to use CreateSensitiveTypeGroup API.</example>
         public async Task<CreateSensitiveTypeGroupResponse> CreateSensitiveTypeGroup(CreateSensitiveTypeGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSensitiveTypeGroup");
@@ -4225,7 +4225,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSensitiveTypesExport.cs.html">here</a> to see an example of how to use CreateSensitiveTypesExport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSensitiveTypesExport.cs.html">here</a> to see an example of how to use CreateSensitiveTypesExport API.</example>
         public async Task<CreateSensitiveTypesExportResponse> CreateSensitiveTypesExport(CreateSensitiveTypesExportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSensitiveTypesExport");
@@ -4282,7 +4282,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSqlCollection.cs.html">here</a> to see an example of how to use CreateSqlCollection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateSqlCollection.cs.html">here</a> to see an example of how to use CreateSqlCollection API.</example>
         public async Task<CreateSqlCollectionResponse> CreateSqlCollection(CreateSqlCollectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSqlCollection");
@@ -4339,7 +4339,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateTargetAlertPolicyAssociation.cs.html">here</a> to see an example of how to use CreateTargetAlertPolicyAssociation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateTargetAlertPolicyAssociation.cs.html">here</a> to see an example of how to use CreateTargetAlertPolicyAssociation API.</example>
         public async Task<CreateTargetAlertPolicyAssociationResponse> CreateTargetAlertPolicyAssociation(CreateTargetAlertPolicyAssociationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createTargetAlertPolicyAssociation");
@@ -4396,7 +4396,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateTargetDatabase.cs.html">here</a> to see an example of how to use CreateTargetDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateTargetDatabase.cs.html">here</a> to see an example of how to use CreateTargetDatabase API.</example>
         public async Task<CreateTargetDatabaseResponse> CreateTargetDatabase(CreateTargetDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createTargetDatabase");
@@ -4453,7 +4453,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateTargetDatabaseGroup.cs.html">here</a> to see an example of how to use CreateTargetDatabaseGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateTargetDatabaseGroup.cs.html">here</a> to see an example of how to use CreateTargetDatabaseGroup API.</example>
         public async Task<CreateTargetDatabaseGroupResponse> CreateTargetDatabaseGroup(CreateTargetDatabaseGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createTargetDatabaseGroup");
@@ -4510,7 +4510,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateUnifiedAuditPolicy.cs.html">here</a> to see an example of how to use CreateUnifiedAuditPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateUnifiedAuditPolicy.cs.html">here</a> to see an example of how to use CreateUnifiedAuditPolicy API.</example>
         public async Task<CreateUnifiedAuditPolicyResponse> CreateUnifiedAuditPolicy(CreateUnifiedAuditPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createUnifiedAuditPolicy");
@@ -4569,7 +4569,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateUserAssessment.cs.html">here</a> to see an example of how to use CreateUserAssessment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateUserAssessment.cs.html">here</a> to see an example of how to use CreateUserAssessment API.</example>
         public async Task<CreateUserAssessmentResponse> CreateUserAssessment(CreateUserAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createUserAssessment");
@@ -4626,7 +4626,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeactivateTargetDatabase.cs.html">here</a> to see an example of how to use DeactivateTargetDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeactivateTargetDatabase.cs.html">here</a> to see an example of how to use DeactivateTargetDatabase API.</example>
         public async Task<DeactivateTargetDatabaseResponse> DeactivateTargetDatabase(DeactivateTargetDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deactivateTargetDatabase");
@@ -4682,7 +4682,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteAlertPolicy.cs.html">here</a> to see an example of how to use DeleteAlertPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteAlertPolicy.cs.html">here</a> to see an example of how to use DeleteAlertPolicy API.</example>
         public async Task<DeleteAlertPolicyResponse> DeleteAlertPolicy(DeleteAlertPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAlertPolicy");
@@ -4738,7 +4738,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteAlertPolicyRule.cs.html">here</a> to see an example of how to use DeleteAlertPolicyRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteAlertPolicyRule.cs.html">here</a> to see an example of how to use DeleteAlertPolicyRule API.</example>
         public async Task<DeleteAlertPolicyRuleResponse> DeleteAlertPolicyRule(DeleteAlertPolicyRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAlertPolicyRule");
@@ -4795,7 +4795,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteAttributeSet.cs.html">here</a> to see an example of how to use DeleteAttributeSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteAttributeSet.cs.html">here</a> to see an example of how to use DeleteAttributeSet API.</example>
         public async Task<DeleteAttributeSetResponse> DeleteAttributeSet(DeleteAttributeSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAttributeSet");
@@ -4853,7 +4853,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteAuditArchiveRetrieval.cs.html">here</a> to see an example of how to use DeleteAuditArchiveRetrieval API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteAuditArchiveRetrieval.cs.html">here</a> to see an example of how to use DeleteAuditArchiveRetrieval API.</example>
         public async Task<DeleteAuditArchiveRetrievalResponse> DeleteAuditArchiveRetrieval(DeleteAuditArchiveRetrievalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAuditArchiveRetrieval");
@@ -4911,7 +4911,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteAuditProfile.cs.html">here</a> to see an example of how to use DeleteAuditProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteAuditProfile.cs.html">here</a> to see an example of how to use DeleteAuditProfile API.</example>
         public async Task<DeleteAuditProfileResponse> DeleteAuditProfile(DeleteAuditProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAuditProfile");
@@ -4967,7 +4967,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteAuditTrail.cs.html">here</a> to see an example of how to use DeleteAuditTrail API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteAuditTrail.cs.html">here</a> to see an example of how to use DeleteAuditTrail API.</example>
         public async Task<DeleteAuditTrailResponse> DeleteAuditTrail(DeleteAuditTrailRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAuditTrail");
@@ -5023,7 +5023,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteDataSafePrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteDataSafePrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteDataSafePrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteDataSafePrivateEndpoint API.</example>
         public async Task<DeleteDataSafePrivateEndpointResponse> DeleteDataSafePrivateEndpoint(DeleteDataSafePrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDataSafePrivateEndpoint");
@@ -5079,7 +5079,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteDiscoveryJob.cs.html">here</a> to see an example of how to use DeleteDiscoveryJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteDiscoveryJob.cs.html">here</a> to see an example of how to use DeleteDiscoveryJob API.</example>
         public async Task<DeleteDiscoveryJobResponse> DeleteDiscoveryJob(DeleteDiscoveryJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDiscoveryJob");
@@ -5135,7 +5135,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteDiscoveryJobResult.cs.html">here</a> to see an example of how to use DeleteDiscoveryJobResult API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteDiscoveryJobResult.cs.html">here</a> to see an example of how to use DeleteDiscoveryJobResult API.</example>
         public async Task<DeleteDiscoveryJobResultResponse> DeleteDiscoveryJobResult(DeleteDiscoveryJobResultRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDiscoveryJobResult");
@@ -5191,7 +5191,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteLibraryMaskingFormat.cs.html">here</a> to see an example of how to use DeleteLibraryMaskingFormat API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteLibraryMaskingFormat.cs.html">here</a> to see an example of how to use DeleteLibraryMaskingFormat API.</example>
         public async Task<DeleteLibraryMaskingFormatResponse> DeleteLibraryMaskingFormat(DeleteLibraryMaskingFormatRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteLibraryMaskingFormat");
@@ -5247,7 +5247,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteMaskingColumn.cs.html">here</a> to see an example of how to use DeleteMaskingColumn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteMaskingColumn.cs.html">here</a> to see an example of how to use DeleteMaskingColumn API.</example>
         public async Task<DeleteMaskingColumnResponse> DeleteMaskingColumn(DeleteMaskingColumnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMaskingColumn");
@@ -5303,7 +5303,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteMaskingPolicy.cs.html">here</a> to see an example of how to use DeleteMaskingPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteMaskingPolicy.cs.html">here</a> to see an example of how to use DeleteMaskingPolicy API.</example>
         public async Task<DeleteMaskingPolicyResponse> DeleteMaskingPolicy(DeleteMaskingPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMaskingPolicy");
@@ -5359,7 +5359,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteMaskingPolicyHealthReport.cs.html">here</a> to see an example of how to use DeleteMaskingPolicyHealthReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteMaskingPolicyHealthReport.cs.html">here</a> to see an example of how to use DeleteMaskingPolicyHealthReport API.</example>
         public async Task<DeleteMaskingPolicyHealthReportResponse> DeleteMaskingPolicyHealthReport(DeleteMaskingPolicyHealthReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMaskingPolicyHealthReport");
@@ -5415,7 +5415,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteMaskingReport.cs.html">here</a> to see an example of how to use DeleteMaskingReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteMaskingReport.cs.html">here</a> to see an example of how to use DeleteMaskingReport API.</example>
         public async Task<DeleteMaskingReportResponse> DeleteMaskingReport(DeleteMaskingReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMaskingReport");
@@ -5471,7 +5471,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteOnPremConnector.cs.html">here</a> to see an example of how to use DeleteOnPremConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteOnPremConnector.cs.html">here</a> to see an example of how to use DeleteOnPremConnector API.</example>
         public async Task<DeleteOnPremConnectorResponse> DeleteOnPremConnector(DeleteOnPremConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOnPremConnector");
@@ -5527,7 +5527,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeletePeerTargetDatabase.cs.html">here</a> to see an example of how to use DeletePeerTargetDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeletePeerTargetDatabase.cs.html">here</a> to see an example of how to use DeletePeerTargetDatabase API.</example>
         public async Task<DeletePeerTargetDatabaseResponse> DeletePeerTargetDatabase(DeletePeerTargetDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePeerTargetDatabase");
@@ -5583,7 +5583,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteReferentialRelation.cs.html">here</a> to see an example of how to use DeleteReferentialRelation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteReferentialRelation.cs.html">here</a> to see an example of how to use DeleteReferentialRelation API.</example>
         public async Task<DeleteReferentialRelationResponse> DeleteReferentialRelation(DeleteReferentialRelationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteReferentialRelation");
@@ -5639,7 +5639,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteReportDefinition.cs.html">here</a> to see an example of how to use DeleteReportDefinition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteReportDefinition.cs.html">here</a> to see an example of how to use DeleteReportDefinition API.</example>
         public async Task<DeleteReportDefinitionResponse> DeleteReportDefinition(DeleteReportDefinitionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteReportDefinition");
@@ -5695,7 +5695,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSdmMaskingPolicyDifference.cs.html">here</a> to see an example of how to use DeleteSdmMaskingPolicyDifference API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSdmMaskingPolicyDifference.cs.html">here</a> to see an example of how to use DeleteSdmMaskingPolicyDifference API.</example>
         public async Task<DeleteSdmMaskingPolicyDifferenceResponse> DeleteSdmMaskingPolicyDifference(DeleteSdmMaskingPolicyDifferenceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSdmMaskingPolicyDifference");
@@ -5755,7 +5755,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSecurityAssessment.cs.html">here</a> to see an example of how to use DeleteSecurityAssessment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSecurityAssessment.cs.html">here</a> to see an example of how to use DeleteSecurityAssessment API.</example>
         public async Task<DeleteSecurityAssessmentResponse> DeleteSecurityAssessment(DeleteSecurityAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSecurityAssessment");
@@ -5811,7 +5811,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSecurityPolicy.cs.html">here</a> to see an example of how to use DeleteSecurityPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSecurityPolicy.cs.html">here</a> to see an example of how to use DeleteSecurityPolicy API.</example>
         public async Task<DeleteSecurityPolicyResponse> DeleteSecurityPolicy(DeleteSecurityPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSecurityPolicy");
@@ -5867,7 +5867,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSecurityPolicyConfig.cs.html">here</a> to see an example of how to use DeleteSecurityPolicyConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSecurityPolicyConfig.cs.html">here</a> to see an example of how to use DeleteSecurityPolicyConfig API.</example>
         public async Task<DeleteSecurityPolicyConfigResponse> DeleteSecurityPolicyConfig(DeleteSecurityPolicyConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSecurityPolicyConfig");
@@ -5923,7 +5923,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSecurityPolicyDeployment.cs.html">here</a> to see an example of how to use DeleteSecurityPolicyDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSecurityPolicyDeployment.cs.html">here</a> to see an example of how to use DeleteSecurityPolicyDeployment API.</example>
         public async Task<DeleteSecurityPolicyDeploymentResponse> DeleteSecurityPolicyDeployment(DeleteSecurityPolicyDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSecurityPolicyDeployment");
@@ -5979,7 +5979,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSensitiveColumn.cs.html">here</a> to see an example of how to use DeleteSensitiveColumn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSensitiveColumn.cs.html">here</a> to see an example of how to use DeleteSensitiveColumn API.</example>
         public async Task<DeleteSensitiveColumnResponse> DeleteSensitiveColumn(DeleteSensitiveColumnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSensitiveColumn");
@@ -6035,7 +6035,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSensitiveDataModel.cs.html">here</a> to see an example of how to use DeleteSensitiveDataModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSensitiveDataModel.cs.html">here</a> to see an example of how to use DeleteSensitiveDataModel API.</example>
         public async Task<DeleteSensitiveDataModelResponse> DeleteSensitiveDataModel(DeleteSensitiveDataModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSensitiveDataModel");
@@ -6091,7 +6091,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSensitiveType.cs.html">here</a> to see an example of how to use DeleteSensitiveType API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSensitiveType.cs.html">here</a> to see an example of how to use DeleteSensitiveType API.</example>
         public async Task<DeleteSensitiveTypeResponse> DeleteSensitiveType(DeleteSensitiveTypeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSensitiveType");
@@ -6147,7 +6147,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSensitiveTypeGroup.cs.html">here</a> to see an example of how to use DeleteSensitiveTypeGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSensitiveTypeGroup.cs.html">here</a> to see an example of how to use DeleteSensitiveTypeGroup API.</example>
         public async Task<DeleteSensitiveTypeGroupResponse> DeleteSensitiveTypeGroup(DeleteSensitiveTypeGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSensitiveTypeGroup");
@@ -6203,7 +6203,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSensitiveTypesExport.cs.html">here</a> to see an example of how to use DeleteSensitiveTypesExport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSensitiveTypesExport.cs.html">here</a> to see an example of how to use DeleteSensitiveTypesExport API.</example>
         public async Task<DeleteSensitiveTypesExportResponse> DeleteSensitiveTypesExport(DeleteSensitiveTypesExportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSensitiveTypesExport");
@@ -6259,7 +6259,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSqlCollection.cs.html">here</a> to see an example of how to use DeleteSqlCollection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSqlCollection.cs.html">here</a> to see an example of how to use DeleteSqlCollection API.</example>
         public async Task<DeleteSqlCollectionResponse> DeleteSqlCollection(DeleteSqlCollectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSqlCollection");
@@ -6315,7 +6315,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSqlFirewallAllowedSql.cs.html">here</a> to see an example of how to use DeleteSqlFirewallAllowedSql API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSqlFirewallAllowedSql.cs.html">here</a> to see an example of how to use DeleteSqlFirewallAllowedSql API.</example>
         public async Task<DeleteSqlFirewallAllowedSqlResponse> DeleteSqlFirewallAllowedSql(DeleteSqlFirewallAllowedSqlRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSqlFirewallAllowedSql");
@@ -6372,7 +6372,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSqlFirewallPolicy.cs.html">here</a> to see an example of how to use DeleteSqlFirewallPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSqlFirewallPolicy.cs.html">here</a> to see an example of how to use DeleteSqlFirewallPolicy API.</example>
         public async Task<DeleteSqlFirewallPolicyResponse> DeleteSqlFirewallPolicy(DeleteSqlFirewallPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSqlFirewallPolicy");
@@ -6428,7 +6428,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteTargetAlertPolicyAssociation.cs.html">here</a> to see an example of how to use DeleteTargetAlertPolicyAssociation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteTargetAlertPolicyAssociation.cs.html">here</a> to see an example of how to use DeleteTargetAlertPolicyAssociation API.</example>
         public async Task<DeleteTargetAlertPolicyAssociationResponse> DeleteTargetAlertPolicyAssociation(DeleteTargetAlertPolicyAssociationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteTargetAlertPolicyAssociation");
@@ -6484,7 +6484,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteTargetDatabase.cs.html">here</a> to see an example of how to use DeleteTargetDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteTargetDatabase.cs.html">here</a> to see an example of how to use DeleteTargetDatabase API.</example>
         public async Task<DeleteTargetDatabaseResponse> DeleteTargetDatabase(DeleteTargetDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteTargetDatabase");
@@ -6540,7 +6540,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteTargetDatabaseGroup.cs.html">here</a> to see an example of how to use DeleteTargetDatabaseGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteTargetDatabaseGroup.cs.html">here</a> to see an example of how to use DeleteTargetDatabaseGroup API.</example>
         public async Task<DeleteTargetDatabaseGroupResponse> DeleteTargetDatabaseGroup(DeleteTargetDatabaseGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteTargetDatabaseGroup");
@@ -6597,7 +6597,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteUnifiedAuditPolicy.cs.html">here</a> to see an example of how to use DeleteUnifiedAuditPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteUnifiedAuditPolicy.cs.html">here</a> to see an example of how to use DeleteUnifiedAuditPolicy API.</example>
         public async Task<DeleteUnifiedAuditPolicyResponse> DeleteUnifiedAuditPolicy(DeleteUnifiedAuditPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteUnifiedAuditPolicy");
@@ -6653,7 +6653,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteUnifiedAuditPolicyDefinition.cs.html">here</a> to see an example of how to use DeleteUnifiedAuditPolicyDefinition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteUnifiedAuditPolicyDefinition.cs.html">here</a> to see an example of how to use DeleteUnifiedAuditPolicyDefinition API.</example>
         public async Task<DeleteUnifiedAuditPolicyDefinitionResponse> DeleteUnifiedAuditPolicyDefinition(DeleteUnifiedAuditPolicyDefinitionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteUnifiedAuditPolicyDefinition");
@@ -6713,7 +6713,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteUserAssessment.cs.html">here</a> to see an example of how to use DeleteUserAssessment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteUserAssessment.cs.html">here</a> to see an example of how to use DeleteUserAssessment API.</example>
         public async Task<DeleteUserAssessmentResponse> DeleteUserAssessment(DeleteUserAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteUserAssessment");
@@ -6769,7 +6769,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeploySecurityPolicyDeployment.cs.html">here</a> to see an example of how to use DeploySecurityPolicyDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeploySecurityPolicyDeployment.cs.html">here</a> to see an example of how to use DeploySecurityPolicyDeployment API.</example>
         public async Task<DeploySecurityPolicyDeploymentResponse> DeploySecurityPolicyDeployment(DeploySecurityPolicyDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deploySecurityPolicyDeployment");
@@ -6829,7 +6829,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DiscoverAuditTrails.cs.html">here</a> to see an example of how to use DiscoverAuditTrails API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DiscoverAuditTrails.cs.html">here</a> to see an example of how to use DiscoverAuditTrails API.</example>
         public async Task<DiscoverAuditTrailsResponse> DiscoverAuditTrails(DiscoverAuditTrailsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called discoverAuditTrails");
@@ -6889,7 +6889,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadDiscoveryReport.cs.html">here</a> to see an example of how to use DownloadDiscoveryReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadDiscoveryReport.cs.html">here</a> to see an example of how to use DownloadDiscoveryReport API.</example>
         public async Task<DownloadDiscoveryReportResponse> DownloadDiscoveryReport(DownloadDiscoveryReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called downloadDiscoveryReport");
@@ -6945,7 +6945,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadMaskingLog.cs.html">here</a> to see an example of how to use DownloadMaskingLog API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadMaskingLog.cs.html">here</a> to see an example of how to use DownloadMaskingLog API.</example>
         public async Task<DownloadMaskingLogResponse> DownloadMaskingLog(DownloadMaskingLogRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called downloadMaskingLog");
@@ -7005,7 +7005,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadMaskingPolicy.cs.html">here</a> to see an example of how to use DownloadMaskingPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadMaskingPolicy.cs.html">here</a> to see an example of how to use DownloadMaskingPolicy API.</example>
         public async Task<DownloadMaskingPolicyResponse> DownloadMaskingPolicy(DownloadMaskingPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called downloadMaskingPolicy");
@@ -7064,7 +7064,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadMaskingReport.cs.html">here</a> to see an example of how to use DownloadMaskingReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadMaskingReport.cs.html">here</a> to see an example of how to use DownloadMaskingReport API.</example>
         public async Task<DownloadMaskingReportResponse> DownloadMaskingReport(DownloadMaskingReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called downloadMaskingReport");
@@ -7121,7 +7121,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadPrivilegeScript.cs.html">here</a> to see an example of how to use DownloadPrivilegeScript API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadPrivilegeScript.cs.html">here</a> to see an example of how to use DownloadPrivilegeScript API.</example>
         public async Task<DownloadPrivilegeScriptResponse> DownloadPrivilegeScript(DownloadPrivilegeScriptRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called downloadPrivilegeScript");
@@ -7179,7 +7179,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadSecurityAssessmentReport.cs.html">here</a> to see an example of how to use DownloadSecurityAssessmentReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadSecurityAssessmentReport.cs.html">here</a> to see an example of how to use DownloadSecurityAssessmentReport API.</example>
         public async Task<DownloadSecurityAssessmentReportResponse> DownloadSecurityAssessmentReport(DownloadSecurityAssessmentReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called downloadSecurityAssessmentReport");
@@ -7239,7 +7239,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadSensitiveDataModel.cs.html">here</a> to see an example of how to use DownloadSensitiveDataModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadSensitiveDataModel.cs.html">here</a> to see an example of how to use DownloadSensitiveDataModel API.</example>
         public async Task<DownloadSensitiveDataModelResponse> DownloadSensitiveDataModel(DownloadSensitiveDataModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called downloadSensitiveDataModel");
@@ -7298,7 +7298,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadSensitiveTypesExport.cs.html">here</a> to see an example of how to use DownloadSensitiveTypesExport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadSensitiveTypesExport.cs.html">here</a> to see an example of how to use DownloadSensitiveTypesExport API.</example>
         public async Task<DownloadSensitiveTypesExportResponse> DownloadSensitiveTypesExport(DownloadSensitiveTypesExportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called downloadSensitiveTypesExport");
@@ -7356,7 +7356,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadUserAssessmentReport.cs.html">here</a> to see an example of how to use DownloadUserAssessmentReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadUserAssessmentReport.cs.html">here</a> to see an example of how to use DownloadUserAssessmentReport API.</example>
         public async Task<DownloadUserAssessmentReportResponse> DownloadUserAssessmentReport(DownloadUserAssessmentReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called downloadUserAssessmentReport");
@@ -7413,7 +7413,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/EnableDataSafeConfiguration.cs.html">here</a> to see an example of how to use EnableDataSafeConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/EnableDataSafeConfiguration.cs.html">here</a> to see an example of how to use EnableDataSafeConfiguration API.</example>
         public async Task<EnableDataSafeConfigurationResponse> EnableDataSafeConfiguration(EnableDataSafeConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enableDataSafeConfiguration");
@@ -7473,7 +7473,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateDiscoveryReportForDownload.cs.html">here</a> to see an example of how to use GenerateDiscoveryReportForDownload API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateDiscoveryReportForDownload.cs.html">here</a> to see an example of how to use GenerateDiscoveryReportForDownload API.</example>
         public async Task<GenerateDiscoveryReportForDownloadResponse> GenerateDiscoveryReportForDownload(GenerateDiscoveryReportForDownloadRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateDiscoveryReportForDownload");
@@ -7529,7 +7529,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateHealthReport.cs.html">here</a> to see an example of how to use GenerateHealthReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateHealthReport.cs.html">here</a> to see an example of how to use GenerateHealthReport API.</example>
         public async Task<GenerateHealthReportResponse> GenerateHealthReport(GenerateHealthReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateHealthReport");
@@ -7590,7 +7590,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateMaskingPolicyForDownload.cs.html">here</a> to see an example of how to use GenerateMaskingPolicyForDownload API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateMaskingPolicyForDownload.cs.html">here</a> to see an example of how to use GenerateMaskingPolicyForDownload API.</example>
         public async Task<GenerateMaskingPolicyForDownloadResponse> GenerateMaskingPolicyForDownload(GenerateMaskingPolicyForDownloadRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateMaskingPolicyForDownload");
@@ -7650,7 +7650,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateMaskingReportForDownload.cs.html">here</a> to see an example of how to use GenerateMaskingReportForDownload API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateMaskingReportForDownload.cs.html">here</a> to see an example of how to use GenerateMaskingReportForDownload API.</example>
         public async Task<GenerateMaskingReportForDownloadResponse> GenerateMaskingReportForDownload(GenerateMaskingReportForDownloadRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateMaskingReportForDownload");
@@ -7707,7 +7707,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateOnPremConnectorConfiguration.cs.html">here</a> to see an example of how to use GenerateOnPremConnectorConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateOnPremConnectorConfiguration.cs.html">here</a> to see an example of how to use GenerateOnPremConnectorConfiguration API.</example>
         public async Task<GenerateOnPremConnectorConfigurationResponse> GenerateOnPremConnectorConfiguration(GenerateOnPremConnectorConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateOnPremConnectorConfiguration");
@@ -7763,7 +7763,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateReport.cs.html">here</a> to see an example of how to use GenerateReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateReport.cs.html">here</a> to see an example of how to use GenerateReport API.</example>
         public async Task<GenerateReportResponse> GenerateReport(GenerateReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateReport");
@@ -7821,7 +7821,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateSecurityAssessmentReport.cs.html">here</a> to see an example of how to use GenerateSecurityAssessmentReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateSecurityAssessmentReport.cs.html">here</a> to see an example of how to use GenerateSecurityAssessmentReport API.</example>
         public async Task<GenerateSecurityAssessmentReportResponse> GenerateSecurityAssessmentReport(GenerateSecurityAssessmentReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateSecurityAssessmentReport");
@@ -7881,7 +7881,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateSensitiveDataModelForDownload.cs.html">here</a> to see an example of how to use GenerateSensitiveDataModelForDownload API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateSensitiveDataModelForDownload.cs.html">here</a> to see an example of how to use GenerateSensitiveDataModelForDownload API.</example>
         public async Task<GenerateSensitiveDataModelForDownloadResponse> GenerateSensitiveDataModelForDownload(GenerateSensitiveDataModelForDownloadRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateSensitiveDataModelForDownload");
@@ -7937,7 +7937,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateSqlFirewallPolicy.cs.html">here</a> to see an example of how to use GenerateSqlFirewallPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateSqlFirewallPolicy.cs.html">here</a> to see an example of how to use GenerateSqlFirewallPolicy API.</example>
         public async Task<GenerateSqlFirewallPolicyResponse> GenerateSqlFirewallPolicy(GenerateSqlFirewallPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateSqlFirewallPolicy");
@@ -7995,7 +7995,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateUserAssessmentReport.cs.html">here</a> to see an example of how to use GenerateUserAssessmentReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GenerateUserAssessmentReport.cs.html">here</a> to see an example of how to use GenerateUserAssessmentReport API.</example>
         public async Task<GenerateUserAssessmentReportResponse> GenerateUserAssessmentReport(GenerateUserAssessmentReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateUserAssessmentReport");
@@ -8051,7 +8051,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAlert.cs.html">here</a> to see an example of how to use GetAlert API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAlert.cs.html">here</a> to see an example of how to use GetAlert API.</example>
         public async Task<GetAlertResponse> GetAlert(GetAlertRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAlert");
@@ -8107,7 +8107,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAlertPolicy.cs.html">here</a> to see an example of how to use GetAlertPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAlertPolicy.cs.html">here</a> to see an example of how to use GetAlertPolicy API.</example>
         public async Task<GetAlertPolicyResponse> GetAlertPolicy(GetAlertPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAlertPolicy");
@@ -8163,7 +8163,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAlertPolicyRule.cs.html">here</a> to see an example of how to use GetAlertPolicyRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAlertPolicyRule.cs.html">here</a> to see an example of how to use GetAlertPolicyRule API.</example>
         public async Task<GetAlertPolicyRuleResponse> GetAlertPolicyRule(GetAlertPolicyRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAlertPolicyRule");
@@ -8219,7 +8219,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAttributeSet.cs.html">here</a> to see an example of how to use GetAttributeSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAttributeSet.cs.html">here</a> to see an example of how to use GetAttributeSet API.</example>
         public async Task<GetAttributeSetResponse> GetAttributeSet(GetAttributeSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAttributeSet");
@@ -8275,7 +8275,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAuditArchiveRetrieval.cs.html">here</a> to see an example of how to use GetAuditArchiveRetrieval API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAuditArchiveRetrieval.cs.html">here</a> to see an example of how to use GetAuditArchiveRetrieval API.</example>
         public async Task<GetAuditArchiveRetrievalResponse> GetAuditArchiveRetrieval(GetAuditArchiveRetrievalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAuditArchiveRetrieval");
@@ -8331,7 +8331,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAuditPolicy.cs.html">here</a> to see an example of how to use GetAuditPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAuditPolicy.cs.html">here</a> to see an example of how to use GetAuditPolicy API.</example>
         public async Task<GetAuditPolicyResponse> GetAuditPolicy(GetAuditPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAuditPolicy");
@@ -8387,7 +8387,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAuditProfile.cs.html">here</a> to see an example of how to use GetAuditProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAuditProfile.cs.html">here</a> to see an example of how to use GetAuditProfile API.</example>
         public async Task<GetAuditProfileResponse> GetAuditProfile(GetAuditProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAuditProfile");
@@ -8443,7 +8443,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAuditTrail.cs.html">here</a> to see an example of how to use GetAuditTrail API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAuditTrail.cs.html">here</a> to see an example of how to use GetAuditTrail API.</example>
         public async Task<GetAuditTrailResponse> GetAuditTrail(GetAuditTrailRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAuditTrail");
@@ -8506,7 +8506,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetCompatibleFormatsForDataTypes.cs.html">here</a> to see an example of how to use GetCompatibleFormatsForDataTypes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetCompatibleFormatsForDataTypes.cs.html">here</a> to see an example of how to use GetCompatibleFormatsForDataTypes API.</example>
         public async Task<GetCompatibleFormatsForDataTypesResponse> GetCompatibleFormatsForDataTypes(GetCompatibleFormatsForDataTypesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCompatibleFormatsForDataTypes");
@@ -8566,7 +8566,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetCompatibleFormatsForSensitiveTypes.cs.html">here</a> to see an example of how to use GetCompatibleFormatsForSensitiveTypes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetCompatibleFormatsForSensitiveTypes.cs.html">here</a> to see an example of how to use GetCompatibleFormatsForSensitiveTypes API.</example>
         public async Task<GetCompatibleFormatsForSensitiveTypesResponse> GetCompatibleFormatsForSensitiveTypes(GetCompatibleFormatsForSensitiveTypesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCompatibleFormatsForSensitiveTypes");
@@ -8622,7 +8622,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDataSafeConfiguration.cs.html">here</a> to see an example of how to use GetDataSafeConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDataSafeConfiguration.cs.html">here</a> to see an example of how to use GetDataSafeConfiguration API.</example>
         public async Task<GetDataSafeConfigurationResponse> GetDataSafeConfiguration(GetDataSafeConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDataSafeConfiguration");
@@ -8678,7 +8678,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDataSafePrivateEndpoint.cs.html">here</a> to see an example of how to use GetDataSafePrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDataSafePrivateEndpoint.cs.html">here</a> to see an example of how to use GetDataSafePrivateEndpoint API.</example>
         public async Task<GetDataSafePrivateEndpointResponse> GetDataSafePrivateEndpoint(GetDataSafePrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDataSafePrivateEndpoint");
@@ -8734,7 +8734,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDatabaseSecurityConfig.cs.html">here</a> to see an example of how to use GetDatabaseSecurityConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDatabaseSecurityConfig.cs.html">here</a> to see an example of how to use GetDatabaseSecurityConfig API.</example>
         public async Task<GetDatabaseSecurityConfigResponse> GetDatabaseSecurityConfig(GetDatabaseSecurityConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDatabaseSecurityConfig");
@@ -8790,7 +8790,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDatabaseTableAccessEntry.cs.html">here</a> to see an example of how to use GetDatabaseTableAccessEntry API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDatabaseTableAccessEntry.cs.html">here</a> to see an example of how to use GetDatabaseTableAccessEntry API.</example>
         public async Task<GetDatabaseTableAccessEntryResponse> GetDatabaseTableAccessEntry(GetDatabaseTableAccessEntryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDatabaseTableAccessEntry");
@@ -8846,7 +8846,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDatabaseViewAccessEntry.cs.html">here</a> to see an example of how to use GetDatabaseViewAccessEntry API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDatabaseViewAccessEntry.cs.html">here</a> to see an example of how to use GetDatabaseViewAccessEntry API.</example>
         public async Task<GetDatabaseViewAccessEntryResponse> GetDatabaseViewAccessEntry(GetDatabaseViewAccessEntryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDatabaseViewAccessEntry");
@@ -8902,7 +8902,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDifferenceColumn.cs.html">here</a> to see an example of how to use GetDifferenceColumn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDifferenceColumn.cs.html">here</a> to see an example of how to use GetDifferenceColumn API.</example>
         public async Task<GetDifferenceColumnResponse> GetDifferenceColumn(GetDifferenceColumnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDifferenceColumn");
@@ -8958,7 +8958,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDiscoveryJob.cs.html">here</a> to see an example of how to use GetDiscoveryJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDiscoveryJob.cs.html">here</a> to see an example of how to use GetDiscoveryJob API.</example>
         public async Task<GetDiscoveryJobResponse> GetDiscoveryJob(GetDiscoveryJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDiscoveryJob");
@@ -9014,7 +9014,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDiscoveryJobResult.cs.html">here</a> to see an example of how to use GetDiscoveryJobResult API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDiscoveryJobResult.cs.html">here</a> to see an example of how to use GetDiscoveryJobResult API.</example>
         public async Task<GetDiscoveryJobResultResponse> GetDiscoveryJobResult(GetDiscoveryJobResultRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDiscoveryJobResult");
@@ -9071,7 +9071,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetGroupMembers.cs.html">here</a> to see an example of how to use GetGroupMembers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetGroupMembers.cs.html">here</a> to see an example of how to use GetGroupMembers API.</example>
         public async Task<GetGroupMembersResponse> GetGroupMembers(GetGroupMembersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getGroupMembers");
@@ -9127,7 +9127,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetLibraryMaskingFormat.cs.html">here</a> to see an example of how to use GetLibraryMaskingFormat API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetLibraryMaskingFormat.cs.html">here</a> to see an example of how to use GetLibraryMaskingFormat API.</example>
         public async Task<GetLibraryMaskingFormatResponse> GetLibraryMaskingFormat(GetLibraryMaskingFormatRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getLibraryMaskingFormat");
@@ -9183,7 +9183,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetMaskingColumn.cs.html">here</a> to see an example of how to use GetMaskingColumn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetMaskingColumn.cs.html">here</a> to see an example of how to use GetMaskingColumn API.</example>
         public async Task<GetMaskingColumnResponse> GetMaskingColumn(GetMaskingColumnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMaskingColumn");
@@ -9239,7 +9239,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetMaskingPolicy.cs.html">here</a> to see an example of how to use GetMaskingPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetMaskingPolicy.cs.html">here</a> to see an example of how to use GetMaskingPolicy API.</example>
         public async Task<GetMaskingPolicyResponse> GetMaskingPolicy(GetMaskingPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMaskingPolicy");
@@ -9295,7 +9295,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetMaskingPolicyHealthReport.cs.html">here</a> to see an example of how to use GetMaskingPolicyHealthReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetMaskingPolicyHealthReport.cs.html">here</a> to see an example of how to use GetMaskingPolicyHealthReport API.</example>
         public async Task<GetMaskingPolicyHealthReportResponse> GetMaskingPolicyHealthReport(GetMaskingPolicyHealthReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMaskingPolicyHealthReport");
@@ -9351,7 +9351,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetMaskingReport.cs.html">here</a> to see an example of how to use GetMaskingReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetMaskingReport.cs.html">here</a> to see an example of how to use GetMaskingReport API.</example>
         public async Task<GetMaskingReportResponse> GetMaskingReport(GetMaskingReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMaskingReport");
@@ -9407,7 +9407,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetOnPremConnector.cs.html">here</a> to see an example of how to use GetOnPremConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetOnPremConnector.cs.html">here</a> to see an example of how to use GetOnPremConnector API.</example>
         public async Task<GetOnPremConnectorResponse> GetOnPremConnector(GetOnPremConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOnPremConnector");
@@ -9464,7 +9464,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetPeerTargetDatabase.cs.html">here</a> to see an example of how to use GetPeerTargetDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetPeerTargetDatabase.cs.html">here</a> to see an example of how to use GetPeerTargetDatabase API.</example>
         public async Task<GetPeerTargetDatabaseResponse> GetPeerTargetDatabase(GetPeerTargetDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPeerTargetDatabase");
@@ -9524,7 +9524,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetProfile.cs.html">here</a> to see an example of how to use GetProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetProfile.cs.html">here</a> to see an example of how to use GetProfile API.</example>
         public async Task<GetProfileResponse> GetProfile(GetProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getProfile");
@@ -9580,7 +9580,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetReferentialRelation.cs.html">here</a> to see an example of how to use GetReferentialRelation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetReferentialRelation.cs.html">here</a> to see an example of how to use GetReferentialRelation API.</example>
         public async Task<GetReferentialRelationResponse> GetReferentialRelation(GetReferentialRelationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getReferentialRelation");
@@ -9636,7 +9636,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetReport.cs.html">here</a> to see an example of how to use GetReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetReport.cs.html">here</a> to see an example of how to use GetReport API.</example>
         public async Task<GetReportResponse> GetReport(GetReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getReport");
@@ -9692,7 +9692,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetReportContent.cs.html">here</a> to see an example of how to use GetReportContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetReportContent.cs.html">here</a> to see an example of how to use GetReportContent API.</example>
         public async Task<GetReportContentResponse> GetReportContent(GetReportContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getReportContent");
@@ -9748,7 +9748,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetReportDefinition.cs.html">here</a> to see an example of how to use GetReportDefinition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetReportDefinition.cs.html">here</a> to see an example of how to use GetReportDefinition API.</example>
         public async Task<GetReportDefinitionResponse> GetReportDefinition(GetReportDefinitionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getReportDefinition");
@@ -9804,7 +9804,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSdmMaskingPolicyDifference.cs.html">here</a> to see an example of how to use GetSdmMaskingPolicyDifference API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSdmMaskingPolicyDifference.cs.html">here</a> to see an example of how to use GetSdmMaskingPolicyDifference API.</example>
         public async Task<GetSdmMaskingPolicyDifferenceResponse> GetSdmMaskingPolicyDifference(GetSdmMaskingPolicyDifferenceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSdmMaskingPolicyDifference");
@@ -9860,7 +9860,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSecurityAssessment.cs.html">here</a> to see an example of how to use GetSecurityAssessment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSecurityAssessment.cs.html">here</a> to see an example of how to use GetSecurityAssessment API.</example>
         public async Task<GetSecurityAssessmentResponse> GetSecurityAssessment(GetSecurityAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecurityAssessment");
@@ -9916,7 +9916,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSecurityAssessmentComparison.cs.html">here</a> to see an example of how to use GetSecurityAssessmentComparison API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSecurityAssessmentComparison.cs.html">here</a> to see an example of how to use GetSecurityAssessmentComparison API.</example>
         public async Task<GetSecurityAssessmentComparisonResponse> GetSecurityAssessmentComparison(GetSecurityAssessmentComparisonRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecurityAssessmentComparison");
@@ -9972,7 +9972,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSecurityPolicy.cs.html">here</a> to see an example of how to use GetSecurityPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSecurityPolicy.cs.html">here</a> to see an example of how to use GetSecurityPolicy API.</example>
         public async Task<GetSecurityPolicyResponse> GetSecurityPolicy(GetSecurityPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecurityPolicy");
@@ -10028,7 +10028,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSecurityPolicyConfig.cs.html">here</a> to see an example of how to use GetSecurityPolicyConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSecurityPolicyConfig.cs.html">here</a> to see an example of how to use GetSecurityPolicyConfig API.</example>
         public async Task<GetSecurityPolicyConfigResponse> GetSecurityPolicyConfig(GetSecurityPolicyConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecurityPolicyConfig");
@@ -10084,7 +10084,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSecurityPolicyDeployment.cs.html">here</a> to see an example of how to use GetSecurityPolicyDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSecurityPolicyDeployment.cs.html">here</a> to see an example of how to use GetSecurityPolicyDeployment API.</example>
         public async Task<GetSecurityPolicyDeploymentResponse> GetSecurityPolicyDeployment(GetSecurityPolicyDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecurityPolicyDeployment");
@@ -10140,7 +10140,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSecurityPolicyEntryState.cs.html">here</a> to see an example of how to use GetSecurityPolicyEntryState API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSecurityPolicyEntryState.cs.html">here</a> to see an example of how to use GetSecurityPolicyEntryState API.</example>
         public async Task<GetSecurityPolicyEntryStateResponse> GetSecurityPolicyEntryState(GetSecurityPolicyEntryStateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecurityPolicyEntryState");
@@ -10196,7 +10196,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSecurityPolicyReport.cs.html">here</a> to see an example of how to use GetSecurityPolicyReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSecurityPolicyReport.cs.html">here</a> to see an example of how to use GetSecurityPolicyReport API.</example>
         public async Task<GetSecurityPolicyReportResponse> GetSecurityPolicyReport(GetSecurityPolicyReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecurityPolicyReport");
@@ -10252,7 +10252,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSensitiveColumn.cs.html">here</a> to see an example of how to use GetSensitiveColumn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSensitiveColumn.cs.html">here</a> to see an example of how to use GetSensitiveColumn API.</example>
         public async Task<GetSensitiveColumnResponse> GetSensitiveColumn(GetSensitiveColumnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSensitiveColumn");
@@ -10308,7 +10308,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSensitiveDataModel.cs.html">here</a> to see an example of how to use GetSensitiveDataModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSensitiveDataModel.cs.html">here</a> to see an example of how to use GetSensitiveDataModel API.</example>
         public async Task<GetSensitiveDataModelResponse> GetSensitiveDataModel(GetSensitiveDataModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSensitiveDataModel");
@@ -10364,7 +10364,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSensitiveType.cs.html">here</a> to see an example of how to use GetSensitiveType API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSensitiveType.cs.html">here</a> to see an example of how to use GetSensitiveType API.</example>
         public async Task<GetSensitiveTypeResponse> GetSensitiveType(GetSensitiveTypeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSensitiveType");
@@ -10421,7 +10421,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSensitiveTypeGroup.cs.html">here</a> to see an example of how to use GetSensitiveTypeGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSensitiveTypeGroup.cs.html">here</a> to see an example of how to use GetSensitiveTypeGroup API.</example>
         public async Task<GetSensitiveTypeGroupResponse> GetSensitiveTypeGroup(GetSensitiveTypeGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSensitiveTypeGroup");
@@ -10477,7 +10477,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSensitiveTypesExport.cs.html">here</a> to see an example of how to use GetSensitiveTypesExport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSensitiveTypesExport.cs.html">here</a> to see an example of how to use GetSensitiveTypesExport API.</example>
         public async Task<GetSensitiveTypesExportResponse> GetSensitiveTypesExport(GetSensitiveTypesExportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSensitiveTypesExport");
@@ -10533,7 +10533,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSqlCollection.cs.html">here</a> to see an example of how to use GetSqlCollection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSqlCollection.cs.html">here</a> to see an example of how to use GetSqlCollection API.</example>
         public async Task<GetSqlCollectionResponse> GetSqlCollection(GetSqlCollectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSqlCollection");
@@ -10589,7 +10589,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSqlFirewallAllowedSql.cs.html">here</a> to see an example of how to use GetSqlFirewallAllowedSql API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSqlFirewallAllowedSql.cs.html">here</a> to see an example of how to use GetSqlFirewallAllowedSql API.</example>
         public async Task<GetSqlFirewallAllowedSqlResponse> GetSqlFirewallAllowedSql(GetSqlFirewallAllowedSqlRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSqlFirewallAllowedSql");
@@ -10645,7 +10645,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSqlFirewallPolicy.cs.html">here</a> to see an example of how to use GetSqlFirewallPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSqlFirewallPolicy.cs.html">here</a> to see an example of how to use GetSqlFirewallPolicy API.</example>
         public async Task<GetSqlFirewallPolicyResponse> GetSqlFirewallPolicy(GetSqlFirewallPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSqlFirewallPolicy");
@@ -10701,7 +10701,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetTargetAlertPolicyAssociation.cs.html">here</a> to see an example of how to use GetTargetAlertPolicyAssociation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetTargetAlertPolicyAssociation.cs.html">here</a> to see an example of how to use GetTargetAlertPolicyAssociation API.</example>
         public async Task<GetTargetAlertPolicyAssociationResponse> GetTargetAlertPolicyAssociation(GetTargetAlertPolicyAssociationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTargetAlertPolicyAssociation");
@@ -10758,7 +10758,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetTargetDatabase.cs.html">here</a> to see an example of how to use GetTargetDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetTargetDatabase.cs.html">here</a> to see an example of how to use GetTargetDatabase API.</example>
         public async Task<GetTargetDatabaseResponse> GetTargetDatabase(GetTargetDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTargetDatabase");
@@ -10815,7 +10815,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetTargetDatabaseGroup.cs.html">here</a> to see an example of how to use GetTargetDatabaseGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetTargetDatabaseGroup.cs.html">here</a> to see an example of how to use GetTargetDatabaseGroup API.</example>
         public async Task<GetTargetDatabaseGroupResponse> GetTargetDatabaseGroup(GetTargetDatabaseGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTargetDatabaseGroup");
@@ -10871,7 +10871,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetTemplateBaselineComparison.cs.html">here</a> to see an example of how to use GetTemplateBaselineComparison API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetTemplateBaselineComparison.cs.html">here</a> to see an example of how to use GetTemplateBaselineComparison API.</example>
         public async Task<GetTemplateBaselineComparisonResponse> GetTemplateBaselineComparison(GetTemplateBaselineComparisonRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTemplateBaselineComparison");
@@ -10927,7 +10927,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetUnifiedAuditPolicy.cs.html">here</a> to see an example of how to use GetUnifiedAuditPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetUnifiedAuditPolicy.cs.html">here</a> to see an example of how to use GetUnifiedAuditPolicy API.</example>
         public async Task<GetUnifiedAuditPolicyResponse> GetUnifiedAuditPolicy(GetUnifiedAuditPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getUnifiedAuditPolicy");
@@ -10983,7 +10983,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetUnifiedAuditPolicyDefinition.cs.html">here</a> to see an example of how to use GetUnifiedAuditPolicyDefinition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetUnifiedAuditPolicyDefinition.cs.html">here</a> to see an example of how to use GetUnifiedAuditPolicyDefinition API.</example>
         public async Task<GetUnifiedAuditPolicyDefinitionResponse> GetUnifiedAuditPolicyDefinition(GetUnifiedAuditPolicyDefinitionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getUnifiedAuditPolicyDefinition");
@@ -11039,7 +11039,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetUserAssessment.cs.html">here</a> to see an example of how to use GetUserAssessment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetUserAssessment.cs.html">here</a> to see an example of how to use GetUserAssessment API.</example>
         public async Task<GetUserAssessmentResponse> GetUserAssessment(GetUserAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getUserAssessment");
@@ -11095,7 +11095,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetUserAssessmentComparison.cs.html">here</a> to see an example of how to use GetUserAssessmentComparison API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetUserAssessmentComparison.cs.html">here</a> to see an example of how to use GetUserAssessmentComparison API.</example>
         public async Task<GetUserAssessmentComparisonResponse> GetUserAssessmentComparison(GetUserAssessmentComparisonRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getUserAssessmentComparison");
@@ -11151,7 +11151,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -11208,7 +11208,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAlertAnalytics.cs.html">here</a> to see an example of how to use ListAlertAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAlertAnalytics.cs.html">here</a> to see an example of how to use ListAlertAnalytics API.</example>
         public async Task<ListAlertAnalyticsResponse> ListAlertAnalytics(ListAlertAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAlertAnalytics");
@@ -11265,7 +11265,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAlertPolicies.cs.html">here</a> to see an example of how to use ListAlertPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAlertPolicies.cs.html">here</a> to see an example of how to use ListAlertPolicies API.</example>
         public async Task<ListAlertPoliciesResponse> ListAlertPolicies(ListAlertPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAlertPolicies");
@@ -11323,7 +11323,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAlertPolicyRules.cs.html">here</a> to see an example of how to use ListAlertPolicyRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAlertPolicyRules.cs.html">here</a> to see an example of how to use ListAlertPolicyRules API.</example>
         public async Task<ListAlertPolicyRulesResponse> ListAlertPolicyRules(ListAlertPolicyRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAlertPolicyRules");
@@ -11380,7 +11380,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAlerts.cs.html">here</a> to see an example of how to use ListAlerts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAlerts.cs.html">here</a> to see an example of how to use ListAlerts API.</example>
         public async Task<ListAlertsResponse> ListAlerts(ListAlertsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAlerts");
@@ -11436,7 +11436,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAssociatedResources.cs.html">here</a> to see an example of how to use ListAssociatedResources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAssociatedResources.cs.html">here</a> to see an example of how to use ListAssociatedResources API.</example>
         public async Task<ListAssociatedResourcesResponse> ListAssociatedResources(ListAssociatedResourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAssociatedResources");
@@ -11506,7 +11506,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAttributeSets.cs.html">here</a> to see an example of how to use ListAttributeSets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAttributeSets.cs.html">here</a> to see an example of how to use ListAttributeSets API.</example>
         public async Task<ListAttributeSetsResponse> ListAttributeSets(ListAttributeSetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAttributeSets");
@@ -11563,7 +11563,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditArchiveRetrievals.cs.html">here</a> to see an example of how to use ListAuditArchiveRetrievals API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditArchiveRetrievals.cs.html">here</a> to see an example of how to use ListAuditArchiveRetrievals API.</example>
         public async Task<ListAuditArchiveRetrievalsResponse> ListAuditArchiveRetrievals(ListAuditArchiveRetrievalsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAuditArchiveRetrievals");
@@ -11632,7 +11632,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditEventAnalytics.cs.html">here</a> to see an example of how to use ListAuditEventAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditEventAnalytics.cs.html">here</a> to see an example of how to use ListAuditEventAnalytics API.</example>
         public async Task<ListAuditEventAnalyticsResponse> ListAuditEventAnalytics(ListAuditEventAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAuditEventAnalytics");
@@ -11701,7 +11701,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditEvents.cs.html">here</a> to see an example of how to use ListAuditEvents API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditEvents.cs.html">here</a> to see an example of how to use ListAuditEvents API.</example>
         public async Task<ListAuditEventsResponse> ListAuditEvents(ListAuditEventsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAuditEvents");
@@ -11772,7 +11772,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditPolicies.cs.html">here</a> to see an example of how to use ListAuditPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditPolicies.cs.html">here</a> to see an example of how to use ListAuditPolicies API.</example>
         public async Task<ListAuditPoliciesResponse> ListAuditPolicies(ListAuditPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAuditPolicies");
@@ -11844,7 +11844,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditPolicyAnalytics.cs.html">here</a> to see an example of how to use ListAuditPolicyAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditPolicyAnalytics.cs.html">here</a> to see an example of how to use ListAuditPolicyAnalytics API.</example>
         public async Task<ListAuditPolicyAnalyticsResponse> ListAuditPolicyAnalytics(ListAuditPolicyAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAuditPolicyAnalytics");
@@ -11913,7 +11913,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditProfileAnalytics.cs.html">here</a> to see an example of how to use ListAuditProfileAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditProfileAnalytics.cs.html">here</a> to see an example of how to use ListAuditProfileAnalytics API.</example>
         public async Task<ListAuditProfileAnalyticsResponse> ListAuditProfileAnalytics(ListAuditProfileAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAuditProfileAnalytics");
@@ -11984,7 +11984,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditProfiles.cs.html">here</a> to see an example of how to use ListAuditProfiles API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditProfiles.cs.html">here</a> to see an example of how to use ListAuditProfiles API.</example>
         public async Task<ListAuditProfilesResponse> ListAuditProfiles(ListAuditProfilesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAuditProfiles");
@@ -12053,7 +12053,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditTrailAnalytics.cs.html">here</a> to see an example of how to use ListAuditTrailAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditTrailAnalytics.cs.html">here</a> to see an example of how to use ListAuditTrailAnalytics API.</example>
         public async Task<ListAuditTrailAnalyticsResponse> ListAuditTrailAnalytics(ListAuditTrailAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAuditTrailAnalytics");
@@ -12123,7 +12123,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditTrails.cs.html">here</a> to see an example of how to use ListAuditTrails API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditTrails.cs.html">here</a> to see an example of how to use ListAuditTrails API.</example>
         public async Task<ListAuditTrailsResponse> ListAuditTrails(ListAuditTrailsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAuditTrails");
@@ -12179,7 +12179,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAvailableAuditVolumes.cs.html">here</a> to see an example of how to use ListAvailableAuditVolumes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAvailableAuditVolumes.cs.html">here</a> to see an example of how to use ListAvailableAuditVolumes API.</example>
         public async Task<ListAvailableAuditVolumesResponse> ListAvailableAuditVolumes(ListAvailableAuditVolumesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAvailableAuditVolumes");
@@ -12236,7 +12236,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListChecks.cs.html">here</a> to see an example of how to use ListChecks API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListChecks.cs.html">here</a> to see an example of how to use ListChecks API.</example>
         public async Task<ListChecksResponse> ListChecks(ListChecksRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listChecks");
@@ -12292,7 +12292,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListCollectedAuditVolumes.cs.html">here</a> to see an example of how to use ListCollectedAuditVolumes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListCollectedAuditVolumes.cs.html">here</a> to see an example of how to use ListCollectedAuditVolumes API.</example>
         public async Task<ListCollectedAuditVolumesResponse> ListCollectedAuditVolumes(ListCollectedAuditVolumesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCollectedAuditVolumes");
@@ -12349,7 +12349,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListColumns.cs.html">here</a> to see an example of how to use ListColumns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListColumns.cs.html">here</a> to see an example of how to use ListColumns API.</example>
         public async Task<ListColumnsResponse> ListColumns(ListColumnsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listColumns");
@@ -12406,7 +12406,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListDataSafePrivateEndpoints.cs.html">here</a> to see an example of how to use ListDataSafePrivateEndpoints API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListDataSafePrivateEndpoints.cs.html">here</a> to see an example of how to use ListDataSafePrivateEndpoints API.</example>
         public async Task<ListDataSafePrivateEndpointsResponse> ListDataSafePrivateEndpoints(ListDataSafePrivateEndpointsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDataSafePrivateEndpoints");
@@ -12476,7 +12476,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListDatabaseSecurityConfigs.cs.html">here</a> to see an example of how to use ListDatabaseSecurityConfigs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListDatabaseSecurityConfigs.cs.html">here</a> to see an example of how to use ListDatabaseSecurityConfigs API.</example>
         public async Task<ListDatabaseSecurityConfigsResponse> ListDatabaseSecurityConfigs(ListDatabaseSecurityConfigsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDatabaseSecurityConfigs");
@@ -12535,7 +12535,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListDatabaseTableAccessEntries.cs.html">here</a> to see an example of how to use ListDatabaseTableAccessEntries API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListDatabaseTableAccessEntries.cs.html">here</a> to see an example of how to use ListDatabaseTableAccessEntries API.</example>
         public async Task<ListDatabaseTableAccessEntriesResponse> ListDatabaseTableAccessEntries(ListDatabaseTableAccessEntriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDatabaseTableAccessEntries");
@@ -12594,7 +12594,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListDatabaseViewAccessEntries.cs.html">here</a> to see an example of how to use ListDatabaseViewAccessEntries API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListDatabaseViewAccessEntries.cs.html">here</a> to see an example of how to use ListDatabaseViewAccessEntries API.</example>
         public async Task<ListDatabaseViewAccessEntriesResponse> ListDatabaseViewAccessEntries(ListDatabaseViewAccessEntriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDatabaseViewAccessEntries");
@@ -12650,7 +12650,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListDifferenceColumns.cs.html">here</a> to see an example of how to use ListDifferenceColumns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListDifferenceColumns.cs.html">here</a> to see an example of how to use ListDifferenceColumns API.</example>
         public async Task<ListDifferenceColumnsResponse> ListDifferenceColumns(ListDifferenceColumnsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDifferenceColumns");
@@ -12709,7 +12709,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListDiscoveryAnalytics.cs.html">here</a> to see an example of how to use ListDiscoveryAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListDiscoveryAnalytics.cs.html">here</a> to see an example of how to use ListDiscoveryAnalytics API.</example>
         public async Task<ListDiscoveryAnalyticsResponse> ListDiscoveryAnalytics(ListDiscoveryAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDiscoveryAnalytics");
@@ -12765,7 +12765,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListDiscoveryJobResults.cs.html">here</a> to see an example of how to use ListDiscoveryJobResults API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListDiscoveryJobResults.cs.html">here</a> to see an example of how to use ListDiscoveryJobResults API.</example>
         public async Task<ListDiscoveryJobResultsResponse> ListDiscoveryJobResults(ListDiscoveryJobResultsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDiscoveryJobResults");
@@ -12821,7 +12821,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListDiscoveryJobs.cs.html">here</a> to see an example of how to use ListDiscoveryJobs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListDiscoveryJobs.cs.html">here</a> to see an example of how to use ListDiscoveryJobs API.</example>
         public async Task<ListDiscoveryJobsResponse> ListDiscoveryJobs(ListDiscoveryJobsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDiscoveryJobs");
@@ -12887,7 +12887,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListFindingAnalytics.cs.html">here</a> to see an example of how to use ListFindingAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListFindingAnalytics.cs.html">here</a> to see an example of how to use ListFindingAnalytics API.</example>
         public async Task<ListFindingAnalyticsResponse> ListFindingAnalytics(ListFindingAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFindingAnalytics");
@@ -12944,7 +12944,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListFindings.cs.html">here</a> to see an example of how to use ListFindings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListFindings.cs.html">here</a> to see an example of how to use ListFindings API.</example>
         public async Task<ListFindingsResponse> ListFindings(ListFindingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFindings");
@@ -13001,7 +13001,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListFindingsChangeAuditLogs.cs.html">here</a> to see an example of how to use ListFindingsChangeAuditLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListFindingsChangeAuditLogs.cs.html">here</a> to see an example of how to use ListFindingsChangeAuditLogs API.</example>
         public async Task<ListFindingsChangeAuditLogsResponse> ListFindingsChangeAuditLogs(ListFindingsChangeAuditLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFindingsChangeAuditLogs");
@@ -13061,7 +13061,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListGrants.cs.html">here</a> to see an example of how to use ListGrants API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListGrants.cs.html">here</a> to see an example of how to use ListGrants API.</example>
         public async Task<ListGrantsResponse> ListGrants(ListGrantsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listGrants");
@@ -13118,7 +13118,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListGroupedSensitiveTypes.cs.html">here</a> to see an example of how to use ListGroupedSensitiveTypes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListGroupedSensitiveTypes.cs.html">here</a> to see an example of how to use ListGroupedSensitiveTypes API.</example>
         public async Task<ListGroupedSensitiveTypesResponse> ListGroupedSensitiveTypes(ListGroupedSensitiveTypesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listGroupedSensitiveTypes");
@@ -13175,7 +13175,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListLibraryMaskingFormats.cs.html">here</a> to see an example of how to use ListLibraryMaskingFormats API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListLibraryMaskingFormats.cs.html">here</a> to see an example of how to use ListLibraryMaskingFormats API.</example>
         public async Task<ListLibraryMaskingFormatsResponse> ListLibraryMaskingFormats(ListLibraryMaskingFormatsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLibraryMaskingFormats");
@@ -13232,7 +13232,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskedColumns.cs.html">here</a> to see an example of how to use ListMaskedColumns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskedColumns.cs.html">here</a> to see an example of how to use ListMaskedColumns API.</example>
         public async Task<ListMaskedColumnsResponse> ListMaskedColumns(ListMaskedColumnsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMaskedColumns");
@@ -13291,7 +13291,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingAnalytics.cs.html">here</a> to see an example of how to use ListMaskingAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingAnalytics.cs.html">here</a> to see an example of how to use ListMaskingAnalytics API.</example>
         public async Task<ListMaskingAnalyticsResponse> ListMaskingAnalytics(ListMaskingAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMaskingAnalytics");
@@ -13348,7 +13348,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingColumns.cs.html">here</a> to see an example of how to use ListMaskingColumns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingColumns.cs.html">here</a> to see an example of how to use ListMaskingColumns API.</example>
         public async Task<ListMaskingColumnsResponse> ListMaskingColumns(ListMaskingColumnsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMaskingColumns");
@@ -13405,7 +13405,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingErrors.cs.html">here</a> to see an example of how to use ListMaskingErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingErrors.cs.html">here</a> to see an example of how to use ListMaskingErrors API.</example>
         public async Task<ListMaskingErrorsResponse> ListMaskingErrors(ListMaskingErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMaskingErrors");
@@ -13462,7 +13462,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingObjects.cs.html">here</a> to see an example of how to use ListMaskingObjects API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingObjects.cs.html">here</a> to see an example of how to use ListMaskingObjects API.</example>
         public async Task<ListMaskingObjectsResponse> ListMaskingObjects(ListMaskingObjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMaskingObjects");
@@ -13518,7 +13518,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingPolicies.cs.html">here</a> to see an example of how to use ListMaskingPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingPolicies.cs.html">here</a> to see an example of how to use ListMaskingPolicies API.</example>
         public async Task<ListMaskingPoliciesResponse> ListMaskingPolicies(ListMaskingPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMaskingPolicies");
@@ -13575,7 +13575,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingPolicyHealthReportLogs.cs.html">here</a> to see an example of how to use ListMaskingPolicyHealthReportLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingPolicyHealthReportLogs.cs.html">here</a> to see an example of how to use ListMaskingPolicyHealthReportLogs API.</example>
         public async Task<ListMaskingPolicyHealthReportLogsResponse> ListMaskingPolicyHealthReportLogs(ListMaskingPolicyHealthReportLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMaskingPolicyHealthReportLogs");
@@ -13631,7 +13631,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingPolicyHealthReports.cs.html">here</a> to see an example of how to use ListMaskingPolicyHealthReports API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingPolicyHealthReports.cs.html">here</a> to see an example of how to use ListMaskingPolicyHealthReports API.</example>
         public async Task<ListMaskingPolicyHealthReportsResponse> ListMaskingPolicyHealthReports(ListMaskingPolicyHealthReportsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMaskingPolicyHealthReports");
@@ -13688,7 +13688,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingPolicyReferentialRelations.cs.html">here</a> to see an example of how to use ListMaskingPolicyReferentialRelations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingPolicyReferentialRelations.cs.html">here</a> to see an example of how to use ListMaskingPolicyReferentialRelations API.</example>
         public async Task<ListMaskingPolicyReferentialRelationsResponse> ListMaskingPolicyReferentialRelations(ListMaskingPolicyReferentialRelationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMaskingPolicyReferentialRelations");
@@ -13744,7 +13744,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingReports.cs.html">here</a> to see an example of how to use ListMaskingReports API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingReports.cs.html">here</a> to see an example of how to use ListMaskingReports API.</example>
         public async Task<ListMaskingReportsResponse> ListMaskingReports(ListMaskingReportsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMaskingReports");
@@ -13801,7 +13801,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingSchemas.cs.html">here</a> to see an example of how to use ListMaskingSchemas API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListMaskingSchemas.cs.html">here</a> to see an example of how to use ListMaskingSchemas API.</example>
         public async Task<ListMaskingSchemasResponse> ListMaskingSchemas(ListMaskingSchemasRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMaskingSchemas");
@@ -13858,7 +13858,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListOnPremConnectors.cs.html">here</a> to see an example of how to use ListOnPremConnectors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListOnPremConnectors.cs.html">here</a> to see an example of how to use ListOnPremConnectors API.</example>
         public async Task<ListOnPremConnectorsResponse> ListOnPremConnectors(ListOnPremConnectorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOnPremConnectors");
@@ -13925,7 +13925,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListPasswordExpiryDateAnalytics.cs.html">here</a> to see an example of how to use ListPasswordExpiryDateAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListPasswordExpiryDateAnalytics.cs.html">here</a> to see an example of how to use ListPasswordExpiryDateAnalytics API.</example>
         public async Task<ListPasswordExpiryDateAnalyticsResponse> ListPasswordExpiryDateAnalytics(ListPasswordExpiryDateAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPasswordExpiryDateAnalytics");
@@ -13981,7 +13981,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListPeerTargetDatabases.cs.html">here</a> to see an example of how to use ListPeerTargetDatabases API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListPeerTargetDatabases.cs.html">here</a> to see an example of how to use ListPeerTargetDatabases API.</example>
         public async Task<ListPeerTargetDatabasesResponse> ListPeerTargetDatabases(ListPeerTargetDatabasesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPeerTargetDatabases");
@@ -14052,7 +14052,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListProfileAnalytics.cs.html">here</a> to see an example of how to use ListProfileAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListProfileAnalytics.cs.html">here</a> to see an example of how to use ListProfileAnalytics API.</example>
         public async Task<ListProfileAnalyticsResponse> ListProfileAnalytics(ListProfileAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProfileAnalytics");
@@ -14123,7 +14123,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListProfileSummaries.cs.html">here</a> to see an example of how to use ListProfileSummaries API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListProfileSummaries.cs.html">here</a> to see an example of how to use ListProfileSummaries API.</example>
         public async Task<ListProfileSummariesResponse> ListProfileSummaries(ListProfileSummariesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProfileSummaries");
@@ -14180,7 +14180,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListReferentialRelations.cs.html">here</a> to see an example of how to use ListReferentialRelations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListReferentialRelations.cs.html">here</a> to see an example of how to use ListReferentialRelations API.</example>
         public async Task<ListReferentialRelationsResponse> ListReferentialRelations(ListReferentialRelationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listReferentialRelations");
@@ -14239,7 +14239,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListReportDefinitions.cs.html">here</a> to see an example of how to use ListReportDefinitions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListReportDefinitions.cs.html">here</a> to see an example of how to use ListReportDefinitions API.</example>
         public async Task<ListReportDefinitionsResponse> ListReportDefinitions(ListReportDefinitionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listReportDefinitions");
@@ -14295,7 +14295,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListReports.cs.html">here</a> to see an example of how to use ListReports API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListReports.cs.html">here</a> to see an example of how to use ListReports API.</example>
         public async Task<ListReportsResponse> ListReports(ListReportsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listReports");
@@ -14354,7 +14354,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListRoleGrantPaths.cs.html">here</a> to see an example of how to use ListRoleGrantPaths API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListRoleGrantPaths.cs.html">here</a> to see an example of how to use ListRoleGrantPaths API.</example>
         public async Task<ListRoleGrantPathsResponse> ListRoleGrantPaths(ListRoleGrantPathsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRoleGrantPaths");
@@ -14411,7 +14411,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListRoles.cs.html">here</a> to see an example of how to use ListRoles API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListRoles.cs.html">here</a> to see an example of how to use ListRoles API.</example>
         public async Task<ListRolesResponse> ListRoles(ListRolesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRoles");
@@ -14468,7 +14468,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSchemas.cs.html">here</a> to see an example of how to use ListSchemas API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSchemas.cs.html">here</a> to see an example of how to use ListSchemas API.</example>
         public async Task<ListSchemasResponse> ListSchemas(ListSchemasRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSchemas");
@@ -14524,7 +14524,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSdmMaskingPolicyDifferences.cs.html">here</a> to see an example of how to use ListSdmMaskingPolicyDifferences API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSdmMaskingPolicyDifferences.cs.html">here</a> to see an example of how to use ListSdmMaskingPolicyDifferences API.</example>
         public async Task<ListSdmMaskingPolicyDifferencesResponse> ListSdmMaskingPolicyDifferences(ListSdmMaskingPolicyDifferencesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSdmMaskingPolicyDifferences");
@@ -14595,7 +14595,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSecurityAssessments.cs.html">here</a> to see an example of how to use ListSecurityAssessments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSecurityAssessments.cs.html">here</a> to see an example of how to use ListSecurityAssessments API.</example>
         public async Task<ListSecurityAssessmentsResponse> ListSecurityAssessments(ListSecurityAssessmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityAssessments");
@@ -14659,7 +14659,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSecurityFeatureAnalytics.cs.html">here</a> to see an example of how to use ListSecurityFeatureAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSecurityFeatureAnalytics.cs.html">here</a> to see an example of how to use ListSecurityFeatureAnalytics API.</example>
         public async Task<ListSecurityFeatureAnalyticsResponse> ListSecurityFeatureAnalytics(ListSecurityFeatureAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityFeatureAnalytics");
@@ -14716,7 +14716,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSecurityFeatures.cs.html">here</a> to see an example of how to use ListSecurityFeatures API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSecurityFeatures.cs.html">here</a> to see an example of how to use ListSecurityFeatures API.</example>
         public async Task<ListSecurityFeaturesResponse> ListSecurityFeatures(ListSecurityFeaturesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityFeatures");
@@ -14786,7 +14786,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSecurityPolicies.cs.html">here</a> to see an example of how to use ListSecurityPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSecurityPolicies.cs.html">here</a> to see an example of how to use ListSecurityPolicies API.</example>
         public async Task<ListSecurityPoliciesResponse> ListSecurityPolicies(ListSecurityPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityPolicies");
@@ -14856,7 +14856,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSecurityPolicyConfigs.cs.html">here</a> to see an example of how to use ListSecurityPolicyConfigs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSecurityPolicyConfigs.cs.html">here</a> to see an example of how to use ListSecurityPolicyConfigs API.</example>
         public async Task<ListSecurityPolicyConfigsResponse> ListSecurityPolicyConfigs(ListSecurityPolicyConfigsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityPolicyConfigs");
@@ -14926,7 +14926,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSecurityPolicyDeployments.cs.html">here</a> to see an example of how to use ListSecurityPolicyDeployments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSecurityPolicyDeployments.cs.html">here</a> to see an example of how to use ListSecurityPolicyDeployments API.</example>
         public async Task<ListSecurityPolicyDeploymentsResponse> ListSecurityPolicyDeployments(ListSecurityPolicyDeploymentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityPolicyDeployments");
@@ -14985,7 +14985,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSecurityPolicyEntryStates.cs.html">here</a> to see an example of how to use ListSecurityPolicyEntryStates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSecurityPolicyEntryStates.cs.html">here</a> to see an example of how to use ListSecurityPolicyEntryStates API.</example>
         public async Task<ListSecurityPolicyEntryStatesResponse> ListSecurityPolicyEntryStates(ListSecurityPolicyEntryStatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityPolicyEntryStates");
@@ -15055,7 +15055,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSecurityPolicyReports.cs.html">here</a> to see an example of how to use ListSecurityPolicyReports API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSecurityPolicyReports.cs.html">here</a> to see an example of how to use ListSecurityPolicyReports API.</example>
         public async Task<ListSecurityPolicyReportsResponse> ListSecurityPolicyReports(ListSecurityPolicyReportsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityPolicyReports");
@@ -15121,7 +15121,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveColumnAnalytics.cs.html">here</a> to see an example of how to use ListSensitiveColumnAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveColumnAnalytics.cs.html">here</a> to see an example of how to use ListSensitiveColumnAnalytics API.</example>
         public async Task<ListSensitiveColumnAnalyticsResponse> ListSensitiveColumnAnalytics(ListSensitiveColumnAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSensitiveColumnAnalytics");
@@ -15178,7 +15178,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveColumns.cs.html">here</a> to see an example of how to use ListSensitiveColumns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveColumns.cs.html">here</a> to see an example of how to use ListSensitiveColumns API.</example>
         public async Task<ListSensitiveColumnsResponse> ListSensitiveColumns(ListSensitiveColumnsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSensitiveColumns");
@@ -15235,7 +15235,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveDataModelSensitiveTypes.cs.html">here</a> to see an example of how to use ListSensitiveDataModelSensitiveTypes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveDataModelSensitiveTypes.cs.html">here</a> to see an example of how to use ListSensitiveDataModelSensitiveTypes API.</example>
         public async Task<ListSensitiveDataModelSensitiveTypesResponse> ListSensitiveDataModelSensitiveTypes(ListSensitiveDataModelSensitiveTypesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSensitiveDataModelSensitiveTypes");
@@ -15292,7 +15292,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveDataModels.cs.html">here</a> to see an example of how to use ListSensitiveDataModels API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveDataModels.cs.html">here</a> to see an example of how to use ListSensitiveDataModels API.</example>
         public async Task<ListSensitiveDataModelsResponse> ListSensitiveDataModels(ListSensitiveDataModelsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSensitiveDataModels");
@@ -15349,7 +15349,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveObjects.cs.html">here</a> to see an example of how to use ListSensitiveObjects API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveObjects.cs.html">here</a> to see an example of how to use ListSensitiveObjects API.</example>
         public async Task<ListSensitiveObjectsResponse> ListSensitiveObjects(ListSensitiveObjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSensitiveObjects");
@@ -15406,7 +15406,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveSchemas.cs.html">here</a> to see an example of how to use ListSensitiveSchemas API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveSchemas.cs.html">here</a> to see an example of how to use ListSensitiveSchemas API.</example>
         public async Task<ListSensitiveSchemasResponse> ListSensitiveSchemas(ListSensitiveSchemasRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSensitiveSchemas");
@@ -15463,7 +15463,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveTypeGroups.cs.html">here</a> to see an example of how to use ListSensitiveTypeGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveTypeGroups.cs.html">here</a> to see an example of how to use ListSensitiveTypeGroups API.</example>
         public async Task<ListSensitiveTypeGroupsResponse> ListSensitiveTypeGroups(ListSensitiveTypeGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSensitiveTypeGroups");
@@ -15520,7 +15520,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveTypes.cs.html">here</a> to see an example of how to use ListSensitiveTypes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveTypes.cs.html">here</a> to see an example of how to use ListSensitiveTypes API.</example>
         public async Task<ListSensitiveTypesResponse> ListSensitiveTypes(ListSensitiveTypesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSensitiveTypes");
@@ -15578,7 +15578,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveTypesExports.cs.html">here</a> to see an example of how to use ListSensitiveTypesExports API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSensitiveTypesExports.cs.html">here</a> to see an example of how to use ListSensitiveTypesExports API.</example>
         public async Task<ListSensitiveTypesExportsResponse> ListSensitiveTypesExports(ListSensitiveTypesExportsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSensitiveTypesExports");
@@ -15648,7 +15648,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlCollectionAnalytics.cs.html">here</a> to see an example of how to use ListSqlCollectionAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlCollectionAnalytics.cs.html">here</a> to see an example of how to use ListSqlCollectionAnalytics API.</example>
         public async Task<ListSqlCollectionAnalyticsResponse> ListSqlCollectionAnalytics(ListSqlCollectionAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSqlCollectionAnalytics");
@@ -15705,7 +15705,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlCollectionLogInsights.cs.html">here</a> to see an example of how to use ListSqlCollectionLogInsights API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlCollectionLogInsights.cs.html">here</a> to see an example of how to use ListSqlCollectionLogInsights API.</example>
         public async Task<ListSqlCollectionLogInsightsResponse> ListSqlCollectionLogInsights(ListSqlCollectionLogInsightsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSqlCollectionLogInsights");
@@ -15775,7 +15775,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlCollections.cs.html">here</a> to see an example of how to use ListSqlCollections API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlCollections.cs.html">here</a> to see an example of how to use ListSqlCollections API.</example>
         public async Task<ListSqlCollectionsResponse> ListSqlCollections(ListSqlCollectionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSqlCollections");
@@ -15845,7 +15845,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlFirewallAllowedSqlAnalytics.cs.html">here</a> to see an example of how to use ListSqlFirewallAllowedSqlAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlFirewallAllowedSqlAnalytics.cs.html">here</a> to see an example of how to use ListSqlFirewallAllowedSqlAnalytics API.</example>
         public async Task<ListSqlFirewallAllowedSqlAnalyticsResponse> ListSqlFirewallAllowedSqlAnalytics(ListSqlFirewallAllowedSqlAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSqlFirewallAllowedSqlAnalytics");
@@ -15915,7 +15915,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlFirewallAllowedSqls.cs.html">here</a> to see an example of how to use ListSqlFirewallAllowedSqls API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlFirewallAllowedSqls.cs.html">here</a> to see an example of how to use ListSqlFirewallAllowedSqls API.</example>
         public async Task<ListSqlFirewallAllowedSqlsResponse> ListSqlFirewallAllowedSqls(ListSqlFirewallAllowedSqlsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSqlFirewallAllowedSqls");
@@ -15985,7 +15985,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlFirewallPolicies.cs.html">here</a> to see an example of how to use ListSqlFirewallPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlFirewallPolicies.cs.html">here</a> to see an example of how to use ListSqlFirewallPolicies API.</example>
         public async Task<ListSqlFirewallPoliciesResponse> ListSqlFirewallPolicies(ListSqlFirewallPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSqlFirewallPolicies");
@@ -16053,7 +16053,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlFirewallPolicyAnalytics.cs.html">here</a> to see an example of how to use ListSqlFirewallPolicyAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlFirewallPolicyAnalytics.cs.html">here</a> to see an example of how to use ListSqlFirewallPolicyAnalytics API.</example>
         public async Task<ListSqlFirewallPolicyAnalyticsResponse> ListSqlFirewallPolicyAnalytics(ListSqlFirewallPolicyAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSqlFirewallPolicyAnalytics");
@@ -16110,7 +16110,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlFirewallViolationAnalytics.cs.html">here</a> to see an example of how to use ListSqlFirewallViolationAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlFirewallViolationAnalytics.cs.html">here</a> to see an example of how to use ListSqlFirewallViolationAnalytics API.</example>
         public async Task<ListSqlFirewallViolationAnalyticsResponse> ListSqlFirewallViolationAnalytics(ListSqlFirewallViolationAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSqlFirewallViolationAnalytics");
@@ -16167,7 +16167,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlFirewallViolations.cs.html">here</a> to see an example of how to use ListSqlFirewallViolations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListSqlFirewallViolations.cs.html">here</a> to see an example of how to use ListSqlFirewallViolations API.</example>
         public async Task<ListSqlFirewallViolationsResponse> ListSqlFirewallViolations(ListSqlFirewallViolationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSqlFirewallViolations");
@@ -16224,7 +16224,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListTables.cs.html">here</a> to see an example of how to use ListTables API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListTables.cs.html">here</a> to see an example of how to use ListTables API.</example>
         public async Task<ListTablesResponse> ListTables(ListTablesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTables");
@@ -16281,7 +16281,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListTargetAlertPolicyAssociations.cs.html">here</a> to see an example of how to use ListTargetAlertPolicyAssociations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListTargetAlertPolicyAssociations.cs.html">here</a> to see an example of how to use ListTargetAlertPolicyAssociations API.</example>
         public async Task<ListTargetAlertPolicyAssociationsResponse> ListTargetAlertPolicyAssociations(ListTargetAlertPolicyAssociationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTargetAlertPolicyAssociations");
@@ -16338,7 +16338,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListTargetDatabaseGroups.cs.html">here</a> to see an example of how to use ListTargetDatabaseGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListTargetDatabaseGroups.cs.html">here</a> to see an example of how to use ListTargetDatabaseGroups API.</example>
         public async Task<ListTargetDatabaseGroupsResponse> ListTargetDatabaseGroups(ListTargetDatabaseGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTargetDatabaseGroups");
@@ -16395,7 +16395,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListTargetDatabases.cs.html">here</a> to see an example of how to use ListTargetDatabases API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListTargetDatabases.cs.html">here</a> to see an example of how to use ListTargetDatabases API.</example>
         public async Task<ListTargetDatabasesResponse> ListTargetDatabases(ListTargetDatabasesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTargetDatabases");
@@ -16451,7 +16451,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListTargetOverrides.cs.html">here</a> to see an example of how to use ListTargetOverrides API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListTargetOverrides.cs.html">here</a> to see an example of how to use ListTargetOverrides API.</example>
         public async Task<ListTargetOverridesResponse> ListTargetOverrides(ListTargetOverridesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTargetOverrides");
@@ -16521,7 +16521,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListTemplateAnalytics.cs.html">here</a> to see an example of how to use ListTemplateAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListTemplateAnalytics.cs.html">here</a> to see an example of how to use ListTemplateAnalytics API.</example>
         public async Task<ListTemplateAnalyticsResponse> ListTemplateAnalytics(ListTemplateAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTemplateAnalytics");
@@ -16592,7 +16592,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListTemplateAssociationAnalytics.cs.html">here</a> to see an example of how to use ListTemplateAssociationAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListTemplateAssociationAnalytics.cs.html">here</a> to see an example of how to use ListTemplateAssociationAnalytics API.</example>
         public async Task<ListTemplateAssociationAnalyticsResponse> ListTemplateAssociationAnalytics(ListTemplateAssociationAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTemplateAssociationAnalytics");
@@ -16662,7 +16662,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListUnifiedAuditPolicies.cs.html">here</a> to see an example of how to use ListUnifiedAuditPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListUnifiedAuditPolicies.cs.html">here</a> to see an example of how to use ListUnifiedAuditPolicies API.</example>
         public async Task<ListUnifiedAuditPoliciesResponse> ListUnifiedAuditPolicies(ListUnifiedAuditPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUnifiedAuditPolicies");
@@ -16732,7 +16732,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListUnifiedAuditPolicyDefinitions.cs.html">here</a> to see an example of how to use ListUnifiedAuditPolicyDefinitions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListUnifiedAuditPolicyDefinitions.cs.html">here</a> to see an example of how to use ListUnifiedAuditPolicyDefinitions API.</example>
         public async Task<ListUnifiedAuditPolicyDefinitionsResponse> ListUnifiedAuditPolicyDefinitions(ListUnifiedAuditPolicyDefinitionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUnifiedAuditPolicyDefinitions");
@@ -16789,7 +16789,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListUserAccessAnalytics.cs.html">here</a> to see an example of how to use ListUserAccessAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListUserAccessAnalytics.cs.html">here</a> to see an example of how to use ListUserAccessAnalytics API.</example>
         public async Task<ListUserAccessAnalyticsResponse> ListUserAccessAnalytics(ListUserAccessAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUserAccessAnalytics");
@@ -16860,7 +16860,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListUserAnalytics.cs.html">here</a> to see an example of how to use ListUserAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListUserAnalytics.cs.html">here</a> to see an example of how to use ListUserAnalytics API.</example>
         public async Task<ListUserAnalyticsResponse> ListUserAnalytics(ListUserAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUserAnalytics");
@@ -16931,7 +16931,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListUserAssessments.cs.html">here</a> to see an example of how to use ListUserAssessments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListUserAssessments.cs.html">here</a> to see an example of how to use ListUserAssessments API.</example>
         public async Task<ListUserAssessmentsResponse> ListUserAssessments(ListUserAssessmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUserAssessments");
@@ -16991,7 +16991,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListUsers.cs.html">here</a> to see an example of how to use ListUsers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListUsers.cs.html">here</a> to see an example of how to use ListUsers API.</example>
         public async Task<ListUsersResponse> ListUsers(ListUsersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUsers");
@@ -17048,7 +17048,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -17105,7 +17105,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -17162,7 +17162,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -17218,7 +17218,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/MaskData.cs.html">here</a> to see an example of how to use MaskData API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/MaskData.cs.html">here</a> to see an example of how to use MaskData API.</example>
         public async Task<MaskDataResponse> MaskData(MaskDataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called maskData");
@@ -17275,7 +17275,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ModifyGlobalSettings.cs.html">here</a> to see an example of how to use ModifyGlobalSettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ModifyGlobalSettings.cs.html">here</a> to see an example of how to use ModifyGlobalSettings API.</example>
         public async Task<ModifyGlobalSettingsResponse> ModifyGlobalSettings(ModifyGlobalSettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called modifyGlobalSettings");
@@ -17331,7 +17331,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchAlerts.cs.html">here</a> to see an example of how to use PatchAlerts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchAlerts.cs.html">here</a> to see an example of how to use PatchAlerts API.</example>
         public async Task<PatchAlertsResponse> PatchAlerts(PatchAlertsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchAlerts");
@@ -17389,7 +17389,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchChecks.cs.html">here</a> to see an example of how to use PatchChecks API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchChecks.cs.html">here</a> to see an example of how to use PatchChecks API.</example>
         public async Task<PatchChecksResponse> PatchChecks(PatchChecksRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchChecks");
@@ -17447,7 +17447,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchDiscoveryJobResults.cs.html">here</a> to see an example of how to use PatchDiscoveryJobResults API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchDiscoveryJobResults.cs.html">here</a> to see an example of how to use PatchDiscoveryJobResults API.</example>
         public async Task<PatchDiscoveryJobResultsResponse> PatchDiscoveryJobResults(PatchDiscoveryJobResultsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchDiscoveryJobResults");
@@ -17504,7 +17504,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchFindings.cs.html">here</a> to see an example of how to use PatchFindings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchFindings.cs.html">here</a> to see an example of how to use PatchFindings API.</example>
         public async Task<PatchFindingsResponse> PatchFindings(PatchFindingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchFindings");
@@ -17562,7 +17562,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchGroupedSensitiveTypes.cs.html">here</a> to see an example of how to use PatchGroupedSensitiveTypes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchGroupedSensitiveTypes.cs.html">here</a> to see an example of how to use PatchGroupedSensitiveTypes API.</example>
         public async Task<PatchGroupedSensitiveTypesResponse> PatchGroupedSensitiveTypes(PatchGroupedSensitiveTypesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchGroupedSensitiveTypes");
@@ -17621,7 +17621,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchMaskingColumns.cs.html">here</a> to see an example of how to use PatchMaskingColumns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchMaskingColumns.cs.html">here</a> to see an example of how to use PatchMaskingColumns API.</example>
         public async Task<PatchMaskingColumnsResponse> PatchMaskingColumns(PatchMaskingColumnsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchMaskingColumns");
@@ -17679,7 +17679,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchSdmMaskingPolicyDifferenceColumns.cs.html">here</a> to see an example of how to use PatchSdmMaskingPolicyDifferenceColumns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchSdmMaskingPolicyDifferenceColumns.cs.html">here</a> to see an example of how to use PatchSdmMaskingPolicyDifferenceColumns API.</example>
         public async Task<PatchSdmMaskingPolicyDifferenceColumnsResponse> PatchSdmMaskingPolicyDifferenceColumns(PatchSdmMaskingPolicyDifferenceColumnsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchSdmMaskingPolicyDifferenceColumns");
@@ -17738,7 +17738,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchSensitiveColumns.cs.html">here</a> to see an example of how to use PatchSensitiveColumns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchSensitiveColumns.cs.html">here</a> to see an example of how to use PatchSensitiveColumns API.</example>
         public async Task<PatchSensitiveColumnsResponse> PatchSensitiveColumns(PatchSensitiveColumnsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchSensitiveColumns");
@@ -17796,7 +17796,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchSqlFirewallAllowedSql.cs.html">here</a> to see an example of how to use PatchSqlFirewallAllowedSql API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchSqlFirewallAllowedSql.cs.html">here</a> to see an example of how to use PatchSqlFirewallAllowedSql API.</example>
         public async Task<PatchSqlFirewallAllowedSqlResponse> PatchSqlFirewallAllowedSql(PatchSqlFirewallAllowedSqlRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchSqlFirewallAllowedSql");
@@ -17853,7 +17853,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchTargetAlertPolicyAssociation.cs.html">here</a> to see an example of how to use PatchTargetAlertPolicyAssociation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PatchTargetAlertPolicyAssociation.cs.html">here</a> to see an example of how to use PatchTargetAlertPolicyAssociation API.</example>
         public async Task<PatchTargetAlertPolicyAssociationResponse> PatchTargetAlertPolicyAssociation(PatchTargetAlertPolicyAssociationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchTargetAlertPolicyAssociation");
@@ -17909,7 +17909,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ProvisionAuditPolicy.cs.html">here</a> to see an example of how to use ProvisionAuditPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ProvisionAuditPolicy.cs.html">here</a> to see an example of how to use ProvisionAuditPolicy API.</example>
         public async Task<ProvisionAuditPolicyResponse> ProvisionAuditPolicy(ProvisionAuditPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called provisionAuditPolicy");
@@ -17965,7 +17965,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PurgeSqlCollectionLogs.cs.html">here</a> to see an example of how to use PurgeSqlCollectionLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/PurgeSqlCollectionLogs.cs.html">here</a> to see an example of how to use PurgeSqlCollectionLogs API.</example>
         public async Task<PurgeSqlCollectionLogsResponse> PurgeSqlCollectionLogs(PurgeSqlCollectionLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called purgeSqlCollectionLogs");
@@ -18021,7 +18021,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RefreshDatabaseSecurityConfiguration.cs.html">here</a> to see an example of how to use RefreshDatabaseSecurityConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RefreshDatabaseSecurityConfiguration.cs.html">here</a> to see an example of how to use RefreshDatabaseSecurityConfiguration API.</example>
         public async Task<RefreshDatabaseSecurityConfigurationResponse> RefreshDatabaseSecurityConfiguration(RefreshDatabaseSecurityConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshDatabaseSecurityConfiguration");
@@ -18079,7 +18079,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RefreshSecurityAssessment.cs.html">here</a> to see an example of how to use RefreshSecurityAssessment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RefreshSecurityAssessment.cs.html">here</a> to see an example of how to use RefreshSecurityAssessment API.</example>
         public async Task<RefreshSecurityAssessmentResponse> RefreshSecurityAssessment(RefreshSecurityAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshSecurityAssessment");
@@ -18135,7 +18135,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RefreshSecurityPolicyDeployment.cs.html">here</a> to see an example of how to use RefreshSecurityPolicyDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RefreshSecurityPolicyDeployment.cs.html">here</a> to see an example of how to use RefreshSecurityPolicyDeployment API.</example>
         public async Task<RefreshSecurityPolicyDeploymentResponse> RefreshSecurityPolicyDeployment(RefreshSecurityPolicyDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshSecurityPolicyDeployment");
@@ -18191,7 +18191,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RefreshSqlCollectionLogInsights.cs.html">here</a> to see an example of how to use RefreshSqlCollectionLogInsights API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RefreshSqlCollectionLogInsights.cs.html">here</a> to see an example of how to use RefreshSqlCollectionLogInsights API.</example>
         public async Task<RefreshSqlCollectionLogInsightsResponse> RefreshSqlCollectionLogInsights(RefreshSqlCollectionLogInsightsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshSqlCollectionLogInsights");
@@ -18248,7 +18248,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RefreshTargetDatabase.cs.html">here</a> to see an example of how to use RefreshTargetDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RefreshTargetDatabase.cs.html">here</a> to see an example of how to use RefreshTargetDatabase API.</example>
         public async Task<RefreshTargetDatabaseResponse> RefreshTargetDatabase(RefreshTargetDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshTargetDatabase");
@@ -18307,7 +18307,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RefreshUserAssessment.cs.html">here</a> to see an example of how to use RefreshUserAssessment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RefreshUserAssessment.cs.html">here</a> to see an example of how to use RefreshUserAssessment API.</example>
         public async Task<RefreshUserAssessmentResponse> RefreshUserAssessment(RefreshUserAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshUserAssessment");
@@ -18363,7 +18363,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RemoveScheduleReport.cs.html">here</a> to see an example of how to use RemoveScheduleReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RemoveScheduleReport.cs.html">here</a> to see an example of how to use RemoveScheduleReport API.</example>
         public async Task<RemoveScheduleReportResponse> RemoveScheduleReport(RemoveScheduleReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeScheduleReport");
@@ -18419,7 +18419,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RemoveSecurityAssessmentTemplate.cs.html">here</a> to see an example of how to use RemoveSecurityAssessmentTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RemoveSecurityAssessmentTemplate.cs.html">here</a> to see an example of how to use RemoveSecurityAssessmentTemplate API.</example>
         public async Task<RemoveSecurityAssessmentTemplateResponse> RemoveSecurityAssessmentTemplate(RemoveSecurityAssessmentTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeSecurityAssessmentTemplate");
@@ -18475,7 +18475,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ResumeAuditTrail.cs.html">here</a> to see an example of how to use ResumeAuditTrail API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ResumeAuditTrail.cs.html">here</a> to see an example of how to use ResumeAuditTrail API.</example>
         public async Task<ResumeAuditTrailResponse> ResumeAuditTrail(ResumeAuditTrailRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called resumeAuditTrail");
@@ -18532,7 +18532,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ResumeWorkRequest.cs.html">here</a> to see an example of how to use ResumeWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ResumeWorkRequest.cs.html">here</a> to see an example of how to use ResumeWorkRequest API.</example>
         public async Task<ResumeWorkRequestResponse> ResumeWorkRequest(ResumeWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called resumeWorkRequest");
@@ -18588,7 +18588,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RetrieveAuditPolicies.cs.html">here</a> to see an example of how to use RetrieveAuditPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/RetrieveAuditPolicies.cs.html">here</a> to see an example of how to use RetrieveAuditPolicies API.</example>
         public async Task<RetrieveAuditPoliciesResponse> RetrieveAuditPolicies(RetrieveAuditPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called retrieveAuditPolicies");
@@ -18644,7 +18644,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ScheduleReport.cs.html">here</a> to see an example of how to use ScheduleReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ScheduleReport.cs.html">here</a> to see an example of how to use ScheduleReport API.</example>
         public async Task<ScheduleReportResponse> ScheduleReport(ScheduleReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called scheduleReport");
@@ -18700,7 +18700,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/SetSecurityAssessmentBaseline.cs.html">here</a> to see an example of how to use SetSecurityAssessmentBaseline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/SetSecurityAssessmentBaseline.cs.html">here</a> to see an example of how to use SetSecurityAssessmentBaseline API.</example>
         public async Task<SetSecurityAssessmentBaselineResponse> SetSecurityAssessmentBaseline(SetSecurityAssessmentBaselineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called setSecurityAssessmentBaseline");
@@ -18756,7 +18756,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/SetUserAssessmentBaseline.cs.html">here</a> to see an example of how to use SetUserAssessmentBaseline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/SetUserAssessmentBaseline.cs.html">here</a> to see an example of how to use SetUserAssessmentBaseline API.</example>
         public async Task<SetUserAssessmentBaselineResponse> SetUserAssessmentBaseline(SetUserAssessmentBaselineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called setUserAssessmentBaseline");
@@ -18812,7 +18812,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/StartAuditTrail.cs.html">here</a> to see an example of how to use StartAuditTrail API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/StartAuditTrail.cs.html">here</a> to see an example of how to use StartAuditTrail API.</example>
         public async Task<StartAuditTrailResponse> StartAuditTrail(StartAuditTrailRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startAuditTrail");
@@ -18868,7 +18868,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/StartSqlCollection.cs.html">here</a> to see an example of how to use StartSqlCollection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/StartSqlCollection.cs.html">here</a> to see an example of how to use StartSqlCollection API.</example>
         public async Task<StartSqlCollectionResponse> StartSqlCollection(StartSqlCollectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startSqlCollection");
@@ -18924,7 +18924,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/StopAuditTrail.cs.html">here</a> to see an example of how to use StopAuditTrail API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/StopAuditTrail.cs.html">here</a> to see an example of how to use StopAuditTrail API.</example>
         public async Task<StopAuditTrailResponse> StopAuditTrail(StopAuditTrailRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopAuditTrail");
@@ -18980,7 +18980,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/StopSqlCollection.cs.html">here</a> to see an example of how to use StopSqlCollection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/StopSqlCollection.cs.html">here</a> to see an example of how to use StopSqlCollection API.</example>
         public async Task<StopSqlCollectionResponse> StopSqlCollection(StopSqlCollectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopSqlCollection");
@@ -19037,7 +19037,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/SuspendWorkRequest.cs.html">here</a> to see an example of how to use SuspendWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/SuspendWorkRequest.cs.html">here</a> to see an example of how to use SuspendWorkRequest API.</example>
         public async Task<SuspendWorkRequestResponse> SuspendWorkRequest(SuspendWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called suspendWorkRequest");
@@ -19096,7 +19096,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UnsetSecurityAssessmentBaseline.cs.html">here</a> to see an example of how to use UnsetSecurityAssessmentBaseline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UnsetSecurityAssessmentBaseline.cs.html">here</a> to see an example of how to use UnsetSecurityAssessmentBaseline API.</example>
         public async Task<UnsetSecurityAssessmentBaselineResponse> UnsetSecurityAssessmentBaseline(UnsetSecurityAssessmentBaselineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called unsetSecurityAssessmentBaseline");
@@ -19155,7 +19155,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UnsetUserAssessmentBaseline.cs.html">here</a> to see an example of how to use UnsetUserAssessmentBaseline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UnsetUserAssessmentBaseline.cs.html">here</a> to see an example of how to use UnsetUserAssessmentBaseline API.</example>
         public async Task<UnsetUserAssessmentBaselineResponse> UnsetUserAssessmentBaseline(UnsetUserAssessmentBaselineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called unsetUserAssessmentBaseline");
@@ -19211,7 +19211,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateAlert.cs.html">here</a> to see an example of how to use UpdateAlert API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateAlert.cs.html">here</a> to see an example of how to use UpdateAlert API.</example>
         public async Task<UpdateAlertResponse> UpdateAlert(UpdateAlertRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAlert");
@@ -19267,7 +19267,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateAlertPolicy.cs.html">here</a> to see an example of how to use UpdateAlertPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateAlertPolicy.cs.html">here</a> to see an example of how to use UpdateAlertPolicy API.</example>
         public async Task<UpdateAlertPolicyResponse> UpdateAlertPolicy(UpdateAlertPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAlertPolicy");
@@ -19323,7 +19323,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateAlertPolicyRule.cs.html">here</a> to see an example of how to use UpdateAlertPolicyRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateAlertPolicyRule.cs.html">here</a> to see an example of how to use UpdateAlertPolicyRule API.</example>
         public async Task<UpdateAlertPolicyRuleResponse> UpdateAlertPolicyRule(UpdateAlertPolicyRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAlertPolicyRule");
@@ -19379,7 +19379,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateAttributeSet.cs.html">here</a> to see an example of how to use UpdateAttributeSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateAttributeSet.cs.html">here</a> to see an example of how to use UpdateAttributeSet API.</example>
         public async Task<UpdateAttributeSetResponse> UpdateAttributeSet(UpdateAttributeSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAttributeSet");
@@ -19435,7 +19435,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateAuditArchiveRetrieval.cs.html">here</a> to see an example of how to use UpdateAuditArchiveRetrieval API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateAuditArchiveRetrieval.cs.html">here</a> to see an example of how to use UpdateAuditArchiveRetrieval API.</example>
         public async Task<UpdateAuditArchiveRetrievalResponse> UpdateAuditArchiveRetrieval(UpdateAuditArchiveRetrievalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAuditArchiveRetrieval");
@@ -19491,7 +19491,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateAuditPolicy.cs.html">here</a> to see an example of how to use UpdateAuditPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateAuditPolicy.cs.html">here</a> to see an example of how to use UpdateAuditPolicy API.</example>
         public async Task<UpdateAuditPolicyResponse> UpdateAuditPolicy(UpdateAuditPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAuditPolicy");
@@ -19547,7 +19547,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateAuditProfile.cs.html">here</a> to see an example of how to use UpdateAuditProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateAuditProfile.cs.html">here</a> to see an example of how to use UpdateAuditProfile API.</example>
         public async Task<UpdateAuditProfileResponse> UpdateAuditProfile(UpdateAuditProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAuditProfile");
@@ -19603,7 +19603,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateAuditTrail.cs.html">here</a> to see an example of how to use UpdateAuditTrail API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateAuditTrail.cs.html">here</a> to see an example of how to use UpdateAuditTrail API.</example>
         public async Task<UpdateAuditTrailResponse> UpdateAuditTrail(UpdateAuditTrailRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAuditTrail");
@@ -19659,7 +19659,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateDataSafePrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateDataSafePrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateDataSafePrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateDataSafePrivateEndpoint API.</example>
         public async Task<UpdateDataSafePrivateEndpointResponse> UpdateDataSafePrivateEndpoint(UpdateDataSafePrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDataSafePrivateEndpoint");
@@ -19715,7 +19715,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateDatabaseSecurityConfig.cs.html">here</a> to see an example of how to use UpdateDatabaseSecurityConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateDatabaseSecurityConfig.cs.html">here</a> to see an example of how to use UpdateDatabaseSecurityConfig API.</example>
         public async Task<UpdateDatabaseSecurityConfigResponse> UpdateDatabaseSecurityConfig(UpdateDatabaseSecurityConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDatabaseSecurityConfig");
@@ -19771,7 +19771,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateFinding.cs.html">here</a> to see an example of how to use UpdateFinding API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateFinding.cs.html">here</a> to see an example of how to use UpdateFinding API.</example>
         public async Task<UpdateFindingResponse> UpdateFinding(UpdateFindingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateFinding");
@@ -19827,7 +19827,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateLibraryMaskingFormat.cs.html">here</a> to see an example of how to use UpdateLibraryMaskingFormat API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateLibraryMaskingFormat.cs.html">here</a> to see an example of how to use UpdateLibraryMaskingFormat API.</example>
         public async Task<UpdateLibraryMaskingFormatResponse> UpdateLibraryMaskingFormat(UpdateLibraryMaskingFormatRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateLibraryMaskingFormat");
@@ -19885,7 +19885,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateMaskingColumn.cs.html">here</a> to see an example of how to use UpdateMaskingColumn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateMaskingColumn.cs.html">here</a> to see an example of how to use UpdateMaskingColumn API.</example>
         public async Task<UpdateMaskingColumnResponse> UpdateMaskingColumn(UpdateMaskingColumnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMaskingColumn");
@@ -19941,7 +19941,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateMaskingPolicy.cs.html">here</a> to see an example of how to use UpdateMaskingPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateMaskingPolicy.cs.html">here</a> to see an example of how to use UpdateMaskingPolicy API.</example>
         public async Task<UpdateMaskingPolicyResponse> UpdateMaskingPolicy(UpdateMaskingPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMaskingPolicy");
@@ -19997,7 +19997,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateOnPremConnector.cs.html">here</a> to see an example of how to use UpdateOnPremConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateOnPremConnector.cs.html">here</a> to see an example of how to use UpdateOnPremConnector API.</example>
         public async Task<UpdateOnPremConnectorResponse> UpdateOnPremConnector(UpdateOnPremConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOnPremConnector");
@@ -20054,7 +20054,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateOnPremConnectorWallet.cs.html">here</a> to see an example of how to use UpdateOnPremConnectorWallet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateOnPremConnectorWallet.cs.html">here</a> to see an example of how to use UpdateOnPremConnectorWallet API.</example>
         public async Task<UpdateOnPremConnectorWalletResponse> UpdateOnPremConnectorWallet(UpdateOnPremConnectorWalletRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOnPremConnectorWallet");
@@ -20110,7 +20110,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdatePeerTargetDatabase.cs.html">here</a> to see an example of how to use UpdatePeerTargetDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdatePeerTargetDatabase.cs.html">here</a> to see an example of how to use UpdatePeerTargetDatabase API.</example>
         public async Task<UpdatePeerTargetDatabaseResponse> UpdatePeerTargetDatabase(UpdatePeerTargetDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePeerTargetDatabase");
@@ -20166,7 +20166,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateReport.cs.html">here</a> to see an example of how to use UpdateReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateReport.cs.html">here</a> to see an example of how to use UpdateReport API.</example>
         public async Task<UpdateReportResponse> UpdateReport(UpdateReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateReport");
@@ -20222,7 +20222,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateReportDefinition.cs.html">here</a> to see an example of how to use UpdateReportDefinition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateReportDefinition.cs.html">here</a> to see an example of how to use UpdateReportDefinition API.</example>
         public async Task<UpdateReportDefinitionResponse> UpdateReportDefinition(UpdateReportDefinitionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateReportDefinition");
@@ -20278,7 +20278,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSdmMaskingPolicyDifference.cs.html">here</a> to see an example of how to use UpdateSdmMaskingPolicyDifference API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSdmMaskingPolicyDifference.cs.html">here</a> to see an example of how to use UpdateSdmMaskingPolicyDifference API.</example>
         public async Task<UpdateSdmMaskingPolicyDifferenceResponse> UpdateSdmMaskingPolicyDifference(UpdateSdmMaskingPolicyDifferenceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSdmMaskingPolicyDifference");
@@ -20335,7 +20335,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSecurityAssessment.cs.html">here</a> to see an example of how to use UpdateSecurityAssessment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSecurityAssessment.cs.html">here</a> to see an example of how to use UpdateSecurityAssessment API.</example>
         public async Task<UpdateSecurityAssessmentResponse> UpdateSecurityAssessment(UpdateSecurityAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSecurityAssessment");
@@ -20391,7 +20391,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSecurityPolicy.cs.html">here</a> to see an example of how to use UpdateSecurityPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSecurityPolicy.cs.html">here</a> to see an example of how to use UpdateSecurityPolicy API.</example>
         public async Task<UpdateSecurityPolicyResponse> UpdateSecurityPolicy(UpdateSecurityPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSecurityPolicy");
@@ -20447,7 +20447,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSecurityPolicyConfig.cs.html">here</a> to see an example of how to use UpdateSecurityPolicyConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSecurityPolicyConfig.cs.html">here</a> to see an example of how to use UpdateSecurityPolicyConfig API.</example>
         public async Task<UpdateSecurityPolicyConfigResponse> UpdateSecurityPolicyConfig(UpdateSecurityPolicyConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSecurityPolicyConfig");
@@ -20503,7 +20503,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSecurityPolicyDeployment.cs.html">here</a> to see an example of how to use UpdateSecurityPolicyDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSecurityPolicyDeployment.cs.html">here</a> to see an example of how to use UpdateSecurityPolicyDeployment API.</example>
         public async Task<UpdateSecurityPolicyDeploymentResponse> UpdateSecurityPolicyDeployment(UpdateSecurityPolicyDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSecurityPolicyDeployment");
@@ -20559,7 +20559,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSensitiveColumn.cs.html">here</a> to see an example of how to use UpdateSensitiveColumn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSensitiveColumn.cs.html">here</a> to see an example of how to use UpdateSensitiveColumn API.</example>
         public async Task<UpdateSensitiveColumnResponse> UpdateSensitiveColumn(UpdateSensitiveColumnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSensitiveColumn");
@@ -20617,7 +20617,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSensitiveDataModel.cs.html">here</a> to see an example of how to use UpdateSensitiveDataModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSensitiveDataModel.cs.html">here</a> to see an example of how to use UpdateSensitiveDataModel API.</example>
         public async Task<UpdateSensitiveDataModelResponse> UpdateSensitiveDataModel(UpdateSensitiveDataModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSensitiveDataModel");
@@ -20673,7 +20673,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSensitiveType.cs.html">here</a> to see an example of how to use UpdateSensitiveType API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSensitiveType.cs.html">here</a> to see an example of how to use UpdateSensitiveType API.</example>
         public async Task<UpdateSensitiveTypeResponse> UpdateSensitiveType(UpdateSensitiveTypeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSensitiveType");
@@ -20729,7 +20729,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSensitiveTypeGroup.cs.html">here</a> to see an example of how to use UpdateSensitiveTypeGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSensitiveTypeGroup.cs.html">here</a> to see an example of how to use UpdateSensitiveTypeGroup API.</example>
         public async Task<UpdateSensitiveTypeGroupResponse> UpdateSensitiveTypeGroup(UpdateSensitiveTypeGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSensitiveTypeGroup");
@@ -20785,7 +20785,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSensitiveTypesExport.cs.html">here</a> to see an example of how to use UpdateSensitiveTypesExport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSensitiveTypesExport.cs.html">here</a> to see an example of how to use UpdateSensitiveTypesExport API.</example>
         public async Task<UpdateSensitiveTypesExportResponse> UpdateSensitiveTypesExport(UpdateSensitiveTypesExportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSensitiveTypesExport");
@@ -20841,7 +20841,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSqlCollection.cs.html">here</a> to see an example of how to use UpdateSqlCollection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSqlCollection.cs.html">here</a> to see an example of how to use UpdateSqlCollection API.</example>
         public async Task<UpdateSqlCollectionResponse> UpdateSqlCollection(UpdateSqlCollectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSqlCollection");
@@ -20897,7 +20897,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSqlFirewallPolicy.cs.html">here</a> to see an example of how to use UpdateSqlFirewallPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateSqlFirewallPolicy.cs.html">here</a> to see an example of how to use UpdateSqlFirewallPolicy API.</example>
         public async Task<UpdateSqlFirewallPolicyResponse> UpdateSqlFirewallPolicy(UpdateSqlFirewallPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSqlFirewallPolicy");
@@ -20953,7 +20953,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateTargetAlertPolicyAssociation.cs.html">here</a> to see an example of how to use UpdateTargetAlertPolicyAssociation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateTargetAlertPolicyAssociation.cs.html">here</a> to see an example of how to use UpdateTargetAlertPolicyAssociation API.</example>
         public async Task<UpdateTargetAlertPolicyAssociationResponse> UpdateTargetAlertPolicyAssociation(UpdateTargetAlertPolicyAssociationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateTargetAlertPolicyAssociation");
@@ -21009,7 +21009,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateTargetDatabase.cs.html">here</a> to see an example of how to use UpdateTargetDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateTargetDatabase.cs.html">here</a> to see an example of how to use UpdateTargetDatabase API.</example>
         public async Task<UpdateTargetDatabaseResponse> UpdateTargetDatabase(UpdateTargetDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateTargetDatabase");
@@ -21065,7 +21065,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateTargetDatabaseGroup.cs.html">here</a> to see an example of how to use UpdateTargetDatabaseGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateTargetDatabaseGroup.cs.html">here</a> to see an example of how to use UpdateTargetDatabaseGroup API.</example>
         public async Task<UpdateTargetDatabaseGroupResponse> UpdateTargetDatabaseGroup(UpdateTargetDatabaseGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateTargetDatabaseGroup");
@@ -21121,7 +21121,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateUnifiedAuditPolicy.cs.html">here</a> to see an example of how to use UpdateUnifiedAuditPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateUnifiedAuditPolicy.cs.html">here</a> to see an example of how to use UpdateUnifiedAuditPolicy API.</example>
         public async Task<UpdateUnifiedAuditPolicyResponse> UpdateUnifiedAuditPolicy(UpdateUnifiedAuditPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateUnifiedAuditPolicy");
@@ -21177,7 +21177,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateUnifiedAuditPolicyDefinition.cs.html">here</a> to see an example of how to use UpdateUnifiedAuditPolicyDefinition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateUnifiedAuditPolicyDefinition.cs.html">here</a> to see an example of how to use UpdateUnifiedAuditPolicyDefinition API.</example>
         public async Task<UpdateUnifiedAuditPolicyDefinitionResponse> UpdateUnifiedAuditPolicyDefinition(UpdateUnifiedAuditPolicyDefinitionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateUnifiedAuditPolicyDefinition");
@@ -21234,7 +21234,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateUserAssessment.cs.html">here</a> to see an example of how to use UpdateUserAssessment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UpdateUserAssessment.cs.html">here</a> to see an example of how to use UpdateUserAssessment API.</example>
         public async Task<UpdateUserAssessmentResponse> UpdateUserAssessment(UpdateUserAssessmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateUserAssessment");
@@ -21295,7 +21295,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UploadMaskingPolicy.cs.html">here</a> to see an example of how to use UploadMaskingPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UploadMaskingPolicy.cs.html">here</a> to see an example of how to use UploadMaskingPolicy API.</example>
         public async Task<UploadMaskingPolicyResponse> UploadMaskingPolicy(UploadMaskingPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called uploadMaskingPolicy");
@@ -21355,7 +21355,7 @@ namespace Oci.DatasafeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UploadSensitiveDataModel.cs.html">here</a> to see an example of how to use UploadSensitiveDataModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/UploadSensitiveDataModel.cs.html">here</a> to see an example of how to use UploadSensitiveDataModel API.</example>
         public async Task<UploadSensitiveDataModelResponse> UploadSensitiveDataModel(UploadSensitiveDataModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called uploadSensitiveDataModel");

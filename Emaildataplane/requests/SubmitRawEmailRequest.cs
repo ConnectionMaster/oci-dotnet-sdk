@@ -14,7 +14,7 @@ using Oci.EmaildataplaneService.Models;
 namespace Oci.EmaildataplaneService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/emaildataplane/SubmitRawEmail.cs.html">here</a> to see an example of how to use SubmitRawEmail request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/emaildataplane/SubmitRawEmail.cs.html">here</a> to see an example of how to use SubmitRawEmail request.
     /// </example>
     public class SubmitRawEmailRequest : Oci.Common.IOciRequest
     {
@@ -42,7 +42,7 @@ namespace Oci.EmaildataplaneService.Requests
         public System.Nullable<ContentTypeEnum> ContentType { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the approved sender resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the approved sender resource.
         /// </value>
         /// <remarks>
         /// Required

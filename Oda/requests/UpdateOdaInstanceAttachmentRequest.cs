@@ -14,7 +14,7 @@ using Oci.OdaService.Models;
 namespace Oci.OdaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateOdaInstanceAttachment.cs.html">here</a> to see an example of how to use UpdateOdaInstanceAttachment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateOdaInstanceAttachment.cs.html">here</a> to see an example of how to use UpdateOdaInstanceAttachment request.
     /// </example>
     public class UpdateOdaInstanceAttachmentRequest : Oci.Common.IOciRequest
     {

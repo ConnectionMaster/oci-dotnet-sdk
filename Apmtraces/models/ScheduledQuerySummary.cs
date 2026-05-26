@@ -23,7 +23,7 @@ namespace Oci.ApmtracesService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the scheduled query . An OCID is generated
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the scheduled query . An OCID is generated
         /// when the scheduled query is created.
         /// 
         /// </value>

@@ -14,13 +14,13 @@ using Oci.OnsService.Models;
 namespace Oci.OnsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/ResendSubscriptionConfirmation.cs.html">here</a> to see an example of how to use ResendSubscriptionConfirmation request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/ResendSubscriptionConfirmation.cs.html">here</a> to see an example of how to use ResendSubscriptionConfirmation request.
     /// </example>
     public class ResendSubscriptionConfirmationRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subscription to resend the confirmation for.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subscription to resend the confirmation for.
         /// 
         /// </value>
         /// <remarks>

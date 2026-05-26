@@ -24,7 +24,7 @@ namespace Oci.OpsiService.Models
         
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Management Agent
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Management Agent
         /// </value>
         /// <remarks>
         /// Required
@@ -34,7 +34,7 @@ namespace Oci.OpsiService.Models
         public string ManagementAgentId { get; set; }
         
         /// <value>
-        /// The [Display Name](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Display) of the Management Agent
+        /// The [Display Name](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Display) of the Management Agent
         /// </value>
         /// <remarks>
         /// Required

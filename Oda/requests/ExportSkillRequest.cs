@@ -14,7 +14,7 @@ using Oci.OdaService.Models;
 namespace Oci.OdaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ExportSkill.cs.html">here</a> to see an example of how to use ExportSkill request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ExportSkill.cs.html">here</a> to see an example of how to use ExportSkill request.
     /// </example>
     public class ExportSkillRequest : Oci.Common.IOciRequest
     {

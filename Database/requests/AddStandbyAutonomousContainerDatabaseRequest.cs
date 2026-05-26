@@ -14,7 +14,7 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/AddStandbyAutonomousContainerDatabase.cs.html">here</a> to see an example of how to use AddStandbyAutonomousContainerDatabase request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/AddStandbyAutonomousContainerDatabase.cs.html">here</a> to see an example of how to use AddStandbyAutonomousContainerDatabase request.
     /// </example>
     public class AddStandbyAutonomousContainerDatabaseRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.DatabaseService.Requests
         public AddStandbyAutonomousContainerDatabaseDetails AddStandbyAutonomousContainerDatabaseDetails { get; set; }
         
         /// <value>
-        /// The Autonomous Container Database [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The Autonomous Container Database [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

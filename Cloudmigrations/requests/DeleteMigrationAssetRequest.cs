@@ -14,7 +14,7 @@ using Oci.CloudmigrationsService.Models;
 namespace Oci.CloudmigrationsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/DeleteMigrationAsset.cs.html">here</a> to see an example of how to use DeleteMigrationAsset request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/DeleteMigrationAsset.cs.html">here</a> to see an example of how to use DeleteMigrationAsset request.
     /// </example>
     public class DeleteMigrationAssetRequest : Oci.Common.IOciRequest
     {

@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.EmailService.Models
 {
     /// <summary>
-    /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment
+    /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment
     /// into which the resource should be moved.
     /// 
     /// </summary>
@@ -24,7 +24,7 @@ namespace Oci.EmailService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment
         /// into which the sender should be moved.
         /// 
         /// </value>

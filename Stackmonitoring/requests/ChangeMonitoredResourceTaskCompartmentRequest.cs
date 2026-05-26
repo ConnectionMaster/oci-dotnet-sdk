@@ -14,13 +14,13 @@ using Oci.StackmonitoringService.Models;
 namespace Oci.StackmonitoringService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ChangeMonitoredResourceTaskCompartment.cs.html">here</a> to see an example of how to use ChangeMonitoredResourceTaskCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ChangeMonitoredResourceTaskCompartment.cs.html">here</a> to see an example of how to use ChangeMonitoredResourceTaskCompartment request.
     /// </example>
     public class ChangeMonitoredResourceTaskCompartmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of stack monitoring resource task.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of stack monitoring resource task.
         /// </value>
         /// <remarks>
         /// Required

@@ -18,7 +18,7 @@ namespace Oci.MulticloudService.Models
     /// <summary>
     /// Multicloud metadata for Multicloud subscriptions in the indicated compartment.
     /// For more information, see
-    /// [Listing Multicloud Metadata for a Subscription](https://docs.cloud.oracle.com/iaas/Content/multicloud-hub/list-subscription-metadata.htm).
+    /// [Listing Multicloud Metadata for a Subscription](https://docs.oracle.com/iaas/Content/multicloud-hub/list-subscription-metadata.htm).
     /// 
     /// </summary>
     public class MultiCloudMetadataCollection 

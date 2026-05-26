@@ -14,13 +14,13 @@ using Oci.LustrefilestorageService.Models;
 namespace Oci.LustrefilestorageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/GetSyncJob.cs.html">here</a> to see an example of how to use GetSyncJob request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/GetSyncJob.cs.html">here</a> to see an example of how to use GetSyncJob request.
     /// </example>
     public class GetSyncJobRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Object Storage link.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Object Storage link.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.LustrefilestorageService.Requests
         public string ObjectStorageLinkId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the sync job.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the sync job.
         /// </value>
         /// <remarks>
         /// Required

@@ -22,7 +22,7 @@ namespace Oci.GenerativeaiService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the OCI Database Tools Connection for querying.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the OCI Database Tools Connection for querying.
         /// </value>
         /// <remarks>
         /// Required
@@ -32,7 +32,7 @@ namespace Oci.GenerativeaiService.Models
         public string QueryingConnectionId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the OCI Database Tools Connection for enrichment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the OCI Database Tools Connection for enrichment.
         /// </value>
         /// <remarks>
         /// Required

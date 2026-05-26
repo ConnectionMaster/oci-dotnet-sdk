@@ -24,7 +24,7 @@ namespace Oci.FunctionsService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the queue.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the queue.
         /// 
         /// </value>
         /// <remarks>

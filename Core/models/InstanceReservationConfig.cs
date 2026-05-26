@@ -25,7 +25,7 @@ namespace Oci.CoreService.Models
         /// <value>
         /// The fault domain of this capacity configuration.
         /// If a value is not supplied, this capacity configuration is applicable to all fault domains in the specified availability domain.
-        /// For more information, see [Capacity Reservations](https://docs.cloud.oracle.com/iaas/Content/Compute/Tasks/reserve-capacity.htm).
+        /// For more information, see [Capacity Reservations](https://docs.oracle.com/iaas/Content/Compute/Tasks/reserve-capacity.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "faultDomain")]

@@ -81,7 +81,7 @@ namespace Oci.VnmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/ChangePathAnalyzerTestCompartment.cs.html">here</a> to see an example of how to use ChangePathAnalyzerTestCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/ChangePathAnalyzerTestCompartment.cs.html">here</a> to see an example of how to use ChangePathAnalyzerTestCompartment API.</example>
         public async Task<ChangePathAnalyzerTestCompartmentResponse> ChangePathAnalyzerTestCompartment(ChangePathAnalyzerTestCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changePathAnalyzerTestCompartment");
@@ -137,7 +137,7 @@ namespace Oci.VnmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/CreatePathAnalyzerTest.cs.html">here</a> to see an example of how to use CreatePathAnalyzerTest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/CreatePathAnalyzerTest.cs.html">here</a> to see an example of how to use CreatePathAnalyzerTest API.</example>
         public async Task<CreatePathAnalyzerTestResponse> CreatePathAnalyzerTest(CreatePathAnalyzerTestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPathAnalyzerTest");
@@ -193,7 +193,7 @@ namespace Oci.VnmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/DeletePathAnalyzerTest.cs.html">here</a> to see an example of how to use DeletePathAnalyzerTest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/DeletePathAnalyzerTest.cs.html">here</a> to see an example of how to use DeletePathAnalyzerTest API.</example>
         public async Task<DeletePathAnalyzerTestResponse> DeletePathAnalyzerTest(DeletePathAnalyzerTestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePathAnalyzerTest");
@@ -242,7 +242,7 @@ namespace Oci.VnmonitoringService
         }
 
         /// <summary>
-        /// Use this method to initiate a [Network Path Analyzer](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/path_analyzer.htm) analysis. This method returns
+        /// Use this method to initiate a [Network Path Analyzer](https://docs.oracle.com/iaas/Content/Network/Concepts/path_analyzer.htm) analysis. This method returns
         /// an opc-work-request-id, and you can poll the status of the work request until it either fails or succeeds.
         /// &lt;br/&gt;
         /// If the work request status is successful, use {@link #listWorkRequestResults(ListWorkRequestResultsRequest) listWorkRequestResults}
@@ -257,7 +257,7 @@ namespace Oci.VnmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/GetPathAnalysis.cs.html">here</a> to see an example of how to use GetPathAnalysis API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/GetPathAnalysis.cs.html">here</a> to see an example of how to use GetPathAnalysis API.</example>
         public async Task<GetPathAnalysisResponse> GetPathAnalysis(GetPathAnalysisRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPathAnalysis");
@@ -313,7 +313,7 @@ namespace Oci.VnmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/GetPathAnalyzerTest.cs.html">here</a> to see an example of how to use GetPathAnalyzerTest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/GetPathAnalyzerTest.cs.html">here</a> to see an example of how to use GetPathAnalyzerTest API.</example>
         public async Task<GetPathAnalyzerTestResponse> GetPathAnalyzerTest(GetPathAnalyzerTestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPathAnalyzerTest");
@@ -369,7 +369,7 @@ namespace Oci.VnmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -426,7 +426,7 @@ namespace Oci.VnmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/ListPathAnalyzerTests.cs.html">here</a> to see an example of how to use ListPathAnalyzerTests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/ListPathAnalyzerTests.cs.html">here</a> to see an example of how to use ListPathAnalyzerTests API.</example>
         public async Task<ListPathAnalyzerTestsResponse> ListPathAnalyzerTests(ListPathAnalyzerTestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPathAnalyzerTests");
@@ -483,7 +483,7 @@ namespace Oci.VnmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -540,7 +540,7 @@ namespace Oci.VnmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -598,7 +598,7 @@ namespace Oci.VnmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/ListWorkRequestResults.cs.html">here</a> to see an example of how to use ListWorkRequestResults API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/ListWorkRequestResults.cs.html">here</a> to see an example of how to use ListWorkRequestResults API.</example>
         public async Task<ListWorkRequestResultsResponse> ListWorkRequestResults(ListWorkRequestResultsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestResults");
@@ -654,7 +654,7 @@ namespace Oci.VnmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -710,7 +710,7 @@ namespace Oci.VnmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/UpdatePathAnalyzerTest.cs.html">here</a> to see an example of how to use UpdatePathAnalyzerTest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/UpdatePathAnalyzerTest.cs.html">here</a> to see an example of how to use UpdatePathAnalyzerTest API.</example>
         public async Task<UpdatePathAnalyzerTestResponse> UpdatePathAnalyzerTest(UpdatePathAnalyzerTestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePathAnalyzerTest");

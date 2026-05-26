@@ -14,7 +14,7 @@ using Oci.GenerativeaiagentruntimeService.Models;
 namespace Oci.GenerativeaiagentruntimeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagentruntime/UpdateSession.cs.html">here</a> to see an example of how to use UpdateSession request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagentruntime/UpdateSession.cs.html">here</a> to see an example of how to use UpdateSession request.
     /// </example>
     public class UpdateSessionRequest : Oci.Common.IOciRequest
     {

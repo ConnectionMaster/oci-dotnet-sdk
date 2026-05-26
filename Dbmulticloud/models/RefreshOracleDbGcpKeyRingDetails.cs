@@ -22,7 +22,7 @@ namespace Oci.DbmulticloudService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Oracle DB GCP Connector resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Oracle DB GCP Connector resource.
         /// </value>
         [JsonProperty(PropertyName = "oracleDbGcpConnectorId")]
         public string OracleDbGcpConnectorId { get; set; }

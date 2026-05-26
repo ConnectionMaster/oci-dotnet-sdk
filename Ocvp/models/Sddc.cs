@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.OcvpService.Models
 {
     /// <summary>
-    /// An [Oracle Cloud VMware Solution](https://docs.cloud.oracle.com/iaas/Content/VMware/Concepts/ocvsoverview.htm) software-defined data center (SDDC) contains the resources required for a
+    /// An [Oracle Cloud VMware Solution](https://docs.oracle.com/iaas/Content/VMware/Concepts/ocvsoverview.htm) software-defined data center (SDDC) contains the resources required for a
     /// functional VMware environment. Instances in an SDDC
     /// (see {@link EsxiHost}) run in a virtual cloud network (VCN)
     /// and are preconfigured with VMware and storage. Use the vCenter utility to manage
@@ -31,7 +31,7 @@ namespace Oci.OcvpService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the SDDC.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the SDDC.
         /// 
         /// </value>
         /// <remarks>
@@ -100,7 +100,7 @@ namespace Oci.OcvpService.Models
         public string EsxiSoftwareVersion { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment that
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that
         /// contains the SDDC.
         /// 
         /// </value>
@@ -146,7 +146,7 @@ namespace Oci.OcvpService.Models
         public string NsxManagerFqdn { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the `PrivateIp` object that is
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the `PrivateIp` object that is
         /// the virtual IP (VIP) for vCenter. For information about `PrivateIp` objects, see the
         /// Core Services API.
         /// 
@@ -159,7 +159,7 @@ namespace Oci.OcvpService.Models
         public string VcenterPrivateIpId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the `PrivateIp` object that is
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the `PrivateIp` object that is
         /// the virtual IP (VIP) for NSX Manager. For information about `PrivateIp` objects, see the
         /// Core Services API.
         /// 
@@ -211,7 +211,7 @@ namespace Oci.OcvpService.Models
         public string SshAuthorizedKeys { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the `PrivateIp` object that is
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the `PrivateIp` object that is
         /// the virtual IP (VIP) for the NSX Edge Uplink. Use this OCID as the route target for
         /// route table rules when setting up connectivity between the SDDC and other networks.
         /// For information about `PrivateIp` objects, see the Core Services API.
@@ -221,7 +221,7 @@ namespace Oci.OcvpService.Models
         public string NsxEdgeUplinkIpId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the `PrivateIp` object that is
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the `PrivateIp` object that is
         /// the virtual IP (VIP) for HCX Manager. For information about `PrivateIp` objects, see the
         /// Core Services API.
         /// 
@@ -325,7 +325,7 @@ namespace Oci.OcvpService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -338,7 +338,7 @@ namespace Oci.OcvpService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>

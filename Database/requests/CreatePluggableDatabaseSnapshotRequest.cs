@@ -14,7 +14,7 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/CreatePluggableDatabaseSnapshot.cs.html">here</a> to see an example of how to use CreatePluggableDatabaseSnapshot request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/CreatePluggableDatabaseSnapshot.cs.html">here</a> to see an example of how to use CreatePluggableDatabaseSnapshot request.
     /// </example>
     public class CreatePluggableDatabaseSnapshotRequest : Oci.Common.IOciRequest
     {

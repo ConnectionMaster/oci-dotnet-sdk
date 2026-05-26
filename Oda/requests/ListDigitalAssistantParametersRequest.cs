@@ -14,7 +14,7 @@ using Oci.OdaService.Models;
 namespace Oci.OdaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListDigitalAssistantParameters.cs.html">here</a> to see an example of how to use ListDigitalAssistantParameters request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListDigitalAssistantParameters.cs.html">here</a> to see an example of how to use ListDigitalAssistantParameters request.
     /// </example>
     public class ListDigitalAssistantParametersRequest : Oci.Common.IOciRequest
     {

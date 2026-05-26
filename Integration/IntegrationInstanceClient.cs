@@ -82,7 +82,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/AddLogAnalyticsLogGroup.cs.html">here</a> to see an example of how to use AddLogAnalyticsLogGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/AddLogAnalyticsLogGroup.cs.html">here</a> to see an example of how to use AddLogAnalyticsLogGroup API.</example>
         public async Task<AddLogAnalyticsLogGroupResponse> AddLogAnalyticsLogGroup(AddLogAnalyticsLogGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addLogAnalyticsLogGroup");
@@ -139,7 +139,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/AddOracleManagedCustomEndpoint.cs.html">here</a> to see an example of how to use AddOracleManagedCustomEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/AddOracleManagedCustomEndpoint.cs.html">here</a> to see an example of how to use AddOracleManagedCustomEndpoint API.</example>
         public async Task<AddOracleManagedCustomEndpointResponse> AddOracleManagedCustomEndpoint(AddOracleManagedCustomEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addOracleManagedCustomEndpoint");
@@ -196,7 +196,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ChangeIntegrationInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeIntegrationInstanceCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ChangeIntegrationInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeIntegrationInstanceCompartment API.</example>
         public async Task<ChangeIntegrationInstanceCompartmentResponse> ChangeIntegrationInstanceCompartment(ChangeIntegrationInstanceCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeIntegrationInstanceCompartment");
@@ -254,7 +254,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ChangeIntegrationInstanceNetworkEndpoint.cs.html">here</a> to see an example of how to use ChangeIntegrationInstanceNetworkEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ChangeIntegrationInstanceNetworkEndpoint.cs.html">here</a> to see an example of how to use ChangeIntegrationInstanceNetworkEndpoint API.</example>
         public async Task<ChangeIntegrationInstanceNetworkEndpointResponse> ChangeIntegrationInstanceNetworkEndpoint(ChangeIntegrationInstanceNetworkEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeIntegrationInstanceNetworkEndpoint");
@@ -312,7 +312,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ChangePrivateEndpointOutboundConnection.cs.html">here</a> to see an example of how to use ChangePrivateEndpointOutboundConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ChangePrivateEndpointOutboundConnection.cs.html">here</a> to see an example of how to use ChangePrivateEndpointOutboundConnection API.</example>
         public async Task<ChangePrivateEndpointOutboundConnectionResponse> ChangePrivateEndpointOutboundConnection(ChangePrivateEndpointOutboundConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changePrivateEndpointOutboundConnection");
@@ -371,7 +371,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ConvertInstance.cs.html">here</a> to see an example of how to use ConvertInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ConvertInstance.cs.html">here</a> to see an example of how to use ConvertInstance API.</example>
         public async Task<ConvertInstanceResponse> ConvertInstance(ConvertInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called convertInstance");
@@ -428,7 +428,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/CreateIntegrationInstance.cs.html">here</a> to see an example of how to use CreateIntegrationInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/CreateIntegrationInstance.cs.html">here</a> to see an example of how to use CreateIntegrationInstance API.</example>
         public async Task<CreateIntegrationInstanceResponse> CreateIntegrationInstance(CreateIntegrationInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createIntegrationInstance");
@@ -484,7 +484,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/DeleteIntegrationInstance.cs.html">here</a> to see an example of how to use DeleteIntegrationInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/DeleteIntegrationInstance.cs.html">here</a> to see an example of how to use DeleteIntegrationInstance API.</example>
         public async Task<DeleteIntegrationInstanceResponse> DeleteIntegrationInstance(DeleteIntegrationInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteIntegrationInstance");
@@ -541,7 +541,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/DisableProcessAutomation.cs.html">here</a> to see an example of how to use DisableProcessAutomation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/DisableProcessAutomation.cs.html">here</a> to see an example of how to use DisableProcessAutomation API.</example>
         public async Task<DisableProcessAutomationResponse> DisableProcessAutomation(DisableProcessAutomationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableProcessAutomation");
@@ -601,7 +601,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/DisasterRecoveryFailover.cs.html">here</a> to see an example of how to use DisasterRecoveryFailover API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/DisasterRecoveryFailover.cs.html">here</a> to see an example of how to use DisasterRecoveryFailover API.</example>
         public async Task<DisasterRecoveryFailoverResponse> DisasterRecoveryFailover(DisasterRecoveryFailoverRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disasterRecoveryFailover");
@@ -658,7 +658,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/EnableProcessAutomation.cs.html">here</a> to see an example of how to use EnableProcessAutomation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/EnableProcessAutomation.cs.html">here</a> to see an example of how to use EnableProcessAutomation API.</example>
         public async Task<EnableProcessAutomationResponse> EnableProcessAutomation(EnableProcessAutomationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enableProcessAutomation");
@@ -715,7 +715,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ExtendDataRetention.cs.html">here</a> to see an example of how to use ExtendDataRetention API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ExtendDataRetention.cs.html">here</a> to see an example of how to use ExtendDataRetention API.</example>
         public async Task<ExtendDataRetentionResponse> ExtendDataRetention(ExtendDataRetentionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called extendDataRetention");
@@ -771,7 +771,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/GetIntegrationInstance.cs.html">here</a> to see an example of how to use GetIntegrationInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/GetIntegrationInstance.cs.html">here</a> to see an example of how to use GetIntegrationInstance API.</example>
         public async Task<GetIntegrationInstanceResponse> GetIntegrationInstance(GetIntegrationInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIntegrationInstance");
@@ -827,7 +827,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -884,7 +884,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ListIntegrationInstances.cs.html">here</a> to see an example of how to use ListIntegrationInstances API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ListIntegrationInstances.cs.html">here</a> to see an example of how to use ListIntegrationInstances API.</example>
         public async Task<ListIntegrationInstancesResponse> ListIntegrationInstances(ListIntegrationInstancesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIntegrationInstances");
@@ -940,7 +940,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -996,7 +996,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -1053,7 +1053,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1111,7 +1111,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/RemoveLogAnalyticsLogGroup.cs.html">here</a> to see an example of how to use RemoveLogAnalyticsLogGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/RemoveLogAnalyticsLogGroup.cs.html">here</a> to see an example of how to use RemoveLogAnalyticsLogGroup API.</example>
         public async Task<RemoveLogAnalyticsLogGroupResponse> RemoveLogAnalyticsLogGroup(RemoveLogAnalyticsLogGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeLogAnalyticsLogGroup");
@@ -1168,7 +1168,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/RemoveOracleManagedCustomEndpoint.cs.html">here</a> to see an example of how to use RemoveOracleManagedCustomEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/RemoveOracleManagedCustomEndpoint.cs.html">here</a> to see an example of how to use RemoveOracleManagedCustomEndpoint API.</example>
         public async Task<RemoveOracleManagedCustomEndpointResponse> RemoveOracleManagedCustomEndpoint(RemoveOracleManagedCustomEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeOracleManagedCustomEndpoint");
@@ -1225,7 +1225,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/StartIntegrationInstance.cs.html">here</a> to see an example of how to use StartIntegrationInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/StartIntegrationInstance.cs.html">here</a> to see an example of how to use StartIntegrationInstance API.</example>
         public async Task<StartIntegrationInstanceResponse> StartIntegrationInstance(StartIntegrationInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startIntegrationInstance");
@@ -1282,7 +1282,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/StopIntegrationInstance.cs.html">here</a> to see an example of how to use StopIntegrationInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/StopIntegrationInstance.cs.html">here</a> to see an example of how to use StopIntegrationInstance API.</example>
         public async Task<StopIntegrationInstanceResponse> StopIntegrationInstance(StopIntegrationInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopIntegrationInstance");
@@ -1338,7 +1338,7 @@ namespace Oci.IntegrationService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/UpdateIntegrationInstance.cs.html">here</a> to see an example of how to use UpdateIntegrationInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/UpdateIntegrationInstance.cs.html">here</a> to see an example of how to use UpdateIntegrationInstance API.</example>
         public async Task<UpdateIntegrationInstanceResponse> UpdateIntegrationInstance(UpdateIntegrationInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateIntegrationInstance");

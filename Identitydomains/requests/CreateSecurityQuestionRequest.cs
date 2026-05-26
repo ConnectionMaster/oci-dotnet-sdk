@@ -14,7 +14,7 @@ using Oci.IdentitydomainsService.Models;
 namespace Oci.IdentitydomainsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateSecurityQuestion.cs.html">here</a> to see an example of how to use CreateSecurityQuestion request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateSecurityQuestion.cs.html">here</a> to see an example of how to use CreateSecurityQuestion request.
     /// </example>
     public class CreateSecurityQuestionRequest : Oci.Common.IOciRequest
     {

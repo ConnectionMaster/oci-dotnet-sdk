@@ -14,13 +14,13 @@ using Oci.OpsiService.Models;
 namespace Oci.OpsiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightDiskStatistics.cs.html">here</a> to see an example of how to use SummarizeHostInsightDiskStatistics request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightDiskStatistics.cs.html">here</a> to see an example of how to use SummarizeHostInsightDiskStatistics request.
     /// </example>
     public class SummarizeHostInsightDiskStatisticsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.OpsiService.Requests
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// Required [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the host insight resource.
+        /// Required [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the host insight resource.
         /// 
         /// </value>
         /// <remarks>
@@ -72,7 +72,7 @@ namespace Oci.OpsiService.Requests
         public System.Nullable<System.DateTime> TimeIntervalEnd { get; set; }
         
         /// <value>
-        /// Optional [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the host (Compute Id)
+        /// Optional [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the host (Compute Id)
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "hostId")]

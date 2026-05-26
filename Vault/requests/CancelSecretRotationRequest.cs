@@ -14,7 +14,7 @@ using Oci.VaultService.Models;
 namespace Oci.VaultService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vault/CancelSecretRotation.cs.html">here</a> to see an example of how to use CancelSecretRotation request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vault/CancelSecretRotation.cs.html">here</a> to see an example of how to use CancelSecretRotation request.
     /// </example>
     public class CancelSecretRotationRequest : Oci.Common.IOciRequest
     {

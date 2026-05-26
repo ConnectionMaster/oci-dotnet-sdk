@@ -28,7 +28,7 @@ namespace Oci.VnmonitoringService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the default DRG route table to be assigned to DRG attachments
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the default DRG route table to be assigned to DRG attachments
         /// of type VCN on creation.
         /// 
         /// </value>
@@ -36,7 +36,7 @@ namespace Oci.VnmonitoringService.Models
         public string Vcn { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the default DRG route table assigned to DRG attachments
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the default DRG route table assigned to DRG attachments
         /// of type IPSEC_TUNNEL on creation.
         /// 
         /// </value>
@@ -44,7 +44,7 @@ namespace Oci.VnmonitoringService.Models
         public string IpsecTunnel { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the default DRG route table to be assigned to DRG attachments
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the default DRG route table to be assigned to DRG attachments
         /// of type VIRTUAL_CIRCUIT on creation.
         /// 
         /// </value>
@@ -52,7 +52,7 @@ namespace Oci.VnmonitoringService.Models
         public string VirtualCircuit { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the default DRG route table to be assigned to DRG attachments
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the default DRG route table to be assigned to DRG attachments
         /// of type REMOTE_PEERING_CONNECTION on creation.
         /// 
         /// </value>

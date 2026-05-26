@@ -14,7 +14,7 @@ using Oci.ObjectstorageService.Models;
 namespace Oci.ObjectstorageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/objectstorage/GetPrivateEndpoint.cs.html">here</a> to see an example of how to use GetPrivateEndpoint request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/objectstorage/GetPrivateEndpoint.cs.html">here</a> to see an example of how to use GetPrivateEndpoint request.
     /// </example>
     public class GetPrivateEndpointRequest : Oci.Common.IOciRequest
     {

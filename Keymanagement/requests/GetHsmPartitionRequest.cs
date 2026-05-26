@@ -14,7 +14,7 @@ using Oci.KeymanagementService.Models;
 namespace Oci.KeymanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetHsmPartition.cs.html">here</a> to see an example of how to use GetHsmPartition request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetHsmPartition.cs.html">here</a> to see an example of how to use GetHsmPartition request.
     /// </example>
     public class GetHsmPartitionRequest : Oci.Common.IOciRequest
     {

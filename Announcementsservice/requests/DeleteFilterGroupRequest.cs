@@ -14,7 +14,7 @@ using Oci.AnnouncementsService.Models;
 namespace Oci.AnnouncementsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/DeleteFilterGroup.cs.html">here</a> to see an example of how to use DeleteFilterGroup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/DeleteFilterGroup.cs.html">here</a> to see an example of how to use DeleteFilterGroup request.
     /// </example>
     public class DeleteFilterGroupRequest : Oci.Common.IOciRequest
     {

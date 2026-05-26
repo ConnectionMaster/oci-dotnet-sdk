@@ -14,7 +14,7 @@ using Oci.SchService.Models;
 namespace Oci.SchService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/GetConnectorPlugin.cs.html">here</a> to see an example of how to use GetConnectorPlugin request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/GetConnectorPlugin.cs.html">here</a> to see an example of how to use GetConnectorPlugin request.
     /// </example>
     public class GetConnectorPluginRequest : Oci.Common.IOciRequest
     {

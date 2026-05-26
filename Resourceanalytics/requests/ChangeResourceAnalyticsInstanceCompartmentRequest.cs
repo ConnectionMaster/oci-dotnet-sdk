@@ -14,13 +14,13 @@ using Oci.ResourceanalyticsService.Models;
 namespace Oci.ResourceanalyticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ChangeResourceAnalyticsInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeResourceAnalyticsInstanceCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ChangeResourceAnalyticsInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeResourceAnalyticsInstanceCompartment request.
     /// </example>
     public class ChangeResourceAnalyticsInstanceCompartmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the ResourceAnalyticsInstance.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the ResourceAnalyticsInstance.
         /// </value>
         /// <remarks>
         /// Required

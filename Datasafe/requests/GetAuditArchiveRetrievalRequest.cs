@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAuditArchiveRetrieval.cs.html">here</a> to see an example of how to use GetAuditArchiveRetrieval request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetAuditArchiveRetrieval.cs.html">here</a> to see an example of how to use GetAuditArchiveRetrieval request.
     /// </example>
     public class GetAuditArchiveRetrievalRequest : Oci.Common.IOciRequest
     {

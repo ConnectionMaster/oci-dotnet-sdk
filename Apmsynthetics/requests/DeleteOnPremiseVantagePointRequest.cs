@@ -14,7 +14,7 @@ using Oci.ApmsyntheticsService.Models;
 namespace Oci.ApmsyntheticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/DeleteOnPremiseVantagePoint.cs.html">here</a> to see an example of how to use DeleteOnPremiseVantagePoint request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/DeleteOnPremiseVantagePoint.cs.html">here</a> to see an example of how to use DeleteOnPremiseVantagePoint request.
     /// </example>
     public class DeleteOnPremiseVantagePointRequest : Oci.Common.IOciRequest
     {

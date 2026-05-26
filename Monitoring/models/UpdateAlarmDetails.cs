@@ -34,14 +34,14 @@ namespace Oci.MonitoringService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the alarm.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the alarm.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the metric
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the metric
         /// being evaluated by the alarm.
         /// 
         /// </value>
@@ -87,14 +87,14 @@ namespace Oci.MonitoringService.Models
         /// interval values are supported for smaller time ranges. You can optionally
         /// specify dimensions and grouping functions.
         /// Also, you can customize the 
-        /// [absence detection period](https://docs.cloud.oracle.com/iaas/Content/Monitoring/Tasks/create-edit-alarm-query-absence-detection-period.htm).
+        /// [absence detection period](https://docs.oracle.com/iaas/Content/Monitoring/Tasks/create-edit-alarm-query-absence-detection-period.htm).
         /// Supported grouping functions: `grouping()`, `groupBy()`.
         /// For information about writing MQL expressions, see
-        /// [Editing the MQL Expression for a Query](https://docs.cloud.oracle.com/iaas/Content/Monitoring/Tasks/query-metric-mql.htm).
+        /// [Editing the MQL Expression for a Query](https://docs.oracle.com/iaas/Content/Monitoring/Tasks/query-metric-mql.htm).
         /// For details about MQL, see
-        /// [Monitoring Query Language (MQL) Reference](https://docs.cloud.oracle.com/iaas/Content/Monitoring/Reference/mql.htm).
+        /// [Monitoring Query Language (MQL) Reference](https://docs.oracle.com/iaas/Content/Monitoring/Reference/mql.htm).
         /// For available dimensions, review the metric definition for the supported service. See
-        /// [Supported Services](https://docs.cloud.oracle.com/iaas/Content/Monitoring/Concepts/monitoringoverview.htm#SupportedServices).
+        /// [Supported Services](https://docs.oracle.com/iaas/Content/Monitoring/Concepts/monitoringoverview.htm#SupportedServices).
         /// <br/>
         /// Example of threshold alarm:
         /// <br/>
@@ -161,7 +161,7 @@ namespace Oci.MonitoringService.Models
         
         /// <value>
         /// The human-readable content of the delivered alarm notification.
-        /// Optionally include [dynamic variables](https://docs.cloud.oracle.com/iaas/Content/Monitoring/Tasks/update-alarm-dynamic-variables.htm).
+        /// Optionally include [dynamic variables](https://docs.oracle.com/iaas/Content/Monitoring/Tasks/update-alarm-dynamic-variables.htm).
         /// Oracle recommends providing guidance
         /// to operators for resolving the alarm condition. Consider adding links to standard runbook
         /// practices. Avoid entering confidential information.
@@ -209,7 +209,7 @@ namespace Oci.MonitoringService.Models
         
         /// <value>
         /// A list of destinations for alarm notifications.
-        /// Each destination is represented by the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)
+        /// Each destination is represented by the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)
         /// of a related resource, such as a {@link NotificationTopic}.
         /// Supported destination services: Notifications, Streaming.
         /// Limit: One destination per supported destination service.
@@ -287,8 +287,8 @@ namespace Oci.MonitoringService.Models
         public string NotificationVersion { get; set; }
         
         /// <value>
-        /// Customizable notification title (`title` [alarm message parameter](https://docs.cloud.oracle.com/iaas/Content/Monitoring/alarm-message-format.htm)).
-        /// Optionally include [dynamic variables](https://docs.cloud.oracle.com/iaas/Content/Monitoring/Tasks/update-alarm-dynamic-variables.htm).
+        /// Customizable notification title (`title` [alarm message parameter](https://docs.oracle.com/iaas/Content/Monitoring/alarm-message-format.htm)).
+        /// Optionally include [dynamic variables](https://docs.oracle.com/iaas/Content/Monitoring/Tasks/update-alarm-dynamic-variables.htm).
         /// The notification title appears as the subject line in a formatted email message and as the title in a Slack message.
         /// 
         /// </value>
@@ -300,15 +300,15 @@ namespace Oci.MonitoringService.Models
         /// Specify a string in ISO 8601 format (`PT10M` for ten minutes or `PT1H`
         /// for one hour). Minimum: PT3M. Maximum: PT2H. Default: PT3M.
         /// For more information about the slack period, see
-        /// [About the Internal Reset Period](https://docs.cloud.oracle.com/iaas/Content/Monitoring/Concepts/monitoringoverview.htm#reset).
+        /// [About the Internal Reset Period](https://docs.oracle.com/iaas/Content/Monitoring/Concepts/monitoringoverview.htm#reset).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "evaluationSlackDuration")]
         public string EvaluationSlackDuration { get; set; }
         
         /// <value>
-        /// Customizable alarm summary (`alarmSummary` [alarm message parameter](https://docs.cloud.oracle.com/iaas/Content/Monitoring/alarm-message-format.htm)).
-        /// Optionally include [dynamic variables](https://docs.cloud.oracle.com/iaas/Content/Monitoring/Tasks/update-alarm-dynamic-variables.htm).
+        /// Customizable alarm summary (`alarmSummary` [alarm message parameter](https://docs.oracle.com/iaas/Content/Monitoring/alarm-message-format.htm)).
+        /// Optionally include [dynamic variables](https://docs.oracle.com/iaas/Content/Monitoring/Tasks/update-alarm-dynamic-variables.htm).
         /// The alarm summary appears within the body of the alarm message and in responses to 
         /// {@link #listAlarmsStatus(ListAlarmsStatusRequest) listAlarmsStatus} 
         /// {@link #getAlarmHistory(GetAlarmHistoryRequest) getAlarmHistory} and

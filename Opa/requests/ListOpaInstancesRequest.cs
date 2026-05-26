@@ -14,7 +14,7 @@ using Oci.OpaService.Models;
 namespace Oci.OpaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opa/ListOpaInstances.cs.html">here</a> to see an example of how to use ListOpaInstances request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opa/ListOpaInstances.cs.html">here</a> to see an example of how to use ListOpaInstances request.
     /// </example>
     public class ListOpaInstancesRequest : Oci.Common.IOciRequest
     {

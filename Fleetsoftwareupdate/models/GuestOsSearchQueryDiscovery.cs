@@ -16,14 +16,14 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FleetsoftwareupdateService.Models
 {
     /// <summary>
-    /// Discover Exadata VM Cluster targets for a 'GUEST_OS' collection by querying [OCI Search Service](https://docs.cloud.oracle.com/Content/Search/Concepts/queryoverview.htm) using specified query string.
+    /// Discover Exadata VM Cluster targets for a 'GUEST_OS' collection by querying [OCI Search Service](https://docs.oracle.com/iaas/Content/Search/Concepts/queryoverview.htm) using specified query string.
     /// 
     /// </summary>
     public class GuestOsSearchQueryDiscovery : GuestOsFleetDiscoveryDetails
     {
         
         /// <value>
-        /// [OCI Search Service](https://docs.cloud.oracle.com/Content/Search/Concepts/queryoverview.htm) query string.
+        /// [OCI Search Service](https://docs.oracle.com/iaas/Content/Search/Concepts/queryoverview.htm) query string.
         /// 
         /// </value>
         /// <remarks>

@@ -14,7 +14,7 @@ using Oci.ClusterplacementgroupsService.Models;
 namespace Oci.ClusterplacementgroupsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/DeleteClusterPlacementGroup.cs.html">here</a> to see an example of how to use DeleteClusterPlacementGroup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/DeleteClusterPlacementGroup.cs.html">here</a> to see an example of how to use DeleteClusterPlacementGroup request.
     /// </example>
     public class DeleteClusterPlacementGroupRequest : Oci.Common.IOciRequest
     {

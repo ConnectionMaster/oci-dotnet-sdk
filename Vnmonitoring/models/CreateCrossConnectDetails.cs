@@ -20,7 +20,7 @@ namespace Oci.VnmonitoringService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to contain the cross-connect.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to contain the cross-connect.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.VnmonitoringService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cross-connect group to put this cross-connect in.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cross-connect group to put this cross-connect in.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "crossConnectGroupId")]
@@ -47,7 +47,7 @@ namespace Oci.VnmonitoringService.Models
         /// <value>
         /// If you already have an existing cross-connect or cross-connect group at this FastConnect
         /// location, and you want this new cross-connect to be on a different router (for the
-        /// purposes of redundancy), provide the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of that existing cross-connect or
+        /// purposes of redundancy), provide the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of that existing cross-connect or
         /// cross-connect group.
         /// 
         /// </value>
@@ -71,7 +71,7 @@ namespace Oci.VnmonitoringService.Models
         /// <value>
         /// If you already have an existing cross-connect or cross-connect group at this FastConnect
         /// location, and you want this new cross-connect to be on the same router, provide the
-        /// [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of that existing cross-connect or cross-connect group.
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of that existing cross-connect or cross-connect group.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "nearCrossConnectOrCrossConnectGroupId")]

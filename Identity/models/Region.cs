@@ -18,18 +18,18 @@ namespace Oci.IdentityService.Models
     /// <summary>
     /// A localized geographic area, such as Phoenix, AZ. Oracle Cloud Infrastructure is hosted in regions and Availability
     /// Domains. A region is composed of several Availability Domains. An Availability Domain is one or more data centers
-    /// located within a region. For more information, see [Regions and Availability Domains](https://docs.cloud.oracle.com/Content/General/Concepts/regions.htm).
+    /// located within a region. For more information, see [Regions and Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm).
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,
     /// talk to an administrator. If you're an administrator who needs to write policies to give users access,
-    /// see [Get Started with Policies](https://docs.cloud.oracle.com/Content/Identity/policiesgs/get-started-with-policies.htm).
+    /// see [Get Started with Policies](https://docs.oracle.com/iaas/Content/Identity/policiesgs/get-started-with-policies.htm).
     /// 
     /// </summary>
     public class Region 
     {
         
         /// <value>
-        /// The key of the region. See [Regions and Availability Domains](https://docs.cloud.oracle.com/Content/General/Concepts/regions.htm) for
+        /// The key of the region. See [Regions and Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm) for
         /// the full list of supported 3-letter region codes.
         /// <br/>
         /// Example: PHX
@@ -38,7 +38,7 @@ namespace Oci.IdentityService.Models
         public string Key { get; set; }
         
         /// <value>
-        /// The name of the region. See [Regions and Availability Domains](https://docs.cloud.oracle.com/Content/General/Concepts/regions.htm)
+        /// The name of the region. See [Regions and Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm)
         /// for the full list of supported region names.
         /// <br/>
         /// Example: us-phoenix-1

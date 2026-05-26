@@ -23,7 +23,7 @@ namespace Oci.OcvpService.Models
     {
         
         /// <value>
-        /// A list of [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)s of Block Storage Volumes.
+        /// A list of [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)s of Block Storage Volumes.
         /// </value>
         /// <remarks>
         /// Required

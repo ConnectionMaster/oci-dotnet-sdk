@@ -33,7 +33,7 @@ namespace Oci.DatabaseService.Models
         public string Name { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Exadata Database Node.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Exadata Database Node.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "snapshots")]

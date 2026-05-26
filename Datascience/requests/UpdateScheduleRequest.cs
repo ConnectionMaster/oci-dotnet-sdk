@@ -14,7 +14,7 @@ using Oci.DatascienceService.Models;
 namespace Oci.DatascienceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateSchedule.cs.html">here</a> to see an example of how to use UpdateSchedule request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateSchedule.cs.html">here</a> to see an example of how to use UpdateSchedule request.
     /// </example>
     public class UpdateScheduleRequest : Oci.Common.IOciRequest
     {

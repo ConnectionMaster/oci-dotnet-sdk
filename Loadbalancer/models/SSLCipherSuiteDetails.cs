@@ -26,8 +26,8 @@ namespace Oci.LoadbalancerService.Models
     /// **Warning:** Oracle recommends that you avoid using any confidential information when you supply string values using the API.
     /// <br/>
     /// Oracle created the following predefined cipher suites that you can specify when you define a resource's
-    /// [SSL configuration](https://docs.cloud.oracle.com/api/#/en/loadbalancer/20170115/datatypes/SSLConfigurationDetails). You can [create custom
-    /// cipher suites](https://docs.cloud.oracle.com/api/#/en/loadbalancer/20170115/SSLCipherSuite/CreateSSLCipherSuite) if the predefined cipher
+    /// [SSL configuration](https://docs.oracle.com/iaas/api/#/en/loadbalancer/20170115/datatypes/SSLConfigurationDetails). You can [create custom
+    /// cipher suites](https://docs.oracle.com/iaas/api/#/en/loadbalancer/20170115/SSLCipherSuite/CreateSSLCipherSuite) if the predefined cipher
     /// suites do not meet your requirements.
     /// <br/>
     /// 

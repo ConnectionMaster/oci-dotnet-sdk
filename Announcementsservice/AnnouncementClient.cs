@@ -83,7 +83,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/GetAnnouncement.cs.html">here</a> to see an example of how to use GetAnnouncement API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/GetAnnouncement.cs.html">here</a> to see an example of how to use GetAnnouncement API.</example>
         public async Task<GetAnnouncementResponse> GetAnnouncement(GetAnnouncementRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAnnouncement");
@@ -140,7 +140,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/GetAnnouncementCompartment.cs.html">here</a> to see an example of how to use GetAnnouncementCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/GetAnnouncementCompartment.cs.html">here</a> to see an example of how to use GetAnnouncementCompartment API.</example>
         public async Task<GetAnnouncementCompartmentResponse> GetAnnouncementCompartment(GetAnnouncementCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAnnouncementCompartment");
@@ -199,7 +199,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/GetAnnouncementUserStatus.cs.html">here</a> to see an example of how to use GetAnnouncementUserStatus API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/GetAnnouncementUserStatus.cs.html">here</a> to see an example of how to use GetAnnouncementUserStatus API.</example>
         public async Task<GetAnnouncementUserStatusResponse> GetAnnouncementUserStatus(GetAnnouncementUserStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAnnouncementUserStatus");
@@ -258,7 +258,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/ListAnnouncements.cs.html">here</a> to see an example of how to use ListAnnouncements API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/ListAnnouncements.cs.html">here</a> to see an example of how to use ListAnnouncements API.</example>
         public async Task<ListAnnouncementsResponse> ListAnnouncements(ListAnnouncementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAnnouncements");
@@ -317,7 +317,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/UpdateAnnouncementUserStatus.cs.html">here</a> to see an example of how to use UpdateAnnouncementUserStatus API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/UpdateAnnouncementUserStatus.cs.html">here</a> to see an example of how to use UpdateAnnouncementUserStatus API.</example>
         public async Task<UpdateAnnouncementUserStatusResponse> UpdateAnnouncementUserStatus(UpdateAnnouncementUserStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAnnouncementUserStatus");

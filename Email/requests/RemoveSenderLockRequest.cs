@@ -14,7 +14,7 @@ using Oci.EmailService.Models;
 namespace Oci.EmailService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/RemoveSenderLock.cs.html">here</a> to see an example of how to use RemoveSenderLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/RemoveSenderLock.cs.html">here</a> to see an example of how to use RemoveSenderLock request.
     /// </example>
     public class RemoveSenderLockRequest : Oci.Common.IOciRequest
     {

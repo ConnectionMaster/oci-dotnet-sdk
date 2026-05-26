@@ -14,13 +14,13 @@ using Oci.PsaService.Models;
 namespace Oci.PsaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/GetPrivateServiceAccess.cs.html">here</a> to see an example of how to use GetPrivateServiceAccess request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/GetPrivateServiceAccess.cs.html">here</a> to see an example of how to use GetPrivateServiceAccess request.
     /// </example>
     public class GetPrivateServiceAccessRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the PrivateServiceAccess.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the PrivateServiceAccess.
         /// </value>
         /// <remarks>
         /// Required

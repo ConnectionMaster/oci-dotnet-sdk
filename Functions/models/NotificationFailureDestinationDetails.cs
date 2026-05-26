@@ -24,7 +24,7 @@ namespace Oci.FunctionsService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the topic.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the topic.
         /// 
         /// </value>
         /// <remarks>

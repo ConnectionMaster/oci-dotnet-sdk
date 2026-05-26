@@ -14,7 +14,7 @@ using Oci.FusionappsService.Models;
 namespace Oci.FusionappsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListTimeAvailableForRefreshes.cs.html">here</a> to see an example of how to use ListTimeAvailableForRefreshes request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListTimeAvailableForRefreshes.cs.html">here</a> to see an example of how to use ListTimeAvailableForRefreshes request.
     /// </example>
     public class ListTimeAvailableForRefreshesRequest : Oci.Common.IOciRequest
     {

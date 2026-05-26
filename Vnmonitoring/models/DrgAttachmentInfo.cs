@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.VnmonitoringService.Models
 {
     /// <summary>
-    /// The `DrgAttachmentInfo` resource contains the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the DRG attachment.
+    /// The `DrgAttachmentInfo` resource contains the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the DRG attachment.
     /// 
     /// </summary>
     public class DrgAttachmentInfo 

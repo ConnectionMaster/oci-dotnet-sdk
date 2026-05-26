@@ -14,7 +14,7 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListComputeGlobalImageCapabilitySchemas.cs.html">here</a> to see an example of how to use ListComputeGlobalImageCapabilitySchemas request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListComputeGlobalImageCapabilitySchemas.cs.html">here</a> to see an example of how to use ListComputeGlobalImageCapabilitySchemas request.
     /// </example>
     public class ListComputeGlobalImageCapabilitySchemasRequest : Oci.Common.IOciRequest
     {
@@ -36,7 +36,7 @@ namespace Oci.CoreService.Requests
         /// <value>
         /// For list pagination. The maximum number of results per page, or items to return in a paginated
         /// \"List\" call. For important details about how pagination works, see
-        /// [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// <br/>
         /// Example: 50
         /// </value>
@@ -46,7 +46,7 @@ namespace Oci.CoreService.Requests
         /// <value>
         /// For list pagination. The value of the `opc-next-page` response header from the previous \"List\"
         /// call. For important details about how pagination works, see
-        /// [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]

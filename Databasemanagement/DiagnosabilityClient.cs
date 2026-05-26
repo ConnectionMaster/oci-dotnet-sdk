@@ -78,7 +78,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListAlertLogs.cs.html">here</a> to see an example of how to use ListAlertLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListAlertLogs.cs.html">here</a> to see an example of how to use ListAlertLogs API.</example>
         public async Task<ListAlertLogsResponse> ListAlertLogs(ListAlertLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAlertLogs");
@@ -135,7 +135,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListAttentionLogs.cs.html">here</a> to see an example of how to use ListAttentionLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListAttentionLogs.cs.html">here</a> to see an example of how to use ListAttentionLogs API.</example>
         public async Task<ListAttentionLogsResponse> ListAttentionLogs(ListAttentionLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAttentionLogs");
@@ -192,7 +192,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/SummarizeAlertLogCounts.cs.html">here</a> to see an example of how to use SummarizeAlertLogCounts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/SummarizeAlertLogCounts.cs.html">here</a> to see an example of how to use SummarizeAlertLogCounts API.</example>
         public async Task<SummarizeAlertLogCountsResponse> SummarizeAlertLogCounts(SummarizeAlertLogCountsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAlertLogCounts");
@@ -249,7 +249,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/SummarizeAttentionLogCounts.cs.html">here</a> to see an example of how to use SummarizeAttentionLogCounts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/SummarizeAttentionLogCounts.cs.html">here</a> to see an example of how to use SummarizeAttentionLogCounts API.</example>
         public async Task<SummarizeAttentionLogCountsResponse> SummarizeAttentionLogCounts(SummarizeAttentionLogCountsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAttentionLogCounts");

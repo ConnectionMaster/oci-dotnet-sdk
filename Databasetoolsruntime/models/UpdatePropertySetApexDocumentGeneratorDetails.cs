@@ -48,7 +48,7 @@ namespace Oci.DatabasetoolsruntimeService.Models
         public string ObjectStorageNamespace { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment containing the Object Storage Buckets managed by APEX
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the Object Storage Buckets managed by APEX
         /// </value>
         [JsonProperty(PropertyName = "objectStorageBucketCompartmentId")]
         public string ObjectStorageBucketCompartmentId { get; set; }
@@ -60,7 +60,7 @@ namespace Oci.DatabasetoolsruntimeService.Models
         public string ObjectStorageEndpoint { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Document Generator function
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Document Generator function
         /// </value>
         [JsonProperty(PropertyName = "functionId")]
         public string FunctionId { get; set; }

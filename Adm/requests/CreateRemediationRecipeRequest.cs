@@ -14,7 +14,7 @@ using Oci.AdmService.Models;
 namespace Oci.AdmService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/CreateRemediationRecipe.cs.html">here</a> to see an example of how to use CreateRemediationRecipe request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/CreateRemediationRecipe.cs.html">here</a> to see an example of how to use CreateRemediationRecipe request.
     /// </example>
     public class CreateRemediationRecipeRequest : Oci.Common.IOciRequest
     {

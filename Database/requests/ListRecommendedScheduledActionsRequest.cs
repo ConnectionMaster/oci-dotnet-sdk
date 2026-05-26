@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListRecommendedScheduledActions.cs.html">here</a> to see an example of how to use ListRecommendedScheduledActions request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListRecommendedScheduledActions.cs.html">here</a> to see an example of how to use ListRecommendedScheduledActions request.
     /// </example>
     public class ListRecommendedScheduledActionsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The Scheduling Policy [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The Scheduling Policy [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.DatabaseService.Requests
         public string SchedulingPolicyId { get; set; }
         
         /// <value>
-        /// The target resource [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) the scheduled actions will be for.
+        /// The target resource [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) the scheduled actions will be for.
         /// </value>
         /// <remarks>
         /// Required
@@ -46,7 +46,9 @@ namespace Oci.DatabaseService.Requests
         ///
         public enum PlanIntentEnum {
             [EnumMember(Value = "EXADATA_INFRASTRUCTURE_FULL_SOFTWARE_UPDATE")]
-            ExadataInfrastructureFullSoftwareUpdate
+            ExadataInfrastructureFullSoftwareUpdate,
+            [EnumMember(Value = "EXADATA_INFRASTRUCTURE_SECURITY_UPDATE")]
+            ExadataInfrastructureSecurityUpdate
         };
 
         /// <value>

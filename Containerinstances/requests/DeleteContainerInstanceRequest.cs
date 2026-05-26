@@ -14,13 +14,13 @@ using Oci.ContainerinstancesService.Models;
 namespace Oci.ContainerinstancesService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerinstances/DeleteContainerInstance.cs.html">here</a> to see an example of how to use DeleteContainerInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerinstances/DeleteContainerInstance.cs.html">here</a> to see an example of how to use DeleteContainerInstance request.
     /// </example>
     public class DeleteContainerInstanceRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the container instance.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the container instance.
         /// </value>
         /// <remarks>
         /// Required

@@ -24,8 +24,8 @@ namespace Oci.MonitoringService.Models
     {
         
         /// <value>
-        /// Customizable alarm summary (`alarmSummary` [alarm message parameter](https://docs.cloud.oracle.com/iaas/Content/Monitoring/alarm-message-format.htm)).
-        /// Optionally include [dynamic variables](https://docs.cloud.oracle.com/iaas/Content/Monitoring/Tasks/update-alarm-dynamic-variables.htm).
+        /// Customizable alarm summary (`alarmSummary` [alarm message parameter](https://docs.oracle.com/iaas/Content/Monitoring/alarm-message-format.htm)).
+        /// Optionally include [dynamic variables](https://docs.oracle.com/iaas/Content/Monitoring/Tasks/update-alarm-dynamic-variables.htm).
         /// The alarm summary appears within the body of the alarm message and in responses to 
         /// {@link #listAlarmsStatus(ListAlarmsStatusRequest) listAlarmsStatus} 
         /// {@link #getAlarmHistory(GetAlarmHistoryRequest) getAlarmHistory} and

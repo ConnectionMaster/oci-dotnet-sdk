@@ -26,10 +26,10 @@ namespace Oci.CoreService.Models
     /// specified `shape`, an error is returned.
     /// <br/>
     /// For more information about shielded instances, see
-    /// [Shielded Instances](https://docs.cloud.oracle.com/iaas/Content/Compute/References/shielded-instances.htm).
+    /// [Shielded Instances](https://docs.oracle.com/iaas/Content/Compute/References/shielded-instances.htm).
     /// <br/>
     /// For more information about BIOS settings for bare metal instances, see
-    /// [BIOS Settings for Bare Metal Instances](https://docs.cloud.oracle.com/iaas/Content/Compute/References/bios-settings.htm).
+    /// [BIOS Settings for Bare Metal Instances](https://docs.oracle.com/iaas/Content/Compute/References/bios-settings.htm).
     /// 
     /// </summary>
     [JsonConverter(typeof(LaunchInstancePlatformConfigModelConverter))]

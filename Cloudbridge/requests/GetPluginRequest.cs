@@ -14,7 +14,7 @@ using Oci.CloudbridgeService.Models;
 namespace Oci.CloudbridgeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/GetPlugin.cs.html">here</a> to see an example of how to use GetPlugin request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/GetPlugin.cs.html">here</a> to see an example of how to use GetPlugin request.
     /// </example>
     public class GetPluginRequest : Oci.Common.IOciRequest
     {

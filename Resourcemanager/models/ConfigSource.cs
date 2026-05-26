@@ -52,7 +52,7 @@ namespace Oci.ResourcemanagerService.Models
         /// Required when using a zip Terraform configuration (`configSourceType` value of `ZIP_UPLOAD`) that contains folders.
         /// Ignored for the `configSourceType` value of `COMPARTMENT_CONFIG_SOURCE`.
         /// For more information about required and recommended file structure, see
-        /// [File Structure (Terraform Configurations for Resource Manager)](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Concepts/terraformconfigresourcemanager.htm#filestructure).
+        /// [File Structure (Terraform Configurations for Resource Manager)](https://docs.oracle.com/iaas/Content/ResourceManager/Concepts/terraformconfigresourcemanager.htm#filestructure).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "workingDirectory")]

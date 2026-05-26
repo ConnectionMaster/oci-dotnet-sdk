@@ -14,7 +14,7 @@ using Oci.AidocumentService.Models;
 namespace Oci.AidocumentService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aidocument/AddProjectLock.cs.html">here</a> to see an example of how to use AddProjectLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aidocument/AddProjectLock.cs.html">here</a> to see an example of how to use AddProjectLock request.
     /// </example>
     public class AddProjectLockRequest : Oci.Common.IOciRequest
     {

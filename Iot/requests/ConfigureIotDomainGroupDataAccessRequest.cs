@@ -14,13 +14,13 @@ using Oci.IotService.Models;
 namespace Oci.IotService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ConfigureIotDomainGroupDataAccess.cs.html">here</a> to see an example of how to use ConfigureIotDomainGroupDataAccess request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/ConfigureIotDomainGroupDataAccess.cs.html">here</a> to see an example of how to use ConfigureIotDomainGroupDataAccess request.
     /// </example>
     public class ConfigureIotDomainGroupDataAccessRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of an IoT Domain Group.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of an IoT Domain Group.
         /// </value>
         /// <remarks>
         /// Required

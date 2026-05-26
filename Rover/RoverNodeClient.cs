@@ -80,7 +80,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ChangeRoverNodeCompartment.cs.html">here</a> to see an example of how to use ChangeRoverNodeCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ChangeRoverNodeCompartment.cs.html">here</a> to see an example of how to use ChangeRoverNodeCompartment API.</example>
         public async Task<ChangeRoverNodeCompartmentResponse> ChangeRoverNodeCompartment(ChangeRoverNodeCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeRoverNodeCompartment");
@@ -137,7 +137,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/CreateRoverNode.cs.html">here</a> to see an example of how to use CreateRoverNode API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/CreateRoverNode.cs.html">here</a> to see an example of how to use CreateRoverNode API.</example>
         public async Task<CreateRoverNodeResponse> CreateRoverNode(CreateRoverNodeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRoverNode");
@@ -193,7 +193,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/DeleteRoverNode.cs.html">here</a> to see an example of how to use DeleteRoverNode API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/DeleteRoverNode.cs.html">here</a> to see an example of how to use DeleteRoverNode API.</example>
         public async Task<DeleteRoverNodeResponse> DeleteRoverNode(DeleteRoverNodeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRoverNode");
@@ -249,7 +249,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/GetRoverNode.cs.html">here</a> to see an example of how to use GetRoverNode API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/GetRoverNode.cs.html">here</a> to see an example of how to use GetRoverNode API.</example>
         public async Task<GetRoverNodeResponse> GetRoverNode(GetRoverNodeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRoverNode");
@@ -305,7 +305,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/GetRoverNodeCertificate.cs.html">here</a> to see an example of how to use GetRoverNodeCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/GetRoverNodeCertificate.cs.html">here</a> to see an example of how to use GetRoverNodeCertificate API.</example>
         public async Task<GetRoverNodeCertificateResponse> GetRoverNodeCertificate(GetRoverNodeCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRoverNodeCertificate");
@@ -361,7 +361,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/GetRoverNodeEncryptionKey.cs.html">here</a> to see an example of how to use GetRoverNodeEncryptionKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/GetRoverNodeEncryptionKey.cs.html">here</a> to see an example of how to use GetRoverNodeEncryptionKey API.</example>
         public async Task<GetRoverNodeEncryptionKeyResponse> GetRoverNodeEncryptionKey(GetRoverNodeEncryptionKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRoverNodeEncryptionKey");
@@ -417,7 +417,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/GetRoverNodeGetRpt.cs.html">here</a> to see an example of how to use GetRoverNodeGetRpt API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/GetRoverNodeGetRpt.cs.html">here</a> to see an example of how to use GetRoverNodeGetRpt API.</example>
         public async Task<GetRoverNodeGetRptResponse> GetRoverNodeGetRpt(GetRoverNodeGetRptRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRoverNodeGetRpt");
@@ -474,7 +474,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ListRoverNodes.cs.html">here</a> to see an example of how to use ListRoverNodes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ListRoverNodes.cs.html">here</a> to see an example of how to use ListRoverNodes API.</example>
         public async Task<ListRoverNodesResponse> ListRoverNodes(ListRoverNodesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRoverNodes");
@@ -530,7 +530,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RoverNodeActionRetrieveCaBundle.cs.html">here</a> to see an example of how to use RoverNodeActionRetrieveCaBundle API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RoverNodeActionRetrieveCaBundle.cs.html">here</a> to see an example of how to use RoverNodeActionRetrieveCaBundle API.</example>
         public async Task<RoverNodeActionRetrieveCaBundleResponse> RoverNodeActionRetrieveCaBundle(RoverNodeActionRetrieveCaBundleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called roverNodeActionRetrieveCaBundle");
@@ -586,7 +586,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RoverNodeActionSetKey.cs.html">here</a> to see an example of how to use RoverNodeActionSetKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RoverNodeActionSetKey.cs.html">here</a> to see an example of how to use RoverNodeActionSetKey API.</example>
         public async Task<RoverNodeActionSetKeyResponse> RoverNodeActionSetKey(RoverNodeActionSetKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called roverNodeActionSetKey");
@@ -643,7 +643,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RoverNodeGenerateCertificate.cs.html">here</a> to see an example of how to use RoverNodeGenerateCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RoverNodeGenerateCertificate.cs.html">here</a> to see an example of how to use RoverNodeGenerateCertificate API.</example>
         public async Task<RoverNodeGenerateCertificateResponse> RoverNodeGenerateCertificate(RoverNodeGenerateCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called roverNodeGenerateCertificate");
@@ -700,7 +700,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RoverNodeRenewCertificate.cs.html">here</a> to see an example of how to use RoverNodeRenewCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RoverNodeRenewCertificate.cs.html">here</a> to see an example of how to use RoverNodeRenewCertificate API.</example>
         public async Task<RoverNodeRenewCertificateResponse> RoverNodeRenewCertificate(RoverNodeRenewCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called roverNodeRenewCertificate");
@@ -757,7 +757,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RoverNodeReplaceCertificateAuthority.cs.html">here</a> to see an example of how to use RoverNodeReplaceCertificateAuthority API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RoverNodeReplaceCertificateAuthority.cs.html">here</a> to see an example of how to use RoverNodeReplaceCertificateAuthority API.</example>
         public async Task<RoverNodeReplaceCertificateAuthorityResponse> RoverNodeReplaceCertificateAuthority(RoverNodeReplaceCertificateAuthorityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called roverNodeReplaceCertificateAuthority");
@@ -813,7 +813,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RoverNodeRetrieveLeafCertificate.cs.html">here</a> to see an example of how to use RoverNodeRetrieveLeafCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RoverNodeRetrieveLeafCertificate.cs.html">here</a> to see an example of how to use RoverNodeRetrieveLeafCertificate API.</example>
         public async Task<RoverNodeRetrieveLeafCertificateResponse> RoverNodeRetrieveLeafCertificate(RoverNodeRetrieveLeafCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called roverNodeRetrieveLeafCertificate");
@@ -869,7 +869,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/UpdateRoverNode.cs.html">here</a> to see an example of how to use UpdateRoverNode API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/UpdateRoverNode.cs.html">here</a> to see an example of how to use UpdateRoverNode API.</example>
         public async Task<UpdateRoverNodeResponse> UpdateRoverNode(UpdateRoverNodeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRoverNode");

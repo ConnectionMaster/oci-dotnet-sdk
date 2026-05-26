@@ -14,13 +14,13 @@ using Oci.ArtifactsService.Models;
 namespace Oci.ArtifactsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/artifacts/GetRepository.cs.html">here</a> to see an example of how to use GetRepository request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/artifacts/GetRepository.cs.html">here</a> to see an example of how to use GetRepository request.
     /// </example>
     public class GetRepositoryRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the repository.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the repository.
         /// <br/>
         /// Example: ocid1.artifactrepository.oc1..exampleuniqueID
         /// </value>

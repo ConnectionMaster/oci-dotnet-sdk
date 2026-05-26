@@ -19,7 +19,7 @@ namespace Oci.CoreService.Models
     /// Specifies the volume that the volume backup policy is assigned to.
     /// <br/>
     /// For more information about Oracle defined backup policies and custom backup policies,
-    /// see [Policy-Based Backups](https://docs.cloud.oracle.com/iaas/Content/Block/Tasks/schedulingvolumebackups.htm).
+    /// see [Policy-Based Backups](https://docs.oracle.com/iaas/Content/Block/Tasks/schedulingvolumebackups.htm).
     /// 
     /// </summary>
     public class VolumeBackupPolicyAssignment 
@@ -71,8 +71,8 @@ namespace Oci.CoreService.Models
         /// <value>
         /// The OCID of the Vault service key which is the master encryption key for the block / boot volume cross region backups, which will be used in the destination region to encrypt the backup's encryption keys.
         /// For more information about the Vault service and encryption keys, see
-        /// [Overview of Vault service](https://docs.cloud.oracle.com/iaas/Content/KeyManagement/Concepts/keyoverview.htm) and
-        /// [Using Keys](https://docs.cloud.oracle.com/iaas/Content/KeyManagement/Tasks/usingkeys.htm).
+        /// [Overview of Vault service](https://docs.oracle.com/iaas/Content/KeyManagement/Concepts/keyoverview.htm) and
+        /// [Using Keys](https://docs.oracle.com/iaas/Content/KeyManagement/Tasks/usingkeys.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "xrcKmsKeyId")]

@@ -24,7 +24,7 @@ namespace Oci.SchService.Models
     /// the request. WorkRequest objects provide visibility for
     /// in-progress work flows. For more information about work
     /// requests, see
-    /// [Viewing the State of a Work Request](https://docs.cloud.oracle.com/iaas/Content/connector-hub/workrequests.htm).
+    /// [Viewing the State of a Work Request](https://docs.oracle.com/iaas/Content/connector-hub/workrequests.htm).
     /// 
     /// </summary>
     public class WorkRequest 
@@ -55,7 +55,7 @@ namespace Oci.SchService.Models
         public System.Nullable<OperationStatus> Status { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the work request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the work request.
         /// 
         /// </value>
         /// <remarks>
@@ -66,7 +66,7 @@ namespace Oci.SchService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment
         /// containing the work request.
         /// 
         /// </value>

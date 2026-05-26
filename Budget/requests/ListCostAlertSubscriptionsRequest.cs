@@ -14,7 +14,7 @@ using Oci.BudgetService.Models;
 namespace Oci.BudgetService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/budget/ListCostAlertSubscriptions.cs.html">here</a> to see an example of how to use ListCostAlertSubscriptions request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/budget/ListCostAlertSubscriptions.cs.html">here</a> to see an example of how to use ListCostAlertSubscriptions request.
     /// </example>
     public class ListCostAlertSubscriptionsRequest : Oci.Common.IOciRequest
     {

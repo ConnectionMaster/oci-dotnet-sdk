@@ -14,7 +14,7 @@ using Oci.AilanguageService.Models;
 namespace Oci.AilanguageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DetectLanguageTextClassification.cs.html">here</a> to see an example of how to use DetectLanguageTextClassification request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DetectLanguageTextClassification.cs.html">here</a> to see an example of how to use DetectLanguageTextClassification request.
     /// </example>
     public class DetectLanguageTextClassificationRequest : Oci.Common.IOciRequest
     {

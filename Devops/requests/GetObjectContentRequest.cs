@@ -14,7 +14,7 @@ using Oci.DevopsService.Models;
 namespace Oci.DevopsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetObjectContent.cs.html">here</a> to see an example of how to use GetObjectContent request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/GetObjectContent.cs.html">here</a> to see an example of how to use GetObjectContent request.
     /// </example>
     public class GetObjectContentRequest : Oci.Common.IOciRequest
     {

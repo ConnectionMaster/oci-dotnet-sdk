@@ -53,7 +53,7 @@ namespace Oci.PsqlService.Models
         public string StateDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the backup in the source region
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the backup in the source region
         /// </value>
         [JsonProperty(PropertyName = "backupId")]
         public string BackupId { get; set; }

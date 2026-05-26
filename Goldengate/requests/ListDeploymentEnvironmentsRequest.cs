@@ -14,7 +14,7 @@ using Oci.GoldengateService.Models;
 namespace Oci.GoldengateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeploymentEnvironments.cs.html">here</a> to see an example of how to use ListDeploymentEnvironments request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ListDeploymentEnvironments.cs.html">here</a> to see an example of how to use ListDeploymentEnvironments request.
     /// </example>
     public class ListDeploymentEnvironmentsRequest : Oci.Common.IOciRequest
     {

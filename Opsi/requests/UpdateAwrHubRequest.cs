@@ -14,7 +14,7 @@ using Oci.OpsiService.Models;
 namespace Oci.OpsiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateAwrHub.cs.html">here</a> to see an example of how to use UpdateAwrHub request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateAwrHub.cs.html">here</a> to see an example of how to use UpdateAwrHub request.
     /// </example>
     public class UpdateAwrHubRequest : Oci.Common.IOciRequest
     {

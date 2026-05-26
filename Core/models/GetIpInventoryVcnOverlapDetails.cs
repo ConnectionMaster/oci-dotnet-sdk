@@ -32,7 +32,7 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.List<string> RegionList { get; set; }
         
         /// <value>
-        /// The list of [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartments.
+        /// The list of [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartments.
         /// </value>
         /// <remarks>
         /// Required

@@ -14,7 +14,7 @@ using Oci.DistributeddatabaseService.Models;
 namespace Oci.DistributeddatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/UploadDistributedAutonomousDatabaseSignedCertificateAndGenerateWallet.cs.html">here</a> to see an example of how to use UploadDistributedAutonomousDatabaseSignedCertificateAndGenerateWallet request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/UploadDistributedAutonomousDatabaseSignedCertificateAndGenerateWallet.cs.html">here</a> to see an example of how to use UploadDistributedAutonomousDatabaseSignedCertificateAndGenerateWallet request.
     /// </example>
     public class UploadDistributedAutonomousDatabaseSignedCertificateAndGenerateWalletRequest : Oci.Common.IOciRequest
     {

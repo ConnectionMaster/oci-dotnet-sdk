@@ -106,7 +106,7 @@ namespace Oci.GoldengateService.Models
         public string PrivateIp { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the Kafka Schema Registry password is stored, 
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the Kafka Schema Registry password is stored, 
         /// The password to access Schema Registry using basic authentication.
         /// This value is injected into 'schema.registry.basic.auth.user.info=user:password' configuration property.
         /// Note: When provided, 'password' field must not be provided.
@@ -116,7 +116,7 @@ namespace Oci.GoldengateService.Models
         public string PasswordSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret that stores the content of the TrustStore file.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret that stores the content of the TrustStore file.
         /// Note: When provided, 'trustStore' field must not be provided.
         /// 
         /// </value>
@@ -124,7 +124,7 @@ namespace Oci.GoldengateService.Models
         public string TrustStoreSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the kafka Ssl TrustStore password is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the kafka Ssl TrustStore password is stored.
         /// Note: When provided, 'trustStorePassword' field must not be provided.
         /// 
         /// </value>
@@ -132,7 +132,7 @@ namespace Oci.GoldengateService.Models
         public string TrustStorePasswordSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret that stores the content of the KeyStore file.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret that stores the content of the KeyStore file.
         /// Note: When provided, 'keyStore' field must not be provided.
         /// 
         /// </value>
@@ -140,7 +140,7 @@ namespace Oci.GoldengateService.Models
         public string KeyStoreSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the kafka Ssl KeyStore password is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the kafka Ssl KeyStore password is stored.
         /// Note: When provided, 'keyStorePassword' field must not be provided.
         /// 
         /// </value>
@@ -148,7 +148,7 @@ namespace Oci.GoldengateService.Models
         public string KeyStorePasswordSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret that stores the password for the cert inside the KeyStore.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret that stores the password for the cert inside the KeyStore.
         /// In case it differs from the KeyStore password, it should be provided.
         /// Note: When provided, 'sslKeyPassword' field must not be provided.
         /// 

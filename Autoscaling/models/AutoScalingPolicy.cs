@@ -19,7 +19,7 @@ namespace Oci.AutoscalingService.Models
     /// Autoscaling policies define the criteria that trigger autoscaling actions and the actions to take.
     /// <br/>
     /// An autoscaling policy is part of an autoscaling configuration. For more information, see
-    /// [Autoscaling](https://docs.cloud.oracle.com/iaas/Content/Compute/Tasks/autoscalinginstancepools.htm).
+    /// [Autoscaling](https://docs.oracle.com/iaas/Content/Compute/Tasks/autoscalinginstancepools.htm).
     /// <br/>
     /// You can create the following types of autoscaling policies:
     ///   

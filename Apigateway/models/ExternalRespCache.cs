@@ -34,7 +34,7 @@ namespace Oci.ApigatewayService.Models
         public System.Collections.Generic.List<ResponseCacheRespServer> Servers { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Oracle Vault Service secret resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Oracle Vault Service secret resource.
         /// 
         /// </value>
         /// <remarks>

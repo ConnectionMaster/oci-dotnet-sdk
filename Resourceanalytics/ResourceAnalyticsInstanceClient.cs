@@ -80,7 +80,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
         public async Task<CancelWorkRequestResponse> CancelWorkRequest(CancelWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelWorkRequest");
@@ -130,7 +130,7 @@ namespace Oci.ResourceanalyticsService
 
         /// <summary>
         /// Moves a ResourceAnalyticsInstance into a different compartment within the same tenancy. For information about moving resources between
-        /// compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -138,7 +138,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ChangeResourceAnalyticsInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeResourceAnalyticsInstanceCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ChangeResourceAnalyticsInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeResourceAnalyticsInstanceCompartment API.</example>
         public async Task<ChangeResourceAnalyticsInstanceCompartmentResponse> ChangeResourceAnalyticsInstanceCompartment(ChangeResourceAnalyticsInstanceCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeResourceAnalyticsInstanceCompartment");
@@ -195,7 +195,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/CreateResourceAnalyticsInstance.cs.html">here</a> to see an example of how to use CreateResourceAnalyticsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/CreateResourceAnalyticsInstance.cs.html">here</a> to see an example of how to use CreateResourceAnalyticsInstance API.</example>
         public async Task<CreateResourceAnalyticsInstanceResponse> CreateResourceAnalyticsInstance(CreateResourceAnalyticsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createResourceAnalyticsInstance");
@@ -251,7 +251,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/DeleteResourceAnalyticsInstance.cs.html">here</a> to see an example of how to use DeleteResourceAnalyticsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/DeleteResourceAnalyticsInstance.cs.html">here</a> to see an example of how to use DeleteResourceAnalyticsInstance API.</example>
         public async Task<DeleteResourceAnalyticsInstanceResponse> DeleteResourceAnalyticsInstance(DeleteResourceAnalyticsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteResourceAnalyticsInstance");
@@ -307,7 +307,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/GetResourceAnalyticsInstance.cs.html">here</a> to see an example of how to use GetResourceAnalyticsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/GetResourceAnalyticsInstance.cs.html">here</a> to see an example of how to use GetResourceAnalyticsInstance API.</example>
         public async Task<GetResourceAnalyticsInstanceResponse> GetResourceAnalyticsInstance(GetResourceAnalyticsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getResourceAnalyticsInstance");
@@ -363,7 +363,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -420,7 +420,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ListResourceAnalyticsInstances.cs.html">here</a> to see an example of how to use ListResourceAnalyticsInstances API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ListResourceAnalyticsInstances.cs.html">here</a> to see an example of how to use ListResourceAnalyticsInstances API.</example>
         public async Task<ListResourceAnalyticsInstancesResponse> ListResourceAnalyticsInstances(ListResourceAnalyticsInstancesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listResourceAnalyticsInstances");
@@ -477,7 +477,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -534,7 +534,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -591,7 +591,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -648,7 +648,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ResourceAnalyticsInstanceDisableOac.cs.html">here</a> to see an example of how to use ResourceAnalyticsInstanceDisableOac API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ResourceAnalyticsInstanceDisableOac.cs.html">here</a> to see an example of how to use ResourceAnalyticsInstanceDisableOac API.</example>
         public async Task<ResourceAnalyticsInstanceDisableOacResponse> ResourceAnalyticsInstanceDisableOac(ResourceAnalyticsInstanceDisableOacRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called resourceAnalyticsInstanceDisableOac");
@@ -705,7 +705,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ResourceAnalyticsInstanceEnableOac.cs.html">here</a> to see an example of how to use ResourceAnalyticsInstanceEnableOac API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ResourceAnalyticsInstanceEnableOac.cs.html">here</a> to see an example of how to use ResourceAnalyticsInstanceEnableOac API.</example>
         public async Task<ResourceAnalyticsInstanceEnableOacResponse> ResourceAnalyticsInstanceEnableOac(ResourceAnalyticsInstanceEnableOacRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called resourceAnalyticsInstanceEnableOac");
@@ -761,7 +761,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/UpdateResourceAnalyticsInstance.cs.html">here</a> to see an example of how to use UpdateResourceAnalyticsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/UpdateResourceAnalyticsInstance.cs.html">here</a> to see an example of how to use UpdateResourceAnalyticsInstance API.</example>
         public async Task<UpdateResourceAnalyticsInstanceResponse> UpdateResourceAnalyticsInstance(UpdateResourceAnalyticsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateResourceAnalyticsInstance");

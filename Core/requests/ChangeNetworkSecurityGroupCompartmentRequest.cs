@@ -14,13 +14,13 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeNetworkSecurityGroupCompartment.cs.html">here</a> to see an example of how to use ChangeNetworkSecurityGroupCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeNetworkSecurityGroupCompartment.cs.html">here</a> to see an example of how to use ChangeNetworkSecurityGroupCompartment request.
     /// </example>
     public class ChangeNetworkSecurityGroupCompartmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the network security group.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the network security group.
         /// </value>
         /// <remarks>
         /// Required

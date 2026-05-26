@@ -18,7 +18,7 @@ namespace Oci.ObjectstorageService.Models
     /// <summary>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you are not authorized,
     /// talk to an administrator. If you are an administrator who needs to write policies to give users access, see
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/Content/Identity/Concepts/policygetstarted.htm).
+    /// [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// 
     /// </summary>
     public class CreateBucketDetails 
@@ -111,7 +111,7 @@ namespace Oci.ObjectstorageService.Models
         /// <value>
         /// Whether or not events are emitted for object state changes in this bucket. By default, `objectEventsEnabled` is
         /// set to `false`. Set `objectEventsEnabled` to `true` to emit events for object state changes. For more information
-        /// about events, see [Overview of Events](https://docs.cloud.oracle.com/Content/Events/Concepts/eventsoverview.htm).
+        /// about events, see [Overview of Events](https://docs.oracle.com/iaas/Content/Events/Concepts/eventsoverview.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "objectEventsEnabled")]
@@ -119,7 +119,7 @@ namespace Oci.ObjectstorageService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
         [JsonProperty(PropertyName = "freeformTags")]
@@ -127,14 +127,14 @@ namespace Oci.ObjectstorageService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of a master encryption key used to call the Key
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a master encryption key used to call the Key
         /// Management service to generate a data encryption key or to encrypt or decrypt a data encryption key.
         /// 
         /// </value>

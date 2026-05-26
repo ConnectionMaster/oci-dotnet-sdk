@@ -45,7 +45,7 @@ namespace Oci.FilestorageService.Models
         public string BindDistinguishedName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the password for the LDAP bind account in the Vault.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the password for the LDAP bind account in the Vault.
         /// </value>
         [JsonProperty(PropertyName = "passwordSecretId")]
         public string PasswordSecretId { get; set; }
@@ -57,7 +57,7 @@ namespace Oci.FilestorageService.Models
         public System.Nullable<int> PasswordSecretVersion { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the trusted certificate for the LDAP server in the Vault.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the trusted certificate for the LDAP server in the Vault.
         /// </value>
         [JsonProperty(PropertyName = "trustedCertificateSecretId")]
         public string TrustedCertificateSecretId { get; set; }

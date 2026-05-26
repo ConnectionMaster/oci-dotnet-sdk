@@ -14,13 +14,13 @@ using Oci.LimitsincreaseService.Models;
 namespace Oci.LimitsincreaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/DeleteLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use DeleteLimitsIncreaseRequest request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/DeleteLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use DeleteLimitsIncreaseRequest request.
     /// </example>
     public class DeleteLimitsIncreaseRequestRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the limit increase request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the limit increase request.
         /// </value>
         /// <remarks>
         /// Required

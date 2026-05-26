@@ -22,7 +22,7 @@ namespace Oci.EmailService.Models
     {
         
         /// <value>
-        /// The root compartment [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) (same as the tenancy OCID)
+        /// The root compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) (same as the tenancy OCID)
         /// </value>
         /// <remarks>
         /// Required

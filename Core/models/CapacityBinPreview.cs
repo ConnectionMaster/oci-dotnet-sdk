@@ -56,6 +56,13 @@ namespace Oci.CoreService.Models
         public System.Nullable<float> TotalMemoryInGBs { get; set; }
         
         /// <value>
+        /// The total local volume of the capacity bucket, in GBs.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "totalLocalVolumeInGBs")]
+        public System.Nullable<float> TotalLocalVolumeInGBs { get; set; }
+        
+        /// <value>
         /// List of VMI shapes supported on each capacity bucket.
         /// 
         /// </value>

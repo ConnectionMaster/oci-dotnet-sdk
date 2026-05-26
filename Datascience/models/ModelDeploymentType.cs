@@ -22,6 +22,8 @@ namespace Oci.DatascienceService.Models
       [EnumMember(Value = "SINGLE_MODEL")]
       SingleModel,
       [EnumMember(Value = "MODEL_GROUP")]
-      ModelGroup
+      ModelGroup,
+      [EnumMember(Value = "SINGLE_MODEL_FLEX")]
+      SingleModelFlex
   }
 }

@@ -14,13 +14,13 @@ using Oci.OpsiService.Models;
 namespace Oci.OpsiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeOpsiConfigurationCompartment.cs.html">here</a> to see an example of how to use ChangeOpsiConfigurationCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeOpsiConfigurationCompartment.cs.html">here</a> to see an example of how to use ChangeOpsiConfigurationCompartment request.
     /// </example>
     public class ChangeOpsiConfigurationCompartmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of OPSI configuration resource.
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of OPSI configuration resource.
         /// 
         /// </value>
         /// <remarks>

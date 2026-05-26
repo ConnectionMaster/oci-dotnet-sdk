@@ -18,7 +18,7 @@ namespace Oci.LoadbalancerService.Models
     /// <summary>
     /// The configuration details for adding a certificate bundle to a listener.
     /// For more information on SSL certficate configuration, see
-    /// [Managing SSL Certificates](https://docs.cloud.oracle.com/Content/Balance/Tasks/managingcertificates.htm).
+    /// [Managing SSL Certificates](https://docs.oracle.com/iaas/Content/Balance/Tasks/managingcertificates.htm).
     /// <br/>
     /// **Warning:** Oracle recommends that you avoid using any confidential information when you supply string values using the API.
     /// 

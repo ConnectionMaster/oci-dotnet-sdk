@@ -14,7 +14,7 @@ using Oci.BdsService.Models;
 namespace Oci.BdsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ExecuteBootstrapScript.cs.html">here</a> to see an example of how to use ExecuteBootstrapScript request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ExecuteBootstrapScript.cs.html">here</a> to see an example of how to use ExecuteBootstrapScript request.
     /// </example>
     public class ExecuteBootstrapScriptRequest : Oci.Common.IOciRequest
     {

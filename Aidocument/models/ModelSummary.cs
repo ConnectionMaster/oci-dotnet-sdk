@@ -81,7 +81,7 @@ namespace Oci.AidocumentService.Models
         public string ModelVersion { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the project that contains the model.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the project that contains the model.
         /// </value>
         /// <remarks>
         /// Required
@@ -151,7 +151,7 @@ namespace Oci.AidocumentService.Models
         public Dataset ValidationDataset { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) list of active custom Key Value models that need to be composed.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) list of active custom Key Value models that need to be composed.
         /// </value>
         [JsonProperty(PropertyName = "componentModels")]
         public System.Collections.Generic.List<ComponentModel> ComponentModels { get; set; }

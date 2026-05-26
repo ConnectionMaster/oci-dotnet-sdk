@@ -14,7 +14,7 @@ using Oci.GoldengateService.Models;
 namespace Oci.GoldengateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CreateDatabaseRegistration.cs.html">here</a> to see an example of how to use CreateDatabaseRegistration request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/CreateDatabaseRegistration.cs.html">here</a> to see an example of how to use CreateDatabaseRegistration request.
     /// </example>
     public class CreateDatabaseRegistrationRequest : Oci.Common.IOciRequest
     {

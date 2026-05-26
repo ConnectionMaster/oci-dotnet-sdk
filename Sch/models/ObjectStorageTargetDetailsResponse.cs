@@ -18,7 +18,7 @@ namespace Oci.SchService.Models
     /// <summary>
     /// The destination bucket for data transferred from the source.
     /// For configuration instructions, see
-    /// [Creating a Connector](https://docs.cloud.oracle.com/iaas/Content/connector-hub/create-service-connector.htm).
+    /// [Creating a Connector](https://docs.oracle.com/iaas/Content/connector-hub/create-service-connector.htm).
     /// 
     /// </summary>
     public class ObjectStorageTargetDetailsResponse : TargetDetailsResponse

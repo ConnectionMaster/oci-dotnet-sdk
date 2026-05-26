@@ -14,7 +14,7 @@ using Oci.GenerativeaiService.Models;
 namespace Oci.GenerativeaiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateVectorStoreConnector.cs.html">here</a> to see an example of how to use CreateVectorStoreConnector request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateVectorStoreConnector.cs.html">here</a> to see an example of how to use CreateVectorStoreConnector request.
     /// </example>
     public class CreateVectorStoreConnectorRequest : Oci.Common.IOciRequest
     {

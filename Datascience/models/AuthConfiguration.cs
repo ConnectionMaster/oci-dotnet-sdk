@@ -27,12 +27,8 @@ namespace Oci.DatascienceService.Models
         /// </value>
         ///
         public enum TypeEnum {
-            [EnumMember(Value = "IDCS")]
-            Idcs,
             [EnumMember(Value = "IAM")]
-            Iam,
-            [EnumMember(Value = "IDCS_CUSTOM_SERVICE")]
-            IdcsCustomService
+            Iam
         };
 
         
@@ -59,12 +55,6 @@ namespace Oci.DatascienceService.Models
             var discriminator = jsonObject["type"].Value<string>();
             switch (discriminator)
             {
-                case "IDCS":
-                    obj = new IdcsAuthConfiguration();
-                    break;
-                case "IDCS_CUSTOM_SERVICE":
-                    obj = new IdcsCustomServiceAuthConfiguration();
-                    break;
                 case "IAM":
                     obj = new IamAuthConfiguration();
                     break;

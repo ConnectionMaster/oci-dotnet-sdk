@@ -82,7 +82,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ChangeNetworkAddressListCompartment.cs.html">here</a> to see an example of how to use ChangeNetworkAddressListCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ChangeNetworkAddressListCompartment.cs.html">here</a> to see an example of how to use ChangeNetworkAddressListCompartment API.</example>
         public async Task<ChangeNetworkAddressListCompartmentResponse> ChangeNetworkAddressListCompartment(ChangeNetworkAddressListCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeNetworkAddressListCompartment");
@@ -140,7 +140,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ChangeWebAppFirewallCompartment.cs.html">here</a> to see an example of how to use ChangeWebAppFirewallCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ChangeWebAppFirewallCompartment.cs.html">here</a> to see an example of how to use ChangeWebAppFirewallCompartment API.</example>
         public async Task<ChangeWebAppFirewallCompartmentResponse> ChangeWebAppFirewallCompartment(ChangeWebAppFirewallCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeWebAppFirewallCompartment");
@@ -198,7 +198,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ChangeWebAppFirewallPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeWebAppFirewallPolicyCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ChangeWebAppFirewallPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeWebAppFirewallPolicyCompartment API.</example>
         public async Task<ChangeWebAppFirewallPolicyCompartmentResponse> ChangeWebAppFirewallPolicyCompartment(ChangeWebAppFirewallPolicyCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeWebAppFirewallPolicyCompartment");
@@ -255,7 +255,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/CreateNetworkAddressList.cs.html">here</a> to see an example of how to use CreateNetworkAddressList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/CreateNetworkAddressList.cs.html">here</a> to see an example of how to use CreateNetworkAddressList API.</example>
         public async Task<CreateNetworkAddressListResponse> CreateNetworkAddressList(CreateNetworkAddressListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createNetworkAddressList");
@@ -312,7 +312,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/CreateWebAppFirewall.cs.html">here</a> to see an example of how to use CreateWebAppFirewall API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/CreateWebAppFirewall.cs.html">here</a> to see an example of how to use CreateWebAppFirewall API.</example>
         public async Task<CreateWebAppFirewallResponse> CreateWebAppFirewall(CreateWebAppFirewallRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createWebAppFirewall");
@@ -369,7 +369,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/CreateWebAppFirewallPolicy.cs.html">here</a> to see an example of how to use CreateWebAppFirewallPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/CreateWebAppFirewallPolicy.cs.html">here</a> to see an example of how to use CreateWebAppFirewallPolicy API.</example>
         public async Task<CreateWebAppFirewallPolicyResponse> CreateWebAppFirewallPolicy(CreateWebAppFirewallPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createWebAppFirewallPolicy");
@@ -425,7 +425,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/DeleteNetworkAddressList.cs.html">here</a> to see an example of how to use DeleteNetworkAddressList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/DeleteNetworkAddressList.cs.html">here</a> to see an example of how to use DeleteNetworkAddressList API.</example>
         public async Task<DeleteNetworkAddressListResponse> DeleteNetworkAddressList(DeleteNetworkAddressListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteNetworkAddressList");
@@ -481,7 +481,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/DeleteWebAppFirewall.cs.html">here</a> to see an example of how to use DeleteWebAppFirewall API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/DeleteWebAppFirewall.cs.html">here</a> to see an example of how to use DeleteWebAppFirewall API.</example>
         public async Task<DeleteWebAppFirewallResponse> DeleteWebAppFirewall(DeleteWebAppFirewallRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteWebAppFirewall");
@@ -537,7 +537,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/DeleteWebAppFirewallPolicy.cs.html">here</a> to see an example of how to use DeleteWebAppFirewallPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/DeleteWebAppFirewallPolicy.cs.html">here</a> to see an example of how to use DeleteWebAppFirewallPolicy API.</example>
         public async Task<DeleteWebAppFirewallPolicyResponse> DeleteWebAppFirewallPolicy(DeleteWebAppFirewallPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteWebAppFirewallPolicy");
@@ -593,7 +593,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/GetNetworkAddressList.cs.html">here</a> to see an example of how to use GetNetworkAddressList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/GetNetworkAddressList.cs.html">here</a> to see an example of how to use GetNetworkAddressList API.</example>
         public async Task<GetNetworkAddressListResponse> GetNetworkAddressList(GetNetworkAddressListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNetworkAddressList");
@@ -649,7 +649,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/GetWebAppFirewall.cs.html">here</a> to see an example of how to use GetWebAppFirewall API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/GetWebAppFirewall.cs.html">here</a> to see an example of how to use GetWebAppFirewall API.</example>
         public async Task<GetWebAppFirewallResponse> GetWebAppFirewall(GetWebAppFirewallRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWebAppFirewall");
@@ -705,7 +705,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/GetWebAppFirewallPolicy.cs.html">here</a> to see an example of how to use GetWebAppFirewallPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/GetWebAppFirewallPolicy.cs.html">here</a> to see an example of how to use GetWebAppFirewallPolicy API.</example>
         public async Task<GetWebAppFirewallPolicyResponse> GetWebAppFirewallPolicy(GetWebAppFirewallPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWebAppFirewallPolicy");
@@ -761,7 +761,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -818,7 +818,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListNetworkAddressLists.cs.html">here</a> to see an example of how to use ListNetworkAddressLists API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListNetworkAddressLists.cs.html">here</a> to see an example of how to use ListNetworkAddressLists API.</example>
         public async Task<ListNetworkAddressListsResponse> ListNetworkAddressLists(ListNetworkAddressListsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNetworkAddressLists");
@@ -875,7 +875,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListProtectionCapabilities.cs.html">here</a> to see an example of how to use ListProtectionCapabilities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListProtectionCapabilities.cs.html">here</a> to see an example of how to use ListProtectionCapabilities API.</example>
         public async Task<ListProtectionCapabilitiesResponse> ListProtectionCapabilities(ListProtectionCapabilitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProtectionCapabilities");
@@ -932,7 +932,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListProtectionCapabilityGroupTags.cs.html">here</a> to see an example of how to use ListProtectionCapabilityGroupTags API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListProtectionCapabilityGroupTags.cs.html">here</a> to see an example of how to use ListProtectionCapabilityGroupTags API.</example>
         public async Task<ListProtectionCapabilityGroupTagsResponse> ListProtectionCapabilityGroupTags(ListProtectionCapabilityGroupTagsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProtectionCapabilityGroupTags");
@@ -989,7 +989,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListWebAppFirewallPolicies.cs.html">here</a> to see an example of how to use ListWebAppFirewallPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListWebAppFirewallPolicies.cs.html">here</a> to see an example of how to use ListWebAppFirewallPolicies API.</example>
         public async Task<ListWebAppFirewallPoliciesResponse> ListWebAppFirewallPolicies(ListWebAppFirewallPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWebAppFirewallPolicies");
@@ -1046,7 +1046,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListWebAppFirewalls.cs.html">here</a> to see an example of how to use ListWebAppFirewalls API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListWebAppFirewalls.cs.html">here</a> to see an example of how to use ListWebAppFirewalls API.</example>
         public async Task<ListWebAppFirewallsResponse> ListWebAppFirewalls(ListWebAppFirewallsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWebAppFirewalls");
@@ -1103,7 +1103,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -1160,7 +1160,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -1217,7 +1217,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1273,7 +1273,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/UpdateNetworkAddressList.cs.html">here</a> to see an example of how to use UpdateNetworkAddressList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/UpdateNetworkAddressList.cs.html">here</a> to see an example of how to use UpdateNetworkAddressList API.</example>
         public async Task<UpdateNetworkAddressListResponse> UpdateNetworkAddressList(UpdateNetworkAddressListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNetworkAddressList");
@@ -1329,7 +1329,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/UpdateWebAppFirewall.cs.html">here</a> to see an example of how to use UpdateWebAppFirewall API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/UpdateWebAppFirewall.cs.html">here</a> to see an example of how to use UpdateWebAppFirewall API.</example>
         public async Task<UpdateWebAppFirewallResponse> UpdateWebAppFirewall(UpdateWebAppFirewallRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateWebAppFirewall");
@@ -1385,7 +1385,7 @@ namespace Oci.WafService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/UpdateWebAppFirewallPolicy.cs.html">here</a> to see an example of how to use UpdateWebAppFirewallPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/UpdateWebAppFirewallPolicy.cs.html">here</a> to see an example of how to use UpdateWebAppFirewallPolicy API.</example>
         public async Task<UpdateWebAppFirewallPolicyResponse> UpdateWebAppFirewallPolicy(UpdateWebAppFirewallPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateWebAppFirewallPolicy");

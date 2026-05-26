@@ -14,7 +14,7 @@ using Oci.GoldengateService.Models;
 namespace Oci.GoldengateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeploymentWalletExists.cs.html">here</a> to see an example of how to use DeploymentWalletExists request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/DeploymentWalletExists.cs.html">here</a> to see an example of how to use DeploymentWalletExists request.
     /// </example>
     public class DeploymentWalletExistsRequest : Oci.Common.IOciRequest
     {

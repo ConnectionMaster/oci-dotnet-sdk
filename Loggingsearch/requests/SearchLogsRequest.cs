@@ -14,7 +14,7 @@ using Oci.LoggingsearchService.Models;
 namespace Oci.LoggingsearchService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loggingsearch/SearchLogs.cs.html">here</a> to see an example of how to use SearchLogs request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loggingsearch/SearchLogs.cs.html">here</a> to see an example of how to use SearchLogs request.
     /// </example>
     public class SearchLogsRequest : Oci.Common.IOciRequest
     {
@@ -48,7 +48,7 @@ namespace Oci.LoggingsearchService.Requests
         /// <value>
         /// For list pagination. The value of the opc-next-page response header from the previous \"Search\" call. 
         /// The input value can be null but an empty string will return an error. 
-        /// For important details about how pagination works, see [List Pagination](https://docs.cloud.oracle.com/Content/API/Concepts/usingapi.htm#nine).
+        /// For important details about how pagination works, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]

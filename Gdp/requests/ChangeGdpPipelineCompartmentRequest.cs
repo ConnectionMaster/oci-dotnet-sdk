@@ -14,7 +14,7 @@ using Oci.GdpService.Models;
 namespace Oci.GdpService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/ChangeGdpPipelineCompartment.cs.html">here</a> to see an example of how to use ChangeGdpPipelineCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/ChangeGdpPipelineCompartment.cs.html">here</a> to see an example of how to use ChangeGdpPipelineCompartment request.
     /// </example>
     public class ChangeGdpPipelineCompartmentRequest : Oci.Common.IOciRequest
     {

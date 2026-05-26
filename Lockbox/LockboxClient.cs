@@ -80,7 +80,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
         public async Task<CancelWorkRequestResponse> CancelWorkRequest(CancelWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelWorkRequest");
@@ -136,7 +136,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ChangeApprovalTemplateCompartment.cs.html">here</a> to see an example of how to use ChangeApprovalTemplateCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ChangeApprovalTemplateCompartment.cs.html">here</a> to see an example of how to use ChangeApprovalTemplateCompartment API.</example>
         public async Task<ChangeApprovalTemplateCompartmentResponse> ChangeApprovalTemplateCompartment(ChangeApprovalTemplateCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeApprovalTemplateCompartment");
@@ -192,7 +192,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ChangeLockboxCompartment.cs.html">here</a> to see an example of how to use ChangeLockboxCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ChangeLockboxCompartment.cs.html">here</a> to see an example of how to use ChangeLockboxCompartment API.</example>
         public async Task<ChangeLockboxCompartmentResponse> ChangeLockboxCompartment(ChangeLockboxCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeLockboxCompartment");
@@ -249,7 +249,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/CreateAccessRequest.cs.html">here</a> to see an example of how to use CreateAccessRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/CreateAccessRequest.cs.html">here</a> to see an example of how to use CreateAccessRequest API.</example>
         public async Task<CreateAccessRequestResponse> CreateAccessRequest(CreateAccessRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAccessRequest");
@@ -306,7 +306,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/CreateApprovalTemplate.cs.html">here</a> to see an example of how to use CreateApprovalTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/CreateApprovalTemplate.cs.html">here</a> to see an example of how to use CreateApprovalTemplate API.</example>
         public async Task<CreateApprovalTemplateResponse> CreateApprovalTemplate(CreateApprovalTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createApprovalTemplate");
@@ -363,7 +363,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/CreateLockbox.cs.html">here</a> to see an example of how to use CreateLockbox API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/CreateLockbox.cs.html">here</a> to see an example of how to use CreateLockbox API.</example>
         public async Task<CreateLockboxResponse> CreateLockbox(CreateLockboxRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createLockbox");
@@ -419,7 +419,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/DeleteApprovalTemplate.cs.html">here</a> to see an example of how to use DeleteApprovalTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/DeleteApprovalTemplate.cs.html">here</a> to see an example of how to use DeleteApprovalTemplate API.</example>
         public async Task<DeleteApprovalTemplateResponse> DeleteApprovalTemplate(DeleteApprovalTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteApprovalTemplate");
@@ -475,7 +475,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/DeleteLockbox.cs.html">here</a> to see an example of how to use DeleteLockbox API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/DeleteLockbox.cs.html">here</a> to see an example of how to use DeleteLockbox API.</example>
         public async Task<DeleteLockboxResponse> DeleteLockbox(DeleteLockboxRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteLockbox");
@@ -532,7 +532,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ExportAccessRequests.cs.html">here</a> to see an example of how to use ExportAccessRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ExportAccessRequests.cs.html">here</a> to see an example of how to use ExportAccessRequests API.</example>
         public async Task<ExportAccessRequestsResponse> ExportAccessRequests(ExportAccessRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called exportAccessRequests");
@@ -589,7 +589,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/GetAccessMaterials.cs.html">here</a> to see an example of how to use GetAccessMaterials API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/GetAccessMaterials.cs.html">here</a> to see an example of how to use GetAccessMaterials API.</example>
         public async Task<GetAccessMaterialsResponse> GetAccessMaterials(GetAccessMaterialsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAccessMaterials");
@@ -645,7 +645,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/GetAccessRequest.cs.html">here</a> to see an example of how to use GetAccessRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/GetAccessRequest.cs.html">here</a> to see an example of how to use GetAccessRequest API.</example>
         public async Task<GetAccessRequestResponse> GetAccessRequest(GetAccessRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAccessRequest");
@@ -701,7 +701,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/GetAccessRequestInternal.cs.html">here</a> to see an example of how to use GetAccessRequestInternal API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/GetAccessRequestInternal.cs.html">here</a> to see an example of how to use GetAccessRequestInternal API.</example>
         public async Task<GetAccessRequestInternalResponse> GetAccessRequestInternal(GetAccessRequestInternalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAccessRequestInternal");
@@ -757,7 +757,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/GetApprovalTemplate.cs.html">here</a> to see an example of how to use GetApprovalTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/GetApprovalTemplate.cs.html">here</a> to see an example of how to use GetApprovalTemplate API.</example>
         public async Task<GetApprovalTemplateResponse> GetApprovalTemplate(GetApprovalTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getApprovalTemplate");
@@ -813,7 +813,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/GetLockbox.cs.html">here</a> to see an example of how to use GetLockbox API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/GetLockbox.cs.html">here</a> to see an example of how to use GetLockbox API.</example>
         public async Task<GetLockboxResponse> GetLockbox(GetLockboxRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getLockbox");
@@ -869,7 +869,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -925,7 +925,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/HandleAccessRequest.cs.html">here</a> to see an example of how to use HandleAccessRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/HandleAccessRequest.cs.html">here</a> to see an example of how to use HandleAccessRequest API.</example>
         public async Task<HandleAccessRequestResponse> HandleAccessRequest(HandleAccessRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called handleAccessRequest");
@@ -982,7 +982,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ListAccessRequests.cs.html">here</a> to see an example of how to use ListAccessRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ListAccessRequests.cs.html">here</a> to see an example of how to use ListAccessRequests API.</example>
         public async Task<ListAccessRequestsResponse> ListAccessRequests(ListAccessRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAccessRequests");
@@ -1039,7 +1039,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ListApprovalTemplates.cs.html">here</a> to see an example of how to use ListApprovalTemplates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ListApprovalTemplates.cs.html">here</a> to see an example of how to use ListApprovalTemplates API.</example>
         public async Task<ListApprovalTemplatesResponse> ListApprovalTemplates(ListApprovalTemplatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listApprovalTemplates");
@@ -1096,7 +1096,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ListLockboxes.cs.html">here</a> to see an example of how to use ListLockboxes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ListLockboxes.cs.html">here</a> to see an example of how to use ListLockboxes API.</example>
         public async Task<ListLockboxesResponse> ListLockboxes(ListLockboxesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLockboxes");
@@ -1153,7 +1153,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -1210,7 +1210,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -1267,7 +1267,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1323,7 +1323,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/UpdateApprovalTemplate.cs.html">here</a> to see an example of how to use UpdateApprovalTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/UpdateApprovalTemplate.cs.html">here</a> to see an example of how to use UpdateApprovalTemplate API.</example>
         public async Task<UpdateApprovalTemplateResponse> UpdateApprovalTemplate(UpdateApprovalTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateApprovalTemplate");
@@ -1379,7 +1379,7 @@ namespace Oci.LockboxService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/UpdateLockbox.cs.html">here</a> to see an example of how to use UpdateLockbox API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/UpdateLockbox.cs.html">here</a> to see an example of how to use UpdateLockbox API.</example>
         public async Task<UpdateLockboxResponse> UpdateLockbox(UpdateLockboxRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateLockbox");

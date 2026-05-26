@@ -14,7 +14,7 @@ using Oci.PsqlService.Models;
 namespace Oci.PsqlService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psql/DeleteDbSystem.cs.html">here</a> to see an example of how to use DeleteDbSystem request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psql/DeleteDbSystem.cs.html">here</a> to see an example of how to use DeleteDbSystem request.
     /// </example>
     public class DeleteDbSystemRequest : Oci.Common.IOciRequest
     {

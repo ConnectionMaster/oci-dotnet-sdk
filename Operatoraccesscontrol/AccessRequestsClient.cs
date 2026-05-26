@@ -81,7 +81,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ApproveAccessRequest.cs.html">here</a> to see an example of how to use ApproveAccessRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ApproveAccessRequest.cs.html">here</a> to see an example of how to use ApproveAccessRequest API.</example>
         public async Task<ApproveAccessRequestResponse> ApproveAccessRequest(ApproveAccessRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called approveAccessRequest");
@@ -137,7 +137,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/GetAccessRequest.cs.html">here</a> to see an example of how to use GetAccessRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/GetAccessRequest.cs.html">here</a> to see an example of how to use GetAccessRequest API.</example>
         public async Task<GetAccessRequestResponse> GetAccessRequest(GetAccessRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAccessRequest");
@@ -193,7 +193,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/GetAuditLogReport.cs.html">here</a> to see an example of how to use GetAuditLogReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/GetAuditLogReport.cs.html">here</a> to see an example of how to use GetAuditLogReport API.</example>
         public async Task<GetAuditLogReportResponse> GetAuditLogReport(GetAuditLogReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAuditLogReport");
@@ -250,7 +250,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/InteractionRequest.cs.html">here</a> to see an example of how to use InteractionRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/InteractionRequest.cs.html">here</a> to see an example of how to use InteractionRequest API.</example>
         public async Task<InteractionRequestResponse> InteractionRequest(InteractionRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called interactionRequest");
@@ -307,7 +307,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ListAccessRequestHistories.cs.html">here</a> to see an example of how to use ListAccessRequestHistories API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ListAccessRequestHistories.cs.html">here</a> to see an example of how to use ListAccessRequestHistories API.</example>
         public async Task<ListAccessRequestHistoriesResponse> ListAccessRequestHistories(ListAccessRequestHistoriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAccessRequestHistories");
@@ -364,7 +364,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ListAccessRequests.cs.html">here</a> to see an example of how to use ListAccessRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ListAccessRequests.cs.html">here</a> to see an example of how to use ListAccessRequests API.</example>
         public async Task<ListAccessRequestsResponse> ListAccessRequests(ListAccessRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAccessRequests");
@@ -421,7 +421,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ListInteractions.cs.html">here</a> to see an example of how to use ListInteractions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ListInteractions.cs.html">here</a> to see an example of how to use ListInteractions API.</example>
         public async Task<ListInteractionsResponse> ListInteractions(ListInteractionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInteractions");
@@ -478,7 +478,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/RejectAccessRequest.cs.html">here</a> to see an example of how to use RejectAccessRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/RejectAccessRequest.cs.html">here</a> to see an example of how to use RejectAccessRequest API.</example>
         public async Task<RejectAccessRequestResponse> RejectAccessRequest(RejectAccessRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called rejectAccessRequest");
@@ -535,7 +535,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ReviewAccessRequest.cs.html">here</a> to see an example of how to use ReviewAccessRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ReviewAccessRequest.cs.html">here</a> to see an example of how to use ReviewAccessRequest API.</example>
         public async Task<ReviewAccessRequestResponse> ReviewAccessRequest(ReviewAccessRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called reviewAccessRequest");
@@ -592,7 +592,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/RevokeAccessRequest.cs.html">here</a> to see an example of how to use RevokeAccessRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/RevokeAccessRequest.cs.html">here</a> to see an example of how to use RevokeAccessRequest API.</example>
         public async Task<RevokeAccessRequestResponse> RevokeAccessRequest(RevokeAccessRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called revokeAccessRequest");

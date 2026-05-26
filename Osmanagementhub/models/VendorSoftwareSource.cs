@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.OsmanagementhubService.Models
 {
     /// <summary>
-    /// The object that defines a vendor software source. A software source is a collection of packages. For more information, see [Managing Software Sources](https://docs.cloud.oracle.com/iaas/osmh/doc/software-sources.htm).
+    /// The object that defines a vendor software source. A software source is a collection of packages. For more information, see [Managing Software Sources](https://docs.oracle.com/iaas/osmh/doc/software-sources.htm).
     /// </summary>
     public class VendorSoftwareSource : SoftwareSource
     {
@@ -33,7 +33,7 @@ namespace Oci.OsmanagementhubService.Models
         public System.Nullable<VendorName> VendorName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the vendor software source in the root compartment. This property applies only to replicated vendor software sources.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the vendor software source in the root compartment. This property applies only to replicated vendor software sources.
         /// </value>
         [JsonProperty(PropertyName = "originSoftwareSourceId")]
         public string OriginSoftwareSourceId { get; set; }

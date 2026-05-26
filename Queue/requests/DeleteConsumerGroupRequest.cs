@@ -14,7 +14,7 @@ using Oci.QueueService.Models;
 namespace Oci.QueueService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/DeleteConsumerGroup.cs.html">here</a> to see an example of how to use DeleteConsumerGroup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/DeleteConsumerGroup.cs.html">here</a> to see an example of how to use DeleteConsumerGroup request.
     /// </example>
     public class DeleteConsumerGroupRequest : Oci.Common.IOciRequest
     {

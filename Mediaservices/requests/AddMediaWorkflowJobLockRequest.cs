@@ -14,7 +14,7 @@ using Oci.MediaservicesService.Models;
 namespace Oci.MediaservicesService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/AddMediaWorkflowJobLock.cs.html">here</a> to see an example of how to use AddMediaWorkflowJobLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/AddMediaWorkflowJobLock.cs.html">here</a> to see an example of how to use AddMediaWorkflowJobLock request.
     /// </example>
     public class AddMediaWorkflowJobLockRequest : Oci.Common.IOciRequest
     {

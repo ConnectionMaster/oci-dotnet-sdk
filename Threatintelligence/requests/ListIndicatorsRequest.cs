@@ -14,7 +14,7 @@ using Oci.ThreatintelligenceService.Models;
 namespace Oci.ThreatintelligenceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/threatintelligence/ListIndicators.cs.html">here</a> to see an example of how to use ListIndicators request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/threatintelligence/ListIndicators.cs.html">here</a> to see an example of how to use ListIndicators request.
     /// </example>
     public class ListIndicatorsRequest : Oci.Common.IOciRequest
     {

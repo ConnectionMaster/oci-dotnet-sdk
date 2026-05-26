@@ -26,8 +26,8 @@ namespace Oci.GoldengateService.Models
     {
         
         /// <value>
-        /// The deployment category defines the broad separation of the deployment type into three categories.
-        /// Currently the separation is 'DATA_REPLICATION', 'STREAM_ANALYTICS' and 'DATA_TRANSFORMS'.
+        /// The deployment category defines the broad separation of the deployment type into four categories.
+        /// Currently the separation is 'DATA_REPLICATION', 'STREAM_ANALYTICS', 'DATA_TRANSFORMS' and 'DATA_VERIFICATION'.
         /// 
         /// </value>
         /// <remarks>
@@ -115,6 +115,13 @@ namespace Oci.GoldengateService.Models
         /// </value>
         [JsonProperty(PropertyName = "supportedCapabilities", ItemConverterType = typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Collections.Generic.List<SupportedCapabilities> SupportedCapabilities { get; set; }
+        
+        /// <value>
+        /// The list of Oracle license models supported by the deployment type.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "supportedLicenseTypes")]
+        public System.Collections.Generic.List<LicenseModel> SupportedLicenseTypes { get; set; }
         
     }
 }

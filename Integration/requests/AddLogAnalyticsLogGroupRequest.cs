@@ -14,7 +14,7 @@ using Oci.IntegrationService.Models;
 namespace Oci.IntegrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/AddLogAnalyticsLogGroup.cs.html">here</a> to see an example of how to use AddLogAnalyticsLogGroup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/AddLogAnalyticsLogGroup.cs.html">here</a> to see an example of how to use AddLogAnalyticsLogGroup request.
     /// </example>
     public class AddLogAnalyticsLogGroupRequest : Oci.Common.IOciRequest
     {

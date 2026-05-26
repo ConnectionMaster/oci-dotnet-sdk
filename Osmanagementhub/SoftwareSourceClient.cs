@@ -86,7 +86,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AddPackagesToSoftwareSource.cs.html">here</a> to see an example of how to use AddPackagesToSoftwareSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AddPackagesToSoftwareSource.cs.html">here</a> to see an example of how to use AddPackagesToSoftwareSource API.</example>
         public async Task<AddPackagesToSoftwareSourceResponse> AddPackagesToSoftwareSource(AddPackagesToSoftwareSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addPackagesToSoftwareSource");
@@ -143,7 +143,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ChangeAvailabilityOfSoftwareSources.cs.html">here</a> to see an example of how to use ChangeAvailabilityOfSoftwareSources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ChangeAvailabilityOfSoftwareSources.cs.html">here</a> to see an example of how to use ChangeAvailabilityOfSoftwareSources API.</example>
         public async Task<ChangeAvailabilityOfSoftwareSourcesResponse> ChangeAvailabilityOfSoftwareSources(ChangeAvailabilityOfSoftwareSourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeAvailabilityOfSoftwareSources");
@@ -193,7 +193,7 @@ namespace Oci.OsmanagementhubService
 
         /// <summary>
         /// Moves the specified software sources to a different compartment within the same tenancy.
-        /// For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -201,7 +201,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ChangeSoftwareSourceCompartment.cs.html">here</a> to see an example of how to use ChangeSoftwareSourceCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ChangeSoftwareSourceCompartment.cs.html">here</a> to see an example of how to use ChangeSoftwareSourceCompartment API.</example>
         public async Task<ChangeSoftwareSourceCompartmentResponse> ChangeSoftwareSourceCompartment(ChangeSoftwareSourceCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSoftwareSourceCompartment");
@@ -258,7 +258,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/CreateEntitlement.cs.html">here</a> to see an example of how to use CreateEntitlement API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/CreateEntitlement.cs.html">here</a> to see an example of how to use CreateEntitlement API.</example>
         public async Task<CreateEntitlementResponse> CreateEntitlement(CreateEntitlementRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createEntitlement");
@@ -315,7 +315,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/CreateSoftwareSource.cs.html">here</a> to see an example of how to use CreateSoftwareSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/CreateSoftwareSource.cs.html">here</a> to see an example of how to use CreateSoftwareSource API.</example>
         public async Task<CreateSoftwareSourceResponse> CreateSoftwareSource(CreateSoftwareSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSoftwareSource");
@@ -371,7 +371,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteSoftwareSource.cs.html">here</a> to see an example of how to use DeleteSoftwareSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteSoftwareSource.cs.html">here</a> to see an example of how to use DeleteSoftwareSource API.</example>
         public async Task<DeleteSoftwareSourceResponse> DeleteSoftwareSource(DeleteSoftwareSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSoftwareSource");
@@ -428,7 +428,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetErratum.cs.html">here</a> to see an example of how to use GetErratum API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetErratum.cs.html">here</a> to see an example of how to use GetErratum API.</example>
         public async Task<GetErratumResponse> GetErratum(GetErratumRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getErratum");
@@ -485,7 +485,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetModuleStream.cs.html">here</a> to see an example of how to use GetModuleStream API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetModuleStream.cs.html">here</a> to see an example of how to use GetModuleStream API.</example>
         public async Task<GetModuleStreamResponse> GetModuleStream(GetModuleStreamRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getModuleStream");
@@ -542,7 +542,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetModuleStreamProfile.cs.html">here</a> to see an example of how to use GetModuleStreamProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetModuleStreamProfile.cs.html">here</a> to see an example of how to use GetModuleStreamProfile API.</example>
         public async Task<GetModuleStreamProfileResponse> GetModuleStreamProfile(GetModuleStreamProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getModuleStreamProfile");
@@ -599,7 +599,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetPackageGroup.cs.html">here</a> to see an example of how to use GetPackageGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetPackageGroup.cs.html">here</a> to see an example of how to use GetPackageGroup API.</example>
         public async Task<GetPackageGroupResponse> GetPackageGroup(GetPackageGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPackageGroup");
@@ -656,7 +656,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetSoftwarePackage.cs.html">here</a> to see an example of how to use GetSoftwarePackage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetSoftwarePackage.cs.html">here</a> to see an example of how to use GetSoftwarePackage API.</example>
         public async Task<GetSoftwarePackageResponse> GetSoftwarePackage(GetSoftwarePackageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSoftwarePackage");
@@ -712,7 +712,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetSoftwarePackageByName.cs.html">here</a> to see an example of how to use GetSoftwarePackageByName API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetSoftwarePackageByName.cs.html">here</a> to see an example of how to use GetSoftwarePackageByName API.</example>
         public async Task<GetSoftwarePackageByNameResponse> GetSoftwarePackageByName(GetSoftwarePackageByNameRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSoftwarePackageByName");
@@ -768,7 +768,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetSoftwareSource.cs.html">here</a> to see an example of how to use GetSoftwareSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetSoftwareSource.cs.html">here</a> to see an example of how to use GetSoftwareSource API.</example>
         public async Task<GetSoftwareSourceResponse> GetSoftwareSource(GetSoftwareSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSoftwareSource");
@@ -825,7 +825,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetSoftwareSourceManifest.cs.html">here</a> to see an example of how to use GetSoftwareSourceManifest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetSoftwareSourceManifest.cs.html">here</a> to see an example of how to use GetSoftwareSourceManifest API.</example>
         public async Task<GetSoftwareSourceManifestResponse> GetSoftwareSourceManifest(GetSoftwareSourceManifestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSoftwareSourceManifest");
@@ -883,7 +883,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListAllSoftwarePackages.cs.html">here</a> to see an example of how to use ListAllSoftwarePackages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListAllSoftwarePackages.cs.html">here</a> to see an example of how to use ListAllSoftwarePackages API.</example>
         public async Task<ListAllSoftwarePackagesResponse> ListAllSoftwarePackages(ListAllSoftwarePackagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAllSoftwarePackages");
@@ -941,7 +941,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListAvailableSoftwarePackages.cs.html">here</a> to see an example of how to use ListAvailableSoftwarePackages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListAvailableSoftwarePackages.cs.html">here</a> to see an example of how to use ListAvailableSoftwarePackages API.</example>
         public async Task<ListAvailableSoftwarePackagesResponse> ListAvailableSoftwarePackages(ListAvailableSoftwarePackagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAvailableSoftwarePackages");
@@ -998,7 +998,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListAvailableSoftwareSourcesToAdd.cs.html">here</a> to see an example of how to use ListAvailableSoftwareSourcesToAdd API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListAvailableSoftwareSourcesToAdd.cs.html">here</a> to see an example of how to use ListAvailableSoftwareSourcesToAdd API.</example>
         public async Task<ListAvailableSoftwareSourcesToAddResponse> ListAvailableSoftwareSourcesToAdd(ListAvailableSoftwareSourcesToAddRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAvailableSoftwareSourcesToAdd");
@@ -1047,7 +1047,7 @@ namespace Oci.OsmanagementhubService
         }
 
         /// <summary>
-        /// Lists entitlements in the specified tenancy [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Filter the list against a variety of criteria including but 
+        /// Lists entitlements in the specified tenancy [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Filter the list against a variety of criteria including but 
         /// not limited to its Customer Support Identifier (CSI), and vendor name.
         /// 
         /// </summary>
@@ -1056,7 +1056,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListEntitlements.cs.html">here</a> to see an example of how to use ListEntitlements API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListEntitlements.cs.html">here</a> to see an example of how to use ListEntitlements API.</example>
         public async Task<ListEntitlementsResponse> ListEntitlements(ListEntitlementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listEntitlements");
@@ -1114,7 +1114,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListErrata.cs.html">here</a> to see an example of how to use ListErrata API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListErrata.cs.html">here</a> to see an example of how to use ListErrata API.</example>
         public async Task<ListErrataResponse> ListErrata(ListErrataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listErrata");
@@ -1163,7 +1163,7 @@ namespace Oci.OsmanagementhubService
         }
 
         /// <summary>
-        /// Lists module stream profiles from the specified software source [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Filter the list against a variety of 
+        /// Lists module stream profiles from the specified software source [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Filter the list against a variety of 
         /// criteria including but not limited to its module name, stream name, and profile name.
         /// 
         /// </summary>
@@ -1172,7 +1172,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListModuleStreamProfiles.cs.html">here</a> to see an example of how to use ListModuleStreamProfiles API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListModuleStreamProfiles.cs.html">here</a> to see an example of how to use ListModuleStreamProfiles API.</example>
         public async Task<ListModuleStreamProfilesResponse> ListModuleStreamProfiles(ListModuleStreamProfilesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listModuleStreamProfiles");
@@ -1221,7 +1221,7 @@ namespace Oci.OsmanagementhubService
         }
 
         /// <summary>
-        /// Lists module streams from the specified software source [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). 
+        /// Lists module streams from the specified software source [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). 
         /// Filter the list against a variety of criteria including but not limited to its module name and (stream) name.
         /// 
         /// </summary>
@@ -1230,7 +1230,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListModuleStreams.cs.html">here</a> to see an example of how to use ListModuleStreams API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListModuleStreams.cs.html">here</a> to see an example of how to use ListModuleStreams API.</example>
         public async Task<ListModuleStreamsResponse> ListModuleStreams(ListModuleStreamsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listModuleStreams");
@@ -1279,7 +1279,7 @@ namespace Oci.OsmanagementhubService
         }
 
         /// <summary>
-        /// Lists package groups that are associated with the specified software source [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Filter the list against a
+        /// Lists package groups that are associated with the specified software source [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Filter the list against a
         /// variety of criteria including but not limited to its name, and package group type.
         /// 
         /// </summary>
@@ -1288,7 +1288,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListPackageGroups.cs.html">here</a> to see an example of how to use ListPackageGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListPackageGroups.cs.html">here</a> to see an example of how to use ListPackageGroups API.</example>
         public async Task<ListPackageGroupsResponse> ListPackageGroups(ListPackageGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPackageGroups");
@@ -1346,7 +1346,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListSoftwarePackageSoftwareSources.cs.html">here</a> to see an example of how to use ListSoftwarePackageSoftwareSources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListSoftwarePackageSoftwareSources.cs.html">here</a> to see an example of how to use ListSoftwarePackageSoftwareSources API.</example>
         public async Task<ListSoftwarePackageSoftwareSourcesResponse> ListSoftwarePackageSoftwareSources(ListSoftwarePackageSoftwareSourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSoftwarePackageSoftwareSources");
@@ -1404,7 +1404,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListSoftwarePackages.cs.html">here</a> to see an example of how to use ListSoftwarePackages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListSoftwarePackages.cs.html">here</a> to see an example of how to use ListSoftwarePackages API.</example>
         public async Task<ListSoftwarePackagesResponse> ListSoftwarePackages(ListSoftwarePackagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSoftwarePackages");
@@ -1462,7 +1462,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListSoftwareSourceVendors.cs.html">here</a> to see an example of how to use ListSoftwareSourceVendors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListSoftwareSourceVendors.cs.html">here</a> to see an example of how to use ListSoftwareSourceVendors API.</example>
         public async Task<ListSoftwareSourceVendorsResponse> ListSoftwareSourceVendors(ListSoftwareSourceVendorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSoftwareSourceVendors");
@@ -1511,7 +1511,7 @@ namespace Oci.OsmanagementhubService
         }
 
         /// <summary>
-        /// Lists software sources that match the specified tenancy or software source [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Filter the list against a
+        /// Lists software sources that match the specified tenancy or software source [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Filter the list against a
         /// variety of criteria including but not limited to its name, status, architecture, and OS family.
         /// 
         /// </summary>
@@ -1520,7 +1520,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListSoftwareSources.cs.html">here</a> to see an example of how to use ListSoftwareSources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListSoftwareSources.cs.html">here</a> to see an example of how to use ListSoftwareSources API.</example>
         public async Task<ListSoftwareSourcesResponse> ListSoftwareSources(ListSoftwareSourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSoftwareSources");
@@ -1581,7 +1581,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RemovePackagesFromSoftwareSource.cs.html">here</a> to see an example of how to use RemovePackagesFromSoftwareSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RemovePackagesFromSoftwareSource.cs.html">here</a> to see an example of how to use RemovePackagesFromSoftwareSource API.</example>
         public async Task<RemovePackagesFromSoftwareSourceResponse> RemovePackagesFromSoftwareSource(RemovePackagesFromSoftwareSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removePackagesFromSoftwareSource");
@@ -1642,7 +1642,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ReplacePackagesInSoftwareSource.cs.html">here</a> to see an example of how to use ReplacePackagesInSoftwareSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ReplacePackagesInSoftwareSource.cs.html">here</a> to see an example of how to use ReplacePackagesInSoftwareSource API.</example>
         public async Task<ReplacePackagesInSoftwareSourceResponse> ReplacePackagesInSoftwareSource(ReplacePackagesInSoftwareSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called replacePackagesInSoftwareSource");
@@ -1700,7 +1700,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SearchSoftwareSourceModuleStreams.cs.html">here</a> to see an example of how to use SearchSoftwareSourceModuleStreams API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SearchSoftwareSourceModuleStreams.cs.html">here</a> to see an example of how to use SearchSoftwareSourceModuleStreams API.</example>
         public async Task<SearchSoftwareSourceModuleStreamsResponse> SearchSoftwareSourceModuleStreams(SearchSoftwareSourceModuleStreamsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchSoftwareSourceModuleStreams");
@@ -1758,7 +1758,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SearchSoftwareSourceModules.cs.html">here</a> to see an example of how to use SearchSoftwareSourceModules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SearchSoftwareSourceModules.cs.html">here</a> to see an example of how to use SearchSoftwareSourceModules API.</example>
         public async Task<SearchSoftwareSourceModulesResponse> SearchSoftwareSourceModules(SearchSoftwareSourceModulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchSoftwareSourceModules");
@@ -1816,7 +1816,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SearchSoftwareSourcePackageGroups.cs.html">here</a> to see an example of how to use SearchSoftwareSourcePackageGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SearchSoftwareSourcePackageGroups.cs.html">here</a> to see an example of how to use SearchSoftwareSourcePackageGroups API.</example>
         public async Task<SearchSoftwareSourcePackageGroupsResponse> SearchSoftwareSourcePackageGroups(SearchSoftwareSourcePackageGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchSoftwareSourcePackageGroups");
@@ -1872,7 +1872,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SoftwareSourceGenerateMetadata.cs.html">here</a> to see an example of how to use SoftwareSourceGenerateMetadata API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SoftwareSourceGenerateMetadata.cs.html">here</a> to see an example of how to use SoftwareSourceGenerateMetadata API.</example>
         public async Task<SoftwareSourceGenerateMetadataResponse> SoftwareSourceGenerateMetadata(SoftwareSourceGenerateMetadataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called softwareSourceGenerateMetadata");
@@ -1929,7 +1929,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateSoftwareSource.cs.html">here</a> to see an example of how to use UpdateSoftwareSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateSoftwareSource.cs.html">here</a> to see an example of how to use UpdateSoftwareSource API.</example>
         public async Task<UpdateSoftwareSourceResponse> UpdateSoftwareSource(UpdateSoftwareSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSoftwareSource");
@@ -1986,7 +1986,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateSoftwareSourceManifest.cs.html">here</a> to see an example of how to use UpdateSoftwareSourceManifest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateSoftwareSourceManifest.cs.html">here</a> to see an example of how to use UpdateSoftwareSourceManifest API.</example>
         public async Task<UpdateSoftwareSourceManifestResponse> UpdateSoftwareSourceManifest(UpdateSoftwareSourceManifestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSoftwareSourceManifest");

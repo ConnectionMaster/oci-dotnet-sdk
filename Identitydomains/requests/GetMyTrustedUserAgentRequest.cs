@@ -14,7 +14,7 @@ using Oci.IdentitydomainsService.Models;
 namespace Oci.IdentitydomainsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyTrustedUserAgent.cs.html">here</a> to see an example of how to use GetMyTrustedUserAgent request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyTrustedUserAgent.cs.html">here</a> to see an example of how to use GetMyTrustedUserAgent request.
     /// </example>
     public class GetMyTrustedUserAgentRequest : Oci.Common.IOciRequest
     {

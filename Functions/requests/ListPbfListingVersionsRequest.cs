@@ -14,7 +14,7 @@ using Oci.FunctionsService.Models;
 namespace Oci.FunctionsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/functions/ListPbfListingVersions.cs.html">here</a> to see an example of how to use ListPbfListingVersions request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/functions/ListPbfListingVersions.cs.html">here</a> to see an example of how to use ListPbfListingVersions request.
     /// </example>
     public class ListPbfListingVersionsRequest : Oci.Common.IOciRequest
     {

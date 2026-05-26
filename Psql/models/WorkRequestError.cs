@@ -22,7 +22,7 @@ namespace Oci.PsqlService.Models
     {
         
         /// <value>
-        /// A machine-usable [code](https://docs.cloud.oracle.com/Content/API/References/apierrors.htm) for the error that occured.
+        /// A machine-usable [code](https://docs.oracle.com/iaas/Content/API/References/apierrors.htm) for the error that occured.
         /// </value>
         /// <remarks>
         /// Required

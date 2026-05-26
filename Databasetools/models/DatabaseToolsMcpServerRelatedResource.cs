@@ -33,7 +33,7 @@ namespace Oci.DatabasetoolsService.Models
         public System.Nullable<DatabaseToolsMcpServerRelatedResourceEntityType> EntityType { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the related resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the related resource.
         /// </value>
         /// <remarks>
         /// Required

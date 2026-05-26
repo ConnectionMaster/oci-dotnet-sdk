@@ -14,13 +14,13 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/CheckExternalDbSystemConnectorConnectionStatus.cs.html">here</a> to see an example of how to use CheckExternalDbSystemConnectorConnectionStatus request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/CheckExternalDbSystemConnectorConnectionStatus.cs.html">here</a> to see an example of how to use CheckExternalDbSystemConnectorConnectionStatus request.
     /// </example>
     public class CheckExternalDbSystemConnectorConnectionStatusRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the external connector.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the external connector.
         /// </value>
         /// <remarks>
         /// Required

@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSensitiveColumn.cs.html">here</a> to see an example of how to use GetSensitiveColumn request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSensitiveColumn.cs.html">here</a> to see an example of how to use GetSensitiveColumn request.
     /// </example>
     public class GetSensitiveColumnRequest : Oci.Common.IOciRequest
     {

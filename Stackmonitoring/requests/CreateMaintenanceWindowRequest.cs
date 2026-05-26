@@ -14,7 +14,7 @@ using Oci.StackmonitoringService.Models;
 namespace Oci.StackmonitoringService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateMaintenanceWindow.cs.html">here</a> to see an example of how to use CreateMaintenanceWindow request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateMaintenanceWindow.cs.html">here</a> to see an example of how to use CreateMaintenanceWindow request.
     /// </example>
     public class CreateMaintenanceWindowRequest : Oci.Common.IOciRequest
     {

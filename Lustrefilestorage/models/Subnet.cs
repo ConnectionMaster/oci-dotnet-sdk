@@ -22,7 +22,7 @@ namespace Oci.LustrefilestorageService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Subnet.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Subnet.
         /// </value>
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }

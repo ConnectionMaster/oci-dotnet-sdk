@@ -14,7 +14,7 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/CreateCloudAutonomousVmCluster.cs.html">here</a> to see an example of how to use CreateCloudAutonomousVmCluster request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/CreateCloudAutonomousVmCluster.cs.html">here</a> to see an example of how to use CreateCloudAutonomousVmCluster request.
     /// </example>
     public class CreateCloudAutonomousVmClusterRequest : Oci.Common.IOciRequest
     {

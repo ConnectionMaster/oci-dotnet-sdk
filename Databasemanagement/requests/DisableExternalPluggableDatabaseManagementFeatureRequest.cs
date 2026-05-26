@@ -14,13 +14,13 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/DisableExternalPluggableDatabaseManagementFeature.cs.html">here</a> to see an example of how to use DisableExternalPluggableDatabaseManagementFeature request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/DisableExternalPluggableDatabaseManagementFeature.cs.html">here</a> to see an example of how to use DisableExternalPluggableDatabaseManagementFeature request.
     /// </example>
     public class DisableExternalPluggableDatabaseManagementFeatureRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the external pluggable database.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the external pluggable database.
         /// </value>
         /// <remarks>
         /// Required

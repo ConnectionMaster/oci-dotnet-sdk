@@ -59,7 +59,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -80,12 +80,12 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// The fault domain for the dedicated virtual machine host's assigned instances.
-        /// For more information, see [Fault Domains](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/regions.htm#fault).
+        /// For more information, see [Fault Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm#fault).
         /// <br/>
         /// If you do not specify the fault domain, the system selects one for you. To change the fault domain for a dedicated virtual machine host,
         /// delete it, and then create a new dedicated virtual machine host in the preferred fault domain.
         /// <br/>
-        /// To get a list of fault domains, use the `ListFaultDomains` operation in the [Identity and Access Management Service API](https://docs.cloud.oracle.com/iaas/api/#/en/identity/20160918/).
+        /// To get a list of fault domains, use the `ListFaultDomains` operation in the [Identity and Access Management Service API](https://docs.oracle.com/iaas/api/#/en/identity/20160918/).
         /// <br/>
         /// Example: FAULT-DOMAIN-1
         /// </value>
@@ -94,7 +94,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -105,7 +105,7 @@ namespace Oci.CoreService.Models
         public PlacementConstraintDetails PlacementConstraintDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the dedicated VM host.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the dedicated VM host.
         /// </value>
         /// <remarks>
         /// Required
@@ -212,6 +212,24 @@ namespace Oci.CoreService.Models
         [JsonProperty(PropertyName = "remainingMemoryInGBs")]
         public System.Nullable<float> RemainingMemoryInGBs { get; set; }
         
+        /// <value>
+        /// The total local volume of the dedicated VM host, in GBs.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "totalLocalVolumeInGBs")]
+        public System.Nullable<float> TotalLocalVolumeInGBs { get; set; }
+        
+        /// <value>
+        /// The remaining local volume of the dedicated VM host, in GBs.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "remainingLocalVolumeInGBs")]
+        public System.Nullable<float> RemainingLocalVolumeInGBs { get; set; }
+        
+        /// <value>
+        /// A list of total and remaining CPU, memory, and local volume per capacity bucket.
+        /// 
+        /// </value>
         [JsonProperty(PropertyName = "capacityBins")]
         public System.Collections.Generic.List<CapacityBin> CapacityBins { get; set; }
         

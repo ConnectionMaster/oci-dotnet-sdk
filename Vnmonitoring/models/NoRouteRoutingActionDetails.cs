@@ -33,14 +33,14 @@ namespace Oci.VnmonitoringService.Models
         public System.Nullable<bool> IsRestrictedOrPartial { get; set; }
         
         /// <value>
-        /// [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the evaluated VCN route table.
+        /// [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the evaluated VCN route table.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "evaluatedVcnRouteTableId")]
         public string EvaluatedVcnRouteTableId { get; set; }
         
         /// <value>
-        /// [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of evaluated DRG route table.
+        /// [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of evaluated DRG route table.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "evaluatedDrgRouteTableId")]

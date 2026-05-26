@@ -28,7 +28,7 @@ namespace Oci.DatascienceService.Models
         public string InferenceKey { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the model.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the model.
         /// </value>
         /// <remarks>
         /// Required

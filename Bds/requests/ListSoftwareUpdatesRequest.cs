@@ -14,7 +14,7 @@ using Oci.BdsService.Models;
 namespace Oci.BdsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListSoftwareUpdates.cs.html">here</a> to see an example of how to use ListSoftwareUpdates request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListSoftwareUpdates.cs.html">here</a> to see an example of how to use ListSoftwareUpdates request.
     /// </example>
     public class ListSoftwareUpdatesRequest : Oci.Common.IOciRequest
     {

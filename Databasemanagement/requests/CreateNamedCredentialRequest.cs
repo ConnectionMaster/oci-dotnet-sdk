@@ -14,7 +14,7 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/CreateNamedCredential.cs.html">here</a> to see an example of how to use CreateNamedCredential request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/CreateNamedCredential.cs.html">here</a> to see an example of how to use CreateNamedCredential request.
     /// </example>
     public class CreateNamedCredentialRequest : Oci.Common.IOciRequest
     {

@@ -14,7 +14,7 @@ using Oci.DataflowService.Models;
 namespace Oci.DataflowService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dataflow/StartPool.cs.html">here</a> to see an example of how to use StartPool request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dataflow/StartPool.cs.html">here</a> to see an example of how to use StartPool request.
     /// </example>
     public class StartPoolRequest : Oci.Common.IOciRequest
     {

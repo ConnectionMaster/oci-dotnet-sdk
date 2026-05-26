@@ -47,7 +47,7 @@ namespace Oci.ApiplatformService.Models
         public System.Nullable<ActionType> ActionType { get; set; }
         
         /// <value>
-        /// An [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) or other unique identifier for the resource.
+        /// An [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) or other unique identifier for the resource.
         /// </value>
         /// <remarks>
         /// Required

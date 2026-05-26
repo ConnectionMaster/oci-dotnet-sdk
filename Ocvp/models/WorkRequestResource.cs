@@ -47,7 +47,7 @@ namespace Oci.OcvpService.Models
         public System.Nullable<ActionTypes> ActionType { get; set; }
         
         /// <value>
-        /// An [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) or other unique identifier
+        /// An [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) or other unique identifier
         /// for the resource.
         /// 
         /// </value>

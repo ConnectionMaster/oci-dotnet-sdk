@@ -14,7 +14,7 @@ using Oci.IdentitydomainsService.Models;
 namespace Oci.IdentitydomainsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyDevice.cs.html">here</a> to see an example of how to use PatchMyDevice request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyDevice.cs.html">here</a> to see an example of how to use PatchMyDevice request.
     /// </example>
     public class PatchMyDeviceRequest : Oci.Common.IOciRequest
     {

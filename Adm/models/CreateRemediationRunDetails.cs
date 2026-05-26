@@ -22,7 +22,7 @@ namespace Oci.AdmService.Models
     {
         
         /// <value>
-        /// The Oracle Cloud identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the Remediation Recipe.
+        /// The Oracle Cloud identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the Remediation Recipe.
         /// </value>
         /// <remarks>
         /// Required

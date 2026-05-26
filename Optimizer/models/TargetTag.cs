@@ -18,7 +18,7 @@ namespace Oci.OptimizerService.Models
     /// <summary>
     /// A tag key definition used in the current profile override, including the tag namespace, tag key, tag value type, and tag values.
     /// Only defined tags are supported.
-    /// For more information about tagging, see [Tagging Overview](https://docs.cloud.oracle.com/iaas/Content/Tagging/Concepts/taggingoverview.htm)
+    /// For more information about tagging, see [Tagging Overview](https://docs.oracle.com/iaas/Content/Tagging/Concepts/taggingoverview.htm)
     /// 
     /// </summary>
     public class TargetTag 

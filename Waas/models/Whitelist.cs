@@ -38,7 +38,7 @@ namespace Oci.WaasService.Models
         public System.Collections.Generic.List<string> Addresses { get; set; }
         
         /// <value>
-        /// A list of [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of IP address lists to include in the whitelist.
+        /// A list of [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of IP address lists to include in the whitelist.
         /// </value>
         [JsonProperty(PropertyName = "addressLists")]
         public System.Collections.Generic.List<string> AddressLists { get; set; }

@@ -54,7 +54,7 @@ namespace Oci.OpsiService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the ONS topic.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the ONS topic.
         /// </value>
         /// <remarks>
         /// Required

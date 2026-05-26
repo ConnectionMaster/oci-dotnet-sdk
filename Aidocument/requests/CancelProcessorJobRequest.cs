@@ -14,7 +14,7 @@ using Oci.AidocumentService.Models;
 namespace Oci.AidocumentService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aidocument/CancelProcessorJob.cs.html">here</a> to see an example of how to use CancelProcessorJob request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aidocument/CancelProcessorJob.cs.html">here</a> to see an example of how to use CancelProcessorJob request.
     /// </example>
     public class CancelProcessorJobRequest : Oci.Common.IOciRequest
     {

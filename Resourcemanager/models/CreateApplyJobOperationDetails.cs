@@ -35,7 +35,7 @@ namespace Oci.ResourcemanagerService.Models
         public System.Nullable<ApplyJobOperationDetails.ExecutionPlanStrategyEnum> ExecutionPlanStrategy { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a plan job, for use when specifying `FROM_PLAN_JOB_ID` as the `executionPlanStrategy`.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a plan job, for use when specifying `FROM_PLAN_JOB_ID` as the `executionPlanStrategy`.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "executionPlanJobId")]
