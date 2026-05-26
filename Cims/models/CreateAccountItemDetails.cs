@@ -17,7 +17,7 @@ namespace Oci.CimsService.Models
 {
     /// <summary>
     /// Details about the issue that the account support request relates to. Avoid entering confidential information.
-    /// For information about `ACCOUNT` support requests, see [Creating a Billing Support Request](https://docs.cloud.oracle.com/iaas/Content/GSG/support/create-incident-billing.htm).
+    /// For information about `ACCOUNT` support requests, see [Creating a Billing Support Request](https://docs.oracle.com/iaas/Content/GSG/support/create-incident-billing.htm).
     /// 
     /// </summary>
     public class CreateAccountItemDetails : CreateItemDetails

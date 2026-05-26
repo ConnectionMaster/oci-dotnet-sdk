@@ -14,7 +14,7 @@ using Oci.RecoveryService.Models;
 namespace Oci.RecoveryService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ListProtectionPolicies.cs.html">here</a> to see an example of how to use ListProtectionPolicies request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ListProtectionPolicies.cs.html">here</a> to see an example of how to use ListProtectionPolicies request.
     /// </example>
     public class ListProtectionPoliciesRequest : Oci.Common.IOciRequest
     {

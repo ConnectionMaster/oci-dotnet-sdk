@@ -19,14 +19,14 @@ namespace Oci.ApigatewayService.Models
     /// A certificate contains information to be installed on a gateway to secure the traffic going
     /// through it.
     /// For more information, see
-    /// [API Gateway Concepts](https://docs.cloud.oracle.com/iaas/Content/APIGateway/Concepts/apigatewayconcepts.htm).
+    /// [API Gateway Concepts](https://docs.oracle.com/iaas/Content/APIGateway/Concepts/apigatewayconcepts.htm).
     /// 
     /// </summary>
     public class Certificate 
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the resource.
         /// 
         /// </value>
         /// <remarks>
@@ -50,7 +50,7 @@ namespace Oci.ApigatewayService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment in which the
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment in which the
         /// resource is created.
         /// 
         /// </value>
@@ -160,7 +160,7 @@ namespace Oci.ApigatewayService.Models
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair
         /// with no predefined name, type, or namespace. For more information, see
-        /// [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -170,7 +170,7 @@ namespace Oci.ApigatewayService.Models
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
         /// namespace. For more information, see
-        /// [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>

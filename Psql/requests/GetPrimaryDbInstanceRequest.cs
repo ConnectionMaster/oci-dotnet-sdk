@@ -14,7 +14,7 @@ using Oci.PsqlService.Models;
 namespace Oci.PsqlService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psql/GetPrimaryDbInstance.cs.html">here</a> to see an example of how to use GetPrimaryDbInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psql/GetPrimaryDbInstance.cs.html">here</a> to see an example of how to use GetPrimaryDbInstance request.
     /// </example>
     public class GetPrimaryDbInstanceRequest : Oci.Common.IOciRequest
     {

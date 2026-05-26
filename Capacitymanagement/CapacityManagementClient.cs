@@ -81,7 +81,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/CreateOccAvailabilityCatalog.cs.html">here</a> to see an example of how to use CreateOccAvailabilityCatalog API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/CreateOccAvailabilityCatalog.cs.html">here</a> to see an example of how to use CreateOccAvailabilityCatalog API.</example>
         public async Task<CreateOccAvailabilityCatalogResponse> CreateOccAvailabilityCatalog(CreateOccAvailabilityCatalogRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOccAvailabilityCatalog");
@@ -137,7 +137,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/CreateOccCapacityRequest.cs.html">here</a> to see an example of how to use CreateOccCapacityRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/CreateOccCapacityRequest.cs.html">here</a> to see an example of how to use CreateOccCapacityRequest API.</example>
         public async Task<CreateOccCapacityRequestResponse> CreateOccCapacityRequest(CreateOccCapacityRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOccCapacityRequest");
@@ -193,7 +193,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/CreateOccCustomer.cs.html">here</a> to see an example of how to use CreateOccCustomer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/CreateOccCustomer.cs.html">here</a> to see an example of how to use CreateOccCustomer API.</example>
         public async Task<CreateOccCustomerResponse> CreateOccCustomer(CreateOccCustomerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOccCustomer");
@@ -249,7 +249,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/CreateOccCustomerGroup.cs.html">here</a> to see an example of how to use CreateOccCustomerGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/CreateOccCustomerGroup.cs.html">here</a> to see an example of how to use CreateOccCustomerGroup API.</example>
         public async Task<CreateOccCustomerGroupResponse> CreateOccCustomerGroup(CreateOccCustomerGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOccCustomerGroup");
@@ -305,7 +305,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/DeleteOccAvailabilityCatalog.cs.html">here</a> to see an example of how to use DeleteOccAvailabilityCatalog API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/DeleteOccAvailabilityCatalog.cs.html">here</a> to see an example of how to use DeleteOccAvailabilityCatalog API.</example>
         public async Task<DeleteOccAvailabilityCatalogResponse> DeleteOccAvailabilityCatalog(DeleteOccAvailabilityCatalogRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOccAvailabilityCatalog");
@@ -361,7 +361,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/DeleteOccCapacityRequest.cs.html">here</a> to see an example of how to use DeleteOccCapacityRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/DeleteOccCapacityRequest.cs.html">here</a> to see an example of how to use DeleteOccCapacityRequest API.</example>
         public async Task<DeleteOccCapacityRequestResponse> DeleteOccCapacityRequest(DeleteOccCapacityRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOccCapacityRequest");
@@ -417,7 +417,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/DeleteOccCustomer.cs.html">here</a> to see an example of how to use DeleteOccCustomer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/DeleteOccCustomer.cs.html">here</a> to see an example of how to use DeleteOccCustomer API.</example>
         public async Task<DeleteOccCustomerResponse> DeleteOccCustomer(DeleteOccCustomerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOccCustomer");
@@ -473,7 +473,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/DeleteOccCustomerGroup.cs.html">here</a> to see an example of how to use DeleteOccCustomerGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/DeleteOccCustomerGroup.cs.html">here</a> to see an example of how to use DeleteOccCustomerGroup API.</example>
         public async Task<DeleteOccCustomerGroupResponse> DeleteOccCustomerGroup(DeleteOccCustomerGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOccCustomerGroup");
@@ -529,7 +529,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/GetOccAvailabilityCatalog.cs.html">here</a> to see an example of how to use GetOccAvailabilityCatalog API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/GetOccAvailabilityCatalog.cs.html">here</a> to see an example of how to use GetOccAvailabilityCatalog API.</example>
         public async Task<GetOccAvailabilityCatalogResponse> GetOccAvailabilityCatalog(GetOccAvailabilityCatalogRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOccAvailabilityCatalog");
@@ -586,7 +586,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/GetOccAvailabilityCatalogContent.cs.html">here</a> to see an example of how to use GetOccAvailabilityCatalogContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/GetOccAvailabilityCatalogContent.cs.html">here</a> to see an example of how to use GetOccAvailabilityCatalogContent API.</example>
         public async Task<GetOccAvailabilityCatalogContentResponse> GetOccAvailabilityCatalogContent(GetOccAvailabilityCatalogContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOccAvailabilityCatalogContent");
@@ -642,7 +642,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/GetOccCapacityRequest.cs.html">here</a> to see an example of how to use GetOccCapacityRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/GetOccCapacityRequest.cs.html">here</a> to see an example of how to use GetOccCapacityRequest API.</example>
         public async Task<GetOccCapacityRequestResponse> GetOccCapacityRequest(GetOccCapacityRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOccCapacityRequest");
@@ -699,7 +699,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/GetOccCustomerGroup.cs.html">here</a> to see an example of how to use GetOccCustomerGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/GetOccCustomerGroup.cs.html">here</a> to see an example of how to use GetOccCustomerGroup API.</example>
         public async Task<GetOccCustomerGroupResponse> GetOccCustomerGroup(GetOccCustomerGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOccCustomerGroup");
@@ -756,7 +756,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListInternalNamespaceOccOverviews.cs.html">here</a> to see an example of how to use ListInternalNamespaceOccOverviews API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListInternalNamespaceOccOverviews.cs.html">here</a> to see an example of how to use ListInternalNamespaceOccOverviews API.</example>
         public async Task<ListInternalNamespaceOccOverviewsResponse> ListInternalNamespaceOccOverviews(ListInternalNamespaceOccOverviewsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInternalNamespaceOccOverviews");
@@ -813,7 +813,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListInternalOccHandoverResourceBlockDetails.cs.html">here</a> to see an example of how to use ListInternalOccHandoverResourceBlockDetails API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListInternalOccHandoverResourceBlockDetails.cs.html">here</a> to see an example of how to use ListInternalOccHandoverResourceBlockDetails API.</example>
         public async Task<ListInternalOccHandoverResourceBlockDetailsResponse> ListInternalOccHandoverResourceBlockDetails(ListInternalOccHandoverResourceBlockDetailsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInternalOccHandoverResourceBlockDetails");
@@ -870,7 +870,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListInternalOccHandoverResourceBlocks.cs.html">here</a> to see an example of how to use ListInternalOccHandoverResourceBlocks API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListInternalOccHandoverResourceBlocks.cs.html">here</a> to see an example of how to use ListInternalOccHandoverResourceBlocks API.</example>
         public async Task<ListInternalOccHandoverResourceBlocksResponse> ListInternalOccHandoverResourceBlocks(ListInternalOccHandoverResourceBlocksRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInternalOccHandoverResourceBlocks");
@@ -926,7 +926,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccAvailabilities.cs.html">here</a> to see an example of how to use ListOccAvailabilities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccAvailabilities.cs.html">here</a> to see an example of how to use ListOccAvailabilities API.</example>
         public async Task<ListOccAvailabilitiesResponse> ListOccAvailabilities(ListOccAvailabilitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOccAvailabilities");
@@ -982,7 +982,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccAvailabilityCatalogs.cs.html">here</a> to see an example of how to use ListOccAvailabilityCatalogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccAvailabilityCatalogs.cs.html">here</a> to see an example of how to use ListOccAvailabilityCatalogs API.</example>
         public async Task<ListOccAvailabilityCatalogsResponse> ListOccAvailabilityCatalogs(ListOccAvailabilityCatalogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOccAvailabilityCatalogs");
@@ -1038,7 +1038,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccAvailabilityCatalogsInternal.cs.html">here</a> to see an example of how to use ListOccAvailabilityCatalogsInternal API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccAvailabilityCatalogsInternal.cs.html">here</a> to see an example of how to use ListOccAvailabilityCatalogsInternal API.</example>
         public async Task<ListOccAvailabilityCatalogsInternalResponse> ListOccAvailabilityCatalogsInternal(ListOccAvailabilityCatalogsInternalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOccAvailabilityCatalogsInternal");
@@ -1094,7 +1094,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccCapacityRequests.cs.html">here</a> to see an example of how to use ListOccCapacityRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccCapacityRequests.cs.html">here</a> to see an example of how to use ListOccCapacityRequests API.</example>
         public async Task<ListOccCapacityRequestsResponse> ListOccCapacityRequests(ListOccCapacityRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOccCapacityRequests");
@@ -1150,7 +1150,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccCapacityRequestsInternal.cs.html">here</a> to see an example of how to use ListOccCapacityRequestsInternal API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccCapacityRequestsInternal.cs.html">here</a> to see an example of how to use ListOccCapacityRequestsInternal API.</example>
         public async Task<ListOccCapacityRequestsInternalResponse> ListOccCapacityRequestsInternal(ListOccCapacityRequestsInternalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOccCapacityRequestsInternal");
@@ -1207,7 +1207,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccCustomerGroups.cs.html">here</a> to see an example of how to use ListOccCustomerGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccCustomerGroups.cs.html">here</a> to see an example of how to use ListOccCustomerGroups API.</example>
         public async Task<ListOccCustomerGroupsResponse> ListOccCustomerGroups(ListOccCustomerGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOccCustomerGroups");
@@ -1264,7 +1264,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccHandoverResourceBlockDetails.cs.html">here</a> to see an example of how to use ListOccHandoverResourceBlockDetails API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccHandoverResourceBlockDetails.cs.html">here</a> to see an example of how to use ListOccHandoverResourceBlockDetails API.</example>
         public async Task<ListOccHandoverResourceBlockDetailsResponse> ListOccHandoverResourceBlockDetails(ListOccHandoverResourceBlockDetailsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOccHandoverResourceBlockDetails");
@@ -1321,7 +1321,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccHandoverResourceBlocks.cs.html">here</a> to see an example of how to use ListOccHandoverResourceBlocks API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccHandoverResourceBlocks.cs.html">here</a> to see an example of how to use ListOccHandoverResourceBlocks API.</example>
         public async Task<ListOccHandoverResourceBlocksResponse> ListOccHandoverResourceBlocks(ListOccHandoverResourceBlocksRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOccHandoverResourceBlocks");
@@ -1378,7 +1378,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccOverviews.cs.html">here</a> to see an example of how to use ListOccOverviews API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListOccOverviews.cs.html">here</a> to see an example of how to use ListOccOverviews API.</example>
         public async Task<ListOccOverviewsResponse> ListOccOverviews(ListOccOverviewsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOccOverviews");
@@ -1434,7 +1434,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/PatchInternalOccCapacityRequest.cs.html">here</a> to see an example of how to use PatchInternalOccCapacityRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/PatchInternalOccCapacityRequest.cs.html">here</a> to see an example of how to use PatchInternalOccCapacityRequest API.</example>
         public async Task<PatchInternalOccCapacityRequestResponse> PatchInternalOccCapacityRequest(PatchInternalOccCapacityRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchInternalOccCapacityRequest");
@@ -1490,7 +1490,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/PatchOccCapacityRequest.cs.html">here</a> to see an example of how to use PatchOccCapacityRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/PatchOccCapacityRequest.cs.html">here</a> to see an example of how to use PatchOccCapacityRequest API.</example>
         public async Task<PatchOccCapacityRequestResponse> PatchOccCapacityRequest(PatchOccCapacityRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchOccCapacityRequest");
@@ -1547,7 +1547,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/PublishOccAvailabilityCatalog.cs.html">here</a> to see an example of how to use PublishOccAvailabilityCatalog API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/PublishOccAvailabilityCatalog.cs.html">here</a> to see an example of how to use PublishOccAvailabilityCatalog API.</example>
         public async Task<PublishOccAvailabilityCatalogResponse> PublishOccAvailabilityCatalog(PublishOccAvailabilityCatalogRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called publishOccAvailabilityCatalog");
@@ -1603,7 +1603,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateInternalOccCapacityRequest.cs.html">here</a> to see an example of how to use UpdateInternalOccCapacityRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateInternalOccCapacityRequest.cs.html">here</a> to see an example of how to use UpdateInternalOccCapacityRequest API.</example>
         public async Task<UpdateInternalOccCapacityRequestResponse> UpdateInternalOccCapacityRequest(UpdateInternalOccCapacityRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateInternalOccCapacityRequest");
@@ -1659,7 +1659,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateOccAvailabilityCatalog.cs.html">here</a> to see an example of how to use UpdateOccAvailabilityCatalog API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateOccAvailabilityCatalog.cs.html">here</a> to see an example of how to use UpdateOccAvailabilityCatalog API.</example>
         public async Task<UpdateOccAvailabilityCatalogResponse> UpdateOccAvailabilityCatalog(UpdateOccAvailabilityCatalogRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOccAvailabilityCatalog");
@@ -1715,7 +1715,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateOccCapacityRequest.cs.html">here</a> to see an example of how to use UpdateOccCapacityRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateOccCapacityRequest.cs.html">here</a> to see an example of how to use UpdateOccCapacityRequest API.</example>
         public async Task<UpdateOccCapacityRequestResponse> UpdateOccCapacityRequest(UpdateOccCapacityRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOccCapacityRequest");
@@ -1771,7 +1771,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateOccCustomer.cs.html">here</a> to see an example of how to use UpdateOccCustomer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateOccCustomer.cs.html">here</a> to see an example of how to use UpdateOccCustomer API.</example>
         public async Task<UpdateOccCustomerResponse> UpdateOccCustomer(UpdateOccCustomerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOccCustomer");
@@ -1827,7 +1827,7 @@ namespace Oci.CapacitymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateOccCustomerGroup.cs.html">here</a> to see an example of how to use UpdateOccCustomerGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateOccCustomerGroup.cs.html">here</a> to see an example of how to use UpdateOccCustomerGroup API.</example>
         public async Task<UpdateOccCustomerGroupResponse> UpdateOccCustomerGroup(UpdateOccCustomerGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOccCustomerGroup");

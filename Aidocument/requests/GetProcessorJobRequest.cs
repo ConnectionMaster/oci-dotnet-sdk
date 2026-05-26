@@ -14,7 +14,7 @@ using Oci.AidocumentService.Models;
 namespace Oci.AidocumentService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aidocument/GetProcessorJob.cs.html">here</a> to see an example of how to use GetProcessorJob request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aidocument/GetProcessorJob.cs.html">here</a> to see an example of how to use GetProcessorJob request.
     /// </example>
     public class GetProcessorJobRequest : Oci.Common.IOciRequest
     {

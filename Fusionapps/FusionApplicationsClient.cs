@@ -82,7 +82,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ChangeFusionEnvironmentCompartment.cs.html">here</a> to see an example of how to use ChangeFusionEnvironmentCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ChangeFusionEnvironmentCompartment.cs.html">here</a> to see an example of how to use ChangeFusionEnvironmentCompartment API.</example>
         public async Task<ChangeFusionEnvironmentCompartmentResponse> ChangeFusionEnvironmentCompartment(ChangeFusionEnvironmentCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeFusionEnvironmentCompartment");
@@ -140,7 +140,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ChangeFusionEnvironmentFamilyCompartment.cs.html">here</a> to see an example of how to use ChangeFusionEnvironmentFamilyCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ChangeFusionEnvironmentFamilyCompartment.cs.html">here</a> to see an example of how to use ChangeFusionEnvironmentFamilyCompartment API.</example>
         public async Task<ChangeFusionEnvironmentFamilyCompartmentResponse> ChangeFusionEnvironmentFamilyCompartment(ChangeFusionEnvironmentFamilyCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeFusionEnvironmentFamilyCompartment");
@@ -197,7 +197,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateDataMaskingActivity.cs.html">here</a> to see an example of how to use CreateDataMaskingActivity API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateDataMaskingActivity.cs.html">here</a> to see an example of how to use CreateDataMaskingActivity API.</example>
         public async Task<CreateDataMaskingActivityResponse> CreateDataMaskingActivity(CreateDataMaskingActivityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDataMaskingActivity");
@@ -253,7 +253,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateEmailSubdomain.cs.html">here</a> to see an example of how to use CreateEmailSubdomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateEmailSubdomain.cs.html">here</a> to see an example of how to use CreateEmailSubdomain API.</example>
         public async Task<CreateEmailSubdomainResponse> CreateEmailSubdomain(CreateEmailSubdomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createEmailSubdomain");
@@ -310,7 +310,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateFusionEnvironment.cs.html">here</a> to see an example of how to use CreateFusionEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateFusionEnvironment.cs.html">here</a> to see an example of how to use CreateFusionEnvironment API.</example>
         public async Task<CreateFusionEnvironmentResponse> CreateFusionEnvironment(CreateFusionEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createFusionEnvironment");
@@ -366,7 +366,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateFusionEnvironmentAdminUser.cs.html">here</a> to see an example of how to use CreateFusionEnvironmentAdminUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateFusionEnvironmentAdminUser.cs.html">here</a> to see an example of how to use CreateFusionEnvironmentAdminUser API.</example>
         public async Task<CreateFusionEnvironmentAdminUserResponse> CreateFusionEnvironmentAdminUser(CreateFusionEnvironmentAdminUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createFusionEnvironmentAdminUser");
@@ -423,7 +423,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateFusionEnvironmentFamily.cs.html">here</a> to see an example of how to use CreateFusionEnvironmentFamily API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateFusionEnvironmentFamily.cs.html">here</a> to see an example of how to use CreateFusionEnvironmentFamily API.</example>
         public async Task<CreateFusionEnvironmentFamilyResponse> CreateFusionEnvironmentFamily(CreateFusionEnvironmentFamilyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createFusionEnvironmentFamily");
@@ -479,7 +479,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateMarketingBrand.cs.html">here</a> to see an example of how to use CreateMarketingBrand API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateMarketingBrand.cs.html">here</a> to see an example of how to use CreateMarketingBrand API.</example>
         public async Task<CreateMarketingBrandResponse> CreateMarketingBrand(CreateMarketingBrandRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMarketingBrand");
@@ -535,7 +535,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateMicrosite.cs.html">here</a> to see an example of how to use CreateMicrosite API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateMicrosite.cs.html">here</a> to see an example of how to use CreateMicrosite API.</example>
         public async Task<CreateMicrositeResponse> CreateMicrosite(CreateMicrositeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMicrosite");
@@ -592,7 +592,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateRefreshActivity.cs.html">here</a> to see an example of how to use CreateRefreshActivity API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateRefreshActivity.cs.html">here</a> to see an example of how to use CreateRefreshActivity API.</example>
         public async Task<CreateRefreshActivityResponse> CreateRefreshActivity(CreateRefreshActivityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRefreshActivity");
@@ -649,7 +649,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateServiceAttachment.cs.html">here</a> to see an example of how to use CreateServiceAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateServiceAttachment.cs.html">here</a> to see an example of how to use CreateServiceAttachment API.</example>
         public async Task<CreateServiceAttachmentResponse> CreateServiceAttachment(CreateServiceAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createServiceAttachment");
@@ -706,7 +706,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateVanityDomain.cs.html">here</a> to see an example of how to use CreateVanityDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateVanityDomain.cs.html">here</a> to see an example of how to use CreateVanityDomain API.</example>
         public async Task<CreateVanityDomainResponse> CreateVanityDomain(CreateVanityDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVanityDomain");
@@ -763,7 +763,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateVanityDomainActivity.cs.html">here</a> to see an example of how to use CreateVanityDomainActivity API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/CreateVanityDomainActivity.cs.html">here</a> to see an example of how to use CreateVanityDomainActivity API.</example>
         public async Task<CreateVanityDomainActivityResponse> CreateVanityDomainActivity(CreateVanityDomainActivityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVanityDomainActivity");
@@ -819,7 +819,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteEmailSubdomain.cs.html">here</a> to see an example of how to use DeleteEmailSubdomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteEmailSubdomain.cs.html">here</a> to see an example of how to use DeleteEmailSubdomain API.</example>
         public async Task<DeleteEmailSubdomainResponse> DeleteEmailSubdomain(DeleteEmailSubdomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteEmailSubdomain");
@@ -875,7 +875,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteFusionEnvironment.cs.html">here</a> to see an example of how to use DeleteFusionEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteFusionEnvironment.cs.html">here</a> to see an example of how to use DeleteFusionEnvironment API.</example>
         public async Task<DeleteFusionEnvironmentResponse> DeleteFusionEnvironment(DeleteFusionEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteFusionEnvironment");
@@ -931,7 +931,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteFusionEnvironmentAdminUser.cs.html">here</a> to see an example of how to use DeleteFusionEnvironmentAdminUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteFusionEnvironmentAdminUser.cs.html">here</a> to see an example of how to use DeleteFusionEnvironmentAdminUser API.</example>
         public async Task<DeleteFusionEnvironmentAdminUserResponse> DeleteFusionEnvironmentAdminUser(DeleteFusionEnvironmentAdminUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteFusionEnvironmentAdminUser");
@@ -987,7 +987,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteFusionEnvironmentFamily.cs.html">here</a> to see an example of how to use DeleteFusionEnvironmentFamily API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteFusionEnvironmentFamily.cs.html">here</a> to see an example of how to use DeleteFusionEnvironmentFamily API.</example>
         public async Task<DeleteFusionEnvironmentFamilyResponse> DeleteFusionEnvironmentFamily(DeleteFusionEnvironmentFamilyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteFusionEnvironmentFamily");
@@ -1043,7 +1043,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteMarketingBrand.cs.html">here</a> to see an example of how to use DeleteMarketingBrand API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteMarketingBrand.cs.html">here</a> to see an example of how to use DeleteMarketingBrand API.</example>
         public async Task<DeleteMarketingBrandResponse> DeleteMarketingBrand(DeleteMarketingBrandRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMarketingBrand");
@@ -1099,7 +1099,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteMicrosite.cs.html">here</a> to see an example of how to use DeleteMicrosite API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteMicrosite.cs.html">here</a> to see an example of how to use DeleteMicrosite API.</example>
         public async Task<DeleteMicrositeResponse> DeleteMicrosite(DeleteMicrositeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMicrosite");
@@ -1155,7 +1155,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteRefreshActivity.cs.html">here</a> to see an example of how to use DeleteRefreshActivity API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteRefreshActivity.cs.html">here</a> to see an example of how to use DeleteRefreshActivity API.</example>
         public async Task<DeleteRefreshActivityResponse> DeleteRefreshActivity(DeleteRefreshActivityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRefreshActivity");
@@ -1211,7 +1211,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteServiceAttachment.cs.html">here</a> to see an example of how to use DeleteServiceAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteServiceAttachment.cs.html">here</a> to see an example of how to use DeleteServiceAttachment API.</example>
         public async Task<DeleteServiceAttachmentResponse> DeleteServiceAttachment(DeleteServiceAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteServiceAttachment");
@@ -1268,7 +1268,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteVanityDomainActivity.cs.html">here</a> to see an example of how to use DeleteVanityDomainActivity API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/DeleteVanityDomainActivity.cs.html">here</a> to see an example of how to use DeleteVanityDomainActivity API.</example>
         public async Task<DeleteVanityDomainActivityResponse> DeleteVanityDomainActivity(DeleteVanityDomainActivityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVanityDomainActivity");
@@ -1325,7 +1325,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GenerateExtractDetails.cs.html">here</a> to see an example of how to use GenerateExtractDetails API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GenerateExtractDetails.cs.html">here</a> to see an example of how to use GenerateExtractDetails API.</example>
         public async Task<GenerateExtractDetailsResponse> GenerateExtractDetails(GenerateExtractDetailsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateExtractDetails");
@@ -1381,7 +1381,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetDataMaskingActivity.cs.html">here</a> to see an example of how to use GetDataMaskingActivity API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetDataMaskingActivity.cs.html">here</a> to see an example of how to use GetDataMaskingActivity API.</example>
         public async Task<GetDataMaskingActivityResponse> GetDataMaskingActivity(GetDataMaskingActivityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDataMaskingActivity");
@@ -1437,7 +1437,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetEmailSubdomain.cs.html">here</a> to see an example of how to use GetEmailSubdomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetEmailSubdomain.cs.html">here</a> to see an example of how to use GetEmailSubdomain API.</example>
         public async Task<GetEmailSubdomainResponse> GetEmailSubdomain(GetEmailSubdomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getEmailSubdomain");
@@ -1493,7 +1493,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetEmailSubdomainCsr.cs.html">here</a> to see an example of how to use GetEmailSubdomainCsr API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetEmailSubdomainCsr.cs.html">here</a> to see an example of how to use GetEmailSubdomainCsr API.</example>
         public async Task<GetEmailSubdomainCsrResponse> GetEmailSubdomainCsr(GetEmailSubdomainCsrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getEmailSubdomainCsr");
@@ -1549,7 +1549,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetEmailSubdomainDnsConfig.cs.html">here</a> to see an example of how to use GetEmailSubdomainDnsConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetEmailSubdomainDnsConfig.cs.html">here</a> to see an example of how to use GetEmailSubdomainDnsConfig API.</example>
         public async Task<GetEmailSubdomainDnsConfigResponse> GetEmailSubdomainDnsConfig(GetEmailSubdomainDnsConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getEmailSubdomainDnsConfig");
@@ -1605,7 +1605,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetFusionEnvironment.cs.html">here</a> to see an example of how to use GetFusionEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetFusionEnvironment.cs.html">here</a> to see an example of how to use GetFusionEnvironment API.</example>
         public async Task<GetFusionEnvironmentResponse> GetFusionEnvironment(GetFusionEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFusionEnvironment");
@@ -1661,7 +1661,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetFusionEnvironmentFamily.cs.html">here</a> to see an example of how to use GetFusionEnvironmentFamily API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetFusionEnvironmentFamily.cs.html">here</a> to see an example of how to use GetFusionEnvironmentFamily API.</example>
         public async Task<GetFusionEnvironmentFamilyResponse> GetFusionEnvironmentFamily(GetFusionEnvironmentFamilyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFusionEnvironmentFamily");
@@ -1717,7 +1717,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetFusionEnvironmentFamilyLimitsAndUsage.cs.html">here</a> to see an example of how to use GetFusionEnvironmentFamilyLimitsAndUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetFusionEnvironmentFamilyLimitsAndUsage.cs.html">here</a> to see an example of how to use GetFusionEnvironmentFamilyLimitsAndUsage API.</example>
         public async Task<GetFusionEnvironmentFamilyLimitsAndUsageResponse> GetFusionEnvironmentFamilyLimitsAndUsage(GetFusionEnvironmentFamilyLimitsAndUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFusionEnvironmentFamilyLimitsAndUsage");
@@ -1773,7 +1773,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetFusionEnvironmentFamilySubscriptionDetail.cs.html">here</a> to see an example of how to use GetFusionEnvironmentFamilySubscriptionDetail API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetFusionEnvironmentFamilySubscriptionDetail.cs.html">here</a> to see an example of how to use GetFusionEnvironmentFamilySubscriptionDetail API.</example>
         public async Task<GetFusionEnvironmentFamilySubscriptionDetailResponse> GetFusionEnvironmentFamilySubscriptionDetail(GetFusionEnvironmentFamilySubscriptionDetailRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFusionEnvironmentFamilySubscriptionDetail");
@@ -1829,7 +1829,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetFusionEnvironmentStatus.cs.html">here</a> to see an example of how to use GetFusionEnvironmentStatus API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetFusionEnvironmentStatus.cs.html">here</a> to see an example of how to use GetFusionEnvironmentStatus API.</example>
         public async Task<GetFusionEnvironmentStatusResponse> GetFusionEnvironmentStatus(GetFusionEnvironmentStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFusionEnvironmentStatus");
@@ -1885,7 +1885,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetMarketingBrand.cs.html">here</a> to see an example of how to use GetMarketingBrand API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetMarketingBrand.cs.html">here</a> to see an example of how to use GetMarketingBrand API.</example>
         public async Task<GetMarketingBrandResponse> GetMarketingBrand(GetMarketingBrandRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMarketingBrand");
@@ -1941,7 +1941,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetMicrosite.cs.html">here</a> to see an example of how to use GetMicrosite API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetMicrosite.cs.html">here</a> to see an example of how to use GetMicrosite API.</example>
         public async Task<GetMicrositeResponse> GetMicrosite(GetMicrositeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMicrosite");
@@ -1997,7 +1997,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetMicrositeDnsConfig.cs.html">here</a> to see an example of how to use GetMicrositeDnsConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetMicrositeDnsConfig.cs.html">here</a> to see an example of how to use GetMicrositeDnsConfig API.</example>
         public async Task<GetMicrositeDnsConfigResponse> GetMicrositeDnsConfig(GetMicrositeDnsConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMicrositeDnsConfig");
@@ -2053,7 +2053,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetRefreshActivity.cs.html">here</a> to see an example of how to use GetRefreshActivity API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetRefreshActivity.cs.html">here</a> to see an example of how to use GetRefreshActivity API.</example>
         public async Task<GetRefreshActivityResponse> GetRefreshActivity(GetRefreshActivityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRefreshActivity");
@@ -2109,7 +2109,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetScheduledActivity.cs.html">here</a> to see an example of how to use GetScheduledActivity API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetScheduledActivity.cs.html">here</a> to see an example of how to use GetScheduledActivity API.</example>
         public async Task<GetScheduledActivityResponse> GetScheduledActivity(GetScheduledActivityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getScheduledActivity");
@@ -2165,7 +2165,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetServiceAttachment.cs.html">here</a> to see an example of how to use GetServiceAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetServiceAttachment.cs.html">here</a> to see an example of how to use GetServiceAttachment API.</example>
         public async Task<GetServiceAttachmentResponse> GetServiceAttachment(GetServiceAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getServiceAttachment");
@@ -2222,7 +2222,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetVanityDomain.cs.html">here</a> to see an example of how to use GetVanityDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetVanityDomain.cs.html">here</a> to see an example of how to use GetVanityDomain API.</example>
         public async Task<GetVanityDomainResponse> GetVanityDomain(GetVanityDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVanityDomain");
@@ -2279,7 +2279,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetVanityDomainActivity.cs.html">here</a> to see an example of how to use GetVanityDomainActivity API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetVanityDomainActivity.cs.html">here</a> to see an example of how to use GetVanityDomainActivity API.</example>
         public async Task<GetVanityDomainActivityResponse> GetVanityDomainActivity(GetVanityDomainActivityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVanityDomainActivity");
@@ -2335,7 +2335,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -2392,7 +2392,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/InitiateExtract.cs.html">here</a> to see an example of how to use InitiateExtract API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/InitiateExtract.cs.html">here</a> to see an example of how to use InitiateExtract API.</example>
         public async Task<InitiateExtractResponse> InitiateExtract(InitiateExtractRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called initiateExtract");
@@ -2448,7 +2448,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListAdminUsers.cs.html">here</a> to see an example of how to use ListAdminUsers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListAdminUsers.cs.html">here</a> to see an example of how to use ListAdminUsers API.</example>
         public async Task<ListAdminUsersResponse> ListAdminUsers(ListAdminUsersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAdminUsers");
@@ -2505,7 +2505,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListDataMaskingActivities.cs.html">here</a> to see an example of how to use ListDataMaskingActivities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListDataMaskingActivities.cs.html">here</a> to see an example of how to use ListDataMaskingActivities API.</example>
         public async Task<ListDataMaskingActivitiesResponse> ListDataMaskingActivities(ListDataMaskingActivitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDataMaskingActivities");
@@ -2561,7 +2561,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListEmailSubdomains.cs.html">here</a> to see an example of how to use ListEmailSubdomains API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListEmailSubdomains.cs.html">here</a> to see an example of how to use ListEmailSubdomains API.</example>
         public async Task<ListEmailSubdomainsResponse> ListEmailSubdomains(ListEmailSubdomainsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listEmailSubdomains");
@@ -2618,7 +2618,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListFusionEnvironmentFamilies.cs.html">here</a> to see an example of how to use ListFusionEnvironmentFamilies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListFusionEnvironmentFamilies.cs.html">here</a> to see an example of how to use ListFusionEnvironmentFamilies API.</example>
         public async Task<ListFusionEnvironmentFamiliesResponse> ListFusionEnvironmentFamilies(ListFusionEnvironmentFamiliesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFusionEnvironmentFamilies");
@@ -2675,7 +2675,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListFusionEnvironments.cs.html">here</a> to see an example of how to use ListFusionEnvironments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListFusionEnvironments.cs.html">here</a> to see an example of how to use ListFusionEnvironments API.</example>
         public async Task<ListFusionEnvironmentsResponse> ListFusionEnvironments(ListFusionEnvironmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFusionEnvironments");
@@ -2731,7 +2731,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListMarketingBrands.cs.html">here</a> to see an example of how to use ListMarketingBrands API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListMarketingBrands.cs.html">here</a> to see an example of how to use ListMarketingBrands API.</example>
         public async Task<ListMarketingBrandsResponse> ListMarketingBrands(ListMarketingBrandsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMarketingBrands");
@@ -2787,7 +2787,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListMicrosites.cs.html">here</a> to see an example of how to use ListMicrosites API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListMicrosites.cs.html">here</a> to see an example of how to use ListMicrosites API.</example>
         public async Task<ListMicrositesResponse> ListMicrosites(ListMicrositesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMicrosites");
@@ -2844,7 +2844,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListRefreshActivities.cs.html">here</a> to see an example of how to use ListRefreshActivities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListRefreshActivities.cs.html">here</a> to see an example of how to use ListRefreshActivities API.</example>
         public async Task<ListRefreshActivitiesResponse> ListRefreshActivities(ListRefreshActivitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRefreshActivities");
@@ -2901,7 +2901,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListScheduledActivities.cs.html">here</a> to see an example of how to use ListScheduledActivities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListScheduledActivities.cs.html">here</a> to see an example of how to use ListScheduledActivities API.</example>
         public async Task<ListScheduledActivitiesResponse> ListScheduledActivities(ListScheduledActivitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listScheduledActivities");
@@ -2958,7 +2958,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListServiceAttachments.cs.html">here</a> to see an example of how to use ListServiceAttachments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListServiceAttachments.cs.html">here</a> to see an example of how to use ListServiceAttachments API.</example>
         public async Task<ListServiceAttachmentsResponse> ListServiceAttachments(ListServiceAttachmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listServiceAttachments");
@@ -3014,7 +3014,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListTimeAvailableForRefreshes.cs.html">here</a> to see an example of how to use ListTimeAvailableForRefreshes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListTimeAvailableForRefreshes.cs.html">here</a> to see an example of how to use ListTimeAvailableForRefreshes API.</example>
         public async Task<ListTimeAvailableForRefreshesResponse> ListTimeAvailableForRefreshes(ListTimeAvailableForRefreshesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTimeAvailableForRefreshes");
@@ -3071,7 +3071,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListVanityDomains.cs.html">here</a> to see an example of how to use ListVanityDomains API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListVanityDomains.cs.html">here</a> to see an example of how to use ListVanityDomains API.</example>
         public async Task<ListVanityDomainsResponse> ListVanityDomains(ListVanityDomainsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVanityDomains");
@@ -3128,7 +3128,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -3185,7 +3185,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -3242,7 +3242,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -3298,7 +3298,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/RequestEmailSubdomainCsr.cs.html">here</a> to see an example of how to use RequestEmailSubdomainCsr API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/RequestEmailSubdomainCsr.cs.html">here</a> to see an example of how to use RequestEmailSubdomainCsr API.</example>
         public async Task<RequestEmailSubdomainCsrResponse> RequestEmailSubdomainCsr(RequestEmailSubdomainCsrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestEmailSubdomainCsr");
@@ -3354,7 +3354,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ResetFusionEnvironmentPassword.cs.html">here</a> to see an example of how to use ResetFusionEnvironmentPassword API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ResetFusionEnvironmentPassword.cs.html">here</a> to see an example of how to use ResetFusionEnvironmentPassword API.</example>
         public async Task<ResetFusionEnvironmentPasswordResponse> ResetFusionEnvironmentPassword(ResetFusionEnvironmentPasswordRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called resetFusionEnvironmentPassword");
@@ -3411,7 +3411,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/SubmitVanityDomainValidation.cs.html">here</a> to see an example of how to use SubmitVanityDomainValidation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/SubmitVanityDomainValidation.cs.html">here</a> to see an example of how to use SubmitVanityDomainValidation API.</example>
         public async Task<SubmitVanityDomainValidationResponse> SubmitVanityDomainValidation(SubmitVanityDomainValidationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called submitVanityDomainValidation");
@@ -3467,7 +3467,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UpdateEmailSubdomain.cs.html">here</a> to see an example of how to use UpdateEmailSubdomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UpdateEmailSubdomain.cs.html">here</a> to see an example of how to use UpdateEmailSubdomain API.</example>
         public async Task<UpdateEmailSubdomainResponse> UpdateEmailSubdomain(UpdateEmailSubdomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateEmailSubdomain");
@@ -3523,7 +3523,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UpdateFusionEnvironment.cs.html">here</a> to see an example of how to use UpdateFusionEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UpdateFusionEnvironment.cs.html">here</a> to see an example of how to use UpdateFusionEnvironment API.</example>
         public async Task<UpdateFusionEnvironmentResponse> UpdateFusionEnvironment(UpdateFusionEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateFusionEnvironment");
@@ -3579,7 +3579,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UpdateFusionEnvironmentFamily.cs.html">here</a> to see an example of how to use UpdateFusionEnvironmentFamily API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UpdateFusionEnvironmentFamily.cs.html">here</a> to see an example of how to use UpdateFusionEnvironmentFamily API.</example>
         public async Task<UpdateFusionEnvironmentFamilyResponse> UpdateFusionEnvironmentFamily(UpdateFusionEnvironmentFamilyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateFusionEnvironmentFamily");
@@ -3635,7 +3635,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UpdateMarketingBrand.cs.html">here</a> to see an example of how to use UpdateMarketingBrand API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UpdateMarketingBrand.cs.html">here</a> to see an example of how to use UpdateMarketingBrand API.</example>
         public async Task<UpdateMarketingBrandResponse> UpdateMarketingBrand(UpdateMarketingBrandRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMarketingBrand");
@@ -3691,7 +3691,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UpdateMicrosite.cs.html">here</a> to see an example of how to use UpdateMicrosite API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UpdateMicrosite.cs.html">here</a> to see an example of how to use UpdateMicrosite API.</example>
         public async Task<UpdateMicrositeResponse> UpdateMicrosite(UpdateMicrositeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMicrosite");
@@ -3748,7 +3748,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UpdateRefreshActivity.cs.html">here</a> to see an example of how to use UpdateRefreshActivity API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UpdateRefreshActivity.cs.html">here</a> to see an example of how to use UpdateRefreshActivity API.</example>
         public async Task<UpdateRefreshActivityResponse> UpdateRefreshActivity(UpdateRefreshActivityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRefreshActivity");
@@ -3805,7 +3805,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UpdateVanityDomain.cs.html">here</a> to see an example of how to use UpdateVanityDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UpdateVanityDomain.cs.html">here</a> to see an example of how to use UpdateVanityDomain API.</example>
         public async Task<UpdateVanityDomainResponse> UpdateVanityDomain(UpdateVanityDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVanityDomain");
@@ -3862,7 +3862,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UpdateVanityDomainActivity.cs.html">here</a> to see an example of how to use UpdateVanityDomainActivity API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UpdateVanityDomainActivity.cs.html">here</a> to see an example of how to use UpdateVanityDomainActivity API.</example>
         public async Task<UpdateVanityDomainActivityResponse> UpdateVanityDomainActivity(UpdateVanityDomainActivityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVanityDomainActivity");
@@ -3918,7 +3918,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UploadEmailSubdomainCertificate.cs.html">here</a> to see an example of how to use UploadEmailSubdomainCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UploadEmailSubdomainCertificate.cs.html">here</a> to see an example of how to use UploadEmailSubdomainCertificate API.</example>
         public async Task<UploadEmailSubdomainCertificateResponse> UploadEmailSubdomainCertificate(UploadEmailSubdomainCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called uploadEmailSubdomainCertificate");
@@ -3975,7 +3975,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UploadVanityDomainCertificate.cs.html">here</a> to see an example of how to use UploadVanityDomainCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/UploadVanityDomainCertificate.cs.html">here</a> to see an example of how to use UploadVanityDomainCertificate API.</example>
         public async Task<UploadVanityDomainCertificateResponse> UploadVanityDomainCertificate(UploadVanityDomainCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called uploadVanityDomainCertificate");
@@ -4031,7 +4031,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ValidateAndConfigureEmailSubdomainCertificate.cs.html">here</a> to see an example of how to use ValidateAndConfigureEmailSubdomainCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ValidateAndConfigureEmailSubdomainCertificate.cs.html">here</a> to see an example of how to use ValidateAndConfigureEmailSubdomainCertificate API.</example>
         public async Task<ValidateAndConfigureEmailSubdomainCertificateResponse> ValidateAndConfigureEmailSubdomainCertificate(ValidateAndConfigureEmailSubdomainCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called validateAndConfigureEmailSubdomainCertificate");
@@ -4087,7 +4087,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ValidateAndConfigureEmailSubdomainDns.cs.html">here</a> to see an example of how to use ValidateAndConfigureEmailSubdomainDns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ValidateAndConfigureEmailSubdomainDns.cs.html">here</a> to see an example of how to use ValidateAndConfigureEmailSubdomainDns API.</example>
         public async Task<ValidateAndConfigureEmailSubdomainDnsResponse> ValidateAndConfigureEmailSubdomainDns(ValidateAndConfigureEmailSubdomainDnsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called validateAndConfigureEmailSubdomainDns");
@@ -4143,7 +4143,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ValidateAndConfigureMicrositeDns.cs.html">here</a> to see an example of how to use ValidateAndConfigureMicrositeDns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ValidateAndConfigureMicrositeDns.cs.html">here</a> to see an example of how to use ValidateAndConfigureMicrositeDns API.</example>
         public async Task<ValidateAndConfigureMicrositeDnsResponse> ValidateAndConfigureMicrositeDns(ValidateAndConfigureMicrositeDnsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called validateAndConfigureMicrositeDns");
@@ -4200,7 +4200,7 @@ namespace Oci.FusionappsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/VerifyServiceAttachment.cs.html">here</a> to see an example of how to use VerifyServiceAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/VerifyServiceAttachment.cs.html">here</a> to see an example of how to use VerifyServiceAttachment API.</example>
         public async Task<VerifyServiceAttachmentResponse> VerifyServiceAttachment(VerifyServiceAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called verifyServiceAttachment");

@@ -22,7 +22,7 @@ namespace Oci.JmsService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Managed Instance running the plugin.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Managed Instance running the plugin.
         /// </value>
         /// <remarks>
         /// Required
@@ -45,7 +45,7 @@ namespace Oci.JmsService.Models
         public string HostName { get; set; }
         
         /// <value>
-        /// The compartment [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Fleet.
+        /// The compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Fleet.
         /// 
         /// </value>
         /// <remarks>

@@ -26,7 +26,7 @@ namespace Oci.CoreService.Models
     /// specified `shape`, an error is returned.
     /// <br/>
     /// For more information about customizing the resources that are allocated to flexible shapes,
-    /// see [Flexible Shapes](https://docs.cloud.oracle.com/iaas/Content/Compute/References/computeshapes.htm#flexible).
+    /// see [Flexible Shapes](https://docs.oracle.com/iaas/Content/Compute/References/computeshapes.htm#flexible).
     /// 
     /// </summary>
     public class InstanceReservationShapeConfigDetails 

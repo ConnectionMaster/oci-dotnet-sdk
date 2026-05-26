@@ -82,7 +82,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/AssociateDrProtectionGroup.cs.html">here</a> to see an example of how to use AssociateDrProtectionGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/AssociateDrProtectionGroup.cs.html">here</a> to see an example of how to use AssociateDrProtectionGroup API.</example>
         public async Task<AssociateDrProtectionGroupResponse> AssociateDrProtectionGroup(AssociateDrProtectionGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called associateDrProtectionGroup");
@@ -138,7 +138,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/CancelDrPlanExecution.cs.html">here</a> to see an example of how to use CancelDrPlanExecution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/CancelDrPlanExecution.cs.html">here</a> to see an example of how to use CancelDrPlanExecution API.</example>
         public async Task<CancelDrPlanExecutionResponse> CancelDrPlanExecution(CancelDrPlanExecutionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelDrPlanExecution");
@@ -194,7 +194,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
         public async Task<CancelWorkRequestResponse> CancelWorkRequest(CancelWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelWorkRequest");
@@ -250,7 +250,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ChangeDrProtectionGroupCompartment.cs.html">here</a> to see an example of how to use ChangeDrProtectionGroupCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ChangeDrProtectionGroupCompartment.cs.html">here</a> to see an example of how to use ChangeDrProtectionGroupCompartment API.</example>
         public async Task<ChangeDrProtectionGroupCompartmentResponse> ChangeDrProtectionGroupCompartment(ChangeDrProtectionGroupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDrProtectionGroupCompartment");
@@ -306,7 +306,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/CreateAutomaticDrConfiguration.cs.html">here</a> to see an example of how to use CreateAutomaticDrConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/CreateAutomaticDrConfiguration.cs.html">here</a> to see an example of how to use CreateAutomaticDrConfiguration API.</example>
         public async Task<CreateAutomaticDrConfigurationResponse> CreateAutomaticDrConfiguration(CreateAutomaticDrConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAutomaticDrConfiguration");
@@ -362,7 +362,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/CreateDrPlan.cs.html">here</a> to see an example of how to use CreateDrPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/CreateDrPlan.cs.html">here</a> to see an example of how to use CreateDrPlan API.</example>
         public async Task<CreateDrPlanResponse> CreateDrPlan(CreateDrPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDrPlan");
@@ -418,7 +418,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/CreateDrPlanExecution.cs.html">here</a> to see an example of how to use CreateDrPlanExecution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/CreateDrPlanExecution.cs.html">here</a> to see an example of how to use CreateDrPlanExecution API.</example>
         public async Task<CreateDrPlanExecutionResponse> CreateDrPlanExecution(CreateDrPlanExecutionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDrPlanExecution");
@@ -474,7 +474,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/CreateDrProtectionGroup.cs.html">here</a> to see an example of how to use CreateDrProtectionGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/CreateDrProtectionGroup.cs.html">here</a> to see an example of how to use CreateDrProtectionGroup API.</example>
         public async Task<CreateDrProtectionGroupResponse> CreateDrProtectionGroup(CreateDrProtectionGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDrProtectionGroup");
@@ -530,7 +530,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/DeleteAutomaticDrConfiguration.cs.html">here</a> to see an example of how to use DeleteAutomaticDrConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/DeleteAutomaticDrConfiguration.cs.html">here</a> to see an example of how to use DeleteAutomaticDrConfiguration API.</example>
         public async Task<DeleteAutomaticDrConfigurationResponse> DeleteAutomaticDrConfiguration(DeleteAutomaticDrConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAutomaticDrConfiguration");
@@ -586,7 +586,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/DeleteDrPlan.cs.html">here</a> to see an example of how to use DeleteDrPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/DeleteDrPlan.cs.html">here</a> to see an example of how to use DeleteDrPlan API.</example>
         public async Task<DeleteDrPlanResponse> DeleteDrPlan(DeleteDrPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDrPlan");
@@ -642,7 +642,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/DeleteDrPlanExecution.cs.html">here</a> to see an example of how to use DeleteDrPlanExecution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/DeleteDrPlanExecution.cs.html">here</a> to see an example of how to use DeleteDrPlanExecution API.</example>
         public async Task<DeleteDrPlanExecutionResponse> DeleteDrPlanExecution(DeleteDrPlanExecutionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDrPlanExecution");
@@ -698,7 +698,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/DeleteDrProtectionGroup.cs.html">here</a> to see an example of how to use DeleteDrProtectionGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/DeleteDrProtectionGroup.cs.html">here</a> to see an example of how to use DeleteDrProtectionGroup API.</example>
         public async Task<DeleteDrProtectionGroupResponse> DeleteDrProtectionGroup(DeleteDrProtectionGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDrProtectionGroup");
@@ -756,7 +756,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/DisassociateDrProtectionGroup.cs.html">here</a> to see an example of how to use DisassociateDrProtectionGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/DisassociateDrProtectionGroup.cs.html">here</a> to see an example of how to use DisassociateDrProtectionGroup API.</example>
         public async Task<DisassociateDrProtectionGroupResponse> DisassociateDrProtectionGroup(DisassociateDrProtectionGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disassociateDrProtectionGroup");
@@ -812,7 +812,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/GetAutomaticDrConfiguration.cs.html">here</a> to see an example of how to use GetAutomaticDrConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/GetAutomaticDrConfiguration.cs.html">here</a> to see an example of how to use GetAutomaticDrConfiguration API.</example>
         public async Task<GetAutomaticDrConfigurationResponse> GetAutomaticDrConfiguration(GetAutomaticDrConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAutomaticDrConfiguration");
@@ -868,7 +868,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/GetDrPlan.cs.html">here</a> to see an example of how to use GetDrPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/GetDrPlan.cs.html">here</a> to see an example of how to use GetDrPlan API.</example>
         public async Task<GetDrPlanResponse> GetDrPlan(GetDrPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDrPlan");
@@ -924,7 +924,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/GetDrPlanExecution.cs.html">here</a> to see an example of how to use GetDrPlanExecution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/GetDrPlanExecution.cs.html">here</a> to see an example of how to use GetDrPlanExecution API.</example>
         public async Task<GetDrPlanExecutionResponse> GetDrPlanExecution(GetDrPlanExecutionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDrPlanExecution");
@@ -980,7 +980,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/GetDrProtectionGroup.cs.html">here</a> to see an example of how to use GetDrProtectionGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/GetDrProtectionGroup.cs.html">here</a> to see an example of how to use GetDrProtectionGroup API.</example>
         public async Task<GetDrProtectionGroupResponse> GetDrProtectionGroup(GetDrProtectionGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDrProtectionGroup");
@@ -1036,7 +1036,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -1092,7 +1092,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/IgnoreDrPlanExecution.cs.html">here</a> to see an example of how to use IgnoreDrPlanExecution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/IgnoreDrPlanExecution.cs.html">here</a> to see an example of how to use IgnoreDrPlanExecution API.</example>
         public async Task<IgnoreDrPlanExecutionResponse> IgnoreDrPlanExecution(IgnoreDrPlanExecutionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called ignoreDrPlanExecution");
@@ -1148,7 +1148,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ListAutomaticDrConfigurations.cs.html">here</a> to see an example of how to use ListAutomaticDrConfigurations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ListAutomaticDrConfigurations.cs.html">here</a> to see an example of how to use ListAutomaticDrConfigurations API.</example>
         public async Task<ListAutomaticDrConfigurationsResponse> ListAutomaticDrConfigurations(ListAutomaticDrConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAutomaticDrConfigurations");
@@ -1204,7 +1204,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ListDrPlanExecutions.cs.html">here</a> to see an example of how to use ListDrPlanExecutions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ListDrPlanExecutions.cs.html">here</a> to see an example of how to use ListDrPlanExecutions API.</example>
         public async Task<ListDrPlanExecutionsResponse> ListDrPlanExecutions(ListDrPlanExecutionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDrPlanExecutions");
@@ -1260,7 +1260,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ListDrPlans.cs.html">here</a> to see an example of how to use ListDrPlans API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ListDrPlans.cs.html">here</a> to see an example of how to use ListDrPlans API.</example>
         public async Task<ListDrPlansResponse> ListDrPlans(ListDrPlansRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDrPlans");
@@ -1316,7 +1316,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ListDrProtectionGroups.cs.html">here</a> to see an example of how to use ListDrProtectionGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ListDrProtectionGroups.cs.html">here</a> to see an example of how to use ListDrProtectionGroups API.</example>
         public async Task<ListDrProtectionGroupsResponse> ListDrProtectionGroups(ListDrProtectionGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDrProtectionGroups");
@@ -1373,7 +1373,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -1430,7 +1430,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -1487,7 +1487,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1543,7 +1543,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/PauseDrPlanExecution.cs.html">here</a> to see an example of how to use PauseDrPlanExecution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/PauseDrPlanExecution.cs.html">here</a> to see an example of how to use PauseDrPlanExecution API.</example>
         public async Task<PauseDrPlanExecutionResponse> PauseDrPlanExecution(PauseDrPlanExecutionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called pauseDrPlanExecution");
@@ -1599,7 +1599,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/RefreshDrPlan.cs.html">here</a> to see an example of how to use RefreshDrPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/RefreshDrPlan.cs.html">here</a> to see an example of how to use RefreshDrPlan API.</example>
         public async Task<RefreshDrPlanResponse> RefreshDrPlan(RefreshDrPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshDrPlan");
@@ -1655,7 +1655,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ResumeDrPlanExecution.cs.html">here</a> to see an example of how to use ResumeDrPlanExecution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/ResumeDrPlanExecution.cs.html">here</a> to see an example of how to use ResumeDrPlanExecution API.</example>
         public async Task<ResumeDrPlanExecutionResponse> ResumeDrPlanExecution(ResumeDrPlanExecutionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called resumeDrPlanExecution");
@@ -1711,7 +1711,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/RetryDrPlanExecution.cs.html">here</a> to see an example of how to use RetryDrPlanExecution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/RetryDrPlanExecution.cs.html">here</a> to see an example of how to use RetryDrPlanExecution API.</example>
         public async Task<RetryDrPlanExecutionResponse> RetryDrPlanExecution(RetryDrPlanExecutionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called retryDrPlanExecution");
@@ -1767,7 +1767,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/UpdateAutomaticDrConfiguration.cs.html">here</a> to see an example of how to use UpdateAutomaticDrConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/UpdateAutomaticDrConfiguration.cs.html">here</a> to see an example of how to use UpdateAutomaticDrConfiguration API.</example>
         public async Task<UpdateAutomaticDrConfigurationResponse> UpdateAutomaticDrConfiguration(UpdateAutomaticDrConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAutomaticDrConfiguration");
@@ -1823,7 +1823,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/UpdateDrPlan.cs.html">here</a> to see an example of how to use UpdateDrPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/UpdateDrPlan.cs.html">here</a> to see an example of how to use UpdateDrPlan API.</example>
         public async Task<UpdateDrPlanResponse> UpdateDrPlan(UpdateDrPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrPlan");
@@ -1879,7 +1879,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/UpdateDrPlanExecution.cs.html">here</a> to see an example of how to use UpdateDrPlanExecution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/UpdateDrPlanExecution.cs.html">here</a> to see an example of how to use UpdateDrPlanExecution API.</example>
         public async Task<UpdateDrPlanExecutionResponse> UpdateDrPlanExecution(UpdateDrPlanExecutionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrPlanExecution");
@@ -1935,7 +1935,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/UpdateDrProtectionGroup.cs.html">here</a> to see an example of how to use UpdateDrProtectionGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/UpdateDrProtectionGroup.cs.html">here</a> to see an example of how to use UpdateDrProtectionGroup API.</example>
         public async Task<UpdateDrProtectionGroupResponse> UpdateDrProtectionGroup(UpdateDrProtectionGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrProtectionGroup");
@@ -1991,7 +1991,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/UpdateDrProtectionGroupRole.cs.html">here</a> to see an example of how to use UpdateDrProtectionGroupRole API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/UpdateDrProtectionGroupRole.cs.html">here</a> to see an example of how to use UpdateDrProtectionGroupRole API.</example>
         public async Task<UpdateDrProtectionGroupRoleResponse> UpdateDrProtectionGroupRole(UpdateDrProtectionGroupRoleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrProtectionGroupRole");
@@ -2047,7 +2047,7 @@ namespace Oci.DisasterrecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/VerifyDrPlan.cs.html">here</a> to see an example of how to use VerifyDrPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/VerifyDrPlan.cs.html">here</a> to see an example of how to use VerifyDrPlan API.</example>
         public async Task<VerifyDrPlanResponse> VerifyDrPlan(VerifyDrPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called verifyDrPlan");

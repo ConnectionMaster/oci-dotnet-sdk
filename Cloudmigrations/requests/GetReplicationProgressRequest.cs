@@ -14,7 +14,7 @@ using Oci.CloudmigrationsService.Models;
 namespace Oci.CloudmigrationsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetReplicationProgress.cs.html">here</a> to see an example of how to use GetReplicationProgress request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetReplicationProgress.cs.html">here</a> to see an example of how to use GetReplicationProgress request.
     /// </example>
     public class GetReplicationProgressRequest : Oci.Common.IOciRequest
     {

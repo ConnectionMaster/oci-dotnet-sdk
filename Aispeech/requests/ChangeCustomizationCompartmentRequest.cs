@@ -14,7 +14,7 @@ using Oci.AispeechService.Models;
 namespace Oci.AispeechService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ChangeCustomizationCompartment.cs.html">here</a> to see an example of how to use ChangeCustomizationCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ChangeCustomizationCompartment.cs.html">here</a> to see an example of how to use ChangeCustomizationCompartment request.
     /// </example>
     public class ChangeCustomizationCompartmentRequest : Oci.Common.IOciRequest
     {

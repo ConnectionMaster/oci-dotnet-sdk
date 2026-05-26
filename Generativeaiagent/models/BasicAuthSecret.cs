@@ -23,7 +23,7 @@ namespace Oci.GenerativeaiagentService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the secret for basic authentication.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the secret for basic authentication.
         /// </value>
         /// <remarks>
         /// Required

@@ -35,7 +35,7 @@ namespace Oci.CoreService.Models
         public string AvailabilityDomain { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the compartment. This should always be the root
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the compartment. This should always be the root
         /// compartment.
         /// 
         /// </value>
@@ -47,7 +47,7 @@ namespace Oci.CoreService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the Customer-unique host
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the Customer-unique host
         /// 
         /// </value>
         /// <remarks>
@@ -75,7 +75,7 @@ namespace Oci.CoreService.Models
         public string FaultDomain { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for Customer-unique HPC Island
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for Customer-unique HPC Island
         /// 
         /// </value>
         [JsonProperty(PropertyName = "hpcIslandId")]
@@ -89,7 +89,7 @@ namespace Oci.CoreService.Models
         public string HostCorrelationId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the Customer-unique host group
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the Customer-unique host group
         /// 
         /// </value>
         [JsonProperty(PropertyName = "computeHostGroupId")]
@@ -99,28 +99,28 @@ namespace Oci.CoreService.Models
         public RecycleDetails RecycleDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for Customer-unique Network Block
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for Customer-unique Network Block
         /// 
         /// </value>
         [JsonProperty(PropertyName = "networkBlockId")]
         public string NetworkBlockId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for Customer-unique Local Block
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for Customer-unique Local Block
         /// 
         /// </value>
         [JsonProperty(PropertyName = "localBlockId")]
         public string LocalBlockId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for Customer-unique GPU Memory Fabric
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for Customer-unique GPU Memory Fabric
         /// 
         /// </value>
         [JsonProperty(PropertyName = "gpuMemoryFabricId")]
         public string GpuMemoryFabricId { get; set; }
         
         /// <value>
-        /// The public [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the Virtual Machine or Bare Metal instance
+        /// The public [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the Virtual Machine or Bare Metal instance
         /// 
         /// </value>
         [JsonProperty(PropertyName = "instanceId")]
@@ -169,7 +169,7 @@ namespace Oci.CoreService.Models
         public System.Nullable<ComputeHost.LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the Capacity Reserver that is currently on host
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the Capacity Reserver that is currently on host
         /// 
         /// </value>
         [JsonProperty(PropertyName = "capacityReservationId")]
@@ -214,7 +214,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -231,7 +231,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>

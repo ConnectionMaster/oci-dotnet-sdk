@@ -14,7 +14,7 @@ using Oci.IntegrationService.Models;
 namespace Oci.IntegrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/DisasterRecoveryFailover.cs.html">here</a> to see an example of how to use DisasterRecoveryFailover request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/DisasterRecoveryFailover.cs.html">here</a> to see an example of how to use DisasterRecoveryFailover request.
     /// </example>
     public class DisasterRecoveryFailoverRequest : Oci.Common.IOciRequest
     {

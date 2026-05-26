@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListCloudAutonomousVmClusterAcdResourceUsage.cs.html">here</a> to see an example of how to use ListCloudAutonomousVmClusterAcdResourceUsage request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListCloudAutonomousVmClusterAcdResourceUsage.cs.html">here</a> to see an example of how to use ListCloudAutonomousVmClusterAcdResourceUsage request.
     /// </example>
     public class ListCloudAutonomousVmClusterAcdResourceUsageRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The Cloud VM cluster [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The Cloud VM cluster [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.DatabaseService.Requests
         public string CloudAutonomousVmClusterId { get; set; }
         
         /// <value>
-        /// The compartment [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "compartmentId")]
         public string CompartmentId { get; set; }

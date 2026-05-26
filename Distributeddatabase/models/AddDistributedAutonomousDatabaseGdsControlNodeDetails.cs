@@ -33,7 +33,7 @@ namespace Oci.DistributeddatabaseService.Models
         public string PublicSshKey { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the subnet on which the Global database services control(GDS CTL) node should be created.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet on which the Global database services control(GDS CTL) node should be created.
         /// </value>
         [JsonProperty(PropertyName = "subnetId")]
         public string SubnetId { get; set; }

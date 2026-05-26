@@ -22,7 +22,7 @@ namespace Oci.VnmonitoringService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the flex tunnel.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the flex tunnel.
         /// </value>
         /// <remarks>
         /// Required

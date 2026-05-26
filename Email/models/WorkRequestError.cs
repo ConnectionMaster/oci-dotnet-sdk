@@ -22,7 +22,7 @@ namespace Oci.EmailService.Models
     {
         
         /// <value>
-        /// A machine-usable code for the error that occurred. Refer to [API Errors](https://docs.cloud.oracle.com/Content/API/References/apierrors.htm) for a list of error codes.
+        /// A machine-usable code for the error that occurred. Refer to [API Errors](https://docs.oracle.com/iaas/Content/API/References/apierrors.htm) for a list of error codes.
         /// 
         /// </value>
         /// <remarks>

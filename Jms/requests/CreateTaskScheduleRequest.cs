@@ -14,7 +14,7 @@ using Oci.JmsService.Models;
 namespace Oci.JmsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/CreateTaskSchedule.cs.html">here</a> to see an example of how to use CreateTaskSchedule request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/CreateTaskSchedule.cs.html">here</a> to see an example of how to use CreateTaskSchedule request.
     /// </example>
     public class CreateTaskScheduleRequest : Oci.Common.IOciRequest
     {

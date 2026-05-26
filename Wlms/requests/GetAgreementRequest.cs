@@ -14,7 +14,7 @@ using Oci.WlmsService.Models;
 namespace Oci.WlmsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetAgreement.cs.html">here</a> to see an example of how to use GetAgreement request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetAgreement.cs.html">here</a> to see an example of how to use GetAgreement request.
     /// </example>
     public class GetAgreementRequest : Oci.Common.IOciRequest
     {

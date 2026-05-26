@@ -81,7 +81,7 @@ namespace Oci.GovernancerulescontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/CreateGovernanceRule.cs.html">here</a> to see an example of how to use CreateGovernanceRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/CreateGovernanceRule.cs.html">here</a> to see an example of how to use CreateGovernanceRule API.</example>
         public async Task<CreateGovernanceRuleResponse> CreateGovernanceRule(CreateGovernanceRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createGovernanceRule");
@@ -138,7 +138,7 @@ namespace Oci.GovernancerulescontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/CreateInclusionCriterion.cs.html">here</a> to see an example of how to use CreateInclusionCriterion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/CreateInclusionCriterion.cs.html">here</a> to see an example of how to use CreateInclusionCriterion API.</example>
         public async Task<CreateInclusionCriterionResponse> CreateInclusionCriterion(CreateInclusionCriterionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createInclusionCriterion");
@@ -194,7 +194,7 @@ namespace Oci.GovernancerulescontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/DeleteGovernanceRule.cs.html">here</a> to see an example of how to use DeleteGovernanceRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/DeleteGovernanceRule.cs.html">here</a> to see an example of how to use DeleteGovernanceRule API.</example>
         public async Task<DeleteGovernanceRuleResponse> DeleteGovernanceRule(DeleteGovernanceRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteGovernanceRule");
@@ -250,7 +250,7 @@ namespace Oci.GovernancerulescontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/DeleteInclusionCriterion.cs.html">here</a> to see an example of how to use DeleteInclusionCriterion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/DeleteInclusionCriterion.cs.html">here</a> to see an example of how to use DeleteInclusionCriterion API.</example>
         public async Task<DeleteInclusionCriterionResponse> DeleteInclusionCriterion(DeleteInclusionCriterionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteInclusionCriterion");
@@ -306,7 +306,7 @@ namespace Oci.GovernancerulescontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/GetEnforcedGovernanceRule.cs.html">here</a> to see an example of how to use GetEnforcedGovernanceRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/GetEnforcedGovernanceRule.cs.html">here</a> to see an example of how to use GetEnforcedGovernanceRule API.</example>
         public async Task<GetEnforcedGovernanceRuleResponse> GetEnforcedGovernanceRule(GetEnforcedGovernanceRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getEnforcedGovernanceRule");
@@ -362,7 +362,7 @@ namespace Oci.GovernancerulescontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/GetGovernanceRule.cs.html">here</a> to see an example of how to use GetGovernanceRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/GetGovernanceRule.cs.html">here</a> to see an example of how to use GetGovernanceRule API.</example>
         public async Task<GetGovernanceRuleResponse> GetGovernanceRule(GetGovernanceRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getGovernanceRule");
@@ -418,7 +418,7 @@ namespace Oci.GovernancerulescontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/GetInclusionCriterion.cs.html">here</a> to see an example of how to use GetInclusionCriterion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/GetInclusionCriterion.cs.html">here</a> to see an example of how to use GetInclusionCriterion API.</example>
         public async Task<GetInclusionCriterionResponse> GetInclusionCriterion(GetInclusionCriterionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getInclusionCriterion");
@@ -474,7 +474,7 @@ namespace Oci.GovernancerulescontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/GetTenancyAttachment.cs.html">here</a> to see an example of how to use GetTenancyAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/GetTenancyAttachment.cs.html">here</a> to see an example of how to use GetTenancyAttachment API.</example>
         public async Task<GetTenancyAttachmentResponse> GetTenancyAttachment(GetTenancyAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTenancyAttachment");
@@ -532,7 +532,7 @@ namespace Oci.GovernancerulescontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/ListEnforcedGovernanceRules.cs.html">here</a> to see an example of how to use ListEnforcedGovernanceRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/ListEnforcedGovernanceRules.cs.html">here</a> to see an example of how to use ListEnforcedGovernanceRules API.</example>
         public async Task<ListEnforcedGovernanceRulesResponse> ListEnforcedGovernanceRules(ListEnforcedGovernanceRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listEnforcedGovernanceRules");
@@ -590,7 +590,7 @@ namespace Oci.GovernancerulescontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/ListGovernanceRules.cs.html">here</a> to see an example of how to use ListGovernanceRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/ListGovernanceRules.cs.html">here</a> to see an example of how to use ListGovernanceRules API.</example>
         public async Task<ListGovernanceRulesResponse> ListGovernanceRules(ListGovernanceRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listGovernanceRules");
@@ -648,7 +648,7 @@ namespace Oci.GovernancerulescontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/ListInclusionCriteria.cs.html">here</a> to see an example of how to use ListInclusionCriteria API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/ListInclusionCriteria.cs.html">here</a> to see an example of how to use ListInclusionCriteria API.</example>
         public async Task<ListInclusionCriteriaResponse> ListInclusionCriteria(ListInclusionCriteriaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInclusionCriteria");
@@ -706,7 +706,7 @@ namespace Oci.GovernancerulescontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/ListTenancyAttachments.cs.html">here</a> to see an example of how to use ListTenancyAttachments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/ListTenancyAttachments.cs.html">here</a> to see an example of how to use ListTenancyAttachments API.</example>
         public async Task<ListTenancyAttachmentsResponse> ListTenancyAttachments(ListTenancyAttachmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTenancyAttachments");
@@ -765,7 +765,7 @@ namespace Oci.GovernancerulescontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/RetryGovernanceRule.cs.html">here</a> to see an example of how to use RetryGovernanceRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/RetryGovernanceRule.cs.html">here</a> to see an example of how to use RetryGovernanceRule API.</example>
         public async Task<RetryGovernanceRuleResponse> RetryGovernanceRule(RetryGovernanceRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called retryGovernanceRule");
@@ -823,7 +823,7 @@ namespace Oci.GovernancerulescontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/RetryTenancyAttachment.cs.html">here</a> to see an example of how to use RetryTenancyAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/RetryTenancyAttachment.cs.html">here</a> to see an example of how to use RetryTenancyAttachment API.</example>
         public async Task<RetryTenancyAttachmentResponse> RetryTenancyAttachment(RetryTenancyAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called retryTenancyAttachment");
@@ -879,7 +879,7 @@ namespace Oci.GovernancerulescontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/UpdateGovernanceRule.cs.html">here</a> to see an example of how to use UpdateGovernanceRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/UpdateGovernanceRule.cs.html">here</a> to see an example of how to use UpdateGovernanceRule API.</example>
         public async Task<UpdateGovernanceRuleResponse> UpdateGovernanceRule(UpdateGovernanceRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateGovernanceRule");

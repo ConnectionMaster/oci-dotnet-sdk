@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FleetsoftwareupdateService.Models
 {
     /// <summary>
-    /// The [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of associated resources to include when discovering Exadata VM Cluster targets for a 'GUEST_OS' collection.
+    /// The [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of associated resources to include when discovering Exadata VM Cluster targets for a 'GUEST_OS' collection.
     /// 
     /// </summary>
     public class GuestOsResourceIdFilter : GuestOsFleetDiscoveryFilter
@@ -56,7 +56,7 @@ namespace Oci.FleetsoftwareupdateService.Models
         public System.Nullable<EntityTypeEnum> EntityType { get; set; }
         
         /// <value>
-        /// The [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of associated resources to include when discovering Exadata VM Cluster targets for a 'GUEST_OS' collection. 
+        /// The [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of associated resources to include when discovering Exadata VM Cluster targets for a 'GUEST_OS' collection. 
         /// Specified resources must match the specified 'entityType'.
         /// FsuCollection of type 'GI' or 'GUEST_OS' can be specified.
         /// 

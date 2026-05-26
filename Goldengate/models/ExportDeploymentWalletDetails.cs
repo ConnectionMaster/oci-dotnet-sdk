@@ -58,7 +58,7 @@ namespace Oci.GoldengateService.Models
         public string SecretName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment, where the secret will be created in.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment, where the secret will be created in.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "secretCompartmentId")]

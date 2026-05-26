@@ -14,7 +14,7 @@ using Oci.MarketplaceService.Models;
 namespace Oci.MarketplaceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/CreatePublication.cs.html">here</a> to see an example of how to use CreatePublication request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/CreatePublication.cs.html">here</a> to see an example of how to use CreatePublication request.
     /// </example>
     public class CreatePublicationRequest : Oci.Common.IOciRequest
     {

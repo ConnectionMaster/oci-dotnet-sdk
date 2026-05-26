@@ -14,7 +14,7 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetComputeGpuMemoryCluster.cs.html">here</a> to see an example of how to use GetComputeGpuMemoryCluster request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetComputeGpuMemoryCluster.cs.html">here</a> to see an example of how to use GetComputeGpuMemoryCluster request.
     /// </example>
     public class GetComputeGpuMemoryClusterRequest : Oci.Common.IOciRequest
     {

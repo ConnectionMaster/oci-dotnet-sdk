@@ -22,7 +22,7 @@ namespace Oci.OsmanagementhubService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the managed instance group.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the managed instance group.
         /// </value>
         /// <remarks>
         /// Required
@@ -32,7 +32,7 @@ namespace Oci.OsmanagementhubService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the managed instance group.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the managed instance group.
         /// </value>
         /// <remarks>
         /// Required
@@ -120,7 +120,7 @@ namespace Oci.OsmanagementhubService.Models
         public System.Nullable<VendorName> VendorName { get; set; }
         
         /// <value>
-        /// The list of software source [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that the managed instance group will use.
+        /// The list of software source [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that the managed instance group will use.
         /// </value>
         [JsonProperty(PropertyName = "softwareSourceIds")]
         public System.Collections.Generic.List<SoftwareSourceDetails> SoftwareSourceIds { get; set; }
@@ -132,7 +132,7 @@ namespace Oci.OsmanagementhubService.Models
         public System.Collections.Generic.List<SoftwareSourceDetails> SoftwareSources { get; set; }
         
         /// <value>
-        /// The list of managed instance [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) attached to the managed instance group.
+        /// The list of managed instance [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) attached to the managed instance group.
         /// </value>
         [JsonProperty(PropertyName = "managedInstanceIds")]
         public System.Collections.Generic.List<string> ManagedInstanceIds { get; set; }
@@ -157,7 +157,7 @@ namespace Oci.OsmanagementhubService.Models
         public System.Nullable<int> PendingJobCount { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the Oracle Notifications service (ONS) topic. ONS is the channel used to send notifications to the customer.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the Oracle Notifications service (ONS) topic. ONS is the channel used to send notifications to the customer.
         /// </value>
         [JsonProperty(PropertyName = "notificationTopicId")]
         public string NotificationTopicId { get; set; }
@@ -173,7 +173,7 @@ namespace Oci.OsmanagementhubService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
         [JsonProperty(PropertyName = "freeformTags")]
@@ -181,7 +181,7 @@ namespace Oci.OsmanagementhubService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]

@@ -14,7 +14,7 @@ using Oci.IdentitydomainsService.Models;
 namespace Oci.IdentitydomainsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListBrandingSettings.cs.html">here</a> to see an example of how to use ListBrandingSettings request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListBrandingSettings.cs.html">here</a> to see an example of how to use ListBrandingSettings request.
     /// </example>
     public class ListBrandingSettingsRequest : Oci.Common.IOciRequest
     {

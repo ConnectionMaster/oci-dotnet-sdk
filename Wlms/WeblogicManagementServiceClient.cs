@@ -81,7 +81,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ChangeWlsDomainCompartment.cs.html">here</a> to see an example of how to use ChangeWlsDomainCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ChangeWlsDomainCompartment.cs.html">here</a> to see an example of how to use ChangeWlsDomainCompartment API.</example>
         public async Task<ChangeWlsDomainCompartmentResponse> ChangeWlsDomainCompartment(ChangeWlsDomainCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeWlsDomainCompartment");
@@ -138,7 +138,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/CreateAgreementRecord.cs.html">here</a> to see an example of how to use CreateAgreementRecord API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/CreateAgreementRecord.cs.html">here</a> to see an example of how to use CreateAgreementRecord API.</example>
         public async Task<CreateAgreementRecordResponse> CreateAgreementRecord(CreateAgreementRecordRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAgreementRecord");
@@ -195,7 +195,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/DeleteWlsDomain.cs.html">here</a> to see an example of how to use DeleteWlsDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/DeleteWlsDomain.cs.html">here</a> to see an example of how to use DeleteWlsDomain API.</example>
         public async Task<DeleteWlsDomainResponse> DeleteWlsDomain(DeleteWlsDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteWlsDomain");
@@ -252,7 +252,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetAgreement.cs.html">here</a> to see an example of how to use GetAgreement API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetAgreement.cs.html">here</a> to see an example of how to use GetAgreement API.</example>
         public async Task<GetAgreementResponse> GetAgreement(GetAgreementRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAgreement");
@@ -309,7 +309,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetManagedInstance.cs.html">here</a> to see an example of how to use GetManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetManagedInstance.cs.html">here</a> to see an example of how to use GetManagedInstance API.</example>
         public async Task<GetManagedInstanceResponse> GetManagedInstance(GetManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getManagedInstance");
@@ -366,7 +366,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetManagedInstanceServer.cs.html">here</a> to see an example of how to use GetManagedInstanceServer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetManagedInstanceServer.cs.html">here</a> to see an example of how to use GetManagedInstanceServer API.</example>
         public async Task<GetManagedInstanceServerResponse> GetManagedInstanceServer(GetManagedInstanceServerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getManagedInstanceServer");
@@ -423,7 +423,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetWlsDomain.cs.html">here</a> to see an example of how to use GetWlsDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetWlsDomain.cs.html">here</a> to see an example of how to use GetWlsDomain API.</example>
         public async Task<GetWlsDomainResponse> GetWlsDomain(GetWlsDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWlsDomain");
@@ -480,7 +480,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetWlsDomainCredential.cs.html">here</a> to see an example of how to use GetWlsDomainCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetWlsDomainCredential.cs.html">here</a> to see an example of how to use GetWlsDomainCredential API.</example>
         public async Task<GetWlsDomainCredentialResponse> GetWlsDomainCredential(GetWlsDomainCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWlsDomainCredential");
@@ -537,7 +537,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetWlsDomainServer.cs.html">here</a> to see an example of how to use GetWlsDomainServer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetWlsDomainServer.cs.html">here</a> to see an example of how to use GetWlsDomainServer API.</example>
         public async Task<GetWlsDomainServerResponse> GetWlsDomainServer(GetWlsDomainServerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWlsDomainServer");
@@ -594,7 +594,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetWlsDomainServerBackup.cs.html">here</a> to see an example of how to use GetWlsDomainServerBackup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetWlsDomainServerBackup.cs.html">here</a> to see an example of how to use GetWlsDomainServerBackup API.</example>
         public async Task<GetWlsDomainServerBackupResponse> GetWlsDomainServerBackup(GetWlsDomainServerBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWlsDomainServerBackup");
@@ -651,7 +651,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetWlsDomainServerBackupContent.cs.html">here</a> to see an example of how to use GetWlsDomainServerBackupContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetWlsDomainServerBackupContent.cs.html">here</a> to see an example of how to use GetWlsDomainServerBackupContent API.</example>
         public async Task<GetWlsDomainServerBackupContentResponse> GetWlsDomainServerBackupContent(GetWlsDomainServerBackupContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWlsDomainServerBackupContent");
@@ -708,7 +708,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -765,7 +765,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/InstallLatestPatchesOnWlsDomain.cs.html">here</a> to see an example of how to use InstallLatestPatchesOnWlsDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/InstallLatestPatchesOnWlsDomain.cs.html">here</a> to see an example of how to use InstallLatestPatchesOnWlsDomain API.</example>
         public async Task<InstallLatestPatchesOnWlsDomainResponse> InstallLatestPatchesOnWlsDomain(InstallLatestPatchesOnWlsDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called installLatestPatchesOnWlsDomain");
@@ -822,7 +822,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListAgreementRecords.cs.html">here</a> to see an example of how to use ListAgreementRecords API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListAgreementRecords.cs.html">here</a> to see an example of how to use ListAgreementRecords API.</example>
         public async Task<ListAgreementRecordsResponse> ListAgreementRecords(ListAgreementRecordsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAgreementRecords");
@@ -879,7 +879,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListApplicablePatches.cs.html">here</a> to see an example of how to use ListApplicablePatches API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListApplicablePatches.cs.html">here</a> to see an example of how to use ListApplicablePatches API.</example>
         public async Task<ListApplicablePatchesResponse> ListApplicablePatches(ListApplicablePatchesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listApplicablePatches");
@@ -936,7 +936,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListManagedInstanceScanResults.cs.html">here</a> to see an example of how to use ListManagedInstanceScanResults API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListManagedInstanceScanResults.cs.html">here</a> to see an example of how to use ListManagedInstanceScanResults API.</example>
         public async Task<ListManagedInstanceScanResultsResponse> ListManagedInstanceScanResults(ListManagedInstanceScanResultsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedInstanceScanResults");
@@ -993,7 +993,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListManagedInstanceServerInstalledPatches.cs.html">here</a> to see an example of how to use ListManagedInstanceServerInstalledPatches API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListManagedInstanceServerInstalledPatches.cs.html">here</a> to see an example of how to use ListManagedInstanceServerInstalledPatches API.</example>
         public async Task<ListManagedInstanceServerInstalledPatchesResponse> ListManagedInstanceServerInstalledPatches(ListManagedInstanceServerInstalledPatchesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedInstanceServerInstalledPatches");
@@ -1050,7 +1050,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListManagedInstanceServers.cs.html">here</a> to see an example of how to use ListManagedInstanceServers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListManagedInstanceServers.cs.html">here</a> to see an example of how to use ListManagedInstanceServers API.</example>
         public async Task<ListManagedInstanceServersResponse> ListManagedInstanceServers(ListManagedInstanceServersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedInstanceServers");
@@ -1107,7 +1107,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListManagedInstances.cs.html">here</a> to see an example of how to use ListManagedInstances API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListManagedInstances.cs.html">here</a> to see an example of how to use ListManagedInstances API.</example>
         public async Task<ListManagedInstancesResponse> ListManagedInstances(ListManagedInstancesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedInstances");
@@ -1164,7 +1164,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListRequiredPolicies.cs.html">here</a> to see an example of how to use ListRequiredPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListRequiredPolicies.cs.html">here</a> to see an example of how to use ListRequiredPolicies API.</example>
         public async Task<ListRequiredPoliciesResponse> ListRequiredPolicies(ListRequiredPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRequiredPolicies");
@@ -1221,7 +1221,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWlsDomainCredentials.cs.html">here</a> to see an example of how to use ListWlsDomainCredentials API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWlsDomainCredentials.cs.html">here</a> to see an example of how to use ListWlsDomainCredentials API.</example>
         public async Task<ListWlsDomainCredentialsResponse> ListWlsDomainCredentials(ListWlsDomainCredentialsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWlsDomainCredentials");
@@ -1278,7 +1278,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWlsDomainScanResults.cs.html">here</a> to see an example of how to use ListWlsDomainScanResults API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWlsDomainScanResults.cs.html">here</a> to see an example of how to use ListWlsDomainScanResults API.</example>
         public async Task<ListWlsDomainScanResultsResponse> ListWlsDomainScanResults(ListWlsDomainScanResultsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWlsDomainScanResults");
@@ -1335,7 +1335,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWlsDomainServerBackups.cs.html">here</a> to see an example of how to use ListWlsDomainServerBackups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWlsDomainServerBackups.cs.html">here</a> to see an example of how to use ListWlsDomainServerBackups API.</example>
         public async Task<ListWlsDomainServerBackupsResponse> ListWlsDomainServerBackups(ListWlsDomainServerBackupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWlsDomainServerBackups");
@@ -1392,7 +1392,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWlsDomainServerInstalledPatches.cs.html">here</a> to see an example of how to use ListWlsDomainServerInstalledPatches API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWlsDomainServerInstalledPatches.cs.html">here</a> to see an example of how to use ListWlsDomainServerInstalledPatches API.</example>
         public async Task<ListWlsDomainServerInstalledPatchesResponse> ListWlsDomainServerInstalledPatches(ListWlsDomainServerInstalledPatchesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWlsDomainServerInstalledPatches");
@@ -1449,7 +1449,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWlsDomainServers.cs.html">here</a> to see an example of how to use ListWlsDomainServers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWlsDomainServers.cs.html">here</a> to see an example of how to use ListWlsDomainServers API.</example>
         public async Task<ListWlsDomainServersResponse> ListWlsDomainServers(ListWlsDomainServersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWlsDomainServers");
@@ -1506,7 +1506,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWlsDomains.cs.html">here</a> to see an example of how to use ListWlsDomains API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWlsDomains.cs.html">here</a> to see an example of how to use ListWlsDomains API.</example>
         public async Task<ListWlsDomainsResponse> ListWlsDomains(ListWlsDomainsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWlsDomains");
@@ -1563,7 +1563,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWlsDomainsSharingMiddlewares.cs.html">here</a> to see an example of how to use ListWlsDomainsSharingMiddlewares API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWlsDomainsSharingMiddlewares.cs.html">here</a> to see an example of how to use ListWlsDomainsSharingMiddlewares API.</example>
         public async Task<ListWlsDomainsSharingMiddlewaresResponse> ListWlsDomainsSharingMiddlewares(ListWlsDomainsSharingMiddlewaresRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWlsDomainsSharingMiddlewares");
@@ -1620,7 +1620,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -1677,7 +1677,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -1734,7 +1734,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1791,7 +1791,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/RestartWlsDomain.cs.html">here</a> to see an example of how to use RestartWlsDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/RestartWlsDomain.cs.html">here</a> to see an example of how to use RestartWlsDomain API.</example>
         public async Task<RestartWlsDomainResponse> RestartWlsDomain(RestartWlsDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called restartWlsDomain");
@@ -1848,7 +1848,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/RestoreWlsDomain.cs.html">here</a> to see an example of how to use RestoreWlsDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/RestoreWlsDomain.cs.html">here</a> to see an example of how to use RestoreWlsDomain API.</example>
         public async Task<RestoreWlsDomainResponse> RestoreWlsDomain(RestoreWlsDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called restoreWlsDomain");
@@ -1905,7 +1905,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ScanManagedInstance.cs.html">here</a> to see an example of how to use ScanManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ScanManagedInstance.cs.html">here</a> to see an example of how to use ScanManagedInstance API.</example>
         public async Task<ScanManagedInstanceResponse> ScanManagedInstance(ScanManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called scanManagedInstance");
@@ -1962,7 +1962,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ScanWlsDomain.cs.html">here</a> to see an example of how to use ScanWlsDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ScanWlsDomain.cs.html">here</a> to see an example of how to use ScanWlsDomain API.</example>
         public async Task<ScanWlsDomainResponse> ScanWlsDomain(ScanWlsDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called scanWlsDomain");
@@ -2019,7 +2019,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/SetRestartOrder.cs.html">here</a> to see an example of how to use SetRestartOrder API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/SetRestartOrder.cs.html">here</a> to see an example of how to use SetRestartOrder API.</example>
         public async Task<SetRestartOrderResponse> SetRestartOrder(SetRestartOrderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called setRestartOrder");
@@ -2076,7 +2076,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/StartWlsDomain.cs.html">here</a> to see an example of how to use StartWlsDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/StartWlsDomain.cs.html">here</a> to see an example of how to use StartWlsDomain API.</example>
         public async Task<StartWlsDomainResponse> StartWlsDomain(StartWlsDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startWlsDomain");
@@ -2133,7 +2133,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/StopWlsDomain.cs.html">here</a> to see an example of how to use StopWlsDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/StopWlsDomain.cs.html">here</a> to see an example of how to use StopWlsDomain API.</example>
         public async Task<StopWlsDomainResponse> StopWlsDomain(StopWlsDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopWlsDomain");
@@ -2190,7 +2190,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/SummarizeResourceInventory.cs.html">here</a> to see an example of how to use SummarizeResourceInventory API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/SummarizeResourceInventory.cs.html">here</a> to see an example of how to use SummarizeResourceInventory API.</example>
         public async Task<SummarizeResourceInventoryResponse> SummarizeResourceInventory(SummarizeResourceInventoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeResourceInventory");
@@ -2247,7 +2247,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/UpdateManagedInstance.cs.html">here</a> to see an example of how to use UpdateManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/UpdateManagedInstance.cs.html">here</a> to see an example of how to use UpdateManagedInstance API.</example>
         public async Task<UpdateManagedInstanceResponse> UpdateManagedInstance(UpdateManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateManagedInstance");
@@ -2304,7 +2304,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/UpdateWlsDomain.cs.html">here</a> to see an example of how to use UpdateWlsDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/UpdateWlsDomain.cs.html">here</a> to see an example of how to use UpdateWlsDomain API.</example>
         public async Task<UpdateWlsDomainResponse> UpdateWlsDomain(UpdateWlsDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateWlsDomain");
@@ -2361,7 +2361,7 @@ namespace Oci.WlmsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/UpdateWlsDomainCredential.cs.html">here</a> to see an example of how to use UpdateWlsDomainCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/UpdateWlsDomainCredential.cs.html">here</a> to see an example of how to use UpdateWlsDomainCredential API.</example>
         public async Task<UpdateWlsDomainCredentialResponse> UpdateWlsDomainCredential(UpdateWlsDomainCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateWlsDomainCredential");

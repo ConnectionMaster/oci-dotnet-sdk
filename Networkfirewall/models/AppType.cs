@@ -14,8 +14,8 @@ namespace Oci.NetworkfirewallService.Models
 {
   /// <summary>
   /// Application Type:
-    /// * ICMP - An ICMP application.
-    /// * ICMPv6 - An ICMPv6 support application.
+    /// * ICMP - A user-defined ICMP application.
+    /// * ICMPv6 - A user-defined ICMPv6 support application.
     /// 
   /// </summary>
   public enum AppType {

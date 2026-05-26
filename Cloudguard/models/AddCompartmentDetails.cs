@@ -22,7 +22,7 @@ namespace Oci.CloudguardService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment to be added to the security zone.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to be added to the security zone.
         /// 
         /// </value>
         /// <remarks>

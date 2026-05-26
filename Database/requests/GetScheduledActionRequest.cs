@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/GetScheduledAction.cs.html">here</a> to see an example of how to use GetScheduledAction request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/GetScheduledAction.cs.html">here</a> to see an example of how to use GetScheduledAction request.
     /// </example>
     public class GetScheduledActionRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The Scheduled Action [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The Scheduled Action [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

@@ -82,7 +82,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/CreateDataSource.cs.html">here</a> to see an example of how to use CreateDataSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/CreateDataSource.cs.html">here</a> to see an example of how to use CreateDataSource API.</example>
         public async Task<CreateDataSourceResponse> CreateDataSource(CreateDataSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDataSource");
@@ -140,7 +140,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/CreateManagementAgentInstallKey.cs.html">here</a> to see an example of how to use CreateManagementAgentInstallKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/CreateManagementAgentInstallKey.cs.html">here</a> to see an example of how to use CreateManagementAgentInstallKey API.</example>
         public async Task<CreateManagementAgentInstallKeyResponse> CreateManagementAgentInstallKey(CreateManagementAgentInstallKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createManagementAgentInstallKey");
@@ -198,7 +198,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/CreateNamedCredential.cs.html">here</a> to see an example of how to use CreateNamedCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/CreateNamedCredential.cs.html">here</a> to see an example of how to use CreateNamedCredential API.</example>
         public async Task<CreateNamedCredentialResponse> CreateNamedCredential(CreateNamedCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createNamedCredential");
@@ -256,7 +256,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/DeleteDataSource.cs.html">here</a> to see an example of how to use DeleteDataSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/DeleteDataSource.cs.html">here</a> to see an example of how to use DeleteDataSource API.</example>
         public async Task<DeleteDataSourceResponse> DeleteDataSource(DeleteDataSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDataSource");
@@ -313,7 +313,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/DeleteManagementAgent.cs.html">here</a> to see an example of how to use DeleteManagementAgent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/DeleteManagementAgent.cs.html">here</a> to see an example of how to use DeleteManagementAgent API.</example>
         public async Task<DeleteManagementAgentResponse> DeleteManagementAgent(DeleteManagementAgentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteManagementAgent");
@@ -370,7 +370,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/DeleteManagementAgentInstallKey.cs.html">here</a> to see an example of how to use DeleteManagementAgentInstallKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/DeleteManagementAgentInstallKey.cs.html">here</a> to see an example of how to use DeleteManagementAgentInstallKey API.</example>
         public async Task<DeleteManagementAgentInstallKeyResponse> DeleteManagementAgentInstallKey(DeleteManagementAgentInstallKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteManagementAgentInstallKey");
@@ -428,7 +428,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/DeleteNamedCredential.cs.html">here</a> to see an example of how to use DeleteNamedCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/DeleteNamedCredential.cs.html">here</a> to see an example of how to use DeleteNamedCredential API.</example>
         public async Task<DeleteNamedCredentialResponse> DeleteNamedCredential(DeleteNamedCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteNamedCredential");
@@ -485,7 +485,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/DeleteWorkRequest.cs.html">here</a> to see an example of how to use DeleteWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/DeleteWorkRequest.cs.html">here</a> to see an example of how to use DeleteWorkRequest API.</example>
         public async Task<DeleteWorkRequestResponse> DeleteWorkRequest(DeleteWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteWorkRequest");
@@ -543,7 +543,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/DeployPlugins.cs.html">here</a> to see an example of how to use DeployPlugins API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/DeployPlugins.cs.html">here</a> to see an example of how to use DeployPlugins API.</example>
         public async Task<DeployPluginsResponse> DeployPlugins(DeployPluginsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deployPlugins");
@@ -602,7 +602,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetAutoUpgradableConfig.cs.html">here</a> to see an example of how to use GetAutoUpgradableConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetAutoUpgradableConfig.cs.html">here</a> to see an example of how to use GetAutoUpgradableConfig API.</example>
         public async Task<GetAutoUpgradableConfigResponse> GetAutoUpgradableConfig(GetAutoUpgradableConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAutoUpgradableConfig");
@@ -660,7 +660,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetDataSource.cs.html">here</a> to see an example of how to use GetDataSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetDataSource.cs.html">here</a> to see an example of how to use GetDataSource API.</example>
         public async Task<GetDataSourceResponse> GetDataSource(GetDataSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDataSource");
@@ -717,7 +717,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetManagementAgent.cs.html">here</a> to see an example of how to use GetManagementAgent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetManagementAgent.cs.html">here</a> to see an example of how to use GetManagementAgent API.</example>
         public async Task<GetManagementAgentResponse> GetManagementAgent(GetManagementAgentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getManagementAgent");
@@ -774,7 +774,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetManagementAgentInstallKey.cs.html">here</a> to see an example of how to use GetManagementAgentInstallKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetManagementAgentInstallKey.cs.html">here</a> to see an example of how to use GetManagementAgentInstallKey API.</example>
         public async Task<GetManagementAgentInstallKeyResponse> GetManagementAgentInstallKey(GetManagementAgentInstallKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getManagementAgentInstallKey");
@@ -832,7 +832,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetManagementAgentInstallKeyContent.cs.html">here</a> to see an example of how to use GetManagementAgentInstallKeyContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetManagementAgentInstallKeyContent.cs.html">here</a> to see an example of how to use GetManagementAgentInstallKeyContent API.</example>
         public async Task<GetManagementAgentInstallKeyContentResponse> GetManagementAgentInstallKeyContent(GetManagementAgentInstallKeyContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getManagementAgentInstallKeyContent");
@@ -890,7 +890,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetNamedCredential.cs.html">here</a> to see an example of how to use GetNamedCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetNamedCredential.cs.html">here</a> to see an example of how to use GetNamedCredential API.</example>
         public async Task<GetNamedCredentialResponse> GetNamedCredential(GetNamedCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNamedCredential");
@@ -948,7 +948,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetNamedCredentialsMetadatum.cs.html">here</a> to see an example of how to use GetNamedCredentialsMetadatum API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetNamedCredentialsMetadatum.cs.html">here</a> to see an example of how to use GetNamedCredentialsMetadatum API.</example>
         public async Task<GetNamedCredentialsMetadatumResponse> GetNamedCredentialsMetadatum(GetNamedCredentialsMetadatumRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNamedCredentialsMetadatum");
@@ -1005,7 +1005,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -1062,7 +1062,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListAvailabilityHistories.cs.html">here</a> to see an example of how to use ListAvailabilityHistories API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListAvailabilityHistories.cs.html">here</a> to see an example of how to use ListAvailabilityHistories API.</example>
         public async Task<ListAvailabilityHistoriesResponse> ListAvailabilityHistories(ListAvailabilityHistoriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAvailabilityHistories");
@@ -1120,7 +1120,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListDataSources.cs.html">here</a> to see an example of how to use ListDataSources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListDataSources.cs.html">here</a> to see an example of how to use ListDataSources API.</example>
         public async Task<ListDataSourcesResponse> ListDataSources(ListDataSourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDataSources");
@@ -1178,7 +1178,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListManagementAgentImages.cs.html">here</a> to see an example of how to use ListManagementAgentImages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListManagementAgentImages.cs.html">here</a> to see an example of how to use ListManagementAgentImages API.</example>
         public async Task<ListManagementAgentImagesResponse> ListManagementAgentImages(ListManagementAgentImagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagementAgentImages");
@@ -1236,7 +1236,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListManagementAgentInstallKeys.cs.html">here</a> to see an example of how to use ListManagementAgentInstallKeys API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListManagementAgentInstallKeys.cs.html">here</a> to see an example of how to use ListManagementAgentInstallKeys API.</example>
         public async Task<ListManagementAgentInstallKeysResponse> ListManagementAgentInstallKeys(ListManagementAgentInstallKeysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagementAgentInstallKeys");
@@ -1294,7 +1294,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListManagementAgentPlugins.cs.html">here</a> to see an example of how to use ListManagementAgentPlugins API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListManagementAgentPlugins.cs.html">here</a> to see an example of how to use ListManagementAgentPlugins API.</example>
         public async Task<ListManagementAgentPluginsResponse> ListManagementAgentPlugins(ListManagementAgentPluginsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagementAgentPlugins");
@@ -1354,7 +1354,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListManagementAgents.cs.html">here</a> to see an example of how to use ListManagementAgents API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListManagementAgents.cs.html">here</a> to see an example of how to use ListManagementAgents API.</example>
         public async Task<ListManagementAgentsResponse> ListManagementAgents(ListManagementAgentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagementAgents");
@@ -1412,7 +1412,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListNamedCredentials.cs.html">here</a> to see an example of how to use ListNamedCredentials API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListNamedCredentials.cs.html">here</a> to see an example of how to use ListNamedCredentials API.</example>
         public async Task<ListNamedCredentialsResponse> ListNamedCredentials(ListNamedCredentialsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNamedCredentials");
@@ -1470,7 +1470,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -1528,7 +1528,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -1586,7 +1586,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1645,7 +1645,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/SetAutoUpgradableConfig.cs.html">here</a> to see an example of how to use SetAutoUpgradableConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/SetAutoUpgradableConfig.cs.html">here</a> to see an example of how to use SetAutoUpgradableConfig API.</example>
         public async Task<SetAutoUpgradableConfigResponse> SetAutoUpgradableConfig(SetAutoUpgradableConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called setAutoUpgradableConfig");
@@ -1704,7 +1704,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/SummarizeManagementAgentCounts.cs.html">here</a> to see an example of how to use SummarizeManagementAgentCounts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/SummarizeManagementAgentCounts.cs.html">here</a> to see an example of how to use SummarizeManagementAgentCounts API.</example>
         public async Task<SummarizeManagementAgentCountsResponse> SummarizeManagementAgentCounts(SummarizeManagementAgentCountsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeManagementAgentCounts");
@@ -1763,7 +1763,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/SummarizeManagementAgentPluginCounts.cs.html">here</a> to see an example of how to use SummarizeManagementAgentPluginCounts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/SummarizeManagementAgentPluginCounts.cs.html">here</a> to see an example of how to use SummarizeManagementAgentPluginCounts API.</example>
         public async Task<SummarizeManagementAgentPluginCountsResponse> SummarizeManagementAgentPluginCounts(SummarizeManagementAgentPluginCountsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeManagementAgentPluginCounts");
@@ -1821,7 +1821,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/UpdateDataSource.cs.html">here</a> to see an example of how to use UpdateDataSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/UpdateDataSource.cs.html">here</a> to see an example of how to use UpdateDataSource API.</example>
         public async Task<UpdateDataSourceResponse> UpdateDataSource(UpdateDataSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDataSource");
@@ -1879,7 +1879,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/UpdateManagementAgent.cs.html">here</a> to see an example of how to use UpdateManagementAgent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/UpdateManagementAgent.cs.html">here</a> to see an example of how to use UpdateManagementAgent API.</example>
         public async Task<UpdateManagementAgentResponse> UpdateManagementAgent(UpdateManagementAgentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateManagementAgent");
@@ -1937,7 +1937,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/UpdateManagementAgentInstallKey.cs.html">here</a> to see an example of how to use UpdateManagementAgentInstallKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/UpdateManagementAgentInstallKey.cs.html">here</a> to see an example of how to use UpdateManagementAgentInstallKey API.</example>
         public async Task<UpdateManagementAgentInstallKeyResponse> UpdateManagementAgentInstallKey(UpdateManagementAgentInstallKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateManagementAgentInstallKey");
@@ -1995,7 +1995,7 @@ namespace Oci.ManagementagentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/UpdateNamedCredential.cs.html">here</a> to see an example of how to use UpdateNamedCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/UpdateNamedCredential.cs.html">here</a> to see an example of how to use UpdateNamedCredential API.</example>
         public async Task<UpdateNamedCredentialResponse> UpdateNamedCredential(UpdateNamedCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNamedCredential");

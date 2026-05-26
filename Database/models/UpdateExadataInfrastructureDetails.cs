@@ -74,6 +74,9 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "maintenanceWindow")]
         public MaintenanceWindow MaintenanceWindow { get; set; }
         
+        [JsonProperty(PropertyName = "maintenanceVersionPreferences")]
+        public MaintenanceVersionPreferenceDetails MaintenanceVersionPreferences { get; set; }
+        
         /// <value>
         /// The requested number of additional storage servers for the Exadata infrastructure.
         /// </value>
@@ -143,7 +146,7 @@ namespace Oci.DatabaseService.Models
         public System.Collections.Generic.List<string> NtpServer { get; set; }
         
         /// <value>
-        /// The time zone of the Exadata infrastructure. For details, see [Exadata Infrastructure Time Zones](https://docs.cloud.oracle.com/Content/Database/References/timezones.htm).
+        /// The time zone of the Exadata infrastructure. For details, see [Exadata Infrastructure Time Zones](https://docs.oracle.com/iaas/Content/Database/References/timezones.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "timeZone")]
@@ -163,7 +166,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -172,7 +175,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]

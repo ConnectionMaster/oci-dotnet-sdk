@@ -23,7 +23,7 @@ namespace Oci.ContainerinstancesService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the container.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the container.
         /// </value>
         /// <remarks>
         /// Required
@@ -43,7 +43,7 @@ namespace Oci.ContainerinstancesService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The compartment [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// The compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required
@@ -125,7 +125,7 @@ namespace Oci.ContainerinstancesService.Models
         public System.Nullable<System.DateTime> TimeUpdated { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the container instance on which the container is running.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the container instance on which the container is running.
         /// </value>
         /// <remarks>
         /// Required

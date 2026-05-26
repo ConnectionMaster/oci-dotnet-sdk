@@ -14,7 +14,7 @@ using Oci.LoadbalancerService.Models;
 namespace Oci.LoadbalancerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreatePathRouteSet.cs.html">here</a> to see an example of how to use CreatePathRouteSet request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreatePathRouteSet.cs.html">here</a> to see an example of how to use CreatePathRouteSet request.
     /// </example>
     public class CreatePathRouteSetRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.LoadbalancerService.Requests
         public CreatePathRouteSetDetails CreatePathRouteSetDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the load balancer to add the path route set to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the load balancer to add the path route set to.
         /// </value>
         /// <remarks>
         /// Required

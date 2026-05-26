@@ -14,7 +14,7 @@ using Oci.EmwarehouseService.Models;
 namespace Oci.EmwarehouseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/emwarehouse/ChangeEmWarehouseCompartment.cs.html">here</a> to see an example of how to use ChangeEmWarehouseCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/emwarehouse/ChangeEmWarehouseCompartment.cs.html">here</a> to see an example of how to use ChangeEmWarehouseCompartment request.
     /// </example>
     public class ChangeEmWarehouseCompartmentRequest : Oci.Common.IOciRequest
     {

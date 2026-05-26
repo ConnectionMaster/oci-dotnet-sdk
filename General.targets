@@ -4,7 +4,7 @@
       <PackageIcon>icon.png</PackageIcon>
       <RepositoryUrl>https://github.com/oracle/oci-dotnet-sdk</RepositoryUrl>
       <RepositoryType>git</RepositoryType>
-      <PackageProjectUrl>https://docs.cloud.oracle.com/en-us/iaas/Content/API/SDKDocs/dotnetsdk.htm</PackageProjectUrl>
+      <PackageProjectUrl>https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/dotnetsdk.htm</PackageProjectUrl>
     </PropertyGroup>
     <ItemGroup>
       <None Include="..\LICENSE.txt" Pack="true" PackagePath=""/>

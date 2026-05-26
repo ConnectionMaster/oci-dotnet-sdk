@@ -80,7 +80,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ClusterMigrateToNativeVcn.cs.html">here</a> to see an example of how to use ClusterMigrateToNativeVcn API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ClusterMigrateToNativeVcn.cs.html">here</a> to see an example of how to use ClusterMigrateToNativeVcn API.</example>
         public async Task<ClusterMigrateToNativeVcnResponse> ClusterMigrateToNativeVcn(ClusterMigrateToNativeVcnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called clusterMigrateToNativeVcn");
@@ -136,7 +136,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/CompleteCredentialRotation.cs.html">here</a> to see an example of how to use CompleteCredentialRotation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/CompleteCredentialRotation.cs.html">here</a> to see an example of how to use CompleteCredentialRotation API.</example>
         public async Task<CompleteCredentialRotationResponse> CompleteCredentialRotation(CompleteCredentialRotationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called completeCredentialRotation");
@@ -192,7 +192,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/CreateCluster.cs.html">here</a> to see an example of how to use CreateCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/CreateCluster.cs.html">here</a> to see an example of how to use CreateCluster API.</example>
         public async Task<CreateClusterResponse> CreateCluster(CreateClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCluster");
@@ -248,7 +248,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/CreateKubeconfig.cs.html">here</a> to see an example of how to use CreateKubeconfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/CreateKubeconfig.cs.html">here</a> to see an example of how to use CreateKubeconfig API.</example>
         public async Task<CreateKubeconfigResponse> CreateKubeconfig(CreateKubeconfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createKubeconfig");
@@ -304,7 +304,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/CreateNodePool.cs.html">here</a> to see an example of how to use CreateNodePool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/CreateNodePool.cs.html">here</a> to see an example of how to use CreateNodePool API.</example>
         public async Task<CreateNodePoolResponse> CreateNodePool(CreateNodePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createNodePool");
@@ -360,7 +360,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/CreateVirtualNodePool.cs.html">here</a> to see an example of how to use CreateVirtualNodePool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/CreateVirtualNodePool.cs.html">here</a> to see an example of how to use CreateVirtualNodePool API.</example>
         public async Task<CreateVirtualNodePoolResponse> CreateVirtualNodePool(CreateVirtualNodePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVirtualNodePool");
@@ -416,7 +416,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/CreateWorkloadMapping.cs.html">here</a> to see an example of how to use CreateWorkloadMapping API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/CreateWorkloadMapping.cs.html">here</a> to see an example of how to use CreateWorkloadMapping API.</example>
         public async Task<CreateWorkloadMappingResponse> CreateWorkloadMapping(CreateWorkloadMappingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createWorkloadMapping");
@@ -472,7 +472,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/DeleteCluster.cs.html">here</a> to see an example of how to use DeleteCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/DeleteCluster.cs.html">here</a> to see an example of how to use DeleteCluster API.</example>
         public async Task<DeleteClusterResponse> DeleteCluster(DeleteClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCluster");
@@ -528,7 +528,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/DeleteNode.cs.html">here</a> to see an example of how to use DeleteNode API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/DeleteNode.cs.html">here</a> to see an example of how to use DeleteNode API.</example>
         public async Task<DeleteNodeResponse> DeleteNode(DeleteNodeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteNode");
@@ -584,7 +584,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/DeleteNodePool.cs.html">here</a> to see an example of how to use DeleteNodePool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/DeleteNodePool.cs.html">here</a> to see an example of how to use DeleteNodePool API.</example>
         public async Task<DeleteNodePoolResponse> DeleteNodePool(DeleteNodePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteNodePool");
@@ -640,7 +640,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/DeleteVirtualNodePool.cs.html">here</a> to see an example of how to use DeleteVirtualNodePool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/DeleteVirtualNodePool.cs.html">here</a> to see an example of how to use DeleteVirtualNodePool API.</example>
         public async Task<DeleteVirtualNodePoolResponse> DeleteVirtualNodePool(DeleteVirtualNodePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVirtualNodePool");
@@ -696,7 +696,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/DeleteWorkRequest.cs.html">here</a> to see an example of how to use DeleteWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/DeleteWorkRequest.cs.html">here</a> to see an example of how to use DeleteWorkRequest API.</example>
         public async Task<DeleteWorkRequestResponse> DeleteWorkRequest(DeleteWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteWorkRequest");
@@ -752,7 +752,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/DeleteWorkloadMapping.cs.html">here</a> to see an example of how to use DeleteWorkloadMapping API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/DeleteWorkloadMapping.cs.html">here</a> to see an example of how to use DeleteWorkloadMapping API.</example>
         public async Task<DeleteWorkloadMappingResponse> DeleteWorkloadMapping(DeleteWorkloadMappingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteWorkloadMapping");
@@ -808,7 +808,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/DisableAddon.cs.html">here</a> to see an example of how to use DisableAddon API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/DisableAddon.cs.html">here</a> to see an example of how to use DisableAddon API.</example>
         public async Task<DisableAddonResponse> DisableAddon(DisableAddonRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableAddon");
@@ -857,7 +857,7 @@ namespace Oci.ContainerengineService
         }
 
         /// <summary>
-        /// Extend the rollback deadline of public api endpoint decommission for a cluster. 
+        /// Extend the rollback deadline of public api endpoint decommission for a cluster.
         /// The operation can only be performed within decommission rollback deadline.
         /// 
         /// </summary>
@@ -866,7 +866,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ExtendEndpointDecommissionRollbackDeadline.cs.html">here</a> to see an example of how to use ExtendEndpointDecommissionRollbackDeadline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ExtendEndpointDecommissionRollbackDeadline.cs.html">here</a> to see an example of how to use ExtendEndpointDecommissionRollbackDeadline API.</example>
         public async Task<ExtendEndpointDecommissionRollbackDeadlineResponse> ExtendEndpointDecommissionRollbackDeadline(ExtendEndpointDecommissionRollbackDeadlineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called extendEndpointDecommissionRollbackDeadline");
@@ -922,7 +922,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetAddon.cs.html">here</a> to see an example of how to use GetAddon API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetAddon.cs.html">here</a> to see an example of how to use GetAddon API.</example>
         public async Task<GetAddonResponse> GetAddon(GetAddonRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAddon");
@@ -978,7 +978,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetCluster.cs.html">here</a> to see an example of how to use GetCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetCluster.cs.html">here</a> to see an example of how to use GetCluster API.</example>
         public async Task<GetClusterResponse> GetCluster(GetClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCluster");
@@ -1034,7 +1034,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetClusterMigrateToNativeVcnStatus.cs.html">here</a> to see an example of how to use GetClusterMigrateToNativeVcnStatus API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetClusterMigrateToNativeVcnStatus.cs.html">here</a> to see an example of how to use GetClusterMigrateToNativeVcnStatus API.</example>
         public async Task<GetClusterMigrateToNativeVcnStatusResponse> GetClusterMigrateToNativeVcnStatus(GetClusterMigrateToNativeVcnStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getClusterMigrateToNativeVcnStatus");
@@ -1090,7 +1090,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetClusterOptions.cs.html">here</a> to see an example of how to use GetClusterOptions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetClusterOptions.cs.html">here</a> to see an example of how to use GetClusterOptions API.</example>
         public async Task<GetClusterOptionsResponse> GetClusterOptions(GetClusterOptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getClusterOptions");
@@ -1146,7 +1146,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetCredentialRotationStatus.cs.html">here</a> to see an example of how to use GetCredentialRotationStatus API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetCredentialRotationStatus.cs.html">here</a> to see an example of how to use GetCredentialRotationStatus API.</example>
         public async Task<GetCredentialRotationStatusResponse> GetCredentialRotationStatus(GetCredentialRotationStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCredentialRotationStatus");
@@ -1202,7 +1202,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetNodePool.cs.html">here</a> to see an example of how to use GetNodePool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetNodePool.cs.html">here</a> to see an example of how to use GetNodePool API.</example>
         public async Task<GetNodePoolResponse> GetNodePool(GetNodePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNodePool");
@@ -1258,7 +1258,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetNodePoolOptions.cs.html">here</a> to see an example of how to use GetNodePoolOptions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetNodePoolOptions.cs.html">here</a> to see an example of how to use GetNodePoolOptions API.</example>
         public async Task<GetNodePoolOptionsResponse> GetNodePoolOptions(GetNodePoolOptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNodePoolOptions");
@@ -1314,7 +1314,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetPublicApiEndpointDecommissionStatus.cs.html">here</a> to see an example of how to use GetPublicApiEndpointDecommissionStatus API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetPublicApiEndpointDecommissionStatus.cs.html">here</a> to see an example of how to use GetPublicApiEndpointDecommissionStatus API.</example>
         public async Task<GetPublicApiEndpointDecommissionStatusResponse> GetPublicApiEndpointDecommissionStatus(GetPublicApiEndpointDecommissionStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPublicApiEndpointDecommissionStatus");
@@ -1370,7 +1370,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetVirtualNode.cs.html">here</a> to see an example of how to use GetVirtualNode API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetVirtualNode.cs.html">here</a> to see an example of how to use GetVirtualNode API.</example>
         public async Task<GetVirtualNodeResponse> GetVirtualNode(GetVirtualNodeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVirtualNode");
@@ -1426,7 +1426,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetVirtualNodePool.cs.html">here</a> to see an example of how to use GetVirtualNodePool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetVirtualNodePool.cs.html">here</a> to see an example of how to use GetVirtualNodePool API.</example>
         public async Task<GetVirtualNodePoolResponse> GetVirtualNodePool(GetVirtualNodePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVirtualNodePool");
@@ -1482,7 +1482,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -1538,7 +1538,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetWorkloadMapping.cs.html">here</a> to see an example of how to use GetWorkloadMapping API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetWorkloadMapping.cs.html">here</a> to see an example of how to use GetWorkloadMapping API.</example>
         public async Task<GetWorkloadMappingResponse> GetWorkloadMapping(GetWorkloadMappingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkloadMapping");
@@ -1594,7 +1594,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/InstallAddon.cs.html">here</a> to see an example of how to use InstallAddon API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/InstallAddon.cs.html">here</a> to see an example of how to use InstallAddon API.</example>
         public async Task<InstallAddonResponse> InstallAddon(InstallAddonRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called installAddon");
@@ -1650,7 +1650,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListAddonOptions.cs.html">here</a> to see an example of how to use ListAddonOptions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListAddonOptions.cs.html">here</a> to see an example of how to use ListAddonOptions API.</example>
         public async Task<ListAddonOptionsResponse> ListAddonOptions(ListAddonOptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAddonOptions");
@@ -1706,7 +1706,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListAddons.cs.html">here</a> to see an example of how to use ListAddons API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListAddons.cs.html">here</a> to see an example of how to use ListAddons API.</example>
         public async Task<ListAddonsResponse> ListAddons(ListAddonsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAddons");
@@ -1762,7 +1762,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListClusters.cs.html">here</a> to see an example of how to use ListClusters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListClusters.cs.html">here</a> to see an example of how to use ListClusters API.</example>
         public async Task<ListClustersResponse> ListClusters(ListClustersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listClusters");
@@ -1818,7 +1818,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListNodePools.cs.html">here</a> to see an example of how to use ListNodePools API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListNodePools.cs.html">here</a> to see an example of how to use ListNodePools API.</example>
         public async Task<ListNodePoolsResponse> ListNodePools(ListNodePoolsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNodePools");
@@ -1874,7 +1874,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListPodShapes.cs.html">here</a> to see an example of how to use ListPodShapes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListPodShapes.cs.html">here</a> to see an example of how to use ListPodShapes API.</example>
         public async Task<ListPodShapesResponse> ListPodShapes(ListPodShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPodShapes");
@@ -1930,7 +1930,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListVirtualNodePools.cs.html">here</a> to see an example of how to use ListVirtualNodePools API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListVirtualNodePools.cs.html">here</a> to see an example of how to use ListVirtualNodePools API.</example>
         public async Task<ListVirtualNodePoolsResponse> ListVirtualNodePools(ListVirtualNodePoolsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVirtualNodePools");
@@ -1986,7 +1986,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListVirtualNodes.cs.html">here</a> to see an example of how to use ListVirtualNodes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListVirtualNodes.cs.html">here</a> to see an example of how to use ListVirtualNodes API.</example>
         public async Task<ListVirtualNodesResponse> ListVirtualNodes(ListVirtualNodesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVirtualNodes");
@@ -2042,7 +2042,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -2098,7 +2098,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -2154,7 +2154,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -2210,7 +2210,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListWorkloadMappings.cs.html">here</a> to see an example of how to use ListWorkloadMappings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ListWorkloadMappings.cs.html">here</a> to see an example of how to use ListWorkloadMappings API.</example>
         public async Task<ListWorkloadMappingsResponse> ListWorkloadMappings(ListWorkloadMappingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkloadMappings");
@@ -2266,7 +2266,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/RebootClusterNode.cs.html">here</a> to see an example of how to use RebootClusterNode API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/RebootClusterNode.cs.html">here</a> to see an example of how to use RebootClusterNode API.</example>
         public async Task<RebootClusterNodeResponse> RebootClusterNode(RebootClusterNodeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called rebootClusterNode");
@@ -2322,7 +2322,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ReplaceBootVolumeClusterNode.cs.html">here</a> to see an example of how to use ReplaceBootVolumeClusterNode API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ReplaceBootVolumeClusterNode.cs.html">here</a> to see an example of how to use ReplaceBootVolumeClusterNode API.</example>
         public async Task<ReplaceBootVolumeClusterNodeResponse> ReplaceBootVolumeClusterNode(ReplaceBootVolumeClusterNodeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called replaceBootVolumeClusterNode");
@@ -2380,7 +2380,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/RollbackPublicApiEndpointDecommission.cs.html">here</a> to see an example of how to use RollbackPublicApiEndpointDecommission API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/RollbackPublicApiEndpointDecommission.cs.html">here</a> to see an example of how to use RollbackPublicApiEndpointDecommission API.</example>
         public async Task<RollbackPublicApiEndpointDecommissionResponse> RollbackPublicApiEndpointDecommission(RollbackPublicApiEndpointDecommissionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called rollbackPublicApiEndpointDecommission");
@@ -2436,7 +2436,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/StartCredentialRotation.cs.html">here</a> to see an example of how to use StartCredentialRotation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/StartCredentialRotation.cs.html">here</a> to see an example of how to use StartCredentialRotation API.</example>
         public async Task<StartCredentialRotationResponse> StartCredentialRotation(StartCredentialRotationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startCredentialRotation");
@@ -2492,7 +2492,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/StartPublicApiEndpointDecommission.cs.html">here</a> to see an example of how to use StartPublicApiEndpointDecommission API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/StartPublicApiEndpointDecommission.cs.html">here</a> to see an example of how to use StartPublicApiEndpointDecommission API.</example>
         public async Task<StartPublicApiEndpointDecommissionResponse> StartPublicApiEndpointDecommission(StartPublicApiEndpointDecommissionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startPublicApiEndpointDecommission");
@@ -2548,7 +2548,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/UpdateAddon.cs.html">here</a> to see an example of how to use UpdateAddon API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/UpdateAddon.cs.html">here</a> to see an example of how to use UpdateAddon API.</example>
         public async Task<UpdateAddonResponse> UpdateAddon(UpdateAddonRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAddon");
@@ -2604,7 +2604,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/UpdateCluster.cs.html">here</a> to see an example of how to use UpdateCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/UpdateCluster.cs.html">here</a> to see an example of how to use UpdateCluster API.</example>
         public async Task<UpdateClusterResponse> UpdateCluster(UpdateClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCluster");
@@ -2660,7 +2660,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/UpdateClusterEndpointConfig.cs.html">here</a> to see an example of how to use UpdateClusterEndpointConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/UpdateClusterEndpointConfig.cs.html">here</a> to see an example of how to use UpdateClusterEndpointConfig API.</example>
         public async Task<UpdateClusterEndpointConfigResponse> UpdateClusterEndpointConfig(UpdateClusterEndpointConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateClusterEndpointConfig");
@@ -2716,7 +2716,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/UpdateNodePool.cs.html">here</a> to see an example of how to use UpdateNodePool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/UpdateNodePool.cs.html">here</a> to see an example of how to use UpdateNodePool API.</example>
         public async Task<UpdateNodePoolResponse> UpdateNodePool(UpdateNodePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNodePool");
@@ -2772,7 +2772,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/UpdateVirtualNodePool.cs.html">here</a> to see an example of how to use UpdateVirtualNodePool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/UpdateVirtualNodePool.cs.html">here</a> to see an example of how to use UpdateVirtualNodePool API.</example>
         public async Task<UpdateVirtualNodePoolResponse> UpdateVirtualNodePool(UpdateVirtualNodePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVirtualNodePool");
@@ -2828,7 +2828,7 @@ namespace Oci.ContainerengineService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/UpdateWorkloadMapping.cs.html">here</a> to see an example of how to use UpdateWorkloadMapping API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/UpdateWorkloadMapping.cs.html">here</a> to see an example of how to use UpdateWorkloadMapping API.</example>
         public async Task<UpdateWorkloadMappingResponse> UpdateWorkloadMapping(UpdateWorkloadMappingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateWorkloadMapping");

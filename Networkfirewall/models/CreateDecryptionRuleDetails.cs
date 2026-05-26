@@ -73,6 +73,12 @@ namespace Oci.NetworkfirewallService.Models
         [JsonProperty(PropertyName = "secret")]
         public string Secret { get; set; }
         
+        /// <value>
+        /// An array of mapped secrets.
+        /// </value>
+        [JsonProperty(PropertyName = "secrets")]
+        public System.Collections.Generic.List<string> Secrets { get; set; }
+        
         [JsonProperty(PropertyName = "position")]
         public RulePosition Position { get; set; }
         

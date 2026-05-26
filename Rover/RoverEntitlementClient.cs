@@ -80,7 +80,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ChangeRoverEntitlementCompartment.cs.html">here</a> to see an example of how to use ChangeRoverEntitlementCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ChangeRoverEntitlementCompartment.cs.html">here</a> to see an example of how to use ChangeRoverEntitlementCompartment API.</example>
         public async Task<ChangeRoverEntitlementCompartmentResponse> ChangeRoverEntitlementCompartment(ChangeRoverEntitlementCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeRoverEntitlementCompartment");
@@ -136,7 +136,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/CreateRoverEntitlement.cs.html">here</a> to see an example of how to use CreateRoverEntitlement API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/CreateRoverEntitlement.cs.html">here</a> to see an example of how to use CreateRoverEntitlement API.</example>
         public async Task<CreateRoverEntitlementResponse> CreateRoverEntitlement(CreateRoverEntitlementRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRoverEntitlement");
@@ -192,7 +192,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/DeleteRoverEntitlement.cs.html">here</a> to see an example of how to use DeleteRoverEntitlement API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/DeleteRoverEntitlement.cs.html">here</a> to see an example of how to use DeleteRoverEntitlement API.</example>
         public async Task<DeleteRoverEntitlementResponse> DeleteRoverEntitlement(DeleteRoverEntitlementRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRoverEntitlement");
@@ -248,7 +248,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/GetRoverEntitlement.cs.html">here</a> to see an example of how to use GetRoverEntitlement API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/GetRoverEntitlement.cs.html">here</a> to see an example of how to use GetRoverEntitlement API.</example>
         public async Task<GetRoverEntitlementResponse> GetRoverEntitlement(GetRoverEntitlementRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRoverEntitlement");
@@ -304,7 +304,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ListRoverEntitlements.cs.html">here</a> to see an example of how to use ListRoverEntitlements API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ListRoverEntitlements.cs.html">here</a> to see an example of how to use ListRoverEntitlements API.</example>
         public async Task<ListRoverEntitlementsResponse> ListRoverEntitlements(ListRoverEntitlementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRoverEntitlements");
@@ -360,7 +360,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/UpdateRoverEntitlement.cs.html">here</a> to see an example of how to use UpdateRoverEntitlement API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/UpdateRoverEntitlement.cs.html">here</a> to see an example of how to use UpdateRoverEntitlement API.</example>
         public async Task<UpdateRoverEntitlementResponse> UpdateRoverEntitlement(UpdateRoverEntitlementRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRoverEntitlement");

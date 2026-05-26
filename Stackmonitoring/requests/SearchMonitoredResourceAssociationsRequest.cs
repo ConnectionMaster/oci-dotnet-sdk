@@ -14,7 +14,7 @@ using Oci.StackmonitoringService.Models;
 namespace Oci.StackmonitoringService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/SearchMonitoredResourceAssociations.cs.html">here</a> to see an example of how to use SearchMonitoredResourceAssociations request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/SearchMonitoredResourceAssociations.cs.html">here</a> to see an example of how to use SearchMonitoredResourceAssociations request.
     /// </example>
     public class SearchMonitoredResourceAssociationsRequest : Oci.Common.IOciRequest
     {
@@ -33,7 +33,7 @@ namespace Oci.StackmonitoringService.Requests
         /// <value>
         /// For list pagination. The maximum number of results per page, or items to return in a
         /// paginated \"List\" call. For important details about how pagination works, see
-        /// [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "limit")]
@@ -42,7 +42,7 @@ namespace Oci.StackmonitoringService.Requests
         /// <value>
         /// For list pagination. The value of the `opc-next-page` response header from the
         /// previous \"List\" call. For important details about how pagination works, see
-        /// [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]

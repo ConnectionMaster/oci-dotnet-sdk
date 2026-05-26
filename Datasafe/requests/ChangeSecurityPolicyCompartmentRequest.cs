@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSecurityPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeSecurityPolicyCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeSecurityPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeSecurityPolicyCompartment request.
     /// </example>
     public class ChangeSecurityPolicyCompartmentRequest : Oci.Common.IOciRequest
     {

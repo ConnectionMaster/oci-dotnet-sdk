@@ -24,7 +24,7 @@ namespace Oci.DnsService.Models
         
         /// <value>
         /// Presentation-format DS record data that must be added to the parent zone. For more information about RDATA,
-        /// see [Supported DNS Resource Record Types](https://docs.cloud.oracle.com/iaas/Content/DNS/Reference/supporteddnsresource.htm)
+        /// see [Supported DNS Resource Record Types](https://docs.oracle.com/iaas/Content/DNS/Reference/supporteddnsresource.htm)
         /// 
         /// </value>
         [JsonProperty(PropertyName = "rdata")]

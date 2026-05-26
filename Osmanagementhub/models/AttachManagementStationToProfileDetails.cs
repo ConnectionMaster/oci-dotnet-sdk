@@ -22,7 +22,7 @@ namespace Oci.OsmanagementhubService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the management station that the instance will be associated with.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the management station that the instance will be associated with.
         /// </value>
         /// <remarks>
         /// Required

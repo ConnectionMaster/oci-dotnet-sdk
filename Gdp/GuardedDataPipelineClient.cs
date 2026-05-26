@@ -80,7 +80,7 @@ namespace Oci.GdpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/ChangeGdpPipelineCompartment.cs.html">here</a> to see an example of how to use ChangeGdpPipelineCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/ChangeGdpPipelineCompartment.cs.html">here</a> to see an example of how to use ChangeGdpPipelineCompartment API.</example>
         public async Task<ChangeGdpPipelineCompartmentResponse> ChangeGdpPipelineCompartment(ChangeGdpPipelineCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeGdpPipelineCompartment");
@@ -137,7 +137,7 @@ namespace Oci.GdpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/CreateGdpPipeline.cs.html">here</a> to see an example of how to use CreateGdpPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/CreateGdpPipeline.cs.html">here</a> to see an example of how to use CreateGdpPipeline API.</example>
         public async Task<CreateGdpPipelineResponse> CreateGdpPipeline(CreateGdpPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createGdpPipeline");
@@ -193,7 +193,7 @@ namespace Oci.GdpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/DeleteGdpPipeline.cs.html">here</a> to see an example of how to use DeleteGdpPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/DeleteGdpPipeline.cs.html">here</a> to see an example of how to use DeleteGdpPipeline API.</example>
         public async Task<DeleteGdpPipelineResponse> DeleteGdpPipeline(DeleteGdpPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteGdpPipeline");
@@ -249,7 +249,7 @@ namespace Oci.GdpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/GetGdpPipeline.cs.html">here</a> to see an example of how to use GetGdpPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/GetGdpPipeline.cs.html">here</a> to see an example of how to use GetGdpPipeline API.</example>
         public async Task<GetGdpPipelineResponse> GetGdpPipeline(GetGdpPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getGdpPipeline");
@@ -305,7 +305,7 @@ namespace Oci.GdpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/GetGdpWorkRequest.cs.html">here</a> to see an example of how to use GetGdpWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/GetGdpWorkRequest.cs.html">here</a> to see an example of how to use GetGdpWorkRequest API.</example>
         public async Task<GetGdpWorkRequestResponse> GetGdpWorkRequest(GetGdpWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getGdpWorkRequest");
@@ -362,7 +362,7 @@ namespace Oci.GdpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/ListGdpPipelines.cs.html">here</a> to see an example of how to use ListGdpPipelines API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/ListGdpPipelines.cs.html">here</a> to see an example of how to use ListGdpPipelines API.</example>
         public async Task<ListGdpPipelinesResponse> ListGdpPipelines(ListGdpPipelinesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listGdpPipelines");
@@ -419,7 +419,7 @@ namespace Oci.GdpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/ListGdpWorkRequestErrors.cs.html">here</a> to see an example of how to use ListGdpWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/ListGdpWorkRequestErrors.cs.html">here</a> to see an example of how to use ListGdpWorkRequestErrors API.</example>
         public async Task<ListGdpWorkRequestErrorsResponse> ListGdpWorkRequestErrors(ListGdpWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listGdpWorkRequestErrors");
@@ -476,7 +476,7 @@ namespace Oci.GdpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/ListGdpWorkRequestLogs.cs.html">here</a> to see an example of how to use ListGdpWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/ListGdpWorkRequestLogs.cs.html">here</a> to see an example of how to use ListGdpWorkRequestLogs API.</example>
         public async Task<ListGdpWorkRequestLogsResponse> ListGdpWorkRequestLogs(ListGdpWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listGdpWorkRequestLogs");
@@ -533,7 +533,7 @@ namespace Oci.GdpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/ListGdpWorkRequests.cs.html">here</a> to see an example of how to use ListGdpWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/ListGdpWorkRequests.cs.html">here</a> to see an example of how to use ListGdpWorkRequests API.</example>
         public async Task<ListGdpWorkRequestsResponse> ListGdpWorkRequests(ListGdpWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listGdpWorkRequests");
@@ -589,7 +589,7 @@ namespace Oci.GdpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/PeerGdpPipeline.cs.html">here</a> to see an example of how to use PeerGdpPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/PeerGdpPipeline.cs.html">here</a> to see an example of how to use PeerGdpPipeline API.</example>
         public async Task<PeerGdpPipelineResponse> PeerGdpPipeline(PeerGdpPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called peerGdpPipeline");
@@ -645,7 +645,7 @@ namespace Oci.GdpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/RotateGdpPipelineKeys.cs.html">here</a> to see an example of how to use RotateGdpPipelineKeys API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/RotateGdpPipelineKeys.cs.html">here</a> to see an example of how to use RotateGdpPipelineKeys API.</example>
         public async Task<RotateGdpPipelineKeysResponse> RotateGdpPipelineKeys(RotateGdpPipelineKeysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called rotateGdpPipelineKeys");
@@ -701,7 +701,7 @@ namespace Oci.GdpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/StartGdpPipeline.cs.html">here</a> to see an example of how to use StartGdpPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/StartGdpPipeline.cs.html">here</a> to see an example of how to use StartGdpPipeline API.</example>
         public async Task<StartGdpPipelineResponse> StartGdpPipeline(StartGdpPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startGdpPipeline");
@@ -757,7 +757,7 @@ namespace Oci.GdpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/StopGdpPipeline.cs.html">here</a> to see an example of how to use StopGdpPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/StopGdpPipeline.cs.html">here</a> to see an example of how to use StopGdpPipeline API.</example>
         public async Task<StopGdpPipelineResponse> StopGdpPipeline(StopGdpPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopGdpPipeline");
@@ -813,7 +813,7 @@ namespace Oci.GdpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/UpdateGdpPipeline.cs.html">here</a> to see an example of how to use UpdateGdpPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/UpdateGdpPipeline.cs.html">here</a> to see an example of how to use UpdateGdpPipeline API.</example>
         public async Task<UpdateGdpPipelineResponse> UpdateGdpPipeline(UpdateGdpPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateGdpPipeline");

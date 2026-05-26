@@ -14,13 +14,13 @@ using Oci.AdmService.Models;
 namespace Oci.AdmService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ChangeRemediationRecipeCompartment.cs.html">here</a> to see an example of how to use ChangeRemediationRecipeCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ChangeRemediationRecipeCompartment.cs.html">here</a> to see an example of how to use ChangeRemediationRecipeCompartment request.
     /// </example>
     public class ChangeRemediationRecipeCompartmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The Oracle Cloud Identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of a Remediation Recipe, as a URL path parameter.
+        /// The Oracle Cloud Identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of a Remediation Recipe, as a URL path parameter.
         /// </value>
         /// <remarks>
         /// Required

@@ -42,7 +42,7 @@ namespace Oci.DatabasemanagementService.Models
         public string Name { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment in which the parent job resides.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment in which the parent job resides.
         /// </value>
         /// <remarks>
         /// Required
@@ -52,13 +52,13 @@ namespace Oci.DatabasemanagementService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Managed Database Group where the parent job has to be executed.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Managed Database Group where the parent job has to be executed.
         /// </value>
         [JsonProperty(PropertyName = "managedDatabaseGroupId")]
         public string ManagedDatabaseGroupId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Managed Database associated with the job execution.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Managed Database associated with the job execution.
         /// </value>
         /// <remarks>
         /// Required
@@ -112,7 +112,7 @@ namespace Oci.DatabasemanagementService.Models
         public System.Nullable<WorkloadType> WorkloadType { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the parent job.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the parent job.
         /// </value>
         /// <remarks>
         /// Required

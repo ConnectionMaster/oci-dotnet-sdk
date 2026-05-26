@@ -14,13 +14,13 @@ using Oci.GoldengateService.Models;
 namespace Oci.GoldengateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RemoveConnectionLock.cs.html">here</a> to see an example of how to use RemoveConnectionLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/RemoveConnectionLock.cs.html">here</a> to see an example of how to use RemoveConnectionLock request.
     /// </example>
     public class RemoveConnectionLockRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of a Connection.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a Connection.
         /// 
         /// </value>
         /// <remarks>

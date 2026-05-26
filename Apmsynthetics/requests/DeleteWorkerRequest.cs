@@ -14,7 +14,7 @@ using Oci.ApmsyntheticsService.Models;
 namespace Oci.ApmsyntheticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/DeleteWorker.cs.html">here</a> to see an example of how to use DeleteWorker request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/DeleteWorker.cs.html">here</a> to see an example of how to use DeleteWorker request.
     /// </example>
     public class DeleteWorkerRequest : Oci.Common.IOciRequest
     {

@@ -14,7 +14,7 @@ using Oci.AilanguageService.Models;
 namespace Oci.AilanguageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ChangeModelCompartment.cs.html">here</a> to see an example of how to use ChangeModelCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ChangeModelCompartment.cs.html">here</a> to see an example of how to use ChangeModelCompartment request.
     /// </example>
     public class ChangeModelCompartmentRequest : Oci.Common.IOciRequest
     {

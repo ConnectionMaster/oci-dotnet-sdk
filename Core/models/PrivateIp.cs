@@ -29,7 +29,7 @@ namespace Oci.CoreService.Models
     /// <br/>
     /// You can add *secondary private IPs* to a VNIC after it's created. For more
     /// information, see the `privateIp` operations and also
-    /// [IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingIPaddresses.htm).
+    /// [IP Addresses](https://docs.oracle.com/iaas/Content/Network/Tasks/managingIPaddresses.htm).
     /// <br/>
     /// **Note:** Only
     /// {@link #listPrivateIps(ListPrivateIpsRequest) listPrivateIps} and
@@ -49,7 +49,7 @@ namespace Oci.CoreService.Models
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,
     /// talk to an administrator. If you're an administrator who needs to write policies to give users access, see
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
+    /// [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// 
     /// </summary>
     public class PrivateIp 
@@ -65,14 +65,14 @@ namespace Oci.CoreService.Models
         public string AvailabilityDomain { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the private IP.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the private IP.
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -89,7 +89,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -105,7 +105,7 @@ namespace Oci.CoreService.Models
         /// [RFC 1123](https://tools.ietf.org/html/rfc1123).
         /// <br/>
         /// For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// <br/>
         /// Example: bminstance1
         /// </value>
@@ -113,7 +113,7 @@ namespace Oci.CoreService.Models
         public string HostnameLabel { get; set; }
         
         /// <value>
-        /// The private IP's Oracle ID ([OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
+        /// The private IP's Oracle ID ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
         /// </value>
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
@@ -148,7 +148,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Applicable only if the `PrivateIp` object is being used with a VLAN as part of
-        /// the Oracle Cloud VMware Solution. The `vlanId` is the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN. See
+        /// the Oracle Cloud VMware Solution. The `vlanId` is the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN. See
         /// {@link Vlan}.
         /// 
         /// </value>
@@ -156,7 +156,7 @@ namespace Oci.CoreService.Models
         public string VlanId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet the VNIC is in.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet the VNIC is in.
         /// <br/>
         /// However, if the `PrivateIp` object is being used with a VLAN as part of
         /// the Oracle Cloud VMware Solution, the `subnetId` is null.
@@ -174,7 +174,7 @@ namespace Oci.CoreService.Models
         public System.Nullable<System.DateTime> TimeCreated { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC the private IP is assigned to. The VNIC and private IP
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC the private IP is assigned to. The VNIC and private IP
         /// must be in the same subnet.
         /// However, if the `PrivateIp` object is being used with a VLAN as part of
         /// the Oracle Cloud VMware Solution, the `vnicId` is null.
@@ -236,7 +236,7 @@ namespace Oci.CoreService.Models
         public System.Nullable<LifetimeEnum> Lifetime { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the route table the IP address or VNIC will use. For more information, see
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the route table the IP address or VNIC will use. For more information, see
         /// [Per-resource Routing](https://docs.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm#Overview_of_Routing_for_Your_VCN__source_routing).
         /// 
         /// </value>

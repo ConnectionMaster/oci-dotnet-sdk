@@ -16,14 +16,14 @@ using Newtonsoft.Json.Converters;
 namespace Oci.OcvpService.Models
 {
     /// <summary>
-    /// An [Oracle Cloud VMware Solution](https://docs.cloud.oracle.com/iaas/Content/VMware/Concepts/ocvsoverview.htm) Datastore for software-defined data center.
+    /// An [Oracle Cloud VMware Solution](https://docs.oracle.com/iaas/Content/VMware/Concepts/ocvsoverview.htm) Datastore for software-defined data center.
     /// 
     /// </summary>
     public class Datastore 
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Datastore.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Datastore.
         /// 
         /// </value>
         /// <remarks>
@@ -34,7 +34,7 @@ namespace Oci.OcvpService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the datastore cluster that
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the datastore cluster that
         /// Datastore belongs to.
         /// 
         /// </value>
@@ -42,7 +42,7 @@ namespace Oci.OcvpService.Models
         public string DatastoreClusterId { get; set; }
         
         /// <value>
-        /// The List of Block volume [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)s that belong to the Datastore.
+        /// The List of Block volume [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)s that belong to the Datastore.
         /// 
         /// </value>
         /// <remarks>
@@ -64,21 +64,21 @@ namespace Oci.OcvpService.Models
         public System.Collections.Generic.List<BlockVolumeDetails> BlockVolumeDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VMware Cluster that Datastore is attached to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VMware Cluster that Datastore is attached to.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "clusterId")]
         public string ClusterId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the SDDC that Datastore is associated with.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the SDDC that Datastore is associated with.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "sddcId")]
         public string SddcId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment that
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that
         /// contains the Datastore.
         /// 
         /// </value>
@@ -156,7 +156,7 @@ namespace Oci.OcvpService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -165,7 +165,7 @@ namespace Oci.OcvpService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>

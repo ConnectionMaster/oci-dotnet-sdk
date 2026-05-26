@@ -19,7 +19,7 @@ namespace Oci.MulticloudService.Models
     /// The properties that define the Multicloud resource.
     /// Details for each resource include Multicloud base compartment, name, state, resource type, and network anchor.
     /// For more information, see
-    /// [Multicloud Resources](https://docs.cloud.oracle.com/iaas/Content/multicloud-hub/list-resources.htm).
+    /// [Multicloud Resources](https://docs.oracle.com/iaas/Content/multicloud-hub/list-resources.htm).
     /// 
     /// </summary>
     public class MulticloudResourceSummary 
@@ -78,7 +78,7 @@ namespace Oci.MulticloudService.Models
         public string NetworkAnchorName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the network anchor associated with the resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the network anchor associated with the resource.
         /// </value>
         [JsonProperty(PropertyName = "networkAnchorId")]
         public string NetworkAnchorId { get; set; }
@@ -144,7 +144,7 @@ namespace Oci.MulticloudService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -153,7 +153,7 @@ namespace Oci.MulticloudService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>

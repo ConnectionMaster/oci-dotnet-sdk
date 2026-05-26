@@ -14,7 +14,7 @@ using Oci.ApigatewayService.Models;
 namespace Oci.ApigatewayService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/RemoveGatewayLock.cs.html">here</a> to see an example of how to use RemoveGatewayLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/RemoveGatewayLock.cs.html">here</a> to see an example of how to use RemoveGatewayLock request.
     /// </example>
     public class RemoveGatewayLockRequest : Oci.Common.IOciRequest
     {

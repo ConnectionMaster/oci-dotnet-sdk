@@ -14,7 +14,7 @@ using Oci.DatabasemigrationService.Models;
 namespace Oci.DatabasemigrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ListAssessors.cs.html">here</a> to see an example of how to use ListAssessors request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ListAssessors.cs.html">here</a> to see an example of how to use ListAssessors request.
     /// </example>
     public class ListAssessorsRequest : Oci.Common.IOciRequest
     {

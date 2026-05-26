@@ -14,7 +14,7 @@ using Oci.IntegrationService.Models;
 namespace Oci.IntegrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ConvertInstance.cs.html">here</a> to see an example of how to use ConvertInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/integration/ConvertInstance.cs.html">here</a> to see an example of how to use ConvertInstance request.
     /// </example>
     public class ConvertInstanceRequest : Oci.Common.IOciRequest
     {

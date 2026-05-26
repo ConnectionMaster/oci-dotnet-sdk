@@ -41,7 +41,7 @@ namespace Oci.AispeechService.Models
         public System.Nullable<bool> IsStreamEnabled { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where the user has access to call `SpeechSynthesize` api. But default user access will be checked at tenancy level.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where the user has access to call `SpeechSynthesize` api. But default user access will be checked at tenancy level.
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }

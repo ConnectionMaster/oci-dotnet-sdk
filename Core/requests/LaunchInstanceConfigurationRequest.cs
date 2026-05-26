@@ -14,7 +14,7 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/LaunchInstanceConfiguration.cs.html">here</a> to see an example of how to use LaunchInstanceConfiguration request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/LaunchInstanceConfiguration.cs.html">here</a> to see an example of how to use LaunchInstanceConfiguration request.
     /// </example>
     public class LaunchInstanceConfigurationRequest : Oci.Common.IOciRequest
     {
@@ -51,8 +51,8 @@ namespace Oci.CoreService.Requests
         public string OpcRetryToken { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the
-        /// [compute cluster](https://docs.cloud.oracle.com/iaas/Content/Compute/Tasks/compute-clusters.htm) that the instance will be created in.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the
+        /// [compute cluster](https://docs.oracle.com/iaas/Content/Compute/Tasks/compute-clusters.htm) that the instance will be created in.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-compute-cluster-id")]

@@ -14,19 +14,19 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListExternalAsmInstances.cs.html">here</a> to see an example of how to use ListExternalAsmInstances request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListExternalAsmInstances.cs.html">here</a> to see an example of how to use ListExternalAsmInstances request.
     /// </example>
     public class ListExternalAsmInstancesRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "compartmentId")]
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the external ASM.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the external ASM.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "externalAsmId")]
         public string ExternalAsmId { get; set; }

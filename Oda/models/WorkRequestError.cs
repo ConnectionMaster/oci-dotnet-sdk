@@ -23,7 +23,7 @@ namespace Oci.OdaService.Models
         
         /// <value>
         /// A machine-usable code for the error that occurred. Error codes are listed at
-        /// (https://docs.us-phoenix-1.oraclecloud.com/Content/API/References/apierrors.htm)
+        /// (https://docs.oracle.com/iaas/Content/API/References/apierrors.htm)
         /// 
         /// </value>
         /// <remarks>

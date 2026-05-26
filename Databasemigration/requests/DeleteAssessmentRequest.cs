@@ -14,7 +14,7 @@ using Oci.DatabasemigrationService.Models;
 namespace Oci.DatabasemigrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/DeleteAssessment.cs.html">here</a> to see an example of how to use DeleteAssessment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/DeleteAssessment.cs.html">here</a> to see an example of how to use DeleteAssessment request.
     /// </example>
     public class DeleteAssessmentRequest : Oci.Common.IOciRequest
     {

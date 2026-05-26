@@ -23,7 +23,7 @@ namespace Oci.DatabasemanagementService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the job.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the job.
         /// </value>
         /// <remarks>
         /// Required
@@ -33,7 +33,7 @@ namespace Oci.DatabasemanagementService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment in which the job resides.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment in which the job resides.
         /// </value>
         /// <remarks>
         /// Required
@@ -59,13 +59,13 @@ namespace Oci.DatabasemanagementService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Managed Database Group where the job has to be executed.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Managed Database Group where the job has to be executed.
         /// </value>
         [JsonProperty(PropertyName = "managedDatabaseGroupId")]
         public string ManagedDatabaseGroupId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Managed Database where the job has to be executed.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Managed Database where the job has to be executed.
         /// </value>
         [JsonProperty(PropertyName = "managedDatabaseId")]
         public string ManagedDatabaseId { get; set; }

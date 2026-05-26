@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.ApmconfigService.Models
 {
     /// <summary>
-    /// A span filter written in text, or as the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of a
+    /// A span filter written in text, or as the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a
     /// SpanFilter resource. If both are given, the filterText is used.
     /// 
     /// </summary>
@@ -24,7 +24,7 @@ namespace Oci.ApmconfigService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of a Span Filter. The filterId is mandatory for the creation
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a Span Filter. The filterId is mandatory for the creation
         /// of MetricGroups. A filterId is generated when a Span Filter is created.
         /// 
         /// </value>

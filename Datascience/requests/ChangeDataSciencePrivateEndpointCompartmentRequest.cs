@@ -14,7 +14,7 @@ using Oci.DatascienceService.Models;
 namespace Oci.DatascienceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeDataSciencePrivateEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeDataSciencePrivateEndpointCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeDataSciencePrivateEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeDataSciencePrivateEndpointCompartment request.
     /// </example>
     public class ChangeDataSciencePrivateEndpointCompartmentRequest : Oci.Common.IOciRequest
     {

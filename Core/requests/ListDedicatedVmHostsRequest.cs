@@ -14,13 +14,13 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDedicatedVmHosts.cs.html">here</a> to see an example of how to use ListDedicatedVmHosts request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ListDedicatedVmHosts.cs.html">here</a> to see an example of how to use ListDedicatedVmHosts request.
     /// </example>
     public class ListDedicatedVmHostsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
         /// </value>
         /// <remarks>
         /// Required
@@ -80,7 +80,7 @@ namespace Oci.CoreService.Requests
         /// <value>
         /// For list pagination. The maximum number of results per page, or items to return in a paginated
         /// \"List\" call. For important details about how pagination works, see
-        /// [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// <br/>
         /// Example: 50
         /// </value>
@@ -90,7 +90,7 @@ namespace Oci.CoreService.Requests
         /// <value>
         /// For list pagination. The value of the `opc-next-page` response header from the previous \"List\"
         /// call. For important details about how pagination works, see
-        /// [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]
@@ -171,6 +171,12 @@ namespace Oci.CoreService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "remainingOcpusGreaterThanOrEqualTo")]
         public System.Nullable<float> RemainingOcpusGreaterThanOrEqualTo { get; set; }
+        
+        /// <value>
+        /// The remaining local volume of the dedicated VM host, in GBs.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "remainingLocalVolumeInGBsGreaterThanOrEqualTo")]
+        public System.Nullable<float> RemainingLocalVolumeInGBsGreaterThanOrEqualTo { get; set; }
         
         /// <value>
         /// A filter to return only confidential Dedicated VM hosts (DVMH) or confidential VM instances on DVMH.

@@ -22,7 +22,7 @@ namespace Oci.DatabasetoolsService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment to move the Database Tools identity to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to move the Database Tools identity to.
         /// </value>
         /// <remarks>
         /// Required

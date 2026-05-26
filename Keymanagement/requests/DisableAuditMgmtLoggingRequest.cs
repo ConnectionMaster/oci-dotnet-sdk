@@ -14,7 +14,7 @@ using Oci.KeymanagementService.Models;
 namespace Oci.KeymanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/DisableAuditMgmtLogging.cs.html">here</a> to see an example of how to use DisableAuditMgmtLogging request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/DisableAuditMgmtLogging.cs.html">here</a> to see an example of how to use DisableAuditMgmtLogging request.
     /// </example>
     public class DisableAuditMgmtLoggingRequest : Oci.Common.IOciRequest
     {

@@ -25,6 +25,10 @@ namespace Oci.ContainerengineService.Models
         /// The availability domain in which to place virtual nodes.
         /// Example: Uocm:PHX-AD-1
         /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "AvailabilityDomain is required.")]
         [JsonProperty(PropertyName = "availabilityDomain")]
         public string AvailabilityDomain { get; set; }
         
@@ -37,6 +41,10 @@ namespace Oci.ContainerengineService.Models
         /// <value>
         /// The OCID of the subnet in which to place virtual nodes.
         /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "SubnetId is required.")]
         [JsonProperty(PropertyName = "subnetId")]
         public string SubnetId { get; set; }
         

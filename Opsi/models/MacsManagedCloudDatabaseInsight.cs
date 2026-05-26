@@ -22,7 +22,7 @@ namespace Oci.OpsiService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Management Agent
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Management Agent
         /// </value>
         [JsonProperty(PropertyName = "managementAgentId")]
         public string ManagementAgentId { get; set; }
@@ -34,7 +34,7 @@ namespace Oci.OpsiService.Models
         public CredentialDetails ConnectionCredentialDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database.
         /// </value>
         /// <remarks>
         /// Required
@@ -70,20 +70,20 @@ namespace Oci.OpsiService.Models
         public string DatabaseResourceType { get; set; }
         
         /// <value>
-        /// Additional details of a database in JSON format. For autonomous databases, this is the AutonomousDatabase object serialized as a JSON string as defined in https://docs.cloud.oracle.com/en-us/iaas/api/#/en/database/20160918/AutonomousDatabase/. For EM, pass in null or an empty string. Note that this string needs to be escaped when specified in the curl command.
+        /// Additional details of a database in JSON format. For autonomous databases, this is the AutonomousDatabase object serialized as a JSON string as defined in https://docs.oracle.com/en-us/iaas/api/#/en/database/20160918/AutonomousDatabase/. For EM, pass in null or an empty string. Note that this string needs to be escaped when specified in the curl command.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "dbAdditionalDetails")]
         public System.Object DbAdditionalDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VM Cluster or DB System ID, depending on which configuration the resource belongs to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VM Cluster or DB System ID, depending on which configuration the resource belongs to.
         /// </value>
         [JsonProperty(PropertyName = "parentId")]
         public string ParentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Exadata Infrastructure.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Exadata Infrastructure.
         /// </value>
         [JsonProperty(PropertyName = "rootId")]
         public string RootId { get; set; }

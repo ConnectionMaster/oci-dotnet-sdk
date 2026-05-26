@@ -14,7 +14,7 @@ using Oci.CostadService.Models;
 namespace Oci.CostadService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/CreateCostAnomalyMonitor.cs.html">here</a> to see an example of how to use CreateCostAnomalyMonitor request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/CreateCostAnomalyMonitor.cs.html">here</a> to see an example of how to use CreateCostAnomalyMonitor request.
     /// </example>
     public class CreateCostAnomalyMonitorRequest : Oci.Common.IOciRequest
     {

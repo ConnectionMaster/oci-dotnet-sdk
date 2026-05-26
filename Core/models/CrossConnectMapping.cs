@@ -60,7 +60,7 @@ namespace Oci.CoreService.Models
         public string BgpMd5AuthKey { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cross-connect or cross-connect group for this mapping.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cross-connect or cross-connect group for this mapping.
         /// Specified by the owner of the cross-connect or cross-connect group (the
         /// customer if the customer is colocated with Oracle, or the provider if the
         /// customer is connecting via provider).
@@ -106,7 +106,7 @@ namespace Oci.CoreService.Models
         /// There's one exception: for a public virtual circuit, Oracle specifies the BGP IPv6 addresses.
         /// <br/>
         /// IPv6 addressing is supported for all commercial and government regions. See
-        /// [IPv6 Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
+        /// [IPv6 Addresses](https://docs.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
         /// <br/>
         /// Example: 2001:db8::1/64
         /// </value>
@@ -122,7 +122,7 @@ namespace Oci.CoreService.Models
         /// There's one exception: for a public virtual circuit, Oracle specifies the BGP IPv6 addresses.
         /// <br/>
         /// Note that IPv6 addressing is currently supported only in certain regions. See
-        /// [IPv6 Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
+        /// [IPv6 Addresses](https://docs.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
         /// <br/>
         /// Example: 2001:db8::2/64
         /// </value>

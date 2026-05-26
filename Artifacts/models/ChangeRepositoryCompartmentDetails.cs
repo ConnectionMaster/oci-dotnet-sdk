@@ -22,7 +22,7 @@ namespace Oci.ArtifactsService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment into which the repository should be moved.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment into which the repository should be moved.
         /// 
         /// </value>
         /// <remarks>

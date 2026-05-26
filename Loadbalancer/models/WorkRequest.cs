@@ -19,14 +19,14 @@ namespace Oci.LoadbalancerService.Models
     /// Many of the API requests you use to create and configure load balancing do not take effect immediately.
     /// In these cases, the request spawns an asynchronous work flow to fulfill the request. WorkRequest objects provide visibility
     /// for in-progress work flows.
-    /// For more information about work requests, see [Viewing the State of a Work Request](https://docs.cloud.oracle.com/Content/Balance/Tasks/viewingworkrequest.htm).
+    /// For more information about work requests, see [Viewing the State of a Work Request](https://docs.oracle.com/iaas/Content/Balance/Tasks/viewingworkrequest.htm).
     /// 
     /// </summary>
     public class WorkRequest 
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the work request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the work request.
         /// </value>
         /// <remarks>
         /// Required
@@ -36,7 +36,7 @@ namespace Oci.LoadbalancerService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the load balancer with which the work request
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the load balancer with which the work request
         /// is associated.
         /// 
         /// </value>
@@ -60,7 +60,7 @@ namespace Oci.LoadbalancerService.Models
         public string Type { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment containing the load balancer.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the load balancer.
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }

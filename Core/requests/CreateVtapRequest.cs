@@ -14,7 +14,7 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateVtap.cs.html">here</a> to see an example of how to use CreateVtap request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateVtap.cs.html">here</a> to see an example of how to use CreateVtap request.
     /// </example>
     public class CreateVtapRequest : Oci.Common.IOciRequest
     {

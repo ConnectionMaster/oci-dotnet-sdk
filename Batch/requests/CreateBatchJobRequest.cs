@@ -14,7 +14,7 @@ using Oci.BatchService.Models;
 namespace Oci.BatchService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/CreateBatchJob.cs.html">here</a> to see an example of how to use CreateBatchJob request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/CreateBatchJob.cs.html">here</a> to see an example of how to use CreateBatchJob request.
     /// </example>
     public class CreateBatchJobRequest : Oci.Common.IOciRequest
     {

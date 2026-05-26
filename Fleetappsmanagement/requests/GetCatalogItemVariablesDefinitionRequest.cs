@@ -14,13 +14,13 @@ using Oci.FleetappsmanagementService.Models;
 namespace Oci.FleetappsmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetCatalogItemVariablesDefinition.cs.html">here</a> to see an example of how to use GetCatalogItemVariablesDefinition request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetCatalogItemVariablesDefinition.cs.html">here</a> to see an example of how to use GetCatalogItemVariablesDefinition request.
     /// </example>
     public class GetCatalogItemVariablesDefinitionRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the CatalogItem.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the CatalogItem.
         /// </value>
         /// <remarks>
         /// Required

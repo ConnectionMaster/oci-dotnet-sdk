@@ -20,18 +20,18 @@ namespace Oci.CoreService.Models
     /// to the DRG peer with a VCN in a different region. *Peering* means that the two VCNs can
     /// communicate using private IP addresses, but without the traffic traversing the internet or
     /// routing through your on-premises network. For more information, see
-    /// [VCN Peering](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/VCNpeering.htm).
+    /// [VCN Peering](https://docs.oracle.com/iaas/Content/Network/Tasks/VCNpeering.htm).
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,
     /// talk to an administrator. If you're an administrator who needs to write policies to give users access, see
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
+    /// [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// 
     /// </summary>
     public class RemotePeeringConnection 
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the RPC.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the RPC.
         /// </value>
         /// <remarks>
         /// Required
@@ -42,7 +42,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -62,7 +62,7 @@ namespace Oci.CoreService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the DRG that this RPC belongs to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the DRG that this RPC belongs to.
         /// </value>
         /// <remarks>
         /// Required
@@ -73,7 +73,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -81,7 +81,7 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the RPC.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the RPC.
         /// </value>
         /// <remarks>
         /// Required
@@ -132,7 +132,7 @@ namespace Oci.CoreService.Models
         public System.Nullable<LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
-        /// If this RPC is peered, this value is the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the other RPC.
+        /// If this RPC is peered, this value is the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the other RPC.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "peerId")]
@@ -147,7 +147,7 @@ namespace Oci.CoreService.Models
         public string PeerRegionName { get; set; }
         
         /// <value>
-        /// If this RPC is peered, this value is the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the other RPC's tenancy.
+        /// If this RPC is peered, this value is the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the other RPC's tenancy.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "peerTenancyId")]

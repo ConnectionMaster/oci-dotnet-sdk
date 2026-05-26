@@ -23,7 +23,7 @@ namespace Oci.DatabaseService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of ExaCS Db node.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of ExaCS Db node.
         /// </value>
         /// <remarks>
         /// Required

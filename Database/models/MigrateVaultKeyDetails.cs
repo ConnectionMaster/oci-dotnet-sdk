@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabaseService.Models
 {
     /// <summary>
-    /// Details for replacing existing Oracle-managed keys with customer-managed [Vault service](https://docs.cloud.oracle.com/iaas/Content/KeyManagement/Concepts/keyoverview.htm) keys and vice-versa is not supported.
+    /// Details for replacing existing Oracle-managed keys with customer-managed [Vault service](https://docs.oracle.com/iaas/Content/KeyManagement/Concepts/keyoverview.htm) keys and vice-versa is not supported.
     /// 
     /// </summary>
     public class MigrateVaultKeyDetails 
@@ -40,7 +40,7 @@ namespace Oci.DatabaseService.Models
         public string KmsKeyVersionId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Oracle Cloud Infrastructure [vault](https://docs.cloud.oracle.com/Content/KeyManagement/Concepts/keyoverview.htm#concepts). This parameter and `secretId` are required for Customer Managed Keys.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Oracle Cloud Infrastructure [vault](https://docs.oracle.com/iaas/Content/KeyManagement/Concepts/keyoverview.htm#concepts). This parameter and `secretId` are required for Customer Managed Keys.
         /// </value>
         [JsonProperty(PropertyName = "vaultId")]
         public string VaultId { get; set; }

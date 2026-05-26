@@ -22,7 +22,7 @@ namespace Oci.StackmonitoringService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of Metric Extension resource
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of Metric Extension resource
         /// </value>
         [JsonProperty(PropertyName = "metricExtensionId")]
         public string MetricExtensionId { get; set; }
@@ -34,7 +34,7 @@ namespace Oci.StackmonitoringService.Models
         public string ResourceType { get; set; }
         
         /// <value>
-        /// Compartment Identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)
+        /// Compartment Identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }
@@ -58,7 +58,7 @@ namespace Oci.StackmonitoringService.Models
         public System.Nullable<AssociationStatusEnum> AssociationStatus { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of Monitored Resource
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of Monitored Resource
         /// </value>
         [JsonProperty(PropertyName = "resourceId")]
         public string ResourceId { get; set; }

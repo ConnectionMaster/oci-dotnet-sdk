@@ -14,7 +14,7 @@ using Oci.GenerativeaiService.Models;
 namespace Oci.GenerativeaiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateSemanticStore.cs.html">here</a> to see an example of how to use CreateSemanticStore request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateSemanticStore.cs.html">here</a> to see an example of how to use CreateSemanticStore request.
     /// </example>
     public class CreateSemanticStoreRequest : Oci.Common.IOciRequest
     {

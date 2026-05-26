@@ -82,7 +82,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ChangeMysqlDatabaseManagementType.cs.html">here</a> to see an example of how to use ChangeMysqlDatabaseManagementType API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ChangeMysqlDatabaseManagementType.cs.html">here</a> to see an example of how to use ChangeMysqlDatabaseManagementType API.</example>
         public async Task<ChangeMysqlDatabaseManagementTypeResponse> ChangeMysqlDatabaseManagementType(ChangeMysqlDatabaseManagementTypeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMysqlDatabaseManagementType");
@@ -139,7 +139,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetBinaryLogInformation.cs.html">here</a> to see an example of how to use GetBinaryLogInformation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetBinaryLogInformation.cs.html">here</a> to see an example of how to use GetBinaryLogInformation API.</example>
         public async Task<GetBinaryLogInformationResponse> GetBinaryLogInformation(GetBinaryLogInformationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBinaryLogInformation");
@@ -196,7 +196,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetGeneralReplicationInformation.cs.html">here</a> to see an example of how to use GetGeneralReplicationInformation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetGeneralReplicationInformation.cs.html">here</a> to see an example of how to use GetGeneralReplicationInformation API.</example>
         public async Task<GetGeneralReplicationInformationResponse> GetGeneralReplicationInformation(GetGeneralReplicationInformationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getGeneralReplicationInformation");
@@ -253,7 +253,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetHeatWaveFleetMetric.cs.html">here</a> to see an example of how to use GetHeatWaveFleetMetric API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetHeatWaveFleetMetric.cs.html">here</a> to see an example of how to use GetHeatWaveFleetMetric API.</example>
         public async Task<GetHeatWaveFleetMetricResponse> GetHeatWaveFleetMetric(GetHeatWaveFleetMetricRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getHeatWaveFleetMetric");
@@ -310,7 +310,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetManagedMySqlDatabase.cs.html">here</a> to see an example of how to use GetManagedMySqlDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetManagedMySqlDatabase.cs.html">here</a> to see an example of how to use GetManagedMySqlDatabase API.</example>
         public async Task<GetManagedMySqlDatabaseResponse> GetManagedMySqlDatabase(GetManagedMySqlDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getManagedMySqlDatabase");
@@ -367,7 +367,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetMySqlFleetMetric.cs.html">here</a> to see an example of how to use GetMySqlFleetMetric API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetMySqlFleetMetric.cs.html">here</a> to see an example of how to use GetMySqlFleetMetric API.</example>
         public async Task<GetMySqlFleetMetricResponse> GetMySqlFleetMetric(GetMySqlFleetMetricRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMySqlFleetMetric");
@@ -424,7 +424,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetMySqlQueryDetails.cs.html">here</a> to see an example of how to use GetMySqlQueryDetails API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetMySqlQueryDetails.cs.html">here</a> to see an example of how to use GetMySqlQueryDetails API.</example>
         public async Task<GetMySqlQueryDetailsResponse> GetMySqlQueryDetails(GetMySqlQueryDetailsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMySqlQueryDetails");
@@ -481,7 +481,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListHighAvailabilityMembers.cs.html">here</a> to see an example of how to use ListHighAvailabilityMembers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListHighAvailabilityMembers.cs.html">here</a> to see an example of how to use ListHighAvailabilityMembers API.</example>
         public async Task<ListHighAvailabilityMembersResponse> ListHighAvailabilityMembers(ListHighAvailabilityMembersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listHighAvailabilityMembers");
@@ -538,7 +538,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListInboundReplications.cs.html">here</a> to see an example of how to use ListInboundReplications API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListInboundReplications.cs.html">here</a> to see an example of how to use ListInboundReplications API.</example>
         public async Task<ListInboundReplicationsResponse> ListInboundReplications(ListInboundReplicationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInboundReplications");
@@ -595,7 +595,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListManagedMySqlDatabaseConfigurationData.cs.html">here</a> to see an example of how to use ListManagedMySqlDatabaseConfigurationData API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListManagedMySqlDatabaseConfigurationData.cs.html">here</a> to see an example of how to use ListManagedMySqlDatabaseConfigurationData API.</example>
         public async Task<ListManagedMySqlDatabaseConfigurationDataResponse> ListManagedMySqlDatabaseConfigurationData(ListManagedMySqlDatabaseConfigurationDataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedMySqlDatabaseConfigurationData");
@@ -652,7 +652,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListManagedMySqlDatabaseSqlData.cs.html">here</a> to see an example of how to use ListManagedMySqlDatabaseSqlData API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListManagedMySqlDatabaseSqlData.cs.html">here</a> to see an example of how to use ListManagedMySqlDatabaseSqlData API.</example>
         public async Task<ListManagedMySqlDatabaseSqlDataResponse> ListManagedMySqlDatabaseSqlData(ListManagedMySqlDatabaseSqlDataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedMySqlDatabaseSqlData");
@@ -709,7 +709,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListManagedMySqlDatabases.cs.html">here</a> to see an example of how to use ListManagedMySqlDatabases API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListManagedMySqlDatabases.cs.html">here</a> to see an example of how to use ListManagedMySqlDatabases API.</example>
         public async Task<ListManagedMySqlDatabasesResponse> ListManagedMySqlDatabases(ListManagedMySqlDatabasesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedMySqlDatabases");
@@ -766,7 +766,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListMySqlDigestErrors.cs.html">here</a> to see an example of how to use ListMySqlDigestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListMySqlDigestErrors.cs.html">here</a> to see an example of how to use ListMySqlDigestErrors API.</example>
         public async Task<ListMySqlDigestErrorsResponse> ListMySqlDigestErrors(ListMySqlDigestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMySqlDigestErrors");
@@ -823,7 +823,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListOutboundReplications.cs.html">here</a> to see an example of how to use ListOutboundReplications API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListOutboundReplications.cs.html">here</a> to see an example of how to use ListOutboundReplications API.</example>
         public async Task<ListOutboundReplicationsResponse> ListOutboundReplications(ListOutboundReplicationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOutboundReplications");
@@ -880,7 +880,7 @@ namespace Oci.DatabasemanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/SummarizeManagedMySqlDatabaseAvailabilityMetrics.cs.html">here</a> to see an example of how to use SummarizeManagedMySqlDatabaseAvailabilityMetrics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/SummarizeManagedMySqlDatabaseAvailabilityMetrics.cs.html">here</a> to see an example of how to use SummarizeManagedMySqlDatabaseAvailabilityMetrics API.</example>
         public async Task<SummarizeManagedMySqlDatabaseAvailabilityMetricsResponse> SummarizeManagedMySqlDatabaseAvailabilityMetrics(SummarizeManagedMySqlDatabaseAvailabilityMetricsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeManagedMySqlDatabaseAvailabilityMetrics");

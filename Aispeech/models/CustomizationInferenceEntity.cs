@@ -28,7 +28,7 @@ namespace Oci.AispeechService.Models
         public string EntityType { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the customization to use.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the customization to use.
         /// </value>
         [JsonProperty(PropertyName = "customizationId")]
         public string CustomizationId { get; set; }

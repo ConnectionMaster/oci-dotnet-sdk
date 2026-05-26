@@ -22,7 +22,7 @@ namespace Oci.OpsiService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VM Cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VM Cluster.
         /// </value>
         /// <remarks>
         /// Required
@@ -32,13 +32,13 @@ namespace Oci.OpsiService.Models
         public string VmclusterId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the OPSI private endpoint
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the OPSI private endpoint
         /// </value>
         [JsonProperty(PropertyName = "opsiPrivateEndpointId")]
         public string OpsiPrivateEndpointId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Database Management private endpoint
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Database Management private endpoint
         /// </value>
         [JsonProperty(PropertyName = "dbmPrivateEndpointId")]
         public string DbmPrivateEndpointId { get; set; }
@@ -63,7 +63,7 @@ namespace Oci.OpsiService.Models
         public System.Collections.Generic.List<CreateAutonomousDatabaseInsightDetails> MemberAutonomousDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
         /// </value>
         /// <remarks>
         /// Required

@@ -14,13 +14,13 @@ using Oci.GenerativeaiService.Models;
 namespace Oci.GenerativeaiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/RenewApiKey.cs.html">here</a> to see an example of how to use RenewApiKey request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/RenewApiKey.cs.html">here</a> to see an example of how to use RenewApiKey request.
     /// </example>
     public class RenewApiKeyRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the APIKey.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the APIKey.
         /// </value>
         /// <remarks>
         /// Required

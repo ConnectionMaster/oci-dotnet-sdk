@@ -52,6 +52,9 @@ namespace Oci.DatascienceService.Models
                 case "MODEL_GROUP":
                     obj = new ModelGroupDeploymentConfigurationDetails();
                     break;
+                case "SINGLE_MODEL_FLEX":
+                    obj = new SingleModelDeploymentFlexConfigurationDetails();
+                    break;
             }
             if (obj != null)
             {

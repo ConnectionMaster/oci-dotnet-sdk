@@ -26,6 +26,8 @@ namespace Oci.GoldengateService.Models
       [EnumMember(Value = "STREAM_ANALYTICS")]
       StreamAnalytics,
       [EnumMember(Value = "DATA_TRANSFORMS")]
-      DataTransforms
+      DataTransforms,
+      [EnumMember(Value = "DATA_VERIFICATION")]
+      DataVerification
   }
 }

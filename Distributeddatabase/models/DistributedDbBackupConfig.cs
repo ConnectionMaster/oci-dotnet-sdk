@@ -17,7 +17,7 @@ namespace Oci.DistributeddatabaseService.Models
 {
     /// <summary>
     /// Backup Options
-    /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized, talk to an administrator. If you're an administrator who needs to write policies to give users access, see [Getting Started with Policies](https://docs.cloud.oracle.com/Content/Identity/Concepts/policygetstarted.htm).
+    /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized, talk to an administrator. If you're an administrator who needs to write policies to give users access, see [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// 
     /// </summary>
     public class DistributedDbBackupConfig 
@@ -173,7 +173,7 @@ namespace Oci.DistributeddatabaseService.Models
         /// <value>
         /// The name of the remote region where the remote automatic incremental backups will be stored.
         /// For information about valid region names, see
-        /// [Regions and Availability Domains](https://docs.cloud.oracle.com/Content/General/Concepts/regions.htm).
+        /// [Regions and Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "remoteRegion")]

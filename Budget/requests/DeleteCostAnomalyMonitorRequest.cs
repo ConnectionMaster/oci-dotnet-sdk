@@ -14,7 +14,7 @@ using Oci.BudgetService.Models;
 namespace Oci.BudgetService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/budget/DeleteCostAnomalyMonitor.cs.html">here</a> to see an example of how to use DeleteCostAnomalyMonitor request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/budget/DeleteCostAnomalyMonitor.cs.html">here</a> to see an example of how to use DeleteCostAnomalyMonitor request.
     /// </example>
     public class DeleteCostAnomalyMonitorRequest : Oci.Common.IOciRequest
     {

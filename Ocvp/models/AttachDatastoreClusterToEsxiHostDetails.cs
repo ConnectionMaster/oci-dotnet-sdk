@@ -22,7 +22,7 @@ namespace Oci.OcvpService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the ESXi host to attach the
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the ESXi host to attach the
         /// datastore cluster to.
         /// 
         /// </value>

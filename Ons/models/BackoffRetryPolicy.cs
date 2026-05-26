@@ -17,7 +17,7 @@ namespace Oci.OnsService.Models
 {
     /// <summary>
     /// The backoff retry portion of the subscription delivery policy. For information about retry durations for subscriptions, see
-    /// [How Notifications Works](https://docs.cloud.oracle.com/iaas/Content/Notification/Concepts/notificationoverview.htm#how).
+    /// [How Notifications Works](https://docs.oracle.com/iaas/Content/Notification/Concepts/notificationoverview.htm#how).
     /// 
     /// </summary>
     public class BackoffRetryPolicy 

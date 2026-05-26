@@ -17,7 +17,7 @@ namespace Oci.CoreService.Models
 {
     /// <summary>
     /// Defines the visualization of a subnet in a VCN. 
-    /// See [Network Visualizer Documentation](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/network_visualizer.htm) for more information, including
+    /// See [Network Visualizer Documentation](https://docs.oracle.com/iaas/Content/Network/Concepts/network_visualizer.htm) for more information, including
     /// conventions and pictures of symbols.
     /// 
     /// </summary>
@@ -25,7 +25,7 @@ namespace Oci.CoreService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet for which the visualization is generated.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet for which the visualization is generated.
         /// </value>
         [JsonProperty(PropertyName = "subnetId")]
         public string SubnetId { get; set; }

@@ -14,7 +14,7 @@ using Oci.VisualbuilderService.Models;
 namespace Oci.VisualbuilderService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/visualbuilder/DeleteVbInstance.cs.html">here</a> to see an example of how to use DeleteVbInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/visualbuilder/DeleteVbInstance.cs.html">here</a> to see an example of how to use DeleteVbInstance request.
     /// </example>
     public class DeleteVbInstanceRequest : Oci.Common.IOciRequest
     {

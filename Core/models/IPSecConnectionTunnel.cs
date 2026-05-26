@@ -25,7 +25,7 @@ namespace Oci.CoreService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the tunnel.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the tunnel.
         /// 
         /// </value>
         /// <remarks>
@@ -36,7 +36,7 @@ namespace Oci.CoreService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the tunnel.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the tunnel.
         /// </value>
         /// <remarks>
         /// Required
@@ -301,7 +301,7 @@ namespace Oci.CoreService.Models
         public TunnelPhaseTwoDetails PhaseTwoDetails { get; set; }
         
         /// <value>
-        /// The list of virtual circuit [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)s over which your network can reach this tunnel.
+        /// The list of virtual circuit [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)s over which your network can reach this tunnel.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "associatedVirtualCircuits")]

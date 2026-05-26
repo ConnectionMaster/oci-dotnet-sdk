@@ -14,7 +14,7 @@ using Oci.ApmtracesService.Models;
 namespace Oci.ApmtracesService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/PutToggleAutoActivate.cs.html">here</a> to see an example of how to use PutToggleAutoActivate request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/PutToggleAutoActivate.cs.html">here</a> to see an example of how to use PutToggleAutoActivate request.
     /// </example>
     public class PutToggleAutoActivateRequest : Oci.Common.IOciRequest
     {

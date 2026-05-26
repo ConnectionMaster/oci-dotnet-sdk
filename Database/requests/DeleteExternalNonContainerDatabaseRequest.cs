@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/DeleteExternalNonContainerDatabase.cs.html">here</a> to see an example of how to use DeleteExternalNonContainerDatabase request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/DeleteExternalNonContainerDatabase.cs.html">here</a> to see an example of how to use DeleteExternalNonContainerDatabase request.
     /// </example>
     public class DeleteExternalNonContainerDatabaseRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The external non-container database [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The external non-container database [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

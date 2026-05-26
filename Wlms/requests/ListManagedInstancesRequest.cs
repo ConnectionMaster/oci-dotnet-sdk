@@ -14,7 +14,7 @@ using Oci.WlmsService.Models;
 namespace Oci.WlmsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListManagedInstances.cs.html">here</a> to see an example of how to use ListManagedInstances request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/ListManagedInstances.cs.html">here</a> to see an example of how to use ListManagedInstances request.
     /// </example>
     public class ListManagedInstancesRequest : Oci.Common.IOciRequest
     {
@@ -34,7 +34,7 @@ namespace Oci.WlmsService.Requests
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the instance.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the instance.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "id")]
         public string Id { get; set; }

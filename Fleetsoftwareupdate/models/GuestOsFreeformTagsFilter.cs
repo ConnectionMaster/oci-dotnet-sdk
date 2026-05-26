@@ -16,14 +16,14 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FleetsoftwareupdateService.Models
 {
     /// <summary>
-    /// [Free-form tags](https://docs.cloud.oracle.com/Content/Tagging/Concepts/understandingfreeformtags.htm) to include when discovering Exadata VM Cluster targets for a 'GUEST_OS' collection.
+    /// [Free-form tags](https://docs.oracle.com/iaas/Content/Tagging/Concepts/understandingfreeformtags.htm) to include when discovering Exadata VM Cluster targets for a 'GUEST_OS' collection.
     /// 
     /// </summary>
     public class GuestOsFreeformTagsFilter : GuestOsFleetDiscoveryFilter
     {
         
         /// <value>
-        /// [Free-form tags](https://docs.cloud.oracle.com/Content/Tagging/Concepts/understandingfreeformtags.htm) to include when discovering Exadata VM Cluster targets for a 'GUEST_OS' collection.
+        /// [Free-form tags](https://docs.oracle.com/iaas/Content/Tagging/Concepts/understandingfreeformtags.htm) to include when discovering Exadata VM Cluster targets for a 'GUEST_OS' collection.
         /// 
         /// </value>
         /// <remarks>

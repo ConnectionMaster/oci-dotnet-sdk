@@ -74,7 +74,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GeneratePlaylist.cs.html">here</a> to see an example of how to use GeneratePlaylist API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GeneratePlaylist.cs.html">here</a> to see an example of how to use GeneratePlaylist API.</example>
         public async Task<GeneratePlaylistResponse> GeneratePlaylist(GeneratePlaylistRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generatePlaylist");
@@ -130,7 +130,7 @@ namespace Oci.MediaservicesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GenerateSessionToken.cs.html">here</a> to see an example of how to use GenerateSessionToken API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/GenerateSessionToken.cs.html">here</a> to see an example of how to use GenerateSessionToken API.</example>
         public async Task<GenerateSessionTokenResponse> GenerateSessionToken(GenerateSessionTokenRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateSessionToken");

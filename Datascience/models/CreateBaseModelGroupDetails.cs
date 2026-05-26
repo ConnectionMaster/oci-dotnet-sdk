@@ -24,7 +24,7 @@ namespace Oci.DatascienceService.Models
         
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to create the modelGroup in.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to create the modelGroup in.
         /// </value>
         /// <remarks>
         /// Required
@@ -34,7 +34,7 @@ namespace Oci.DatascienceService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the project to associate with the modelGroup.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the project to associate with the modelGroup.
         /// </value>
         /// <remarks>
         /// Required

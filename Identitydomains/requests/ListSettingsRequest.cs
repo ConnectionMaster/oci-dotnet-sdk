@@ -14,7 +14,7 @@ using Oci.IdentitydomainsService.Models;
 namespace Oci.IdentitydomainsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListSettings.cs.html">here</a> to see an example of how to use ListSettings request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListSettings.cs.html">here</a> to see an example of how to use ListSettings request.
     /// </example>
     public class ListSettingsRequest : Oci.Common.IOciRequest
     {

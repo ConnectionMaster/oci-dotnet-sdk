@@ -14,7 +14,7 @@ using Oci.IdentitydomainsService.Models;
 namespace Oci.IdentitydomainsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchCloudGateServers.cs.html">here</a> to see an example of how to use SearchCloudGateServers request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchCloudGateServers.cs.html">here</a> to see an example of how to use SearchCloudGateServers request.
     /// </example>
     public class SearchCloudGateServersRequest : Oci.Common.IOciRequest
     {

@@ -55,9 +55,9 @@ namespace Oci.MonitoringService.Models
         /// Construct your query to avoid exceeding limits on returned data. See {@link MetricData}.
         /// <br/>
         /// For details about Monitoring Query Language (MQL), see
-        /// [Monitoring Query Language (MQL) Reference](https://docs.cloud.oracle.com/iaas/Content/Monitoring/Reference/mql.htm).
+        /// [Monitoring Query Language (MQL) Reference](https://docs.oracle.com/iaas/Content/Monitoring/Reference/mql.htm).
         /// For available dimensions, review the metric definition for the supported service. See
-        /// [Supported Services](https://docs.cloud.oracle.com/iaas/Content/Monitoring/Concepts/monitoringoverview.htm#SupportedServices).
+        /// [Supported Services](https://docs.oracle.com/iaas/Content/Monitoring/Concepts/monitoringoverview.htm#SupportedServices).
         /// <br/>
         /// Example 1: `CpuUtilization[1m].sum()`
         /// <br/>

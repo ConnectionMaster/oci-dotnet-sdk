@@ -23,7 +23,7 @@ namespace Oci.DatabaseService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the cloud VM cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cloud VM cluster.
         /// </value>
         /// <remarks>
         /// Required
@@ -33,7 +33,7 @@ namespace Oci.DatabaseService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
         /// </value>
         /// <remarks>
         /// Required
@@ -43,7 +43,7 @@ namespace Oci.DatabaseService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the subscription with which resource needs to be associated with.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subscription with which resource needs to be associated with.
         /// </value>
         [JsonProperty(PropertyName = "subscriptionId")]
         public string SubscriptionId { get; set; }
@@ -59,7 +59,7 @@ namespace Oci.DatabaseService.Models
         public string AvailabilityDomain { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the subnet associated with the cloud VM cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet associated with the cloud VM cluster.
         /// <br/>
         /// **Subnet Restrictions:**
         /// - For Exadata and virtual machine 2-node RAC systems, do not use a subnet that overlaps with 192.168.128.0/20.
@@ -77,7 +77,7 @@ namespace Oci.DatabaseService.Models
         public string SubnetId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the backup network subnet associated with the cloud VM cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the backup network subnet associated with the cloud VM cluster.
         /// <br/>
         /// **Subnet Restriction:** See the subnet restrictions information for **subnetId**.
         /// 
@@ -86,7 +86,7 @@ namespace Oci.DatabaseService.Models
         public string BackupSubnetId { get; set; }
         
         /// <value>
-        /// The list of [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) for the network security groups (NSGs) to which this resource belongs. Setting this to an empty list removes all resources from all NSGs. For more information about NSGs, see [Security Rules](https://docs.cloud.oracle.com/Content/Network/Concepts/securityrules.htm).
+        /// The list of [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the network security groups (NSGs) to which this resource belongs. Setting this to an empty list removes all resources from all NSGs. For more information about NSGs, see [Security Rules](https://docs.oracle.com/iaas/Content/Network/Concepts/securityrules.htm).
         /// **NsgIds restrictions:**
         /// - A network security group (NSG) is optional for Autonomous AI Databases with private access. The nsgIds list can be empty.
         /// 
@@ -95,14 +95,14 @@ namespace Oci.DatabaseService.Models
         public System.Collections.Generic.List<string> NsgIds { get; set; }
         
         /// <value>
-        /// A list of the [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the network security groups (NSGs) that the backup network of this DB system belongs to. Setting this to an empty array after the list is created removes the resource from all NSGs. For more information about NSGs, see [Security Rules](https://docs.cloud.oracle.com/Content/Network/Concepts/securityrules.htm). Applicable only to Exadata systems.
+        /// A list of the [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the network security groups (NSGs) that the backup network of this DB system belongs to. Setting this to an empty array after the list is created removes the resource from all NSGs. For more information about NSGs, see [Security Rules](https://docs.oracle.com/iaas/Content/Network/Concepts/securityrules.htm). Applicable only to Exadata systems.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "backupNetworkNsgIds")]
         public System.Collections.Generic.List<string> BackupNetworkNsgIds { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the last maintenance update history entry. This value is updated when a maintenance update starts.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the last maintenance update history entry. This value is updated when a maintenance update starts.
         /// </value>
         [JsonProperty(PropertyName = "lastUpdateHistoryEntryId")]
         public string LastUpdateHistoryEntryId { get; set; }
@@ -195,7 +195,7 @@ namespace Oci.DatabaseService.Models
         public string LifecycleDetails { get; set; }
         
         /// <value>
-        /// The time zone of the cloud VM cluster. For details, see [Exadata Infrastructure Time Zones](https://docs.cloud.oracle.com/Content/Database/References/timezones.htm).
+        /// The time zone of the cloud VM cluster. For details, see [Exadata Infrastructure Time Zones](https://docs.oracle.com/iaas/Content/Database/References/timezones.htm).
         /// </value>
         [JsonProperty(PropertyName = "timeZone")]
         public string TimeZone { get; set; }
@@ -268,21 +268,21 @@ namespace Oci.DatabaseService.Models
         public string ClusterName { get; set; }
         
         /// <value>
-        /// The percentage assigned to DATA storage (user data and database files). See [Storage Configuration](https://docs.cloud.oracle.com/Content/Database/Concepts/exaoverview.htm#Exadata) in the Exadata documentation for details on the impact of the configuration settings on storage.
+        /// The percentage assigned to DATA storage (user data and database files). See [Storage Configuration](https://docs.oracle.com/iaas/Content/Database/Concepts/exaoverview.htm#Exadata) in the Exadata documentation for details on the impact of the configuration settings on storage.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "dataStoragePercentage")]
         public System.Nullable<int> DataStoragePercentage { get; set; }
         
         /// <value>
-        /// The percentage assigned to RECO storage (database redo logs, archive logs, and recovery manager backups). See [Storage Configuration](https://docs.cloud.oracle.com/Content/Database/Concepts/exaoverview.htm#Exadata) in the Exadata documentation for details on the impact of the configuration settings on storage.
+        /// The percentage assigned to RECO storage (database redo logs, archive logs, and recovery manager backups). See [Storage Configuration](https://docs.oracle.com/iaas/Content/Database/Concepts/exaoverview.htm#Exadata) in the Exadata documentation for details on the impact of the configuration settings on storage.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "recoStoragePercentage")]
         public System.Nullable<int> RecoStoragePercentage { get; set; }
         
         /// <value>
-        /// The percentage assigned to SPARSE storage (Exadata snapshots). See [Storage Configuration](https://docs.cloud.oracle.com/Content/Database/Concepts/exaoverview.htm#Exadata) in the Exadata documentation for details on the impact of the configuration settings on storage.
+        /// The percentage assigned to SPARSE storage (Exadata snapshots). See [Storage Configuration](https://docs.oracle.com/iaas/Content/Database/Concepts/exaoverview.htm#Exadata) in the Exadata documentation for details on the impact of the configuration settings on storage.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "sparseStoragePercentage")]
@@ -296,7 +296,7 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<bool> IsLocalBackupEnabled { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the cloud Exadata infrastructure.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cloud Exadata infrastructure.
         /// </value>
         /// <remarks>
         /// Required
@@ -385,7 +385,7 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<DiskRedundancyEnum> DiskRedundancy { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Single Client Access Name (SCAN) IPv4 addresses associated with the cloud VM cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Single Client Access Name (SCAN) IPv4 addresses associated with the cloud VM cluster.
         /// SCAN IPv4 addresses are typically used for load balancing and are not assigned to any interface.
         /// Oracle Clusterware directs the requests to the appropriate nodes in the cluster.
         /// <br/>
@@ -396,7 +396,7 @@ namespace Oci.DatabaseService.Models
         public System.Collections.Generic.List<string> ScanIpIds { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the virtual IP (VIP) IPv4 addresses associated with the cloud VM cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the virtual IP (VIP) IPv4 addresses associated with the cloud VM cluster.
         /// The Cluster Ready Services (CRS) creates and maintains one VIP IPv4 address for each node in the Exadata Cloud Service instance to
         /// enable failover. If one node fails, the VIP is reassigned to another active node in the cluster.
         /// <br/>
@@ -407,7 +407,7 @@ namespace Oci.DatabaseService.Models
         public System.Collections.Generic.List<string> VipIds { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Single Client Access Name (SCAN) IPv6 addresses associated with the cloud VM cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Single Client Access Name (SCAN) IPv6 addresses associated with the cloud VM cluster.
         /// SCAN IPv6 addresses are typically used for load balancing and are not assigned to any interface.
         /// Oracle Clusterware directs the requests to the appropriate nodes in the cluster.
         /// <br/>
@@ -418,7 +418,7 @@ namespace Oci.DatabaseService.Models
         public System.Collections.Generic.List<string> ScanIpv6Ids { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the virtual IP (VIP) IPv6 addresses associated with the cloud VM cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the virtual IP (VIP) IPv6 addresses associated with the cloud VM cluster.
         /// The Cluster Ready Services (CRS) creates and maintains one VIP IPv6 address for each node in the Exadata Cloud Service instance to
         /// enable failover. If one node fails, the VIP is reassigned to another active node in the cluster.
         /// <br/>
@@ -429,7 +429,7 @@ namespace Oci.DatabaseService.Models
         public System.Collections.Generic.List<string> Vipv6Ids { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the DNS record for the SCAN IP addresses that are associated with the cloud VM cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the DNS record for the SCAN IP addresses that are associated with the cloud VM cluster.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "scanDnsRecordId")]
@@ -437,7 +437,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -446,7 +446,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]
@@ -454,7 +454,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Security Attributes for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Oracle-ZPR&quot;: {&quot;MaxEgressCount&quot;: {&quot;value&quot;: &quot;42&quot;, &quot;mode&quot;: &quot;audit&quot;}}}
         /// </value>
         [JsonProperty(PropertyName = "securityAttributes")]
@@ -462,7 +462,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// System tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "systemTags")]
@@ -498,7 +498,7 @@ namespace Oci.DatabaseService.Models
         public DataCollectionOptions DataCollectionOptions { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of a grid infrastructure software image. This is a database software image of the type `GRID_IMAGE`.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a grid infrastructure software image. This is a database software image of the type `GRID_IMAGE`.
         /// </value>
         [JsonProperty(PropertyName = "giSoftwareImageId")]
         public string GiSoftwareImageId { get; set; }
@@ -513,7 +513,7 @@ namespace Oci.DatabaseService.Models
         public CloudAutomationUpdateDetails CloudAutomationUpdateDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Exadata Database Storage Vault.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Exadata Database Storage Vault.
         /// </value>
         [JsonProperty(PropertyName = "exascaleDbStorageVaultId")]
         public string ExascaleDbStorageVaultId { get; set; }

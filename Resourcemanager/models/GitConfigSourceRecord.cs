@@ -23,7 +23,7 @@ namespace Oci.ResourcemanagerService.Models
     {
         
         /// <value>
-        /// Unique identifier ([OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm))
+        /// Unique identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm))
         /// for the Git configuration source.
         /// 
         /// </value>

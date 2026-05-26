@@ -22,7 +22,7 @@ namespace Oci.RedisService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the compartment
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the compartment
         /// into which the cluster should be moved.
         /// 
         /// </value>

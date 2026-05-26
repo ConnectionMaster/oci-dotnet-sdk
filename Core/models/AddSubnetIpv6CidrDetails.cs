@@ -24,7 +24,7 @@ namespace Oci.CoreService.Models
         /// <value>
         /// This field is not required and should only be specified when adding an IPv6 prefix
         /// to a subnet's IPv6 address space.
-        /// See[IPv6 Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
+        /// See[IPv6 Addresses](https://docs.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
         /// <br/>
         /// Example: 2001:0db8:0123::/64
         /// </value>

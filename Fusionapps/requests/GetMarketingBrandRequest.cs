@@ -14,7 +14,7 @@ using Oci.FusionappsService.Models;
 namespace Oci.FusionappsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetMarketingBrand.cs.html">here</a> to see an example of how to use GetMarketingBrand request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/GetMarketingBrand.cs.html">here</a> to see an example of how to use GetMarketingBrand request.
     /// </example>
     public class GetMarketingBrandRequest : Oci.Common.IOciRequest
     {

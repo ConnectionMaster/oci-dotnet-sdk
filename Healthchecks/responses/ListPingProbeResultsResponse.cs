@@ -31,7 +31,7 @@ namespace Oci.HealthchecksService.Responses
         /// additional items still to get. Include this value as the `page`
         /// parameter for the subsequent GET request. For information about
         /// pagination, see
-        /// [List Pagination](https://docs.cloud.oracle.com/Content/API/Concepts/usingapi.htm#List_Pagination).
+        /// [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#List_Pagination).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-next-page")]

@@ -14,13 +14,13 @@ using Oci.OdaService.Models;
 namespace Oci.OdaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetOdaPrivateEndpointAttachment.cs.html">here</a> to see an example of how to use GetOdaPrivateEndpointAttachment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/GetOdaPrivateEndpointAttachment.cs.html">here</a> to see an example of how to use GetOdaPrivateEndpointAttachment request.
     /// </example>
     public class GetOdaPrivateEndpointAttachmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of ODA Private Endpoint Attachment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of ODA Private Endpoint Attachment.
         /// </value>
         /// <remarks>
         /// Required

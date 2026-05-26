@@ -50,7 +50,7 @@ namespace Oci.VnmonitoringService.Models
         /// [RFC 1123](https://tools.ietf.org/html/rfc1123).
         /// <br/>
         /// For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// <br/>
         /// Example: bminstance1
         /// </value>
@@ -68,7 +68,7 @@ namespace Oci.VnmonitoringService.Models
         public string IpAddress { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC to assign the private IP to. The VNIC and private IP
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC to assign the private IP to. The VNIC and private IP
         /// must be in the same subnet.
         /// 
         /// </value>

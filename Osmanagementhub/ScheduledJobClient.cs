@@ -80,7 +80,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ChangeScheduledJobCompartment.cs.html">here</a> to see an example of how to use ChangeScheduledJobCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ChangeScheduledJobCompartment.cs.html">here</a> to see an example of how to use ChangeScheduledJobCompartment API.</example>
         public async Task<ChangeScheduledJobCompartmentResponse> ChangeScheduledJobCompartment(ChangeScheduledJobCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeScheduledJobCompartment");
@@ -137,7 +137,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/CreateScheduledJob.cs.html">here</a> to see an example of how to use CreateScheduledJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/CreateScheduledJob.cs.html">here</a> to see an example of how to use CreateScheduledJob API.</example>
         public async Task<CreateScheduledJobResponse> CreateScheduledJob(CreateScheduledJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createScheduledJob");
@@ -194,7 +194,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteScheduledJob.cs.html">here</a> to see an example of how to use DeleteScheduledJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteScheduledJob.cs.html">here</a> to see an example of how to use DeleteScheduledJob API.</example>
         public async Task<DeleteScheduledJobResponse> DeleteScheduledJob(DeleteScheduledJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteScheduledJob");
@@ -251,7 +251,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetScheduledJob.cs.html">here</a> to see an example of how to use GetScheduledJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetScheduledJob.cs.html">here</a> to see an example of how to use GetScheduledJob API.</example>
         public async Task<GetScheduledJobResponse> GetScheduledJob(GetScheduledJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getScheduledJob");
@@ -300,7 +300,7 @@ namespace Oci.OsmanagementhubService
         }
 
         /// <summary>
-        /// Lists scheduled jobs that match the specified compartment or scheduled job [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Lists scheduled jobs that match the specified compartment or scheduled job [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -308,7 +308,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListScheduledJobs.cs.html">here</a> to see an example of how to use ListScheduledJobs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListScheduledJobs.cs.html">here</a> to see an example of how to use ListScheduledJobs API.</example>
         public async Task<ListScheduledJobsResponse> ListScheduledJobs(ListScheduledJobsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listScheduledJobs");
@@ -366,7 +366,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RunScheduledJobNow.cs.html">here</a> to see an example of how to use RunScheduledJobNow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RunScheduledJobNow.cs.html">here</a> to see an example of how to use RunScheduledJobNow API.</example>
         public async Task<RunScheduledJobNowResponse> RunScheduledJobNow(RunScheduledJobNowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called runScheduledJobNow");
@@ -423,7 +423,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateScheduledJob.cs.html">here</a> to see an example of how to use UpdateScheduledJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateScheduledJob.cs.html">here</a> to see an example of how to use UpdateScheduledJob API.</example>
         public async Task<UpdateScheduledJobResponse> UpdateScheduledJob(UpdateScheduledJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateScheduledJob");

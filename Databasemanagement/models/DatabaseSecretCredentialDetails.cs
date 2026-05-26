@@ -23,7 +23,7 @@ namespace Oci.DatabasemanagementService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret
         /// where the database password is stored.
         /// 
         /// </value>

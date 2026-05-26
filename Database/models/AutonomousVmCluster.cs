@@ -23,7 +23,7 @@ namespace Oci.DatabaseService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Autonomous VM cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Autonomous VM cluster.
         /// </value>
         /// <remarks>
         /// Required
@@ -33,7 +33,7 @@ namespace Oci.DatabaseService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
         /// </value>
         /// <remarks>
         /// Required
@@ -100,13 +100,40 @@ namespace Oci.DatabaseService.Models
         public string LifecycleDetails { get; set; }
         
         /// <value>
-        /// The time zone to use for the Autonomous VM cluster. For details, see [DB System Time Zones](https://docs.cloud.oracle.com/Content/Database/References/timezones.htm).
+        /// The time zone to use for the Autonomous VM cluster. For details, see [DB System Time Zones](https://docs.oracle.com/iaas/Content/Database/References/timezones.htm).
         /// </value>
         [JsonProperty(PropertyName = "timeZone")]
         public string TimeZone { get; set; }
+                ///
+        /// <value>
+        /// The distribution algorithm used for the Autonomous VM cluster.
+        /// </value>
+        ///
+        public enum DistributionAlgorithmEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "RESOURCE_OPTIMIZED")]
+            ResourceOptimized,
+            [EnumMember(Value = "DISTRIBUTION_OPTIMIZED")]
+            DistributionOptimized
+        };
+
+        /// <value>
+        /// The distribution algorithm used for the Autonomous VM cluster.
+        /// </value>
+        [JsonProperty(PropertyName = "distributionAlgorithm")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<DistributionAlgorithmEnum> DistributionAlgorithm { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Exadata infrastructure.
+        /// Percentage of ECPU memory allocated for SGA(System Global Area).
+        /// </value>
+        [JsonProperty(PropertyName = "sgaPercentage")]
+        public System.Nullable<float> SgaPercentage { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Exadata infrastructure.
         /// </value>
         /// <remarks>
         /// Required
@@ -116,7 +143,7 @@ namespace Oci.DatabaseService.Models
         public string ExadataInfrastructureId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VM cluster network.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VM cluster network.
         /// </value>
         /// <remarks>
         /// Required
@@ -209,13 +236,13 @@ namespace Oci.DatabaseService.Models
         public MaintenanceWindow MaintenanceWindow { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the last maintenance run.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the last maintenance run.
         /// </value>
         [JsonProperty(PropertyName = "lastMaintenanceRunId")]
         public string LastMaintenanceRunId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the next maintenance run.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the next maintenance run.
         /// </value>
         [JsonProperty(PropertyName = "nextMaintenanceRunId")]
         public string NextMaintenanceRunId { get; set; }
@@ -332,7 +359,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -341,7 +368,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]
@@ -349,14 +376,14 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// System tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "systemTags")]
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> SystemTags { get; set; }
         
         /// <value>
-        /// The list of [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Db servers.
+        /// The list of [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Db servers.
         /// </value>
         [JsonProperty(PropertyName = "dbServers")]
         public System.Collections.Generic.List<string> DbServers { get; set; }

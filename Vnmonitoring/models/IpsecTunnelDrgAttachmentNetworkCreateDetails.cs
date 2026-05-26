@@ -22,7 +22,7 @@ namespace Oci.VnmonitoringService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the IPSec connection.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the IPSec connection.
         /// </value>
         /// <remarks>
         /// Required
@@ -49,7 +49,7 @@ namespace Oci.VnmonitoringService.Models
         public string IpsecConnectionId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the virtual-circuit drg attachment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the virtual-circuit drg attachment.
         /// </value>
         [JsonProperty(PropertyName = "transportAttachmentId")]
         public string TransportAttachmentId { get; set; }

@@ -14,7 +14,7 @@ using Oci.SecurityattributeService.Models;
 namespace Oci.SecurityattributeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/GetSecurityAttribute.cs.html">here</a> to see an example of how to use GetSecurityAttribute request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/GetSecurityAttribute.cs.html">here</a> to see an example of how to use GetSecurityAttribute request.
     /// </example>
     public class GetSecurityAttributeRequest : Oci.Common.IOciRequest
     {

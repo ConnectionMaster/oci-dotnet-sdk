@@ -14,7 +14,7 @@ using Oci.DatalabelingService.Models;
 namespace Oci.DatalabelingService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datalabelingservice/RenameDatasetLabels.cs.html">here</a> to see an example of how to use RenameDatasetLabels request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datalabelingservice/RenameDatasetLabels.cs.html">here</a> to see an example of how to use RenameDatasetLabels request.
     /// </example>
     public class RenameDatasetLabelsRequest : Oci.Common.IOciRequest
     {

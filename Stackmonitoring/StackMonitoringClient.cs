@@ -80,7 +80,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ApplyMonitoringTemplate.cs.html">here</a> to see an example of how to use ApplyMonitoringTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ApplyMonitoringTemplate.cs.html">here</a> to see an example of how to use ApplyMonitoringTemplate API.</example>
         public async Task<ApplyMonitoringTemplateResponse> ApplyMonitoringTemplate(ApplyMonitoringTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called applyMonitoringTemplate");
@@ -139,7 +139,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/AssociateMonitoredResources.cs.html">here</a> to see an example of how to use AssociateMonitoredResources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/AssociateMonitoredResources.cs.html">here</a> to see an example of how to use AssociateMonitoredResources API.</example>
         public async Task<AssociateMonitoredResourcesResponse> AssociateMonitoredResources(AssociateMonitoredResourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called associateMonitoredResources");
@@ -206,7 +206,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ChangeConfigCompartment.cs.html">here</a> to see an example of how to use ChangeConfigCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ChangeConfigCompartment.cs.html">here</a> to see an example of how to use ChangeConfigCompartment API.</example>
         public async Task<ChangeConfigCompartmentResponse> ChangeConfigCompartment(ChangeConfigCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeConfigCompartment");
@@ -264,7 +264,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ChangeMetricExtensionCompartment.cs.html">here</a> to see an example of how to use ChangeMetricExtensionCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ChangeMetricExtensionCompartment.cs.html">here</a> to see an example of how to use ChangeMetricExtensionCompartment API.</example>
         public async Task<ChangeMetricExtensionCompartmentResponse> ChangeMetricExtensionCompartment(ChangeMetricExtensionCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMetricExtensionCompartment");
@@ -322,7 +322,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ChangeMonitoredResourceCompartment.cs.html">here</a> to see an example of how to use ChangeMonitoredResourceCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ChangeMonitoredResourceCompartment.cs.html">here</a> to see an example of how to use ChangeMonitoredResourceCompartment API.</example>
         public async Task<ChangeMonitoredResourceCompartmentResponse> ChangeMonitoredResourceCompartment(ChangeMonitoredResourceCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMonitoredResourceCompartment");
@@ -379,7 +379,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ChangeMonitoredResourceTaskCompartment.cs.html">here</a> to see an example of how to use ChangeMonitoredResourceTaskCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ChangeMonitoredResourceTaskCompartment.cs.html">here</a> to see an example of how to use ChangeMonitoredResourceTaskCompartment API.</example>
         public async Task<ChangeMonitoredResourceTaskCompartmentResponse> ChangeMonitoredResourceTaskCompartment(ChangeMonitoredResourceTaskCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMonitoredResourceTaskCompartment");
@@ -436,7 +436,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ChangeProcessSetCompartment.cs.html">here</a> to see an example of how to use ChangeProcessSetCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ChangeProcessSetCompartment.cs.html">here</a> to see an example of how to use ChangeProcessSetCompartment API.</example>
         public async Task<ChangeProcessSetCompartmentResponse> ChangeProcessSetCompartment(ChangeProcessSetCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeProcessSetCompartment");
@@ -492,7 +492,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateAlarmCondition.cs.html">here</a> to see an example of how to use CreateAlarmCondition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateAlarmCondition.cs.html">here</a> to see an example of how to use CreateAlarmCondition API.</example>
         public async Task<CreateAlarmConditionResponse> CreateAlarmCondition(CreateAlarmConditionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAlarmCondition");
@@ -548,7 +548,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateBaselineableMetric.cs.html">here</a> to see an example of how to use CreateBaselineableMetric API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateBaselineableMetric.cs.html">here</a> to see an example of how to use CreateBaselineableMetric API.</example>
         public async Task<CreateBaselineableMetricResponse> CreateBaselineableMetric(CreateBaselineableMetricRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBaselineableMetric");
@@ -611,7 +611,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateConfig.cs.html">here</a> to see an example of how to use CreateConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateConfig.cs.html">here</a> to see an example of how to use CreateConfig API.</example>
         public async Task<CreateConfigResponse> CreateConfig(CreateConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createConfig");
@@ -668,7 +668,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateDiscoveryJob.cs.html">here</a> to see an example of how to use CreateDiscoveryJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateDiscoveryJob.cs.html">here</a> to see an example of how to use CreateDiscoveryJob API.</example>
         public async Task<CreateDiscoveryJobResponse> CreateDiscoveryJob(CreateDiscoveryJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDiscoveryJob");
@@ -726,7 +726,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateMaintenanceWindow.cs.html">here</a> to see an example of how to use CreateMaintenanceWindow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateMaintenanceWindow.cs.html">here</a> to see an example of how to use CreateMaintenanceWindow API.</example>
         public async Task<CreateMaintenanceWindowResponse> CreateMaintenanceWindow(CreateMaintenanceWindowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMaintenanceWindow");
@@ -783,7 +783,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateMetricExtension.cs.html">here</a> to see an example of how to use CreateMetricExtension API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateMetricExtension.cs.html">here</a> to see an example of how to use CreateMetricExtension API.</example>
         public async Task<CreateMetricExtensionResponse> CreateMetricExtension(CreateMetricExtensionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMetricExtension");
@@ -842,7 +842,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateMonitoredResource.cs.html">here</a> to see an example of how to use CreateMonitoredResource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateMonitoredResource.cs.html">here</a> to see an example of how to use CreateMonitoredResource API.</example>
         public async Task<CreateMonitoredResourceResponse> CreateMonitoredResource(CreateMonitoredResourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMonitoredResource");
@@ -898,7 +898,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateMonitoredResourceTask.cs.html">here</a> to see an example of how to use CreateMonitoredResourceTask API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateMonitoredResourceTask.cs.html">here</a> to see an example of how to use CreateMonitoredResourceTask API.</example>
         public async Task<CreateMonitoredResourceTaskResponse> CreateMonitoredResourceTask(CreateMonitoredResourceTaskRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMonitoredResourceTask");
@@ -954,7 +954,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateMonitoredResourceType.cs.html">here</a> to see an example of how to use CreateMonitoredResourceType API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateMonitoredResourceType.cs.html">here</a> to see an example of how to use CreateMonitoredResourceType API.</example>
         public async Task<CreateMonitoredResourceTypeResponse> CreateMonitoredResourceType(CreateMonitoredResourceTypeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMonitoredResourceType");
@@ -1010,7 +1010,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateMonitoringTemplate.cs.html">here</a> to see an example of how to use CreateMonitoringTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateMonitoringTemplate.cs.html">here</a> to see an example of how to use CreateMonitoringTemplate API.</example>
         public async Task<CreateMonitoringTemplateResponse> CreateMonitoringTemplate(CreateMonitoringTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMonitoringTemplate");
@@ -1066,7 +1066,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateProcessSet.cs.html">here</a> to see an example of how to use CreateProcessSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateProcessSet.cs.html">here</a> to see an example of how to use CreateProcessSet API.</example>
         public async Task<CreateProcessSetResponse> CreateProcessSet(CreateProcessSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createProcessSet");
@@ -1122,7 +1122,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteAlarmCondition.cs.html">here</a> to see an example of how to use DeleteAlarmCondition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteAlarmCondition.cs.html">here</a> to see an example of how to use DeleteAlarmCondition API.</example>
         public async Task<DeleteAlarmConditionResponse> DeleteAlarmCondition(DeleteAlarmConditionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAlarmCondition");
@@ -1178,7 +1178,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteBaselineableMetric.cs.html">here</a> to see an example of how to use DeleteBaselineableMetric API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteBaselineableMetric.cs.html">here</a> to see an example of how to use DeleteBaselineableMetric API.</example>
         public async Task<DeleteBaselineableMetricResponse> DeleteBaselineableMetric(DeleteBaselineableMetricRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBaselineableMetric");
@@ -1234,7 +1234,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteConfig.cs.html">here</a> to see an example of how to use DeleteConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteConfig.cs.html">here</a> to see an example of how to use DeleteConfig API.</example>
         public async Task<DeleteConfigResponse> DeleteConfig(DeleteConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteConfig");
@@ -1290,7 +1290,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteDiscoveryJob.cs.html">here</a> to see an example of how to use DeleteDiscoveryJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteDiscoveryJob.cs.html">here</a> to see an example of how to use DeleteDiscoveryJob API.</example>
         public async Task<DeleteDiscoveryJobResponse> DeleteDiscoveryJob(DeleteDiscoveryJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDiscoveryJob");
@@ -1347,7 +1347,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteMaintenanceWindow.cs.html">here</a> to see an example of how to use DeleteMaintenanceWindow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteMaintenanceWindow.cs.html">here</a> to see an example of how to use DeleteMaintenanceWindow API.</example>
         public async Task<DeleteMaintenanceWindowResponse> DeleteMaintenanceWindow(DeleteMaintenanceWindowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMaintenanceWindow");
@@ -1403,7 +1403,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteMetricExtension.cs.html">here</a> to see an example of how to use DeleteMetricExtension API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteMetricExtension.cs.html">here</a> to see an example of how to use DeleteMetricExtension API.</example>
         public async Task<DeleteMetricExtensionResponse> DeleteMetricExtension(DeleteMetricExtensionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMetricExtension");
@@ -1452,7 +1452,7 @@ namespace Oci.StackmonitoringService
         }
 
         /// <summary>
-        /// Delete monitored resource by the given identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Delete monitored resource by the given identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// By default, only the specified resource is deleted. If the parameter &#39;isDeleteMembers&#39; is set to true, 
         /// then the member resources will be deleted too. If the operation fails partially, the deleted entries 
         /// will not be rolled back.
@@ -1463,7 +1463,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteMonitoredResource.cs.html">here</a> to see an example of how to use DeleteMonitoredResource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteMonitoredResource.cs.html">here</a> to see an example of how to use DeleteMonitoredResource API.</example>
         public async Task<DeleteMonitoredResourceResponse> DeleteMonitoredResource(DeleteMonitoredResourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMonitoredResource");
@@ -1512,14 +1512,14 @@ namespace Oci.StackmonitoringService
         }
 
         /// <summary>
-        /// Deletes a monitored resource type by identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Deletes a monitored resource type by identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteMonitoredResourceType.cs.html">here</a> to see an example of how to use DeleteMonitoredResourceType API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteMonitoredResourceType.cs.html">here</a> to see an example of how to use DeleteMonitoredResourceType API.</example>
         public async Task<DeleteMonitoredResourceTypeResponse> DeleteMonitoredResourceType(DeleteMonitoredResourceTypeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMonitoredResourceType");
@@ -1575,7 +1575,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteMonitoringTemplate.cs.html">here</a> to see an example of how to use DeleteMonitoringTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteMonitoringTemplate.cs.html">here</a> to see an example of how to use DeleteMonitoringTemplate API.</example>
         public async Task<DeleteMonitoringTemplateResponse> DeleteMonitoringTemplate(DeleteMonitoringTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMonitoringTemplate");
@@ -1631,7 +1631,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteProcessSet.cs.html">here</a> to see an example of how to use DeleteProcessSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteProcessSet.cs.html">here</a> to see an example of how to use DeleteProcessSet API.</example>
         public async Task<DeleteProcessSetResponse> DeleteProcessSet(DeleteProcessSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteProcessSet");
@@ -1689,7 +1689,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DisableExternalDatabase.cs.html">here</a> to see an example of how to use DisableExternalDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DisableExternalDatabase.cs.html">here</a> to see an example of how to use DisableExternalDatabase API.</example>
         public async Task<DisableExternalDatabaseResponse> DisableExternalDatabase(DisableExternalDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableExternalDatabase");
@@ -1746,7 +1746,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DisableMetricExtension.cs.html">here</a> to see an example of how to use DisableMetricExtension API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DisableMetricExtension.cs.html">here</a> to see an example of how to use DisableMetricExtension API.</example>
         public async Task<DisableMetricExtensionResponse> DisableMetricExtension(DisableMetricExtensionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableMetricExtension");
@@ -1802,7 +1802,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DisassociateMonitoredResources.cs.html">here</a> to see an example of how to use DisassociateMonitoredResources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DisassociateMonitoredResources.cs.html">here</a> to see an example of how to use DisassociateMonitoredResources API.</example>
         public async Task<DisassociateMonitoredResourcesResponse> DisassociateMonitoredResources(DisassociateMonitoredResourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disassociateMonitoredResources");
@@ -1859,7 +1859,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/EnableMetricExtension.cs.html">here</a> to see an example of how to use EnableMetricExtension API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/EnableMetricExtension.cs.html">here</a> to see an example of how to use EnableMetricExtension API.</example>
         public async Task<EnableMetricExtensionResponse> EnableMetricExtension(EnableMetricExtensionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enableMetricExtension");
@@ -1915,7 +1915,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/EvaluateBaselineableMetric.cs.html">here</a> to see an example of how to use EvaluateBaselineableMetric API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/EvaluateBaselineableMetric.cs.html">here</a> to see an example of how to use EvaluateBaselineableMetric API.</example>
         public async Task<EvaluateBaselineableMetricResponse> EvaluateBaselineableMetric(EvaluateBaselineableMetricRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called evaluateBaselineableMetric");
@@ -1973,7 +1973,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ExportMetricExtension.cs.html">here</a> to see an example of how to use ExportMetricExtension API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ExportMetricExtension.cs.html">here</a> to see an example of how to use ExportMetricExtension API.</example>
         public async Task<ExportMetricExtensionResponse> ExportMetricExtension(ExportMetricExtensionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called exportMetricExtension");
@@ -2029,7 +2029,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ExportMonitoringTemplate.cs.html">here</a> to see an example of how to use ExportMonitoringTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ExportMonitoringTemplate.cs.html">here</a> to see an example of how to use ExportMonitoringTemplate API.</example>
         public async Task<ExportMonitoringTemplateResponse> ExportMonitoringTemplate(ExportMonitoringTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called exportMonitoringTemplate");
@@ -2085,7 +2085,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetAlarmCondition.cs.html">here</a> to see an example of how to use GetAlarmCondition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetAlarmCondition.cs.html">here</a> to see an example of how to use GetAlarmCondition API.</example>
         public async Task<GetAlarmConditionResponse> GetAlarmCondition(GetAlarmConditionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAlarmCondition");
@@ -2141,7 +2141,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetBaselineableMetric.cs.html">here</a> to see an example of how to use GetBaselineableMetric API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetBaselineableMetric.cs.html">here</a> to see an example of how to use GetBaselineableMetric API.</example>
         public async Task<GetBaselineableMetricResponse> GetBaselineableMetric(GetBaselineableMetricRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBaselineableMetric");
@@ -2197,7 +2197,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetConfig.cs.html">here</a> to see an example of how to use GetConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetConfig.cs.html">here</a> to see an example of how to use GetConfig API.</example>
         public async Task<GetConfigResponse> GetConfig(GetConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getConfig");
@@ -2254,7 +2254,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetDiscoveryJob.cs.html">here</a> to see an example of how to use GetDiscoveryJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetDiscoveryJob.cs.html">here</a> to see an example of how to use GetDiscoveryJob API.</example>
         public async Task<GetDiscoveryJobResponse> GetDiscoveryJob(GetDiscoveryJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDiscoveryJob");
@@ -2303,7 +2303,7 @@ namespace Oci.StackmonitoringService
         }
 
         /// <summary>
-        /// Get maintenance window for the given identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Get maintenance window for the given identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2311,7 +2311,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetMaintenanceWindow.cs.html">here</a> to see an example of how to use GetMaintenanceWindow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetMaintenanceWindow.cs.html">here</a> to see an example of how to use GetMaintenanceWindow API.</example>
         public async Task<GetMaintenanceWindowResponse> GetMaintenanceWindow(GetMaintenanceWindowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMaintenanceWindow");
@@ -2367,7 +2367,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetMetricExtension.cs.html">here</a> to see an example of how to use GetMetricExtension API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetMetricExtension.cs.html">here</a> to see an example of how to use GetMetricExtension API.</example>
         public async Task<GetMetricExtensionResponse> GetMetricExtension(GetMetricExtensionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMetricExtension");
@@ -2416,7 +2416,7 @@ namespace Oci.StackmonitoringService
         }
 
         /// <summary>
-        /// Get monitored resource for the given identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Get monitored resource for the given identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2424,7 +2424,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetMonitoredResource.cs.html">here</a> to see an example of how to use GetMonitoredResource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetMonitoredResource.cs.html">here</a> to see an example of how to use GetMonitoredResource API.</example>
         public async Task<GetMonitoredResourceResponse> GetMonitoredResource(GetMonitoredResourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMonitoredResource");
@@ -2473,14 +2473,14 @@ namespace Oci.StackmonitoringService
         }
 
         /// <summary>
-        /// Gets stack monitoring resource task details by identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Gets stack monitoring resource task details by identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetMonitoredResourceTask.cs.html">here</a> to see an example of how to use GetMonitoredResourceTask API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetMonitoredResourceTask.cs.html">here</a> to see an example of how to use GetMonitoredResourceTask API.</example>
         public async Task<GetMonitoredResourceTaskResponse> GetMonitoredResourceTask(GetMonitoredResourceTaskRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMonitoredResourceTask");
@@ -2529,14 +2529,14 @@ namespace Oci.StackmonitoringService
         }
 
         /// <summary>
-        /// Gets a monitored resource type by identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Gets a monitored resource type by identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetMonitoredResourceType.cs.html">here</a> to see an example of how to use GetMonitoredResourceType API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetMonitoredResourceType.cs.html">here</a> to see an example of how to use GetMonitoredResourceType API.</example>
         public async Task<GetMonitoredResourceTypeResponse> GetMonitoredResourceType(GetMonitoredResourceTypeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMonitoredResourceType");
@@ -2592,7 +2592,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetMonitoringTemplate.cs.html">here</a> to see an example of how to use GetMonitoringTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetMonitoringTemplate.cs.html">here</a> to see an example of how to use GetMonitoringTemplate API.</example>
         public async Task<GetMonitoringTemplateResponse> GetMonitoringTemplate(GetMonitoringTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMonitoringTemplate");
@@ -2648,7 +2648,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetProcessSet.cs.html">here</a> to see an example of how to use GetProcessSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetProcessSet.cs.html">here</a> to see an example of how to use GetProcessSet API.</example>
         public async Task<GetProcessSetResponse> GetProcessSet(GetProcessSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getProcessSet");
@@ -2704,7 +2704,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -2760,7 +2760,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListAlarmConditions.cs.html">here</a> to see an example of how to use ListAlarmConditions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListAlarmConditions.cs.html">here</a> to see an example of how to use ListAlarmConditions API.</example>
         public async Task<ListAlarmConditionsResponse> ListAlarmConditions(ListAlarmConditionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAlarmConditions");
@@ -2816,7 +2816,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListBaselineableMetrics.cs.html">here</a> to see an example of how to use ListBaselineableMetrics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListBaselineableMetrics.cs.html">here</a> to see an example of how to use ListBaselineableMetrics API.</example>
         public async Task<ListBaselineableMetricsResponse> ListBaselineableMetrics(ListBaselineableMetricsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBaselineableMetrics");
@@ -2873,7 +2873,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListConfigs.cs.html">here</a> to see an example of how to use ListConfigs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListConfigs.cs.html">here</a> to see an example of how to use ListConfigs API.</example>
         public async Task<ListConfigsResponse> ListConfigs(ListConfigsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listConfigs");
@@ -2929,7 +2929,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListDefinedMonitoringTemplates.cs.html">here</a> to see an example of how to use ListDefinedMonitoringTemplates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListDefinedMonitoringTemplates.cs.html">here</a> to see an example of how to use ListDefinedMonitoringTemplates API.</example>
         public async Task<ListDefinedMonitoringTemplatesResponse> ListDefinedMonitoringTemplates(ListDefinedMonitoringTemplatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDefinedMonitoringTemplates");
@@ -2986,7 +2986,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListDiscoveryJobLogs.cs.html">here</a> to see an example of how to use ListDiscoveryJobLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListDiscoveryJobLogs.cs.html">here</a> to see an example of how to use ListDiscoveryJobLogs API.</example>
         public async Task<ListDiscoveryJobLogsResponse> ListDiscoveryJobLogs(ListDiscoveryJobLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDiscoveryJobLogs");
@@ -3043,7 +3043,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListDiscoveryJobs.cs.html">here</a> to see an example of how to use ListDiscoveryJobs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListDiscoveryJobs.cs.html">here</a> to see an example of how to use ListDiscoveryJobs API.</example>
         public async Task<ListDiscoveryJobsResponse> ListDiscoveryJobs(ListDiscoveryJobsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDiscoveryJobs");
@@ -3099,7 +3099,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListMaintenanceWindows.cs.html">here</a> to see an example of how to use ListMaintenanceWindows API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListMaintenanceWindows.cs.html">here</a> to see an example of how to use ListMaintenanceWindows API.</example>
         public async Task<ListMaintenanceWindowsResponse> ListMaintenanceWindows(ListMaintenanceWindowsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMaintenanceWindows");
@@ -3155,7 +3155,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListMetricExtensions.cs.html">here</a> to see an example of how to use ListMetricExtensions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListMetricExtensions.cs.html">here</a> to see an example of how to use ListMetricExtensions API.</example>
         public async Task<ListMetricExtensionsResponse> ListMetricExtensions(ListMetricExtensionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMetricExtensions");
@@ -3212,7 +3212,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListMonitoredResourceTasks.cs.html">here</a> to see an example of how to use ListMonitoredResourceTasks API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListMonitoredResourceTasks.cs.html">here</a> to see an example of how to use ListMonitoredResourceTasks API.</example>
         public async Task<ListMonitoredResourceTasksResponse> ListMonitoredResourceTasks(ListMonitoredResourceTasksRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMonitoredResourceTasks");
@@ -3274,7 +3274,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListMonitoredResourceTypes.cs.html">here</a> to see an example of how to use ListMonitoredResourceTypes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListMonitoredResourceTypes.cs.html">here</a> to see an example of how to use ListMonitoredResourceTypes API.</example>
         public async Task<ListMonitoredResourceTypesResponse> ListMonitoredResourceTypes(ListMonitoredResourceTypesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMonitoredResourceTypes");
@@ -3330,7 +3330,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListMonitoredResources.cs.html">here</a> to see an example of how to use ListMonitoredResources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListMonitoredResources.cs.html">here</a> to see an example of how to use ListMonitoredResources API.</example>
         public async Task<ListMonitoredResourcesResponse> ListMonitoredResources(ListMonitoredResourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMonitoredResources");
@@ -3386,7 +3386,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListMonitoringTemplates.cs.html">here</a> to see an example of how to use ListMonitoringTemplates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListMonitoringTemplates.cs.html">here</a> to see an example of how to use ListMonitoringTemplates API.</example>
         public async Task<ListMonitoringTemplatesResponse> ListMonitoringTemplates(ListMonitoringTemplatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMonitoringTemplates");
@@ -3442,7 +3442,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListProcessSets.cs.html">here</a> to see an example of how to use ListProcessSets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListProcessSets.cs.html">here</a> to see an example of how to use ListProcessSets API.</example>
         public async Task<ListProcessSetsResponse> ListProcessSets(ListProcessSetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProcessSets");
@@ -3499,7 +3499,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -3556,7 +3556,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -3613,7 +3613,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -3674,7 +3674,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ManageLicense.cs.html">here</a> to see an example of how to use ManageLicense API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/ManageLicense.cs.html">here</a> to see an example of how to use ManageLicense API.</example>
         public async Task<ManageLicenseResponse> ManageLicense(ManageLicenseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called manageLicense");
@@ -3730,7 +3730,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/PublishMetricExtension.cs.html">here</a> to see an example of how to use PublishMetricExtension API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/PublishMetricExtension.cs.html">here</a> to see an example of how to use PublishMetricExtension API.</example>
         public async Task<PublishMetricExtensionResponse> PublishMetricExtension(PublishMetricExtensionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called publishMetricExtension");
@@ -3787,7 +3787,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/RequestMonitoredResourcesSummarizedCount.cs.html">here</a> to see an example of how to use RequestMonitoredResourcesSummarizedCount API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/RequestMonitoredResourcesSummarizedCount.cs.html">here</a> to see an example of how to use RequestMonitoredResourcesSummarizedCount API.</example>
         public async Task<RequestMonitoredResourcesSummarizedCountResponse> RequestMonitoredResourcesSummarizedCount(RequestMonitoredResourcesSummarizedCountRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestMonitoredResourcesSummarizedCount");
@@ -3845,7 +3845,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/RequestSummarizedMetricExtensionsMetrics.cs.html">here</a> to see an example of how to use RequestSummarizedMetricExtensionsMetrics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/RequestSummarizedMetricExtensionsMetrics.cs.html">here</a> to see an example of how to use RequestSummarizedMetricExtensionsMetrics API.</example>
         public async Task<RequestSummarizedMetricExtensionsMetricsResponse> RequestSummarizedMetricExtensionsMetrics(RequestSummarizedMetricExtensionsMetricsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestSummarizedMetricExtensionsMetrics");
@@ -3903,7 +3903,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/RequestSummarizedMetricExtensionsResources.cs.html">here</a> to see an example of how to use RequestSummarizedMetricExtensionsResources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/RequestSummarizedMetricExtensionsResources.cs.html">here</a> to see an example of how to use RequestSummarizedMetricExtensionsResources API.</example>
         public async Task<RequestSummarizedMetricExtensionsResourcesResponse> RequestSummarizedMetricExtensionsResources(RequestSummarizedMetricExtensionsResourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestSummarizedMetricExtensionsResources");
@@ -3960,7 +3960,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/RetryFailedMaintenanceWindowOperation.cs.html">here</a> to see an example of how to use RetryFailedMaintenanceWindowOperation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/RetryFailedMaintenanceWindowOperation.cs.html">here</a> to see an example of how to use RetryFailedMaintenanceWindowOperation API.</example>
         public async Task<RetryFailedMaintenanceWindowOperationResponse> RetryFailedMaintenanceWindowOperation(RetryFailedMaintenanceWindowOperationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called retryFailedMaintenanceWindowOperation");
@@ -4018,7 +4018,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/SearchAssociatedResources.cs.html">here</a> to see an example of how to use SearchAssociatedResources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/SearchAssociatedResources.cs.html">here</a> to see an example of how to use SearchAssociatedResources API.</example>
         public async Task<SearchAssociatedResourcesResponse> SearchAssociatedResources(SearchAssociatedResourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchAssociatedResources");
@@ -4075,7 +4075,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/SearchMonitoredResourceAssociations.cs.html">here</a> to see an example of how to use SearchMonitoredResourceAssociations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/SearchMonitoredResourceAssociations.cs.html">here</a> to see an example of how to use SearchMonitoredResourceAssociations API.</example>
         public async Task<SearchMonitoredResourceAssociationsResponse> SearchMonitoredResourceAssociations(SearchMonitoredResourceAssociationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchMonitoredResourceAssociations");
@@ -4124,7 +4124,7 @@ namespace Oci.StackmonitoringService
         }
 
         /// <summary>
-        /// List the member resources for the given monitored resource identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// List the member resources for the given monitored resource identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -4132,7 +4132,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/SearchMonitoredResourceMembers.cs.html">here</a> to see an example of how to use SearchMonitoredResourceMembers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/SearchMonitoredResourceMembers.cs.html">here</a> to see an example of how to use SearchMonitoredResourceMembers API.</example>
         public async Task<SearchMonitoredResourceMembersResponse> SearchMonitoredResourceMembers(SearchMonitoredResourceMembersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchMonitoredResourceMembers");
@@ -4189,7 +4189,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/SearchMonitoredResources.cs.html">here</a> to see an example of how to use SearchMonitoredResources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/SearchMonitoredResources.cs.html">here</a> to see an example of how to use SearchMonitoredResources API.</example>
         public async Task<SearchMonitoredResourcesResponse> SearchMonitoredResources(SearchMonitoredResourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchMonitoredResources");
@@ -4246,7 +4246,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/StopMaintenanceWindow.cs.html">here</a> to see an example of how to use StopMaintenanceWindow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/StopMaintenanceWindow.cs.html">here</a> to see an example of how to use StopMaintenanceWindow API.</example>
         public async Task<StopMaintenanceWindowResponse> StopMaintenanceWindow(StopMaintenanceWindowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopMaintenanceWindow");
@@ -4302,7 +4302,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/TestMetricExtension.cs.html">here</a> to see an example of how to use TestMetricExtension API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/TestMetricExtension.cs.html">here</a> to see an example of how to use TestMetricExtension API.</example>
         public async Task<TestMetricExtensionResponse> TestMetricExtension(TestMetricExtensionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called testMetricExtension");
@@ -4358,7 +4358,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UnapplyMonitoringTemplate.cs.html">here</a> to see an example of how to use UnapplyMonitoringTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UnapplyMonitoringTemplate.cs.html">here</a> to see an example of how to use UnapplyMonitoringTemplate API.</example>
         public async Task<UnapplyMonitoringTemplateResponse> UnapplyMonitoringTemplate(UnapplyMonitoringTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called unapplyMonitoringTemplate");
@@ -4414,7 +4414,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateAlarmCondition.cs.html">here</a> to see an example of how to use UpdateAlarmCondition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateAlarmCondition.cs.html">here</a> to see an example of how to use UpdateAlarmCondition API.</example>
         public async Task<UpdateAlarmConditionResponse> UpdateAlarmCondition(UpdateAlarmConditionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAlarmCondition");
@@ -4466,7 +4466,7 @@ namespace Oci.StackmonitoringService
         /// Provided tags will be added or updated in the existing list of tags for the affected resources.
         /// Resources to be updated are identified based on association types specified. 
         /// If association types not specified, then tags will be updated only for the resource identified by 
-        /// the given monitored resource identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// the given monitored resource identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -4474,7 +4474,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateAndPropagateTags.cs.html">here</a> to see an example of how to use UpdateAndPropagateTags API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateAndPropagateTags.cs.html">here</a> to see an example of how to use UpdateAndPropagateTags API.</example>
         public async Task<UpdateAndPropagateTagsResponse> UpdateAndPropagateTags(UpdateAndPropagateTagsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAndPropagateTags");
@@ -4530,7 +4530,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateBaselineableMetric.cs.html">here</a> to see an example of how to use UpdateBaselineableMetric API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateBaselineableMetric.cs.html">here</a> to see an example of how to use UpdateBaselineableMetric API.</example>
         public async Task<UpdateBaselineableMetricResponse> UpdateBaselineableMetric(UpdateBaselineableMetricRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateBaselineableMetric");
@@ -4586,7 +4586,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateConfig.cs.html">here</a> to see an example of how to use UpdateConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateConfig.cs.html">here</a> to see an example of how to use UpdateConfig API.</example>
         public async Task<UpdateConfigResponse> UpdateConfig(UpdateConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateConfig");
@@ -4635,7 +4635,7 @@ namespace Oci.StackmonitoringService
         }
 
         /// <summary>
-        /// Update maintenance window by the given identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Update maintenance window by the given identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -4643,7 +4643,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateMaintenanceWindow.cs.html">here</a> to see an example of how to use UpdateMaintenanceWindow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateMaintenanceWindow.cs.html">here</a> to see an example of how to use UpdateMaintenanceWindow API.</example>
         public async Task<UpdateMaintenanceWindowResponse> UpdateMaintenanceWindow(UpdateMaintenanceWindowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMaintenanceWindow");
@@ -4699,7 +4699,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateMetricExtension.cs.html">here</a> to see an example of how to use UpdateMetricExtension API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateMetricExtension.cs.html">here</a> to see an example of how to use UpdateMetricExtension API.</example>
         public async Task<UpdateMetricExtensionResponse> UpdateMetricExtension(UpdateMetricExtensionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMetricExtension");
@@ -4748,7 +4748,7 @@ namespace Oci.StackmonitoringService
         }
 
         /// <summary>
-        /// Update monitored resource by the given identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Update monitored resource by the given identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// Note that \&quot;properties\&quot; object, if specified, will entirely replace the existing object, 
         /// as part this operation.
         /// 
@@ -4758,7 +4758,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateMonitoredResource.cs.html">here</a> to see an example of how to use UpdateMonitoredResource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateMonitoredResource.cs.html">here</a> to see an example of how to use UpdateMonitoredResource API.</example>
         public async Task<UpdateMonitoredResourceResponse> UpdateMonitoredResource(UpdateMonitoredResourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMonitoredResource");
@@ -4807,7 +4807,7 @@ namespace Oci.StackmonitoringService
         }
 
         /// <summary>
-        /// Update stack monitoring resource task by the given identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Update stack monitoring resource task by the given identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -4815,7 +4815,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateMonitoredResourceTask.cs.html">here</a> to see an example of how to use UpdateMonitoredResourceTask API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateMonitoredResourceTask.cs.html">here</a> to see an example of how to use UpdateMonitoredResourceTask API.</example>
         public async Task<UpdateMonitoredResourceTaskResponse> UpdateMonitoredResourceTask(UpdateMonitoredResourceTaskRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMonitoredResourceTask");
@@ -4864,7 +4864,7 @@ namespace Oci.StackmonitoringService
         }
 
         /// <summary>
-        /// Update the Monitored Resource Type identified by the identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Update the Monitored Resource Type identified by the identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -4872,7 +4872,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateMonitoredResourceType.cs.html">here</a> to see an example of how to use UpdateMonitoredResourceType API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateMonitoredResourceType.cs.html">here</a> to see an example of how to use UpdateMonitoredResourceType API.</example>
         public async Task<UpdateMonitoredResourceTypeResponse> UpdateMonitoredResourceType(UpdateMonitoredResourceTypeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMonitoredResourceType");
@@ -4928,7 +4928,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateMonitoringTemplate.cs.html">here</a> to see an example of how to use UpdateMonitoringTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateMonitoringTemplate.cs.html">here</a> to see an example of how to use UpdateMonitoringTemplate API.</example>
         public async Task<UpdateMonitoringTemplateResponse> UpdateMonitoringTemplate(UpdateMonitoringTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMonitoringTemplate");
@@ -4984,7 +4984,7 @@ namespace Oci.StackmonitoringService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateProcessSet.cs.html">here</a> to see an example of how to use UpdateProcessSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateProcessSet.cs.html">here</a> to see an example of how to use UpdateProcessSet API.</example>
         public async Task<UpdateProcessSetResponse> UpdateProcessSet(UpdateProcessSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateProcessSet");

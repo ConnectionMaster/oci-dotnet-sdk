@@ -22,7 +22,7 @@ namespace Oci.PsqlService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the database system backup.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database system backup.
         /// </value>
         /// <remarks>
         /// Required

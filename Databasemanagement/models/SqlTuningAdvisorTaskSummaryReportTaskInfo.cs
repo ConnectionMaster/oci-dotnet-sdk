@@ -22,7 +22,7 @@ namespace Oci.DatabasemanagementService.Models
     {
         
         /// <value>
-        /// The ID of the SQL Tuning Advisor task. This is not the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The ID of the SQL Tuning Advisor task. This is not the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

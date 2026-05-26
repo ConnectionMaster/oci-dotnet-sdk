@@ -14,13 +14,13 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/UpdateCloudClusterInstance.cs.html">here</a> to see an example of how to use UpdateCloudClusterInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/UpdateCloudClusterInstance.cs.html">here</a> to see an example of how to use UpdateCloudClusterInstance request.
     /// </example>
     public class UpdateCloudClusterInstanceRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the cloud cluster instance.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cloud cluster instance.
         /// </value>
         /// <remarks>
         /// Required

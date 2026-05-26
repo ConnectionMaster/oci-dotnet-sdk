@@ -14,13 +14,13 @@ using Oci.GenerativeaiService.Models;
 namespace Oci.GenerativeaiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteVectorStoreConnector.cs.html">here</a> to see an example of how to use DeleteVectorStoreConnector request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteVectorStoreConnector.cs.html">here</a> to see an example of how to use DeleteVectorStoreConnector request.
     /// </example>
     public class DeleteVectorStoreConnectorRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VectorStoreConnector.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VectorStoreConnector.
         /// </value>
         /// <remarks>
         /// Required

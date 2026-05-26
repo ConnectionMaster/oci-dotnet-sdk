@@ -14,7 +14,7 @@ using Oci.ApmsyntheticsService.Models;
 namespace Oci.ApmsyntheticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/CreateScript.cs.html">here</a> to see an example of how to use CreateScript request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmsynthetics/CreateScript.cs.html">here</a> to see an example of how to use CreateScript request.
     /// </example>
     public class CreateScriptRequest : Oci.Common.IOciRequest
     {

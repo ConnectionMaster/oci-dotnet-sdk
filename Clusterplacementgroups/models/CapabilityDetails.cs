@@ -41,5 +41,8 @@ namespace Oci.ClusterplacementgroupsService.Models
         [JsonProperty(PropertyName = "name")]
         public string Name { get; set; }
         
+        [JsonProperty(PropertyName = "additionalDetails")]
+        public AdditionalCapabilityDetails AdditionalDetails { get; set; }
+        
     }
 }

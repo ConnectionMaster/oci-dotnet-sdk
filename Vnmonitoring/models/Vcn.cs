@@ -17,11 +17,11 @@ namespace Oci.VnmonitoringService.Models
 {
     /// <summary>
     /// A virtual cloud network (VCN). For more information, see
-    /// [Overview of the Networking Service](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/overview.htm).
+    /// [Overview of the Networking Service](https://docs.oracle.com/iaas/Content/Network/Concepts/overview.htm).
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,
     /// talk to an administrator. If you're an administrator who needs to write policies to give users access, see
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
+    /// [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// 
     /// </summary>
     public class Vcn 
@@ -40,7 +40,7 @@ namespace Oci.VnmonitoringService.Models
         public string CidrBlock { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the VCN.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the VCN.
         /// </value>
         /// <remarks>
         /// Required
@@ -50,20 +50,20 @@ namespace Oci.VnmonitoringService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the VCN's default set of DHCP options.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the VCN's default set of DHCP options.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "defaultDhcpOptionsId")]
         public string DefaultDhcpOptionsId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the VCN's default route table.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the VCN's default route table.
         /// </value>
         [JsonProperty(PropertyName = "defaultRouteTableId")]
         public string DefaultRouteTableId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the VCN's default security list.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the VCN's default security list.
         /// </value>
         [JsonProperty(PropertyName = "defaultSecurityListId")]
         public string DefaultSecurityListId { get; set; }
@@ -94,7 +94,7 @@ namespace Oci.VnmonitoringService.Models
         /// not work for this VCN.
         /// <br/>
         /// For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// <br/>
         /// Example: vcn1
         /// </value>
@@ -109,7 +109,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
         
         /// <value>
-        /// The VCN's Oracle ID ([OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
+        /// The VCN's Oracle ID ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
         /// </value>
         /// <remarks>
         /// Required
@@ -123,7 +123,7 @@ namespace Oci.VnmonitoringService.Models
         /// The VCN size is always /56. Oracle
         /// provides the IPv6 prefix to use as the *same* CIDR for the `ipv6PublicCidrBlock`.
         /// When creating a subnet, specify the last 8 bits, 00 to FF.
-        /// See [IPv6 Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
+        /// See [IPv6 Addresses](https://docs.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
         /// Example: 2001:0db8:0123::/56
         /// </value>
         [JsonProperty(PropertyName = "ipv6CidrBlock")]
@@ -180,7 +180,7 @@ namespace Oci.VnmonitoringService.Models
         /// `oraclevcn.com` domain.
         /// <br/>
         /// For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// <br/>
         /// Example: vcn1.oraclevcn.com
         /// </value>

@@ -30,7 +30,7 @@ namespace Oci.FleetappsmanagementService.Models
         public string BranchName { get; set; }
         
         /// <value>
-        /// configuration Source Provider [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)
+        /// configuration Source Provider [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)
         /// 
         /// </value>
         [JsonProperty(PropertyName = "configurationSourceProviderId")]

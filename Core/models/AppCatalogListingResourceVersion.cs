@@ -50,7 +50,7 @@ namespace Oci.CoreService.Models
         /// List of regions that this listing resource version is available.
         /// <br/>
         /// For information about regions, see
-        /// [Regions and Availability Domains](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/regions.htm).
+        /// [Regions and Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm).
         /// <br/>
         /// Example: [&quot;us-ashburn-1&quot;, &quot;us-phoenix-1&quot;]
         /// </value>

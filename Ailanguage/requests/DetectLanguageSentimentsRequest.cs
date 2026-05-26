@@ -14,7 +14,7 @@ using Oci.AilanguageService.Models;
 namespace Oci.AilanguageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DetectLanguageSentiments.cs.html">here</a> to see an example of how to use DetectLanguageSentiments request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DetectLanguageSentiments.cs.html">here</a> to see an example of how to use DetectLanguageSentiments request.
     /// </example>
     public class DetectLanguageSentimentsRequest : Oci.Common.IOciRequest
     {

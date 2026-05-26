@@ -80,7 +80,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/CancelBatchJob.cs.html">here</a> to see an example of how to use CancelBatchJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/CancelBatchJob.cs.html">here</a> to see an example of how to use CancelBatchJob API.</example>
         public async Task<CancelBatchJobResponse> CancelBatchJob(CancelBatchJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelBatchJob");
@@ -129,14 +129,14 @@ namespace Oci.BatchService
         }
 
         /// <summary>
-        /// Moves a batch context into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Moves a batch context into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ChangeBatchContextCompartment.cs.html">here</a> to see an example of how to use ChangeBatchContextCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ChangeBatchContextCompartment.cs.html">here</a> to see an example of how to use ChangeBatchContextCompartment API.</example>
         public async Task<ChangeBatchContextCompartmentResponse> ChangeBatchContextCompartment(ChangeBatchContextCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeBatchContextCompartment");
@@ -185,14 +185,14 @@ namespace Oci.BatchService
         }
 
         /// <summary>
-        /// Moves a batch job into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Moves a batch job into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ChangeBatchJobCompartment.cs.html">here</a> to see an example of how to use ChangeBatchJobCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ChangeBatchJobCompartment.cs.html">here</a> to see an example of how to use ChangeBatchJobCompartment API.</example>
         public async Task<ChangeBatchJobCompartmentResponse> ChangeBatchJobCompartment(ChangeBatchJobCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeBatchJobCompartment");
@@ -241,14 +241,14 @@ namespace Oci.BatchService
         }
 
         /// <summary>
-        /// Moves a batch job pool into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Moves a batch job pool into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ChangeBatchJobPoolCompartment.cs.html">here</a> to see an example of how to use ChangeBatchJobPoolCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ChangeBatchJobPoolCompartment.cs.html">here</a> to see an example of how to use ChangeBatchJobPoolCompartment API.</example>
         public async Task<ChangeBatchJobPoolCompartmentResponse> ChangeBatchJobPoolCompartment(ChangeBatchJobPoolCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeBatchJobPoolCompartment");
@@ -297,14 +297,14 @@ namespace Oci.BatchService
         }
 
         /// <summary>
-        /// Moves a batch task environment into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Moves a batch task environment into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ChangeBatchTaskEnvironmentCompartment.cs.html">here</a> to see an example of how to use ChangeBatchTaskEnvironmentCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ChangeBatchTaskEnvironmentCompartment.cs.html">here</a> to see an example of how to use ChangeBatchTaskEnvironmentCompartment API.</example>
         public async Task<ChangeBatchTaskEnvironmentCompartmentResponse> ChangeBatchTaskEnvironmentCompartment(ChangeBatchTaskEnvironmentCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeBatchTaskEnvironmentCompartment");
@@ -353,14 +353,14 @@ namespace Oci.BatchService
         }
 
         /// <summary>
-        /// Moves a batch task profile into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Moves a batch task profile into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ChangeBatchTaskProfileCompartment.cs.html">here</a> to see an example of how to use ChangeBatchTaskProfileCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ChangeBatchTaskProfileCompartment.cs.html">here</a> to see an example of how to use ChangeBatchTaskProfileCompartment API.</example>
         public async Task<ChangeBatchTaskProfileCompartmentResponse> ChangeBatchTaskProfileCompartment(ChangeBatchTaskProfileCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeBatchTaskProfileCompartment");
@@ -416,7 +416,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/CreateBatchContext.cs.html">here</a> to see an example of how to use CreateBatchContext API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/CreateBatchContext.cs.html">here</a> to see an example of how to use CreateBatchContext API.</example>
         public async Task<CreateBatchContextResponse> CreateBatchContext(CreateBatchContextRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBatchContext");
@@ -472,7 +472,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/CreateBatchJob.cs.html">here</a> to see an example of how to use CreateBatchJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/CreateBatchJob.cs.html">here</a> to see an example of how to use CreateBatchJob API.</example>
         public async Task<CreateBatchJobResponse> CreateBatchJob(CreateBatchJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBatchJob");
@@ -528,7 +528,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/CreateBatchJobPool.cs.html">here</a> to see an example of how to use CreateBatchJobPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/CreateBatchJobPool.cs.html">here</a> to see an example of how to use CreateBatchJobPool API.</example>
         public async Task<CreateBatchJobPoolResponse> CreateBatchJobPool(CreateBatchJobPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBatchJobPool");
@@ -584,7 +584,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/CreateBatchTaskEnvironment.cs.html">here</a> to see an example of how to use CreateBatchTaskEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/CreateBatchTaskEnvironment.cs.html">here</a> to see an example of how to use CreateBatchTaskEnvironment API.</example>
         public async Task<CreateBatchTaskEnvironmentResponse> CreateBatchTaskEnvironment(CreateBatchTaskEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBatchTaskEnvironment");
@@ -640,7 +640,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/CreateBatchTaskProfile.cs.html">here</a> to see an example of how to use CreateBatchTaskProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/CreateBatchTaskProfile.cs.html">here</a> to see an example of how to use CreateBatchTaskProfile API.</example>
         public async Task<CreateBatchTaskProfileResponse> CreateBatchTaskProfile(CreateBatchTaskProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBatchTaskProfile");
@@ -696,7 +696,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/DeleteBatchContext.cs.html">here</a> to see an example of how to use DeleteBatchContext API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/DeleteBatchContext.cs.html">here</a> to see an example of how to use DeleteBatchContext API.</example>
         public async Task<DeleteBatchContextResponse> DeleteBatchContext(DeleteBatchContextRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBatchContext");
@@ -752,7 +752,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/DeleteBatchJobPool.cs.html">here</a> to see an example of how to use DeleteBatchJobPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/DeleteBatchJobPool.cs.html">here</a> to see an example of how to use DeleteBatchJobPool API.</example>
         public async Task<DeleteBatchJobPoolResponse> DeleteBatchJobPool(DeleteBatchJobPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBatchJobPool");
@@ -808,7 +808,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/DeleteBatchTaskEnvironment.cs.html">here</a> to see an example of how to use DeleteBatchTaskEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/DeleteBatchTaskEnvironment.cs.html">here</a> to see an example of how to use DeleteBatchTaskEnvironment API.</example>
         public async Task<DeleteBatchTaskEnvironmentResponse> DeleteBatchTaskEnvironment(DeleteBatchTaskEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBatchTaskEnvironment");
@@ -864,7 +864,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/DeleteBatchTaskProfile.cs.html">here</a> to see an example of how to use DeleteBatchTaskProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/DeleteBatchTaskProfile.cs.html">here</a> to see an example of how to use DeleteBatchTaskProfile API.</example>
         public async Task<DeleteBatchTaskProfileResponse> DeleteBatchTaskProfile(DeleteBatchTaskProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBatchTaskProfile");
@@ -920,7 +920,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/GetBatchContext.cs.html">here</a> to see an example of how to use GetBatchContext API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/GetBatchContext.cs.html">here</a> to see an example of how to use GetBatchContext API.</example>
         public async Task<GetBatchContextResponse> GetBatchContext(GetBatchContextRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBatchContext");
@@ -976,7 +976,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/GetBatchJob.cs.html">here</a> to see an example of how to use GetBatchJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/GetBatchJob.cs.html">here</a> to see an example of how to use GetBatchJob API.</example>
         public async Task<GetBatchJobResponse> GetBatchJob(GetBatchJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBatchJob");
@@ -1032,7 +1032,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/GetBatchJobPool.cs.html">here</a> to see an example of how to use GetBatchJobPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/GetBatchJobPool.cs.html">here</a> to see an example of how to use GetBatchJobPool API.</example>
         public async Task<GetBatchJobPoolResponse> GetBatchJobPool(GetBatchJobPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBatchJobPool");
@@ -1088,7 +1088,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/GetBatchTask.cs.html">here</a> to see an example of how to use GetBatchTask API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/GetBatchTask.cs.html">here</a> to see an example of how to use GetBatchTask API.</example>
         public async Task<GetBatchTaskResponse> GetBatchTask(GetBatchTaskRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBatchTask");
@@ -1144,7 +1144,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/GetBatchTaskEnvironment.cs.html">here</a> to see an example of how to use GetBatchTaskEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/GetBatchTaskEnvironment.cs.html">here</a> to see an example of how to use GetBatchTaskEnvironment API.</example>
         public async Task<GetBatchTaskEnvironmentResponse> GetBatchTaskEnvironment(GetBatchTaskEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBatchTaskEnvironment");
@@ -1200,7 +1200,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/GetBatchTaskProfile.cs.html">here</a> to see an example of how to use GetBatchTaskProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/GetBatchTaskProfile.cs.html">here</a> to see an example of how to use GetBatchTaskProfile API.</example>
         public async Task<GetBatchTaskProfileResponse> GetBatchTaskProfile(GetBatchTaskProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBatchTaskProfile");
@@ -1256,7 +1256,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -1312,7 +1312,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListBatchContextShapes.cs.html">here</a> to see an example of how to use ListBatchContextShapes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListBatchContextShapes.cs.html">here</a> to see an example of how to use ListBatchContextShapes API.</example>
         public async Task<ListBatchContextShapesResponse> ListBatchContextShapes(ListBatchContextShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBatchContextShapes");
@@ -1361,14 +1361,14 @@ namespace Oci.BatchService
         }
 
         /// <summary>
-        /// Lists the batch contexts by compartment or context [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). You can filter and sort them by various properties like lifecycle state, name and also ocid. All properties require an exact match. List operation only provides a summary information, use GetBatchContext to get the full details on a specific context
+        /// Lists the batch contexts by compartment or context [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). You can filter and sort them by various properties like lifecycle state, name and also ocid. All properties require an exact match. List operation only provides a summary information, use GetBatchContext to get the full details on a specific context
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListBatchContexts.cs.html">here</a> to see an example of how to use ListBatchContexts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListBatchContexts.cs.html">here</a> to see an example of how to use ListBatchContexts API.</example>
         public async Task<ListBatchContextsResponse> ListBatchContexts(ListBatchContextsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBatchContexts");
@@ -1417,14 +1417,14 @@ namespace Oci.BatchService
         }
 
         /// <summary>
-        /// Lists the batch job pools by compartment or job pool [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). You can filter and sort them by various properties like lifecycle state, display name and also ocid. All properties require an exact match. List operation only provides a summary information, use GetBatchJobPool to get the full details on a specific context
+        /// Lists the batch job pools by compartment or job pool [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). You can filter and sort them by various properties like lifecycle state, display name and also ocid. All properties require an exact match. List operation only provides a summary information, use GetBatchJobPool to get the full details on a specific context
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListBatchJobPools.cs.html">here</a> to see an example of how to use ListBatchJobPools API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListBatchJobPools.cs.html">here</a> to see an example of how to use ListBatchJobPools API.</example>
         public async Task<ListBatchJobPoolsResponse> ListBatchJobPools(ListBatchJobPoolsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBatchJobPools");
@@ -1473,7 +1473,7 @@ namespace Oci.BatchService
         }
 
         /// <summary>
-        /// Lists the batch tasks by batch job [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). You can filter and sort them by various properties like lifecycle state, name and also ocid. All properties require an exact match. List operation only provides a summary information, use GetBatchTask to get the full details on a specific context
+        /// Lists the batch tasks by batch job [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). You can filter and sort them by various properties like lifecycle state, name and also ocid. All properties require an exact match. List operation only provides a summary information, use GetBatchTask to get the full details on a specific context
         /// List is incomplete until jobs lifecycle is in_progress
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1481,7 +1481,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListBatchJobTasks.cs.html">here</a> to see an example of how to use ListBatchJobTasks API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListBatchJobTasks.cs.html">here</a> to see an example of how to use ListBatchJobTasks API.</example>
         public async Task<ListBatchJobTasksResponse> ListBatchJobTasks(ListBatchJobTasksRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBatchJobTasks");
@@ -1530,14 +1530,14 @@ namespace Oci.BatchService
         }
 
         /// <summary>
-        /// Lists the batch jobs by compartment or job [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). You can filter and sort them by various properties like lifecycle state, display name and also ocid. All properties require an exact match. List operation only provides a summary information, use GetBatchJob to get the full details on a specific context
+        /// Lists the batch jobs by compartment or job [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). You can filter and sort them by various properties like lifecycle state, display name and also ocid. All properties require an exact match. List operation only provides a summary information, use GetBatchJob to get the full details on a specific context
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListBatchJobs.cs.html">here</a> to see an example of how to use ListBatchJobs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListBatchJobs.cs.html">here</a> to see an example of how to use ListBatchJobs API.</example>
         public async Task<ListBatchJobsResponse> ListBatchJobs(ListBatchJobsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBatchJobs");
@@ -1586,14 +1586,14 @@ namespace Oci.BatchService
         }
 
         /// <summary>
-        /// Lists the task environments by compartment or environment [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). You can filter and sort them by various properties like lifecycle state, display name and also ocid. All properties require an exact match. List operation only provides a summary information, use GetBatchTaskEnvironment to get the full details on a specific context
+        /// Lists the task environments by compartment or environment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). You can filter and sort them by various properties like lifecycle state, display name and also ocid. All properties require an exact match. List operation only provides a summary information, use GetBatchTaskEnvironment to get the full details on a specific context
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListBatchTaskEnvironments.cs.html">here</a> to see an example of how to use ListBatchTaskEnvironments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListBatchTaskEnvironments.cs.html">here</a> to see an example of how to use ListBatchTaskEnvironments API.</example>
         public async Task<ListBatchTaskEnvironmentsResponse> ListBatchTaskEnvironments(ListBatchTaskEnvironmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBatchTaskEnvironments");
@@ -1642,14 +1642,14 @@ namespace Oci.BatchService
         }
 
         /// <summary>
-        /// Lists the task profiles by compartment or profile [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). You can filter and sort them by various properties like lifecycle state, name and also ocid. All properties require an exact match. List operation only provides a summary information, use GetBatchTaskProfile to get the full details on a specific context
+        /// Lists the task profiles by compartment or profile [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). You can filter and sort them by various properties like lifecycle state, name and also ocid. All properties require an exact match. List operation only provides a summary information, use GetBatchTaskProfile to get the full details on a specific context
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListBatchTaskProfiles.cs.html">here</a> to see an example of how to use ListBatchTaskProfiles API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListBatchTaskProfiles.cs.html">here</a> to see an example of how to use ListBatchTaskProfiles API.</example>
         public async Task<ListBatchTaskProfilesResponse> ListBatchTaskProfiles(ListBatchTaskProfilesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBatchTaskProfiles");
@@ -1705,7 +1705,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListBatchTasks.cs.html">here</a> to see an example of how to use ListBatchTasks API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListBatchTasks.cs.html">here</a> to see an example of how to use ListBatchTasks API.</example>
         public async Task<ListBatchTasksResponse> ListBatchTasks(ListBatchTasksRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBatchTasks");
@@ -1761,7 +1761,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -1817,7 +1817,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -1873,7 +1873,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1929,7 +1929,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/PauseBatchJob.cs.html">here</a> to see an example of how to use PauseBatchJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/PauseBatchJob.cs.html">here</a> to see an example of how to use PauseBatchJob API.</example>
         public async Task<PauseBatchJobResponse> PauseBatchJob(PauseBatchJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called pauseBatchJob");
@@ -1985,7 +1985,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/StartBatchContext.cs.html">here</a> to see an example of how to use StartBatchContext API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/StartBatchContext.cs.html">here</a> to see an example of how to use StartBatchContext API.</example>
         public async Task<StartBatchContextResponse> StartBatchContext(StartBatchContextRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startBatchContext");
@@ -2041,7 +2041,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/StartBatchJobPool.cs.html">here</a> to see an example of how to use StartBatchJobPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/StartBatchJobPool.cs.html">here</a> to see an example of how to use StartBatchJobPool API.</example>
         public async Task<StartBatchJobPoolResponse> StartBatchJobPool(StartBatchJobPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startBatchJobPool");
@@ -2097,7 +2097,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/StopBatchContext.cs.html">here</a> to see an example of how to use StopBatchContext API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/StopBatchContext.cs.html">here</a> to see an example of how to use StopBatchContext API.</example>
         public async Task<StopBatchContextResponse> StopBatchContext(StopBatchContextRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopBatchContext");
@@ -2153,7 +2153,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/StopBatchJobPool.cs.html">here</a> to see an example of how to use StopBatchJobPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/StopBatchJobPool.cs.html">here</a> to see an example of how to use StopBatchJobPool API.</example>
         public async Task<StopBatchJobPoolResponse> StopBatchJobPool(StopBatchJobPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopBatchJobPool");
@@ -2209,7 +2209,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/UnpauseBatchJob.cs.html">here</a> to see an example of how to use UnpauseBatchJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/UnpauseBatchJob.cs.html">here</a> to see an example of how to use UnpauseBatchJob API.</example>
         public async Task<UnpauseBatchJobResponse> UnpauseBatchJob(UnpauseBatchJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called unpauseBatchJob");
@@ -2265,7 +2265,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/UpdateBatchContext.cs.html">here</a> to see an example of how to use UpdateBatchContext API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/UpdateBatchContext.cs.html">here</a> to see an example of how to use UpdateBatchContext API.</example>
         public async Task<UpdateBatchContextResponse> UpdateBatchContext(UpdateBatchContextRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateBatchContext");
@@ -2321,7 +2321,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/UpdateBatchJob.cs.html">here</a> to see an example of how to use UpdateBatchJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/UpdateBatchJob.cs.html">here</a> to see an example of how to use UpdateBatchJob API.</example>
         public async Task<UpdateBatchJobResponse> UpdateBatchJob(UpdateBatchJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateBatchJob");
@@ -2377,7 +2377,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/UpdateBatchJobPool.cs.html">here</a> to see an example of how to use UpdateBatchJobPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/UpdateBatchJobPool.cs.html">here</a> to see an example of how to use UpdateBatchJobPool API.</example>
         public async Task<UpdateBatchJobPoolResponse> UpdateBatchJobPool(UpdateBatchJobPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateBatchJobPool");
@@ -2433,7 +2433,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/UpdateBatchTaskEnvironment.cs.html">here</a> to see an example of how to use UpdateBatchTaskEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/UpdateBatchTaskEnvironment.cs.html">here</a> to see an example of how to use UpdateBatchTaskEnvironment API.</example>
         public async Task<UpdateBatchTaskEnvironmentResponse> UpdateBatchTaskEnvironment(UpdateBatchTaskEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateBatchTaskEnvironment");
@@ -2489,7 +2489,7 @@ namespace Oci.BatchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/UpdateBatchTaskProfile.cs.html">here</a> to see an example of how to use UpdateBatchTaskProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/UpdateBatchTaskProfile.cs.html">here</a> to see an example of how to use UpdateBatchTaskProfile API.</example>
         public async Task<UpdateBatchTaskProfileResponse> UpdateBatchTaskProfile(UpdateBatchTaskProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateBatchTaskProfile");

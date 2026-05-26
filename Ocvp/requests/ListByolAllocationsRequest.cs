@@ -14,13 +14,13 @@ using Oci.OcvpService.Models;
 namespace Oci.OcvpService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ListByolAllocations.cs.html">here</a> to see an example of how to use ListByolAllocations request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ListByolAllocations.cs.html">here</a> to see an example of how to use ListByolAllocations request.
     /// </example>
     public class ListByolAllocationsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.OcvpService.Requests
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the BYOL Allocation.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the BYOL Allocation.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "byolAllocationId")]
         public string ByolAllocationId { get; set; }
@@ -54,7 +54,7 @@ namespace Oci.OcvpService.Requests
         public System.Nullable<float> AvailableUnitsGreaterThanOrEqualTo { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the BYOL.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the BYOL.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "byolId")]
         public string ByolId { get; set; }
@@ -68,7 +68,7 @@ namespace Oci.OcvpService.Requests
         /// <value>
         /// For list pagination. The maximum number of results per page, or items to return in a paginated
         /// \"List\" call. For important details about how pagination works, see
-        /// [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "limit")]
@@ -77,7 +77,7 @@ namespace Oci.OcvpService.Requests
         /// <value>
         /// For list pagination. The value of the `opc-next-page` response header from the previous \"List\"
         /// call. For important details about how pagination works, see
-        /// [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]

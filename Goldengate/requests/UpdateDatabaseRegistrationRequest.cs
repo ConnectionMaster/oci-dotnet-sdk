@@ -14,7 +14,7 @@ using Oci.GoldengateService.Models;
 namespace Oci.GoldengateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/UpdateDatabaseRegistration.cs.html">here</a> to see an example of how to use UpdateDatabaseRegistration request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/UpdateDatabaseRegistration.cs.html">here</a> to see an example of how to use UpdateDatabaseRegistration request.
     /// </example>
     public class UpdateDatabaseRegistrationRequest : Oci.Common.IOciRequest
     {

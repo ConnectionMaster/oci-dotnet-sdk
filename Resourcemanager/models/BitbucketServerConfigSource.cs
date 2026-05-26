@@ -23,7 +23,7 @@ namespace Oci.ResourcemanagerService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Bitbucket Server configuration source.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Bitbucket Server configuration source.
         /// 
         /// </value>
         /// <remarks>

@@ -80,7 +80,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/BackupOpensearchCluster.cs.html">here</a> to see an example of how to use BackupOpensearchCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/BackupOpensearchCluster.cs.html">here</a> to see an example of how to use BackupOpensearchCluster API.</example>
         public async Task<BackupOpensearchClusterResponse> BackupOpensearchCluster(BackupOpensearchClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called backupOpensearchCluster");
@@ -136,7 +136,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ConfigureOutboundCluster.cs.html">here</a> to see an example of how to use ConfigureOutboundCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ConfigureOutboundCluster.cs.html">here</a> to see an example of how to use ConfigureOutboundCluster API.</example>
         public async Task<ConfigureOutboundClusterResponse> ConfigureOutboundCluster(ConfigureOutboundClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called configureOutboundCluster");
@@ -193,7 +193,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/CreateOpensearchCluster.cs.html">here</a> to see an example of how to use CreateOpensearchCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/CreateOpensearchCluster.cs.html">here</a> to see an example of how to use CreateOpensearchCluster API.</example>
         public async Task<CreateOpensearchClusterResponse> CreateOpensearchCluster(CreateOpensearchClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOpensearchCluster");
@@ -249,7 +249,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/DeleteOpensearchCluster.cs.html">here</a> to see an example of how to use DeleteOpensearchCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/DeleteOpensearchCluster.cs.html">here</a> to see an example of how to use DeleteOpensearchCluster API.</example>
         public async Task<DeleteOpensearchClusterResponse> DeleteOpensearchCluster(DeleteOpensearchClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOpensearchCluster");
@@ -305,7 +305,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/GetOpensearchCluster.cs.html">here</a> to see an example of how to use GetOpensearchCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/GetOpensearchCluster.cs.html">here</a> to see an example of how to use GetOpensearchCluster API.</example>
         public async Task<GetOpensearchClusterResponse> GetOpensearchCluster(GetOpensearchClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOpensearchCluster");
@@ -361,7 +361,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -417,7 +417,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ListOpensearchClusterShapes.cs.html">here</a> to see an example of how to use ListOpensearchClusterShapes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ListOpensearchClusterShapes.cs.html">here</a> to see an example of how to use ListOpensearchClusterShapes API.</example>
         public async Task<ListOpensearchClusterShapesResponse> ListOpensearchClusterShapes(ListOpensearchClusterShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOpensearchClusterShapes");
@@ -474,7 +474,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ListOpensearchClusters.cs.html">here</a> to see an example of how to use ListOpensearchClusters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ListOpensearchClusters.cs.html">here</a> to see an example of how to use ListOpensearchClusters API.</example>
         public async Task<ListOpensearchClustersResponse> ListOpensearchClusters(ListOpensearchClustersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOpensearchClusters");
@@ -531,7 +531,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ListOpensearchVersions.cs.html">here</a> to see an example of how to use ListOpensearchVersions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ListOpensearchVersions.cs.html">here</a> to see an example of how to use ListOpensearchVersions API.</example>
         public async Task<ListOpensearchVersionsResponse> ListOpensearchVersions(ListOpensearchVersionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOpensearchVersions");
@@ -588,7 +588,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -645,7 +645,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -702,7 +702,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -758,7 +758,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/OpensearchClusterRestore.cs.html">here</a> to see an example of how to use OpensearchClusterRestore API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/OpensearchClusterRestore.cs.html">here</a> to see an example of how to use OpensearchClusterRestore API.</example>
         public async Task<OpensearchClusterRestoreResponse> OpensearchClusterRestore(OpensearchClusterRestoreRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called opensearchClusterRestore");
@@ -814,7 +814,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ResizeOpensearchClusterHorizontal.cs.html">here</a> to see an example of how to use ResizeOpensearchClusterHorizontal API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ResizeOpensearchClusterHorizontal.cs.html">here</a> to see an example of how to use ResizeOpensearchClusterHorizontal API.</example>
         public async Task<ResizeOpensearchClusterHorizontalResponse> ResizeOpensearchClusterHorizontal(ResizeOpensearchClusterHorizontalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called resizeOpensearchClusterHorizontal");
@@ -870,7 +870,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ResizeOpensearchClusterVertical.cs.html">here</a> to see an example of how to use ResizeOpensearchClusterVertical API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ResizeOpensearchClusterVertical.cs.html">here</a> to see an example of how to use ResizeOpensearchClusterVertical API.</example>
         public async Task<ResizeOpensearchClusterVerticalResponse> ResizeOpensearchClusterVertical(ResizeOpensearchClusterVerticalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called resizeOpensearchClusterVertical");
@@ -926,7 +926,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/UpdateOpensearchCluster.cs.html">here</a> to see an example of how to use UpdateOpensearchCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/UpdateOpensearchCluster.cs.html">here</a> to see an example of how to use UpdateOpensearchCluster API.</example>
         public async Task<UpdateOpensearchClusterResponse> UpdateOpensearchCluster(UpdateOpensearchClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOpensearchCluster");
@@ -982,7 +982,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/UpgradeOpenSearchCluster.cs.html">here</a> to see an example of how to use UpgradeOpenSearchCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/UpgradeOpenSearchCluster.cs.html">here</a> to see an example of how to use UpgradeOpenSearchCluster API.</example>
         public async Task<UpgradeOpenSearchClusterResponse> UpgradeOpenSearchCluster(UpgradeOpenSearchClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called upgradeOpenSearchCluster");

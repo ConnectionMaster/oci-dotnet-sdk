@@ -14,13 +14,13 @@ using Oci.EmailService.Models;
 namespace Oci.EmailService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/RemoveEmailIpPoolLock.cs.html">here</a> to see an example of how to use RemoveEmailIpPoolLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/RemoveEmailIpPoolLock.cs.html">here</a> to see an example of how to use RemoveEmailIpPoolLock request.
     /// </example>
     public class RemoveEmailIpPoolLockRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the IpPool.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the IpPool.
         /// </value>
         /// <remarks>
         /// Required

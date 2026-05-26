@@ -14,13 +14,13 @@ using Oci.DbmulticloudService.Models;
 namespace Oci.DbmulticloudService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbGcpKeyRings.cs.html">here</a> to see an example of how to use ListOracleDbGcpKeyRings request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbGcpKeyRings.cs.html">here</a> to see an example of how to use ListOracleDbGcpKeyRings request.
     /// </example>
     public class ListOracleDbGcpKeyRingsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [ID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
+        /// The [ID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
         /// </value>
         /// <remarks>
         /// Required
@@ -50,7 +50,7 @@ namespace Oci.DbmulticloudService.Requests
         public System.Nullable<OracleDbGcpKeyRing.LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
-        /// A filter to return Oracle DB GCP Identity Connector resources that match the specified resource [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// A filter to return Oracle DB GCP Identity Connector resources that match the specified resource [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "oracleDbGcpConnectorId")]
         public string OracleDbGcpConnectorId { get; set; }

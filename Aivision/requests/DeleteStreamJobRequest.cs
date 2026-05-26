@@ -14,7 +14,7 @@ using Oci.AivisionService.Models;
 namespace Oci.AivisionService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aivision/DeleteStreamJob.cs.html">here</a> to see an example of how to use DeleteStreamJob request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aivision/DeleteStreamJob.cs.html">here</a> to see an example of how to use DeleteStreamJob request.
     /// </example>
     public class DeleteStreamJobRequest : Oci.Common.IOciRequest
     {

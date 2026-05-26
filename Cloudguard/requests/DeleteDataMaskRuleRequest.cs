@@ -14,7 +14,7 @@ using Oci.CloudguardService.Models;
 namespace Oci.CloudguardService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudguard/DeleteDataMaskRule.cs.html">here</a> to see an example of how to use DeleteDataMaskRule request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudguard/DeleteDataMaskRule.cs.html">here</a> to see an example of how to use DeleteDataMaskRule request.
     /// </example>
     public class DeleteDataMaskRuleRequest : Oci.Common.IOciRequest
     {

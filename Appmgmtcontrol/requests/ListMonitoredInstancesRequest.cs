@@ -14,7 +14,7 @@ using Oci.AppmgmtcontrolService.Models;
 namespace Oci.AppmgmtcontrolService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/appmgmtcontrol/ListMonitoredInstances.cs.html">here</a> to see an example of how to use ListMonitoredInstances request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/appmgmtcontrol/ListMonitoredInstances.cs.html">here</a> to see an example of how to use ListMonitoredInstances request.
     /// </example>
     public class ListMonitoredInstancesRequest : Oci.Common.IOciRequest
     {

@@ -14,7 +14,7 @@ using Oci.LimitsService.Models;
 namespace Oci.LimitsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/AddQuotaLock.cs.html">here</a> to see an example of how to use AddQuotaLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/AddQuotaLock.cs.html">here</a> to see an example of how to use AddQuotaLock request.
     /// </example>
     public class AddQuotaLockRequest : Oci.Common.IOciRequest
     {

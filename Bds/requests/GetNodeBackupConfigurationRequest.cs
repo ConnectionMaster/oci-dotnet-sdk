@@ -14,7 +14,7 @@ using Oci.BdsService.Models;
 namespace Oci.BdsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetNodeBackupConfiguration.cs.html">here</a> to see an example of how to use GetNodeBackupConfiguration request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetNodeBackupConfiguration.cs.html">here</a> to see an example of how to use GetNodeBackupConfiguration request.
     /// </example>
     public class GetNodeBackupConfigurationRequest : Oci.Common.IOciRequest
     {

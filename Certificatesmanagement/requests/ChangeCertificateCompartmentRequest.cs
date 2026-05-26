@@ -14,7 +14,7 @@ using Oci.CertificatesmanagementService.Models;
 namespace Oci.CertificatesmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ChangeCertificateCompartment.cs.html">here</a> to see an example of how to use ChangeCertificateCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ChangeCertificateCompartment.cs.html">here</a> to see an example of how to use ChangeCertificateCompartment request.
     /// </example>
     public class ChangeCertificateCompartmentRequest : Oci.Common.IOciRequest
     {

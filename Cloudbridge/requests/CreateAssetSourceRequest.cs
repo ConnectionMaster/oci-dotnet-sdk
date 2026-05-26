@@ -14,7 +14,7 @@ using Oci.CloudbridgeService.Models;
 namespace Oci.CloudbridgeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/CreateAssetSource.cs.html">here</a> to see an example of how to use CreateAssetSource request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/CreateAssetSource.cs.html">here</a> to see an example of how to use CreateAssetSource request.
     /// </example>
     public class CreateAssetSourceRequest : Oci.Common.IOciRequest
     {

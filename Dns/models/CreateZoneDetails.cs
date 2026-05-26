@@ -109,7 +109,7 @@ namespace Oci.DnsService.Models
         /// Enabling DNSSEC results in additional records in DNS responses which increases their size and can
         /// cause higher response latency.
         /// <br/>
-        /// For more information, see [DNSSEC](https://docs.cloud.oracle.com/iaas/Content/DNS/Concepts/dnssec.htm).
+        /// For more information, see [DNSSEC](https://docs.oracle.com/iaas/Content/DNS/Concepts/dnssec.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "dnssecState")]

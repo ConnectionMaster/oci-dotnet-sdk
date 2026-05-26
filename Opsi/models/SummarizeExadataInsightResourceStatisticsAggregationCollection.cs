@@ -116,7 +116,7 @@ namespace Oci.OpsiService.Models
         public System.Nullable<ExadataResourceMetricEnum> ExadataResourceMetric { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Exadata insight.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Exadata insight.
         /// </value>
         /// <remarks>
         /// Required

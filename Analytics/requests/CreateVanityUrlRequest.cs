@@ -14,7 +14,7 @@ using Oci.AnalyticsService.Models;
 namespace Oci.AnalyticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/CreateVanityUrl.cs.html">here</a> to see an example of how to use CreateVanityUrl request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/CreateVanityUrl.cs.html">here</a> to see an example of how to use CreateVanityUrl request.
     /// </example>
     public class CreateVanityUrlRequest : Oci.Common.IOciRequest
     {

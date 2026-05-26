@@ -33,7 +33,7 @@ namespace Oci.StackmonitoringService.Models
         public string AssociationType { get; set; }
         
         /// <value>
-        /// Compartment Identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Compartment Identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         /// <remarks>
@@ -44,7 +44,7 @@ namespace Oci.StackmonitoringService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// Tenancy Identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Tenancy Identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         /// <remarks>
@@ -55,7 +55,7 @@ namespace Oci.StackmonitoringService.Models
         public string TenantId { get; set; }
         
         /// <value>
-        /// Source Monitored Resource Identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Source Monitored Resource Identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         /// <remarks>
@@ -66,7 +66,7 @@ namespace Oci.StackmonitoringService.Models
         public string SourceResourceId { get; set; }
         
         /// <value>
-        /// Destination Monitored Resource Identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Destination Monitored Resource Identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         /// <remarks>

@@ -14,13 +14,13 @@ using Oci.WaasService.Models;
 namespace Oci.WaasService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waas/UpdateThreatFeeds.cs.html">here</a> to see an example of how to use UpdateThreatFeeds request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waas/UpdateThreatFeeds.cs.html">here</a> to see an example of how to use UpdateThreatFeeds request.
     /// </example>
     public class UpdateThreatFeedsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the WAAS policy.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the WAAS policy.
         /// </value>
         /// <remarks>
         /// Required

@@ -80,7 +80,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ChangePublicationCompartment.cs.html">here</a> to see an example of how to use ChangePublicationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ChangePublicationCompartment.cs.html">here</a> to see an example of how to use ChangePublicationCompartment API.</example>
         public async Task<ChangePublicationCompartmentResponse> ChangePublicationCompartment(ChangePublicationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changePublicationCompartment");
@@ -138,7 +138,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/CreateAcceptedAgreement.cs.html">here</a> to see an example of how to use CreateAcceptedAgreement API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/CreateAcceptedAgreement.cs.html">here</a> to see an example of how to use CreateAcceptedAgreement API.</example>
         public async Task<CreateAcceptedAgreementResponse> CreateAcceptedAgreement(CreateAcceptedAgreementRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAcceptedAgreement");
@@ -194,7 +194,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/CreateMarketplaceExternalAttestedMetadata.cs.html">here</a> to see an example of how to use CreateMarketplaceExternalAttestedMetadata API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/CreateMarketplaceExternalAttestedMetadata.cs.html">here</a> to see an example of how to use CreateMarketplaceExternalAttestedMetadata API.</example>
         public async Task<CreateMarketplaceExternalAttestedMetadataResponse> CreateMarketplaceExternalAttestedMetadata(CreateMarketplaceExternalAttestedMetadataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMarketplaceExternalAttestedMetadata");
@@ -250,7 +250,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/CreatePublication.cs.html">here</a> to see an example of how to use CreatePublication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/CreatePublication.cs.html">here</a> to see an example of how to use CreatePublication API.</example>
         public async Task<CreatePublicationResponse> CreatePublication(CreatePublicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPublication");
@@ -309,7 +309,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/DeleteAcceptedAgreement.cs.html">here</a> to see an example of how to use DeleteAcceptedAgreement API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/DeleteAcceptedAgreement.cs.html">here</a> to see an example of how to use DeleteAcceptedAgreement API.</example>
         public async Task<DeleteAcceptedAgreementResponse> DeleteAcceptedAgreement(DeleteAcceptedAgreementRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAcceptedAgreement");
@@ -365,7 +365,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/DeletePublication.cs.html">here</a> to see an example of how to use DeletePublication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/DeletePublication.cs.html">here</a> to see an example of how to use DeletePublication API.</example>
         public async Task<DeletePublicationResponse> DeletePublication(DeletePublicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePublication");
@@ -421,7 +421,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ExportListing.cs.html">here</a> to see an example of how to use ExportListing API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ExportListing.cs.html">here</a> to see an example of how to use ExportListing API.</example>
         public async Task<ExportListingResponse> ExportListing(ExportListingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called exportListing");
@@ -478,7 +478,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/GetAcceptedAgreement.cs.html">here</a> to see an example of how to use GetAcceptedAgreement API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/GetAcceptedAgreement.cs.html">here</a> to see an example of how to use GetAcceptedAgreement API.</example>
         public async Task<GetAcceptedAgreementResponse> GetAcceptedAgreement(GetAcceptedAgreementRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAcceptedAgreement");
@@ -536,7 +536,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/GetAgreement.cs.html">here</a> to see an example of how to use GetAgreement API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/GetAgreement.cs.html">here</a> to see an example of how to use GetAgreement API.</example>
         public async Task<GetAgreementResponse> GetAgreement(GetAgreementRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAgreement");
@@ -592,14 +592,14 @@ namespace Oci.MarketplaceService
         /// you launch the instance, you also need to provide the image ID of the listing resource version that you want.
         /// &lt;br/&gt;
         /// Subscribing to the listing requires you to first get a signature from the terms of use agreement for the
-        /// listing resource version. To get the signature, issue a [GetAppCatalogListingAgreements](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersionAgreements/GetAppCatalogListingAgreements) API call.
-        /// The [AppCatalogListingResourceVersionAgreements](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersionAgreements) object, including
+        /// listing resource version. To get the signature, issue a [GetAppCatalogListingAgreements](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersionAgreements/GetAppCatalogListingAgreements) API call.
+        /// The [AppCatalogListingResourceVersionAgreements](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersionAgreements) object, including
         /// its signature, is returned in the response. With the signature for the terms of use agreement for the desired
         /// listing resource version, create a subscription by issuing a
-        /// [CreateAppCatalogSubscription](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogSubscription/CreateAppCatalogSubscription) API call.
+        /// [CreateAppCatalogSubscription](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogSubscription/CreateAppCatalogSubscription) API call.
         /// &lt;br/&gt;
-        /// To get the image ID to launch an instance, issue a [GetAppCatalogListingResourceVersion](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersion/GetAppCatalogListingResourceVersion) API call.
-        /// Lastly, to launch the instance, use the image ID of the listing resource version to issue a [LaunchInstance](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/Instance/LaunchInstance) API call.
+        /// To get the image ID to launch an instance, issue a [GetAppCatalogListingResourceVersion](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersion/GetAppCatalogListingResourceVersion) API call.
+        /// Lastly, to launch the instance, use the image ID of the listing resource version to issue a [LaunchInstance](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/Instance/LaunchInstance) API call.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -607,7 +607,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/GetListing.cs.html">here</a> to see an example of how to use GetListing API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/GetListing.cs.html">here</a> to see an example of how to use GetListing API.</example>
         public async Task<GetListingResponse> GetListing(GetListingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getListing");
@@ -662,14 +662,14 @@ namespace Oci.MarketplaceService
         /// you launch the instance, you also need to provide the image ID of the listing resource version that you want.
         /// &lt;br/&gt;
         /// Subscribing to the listing requires you to first get a signature from the terms of use agreement for the
-        /// listing resource version. To get the signature, issue a [GetAppCatalogListingAgreements](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersionAgreements/GetAppCatalogListingAgreements) API call.
-        /// The [AppCatalogListingResourceVersionAgreements](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersionAgreements) object, including
+        /// listing resource version. To get the signature, issue a [GetAppCatalogListingAgreements](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersionAgreements/GetAppCatalogListingAgreements) API call.
+        /// The [AppCatalogListingResourceVersionAgreements](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersionAgreements) object, including
         /// its signature, is returned in the response. With the signature for the terms of use agreement for the desired
         /// listing resource version, create a subscription by issuing a
-        /// [CreateAppCatalogSubscription](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogSubscription/CreateAppCatalogSubscription) API call.
+        /// [CreateAppCatalogSubscription](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogSubscription/CreateAppCatalogSubscription) API call.
         /// &lt;br/&gt;
-        /// To get the image ID to launch an instance, issue a [GetAppCatalogListingResourceVersion](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersion/GetAppCatalogListingResourceVersion) API call.
-        /// Lastly, to launch the instance, use the image ID of the listing resource version to issue a [LaunchInstance](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/Instance/LaunchInstance) API call.
+        /// To get the image ID to launch an instance, issue a [GetAppCatalogListingResourceVersion](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersion/GetAppCatalogListingResourceVersion) API call.
+        /// Lastly, to launch the instance, use the image ID of the listing resource version to issue a [LaunchInstance](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/Instance/LaunchInstance) API call.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -677,7 +677,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/GetPackage.cs.html">here</a> to see an example of how to use GetPackage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/GetPackage.cs.html">here</a> to see an example of how to use GetPackage API.</example>
         public async Task<GetPackageResponse> GetPackage(GetPackageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPackage");
@@ -733,7 +733,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/GetPublication.cs.html">here</a> to see an example of how to use GetPublication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/GetPublication.cs.html">here</a> to see an example of how to use GetPublication API.</example>
         public async Task<GetPublicationResponse> GetPublication(GetPublicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPublication");
@@ -789,7 +789,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/GetPublicationPackage.cs.html">here</a> to see an example of how to use GetPublicationPackage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/GetPublicationPackage.cs.html">here</a> to see an example of how to use GetPublicationPackage API.</example>
         public async Task<GetPublicationPackageResponse> GetPublicationPackage(GetPublicationPackageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPublicationPackage");
@@ -845,7 +845,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -903,7 +903,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListAcceptedAgreements.cs.html">here</a> to see an example of how to use ListAcceptedAgreements API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListAcceptedAgreements.cs.html">here</a> to see an example of how to use ListAcceptedAgreements API.</example>
         public async Task<ListAcceptedAgreementsResponse> ListAcceptedAgreements(ListAcceptedAgreementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAcceptedAgreements");
@@ -960,7 +960,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListAgreements.cs.html">here</a> to see an example of how to use ListAgreements API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListAgreements.cs.html">here</a> to see an example of how to use ListAgreements API.</example>
         public async Task<ListAgreementsResponse> ListAgreements(ListAgreementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAgreements");
@@ -1018,7 +1018,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListCategories.cs.html">here</a> to see an example of how to use ListCategories API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListCategories.cs.html">here</a> to see an example of how to use ListCategories API.</example>
         public async Task<ListCategoriesResponse> ListCategories(ListCategoriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCategories");
@@ -1074,14 +1074,14 @@ namespace Oci.MarketplaceService
         /// you launch the instance, you also need to provide the image ID of the listing resource version that you want.
         /// &lt;br/&gt;
         /// Subscribing to the listing requires you to first get a signature from the terms of use agreement for the
-        /// listing resource version. To get the signature, issue a [GetAppCatalogListingAgreements](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersionAgreements/GetAppCatalogListingAgreements) API call.
-        /// The [AppCatalogListingResourceVersionAgreements](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersionAgreements) object, including
+        /// listing resource version. To get the signature, issue a [GetAppCatalogListingAgreements](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersionAgreements/GetAppCatalogListingAgreements) API call.
+        /// The [AppCatalogListingResourceVersionAgreements](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersionAgreements) object, including
         /// its signature, is returned in the response. With the signature for the terms of use agreement for the desired
         /// listing resource version, create a subscription by issuing a
-        /// [CreateAppCatalogSubscription](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogSubscription/CreateAppCatalogSubscription) API call.
+        /// [CreateAppCatalogSubscription](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogSubscription/CreateAppCatalogSubscription) API call.
         /// &lt;br/&gt;
-        /// To get the image ID to launch an instance, issue a [GetAppCatalogListingResourceVersion](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersion/GetAppCatalogListingResourceVersion) API call.
-        /// Lastly, to launch the instance, use the image ID of the listing resource version to issue a [LaunchInstance](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/Instance/LaunchInstance) API call.
+        /// To get the image ID to launch an instance, issue a [GetAppCatalogListingResourceVersion](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersion/GetAppCatalogListingResourceVersion) API call.
+        /// Lastly, to launch the instance, use the image ID of the listing resource version to issue a [LaunchInstance](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/Instance/LaunchInstance) API call.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1089,7 +1089,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListListings.cs.html">here</a> to see an example of how to use ListListings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListListings.cs.html">here</a> to see an example of how to use ListListings API.</example>
         public async Task<ListListingsResponse> ListListings(ListListingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listListings");
@@ -1145,7 +1145,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListMarketplaceMetadataPublicKeys.cs.html">here</a> to see an example of how to use ListMarketplaceMetadataPublicKeys API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListMarketplaceMetadataPublicKeys.cs.html">here</a> to see an example of how to use ListMarketplaceMetadataPublicKeys API.</example>
         public async Task<ListMarketplaceMetadataPublicKeysResponse> ListMarketplaceMetadataPublicKeys(ListMarketplaceMetadataPublicKeysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMarketplaceMetadataPublicKeys");
@@ -1200,14 +1200,14 @@ namespace Oci.MarketplaceService
         /// you launch the instance, you also need to provide the image ID of the listing resource version that you want.
         /// &lt;br/&gt;
         /// Subscribing to the listing requires you to first get a signature from the terms of use agreement for the
-        /// listing resource version. To get the signature, issue a [GetAppCatalogListingAgreements](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersionAgreements/GetAppCatalogListingAgreements) API call.
-        /// The [AppCatalogListingResourceVersionAgreements](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersionAgreements) object, including
+        /// listing resource version. To get the signature, issue a [GetAppCatalogListingAgreements](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersionAgreements/GetAppCatalogListingAgreements) API call.
+        /// The [AppCatalogListingResourceVersionAgreements](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersionAgreements) object, including
         /// its signature, is returned in the response. With the signature for the terms of use agreement for the desired
         /// listing resource version, create a subscription by issuing a
-        /// [CreateAppCatalogSubscription](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogSubscription/CreateAppCatalogSubscription) API call.
+        /// [CreateAppCatalogSubscription](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogSubscription/CreateAppCatalogSubscription) API call.
         /// &lt;br/&gt;
-        /// To get the image ID to launch an instance, issue a [GetAppCatalogListingResourceVersion](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersion/GetAppCatalogListingResourceVersion) API call.
-        /// Lastly, to launch the instance, use the image ID of the listing resource version to issue a [LaunchInstance](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/latest/Instance/LaunchInstance) API call.
+        /// To get the image ID to launch an instance, issue a [GetAppCatalogListingResourceVersion](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/AppCatalogListingResourceVersion/GetAppCatalogListingResourceVersion) API call.
+        /// Lastly, to launch the instance, use the image ID of the listing resource version to issue a [LaunchInstance](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/latest/Instance/LaunchInstance) API call.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1215,7 +1215,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListPackages.cs.html">here</a> to see an example of how to use ListPackages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListPackages.cs.html">here</a> to see an example of how to use ListPackages API.</example>
         public async Task<ListPackagesResponse> ListPackages(ListPackagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPackages");
@@ -1271,7 +1271,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListPublicationPackages.cs.html">here</a> to see an example of how to use ListPublicationPackages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListPublicationPackages.cs.html">here</a> to see an example of how to use ListPublicationPackages API.</example>
         public async Task<ListPublicationPackagesResponse> ListPublicationPackages(ListPublicationPackagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPublicationPackages");
@@ -1327,7 +1327,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListPublications.cs.html">here</a> to see an example of how to use ListPublications API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListPublications.cs.html">here</a> to see an example of how to use ListPublications API.</example>
         public async Task<ListPublicationsResponse> ListPublications(ListPublicationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPublications");
@@ -1384,7 +1384,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListPublishers.cs.html">here</a> to see an example of how to use ListPublishers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListPublishers.cs.html">here</a> to see an example of how to use ListPublishers API.</example>
         public async Task<ListPublishersResponse> ListPublishers(ListPublishersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPublishers");
@@ -1440,7 +1440,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListReportTypes.cs.html">here</a> to see an example of how to use ListReportTypes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListReportTypes.cs.html">here</a> to see an example of how to use ListReportTypes API.</example>
         public async Task<ListReportTypesResponse> ListReportTypes(ListReportTypesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listReportTypes");
@@ -1496,7 +1496,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListReports.cs.html">here</a> to see an example of how to use ListReports API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListReports.cs.html">here</a> to see an example of how to use ListReports API.</example>
         public async Task<ListReportsResponse> ListReports(ListReportsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listReports");
@@ -1552,7 +1552,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListTaxes.cs.html">here</a> to see an example of how to use ListTaxes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListTaxes.cs.html">here</a> to see an example of how to use ListTaxes API.</example>
         public async Task<ListTaxesResponse> ListTaxes(ListTaxesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTaxes");
@@ -1608,7 +1608,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -1664,7 +1664,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -1720,7 +1720,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1778,7 +1778,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/SearchListings.cs.html">here</a> to see an example of how to use SearchListings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/SearchListings.cs.html">here</a> to see an example of how to use SearchListings API.</example>
         public async Task<SearchListingsResponse> SearchListings(SearchListingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchListings");
@@ -1835,7 +1835,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/UpdateAcceptedAgreement.cs.html">here</a> to see an example of how to use UpdateAcceptedAgreement API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/UpdateAcceptedAgreement.cs.html">here</a> to see an example of how to use UpdateAcceptedAgreement API.</example>
         public async Task<UpdateAcceptedAgreementResponse> UpdateAcceptedAgreement(UpdateAcceptedAgreementRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAcceptedAgreement");
@@ -1891,7 +1891,7 @@ namespace Oci.MarketplaceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/UpdatePublication.cs.html">here</a> to see an example of how to use UpdatePublication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplace/UpdatePublication.cs.html">here</a> to see an example of how to use UpdatePublication API.</example>
         public async Task<UpdatePublicationResponse> UpdatePublication(UpdatePublicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePublication");

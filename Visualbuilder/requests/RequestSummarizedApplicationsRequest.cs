@@ -14,7 +14,7 @@ using Oci.VisualbuilderService.Models;
 namespace Oci.VisualbuilderService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/visualbuilder/RequestSummarizedApplications.cs.html">here</a> to see an example of how to use RequestSummarizedApplications request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/visualbuilder/RequestSummarizedApplications.cs.html">here</a> to see an example of how to use RequestSummarizedApplications request.
     /// </example>
     public class RequestSummarizedApplicationsRequest : Oci.Common.IOciRequest
     {

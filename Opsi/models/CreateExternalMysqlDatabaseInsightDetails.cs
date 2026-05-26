@@ -24,7 +24,7 @@ namespace Oci.OpsiService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database.
         /// </value>
         /// <remarks>
         /// Required
@@ -34,7 +34,7 @@ namespace Oci.OpsiService.Models
         public string DatabaseId { get; set; }
         
         /// <value>
-        /// The DBM owned database connector [OCID](https://docs.cloud.oracle.com/iaas/database-management/doc/view-connector-details.html) mapping to the database credentials and connection details.
+        /// The DBM owned database connector [OCID](https://docs.oracle.com/iaas/database-management/doc/view-connector-details.html) mapping to the database credentials and connection details.
         /// </value>
         /// <remarks>
         /// Required

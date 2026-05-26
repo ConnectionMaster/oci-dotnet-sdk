@@ -34,7 +34,7 @@ namespace Oci.JmsService.Models
         public string ServerInstanceKey { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the related Fleet.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the related Fleet.
         /// 
         /// </value>
         /// <remarks>
@@ -88,7 +88,7 @@ namespace Oci.JmsService.Models
         public string ServerVersion { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the related managed instance.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the related managed instance.
         /// 
         /// </value>
         /// <remarks>

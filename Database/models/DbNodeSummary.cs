@@ -18,7 +18,7 @@ namespace Oci.DatabaseService.Models
     /// <summary>
     /// A server where Oracle Database software is running.
     /// <br/>
-    /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized, talk to an administrator. If you're an administrator who needs to write policies to give users access, see [Getting Started with Policies](https://docs.cloud.oracle.com/Content/Identity/Concepts/policygetstarted.htm).
+    /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized, talk to an administrator. If you're an administrator who needs to write policies to give users access, see [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// <br/>
     /// **Warning:** Oracle recommends that you avoid using any confidential information when you supply string values using the API.
     /// 
@@ -27,7 +27,7 @@ namespace Oci.DatabaseService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the database node.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database node.
         /// </value>
         /// <remarks>
         /// Required
@@ -37,7 +37,7 @@ namespace Oci.DatabaseService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the DB system.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the DB system.
         /// </value>
         /// <remarks>
         /// Required
@@ -47,7 +47,7 @@ namespace Oci.DatabaseService.Models
         public string DbSystemId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VNIC.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC.
         /// </value>
         /// <remarks>
         /// Required
@@ -57,13 +57,13 @@ namespace Oci.DatabaseService.Models
         public string VnicId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the backup VNIC.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the backup VNIC.
         /// </value>
         [JsonProperty(PropertyName = "backupVnicId")]
         public string BackupVnicId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the host IPv4 address associated with the database node. Use this OCID with either the
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the host IPv4 address associated with the database node. Use this OCID with either the
         /// {@link #getPrivateIp(GetPrivateIpRequest) getPrivateIp} or the {@link #getPublicIpByPrivateIpId(GetPublicIpByPrivateIpIdRequest) getPublicIpByPrivateIpId} API to get the IPv4 address
         /// needed to make a database connection.
         /// <br/>
@@ -74,7 +74,7 @@ namespace Oci.DatabaseService.Models
         public string HostIpId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the backup IPv4 address associated with the database node. Use this OCID with either the
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the backup IPv4 address associated with the database node. Use this OCID with either the
         /// {@link #getPrivateIp(GetPrivateIpRequest) getPrivateIp} or the {@link #getPublicIpByPrivateIpId(GetPublicIpByPrivateIpIdRequest) getPublicIpByPrivateIpId} API to get the IPv4 address
         /// needed to make a database connection.
         /// <br/>
@@ -85,7 +85,7 @@ namespace Oci.DatabaseService.Models
         public string BackupIpId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the host IPv6 address associated with the database node. Use this OCID with the
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the host IPv6 address associated with the database node. Use this OCID with the
         /// {@link #getIpv6(GetIpv6Request) getIpv6} API to get the IPv6 address needed to make a database connection.
         /// <br/>
         /// **Note:** Applies only to Exadata Cloud Service.
@@ -95,7 +95,7 @@ namespace Oci.DatabaseService.Models
         public string HostIpv6Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the backup IPv6 address associated with the database node. Use this OCID with the
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the backup IPv6 address associated with the database node. Use this OCID with the
         /// {@link #getIpv6(GetIpv6Request) getIpv6} API to get the IPv6 address needed to make a database connection.
         /// <br/>
         /// **Note:** Applies only to Exadata Cloud Service.
@@ -105,7 +105,7 @@ namespace Oci.DatabaseService.Models
         public string BackupIpv6Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the second VNIC.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the second VNIC.
         /// <br/>
         /// **Note:** Applies only to Exadata Cloud Service.
         /// 
@@ -114,7 +114,7 @@ namespace Oci.DatabaseService.Models
         public string Vnic2Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the second backup VNIC.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the second backup VNIC.
         /// <br/>
         /// **Note:** Applies only to Exadata Cloud Service.
         /// 
@@ -231,7 +231,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -240,7 +240,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]
@@ -248,7 +248,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// System tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "systemTags")]
@@ -285,7 +285,7 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<int> TotalCpuCoreCount { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Exacc Db server associated with the database node.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Exacc Db server associated with the database node.
         /// </value>
         [JsonProperty(PropertyName = "dbServerId")]
         public string DbServerId { get; set; }

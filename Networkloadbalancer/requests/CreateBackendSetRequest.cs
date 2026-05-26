@@ -14,13 +14,13 @@ using Oci.NetworkloadbalancerService.Models;
 namespace Oci.NetworkloadbalancerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkloadbalancer/CreateBackendSet.cs.html">here</a> to see an example of how to use CreateBackendSet request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkloadbalancer/CreateBackendSet.cs.html">here</a> to see an example of how to use CreateBackendSet request.
     /// </example>
     public class CreateBackendSetRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the network load balancer to update.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the network load balancer to update.
         /// </value>
         /// <remarks>
         /// Required

@@ -22,7 +22,7 @@ namespace Oci.VnmonitoringService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the entities via which the relationship is created. For example an instance is associated with a network security group via the VNIC attachment and the VNIC.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the entities via which the relationship is created. For example an instance is associated with a network security group via the VNIC attachment and the VNIC.
         /// </value>
         [JsonProperty(PropertyName = "via")]
         public System.Collections.Generic.List<string> Via { get; set; }

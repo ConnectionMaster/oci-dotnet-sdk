@@ -81,7 +81,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/AbortFsuDiscovery.cs.html">here</a> to see an example of how to use AbortFsuDiscovery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/AbortFsuDiscovery.cs.html">here</a> to see an example of how to use AbortFsuDiscovery API.</example>
         public async Task<AbortFsuDiscoveryResponse> AbortFsuDiscovery(AbortFsuDiscoveryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called abortFsuDiscovery");
@@ -141,7 +141,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/AddFsuCollectionTargets.cs.html">here</a> to see an example of how to use AddFsuCollectionTargets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/AddFsuCollectionTargets.cs.html">here</a> to see an example of how to use AddFsuCollectionTargets API.</example>
         public async Task<AddFsuCollectionTargetsResponse> AddFsuCollectionTargets(AddFsuCollectionTargetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addFsuCollectionTargets");
@@ -198,7 +198,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/CancelFsuAction.cs.html">here</a> to see an example of how to use CancelFsuAction API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/CancelFsuAction.cs.html">here</a> to see an example of how to use CancelFsuAction API.</example>
         public async Task<CancelFsuActionResponse> CancelFsuAction(CancelFsuActionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelFsuAction");
@@ -256,7 +256,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ChangeFsuActionCompartment.cs.html">here</a> to see an example of how to use ChangeFsuActionCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ChangeFsuActionCompartment.cs.html">here</a> to see an example of how to use ChangeFsuActionCompartment API.</example>
         public async Task<ChangeFsuActionCompartmentResponse> ChangeFsuActionCompartment(ChangeFsuActionCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeFsuActionCompartment");
@@ -314,7 +314,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ChangeFsuCollectionCompartment.cs.html">here</a> to see an example of how to use ChangeFsuCollectionCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ChangeFsuCollectionCompartment.cs.html">here</a> to see an example of how to use ChangeFsuCollectionCompartment API.</example>
         public async Task<ChangeFsuCollectionCompartmentResponse> ChangeFsuCollectionCompartment(ChangeFsuCollectionCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeFsuCollectionCompartment");
@@ -372,7 +372,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ChangeFsuCycleCompartment.cs.html">here</a> to see an example of how to use ChangeFsuCycleCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ChangeFsuCycleCompartment.cs.html">here</a> to see an example of how to use ChangeFsuCycleCompartment API.</example>
         public async Task<ChangeFsuCycleCompartmentResponse> ChangeFsuCycleCompartment(ChangeFsuCycleCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeFsuCycleCompartment");
@@ -430,7 +430,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ChangeFsuDiscoveryCompartment.cs.html">here</a> to see an example of how to use ChangeFsuDiscoveryCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ChangeFsuDiscoveryCompartment.cs.html">here</a> to see an example of how to use ChangeFsuDiscoveryCompartment API.</example>
         public async Task<ChangeFsuDiscoveryCompartmentResponse> ChangeFsuDiscoveryCompartment(ChangeFsuDiscoveryCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeFsuDiscoveryCompartment");
@@ -488,7 +488,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ChangeFsuReadinessCheckCompartment.cs.html">here</a> to see an example of how to use ChangeFsuReadinessCheckCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ChangeFsuReadinessCheckCompartment.cs.html">here</a> to see an example of how to use ChangeFsuReadinessCheckCompartment API.</example>
         public async Task<ChangeFsuReadinessCheckCompartmentResponse> ChangeFsuReadinessCheckCompartment(ChangeFsuReadinessCheckCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeFsuReadinessCheckCompartment");
@@ -545,7 +545,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/CloneFsuCycle.cs.html">here</a> to see an example of how to use CloneFsuCycle API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/CloneFsuCycle.cs.html">here</a> to see an example of how to use CloneFsuCycle API.</example>
         public async Task<CloneFsuCycleResponse> CloneFsuCycle(CloneFsuCycleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cloneFsuCycle");
@@ -602,7 +602,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/CreateFsuAction.cs.html">here</a> to see an example of how to use CreateFsuAction API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/CreateFsuAction.cs.html">here</a> to see an example of how to use CreateFsuAction API.</example>
         public async Task<CreateFsuActionResponse> CreateFsuAction(CreateFsuActionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createFsuAction");
@@ -659,7 +659,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/CreateFsuCollection.cs.html">here</a> to see an example of how to use CreateFsuCollection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/CreateFsuCollection.cs.html">here</a> to see an example of how to use CreateFsuCollection API.</example>
         public async Task<CreateFsuCollectionResponse> CreateFsuCollection(CreateFsuCollectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createFsuCollection");
@@ -716,7 +716,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/CreateFsuCycle.cs.html">here</a> to see an example of how to use CreateFsuCycle API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/CreateFsuCycle.cs.html">here</a> to see an example of how to use CreateFsuCycle API.</example>
         public async Task<CreateFsuCycleResponse> CreateFsuCycle(CreateFsuCycleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createFsuCycle");
@@ -773,7 +773,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/CreateFsuDiscovery.cs.html">here</a> to see an example of how to use CreateFsuDiscovery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/CreateFsuDiscovery.cs.html">here</a> to see an example of how to use CreateFsuDiscovery API.</example>
         public async Task<CreateFsuDiscoveryResponse> CreateFsuDiscovery(CreateFsuDiscoveryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createFsuDiscovery");
@@ -830,7 +830,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/CreateFsuReadinessCheck.cs.html">here</a> to see an example of how to use CreateFsuReadinessCheck API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/CreateFsuReadinessCheck.cs.html">here</a> to see an example of how to use CreateFsuReadinessCheck API.</example>
         public async Task<CreateFsuReadinessCheckResponse> CreateFsuReadinessCheck(CreateFsuReadinessCheckRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createFsuReadinessCheck");
@@ -887,7 +887,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/DeleteFsuAction.cs.html">here</a> to see an example of how to use DeleteFsuAction API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/DeleteFsuAction.cs.html">here</a> to see an example of how to use DeleteFsuAction API.</example>
         public async Task<DeleteFsuActionResponse> DeleteFsuAction(DeleteFsuActionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteFsuAction");
@@ -944,7 +944,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/DeleteFsuCollection.cs.html">here</a> to see an example of how to use DeleteFsuCollection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/DeleteFsuCollection.cs.html">here</a> to see an example of how to use DeleteFsuCollection API.</example>
         public async Task<DeleteFsuCollectionResponse> DeleteFsuCollection(DeleteFsuCollectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteFsuCollection");
@@ -1003,7 +1003,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/DeleteFsuCollectionTarget.cs.html">here</a> to see an example of how to use DeleteFsuCollectionTarget API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/DeleteFsuCollectionTarget.cs.html">here</a> to see an example of how to use DeleteFsuCollectionTarget API.</example>
         public async Task<DeleteFsuCollectionTargetResponse> DeleteFsuCollectionTarget(DeleteFsuCollectionTargetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteFsuCollectionTarget");
@@ -1060,7 +1060,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/DeleteFsuCycle.cs.html">here</a> to see an example of how to use DeleteFsuCycle API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/DeleteFsuCycle.cs.html">here</a> to see an example of how to use DeleteFsuCycle API.</example>
         public async Task<DeleteFsuCycleResponse> DeleteFsuCycle(DeleteFsuCycleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteFsuCycle");
@@ -1117,7 +1117,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/DeleteFsuDiscovery.cs.html">here</a> to see an example of how to use DeleteFsuDiscovery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/DeleteFsuDiscovery.cs.html">here</a> to see an example of how to use DeleteFsuDiscovery API.</example>
         public async Task<DeleteFsuDiscoveryResponse> DeleteFsuDiscovery(DeleteFsuDiscoveryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteFsuDiscovery");
@@ -1174,7 +1174,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/DeleteFsuJob.cs.html">here</a> to see an example of how to use DeleteFsuJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/DeleteFsuJob.cs.html">here</a> to see an example of how to use DeleteFsuJob API.</example>
         public async Task<DeleteFsuJobResponse> DeleteFsuJob(DeleteFsuJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteFsuJob");
@@ -1231,7 +1231,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/DeleteFsuReadinessCheck.cs.html">here</a> to see an example of how to use DeleteFsuReadinessCheck API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/DeleteFsuReadinessCheck.cs.html">here</a> to see an example of how to use DeleteFsuReadinessCheck API.</example>
         public async Task<DeleteFsuReadinessCheckResponse> DeleteFsuReadinessCheck(DeleteFsuReadinessCheckRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteFsuReadinessCheck");
@@ -1288,7 +1288,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuAction.cs.html">here</a> to see an example of how to use GetFsuAction API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuAction.cs.html">here</a> to see an example of how to use GetFsuAction API.</example>
         public async Task<GetFsuActionResponse> GetFsuAction(GetFsuActionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFsuAction");
@@ -1346,7 +1346,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuActionOutputContent.cs.html">here</a> to see an example of how to use GetFsuActionOutputContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuActionOutputContent.cs.html">here</a> to see an example of how to use GetFsuActionOutputContent API.</example>
         public async Task<GetFsuActionOutputContentResponse> GetFsuActionOutputContent(GetFsuActionOutputContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFsuActionOutputContent");
@@ -1403,7 +1403,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuCollection.cs.html">here</a> to see an example of how to use GetFsuCollection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuCollection.cs.html">here</a> to see an example of how to use GetFsuCollection API.</example>
         public async Task<GetFsuCollectionResponse> GetFsuCollection(GetFsuCollectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFsuCollection");
@@ -1460,7 +1460,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuCollectionTarget.cs.html">here</a> to see an example of how to use GetFsuCollectionTarget API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuCollectionTarget.cs.html">here</a> to see an example of how to use GetFsuCollectionTarget API.</example>
         public async Task<GetFsuCollectionTargetResponse> GetFsuCollectionTarget(GetFsuCollectionTargetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFsuCollectionTarget");
@@ -1517,7 +1517,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuCycle.cs.html">here</a> to see an example of how to use GetFsuCycle API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuCycle.cs.html">here</a> to see an example of how to use GetFsuCycle API.</example>
         public async Task<GetFsuCycleResponse> GetFsuCycle(GetFsuCycleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFsuCycle");
@@ -1574,7 +1574,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuDiscovery.cs.html">here</a> to see an example of how to use GetFsuDiscovery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuDiscovery.cs.html">here</a> to see an example of how to use GetFsuDiscovery API.</example>
         public async Task<GetFsuDiscoveryResponse> GetFsuDiscovery(GetFsuDiscoveryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFsuDiscovery");
@@ -1631,7 +1631,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuJob.cs.html">here</a> to see an example of how to use GetFsuJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuJob.cs.html">here</a> to see an example of how to use GetFsuJob API.</example>
         public async Task<GetFsuJobResponse> GetFsuJob(GetFsuJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFsuJob");
@@ -1688,7 +1688,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuJobOutputContent.cs.html">here</a> to see an example of how to use GetFsuJobOutputContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuJobOutputContent.cs.html">here</a> to see an example of how to use GetFsuJobOutputContent API.</example>
         public async Task<GetFsuJobOutputContentResponse> GetFsuJobOutputContent(GetFsuJobOutputContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFsuJobOutputContent");
@@ -1745,7 +1745,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuReadinessCheck.cs.html">here</a> to see an example of how to use GetFsuReadinessCheck API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuReadinessCheck.cs.html">here</a> to see an example of how to use GetFsuReadinessCheck API.</example>
         public async Task<GetFsuReadinessCheckResponse> GetFsuReadinessCheck(GetFsuReadinessCheckRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFsuReadinessCheck");
@@ -1802,7 +1802,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -1859,7 +1859,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuActions.cs.html">here</a> to see an example of how to use ListFsuActions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuActions.cs.html">here</a> to see an example of how to use ListFsuActions API.</example>
         public async Task<ListFsuActionsResponse> ListFsuActions(ListFsuActionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFsuActions");
@@ -1916,7 +1916,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuCollectionTargets.cs.html">here</a> to see an example of how to use ListFsuCollectionTargets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuCollectionTargets.cs.html">here</a> to see an example of how to use ListFsuCollectionTargets API.</example>
         public async Task<ListFsuCollectionTargetsResponse> ListFsuCollectionTargets(ListFsuCollectionTargetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFsuCollectionTargets");
@@ -1973,7 +1973,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuCollections.cs.html">here</a> to see an example of how to use ListFsuCollections API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuCollections.cs.html">here</a> to see an example of how to use ListFsuCollections API.</example>
         public async Task<ListFsuCollectionsResponse> ListFsuCollections(ListFsuCollectionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFsuCollections");
@@ -2030,7 +2030,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuCycles.cs.html">here</a> to see an example of how to use ListFsuCycles API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuCycles.cs.html">here</a> to see an example of how to use ListFsuCycles API.</example>
         public async Task<ListFsuCyclesResponse> ListFsuCycles(ListFsuCyclesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFsuCycles");
@@ -2087,7 +2087,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuDiscoveries.cs.html">here</a> to see an example of how to use ListFsuDiscoveries API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuDiscoveries.cs.html">here</a> to see an example of how to use ListFsuDiscoveries API.</example>
         public async Task<ListFsuDiscoveriesResponse> ListFsuDiscoveries(ListFsuDiscoveriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFsuDiscoveries");
@@ -2144,7 +2144,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuDiscoveryTargets.cs.html">here</a> to see an example of how to use ListFsuDiscoveryTargets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuDiscoveryTargets.cs.html">here</a> to see an example of how to use ListFsuDiscoveryTargets API.</example>
         public async Task<ListFsuDiscoveryTargetsResponse> ListFsuDiscoveryTargets(ListFsuDiscoveryTargetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFsuDiscoveryTargets");
@@ -2201,7 +2201,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuJobOutputs.cs.html">here</a> to see an example of how to use ListFsuJobOutputs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuJobOutputs.cs.html">here</a> to see an example of how to use ListFsuJobOutputs API.</example>
         public async Task<ListFsuJobOutputsResponse> ListFsuJobOutputs(ListFsuJobOutputsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFsuJobOutputs");
@@ -2258,7 +2258,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuJobs.cs.html">here</a> to see an example of how to use ListFsuJobs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuJobs.cs.html">here</a> to see an example of how to use ListFsuJobs API.</example>
         public async Task<ListFsuJobsResponse> ListFsuJobs(ListFsuJobsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFsuJobs");
@@ -2315,7 +2315,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuReadinessChecks.cs.html">here</a> to see an example of how to use ListFsuReadinessChecks API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuReadinessChecks.cs.html">here</a> to see an example of how to use ListFsuReadinessChecks API.</example>
         public async Task<ListFsuReadinessChecksResponse> ListFsuReadinessChecks(ListFsuReadinessChecksRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFsuReadinessChecks");
@@ -2372,7 +2372,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -2429,7 +2429,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -2486,7 +2486,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -2545,7 +2545,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/RemoveFsuCollectionTargets.cs.html">here</a> to see an example of how to use RemoveFsuCollectionTargets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/RemoveFsuCollectionTargets.cs.html">here</a> to see an example of how to use RemoveFsuCollectionTargets API.</example>
         public async Task<RemoveFsuCollectionTargetsResponse> RemoveFsuCollectionTargets(RemoveFsuCollectionTargetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeFsuCollectionTargets");
@@ -2602,7 +2602,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ResumeFsuAction.cs.html">here</a> to see an example of how to use ResumeFsuAction API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ResumeFsuAction.cs.html">here</a> to see an example of how to use ResumeFsuAction API.</example>
         public async Task<ResumeFsuActionResponse> ResumeFsuAction(ResumeFsuActionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called resumeFsuAction");
@@ -2660,7 +2660,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/RetryFsuJob.cs.html">here</a> to see an example of how to use RetryFsuJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/RetryFsuJob.cs.html">here</a> to see an example of how to use RetryFsuJob API.</example>
         public async Task<RetryFsuJobResponse> RetryFsuJob(RetryFsuJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called retryFsuJob");
@@ -2717,7 +2717,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/UpdateFsuAction.cs.html">here</a> to see an example of how to use UpdateFsuAction API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/UpdateFsuAction.cs.html">here</a> to see an example of how to use UpdateFsuAction API.</example>
         public async Task<UpdateFsuActionResponse> UpdateFsuAction(UpdateFsuActionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateFsuAction");
@@ -2774,7 +2774,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/UpdateFsuCollection.cs.html">here</a> to see an example of how to use UpdateFsuCollection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/UpdateFsuCollection.cs.html">here</a> to see an example of how to use UpdateFsuCollection API.</example>
         public async Task<UpdateFsuCollectionResponse> UpdateFsuCollection(UpdateFsuCollectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateFsuCollection");
@@ -2831,7 +2831,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/UpdateFsuCycle.cs.html">here</a> to see an example of how to use UpdateFsuCycle API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/UpdateFsuCycle.cs.html">here</a> to see an example of how to use UpdateFsuCycle API.</example>
         public async Task<UpdateFsuCycleResponse> UpdateFsuCycle(UpdateFsuCycleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateFsuCycle");
@@ -2888,7 +2888,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/UpdateFsuDiscovery.cs.html">here</a> to see an example of how to use UpdateFsuDiscovery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/UpdateFsuDiscovery.cs.html">here</a> to see an example of how to use UpdateFsuDiscovery API.</example>
         public async Task<UpdateFsuDiscoveryResponse> UpdateFsuDiscovery(UpdateFsuDiscoveryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateFsuDiscovery");
@@ -2945,7 +2945,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/UpdateFsuJob.cs.html">here</a> to see an example of how to use UpdateFsuJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/UpdateFsuJob.cs.html">here</a> to see an example of how to use UpdateFsuJob API.</example>
         public async Task<UpdateFsuJobResponse> UpdateFsuJob(UpdateFsuJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateFsuJob");
@@ -3002,7 +3002,7 @@ namespace Oci.FleetsoftwareupdateService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/UpdateFsuReadinessCheck.cs.html">here</a> to see an example of how to use UpdateFsuReadinessCheck API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/UpdateFsuReadinessCheck.cs.html">here</a> to see an example of how to use UpdateFsuReadinessCheck API.</example>
         public async Task<UpdateFsuReadinessCheckResponse> UpdateFsuReadinessCheck(UpdateFsuReadinessCheckRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateFsuReadinessCheck");

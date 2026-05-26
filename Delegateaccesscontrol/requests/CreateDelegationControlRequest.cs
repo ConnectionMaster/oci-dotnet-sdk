@@ -14,7 +14,7 @@ using Oci.DelegateaccesscontrolService.Models;
 namespace Oci.DelegateaccesscontrolService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/CreateDelegationControl.cs.html">here</a> to see an example of how to use CreateDelegationControl request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/CreateDelegationControl.cs.html">here</a> to see an example of how to use CreateDelegationControl request.
     /// </example>
     public class CreateDelegationControlRequest : Oci.Common.IOciRequest
     {

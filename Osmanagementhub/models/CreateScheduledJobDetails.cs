@@ -22,7 +22,7 @@ namespace Oci.OsmanagementhubService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the scheduled job.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the scheduled job.
         /// </value>
         /// <remarks>
         /// Required
@@ -80,7 +80,7 @@ namespace Oci.OsmanagementhubService.Models
         public string RecurringRule { get; set; }
         
         /// <value>
-        /// The managed instance [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that this scheduled job operates on. 
+        /// The managed instance [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that this scheduled job operates on. 
         /// A scheduled job can only operate on one type of target, therefore you must supply either this or 
         /// managedInstanceGroupIds, or managedCompartmentIds, or lifecycleStageIds, or dynamicSetIds.
         /// 
@@ -89,7 +89,7 @@ namespace Oci.OsmanagementhubService.Models
         public System.Collections.Generic.List<string> ManagedInstanceIds { get; set; }
         
         /// <value>
-        /// The managed instance group [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that this scheduled job operates on. 
+        /// The managed instance group [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that this scheduled job operates on. 
         /// A scheduled job can only operate on one type of target, therefore you must supply either this or managedInstanceIds,
         /// or managedCompartmentIds, or lifecycleStageIds, or dynamicSetIds.
         /// 
@@ -98,7 +98,7 @@ namespace Oci.OsmanagementhubService.Models
         public System.Collections.Generic.List<string> ManagedInstanceGroupIds { get; set; }
         
         /// <value>
-        /// The compartment [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that this scheduled job operates on. 
+        /// The compartment [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that this scheduled job operates on. 
         /// To apply the job to all compartments in the tenancy, set this to the tenancy OCID (root compartment) and set 
         /// isSubcompartmentIncluded to true. A scheduled job can only operate on one type of target, therefore you must 
         /// supply either this or managedInstanceIds, or managedInstanceGroupIds, or lifecycleStageIds, or dynamicSetIds.
@@ -108,7 +108,7 @@ namespace Oci.OsmanagementhubService.Models
         public System.Collections.Generic.List<string> ManagedCompartmentIds { get; set; }
         
         /// <value>
-        /// The lifecycle stage [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that this scheduled job operates on. 
+        /// The lifecycle stage [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that this scheduled job operates on. 
         /// A scheduled job can only operate on one type of target, therefore you must supply either this or managedInstanceIds, 
         /// or managedInstanceGroupIds, or managedCompartmentIds, or dynamicSetIds.
         /// 
@@ -117,7 +117,7 @@ namespace Oci.OsmanagementhubService.Models
         public System.Collections.Generic.List<string> LifecycleStageIds { get; set; }
         
         /// <value>
-        /// The dynamic set [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that this scheduled job operates on.
+        /// The dynamic set [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that this scheduled job operates on.
         /// A scheduled job can only operate on one type of target. therefore this parameter is mutually exclusive with 
         /// managedInstanceIds, managedInstanceGroupIds, lifecycleStageIds, managedCompartmentIds.
         /// 
@@ -127,7 +127,7 @@ namespace Oci.OsmanagementhubService.Models
         
         /// <value>
         /// Indicates whether to apply the scheduled job to all compartments in the tenancy when managedCompartmentIds specifies 
-        /// the tenancy [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) (root compartment).
+        /// the tenancy [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) (root compartment).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isSubcompartmentIncluded")]
@@ -155,7 +155,7 @@ namespace Oci.OsmanagementhubService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
         [JsonProperty(PropertyName = "freeformTags")]
@@ -163,7 +163,7 @@ namespace Oci.OsmanagementhubService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]
@@ -186,7 +186,7 @@ namespace Oci.OsmanagementhubService.Models
         public System.Nullable<bool> IsManagedByAutonomousLinux { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the work request that will be rerun.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the work request that will be rerun.
         /// </value>
         [JsonProperty(PropertyName = "workRequestId")]
         public string WorkRequestId { get; set; }

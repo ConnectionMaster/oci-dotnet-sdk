@@ -33,7 +33,7 @@ namespace Oci.LimitsincreaseService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment for the new limit increase request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment for the new limit increase request.
         /// Note: The tenancy is the root compartment.
         /// 
         /// </value>
@@ -45,7 +45,7 @@ namespace Oci.LimitsincreaseService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the tenancy subscription for the limit increase request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the tenancy subscription for the limit increase request.
         /// </value>
         [JsonProperty(PropertyName = "subscriptionId")]
         public string SubscriptionId { get; set; }

@@ -14,7 +14,7 @@ using Oci.GovernancerulescontrolplaneService.Models;
 namespace Oci.GovernancerulescontrolplaneService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/UpdateGovernanceRule.cs.html">here</a> to see an example of how to use UpdateGovernanceRule request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/UpdateGovernanceRule.cs.html">here</a> to see an example of how to use UpdateGovernanceRule request.
     /// </example>
     public class UpdateGovernanceRuleRequest : Oci.Common.IOciRequest
     {

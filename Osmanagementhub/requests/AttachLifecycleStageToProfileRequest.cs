@@ -14,13 +14,13 @@ using Oci.OsmanagementhubService.Models;
 namespace Oci.OsmanagementhubService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachLifecycleStageToProfile.cs.html">here</a> to see an example of how to use AttachLifecycleStageToProfile request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachLifecycleStageToProfile.cs.html">here</a> to see an example of how to use AttachLifecycleStageToProfile request.
     /// </example>
     public class AttachLifecycleStageToProfileRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the registration profile.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the registration profile.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.OsmanagementhubService.Requests
         public string ProfileId { get; set; }
         
         /// <value>
-        /// The lifecycle stage [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) to attach to the profile
+        /// The lifecycle stage [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) to attach to the profile
         /// </value>
         /// <remarks>
         /// Required

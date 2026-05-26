@@ -14,7 +14,7 @@ using Oci.PsqlService.Models;
 namespace Oci.PsqlService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psql/DeleteBackup.cs.html">here</a> to see an example of how to use DeleteBackup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psql/DeleteBackup.cs.html">here</a> to see an example of how to use DeleteBackup request.
     /// </example>
     public class DeleteBackupRequest : Oci.Common.IOciRequest
     {

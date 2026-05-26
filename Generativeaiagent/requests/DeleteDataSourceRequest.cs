@@ -14,13 +14,13 @@ using Oci.GenerativeaiagentService.Models;
 namespace Oci.GenerativeaiagentService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagent/DeleteDataSource.cs.html">here</a> to see an example of how to use DeleteDataSource request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagent/DeleteDataSource.cs.html">here</a> to see an example of how to use DeleteDataSource request.
     /// </example>
     public class DeleteDataSourceRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the data source.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the data source.
         /// </value>
         /// <remarks>
         /// Required

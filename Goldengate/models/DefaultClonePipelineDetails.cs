@@ -13,25 +13,16 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
 
-namespace Oci.DatascienceService.Models
+namespace Oci.GoldengateService.Models
 {
     /// <summary>
-    /// Configuration of IDCS AuthN/Z for online prediction
+    /// Attribute details for a default pipeline clone.
+    /// 
     /// </summary>
-    public class CreateIdcsAuthConfigurationDetails : CreateAuthConfigurationDetails
+    public class DefaultClonePipelineDetails : ClonePipelineDetails
     {
         
-        /// <value>
-        /// Identity Domain OCID
-        /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "DomainId is required.")]
-        [JsonProperty(PropertyName = "domainId")]
-        public string DomainId { get; set; }
-        
         [JsonProperty(PropertyName = "type")]
-        private readonly string type = "IDCS";
+        private readonly string type = "DEFAULT";
     }
 }

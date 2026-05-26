@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/UpdateCloudVmClusterIormConfig.cs.html">here</a> to see an example of how to use UpdateCloudVmClusterIormConfig request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/UpdateCloudVmClusterIormConfig.cs.html">here</a> to see an example of how to use UpdateCloudVmClusterIormConfig request.
     /// </example>
     public class UpdateCloudVmClusterIormConfigRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The cloud VM cluster [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The cloud VM cluster [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

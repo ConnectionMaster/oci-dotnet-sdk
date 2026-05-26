@@ -80,7 +80,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ChangeRoverClusterCompartment.cs.html">here</a> to see an example of how to use ChangeRoverClusterCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ChangeRoverClusterCompartment.cs.html">here</a> to see an example of how to use ChangeRoverClusterCompartment API.</example>
         public async Task<ChangeRoverClusterCompartmentResponse> ChangeRoverClusterCompartment(ChangeRoverClusterCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeRoverClusterCompartment");
@@ -137,7 +137,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/CreateRoverCluster.cs.html">here</a> to see an example of how to use CreateRoverCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/CreateRoverCluster.cs.html">here</a> to see an example of how to use CreateRoverCluster API.</example>
         public async Task<CreateRoverClusterResponse> CreateRoverCluster(CreateRoverClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRoverCluster");
@@ -193,7 +193,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/DeleteRoverCluster.cs.html">here</a> to see an example of how to use DeleteRoverCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/DeleteRoverCluster.cs.html">here</a> to see an example of how to use DeleteRoverCluster API.</example>
         public async Task<DeleteRoverClusterResponse> DeleteRoverCluster(DeleteRoverClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRoverCluster");
@@ -249,7 +249,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/GetRoverCluster.cs.html">here</a> to see an example of how to use GetRoverCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/GetRoverCluster.cs.html">here</a> to see an example of how to use GetRoverCluster API.</example>
         public async Task<GetRoverClusterResponse> GetRoverCluster(GetRoverClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRoverCluster");
@@ -305,7 +305,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/GetRoverClusterCertificate.cs.html">here</a> to see an example of how to use GetRoverClusterCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/GetRoverClusterCertificate.cs.html">here</a> to see an example of how to use GetRoverClusterCertificate API.</example>
         public async Task<GetRoverClusterCertificateResponse> GetRoverClusterCertificate(GetRoverClusterCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRoverClusterCertificate");
@@ -362,7 +362,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ListRoverClusters.cs.html">here</a> to see an example of how to use ListRoverClusters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ListRoverClusters.cs.html">here</a> to see an example of how to use ListRoverClusters API.</example>
         public async Task<ListRoverClustersResponse> ListRoverClusters(ListRoverClustersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRoverClusters");
@@ -418,7 +418,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RequestAdditionalNodes.cs.html">here</a> to see an example of how to use RequestAdditionalNodes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RequestAdditionalNodes.cs.html">here</a> to see an example of how to use RequestAdditionalNodes API.</example>
         public async Task<RequestAdditionalNodesResponse> RequestAdditionalNodes(RequestAdditionalNodesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestAdditionalNodes");
@@ -474,7 +474,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/UpdateRoverCluster.cs.html">here</a> to see an example of how to use UpdateRoverCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/UpdateRoverCluster.cs.html">here</a> to see an example of how to use UpdateRoverCluster API.</example>
         public async Task<UpdateRoverClusterResponse> UpdateRoverCluster(UpdateRoverClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRoverCluster");

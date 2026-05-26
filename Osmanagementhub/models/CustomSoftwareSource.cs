@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.OsmanagementhubService.Models
 {
     /// <summary>
-    /// The object that defines a custom software source. A software source contains a collection of packages. For more information, see [Managing Software Sources](https://docs.cloud.oracle.com/iaas/osmh/doc/software-sources.htm).
+    /// The object that defines a custom software source. A software source contains a collection of packages. For more information, see [Managing Software Sources](https://docs.oracle.com/iaas/osmh/doc/software-sources.htm).
     /// </summary>
     public class CustomSoftwareSource : SoftwareSource
     {

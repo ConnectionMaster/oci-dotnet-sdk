@@ -22,7 +22,7 @@ namespace Oci.NetworkloadbalancerService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the network load balancer.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the network load balancer.
         /// </value>
         /// <remarks>
         /// Required
@@ -32,7 +32,7 @@ namespace Oci.NetworkloadbalancerService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment containing the network load balancer.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the network load balancer.
         /// </value>
         /// <remarks>
         /// Required
@@ -118,9 +118,9 @@ namespace Oci.NetworkloadbalancerService.Models
         /// If \"false\", then the service assigns a public IP address to the network load balancer.
         /// <br/>
         /// A public network load balancer is accessible from the internet, depending the
-        /// [security list rules](https://docs.cloud.oracle.com/Content/network/Concepts/securitylists.htm) for your virtual cloudn network. For more information about public and
+        /// [security list rules](https://docs.oracle.com/iaas/Content/network/Concepts/securitylists.htm) for your virtual cloudn network. For more information about public and
         /// private network load balancers,
-        /// see [Network Load Balancer Types](https://docs.cloud.oracle.com/Content/NetworkLoadBalancer/introduction.htm#NetworkLoadBalancerTypes).
+        /// see [Network Load Balancer Types](https://docs.oracle.com/iaas/Content/NetworkLoadBalancer/introduction.htm#NetworkLoadBalancerTypes).
         /// This value is true by default.
         /// <br/>
         /// Example: true
@@ -145,7 +145,7 @@ namespace Oci.NetworkloadbalancerService.Models
         public System.Nullable<bool> IsSymmetricHashEnabled { get; set; }
         
         /// <value>
-        /// The subnet in which the network load balancer is spawned [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The subnet in which the network load balancer is spawned [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required
@@ -155,7 +155,7 @@ namespace Oci.NetworkloadbalancerService.Models
         public string SubnetId { get; set; }
         
         /// <value>
-        /// An array of network security groups [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) associated with the network load
+        /// An array of network security groups [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) associated with the network load
         /// balancer.
         /// <br/>
         /// During the creation of the network load balancer, the service adds the new load balancer to the specified network security groups.
@@ -186,7 +186,7 @@ namespace Oci.NetworkloadbalancerService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -195,7 +195,7 @@ namespace Oci.NetworkloadbalancerService.Models
         
         /// <value>
         /// ZPR tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: { &quot;oracle-zpr&quot;: { &quot;td&quot;: { &quot;value&quot;: &quot;42&quot;, &quot;mode&quot;: &quot;audit&quot; } } }
         /// </value>
@@ -204,7 +204,7 @@ namespace Oci.NetworkloadbalancerService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>

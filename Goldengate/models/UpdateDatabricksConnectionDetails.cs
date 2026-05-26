@@ -48,7 +48,7 @@ namespace Oci.GoldengateService.Models
         public string Password { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the password is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the password is stored.
         /// Note: When provided, 'password' field must not be provided.
         /// 
         /// </value>
@@ -71,7 +71,7 @@ namespace Oci.GoldengateService.Models
         public string ClientSecret { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the client secret is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the client secret is stored.
         /// Only applicable for authenticationType == OAUTH_M2M.
         /// Note: When provided, 'clientSecret' field must not be provided.
         /// 

@@ -14,13 +14,13 @@ using Oci.OsmanagementhubService.Models;
 namespace Oci.OsmanagementhubService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RemovePackagesFromDynamicSet.cs.html">here</a> to see an example of how to use RemovePackagesFromDynamicSet request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RemovePackagesFromDynamicSet.cs.html">here</a> to see an example of how to use RemovePackagesFromDynamicSet request.
     /// </example>
     public class RemovePackagesFromDynamicSetRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the dynamic set. This filter returns resources associated with this dynamic set.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the dynamic set. This filter returns resources associated with this dynamic set.
         /// </value>
         /// <remarks>
         /// Required

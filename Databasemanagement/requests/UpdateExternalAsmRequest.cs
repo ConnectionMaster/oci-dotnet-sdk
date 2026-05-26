@@ -14,13 +14,13 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/UpdateExternalAsm.cs.html">here</a> to see an example of how to use UpdateExternalAsm request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/UpdateExternalAsm.cs.html">here</a> to see an example of how to use UpdateExternalAsm request.
     /// </example>
     public class UpdateExternalAsmRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the external ASM.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the external ASM.
         /// </value>
         /// <remarks>
         /// Required

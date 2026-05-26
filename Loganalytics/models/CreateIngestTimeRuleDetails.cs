@@ -23,7 +23,7 @@ namespace Oci.LoganalyticsService.Models
     {
         
         /// <value>
-        /// Compartment Identifier [OCID] (https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Compartment Identifier [OCID] (https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

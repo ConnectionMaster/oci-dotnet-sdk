@@ -23,7 +23,7 @@ namespace Oci.AdmService.Models
     {
         
         /// <value>
-        /// The Oracle Cloud Identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the knowledge base.
+        /// The Oracle Cloud Identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the knowledge base.
         /// </value>
         /// <remarks>
         /// Required
@@ -96,7 +96,7 @@ namespace Oci.AdmService.Models
         public System.Nullable<LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
-        /// The compartment Oracle Cloud Identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the knowledge base.
+        /// The compartment Oracle Cloud Identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the knowledge base.
         /// </value>
         /// <remarks>
         /// Required

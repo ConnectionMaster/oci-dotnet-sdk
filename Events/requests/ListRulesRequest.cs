@@ -14,13 +14,13 @@ using Oci.EventsService.Models;
 namespace Oci.EventsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/events/ListRules.cs.html">here</a> to see an example of how to use ListRules request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/events/ListRules.cs.html">here</a> to see an example of how to use ListRules request.
     /// </example>
     public class ListRulesRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to which this rule belongs.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to which this rule belongs.
         /// 
         /// </value>
         /// <remarks>
@@ -41,7 +41,7 @@ namespace Oci.EventsService.Requests
         /// <value>
         /// For list pagination. The value of the opc-next-page response header from the previous
         /// \"List\" call. For important details about how pagination works, see
-        /// [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]

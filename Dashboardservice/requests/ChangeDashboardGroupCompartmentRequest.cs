@@ -14,13 +14,13 @@ using Oci.DashboardService.Models;
 namespace Oci.DashboardService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dashboardservice/ChangeDashboardGroupCompartment.cs.html">here</a> to see an example of how to use ChangeDashboardGroupCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dashboardservice/ChangeDashboardGroupCompartment.cs.html">here</a> to see an example of how to use ChangeDashboardGroupCompartment request.
     /// </example>
     public class ChangeDashboardGroupCompartmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the dashboard group.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the dashboard group.
         /// </value>
         /// <remarks>
         /// Required

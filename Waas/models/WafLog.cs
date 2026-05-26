@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.WaasService.Models
 {
     /// <summary>
-    /// A list of Web Application Firewall log entries. Each entry is a JSON object, including a timestamp property and other fields varying based on log type. Logs record what rules and countermeasures are triggered by requests and are used as a basis to move request handling into block mode. For more information about WAF logs, see [Logs](https://docs.cloud.oracle.com/iaas/Content/WAF/Tasks/logs.htm).
+    /// A list of Web Application Firewall log entries. Each entry is a JSON object, including a timestamp property and other fields varying based on log type. Logs record what rules and countermeasures are triggered by requests and are used as a basis to move request handling into block mode. For more information about WAF logs, see [Logs](https://docs.oracle.com/iaas/Content/WAF/Tasks/logs.htm).
     /// </summary>
     public class WafLog 
     {
@@ -194,7 +194,7 @@ namespace Oci.WaasService.Models
         public System.Nullable<System.DateTime> Timestamp { get; set; }
         
         /// <value>
-        /// The type of log of the request. For more about log types, see [Logs](https://docs.cloud.oracle.com/iaas/Content/WAF/Tasks/logs.htm).
+        /// The type of log of the request. For more about log types, see [Logs](https://docs.oracle.com/iaas/Content/WAF/Tasks/logs.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "logType")]

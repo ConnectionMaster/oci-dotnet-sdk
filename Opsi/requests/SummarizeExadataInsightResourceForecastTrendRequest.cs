@@ -14,7 +14,7 @@ using Oci.OpsiService.Models;
 namespace Oci.OpsiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceForecastTrend.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceForecastTrend request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceForecastTrend.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceForecastTrend request.
     /// </example>
     public class SummarizeExadataInsightResourceForecastTrendRequest : Oci.Common.IOciRequest
     {
@@ -44,7 +44,7 @@ namespace Oci.OpsiService.Requests
         public string ResourceMetric { get; set; }
         
         /// <value>
-        /// [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of exadata insight resource.
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of exadata insight resource.
         /// 
         /// </value>
         /// <remarks>
@@ -86,14 +86,14 @@ namespace Oci.OpsiService.Requests
         public System.Nullable<System.DateTime> TimeIntervalEnd { get; set; }
         
         /// <value>
-        /// Optional list of database insight resource [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Optional list of database insight resource [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "databaseInsightId", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<string> DatabaseInsightId { get; set; }
         
         /// <value>
-        /// Optional list of host insight resource [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Optional list of host insight resource [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "hostInsightId", Oci.Common.Http.CollectionFormatType.Multi)]
@@ -194,7 +194,7 @@ namespace Oci.OpsiService.Requests
         /// For list pagination. The maximum number of results per page, or items to
         /// return in a paginated \"List\" call.
         /// For important details about how pagination works, see
-        /// [List Pagination](https://docs.cloud.oracle.com/Content/API/Concepts/usingapi.htm#nine).
+        /// [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// Example: 50
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "limit")]
@@ -241,7 +241,7 @@ namespace Oci.OpsiService.Requests
         /// <value>
         /// For list pagination. The value of the `opc-next-page` response header from
         /// the previous \"List\" call. For important details about how pagination works,
-        /// see [List Pagination](https://docs.cloud.oracle.com/Content/API/Concepts/usingapi.htm#nine).
+        /// see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]

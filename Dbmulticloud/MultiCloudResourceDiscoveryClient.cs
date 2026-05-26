@@ -80,7 +80,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ChangeMultiCloudResourceDiscoveryCompartment.cs.html">here</a> to see an example of how to use ChangeMultiCloudResourceDiscoveryCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ChangeMultiCloudResourceDiscoveryCompartment.cs.html">here</a> to see an example of how to use ChangeMultiCloudResourceDiscoveryCompartment API.</example>
         public async Task<ChangeMultiCloudResourceDiscoveryCompartmentResponse> ChangeMultiCloudResourceDiscoveryCompartment(ChangeMultiCloudResourceDiscoveryCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMultiCloudResourceDiscoveryCompartment");
@@ -137,7 +137,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateMultiCloudResourceDiscovery.cs.html">here</a> to see an example of how to use CreateMultiCloudResourceDiscovery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateMultiCloudResourceDiscovery.cs.html">here</a> to see an example of how to use CreateMultiCloudResourceDiscovery API.</example>
         public async Task<CreateMultiCloudResourceDiscoveryResponse> CreateMultiCloudResourceDiscovery(CreateMultiCloudResourceDiscoveryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMultiCloudResourceDiscovery");
@@ -194,7 +194,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/DeleteMultiCloudResourceDiscovery.cs.html">here</a> to see an example of how to use DeleteMultiCloudResourceDiscovery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/DeleteMultiCloudResourceDiscovery.cs.html">here</a> to see an example of how to use DeleteMultiCloudResourceDiscovery API.</example>
         public async Task<DeleteMultiCloudResourceDiscoveryResponse> DeleteMultiCloudResourceDiscovery(DeleteMultiCloudResourceDiscoveryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMultiCloudResourceDiscovery");
@@ -243,7 +243,7 @@ namespace Oci.DbmulticloudService
         }
 
         /// <summary>
-        /// Retrieves detailed information about a Multicloud discovered resource by specifying its unique resource [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Retrieves detailed information about a Multicloud discovered resource by specifying its unique resource [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -251,7 +251,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetMultiCloudResourceDiscovery.cs.html">here</a> to see an example of how to use GetMultiCloudResourceDiscovery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetMultiCloudResourceDiscovery.cs.html">here</a> to see an example of how to use GetMultiCloudResourceDiscovery API.</example>
         public async Task<GetMultiCloudResourceDiscoveryResponse> GetMultiCloudResourceDiscovery(GetMultiCloudResourceDiscoveryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMultiCloudResourceDiscovery");
@@ -308,7 +308,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListMultiCloudResourceDiscoveries.cs.html">here</a> to see an example of how to use ListMultiCloudResourceDiscoveries API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListMultiCloudResourceDiscoveries.cs.html">here</a> to see an example of how to use ListMultiCloudResourceDiscoveries API.</example>
         public async Task<ListMultiCloudResourceDiscoveriesResponse> ListMultiCloudResourceDiscoveries(ListMultiCloudResourceDiscoveriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMultiCloudResourceDiscoveries");
@@ -357,7 +357,7 @@ namespace Oci.DbmulticloudService
         }
 
         /// <summary>
-        /// Modifies the properties of an Azure discovered resource identified by the specified resource [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Modifies the properties of an Azure discovered resource identified by the specified resource [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -365,7 +365,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/UpdateMultiCloudResourceDiscovery.cs.html">here</a> to see an example of how to use UpdateMultiCloudResourceDiscovery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/UpdateMultiCloudResourceDiscovery.cs.html">here</a> to see an example of how to use UpdateMultiCloudResourceDiscovery API.</example>
         public async Task<UpdateMultiCloudResourceDiscoveryResponse> UpdateMultiCloudResourceDiscovery(UpdateMultiCloudResourceDiscoveryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMultiCloudResourceDiscovery");

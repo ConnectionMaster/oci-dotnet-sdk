@@ -81,7 +81,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ChangeDistributedDatabasePrivateEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeDistributedDatabasePrivateEndpointCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ChangeDistributedDatabasePrivateEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeDistributedDatabasePrivateEndpointCompartment API.</example>
         public async Task<ChangeDistributedDatabasePrivateEndpointCompartmentResponse> ChangeDistributedDatabasePrivateEndpointCompartment(ChangeDistributedDatabasePrivateEndpointCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDistributedDatabasePrivateEndpointCompartment");
@@ -138,7 +138,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/CreateDistributedDatabasePrivateEndpoint.cs.html">here</a> to see an example of how to use CreateDistributedDatabasePrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/CreateDistributedDatabasePrivateEndpoint.cs.html">here</a> to see an example of how to use CreateDistributedDatabasePrivateEndpoint API.</example>
         public async Task<CreateDistributedDatabasePrivateEndpointResponse> CreateDistributedDatabasePrivateEndpoint(CreateDistributedDatabasePrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDistributedDatabasePrivateEndpoint");
@@ -195,7 +195,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/DeleteDistributedDatabasePrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteDistributedDatabasePrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/DeleteDistributedDatabasePrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteDistributedDatabasePrivateEndpoint API.</example>
         public async Task<DeleteDistributedDatabasePrivateEndpointResponse> DeleteDistributedDatabasePrivateEndpoint(DeleteDistributedDatabasePrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDistributedDatabasePrivateEndpoint");
@@ -252,7 +252,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/GetDistributedDatabasePrivateEndpoint.cs.html">here</a> to see an example of how to use GetDistributedDatabasePrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/GetDistributedDatabasePrivateEndpoint.cs.html">here</a> to see an example of how to use GetDistributedDatabasePrivateEndpoint API.</example>
         public async Task<GetDistributedDatabasePrivateEndpointResponse> GetDistributedDatabasePrivateEndpoint(GetDistributedDatabasePrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDistributedDatabasePrivateEndpoint");
@@ -309,7 +309,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ListDistributedDatabasePrivateEndpoints.cs.html">here</a> to see an example of how to use ListDistributedDatabasePrivateEndpoints API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ListDistributedDatabasePrivateEndpoints.cs.html">here</a> to see an example of how to use ListDistributedDatabasePrivateEndpoints API.</example>
         public async Task<ListDistributedDatabasePrivateEndpointsResponse> ListDistributedDatabasePrivateEndpoints(ListDistributedDatabasePrivateEndpointsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDistributedDatabasePrivateEndpoints");
@@ -366,7 +366,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ReinstateProxyInstance.cs.html">here</a> to see an example of how to use ReinstateProxyInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ReinstateProxyInstance.cs.html">here</a> to see an example of how to use ReinstateProxyInstance API.</example>
         public async Task<ReinstateProxyInstanceResponse> ReinstateProxyInstance(ReinstateProxyInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called reinstateProxyInstance");
@@ -423,7 +423,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/UpdateDistributedDatabasePrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateDistributedDatabasePrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/UpdateDistributedDatabasePrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateDistributedDatabasePrivateEndpoint API.</example>
         public async Task<UpdateDistributedDatabasePrivateEndpointResponse> UpdateDistributedDatabasePrivateEndpoint(UpdateDistributedDatabasePrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDistributedDatabasePrivateEndpoint");

@@ -80,7 +80,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ChangeDynamicSetCompartment.cs.html">here</a> to see an example of how to use ChangeDynamicSetCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ChangeDynamicSetCompartment.cs.html">here</a> to see an example of how to use ChangeDynamicSetCompartment API.</example>
         public async Task<ChangeDynamicSetCompartmentResponse> ChangeDynamicSetCompartment(ChangeDynamicSetCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDynamicSetCompartment");
@@ -137,7 +137,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/CreateDynamicSet.cs.html">here</a> to see an example of how to use CreateDynamicSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/CreateDynamicSet.cs.html">here</a> to see an example of how to use CreateDynamicSet API.</example>
         public async Task<CreateDynamicSetResponse> CreateDynamicSet(CreateDynamicSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDynamicSet");
@@ -194,7 +194,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteDynamicSet.cs.html">here</a> to see an example of how to use DeleteDynamicSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteDynamicSet.cs.html">here</a> to see an example of how to use DeleteDynamicSet API.</example>
         public async Task<DeleteDynamicSetResponse> DeleteDynamicSet(DeleteDynamicSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDynamicSet");
@@ -250,7 +250,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetDynamicSet.cs.html">here</a> to see an example of how to use GetDynamicSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetDynamicSet.cs.html">here</a> to see an example of how to use GetDynamicSet API.</example>
         public async Task<GetDynamicSetResponse> GetDynamicSet(GetDynamicSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDynamicSet");
@@ -306,7 +306,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/InstallPackagesOnDynamicSet.cs.html">here</a> to see an example of how to use InstallPackagesOnDynamicSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/InstallPackagesOnDynamicSet.cs.html">here</a> to see an example of how to use InstallPackagesOnDynamicSet API.</example>
         public async Task<InstallPackagesOnDynamicSetResponse> InstallPackagesOnDynamicSet(InstallPackagesOnDynamicSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called installPackagesOnDynamicSet");
@@ -362,7 +362,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListDynamicSets.cs.html">here</a> to see an example of how to use ListDynamicSets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListDynamicSets.cs.html">here</a> to see an example of how to use ListDynamicSets API.</example>
         public async Task<ListDynamicSetsResponse> ListDynamicSets(ListDynamicSetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDynamicSets");
@@ -418,7 +418,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstancesInDynamicSet.cs.html">here</a> to see an example of how to use ListManagedInstancesInDynamicSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstancesInDynamicSet.cs.html">here</a> to see an example of how to use ListManagedInstancesInDynamicSet API.</example>
         public async Task<ListManagedInstancesInDynamicSetResponse> ListManagedInstancesInDynamicSet(ListManagedInstancesInDynamicSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedInstancesInDynamicSet");
@@ -474,7 +474,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/PreviewManagedInstances.cs.html">here</a> to see an example of how to use PreviewManagedInstances API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/PreviewManagedInstances.cs.html">here</a> to see an example of how to use PreviewManagedInstances API.</example>
         public async Task<PreviewManagedInstancesResponse> PreviewManagedInstances(PreviewManagedInstancesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called previewManagedInstances");
@@ -530,7 +530,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RebootDynamicSet.cs.html">here</a> to see an example of how to use RebootDynamicSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RebootDynamicSet.cs.html">here</a> to see an example of how to use RebootDynamicSet API.</example>
         public async Task<RebootDynamicSetResponse> RebootDynamicSet(RebootDynamicSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called rebootDynamicSet");
@@ -586,7 +586,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RemovePackagesFromDynamicSet.cs.html">here</a> to see an example of how to use RemovePackagesFromDynamicSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RemovePackagesFromDynamicSet.cs.html">here</a> to see an example of how to use RemovePackagesFromDynamicSet API.</example>
         public async Task<RemovePackagesFromDynamicSetResponse> RemovePackagesFromDynamicSet(RemovePackagesFromDynamicSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removePackagesFromDynamicSet");
@@ -643,7 +643,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateDynamicSet.cs.html">here</a> to see an example of how to use UpdateDynamicSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateDynamicSet.cs.html">here</a> to see an example of how to use UpdateDynamicSet API.</example>
         public async Task<UpdateDynamicSetResponse> UpdateDynamicSet(UpdateDynamicSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDynamicSet");
@@ -699,7 +699,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdatePackagesOnDynamicSet.cs.html">here</a> to see an example of how to use UpdatePackagesOnDynamicSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdatePackagesOnDynamicSet.cs.html">here</a> to see an example of how to use UpdatePackagesOnDynamicSet API.</example>
         public async Task<UpdatePackagesOnDynamicSetResponse> UpdatePackagesOnDynamicSet(UpdatePackagesOnDynamicSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePackagesOnDynamicSet");

@@ -17,14 +17,14 @@ namespace Oci.ResourcemanagerService.Models
 {
     /// <summary>
     /// Job details that are specific to a plan rollback job. For more information about plan rollback jobs, 
-    /// see [Creating a Plan Rollback Job](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/create-job-plan-rollback.htm).
+    /// see [Creating a Plan Rollback Job](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/create-job-plan-rollback.htm).
     /// 
     /// </summary>
     public class PlanRollbackJobOperationDetailsSummary : JobOperationDetailsSummary
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a successful apply job to use for the plan rollback job.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a successful apply job to use for the plan rollback job.
         /// 
         /// </value>
         /// <remarks>

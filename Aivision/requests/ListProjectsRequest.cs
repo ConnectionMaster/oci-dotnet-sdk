@@ -14,7 +14,7 @@ using Oci.AivisionService.Models;
 namespace Oci.AivisionService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aivision/ListProjects.cs.html">here</a> to see an example of how to use ListProjects request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aivision/ListProjects.cs.html">here</a> to see an example of how to use ListProjects request.
     /// </example>
     public class ListProjectsRequest : Oci.Common.IOciRequest
     {

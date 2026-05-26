@@ -14,7 +14,7 @@ using Oci.EmailService.Models;
 namespace Oci.EmailService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateEmailDomain.cs.html">here</a> to see an example of how to use CreateEmailDomain request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateEmailDomain.cs.html">here</a> to see an example of how to use CreateEmailDomain request.
     /// </example>
     public class CreateEmailDomainRequest : Oci.Common.IOciRequest
     {

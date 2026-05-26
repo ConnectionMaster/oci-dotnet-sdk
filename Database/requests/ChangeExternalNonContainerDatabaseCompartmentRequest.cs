@@ -14,7 +14,7 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ChangeExternalNonContainerDatabaseCompartment.cs.html">here</a> to see an example of how to use ChangeExternalNonContainerDatabaseCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ChangeExternalNonContainerDatabaseCompartment.cs.html">here</a> to see an example of how to use ChangeExternalNonContainerDatabaseCompartment request.
     /// </example>
     public class ChangeExternalNonContainerDatabaseCompartmentRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.DatabaseService.Requests
         public ChangeCompartmentDetails ChangeCompartmentDetails { get; set; }
         
         /// <value>
-        /// The external non-container database [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The external non-container database [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

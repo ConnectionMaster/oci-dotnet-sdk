@@ -14,7 +14,7 @@ using Oci.MarketplaceprivateofferService.Models;
 namespace Oci.MarketplaceprivateofferService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplaceprivateoffer/GetAttachmentContent.cs.html">here</a> to see an example of how to use GetAttachmentContent request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplaceprivateoffer/GetAttachmentContent.cs.html">here</a> to see an example of how to use GetAttachmentContent request.
     /// </example>
     public class GetAttachmentContentRequest : Oci.Common.IOciRequest
     {

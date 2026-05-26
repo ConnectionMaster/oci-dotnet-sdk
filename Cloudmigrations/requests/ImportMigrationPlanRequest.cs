@@ -14,7 +14,7 @@ using Oci.CloudmigrationsService.Models;
 namespace Oci.CloudmigrationsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ImportMigrationPlan.cs.html">here</a> to see an example of how to use ImportMigrationPlan request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ImportMigrationPlan.cs.html">here</a> to see an example of how to use ImportMigrationPlan request.
     /// </example>
     public class ImportMigrationPlanRequest : Oci.Common.IOciRequest
     {

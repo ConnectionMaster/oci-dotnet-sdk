@@ -39,7 +39,7 @@ namespace Oci.ComputecloudatcustomerService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the network subnet that is 
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the network subnet that is 
         /// used to communicate with Compute Cloud@Customer infrastructure.
         /// 
         /// </value>

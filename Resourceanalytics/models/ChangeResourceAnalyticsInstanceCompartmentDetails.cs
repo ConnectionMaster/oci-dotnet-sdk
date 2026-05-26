@@ -22,7 +22,7 @@ namespace Oci.ResourceanalyticsService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to move the ResourceAnalyticsInstance to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to move the ResourceAnalyticsInstance to.
         /// 
         /// </value>
         /// <remarks>

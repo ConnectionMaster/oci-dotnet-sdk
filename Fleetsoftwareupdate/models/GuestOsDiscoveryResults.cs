@@ -24,7 +24,7 @@ namespace Oci.FleetsoftwareupdateService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Exadata Fleet Update Discovery.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Exadata Fleet Update Discovery.
         /// 
         /// </value>
         /// <remarks>

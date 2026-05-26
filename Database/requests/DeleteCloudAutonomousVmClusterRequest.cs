@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/DeleteCloudAutonomousVmCluster.cs.html">here</a> to see an example of how to use DeleteCloudAutonomousVmCluster request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/DeleteCloudAutonomousVmCluster.cs.html">here</a> to see an example of how to use DeleteCloudAutonomousVmCluster request.
     /// </example>
     public class DeleteCloudAutonomousVmClusterRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The Cloud VM cluster [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The Cloud VM cluster [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

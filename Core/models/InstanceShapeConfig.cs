@@ -168,5 +168,13 @@ namespace Oci.CoreService.Models
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<ResourceManagementEnum> ResourceManagement { get; set; }
         
+        /// <value>
+        /// The NVMe-backed local storage capacity, in GB, for flexible dense (DenseLV) VM shapes. If the shape 
+        /// is DenseLV, the value will be greater than 0. For all other shapes, the value will be null.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "localVolumeSizeInGBs")]
+        public System.Nullable<int> LocalVolumeSizeInGBs { get; set; }
+        
     }
 }

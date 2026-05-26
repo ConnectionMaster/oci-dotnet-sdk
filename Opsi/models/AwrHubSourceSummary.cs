@@ -42,7 +42,7 @@ namespace Oci.OpsiService.Models
         public string AwrHubId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
         /// </value>
         /// <remarks>
         /// Required
@@ -63,7 +63,7 @@ namespace Oci.OpsiService.Models
         public System.Nullable<AwrHubSourceType> Type { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Awr Hub source database.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Awr Hub source database.
         /// </value>
         /// <remarks>
         /// Required
@@ -93,13 +93,13 @@ namespace Oci.OpsiService.Models
         public string SourceMailBoxUrl { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database id.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database id.
         /// </value>
         [JsonProperty(PropertyName = "associatedResourceId")]
         public string AssociatedResourceId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database id.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database id.
         /// </value>
         [JsonProperty(PropertyName = "associatedOpsiId")]
         public string AssociatedOpsiId { get; set; }

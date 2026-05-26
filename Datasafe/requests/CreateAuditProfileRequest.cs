@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateAuditProfile.cs.html">here</a> to see an example of how to use CreateAuditProfile request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateAuditProfile.cs.html">here</a> to see an example of how to use CreateAuditProfile request.
     /// </example>
     public class CreateAuditProfileRequest : Oci.Common.IOciRequest
     {

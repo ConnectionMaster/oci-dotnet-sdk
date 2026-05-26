@@ -22,7 +22,7 @@ namespace Oci.DistributeddatabaseService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Globally distributed database compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Globally distributed database compartment.
         /// </value>
         /// <remarks>
         /// Required
@@ -64,7 +64,7 @@ namespace Oci.DistributeddatabaseService.Models
         public string Prefix { get; set; }
         
         /// <value>
-        /// The collection of [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the private endpoint associated with Globally distributed autonomous database.
+        /// The collection of [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private endpoint associated with Globally distributed autonomous database.
         /// </value>
         /// <remarks>
         /// Required

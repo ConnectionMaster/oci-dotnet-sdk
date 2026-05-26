@@ -81,7 +81,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/CreateCustomTable.cs.html">here</a> to see an example of how to use CreateCustomTable API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/CreateCustomTable.cs.html">here</a> to see an example of how to use CreateCustomTable API.</example>
         public async Task<CreateCustomTableResponse> CreateCustomTable(CreateCustomTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCustomTable");
@@ -138,7 +138,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/CreateEmailRecipientsGroup.cs.html">here</a> to see an example of how to use CreateEmailRecipientsGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/CreateEmailRecipientsGroup.cs.html">here</a> to see an example of how to use CreateEmailRecipientsGroup API.</example>
         public async Task<CreateEmailRecipientsGroupResponse> CreateEmailRecipientsGroup(CreateEmailRecipientsGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createEmailRecipientsGroup");
@@ -195,7 +195,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/CreateQuery.cs.html">here</a> to see an example of how to use CreateQuery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/CreateQuery.cs.html">here</a> to see an example of how to use CreateQuery API.</example>
         public async Task<CreateQueryResponse> CreateQuery(CreateQueryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createQuery");
@@ -252,7 +252,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/CreateSchedule.cs.html">here</a> to see an example of how to use CreateSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/CreateSchedule.cs.html">here</a> to see an example of how to use CreateSchedule API.</example>
         public async Task<CreateScheduleResponse> CreateSchedule(CreateScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSchedule");
@@ -309,7 +309,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/CreateUsageCarbonEmissionsQuery.cs.html">here</a> to see an example of how to use CreateUsageCarbonEmissionsQuery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/CreateUsageCarbonEmissionsQuery.cs.html">here</a> to see an example of how to use CreateUsageCarbonEmissionsQuery API.</example>
         public async Task<CreateUsageCarbonEmissionsQueryResponse> CreateUsageCarbonEmissionsQuery(CreateUsageCarbonEmissionsQueryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createUsageCarbonEmissionsQuery");
@@ -366,7 +366,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/DeleteCustomTable.cs.html">here</a> to see an example of how to use DeleteCustomTable API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/DeleteCustomTable.cs.html">here</a> to see an example of how to use DeleteCustomTable API.</example>
         public async Task<DeleteCustomTableResponse> DeleteCustomTable(DeleteCustomTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCustomTable");
@@ -423,7 +423,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/DeleteEmailRecipientsGroup.cs.html">here</a> to see an example of how to use DeleteEmailRecipientsGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/DeleteEmailRecipientsGroup.cs.html">here</a> to see an example of how to use DeleteEmailRecipientsGroup API.</example>
         public async Task<DeleteEmailRecipientsGroupResponse> DeleteEmailRecipientsGroup(DeleteEmailRecipientsGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteEmailRecipientsGroup");
@@ -480,7 +480,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/DeleteQuery.cs.html">here</a> to see an example of how to use DeleteQuery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/DeleteQuery.cs.html">here</a> to see an example of how to use DeleteQuery API.</example>
         public async Task<DeleteQueryResponse> DeleteQuery(DeleteQueryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteQuery");
@@ -537,7 +537,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/DeleteSchedule.cs.html">here</a> to see an example of how to use DeleteSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/DeleteSchedule.cs.html">here</a> to see an example of how to use DeleteSchedule API.</example>
         public async Task<DeleteScheduleResponse> DeleteSchedule(DeleteScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSchedule");
@@ -594,7 +594,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/DeleteUsageCarbonEmissionsQuery.cs.html">here</a> to see an example of how to use DeleteUsageCarbonEmissionsQuery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/DeleteUsageCarbonEmissionsQuery.cs.html">here</a> to see an example of how to use DeleteUsageCarbonEmissionsQuery API.</example>
         public async Task<DeleteUsageCarbonEmissionsQueryResponse> DeleteUsageCarbonEmissionsQuery(DeleteUsageCarbonEmissionsQueryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteUsageCarbonEmissionsQuery");
@@ -651,7 +651,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/GetCustomTable.cs.html">here</a> to see an example of how to use GetCustomTable API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/GetCustomTable.cs.html">here</a> to see an example of how to use GetCustomTable API.</example>
         public async Task<GetCustomTableResponse> GetCustomTable(GetCustomTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCustomTable");
@@ -708,7 +708,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/GetEmailRecipientsGroup.cs.html">here</a> to see an example of how to use GetEmailRecipientsGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/GetEmailRecipientsGroup.cs.html">here</a> to see an example of how to use GetEmailRecipientsGroup API.</example>
         public async Task<GetEmailRecipientsGroupResponse> GetEmailRecipientsGroup(GetEmailRecipientsGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getEmailRecipientsGroup");
@@ -765,7 +765,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/GetQuery.cs.html">here</a> to see an example of how to use GetQuery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/GetQuery.cs.html">here</a> to see an example of how to use GetQuery API.</example>
         public async Task<GetQueryResponse> GetQuery(GetQueryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getQuery");
@@ -822,7 +822,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/GetSchedule.cs.html">here</a> to see an example of how to use GetSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/GetSchedule.cs.html">here</a> to see an example of how to use GetSchedule API.</example>
         public async Task<GetScheduleResponse> GetSchedule(GetScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSchedule");
@@ -879,7 +879,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/GetScheduledRun.cs.html">here</a> to see an example of how to use GetScheduledRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/GetScheduledRun.cs.html">here</a> to see an example of how to use GetScheduledRun API.</example>
         public async Task<GetScheduledRunResponse> GetScheduledRun(GetScheduledRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getScheduledRun");
@@ -936,7 +936,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/GetUsageCarbonEmissionsQuery.cs.html">here</a> to see an example of how to use GetUsageCarbonEmissionsQuery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/GetUsageCarbonEmissionsQuery.cs.html">here</a> to see an example of how to use GetUsageCarbonEmissionsQuery API.</example>
         public async Task<GetUsageCarbonEmissionsQueryResponse> GetUsageCarbonEmissionsQuery(GetUsageCarbonEmissionsQueryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getUsageCarbonEmissionsQuery");
@@ -993,7 +993,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/ListCustomTables.cs.html">here</a> to see an example of how to use ListCustomTables API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/ListCustomTables.cs.html">here</a> to see an example of how to use ListCustomTables API.</example>
         public async Task<ListCustomTablesResponse> ListCustomTables(ListCustomTablesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCustomTables");
@@ -1050,7 +1050,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/ListEmailRecipientsGroups.cs.html">here</a> to see an example of how to use ListEmailRecipientsGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/ListEmailRecipientsGroups.cs.html">here</a> to see an example of how to use ListEmailRecipientsGroups API.</example>
         public async Task<ListEmailRecipientsGroupsResponse> ListEmailRecipientsGroups(ListEmailRecipientsGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listEmailRecipientsGroups");
@@ -1107,7 +1107,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/ListQueries.cs.html">here</a> to see an example of how to use ListQueries API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/ListQueries.cs.html">here</a> to see an example of how to use ListQueries API.</example>
         public async Task<ListQueriesResponse> ListQueries(ListQueriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listQueries");
@@ -1164,7 +1164,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/ListScheduledRuns.cs.html">here</a> to see an example of how to use ListScheduledRuns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/ListScheduledRuns.cs.html">here</a> to see an example of how to use ListScheduledRuns API.</example>
         public async Task<ListScheduledRunsResponse> ListScheduledRuns(ListScheduledRunsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listScheduledRuns");
@@ -1221,7 +1221,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/ListSchedules.cs.html">here</a> to see an example of how to use ListSchedules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/ListSchedules.cs.html">here</a> to see an example of how to use ListSchedules API.</example>
         public async Task<ListSchedulesResponse> ListSchedules(ListSchedulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSchedules");
@@ -1278,7 +1278,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/ListUsageCarbonEmissionsQueries.cs.html">here</a> to see an example of how to use ListUsageCarbonEmissionsQueries API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/ListUsageCarbonEmissionsQueries.cs.html">here</a> to see an example of how to use ListUsageCarbonEmissionsQueries API.</example>
         public async Task<ListUsageCarbonEmissionsQueriesResponse> ListUsageCarbonEmissionsQueries(ListUsageCarbonEmissionsQueriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUsageCarbonEmissionsQueries");
@@ -1335,7 +1335,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/RequestAverageCarbonEmission.cs.html">here</a> to see an example of how to use RequestAverageCarbonEmission API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/RequestAverageCarbonEmission.cs.html">here</a> to see an example of how to use RequestAverageCarbonEmission API.</example>
         public async Task<RequestAverageCarbonEmissionResponse> RequestAverageCarbonEmission(RequestAverageCarbonEmissionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestAverageCarbonEmission");
@@ -1392,7 +1392,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/RequestCleanEnergyUsage.cs.html">here</a> to see an example of how to use RequestCleanEnergyUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/RequestCleanEnergyUsage.cs.html">here</a> to see an example of how to use RequestCleanEnergyUsage API.</example>
         public async Task<RequestCleanEnergyUsageResponse> RequestCleanEnergyUsage(RequestCleanEnergyUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestCleanEnergyUsage");
@@ -1449,7 +1449,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/RequestSummarizedConfigurations.cs.html">here</a> to see an example of how to use RequestSummarizedConfigurations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/RequestSummarizedConfigurations.cs.html">here</a> to see an example of how to use RequestSummarizedConfigurations API.</example>
         public async Task<RequestSummarizedConfigurationsResponse> RequestSummarizedConfigurations(RequestSummarizedConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestSummarizedConfigurations");
@@ -1506,7 +1506,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/RequestSummarizedUsages.cs.html">here</a> to see an example of how to use RequestSummarizedUsages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/RequestSummarizedUsages.cs.html">here</a> to see an example of how to use RequestSummarizedUsages API.</example>
         public async Task<RequestSummarizedUsagesResponse> RequestSummarizedUsages(RequestSummarizedUsagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestSummarizedUsages");
@@ -1563,7 +1563,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/RequestUsageCarbonEmissionConfig.cs.html">here</a> to see an example of how to use RequestUsageCarbonEmissionConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/RequestUsageCarbonEmissionConfig.cs.html">here</a> to see an example of how to use RequestUsageCarbonEmissionConfig API.</example>
         public async Task<RequestUsageCarbonEmissionConfigResponse> RequestUsageCarbonEmissionConfig(RequestUsageCarbonEmissionConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestUsageCarbonEmissionConfig");
@@ -1620,7 +1620,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/RequestUsageCarbonEmissions.cs.html">here</a> to see an example of how to use RequestUsageCarbonEmissions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/RequestUsageCarbonEmissions.cs.html">here</a> to see an example of how to use RequestUsageCarbonEmissions API.</example>
         public async Task<RequestUsageCarbonEmissionsResponse> RequestUsageCarbonEmissions(RequestUsageCarbonEmissionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestUsageCarbonEmissions");
@@ -1677,7 +1677,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/UpdateCustomTable.cs.html">here</a> to see an example of how to use UpdateCustomTable API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/UpdateCustomTable.cs.html">here</a> to see an example of how to use UpdateCustomTable API.</example>
         public async Task<UpdateCustomTableResponse> UpdateCustomTable(UpdateCustomTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCustomTable");
@@ -1734,7 +1734,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/UpdateEmailRecipientsGroup.cs.html">here</a> to see an example of how to use UpdateEmailRecipientsGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/UpdateEmailRecipientsGroup.cs.html">here</a> to see an example of how to use UpdateEmailRecipientsGroup API.</example>
         public async Task<UpdateEmailRecipientsGroupResponse> UpdateEmailRecipientsGroup(UpdateEmailRecipientsGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateEmailRecipientsGroup");
@@ -1791,7 +1791,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/UpdateQuery.cs.html">here</a> to see an example of how to use UpdateQuery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/UpdateQuery.cs.html">here</a> to see an example of how to use UpdateQuery API.</example>
         public async Task<UpdateQueryResponse> UpdateQuery(UpdateQueryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateQuery");
@@ -1848,7 +1848,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/UpdateSchedule.cs.html">here</a> to see an example of how to use UpdateSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/UpdateSchedule.cs.html">here</a> to see an example of how to use UpdateSchedule API.</example>
         public async Task<UpdateScheduleResponse> UpdateSchedule(UpdateScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSchedule");
@@ -1905,7 +1905,7 @@ namespace Oci.UsageapiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/UpdateUsageCarbonEmissionsQuery.cs.html">here</a> to see an example of how to use UpdateUsageCarbonEmissionsQuery API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/UpdateUsageCarbonEmissionsQuery.cs.html">here</a> to see an example of how to use UpdateUsageCarbonEmissionsQuery API.</example>
         public async Task<UpdateUsageCarbonEmissionsQueryResponse> UpdateUsageCarbonEmissionsQuery(UpdateUsageCarbonEmissionsQueryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateUsageCarbonEmissionsQuery");

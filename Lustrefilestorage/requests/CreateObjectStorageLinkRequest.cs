@@ -14,7 +14,7 @@ using Oci.LustrefilestorageService.Models;
 namespace Oci.LustrefilestorageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/CreateObjectStorageLink.cs.html">here</a> to see an example of how to use CreateObjectStorageLink request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/CreateObjectStorageLink.cs.html">here</a> to see an example of how to use CreateObjectStorageLink request.
     /// </example>
     public class CreateObjectStorageLinkRequest : Oci.Common.IOciRequest
     {

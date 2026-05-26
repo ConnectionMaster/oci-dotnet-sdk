@@ -14,7 +14,7 @@ using Oci.UsageapiService.Models;
 namespace Oci.UsageapiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/ListUsageCarbonEmissionsQueries.cs.html">here</a> to see an example of how to use ListUsageCarbonEmissionsQueries request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/ListUsageCarbonEmissionsQueries.cs.html">here</a> to see an example of how to use ListUsageCarbonEmissionsQueries request.
     /// </example>
     public class ListUsageCarbonEmissionsQueriesRequest : Oci.Common.IOciRequest
     {

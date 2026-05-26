@@ -14,7 +14,7 @@ using Oci.ContainerregistryService.Models;
 namespace Oci.ContainerregistryService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerregistry/GetAccessToken.cs.html">here</a> to see an example of how to use GetAccessToken request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerregistry/GetAccessToken.cs.html">here</a> to see an example of how to use GetAccessToken request.
     /// </example>
     public class GetAccessTokenRequest : Oci.Common.IOciRequest
     {

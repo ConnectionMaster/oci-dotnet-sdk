@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSensitiveColumn.cs.html">here</a> to see an example of how to use DeleteSensitiveColumn request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteSensitiveColumn.cs.html">here</a> to see an example of how to use DeleteSensitiveColumn request.
     /// </example>
     public class DeleteSensitiveColumnRequest : Oci.Common.IOciRequest
     {

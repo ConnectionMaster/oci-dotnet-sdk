@@ -81,7 +81,7 @@ namespace Oci.ApiaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/ApprovePrivilegedApiRequest.cs.html">here</a> to see an example of how to use ApprovePrivilegedApiRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/ApprovePrivilegedApiRequest.cs.html">here</a> to see an example of how to use ApprovePrivilegedApiRequest API.</example>
         public async Task<ApprovePrivilegedApiRequestResponse> ApprovePrivilegedApiRequest(ApprovePrivilegedApiRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called approvePrivilegedApiRequest");
@@ -138,7 +138,7 @@ namespace Oci.ApiaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/ClosePrivilegedApiRequest.cs.html">here</a> to see an example of how to use ClosePrivilegedApiRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/ClosePrivilegedApiRequest.cs.html">here</a> to see an example of how to use ClosePrivilegedApiRequest API.</example>
         public async Task<ClosePrivilegedApiRequestResponse> ClosePrivilegedApiRequest(ClosePrivilegedApiRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called closePrivilegedApiRequest");
@@ -195,7 +195,7 @@ namespace Oci.ApiaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/CreatePrivilegedApiRequest.cs.html">here</a> to see an example of how to use CreatePrivilegedApiRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/CreatePrivilegedApiRequest.cs.html">here</a> to see an example of how to use CreatePrivilegedApiRequest API.</example>
         public async Task<CreatePrivilegedApiRequestResponse> CreatePrivilegedApiRequest(CreatePrivilegedApiRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPrivilegedApiRequest");
@@ -251,7 +251,7 @@ namespace Oci.ApiaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/GetPrivilegedApiRequest.cs.html">here</a> to see an example of how to use GetPrivilegedApiRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/GetPrivilegedApiRequest.cs.html">here</a> to see an example of how to use GetPrivilegedApiRequest API.</example>
         public async Task<GetPrivilegedApiRequestResponse> GetPrivilegedApiRequest(GetPrivilegedApiRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPrivilegedApiRequest");
@@ -308,7 +308,7 @@ namespace Oci.ApiaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/ListPrivilegedApiRequests.cs.html">here</a> to see an example of how to use ListPrivilegedApiRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/ListPrivilegedApiRequests.cs.html">here</a> to see an example of how to use ListPrivilegedApiRequests API.</example>
         public async Task<ListPrivilegedApiRequestsResponse> ListPrivilegedApiRequests(ListPrivilegedApiRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPrivilegedApiRequests");
@@ -365,7 +365,7 @@ namespace Oci.ApiaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/RejectPrivilegedApiRequest.cs.html">here</a> to see an example of how to use RejectPrivilegedApiRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/RejectPrivilegedApiRequest.cs.html">here</a> to see an example of how to use RejectPrivilegedApiRequest API.</example>
         public async Task<RejectPrivilegedApiRequestResponse> RejectPrivilegedApiRequest(RejectPrivilegedApiRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called rejectPrivilegedApiRequest");
@@ -422,7 +422,7 @@ namespace Oci.ApiaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/RevokePrivilegedApiRequest.cs.html">here</a> to see an example of how to use RevokePrivilegedApiRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/RevokePrivilegedApiRequest.cs.html">here</a> to see an example of how to use RevokePrivilegedApiRequest API.</example>
         public async Task<RevokePrivilegedApiRequestResponse> RevokePrivilegedApiRequest(RevokePrivilegedApiRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called revokePrivilegedApiRequest");

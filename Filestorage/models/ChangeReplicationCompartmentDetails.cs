@@ -22,7 +22,7 @@ namespace Oci.FilestorageService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment to move the replication to. Also changes the replication target's compartment in the target region.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to move the replication to. Also changes the replication target's compartment in the target region.
         /// 
         /// </value>
         /// <remarks>

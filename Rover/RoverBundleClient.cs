@@ -77,7 +77,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ListRoverClusterRoverBundleRequests.cs.html">here</a> to see an example of how to use ListRoverClusterRoverBundleRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ListRoverClusterRoverBundleRequests.cs.html">here</a> to see an example of how to use ListRoverClusterRoverBundleRequests API.</example>
         public async Task<ListRoverClusterRoverBundleRequestsResponse> ListRoverClusterRoverBundleRequests(ListRoverClusterRoverBundleRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRoverClusterRoverBundleRequests");
@@ -133,7 +133,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ListRoverNodeRoverBundleRequests.cs.html">here</a> to see an example of how to use ListRoverNodeRoverBundleRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/ListRoverNodeRoverBundleRequests.cs.html">here</a> to see an example of how to use ListRoverNodeRoverBundleRequests API.</example>
         public async Task<ListRoverNodeRoverBundleRequestsResponse> ListRoverNodeRoverBundleRequests(ListRoverNodeRoverBundleRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRoverNodeRoverBundleRequests");
@@ -190,7 +190,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RequestBundleRoverCluster.cs.html">here</a> to see an example of how to use RequestBundleRoverCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RequestBundleRoverCluster.cs.html">here</a> to see an example of how to use RequestBundleRoverCluster API.</example>
         public async Task<RequestBundleRoverClusterResponse> RequestBundleRoverCluster(RequestBundleRoverClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestBundleRoverCluster");
@@ -247,7 +247,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RequestBundleRoverNode.cs.html">here</a> to see an example of how to use RequestBundleRoverNode API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RequestBundleRoverNode.cs.html">here</a> to see an example of how to use RequestBundleRoverNode API.</example>
         public async Task<RequestBundleRoverNodeResponse> RequestBundleRoverNode(RequestBundleRoverNodeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestBundleRoverNode");
@@ -303,7 +303,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RetrieveAvailableBundleVersionsRoverCluster.cs.html">here</a> to see an example of how to use RetrieveAvailableBundleVersionsRoverCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RetrieveAvailableBundleVersionsRoverCluster.cs.html">here</a> to see an example of how to use RetrieveAvailableBundleVersionsRoverCluster API.</example>
         public async Task<RetrieveAvailableBundleVersionsRoverClusterResponse> RetrieveAvailableBundleVersionsRoverCluster(RetrieveAvailableBundleVersionsRoverClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called retrieveAvailableBundleVersionsRoverCluster");
@@ -359,7 +359,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RetrieveAvailableBundleVersionsRoverNode.cs.html">here</a> to see an example of how to use RetrieveAvailableBundleVersionsRoverNode API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RetrieveAvailableBundleVersionsRoverNode.cs.html">here</a> to see an example of how to use RetrieveAvailableBundleVersionsRoverNode API.</example>
         public async Task<RetrieveAvailableBundleVersionsRoverNodeResponse> RetrieveAvailableBundleVersionsRoverNode(RetrieveAvailableBundleVersionsRoverNodeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called retrieveAvailableBundleVersionsRoverNode");
@@ -415,7 +415,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RetrieveBundleStatusRoverCluster.cs.html">here</a> to see an example of how to use RetrieveBundleStatusRoverCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RetrieveBundleStatusRoverCluster.cs.html">here</a> to see an example of how to use RetrieveBundleStatusRoverCluster API.</example>
         public async Task<RetrieveBundleStatusRoverClusterResponse> RetrieveBundleStatusRoverCluster(RetrieveBundleStatusRoverClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called retrieveBundleStatusRoverCluster");
@@ -471,7 +471,7 @@ namespace Oci.RoverService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RetrieveBundleStatusRoverNode.cs.html">here</a> to see an example of how to use RetrieveBundleStatusRoverNode API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RetrieveBundleStatusRoverNode.cs.html">here</a> to see an example of how to use RetrieveBundleStatusRoverNode API.</example>
         public async Task<RetrieveBundleStatusRoverNodeResponse> RetrieveBundleStatusRoverNode(RetrieveBundleStatusRoverNodeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called retrieveBundleStatusRoverNode");

@@ -93,7 +93,7 @@ namespace Oci.GoldengateService.Models
         public System.Collections.Generic.List<string> NsgIds { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the subnet of the deployment's private endpoint.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet of the deployment's private endpoint.
         /// The subnet must be a private subnet. For backward compatibility, public subnets are allowed until May 31 2025,
         /// after which the private subnet will be enforced.
         /// 
@@ -102,7 +102,7 @@ namespace Oci.GoldengateService.Models
         public string SubnetId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of a public subnet in the customer tenancy used to host the public load balancer of the deployment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a public subnet in the customer tenancy used to host the public load balancer of the deployment.
         /// <br/>
         /// Rules:
         /// - Create: Mandatory when isPublic is true. Must be a public, regional subnet in the same VCN as subnetId.
@@ -156,7 +156,7 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// Security attributes for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Oracle-ZPR&quot;: {&quot;MaxEgressCount&quot;: {&quot;value&quot;: &quot;42&quot;, &quot;mode&quot;: &quot;enforce&quot;}}}
         /// </value>

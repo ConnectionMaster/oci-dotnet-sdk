@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FusionappsService.Models
 {
     /// <summary>
-    /// The policy that specifies the maintenance and upgrade preferences for an environment. For more information about the options, see [Understanding Environment Maintenance](https://docs.cloud.oracle.com/iaas/Content/fusion-applications/plan-environment-family.htm#about-env-maintenance).
+    /// The policy that specifies the maintenance and upgrade preferences for an environment. For more information about the options, see [Understanding Environment Maintenance](https://docs.oracle.com/iaas/Content/fusion-applications/plan-environment-family.htm#about-env-maintenance).
     /// </summary>
     public class GetMaintenancePolicyDetails 
     {

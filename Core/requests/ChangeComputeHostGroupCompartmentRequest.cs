@@ -14,13 +14,13 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeComputeHostGroupCompartment.cs.html">here</a> to see an example of how to use ChangeComputeHostGroupCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/ChangeComputeHostGroupCompartment.cs.html">here</a> to see an example of how to use ChangeComputeHostGroupCompartment request.
     /// </example>
     public class ChangeComputeHostGroupCompartmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compute host group.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compute host group.
         /// 
         /// </value>
         /// <remarks>

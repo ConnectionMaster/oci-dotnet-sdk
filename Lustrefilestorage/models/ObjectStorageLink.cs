@@ -17,18 +17,18 @@ namespace Oci.LustrefilestorageService.Models
 {
     /// <summary>
     /// Object Storage links create the relationship between a directory in an File Storage with Lustre file system and a path within an Object Storage bucket.
-    /// For more information, see [Syncing Lustre file systems with Object Storage](https://docs.cloud.oracle.com/iaas/Content/lustre/object-storage-sync.htm).
+    /// For more information, see [Syncing Lustre file systems with Object Storage](https://docs.oracle.com/iaas/Content/lustre/object-storage-sync.htm).
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized, talk to
     /// an administrator. If you're an administrator who needs to write policies to give users access, see
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/policiesgs/get-started-with-policies.htm).
+    /// [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/policiesgs/get-started-with-policies.htm).
     /// 
     /// </summary>
     public class ObjectStorageLink 
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the ObjectStorageLink.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the ObjectStorageLink.
         /// </value>
         /// <remarks>
         /// Required
@@ -38,7 +38,7 @@ namespace Oci.LustrefilestorageService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the Lustre file system.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the Lustre file system.
         /// </value>
         /// <remarks>
         /// Required
@@ -139,7 +139,7 @@ namespace Oci.LustrefilestorageService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -152,7 +152,7 @@ namespace Oci.LustrefilestorageService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -176,7 +176,7 @@ namespace Oci.LustrefilestorageService.Models
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> SystemTags { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the associated Lustre file system.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the associated Lustre file system.
         /// 
         /// </value>
         /// <remarks>
@@ -211,13 +211,13 @@ namespace Oci.LustrefilestorageService.Models
         public string ObjectStoragePrefix { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of currently running sync job. If no sync job is running, then this will be empty.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of currently running sync job. If no sync job is running, then this will be empty.
         /// </value>
         [JsonProperty(PropertyName = "currentJobId")]
         public string CurrentJobId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of last succeeded sync job. If no sync job has previously run, then this will be empty.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of last succeeded sync job. If no sync job has previously run, then this will be empty.
         /// </value>
         [JsonProperty(PropertyName = "lastJobId")]
         public string LastJobId { get; set; }

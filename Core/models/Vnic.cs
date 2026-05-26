@@ -21,12 +21,12 @@ namespace Oci.CoreService.Models
     /// through that subnet. Each instance has a *primary VNIC* that is automatically
     /// created and attached during launch. You can add *secondary VNICs* to an
     /// instance after it's launched. For more information, see
-    /// [Virtual Network Interface Cards (VNICs)](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingVNICs.htm).
+    /// [Virtual Network Interface Cards (VNICs)](https://docs.oracle.com/iaas/Content/Network/Tasks/managingVNICs.htm).
     /// <br/>
     /// Each VNIC has a *primary private IP* that is automatically assigned during launch.
     /// You can add *secondary private IPs* to a VNIC after it's created. For more
     /// information, see {@link #createPrivateIp(CreatePrivateIpRequest) createPrivateIp} and
-    /// [IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingIPaddresses.htm).
+    /// [IP Addresses](https://docs.oracle.com/iaas/Content/Network/Tasks/managingIPaddresses.htm).
     /// <br/>
     /// 
     /// If you are an Oracle Cloud VMware Solution customer, you will have secondary VNICs
@@ -36,7 +36,7 @@ namespace Oci.CoreService.Models
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,
     /// talk to an administrator. If you're an administrator who needs to write policies to give users access, see
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
+    /// [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// 
     /// </summary>
     public class Vnic 
@@ -55,7 +55,7 @@ namespace Oci.CoreService.Models
         public string AvailabilityDomain { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the VNIC.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the VNIC.
         /// </value>
         /// <remarks>
         /// Required
@@ -66,7 +66,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -82,8 +82,8 @@ namespace Oci.CoreService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// [Security attributes](https://docs.cloud.oracle.com/iaas/Content/zero-trust-packet-routing/zpr-artifacts.htm#security-attributes) are labels
-        /// for a resource that can be referenced in a [Zero Trust Packet Routing](https://docs.cloud.oracle.com/iaas/Content/zero-trust-packet-routing/overview.htm)
+        /// [Security attributes](https://docs.oracle.com/iaas/Content/zero-trust-packet-routing/zpr-artifacts.htm#security-attributes) are labels
+        /// for a resource that can be referenced in a [Zero Trust Packet Routing](https://docs.oracle.com/iaas/Content/zero-trust-packet-routing/overview.htm)
         /// (ZPR) policy to control access to ZPR-supported resources.
         /// <br/>
         /// Example: {&quot;Oracle-DataSecurity-ZPR&quot;: {&quot;MaxEgressCount&quot;: {&quot;value&quot;:&quot;42&quot;,&quot;mode&quot;:&quot;audit&quot;}}}
@@ -93,7 +93,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -109,7 +109,7 @@ namespace Oci.CoreService.Models
         /// [RFC 1123](https://tools.ietf.org/html/rfc1123).
         /// <br/>
         /// For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// <br/>
         /// Example: bminstance1
         /// </value>
@@ -117,7 +117,7 @@ namespace Oci.CoreService.Models
         public string HostnameLabel { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC.
         /// </value>
         /// <remarks>
         /// Required
@@ -191,7 +191,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// If the VNIC belongs to a VLAN as part of the Oracle Cloud VMware Solution (instead of
-        /// belonging to a subnet), the `vlanId` is the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN the VNIC is in. See
+        /// belonging to a subnet), the `vlanId` is the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN the VNIC is in. See
         /// {@link Vlan}. If the VNIC is instead in a subnet, `subnetId` has a value.
         /// 
         /// </value>
@@ -218,7 +218,7 @@ namespace Oci.CoreService.Models
         /// Whether the source/destination check is disabled on the VNIC.
         /// Defaults to `false`, which means the check is performed. For information
         /// about why you would skip the source/destination check, see
-        /// [Using a Private IP as a Route Target](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm#privateip).
+        /// [Using a Private IP as a Route Target](https://docs.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm#privateip).
         /// <br/>
         /// If the VNIC belongs to a VLAN as part of the Oracle Cloud VMware Solution (instead of
         /// belonging to a subnet), the `skipSourceDestCheck` attribute is `true`.
@@ -230,7 +230,7 @@ namespace Oci.CoreService.Models
         public System.Nullable<bool> SkipSourceDestCheck { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet the VNIC is in.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet the VNIC is in.
         /// </value>
         [JsonProperty(PropertyName = "subnetId")]
         public string SubnetId { get; set; }
@@ -256,7 +256,7 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.List<string> Ipv6Addresses { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the route table the IP address or VNIC will use. For more information, see
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the route table the IP address or VNIC will use. For more information, see
         /// [Per-resource Routing](https://docs.oracle.com/iaas/Content/Network/Tasks/managingroutetables.htm#Overview_of_Routing_for_Your_VCN__source_routing).
         /// 
         /// </value>

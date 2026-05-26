@@ -17,7 +17,7 @@ namespace Oci.LoadbalancerService.Models
 {
     /// <summary>
     /// The health check policy configuration.
-    /// For more information, see [Editing Health Check Policies](https://docs.cloud.oracle.com/Content/Balance/Tasks/editinghealthcheck.htm).
+    /// For more information, see [Editing Health Check Policies](https://docs.oracle.com/iaas/Content/Balance/Tasks/editinghealthcheck.htm).
     /// 
     /// </summary>
     public class HealthChecker 

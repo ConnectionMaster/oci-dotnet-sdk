@@ -31,7 +31,7 @@ namespace Oci.AuditService.Models
         public string PrincipalName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the principal.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the principal.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "principalId")]
@@ -53,7 +53,7 @@ namespace Oci.AuditService.Models
         public string CallerName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the caller. The caller that made a 
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the caller. The caller that made a 
         /// request on behalf of the prinicpal.
         /// 
         /// </value>
@@ -61,7 +61,7 @@ namespace Oci.AuditService.Models
         public string CallerId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the tenant.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the tenant.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "tenantId")]

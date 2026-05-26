@@ -74,7 +74,7 @@ namespace Oci.LoadbalancerService
 
         /// <summary>
         /// Moves a load balancer into a different compartment within the same tenancy. For information about moving resources
-        /// between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -82,7 +82,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ChangeLoadBalancerCompartment.cs.html">here</a> to see an example of how to use ChangeLoadBalancerCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ChangeLoadBalancerCompartment.cs.html">here</a> to see an example of how to use ChangeLoadBalancerCompartment API.</example>
         public async Task<ChangeLoadBalancerCompartmentResponse> ChangeLoadBalancerCompartment(ChangeLoadBalancerCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeLoadBalancerCompartment");
@@ -138,7 +138,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateBackend.cs.html">here</a> to see an example of how to use CreateBackend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateBackend.cs.html">here</a> to see an example of how to use CreateBackend API.</example>
         public async Task<CreateBackendResponse> CreateBackend(CreateBackendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBackend");
@@ -194,7 +194,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateBackendSet.cs.html">here</a> to see an example of how to use CreateBackendSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateBackendSet.cs.html">here</a> to see an example of how to use CreateBackendSet API.</example>
         public async Task<CreateBackendSetResponse> CreateBackendSet(CreateBackendSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBackendSet");
@@ -250,7 +250,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateCertificate.cs.html">here</a> to see an example of how to use CreateCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateCertificate.cs.html">here</a> to see an example of how to use CreateCertificate API.</example>
         public async Task<CreateCertificateResponse> CreateCertificate(CreateCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCertificate");
@@ -300,7 +300,7 @@ namespace Oci.LoadbalancerService
 
         /// <summary>
         /// Adds a hostname resource to the specified load balancer. For more information, see
-        /// [Managing Request Routing](https://docs.cloud.oracle.com/Content/Balance/Tasks/managingrequest.htm).
+        /// [Managing Request Routing](https://docs.oracle.com/iaas/Content/Balance/Tasks/managingrequest.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -308,7 +308,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateHostname.cs.html">here</a> to see an example of how to use CreateHostname API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateHostname.cs.html">here</a> to see an example of how to use CreateHostname API.</example>
         public async Task<CreateHostnameResponse> CreateHostname(CreateHostnameRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createHostname");
@@ -364,7 +364,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateListener.cs.html">here</a> to see an example of how to use CreateListener API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateListener.cs.html">here</a> to see an example of how to use CreateListener API.</example>
         public async Task<CreateListenerResponse> CreateListener(CreateListenerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createListener");
@@ -414,18 +414,18 @@ namespace Oci.LoadbalancerService
 
         /// <summary>
         /// Creates a new load balancer in the specified compartment. For general information about load balancers,
-        /// see [Overview of the Load Balancing Service](https://docs.cloud.oracle.com/Content/Balance/Concepts/balanceoverview.htm).
+        /// see [Overview of the Load Balancing Service](https://docs.oracle.com/iaas/Content/Balance/Concepts/balanceoverview.htm).
         /// &lt;br/&gt;
         /// For the purposes of access control, you must provide the OCID of the compartment where you want
         /// the load balancer to reside. Notice that the load balancer doesn&#39;t have to be in the same compartment as the VCN
         /// or backend set. If you&#39;re not sure which compartment to use, put the load balancer in the same compartment as the VCN.
         /// For information about access control and compartments, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// &lt;br/&gt;
         /// You must specify a display name for the load balancer. It does not have to be unique, and you can change it.
         /// &lt;br/&gt;
         /// For information about Availability Domains, see
-        /// [Regions and Availability Domains](https://docs.cloud.oracle.com/Content/General/Concepts/regions.htm).
+        /// [Regions and Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm).
         /// To get a list of Availability Domains, use the &#x60;ListAvailabilityDomains&#x60; operation
         /// in the Identity and Access Management Service API.
         /// &lt;br/&gt;
@@ -433,7 +433,7 @@ namespace Oci.LoadbalancerService
         /// unique ID called an Oracle Cloud Identifier (OCID). When you create a resource, you can find its OCID
         /// in the response. You can also retrieve a resource&#39;s OCID by using a List API operation on that resource type,
         /// or by viewing the resource in the Console. Fore more information, see
-        /// [Resource Identifiers](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// [Resource Identifiers](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// After you send your request, the new object&#39;s state will temporarily be PROVISIONING. Before using the
         /// object, first make sure its state has changed to RUNNING.
@@ -447,7 +447,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateLoadBalancer.cs.html">here</a> to see an example of how to use CreateLoadBalancer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateLoadBalancer.cs.html">here</a> to see an example of how to use CreateLoadBalancer API.</example>
         public async Task<CreateLoadBalancerResponse> CreateLoadBalancer(CreateLoadBalancerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createLoadBalancer");
@@ -497,7 +497,7 @@ namespace Oci.LoadbalancerService
 
         /// <summary>
         /// Adds a path route set to a load balancer. For more information, see
-        /// [Managing Request Routing](https://docs.cloud.oracle.com/Content/Balance/Tasks/managingrequest.htm).
+        /// [Managing Request Routing](https://docs.oracle.com/iaas/Content/Balance/Tasks/managingrequest.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -505,7 +505,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreatePathRouteSet.cs.html">here</a> to see an example of how to use CreatePathRouteSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreatePathRouteSet.cs.html">here</a> to see an example of how to use CreatePathRouteSet API.</example>
         public async Task<CreatePathRouteSetResponse> CreatePathRouteSet(CreatePathRouteSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPathRouteSet");
@@ -555,7 +555,7 @@ namespace Oci.LoadbalancerService
 
         /// <summary>
         /// Adds a routing policy to a load balancer. For more information, see
-        /// [Managing Request Routing](https://docs.cloud.oracle.com/Content/Balance/Tasks/managingrequest.htm).
+        /// [Managing Request Routing](https://docs.oracle.com/iaas/Content/Balance/Tasks/managingrequest.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -563,7 +563,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateRoutingPolicy.cs.html">here</a> to see an example of how to use CreateRoutingPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateRoutingPolicy.cs.html">here</a> to see an example of how to use CreateRoutingPolicy API.</example>
         public async Task<CreateRoutingPolicyResponse> CreateRoutingPolicy(CreateRoutingPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRoutingPolicy");
@@ -613,7 +613,7 @@ namespace Oci.LoadbalancerService
 
         /// <summary>
         /// Creates a new rule set associated with the specified load balancer. For more information, see
-        /// [Managing Rule Sets](https://docs.cloud.oracle.com/Content/Balance/Tasks/managingrulesets.htm).
+        /// [Managing Rule Sets](https://docs.oracle.com/iaas/Content/Balance/Tasks/managingrulesets.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -621,7 +621,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateRuleSet.cs.html">here</a> to see an example of how to use CreateRuleSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateRuleSet.cs.html">here</a> to see an example of how to use CreateRuleSet API.</example>
         public async Task<CreateRuleSetResponse> CreateRuleSet(CreateRuleSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRuleSet");
@@ -677,7 +677,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateSSLCipherSuite.cs.html">here</a> to see an example of how to use CreateSSLCipherSuite API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateSSLCipherSuite.cs.html">here</a> to see an example of how to use CreateSSLCipherSuite API.</example>
         public async Task<CreateSSLCipherSuiteResponse> CreateSSLCipherSuite(CreateSSLCipherSuiteRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSSLCipherSuite");
@@ -733,7 +733,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteBackend.cs.html">here</a> to see an example of how to use DeleteBackend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteBackend.cs.html">here</a> to see an example of how to use DeleteBackend API.</example>
         public async Task<DeleteBackendResponse> DeleteBackend(DeleteBackendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBackend");
@@ -792,7 +792,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteBackendSet.cs.html">here</a> to see an example of how to use DeleteBackendSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteBackendSet.cs.html">here</a> to see an example of how to use DeleteBackendSet API.</example>
         public async Task<DeleteBackendSetResponse> DeleteBackendSet(DeleteBackendSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBackendSet");
@@ -848,7 +848,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteCertificate.cs.html">here</a> to see an example of how to use DeleteCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteCertificate.cs.html">here</a> to see an example of how to use DeleteCertificate API.</example>
         public async Task<DeleteCertificateResponse> DeleteCertificate(DeleteCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCertificate");
@@ -905,7 +905,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteHostname.cs.html">here</a> to see an example of how to use DeleteHostname API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteHostname.cs.html">here</a> to see an example of how to use DeleteHostname API.</example>
         public async Task<DeleteHostnameResponse> DeleteHostname(DeleteHostnameRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteHostname");
@@ -961,7 +961,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteListener.cs.html">here</a> to see an example of how to use DeleteListener API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteListener.cs.html">here</a> to see an example of how to use DeleteListener API.</example>
         public async Task<DeleteListenerResponse> DeleteListener(DeleteListenerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteListener");
@@ -1017,7 +1017,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteLoadBalancer.cs.html">here</a> to see an example of how to use DeleteLoadBalancer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteLoadBalancer.cs.html">here</a> to see an example of how to use DeleteLoadBalancer API.</example>
         public async Task<DeleteLoadBalancerResponse> DeleteLoadBalancer(DeleteLoadBalancerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteLoadBalancer");
@@ -1077,7 +1077,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeletePathRouteSet.cs.html">here</a> to see an example of how to use DeletePathRouteSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeletePathRouteSet.cs.html">here</a> to see an example of how to use DeletePathRouteSet API.</example>
         public async Task<DeletePathRouteSetResponse> DeletePathRouteSet(DeletePathRouteSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePathRouteSet");
@@ -1137,7 +1137,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteRoutingPolicy.cs.html">here</a> to see an example of how to use DeleteRoutingPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteRoutingPolicy.cs.html">here</a> to see an example of how to use DeleteRoutingPolicy API.</example>
         public async Task<DeleteRoutingPolicyResponse> DeleteRoutingPolicy(DeleteRoutingPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRoutingPolicy");
@@ -1197,7 +1197,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteRuleSet.cs.html">here</a> to see an example of how to use DeleteRuleSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteRuleSet.cs.html">here</a> to see an example of how to use DeleteRuleSet API.</example>
         public async Task<DeleteRuleSetResponse> DeleteRuleSet(DeleteRuleSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRuleSet");
@@ -1253,7 +1253,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteSSLCipherSuite.cs.html">here</a> to see an example of how to use DeleteSSLCipherSuite API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteSSLCipherSuite.cs.html">here</a> to see an example of how to use DeleteSSLCipherSuite API.</example>
         public async Task<DeleteSSLCipherSuiteResponse> DeleteSSLCipherSuite(DeleteSSLCipherSuiteRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSSLCipherSuite");
@@ -1309,7 +1309,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetBackend.cs.html">here</a> to see an example of how to use GetBackend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetBackend.cs.html">here</a> to see an example of how to use GetBackend API.</example>
         public async Task<GetBackendResponse> GetBackend(GetBackendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBackend");
@@ -1365,7 +1365,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetBackendHealth.cs.html">here</a> to see an example of how to use GetBackendHealth API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetBackendHealth.cs.html">here</a> to see an example of how to use GetBackendHealth API.</example>
         public async Task<GetBackendHealthResponse> GetBackendHealth(GetBackendHealthRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBackendHealth");
@@ -1421,7 +1421,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetBackendSet.cs.html">here</a> to see an example of how to use GetBackendSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetBackendSet.cs.html">here</a> to see an example of how to use GetBackendSet API.</example>
         public async Task<GetBackendSetResponse> GetBackendSet(GetBackendSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBackendSet");
@@ -1477,7 +1477,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetBackendSetHealth.cs.html">here</a> to see an example of how to use GetBackendSetHealth API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetBackendSetHealth.cs.html">here</a> to see an example of how to use GetBackendSetHealth API.</example>
         public async Task<GetBackendSetHealthResponse> GetBackendSetHealth(GetBackendSetHealthRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBackendSetHealth");
@@ -1533,7 +1533,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetHealthChecker.cs.html">here</a> to see an example of how to use GetHealthChecker API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetHealthChecker.cs.html">here</a> to see an example of how to use GetHealthChecker API.</example>
         public async Task<GetHealthCheckerResponse> GetHealthChecker(GetHealthCheckerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getHealthChecker");
@@ -1589,7 +1589,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetHostname.cs.html">here</a> to see an example of how to use GetHostname API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetHostname.cs.html">here</a> to see an example of how to use GetHostname API.</example>
         public async Task<GetHostnameResponse> GetHostname(GetHostnameRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getHostname");
@@ -1645,7 +1645,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetLoadBalancer.cs.html">here</a> to see an example of how to use GetLoadBalancer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetLoadBalancer.cs.html">here</a> to see an example of how to use GetLoadBalancer API.</example>
         public async Task<GetLoadBalancerResponse> GetLoadBalancer(GetLoadBalancerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getLoadBalancer");
@@ -1701,7 +1701,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetLoadBalancerHealth.cs.html">here</a> to see an example of how to use GetLoadBalancerHealth API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetLoadBalancerHealth.cs.html">here</a> to see an example of how to use GetLoadBalancerHealth API.</example>
         public async Task<GetLoadBalancerHealthResponse> GetLoadBalancerHealth(GetLoadBalancerHealthRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getLoadBalancerHealth");
@@ -1757,7 +1757,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetPathRouteSet.cs.html">here</a> to see an example of how to use GetPathRouteSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetPathRouteSet.cs.html">here</a> to see an example of how to use GetPathRouteSet API.</example>
         public async Task<GetPathRouteSetResponse> GetPathRouteSet(GetPathRouteSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPathRouteSet");
@@ -1813,7 +1813,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetRoutingPolicy.cs.html">here</a> to see an example of how to use GetRoutingPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetRoutingPolicy.cs.html">here</a> to see an example of how to use GetRoutingPolicy API.</example>
         public async Task<GetRoutingPolicyResponse> GetRoutingPolicy(GetRoutingPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRoutingPolicy");
@@ -1869,7 +1869,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetRuleSet.cs.html">here</a> to see an example of how to use GetRuleSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetRuleSet.cs.html">here</a> to see an example of how to use GetRuleSet API.</example>
         public async Task<GetRuleSetResponse> GetRuleSet(GetRuleSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRuleSet");
@@ -1925,7 +1925,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetSSLCipherSuite.cs.html">here</a> to see an example of how to use GetSSLCipherSuite API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetSSLCipherSuite.cs.html">here</a> to see an example of how to use GetSSLCipherSuite API.</example>
         public async Task<GetSSLCipherSuiteResponse> GetSSLCipherSuite(GetSSLCipherSuiteRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSSLCipherSuite");
@@ -1981,7 +1981,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -2037,7 +2037,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListBackendSets.cs.html">here</a> to see an example of how to use ListBackendSets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListBackendSets.cs.html">here</a> to see an example of how to use ListBackendSets API.</example>
         public async Task<ListBackendSetsResponse> ListBackendSets(ListBackendSetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBackendSets");
@@ -2093,7 +2093,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListBackends.cs.html">here</a> to see an example of how to use ListBackends API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListBackends.cs.html">here</a> to see an example of how to use ListBackends API.</example>
         public async Task<ListBackendsResponse> ListBackends(ListBackendsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBackends");
@@ -2149,7 +2149,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListCertificates.cs.html">here</a> to see an example of how to use ListCertificates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListCertificates.cs.html">here</a> to see an example of how to use ListCertificates API.</example>
         public async Task<ListCertificatesResponse> ListCertificates(ListCertificatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCertificates");
@@ -2205,7 +2205,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListHostnames.cs.html">here</a> to see an example of how to use ListHostnames API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListHostnames.cs.html">here</a> to see an example of how to use ListHostnames API.</example>
         public async Task<ListHostnamesResponse> ListHostnames(ListHostnamesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listHostnames");
@@ -2268,7 +2268,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListListenerRules.cs.html">here</a> to see an example of how to use ListListenerRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListListenerRules.cs.html">here</a> to see an example of how to use ListListenerRules API.</example>
         public async Task<ListListenerRulesResponse> ListListenerRules(ListListenerRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listListenerRules");
@@ -2324,7 +2324,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListLoadBalancerHealths.cs.html">here</a> to see an example of how to use ListLoadBalancerHealths API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListLoadBalancerHealths.cs.html">here</a> to see an example of how to use ListLoadBalancerHealths API.</example>
         public async Task<ListLoadBalancerHealthsResponse> ListLoadBalancerHealths(ListLoadBalancerHealthsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLoadBalancerHealths");
@@ -2380,7 +2380,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListLoadBalancers.cs.html">here</a> to see an example of how to use ListLoadBalancers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListLoadBalancers.cs.html">here</a> to see an example of how to use ListLoadBalancers API.</example>
         public async Task<ListLoadBalancersResponse> ListLoadBalancers(ListLoadBalancersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLoadBalancers");
@@ -2436,7 +2436,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListPathRouteSets.cs.html">here</a> to see an example of how to use ListPathRouteSets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListPathRouteSets.cs.html">here</a> to see an example of how to use ListPathRouteSets API.</example>
         public async Task<ListPathRouteSetsResponse> ListPathRouteSets(ListPathRouteSetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPathRouteSets");
@@ -2492,7 +2492,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListPolicies.cs.html">here</a> to see an example of how to use ListPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListPolicies.cs.html">here</a> to see an example of how to use ListPolicies API.</example>
         public async Task<ListPoliciesResponse> ListPolicies(ListPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPolicies");
@@ -2548,7 +2548,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListProtocols.cs.html">here</a> to see an example of how to use ListProtocols API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListProtocols.cs.html">here</a> to see an example of how to use ListProtocols API.</example>
         public async Task<ListProtocolsResponse> ListProtocols(ListProtocolsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProtocols");
@@ -2604,7 +2604,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListRoutingPolicies.cs.html">here</a> to see an example of how to use ListRoutingPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListRoutingPolicies.cs.html">here</a> to see an example of how to use ListRoutingPolicies API.</example>
         public async Task<ListRoutingPoliciesResponse> ListRoutingPolicies(ListRoutingPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRoutingPolicies");
@@ -2660,7 +2660,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListRuleSets.cs.html">here</a> to see an example of how to use ListRuleSets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListRuleSets.cs.html">here</a> to see an example of how to use ListRuleSets API.</example>
         public async Task<ListRuleSetsResponse> ListRuleSets(ListRuleSetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRuleSets");
@@ -2716,7 +2716,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListSSLCipherSuites.cs.html">here</a> to see an example of how to use ListSSLCipherSuites API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListSSLCipherSuites.cs.html">here</a> to see an example of how to use ListSSLCipherSuites API.</example>
         public async Task<ListSSLCipherSuitesResponse> ListSSLCipherSuites(ListSSLCipherSuitesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSSLCipherSuites");
@@ -2772,7 +2772,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListShapes.cs.html">here</a> to see an example of how to use ListShapes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListShapes.cs.html">here</a> to see an example of how to use ListShapes API.</example>
         public async Task<ListShapesResponse> ListShapes(ListShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listShapes");
@@ -2828,7 +2828,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -2884,7 +2884,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateBackend.cs.html">here</a> to see an example of how to use UpdateBackend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateBackend.cs.html">here</a> to see an example of how to use UpdateBackend API.</example>
         public async Task<UpdateBackendResponse> UpdateBackend(UpdateBackendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateBackend");
@@ -2940,7 +2940,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateBackendSet.cs.html">here</a> to see an example of how to use UpdateBackendSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateBackendSet.cs.html">here</a> to see an example of how to use UpdateBackendSet API.</example>
         public async Task<UpdateBackendSetResponse> UpdateBackendSet(UpdateBackendSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateBackendSet");
@@ -2996,7 +2996,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateHealthChecker.cs.html">here</a> to see an example of how to use UpdateHealthChecker API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateHealthChecker.cs.html">here</a> to see an example of how to use UpdateHealthChecker API.</example>
         public async Task<UpdateHealthCheckerResponse> UpdateHealthChecker(UpdateHealthCheckerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateHealthChecker");
@@ -3054,7 +3054,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateHostname.cs.html">here</a> to see an example of how to use UpdateHostname API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateHostname.cs.html">here</a> to see an example of how to use UpdateHostname API.</example>
         public async Task<UpdateHostnameResponse> UpdateHostname(UpdateHostnameRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateHostname");
@@ -3110,7 +3110,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateListener.cs.html">here</a> to see an example of how to use UpdateListener API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateListener.cs.html">here</a> to see an example of how to use UpdateListener API.</example>
         public async Task<UpdateListenerResponse> UpdateListener(UpdateListenerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateListener");
@@ -3166,7 +3166,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateLoadBalancer.cs.html">here</a> to see an example of how to use UpdateLoadBalancer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateLoadBalancer.cs.html">here</a> to see an example of how to use UpdateLoadBalancer API.</example>
         public async Task<UpdateLoadBalancerResponse> UpdateLoadBalancer(UpdateLoadBalancerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateLoadBalancer");
@@ -3228,7 +3228,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateLoadBalancerShape.cs.html">here</a> to see an example of how to use UpdateLoadBalancerShape API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateLoadBalancerShape.cs.html">here</a> to see an example of how to use UpdateLoadBalancerShape API.</example>
         public async Task<UpdateLoadBalancerShapeResponse> UpdateLoadBalancerShape(UpdateLoadBalancerShapeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateLoadBalancerShape");
@@ -3284,7 +3284,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateNetworkSecurityGroups.cs.html">here</a> to see an example of how to use UpdateNetworkSecurityGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateNetworkSecurityGroups.cs.html">here</a> to see an example of how to use UpdateNetworkSecurityGroups API.</example>
         public async Task<UpdateNetworkSecurityGroupsResponse> UpdateNetworkSecurityGroups(UpdateNetworkSecurityGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNetworkSecurityGroups");
@@ -3346,7 +3346,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdatePathRouteSet.cs.html">here</a> to see an example of how to use UpdatePathRouteSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdatePathRouteSet.cs.html">here</a> to see an example of how to use UpdatePathRouteSet API.</example>
         public async Task<UpdatePathRouteSetResponse> UpdatePathRouteSet(UpdatePathRouteSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePathRouteSet");
@@ -3406,7 +3406,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateRoutingPolicy.cs.html">here</a> to see an example of how to use UpdateRoutingPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateRoutingPolicy.cs.html">here</a> to see an example of how to use UpdateRoutingPolicy API.</example>
         public async Task<UpdateRoutingPolicyResponse> UpdateRoutingPolicy(UpdateRoutingPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRoutingPolicy");
@@ -3466,7 +3466,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateRuleSet.cs.html">here</a> to see an example of how to use UpdateRuleSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateRuleSet.cs.html">here</a> to see an example of how to use UpdateRuleSet API.</example>
         public async Task<UpdateRuleSetResponse> UpdateRuleSet(UpdateRuleSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRuleSet");
@@ -3522,7 +3522,7 @@ namespace Oci.LoadbalancerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateSSLCipherSuite.cs.html">here</a> to see an example of how to use UpdateSSLCipherSuite API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateSSLCipherSuite.cs.html">here</a> to see an example of how to use UpdateSSLCipherSuite API.</example>
         public async Task<UpdateSSLCipherSuiteResponse> UpdateSSLCipherSuite(UpdateSSLCipherSuiteRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSSLCipherSuite");

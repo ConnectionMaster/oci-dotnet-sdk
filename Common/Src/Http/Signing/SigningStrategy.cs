@@ -9,7 +9,7 @@ using Oci.Common.Http.Signing.Internal;
 
 namespace Oci.Common.Http.Signing
 {
-    /// <summary>Various signing strategies used by Oracle Cloud Infrastructure. ref: https://docs.cloud.oracle.com/en-us/iaas/Content/API/Concepts/signingrequests.htm</summary>
+    /// <summary>Various signing strategies used by Oracle Cloud Infrastructure. ref: https://docs.oracle.com/en-us/iaas/Content/API/Concepts/signingrequests.htm</summary>
     public class SigningStrategy
     {
         /// <summary>Standard signing strategy.</summary>

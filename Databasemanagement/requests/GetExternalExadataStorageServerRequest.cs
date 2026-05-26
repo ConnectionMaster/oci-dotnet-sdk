@@ -14,13 +14,13 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetExternalExadataStorageServer.cs.html">here</a> to see an example of how to use GetExternalExadataStorageServer request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetExternalExadataStorageServer.cs.html">here</a> to see an example of how to use GetExternalExadataStorageServer request.
     /// </example>
     public class GetExternalExadataStorageServerRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Exadata storage server.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Exadata storage server.
         /// </value>
         /// <remarks>
         /// Required

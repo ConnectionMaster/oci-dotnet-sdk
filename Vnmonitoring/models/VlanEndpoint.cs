@@ -32,7 +32,7 @@ namespace Oci.VnmonitoringService.Models
         public string Address { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VLAN containing the IP address.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VLAN containing the IP address.
         /// This can be used to disambiguate which VLAN is queried, in case the endpoint IP
         /// address belongs to more than one VLAN (when there are VLANs with overlapping IP ranges).
         /// 

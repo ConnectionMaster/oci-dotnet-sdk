@@ -14,13 +14,13 @@ using Oci.BatchService.Models;
 namespace Oci.BatchService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/StopBatchContext.cs.html">here</a> to see an example of how to use StopBatchContext request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/StopBatchContext.cs.html">here</a> to see an example of how to use StopBatchContext request.
     /// </example>
     public class StopBatchContextRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the batch context.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the batch context.
         /// </value>
         /// <remarks>
         /// Required

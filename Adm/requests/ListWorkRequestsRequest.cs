@@ -14,7 +14,7 @@ using Oci.AdmService.Models;
 namespace Oci.AdmService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests request.
     /// </example>
     public class ListWorkRequestsRequest : Oci.Common.IOciRequest
     {
@@ -40,7 +40,7 @@ namespace Oci.AdmService.Requests
         public System.Nullable<OperationStatus> Status { get; set; }
         
         /// <value>
-        /// The Oracle Cloud Identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the resource affected by the work request.
+        /// The Oracle Cloud Identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the resource affected by the work request.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "resourceId")]
         public string ResourceId { get; set; }

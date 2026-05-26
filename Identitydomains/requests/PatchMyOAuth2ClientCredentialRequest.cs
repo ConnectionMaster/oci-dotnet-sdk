@@ -14,7 +14,7 @@ using Oci.IdentitydomainsService.Models;
 namespace Oci.IdentitydomainsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyOAuth2ClientCredential.cs.html">here</a> to see an example of how to use PatchMyOAuth2ClientCredential request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyOAuth2ClientCredential.cs.html">here</a> to see an example of how to use PatchMyOAuth2ClientCredential request.
     /// </example>
     public class PatchMyOAuth2ClientCredentialRequest : Oci.Common.IOciRequest
     {

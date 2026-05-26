@@ -18,7 +18,7 @@ namespace Oci.SecurityattributeService.Models
     /// <summary>
     /// A security attribute that belongs to a specific security attribute namespace. Security attributes must be created in a tenancy before
     /// a user can apply them to resources.
-    /// For more information, see [Managing Security Attributes](https://docs.cloud.oracle.com/Content/zero-trust-packet-routing/managing-security-attributes.htm).
+    /// For more information, see [Managing Security Attributes](https://docs.oracle.com/iaas/Content/zero-trust-packet-routing/managing-security-attributes.htm).
     /// <br/>
     /// **Warning:** Oracle recommends that you avoid using any confidential information when you supply string values
     /// using the API.
@@ -98,7 +98,7 @@ namespace Oci.SecurityattributeService.Models
         
         /// <value>
         /// Indicates whether the security attribute is retired.
-        /// See [Managing Security Attribute Namespaces](https://docs.cloud.oracle.com/Content/zero-trust-packet-routing/managing-security-attribute-namespaces.htm).
+        /// See [Managing Security Attribute Namespaces](https://docs.oracle.com/iaas/Content/zero-trust-packet-routing/managing-security-attribute-namespaces.htm).
         /// 
         /// </value>
         /// <remarks>

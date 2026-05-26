@@ -80,7 +80,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
         public async Task<CancelWorkRequestResponse> CancelWorkRequest(CancelWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelWorkRequest");
@@ -109,7 +109,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "CancelWorkRequest",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/WorkRequest/CancelWorkRequest",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -136,7 +136,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/CreateCredential.cs.html">here</a> to see an example of how to use CreateCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/CreateCredential.cs.html">here</a> to see an example of how to use CreateCredential API.</example>
         public async Task<CreateCredentialResponse> CreateCredential(CreateCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCredential");
@@ -165,7 +165,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "CreateCredential",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsConnection/CreateCredential",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -192,7 +192,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/CreateCredentialExecuteGrantee.cs.html">here</a> to see an example of how to use CreateCredentialExecuteGrantee API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/CreateCredentialExecuteGrantee.cs.html">here</a> to see an example of how to use CreateCredentialExecuteGrantee API.</example>
         public async Task<CreateCredentialExecuteGranteeResponse> CreateCredentialExecuteGrantee(CreateCredentialExecuteGranteeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCredentialExecuteGrantee");
@@ -221,7 +221,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "CreateCredentialExecuteGrantee",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/CredentialExecuteGrantee/CreateCredentialExecuteGrantee",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -248,7 +248,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/CreateCredentialPublicSynonym.cs.html">here</a> to see an example of how to use CreateCredentialPublicSynonym API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/CreateCredentialPublicSynonym.cs.html">here</a> to see an example of how to use CreateCredentialPublicSynonym API.</example>
         public async Task<CreateCredentialPublicSynonymResponse> CreateCredentialPublicSynonym(CreateCredentialPublicSynonymRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCredentialPublicSynonym");
@@ -277,7 +277,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "CreateCredentialPublicSynonym",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/CredentialPublicSynonym/CreateCredentialPublicSynonym",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -304,7 +304,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/CreateDatabaseToolsDatabaseApiGatewayConfigPool.cs.html">here</a> to see an example of how to use CreateDatabaseToolsDatabaseApiGatewayConfigPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/CreateDatabaseToolsDatabaseApiGatewayConfigPool.cs.html">here</a> to see an example of how to use CreateDatabaseToolsDatabaseApiGatewayConfigPool API.</example>
         public async Task<CreateDatabaseToolsDatabaseApiGatewayConfigPoolResponse> CreateDatabaseToolsDatabaseApiGatewayConfigPool(CreateDatabaseToolsDatabaseApiGatewayConfigPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDatabaseToolsDatabaseApiGatewayConfigPool");
@@ -333,7 +333,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "CreateDatabaseToolsDatabaseApiGatewayConfigPool",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfigPool/CreateDatabaseToolsDatabaseApiGatewayConfigPool",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -360,7 +360,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/CreateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec.cs.html">here</a> to see an example of how to use CreateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/CreateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec.cs.html">here</a> to see an example of how to use CreateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec API.</example>
         public async Task<CreateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecResponse> CreateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec(CreateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec");
@@ -389,7 +389,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "CreateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfigPoolApiSpec/CreateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -416,7 +416,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/CreateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec.cs.html">here</a> to see an example of how to use CreateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/CreateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec.cs.html">here</a> to see an example of how to use CreateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec API.</example>
         public async Task<CreateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecResponse> CreateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec(CreateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec");
@@ -445,7 +445,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "CreateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec/CreateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -472,7 +472,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/DeleteCredential.cs.html">here</a> to see an example of how to use DeleteCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/DeleteCredential.cs.html">here</a> to see an example of how to use DeleteCredential API.</example>
         public async Task<DeleteCredentialResponse> DeleteCredential(DeleteCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCredential");
@@ -501,7 +501,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "DeleteCredential",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/Credential/DeleteCredential",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -528,7 +528,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/DeleteCredentialExecuteGrantee.cs.html">here</a> to see an example of how to use DeleteCredentialExecuteGrantee API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/DeleteCredentialExecuteGrantee.cs.html">here</a> to see an example of how to use DeleteCredentialExecuteGrantee API.</example>
         public async Task<DeleteCredentialExecuteGranteeResponse> DeleteCredentialExecuteGrantee(DeleteCredentialExecuteGranteeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCredentialExecuteGrantee");
@@ -557,7 +557,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "DeleteCredentialExecuteGrantee",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/CredentialExecuteGrantee/DeleteCredentialExecuteGrantee",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -584,7 +584,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/DeleteCredentialPublicSynonym.cs.html">here</a> to see an example of how to use DeleteCredentialPublicSynonym API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/DeleteCredentialPublicSynonym.cs.html">here</a> to see an example of how to use DeleteCredentialPublicSynonym API.</example>
         public async Task<DeleteCredentialPublicSynonymResponse> DeleteCredentialPublicSynonym(DeleteCredentialPublicSynonymRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCredentialPublicSynonym");
@@ -613,7 +613,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "DeleteCredentialPublicSynonym",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/CredentialPublicSynonym/DeleteCredentialPublicSynonym",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -640,7 +640,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/DeleteDatabaseToolsDatabaseApiGatewayConfigPool.cs.html">here</a> to see an example of how to use DeleteDatabaseToolsDatabaseApiGatewayConfigPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/DeleteDatabaseToolsDatabaseApiGatewayConfigPool.cs.html">here</a> to see an example of how to use DeleteDatabaseToolsDatabaseApiGatewayConfigPool API.</example>
         public async Task<DeleteDatabaseToolsDatabaseApiGatewayConfigPoolResponse> DeleteDatabaseToolsDatabaseApiGatewayConfigPool(DeleteDatabaseToolsDatabaseApiGatewayConfigPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDatabaseToolsDatabaseApiGatewayConfigPool");
@@ -669,7 +669,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "DeleteDatabaseToolsDatabaseApiGatewayConfigPool",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfig/DeleteDatabaseToolsDatabaseApiGatewayConfigPool",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -696,7 +696,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/DeleteDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec.cs.html">here</a> to see an example of how to use DeleteDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/DeleteDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec.cs.html">here</a> to see an example of how to use DeleteDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec API.</example>
         public async Task<DeleteDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecResponse> DeleteDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec(DeleteDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec");
@@ -725,7 +725,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "DeleteDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfig/DeleteDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -752,7 +752,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/DeleteDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec.cs.html">here</a> to see an example of how to use DeleteDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/DeleteDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec.cs.html">here</a> to see an example of how to use DeleteDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec API.</example>
         public async Task<DeleteDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecResponse> DeleteDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec(DeleteDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec");
@@ -781,7 +781,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "DeleteDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfig/DeleteDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -809,7 +809,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ExecuteSqlDatabaseToolsConnection.cs.html">here</a> to see an example of how to use ExecuteSqlDatabaseToolsConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ExecuteSqlDatabaseToolsConnection.cs.html">here</a> to see an example of how to use ExecuteSqlDatabaseToolsConnection API.</example>
         public async Task<ExecuteSqlDatabaseToolsConnectionResponse> ExecuteSqlDatabaseToolsConnection(ExecuteSqlDatabaseToolsConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called executeSqlDatabaseToolsConnection");
@@ -838,7 +838,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "ExecuteSqlDatabaseToolsConnection",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsConnection/ExecuteSqlDatabaseToolsConnection",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -865,7 +865,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetCredential.cs.html">here</a> to see an example of how to use GetCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetCredential.cs.html">here</a> to see an example of how to use GetCredential API.</example>
         public async Task<GetCredentialResponse> GetCredential(GetCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCredential");
@@ -894,7 +894,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "GetCredential",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/Credential/GetCredential",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -921,7 +921,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetCredentialExecuteGrantee.cs.html">here</a> to see an example of how to use GetCredentialExecuteGrantee API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetCredentialExecuteGrantee.cs.html">here</a> to see an example of how to use GetCredentialExecuteGrantee API.</example>
         public async Task<GetCredentialExecuteGranteeResponse> GetCredentialExecuteGrantee(GetCredentialExecuteGranteeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCredentialExecuteGrantee");
@@ -950,7 +950,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "GetCredentialExecuteGrantee",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/CredentialExecuteGrantee/GetCredentialExecuteGrantee",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -977,7 +977,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetCredentialPublicSynonym.cs.html">here</a> to see an example of how to use GetCredentialPublicSynonym API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetCredentialPublicSynonym.cs.html">here</a> to see an example of how to use GetCredentialPublicSynonym API.</example>
         public async Task<GetCredentialPublicSynonymResponse> GetCredentialPublicSynonym(GetCredentialPublicSynonymRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCredentialPublicSynonym");
@@ -1006,7 +1006,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "GetCredentialPublicSynonym",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/CredentialPublicSynonym/GetCredentialPublicSynonym",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1033,7 +1033,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetDatabaseToolsDatabaseApiGatewayConfigContent.cs.html">here</a> to see an example of how to use GetDatabaseToolsDatabaseApiGatewayConfigContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetDatabaseToolsDatabaseApiGatewayConfigContent.cs.html">here</a> to see an example of how to use GetDatabaseToolsDatabaseApiGatewayConfigContent API.</example>
         public async Task<GetDatabaseToolsDatabaseApiGatewayConfigContentResponse> GetDatabaseToolsDatabaseApiGatewayConfigContent(GetDatabaseToolsDatabaseApiGatewayConfigContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDatabaseToolsDatabaseApiGatewayConfigContent");
@@ -1062,7 +1062,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "GetDatabaseToolsDatabaseApiGatewayConfigContent",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfig/GetDatabaseToolsDatabaseApiGatewayConfigContent",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1089,7 +1089,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetDatabaseToolsDatabaseApiGatewayConfigGlobal.cs.html">here</a> to see an example of how to use GetDatabaseToolsDatabaseApiGatewayConfigGlobal API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetDatabaseToolsDatabaseApiGatewayConfigGlobal.cs.html">here</a> to see an example of how to use GetDatabaseToolsDatabaseApiGatewayConfigGlobal API.</example>
         public async Task<GetDatabaseToolsDatabaseApiGatewayConfigGlobalResponse> GetDatabaseToolsDatabaseApiGatewayConfigGlobal(GetDatabaseToolsDatabaseApiGatewayConfigGlobalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDatabaseToolsDatabaseApiGatewayConfigGlobal");
@@ -1118,7 +1118,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "GetDatabaseToolsDatabaseApiGatewayConfigGlobal",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfigGlobal/GetDatabaseToolsDatabaseApiGatewayConfigGlobal",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1145,7 +1145,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetDatabaseToolsDatabaseApiGatewayConfigPool.cs.html">here</a> to see an example of how to use GetDatabaseToolsDatabaseApiGatewayConfigPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetDatabaseToolsDatabaseApiGatewayConfigPool.cs.html">here</a> to see an example of how to use GetDatabaseToolsDatabaseApiGatewayConfigPool API.</example>
         public async Task<GetDatabaseToolsDatabaseApiGatewayConfigPoolResponse> GetDatabaseToolsDatabaseApiGatewayConfigPool(GetDatabaseToolsDatabaseApiGatewayConfigPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDatabaseToolsDatabaseApiGatewayConfigPool");
@@ -1174,7 +1174,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "GetDatabaseToolsDatabaseApiGatewayConfigPool",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfigPool/GetDatabaseToolsDatabaseApiGatewayConfigPool",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1201,7 +1201,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec.cs.html">here</a> to see an example of how to use GetDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec.cs.html">here</a> to see an example of how to use GetDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec API.</example>
         public async Task<GetDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecResponse> GetDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec(GetDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec");
@@ -1230,7 +1230,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "GetDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfigPoolApiSpec/GetDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1257,7 +1257,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec.cs.html">here</a> to see an example of how to use GetDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec.cs.html">here</a> to see an example of how to use GetDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec API.</example>
         public async Task<GetDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecResponse> GetDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec(GetDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec");
@@ -1286,7 +1286,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "GetDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec/GetDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1313,7 +1313,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetPropertySet.cs.html">here</a> to see an example of how to use GetPropertySet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetPropertySet.cs.html">here</a> to see an example of how to use GetPropertySet API.</example>
         public async Task<GetPropertySetResponse> GetPropertySet(GetPropertySetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPropertySet");
@@ -1342,7 +1342,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "GetPropertySet",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/PropertySet/GetPropertySet",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1369,7 +1369,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetUserCredential.cs.html">here</a> to see an example of how to use GetUserCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetUserCredential.cs.html">here</a> to see an example of how to use GetUserCredential API.</example>
         public async Task<GetUserCredentialResponse> GetUserCredential(GetUserCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getUserCredential");
@@ -1398,7 +1398,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "GetUserCredential",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/UserCredential/GetUserCredential",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1425,7 +1425,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -1454,7 +1454,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "GetWorkRequest",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/WorkRequest/GetWorkRequest",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1481,7 +1481,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListCredentialExecuteGrantees.cs.html">here</a> to see an example of how to use ListCredentialExecuteGrantees API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListCredentialExecuteGrantees.cs.html">here</a> to see an example of how to use ListCredentialExecuteGrantees API.</example>
         public async Task<ListCredentialExecuteGranteesResponse> ListCredentialExecuteGrantees(ListCredentialExecuteGranteesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCredentialExecuteGrantees");
@@ -1510,7 +1510,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "ListCredentialExecuteGrantees",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/CredentialExecuteGranteeCollection/ListCredentialExecuteGrantees",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1537,7 +1537,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListCredentialPublicSynonyms.cs.html">here</a> to see an example of how to use ListCredentialPublicSynonyms API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListCredentialPublicSynonyms.cs.html">here</a> to see an example of how to use ListCredentialPublicSynonyms API.</example>
         public async Task<ListCredentialPublicSynonymsResponse> ListCredentialPublicSynonyms(ListCredentialPublicSynonymsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCredentialPublicSynonyms");
@@ -1566,7 +1566,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "ListCredentialPublicSynonyms",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/CredentialPublicSynonymCollection/ListCredentialPublicSynonyms",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1593,7 +1593,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListCredentials.cs.html">here</a> to see an example of how to use ListCredentials API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListCredentials.cs.html">here</a> to see an example of how to use ListCredentials API.</example>
         public async Task<ListCredentialsResponse> ListCredentials(ListCredentialsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCredentials");
@@ -1622,7 +1622,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "ListCredentials",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/CredentialCollection/ListCredentials",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1649,7 +1649,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListDatabaseToolsDatabaseApiGatewayConfigAdvancedProperties.cs.html">here</a> to see an example of how to use ListDatabaseToolsDatabaseApiGatewayConfigAdvancedProperties API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListDatabaseToolsDatabaseApiGatewayConfigAdvancedProperties.cs.html">here</a> to see an example of how to use ListDatabaseToolsDatabaseApiGatewayConfigAdvancedProperties API.</example>
         public async Task<ListDatabaseToolsDatabaseApiGatewayConfigAdvancedPropertiesResponse> ListDatabaseToolsDatabaseApiGatewayConfigAdvancedProperties(ListDatabaseToolsDatabaseApiGatewayConfigAdvancedPropertiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDatabaseToolsDatabaseApiGatewayConfigAdvancedProperties");
@@ -1678,7 +1678,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "ListDatabaseToolsDatabaseApiGatewayConfigAdvancedProperties",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfigAdvancedPropertySummary/ListDatabaseToolsDatabaseApiGatewayConfigAdvancedProperties",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1705,7 +1705,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecs.cs.html">here</a> to see an example of how to use ListDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecs.cs.html">here</a> to see an example of how to use ListDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecs API.</example>
         public async Task<ListDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecsResponse> ListDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecs(ListDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecs");
@@ -1734,7 +1734,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "ListDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecs",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfig/ListDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecs",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1761,7 +1761,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecs.cs.html">here</a> to see an example of how to use ListDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecs.cs.html">here</a> to see an example of how to use ListDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecs API.</example>
         public async Task<ListDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecsResponse> ListDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecs(ListDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecs");
@@ -1790,7 +1790,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "ListDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecs",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfig/ListDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecs",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1817,7 +1817,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListDatabaseToolsDatabaseApiGatewayConfigPools.cs.html">here</a> to see an example of how to use ListDatabaseToolsDatabaseApiGatewayConfigPools API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListDatabaseToolsDatabaseApiGatewayConfigPools.cs.html">here</a> to see an example of how to use ListDatabaseToolsDatabaseApiGatewayConfigPools API.</example>
         public async Task<ListDatabaseToolsDatabaseApiGatewayConfigPoolsResponse> ListDatabaseToolsDatabaseApiGatewayConfigPools(ListDatabaseToolsDatabaseApiGatewayConfigPoolsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDatabaseToolsDatabaseApiGatewayConfigPools");
@@ -1846,7 +1846,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "ListDatabaseToolsDatabaseApiGatewayConfigPools",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfig/ListDatabaseToolsDatabaseApiGatewayConfigPools",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1873,7 +1873,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListUserCredentials.cs.html">here</a> to see an example of how to use ListUserCredentials API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListUserCredentials.cs.html">here</a> to see an example of how to use ListUserCredentials API.</example>
         public async Task<ListUserCredentialsResponse> ListUserCredentials(ListUserCredentialsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUserCredentials");
@@ -1902,7 +1902,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "ListUserCredentials",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/UserCredentialCollection/ListUserCredentials",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1930,7 +1930,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -1959,7 +1959,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "ListWorkRequestErrors",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/WorkRequestError/ListWorkRequestErrors",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1987,7 +1987,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -2016,7 +2016,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "ListWorkRequestLogs",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/WorkRequestLogEntry/ListWorkRequestLogs",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -2044,7 +2044,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -2073,7 +2073,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "ListWorkRequests",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/WorkRequest/ListWorkRequests",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -2100,7 +2100,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/UpdateCredential.cs.html">here</a> to see an example of how to use UpdateCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/UpdateCredential.cs.html">here</a> to see an example of how to use UpdateCredential API.</example>
         public async Task<UpdateCredentialResponse> UpdateCredential(UpdateCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCredential");
@@ -2129,7 +2129,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "UpdateCredential",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/Credential/UpdateCredential",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -2156,7 +2156,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/UpdateDatabaseToolsDatabaseApiGatewayConfigGlobal.cs.html">here</a> to see an example of how to use UpdateDatabaseToolsDatabaseApiGatewayConfigGlobal API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/UpdateDatabaseToolsDatabaseApiGatewayConfigGlobal.cs.html">here</a> to see an example of how to use UpdateDatabaseToolsDatabaseApiGatewayConfigGlobal API.</example>
         public async Task<UpdateDatabaseToolsDatabaseApiGatewayConfigGlobalResponse> UpdateDatabaseToolsDatabaseApiGatewayConfigGlobal(UpdateDatabaseToolsDatabaseApiGatewayConfigGlobalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDatabaseToolsDatabaseApiGatewayConfigGlobal");
@@ -2185,7 +2185,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "UpdateDatabaseToolsDatabaseApiGatewayConfigGlobal",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfigGlobal/UpdateDatabaseToolsDatabaseApiGatewayConfigGlobal",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -2212,7 +2212,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/UpdateDatabaseToolsDatabaseApiGatewayConfigPool.cs.html">here</a> to see an example of how to use UpdateDatabaseToolsDatabaseApiGatewayConfigPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/UpdateDatabaseToolsDatabaseApiGatewayConfigPool.cs.html">here</a> to see an example of how to use UpdateDatabaseToolsDatabaseApiGatewayConfigPool API.</example>
         public async Task<UpdateDatabaseToolsDatabaseApiGatewayConfigPoolResponse> UpdateDatabaseToolsDatabaseApiGatewayConfigPool(UpdateDatabaseToolsDatabaseApiGatewayConfigPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDatabaseToolsDatabaseApiGatewayConfigPool");
@@ -2241,7 +2241,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "UpdateDatabaseToolsDatabaseApiGatewayConfigPool",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfigPool/UpdateDatabaseToolsDatabaseApiGatewayConfigPool",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -2268,7 +2268,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/UpdateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec.cs.html">here</a> to see an example of how to use UpdateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/UpdateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec.cs.html">here</a> to see an example of how to use UpdateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec API.</example>
         public async Task<UpdateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecResponse> UpdateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec(UpdateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec");
@@ -2297,7 +2297,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "UpdateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfigPoolApiSpec/UpdateDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -2324,7 +2324,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/UpdateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec.cs.html">here</a> to see an example of how to use UpdateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/UpdateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec.cs.html">here</a> to see an example of how to use UpdateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec API.</example>
         public async Task<UpdateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecResponse> UpdateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec(UpdateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpecRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec");
@@ -2353,7 +2353,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "UpdateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec/UpdateDatabaseToolsDatabaseApiGatewayConfigPoolAutoApiSpec",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -2380,7 +2380,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/UpdatePropertySet.cs.html">here</a> to see an example of how to use UpdatePropertySet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/UpdatePropertySet.cs.html">here</a> to see an example of how to use UpdatePropertySet API.</example>
         public async Task<UpdatePropertySetResponse> UpdatePropertySet(UpdatePropertySetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePropertySet");
@@ -2409,7 +2409,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "UpdatePropertySet",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/PropertySet/UpdatePropertySet",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -2436,7 +2436,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ValidateDatabaseToolsConnection.cs.html">here</a> to see an example of how to use ValidateDatabaseToolsConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ValidateDatabaseToolsConnection.cs.html">here</a> to see an example of how to use ValidateDatabaseToolsConnection API.</example>
         public async Task<ValidateDatabaseToolsConnectionResponse> ValidateDatabaseToolsConnection(ValidateDatabaseToolsConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called validateDatabaseToolsConnection");
@@ -2465,7 +2465,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "ValidateDatabaseToolsConnection",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsConnection/ValidateDatabaseToolsConnection",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -2494,7 +2494,7 @@ namespace Oci.DatabasetoolsruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ValidateDatabaseToolsIdentityCredential.cs.html">here</a> to see an example of how to use ValidateDatabaseToolsIdentityCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ValidateDatabaseToolsIdentityCredential.cs.html">here</a> to see an example of how to use ValidateDatabaseToolsIdentityCredential API.</example>
         public async Task<ValidateDatabaseToolsIdentityCredentialResponse> ValidateDatabaseToolsIdentityCredential(ValidateDatabaseToolsIdentityCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called validateDatabaseToolsIdentityCredential");
@@ -2523,7 +2523,7 @@ namespace Oci.DatabasetoolsruntimeService
                     ServiceName = "DatabaseToolsRuntime",
                     OperationName = "ValidateDatabaseToolsIdentityCredential",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/database-tools-runtime/20230222/DatabaseToolsIdentity/ValidateDatabaseToolsIdentityCredential",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);

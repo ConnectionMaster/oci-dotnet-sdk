@@ -32,7 +32,7 @@ namespace Oci.OsmanagementhubService.Models
         public string Name { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the software source that provides the module.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the software source that provides the module.
         /// </value>
         [JsonProperty(PropertyName = "softwareSourceId")]
         public string SoftwareSourceId { get; set; }

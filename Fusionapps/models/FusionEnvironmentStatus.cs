@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FusionappsService.Models
 {
     /// <summary>
-    /// The health status of the Fusion Applications environment. For more information, see [Environment Status](https://docs.cloud.oracle.com/iaas/Content/fusion-applications/manage-environment.htm#environment-status).
+    /// The health status of the Fusion Applications environment. For more information, see [Environment Status](https://docs.oracle.com/iaas/Content/fusion-applications/manage-environment.htm#environment-status).
     /// </summary>
     public class FusionEnvironmentStatus 
     {

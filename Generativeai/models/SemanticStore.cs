@@ -19,14 +19,14 @@ namespace Oci.GenerativeaiService.Models
     /// A Semantic Store is a container resource of semantic records, with controllable enrichment refresh and synchronization policy.
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized, talk to an administrator who gives OCI resource access to users. See
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/policiesgs/get-started-with-policies.htm) and [Getting Access to Generative AI Resources](https://docs.cloud.oracle.com/iaas/Content/generative-ai/iam-policies.htm).
+    /// [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/policiesgs/get-started-with-policies.htm) and [Getting Access to Generative AI Resources](https://docs.oracle.com/iaas/Content/generative-ai/iam-policies.htm).
     /// 
     /// </summary>
     public class SemanticStore 
     {
         
         /// <value>
-        /// An [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that uniquely identifies a SemanticStore.
+        /// An [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that uniquely identifies a SemanticStore.
         /// </value>
         /// <remarks>
         /// Required
@@ -52,7 +52,7 @@ namespace Oci.GenerativeaiService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// Owning compartment [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for a SemanticStore.
+        /// Owning compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for a SemanticStore.
         /// </value>
         /// <remarks>
         /// Required
@@ -139,7 +139,7 @@ namespace Oci.GenerativeaiService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -152,7 +152,7 @@ namespace Oci.GenerativeaiService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>

@@ -14,7 +14,7 @@ using Oci.OptimizerService.Models;
 namespace Oci.OptimizerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/optimizer/CreateProfile.cs.html">here</a> to see an example of how to use CreateProfile request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/optimizer/CreateProfile.cs.html">here</a> to see an example of how to use CreateProfile request.
     /// </example>
     public class CreateProfileRequest : Oci.Common.IOciRequest
     {

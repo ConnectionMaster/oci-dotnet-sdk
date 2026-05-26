@@ -22,7 +22,7 @@ namespace Oci.ManagedkafkaService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the KafkaClusterConfig.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the KafkaClusterConfig.
         /// </value>
         /// <remarks>
         /// Required

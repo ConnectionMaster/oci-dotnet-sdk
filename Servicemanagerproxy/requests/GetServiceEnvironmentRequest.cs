@@ -14,7 +14,7 @@ using Oci.ServicemanagerproxyService.Models;
 namespace Oci.ServicemanagerproxyService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicemanagerproxy/GetServiceEnvironment.cs.html">here</a> to see an example of how to use GetServiceEnvironment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicemanagerproxy/GetServiceEnvironment.cs.html">here</a> to see an example of how to use GetServiceEnvironment request.
     /// </example>
     public class GetServiceEnvironmentRequest : Oci.Common.IOciRequest
     {
@@ -22,7 +22,7 @@ namespace Oci.ServicemanagerproxyService.Requests
         /// <value>
         /// The unique identifier associated with the service environment. 
         /// <br/>
-        /// **Note:** Not an [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// **Note:** Not an [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         /// <remarks>
@@ -33,7 +33,7 @@ namespace Oci.ServicemanagerproxyService.Requests
         public string ServiceEnvironmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) for the compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the compartment.
         /// </value>
         /// <remarks>
         /// Required

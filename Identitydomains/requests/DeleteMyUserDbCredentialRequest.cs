@@ -14,7 +14,7 @@ using Oci.IdentitydomainsService.Models;
 namespace Oci.IdentitydomainsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMyUserDbCredential.cs.html">here</a> to see an example of how to use DeleteMyUserDbCredential request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMyUserDbCredential.cs.html">here</a> to see an example of how to use DeleteMyUserDbCredential request.
     /// </example>
     public class DeleteMyUserDbCredentialRequest : Oci.Common.IOciRequest
     {

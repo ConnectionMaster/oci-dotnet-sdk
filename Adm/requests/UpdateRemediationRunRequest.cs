@@ -14,7 +14,7 @@ using Oci.AdmService.Models;
 namespace Oci.AdmService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/UpdateRemediationRun.cs.html">here</a> to see an example of how to use UpdateRemediationRun request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/UpdateRemediationRun.cs.html">here</a> to see an example of how to use UpdateRemediationRun request.
     /// </example>
     public class UpdateRemediationRunRequest : Oci.Common.IOciRequest
     {

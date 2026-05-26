@@ -14,7 +14,7 @@ using Oci.CostadService.Models;
 namespace Oci.CostadService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/CreateCostAlertSubscription.cs.html">here</a> to see an example of how to use CreateCostAlertSubscription request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/CreateCostAlertSubscription.cs.html">here</a> to see an example of how to use CreateCostAlertSubscription request.
     /// </example>
     public class CreateCostAlertSubscriptionRequest : Oci.Common.IOciRequest
     {

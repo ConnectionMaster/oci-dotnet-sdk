@@ -14,13 +14,13 @@ using Oci.MonitoringService.Models;
 namespace Oci.MonitoringService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/monitoring/GetAlarmSuppression.cs.html">here</a> to see an example of how to use GetAlarmSuppression request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/monitoring/GetAlarmSuppression.cs.html">here</a> to see an example of how to use GetAlarmSuppression request.
     /// </example>
     public class GetAlarmSuppressionRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the alarm suppression.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the alarm suppression.
         /// </value>
         /// <remarks>
         /// Required

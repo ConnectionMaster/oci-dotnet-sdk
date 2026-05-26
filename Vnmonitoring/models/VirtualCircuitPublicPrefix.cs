@@ -18,7 +18,7 @@ namespace Oci.VnmonitoringService.Models
     /// <summary>
     /// A public IP prefix and its details. With a public virtual circuit, the customer
     /// specifies the customer-owned public IP prefixes to advertise across the connection.
-    /// For more information, see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+    /// For more information, see [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
     /// 
     /// </summary>
     public class VirtualCircuitPublicPrefix 

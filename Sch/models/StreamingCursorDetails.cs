@@ -16,9 +16,9 @@ using Newtonsoft.Json.Linq;
 namespace Oci.SchService.Models
 {
     /// <summary>
-    /// The [read setting](https://docs.cloud.oracle.com/iaas/Content/connector-hub/create-service-connector-streaming-source.htm), which determines where in the stream to start moving data.
+    /// The [read setting](https://docs.oracle.com/iaas/Content/connector-hub/create-service-connector-streaming-source.htm), which determines where in the stream to start moving data.
     /// For configuration instructions, see
-    /// [Creating a Connector with a Streaming Source](https://docs.cloud.oracle.com/iaas/Content/connector-hub/create-service-connector-streaming-source.htm).
+    /// [Creating a Connector with a Streaming Source](https://docs.oracle.com/iaas/Content/connector-hub/create-service-connector-streaming-source.htm).
     /// 
     /// </summary>
     [JsonConverter(typeof(StreamingCursorDetailsModelConverter))]

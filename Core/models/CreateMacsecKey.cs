@@ -16,13 +16,13 @@ using Newtonsoft.Json.Converters;
 namespace Oci.CoreService.Models
 {
     /// <summary>
-    /// Defines the secret [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)s held in Vault that represent the MACsec key.
+    /// Defines the secret [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)s held in Vault that represent the MACsec key.
     /// </summary>
     public class CreateMacsecKey 
     {
         
         /// <value>
-        /// Secret [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) containing the Connectivity association Key Name (CKN) of this MACsec key.
+        /// Secret [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) containing the Connectivity association Key Name (CKN) of this MACsec key.
         /// <br/>
         /// NOTE: Only the latest secret version will be used.
         /// 
@@ -35,7 +35,7 @@ namespace Oci.CoreService.Models
         public string ConnectivityAssociationNameSecretId { get; set; }
         
         /// <value>
-        /// Secret [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) containing the Connectivity Association Key (CAK) of this MACsec key.
+        /// Secret [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) containing the Connectivity Association Key (CAK) of this MACsec key.
         /// <br/>
         /// NOTE: Only the latest secret version will be used.
         /// 

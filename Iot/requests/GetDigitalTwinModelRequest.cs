@@ -14,13 +14,13 @@ using Oci.IotService.Models;
 namespace Oci.IotService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetDigitalTwinModel.cs.html">here</a> to see an example of how to use GetDigitalTwinModel request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/GetDigitalTwinModel.cs.html">here</a> to see an example of how to use GetDigitalTwinModel request.
     /// </example>
     public class GetDigitalTwinModelRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of digital twin model.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of digital twin model.
         /// </value>
         /// <remarks>
         /// Required

@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.OpsiService.Models
 {
     /// <summary>
-    /// Compartment [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Enterprise Manager member entity (e.g. databases and hosts) associated with an Exadata system.
+    /// Compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Enterprise Manager member entity (e.g. databases and hosts) associated with an Exadata system.
     /// </summary>
     public class CreateEmManagedExternalExadataMemberEntityDetails 
     {
@@ -32,7 +32,7 @@ namespace Oci.OpsiService.Models
         public string EnterpriseManagerEntityIdentifier { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
         /// </value>
         /// <remarks>
         /// Required

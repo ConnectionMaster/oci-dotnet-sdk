@@ -29,7 +29,7 @@ namespace Oci.EmaildataplaneService.Models
         public EmailAddress SenderAddress { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the approved sender resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the approved sender resource.
         /// </value>
         /// <remarks>
         /// Required

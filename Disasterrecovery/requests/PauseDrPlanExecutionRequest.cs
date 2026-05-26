@@ -14,7 +14,7 @@ using Oci.DisasterrecoveryService.Models;
 namespace Oci.DisasterrecoveryService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/PauseDrPlanExecution.cs.html">here</a> to see an example of how to use PauseDrPlanExecution request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/PauseDrPlanExecution.cs.html">here</a> to see an example of how to use PauseDrPlanExecution request.
     /// </example>
     public class PauseDrPlanExecutionRequest : Oci.Common.IOciRequest
     {

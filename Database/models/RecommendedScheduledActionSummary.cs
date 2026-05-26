@@ -51,7 +51,9 @@ namespace Oci.DatabaseService.Models
             [EnumMember(Value = "FSU_VM_CLUSTER_GI_SOFTWARE_UPDATE")]
             FsuVmClusterGiSoftwareUpdate,
             [EnumMember(Value = "FSU_VM_CLUSTER_GI_OS_SOFTWARE_UPDATE")]
-            FsuVmClusterGiOsSoftwareUpdate
+            FsuVmClusterGiOsSoftwareUpdate,
+            [EnumMember(Value = "DB_SERVER_ONLINE_SOFTWARE_UPDATE")]
+            DbServerOnlineSoftwareUpdate
         };
 
         /// <value>

@@ -18,14 +18,14 @@ namespace Oci.LimitsincreaseService.Models
     /// <summary>
     /// The properties that define a limit increase request.
     /// For information about limit increase requests, see
-    /// [Working with Limit Increase Requests](https://docs.cloud.oracle.com/iaas/Content/General/service-limits/requests.htm).
+    /// [Working with Limit Increase Requests](https://docs.oracle.com/iaas/Content/General/service-limits/requests.htm).
     /// 
     /// </summary>
     public class LimitsIncreaseRequest 
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the limit increase request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the limit increase request.
         /// </value>
         /// <remarks>
         /// Required
@@ -46,7 +46,7 @@ namespace Oci.LimitsincreaseService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the limit increase request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the limit increase request.
         /// Note: The tenancy is the root compartment.
         /// 
         /// </value>
@@ -58,7 +58,7 @@ namespace Oci.LimitsincreaseService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the tenancy subscription for the limit increase request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the tenancy subscription for the limit increase request.
         /// </value>
         [JsonProperty(PropertyName = "subscriptionId")]
         public string SubscriptionId { get; set; }

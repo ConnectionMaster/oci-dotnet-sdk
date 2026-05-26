@@ -14,7 +14,7 @@ using Oci.OdaService.Models;
 namespace Oci.OdaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteOdaPrivateEndpointScanProxy.cs.html">here</a> to see an example of how to use DeleteOdaPrivateEndpointScanProxy request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/DeleteOdaPrivateEndpointScanProxy.cs.html">here</a> to see an example of how to use DeleteOdaPrivateEndpointScanProxy request.
     /// </example>
     public class DeleteOdaPrivateEndpointScanProxyRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.OdaService.Requests
         public string OdaPrivateEndpointScanProxyId { get; set; }
         
         /// <value>
-        /// Unique ODA Private Endpoint identifier which is the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Unique ODA Private Endpoint identifier which is the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

@@ -14,7 +14,7 @@ using Oci.AccessgovernancecpService.Models;
 namespace Oci.AccessgovernancecpService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/UpdateGovernanceInstanceConfiguration.cs.html">here</a> to see an example of how to use UpdateGovernanceInstanceConfiguration request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/UpdateGovernanceInstanceConfiguration.cs.html">here</a> to see an example of how to use UpdateGovernanceInstanceConfiguration request.
     /// </example>
     public class UpdateGovernanceInstanceConfigurationRequest : Oci.Common.IOciRequest
     {

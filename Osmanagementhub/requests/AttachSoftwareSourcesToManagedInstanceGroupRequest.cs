@@ -14,13 +14,13 @@ using Oci.OsmanagementhubService.Models;
 namespace Oci.OsmanagementhubService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachSoftwareSourcesToManagedInstanceGroup.cs.html">here</a> to see an example of how to use AttachSoftwareSourcesToManagedInstanceGroup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachSoftwareSourcesToManagedInstanceGroup.cs.html">here</a> to see an example of how to use AttachSoftwareSourcesToManagedInstanceGroup request.
     /// </example>
     public class AttachSoftwareSourcesToManagedInstanceGroupRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the managed instance group.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the managed instance group.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.OsmanagementhubService.Requests
         public string ManagedInstanceGroupId { get; set; }
         
         /// <value>
-        /// The software source [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) to attach to the managed instance group.
+        /// The software source [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) to attach to the managed instance group.
         /// </value>
         /// <remarks>
         /// Required

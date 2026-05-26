@@ -17,7 +17,7 @@ namespace Oci.ResourcemanagerService.Models
 {
     /// <summary>
     /// Job details that are specific to an apply rollback job. For more information about apply rollback jobs, see
-    /// [Creating an Apply Rollback Job](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/create-job-apply-rollback.htm).
+    /// [Creating an Apply Rollback Job](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/create-job-apply-rollback.htm).
     /// 
     /// </summary>
     public class ApplyRollbackJobOperationDetailsSummary : JobOperationDetailsSummary
@@ -37,14 +37,14 @@ namespace Oci.ResourcemanagerService.Models
         public System.Nullable<ApplyRollbackJobOperationDetails.ExecutionPlanRollbackStrategyEnum> ExecutionPlanRollbackStrategy { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a plan rollback job, for use when specifying `\"FROM_PLAN_ROLLBACK_JOB_ID\"` as the `executionPlanRollbackStrategy`.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a plan rollback job, for use when specifying `\"FROM_PLAN_ROLLBACK_JOB_ID\"` as the `executionPlanRollbackStrategy`.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "executionPlanRollbackJobId")]
         public string ExecutionPlanRollbackJobId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a successful apply job, for use when specifying `\"AUTO_APPROVED\"` as the `executionPlanRollbackStrategy`.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a successful apply job, for use when specifying `\"AUTO_APPROVED\"` as the `executionPlanRollbackStrategy`.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "targetRollbackJobId")]

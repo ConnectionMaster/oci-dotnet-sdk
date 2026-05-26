@@ -23,7 +23,7 @@ namespace Oci.FleetsoftwareupdateService.Models
     {
         
         /// <value>
-        /// The [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of Exadata VM Cluster targets.
+        /// The [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of Exadata VM Cluster targets.
         /// Only Exadata VM Cluster targets associated with the specified 'serviceType' are allowed.
         /// 
         /// </value>

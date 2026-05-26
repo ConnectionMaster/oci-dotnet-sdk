@@ -22,7 +22,7 @@ namespace Oci.ApmsyntheticsService.Models
     {
         
         /// <value>
-        /// Stack [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Resource Manager stack for dedicated vantage point.
+        /// Stack [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Resource Manager stack for dedicated vantage point.
         /// </value>
         /// <remarks>
         /// Required
@@ -32,7 +32,7 @@ namespace Oci.ApmsyntheticsService.Models
         public string DvpStackId { get; set; }
         
         /// <value>
-        /// Stream [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Resource Manager stack for dedicated vantage point.
+        /// Stream [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Resource Manager stack for dedicated vantage point.
         /// </value>
         /// <remarks>
         /// Required

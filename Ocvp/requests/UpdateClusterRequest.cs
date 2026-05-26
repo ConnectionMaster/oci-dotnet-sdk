@@ -14,13 +14,13 @@ using Oci.OcvpService.Models;
 namespace Oci.OcvpService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/UpdateCluster.cs.html">here</a> to see an example of how to use UpdateCluster request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/UpdateCluster.cs.html">here</a> to see an example of how to use UpdateCluster request.
     /// </example>
     public class UpdateClusterRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the SDDC Cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the SDDC Cluster.
         /// 
         /// </value>
         /// <remarks>

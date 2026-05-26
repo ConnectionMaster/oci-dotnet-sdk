@@ -24,7 +24,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// For instances that use a DenseIO shape, the flag denoting whether
-        /// [reboot migration](https://docs.cloud.oracle.com/iaas/Content/Compute/References/infrastructure-maintenance.htm#reboot)
+        /// [reboot migration](https://docs.oracle.com/iaas/Content/Compute/References/infrastructure-maintenance.htm#reboot)
         /// is performed for the instance. The default value is `false`.
         /// <br/>
         /// If the instance has a date in the Maintenance reboot field and you do nothing (or set this flag to `false`), the instance

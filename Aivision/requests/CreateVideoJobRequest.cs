@@ -14,7 +14,7 @@ using Oci.AivisionService.Models;
 namespace Oci.AivisionService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aivision/CreateVideoJob.cs.html">here</a> to see an example of how to use CreateVideoJob request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aivision/CreateVideoJob.cs.html">here</a> to see an example of how to use CreateVideoJob request.
     /// </example>
     public class CreateVideoJobRequest : Oci.Common.IOciRequest
     {

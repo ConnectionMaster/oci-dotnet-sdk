@@ -14,13 +14,13 @@ using Oci.SchService.Models;
 namespace Oci.SchService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/DeleteServiceConnector.cs.html">here</a> to see an example of how to use DeleteServiceConnector request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/DeleteServiceConnector.cs.html">here</a> to see an example of how to use DeleteServiceConnector request.
     /// </example>
     public class DeleteServiceConnectorRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the connector.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the connector.
         /// 
         /// </value>
         /// <remarks>

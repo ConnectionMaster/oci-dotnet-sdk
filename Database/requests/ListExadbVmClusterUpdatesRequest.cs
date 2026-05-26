@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListExadbVmClusterUpdates.cs.html">here</a> to see an example of how to use ListExadbVmClusterUpdates request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListExadbVmClusterUpdates.cs.html">here</a> to see an example of how to use ListExadbVmClusterUpdates request.
     /// </example>
     public class ListExadbVmClusterUpdatesRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The Exadata VM cluster [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) on Exascale Infrastructure.
+        /// The Exadata VM cluster [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) on Exascale Infrastructure.
         /// </value>
         /// <remarks>
         /// Required

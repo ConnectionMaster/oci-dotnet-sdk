@@ -22,7 +22,7 @@ namespace Oci.OpsiService.Models
     {
         
         /// <value>
-        /// The internal ID of the database. The internal ID of the database is not the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The internal ID of the database. The internal ID of the database is not the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// It can be retrieved from the following endpoint:
         /// /awrHubs/{awrHubId}/awrDatabases
         /// 
@@ -69,7 +69,7 @@ namespace Oci.OpsiService.Models
         public System.Nullable<System.DateTime> TimeLatestSnapshotEnd { get; set; }
         
         /// <value>
-        /// The ID of the earliest snapshot. The snapshot identifier is not the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The ID of the earliest snapshot. The snapshot identifier is not the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// It can be retrieved from the following endpoint:
         /// /awrHubs/{awrHubId}/awrDatabaseSnapshots
         /// 
@@ -78,7 +78,7 @@ namespace Oci.OpsiService.Models
         public System.Nullable<int> FirstSnapshotIdentifier { get; set; }
         
         /// <value>
-        /// The ID of the latest snapshot. The snapshot identifier is not the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The ID of the latest snapshot. The snapshot identifier is not the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// It can be retrieved from the following endpoint:
         /// /awrHubs/{awrHubId}/awrDatabaseSnapshots
         /// 

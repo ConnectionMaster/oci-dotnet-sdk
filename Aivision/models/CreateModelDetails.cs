@@ -86,7 +86,7 @@ namespace Oci.AivisionService.Models
         public Dataset ValidationDataset { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the project that contains the model.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the project that contains the model.
         /// </value>
         /// <remarks>
         /// Required

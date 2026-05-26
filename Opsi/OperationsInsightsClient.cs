@@ -80,7 +80,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/AddExadataInsightMembers.cs.html">here</a> to see an example of how to use AddExadataInsightMembers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/AddExadataInsightMembers.cs.html">here</a> to see an example of how to use AddExadataInsightMembers API.</example>
         public async Task<AddExadataInsightMembersResponse> AddExadataInsightMembers(AddExadataInsightMembersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addExadataInsightMembers");
@@ -136,7 +136,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeAutonomousDatabaseInsightAdvancedFeatures.cs.html">here</a> to see an example of how to use ChangeAutonomousDatabaseInsightAdvancedFeatures API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeAutonomousDatabaseInsightAdvancedFeatures.cs.html">here</a> to see an example of how to use ChangeAutonomousDatabaseInsightAdvancedFeatures API.</example>
         public async Task<ChangeAutonomousDatabaseInsightAdvancedFeaturesResponse> ChangeAutonomousDatabaseInsightAdvancedFeatures(ChangeAutonomousDatabaseInsightAdvancedFeaturesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeAutonomousDatabaseInsightAdvancedFeatures");
@@ -192,7 +192,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeAwrHubSourceCompartment.cs.html">here</a> to see an example of how to use ChangeAwrHubSourceCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeAwrHubSourceCompartment.cs.html">here</a> to see an example of how to use ChangeAwrHubSourceCompartment API.</example>
         public async Task<ChangeAwrHubSourceCompartmentResponse> ChangeAwrHubSourceCompartment(ChangeAwrHubSourceCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeAwrHubSourceCompartment");
@@ -248,7 +248,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeChargebackPlanCompartment.cs.html">here</a> to see an example of how to use ChangeChargebackPlanCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeChargebackPlanCompartment.cs.html">here</a> to see an example of how to use ChangeChargebackPlanCompartment API.</example>
         public async Task<ChangeChargebackPlanCompartmentResponse> ChangeChargebackPlanCompartment(ChangeChargebackPlanCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeChargebackPlanCompartment");
@@ -304,7 +304,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeDatabaseInsightCompartment.cs.html">here</a> to see an example of how to use ChangeDatabaseInsightCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeDatabaseInsightCompartment.cs.html">here</a> to see an example of how to use ChangeDatabaseInsightCompartment API.</example>
         public async Task<ChangeDatabaseInsightCompartmentResponse> ChangeDatabaseInsightCompartment(ChangeDatabaseInsightCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDatabaseInsightCompartment");
@@ -360,7 +360,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeEnterpriseManagerBridgeCompartment.cs.html">here</a> to see an example of how to use ChangeEnterpriseManagerBridgeCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeEnterpriseManagerBridgeCompartment.cs.html">here</a> to see an example of how to use ChangeEnterpriseManagerBridgeCompartment API.</example>
         public async Task<ChangeEnterpriseManagerBridgeCompartmentResponse> ChangeEnterpriseManagerBridgeCompartment(ChangeEnterpriseManagerBridgeCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeEnterpriseManagerBridgeCompartment");
@@ -416,7 +416,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeExadataInsightCompartment.cs.html">here</a> to see an example of how to use ChangeExadataInsightCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeExadataInsightCompartment.cs.html">here</a> to see an example of how to use ChangeExadataInsightCompartment API.</example>
         public async Task<ChangeExadataInsightCompartmentResponse> ChangeExadataInsightCompartment(ChangeExadataInsightCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeExadataInsightCompartment");
@@ -474,7 +474,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeExternalMysqlDatabaseInsightConnection.cs.html">here</a> to see an example of how to use ChangeExternalMysqlDatabaseInsightConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeExternalMysqlDatabaseInsightConnection.cs.html">here</a> to see an example of how to use ChangeExternalMysqlDatabaseInsightConnection API.</example>
         public async Task<ChangeExternalMysqlDatabaseInsightConnectionResponse> ChangeExternalMysqlDatabaseInsightConnection(ChangeExternalMysqlDatabaseInsightConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeExternalMysqlDatabaseInsightConnection");
@@ -530,7 +530,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeHostInsightCompartment.cs.html">here</a> to see an example of how to use ChangeHostInsightCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeHostInsightCompartment.cs.html">here</a> to see an example of how to use ChangeHostInsightCompartment API.</example>
         public async Task<ChangeHostInsightCompartmentResponse> ChangeHostInsightCompartment(ChangeHostInsightCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeHostInsightCompartment");
@@ -586,7 +586,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeMacsManagedAutonomousDatabaseInsightConnection.cs.html">here</a> to see an example of how to use ChangeMacsManagedAutonomousDatabaseInsightConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeMacsManagedAutonomousDatabaseInsightConnection.cs.html">here</a> to see an example of how to use ChangeMacsManagedAutonomousDatabaseInsightConnection API.</example>
         public async Task<ChangeMacsManagedAutonomousDatabaseInsightConnectionResponse> ChangeMacsManagedAutonomousDatabaseInsightConnection(ChangeMacsManagedAutonomousDatabaseInsightConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMacsManagedAutonomousDatabaseInsightConnection");
@@ -642,7 +642,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeMacsManagedCloudDatabaseInsightConnection.cs.html">here</a> to see an example of how to use ChangeMacsManagedCloudDatabaseInsightConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeMacsManagedCloudDatabaseInsightConnection.cs.html">here</a> to see an example of how to use ChangeMacsManagedCloudDatabaseInsightConnection API.</example>
         public async Task<ChangeMacsManagedCloudDatabaseInsightConnectionResponse> ChangeMacsManagedCloudDatabaseInsightConnection(ChangeMacsManagedCloudDatabaseInsightConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMacsManagedCloudDatabaseInsightConnection");
@@ -698,7 +698,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeNewsReportCompartment.cs.html">here</a> to see an example of how to use ChangeNewsReportCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeNewsReportCompartment.cs.html">here</a> to see an example of how to use ChangeNewsReportCompartment API.</example>
         public async Task<ChangeNewsReportCompartmentResponse> ChangeNewsReportCompartment(ChangeNewsReportCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeNewsReportCompartment");
@@ -754,7 +754,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeOperationsInsightsPrivateEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeOperationsInsightsPrivateEndpointCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeOperationsInsightsPrivateEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeOperationsInsightsPrivateEndpointCompartment API.</example>
         public async Task<ChangeOperationsInsightsPrivateEndpointCompartmentResponse> ChangeOperationsInsightsPrivateEndpointCompartment(ChangeOperationsInsightsPrivateEndpointCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeOperationsInsightsPrivateEndpointCompartment");
@@ -810,7 +810,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeOperationsInsightsWarehouseCompartment.cs.html">here</a> to see an example of how to use ChangeOperationsInsightsWarehouseCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeOperationsInsightsWarehouseCompartment.cs.html">here</a> to see an example of how to use ChangeOperationsInsightsWarehouseCompartment API.</example>
         public async Task<ChangeOperationsInsightsWarehouseCompartmentResponse> ChangeOperationsInsightsWarehouseCompartment(ChangeOperationsInsightsWarehouseCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeOperationsInsightsWarehouseCompartment");
@@ -866,7 +866,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeOpsiConfigurationCompartment.cs.html">here</a> to see an example of how to use ChangeOpsiConfigurationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangeOpsiConfigurationCompartment.cs.html">here</a> to see an example of how to use ChangeOpsiConfigurationCompartment API.</example>
         public async Task<ChangeOpsiConfigurationCompartmentResponse> ChangeOpsiConfigurationCompartment(ChangeOpsiConfigurationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeOpsiConfigurationCompartment");
@@ -922,7 +922,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangePeComanagedDatabaseInsight.cs.html">here</a> to see an example of how to use ChangePeComanagedDatabaseInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ChangePeComanagedDatabaseInsight.cs.html">here</a> to see an example of how to use ChangePeComanagedDatabaseInsight API.</example>
         public async Task<ChangePeComanagedDatabaseInsightResponse> ChangePeComanagedDatabaseInsight(ChangePeComanagedDatabaseInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changePeComanagedDatabaseInsight");
@@ -980,7 +980,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateAwrHub.cs.html">here</a> to see an example of how to use CreateAwrHub API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateAwrHub.cs.html">here</a> to see an example of how to use CreateAwrHub API.</example>
         public async Task<CreateAwrHubResponse> CreateAwrHub(CreateAwrHubRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAwrHub");
@@ -1037,7 +1037,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateAwrHubSource.cs.html">here</a> to see an example of how to use CreateAwrHubSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateAwrHubSource.cs.html">here</a> to see an example of how to use CreateAwrHubSource API.</example>
         public async Task<CreateAwrHubSourceResponse> CreateAwrHubSource(CreateAwrHubSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAwrHubSource");
@@ -1094,7 +1094,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateChargebackPlan.cs.html">here</a> to see an example of how to use CreateChargebackPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateChargebackPlan.cs.html">here</a> to see an example of how to use CreateChargebackPlan API.</example>
         public async Task<CreateChargebackPlanResponse> CreateChargebackPlan(CreateChargebackPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createChargebackPlan");
@@ -1150,7 +1150,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateChargebackPlanReport.cs.html">here</a> to see an example of how to use CreateChargebackPlanReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateChargebackPlanReport.cs.html">here</a> to see an example of how to use CreateChargebackPlanReport API.</example>
         public async Task<CreateChargebackPlanReportResponse> CreateChargebackPlanReport(CreateChargebackPlanReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createChargebackPlanReport");
@@ -1207,7 +1207,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateDatabaseInsight.cs.html">here</a> to see an example of how to use CreateDatabaseInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateDatabaseInsight.cs.html">here</a> to see an example of how to use CreateDatabaseInsight API.</example>
         public async Task<CreateDatabaseInsightResponse> CreateDatabaseInsight(CreateDatabaseInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDatabaseInsight");
@@ -1264,7 +1264,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateEnterpriseManagerBridge.cs.html">here</a> to see an example of how to use CreateEnterpriseManagerBridge API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateEnterpriseManagerBridge.cs.html">here</a> to see an example of how to use CreateEnterpriseManagerBridge API.</example>
         public async Task<CreateEnterpriseManagerBridgeResponse> CreateEnterpriseManagerBridge(CreateEnterpriseManagerBridgeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createEnterpriseManagerBridge");
@@ -1321,7 +1321,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateExadataInsight.cs.html">here</a> to see an example of how to use CreateExadataInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateExadataInsight.cs.html">here</a> to see an example of how to use CreateExadataInsight API.</example>
         public async Task<CreateExadataInsightResponse> CreateExadataInsight(CreateExadataInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createExadataInsight");
@@ -1378,7 +1378,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateHostInsight.cs.html">here</a> to see an example of how to use CreateHostInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateHostInsight.cs.html">here</a> to see an example of how to use CreateHostInsight API.</example>
         public async Task<CreateHostInsightResponse> CreateHostInsight(CreateHostInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createHostInsight");
@@ -1435,7 +1435,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateNewsReport.cs.html">here</a> to see an example of how to use CreateNewsReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateNewsReport.cs.html">here</a> to see an example of how to use CreateNewsReport API.</example>
         public async Task<CreateNewsReportResponse> CreateNewsReport(CreateNewsReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createNewsReport");
@@ -1493,7 +1493,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateOperationsInsightsPrivateEndpoint.cs.html">here</a> to see an example of how to use CreateOperationsInsightsPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateOperationsInsightsPrivateEndpoint.cs.html">here</a> to see an example of how to use CreateOperationsInsightsPrivateEndpoint API.</example>
         public async Task<CreateOperationsInsightsPrivateEndpointResponse> CreateOperationsInsightsPrivateEndpoint(CreateOperationsInsightsPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOperationsInsightsPrivateEndpoint");
@@ -1552,7 +1552,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateOperationsInsightsWarehouse.cs.html">here</a> to see an example of how to use CreateOperationsInsightsWarehouse API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateOperationsInsightsWarehouse.cs.html">here</a> to see an example of how to use CreateOperationsInsightsWarehouse API.</example>
         public async Task<CreateOperationsInsightsWarehouseResponse> CreateOperationsInsightsWarehouse(CreateOperationsInsightsWarehouseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOperationsInsightsWarehouse");
@@ -1610,7 +1610,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateOperationsInsightsWarehouseUser.cs.html">here</a> to see an example of how to use CreateOperationsInsightsWarehouseUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateOperationsInsightsWarehouseUser.cs.html">here</a> to see an example of how to use CreateOperationsInsightsWarehouseUser API.</example>
         public async Task<CreateOperationsInsightsWarehouseUserResponse> CreateOperationsInsightsWarehouseUser(CreateOperationsInsightsWarehouseUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOperationsInsightsWarehouseUser");
@@ -1667,7 +1667,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateOpsiConfiguration.cs.html">here</a> to see an example of how to use CreateOpsiConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateOpsiConfiguration.cs.html">here</a> to see an example of how to use CreateOpsiConfiguration API.</example>
         public async Task<CreateOpsiConfigurationResponse> CreateOpsiConfiguration(CreateOpsiConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOpsiConfiguration");
@@ -1723,7 +1723,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteAwrHub.cs.html">here</a> to see an example of how to use DeleteAwrHub API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteAwrHub.cs.html">here</a> to see an example of how to use DeleteAwrHub API.</example>
         public async Task<DeleteAwrHubResponse> DeleteAwrHub(DeleteAwrHubRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAwrHub");
@@ -1779,7 +1779,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteAwrHubObject.cs.html">here</a> to see an example of how to use DeleteAwrHubObject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteAwrHubObject.cs.html">here</a> to see an example of how to use DeleteAwrHubObject API.</example>
         public async Task<DeleteAwrHubObjectResponse> DeleteAwrHubObject(DeleteAwrHubObjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAwrHubObject");
@@ -1835,7 +1835,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteAwrHubSource.cs.html">here</a> to see an example of how to use DeleteAwrHubSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteAwrHubSource.cs.html">here</a> to see an example of how to use DeleteAwrHubSource API.</example>
         public async Task<DeleteAwrHubSourceResponse> DeleteAwrHubSource(DeleteAwrHubSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAwrHubSource");
@@ -1891,7 +1891,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteChargebackPlan.cs.html">here</a> to see an example of how to use DeleteChargebackPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteChargebackPlan.cs.html">here</a> to see an example of how to use DeleteChargebackPlan API.</example>
         public async Task<DeleteChargebackPlanResponse> DeleteChargebackPlan(DeleteChargebackPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteChargebackPlan");
@@ -1947,7 +1947,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteChargebackPlanReport.cs.html">here</a> to see an example of how to use DeleteChargebackPlanReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteChargebackPlanReport.cs.html">here</a> to see an example of how to use DeleteChargebackPlanReport API.</example>
         public async Task<DeleteChargebackPlanReportResponse> DeleteChargebackPlanReport(DeleteChargebackPlanReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteChargebackPlanReport");
@@ -2003,7 +2003,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteDatabaseInsight.cs.html">here</a> to see an example of how to use DeleteDatabaseInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteDatabaseInsight.cs.html">here</a> to see an example of how to use DeleteDatabaseInsight API.</example>
         public async Task<DeleteDatabaseInsightResponse> DeleteDatabaseInsight(DeleteDatabaseInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDatabaseInsight");
@@ -2059,7 +2059,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteEnterpriseManagerBridge.cs.html">here</a> to see an example of how to use DeleteEnterpriseManagerBridge API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteEnterpriseManagerBridge.cs.html">here</a> to see an example of how to use DeleteEnterpriseManagerBridge API.</example>
         public async Task<DeleteEnterpriseManagerBridgeResponse> DeleteEnterpriseManagerBridge(DeleteEnterpriseManagerBridgeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteEnterpriseManagerBridge");
@@ -2115,7 +2115,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteExadataInsight.cs.html">here</a> to see an example of how to use DeleteExadataInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteExadataInsight.cs.html">here</a> to see an example of how to use DeleteExadataInsight API.</example>
         public async Task<DeleteExadataInsightResponse> DeleteExadataInsight(DeleteExadataInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteExadataInsight");
@@ -2171,7 +2171,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteHostInsight.cs.html">here</a> to see an example of how to use DeleteHostInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteHostInsight.cs.html">here</a> to see an example of how to use DeleteHostInsight API.</example>
         public async Task<DeleteHostInsightResponse> DeleteHostInsight(DeleteHostInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteHostInsight");
@@ -2227,7 +2227,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteNewsReport.cs.html">here</a> to see an example of how to use DeleteNewsReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteNewsReport.cs.html">here</a> to see an example of how to use DeleteNewsReport API.</example>
         public async Task<DeleteNewsReportResponse> DeleteNewsReport(DeleteNewsReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteNewsReport");
@@ -2283,7 +2283,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteOperationsInsightsPrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteOperationsInsightsPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteOperationsInsightsPrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteOperationsInsightsPrivateEndpoint API.</example>
         public async Task<DeleteOperationsInsightsPrivateEndpointResponse> DeleteOperationsInsightsPrivateEndpoint(DeleteOperationsInsightsPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOperationsInsightsPrivateEndpoint");
@@ -2343,7 +2343,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteOperationsInsightsWarehouse.cs.html">here</a> to see an example of how to use DeleteOperationsInsightsWarehouse API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteOperationsInsightsWarehouse.cs.html">here</a> to see an example of how to use DeleteOperationsInsightsWarehouse API.</example>
         public async Task<DeleteOperationsInsightsWarehouseResponse> DeleteOperationsInsightsWarehouse(DeleteOperationsInsightsWarehouseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOperationsInsightsWarehouse");
@@ -2399,7 +2399,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteOperationsInsightsWarehouseUser.cs.html">here</a> to see an example of how to use DeleteOperationsInsightsWarehouseUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteOperationsInsightsWarehouseUser.cs.html">here</a> to see an example of how to use DeleteOperationsInsightsWarehouseUser API.</example>
         public async Task<DeleteOperationsInsightsWarehouseUserResponse> DeleteOperationsInsightsWarehouseUser(DeleteOperationsInsightsWarehouseUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOperationsInsightsWarehouseUser");
@@ -2455,7 +2455,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteOpsiConfiguration.cs.html">here</a> to see an example of how to use DeleteOpsiConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DeleteOpsiConfiguration.cs.html">here</a> to see an example of how to use DeleteOpsiConfiguration API.</example>
         public async Task<DeleteOpsiConfigurationResponse> DeleteOpsiConfiguration(DeleteOpsiConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOpsiConfiguration");
@@ -2511,7 +2511,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DisableAutonomousDatabaseInsightAdvancedFeatures.cs.html">here</a> to see an example of how to use DisableAutonomousDatabaseInsightAdvancedFeatures API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DisableAutonomousDatabaseInsightAdvancedFeatures.cs.html">here</a> to see an example of how to use DisableAutonomousDatabaseInsightAdvancedFeatures API.</example>
         public async Task<DisableAutonomousDatabaseInsightAdvancedFeaturesResponse> DisableAutonomousDatabaseInsightAdvancedFeatures(DisableAutonomousDatabaseInsightAdvancedFeaturesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableAutonomousDatabaseInsightAdvancedFeatures");
@@ -2567,7 +2567,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DisableAwrHubSource.cs.html">here</a> to see an example of how to use DisableAwrHubSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DisableAwrHubSource.cs.html">here</a> to see an example of how to use DisableAwrHubSource API.</example>
         public async Task<DisableAwrHubSourceResponse> DisableAwrHubSource(DisableAwrHubSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableAwrHubSource");
@@ -2623,7 +2623,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DisableDatabaseInsight.cs.html">here</a> to see an example of how to use DisableDatabaseInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DisableDatabaseInsight.cs.html">here</a> to see an example of how to use DisableDatabaseInsight API.</example>
         public async Task<DisableDatabaseInsightResponse> DisableDatabaseInsight(DisableDatabaseInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableDatabaseInsight");
@@ -2679,7 +2679,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DisableExadataInsight.cs.html">here</a> to see an example of how to use DisableExadataInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DisableExadataInsight.cs.html">here</a> to see an example of how to use DisableExadataInsight API.</example>
         public async Task<DisableExadataInsightResponse> DisableExadataInsight(DisableExadataInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableExadataInsight");
@@ -2735,7 +2735,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DisableHostInsight.cs.html">here</a> to see an example of how to use DisableHostInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DisableHostInsight.cs.html">here</a> to see an example of how to use DisableHostInsight API.</example>
         public async Task<DisableHostInsightResponse> DisableHostInsight(DisableHostInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableHostInsight");
@@ -2791,7 +2791,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DisablePlanExadataInsight.cs.html">here</a> to see an example of how to use DisablePlanExadataInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DisablePlanExadataInsight.cs.html">here</a> to see an example of how to use DisablePlanExadataInsight API.</example>
         public async Task<DisablePlanExadataInsightResponse> DisablePlanExadataInsight(DisablePlanExadataInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disablePlanExadataInsight");
@@ -2847,7 +2847,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DownloadOperationsInsightsWarehouseWallet.cs.html">here</a> to see an example of how to use DownloadOperationsInsightsWarehouseWallet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/DownloadOperationsInsightsWarehouseWallet.cs.html">here</a> to see an example of how to use DownloadOperationsInsightsWarehouseWallet API.</example>
         public async Task<DownloadOperationsInsightsWarehouseWalletResponse> DownloadOperationsInsightsWarehouseWallet(DownloadOperationsInsightsWarehouseWalletRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called downloadOperationsInsightsWarehouseWallet");
@@ -2903,7 +2903,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/EnableAutonomousDatabaseInsightAdvancedFeatures.cs.html">here</a> to see an example of how to use EnableAutonomousDatabaseInsightAdvancedFeatures API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/EnableAutonomousDatabaseInsightAdvancedFeatures.cs.html">here</a> to see an example of how to use EnableAutonomousDatabaseInsightAdvancedFeatures API.</example>
         public async Task<EnableAutonomousDatabaseInsightAdvancedFeaturesResponse> EnableAutonomousDatabaseInsightAdvancedFeatures(EnableAutonomousDatabaseInsightAdvancedFeaturesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enableAutonomousDatabaseInsightAdvancedFeatures");
@@ -2959,7 +2959,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/EnableAwrHubSource.cs.html">here</a> to see an example of how to use EnableAwrHubSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/EnableAwrHubSource.cs.html">here</a> to see an example of how to use EnableAwrHubSource API.</example>
         public async Task<EnableAwrHubSourceResponse> EnableAwrHubSource(EnableAwrHubSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enableAwrHubSource");
@@ -3015,7 +3015,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/EnableDatabaseInsight.cs.html">here</a> to see an example of how to use EnableDatabaseInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/EnableDatabaseInsight.cs.html">here</a> to see an example of how to use EnableDatabaseInsight API.</example>
         public async Task<EnableDatabaseInsightResponse> EnableDatabaseInsight(EnableDatabaseInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enableDatabaseInsight");
@@ -3071,7 +3071,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/EnableExadataInsight.cs.html">here</a> to see an example of how to use EnableExadataInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/EnableExadataInsight.cs.html">here</a> to see an example of how to use EnableExadataInsight API.</example>
         public async Task<EnableExadataInsightResponse> EnableExadataInsight(EnableExadataInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enableExadataInsight");
@@ -3127,7 +3127,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/EnableHostInsight.cs.html">here</a> to see an example of how to use EnableHostInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/EnableHostInsight.cs.html">here</a> to see an example of how to use EnableHostInsight API.</example>
         public async Task<EnableHostInsightResponse> EnableHostInsight(EnableHostInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enableHostInsight");
@@ -3183,7 +3183,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/EnablePlanExadataInsight.cs.html">here</a> to see an example of how to use EnablePlanExadataInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/EnablePlanExadataInsight.cs.html">here</a> to see an example of how to use EnablePlanExadataInsight API.</example>
         public async Task<EnablePlanExadataInsightResponse> EnablePlanExadataInsight(EnablePlanExadataInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enablePlanExadataInsight");
@@ -3240,7 +3240,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetAwrDatabaseReport.cs.html">here</a> to see an example of how to use GetAwrDatabaseReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetAwrDatabaseReport.cs.html">here</a> to see an example of how to use GetAwrDatabaseReport API.</example>
         public async Task<GetAwrDatabaseReportResponse> GetAwrDatabaseReport(GetAwrDatabaseReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAwrDatabaseReport");
@@ -3297,7 +3297,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetAwrDatabaseSqlReport.cs.html">here</a> to see an example of how to use GetAwrDatabaseSqlReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetAwrDatabaseSqlReport.cs.html">here</a> to see an example of how to use GetAwrDatabaseSqlReport API.</example>
         public async Task<GetAwrDatabaseSqlReportResponse> GetAwrDatabaseSqlReport(GetAwrDatabaseSqlReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAwrDatabaseSqlReport");
@@ -3353,7 +3353,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetAwrHub.cs.html">here</a> to see an example of how to use GetAwrHub API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetAwrHub.cs.html">here</a> to see an example of how to use GetAwrHub API.</example>
         public async Task<GetAwrHubResponse> GetAwrHub(GetAwrHubRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAwrHub");
@@ -3409,7 +3409,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetAwrHubObject.cs.html">here</a> to see an example of how to use GetAwrHubObject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetAwrHubObject.cs.html">here</a> to see an example of how to use GetAwrHubObject API.</example>
         public async Task<GetAwrHubObjectResponse> GetAwrHubObject(GetAwrHubObjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAwrHubObject");
@@ -3465,7 +3465,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetAwrHubSource.cs.html">here</a> to see an example of how to use GetAwrHubSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetAwrHubSource.cs.html">here</a> to see an example of how to use GetAwrHubSource API.</example>
         public async Task<GetAwrHubSourceResponse> GetAwrHubSource(GetAwrHubSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAwrHubSource");
@@ -3523,7 +3523,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetAwrReport.cs.html">here</a> to see an example of how to use GetAwrReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetAwrReport.cs.html">here</a> to see an example of how to use GetAwrReport API.</example>
         public async Task<GetAwrReportResponse> GetAwrReport(GetAwrReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAwrReport");
@@ -3579,7 +3579,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetChargebackPlan.cs.html">here</a> to see an example of how to use GetChargebackPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetChargebackPlan.cs.html">here</a> to see an example of how to use GetChargebackPlan API.</example>
         public async Task<GetChargebackPlanResponse> GetChargebackPlan(GetChargebackPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getChargebackPlan");
@@ -3635,7 +3635,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetChargebackPlanReport.cs.html">here</a> to see an example of how to use GetChargebackPlanReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetChargebackPlanReport.cs.html">here</a> to see an example of how to use GetChargebackPlanReport API.</example>
         public async Task<GetChargebackPlanReportResponse> GetChargebackPlanReport(GetChargebackPlanReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getChargebackPlanReport");
@@ -3691,7 +3691,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetChargebackPlanReportContent.cs.html">here</a> to see an example of how to use GetChargebackPlanReportContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetChargebackPlanReportContent.cs.html">here</a> to see an example of how to use GetChargebackPlanReportContent API.</example>
         public async Task<GetChargebackPlanReportContentResponse> GetChargebackPlanReportContent(GetChargebackPlanReportContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getChargebackPlanReportContent");
@@ -3747,7 +3747,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetDatabaseInsight.cs.html">here</a> to see an example of how to use GetDatabaseInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetDatabaseInsight.cs.html">here</a> to see an example of how to use GetDatabaseInsight API.</example>
         public async Task<GetDatabaseInsightResponse> GetDatabaseInsight(GetDatabaseInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDatabaseInsight");
@@ -3803,7 +3803,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetEnterpriseManagerBridge.cs.html">here</a> to see an example of how to use GetEnterpriseManagerBridge API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetEnterpriseManagerBridge.cs.html">here</a> to see an example of how to use GetEnterpriseManagerBridge API.</example>
         public async Task<GetEnterpriseManagerBridgeResponse> GetEnterpriseManagerBridge(GetEnterpriseManagerBridgeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getEnterpriseManagerBridge");
@@ -3859,7 +3859,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetExadataInsight.cs.html">here</a> to see an example of how to use GetExadataInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetExadataInsight.cs.html">here</a> to see an example of how to use GetExadataInsight API.</example>
         public async Task<GetExadataInsightResponse> GetExadataInsight(GetExadataInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getExadataInsight");
@@ -3915,7 +3915,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetHostInsight.cs.html">here</a> to see an example of how to use GetHostInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetHostInsight.cs.html">here</a> to see an example of how to use GetHostInsight API.</example>
         public async Task<GetHostInsightResponse> GetHostInsight(GetHostInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getHostInsight");
@@ -3971,7 +3971,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetNewsReport.cs.html">here</a> to see an example of how to use GetNewsReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetNewsReport.cs.html">here</a> to see an example of how to use GetNewsReport API.</example>
         public async Task<GetNewsReportResponse> GetNewsReport(GetNewsReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNewsReport");
@@ -4027,7 +4027,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetOperationsInsightsPrivateEndpoint.cs.html">here</a> to see an example of how to use GetOperationsInsightsPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetOperationsInsightsPrivateEndpoint.cs.html">here</a> to see an example of how to use GetOperationsInsightsPrivateEndpoint API.</example>
         public async Task<GetOperationsInsightsPrivateEndpointResponse> GetOperationsInsightsPrivateEndpoint(GetOperationsInsightsPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOperationsInsightsPrivateEndpoint");
@@ -4085,7 +4085,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetOperationsInsightsWarehouse.cs.html">here</a> to see an example of how to use GetOperationsInsightsWarehouse API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetOperationsInsightsWarehouse.cs.html">here</a> to see an example of how to use GetOperationsInsightsWarehouse API.</example>
         public async Task<GetOperationsInsightsWarehouseResponse> GetOperationsInsightsWarehouse(GetOperationsInsightsWarehouseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOperationsInsightsWarehouse");
@@ -4141,7 +4141,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetOperationsInsightsWarehouseUser.cs.html">here</a> to see an example of how to use GetOperationsInsightsWarehouseUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetOperationsInsightsWarehouseUser.cs.html">here</a> to see an example of how to use GetOperationsInsightsWarehouseUser API.</example>
         public async Task<GetOperationsInsightsWarehouseUserResponse> GetOperationsInsightsWarehouseUser(GetOperationsInsightsWarehouseUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOperationsInsightsWarehouseUser");
@@ -4200,7 +4200,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetOpsiConfiguration.cs.html">here</a> to see an example of how to use GetOpsiConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetOpsiConfiguration.cs.html">here</a> to see an example of how to use GetOpsiConfiguration API.</example>
         public async Task<GetOpsiConfigurationResponse> GetOpsiConfiguration(GetOpsiConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOpsiConfiguration");
@@ -4256,7 +4256,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetOpsiDataObject.cs.html">here</a> to see an example of how to use GetOpsiDataObject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetOpsiDataObject.cs.html">here</a> to see an example of how to use GetOpsiDataObject API.</example>
         public async Task<GetOpsiDataObjectResponse> GetOpsiDataObject(GetOpsiDataObjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOpsiDataObject");
@@ -4312,7 +4312,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -4369,7 +4369,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/HeadAwrHubObject.cs.html">here</a> to see an example of how to use HeadAwrHubObject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/HeadAwrHubObject.cs.html">here</a> to see an example of how to use HeadAwrHubObject API.</example>
         public async Task<HeadAwrHubObjectResponse> HeadAwrHubObject(HeadAwrHubObjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called headAwrHubObject");
@@ -4427,7 +4427,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestAddmReports.cs.html">here</a> to see an example of how to use IngestAddmReports API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestAddmReports.cs.html">here</a> to see an example of how to use IngestAddmReports API.</example>
         public async Task<IngestAddmReportsResponse> IngestAddmReports(IngestAddmReportsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called ingestAddmReports");
@@ -4483,7 +4483,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestDatabaseConfiguration.cs.html">here</a> to see an example of how to use IngestDatabaseConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestDatabaseConfiguration.cs.html">here</a> to see an example of how to use IngestDatabaseConfiguration API.</example>
         public async Task<IngestDatabaseConfigurationResponse> IngestDatabaseConfiguration(IngestDatabaseConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called ingestDatabaseConfiguration");
@@ -4539,7 +4539,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestHostConfiguration.cs.html">here</a> to see an example of how to use IngestHostConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestHostConfiguration.cs.html">here</a> to see an example of how to use IngestHostConfiguration API.</example>
         public async Task<IngestHostConfigurationResponse> IngestHostConfiguration(IngestHostConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called ingestHostConfiguration");
@@ -4595,7 +4595,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestHostMetrics.cs.html">here</a> to see an example of how to use IngestHostMetrics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestHostMetrics.cs.html">here</a> to see an example of how to use IngestHostMetrics API.</example>
         public async Task<IngestHostMetricsResponse> IngestHostMetrics(IngestHostMetricsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called ingestHostMetrics");
@@ -4653,7 +4653,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestMySqlSqlStats.cs.html">here</a> to see an example of how to use IngestMySqlSqlStats API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestMySqlSqlStats.cs.html">here</a> to see an example of how to use IngestMySqlSqlStats API.</example>
         public async Task<IngestMySqlSqlStatsResponse> IngestMySqlSqlStats(IngestMySqlSqlStatsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called ingestMySqlSqlStats");
@@ -4712,7 +4712,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestMySqlSqlText.cs.html">here</a> to see an example of how to use IngestMySqlSqlText API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestMySqlSqlText.cs.html">here</a> to see an example of how to use IngestMySqlSqlText API.</example>
         public async Task<IngestMySqlSqlTextResponse> IngestMySqlSqlText(IngestMySqlSqlTextRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called ingestMySqlSqlText");
@@ -4770,7 +4770,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestSqlBucket.cs.html">here</a> to see an example of how to use IngestSqlBucket API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestSqlBucket.cs.html">here</a> to see an example of how to use IngestSqlBucket API.</example>
         public async Task<IngestSqlBucketResponse> IngestSqlBucket(IngestSqlBucketRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called ingestSqlBucket");
@@ -4828,7 +4828,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestSqlPlanLines.cs.html">here</a> to see an example of how to use IngestSqlPlanLines API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestSqlPlanLines.cs.html">here</a> to see an example of how to use IngestSqlPlanLines API.</example>
         public async Task<IngestSqlPlanLinesResponse> IngestSqlPlanLines(IngestSqlPlanLinesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called ingestSqlPlanLines");
@@ -4886,7 +4886,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestSqlStats.cs.html">here</a> to see an example of how to use IngestSqlStats API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestSqlStats.cs.html">here</a> to see an example of how to use IngestSqlStats API.</example>
         public async Task<IngestSqlStatsResponse> IngestSqlStats(IngestSqlStatsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called ingestSqlStats");
@@ -4945,7 +4945,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestSqlText.cs.html">here</a> to see an example of how to use IngestSqlText API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestSqlText.cs.html">here</a> to see an example of how to use IngestSqlText API.</example>
         public async Task<IngestSqlTextResponse> IngestSqlText(IngestSqlTextRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called ingestSqlText");
@@ -5002,7 +5002,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAddmDbFindingCategories.cs.html">here</a> to see an example of how to use ListAddmDbFindingCategories API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAddmDbFindingCategories.cs.html">here</a> to see an example of how to use ListAddmDbFindingCategories API.</example>
         public async Task<ListAddmDbFindingCategoriesResponse> ListAddmDbFindingCategories(ListAddmDbFindingCategoriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAddmDbFindingCategories");
@@ -5059,7 +5059,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAddmDbFindingsTimeSeries.cs.html">here</a> to see an example of how to use ListAddmDbFindingsTimeSeries API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAddmDbFindingsTimeSeries.cs.html">here</a> to see an example of how to use ListAddmDbFindingsTimeSeries API.</example>
         public async Task<ListAddmDbFindingsTimeSeriesResponse> ListAddmDbFindingsTimeSeries(ListAddmDbFindingsTimeSeriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAddmDbFindingsTimeSeries");
@@ -5116,7 +5116,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAddmDbParameterCategories.cs.html">here</a> to see an example of how to use ListAddmDbParameterCategories API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAddmDbParameterCategories.cs.html">here</a> to see an example of how to use ListAddmDbParameterCategories API.</example>
         public async Task<ListAddmDbParameterCategoriesResponse> ListAddmDbParameterCategories(ListAddmDbParameterCategoriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAddmDbParameterCategories");
@@ -5173,7 +5173,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAddmDbRecommendationCategories.cs.html">here</a> to see an example of how to use ListAddmDbRecommendationCategories API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAddmDbRecommendationCategories.cs.html">here</a> to see an example of how to use ListAddmDbRecommendationCategories API.</example>
         public async Task<ListAddmDbRecommendationCategoriesResponse> ListAddmDbRecommendationCategories(ListAddmDbRecommendationCategoriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAddmDbRecommendationCategories");
@@ -5230,7 +5230,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAddmDbRecommendationsTimeSeries.cs.html">here</a> to see an example of how to use ListAddmDbRecommendationsTimeSeries API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAddmDbRecommendationsTimeSeries.cs.html">here</a> to see an example of how to use ListAddmDbRecommendationsTimeSeries API.</example>
         public async Task<ListAddmDbRecommendationsTimeSeriesResponse> ListAddmDbRecommendationsTimeSeries(ListAddmDbRecommendationsTimeSeriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAddmDbRecommendationsTimeSeries");
@@ -5287,7 +5287,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAddmDbs.cs.html">here</a> to see an example of how to use ListAddmDbs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAddmDbs.cs.html">here</a> to see an example of how to use ListAddmDbs API.</example>
         public async Task<ListAddmDbsResponse> ListAddmDbs(ListAddmDbsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAddmDbs");
@@ -5344,7 +5344,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAwrDatabaseSnapshots.cs.html">here</a> to see an example of how to use ListAwrDatabaseSnapshots API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAwrDatabaseSnapshots.cs.html">here</a> to see an example of how to use ListAwrDatabaseSnapshots API.</example>
         public async Task<ListAwrDatabaseSnapshotsResponse> ListAwrDatabaseSnapshots(ListAwrDatabaseSnapshotsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAwrDatabaseSnapshots");
@@ -5401,7 +5401,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAwrDatabases.cs.html">here</a> to see an example of how to use ListAwrDatabases API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAwrDatabases.cs.html">here</a> to see an example of how to use ListAwrDatabases API.</example>
         public async Task<ListAwrDatabasesResponse> ListAwrDatabases(ListAwrDatabasesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAwrDatabases");
@@ -5458,7 +5458,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAwrHubObjects.cs.html">here</a> to see an example of how to use ListAwrHubObjects API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAwrHubObjects.cs.html">here</a> to see an example of how to use ListAwrHubObjects API.</example>
         public async Task<ListAwrHubObjectsResponse> ListAwrHubObjects(ListAwrHubObjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAwrHubObjects");
@@ -5514,7 +5514,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAwrHubSources.cs.html">here</a> to see an example of how to use ListAwrHubSources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAwrHubSources.cs.html">here</a> to see an example of how to use ListAwrHubSources API.</example>
         public async Task<ListAwrHubSourcesResponse> ListAwrHubSources(ListAwrHubSourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAwrHubSources");
@@ -5571,7 +5571,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAwrHubs.cs.html">here</a> to see an example of how to use ListAwrHubs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAwrHubs.cs.html">here</a> to see an example of how to use ListAwrHubs API.</example>
         public async Task<ListAwrHubsResponse> ListAwrHubs(ListAwrHubsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAwrHubs");
@@ -5629,7 +5629,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAwrSnapshots.cs.html">here</a> to see an example of how to use ListAwrSnapshots API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListAwrSnapshots.cs.html">here</a> to see an example of how to use ListAwrSnapshots API.</example>
         public async Task<ListAwrSnapshotsResponse> ListAwrSnapshots(ListAwrSnapshotsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAwrSnapshots");
@@ -5685,7 +5685,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListChargebackPlanReports.cs.html">here</a> to see an example of how to use ListChargebackPlanReports API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListChargebackPlanReports.cs.html">here</a> to see an example of how to use ListChargebackPlanReports API.</example>
         public async Task<ListChargebackPlanReportsResponse> ListChargebackPlanReports(ListChargebackPlanReportsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listChargebackPlanReports");
@@ -5741,7 +5741,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListChargebackPlans.cs.html">here</a> to see an example of how to use ListChargebackPlans API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListChargebackPlans.cs.html">here</a> to see an example of how to use ListChargebackPlans API.</example>
         public async Task<ListChargebackPlansResponse> ListChargebackPlans(ListChargebackPlansRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listChargebackPlans");
@@ -5799,7 +5799,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListDatabaseConfigurations.cs.html">here</a> to see an example of how to use ListDatabaseConfigurations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListDatabaseConfigurations.cs.html">here</a> to see an example of how to use ListDatabaseConfigurations API.</example>
         public async Task<ListDatabaseConfigurationsResponse> ListDatabaseConfigurations(ListDatabaseConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDatabaseConfigurations");
@@ -5857,7 +5857,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListDatabaseInsights.cs.html">here</a> to see an example of how to use ListDatabaseInsights API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListDatabaseInsights.cs.html">here</a> to see an example of how to use ListDatabaseInsights API.</example>
         public async Task<ListDatabaseInsightsResponse> ListDatabaseInsights(ListDatabaseInsightsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDatabaseInsights");
@@ -5915,7 +5915,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListEnterpriseManagerBridges.cs.html">here</a> to see an example of how to use ListEnterpriseManagerBridges API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListEnterpriseManagerBridges.cs.html">here</a> to see an example of how to use ListEnterpriseManagerBridges API.</example>
         public async Task<ListEnterpriseManagerBridgesResponse> ListEnterpriseManagerBridges(ListEnterpriseManagerBridgesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listEnterpriseManagerBridges");
@@ -5971,7 +5971,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListExadataConfigurations.cs.html">here</a> to see an example of how to use ListExadataConfigurations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListExadataConfigurations.cs.html">here</a> to see an example of how to use ListExadataConfigurations API.</example>
         public async Task<ListExadataConfigurationsResponse> ListExadataConfigurations(ListExadataConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listExadataConfigurations");
@@ -6029,7 +6029,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListExadataInsights.cs.html">here</a> to see an example of how to use ListExadataInsights API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListExadataInsights.cs.html">here</a> to see an example of how to use ListExadataInsights API.</example>
         public async Task<ListExadataInsightsResponse> ListExadataInsights(ListExadataInsightsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listExadataInsights");
@@ -6087,7 +6087,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListHostConfigurations.cs.html">here</a> to see an example of how to use ListHostConfigurations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListHostConfigurations.cs.html">here</a> to see an example of how to use ListHostConfigurations API.</example>
         public async Task<ListHostConfigurationsResponse> ListHostConfigurations(ListHostConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listHostConfigurations");
@@ -6145,7 +6145,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListHostInsights.cs.html">here</a> to see an example of how to use ListHostInsights API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListHostInsights.cs.html">here</a> to see an example of how to use ListHostInsights API.</example>
         public async Task<ListHostInsightsResponse> ListHostInsights(ListHostInsightsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listHostInsights");
@@ -6202,7 +6202,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListHostedEntities.cs.html">here</a> to see an example of how to use ListHostedEntities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListHostedEntities.cs.html">here</a> to see an example of how to use ListHostedEntities API.</example>
         public async Task<ListHostedEntitiesResponse> ListHostedEntities(ListHostedEntitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listHostedEntities");
@@ -6263,7 +6263,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListImportableAgentEntities.cs.html">here</a> to see an example of how to use ListImportableAgentEntities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListImportableAgentEntities.cs.html">here</a> to see an example of how to use ListImportableAgentEntities API.</example>
         public async Task<ListImportableAgentEntitiesResponse> ListImportableAgentEntities(ListImportableAgentEntitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listImportableAgentEntities");
@@ -6326,7 +6326,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListImportableComputeEntities.cs.html">here</a> to see an example of how to use ListImportableComputeEntities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListImportableComputeEntities.cs.html">here</a> to see an example of how to use ListImportableComputeEntities API.</example>
         public async Task<ListImportableComputeEntitiesResponse> ListImportableComputeEntities(ListImportableComputeEntitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listImportableComputeEntities");
@@ -6383,7 +6383,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListImportableEnterpriseManagerEntities.cs.html">here</a> to see an example of how to use ListImportableEnterpriseManagerEntities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListImportableEnterpriseManagerEntities.cs.html">here</a> to see an example of how to use ListImportableEnterpriseManagerEntities API.</example>
         public async Task<ListImportableEnterpriseManagerEntitiesResponse> ListImportableEnterpriseManagerEntities(ListImportableEnterpriseManagerEntitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listImportableEnterpriseManagerEntities");
@@ -6440,7 +6440,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListNewsReports.cs.html">here</a> to see an example of how to use ListNewsReports API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListNewsReports.cs.html">here</a> to see an example of how to use ListNewsReports API.</example>
         public async Task<ListNewsReportsResponse> ListNewsReports(ListNewsReportsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNewsReports");
@@ -6496,7 +6496,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListOperationsInsightsPrivateEndpoints.cs.html">here</a> to see an example of how to use ListOperationsInsightsPrivateEndpoints API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListOperationsInsightsPrivateEndpoints.cs.html">here</a> to see an example of how to use ListOperationsInsightsPrivateEndpoints API.</example>
         public async Task<ListOperationsInsightsPrivateEndpointsResponse> ListOperationsInsightsPrivateEndpoints(ListOperationsInsightsPrivateEndpointsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOperationsInsightsPrivateEndpoints");
@@ -6553,7 +6553,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListOperationsInsightsWarehouseUsers.cs.html">here</a> to see an example of how to use ListOperationsInsightsWarehouseUsers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListOperationsInsightsWarehouseUsers.cs.html">here</a> to see an example of how to use ListOperationsInsightsWarehouseUsers API.</example>
         public async Task<ListOperationsInsightsWarehouseUsersResponse> ListOperationsInsightsWarehouseUsers(ListOperationsInsightsWarehouseUsersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOperationsInsightsWarehouseUsers");
@@ -6611,7 +6611,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListOperationsInsightsWarehouses.cs.html">here</a> to see an example of how to use ListOperationsInsightsWarehouses API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListOperationsInsightsWarehouses.cs.html">here</a> to see an example of how to use ListOperationsInsightsWarehouses API.</example>
         public async Task<ListOperationsInsightsWarehousesResponse> ListOperationsInsightsWarehouses(ListOperationsInsightsWarehousesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOperationsInsightsWarehouses");
@@ -6668,7 +6668,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListOpsiConfigurations.cs.html">here</a> to see an example of how to use ListOpsiConfigurations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListOpsiConfigurations.cs.html">here</a> to see an example of how to use ListOpsiConfigurations API.</example>
         public async Task<ListOpsiConfigurationsResponse> ListOpsiConfigurations(ListOpsiConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOpsiConfigurations");
@@ -6725,7 +6725,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListOpsiDataObjects.cs.html">here</a> to see an example of how to use ListOpsiDataObjects API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListOpsiDataObjects.cs.html">here</a> to see an example of how to use ListOpsiDataObjects API.</example>
         public async Task<ListOpsiDataObjectsResponse> ListOpsiDataObjects(ListOpsiDataObjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOpsiDataObjects");
@@ -6783,7 +6783,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListSqlPlans.cs.html">here</a> to see an example of how to use ListSqlPlans API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListSqlPlans.cs.html">here</a> to see an example of how to use ListSqlPlans API.</example>
         public async Task<ListSqlPlansResponse> ListSqlPlans(ListSqlPlansRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSqlPlans");
@@ -6842,7 +6842,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListSqlSearches.cs.html">here</a> to see an example of how to use ListSqlSearches API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListSqlSearches.cs.html">here</a> to see an example of how to use ListSqlSearches API.</example>
         public async Task<ListSqlSearchesResponse> ListSqlSearches(ListSqlSearchesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSqlSearches");
@@ -6899,7 +6899,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListSqlTexts.cs.html">here</a> to see an example of how to use ListSqlTexts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListSqlTexts.cs.html">here</a> to see an example of how to use ListSqlTexts API.</example>
         public async Task<ListSqlTextsResponse> ListSqlTexts(ListSqlTextsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSqlTexts");
@@ -6956,7 +6956,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListWarehouseDataObjects.cs.html">here</a> to see an example of how to use ListWarehouseDataObjects API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListWarehouseDataObjects.cs.html">here</a> to see an example of how to use ListWarehouseDataObjects API.</example>
         public async Task<ListWarehouseDataObjectsResponse> ListWarehouseDataObjects(ListWarehouseDataObjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWarehouseDataObjects");
@@ -7013,7 +7013,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -7070,7 +7070,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -7127,7 +7127,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -7184,7 +7184,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/PutAwrHubObject.cs.html">here</a> to see an example of how to use PutAwrHubObject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/PutAwrHubObject.cs.html">here</a> to see an example of how to use PutAwrHubObject API.</example>
         public async Task<PutAwrHubObjectResponse> PutAwrHubObject(PutAwrHubObjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putAwrHubObject");
@@ -7243,7 +7243,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/QueryOpsiDataObjectData.cs.html">here</a> to see an example of how to use QueryOpsiDataObjectData API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/QueryOpsiDataObjectData.cs.html">here</a> to see an example of how to use QueryOpsiDataObjectData API.</example>
         public async Task<QueryOpsiDataObjectDataResponse> QueryOpsiDataObjectData(QueryOpsiDataObjectDataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called queryOpsiDataObjectData");
@@ -7301,7 +7301,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/QueryWarehouseDataObjectData.cs.html">here</a> to see an example of how to use QueryWarehouseDataObjectData API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/QueryWarehouseDataObjectData.cs.html">here</a> to see an example of how to use QueryWarehouseDataObjectData API.</example>
         public async Task<QueryWarehouseDataObjectDataResponse> QueryWarehouseDataObjectData(QueryWarehouseDataObjectDataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called queryWarehouseDataObjectData");
@@ -7357,7 +7357,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/RotateOperationsInsightsWarehouseWallet.cs.html">here</a> to see an example of how to use RotateOperationsInsightsWarehouseWallet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/RotateOperationsInsightsWarehouseWallet.cs.html">here</a> to see an example of how to use RotateOperationsInsightsWarehouseWallet API.</example>
         public async Task<RotateOperationsInsightsWarehouseWalletResponse> RotateOperationsInsightsWarehouseWallet(RotateOperationsInsightsWarehouseWalletRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called rotateOperationsInsightsWarehouseWallet");
@@ -7414,7 +7414,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAddmDbFindings.cs.html">here</a> to see an example of how to use SummarizeAddmDbFindings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAddmDbFindings.cs.html">here</a> to see an example of how to use SummarizeAddmDbFindings API.</example>
         public async Task<SummarizeAddmDbFindingsResponse> SummarizeAddmDbFindings(SummarizeAddmDbFindingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAddmDbFindings");
@@ -7473,7 +7473,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAddmDbParameterChanges.cs.html">here</a> to see an example of how to use SummarizeAddmDbParameterChanges API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAddmDbParameterChanges.cs.html">here</a> to see an example of how to use SummarizeAddmDbParameterChanges API.</example>
         public async Task<SummarizeAddmDbParameterChangesResponse> SummarizeAddmDbParameterChanges(SummarizeAddmDbParameterChangesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAddmDbParameterChanges");
@@ -7533,7 +7533,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAddmDbParameters.cs.html">here</a> to see an example of how to use SummarizeAddmDbParameters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAddmDbParameters.cs.html">here</a> to see an example of how to use SummarizeAddmDbParameters API.</example>
         public async Task<SummarizeAddmDbParametersResponse> SummarizeAddmDbParameters(SummarizeAddmDbParametersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAddmDbParameters");
@@ -7590,7 +7590,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAddmDbRecommendations.cs.html">here</a> to see an example of how to use SummarizeAddmDbRecommendations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAddmDbRecommendations.cs.html">here</a> to see an example of how to use SummarizeAddmDbRecommendations API.</example>
         public async Task<SummarizeAddmDbRecommendationsResponse> SummarizeAddmDbRecommendations(SummarizeAddmDbRecommendationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAddmDbRecommendations");
@@ -7647,7 +7647,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAddmDbSchemaObjects.cs.html">here</a> to see an example of how to use SummarizeAddmDbSchemaObjects API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAddmDbSchemaObjects.cs.html">here</a> to see an example of how to use SummarizeAddmDbSchemaObjects API.</example>
         public async Task<SummarizeAddmDbSchemaObjectsResponse> SummarizeAddmDbSchemaObjects(SummarizeAddmDbSchemaObjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAddmDbSchemaObjects");
@@ -7704,7 +7704,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAddmDbSqlStatements.cs.html">here</a> to see an example of how to use SummarizeAddmDbSqlStatements API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAddmDbSqlStatements.cs.html">here</a> to see an example of how to use SummarizeAddmDbSqlStatements API.</example>
         public async Task<SummarizeAddmDbSqlStatementsResponse> SummarizeAddmDbSqlStatements(SummarizeAddmDbSqlStatementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAddmDbSqlStatements");
@@ -7765,7 +7765,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseCpuUsages.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseCpuUsages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseCpuUsages.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseCpuUsages API.</example>
         public async Task<SummarizeAwrDatabaseCpuUsagesResponse> SummarizeAwrDatabaseCpuUsages(SummarizeAwrDatabaseCpuUsagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAwrDatabaseCpuUsages");
@@ -7822,7 +7822,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseMetrics.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseMetrics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseMetrics.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseMetrics API.</example>
         public async Task<SummarizeAwrDatabaseMetricsResponse> SummarizeAwrDatabaseMetrics(SummarizeAwrDatabaseMetricsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAwrDatabaseMetrics");
@@ -7883,7 +7883,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseParameterChanges.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseParameterChanges API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseParameterChanges.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseParameterChanges API.</example>
         public async Task<SummarizeAwrDatabaseParameterChangesResponse> SummarizeAwrDatabaseParameterChanges(SummarizeAwrDatabaseParameterChangesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAwrDatabaseParameterChanges");
@@ -7950,7 +7950,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseParameters.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseParameters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseParameters.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseParameters API.</example>
         public async Task<SummarizeAwrDatabaseParametersResponse> SummarizeAwrDatabaseParameters(SummarizeAwrDatabaseParametersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAwrDatabaseParameters");
@@ -8007,7 +8007,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseSnapshotRanges.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseSnapshotRanges API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseSnapshotRanges.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseSnapshotRanges API.</example>
         public async Task<SummarizeAwrDatabaseSnapshotRangesResponse> SummarizeAwrDatabaseSnapshotRanges(SummarizeAwrDatabaseSnapshotRangesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAwrDatabaseSnapshotRanges");
@@ -8064,7 +8064,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseSysstats.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseSysstats API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseSysstats.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseSysstats API.</example>
         public async Task<SummarizeAwrDatabaseSysstatsResponse> SummarizeAwrDatabaseSysstats(SummarizeAwrDatabaseSysstatsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAwrDatabaseSysstats");
@@ -8121,7 +8121,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseTopWaitEvents.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseTopWaitEvents API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseTopWaitEvents.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseTopWaitEvents API.</example>
         public async Task<SummarizeAwrDatabaseTopWaitEventsResponse> SummarizeAwrDatabaseTopWaitEvents(SummarizeAwrDatabaseTopWaitEventsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAwrDatabaseTopWaitEvents");
@@ -8178,7 +8178,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseWaitEventBuckets.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseWaitEventBuckets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseWaitEventBuckets.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseWaitEventBuckets API.</example>
         public async Task<SummarizeAwrDatabaseWaitEventBucketsResponse> SummarizeAwrDatabaseWaitEventBuckets(SummarizeAwrDatabaseWaitEventBucketsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAwrDatabaseWaitEventBuckets");
@@ -8235,7 +8235,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseWaitEvents.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseWaitEvents API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseWaitEvents.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseWaitEvents API.</example>
         public async Task<SummarizeAwrDatabaseWaitEventsResponse> SummarizeAwrDatabaseWaitEvents(SummarizeAwrDatabaseWaitEventsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAwrDatabaseWaitEvents");
@@ -8292,7 +8292,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrSourcesSummaries.cs.html">here</a> to see an example of how to use SummarizeAwrSourcesSummaries API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrSourcesSummaries.cs.html">here</a> to see an example of how to use SummarizeAwrSourcesSummaries API.</example>
         public async Task<SummarizeAwrSourcesSummariesResponse> SummarizeAwrSourcesSummaries(SummarizeAwrSourcesSummariesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeAwrSourcesSummaries");
@@ -8350,7 +8350,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeConfigurationItems.cs.html">here</a> to see an example of how to use SummarizeConfigurationItems API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeConfigurationItems.cs.html">here</a> to see an example of how to use SummarizeConfigurationItems API.</example>
         public async Task<SummarizeConfigurationItemsResponse> SummarizeConfigurationItems(SummarizeConfigurationItemsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeConfigurationItems");
@@ -8409,7 +8409,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeDatabaseInsightResourceCapacityTrend.cs.html">here</a> to see an example of how to use SummarizeDatabaseInsightResourceCapacityTrend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeDatabaseInsightResourceCapacityTrend.cs.html">here</a> to see an example of how to use SummarizeDatabaseInsightResourceCapacityTrend API.</example>
         public async Task<SummarizeDatabaseInsightResourceCapacityTrendResponse> SummarizeDatabaseInsightResourceCapacityTrend(SummarizeDatabaseInsightResourceCapacityTrendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeDatabaseInsightResourceCapacityTrend");
@@ -8467,7 +8467,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeDatabaseInsightResourceForecastTrend.cs.html">here</a> to see an example of how to use SummarizeDatabaseInsightResourceForecastTrend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeDatabaseInsightResourceForecastTrend.cs.html">here</a> to see an example of how to use SummarizeDatabaseInsightResourceForecastTrend API.</example>
         public async Task<SummarizeDatabaseInsightResourceForecastTrendResponse> SummarizeDatabaseInsightResourceForecastTrend(SummarizeDatabaseInsightResourceForecastTrendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeDatabaseInsightResourceForecastTrend");
@@ -8525,7 +8525,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeDatabaseInsightResourceStatistics.cs.html">here</a> to see an example of how to use SummarizeDatabaseInsightResourceStatistics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeDatabaseInsightResourceStatistics.cs.html">here</a> to see an example of how to use SummarizeDatabaseInsightResourceStatistics API.</example>
         public async Task<SummarizeDatabaseInsightResourceStatisticsResponse> SummarizeDatabaseInsightResourceStatistics(SummarizeDatabaseInsightResourceStatisticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeDatabaseInsightResourceStatistics");
@@ -8585,7 +8585,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeDatabaseInsightResourceUsage.cs.html">here</a> to see an example of how to use SummarizeDatabaseInsightResourceUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeDatabaseInsightResourceUsage.cs.html">here</a> to see an example of how to use SummarizeDatabaseInsightResourceUsage API.</example>
         public async Task<SummarizeDatabaseInsightResourceUsageResponse> SummarizeDatabaseInsightResourceUsage(SummarizeDatabaseInsightResourceUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeDatabaseInsightResourceUsage");
@@ -8644,7 +8644,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeDatabaseInsightResourceUsageTrend.cs.html">here</a> to see an example of how to use SummarizeDatabaseInsightResourceUsageTrend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeDatabaseInsightResourceUsageTrend.cs.html">here</a> to see an example of how to use SummarizeDatabaseInsightResourceUsageTrend API.</example>
         public async Task<SummarizeDatabaseInsightResourceUsageTrendResponse> SummarizeDatabaseInsightResourceUsageTrend(SummarizeDatabaseInsightResourceUsageTrendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeDatabaseInsightResourceUsageTrend");
@@ -8702,7 +8702,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeDatabaseInsightResourceUtilizationInsight.cs.html">here</a> to see an example of how to use SummarizeDatabaseInsightResourceUtilizationInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeDatabaseInsightResourceUtilizationInsight.cs.html">here</a> to see an example of how to use SummarizeDatabaseInsightResourceUtilizationInsight API.</example>
         public async Task<SummarizeDatabaseInsightResourceUtilizationInsightResponse> SummarizeDatabaseInsightResourceUtilizationInsight(SummarizeDatabaseInsightResourceUtilizationInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeDatabaseInsightResourceUtilizationInsight");
@@ -8761,7 +8761,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeDatabaseInsightTablespaceUsageTrend.cs.html">here</a> to see an example of how to use SummarizeDatabaseInsightTablespaceUsageTrend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeDatabaseInsightTablespaceUsageTrend.cs.html">here</a> to see an example of how to use SummarizeDatabaseInsightTablespaceUsageTrend API.</example>
         public async Task<SummarizeDatabaseInsightTablespaceUsageTrendResponse> SummarizeDatabaseInsightTablespaceUsageTrend(SummarizeDatabaseInsightTablespaceUsageTrendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeDatabaseInsightTablespaceUsageTrend");
@@ -8825,7 +8825,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceCapacityTrend.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceCapacityTrend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceCapacityTrend.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceCapacityTrend API.</example>
         public async Task<SummarizeExadataInsightResourceCapacityTrendResponse> SummarizeExadataInsightResourceCapacityTrend(SummarizeExadataInsightResourceCapacityTrendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeExadataInsightResourceCapacityTrend");
@@ -8886,7 +8886,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceCapacityTrendAggregated.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceCapacityTrendAggregated API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceCapacityTrendAggregated.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceCapacityTrendAggregated API.</example>
         public async Task<SummarizeExadataInsightResourceCapacityTrendAggregatedResponse> SummarizeExadataInsightResourceCapacityTrendAggregated(SummarizeExadataInsightResourceCapacityTrendAggregatedRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeExadataInsightResourceCapacityTrendAggregated");
@@ -8950,7 +8950,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceForecastTrend.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceForecastTrend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceForecastTrend.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceForecastTrend API.</example>
         public async Task<SummarizeExadataInsightResourceForecastTrendResponse> SummarizeExadataInsightResourceForecastTrend(SummarizeExadataInsightResourceForecastTrendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeExadataInsightResourceForecastTrend");
@@ -9010,7 +9010,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceForecastTrendAggregated.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceForecastTrendAggregated API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceForecastTrendAggregated.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceForecastTrendAggregated API.</example>
         public async Task<SummarizeExadataInsightResourceForecastTrendAggregatedResponse> SummarizeExadataInsightResourceForecastTrendAggregated(SummarizeExadataInsightResourceForecastTrendAggregatedRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeExadataInsightResourceForecastTrendAggregated");
@@ -9071,7 +9071,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceStatistics.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceStatistics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceStatistics.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceStatistics API.</example>
         public async Task<SummarizeExadataInsightResourceStatisticsResponse> SummarizeExadataInsightResourceStatistics(SummarizeExadataInsightResourceStatisticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeExadataInsightResourceStatistics");
@@ -9133,7 +9133,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceUsage.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceUsage.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceUsage API.</example>
         public async Task<SummarizeExadataInsightResourceUsageResponse> SummarizeExadataInsightResourceUsage(SummarizeExadataInsightResourceUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeExadataInsightResourceUsage");
@@ -9195,7 +9195,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceUsageAggregated.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceUsageAggregated API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceUsageAggregated.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceUsageAggregated API.</example>
         public async Task<SummarizeExadataInsightResourceUsageAggregatedResponse> SummarizeExadataInsightResourceUsageAggregated(SummarizeExadataInsightResourceUsageAggregatedRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeExadataInsightResourceUsageAggregated");
@@ -9251,7 +9251,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceUtilizationInsight.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceUtilizationInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataInsightResourceUtilizationInsight.cs.html">here</a> to see an example of how to use SummarizeExadataInsightResourceUtilizationInsight API.</example>
         public async Task<SummarizeExadataInsightResourceUtilizationInsightResponse> SummarizeExadataInsightResourceUtilizationInsight(SummarizeExadataInsightResourceUtilizationInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeExadataInsightResourceUtilizationInsight");
@@ -9307,7 +9307,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataMembers.cs.html">here</a> to see an example of how to use SummarizeExadataMembers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeExadataMembers.cs.html">here</a> to see an example of how to use SummarizeExadataMembers API.</example>
         public async Task<SummarizeExadataMembersResponse> SummarizeExadataMembers(SummarizeExadataMembersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeExadataMembers");
@@ -9364,7 +9364,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightDiskStatistics.cs.html">here</a> to see an example of how to use SummarizeHostInsightDiskStatistics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightDiskStatistics.cs.html">here</a> to see an example of how to use SummarizeHostInsightDiskStatistics API.</example>
         public async Task<SummarizeHostInsightDiskStatisticsResponse> SummarizeHostInsightDiskStatistics(SummarizeHostInsightDiskStatisticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeHostInsightDiskStatistics");
@@ -9421,7 +9421,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightHostRecommendation.cs.html">here</a> to see an example of how to use SummarizeHostInsightHostRecommendation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightHostRecommendation.cs.html">here</a> to see an example of how to use SummarizeHostInsightHostRecommendation API.</example>
         public async Task<SummarizeHostInsightHostRecommendationResponse> SummarizeHostInsightHostRecommendation(SummarizeHostInsightHostRecommendationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeHostInsightHostRecommendation");
@@ -9478,7 +9478,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightIoUsageTrend.cs.html">here</a> to see an example of how to use SummarizeHostInsightIoUsageTrend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightIoUsageTrend.cs.html">here</a> to see an example of how to use SummarizeHostInsightIoUsageTrend API.</example>
         public async Task<SummarizeHostInsightIoUsageTrendResponse> SummarizeHostInsightIoUsageTrend(SummarizeHostInsightIoUsageTrendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeHostInsightIoUsageTrend");
@@ -9535,7 +9535,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightNetworkUsageTrend.cs.html">here</a> to see an example of how to use SummarizeHostInsightNetworkUsageTrend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightNetworkUsageTrend.cs.html">here</a> to see an example of how to use SummarizeHostInsightNetworkUsageTrend API.</example>
         public async Task<SummarizeHostInsightNetworkUsageTrendResponse> SummarizeHostInsightNetworkUsageTrend(SummarizeHostInsightNetworkUsageTrendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeHostInsightNetworkUsageTrend");
@@ -9594,7 +9594,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightResourceCapacityTrend.cs.html">here</a> to see an example of how to use SummarizeHostInsightResourceCapacityTrend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightResourceCapacityTrend.cs.html">here</a> to see an example of how to use SummarizeHostInsightResourceCapacityTrend API.</example>
         public async Task<SummarizeHostInsightResourceCapacityTrendResponse> SummarizeHostInsightResourceCapacityTrend(SummarizeHostInsightResourceCapacityTrendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeHostInsightResourceCapacityTrend");
@@ -9652,7 +9652,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightResourceForecastTrend.cs.html">here</a> to see an example of how to use SummarizeHostInsightResourceForecastTrend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightResourceForecastTrend.cs.html">here</a> to see an example of how to use SummarizeHostInsightResourceForecastTrend API.</example>
         public async Task<SummarizeHostInsightResourceForecastTrendResponse> SummarizeHostInsightResourceForecastTrend(SummarizeHostInsightResourceForecastTrendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeHostInsightResourceForecastTrend");
@@ -9710,7 +9710,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightResourceStatistics.cs.html">here</a> to see an example of how to use SummarizeHostInsightResourceStatistics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightResourceStatistics.cs.html">here</a> to see an example of how to use SummarizeHostInsightResourceStatistics API.</example>
         public async Task<SummarizeHostInsightResourceStatisticsResponse> SummarizeHostInsightResourceStatistics(SummarizeHostInsightResourceStatisticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeHostInsightResourceStatistics");
@@ -9770,7 +9770,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightResourceUsage.cs.html">here</a> to see an example of how to use SummarizeHostInsightResourceUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightResourceUsage.cs.html">here</a> to see an example of how to use SummarizeHostInsightResourceUsage API.</example>
         public async Task<SummarizeHostInsightResourceUsageResponse> SummarizeHostInsightResourceUsage(SummarizeHostInsightResourceUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeHostInsightResourceUsage");
@@ -9829,7 +9829,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightResourceUsageTrend.cs.html">here</a> to see an example of how to use SummarizeHostInsightResourceUsageTrend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightResourceUsageTrend.cs.html">here</a> to see an example of how to use SummarizeHostInsightResourceUsageTrend API.</example>
         public async Task<SummarizeHostInsightResourceUsageTrendResponse> SummarizeHostInsightResourceUsageTrend(SummarizeHostInsightResourceUsageTrendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeHostInsightResourceUsageTrend");
@@ -9887,7 +9887,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightResourceUtilizationInsight.cs.html">here</a> to see an example of how to use SummarizeHostInsightResourceUtilizationInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightResourceUtilizationInsight.cs.html">here</a> to see an example of how to use SummarizeHostInsightResourceUtilizationInsight API.</example>
         public async Task<SummarizeHostInsightResourceUtilizationInsightResponse> SummarizeHostInsightResourceUtilizationInsight(SummarizeHostInsightResourceUtilizationInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeHostInsightResourceUtilizationInsight");
@@ -9944,7 +9944,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightStorageUsageTrend.cs.html">here</a> to see an example of how to use SummarizeHostInsightStorageUsageTrend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightStorageUsageTrend.cs.html">here</a> to see an example of how to use SummarizeHostInsightStorageUsageTrend API.</example>
         public async Task<SummarizeHostInsightStorageUsageTrendResponse> SummarizeHostInsightStorageUsageTrend(SummarizeHostInsightStorageUsageTrendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeHostInsightStorageUsageTrend");
@@ -10003,7 +10003,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightTopProcessesUsage.cs.html">here</a> to see an example of how to use SummarizeHostInsightTopProcessesUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightTopProcessesUsage.cs.html">here</a> to see an example of how to use SummarizeHostInsightTopProcessesUsage API.</example>
         public async Task<SummarizeHostInsightTopProcessesUsageResponse> SummarizeHostInsightTopProcessesUsage(SummarizeHostInsightTopProcessesUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeHostInsightTopProcessesUsage");
@@ -10062,7 +10062,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightTopProcessesUsageTrend.cs.html">here</a> to see an example of how to use SummarizeHostInsightTopProcessesUsageTrend API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeHostInsightTopProcessesUsageTrend.cs.html">here</a> to see an example of how to use SummarizeHostInsightTopProcessesUsageTrend API.</example>
         public async Task<SummarizeHostInsightTopProcessesUsageTrendResponse> SummarizeHostInsightTopProcessesUsageTrend(SummarizeHostInsightTopProcessesUsageTrendRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeHostInsightTopProcessesUsageTrend");
@@ -10120,7 +10120,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeOperationsInsightsWarehouseResourceUsage.cs.html">here</a> to see an example of how to use SummarizeOperationsInsightsWarehouseResourceUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeOperationsInsightsWarehouseResourceUsage.cs.html">here</a> to see an example of how to use SummarizeOperationsInsightsWarehouseResourceUsage API.</example>
         public async Task<SummarizeOperationsInsightsWarehouseResourceUsageResponse> SummarizeOperationsInsightsWarehouseResourceUsage(SummarizeOperationsInsightsWarehouseResourceUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeOperationsInsightsWarehouseResourceUsage");
@@ -10179,7 +10179,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeSqlInsights.cs.html">here</a> to see an example of how to use SummarizeSqlInsights API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeSqlInsights.cs.html">here</a> to see an example of how to use SummarizeSqlInsights API.</example>
         public async Task<SummarizeSqlInsightsResponse> SummarizeSqlInsights(SummarizeSqlInsightsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeSqlInsights");
@@ -10238,7 +10238,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeSqlPlanInsights.cs.html">here</a> to see an example of how to use SummarizeSqlPlanInsights API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeSqlPlanInsights.cs.html">here</a> to see an example of how to use SummarizeSqlPlanInsights API.</example>
         public async Task<SummarizeSqlPlanInsightsResponse> SummarizeSqlPlanInsights(SummarizeSqlPlanInsightsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeSqlPlanInsights");
@@ -10296,7 +10296,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeSqlResponseTimeDistributions.cs.html">here</a> to see an example of how to use SummarizeSqlResponseTimeDistributions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeSqlResponseTimeDistributions.cs.html">here</a> to see an example of how to use SummarizeSqlResponseTimeDistributions API.</example>
         public async Task<SummarizeSqlResponseTimeDistributionsResponse> SummarizeSqlResponseTimeDistributions(SummarizeSqlResponseTimeDistributionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeSqlResponseTimeDistributions");
@@ -10355,7 +10355,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeSqlStatistics.cs.html">here</a> to see an example of how to use SummarizeSqlStatistics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeSqlStatistics.cs.html">here</a> to see an example of how to use SummarizeSqlStatistics API.</example>
         public async Task<SummarizeSqlStatisticsResponse> SummarizeSqlStatistics(SummarizeSqlStatisticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeSqlStatistics");
@@ -10414,7 +10414,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeSqlStatisticsTimeSeries.cs.html">here</a> to see an example of how to use SummarizeSqlStatisticsTimeSeries API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeSqlStatisticsTimeSeries.cs.html">here</a> to see an example of how to use SummarizeSqlStatisticsTimeSeries API.</example>
         public async Task<SummarizeSqlStatisticsTimeSeriesResponse> SummarizeSqlStatisticsTimeSeries(SummarizeSqlStatisticsTimeSeriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeSqlStatisticsTimeSeries");
@@ -10473,7 +10473,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeSqlStatisticsTimeSeriesByPlan.cs.html">here</a> to see an example of how to use SummarizeSqlStatisticsTimeSeriesByPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeSqlStatisticsTimeSeriesByPlan.cs.html">here</a> to see an example of how to use SummarizeSqlStatisticsTimeSeriesByPlan API.</example>
         public async Task<SummarizeSqlStatisticsTimeSeriesByPlanResponse> SummarizeSqlStatisticsTimeSeriesByPlan(SummarizeSqlStatisticsTimeSeriesByPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeSqlStatisticsTimeSeriesByPlan");
@@ -10531,7 +10531,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SynchronizeAutonomousDatabaseToExadata.cs.html">here</a> to see an example of how to use SynchronizeAutonomousDatabaseToExadata API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SynchronizeAutonomousDatabaseToExadata.cs.html">here</a> to see an example of how to use SynchronizeAutonomousDatabaseToExadata API.</example>
         public async Task<SynchronizeAutonomousDatabaseToExadataResponse> SynchronizeAutonomousDatabaseToExadata(SynchronizeAutonomousDatabaseToExadataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called synchronizeAutonomousDatabaseToExadata");
@@ -10587,7 +10587,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/TestMacsManagedAutonomousDatabaseInsightConnection.cs.html">here</a> to see an example of how to use TestMacsManagedAutonomousDatabaseInsightConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/TestMacsManagedAutonomousDatabaseInsightConnection.cs.html">here</a> to see an example of how to use TestMacsManagedAutonomousDatabaseInsightConnection API.</example>
         public async Task<TestMacsManagedAutonomousDatabaseInsightConnectionResponse> TestMacsManagedAutonomousDatabaseInsightConnection(TestMacsManagedAutonomousDatabaseInsightConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called testMacsManagedAutonomousDatabaseInsightConnection");
@@ -10643,7 +10643,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/TestMacsManagedCloudDatabaseInsightConnection.cs.html">here</a> to see an example of how to use TestMacsManagedCloudDatabaseInsightConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/TestMacsManagedCloudDatabaseInsightConnection.cs.html">here</a> to see an example of how to use TestMacsManagedCloudDatabaseInsightConnection API.</example>
         public async Task<TestMacsManagedCloudDatabaseInsightConnectionResponse> TestMacsManagedCloudDatabaseInsightConnection(TestMacsManagedCloudDatabaseInsightConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called testMacsManagedCloudDatabaseInsightConnection");
@@ -10699,7 +10699,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateAwrHub.cs.html">here</a> to see an example of how to use UpdateAwrHub API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateAwrHub.cs.html">here</a> to see an example of how to use UpdateAwrHub API.</example>
         public async Task<UpdateAwrHubResponse> UpdateAwrHub(UpdateAwrHubRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAwrHub");
@@ -10755,7 +10755,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateAwrHubSource.cs.html">here</a> to see an example of how to use UpdateAwrHubSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateAwrHubSource.cs.html">here</a> to see an example of how to use UpdateAwrHubSource API.</example>
         public async Task<UpdateAwrHubSourceResponse> UpdateAwrHubSource(UpdateAwrHubSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAwrHubSource");
@@ -10811,7 +10811,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateChargebackPlan.cs.html">here</a> to see an example of how to use UpdateChargebackPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateChargebackPlan.cs.html">here</a> to see an example of how to use UpdateChargebackPlan API.</example>
         public async Task<UpdateChargebackPlanResponse> UpdateChargebackPlan(UpdateChargebackPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateChargebackPlan");
@@ -10867,7 +10867,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateChargebackPlanReport.cs.html">here</a> to see an example of how to use UpdateChargebackPlanReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateChargebackPlanReport.cs.html">here</a> to see an example of how to use UpdateChargebackPlanReport API.</example>
         public async Task<UpdateChargebackPlanReportResponse> UpdateChargebackPlanReport(UpdateChargebackPlanReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateChargebackPlanReport");
@@ -10923,7 +10923,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateDatabaseInsight.cs.html">here</a> to see an example of how to use UpdateDatabaseInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateDatabaseInsight.cs.html">here</a> to see an example of how to use UpdateDatabaseInsight API.</example>
         public async Task<UpdateDatabaseInsightResponse> UpdateDatabaseInsight(UpdateDatabaseInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDatabaseInsight");
@@ -10979,7 +10979,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateEnterpriseManagerBridge.cs.html">here</a> to see an example of how to use UpdateEnterpriseManagerBridge API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateEnterpriseManagerBridge.cs.html">here</a> to see an example of how to use UpdateEnterpriseManagerBridge API.</example>
         public async Task<UpdateEnterpriseManagerBridgeResponse> UpdateEnterpriseManagerBridge(UpdateEnterpriseManagerBridgeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateEnterpriseManagerBridge");
@@ -11035,7 +11035,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateExadataInsight.cs.html">here</a> to see an example of how to use UpdateExadataInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateExadataInsight.cs.html">here</a> to see an example of how to use UpdateExadataInsight API.</example>
         public async Task<UpdateExadataInsightResponse> UpdateExadataInsight(UpdateExadataInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateExadataInsight");
@@ -11091,7 +11091,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateHostInsight.cs.html">here</a> to see an example of how to use UpdateHostInsight API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateHostInsight.cs.html">here</a> to see an example of how to use UpdateHostInsight API.</example>
         public async Task<UpdateHostInsightResponse> UpdateHostInsight(UpdateHostInsightRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateHostInsight");
@@ -11147,7 +11147,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateNewsReport.cs.html">here</a> to see an example of how to use UpdateNewsReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateNewsReport.cs.html">here</a> to see an example of how to use UpdateNewsReport API.</example>
         public async Task<UpdateNewsReportResponse> UpdateNewsReport(UpdateNewsReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNewsReport");
@@ -11203,7 +11203,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateOperationsInsightsPrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateOperationsInsightsPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateOperationsInsightsPrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateOperationsInsightsPrivateEndpoint API.</example>
         public async Task<UpdateOperationsInsightsPrivateEndpointResponse> UpdateOperationsInsightsPrivateEndpoint(UpdateOperationsInsightsPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOperationsInsightsPrivateEndpoint");
@@ -11261,7 +11261,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateOperationsInsightsWarehouse.cs.html">here</a> to see an example of how to use UpdateOperationsInsightsWarehouse API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateOperationsInsightsWarehouse.cs.html">here</a> to see an example of how to use UpdateOperationsInsightsWarehouse API.</example>
         public async Task<UpdateOperationsInsightsWarehouseResponse> UpdateOperationsInsightsWarehouse(UpdateOperationsInsightsWarehouseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOperationsInsightsWarehouse");
@@ -11317,7 +11317,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateOperationsInsightsWarehouseUser.cs.html">here</a> to see an example of how to use UpdateOperationsInsightsWarehouseUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateOperationsInsightsWarehouseUser.cs.html">here</a> to see an example of how to use UpdateOperationsInsightsWarehouseUser API.</example>
         public async Task<UpdateOperationsInsightsWarehouseUserResponse> UpdateOperationsInsightsWarehouseUser(UpdateOperationsInsightsWarehouseUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOperationsInsightsWarehouseUser");
@@ -11373,7 +11373,7 @@ namespace Oci.OpsiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateOpsiConfiguration.cs.html">here</a> to see an example of how to use UpdateOpsiConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateOpsiConfiguration.cs.html">here</a> to see an example of how to use UpdateOpsiConfiguration API.</example>
         public async Task<UpdateOpsiConfigurationResponse> UpdateOpsiConfiguration(UpdateOpsiConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOpsiConfiguration");

@@ -77,7 +77,7 @@ namespace Oci.ModeldeploymentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/modeldeployment/Predict.cs.html">here</a> to see an example of how to use Predict API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/modeldeployment/Predict.cs.html">here</a> to see an example of how to use Predict API.</example>
         public async Task<PredictResponse> Predict(PredictRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called predict");
@@ -135,7 +135,7 @@ namespace Oci.ModeldeploymentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/modeldeployment/PredictWithResponseStream.cs.html">here</a> to see an example of how to use PredictWithResponseStream API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/modeldeployment/PredictWithResponseStream.cs.html">here</a> to see an example of how to use PredictWithResponseStream API.</example>
         public async Task<PredictWithResponseStreamResponse> PredictWithResponseStream(PredictWithResponseStreamRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called predictWithResponseStream");

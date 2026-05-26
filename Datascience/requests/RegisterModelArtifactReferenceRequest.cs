@@ -14,7 +14,7 @@ using Oci.DatascienceService.Models;
 namespace Oci.DatascienceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/RegisterModelArtifactReference.cs.html">here</a> to see an example of how to use RegisterModelArtifactReference request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/RegisterModelArtifactReference.cs.html">here</a> to see an example of how to use RegisterModelArtifactReference request.
     /// </example>
     public class RegisterModelArtifactReferenceRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.DatascienceService.Requests
         public RegisterModelArtifactReferenceDetails RegisterModelArtifactReferenceDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the model.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the model.
         /// </value>
         /// <remarks>
         /// Required

@@ -14,13 +14,13 @@ using Oci.AidataplatformService.Models;
 namespace Oci.AidataplatformService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aidataplatform/ChangeAiDataPlatformCompartment.cs.html">here</a> to see an example of how to use ChangeAiDataPlatformCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aidataplatform/ChangeAiDataPlatformCompartment.cs.html">here</a> to see an example of how to use ChangeAiDataPlatformCompartment request.
     /// </example>
     public class ChangeAiDataPlatformCompartmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the AiDataPlatform.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the AiDataPlatform.
         /// </value>
         /// <remarks>
         /// Required

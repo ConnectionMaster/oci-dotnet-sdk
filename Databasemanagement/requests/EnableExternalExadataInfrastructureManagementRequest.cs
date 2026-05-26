@@ -14,13 +14,13 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/EnableExternalExadataInfrastructureManagement.cs.html">here</a> to see an example of how to use EnableExternalExadataInfrastructureManagement request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/EnableExternalExadataInfrastructureManagement.cs.html">here</a> to see an example of how to use EnableExternalExadataInfrastructureManagement request.
     /// </example>
     public class EnableExternalExadataInfrastructureManagementRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Exadata infrastructure.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Exadata infrastructure.
         /// </value>
         /// <remarks>
         /// Required

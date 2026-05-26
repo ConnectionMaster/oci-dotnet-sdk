@@ -14,21 +14,21 @@ using Oci.ComputecloudatcustomerService.Models;
 namespace Oci.ComputecloudatcustomerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/ListCccUpgradeSchedules.cs.html">here</a> to see an example of how to use ListCccUpgradeSchedules request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/ListCccUpgradeSchedules.cs.html">here</a> to see an example of how to use ListCccUpgradeSchedules request.
     /// </example>
     public class ListCccUpgradeSchedulesRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
         /// Compute Cloud@Customer upgrade schedule
-        /// [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "cccUpgradeScheduleId")]
         public string CccUpgradeScheduleId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment in which to
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment in which to
         /// list resources.
         /// 
         /// </value>
@@ -131,7 +131,7 @@ namespace Oci.ComputecloudatcustomerService.Requests
         public System.Nullable<SortByEnum> SortBy { get; set; }
         
         /// <value>
-        /// The client request [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for tracing.
+        /// The client request [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for tracing.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-request-id")]

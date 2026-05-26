@@ -14,7 +14,7 @@ using Oci.DbmulticloudService.Models;
 namespace Oci.DbmulticloudService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbAwsKey.cs.html">here</a> to see an example of how to use CreateOracleDbAwsKey request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbAwsKey.cs.html">here</a> to see an example of how to use CreateOracleDbAwsKey request.
     /// </example>
     public class CreateOracleDbAwsKeyRequest : Oci.Common.IOciRequest
     {

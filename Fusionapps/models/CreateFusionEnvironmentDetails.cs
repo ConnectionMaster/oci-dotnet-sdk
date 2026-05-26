@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FusionappsService.Models
 {
     /// <summary>
-    /// The configuration details of the FusionEnvironment. For more information about these fields, see [Managing Environments](https://docs.cloud.oracle.com/iaas/Content/fusion-applications/manage-environment.htm).
+    /// The configuration details of the FusionEnvironment. For more information about these fields, see [Managing Environments](https://docs.oracle.com/iaas/Content/fusion-applications/manage-environment.htm).
     /// </summary>
     public class CreateFusionEnvironmentDetails 
     {
@@ -96,7 +96,7 @@ namespace Oci.FusionappsService.Models
         public System.Collections.Generic.List<Rule> Rules { get; set; }
         
         /// <value>
-        /// Additional egress rules that should be applied to the environment. Some standard ports are open for general use; see [Securing Network Access to a Fusion Applications Environment](https://docs.cloud.oracle.com/iaas/Content/fusion-applications/plan-environment.htm#internet-cache). If access to a non-standard port is required, however, they can be listed here.
+        /// Additional egress rules that should be applied to the environment. Some standard ports are open for general use; see [Securing Network Access to a Fusion Applications Environment](https://docs.oracle.com/iaas/Content/fusion-applications/plan-environment.htm#internet-cache). If access to a non-standard port is required, however, they can be listed here.
         /// </value>
         [JsonProperty(PropertyName = "additionalEgressRules")]
         public System.Collections.Generic.List<AdditionalEgressRule> AdditionalEgressRules { get; set; }

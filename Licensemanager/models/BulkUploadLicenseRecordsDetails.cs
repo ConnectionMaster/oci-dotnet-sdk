@@ -22,7 +22,7 @@ namespace Oci.LicensemanagerService.Models
     {
         
         /// <value>
-        /// The compartment [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) where license records are created.
+        /// The compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) where license records are created.
         /// 
         /// </value>
         /// <remarks>

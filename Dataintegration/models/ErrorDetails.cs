@@ -23,7 +23,7 @@ namespace Oci.DataintegrationService.Models
         
         /// <value>
         /// A short error code that defines the error, meant for programmatic parsing. See
-        /// [API Errors](https://docs.cloud.oracle.com/Content/API/References/apierrors.htm).
+        /// [API Errors](https://docs.oracle.com/iaas/Content/API/References/apierrors.htm).
         /// 
         /// </value>
         /// <remarks>

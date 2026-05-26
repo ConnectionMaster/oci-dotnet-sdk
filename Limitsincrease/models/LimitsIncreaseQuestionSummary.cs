@@ -19,14 +19,14 @@ namespace Oci.LimitsincreaseService.Models
     /// A summary of properties for a question to be asked for a certain limit.
     /// Example questions include database version for some limits in Autonomous AI Database or email domain for some limits in Email Delivery.
     /// For more information, see
-    /// [Creating a Limit Increase Request](https://docs.cloud.oracle.com/iaas/Content/General/service-limits/create-request.htm).
+    /// [Creating a Limit Increase Request](https://docs.oracle.com/iaas/Content/General/service-limits/create-request.htm).
     /// 
     /// </summary>
     public class LimitsIncreaseQuestionSummary 
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the question.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the question.
         /// </value>
         /// <remarks>
         /// Required

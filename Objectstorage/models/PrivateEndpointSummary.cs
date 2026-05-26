@@ -18,7 +18,7 @@ namespace Oci.ObjectstorageService.Models
     /// <summary>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you are not authorized,
     /// talk to an administrator. If you are an administrator who needs to write policies to give users access, see
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/Content/Identity/Concepts/policygetstarted.htm).
+    /// [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// 
     /// </summary>
     public class PrivateEndpointSummary 
@@ -56,7 +56,7 @@ namespace Oci.ObjectstorageService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the user who created the Private Endpoint.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the user who created the Private Endpoint.
         /// </value>
         /// <remarks>
         /// Required

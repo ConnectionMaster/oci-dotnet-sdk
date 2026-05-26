@@ -61,7 +61,7 @@ namespace Oci.KeymanagementService
         }
 
         /// <summary>
-        /// Decrypts data using the given [DecryptDataDetails](https://docs.cloud.oracle.com/api/#/en/key/latest/datatypes/DecryptDataDetails) resource.
+        /// Decrypts data using the given [DecryptDataDetails](https://docs.oracle.com/iaas/api/#/en/key/latest/datatypes/DecryptDataDetails) resource.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -69,7 +69,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/Decrypt.cs.html">here</a> to see an example of how to use Decrypt API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/Decrypt.cs.html">here</a> to see an example of how to use Decrypt API.</example>
         public async Task<DecryptResponse> Decrypt(DecryptRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called decrypt");
@@ -118,7 +118,7 @@ namespace Oci.KeymanagementService
         }
 
         /// <summary>
-        /// Encrypts data using the given [EncryptDataDetails](https://docs.cloud.oracle.com/api/#/en/key/latest/datatypes/EncryptDataDetails) resource.
+        /// Encrypts data using the given [EncryptDataDetails](https://docs.oracle.com/iaas/api/#/en/key/latest/datatypes/EncryptDataDetails) resource.
         /// Plaintext included in the example request is a base64-encoded value of a UTF-8 string.
         /// 
         /// </summary>
@@ -127,7 +127,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/Encrypt.cs.html">here</a> to see an example of how to use Encrypt API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/Encrypt.cs.html">here</a> to see an example of how to use Encrypt API.</example>
         public async Task<EncryptResponse> Encrypt(EncryptRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called encrypt");
@@ -187,7 +187,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ExportKey.cs.html">here</a> to see an example of how to use ExportKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ExportKey.cs.html">here</a> to see an example of how to use ExportKey API.</example>
         public async Task<ExportKeyResponse> ExportKey(ExportKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called exportKey");
@@ -244,7 +244,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GenerateDataEncryptionKey.cs.html">here</a> to see an example of how to use GenerateDataEncryptionKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GenerateDataEncryptionKey.cs.html">here</a> to see an example of how to use GenerateDataEncryptionKey API.</example>
         public async Task<GenerateDataEncryptionKeyResponse> GenerateDataEncryptionKey(GenerateDataEncryptionKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateDataEncryptionKey");
@@ -294,7 +294,7 @@ namespace Oci.KeymanagementService
 
         /// <summary>
         /// Creates a digital signature for a message or message digest by using the private key of a public-private key pair,
-        /// also known as an asymmetric key. To verify the generated signature, you can use the [Verify](https://docs.cloud.oracle.com/api/#/en/key/latest/VerifiedData/Verify)
+        /// also known as an asymmetric key. To verify the generated signature, you can use the [Verify](https://docs.oracle.com/iaas/api/#/en/key/latest/VerifiedData/Verify)
         /// operation. Or, if you want to validate the signature outside of the service, you can do so by using the public key of the same asymmetric key.
         /// This operation is not supported for keys having protection mode &#x60;EXTERNAL&#x60;.
         /// 
@@ -304,7 +304,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/Sign.cs.html">here</a> to see an example of how to use Sign API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/Sign.cs.html">here</a> to see an example of how to use Sign API.</example>
         public async Task<SignResponse> Sign(SignRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called sign");
@@ -353,7 +353,7 @@ namespace Oci.KeymanagementService
         }
 
         /// <summary>
-        /// Verifies a digital signature that was generated by the [Sign](https://docs.cloud.oracle.com/api/#/en/key/latest/SignedData/Sign) operation
+        /// Verifies a digital signature that was generated by the [Sign](https://docs.oracle.com/iaas/api/#/en/key/latest/SignedData/Sign) operation
         /// by using the public key of the same asymmetric key that was used to sign the data. If you want to validate the
         /// digital signature outside of the service, you can do so by using the public key of the asymmetric key.
         /// This operation is not supported for keys having protection mode &#x60;EXTERNAL&#x60;.
@@ -364,7 +364,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/Verify.cs.html">here</a> to see an example of how to use Verify API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/Verify.cs.html">here</a> to see an example of how to use Verify API.</example>
         public async Task<VerifyResponse> Verify(VerifyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called verify");

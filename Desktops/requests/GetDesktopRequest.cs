@@ -14,7 +14,7 @@ using Oci.DesktopsService.Models;
 namespace Oci.DesktopsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/desktops/GetDesktop.cs.html">here</a> to see an example of how to use GetDesktop request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/desktops/GetDesktop.cs.html">here</a> to see an example of how to use GetDesktop request.
     /// </example>
     public class GetDesktopRequest : Oci.Common.IOciRequest
     {

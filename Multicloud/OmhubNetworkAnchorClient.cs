@@ -72,7 +72,7 @@ namespace Oci.MulticloudService
         /// <summary>
         /// Gets details for the specified network anchor. The subscription OCID and service name are required.
         /// For more information, see
-        /// [Getting a Network Anchor&#39;s Details](https://docs.cloud.oracle.com/iaas/Content/multicloud-hub/get-network-anchor.htm).
+        /// [Getting a Network Anchor&#39;s Details](https://docs.oracle.com/iaas/Content/multicloud-hub/get-network-anchor.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -80,7 +80,7 @@ namespace Oci.MulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/GetNetworkAnchor.cs.html">here</a> to see an example of how to use GetNetworkAnchor API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/GetNetworkAnchor.cs.html">here</a> to see an example of how to use GetNetworkAnchor API.</example>
         public async Task<GetNetworkAnchorResponse> GetNetworkAnchor(GetNetworkAnchorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNetworkAnchor");
@@ -132,7 +132,7 @@ namespace Oci.MulticloudService
         /// Lists network anchors in the specified Multicloud subscription, Multicloud compartment, and partner cloud region.
         /// Details listed for each resource include name, state, VCN, and ODB network ID.
         /// For more information, see
-        /// [Listing Network Anchors](https://docs.cloud.oracle.com/iaas/Content/multicloud-hub/list-network-anchors.htm).
+        /// [Listing Network Anchors](https://docs.oracle.com/iaas/Content/multicloud-hub/list-network-anchors.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -140,7 +140,7 @@ namespace Oci.MulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/ListNetworkAnchors.cs.html">here</a> to see an example of how to use ListNetworkAnchors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/ListNetworkAnchors.cs.html">here</a> to see an example of how to use ListNetworkAnchors API.</example>
         public async Task<ListNetworkAnchorsResponse> ListNetworkAnchors(ListNetworkAnchorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNetworkAnchors");

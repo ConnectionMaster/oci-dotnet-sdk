@@ -24,7 +24,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -41,7 +41,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -49,7 +49,7 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the maintenance event.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the maintenance event.
         /// 
         /// </value>
         /// <remarks>
@@ -84,7 +84,7 @@ namespace Oci.CoreService.Models
         /// This indicates the priority and allowed actions for this Maintenance. Higher priority forms of Maintenance have
         /// tighter restrictions and may not be rescheduled, while lower priority/severity Maintenance can be rescheduled,
         /// deferred, or even cancelled. Please see the
-        /// [Instance Maintenance](https://docs.cloud.oracle.com/iaas/Content/Compute/Tasks/placeholder.htm) documentation for details.
+        /// [Instance Maintenance](https://docs.oracle.com/iaas/Content/Compute/Tasks/placeholder.htm) documentation for details.
         /// 
         /// </value>
         /// <remarks>
@@ -97,7 +97,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// This is the reason that Maintenance is being performed. See
-        /// [Instance Maintenance](https://docs.cloud.oracle.com/iaas/Content/Compute/Tasks/placeholder.htm) documentation for details.
+        /// [Instance Maintenance](https://docs.oracle.com/iaas/Content/Compute/Tasks/placeholder.htm) documentation for details.
         /// 
         /// </value>
         /// <remarks>

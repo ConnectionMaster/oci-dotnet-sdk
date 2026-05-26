@@ -52,7 +52,7 @@ namespace Oci.OsmanagementhubService.Models
         public string ProfileName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the software source that contains the module stream.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the software source that contains the module stream.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "softwareSourceId")]

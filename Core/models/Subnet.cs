@@ -18,7 +18,7 @@ namespace Oci.CoreService.Models
     /// <summary>
     /// A logical subdivision of a VCN. Each subnet
     /// consists of a contiguous range of IP addresses that do not overlap with
-    /// other subnets in the VCN. Example: 172.16.1.0/24. For more information, see[Overview of the Networking Service](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/overview.htm) and[VCNs and Subnets](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingVCNs.htm).To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,talk to an administrator. If you're an administrator who needs to write policies to give users access, see[Getting Started with Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
+    /// other subnets in the VCN. Example: 172.16.1.0/24. For more information, see[Overview of the Networking Service](https://docs.oracle.com/iaas/Content/Network/Concepts/overview.htm) and[VCNs and Subnets](https://docs.oracle.com/iaas/Content/Network/Tasks/managingVCNs.htm).To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,talk to an administrator. If you're an administrator who needs to write policies to give users access, see[Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// </summary>
     public class Subnet 
     {
@@ -55,7 +55,7 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.List<string> Ipv4CidrBlocks { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the subnet.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the subnet.
         /// </value>
         /// <remarks>
         /// Required
@@ -66,7 +66,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -74,7 +74,7 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the set of DHCP options that the subnet uses.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the set of DHCP options that the subnet uses.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "dhcpOptionsId")]
@@ -99,7 +99,7 @@ namespace Oci.CoreService.Models
         /// will not resolve hostnames of instances in this subnet.
         /// <br/>
         /// For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// <br/>
         /// Example: subnet123
         /// </value>
@@ -108,7 +108,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -116,7 +116,7 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
         
         /// <value>
-        /// The subnet's Oracle ID ([OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
+        /// The subnet's Oracle ID ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
         /// </value>
         /// <remarks>
         /// Required
@@ -127,7 +127,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// For an IPv6-enabled subnet, this is the IPv6 prefix for the subnet's IP address space.
-        /// The subnet size is always /64. See [IPv6 Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
+        /// The subnet size is always /64. See [IPv6 Addresses](https://docs.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
         /// <br/>
         /// Example: 2001:0db8:0123:1111::/64
         /// </value>
@@ -215,7 +215,7 @@ namespace Oci.CoreService.Models
         public System.Nullable<bool> ProhibitPublicIpOnVnic { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the route table that the subnet uses.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the route table that the subnet uses.
         /// </value>
         /// <remarks>
         /// Required
@@ -238,7 +238,7 @@ namespace Oci.CoreService.Models
         /// the VCN's DNS label, and the `oraclevcn.com` domain.
         /// <br/>
         /// For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// <br/>
         /// Example: subnet123.vcn1.oraclevcn.com
         /// </value>
@@ -254,7 +254,7 @@ namespace Oci.CoreService.Models
         public System.Nullable<System.DateTime> TimeCreated { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VCN the subnet is in.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VCN the subnet is in.
         /// </value>
         /// <remarks>
         /// Required

@@ -22,7 +22,7 @@ namespace Oci.RedisService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the OCI Cache Default Config Set.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the OCI Cache Default Config Set.
         /// </value>
         /// <remarks>
         /// Required

@@ -14,13 +14,13 @@ using Oci.ApiplatformService.Models;
 namespace Oci.ApiplatformService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiplatform/UpdateApiPlatformInstance.cs.html">here</a> to see an example of how to use UpdateApiPlatformInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiplatform/UpdateApiPlatformInstance.cs.html">here</a> to see an example of how to use UpdateApiPlatformInstance request.
     /// </example>
     public class UpdateApiPlatformInstanceRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the instance
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the instance
         /// </value>
         /// <remarks>
         /// Required

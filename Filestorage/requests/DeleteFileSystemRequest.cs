@@ -14,13 +14,13 @@ using Oci.FilestorageService.Models;
 namespace Oci.FilestorageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteFileSystem.cs.html">here</a> to see an example of how to use DeleteFileSystem request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteFileSystem.cs.html">here</a> to see an example of how to use DeleteFileSystem request.
     /// </example>
     public class DeleteFileSystemRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the file system.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the file system.
         /// </value>
         /// <remarks>
         /// Required

@@ -31,7 +31,7 @@ namespace Oci.IdentityService.Models
         public System.Collections.Generic.List<BulkActionResource> Resources { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the destination compartment
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the destination compartment
         /// into which to move the resources.
         /// 
         /// </value>

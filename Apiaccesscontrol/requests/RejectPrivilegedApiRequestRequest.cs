@@ -14,7 +14,7 @@ using Oci.ApiaccesscontrolService.Models;
 namespace Oci.ApiaccesscontrolService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/RejectPrivilegedApiRequest.cs.html">here</a> to see an example of how to use RejectPrivilegedApiRequest request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/RejectPrivilegedApiRequest.cs.html">here</a> to see an example of how to use RejectPrivilegedApiRequest request.
     /// </example>
     public class RejectPrivilegedApiRequestRequest : Oci.Common.IOciRequest
     {

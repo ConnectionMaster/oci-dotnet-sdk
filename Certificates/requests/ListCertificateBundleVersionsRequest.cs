@@ -14,7 +14,7 @@ using Oci.CertificatesService.Models;
 namespace Oci.CertificatesService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificates/ListCertificateBundleVersions.cs.html">here</a> to see an example of how to use ListCertificateBundleVersions request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificates/ListCertificateBundleVersions.cs.html">here</a> to see an example of how to use ListCertificateBundleVersions request.
     /// </example>
     public class ListCertificateBundleVersionsRequest : Oci.Common.IOciRequest
     {

@@ -14,13 +14,13 @@ using Oci.ResourcemanagerService.Models;
 namespace Oci.ResourcemanagerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetPrivateEndpoint.cs.html">here</a> to see an example of how to use GetPrivateEndpoint request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/GetPrivateEndpoint.cs.html">here</a> to see an example of how to use GetPrivateEndpoint request.
     /// </example>
     public class GetPrivateEndpointRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private endpoint.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private endpoint.
         /// </value>
         /// <remarks>
         /// Required

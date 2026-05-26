@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListConsoleHistories.cs.html">here</a> to see an example of how to use ListConsoleHistories request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListConsoleHistories.cs.html">here</a> to see an example of how to use ListConsoleHistories request.
     /// </example>
     public class ListConsoleHistoriesRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The database node [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The database node [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

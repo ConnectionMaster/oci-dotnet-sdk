@@ -80,7 +80,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/AcceptRecipientInvitation.cs.html">here</a> to see an example of how to use AcceptRecipientInvitation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/AcceptRecipientInvitation.cs.html">here</a> to see an example of how to use AcceptRecipientInvitation API.</example>
         public async Task<AcceptRecipientInvitationResponse> AcceptRecipientInvitation(AcceptRecipientInvitationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called acceptRecipientInvitation");
@@ -136,7 +136,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/GetRecipientInvitation.cs.html">here</a> to see an example of how to use GetRecipientInvitation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/GetRecipientInvitation.cs.html">here</a> to see an example of how to use GetRecipientInvitation API.</example>
         public async Task<GetRecipientInvitationResponse> GetRecipientInvitation(GetRecipientInvitationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRecipientInvitation");
@@ -192,7 +192,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/IgnoreRecipientInvitation.cs.html">here</a> to see an example of how to use IgnoreRecipientInvitation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/IgnoreRecipientInvitation.cs.html">here</a> to see an example of how to use IgnoreRecipientInvitation API.</example>
         public async Task<IgnoreRecipientInvitationResponse> IgnoreRecipientInvitation(IgnoreRecipientInvitationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called ignoreRecipientInvitation");
@@ -249,7 +249,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/ListRecipientInvitations.cs.html">here</a> to see an example of how to use ListRecipientInvitations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/ListRecipientInvitations.cs.html">here</a> to see an example of how to use ListRecipientInvitations API.</example>
         public async Task<ListRecipientInvitationsResponse> ListRecipientInvitations(ListRecipientInvitationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRecipientInvitations");
@@ -305,7 +305,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/UpdateRecipientInvitation.cs.html">here</a> to see an example of how to use UpdateRecipientInvitation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/UpdateRecipientInvitation.cs.html">here</a> to see an example of how to use UpdateRecipientInvitation API.</example>
         public async Task<UpdateRecipientInvitationResponse> UpdateRecipientInvitation(UpdateRecipientInvitationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRecipientInvitation");

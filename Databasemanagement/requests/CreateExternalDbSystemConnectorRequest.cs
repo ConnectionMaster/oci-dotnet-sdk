@@ -14,7 +14,7 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/CreateExternalDbSystemConnector.cs.html">here</a> to see an example of how to use CreateExternalDbSystemConnector request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/CreateExternalDbSystemConnector.cs.html">here</a> to see an example of how to use CreateExternalDbSystemConnector request.
     /// </example>
     public class CreateExternalDbSystemConnectorRequest : Oci.Common.IOciRequest
     {

@@ -14,7 +14,7 @@ using Oci.ResourcemanagerService.Models;
 namespace Oci.ResourcemanagerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListJobs.cs.html">here</a> to see an example of how to use ListJobs request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListJobs.cs.html">here</a> to see an example of how to use ListJobs request.
     /// </example>
     public class ListJobsRequest : Oci.Common.IOciRequest
     {
@@ -28,21 +28,21 @@ namespace Oci.ResourcemanagerService.Requests
         public string OpcRequestId { get; set; }
         
         /// <value>
-        /// A filter to return only resources that exist in the compartment, identified by [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// A filter to return only resources that exist in the compartment, identified by [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "compartmentId")]
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The stack [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) on which to filter.
+        /// The stack [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) on which to filter.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "stackId")]
         public string StackId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) on which to query for jobs.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) on which to query for jobs.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "id")]
@@ -112,7 +112,7 @@ namespace Oci.ResourcemanagerService.Requests
         
         /// <value>
         /// The number of items returned in a paginated `List` call. For information about pagination, see
-        /// [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "limit")]
@@ -120,7 +120,7 @@ namespace Oci.ResourcemanagerService.Requests
         
         /// <value>
         /// The value of the `opc-next-page` response header from the preceding `List` call.
-        /// For information about pagination, see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// For information about pagination, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]

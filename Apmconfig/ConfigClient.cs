@@ -77,7 +77,7 @@ namespace Oci.ApmconfigService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/CopyConfiguration.cs.html">here</a> to see an example of how to use CopyConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/CopyConfiguration.cs.html">here</a> to see an example of how to use CopyConfiguration API.</example>
         public async Task<CopyConfigurationResponse> CopyConfiguration(CopyConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called copyConfiguration");
@@ -133,7 +133,7 @@ namespace Oci.ApmconfigService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/CreateConfig.cs.html">here</a> to see an example of how to use CreateConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/CreateConfig.cs.html">here</a> to see an example of how to use CreateConfig API.</example>
         public async Task<CreateConfigResponse> CreateConfig(CreateConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createConfig");
@@ -189,7 +189,7 @@ namespace Oci.ApmconfigService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/DeleteConfig.cs.html">here</a> to see an example of how to use DeleteConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/DeleteConfig.cs.html">here</a> to see an example of how to use DeleteConfig API.</example>
         public async Task<DeleteConfigResponse> DeleteConfig(DeleteConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteConfig");
@@ -245,7 +245,7 @@ namespace Oci.ApmconfigService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/ExportConfiguration.cs.html">here</a> to see an example of how to use ExportConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/ExportConfiguration.cs.html">here</a> to see an example of how to use ExportConfiguration API.</example>
         public async Task<ExportConfigurationResponse> ExportConfiguration(ExportConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called exportConfiguration");
@@ -301,7 +301,7 @@ namespace Oci.ApmconfigService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/GetConfig.cs.html">here</a> to see an example of how to use GetConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/GetConfig.cs.html">here</a> to see an example of how to use GetConfig API.</example>
         public async Task<GetConfigResponse> GetConfig(GetConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getConfig");
@@ -357,7 +357,7 @@ namespace Oci.ApmconfigService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/GetMatchAgentsWithAttributeKey.cs.html">here</a> to see an example of how to use GetMatchAgentsWithAttributeKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/GetMatchAgentsWithAttributeKey.cs.html">here</a> to see an example of how to use GetMatchAgentsWithAttributeKey API.</example>
         public async Task<GetMatchAgentsWithAttributeKeyResponse> GetMatchAgentsWithAttributeKey(GetMatchAgentsWithAttributeKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMatchAgentsWithAttributeKey");
@@ -413,7 +413,7 @@ namespace Oci.ApmconfigService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/ImportConfiguration.cs.html">here</a> to see an example of how to use ImportConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/ImportConfiguration.cs.html">here</a> to see an example of how to use ImportConfiguration API.</example>
         public async Task<ImportConfigurationResponse> ImportConfiguration(ImportConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called importConfiguration");
@@ -469,7 +469,7 @@ namespace Oci.ApmconfigService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/ListConfigs.cs.html">here</a> to see an example of how to use ListConfigs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/ListConfigs.cs.html">here</a> to see an example of how to use ListConfigs API.</example>
         public async Task<ListConfigsResponse> ListConfigs(ListConfigsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listConfigs");
@@ -525,7 +525,7 @@ namespace Oci.ApmconfigService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/RetrieveNamespaceMetrics.cs.html">here</a> to see an example of how to use RetrieveNamespaceMetrics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/RetrieveNamespaceMetrics.cs.html">here</a> to see an example of how to use RetrieveNamespaceMetrics API.</example>
         public async Task<RetrieveNamespaceMetricsResponse> RetrieveNamespaceMetrics(RetrieveNamespaceMetricsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called retrieveNamespaceMetrics");
@@ -581,7 +581,7 @@ namespace Oci.ApmconfigService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/RetrieveNamespaces.cs.html">here</a> to see an example of how to use RetrieveNamespaces API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/RetrieveNamespaces.cs.html">here</a> to see an example of how to use RetrieveNamespaces API.</example>
         public async Task<RetrieveNamespacesResponse> RetrieveNamespaces(RetrieveNamespacesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called retrieveNamespaces");
@@ -639,7 +639,7 @@ namespace Oci.ApmconfigService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/Test.cs.html">here</a> to see an example of how to use Test API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/Test.cs.html">here</a> to see an example of how to use Test API.</example>
         public async Task<TestResponse> Test(TestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called test");
@@ -695,7 +695,7 @@ namespace Oci.ApmconfigService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/UpdateConfig.cs.html">here</a> to see an example of how to use UpdateConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/UpdateConfig.cs.html">here</a> to see an example of how to use UpdateConfig API.</example>
         public async Task<UpdateConfigResponse> UpdateConfig(UpdateConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateConfig");
@@ -751,7 +751,7 @@ namespace Oci.ApmconfigService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/UpdateMatchAgentsWithAttributeKey.cs.html">here</a> to see an example of how to use UpdateMatchAgentsWithAttributeKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/UpdateMatchAgentsWithAttributeKey.cs.html">here</a> to see an example of how to use UpdateMatchAgentsWithAttributeKey API.</example>
         public async Task<UpdateMatchAgentsWithAttributeKeyResponse> UpdateMatchAgentsWithAttributeKey(UpdateMatchAgentsWithAttributeKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMatchAgentsWithAttributeKey");
@@ -809,7 +809,7 @@ namespace Oci.ApmconfigService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/ValidateSpanFilterPattern.cs.html">here</a> to see an example of how to use ValidateSpanFilterPattern API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/ValidateSpanFilterPattern.cs.html">here</a> to see an example of how to use ValidateSpanFilterPattern API.</example>
         public async Task<ValidateSpanFilterPatternResponse> ValidateSpanFilterPattern(ValidateSpanFilterPatternRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called validateSpanFilterPattern");

@@ -14,7 +14,7 @@ using Oci.ResourcemanagerService.Models;
 namespace Oci.ResourcemanagerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListTemplateCategories.cs.html">here</a> to see an example of how to use ListTemplateCategories request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcemanager/ListTemplateCategories.cs.html">here</a> to see an example of how to use ListTemplateCategories request.
     /// </example>
     public class ListTemplateCategoriesRequest : Oci.Common.IOciRequest
     {

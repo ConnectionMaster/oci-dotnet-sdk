@@ -18,11 +18,11 @@ namespace Oci.CoreService.Models
     /// <summary>
     /// An asynchronous replica of a block volume that can then be used to create
     /// a new block volume or recover a block volume. For more information, see [Overview
-    /// of Cross-Region Volume Replication](https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/volumereplication.htm)
+    /// of Cross-Region Volume Replication](https://docs.oracle.com/iaas/Content/Block/Concepts/volumereplication.htm)
     /// To use any of the API operations, you must be authorized in an IAM policy.
     /// If you're not authorized, talk to an administrator. If you're an administrator
     /// who needs to write policies to give users access, see [Getting Started with
-    /// Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
+    /// Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// <br/>
     /// **Warning:** Oracle recommends that you avoid using any confidential information when you
     /// supply string values using the API.
@@ -55,7 +55,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -76,7 +76,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -187,8 +187,8 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// The OCID of the Vault service key to assign as the master encryption key for the block volume replica, see
-        /// [Overview of Vault service](https://docs.cloud.oracle.com/iaas/Content/KeyManagement/Concepts/keyoverview.htm) and
-        /// [Using Keys](https://docs.cloud.oracle.com/iaas/Content/KeyManagement/Tasks/usingkeys.htm).
+        /// [Overview of Vault service](https://docs.oracle.com/iaas/Content/KeyManagement/Concepts/keyoverview.htm) and
+        /// [Using Keys](https://docs.oracle.com/iaas/Content/KeyManagement/Tasks/usingkeys.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "kmsKeyId")]

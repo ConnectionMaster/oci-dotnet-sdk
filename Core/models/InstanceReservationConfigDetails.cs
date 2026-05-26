@@ -41,13 +41,13 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// The fault domain to use for instances created using this capacity configuration.
-        /// For more information, see [Fault Domains](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/regions.htm#fault).
+        /// For more information, see [Fault Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm#fault).
         /// If you do not specify the fault domain, the capacity is available for an instance
         /// that does not specify a fault domain. To change the fault domain for a reservation,
         /// delete the reservation and create a new one in the preferred fault domain.
         /// <br/>
         /// To retrieve a list of fault domains, use the `ListFaultDomains` operation in
-        /// the [Identity and Access Management Service API](https://docs.cloud.oracle.com/iaas/api/#/en/identity/20160918/).
+        /// the [Identity and Access Management Service API](https://docs.oracle.com/iaas/api/#/en/identity/20160918/).
         /// <br/>
         /// Example: FAULT-DOMAIN-1
         /// </value>

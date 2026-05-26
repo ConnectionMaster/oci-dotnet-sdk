@@ -14,13 +14,13 @@ using Oci.DbmulticloudService.Models;
 namespace Oci.DbmulticloudService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListMultiCloudResourceDiscoveries.cs.html">here</a> to see an example of how to use ListMultiCloudResourceDiscoveries request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListMultiCloudResourceDiscoveries.cs.html">here</a> to see an example of how to use ListMultiCloudResourceDiscoveries request.
     /// </example>
     public class ListMultiCloudResourceDiscoveriesRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [ID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
+        /// The [ID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
         /// </value>
         /// <remarks>
         /// Required
@@ -36,7 +36,7 @@ namespace Oci.DbmulticloudService.Requests
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Multicloud Discovery resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Multicloud Discovery resource.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "multiCloudResourceDiscoveryId")]
         public string MultiCloudResourceDiscoveryId { get; set; }

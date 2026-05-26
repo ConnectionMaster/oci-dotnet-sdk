@@ -80,7 +80,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
         public async Task<CancelWorkRequestResponse> CancelWorkRequest(CancelWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelWorkRequest");
@@ -130,7 +130,7 @@ namespace Oci.ManagedkafkaService
 
         /// <summary>
         /// Moves a KafkaCluster into a different compartment within the same tenancy. For information about moving resources between
-        /// compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -138,7 +138,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ChangeKafkaClusterCompartment.cs.html">here</a> to see an example of how to use ChangeKafkaClusterCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ChangeKafkaClusterCompartment.cs.html">here</a> to see an example of how to use ChangeKafkaClusterCompartment API.</example>
         public async Task<ChangeKafkaClusterCompartmentResponse> ChangeKafkaClusterCompartment(ChangeKafkaClusterCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeKafkaClusterCompartment");
@@ -188,7 +188,7 @@ namespace Oci.ManagedkafkaService
 
         /// <summary>
         /// Moves a KafkaClusterConfig into a different compartment within the same tenancy. For information about moving resources between
-        /// compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -196,7 +196,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ChangeKafkaClusterConfigCompartment.cs.html">here</a> to see an example of how to use ChangeKafkaClusterConfigCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ChangeKafkaClusterConfigCompartment.cs.html">here</a> to see an example of how to use ChangeKafkaClusterConfigCompartment API.</example>
         public async Task<ChangeKafkaClusterConfigCompartmentResponse> ChangeKafkaClusterConfigCompartment(ChangeKafkaClusterConfigCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeKafkaClusterConfigCompartment");
@@ -253,7 +253,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/CreateKafkaCluster.cs.html">here</a> to see an example of how to use CreateKafkaCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/CreateKafkaCluster.cs.html">here</a> to see an example of how to use CreateKafkaCluster API.</example>
         public async Task<CreateKafkaClusterResponse> CreateKafkaCluster(CreateKafkaClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createKafkaCluster");
@@ -310,7 +310,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/CreateKafkaClusterConfig.cs.html">here</a> to see an example of how to use CreateKafkaClusterConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/CreateKafkaClusterConfig.cs.html">here</a> to see an example of how to use CreateKafkaClusterConfig API.</example>
         public async Task<CreateKafkaClusterConfigResponse> CreateKafkaClusterConfig(CreateKafkaClusterConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createKafkaClusterConfig");
@@ -366,7 +366,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/DeleteKafkaCluster.cs.html">here</a> to see an example of how to use DeleteKafkaCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/DeleteKafkaCluster.cs.html">here</a> to see an example of how to use DeleteKafkaCluster API.</example>
         public async Task<DeleteKafkaClusterResponse> DeleteKafkaCluster(DeleteKafkaClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteKafkaCluster");
@@ -422,7 +422,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/DeleteKafkaClusterConfig.cs.html">here</a> to see an example of how to use DeleteKafkaClusterConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/DeleteKafkaClusterConfig.cs.html">here</a> to see an example of how to use DeleteKafkaClusterConfig API.</example>
         public async Task<DeleteKafkaClusterConfigResponse> DeleteKafkaClusterConfig(DeleteKafkaClusterConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteKafkaClusterConfig");
@@ -478,7 +478,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/DeleteKafkaClusterConfigVersion.cs.html">here</a> to see an example of how to use DeleteKafkaClusterConfigVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/DeleteKafkaClusterConfigVersion.cs.html">here</a> to see an example of how to use DeleteKafkaClusterConfigVersion API.</example>
         public async Task<DeleteKafkaClusterConfigVersionResponse> DeleteKafkaClusterConfigVersion(DeleteKafkaClusterConfigVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteKafkaClusterConfigVersion");
@@ -535,7 +535,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/DisableSuperuser.cs.html">here</a> to see an example of how to use DisableSuperuser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/DisableSuperuser.cs.html">here</a> to see an example of how to use DisableSuperuser API.</example>
         public async Task<DisableSuperuserResponse> DisableSuperuser(DisableSuperuserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableSuperuser");
@@ -592,7 +592,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/EnableSuperuser.cs.html">here</a> to see an example of how to use EnableSuperuser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/EnableSuperuser.cs.html">here</a> to see an example of how to use EnableSuperuser API.</example>
         public async Task<EnableSuperuserResponse> EnableSuperuser(EnableSuperuserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enableSuperuser");
@@ -648,7 +648,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/GetKafkaCluster.cs.html">here</a> to see an example of how to use GetKafkaCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/GetKafkaCluster.cs.html">here</a> to see an example of how to use GetKafkaCluster API.</example>
         public async Task<GetKafkaClusterResponse> GetKafkaCluster(GetKafkaClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getKafkaCluster");
@@ -704,7 +704,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/GetKafkaClusterConfig.cs.html">here</a> to see an example of how to use GetKafkaClusterConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/GetKafkaClusterConfig.cs.html">here</a> to see an example of how to use GetKafkaClusterConfig API.</example>
         public async Task<GetKafkaClusterConfigResponse> GetKafkaClusterConfig(GetKafkaClusterConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getKafkaClusterConfig");
@@ -760,7 +760,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/GetKafkaClusterConfigVersion.cs.html">here</a> to see an example of how to use GetKafkaClusterConfigVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/GetKafkaClusterConfigVersion.cs.html">here</a> to see an example of how to use GetKafkaClusterConfigVersion API.</example>
         public async Task<GetKafkaClusterConfigVersionResponse> GetKafkaClusterConfigVersion(GetKafkaClusterConfigVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getKafkaClusterConfigVersion");
@@ -816,7 +816,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -873,7 +873,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ListKafkaClusterConfigVersions.cs.html">here</a> to see an example of how to use ListKafkaClusterConfigVersions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ListKafkaClusterConfigVersions.cs.html">here</a> to see an example of how to use ListKafkaClusterConfigVersions API.</example>
         public async Task<ListKafkaClusterConfigVersionsResponse> ListKafkaClusterConfigVersions(ListKafkaClusterConfigVersionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listKafkaClusterConfigVersions");
@@ -930,7 +930,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ListKafkaClusterConfigs.cs.html">here</a> to see an example of how to use ListKafkaClusterConfigs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ListKafkaClusterConfigs.cs.html">here</a> to see an example of how to use ListKafkaClusterConfigs API.</example>
         public async Task<ListKafkaClusterConfigsResponse> ListKafkaClusterConfigs(ListKafkaClusterConfigsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listKafkaClusterConfigs");
@@ -987,7 +987,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ListKafkaClusters.cs.html">here</a> to see an example of how to use ListKafkaClusters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ListKafkaClusters.cs.html">here</a> to see an example of how to use ListKafkaClusters API.</example>
         public async Task<ListKafkaClustersResponse> ListKafkaClusters(ListKafkaClustersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listKafkaClusters");
@@ -1043,7 +1043,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ListNodeShapes.cs.html">here</a> to see an example of how to use ListNodeShapes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ListNodeShapes.cs.html">here</a> to see an example of how to use ListNodeShapes API.</example>
         public async Task<ListNodeShapesResponse> ListNodeShapes(ListNodeShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNodeShapes");
@@ -1100,7 +1100,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -1157,7 +1157,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -1214,7 +1214,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1270,7 +1270,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/UpdateKafkaCluster.cs.html">here</a> to see an example of how to use UpdateKafkaCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/UpdateKafkaCluster.cs.html">here</a> to see an example of how to use UpdateKafkaCluster API.</example>
         public async Task<UpdateKafkaClusterResponse> UpdateKafkaCluster(UpdateKafkaClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateKafkaCluster");
@@ -1326,7 +1326,7 @@ namespace Oci.ManagedkafkaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/UpdateKafkaClusterConfig.cs.html">here</a> to see an example of how to use UpdateKafkaClusterConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/UpdateKafkaClusterConfig.cs.html">here</a> to see an example of how to use UpdateKafkaClusterConfig API.</example>
         public async Task<UpdateKafkaClusterConfigResponse> UpdateKafkaClusterConfig(UpdateKafkaClusterConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateKafkaClusterConfig");

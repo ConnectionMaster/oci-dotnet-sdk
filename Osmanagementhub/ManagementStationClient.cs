@@ -80,7 +80,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ChangeManagementStationCompartment.cs.html">here</a> to see an example of how to use ChangeManagementStationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ChangeManagementStationCompartment.cs.html">here</a> to see an example of how to use ChangeManagementStationCompartment API.</example>
         public async Task<ChangeManagementStationCompartmentResponse> ChangeManagementStationCompartment(ChangeManagementStationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeManagementStationCompartment");
@@ -137,7 +137,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/CreateManagementStation.cs.html">here</a> to see an example of how to use CreateManagementStation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/CreateManagementStation.cs.html">here</a> to see an example of how to use CreateManagementStation API.</example>
         public async Task<CreateManagementStationResponse> CreateManagementStation(CreateManagementStationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createManagementStation");
@@ -196,7 +196,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteManagementStation.cs.html">here</a> to see an example of how to use DeleteManagementStation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteManagementStation.cs.html">here</a> to see an example of how to use DeleteManagementStation API.</example>
         public async Task<DeleteManagementStationResponse> DeleteManagementStation(DeleteManagementStationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteManagementStation");
@@ -253,7 +253,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetManagementStation.cs.html">here</a> to see an example of how to use GetManagementStation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetManagementStation.cs.html">here</a> to see an example of how to use GetManagementStation API.</example>
         public async Task<GetManagementStationResponse> GetManagementStation(GetManagementStationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getManagementStation");
@@ -311,7 +311,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagementStations.cs.html">here</a> to see an example of how to use ListManagementStations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagementStations.cs.html">here</a> to see an example of how to use ListManagementStations API.</example>
         public async Task<ListManagementStationsResponse> ListManagementStations(ListManagementStationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagementStations");
@@ -368,7 +368,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListMirrors.cs.html">here</a> to see an example of how to use ListMirrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListMirrors.cs.html">here</a> to see an example of how to use ListMirrors API.</example>
         public async Task<ListMirrorsResponse> ListMirrors(ListMirrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMirrors");
@@ -425,7 +425,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RefreshManagementStationConfig.cs.html">here</a> to see an example of how to use RefreshManagementStationConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RefreshManagementStationConfig.cs.html">here</a> to see an example of how to use RefreshManagementStationConfig API.</example>
         public async Task<RefreshManagementStationConfigResponse> RefreshManagementStationConfig(RefreshManagementStationConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshManagementStationConfig");
@@ -482,7 +482,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SynchronizeMirrors.cs.html">here</a> to see an example of how to use SynchronizeMirrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SynchronizeMirrors.cs.html">here</a> to see an example of how to use SynchronizeMirrors API.</example>
         public async Task<SynchronizeMirrorsResponse> SynchronizeMirrors(SynchronizeMirrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called synchronizeMirrors");
@@ -539,7 +539,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SynchronizeSingleMirrors.cs.html">here</a> to see an example of how to use SynchronizeSingleMirrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SynchronizeSingleMirrors.cs.html">here</a> to see an example of how to use SynchronizeSingleMirrors API.</example>
         public async Task<SynchronizeSingleMirrorsResponse> SynchronizeSingleMirrors(SynchronizeSingleMirrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called synchronizeSingleMirrors");
@@ -596,7 +596,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateManagementStation.cs.html">here</a> to see an example of how to use UpdateManagementStation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateManagementStation.cs.html">here</a> to see an example of how to use UpdateManagementStation API.</example>
         public async Task<UpdateManagementStationResponse> UpdateManagementStation(UpdateManagementStationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateManagementStation");

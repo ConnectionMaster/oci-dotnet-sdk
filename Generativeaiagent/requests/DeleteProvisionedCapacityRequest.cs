@@ -14,13 +14,13 @@ using Oci.GenerativeaiagentService.Models;
 namespace Oci.GenerativeaiagentService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagent/DeleteProvisionedCapacity.cs.html">here</a> to see an example of how to use DeleteProvisionedCapacity request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagent/DeleteProvisionedCapacity.cs.html">here</a> to see an example of how to use DeleteProvisionedCapacity request.
     /// </example>
     public class DeleteProvisionedCapacityRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the provisioned capacity.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the provisioned capacity.
         /// </value>
         /// <remarks>
         /// Required

@@ -80,7 +80,7 @@ namespace Oci.GoldengateService.Models
         public System.Collections.Generic.List<string> NsgIds { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the target subnet of the dedicated connection.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the target subnet of the dedicated connection.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "subnetId")]
@@ -106,7 +106,7 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// Security attributes for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Oracle-ZPR&quot;: {&quot;MaxEgressCount&quot;: {&quot;value&quot;: &quot;42&quot;, &quot;mode&quot;: &quot;enforce&quot;}}}
         /// </value>

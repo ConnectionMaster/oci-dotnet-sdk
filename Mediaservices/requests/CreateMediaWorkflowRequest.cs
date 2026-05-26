@@ -14,7 +14,7 @@ using Oci.MediaservicesService.Models;
 namespace Oci.MediaservicesService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/CreateMediaWorkflow.cs.html">here</a> to see an example of how to use CreateMediaWorkflow request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/CreateMediaWorkflow.cs.html">here</a> to see an example of how to use CreateMediaWorkflow request.
     /// </example>
     public class CreateMediaWorkflowRequest : Oci.Common.IOciRequest
     {

@@ -14,13 +14,13 @@ using Oci.DatabasetoolsService.Models;
 namespace Oci.DatabasetoolsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetools/ListDatabaseToolsConnections.cs.html">here</a> to see an example of how to use ListDatabaseToolsConnections request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetools/ListDatabaseToolsConnections.cs.html">here</a> to see an example of how to use ListDatabaseToolsConnections request.
     /// </example>
     public class ListDatabaseToolsConnectionsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment in which to list resources.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment in which to list resources.
         /// </value>
         /// <remarks>
         /// Required
@@ -60,7 +60,7 @@ namespace Oci.DatabasetoolsService.Requests
         public System.Collections.Generic.List<RuntimeIdentity> RuntimeIdentity { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the related resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the related resource.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "relatedResourceIdentifier")]
         public string RelatedResourceIdentifier { get; set; }

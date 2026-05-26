@@ -14,7 +14,7 @@ using Oci.CloudbridgeService.Models;
 namespace Oci.CloudbridgeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/RemoveAgentDependency.cs.html">here</a> to see an example of how to use RemoveAgentDependency request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/RemoveAgentDependency.cs.html">here</a> to see an example of how to use RemoveAgentDependency request.
     /// </example>
     public class RemoveAgentDependencyRequest : Oci.Common.IOciRequest
     {

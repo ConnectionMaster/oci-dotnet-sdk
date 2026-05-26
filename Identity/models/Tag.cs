@@ -18,7 +18,7 @@ namespace Oci.IdentityService.Models
     /// <summary>
     /// A tag definition that belongs to a specific tag namespace.  \"Defined tags\" must be set up in your tenancy before
     /// you can apply them to resources.
-    /// For more information, see [Managing Tags and Tag Namespaces](https://docs.cloud.oracle.com/Content/Identity/Concepts/taggingoverview.htm).
+    /// For more information, see [Managing Tags and Tag Namespaces](https://docs.oracle.com/iaas/Content/Identity/Concepts/taggingoverview.htm).
     /// <br/>
     /// **Warning:** Oracle recommends that you avoid using any confidential information when you supply string values
     /// using the API.
@@ -92,7 +92,7 @@ namespace Oci.IdentityService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -101,7 +101,7 @@ namespace Oci.IdentityService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -110,7 +110,7 @@ namespace Oci.IdentityService.Models
         
         /// <value>
         /// Indicates whether the tag is retired.
-        /// See [Retiring Key Definitions and Namespace Definitions](https://docs.cloud.oracle.com/Content/Tagging/Tasks/managingtagsandtagnamespaces.htm#retiringkeys).
+        /// See [Retiring Key Definitions and Namespace Definitions](https://docs.oracle.com/iaas/Content/Tagging/Tasks/managingtagsandtagnamespaces.htm#retiringkeys).
         /// 
         /// </value>
         /// <remarks>

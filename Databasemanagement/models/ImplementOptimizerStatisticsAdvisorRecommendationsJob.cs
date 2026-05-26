@@ -41,7 +41,7 @@ namespace Oci.DatabasemanagementService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment in which the job resides.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment in which the job resides.
         /// </value>
         /// <remarks>
         /// Required

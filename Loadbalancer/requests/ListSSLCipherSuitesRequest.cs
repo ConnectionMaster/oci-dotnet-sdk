@@ -14,13 +14,13 @@ using Oci.LoadbalancerService.Models;
 namespace Oci.LoadbalancerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListSSLCipherSuites.cs.html">here</a> to see an example of how to use ListSSLCipherSuites request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/ListSSLCipherSuites.cs.html">here</a> to see an example of how to use ListSSLCipherSuites request.
     /// </example>
     public class ListSSLCipherSuitesRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the associated load balancer.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the associated load balancer.
         /// 
         /// </value>
         /// <remarks>

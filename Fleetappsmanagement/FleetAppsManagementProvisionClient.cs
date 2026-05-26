@@ -74,7 +74,7 @@ namespace Oci.FleetappsmanagementService
 
         /// <summary>
         /// Moves a Provision into a different compartment within the same tenancy. For information about moving resources between
-        /// compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -82,7 +82,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ChangeProvisionCompartment.cs.html">here</a> to see an example of how to use ChangeProvisionCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ChangeProvisionCompartment.cs.html">here</a> to see an example of how to use ChangeProvisionCompartment API.</example>
         public async Task<ChangeProvisionCompartmentResponse> ChangeProvisionCompartment(ChangeProvisionCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeProvisionCompartment");
@@ -139,7 +139,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/CreateProvision.cs.html">here</a> to see an example of how to use CreateProvision API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/CreateProvision.cs.html">here</a> to see an example of how to use CreateProvision API.</example>
         public async Task<CreateProvisionResponse> CreateProvision(CreateProvisionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createProvision");
@@ -195,7 +195,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/DeleteProvision.cs.html">here</a> to see an example of how to use DeleteProvision API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/DeleteProvision.cs.html">here</a> to see an example of how to use DeleteProvision API.</example>
         public async Task<DeleteProvisionResponse> DeleteProvision(DeleteProvisionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteProvision");
@@ -251,7 +251,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetProvision.cs.html">here</a> to see an example of how to use GetProvision API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetProvision.cs.html">here</a> to see an example of how to use GetProvision API.</example>
         public async Task<GetProvisionResponse> GetProvision(GetProvisionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getProvision");
@@ -309,7 +309,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListProvisions.cs.html">here</a> to see an example of how to use ListProvisions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListProvisions.cs.html">here</a> to see an example of how to use ListProvisions API.</example>
         public async Task<ListProvisionsResponse> ListProvisions(ListProvisionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProvisions");
@@ -365,7 +365,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/UpdateProvision.cs.html">here</a> to see an example of how to use UpdateProvision API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/UpdateProvision.cs.html">here</a> to see an example of how to use UpdateProvision API.</example>
         public async Task<UpdateProvisionResponse> UpdateProvision(UpdateProvisionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateProvision");

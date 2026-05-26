@@ -18,7 +18,7 @@ namespace Oci.LoadbalancerService.Models
     /// <summary>
     /// The configuration details for creating a backend server in a backend set.
     /// For more information on backend server configuration, see
-    /// [Managing Backend Servers](https://docs.cloud.oracle.com/Content/Balance/Tasks/managingbackendservers.htm).
+    /// [Managing Backend Servers](https://docs.oracle.com/iaas/Content/Balance/Tasks/managingbackendservers.htm).
     /// 
     /// </summary>
     public class CreateBackendDetails 
@@ -53,7 +53,7 @@ namespace Oci.LoadbalancerService.Models
         /// proportion of incoming traffic. For example, a server weighted '3' receives 3 times the number of new connections
         /// as a server weighted '1'.
         /// For more information on load balancing policies, see
-        /// [How Load Balancing Policies Work](https://docs.cloud.oracle.com/Content/Balance/Reference/lbpolicies.htm).
+        /// [How Load Balancing Policies Work](https://docs.oracle.com/iaas/Content/Balance/Reference/lbpolicies.htm).
         /// <br/>
         /// Example: 3
         /// </value>

@@ -25,7 +25,7 @@ namespace Oci.JmsService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the related managed instance.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the related managed instance.
         /// 
         /// </value>
         /// <remarks>
@@ -53,7 +53,7 @@ namespace Oci.JmsService.Models
         public string Hostname { get; set; }
         
         /// <value>
-        /// The host [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the related managed instance.
+        /// The host [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the related managed instance.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "hostId")]

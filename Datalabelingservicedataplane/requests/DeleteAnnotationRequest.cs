@@ -14,7 +14,7 @@ using Oci.DatalabelingservicedataplaneService.Models;
 namespace Oci.DatalabelingservicedataplaneService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datalabelingservicedataplane/DeleteAnnotation.cs.html">here</a> to see an example of how to use DeleteAnnotation request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datalabelingservicedataplane/DeleteAnnotation.cs.html">here</a> to see an example of how to use DeleteAnnotation request.
     /// </example>
     public class DeleteAnnotationRequest : Oci.Common.IOciRequest
     {

@@ -14,13 +14,13 @@ using Oci.OpsiService.Models;
 namespace Oci.OpsiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateOperationsInsightsPrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateOperationsInsightsPrivateEndpoint request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateOperationsInsightsPrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateOperationsInsightsPrivateEndpoint request.
     /// </example>
     public class UpdateOperationsInsightsPrivateEndpointRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Operation Insights private endpoint.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Operation Insights private endpoint.
         /// </value>
         /// <remarks>
         /// Required

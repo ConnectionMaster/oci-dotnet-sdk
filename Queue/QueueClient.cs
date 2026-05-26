@@ -68,7 +68,7 @@ namespace Oci.QueueService
 
         /// <summary>
         /// Deletes the message represented by the receipt from the queue.
-        /// You must use the [messages endpoint](https://docs.cloud.oracle.com/iaas/Content/queue/messages.htm#messages__messages-endpoint) to delete messages.
+        /// You must use the [messages endpoint](https://docs.oracle.com/iaas/Content/queue/messages.htm#messages__messages-endpoint) to delete messages.
         /// The messages endpoint may be different for different queues. Use {@link #getQueue(GetQueueRequest) getQueue} to find the queue&#39;s &#x60;messagesEndpoint&#x60;.
         /// 
         /// </summary>
@@ -77,7 +77,7 @@ namespace Oci.QueueService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/DeleteMessage.cs.html">here</a> to see an example of how to use DeleteMessage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/DeleteMessage.cs.html">here</a> to see an example of how to use DeleteMessage API.</example>
         public async Task<DeleteMessageResponse> DeleteMessage(DeleteMessageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMessage");
@@ -127,7 +127,7 @@ namespace Oci.QueueService
 
         /// <summary>
         /// Deletes multiple messages from the queue or the consumer group. Only messages from the same queue/consumer group can be deleted at once.
-        /// You must use the [messages endpoint](https://docs.cloud.oracle.com/iaas/Content/queue/messages.htm#messages__messages-endpoint) to delete messages.
+        /// You must use the [messages endpoint](https://docs.oracle.com/iaas/Content/queue/messages.htm#messages__messages-endpoint) to delete messages.
         /// The messages endpoint may be different for different queues. Use {@link #getQueue(GetQueueRequest) getQueue} to find the queue&#39;s &#x60;messagesEndpoint&#x60;.
         /// 
         /// </summary>
@@ -136,7 +136,7 @@ namespace Oci.QueueService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/DeleteMessages.cs.html">here</a> to see an example of how to use DeleteMessages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/DeleteMessages.cs.html">here</a> to see an example of how to use DeleteMessages API.</example>
         public async Task<DeleteMessagesResponse> DeleteMessages(DeleteMessagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMessages");
@@ -186,7 +186,7 @@ namespace Oci.QueueService
 
         /// <summary>
         /// Consumes messages from the queue.
-        /// You must use the [messages endpoint](https://docs.cloud.oracle.com/iaas/Content/queue/messages.htm#messages__messages-endpoint) to consume messages.
+        /// You must use the [messages endpoint](https://docs.oracle.com/iaas/Content/queue/messages.htm#messages__messages-endpoint) to consume messages.
         /// The messages endpoint may be different for different queues. Use {@link #getQueue(GetQueueRequest) getQueue} to find the queue&#39;s &#x60;messagesEndpoint&#x60;.
         /// GetMessages accepts optional channelFilter query parameter that can filter source channels of the messages.
         /// When channelFilter is present, service will return available messages from the channel which ID exactly matched the filter.
@@ -198,7 +198,7 @@ namespace Oci.QueueService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/GetMessages.cs.html">here</a> to see an example of how to use GetMessages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/GetMessages.cs.html">here</a> to see an example of how to use GetMessages API.</example>
         public async Task<GetMessagesResponse> GetMessages(GetMessagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMessages");
@@ -248,7 +248,7 @@ namespace Oci.QueueService
 
         /// <summary>
         /// Gets the statistics for the queue and its dead letter queue.
-        /// You must use the [messages endpoint](https://docs.cloud.oracle.com/iaas/Content/queue/messages.htm#messages__messages-endpoint) to get a queue&#39;s statistics.
+        /// You must use the [messages endpoint](https://docs.oracle.com/iaas/Content/queue/messages.htm#messages__messages-endpoint) to get a queue&#39;s statistics.
         /// The messages endpoint may be different for different queues. Use {@link #getQueue(GetQueueRequest) getQueue} to find the queue&#39;s &#x60;messagesEndpoint&#x60;.
         /// 
         /// </summary>
@@ -257,7 +257,7 @@ namespace Oci.QueueService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/GetStats.cs.html">here</a> to see an example of how to use GetStats API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/GetStats.cs.html">here</a> to see an example of how to use GetStats API.</example>
         public async Task<GetStatsResponse> GetStats(GetStatsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getStats");
@@ -317,7 +317,7 @@ namespace Oci.QueueService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/ListChannels.cs.html">here</a> to see an example of how to use ListChannels API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/ListChannels.cs.html">here</a> to see an example of how to use ListChannels API.</example>
         public async Task<ListChannelsResponse> ListChannels(ListChannelsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listChannels");
@@ -367,7 +367,7 @@ namespace Oci.QueueService
 
         /// <summary>
         /// Puts messages into the queue.
-        /// You must use the [messages endpoint](https://docs.cloud.oracle.com/iaas/Content/queue/messages.htm#messages__messages-endpoint) to produce messages.
+        /// You must use the [messages endpoint](https://docs.oracle.com/iaas/Content/queue/messages.htm#messages__messages-endpoint) to produce messages.
         /// The messages endpoint may be different for different queues. Use {@link #getQueue(GetQueueRequest) getQueue} to find the queue&#39;s &#x60;messagesEndpoint&#x60;.
         /// 
         /// </summary>
@@ -376,7 +376,7 @@ namespace Oci.QueueService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/PutMessages.cs.html">here</a> to see an example of how to use PutMessages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/PutMessages.cs.html">here</a> to see an example of how to use PutMessages API.</example>
         public async Task<PutMessagesResponse> PutMessages(PutMessagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putMessages");
@@ -426,7 +426,7 @@ namespace Oci.QueueService
 
         /// <summary>
         /// Updates the visibility of the message represented by the receipt.
-        /// You must use the [messages endpoint](https://docs.cloud.oracle.com/iaas/Content/queue/messages.htm#messages__messages-endpoint) to update messages.
+        /// You must use the [messages endpoint](https://docs.oracle.com/iaas/Content/queue/messages.htm#messages__messages-endpoint) to update messages.
         /// The messages endpoint may be different for different queues. Use {@link #getQueue(GetQueueRequest) getQueue} to find the queue&#39;s &#x60;messagesEndpoint&#x60;.
         /// 
         /// </summary>
@@ -435,7 +435,7 @@ namespace Oci.QueueService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/UpdateMessage.cs.html">here</a> to see an example of how to use UpdateMessage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/UpdateMessage.cs.html">here</a> to see an example of how to use UpdateMessage API.</example>
         public async Task<UpdateMessageResponse> UpdateMessage(UpdateMessageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMessage");
@@ -485,7 +485,7 @@ namespace Oci.QueueService
 
         /// <summary>
         /// Updates multiple messages in the queue or the consumer group. Only messages from the same queue/consumer group can be updated at once.
-        /// You must use the [messages endpoint](https://docs.cloud.oracle.com/iaas/Content/queue/messages.htm#messages__messages-endpoint) to update messages.
+        /// You must use the [messages endpoint](https://docs.oracle.com/iaas/Content/queue/messages.htm#messages__messages-endpoint) to update messages.
         /// The messages endpoint may be different for different queues. Use {@link #getQueue(GetQueueRequest) getQueue} to find the queue&#39;s &#x60;messagesEndpoint&#x60;.
         /// 
         /// </summary>
@@ -494,7 +494,7 @@ namespace Oci.QueueService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/UpdateMessages.cs.html">here</a> to see an example of how to use UpdateMessages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/UpdateMessages.cs.html">here</a> to see an example of how to use UpdateMessages API.</example>
         public async Task<UpdateMessagesResponse> UpdateMessages(UpdateMessagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMessages");

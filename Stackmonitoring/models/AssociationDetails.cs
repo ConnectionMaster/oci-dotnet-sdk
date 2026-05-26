@@ -22,7 +22,7 @@ namespace Oci.StackmonitoringService.Models
     {
         
         /// <value>
-        /// Source Monitored Resource Identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Source Monitored Resource Identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         /// <remarks>

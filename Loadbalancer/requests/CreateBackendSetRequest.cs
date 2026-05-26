@@ -14,7 +14,7 @@ using Oci.LoadbalancerService.Models;
 namespace Oci.LoadbalancerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateBackendSet.cs.html">here</a> to see an example of how to use CreateBackendSet request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateBackendSet.cs.html">here</a> to see an example of how to use CreateBackendSet request.
     /// </example>
     public class CreateBackendSetRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.LoadbalancerService.Requests
         public CreateBackendSetDetails CreateBackendSetDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the load balancer on which to add a backend set.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the load balancer on which to add a backend set.
         /// </value>
         /// <remarks>
         /// Required

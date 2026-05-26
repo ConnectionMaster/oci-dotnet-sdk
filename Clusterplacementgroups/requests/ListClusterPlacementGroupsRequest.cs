@@ -14,13 +14,13 @@ using Oci.ClusterplacementgroupsService.Models;
 namespace Oci.ClusterplacementgroupsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/ListClusterPlacementGroups.cs.html">here</a> to see an example of how to use ListClusterPlacementGroups request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/ListClusterPlacementGroups.cs.html">here</a> to see an example of how to use ListClusterPlacementGroups request.
     /// </example>
     public class ListClusterPlacementGroupsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// A filter to return only the resources that match the specified compartment [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// A filter to return only the resources that match the specified compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "compartmentId")]

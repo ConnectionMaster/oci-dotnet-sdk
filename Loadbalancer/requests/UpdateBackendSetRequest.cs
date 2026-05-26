@@ -14,7 +14,7 @@ using Oci.LoadbalancerService.Models;
 namespace Oci.LoadbalancerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateBackendSet.cs.html">here</a> to see an example of how to use UpdateBackendSet request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/UpdateBackendSet.cs.html">here</a> to see an example of how to use UpdateBackendSet request.
     /// </example>
     public class UpdateBackendSetRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.LoadbalancerService.Requests
         public UpdateBackendSetDetails UpdateBackendSetDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the load balancer associated with the backend set.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the load balancer associated with the backend set.
         /// </value>
         /// <remarks>
         /// Required

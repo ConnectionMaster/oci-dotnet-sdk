@@ -24,7 +24,7 @@ namespace Oci.GoldengateService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the connection assignment being
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the connection assignment being
         /// referenced.
         /// 
         /// </value>
@@ -36,7 +36,7 @@ namespace Oci.GoldengateService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the connection being
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the connection being
         /// referenced.
         /// 
         /// </value>
@@ -48,7 +48,7 @@ namespace Oci.GoldengateService.Models
         public string ConnectionId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the deployment being referenced.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the deployment being referenced.
         /// 
         /// </value>
         /// <remarks>
@@ -66,7 +66,7 @@ namespace Oci.GoldengateService.Models
         public string AliasName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment being referenced.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment being referenced.
         /// 
         /// </value>
         /// <remarks>

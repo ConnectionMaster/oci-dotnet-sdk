@@ -80,7 +80,7 @@ namespace Oci.RedisService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ChangeOciCacheBackupCompartment.cs.html">here</a> to see an example of how to use ChangeOciCacheBackupCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ChangeOciCacheBackupCompartment.cs.html">here</a> to see an example of how to use ChangeOciCacheBackupCompartment API.</example>
         public async Task<ChangeOciCacheBackupCompartmentResponse> ChangeOciCacheBackupCompartment(ChangeOciCacheBackupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeOciCacheBackupCompartment");
@@ -136,7 +136,7 @@ namespace Oci.RedisService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/CreateOciCacheBackup.cs.html">here</a> to see an example of how to use CreateOciCacheBackup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/CreateOciCacheBackup.cs.html">here</a> to see an example of how to use CreateOciCacheBackup API.</example>
         public async Task<CreateOciCacheBackupResponse> CreateOciCacheBackup(CreateOciCacheBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOciCacheBackup");
@@ -192,7 +192,7 @@ namespace Oci.RedisService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/DeleteOciCacheBackup.cs.html">here</a> to see an example of how to use DeleteOciCacheBackup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/DeleteOciCacheBackup.cs.html">here</a> to see an example of how to use DeleteOciCacheBackup API.</example>
         public async Task<DeleteOciCacheBackupResponse> DeleteOciCacheBackup(DeleteOciCacheBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOciCacheBackup");
@@ -249,7 +249,7 @@ namespace Oci.RedisService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ExportOciCacheBackupToObjectStorage.cs.html">here</a> to see an example of how to use ExportOciCacheBackupToObjectStorage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ExportOciCacheBackupToObjectStorage.cs.html">here</a> to see an example of how to use ExportOciCacheBackupToObjectStorage API.</example>
         public async Task<ExportOciCacheBackupToObjectStorageResponse> ExportOciCacheBackupToObjectStorage(ExportOciCacheBackupToObjectStorageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called exportOciCacheBackupToObjectStorage");
@@ -305,7 +305,7 @@ namespace Oci.RedisService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/GetOciCacheBackup.cs.html">here</a> to see an example of how to use GetOciCacheBackup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/GetOciCacheBackup.cs.html">here</a> to see an example of how to use GetOciCacheBackup API.</example>
         public async Task<GetOciCacheBackupResponse> GetOciCacheBackup(GetOciCacheBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOciCacheBackup");
@@ -361,7 +361,7 @@ namespace Oci.RedisService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ListOciCacheBackups.cs.html">here</a> to see an example of how to use ListOciCacheBackups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ListOciCacheBackups.cs.html">here</a> to see an example of how to use ListOciCacheBackups API.</example>
         public async Task<ListOciCacheBackupsResponse> ListOciCacheBackups(ListOciCacheBackupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOciCacheBackups");
@@ -417,7 +417,7 @@ namespace Oci.RedisService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/UpdateOciCacheBackup.cs.html">here</a> to see an example of how to use UpdateOciCacheBackup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/UpdateOciCacheBackup.cs.html">here</a> to see an example of how to use UpdateOciCacheBackup API.</example>
         public async Task<UpdateOciCacheBackupResponse> UpdateOciCacheBackup(UpdateOciCacheBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOciCacheBackup");

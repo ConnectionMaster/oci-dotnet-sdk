@@ -81,7 +81,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/AddHeatWaveCluster.cs.html">here</a> to see an example of how to use AddHeatWaveCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/AddHeatWaveCluster.cs.html">here</a> to see an example of how to use AddHeatWaveCluster API.</example>
         public async Task<AddHeatWaveClusterResponse> AddHeatWaveCluster(AddHeatWaveClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addHeatWaveCluster");
@@ -138,7 +138,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/ControlledUpdateDbSystem.cs.html">here</a> to see an example of how to use ControlledUpdateDbSystem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/ControlledUpdateDbSystem.cs.html">here</a> to see an example of how to use ControlledUpdateDbSystem API.</example>
         public async Task<ControlledUpdateDbSystemResponse> ControlledUpdateDbSystem(ControlledUpdateDbSystemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called controlledUpdateDbSystem");
@@ -195,7 +195,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/CreateDbSystem.cs.html">here</a> to see an example of how to use CreateDbSystem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/CreateDbSystem.cs.html">here</a> to see an example of how to use CreateDbSystem API.</example>
         public async Task<CreateDbSystemResponse> CreateDbSystem(CreateDbSystemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDbSystem");
@@ -253,7 +253,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/DeleteDbSystem.cs.html">here</a> to see an example of how to use DeleteDbSystem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/DeleteDbSystem.cs.html">here</a> to see an example of how to use DeleteDbSystem API.</example>
         public async Task<DeleteDbSystemResponse> DeleteDbSystem(DeleteDbSystemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDbSystem");
@@ -311,7 +311,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/DeleteHeatWaveCluster.cs.html">here</a> to see an example of how to use DeleteHeatWaveCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/DeleteHeatWaveCluster.cs.html">here</a> to see an example of how to use DeleteHeatWaveCluster API.</example>
         public async Task<DeleteHeatWaveClusterResponse> DeleteHeatWaveCluster(DeleteHeatWaveClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteHeatWaveCluster");
@@ -369,7 +369,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/GenerateDbSystemStatus.cs.html">here</a> to see an example of how to use GenerateDbSystemStatus API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/GenerateDbSystemStatus.cs.html">here</a> to see an example of how to use GenerateDbSystemStatus API.</example>
         public async Task<GenerateDbSystemStatusResponse> GenerateDbSystemStatus(GenerateDbSystemStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateDbSystemStatus");
@@ -426,7 +426,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/GenerateHeatWaveClusterMemoryEstimate.cs.html">here</a> to see an example of how to use GenerateHeatWaveClusterMemoryEstimate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/GenerateHeatWaveClusterMemoryEstimate.cs.html">here</a> to see an example of how to use GenerateHeatWaveClusterMemoryEstimate API.</example>
         public async Task<GenerateHeatWaveClusterMemoryEstimateResponse> GenerateHeatWaveClusterMemoryEstimate(GenerateHeatWaveClusterMemoryEstimateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateHeatWaveClusterMemoryEstimate");
@@ -482,7 +482,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/GetDbSystem.cs.html">here</a> to see an example of how to use GetDbSystem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/GetDbSystem.cs.html">here</a> to see an example of how to use GetDbSystem API.</example>
         public async Task<GetDbSystemResponse> GetDbSystem(GetDbSystemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDbSystem");
@@ -540,7 +540,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/GetDbSystemStatus.cs.html">here</a> to see an example of how to use GetDbSystemStatus API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/GetDbSystemStatus.cs.html">here</a> to see an example of how to use GetDbSystemStatus API.</example>
         public async Task<GetDbSystemStatusResponse> GetDbSystemStatus(GetDbSystemStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDbSystemStatus");
@@ -596,7 +596,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/GetHeatWaveCluster.cs.html">here</a> to see an example of how to use GetHeatWaveCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/GetHeatWaveCluster.cs.html">here</a> to see an example of how to use GetHeatWaveCluster API.</example>
         public async Task<GetHeatWaveClusterResponse> GetHeatWaveCluster(GetHeatWaveClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getHeatWaveCluster");
@@ -654,7 +654,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/GetHeatWaveClusterMemoryEstimate.cs.html">here</a> to see an example of how to use GetHeatWaveClusterMemoryEstimate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/GetHeatWaveClusterMemoryEstimate.cs.html">here</a> to see an example of how to use GetHeatWaveClusterMemoryEstimate API.</example>
         public async Task<GetHeatWaveClusterMemoryEstimateResponse> GetHeatWaveClusterMemoryEstimate(GetHeatWaveClusterMemoryEstimateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getHeatWaveClusterMemoryEstimate");
@@ -712,7 +712,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/ListDbSystems.cs.html">here</a> to see an example of how to use ListDbSystems API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/ListDbSystems.cs.html">here</a> to see an example of how to use ListDbSystems API.</example>
         public async Task<ListDbSystemsResponse> ListDbSystems(ListDbSystemsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDbSystems");
@@ -768,7 +768,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/ListMaintenanceEvents.cs.html">here</a> to see an example of how to use ListMaintenanceEvents API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/ListMaintenanceEvents.cs.html">here</a> to see an example of how to use ListMaintenanceEvents API.</example>
         public async Task<ListMaintenanceEventsResponse> ListMaintenanceEvents(ListMaintenanceEventsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMaintenanceEvents");
@@ -824,7 +824,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/RestartDbSystem.cs.html">here</a> to see an example of how to use RestartDbSystem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/RestartDbSystem.cs.html">here</a> to see an example of how to use RestartDbSystem API.</example>
         public async Task<RestartDbSystemResponse> RestartDbSystem(RestartDbSystemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called restartDbSystem");
@@ -880,7 +880,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/RestartHeatWaveCluster.cs.html">here</a> to see an example of how to use RestartHeatWaveCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/RestartHeatWaveCluster.cs.html">here</a> to see an example of how to use RestartHeatWaveCluster API.</example>
         public async Task<RestartHeatWaveClusterResponse> RestartHeatWaveCluster(RestartHeatWaveClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called restartHeatWaveCluster");
@@ -936,7 +936,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/StartDbSystem.cs.html">here</a> to see an example of how to use StartDbSystem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/StartDbSystem.cs.html">here</a> to see an example of how to use StartDbSystem API.</example>
         public async Task<StartDbSystemResponse> StartDbSystem(StartDbSystemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startDbSystem");
@@ -992,7 +992,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/StartHeatWaveCluster.cs.html">here</a> to see an example of how to use StartHeatWaveCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/StartHeatWaveCluster.cs.html">here</a> to see an example of how to use StartHeatWaveCluster API.</example>
         public async Task<StartHeatWaveClusterResponse> StartHeatWaveCluster(StartHeatWaveClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startHeatWaveCluster");
@@ -1051,7 +1051,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/StopDbSystem.cs.html">here</a> to see an example of how to use StopDbSystem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/StopDbSystem.cs.html">here</a> to see an example of how to use StopDbSystem API.</example>
         public async Task<StopDbSystemResponse> StopDbSystem(StopDbSystemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopDbSystem");
@@ -1107,7 +1107,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/StopHeatWaveCluster.cs.html">here</a> to see an example of how to use StopHeatWaveCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/StopHeatWaveCluster.cs.html">here</a> to see an example of how to use StopHeatWaveCluster API.</example>
         public async Task<StopHeatWaveClusterResponse> StopHeatWaveCluster(StopHeatWaveClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopHeatWaveCluster");
@@ -1171,7 +1171,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/UpdateDbSystem.cs.html">here</a> to see an example of how to use UpdateDbSystem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/UpdateDbSystem.cs.html">here</a> to see an example of how to use UpdateDbSystem API.</example>
         public async Task<UpdateDbSystemResponse> UpdateDbSystem(UpdateDbSystemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDbSystem");
@@ -1228,7 +1228,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/UpdateHeatWaveCluster.cs.html">here</a> to see an example of how to use UpdateHeatWaveCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/UpdateHeatWaveCluster.cs.html">here</a> to see an example of how to use UpdateHeatWaveCluster API.</example>
         public async Task<UpdateHeatWaveClusterResponse> UpdateHeatWaveCluster(UpdateHeatWaveClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateHeatWaveCluster");

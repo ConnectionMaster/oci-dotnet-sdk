@@ -14,13 +14,13 @@ using Oci.LoadbalancerService.Models;
 namespace Oci.LoadbalancerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetBackendSetHealth.cs.html">here</a> to see an example of how to use GetBackendSetHealth request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/GetBackendSetHealth.cs.html">here</a> to see an example of how to use GetBackendSetHealth request.
     /// </example>
     public class GetBackendSetHealthRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the load balancer associated with the backend set health status to be retrieved.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the load balancer associated with the backend set health status to be retrieved.
         /// </value>
         /// <remarks>
         /// Required

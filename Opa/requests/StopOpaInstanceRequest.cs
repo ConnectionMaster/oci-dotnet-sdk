@@ -14,7 +14,7 @@ using Oci.OpaService.Models;
 namespace Oci.OpaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opa/StopOpaInstance.cs.html">here</a> to see an example of how to use StopOpaInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opa/StopOpaInstance.cs.html">here</a> to see an example of how to use StopOpaInstance request.
     /// </example>
     public class StopOpaInstanceRequest : Oci.Common.IOciRequest
     {

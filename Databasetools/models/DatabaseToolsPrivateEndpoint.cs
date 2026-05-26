@@ -22,7 +22,7 @@ namespace Oci.DatabasetoolsService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment containing the Database Tools private endpoint.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the Database Tools private endpoint.
         /// </value>
         /// <remarks>
         /// Required
@@ -79,7 +79,7 @@ namespace Oci.DatabasetoolsService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Database Tools private endpoint.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Database Tools private endpoint.
         /// </value>
         /// <remarks>
         /// Required
@@ -89,7 +89,7 @@ namespace Oci.DatabasetoolsService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Database Tools Endpoint Service.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Database Tools Endpoint Service.
         /// </value>
         /// <remarks>
         /// Required
@@ -119,13 +119,13 @@ namespace Oci.DatabasetoolsService.Models
         public System.Nullable<System.DateTime> TimeUpdated { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VCN that the private endpoint belongs to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VCN that the private endpoint belongs to.
         /// </value>
         [JsonProperty(PropertyName = "vcnId")]
         public string VcnId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the subnet that the private endpoint belongs to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet that the private endpoint belongs to.
         /// </value>
         /// <remarks>
         /// Required
@@ -135,7 +135,7 @@ namespace Oci.DatabasetoolsService.Models
         public string SubnetId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the private endpoint's VNIC.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private endpoint's VNIC.
         /// </value>
         [JsonProperty(PropertyName = "privateEndpointVnicId")]
         public string PrivateEndpointVnicId { get; set; }
@@ -176,7 +176,7 @@ namespace Oci.DatabasetoolsService.Models
         public string LifecycleDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the network security groups
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the network security groups
         /// that the private endpoint's VNIC belongs to.  For more information about NSGs, see
         /// {@link NetworkSecurityGroup}.
         /// 

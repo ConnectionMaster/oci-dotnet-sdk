@@ -14,7 +14,7 @@ using Oci.DatabasemigrationService.Models;
 namespace Oci.DatabasemigrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ChangeConnectionCompartment.cs.html">here</a> to see an example of how to use ChangeConnectionCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ChangeConnectionCompartment.cs.html">here</a> to see an example of how to use ChangeConnectionCompartment request.
     /// </example>
     public class ChangeConnectionCompartmentRequest : Oci.Common.IOciRequest
     {

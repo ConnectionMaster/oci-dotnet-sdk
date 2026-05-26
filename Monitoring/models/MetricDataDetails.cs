@@ -48,7 +48,7 @@ namespace Oci.MonitoringService.Models
         public string ResourceGroup { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to use for metrics.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to use for metrics.
         /// 
         /// </value>
         /// <remarks>

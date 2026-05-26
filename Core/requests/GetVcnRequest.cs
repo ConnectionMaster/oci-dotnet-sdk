@@ -14,13 +14,13 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVcn.cs.html">here</a> to see an example of how to use GetVcn request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetVcn.cs.html">here</a> to see an example of how to use GetVcn request.
     /// </example>
     public class GetVcnRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// Specify the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VCN.
+        /// Specify the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VCN.
         /// </value>
         /// <remarks>
         /// Required

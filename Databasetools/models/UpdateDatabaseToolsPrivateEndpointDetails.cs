@@ -56,7 +56,7 @@ namespace Oci.DatabasetoolsService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the network security groups
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the network security groups
         /// that the private endpoint's VNIC belongs to.  For more information about NSGs, see
         /// {@link NetworkSecurityGroup}.
         /// 

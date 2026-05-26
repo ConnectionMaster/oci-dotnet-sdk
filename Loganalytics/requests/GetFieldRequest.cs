@@ -14,7 +14,7 @@ using Oci.LoganalyticsService.Models;
 namespace Oci.LoganalyticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/GetField.cs.html">here</a> to see an example of how to use GetField request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/GetField.cs.html">here</a> to see an example of how to use GetField request.
     /// </example>
     public class GetFieldRequest : Oci.Common.IOciRequest
     {

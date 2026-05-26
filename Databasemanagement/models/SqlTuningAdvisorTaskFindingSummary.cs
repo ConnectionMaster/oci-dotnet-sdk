@@ -24,7 +24,7 @@ namespace Oci.DatabasemanagementService.Models
     {
         
         /// <value>
-        /// The unique identifier of the SQL Tuning Advisor task. This is not the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The unique identifier of the SQL Tuning Advisor task. This is not the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required
@@ -35,7 +35,7 @@ namespace Oci.DatabasemanagementService.Models
         
         /// <value>
         /// The key of the object to which these recommendations apply.
-        /// This is not the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// This is not the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         /// <remarks>
@@ -46,7 +46,7 @@ namespace Oci.DatabasemanagementService.Models
         public System.Nullable<long> SqlTuningAdvisorTaskObjectId { get; set; }
         
         /// <value>
-        /// The execution id of the analyzed SQL object. This is not the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The execution id of the analyzed SQL object. This is not the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

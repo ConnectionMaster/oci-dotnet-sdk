@@ -22,7 +22,7 @@ namespace Oci.DatascienceService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the model group you want to deploy.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the model group you want to deploy.
         /// </value>
         /// <remarks>
         /// Required

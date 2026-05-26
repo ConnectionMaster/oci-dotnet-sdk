@@ -14,7 +14,7 @@ using Oci.SecretsService.Models;
 namespace Oci.SecretsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/secrets/ListSecretBundleVersions.cs.html">here</a> to see an example of how to use ListSecretBundleVersions request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/secrets/ListSecretBundleVersions.cs.html">here</a> to see an example of how to use ListSecretBundleVersions request.
     /// </example>
     public class ListSecretBundleVersionsRequest : Oci.Common.IOciRequest
     {
@@ -37,7 +37,7 @@ namespace Oci.SecretsService.Requests
         
         /// <value>
         /// The maximum number of items to return in a paginated \"List\" call. For information about pagination, see
-        /// [List Pagination](https://docs.cloud.oracle.com/#API/Concepts/usingapi.htm#List_Pagination).
+        /// [List Pagination](https://docs.oracle.com/#API/Concepts/usingapi.htm#List_Pagination).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "limit")]
@@ -45,7 +45,7 @@ namespace Oci.SecretsService.Requests
         
         /// <value>
         /// The value of the `opc-next-page` response header from the previous \"List\" call. For information about
-        /// pagination, see [List Pagination](https://docs.cloud.oracle.com/#API/Concepts/usingapi.htm#List_Pagination).
+        /// pagination, see [List Pagination](https://docs.oracle.com/#API/Concepts/usingapi.htm#List_Pagination).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]

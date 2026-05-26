@@ -78,7 +78,7 @@ namespace Oci.MulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/ListExternalLocationDetailsMetadata.cs.html">here</a> to see an example of how to use ListExternalLocationDetailsMetadata API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/ListExternalLocationDetailsMetadata.cs.html">here</a> to see an example of how to use ListExternalLocationDetailsMetadata API.</example>
         public async Task<ListExternalLocationDetailsMetadataResponse> ListExternalLocationDetailsMetadata(ListExternalLocationDetailsMetadataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listExternalLocationDetailsMetadata");
@@ -133,7 +133,7 @@ namespace Oci.MulticloudService
         /// along with mapped partner cloud details that depend on the partner cloud.
         /// For example, Azure includes a logical zone while AWS doesn&#39;t.
         /// For more information, see
-        /// [Cross-Cloud Region-Zone Mapping](https://docs.cloud.oracle.com/iaas/Content/multicloud-hub/view-cloud-mapping.htm).
+        /// [Cross-Cloud Region-Zone Mapping](https://docs.oracle.com/iaas/Content/multicloud-hub/view-cloud-mapping.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -141,7 +141,7 @@ namespace Oci.MulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/ListExternalLocationMappingMetadata.cs.html">here</a> to see an example of how to use ListExternalLocationMappingMetadata API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/ListExternalLocationMappingMetadata.cs.html">here</a> to see an example of how to use ListExternalLocationMappingMetadata API.</example>
         public async Task<ListExternalLocationMappingMetadataResponse> ListExternalLocationMappingMetadata(ListExternalLocationMappingMetadataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listExternalLocationMappingMetadata");
@@ -198,7 +198,7 @@ namespace Oci.MulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/ListExternalLocationSummariesMetadata.cs.html">here</a> to see an example of how to use ListExternalLocationSummariesMetadata API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/ListExternalLocationSummariesMetadata.cs.html">here</a> to see an example of how to use ListExternalLocationSummariesMetadata API.</example>
         public async Task<ListExternalLocationSummariesMetadataResponse> ListExternalLocationSummariesMetadata(ListExternalLocationSummariesMetadataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listExternalLocationSummariesMetadata");

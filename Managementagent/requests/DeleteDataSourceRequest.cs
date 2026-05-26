@@ -14,7 +14,7 @@ using Oci.ManagementagentService.Models;
 namespace Oci.ManagementagentService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/DeleteDataSource.cs.html">here</a> to see an example of how to use DeleteDataSource request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/DeleteDataSource.cs.html">here</a> to see an example of how to use DeleteDataSource request.
     /// </example>
     public class DeleteDataSourceRequest : Oci.Common.IOciRequest
     {

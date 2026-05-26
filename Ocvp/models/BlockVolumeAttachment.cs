@@ -23,7 +23,7 @@ namespace Oci.OcvpService.Models
     {
         
         /// <value>
-        /// The [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the ESXi host that block volume is attached to.
+        /// The [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the ESXi host that block volume is attached to.
         /// 
         /// </value>
         /// <remarks>

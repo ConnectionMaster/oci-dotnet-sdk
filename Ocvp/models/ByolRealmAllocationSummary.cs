@@ -23,7 +23,7 @@ namespace Oci.OcvpService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the BYOL resource from which this BYOL Allocation is derived.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the BYOL resource from which this BYOL Allocation is derived.
         /// 
         /// </value>
         /// <remarks>
@@ -46,7 +46,7 @@ namespace Oci.OcvpService.Models
         public string Region { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment that
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that
         /// contains the BYOL Allocation.
         /// 
         /// </value>

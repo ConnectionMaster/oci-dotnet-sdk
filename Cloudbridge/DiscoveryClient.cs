@@ -80,7 +80,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ChangeAssetSourceCompartment.cs.html">here</a> to see an example of how to use ChangeAssetSourceCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ChangeAssetSourceCompartment.cs.html">here</a> to see an example of how to use ChangeAssetSourceCompartment API.</example>
         public async Task<ChangeAssetSourceCompartmentResponse> ChangeAssetSourceCompartment(ChangeAssetSourceCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeAssetSourceCompartment");
@@ -136,7 +136,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ChangeDiscoveryScheduleCompartment.cs.html">here</a> to see an example of how to use ChangeDiscoveryScheduleCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ChangeDiscoveryScheduleCompartment.cs.html">here</a> to see an example of how to use ChangeDiscoveryScheduleCompartment API.</example>
         public async Task<ChangeDiscoveryScheduleCompartmentResponse> ChangeDiscoveryScheduleCompartment(ChangeDiscoveryScheduleCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDiscoveryScheduleCompartment");
@@ -193,7 +193,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/CreateAssetSource.cs.html">here</a> to see an example of how to use CreateAssetSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/CreateAssetSource.cs.html">here</a> to see an example of how to use CreateAssetSource API.</example>
         public async Task<CreateAssetSourceResponse> CreateAssetSource(CreateAssetSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAssetSource");
@@ -249,7 +249,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/CreateDiscoverySchedule.cs.html">here</a> to see an example of how to use CreateDiscoverySchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/CreateDiscoverySchedule.cs.html">here</a> to see an example of how to use CreateDiscoverySchedule API.</example>
         public async Task<CreateDiscoveryScheduleResponse> CreateDiscoverySchedule(CreateDiscoveryScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDiscoverySchedule");
@@ -305,7 +305,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/DeleteAssetSource.cs.html">here</a> to see an example of how to use DeleteAssetSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/DeleteAssetSource.cs.html">here</a> to see an example of how to use DeleteAssetSource API.</example>
         public async Task<DeleteAssetSourceResponse> DeleteAssetSource(DeleteAssetSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAssetSource");
@@ -361,7 +361,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/DeleteDiscoverySchedule.cs.html">here</a> to see an example of how to use DeleteDiscoverySchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/DeleteDiscoverySchedule.cs.html">here</a> to see an example of how to use DeleteDiscoverySchedule API.</example>
         public async Task<DeleteDiscoveryScheduleResponse> DeleteDiscoverySchedule(DeleteDiscoveryScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDiscoverySchedule");
@@ -417,7 +417,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/GetAssetSource.cs.html">here</a> to see an example of how to use GetAssetSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/GetAssetSource.cs.html">here</a> to see an example of how to use GetAssetSource API.</example>
         public async Task<GetAssetSourceResponse> GetAssetSource(GetAssetSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAssetSource");
@@ -473,7 +473,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/GetDiscoverySchedule.cs.html">here</a> to see an example of how to use GetDiscoverySchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/GetDiscoverySchedule.cs.html">here</a> to see an example of how to use GetDiscoverySchedule API.</example>
         public async Task<GetDiscoveryScheduleResponse> GetDiscoverySchedule(GetDiscoveryScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDiscoverySchedule");
@@ -529,7 +529,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListAssetSourceConnections.cs.html">here</a> to see an example of how to use ListAssetSourceConnections API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListAssetSourceConnections.cs.html">here</a> to see an example of how to use ListAssetSourceConnections API.</example>
         public async Task<ListAssetSourceConnectionsResponse> ListAssetSourceConnections(ListAssetSourceConnectionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAssetSourceConnections");
@@ -586,7 +586,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListAssetSources.cs.html">here</a> to see an example of how to use ListAssetSources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListAssetSources.cs.html">here</a> to see an example of how to use ListAssetSources API.</example>
         public async Task<ListAssetSourcesResponse> ListAssetSources(ListAssetSourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAssetSources");
@@ -642,7 +642,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListDiscoverySchedules.cs.html">here</a> to see an example of how to use ListDiscoverySchedules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListDiscoverySchedules.cs.html">here</a> to see an example of how to use ListDiscoverySchedules API.</example>
         public async Task<ListDiscoverySchedulesResponse> ListDiscoverySchedules(ListDiscoverySchedulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDiscoverySchedules");
@@ -699,7 +699,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListSupportedCloudRegions.cs.html">here</a> to see an example of how to use ListSupportedCloudRegions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListSupportedCloudRegions.cs.html">here</a> to see an example of how to use ListSupportedCloudRegions API.</example>
         public async Task<ListSupportedCloudRegionsResponse> ListSupportedCloudRegions(ListSupportedCloudRegionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSupportedCloudRegions");
@@ -755,7 +755,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/RefreshAssetSource.cs.html">here</a> to see an example of how to use RefreshAssetSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/RefreshAssetSource.cs.html">here</a> to see an example of how to use RefreshAssetSource API.</example>
         public async Task<RefreshAssetSourceResponse> RefreshAssetSource(RefreshAssetSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshAssetSource");
@@ -811,7 +811,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/UpdateAssetSource.cs.html">here</a> to see an example of how to use UpdateAssetSource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/UpdateAssetSource.cs.html">here</a> to see an example of how to use UpdateAssetSource API.</example>
         public async Task<UpdateAssetSourceResponse> UpdateAssetSource(UpdateAssetSourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAssetSource");
@@ -867,7 +867,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/UpdateDiscoverySchedule.cs.html">here</a> to see an example of how to use UpdateDiscoverySchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/UpdateDiscoverySchedule.cs.html">here</a> to see an example of how to use UpdateDiscoverySchedule API.</example>
         public async Task<UpdateDiscoveryScheduleResponse> UpdateDiscoverySchedule(UpdateDiscoveryScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDiscoverySchedule");

@@ -22,7 +22,7 @@ namespace Oci.DatabasemanagementService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the database.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database.
         /// </value>
         /// <remarks>
         /// Required
@@ -42,7 +42,7 @@ namespace Oci.DatabasemanagementService.Models
         public string Name { get; set; }
         
         /// <value>
-        /// The compartment [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the database.
+        /// The compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database.
         /// </value>
         /// <remarks>
         /// Required

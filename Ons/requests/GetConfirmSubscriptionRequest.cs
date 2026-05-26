@@ -14,13 +14,13 @@ using Oci.OnsService.Models;
 namespace Oci.OnsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/GetConfirmSubscription.cs.html">here</a> to see an example of how to use GetConfirmSubscription request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/GetConfirmSubscription.cs.html">here</a> to see an example of how to use GetConfirmSubscription request.
     /// </example>
     public class GetConfirmSubscriptionRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subscription to get the confirmation details for.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subscription to get the confirmation details for.
         /// 
         /// </value>
         /// <remarks>
@@ -53,7 +53,7 @@ namespace Oci.OnsService.Requests
         ///   * `SMS`
         /// <br/>
         /// For information about subscription protocols, see
-        /// [To create a subscription](https://docs.cloud.oracle.com/iaas/Content/Notification/Tasks/managingtopicsandsubscriptions.htm#createSub).
+        /// [To create a subscription](https://docs.oracle.com/iaas/Content/Notification/Tasks/managingtopicsandsubscriptions.htm#createSub).
         /// 
         /// </value>
         /// <remarks>

@@ -14,13 +14,13 @@ using Oci.GenerativeaiService.Models;
 namespace Oci.GenerativeaiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteHostedDeploymentArtifact.cs.html">here</a> to see an example of how to use DeleteHostedDeploymentArtifact request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteHostedDeploymentArtifact.cs.html">here</a> to see an example of how to use DeleteHostedDeploymentArtifact request.
     /// </example>
     public class DeleteHostedDeploymentArtifactRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the hosted deployment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the hosted deployment.
         /// </value>
         /// <remarks>
         /// Required

@@ -74,7 +74,7 @@ namespace Oci.OsmanagementhubService
 
         /// <summary>
         /// Moves an event into a different compartment within the same tenancy. For information about moving resources between 
-        /// compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -82,7 +82,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ChangeEventCompartment.cs.html">here</a> to see an example of how to use ChangeEventCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ChangeEventCompartment.cs.html">here</a> to see an example of how to use ChangeEventCompartment API.</example>
         public async Task<ChangeEventCompartmentResponse> ChangeEventCompartment(ChangeEventCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeEventCompartment");
@@ -138,7 +138,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteEvent.cs.html">here</a> to see an example of how to use DeleteEvent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteEvent.cs.html">here</a> to see an example of how to use DeleteEvent API.</example>
         public async Task<DeleteEventResponse> DeleteEvent(DeleteEventRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteEvent");
@@ -195,7 +195,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteEventContent.cs.html">here</a> to see an example of how to use DeleteEventContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteEventContent.cs.html">here</a> to see an example of how to use DeleteEventContent API.</example>
         public async Task<DeleteEventContentResponse> DeleteEventContent(DeleteEventContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteEventContent");
@@ -251,7 +251,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetEvent.cs.html">here</a> to see an example of how to use GetEvent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetEvent.cs.html">here</a> to see an example of how to use GetEvent API.</example>
         public async Task<GetEventResponse> GetEvent(GetEventRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getEvent");
@@ -308,7 +308,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetEventContent.cs.html">here</a> to see an example of how to use GetEventContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetEventContent.cs.html">here</a> to see an example of how to use GetEventContent API.</example>
         public async Task<GetEventContentResponse> GetEventContent(GetEventContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getEventContent");
@@ -365,7 +365,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ImportEventContent.cs.html">here</a> to see an example of how to use ImportEventContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ImportEventContent.cs.html">here</a> to see an example of how to use ImportEventContent API.</example>
         public async Task<ImportEventContentResponse> ImportEventContent(ImportEventContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called importEventContent");
@@ -422,7 +422,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListEvents.cs.html">here</a> to see an example of how to use ListEvents API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListEvents.cs.html">here</a> to see an example of how to use ListEvents API.</example>
         public async Task<ListEventsResponse> ListEvents(ListEventsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listEvents");
@@ -478,7 +478,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateEvent.cs.html">here</a> to see an example of how to use UpdateEvent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateEvent.cs.html">here</a> to see an example of how to use UpdateEvent API.</example>
         public async Task<UpdateEventResponse> UpdateEvent(UpdateEventRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateEvent");

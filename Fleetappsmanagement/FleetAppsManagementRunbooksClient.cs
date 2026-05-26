@@ -74,7 +74,7 @@ namespace Oci.FleetappsmanagementService
 
         /// <summary>
         /// Moves a Runbook into a different compartment within the same tenancy. For information about moving resources between
-        /// compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -82,7 +82,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ChangeRunbookCompartment.cs.html">here</a> to see an example of how to use ChangeRunbookCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ChangeRunbookCompartment.cs.html">here</a> to see an example of how to use ChangeRunbookCompartment API.</example>
         public async Task<ChangeRunbookCompartmentResponse> ChangeRunbookCompartment(ChangeRunbookCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeRunbookCompartment");
@@ -132,7 +132,7 @@ namespace Oci.FleetappsmanagementService
 
         /// <summary>
         /// Moves a task record into a different compartment within the same tenancy. For information about moving resources between
-        /// compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -140,7 +140,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ChangeTaskRecordCompartment.cs.html">here</a> to see an example of how to use ChangeTaskRecordCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ChangeTaskRecordCompartment.cs.html">here</a> to see an example of how to use ChangeTaskRecordCompartment API.</example>
         public async Task<ChangeTaskRecordCompartmentResponse> ChangeTaskRecordCompartment(ChangeTaskRecordCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeTaskRecordCompartment");
@@ -197,7 +197,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/CreateRunbook.cs.html">here</a> to see an example of how to use CreateRunbook API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/CreateRunbook.cs.html">here</a> to see an example of how to use CreateRunbook API.</example>
         public async Task<CreateRunbookResponse> CreateRunbook(CreateRunbookRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRunbook");
@@ -254,7 +254,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/CreateRunbookVersion.cs.html">here</a> to see an example of how to use CreateRunbookVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/CreateRunbookVersion.cs.html">here</a> to see an example of how to use CreateRunbookVersion API.</example>
         public async Task<CreateRunbookVersionResponse> CreateRunbookVersion(CreateRunbookVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRunbookVersion");
@@ -311,7 +311,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/CreateTaskRecord.cs.html">here</a> to see an example of how to use CreateTaskRecord API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/CreateTaskRecord.cs.html">here</a> to see an example of how to use CreateTaskRecord API.</example>
         public async Task<CreateTaskRecordResponse> CreateTaskRecord(CreateTaskRecordRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createTaskRecord");
@@ -367,7 +367,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/DeleteRunbook.cs.html">here</a> to see an example of how to use DeleteRunbook API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/DeleteRunbook.cs.html">here</a> to see an example of how to use DeleteRunbook API.</example>
         public async Task<DeleteRunbookResponse> DeleteRunbook(DeleteRunbookRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRunbook");
@@ -423,7 +423,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/DeleteRunbookVersion.cs.html">here</a> to see an example of how to use DeleteRunbookVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/DeleteRunbookVersion.cs.html">here</a> to see an example of how to use DeleteRunbookVersion API.</example>
         public async Task<DeleteRunbookVersionResponse> DeleteRunbookVersion(DeleteRunbookVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRunbookVersion");
@@ -479,7 +479,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/DeleteTaskRecord.cs.html">here</a> to see an example of how to use DeleteTaskRecord API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/DeleteTaskRecord.cs.html">here</a> to see an example of how to use DeleteTaskRecord API.</example>
         public async Task<DeleteTaskRecordResponse> DeleteTaskRecord(DeleteTaskRecordRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteTaskRecord");
@@ -536,7 +536,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ExportRunbook.cs.html">here</a> to see an example of how to use ExportRunbook API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ExportRunbook.cs.html">here</a> to see an example of how to use ExportRunbook API.</example>
         public async Task<ExportRunbookResponse> ExportRunbook(ExportRunbookRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called exportRunbook");
@@ -593,7 +593,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ExportRunbookVersion.cs.html">here</a> to see an example of how to use ExportRunbookVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ExportRunbookVersion.cs.html">here</a> to see an example of how to use ExportRunbookVersion API.</example>
         public async Task<ExportRunbookVersionResponse> ExportRunbookVersion(ExportRunbookVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called exportRunbookVersion");
@@ -650,7 +650,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/FindRunbookExportDependency.cs.html">here</a> to see an example of how to use FindRunbookExportDependency API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/FindRunbookExportDependency.cs.html">here</a> to see an example of how to use FindRunbookExportDependency API.</example>
         public async Task<FindRunbookExportDependencyResponse> FindRunbookExportDependency(FindRunbookExportDependencyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called findRunbookExportDependency");
@@ -707,7 +707,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/FindRunbookImportDependency.cs.html">here</a> to see an example of how to use FindRunbookImportDependency API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/FindRunbookImportDependency.cs.html">here</a> to see an example of how to use FindRunbookImportDependency API.</example>
         public async Task<FindRunbookImportDependencyResponse> FindRunbookImportDependency(FindRunbookImportDependencyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called findRunbookImportDependency");
@@ -763,7 +763,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetRunbook.cs.html">here</a> to see an example of how to use GetRunbook API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetRunbook.cs.html">here</a> to see an example of how to use GetRunbook API.</example>
         public async Task<GetRunbookResponse> GetRunbook(GetRunbookRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRunbook");
@@ -819,7 +819,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetRunbookExport.cs.html">here</a> to see an example of how to use GetRunbookExport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetRunbookExport.cs.html">here</a> to see an example of how to use GetRunbookExport API.</example>
         public async Task<GetRunbookExportResponse> GetRunbookExport(GetRunbookExportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRunbookExport");
@@ -875,7 +875,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetRunbookImport.cs.html">here</a> to see an example of how to use GetRunbookImport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetRunbookImport.cs.html">here</a> to see an example of how to use GetRunbookImport API.</example>
         public async Task<GetRunbookImportResponse> GetRunbookImport(GetRunbookImportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRunbookImport");
@@ -931,7 +931,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetRunbookVersion.cs.html">here</a> to see an example of how to use GetRunbookVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetRunbookVersion.cs.html">here</a> to see an example of how to use GetRunbookVersion API.</example>
         public async Task<GetRunbookVersionResponse> GetRunbookVersion(GetRunbookVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRunbookVersion");
@@ -987,7 +987,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetTaskRecord.cs.html">here</a> to see an example of how to use GetTaskRecord API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetTaskRecord.cs.html">here</a> to see an example of how to use GetTaskRecord API.</example>
         public async Task<GetTaskRecordResponse> GetTaskRecord(GetTaskRecordRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTaskRecord");
@@ -1044,7 +1044,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ImportRunbook.cs.html">here</a> to see an example of how to use ImportRunbook API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ImportRunbook.cs.html">here</a> to see an example of how to use ImportRunbook API.</example>
         public async Task<ImportRunbookResponse> ImportRunbook(ImportRunbookRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called importRunbook");
@@ -1101,7 +1101,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ImportRunbookPrecheck.cs.html">here</a> to see an example of how to use ImportRunbookPrecheck API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ImportRunbookPrecheck.cs.html">here</a> to see an example of how to use ImportRunbookPrecheck API.</example>
         public async Task<ImportRunbookPrecheckResponse> ImportRunbookPrecheck(ImportRunbookPrecheckRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called importRunbookPrecheck");
@@ -1158,7 +1158,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ImportRunbookVersion.cs.html">here</a> to see an example of how to use ImportRunbookVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ImportRunbookVersion.cs.html">here</a> to see an example of how to use ImportRunbookVersion API.</example>
         public async Task<ImportRunbookVersionResponse> ImportRunbookVersion(ImportRunbookVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called importRunbookVersion");
@@ -1216,7 +1216,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListRunbookExportStatuses.cs.html">here</a> to see an example of how to use ListRunbookExportStatuses API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListRunbookExportStatuses.cs.html">here</a> to see an example of how to use ListRunbookExportStatuses API.</example>
         public async Task<ListRunbookExportStatusesResponse> ListRunbookExportStatuses(ListRunbookExportStatusesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRunbookExportStatuses");
@@ -1274,7 +1274,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListRunbookImportStatuses.cs.html">here</a> to see an example of how to use ListRunbookImportStatuses API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListRunbookImportStatuses.cs.html">here</a> to see an example of how to use ListRunbookImportStatuses API.</example>
         public async Task<ListRunbookImportStatusesResponse> ListRunbookImportStatuses(ListRunbookImportStatusesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRunbookImportStatuses");
@@ -1331,7 +1331,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListRunbookVersions.cs.html">here</a> to see an example of how to use ListRunbookVersions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListRunbookVersions.cs.html">here</a> to see an example of how to use ListRunbookVersions API.</example>
         public async Task<ListRunbookVersionsResponse> ListRunbookVersions(ListRunbookVersionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRunbookVersions");
@@ -1389,7 +1389,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListRunbooks.cs.html">here</a> to see an example of how to use ListRunbooks API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListRunbooks.cs.html">here</a> to see an example of how to use ListRunbooks API.</example>
         public async Task<ListRunbooksResponse> ListRunbooks(ListRunbooksRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRunbooks");
@@ -1447,7 +1447,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListTaskRecords.cs.html">here</a> to see an example of how to use ListTaskRecords API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListTaskRecords.cs.html">here</a> to see an example of how to use ListTaskRecords API.</example>
         public async Task<ListTaskRecordsResponse> ListTaskRecords(ListTaskRecordsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTaskRecords");
@@ -1505,7 +1505,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/PublishRunbook.cs.html">here</a> to see an example of how to use PublishRunbook API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/PublishRunbook.cs.html">here</a> to see an example of how to use PublishRunbook API.</example>
         public async Task<PublishRunbookResponse> PublishRunbook(PublishRunbookRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called publishRunbook");
@@ -1562,7 +1562,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/SetDefaultRunbook.cs.html">here</a> to see an example of how to use SetDefaultRunbook API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/SetDefaultRunbook.cs.html">here</a> to see an example of how to use SetDefaultRunbook API.</example>
         public async Task<SetDefaultRunbookResponse> SetDefaultRunbook(SetDefaultRunbookRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called setDefaultRunbook");
@@ -1618,7 +1618,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/UpdateRunbook.cs.html">here</a> to see an example of how to use UpdateRunbook API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/UpdateRunbook.cs.html">here</a> to see an example of how to use UpdateRunbook API.</example>
         public async Task<UpdateRunbookResponse> UpdateRunbook(UpdateRunbookRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRunbook");
@@ -1674,7 +1674,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/UpdateRunbookVersion.cs.html">here</a> to see an example of how to use UpdateRunbookVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/UpdateRunbookVersion.cs.html">here</a> to see an example of how to use UpdateRunbookVersion API.</example>
         public async Task<UpdateRunbookVersionResponse> UpdateRunbookVersion(UpdateRunbookVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRunbookVersion");
@@ -1730,7 +1730,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/UpdateTaskRecord.cs.html">here</a> to see an example of how to use UpdateTaskRecord API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/UpdateTaskRecord.cs.html">here</a> to see an example of how to use UpdateTaskRecord API.</example>
         public async Task<UpdateTaskRecordResponse> UpdateTaskRecord(UpdateTaskRecordRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateTaskRecord");

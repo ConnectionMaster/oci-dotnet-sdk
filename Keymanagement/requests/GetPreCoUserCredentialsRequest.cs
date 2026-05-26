@@ -14,7 +14,7 @@ using Oci.KeymanagementService.Models;
 namespace Oci.KeymanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetPreCoUserCredentials.cs.html">here</a> to see an example of how to use GetPreCoUserCredentials request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetPreCoUserCredentials.cs.html">here</a> to see an example of how to use GetPreCoUserCredentials request.
     /// </example>
     public class GetPreCoUserCredentialsRequest : Oci.Common.IOciRequest
     {

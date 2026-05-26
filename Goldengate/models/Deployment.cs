@@ -23,7 +23,7 @@ namespace Oci.GoldengateService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the deployment being referenced.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the deployment being referenced.
         /// 
         /// </value>
         /// <remarks>
@@ -48,7 +48,7 @@ namespace Oci.GoldengateService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment being referenced.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment being referenced.
         /// 
         /// </value>
         /// <remarks>
@@ -87,7 +87,7 @@ namespace Oci.GoldengateService.Models
         public System.Nullable<System.DateTime> TimeRoleChanged { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the deployment being referenced.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the deployment being referenced.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "sourceDeploymentId")]
@@ -101,7 +101,7 @@ namespace Oci.GoldengateService.Models
         public System.Collections.Generic.List<DeploymentPlacementInfo> Placements { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the backup being referenced.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the backup being referenced.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "deploymentBackupId")]
@@ -205,7 +205,7 @@ namespace Oci.GoldengateService.Models
         public System.Nullable<bool> IsHealthy { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the subnet of the deployment's private endpoint.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet of the deployment's private endpoint.
         /// The subnet must be a private subnet. For backward compatibility, public subnets are allowed until May 31 2025,
         /// after which the private subnet will be enforced.
         /// 
@@ -218,7 +218,7 @@ namespace Oci.GoldengateService.Models
         public string SubnetId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of a public subnet in the customer tenancy used to host the public load balancer of the deployment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a public subnet in the customer tenancy used to host the public load balancer of the deployment.
         /// <br/>
         /// Rules:
         /// - Create: Mandatory when isPublic is true. Must be a public, regional subnet in the same VCN as subnetId.
@@ -236,7 +236,7 @@ namespace Oci.GoldengateService.Models
         public string LoadBalancerSubnetId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the loadbalancer in the customer's subnet.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the loadbalancer in the customer's subnet.
         /// The loadbalancer of the public deployment created in the customer subnet.
         /// 
         /// </value>
@@ -287,8 +287,8 @@ namespace Oci.GoldengateService.Models
         public System.Nullable<EnvironmentType> EnvironmentType { get; set; }
         
         /// <value>
-        /// The deployment category defines the broad separation of the deployment type into three categories.
-        /// Currently the separation is 'DATA_REPLICATION', 'STREAM_ANALYTICS' and 'DATA_TRANSFORMS'.
+        /// The deployment category defines the broad separation of the deployment type into four categories.
+        /// Currently the separation is 'DATA_REPLICATION', 'STREAM_ANALYTICS', 'DATA_TRANSFORMS' and 'DATA_VERIFICATION'.
         /// 
         /// </value>
         /// <remarks>
@@ -360,7 +360,7 @@ namespace Oci.GoldengateService.Models
         /// <value>
         /// The system tags associated with this resource, if any. The system tags are set by Oracle
         /// Cloud Infrastructure services. Each key is predefined and scoped to namespaces.  For more
-        /// information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {orcl-cloud: {free-tier-retain: true}}
         /// </value>
@@ -474,7 +474,7 @@ namespace Oci.GoldengateService.Models
         public System.Collections.Generic.List<IngressIpDetails> IngressIps { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the subscription with which resource needs to be associated with.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subscription with which resource needs to be associated with.
         /// </value>
         [JsonProperty(PropertyName = "subscriptionId")]
         public string SubscriptionId { get; set; }
@@ -490,12 +490,21 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// Security attributes for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Oracle-ZPR&quot;: {&quot;MaxEgressCount&quot;: {&quot;value&quot;: &quot;42&quot;, &quot;mode&quot;: &quot;enforce&quot;}}}
         /// </value>
         [JsonProperty(PropertyName = "securityAttributes")]
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> SecurityAttributes { get; set; }
+        
+        /// <value>
+        /// Indicates if disaster recovery is enabled for a deployment.
+        /// If not specified, disaster recovery is ENABLED when no clusterPlacementGroupId is provided, and DISABLED when a clusterPlacementGroupId is provided.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "disasterRecoveryStatus")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<DisasterRecoveryStatus> DisasterRecoveryStatus { get; set; }
         
     }
 }

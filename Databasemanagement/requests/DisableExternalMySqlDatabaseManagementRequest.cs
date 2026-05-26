@@ -14,7 +14,7 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/DisableExternalMySqlDatabaseManagement.cs.html">here</a> to see an example of how to use DisableExternalMySqlDatabaseManagement request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/DisableExternalMySqlDatabaseManagement.cs.html">here</a> to see an example of how to use DisableExternalMySqlDatabaseManagement request.
     /// </example>
     public class DisableExternalMySqlDatabaseManagementRequest : Oci.Common.IOciRequest
     {

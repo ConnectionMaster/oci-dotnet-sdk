@@ -17,7 +17,7 @@ namespace Oci.DatabaseService.Models
 {
     /// <summary>
     /// Details for creating a resource used to connect to an external Oracle Database using
-    /// the [Management Agent cloud service (MACS)](https://docs.cloud.oracle.com/iaas/management-agents/index.html).
+    /// the [Management Agent cloud service (MACS)](https://docs.oracle.com/iaas/management-agents/index.html).
     /// 
     /// </summary>
     public class CreateExternalMacsConnectorDetails : CreateExternalDatabaseConnectorDetails

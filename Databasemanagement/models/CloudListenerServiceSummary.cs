@@ -32,13 +32,13 @@ namespace Oci.DatabasemanagementService.Models
         public string Name { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the cloud listener.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cloud listener.
         /// </value>
         [JsonProperty(PropertyName = "listenerId")]
         public string ListenerId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Managed Database.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Managed Database.
         /// </value>
         [JsonProperty(PropertyName = "managedDatabaseId")]
         public string ManagedDatabaseId { get; set; }

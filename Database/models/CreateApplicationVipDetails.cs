@@ -33,13 +33,13 @@ namespace Oci.DatabaseService.Models
         public string HostnameLabel { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the DB node associated with the application virtual IP (VIP) address.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the DB node associated with the application virtual IP (VIP) address.
         /// </value>
         [JsonProperty(PropertyName = "dbNodeId")]
         public string DbNodeId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the cloud VM cluster associated with the application virtual IP (VIP) address.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cloud VM cluster associated with the application virtual IP (VIP) address.
         /// </value>
         /// <remarks>
         /// Required
@@ -49,7 +49,7 @@ namespace Oci.DatabaseService.Models
         public string CloudVmClusterId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the subnet associated with the application virtual IP (VIP) address.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet associated with the application virtual IP (VIP) address.
         /// </value>
         /// <remarks>
         /// Required

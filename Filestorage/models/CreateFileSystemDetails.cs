@@ -34,7 +34,7 @@ namespace Oci.FilestorageService.Models
         public string AvailabilityDomain { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment to create the file system in.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to create the file system in.
         /// </value>
         /// <remarks>
         /// Required
@@ -55,7 +55,7 @@ namespace Oci.FilestorageService.Models
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair
         ///  with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
         [JsonProperty(PropertyName = "freeformTags")]
@@ -63,7 +63,7 @@ namespace Oci.FilestorageService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]
@@ -76,15 +76,15 @@ namespace Oci.FilestorageService.Models
         public System.Collections.Generic.List<ResourceLock> Locks { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the KMS key used to encrypt the encryption keys associated with this file system.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the KMS key used to encrypt the encryption keys associated with this file system.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "kmsKeyId")]
         public string KmsKeyId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the snapshot used to create a cloned file system.
-        /// See [Cloning a File System](https://docs.cloud.oracle.com/iaas/Content/File/Tasks/cloningFS.htm).
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the snapshot used to create a cloned file system.
+        /// See [Cloning a File System](https://docs.oracle.com/iaas/Content/File/Tasks/cloningFS.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "sourceSnapshotId")]
@@ -115,7 +115,7 @@ namespace Oci.FilestorageService.Models
         public System.Nullable<CloneAttachStatusEnum> CloneAttachStatus { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the associated file system snapshot policy, which
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the associated file system snapshot policy, which
         /// controls the frequency of snapshot creation and retention period of the taken snapshots.
         /// <br/>
         /// May be unset as a blank value.

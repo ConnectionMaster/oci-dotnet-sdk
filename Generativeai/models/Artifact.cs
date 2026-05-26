@@ -35,7 +35,7 @@ namespace Oci.GenerativeaiService.Models
         public System.Nullable<System.DateTime> TimeCreated { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the application.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the application.
         /// </value>
         [JsonProperty(PropertyName = "hostedDeploymentId")]
         public string HostedDeploymentId { get; set; }

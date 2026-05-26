@@ -14,7 +14,7 @@ using Oci.StackmonitoringService.Models;
 namespace Oci.StackmonitoringService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateConfig.cs.html">here</a> to see an example of how to use CreateConfig request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateConfig.cs.html">here</a> to see an example of how to use CreateConfig request.
     /// </example>
     public class CreateConfigRequest : Oci.Common.IOciRequest
     {

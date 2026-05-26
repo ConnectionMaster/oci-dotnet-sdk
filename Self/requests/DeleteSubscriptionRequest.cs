@@ -14,7 +14,7 @@ using Oci.SelfService.Models;
 namespace Oci.SelfService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/self/DeleteSubscription.cs.html">here</a> to see an example of how to use DeleteSubscription request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/self/DeleteSubscription.cs.html">here</a> to see an example of how to use DeleteSubscription request.
     /// </example>
     public class DeleteSubscriptionRequest : Oci.Common.IOciRequest
     {

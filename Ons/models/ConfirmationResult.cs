@@ -18,7 +18,7 @@ namespace Oci.OnsService.Models
     /// <summary>
     /// The confirmation details for the specified subscription.
     /// For information about confirming subscriptions, see
-    /// [To confirm a subscription](https://docs.cloud.oracle.com/iaas/Content/Notification/Tasks/managingtopicsandsubscriptions.htm#confirmSub).
+    /// [To confirm a subscription](https://docs.oracle.com/iaas/Content/Notification/Tasks/managingtopicsandsubscriptions.htm#confirmSub).
     /// 
     /// </summary>
     public class ConfirmationResult 
@@ -36,7 +36,7 @@ namespace Oci.OnsService.Models
         public string TopicName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the topic associated with the specified subscription.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the topic associated with the specified subscription.
         /// 
         /// </value>
         /// <remarks>
@@ -79,7 +79,7 @@ namespace Oci.OnsService.Models
         public string Message { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subscription specified in the request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subscription specified in the request.
         /// </value>
         /// <remarks>
         /// Required

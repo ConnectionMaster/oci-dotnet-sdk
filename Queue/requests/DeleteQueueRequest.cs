@@ -14,7 +14,7 @@ using Oci.QueueService.Models;
 namespace Oci.QueueService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/DeleteQueue.cs.html">here</a> to see an example of how to use DeleteQueue request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/DeleteQueue.cs.html">here</a> to see an example of how to use DeleteQueue request.
     /// </example>
     public class DeleteQueueRequest : Oci.Common.IOciRequest
     {

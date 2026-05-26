@@ -14,7 +14,7 @@ using Oci.WafService.Models;
 namespace Oci.WafService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/CreateNetworkAddressList.cs.html">here</a> to see an example of how to use CreateNetworkAddressList request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/CreateNetworkAddressList.cs.html">here</a> to see an example of how to use CreateNetworkAddressList request.
     /// </example>
     public class CreateNetworkAddressListRequest : Oci.Common.IOciRequest
     {

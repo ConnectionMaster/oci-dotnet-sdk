@@ -23,7 +23,7 @@ namespace Oci.DatabasemanagementService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Named Credential
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Named Credential
         /// where the database password metadata is stored.
         /// 
         /// </value>

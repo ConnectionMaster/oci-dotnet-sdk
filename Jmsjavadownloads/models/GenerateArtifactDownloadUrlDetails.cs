@@ -22,7 +22,7 @@ namespace Oci.JmsjavadownloadsService.Models
     {
         
         /// <value>
-        /// The tenancy [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the user initiating the download.
+        /// The tenancy [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the user initiating the download.
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }

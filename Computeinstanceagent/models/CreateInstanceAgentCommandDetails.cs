@@ -22,7 +22,7 @@ namespace Oci.ComputeinstanceagentService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment to create the command in.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to create the command in.
         /// </value>
         /// <remarks>
         /// Required

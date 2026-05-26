@@ -14,13 +14,13 @@ using Oci.WaaService.Models;
 namespace Oci.WaaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/UpdateWebAppAcceleration.cs.html">here</a> to see an example of how to use UpdateWebAppAcceleration request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/UpdateWebAppAcceleration.cs.html">here</a> to see an example of how to use UpdateWebAppAcceleration request.
     /// </example>
     public class UpdateWebAppAccelerationRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the WebAppAcceleration.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the WebAppAcceleration.
         /// </value>
         /// <remarks>
         /// Required

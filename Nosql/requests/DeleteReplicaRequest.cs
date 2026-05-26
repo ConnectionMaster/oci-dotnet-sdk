@@ -14,7 +14,7 @@ using Oci.NosqlService.Models;
 namespace Oci.NosqlService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/nosql/DeleteReplica.cs.html">here</a> to see an example of how to use DeleteReplica request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/nosql/DeleteReplica.cs.html">here</a> to see an example of how to use DeleteReplica request.
     /// </example>
     public class DeleteReplicaRequest : Oci.Common.IOciRequest
     {

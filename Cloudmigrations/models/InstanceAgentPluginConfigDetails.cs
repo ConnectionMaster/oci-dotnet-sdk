@@ -25,7 +25,7 @@ namespace Oci.CloudmigrationsService.Models
         /// The plugin name. To get a list of available plugins, use the
         /// {@link #listInstanceagentAvailablePlugins(ListInstanceagentAvailablePluginsRequest) listInstanceagentAvailablePlugins}
         /// operation in the Oracle Cloud Agent API. For more information about the available plugins, see
-        /// [Managing Plugins with Oracle Cloud Agent](https://docs.cloud.oracle.com/iaas/Content/Compute/Tasks/manage-plugins.htm).
+        /// [Managing Plugins with Oracle Cloud Agent](https://docs.oracle.com/iaas/Content/Compute/Tasks/manage-plugins.htm).
         /// 
         /// </value>
         /// <remarks>

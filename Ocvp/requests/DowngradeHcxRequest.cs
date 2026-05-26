@@ -14,7 +14,7 @@ using Oci.OcvpService.Models;
 namespace Oci.OcvpService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DowngradeHcx.cs.html">here</a> to see an example of how to use DowngradeHcx request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DowngradeHcx.cs.html">here</a> to see an example of how to use DowngradeHcx request.
     /// </example>
     public class DowngradeHcxRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.OcvpService.Requests
         public DowngradeHcxDetails DowngradeHcxDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the SDDC.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the SDDC.
         /// 
         /// </value>
         /// <remarks>

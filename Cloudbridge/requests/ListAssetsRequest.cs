@@ -14,7 +14,7 @@ using Oci.CloudbridgeService.Models;
 namespace Oci.CloudbridgeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListAssets.cs.html">here</a> to see an example of how to use ListAssets request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListAssets.cs.html">here</a> to see an example of how to use ListAssets request.
     /// </example>
     public class ListAssetsRequest : Oci.Common.IOciRequest
     {

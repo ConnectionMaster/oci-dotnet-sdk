@@ -38,7 +38,7 @@ namespace Oci.ObjectstorageService.Responses
         /// Private Endpoint's to get. Include the header's value as the `page` parameter in the subsequent GET request to get the
         /// next batch of PEs. Repeat this process to retrieve the entire list of Private Endpoint's.
         /// By default, the page limit is set to 25 Private Endpoint's per page, but you can specify a value from 1 to 1000.
-        /// For more details about how pagination works, see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// For more details about how pagination works, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-next-page")]

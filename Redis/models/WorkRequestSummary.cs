@@ -44,7 +44,7 @@ namespace Oci.RedisService.Models
         public System.Nullable<OperationStatus> Status { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the work request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the work request.
         /// </value>
         /// <remarks>
         /// Required

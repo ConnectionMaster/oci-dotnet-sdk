@@ -14,7 +14,7 @@ using Oci.IdentitydomainsService.Models;
 namespace Oci.IdentitydomainsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateCloudGateMapping.cs.html">here</a> to see an example of how to use CreateCloudGateMapping request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateCloudGateMapping.cs.html">here</a> to see an example of how to use CreateCloudGateMapping request.
     /// </example>
     public class CreateCloudGateMappingRequest : Oci.Common.IOciRequest
     {

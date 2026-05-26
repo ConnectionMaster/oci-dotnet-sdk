@@ -39,7 +39,7 @@ namespace Oci.DatabaseService.Models
         public PeerAutonomousContainerDatabaseBackupConfig PeerAutonomousContainerDatabaseBackupConfig { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment where the standby Autonomous Container Database
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where the standby Autonomous Container Database
         /// will be created.
         /// 
         /// </value>
@@ -53,13 +53,13 @@ namespace Oci.DatabaseService.Models
         public string PeerAutonomousContainerDatabaseDisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the peer cloud Autonomous Exadata VM Cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the peer cloud Autonomous Exadata VM Cluster.
         /// </value>
         [JsonProperty(PropertyName = "peerCloudAutonomousVmClusterId")]
         public string PeerCloudAutonomousVmClusterId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the peer Autonomous Exadata VM Cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the peer Autonomous Exadata VM Cluster.
         /// </value>
         [JsonProperty(PropertyName = "peerAutonomousVmClusterId")]
         public string PeerAutonomousVmClusterId { get; set; }

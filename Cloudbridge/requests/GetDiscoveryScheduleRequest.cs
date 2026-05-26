@@ -14,13 +14,13 @@ using Oci.CloudbridgeService.Models;
 namespace Oci.CloudbridgeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/GetDiscoverySchedule.cs.html">here</a> to see an example of how to use GetDiscoverySchedule request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/GetDiscoverySchedule.cs.html">here</a> to see an example of how to use GetDiscoverySchedule request.
     /// </example>
     public class GetDiscoveryScheduleRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the discovery schedule.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the discovery schedule.
         /// </value>
         /// <remarks>
         /// Required

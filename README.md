@@ -48,7 +48,7 @@ NOTE: To avoid dependency conflicts, you should use the same versions of all OCI
 
 ## Documentation
 
-Public documentation and API Reference for the sdk can be found [here](https://docs.cloud.oracle.com/en-us/iaas/Content/API/SDKDocs/dotnetsdk.htm).
+Public documentation and API Reference for the sdk can be found [here](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/dotnetsdk.htm).
 
 ## Working with the .NET SDK
 
@@ -56,12 +56,12 @@ To start working with oci-dotnet-sdk, you need to create a .NET project, install
 
 ### Configuring
 
-Before using the SDK, set up a config file with the required credentials. See [SDK and Tool Configuration](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/sdkconfig.htm) for instructions.
+Before using the SDK, set up a config file with the required credentials. See [SDK and Tool Configuration](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/sdkconfig.htm) for instructions.
 
 ### Creating Client
 
 To create a service client, you need to set up the client to use the credentials.
-Check [here](https://docs.cloud.oracle.com/en-us/iaas/Content/API/SDKDocs/dotnetsdkgettingstarted.htm#configuring) on how to configure it.
+Check [here](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/dotnetsdkgettingstarted.htm#configuring) on how to configure it.
 
 Example that shows creating the Audit Service client using ConfigFileAuthenticationDetailsProvider Class for configuring credentials:
 
@@ -122,7 +122,7 @@ Only SDK logging will be captured if logger is not created in user application.
 
 Examples can be found [here](/Examples).
 
-Examples for all supported services can be found at the [API reference](https://docs.cloud.oracle.com/en-us/iaas/tools/dotnet/latest/api/index.html) under their respective reference doc.
+Examples for all supported services can be found at the [API reference](https://docs.oracle.com/en-us/iaas/tools/dotnet/latest/api/index.html) under their respective reference doc.
 
 To use the example code: copy the sample, change the parameter values to values that make sense for your use case (ex: OCI instance ID with your OCI instance ID), and then you can run the code to have a working automation against OCI.
 
@@ -197,4 +197,4 @@ See [CHANGELOG](/CHANGELOG.md)
 
 ## Known Issues
 
-You can find information on any known issues with the SDK at [Oracle Cloud Infrastructure Known Issues](https://docs.cloud.oracle.com/en-us/iaas/Content/knownissues.htm) and under the [Issues](https://github.com/oracle/oci-dotnet-sdk/issues) tab of this project's GitHub repository.
+You can find information on any known issues with the SDK at [Oracle Cloud Infrastructure Known Issues](https://docs.oracle.com/en-us/iaas/Content/knownissues.htm) and under the [Issues](https://github.com/oracle/oci-dotnet-sdk/issues) tab of this project's GitHub repository.

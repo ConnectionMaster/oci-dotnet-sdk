@@ -23,7 +23,7 @@ namespace Oci.IdentityService.Models
     /// **Note:** The credential set is always an Oracle-generated SMTP user name and password pair;
     /// you cannot designate the SMTP user name or the SMTP password.
     /// <br/>
-    /// For more information, see [Managing User Credentials](https://docs.cloud.oracle.com/Content/Identity/access/managing-user-credentials.htm#SMTP).
+    /// For more information, see [Managing User Credentials](https://docs.oracle.com/iaas/Content/Identity/access/managing-user-credentials.htm#SMTP).
     /// 
     /// </summary>
     public class SmtpCredential 

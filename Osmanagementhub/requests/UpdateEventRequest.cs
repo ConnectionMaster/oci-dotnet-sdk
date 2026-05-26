@@ -14,13 +14,13 @@ using Oci.OsmanagementhubService.Models;
 namespace Oci.OsmanagementhubService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateEvent.cs.html">here</a> to see an example of how to use UpdateEvent request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateEvent.cs.html">here</a> to see an example of how to use UpdateEvent request.
     /// </example>
     public class UpdateEventRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the event.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the event.
         /// </value>
         /// <remarks>
         /// Required

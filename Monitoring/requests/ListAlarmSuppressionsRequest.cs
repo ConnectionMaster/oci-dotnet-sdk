@@ -14,7 +14,7 @@ using Oci.MonitoringService.Models;
 namespace Oci.MonitoringService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/monitoring/ListAlarmSuppressions.cs.html">here</a> to see an example of how to use ListAlarmSuppressions request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/monitoring/ListAlarmSuppressions.cs.html">here</a> to see an example of how to use ListAlarmSuppressions request.
     /// </example>
     public class ListAlarmSuppressionsRequest : Oci.Common.IOciRequest
     {
@@ -28,7 +28,7 @@ namespace Oci.MonitoringService.Requests
         public string OpcRequestId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the alarm that is the target of the alarm suppression.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the alarm that is the target of the alarm suppression.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "alarmId")]
         public string AlarmId { get; set; }
@@ -59,7 +59,7 @@ namespace Oci.MonitoringService.Requests
         public System.Nullable<AlarmSuppression.LevelEnum> Level { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment for searching. 
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment for searching. 
         /// Use the tenancy OCID to search in the root compartment.
         /// <br/>
         /// If targetType is not specified, searches all suppressions defined under the compartment. 
@@ -167,7 +167,7 @@ namespace Oci.MonitoringService.Requests
         /// <value>
         /// For list pagination. The value of the `opc-next-page` response header from the previous \"List\" call.
         /// For important details about how pagination works, see
-        /// [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]
@@ -176,7 +176,7 @@ namespace Oci.MonitoringService.Requests
         /// <value>
         /// For list pagination. The maximum number of results per page, or items to return in a paginated \"List\" call.
         /// For important details about how pagination works, see
-        /// [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// <br/>
         /// Default: 1000
         /// <br/>

@@ -23,7 +23,7 @@ namespace Oci.MonitoringService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the alarm suppression.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the alarm suppression.
         /// </value>
         /// <remarks>
         /// Required

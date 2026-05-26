@@ -20,7 +20,7 @@ namespace Oci.LoadbalancerService.Models
     /// <br/>
     /// Session persistence enables the Load Balancing service to direct all requests that originate from a single logical
     /// client to a single backend web server. For more information, see
-    /// [Session Persistence](https://docs.cloud.oracle.com/Content/Balance/Reference/sessionpersistence.htm).
+    /// [Session Persistence](https://docs.oracle.com/iaas/Content/Balance/Reference/sessionpersistence.htm).
     /// <br/>
     /// When you configure LB cookie stickiness, the load balancer inserts a cookie into the response. The parameters configured
     /// in the cookie enable session stickiness. This method is useful when you have applications and Web backend services

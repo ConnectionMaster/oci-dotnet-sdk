@@ -14,7 +14,7 @@ using Oci.DnsService.Models;
 namespace Oci.DnsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dns/ListZoneTransferServers.cs.html">here</a> to see an example of how to use ListZoneTransferServers request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dns/ListZoneTransferServers.cs.html">here</a> to see an example of how to use ListZoneTransferServers request.
     /// </example>
     public class ListZoneTransferServersRequest : Oci.Common.IOciRequest
     {

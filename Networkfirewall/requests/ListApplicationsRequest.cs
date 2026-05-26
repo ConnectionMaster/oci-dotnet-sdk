@@ -14,7 +14,7 @@ using Oci.NetworkfirewallService.Models;
 namespace Oci.NetworkfirewallService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListApplications.cs.html">here</a> to see an example of how to use ListApplications request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListApplications.cs.html">here</a> to see an example of how to use ListApplications request.
     /// </example>
     public class ListApplicationsRequest : Oci.Common.IOciRequest
     {

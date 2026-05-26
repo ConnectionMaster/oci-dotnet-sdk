@@ -80,7 +80,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ChangeOracleDbAwsIdentityConnectorCompartment.cs.html">here</a> to see an example of how to use ChangeOracleDbAwsIdentityConnectorCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ChangeOracleDbAwsIdentityConnectorCompartment.cs.html">here</a> to see an example of how to use ChangeOracleDbAwsIdentityConnectorCompartment API.</example>
         public async Task<ChangeOracleDbAwsIdentityConnectorCompartmentResponse> ChangeOracleDbAwsIdentityConnectorCompartment(ChangeOracleDbAwsIdentityConnectorCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeOracleDbAwsIdentityConnectorCompartment");
@@ -136,7 +136,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ChangeOracleDbAwsKeyCompartment.cs.html">here</a> to see an example of how to use ChangeOracleDbAwsKeyCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ChangeOracleDbAwsKeyCompartment.cs.html">here</a> to see an example of how to use ChangeOracleDbAwsKeyCompartment API.</example>
         public async Task<ChangeOracleDbAwsKeyCompartmentResponse> ChangeOracleDbAwsKeyCompartment(ChangeOracleDbAwsKeyCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeOracleDbAwsKeyCompartment");
@@ -193,7 +193,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbAwsIdentityConnector.cs.html">here</a> to see an example of how to use CreateOracleDbAwsIdentityConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbAwsIdentityConnector.cs.html">here</a> to see an example of how to use CreateOracleDbAwsIdentityConnector API.</example>
         public async Task<CreateOracleDbAwsIdentityConnectorResponse> CreateOracleDbAwsIdentityConnector(CreateOracleDbAwsIdentityConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOracleDbAwsIdentityConnector");
@@ -250,7 +250,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbAwsKey.cs.html">here</a> to see an example of how to use CreateOracleDbAwsKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbAwsKey.cs.html">here</a> to see an example of how to use CreateOracleDbAwsKey API.</example>
         public async Task<CreateOracleDbAwsKeyResponse> CreateOracleDbAwsKey(CreateOracleDbAwsKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOracleDbAwsKey");
@@ -307,7 +307,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/DeleteOracleDbAwsIdentityConnector.cs.html">here</a> to see an example of how to use DeleteOracleDbAwsIdentityConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/DeleteOracleDbAwsIdentityConnector.cs.html">here</a> to see an example of how to use DeleteOracleDbAwsIdentityConnector API.</example>
         public async Task<DeleteOracleDbAwsIdentityConnectorResponse> DeleteOracleDbAwsIdentityConnector(DeleteOracleDbAwsIdentityConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOracleDbAwsIdentityConnector");
@@ -364,7 +364,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/DeleteOracleDbAwsKey.cs.html">here</a> to see an example of how to use DeleteOracleDbAwsKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/DeleteOracleDbAwsKey.cs.html">here</a> to see an example of how to use DeleteOracleDbAwsKey API.</example>
         public async Task<DeleteOracleDbAwsKeyResponse> DeleteOracleDbAwsKey(DeleteOracleDbAwsKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOracleDbAwsKey");
@@ -413,7 +413,7 @@ namespace Oci.DbmulticloudService
         }
 
         /// <summary>
-        /// Retrieves detailed information about a Oracle DB AWS Identity Connector resource by specifying its unique resource [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Retrieves detailed information about a Oracle DB AWS Identity Connector resource by specifying its unique resource [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -421,7 +421,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetOracleDbAwsIdentityConnector.cs.html">here</a> to see an example of how to use GetOracleDbAwsIdentityConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetOracleDbAwsIdentityConnector.cs.html">here</a> to see an example of how to use GetOracleDbAwsIdentityConnector API.</example>
         public async Task<GetOracleDbAwsIdentityConnectorResponse> GetOracleDbAwsIdentityConnector(GetOracleDbAwsIdentityConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOracleDbAwsIdentityConnector");
@@ -470,7 +470,7 @@ namespace Oci.DbmulticloudService
         }
 
         /// <summary>
-        /// Retrieves detailed information about a Oracle AWS Key resource by specifying its unique resource [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Retrieves detailed information about a Oracle AWS Key resource by specifying its unique resource [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -478,7 +478,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetOracleDbAwsKey.cs.html">here</a> to see an example of how to use GetOracleDbAwsKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetOracleDbAwsKey.cs.html">here</a> to see an example of how to use GetOracleDbAwsKey API.</example>
         public async Task<GetOracleDbAwsKeyResponse> GetOracleDbAwsKey(GetOracleDbAwsKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOracleDbAwsKey");
@@ -535,7 +535,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbAwsIdentityConnectors.cs.html">here</a> to see an example of how to use ListOracleDbAwsIdentityConnectors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbAwsIdentityConnectors.cs.html">here</a> to see an example of how to use ListOracleDbAwsIdentityConnectors API.</example>
         public async Task<ListOracleDbAwsIdentityConnectorsResponse> ListOracleDbAwsIdentityConnectors(ListOracleDbAwsIdentityConnectorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOracleDbAwsIdentityConnectors");
@@ -592,7 +592,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbAwsKeys.cs.html">here</a> to see an example of how to use ListOracleDbAwsKeys API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbAwsKeys.cs.html">here</a> to see an example of how to use ListOracleDbAwsKeys API.</example>
         public async Task<ListOracleDbAwsKeysResponse> ListOracleDbAwsKeys(ListOracleDbAwsKeysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOracleDbAwsKeys");
@@ -649,7 +649,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/RefreshOracleDbAwsIdentityConnector.cs.html">here</a> to see an example of how to use RefreshOracleDbAwsIdentityConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/RefreshOracleDbAwsIdentityConnector.cs.html">here</a> to see an example of how to use RefreshOracleDbAwsIdentityConnector API.</example>
         public async Task<RefreshOracleDbAwsIdentityConnectorResponse> RefreshOracleDbAwsIdentityConnector(RefreshOracleDbAwsIdentityConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshOracleDbAwsIdentityConnector");
@@ -706,7 +706,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/RefreshOracleDbAwsKey.cs.html">here</a> to see an example of how to use RefreshOracleDbAwsKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/RefreshOracleDbAwsKey.cs.html">here</a> to see an example of how to use RefreshOracleDbAwsKey API.</example>
         public async Task<RefreshOracleDbAwsKeyResponse> RefreshOracleDbAwsKey(RefreshOracleDbAwsKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshOracleDbAwsKey");
@@ -763,7 +763,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ReplicateOracleDbAwsKey.cs.html">here</a> to see an example of how to use ReplicateOracleDbAwsKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ReplicateOracleDbAwsKey.cs.html">here</a> to see an example of how to use ReplicateOracleDbAwsKey API.</example>
         public async Task<ReplicateOracleDbAwsKeyResponse> ReplicateOracleDbAwsKey(ReplicateOracleDbAwsKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called replicateOracleDbAwsKey");
@@ -812,7 +812,7 @@ namespace Oci.DbmulticloudService
         }
 
         /// <summary>
-        /// Modifies the existing Oracle DB AWS Identity Connector resource for a given [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Modifies the existing Oracle DB AWS Identity Connector resource for a given [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -820,7 +820,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/UpdateOracleDbAwsIdentityConnector.cs.html">here</a> to see an example of how to use UpdateOracleDbAwsIdentityConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/UpdateOracleDbAwsIdentityConnector.cs.html">here</a> to see an example of how to use UpdateOracleDbAwsIdentityConnector API.</example>
         public async Task<UpdateOracleDbAwsIdentityConnectorResponse> UpdateOracleDbAwsIdentityConnector(UpdateOracleDbAwsIdentityConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOracleDbAwsIdentityConnector");
@@ -869,7 +869,7 @@ namespace Oci.DbmulticloudService
         }
 
         /// <summary>
-        /// Modifies the existing Oracle AWS Key Details for a given [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Modifies the existing Oracle AWS Key Details for a given [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -877,7 +877,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/UpdateOracleDbAwsKey.cs.html">here</a> to see an example of how to use UpdateOracleDbAwsKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/UpdateOracleDbAwsKey.cs.html">here</a> to see an example of how to use UpdateOracleDbAwsKey API.</example>
         public async Task<UpdateOracleDbAwsKeyResponse> UpdateOracleDbAwsKey(UpdateOracleDbAwsKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOracleDbAwsKey");

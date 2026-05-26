@@ -10,7 +10,7 @@ namespace Oci.Common
 {
     /// <summary>
     /// Oracle Cloud Infrastructure unique ID.
-    /// See <see cref="https://docs.cloud.oracle.com/Content/GSG/Concepts/concepts.htm#ocid"/>
+    /// See <see cref="https://docs.oracle.com/iaas/Content/GSG/Concepts/concepts.htm#ocid"/>
     /// </summary>
     public class OCID
     {

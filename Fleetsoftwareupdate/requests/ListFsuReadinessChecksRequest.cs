@@ -14,7 +14,7 @@ using Oci.FleetsoftwareupdateService.Models;
 namespace Oci.FleetsoftwareupdateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuReadinessChecks.cs.html">here</a> to see an example of how to use ListFsuReadinessChecks request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuReadinessChecks.cs.html">here</a> to see an example of how to use ListFsuReadinessChecks request.
     /// </example>
     public class ListFsuReadinessChecksRequest : Oci.Common.IOciRequest
     {
@@ -31,7 +31,7 @@ namespace Oci.FleetsoftwareupdateService.Requests
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the resource related to the Exadata Fleet Update Readiness Check.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the resource related to the Exadata Fleet Update Readiness Check.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "resourceId")]

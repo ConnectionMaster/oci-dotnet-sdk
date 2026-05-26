@@ -14,7 +14,7 @@ using Oci.AivisionService.Models;
 namespace Oci.AivisionService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aivision/CancelImageJob.cs.html">here</a> to see an example of how to use CancelImageJob request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aivision/CancelImageJob.cs.html">here</a> to see an example of how to use CancelImageJob request.
     /// </example>
     public class CancelImageJobRequest : Oci.Common.IOciRequest
     {

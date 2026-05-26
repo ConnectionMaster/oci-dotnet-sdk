@@ -23,7 +23,7 @@ namespace Oci.LimitsincreaseService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the limit increase item.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the limit increase item.
         /// 
         /// </value>
         /// <remarks>
@@ -34,7 +34,7 @@ namespace Oci.LimitsincreaseService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the limit increase item.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the limit increase item.
         /// Note: The tenancy is the root compartment.
         /// 
         /// </value>
@@ -107,7 +107,7 @@ namespace Oci.LimitsincreaseService.Models
         public System.Nullable<long> CurrentValue { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the limit increase request that the limit increase item belongs to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the limit increase request that the limit increase item belongs to.
         /// </value>
         /// <remarks>
         /// Required

@@ -14,7 +14,7 @@ using Oci.StackmonitoringService.Models;
 namespace Oci.StackmonitoringService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateMonitoredResourceTask.cs.html">here</a> to see an example of how to use CreateMonitoredResourceTask request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/CreateMonitoredResourceTask.cs.html">here</a> to see an example of how to use CreateMonitoredResourceTask request.
     /// </example>
     public class CreateMonitoredResourceTaskRequest : Oci.Common.IOciRequest
     {

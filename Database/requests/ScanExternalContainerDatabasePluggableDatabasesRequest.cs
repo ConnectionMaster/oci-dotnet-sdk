@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ScanExternalContainerDatabasePluggableDatabases.cs.html">here</a> to see an example of how to use ScanExternalContainerDatabasePluggableDatabases request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ScanExternalContainerDatabasePluggableDatabases.cs.html">here</a> to see an example of how to use ScanExternalContainerDatabasePluggableDatabases request.
     /// </example>
     public class ScanExternalContainerDatabasePluggableDatabasesRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The ExternalContainerDatabase [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The ExternalContainerDatabase [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.DatabaseService.Requests
         public string ExternalContainerDatabaseId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the
         /// external database connector resource (`ExternalDatabaseConnectorId`).
         /// 
         /// </value>

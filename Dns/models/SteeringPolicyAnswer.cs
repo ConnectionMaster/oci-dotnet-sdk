@@ -41,7 +41,7 @@ namespace Oci.DnsService.Models
         
         /// <value>
         /// The type of DNS record, such as A or CNAME. Only A, AAAA, and CNAME are supported. For more
-        /// information, see [Supported DNS Resource Record Types](https://docs.cloud.oracle.com/iaas/Content/DNS/Reference/supporteddnsresource.htm).
+        /// information, see [Supported DNS Resource Record Types](https://docs.oracle.com/iaas/Content/DNS/Reference/supporteddnsresource.htm).
         /// 
         /// </value>
         /// <remarks>
@@ -55,7 +55,7 @@ namespace Oci.DnsService.Models
         /// The record's data, as whitespace-delimited tokens in
         /// type-specific presentation format. All RDATA is normalized and the
         /// returned presentation of your RDATA may differ from its initial input.
-        /// For more information about RDATA, see [Supported DNS Resource Record Types](https://docs.cloud.oracle.com/iaas/Content/DNS/Reference/supporteddnsresource.htm).
+        /// For more information about RDATA, see [Supported DNS Resource Record Types](https://docs.oracle.com/iaas/Content/DNS/Reference/supporteddnsresource.htm).
         /// 
         /// </value>
         /// <remarks>

@@ -18,7 +18,7 @@ namespace Oci.VnmonitoringService.Models
     /// <summary>
     /// A logical subdivision of a VCN. Each subnet
     /// consists of a contiguous range of IP addresses that do not overlap with
-    /// other subnets in the VCN. Example: 172.16.1.0/24. For more information, see[Overview of the Networking Service](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/overview.htm) and[VCNs and Subnets](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingVCNs.htm).To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,talk to an administrator. If you're an administrator who needs to write policies to give users access, see[Getting Started with Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
+    /// other subnets in the VCN. Example: 172.16.1.0/24. For more information, see[Overview of the Networking Service](https://docs.oracle.com/iaas/Content/Network/Concepts/overview.htm) and[VCNs and Subnets](https://docs.oracle.com/iaas/Content/Network/Tasks/managingVCNs.htm).To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,talk to an administrator. If you're an administrator who needs to write policies to give users access, see[Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// </summary>
     public class Subnet 
     {
@@ -48,7 +48,7 @@ namespace Oci.VnmonitoringService.Models
         public string CidrBlock { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the subnet.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the subnet.
         /// </value>
         /// <remarks>
         /// Required
@@ -65,7 +65,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the set of DHCP options that the subnet uses.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the set of DHCP options that the subnet uses.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "dhcpOptionsId")]
@@ -90,7 +90,7 @@ namespace Oci.VnmonitoringService.Models
         /// will not resolve hostnames of instances in this subnet.
         /// <br/>
         /// For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// <br/>
         /// Example: subnet123
         /// </value>
@@ -105,7 +105,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
         
         /// <value>
-        /// The subnet's Oracle ID ([OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
+        /// The subnet's Oracle ID ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
         /// </value>
         /// <remarks>
         /// Required
@@ -117,7 +117,7 @@ namespace Oci.VnmonitoringService.Models
         /// <value>
         /// For an IPv6-enabled subnet, this is the IPv6 prefix for the subnet's private IP address
         /// space. The subnet size is always /64. IPv6 addressing is supported for all commercial and government regions.
-        /// See [IPv6 Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
+        /// See [IPv6 Addresses](https://docs.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
         /// <br/>
         /// Example: 2001:0db8:0123:1111::/64
         /// </value>
@@ -186,7 +186,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Nullable<bool> ProhibitPublicIpOnVnic { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the route table that the subnet uses.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the route table that the subnet uses.
         /// </value>
         /// <remarks>
         /// Required
@@ -209,7 +209,7 @@ namespace Oci.VnmonitoringService.Models
         /// the VCN's DNS label, and the `oraclevcn.com` domain.
         /// <br/>
         /// For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// <br/>
         /// Example: subnet123.vcn1.oraclevcn.com
         /// </value>
@@ -225,7 +225,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Nullable<System.DateTime> TimeCreated { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VCN the subnet is in.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VCN the subnet is in.
         /// </value>
         /// <remarks>
         /// Required

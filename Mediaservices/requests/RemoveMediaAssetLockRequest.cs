@@ -14,7 +14,7 @@ using Oci.MediaservicesService.Models;
 namespace Oci.MediaservicesService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/RemoveMediaAssetLock.cs.html">here</a> to see an example of how to use RemoveMediaAssetLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/RemoveMediaAssetLock.cs.html">here</a> to see an example of how to use RemoveMediaAssetLock request.
     /// </example>
     public class RemoveMediaAssetLockRequest : Oci.Common.IOciRequest
     {

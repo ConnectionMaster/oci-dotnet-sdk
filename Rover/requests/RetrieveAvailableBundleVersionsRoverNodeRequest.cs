@@ -14,7 +14,7 @@ using Oci.RoverService.Models;
 namespace Oci.RoverService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RetrieveAvailableBundleVersionsRoverNode.cs.html">here</a> to see an example of how to use RetrieveAvailableBundleVersionsRoverNode request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RetrieveAvailableBundleVersionsRoverNode.cs.html">here</a> to see an example of how to use RetrieveAvailableBundleVersionsRoverNode request.
     /// </example>
     public class RetrieveAvailableBundleVersionsRoverNodeRequest : Oci.Common.IOciRequest
     {

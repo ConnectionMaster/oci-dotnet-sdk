@@ -14,7 +14,7 @@ using Oci.FleetsoftwareupdateService.Models;
 namespace Oci.FleetsoftwareupdateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuReadinessCheck.cs.html">here</a> to see an example of how to use GetFsuReadinessCheck request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuReadinessCheck.cs.html">here</a> to see an example of how to use GetFsuReadinessCheck request.
     /// </example>
     public class GetFsuReadinessCheckRequest : Oci.Common.IOciRequest
     {

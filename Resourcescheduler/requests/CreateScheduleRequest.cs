@@ -14,7 +14,7 @@ using Oci.ResourceschedulerService.Models;
 namespace Oci.ResourceschedulerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcescheduler/CreateSchedule.cs.html">here</a> to see an example of how to use CreateSchedule request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcescheduler/CreateSchedule.cs.html">here</a> to see an example of how to use CreateSchedule request.
     /// </example>
     public class CreateScheduleRequest : Oci.Common.IOciRequest
     {

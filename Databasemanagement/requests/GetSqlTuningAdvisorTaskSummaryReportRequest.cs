@@ -14,13 +14,13 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetSqlTuningAdvisorTaskSummaryReport.cs.html">here</a> to see an example of how to use GetSqlTuningAdvisorTaskSummaryReport request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/GetSqlTuningAdvisorTaskSummaryReport.cs.html">here</a> to see an example of how to use GetSqlTuningAdvisorTaskSummaryReport request.
     /// </example>
     public class GetSqlTuningAdvisorTaskSummaryReportRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Managed Database.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Managed Database.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.DatabasemanagementService.Requests
         public string ManagedDatabaseId { get; set; }
         
         /// <value>
-        /// The SQL tuning task identifier. This is not the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The SQL tuning task identifier. This is not the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

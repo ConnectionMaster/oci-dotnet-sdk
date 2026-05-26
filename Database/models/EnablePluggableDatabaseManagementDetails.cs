@@ -30,7 +30,7 @@ namespace Oci.DatabaseService.Models
         public DatabaseCredentialDetails CredentialDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the private endpoint.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private endpoint.
         /// 
         /// </value>
         /// <remarks>
@@ -75,7 +75,7 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<int> Port { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Oracle Cloud Infrastructure [secret](https://docs.cloud.oracle.com/Content/KeyManagement/Concepts/keyoverview.htm#concepts).
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Oracle Cloud Infrastructure [secret](https://docs.oracle.com/iaas/Content/KeyManagement/Concepts/keyoverview.htm#concepts).
         /// </value>
         [JsonProperty(PropertyName = "sslSecretId")]
         public string SslSecretId { get; set; }

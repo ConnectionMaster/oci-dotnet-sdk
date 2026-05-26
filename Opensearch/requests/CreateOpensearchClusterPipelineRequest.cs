@@ -14,7 +14,7 @@ using Oci.OpensearchService.Models;
 namespace Oci.OpensearchService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/CreateOpensearchClusterPipeline.cs.html">here</a> to see an example of how to use CreateOpensearchClusterPipeline request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/CreateOpensearchClusterPipeline.cs.html">here</a> to see an example of how to use CreateOpensearchClusterPipeline request.
     /// </example>
     public class CreateOpensearchClusterPipelineRequest : Oci.Common.IOciRequest
     {

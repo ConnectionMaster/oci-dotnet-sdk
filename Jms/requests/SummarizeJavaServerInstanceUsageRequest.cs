@@ -14,13 +14,13 @@ using Oci.JmsService.Models;
 namespace Oci.JmsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeJavaServerInstanceUsage.cs.html">here</a> to see an example of how to use SummarizeJavaServerInstanceUsage request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/SummarizeJavaServerInstanceUsage.cs.html">here</a> to see an example of how to use SummarizeJavaServerInstanceUsage request.
     /// </example>
     public class SummarizeJavaServerInstanceUsageRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Fleet.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Fleet.
         /// </value>
         /// <remarks>
         /// Required

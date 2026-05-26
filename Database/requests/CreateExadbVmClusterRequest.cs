@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/CreateExadbVmCluster.cs.html">here</a> to see an example of how to use CreateExadbVmCluster request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/CreateExadbVmCluster.cs.html">here</a> to see an example of how to use CreateExadbVmCluster request.
     /// </example>
     public class CreateExadbVmClusterRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// Request to create a Exadata VM cluster on Exascale Infrastructure. Applies to Exadata Database Service on Exascale Infrastructure only. See [The New Exadata Cloud Service Resource Model](https://docs.cloud.oracle.com/iaas/Content/Database/iaas/Content/Database/Concepts/exaflexsystem.htm#exaflexsystem_topic-resource_model) for information on this resource type.
+        /// Request to create a Exadata VM cluster on Exascale Infrastructure. Applies to Exadata Database Service on Exascale Infrastructure only. See [The New Exadata Cloud Service Resource Model](https://docs.oracle.com/iaas/Content/Database/iaas/Content/Database/Concepts/exaflexsystem.htm#exaflexsystem_topic-resource_model) for information on this resource type.
         /// 
         /// </value>
         /// <remarks>

@@ -14,7 +14,7 @@ using Oci.LicensemanagerService.Models;
 namespace Oci.LicensemanagerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/GetBulkUploadTemplate.cs.html">here</a> to see an example of how to use GetBulkUploadTemplate request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/licensemanager/GetBulkUploadTemplate.cs.html">here</a> to see an example of how to use GetBulkUploadTemplate request.
     /// </example>
     public class GetBulkUploadTemplateRequest : Oci.Common.IOciRequest
     {

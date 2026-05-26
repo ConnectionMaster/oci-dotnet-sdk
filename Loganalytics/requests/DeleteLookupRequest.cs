@@ -14,7 +14,7 @@ using Oci.LoganalyticsService.Models;
 namespace Oci.LoganalyticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/DeleteLookup.cs.html">here</a> to see an example of how to use DeleteLookup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/DeleteLookup.cs.html">here</a> to see an example of how to use DeleteLookup request.
     /// </example>
     public class DeleteLookupRequest : Oci.Common.IOciRequest
     {

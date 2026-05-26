@@ -14,13 +14,13 @@ using Oci.OcvpService.Models;
 namespace Oci.OcvpService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ChangeDatastoreClusterCompartment.cs.html">here</a> to see an example of how to use ChangeDatastoreClusterCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ChangeDatastoreClusterCompartment.cs.html">here</a> to see an example of how to use ChangeDatastoreClusterCompartment request.
     /// </example>
     public class ChangeDatastoreClusterCompartmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Datastore Cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Datastore Cluster.
         /// 
         /// </value>
         /// <remarks>

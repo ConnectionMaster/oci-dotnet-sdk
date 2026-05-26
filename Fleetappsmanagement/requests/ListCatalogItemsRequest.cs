@@ -14,7 +14,7 @@ using Oci.FleetappsmanagementService.Models;
 namespace Oci.FleetappsmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListCatalogItems.cs.html">here</a> to see an example of how to use ListCatalogItems request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListCatalogItems.cs.html">here</a> to see an example of how to use ListCatalogItems request.
     /// </example>
     public class ListCatalogItemsRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.FleetappsmanagementService.Requests
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [ConfigSourceType](https://docs.cloud.oracle.com/definitions/CatalogItem/configSourceType) Eg: STACK_TEMPLATE_CATALOG_SOURCE, PAR_CATALOG_SOURCE, URL_CATALOG_SOURCE, MARKETPLACE_CATALOG_SOURCE.
+        /// The [ConfigSourceType](https://docs.oracle.com/definitions/CatalogItem/configSourceType) Eg: STACK_TEMPLATE_CATALOG_SOURCE, PAR_CATALOG_SOURCE, URL_CATALOG_SOURCE, MARKETPLACE_CATALOG_SOURCE.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "configSourceType")]

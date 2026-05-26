@@ -14,7 +14,7 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/RemoveVirtualMachineFromVmCluster.cs.html">here</a> to see an example of how to use RemoveVirtualMachineFromVmCluster request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/RemoveVirtualMachineFromVmCluster.cs.html">here</a> to see an example of how to use RemoveVirtualMachineFromVmCluster request.
     /// </example>
     public class RemoveVirtualMachineFromVmClusterRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.DatabaseService.Requests
         public RemoveVirtualMachineFromVmClusterDetails RemoveVirtualMachineFromVmClusterDetails { get; set; }
         
         /// <value>
-        /// The VM cluster [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The VM cluster [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

@@ -14,7 +14,7 @@ using Oci.RoverService.Models;
 namespace Oci.RoverService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RequestBundleRoverNode.cs.html">here</a> to see an example of how to use RequestBundleRoverNode request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/rover/RequestBundleRoverNode.cs.html">here</a> to see an example of how to use RequestBundleRoverNode request.
     /// </example>
     public class RequestBundleRoverNodeRequest : Oci.Common.IOciRequest
     {

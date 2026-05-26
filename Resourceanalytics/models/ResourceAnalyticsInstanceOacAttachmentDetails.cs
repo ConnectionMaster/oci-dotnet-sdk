@@ -24,7 +24,7 @@ namespace Oci.ResourceanalyticsService.Models
     {
         
         /// <value>
-        /// IDCS domain [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) identifying a stripe and service administrator user.
+        /// IDCS domain [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) identifying a stripe and service administrator user.
         /// </value>
         /// <remarks>
         /// Required

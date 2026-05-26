@@ -48,7 +48,7 @@ namespace Oci.DatabasemanagementService.Models
         public string UserName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the secret containing the user password.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the secret containing the user password.
         /// </value>
         /// <remarks>
         /// Required
@@ -85,7 +85,7 @@ namespace Oci.DatabasemanagementService.Models
         public System.Nullable<RoleEnum> Role { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the secret containing the SSL keystore and truststore details.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the secret containing the SSL keystore and truststore details.
         /// </value>
         /// <remarks>
         /// Required

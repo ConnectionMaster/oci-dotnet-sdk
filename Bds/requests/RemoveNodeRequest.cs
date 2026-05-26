@@ -14,7 +14,7 @@ using Oci.BdsService.Models;
 namespace Oci.BdsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RemoveNode.cs.html">here</a> to see an example of how to use RemoveNode request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RemoveNode.cs.html">here</a> to see an example of how to use RemoveNode request.
     /// </example>
     public class RemoveNodeRequest : Oci.Common.IOciRequest
     {

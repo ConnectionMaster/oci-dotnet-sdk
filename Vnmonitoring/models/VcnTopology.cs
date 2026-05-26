@@ -17,7 +17,7 @@ namespace Oci.VnmonitoringService.Models
 {
     /// <summary>
     /// Defines the representation of a virtual network topology for a VCN. 
-    /// See [Network Visualizer Documentation](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/network_visualizer.htm) for more information, including
+    /// See [Network Visualizer Documentation](https://docs.oracle.com/iaas/Content/Network/Concepts/network_visualizer.htm) for more information, including
     /// conventions and pictures of symbols.
     /// 
     /// </summary>
@@ -25,7 +25,7 @@ namespace Oci.VnmonitoringService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VCN for which the topology is generated.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VCN for which the topology is generated.
         /// </value>
         [JsonProperty(PropertyName = "vcnId")]
         public string VcnId { get; set; }

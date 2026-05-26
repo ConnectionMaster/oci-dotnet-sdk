@@ -14,7 +14,7 @@ using Oci.DnsService.Models;
 namespace Oci.DnsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dns/CreateZoneFromZoneFile.cs.html">here</a> to see an example of how to use CreateZoneFromZoneFile request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dns/CreateZoneFromZoneFile.cs.html">here</a> to see an example of how to use CreateZoneFromZoneFile request.
     /// </example>
     public class CreateZoneFromZoneFileRequest : Oci.Common.IOciRequest
     {

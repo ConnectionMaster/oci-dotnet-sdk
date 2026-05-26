@@ -14,7 +14,7 @@ using Oci.OsmanagementhubService.Models;
 namespace Oci.OsmanagementhubService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstances.cs.html">here</a> to see an example of how to use ListManagedInstances request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstances.cs.html">here</a> to see an example of how to use ListManagedInstances request.
     /// </example>
     public class ListManagedInstancesRequest : Oci.Common.IOciRequest
     {
@@ -38,7 +38,7 @@ namespace Oci.OsmanagementhubService.Requests
         public string DisplayNameContains { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the managed instance. This filter returns resources associated with this managed instance.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the managed instance. This filter returns resources associated with this managed instance.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "managedInstanceId")]
         public string ManagedInstanceId { get; set; }
@@ -98,7 +98,7 @@ namespace Oci.OsmanagementhubService.Requests
         public System.Nullable<bool> IsAttachedToGroupOrLifecycleStage { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the software source. This filter returns resources associated with this software source.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the software source. This filter returns resources associated with this software source.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "softwareSourceId")]
         public string SoftwareSourceId { get; set; }
@@ -142,7 +142,7 @@ namespace Oci.OsmanagementhubService.Requests
         public System.Collections.Generic.List<string> Profile { get; set; }
         
         /// <value>
-        /// A multi filter to return only managed instances that don't contain the given profile [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// A multi filter to return only managed instances that don't contain the given profile [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "profileNotEqualTo", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<string> ProfileNotEqualTo { get; set; }
@@ -168,7 +168,7 @@ namespace Oci.OsmanagementhubService.Requests
         
         /// <value>
         /// A filter to return resources that are associated with the specified management 
-        /// station [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// station [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "managementStation", Oci.Common.Http.CollectionFormatType.Multi)]
@@ -176,7 +176,7 @@ namespace Oci.OsmanagementhubService.Requests
         
         /// <value>
         /// A filter to return resources that aren't associated with the specified management 
-        /// station [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// station [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "managementStationNotEqualTo", Oci.Common.Http.CollectionFormatType.Multi)]
@@ -190,7 +190,7 @@ namespace Oci.OsmanagementhubService.Requests
         
         /// <value>
         /// For list pagination. The maximum number of results per page, or items to return in a paginated \"List\" call.
-        /// For important details about how pagination works, see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// For important details about how pagination works, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// <br/>
         /// Example: 50
         /// </value>
@@ -199,7 +199,7 @@ namespace Oci.OsmanagementhubService.Requests
         
         /// <value>
         /// For list pagination. The value of the `opc-next-page` response header from the previous \"List\" call.
-        /// For important details about how pagination works, see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// For important details about how pagination works, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// <br/>
         /// Example: 3
         /// </value>

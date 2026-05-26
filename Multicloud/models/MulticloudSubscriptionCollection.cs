@@ -18,7 +18,7 @@ namespace Oci.MulticloudService.Models
     /// <summary>
     /// Properties that define activated Multicloud subscriptions in the indicated compartment.
     /// For more information, see
-    /// [Listing Multicloud Subscriptions](https://docs.cloud.oracle.com/iaas/Content/multicloud-hub/list-subscriptions.htm).
+    /// [Listing Multicloud Subscriptions](https://docs.oracle.com/iaas/Content/multicloud-hub/list-subscriptions.htm).
     /// 
     /// </summary>
     public class MulticloudSubscriptionCollection 

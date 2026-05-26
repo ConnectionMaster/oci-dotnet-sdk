@@ -80,7 +80,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ActivateModel.cs.html">here</a> to see an example of how to use ActivateModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ActivateModel.cs.html">here</a> to see an example of how to use ActivateModel API.</example>
         public async Task<ActivateModelResponse> ActivateModel(ActivateModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called activateModel");
@@ -136,7 +136,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ActivateModelDeployment.cs.html">here</a> to see an example of how to use ActivateModelDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ActivateModelDeployment.cs.html">here</a> to see an example of how to use ActivateModelDeployment API.</example>
         public async Task<ActivateModelDeploymentResponse> ActivateModelDeployment(ActivateModelDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called activateModelDeployment");
@@ -192,7 +192,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ActivateModelGroup.cs.html">here</a> to see an example of how to use ActivateModelGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ActivateModelGroup.cs.html">here</a> to see an example of how to use ActivateModelGroup API.</example>
         public async Task<ActivateModelGroupResponse> ActivateModelGroup(ActivateModelGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called activateModelGroup");
@@ -248,7 +248,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ActivateNotebookSession.cs.html">here</a> to see an example of how to use ActivateNotebookSession API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ActivateNotebookSession.cs.html">here</a> to see an example of how to use ActivateNotebookSession API.</example>
         public async Task<ActivateNotebookSessionResponse> ActivateNotebookSession(ActivateNotebookSessionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called activateNotebookSession");
@@ -304,7 +304,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ActivateSchedule.cs.html">here</a> to see an example of how to use ActivateSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ActivateSchedule.cs.html">here</a> to see an example of how to use ActivateSchedule API.</example>
         public async Task<ActivateScheduleResponse> ActivateSchedule(ActivateScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called activateSchedule");
@@ -360,7 +360,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CancelJobRun.cs.html">here</a> to see an example of how to use CancelJobRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CancelJobRun.cs.html">here</a> to see an example of how to use CancelJobRun API.</example>
         public async Task<CancelJobRunResponse> CancelJobRun(CancelJobRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelJobRun");
@@ -416,7 +416,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CancelPipelineRun.cs.html">here</a> to see an example of how to use CancelPipelineRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CancelPipelineRun.cs.html">here</a> to see an example of how to use CancelPipelineRun API.</example>
         public async Task<CancelPipelineRunResponse> CancelPipelineRun(CancelPipelineRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelPipelineRun");
@@ -472,7 +472,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
         public async Task<CancelWorkRequestResponse> CancelWorkRequest(CancelWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelWorkRequest");
@@ -521,6 +521,62 @@ namespace Oci.DatascienceService
         }
 
         /// <summary>
+        /// Moves a compute target into a different compartment. When provided, If-Match is checked against ETag values of the resource.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeComputeTargetCompartment.cs.html">here</a> to see an example of how to use ChangeComputeTargetCompartment API.</example>
+        public async Task<ChangeComputeTargetCompartmentResponse> ChangeComputeTargetCompartment(ChangeComputeTargetCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called changeComputeTargetCompartment");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/computeTargets/{computeTargetId}/actions/changeCompartment".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DataScience",
+                    OperationName = "ChangeComputeTargetCompartment",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/data-science/20190101/ComputeTarget/ChangeComputeTargetCompartment",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ChangeComputeTargetCompartmentResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ChangeComputeTargetCompartment failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Moves a private endpoint into a different compartment. When provided, If-Match is checked against ETag values of the resource.
         /// 
         /// </summary>
@@ -529,7 +585,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeDataSciencePrivateEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeDataSciencePrivateEndpointCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeDataSciencePrivateEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeDataSciencePrivateEndpointCompartment API.</example>
         public async Task<ChangeDataSciencePrivateEndpointCompartmentResponse> ChangeDataSciencePrivateEndpointCompartment(ChangeDataSciencePrivateEndpointCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDataSciencePrivateEndpointCompartment");
@@ -585,7 +641,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeJobCompartment.cs.html">here</a> to see an example of how to use ChangeJobCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeJobCompartment.cs.html">here</a> to see an example of how to use ChangeJobCompartment API.</example>
         public async Task<ChangeJobCompartmentResponse> ChangeJobCompartment(ChangeJobCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeJobCompartment");
@@ -641,7 +697,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeJobRunCompartment.cs.html">here</a> to see an example of how to use ChangeJobRunCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeJobRunCompartment.cs.html">here</a> to see an example of how to use ChangeJobRunCompartment API.</example>
         public async Task<ChangeJobRunCompartmentResponse> ChangeJobRunCompartment(ChangeJobRunCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeJobRunCompartment");
@@ -697,7 +753,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeMlApplicationCompartment.cs.html">here</a> to see an example of how to use ChangeMlApplicationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeMlApplicationCompartment.cs.html">here</a> to see an example of how to use ChangeMlApplicationCompartment API.</example>
         public async Task<ChangeMlApplicationCompartmentResponse> ChangeMlApplicationCompartment(ChangeMlApplicationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMlApplicationCompartment");
@@ -753,7 +809,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeMlApplicationImplementationCompartment.cs.html">here</a> to see an example of how to use ChangeMlApplicationImplementationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeMlApplicationImplementationCompartment.cs.html">here</a> to see an example of how to use ChangeMlApplicationImplementationCompartment API.</example>
         public async Task<ChangeMlApplicationImplementationCompartmentResponse> ChangeMlApplicationImplementationCompartment(ChangeMlApplicationImplementationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMlApplicationImplementationCompartment");
@@ -809,7 +865,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeMlApplicationInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeMlApplicationInstanceCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeMlApplicationInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeMlApplicationInstanceCompartment API.</example>
         public async Task<ChangeMlApplicationInstanceCompartmentResponse> ChangeMlApplicationInstanceCompartment(ChangeMlApplicationInstanceCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMlApplicationInstanceCompartment");
@@ -865,7 +921,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeMlApplicationInstanceViewCompartment.cs.html">here</a> to see an example of how to use ChangeMlApplicationInstanceViewCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeMlApplicationInstanceViewCompartment.cs.html">here</a> to see an example of how to use ChangeMlApplicationInstanceViewCompartment API.</example>
         public async Task<ChangeMlApplicationInstanceViewCompartmentResponse> ChangeMlApplicationInstanceViewCompartment(ChangeMlApplicationInstanceViewCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMlApplicationInstanceViewCompartment");
@@ -921,7 +977,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeModelCompartment.cs.html">here</a> to see an example of how to use ChangeModelCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeModelCompartment.cs.html">here</a> to see an example of how to use ChangeModelCompartment API.</example>
         public async Task<ChangeModelCompartmentResponse> ChangeModelCompartment(ChangeModelCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeModelCompartment");
@@ -977,7 +1033,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeModelDeploymentCompartment.cs.html">here</a> to see an example of how to use ChangeModelDeploymentCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeModelDeploymentCompartment.cs.html">here</a> to see an example of how to use ChangeModelDeploymentCompartment API.</example>
         public async Task<ChangeModelDeploymentCompartmentResponse> ChangeModelDeploymentCompartment(ChangeModelDeploymentCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeModelDeploymentCompartment");
@@ -1033,7 +1089,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeModelGroupCompartment.cs.html">here</a> to see an example of how to use ChangeModelGroupCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeModelGroupCompartment.cs.html">here</a> to see an example of how to use ChangeModelGroupCompartment API.</example>
         public async Task<ChangeModelGroupCompartmentResponse> ChangeModelGroupCompartment(ChangeModelGroupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeModelGroupCompartment");
@@ -1089,7 +1145,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeModelGroupVersionHistoryCompartment.cs.html">here</a> to see an example of how to use ChangeModelGroupVersionHistoryCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeModelGroupVersionHistoryCompartment.cs.html">here</a> to see an example of how to use ChangeModelGroupVersionHistoryCompartment API.</example>
         public async Task<ChangeModelGroupVersionHistoryCompartmentResponse> ChangeModelGroupVersionHistoryCompartment(ChangeModelGroupVersionHistoryCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeModelGroupVersionHistoryCompartment");
@@ -1145,7 +1201,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeModelVersionSetCompartment.cs.html">here</a> to see an example of how to use ChangeModelVersionSetCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeModelVersionSetCompartment.cs.html">here</a> to see an example of how to use ChangeModelVersionSetCompartment API.</example>
         public async Task<ChangeModelVersionSetCompartmentResponse> ChangeModelVersionSetCompartment(ChangeModelVersionSetCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeModelVersionSetCompartment");
@@ -1201,7 +1257,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeNotebookSessionCompartment.cs.html">here</a> to see an example of how to use ChangeNotebookSessionCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeNotebookSessionCompartment.cs.html">here</a> to see an example of how to use ChangeNotebookSessionCompartment API.</example>
         public async Task<ChangeNotebookSessionCompartmentResponse> ChangeNotebookSessionCompartment(ChangeNotebookSessionCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeNotebookSessionCompartment");
@@ -1257,7 +1313,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangePipelineCompartment.cs.html">here</a> to see an example of how to use ChangePipelineCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangePipelineCompartment.cs.html">here</a> to see an example of how to use ChangePipelineCompartment API.</example>
         public async Task<ChangePipelineCompartmentResponse> ChangePipelineCompartment(ChangePipelineCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changePipelineCompartment");
@@ -1313,7 +1369,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangePipelineRunCompartment.cs.html">here</a> to see an example of how to use ChangePipelineRunCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangePipelineRunCompartment.cs.html">here</a> to see an example of how to use ChangePipelineRunCompartment API.</example>
         public async Task<ChangePipelineRunCompartmentResponse> ChangePipelineRunCompartment(ChangePipelineRunCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changePipelineRunCompartment");
@@ -1369,7 +1425,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeProjectCompartment.cs.html">here</a> to see an example of how to use ChangeProjectCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeProjectCompartment.cs.html">here</a> to see an example of how to use ChangeProjectCompartment API.</example>
         public async Task<ChangeProjectCompartmentResponse> ChangeProjectCompartment(ChangeProjectCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeProjectCompartment");
@@ -1425,7 +1481,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeScheduleCompartment.cs.html">here</a> to see an example of how to use ChangeScheduleCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ChangeScheduleCompartment.cs.html">here</a> to see an example of how to use ChangeScheduleCompartment API.</example>
         public async Task<ChangeScheduleCompartmentResponse> ChangeScheduleCompartment(ChangeScheduleCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeScheduleCompartment");
@@ -1474,6 +1530,62 @@ namespace Oci.DatascienceService
         }
 
         /// <summary>
+        /// Creates a new compute target resource.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateComputeTarget.cs.html">here</a> to see an example of how to use CreateComputeTarget API.</example>
+        public async Task<CreateComputeTargetResponse> CreateComputeTarget(CreateComputeTargetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called createComputeTarget");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/computeTargets".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DataScience",
+                    OperationName = "CreateComputeTarget",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/data-science/20190101/ComputeTarget/CreateComputeTarget",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<CreateComputeTargetResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"CreateComputeTarget failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Creates a Data Science private endpoint to be used by a Data Science resource.
         /// 
         /// </summary>
@@ -1482,7 +1594,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateDataSciencePrivateEndpoint.cs.html">here</a> to see an example of how to use CreateDataSciencePrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateDataSciencePrivateEndpoint.cs.html">here</a> to see an example of how to use CreateDataSciencePrivateEndpoint API.</example>
         public async Task<CreateDataSciencePrivateEndpointResponse> CreateDataSciencePrivateEndpoint(CreateDataSciencePrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDataSciencePrivateEndpoint");
@@ -1538,7 +1650,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateJob.cs.html">here</a> to see an example of how to use CreateJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateJob.cs.html">here</a> to see an example of how to use CreateJob API.</example>
         public async Task<CreateJobResponse> CreateJob(CreateJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createJob");
@@ -1594,7 +1706,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateJobArtifact.cs.html">here</a> to see an example of how to use CreateJobArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateJobArtifact.cs.html">here</a> to see an example of how to use CreateJobArtifact API.</example>
         public async Task<CreateJobArtifactResponse> CreateJobArtifact(CreateJobArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createJobArtifact");
@@ -1651,7 +1763,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateJobRun.cs.html">here</a> to see an example of how to use CreateJobRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateJobRun.cs.html">here</a> to see an example of how to use CreateJobRun API.</example>
         public async Task<CreateJobRunResponse> CreateJobRun(CreateJobRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createJobRun");
@@ -1708,7 +1820,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateMlApplication.cs.html">here</a> to see an example of how to use CreateMlApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateMlApplication.cs.html">here</a> to see an example of how to use CreateMlApplication API.</example>
         public async Task<CreateMlApplicationResponse> CreateMlApplication(CreateMlApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMlApplication");
@@ -1765,7 +1877,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateMlApplicationImplementation.cs.html">here</a> to see an example of how to use CreateMlApplicationImplementation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateMlApplicationImplementation.cs.html">here</a> to see an example of how to use CreateMlApplicationImplementation API.</example>
         public async Task<CreateMlApplicationImplementationResponse> CreateMlApplicationImplementation(CreateMlApplicationImplementationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMlApplicationImplementation");
@@ -1822,7 +1934,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateMlApplicationInstance.cs.html">here</a> to see an example of how to use CreateMlApplicationInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateMlApplicationInstance.cs.html">here</a> to see an example of how to use CreateMlApplicationInstance API.</example>
         public async Task<CreateMlApplicationInstanceResponse> CreateMlApplicationInstance(CreateMlApplicationInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMlApplicationInstance");
@@ -1878,7 +1990,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModel.cs.html">here</a> to see an example of how to use CreateModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModel.cs.html">here</a> to see an example of how to use CreateModel API.</example>
         public async Task<CreateModelResponse> CreateModel(CreateModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createModel");
@@ -1934,7 +2046,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelArtifact.cs.html">here</a> to see an example of how to use CreateModelArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelArtifact.cs.html">here</a> to see an example of how to use CreateModelArtifact API.</example>
         public async Task<CreateModelArtifactResponse> CreateModelArtifact(CreateModelArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createModelArtifact");
@@ -1991,7 +2103,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelCustomMetadatumArtifact.cs.html">here</a> to see an example of how to use CreateModelCustomMetadatumArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelCustomMetadatumArtifact.cs.html">here</a> to see an example of how to use CreateModelCustomMetadatumArtifact API.</example>
         public async Task<CreateModelCustomMetadatumArtifactResponse> CreateModelCustomMetadatumArtifact(CreateModelCustomMetadatumArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createModelCustomMetadatumArtifact");
@@ -2048,7 +2160,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelDefinedMetadatumArtifact.cs.html">here</a> to see an example of how to use CreateModelDefinedMetadatumArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelDefinedMetadatumArtifact.cs.html">here</a> to see an example of how to use CreateModelDefinedMetadatumArtifact API.</example>
         public async Task<CreateModelDefinedMetadatumArtifactResponse> CreateModelDefinedMetadatumArtifact(CreateModelDefinedMetadatumArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createModelDefinedMetadatumArtifact");
@@ -2105,7 +2217,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelDeployment.cs.html">here</a> to see an example of how to use CreateModelDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelDeployment.cs.html">here</a> to see an example of how to use CreateModelDeployment API.</example>
         public async Task<CreateModelDeploymentResponse> CreateModelDeployment(CreateModelDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createModelDeployment");
@@ -2161,7 +2273,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelGroup.cs.html">here</a> to see an example of how to use CreateModelGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelGroup.cs.html">here</a> to see an example of how to use CreateModelGroup API.</example>
         public async Task<CreateModelGroupResponse> CreateModelGroup(CreateModelGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createModelGroup");
@@ -2217,7 +2329,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelGroupArtifact.cs.html">here</a> to see an example of how to use CreateModelGroupArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelGroupArtifact.cs.html">here</a> to see an example of how to use CreateModelGroupArtifact API.</example>
         public async Task<CreateModelGroupArtifactResponse> CreateModelGroupArtifact(CreateModelGroupArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createModelGroupArtifact");
@@ -2274,7 +2386,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelGroupVersionHistory.cs.html">here</a> to see an example of how to use CreateModelGroupVersionHistory API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelGroupVersionHistory.cs.html">here</a> to see an example of how to use CreateModelGroupVersionHistory API.</example>
         public async Task<CreateModelGroupVersionHistoryResponse> CreateModelGroupVersionHistory(CreateModelGroupVersionHistoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createModelGroupVersionHistory");
@@ -2330,7 +2442,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelProvenance.cs.html">here</a> to see an example of how to use CreateModelProvenance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelProvenance.cs.html">here</a> to see an example of how to use CreateModelProvenance API.</example>
         public async Task<CreateModelProvenanceResponse> CreateModelProvenance(CreateModelProvenanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createModelProvenance");
@@ -2386,7 +2498,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelVersionSet.cs.html">here</a> to see an example of how to use CreateModelVersionSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelVersionSet.cs.html">here</a> to see an example of how to use CreateModelVersionSet API.</example>
         public async Task<CreateModelVersionSetResponse> CreateModelVersionSet(CreateModelVersionSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createModelVersionSet");
@@ -2442,7 +2554,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateNotebookSession.cs.html">here</a> to see an example of how to use CreateNotebookSession API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateNotebookSession.cs.html">here</a> to see an example of how to use CreateNotebookSession API.</example>
         public async Task<CreateNotebookSessionResponse> CreateNotebookSession(CreateNotebookSessionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createNotebookSession");
@@ -2499,7 +2611,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreatePipeline.cs.html">here</a> to see an example of how to use CreatePipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreatePipeline.cs.html">here</a> to see an example of how to use CreatePipeline API.</example>
         public async Task<CreatePipelineResponse> CreatePipeline(CreatePipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPipeline");
@@ -2556,7 +2668,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreatePipelineRun.cs.html">here</a> to see an example of how to use CreatePipelineRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreatePipelineRun.cs.html">here</a> to see an example of how to use CreatePipelineRun API.</example>
         public async Task<CreatePipelineRunResponse> CreatePipelineRun(CreatePipelineRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPipelineRun");
@@ -2612,7 +2724,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateProject.cs.html">here</a> to see an example of how to use CreateProject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateProject.cs.html">here</a> to see an example of how to use CreateProject API.</example>
         public async Task<CreateProjectResponse> CreateProject(CreateProjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createProject");
@@ -2669,7 +2781,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateSchedule.cs.html">here</a> to see an example of how to use CreateSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateSchedule.cs.html">here</a> to see an example of how to use CreateSchedule API.</example>
         public async Task<CreateScheduleResponse> CreateSchedule(CreateScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSchedule");
@@ -2725,7 +2837,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateStepArtifact.cs.html">here</a> to see an example of how to use CreateStepArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateStepArtifact.cs.html">here</a> to see an example of how to use CreateStepArtifact API.</example>
         public async Task<CreateStepArtifactResponse> CreateStepArtifact(CreateStepArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createStepArtifact");
@@ -2782,7 +2894,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeactivateModel.cs.html">here</a> to see an example of how to use DeactivateModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeactivateModel.cs.html">here</a> to see an example of how to use DeactivateModel API.</example>
         public async Task<DeactivateModelResponse> DeactivateModel(DeactivateModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deactivateModel");
@@ -2838,7 +2950,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeactivateModelDeployment.cs.html">here</a> to see an example of how to use DeactivateModelDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeactivateModelDeployment.cs.html">here</a> to see an example of how to use DeactivateModelDeployment API.</example>
         public async Task<DeactivateModelDeploymentResponse> DeactivateModelDeployment(DeactivateModelDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deactivateModelDeployment");
@@ -2894,7 +3006,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeactivateModelGroup.cs.html">here</a> to see an example of how to use DeactivateModelGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeactivateModelGroup.cs.html">here</a> to see an example of how to use DeactivateModelGroup API.</example>
         public async Task<DeactivateModelGroupResponse> DeactivateModelGroup(DeactivateModelGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deactivateModelGroup");
@@ -2950,7 +3062,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeactivateNotebookSession.cs.html">here</a> to see an example of how to use DeactivateNotebookSession API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeactivateNotebookSession.cs.html">here</a> to see an example of how to use DeactivateNotebookSession API.</example>
         public async Task<DeactivateNotebookSessionResponse> DeactivateNotebookSession(DeactivateNotebookSessionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deactivateNotebookSession");
@@ -3006,7 +3118,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeactivateSchedule.cs.html">here</a> to see an example of how to use DeactivateSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeactivateSchedule.cs.html">here</a> to see an example of how to use DeactivateSchedule API.</example>
         public async Task<DeactivateScheduleResponse> DeactivateSchedule(DeactivateScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deactivateSchedule");
@@ -3055,6 +3167,62 @@ namespace Oci.DatascienceService
         }
 
         /// <summary>
+        /// Deletes the specified compute target.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteComputeTarget.cs.html">here</a> to see an example of how to use DeleteComputeTarget API.</example>
+        public async Task<DeleteComputeTargetResponse> DeleteComputeTarget(DeleteComputeTargetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called deleteComputeTarget");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/computeTargets/{computeTargetId}".Trim('/')));
+            HttpMethod method = new HttpMethod("DELETE");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DataScience",
+                    OperationName = "DeleteComputeTarget",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/data-science/20190101/ComputeTarget/DeleteComputeTarget",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<DeleteComputeTargetResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"DeleteComputeTarget failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Deletes a private endpoint using &#x60;privateEndpointId&#x60;.
         /// 
         /// </summary>
@@ -3063,7 +3231,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteDataSciencePrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteDataSciencePrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteDataSciencePrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteDataSciencePrivateEndpoint API.</example>
         public async Task<DeleteDataSciencePrivateEndpointResponse> DeleteDataSciencePrivateEndpoint(DeleteDataSciencePrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDataSciencePrivateEndpoint");
@@ -3119,7 +3287,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteJob.cs.html">here</a> to see an example of how to use DeleteJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteJob.cs.html">here</a> to see an example of how to use DeleteJob API.</example>
         public async Task<DeleteJobResponse> DeleteJob(DeleteJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteJob");
@@ -3175,7 +3343,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteJobRun.cs.html">here</a> to see an example of how to use DeleteJobRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteJobRun.cs.html">here</a> to see an example of how to use DeleteJobRun API.</example>
         public async Task<DeleteJobRunResponse> DeleteJobRun(DeleteJobRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteJobRun");
@@ -3231,7 +3399,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteMlApplication.cs.html">here</a> to see an example of how to use DeleteMlApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteMlApplication.cs.html">here</a> to see an example of how to use DeleteMlApplication API.</example>
         public async Task<DeleteMlApplicationResponse> DeleteMlApplication(DeleteMlApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMlApplication");
@@ -3287,7 +3455,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteMlApplicationImplementation.cs.html">here</a> to see an example of how to use DeleteMlApplicationImplementation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteMlApplicationImplementation.cs.html">here</a> to see an example of how to use DeleteMlApplicationImplementation API.</example>
         public async Task<DeleteMlApplicationImplementationResponse> DeleteMlApplicationImplementation(DeleteMlApplicationImplementationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMlApplicationImplementation");
@@ -3343,7 +3511,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteMlApplicationInstance.cs.html">here</a> to see an example of how to use DeleteMlApplicationInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteMlApplicationInstance.cs.html">here</a> to see an example of how to use DeleteMlApplicationInstance API.</example>
         public async Task<DeleteMlApplicationInstanceResponse> DeleteMlApplicationInstance(DeleteMlApplicationInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMlApplicationInstance");
@@ -3399,7 +3567,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteModel.cs.html">here</a> to see an example of how to use DeleteModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteModel.cs.html">here</a> to see an example of how to use DeleteModel API.</example>
         public async Task<DeleteModelResponse> DeleteModel(DeleteModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteModel");
@@ -3455,7 +3623,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteModelCustomMetadatumArtifact.cs.html">here</a> to see an example of how to use DeleteModelCustomMetadatumArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteModelCustomMetadatumArtifact.cs.html">here</a> to see an example of how to use DeleteModelCustomMetadatumArtifact API.</example>
         public async Task<DeleteModelCustomMetadatumArtifactResponse> DeleteModelCustomMetadatumArtifact(DeleteModelCustomMetadatumArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteModelCustomMetadatumArtifact");
@@ -3511,7 +3679,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteModelDefinedMetadatumArtifact.cs.html">here</a> to see an example of how to use DeleteModelDefinedMetadatumArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteModelDefinedMetadatumArtifact.cs.html">here</a> to see an example of how to use DeleteModelDefinedMetadatumArtifact API.</example>
         public async Task<DeleteModelDefinedMetadatumArtifactResponse> DeleteModelDefinedMetadatumArtifact(DeleteModelDefinedMetadatumArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteModelDefinedMetadatumArtifact");
@@ -3567,7 +3735,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteModelDeployment.cs.html">here</a> to see an example of how to use DeleteModelDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteModelDeployment.cs.html">here</a> to see an example of how to use DeleteModelDeployment API.</example>
         public async Task<DeleteModelDeploymentResponse> DeleteModelDeployment(DeleteModelDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteModelDeployment");
@@ -3623,7 +3791,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteModelGroup.cs.html">here</a> to see an example of how to use DeleteModelGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteModelGroup.cs.html">here</a> to see an example of how to use DeleteModelGroup API.</example>
         public async Task<DeleteModelGroupResponse> DeleteModelGroup(DeleteModelGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteModelGroup");
@@ -3679,7 +3847,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteModelGroupVersionHistory.cs.html">here</a> to see an example of how to use DeleteModelGroupVersionHistory API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteModelGroupVersionHistory.cs.html">here</a> to see an example of how to use DeleteModelGroupVersionHistory API.</example>
         public async Task<DeleteModelGroupVersionHistoryResponse> DeleteModelGroupVersionHistory(DeleteModelGroupVersionHistoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteModelGroupVersionHistory");
@@ -3735,7 +3903,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteModelVersionSet.cs.html">here</a> to see an example of how to use DeleteModelVersionSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteModelVersionSet.cs.html">here</a> to see an example of how to use DeleteModelVersionSet API.</example>
         public async Task<DeleteModelVersionSetResponse> DeleteModelVersionSet(DeleteModelVersionSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteModelVersionSet");
@@ -3791,7 +3959,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteNotebookSession.cs.html">here</a> to see an example of how to use DeleteNotebookSession API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteNotebookSession.cs.html">here</a> to see an example of how to use DeleteNotebookSession API.</example>
         public async Task<DeleteNotebookSessionResponse> DeleteNotebookSession(DeleteNotebookSessionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteNotebookSession");
@@ -3847,7 +4015,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeletePipeline.cs.html">here</a> to see an example of how to use DeletePipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeletePipeline.cs.html">here</a> to see an example of how to use DeletePipeline API.</example>
         public async Task<DeletePipelineResponse> DeletePipeline(DeletePipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePipeline");
@@ -3903,7 +4071,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeletePipelineRun.cs.html">here</a> to see an example of how to use DeletePipelineRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeletePipelineRun.cs.html">here</a> to see an example of how to use DeletePipelineRun API.</example>
         public async Task<DeletePipelineRunResponse> DeletePipelineRun(DeletePipelineRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePipelineRun");
@@ -3959,7 +4127,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteProject.cs.html">here</a> to see an example of how to use DeleteProject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteProject.cs.html">here</a> to see an example of how to use DeleteProject API.</example>
         public async Task<DeleteProjectResponse> DeleteProject(DeleteProjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteProject");
@@ -4015,7 +4183,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteSchedule.cs.html">here</a> to see an example of how to use DeleteSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DeleteSchedule.cs.html">here</a> to see an example of how to use DeleteSchedule API.</example>
         public async Task<DeleteScheduleResponse> DeleteSchedule(DeleteScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSchedule");
@@ -4071,7 +4239,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DisableMlApplicationInstanceViewTrigger.cs.html">here</a> to see an example of how to use DisableMlApplicationInstanceViewTrigger API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/DisableMlApplicationInstanceViewTrigger.cs.html">here</a> to see an example of how to use DisableMlApplicationInstanceViewTrigger API.</example>
         public async Task<DisableMlApplicationInstanceViewTriggerResponse> DisableMlApplicationInstanceViewTrigger(DisableMlApplicationInstanceViewTriggerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableMlApplicationInstanceViewTrigger");
@@ -4127,7 +4295,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/EnableMlApplicationInstanceViewTrigger.cs.html">here</a> to see an example of how to use EnableMlApplicationInstanceViewTrigger API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/EnableMlApplicationInstanceViewTrigger.cs.html">here</a> to see an example of how to use EnableMlApplicationInstanceViewTrigger API.</example>
         public async Task<EnableMlApplicationInstanceViewTriggerResponse> EnableMlApplicationInstanceViewTrigger(EnableMlApplicationInstanceViewTriggerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enableMlApplicationInstanceViewTrigger");
@@ -4183,7 +4351,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ExportModelArtifact.cs.html">here</a> to see an example of how to use ExportModelArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ExportModelArtifact.cs.html">here</a> to see an example of how to use ExportModelArtifact API.</example>
         public async Task<ExportModelArtifactResponse> ExportModelArtifact(ExportModelArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called exportModelArtifact");
@@ -4232,6 +4400,62 @@ namespace Oci.DatascienceService
         }
 
         /// <summary>
+        /// Retrieves the compute target for the specified &#x60;computeTargetId&#x60;.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetComputeTarget.cs.html">here</a> to see an example of how to use GetComputeTarget API.</example>
+        public async Task<GetComputeTargetResponse> GetComputeTarget(GetComputeTargetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called getComputeTarget");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/computeTargets/{computeTargetId}".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DataScience",
+                    OperationName = "GetComputeTarget",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/data-science/20190101/ComputeTarget/GetComputeTarget",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<GetComputeTargetResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetComputeTarget failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Retrieves an private endpoint using a &#x60;privateEndpointId&#x60;.
         /// 
         /// </summary>
@@ -4240,7 +4464,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetDataSciencePrivateEndpoint.cs.html">here</a> to see an example of how to use GetDataSciencePrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetDataSciencePrivateEndpoint.cs.html">here</a> to see an example of how to use GetDataSciencePrivateEndpoint API.</example>
         public async Task<GetDataSciencePrivateEndpointResponse> GetDataSciencePrivateEndpoint(GetDataSciencePrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDataSciencePrivateEndpoint");
@@ -4296,7 +4520,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetJob.cs.html">here</a> to see an example of how to use GetJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetJob.cs.html">here</a> to see an example of how to use GetJob API.</example>
         public async Task<GetJobResponse> GetJob(GetJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJob");
@@ -4352,7 +4576,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetJobArtifactContent.cs.html">here</a> to see an example of how to use GetJobArtifactContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetJobArtifactContent.cs.html">here</a> to see an example of how to use GetJobArtifactContent API.</example>
         public async Task<GetJobArtifactContentResponse> GetJobArtifactContent(GetJobArtifactContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJobArtifactContent");
@@ -4408,7 +4632,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetJobRun.cs.html">here</a> to see an example of how to use GetJobRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetJobRun.cs.html">here</a> to see an example of how to use GetJobRun API.</example>
         public async Task<GetJobRunResponse> GetJobRun(GetJobRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJobRun");
@@ -4464,7 +4688,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetMlApplication.cs.html">here</a> to see an example of how to use GetMlApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetMlApplication.cs.html">here</a> to see an example of how to use GetMlApplication API.</example>
         public async Task<GetMlApplicationResponse> GetMlApplication(GetMlApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMlApplication");
@@ -4520,7 +4744,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetMlApplicationHistoricalPackageContent.cs.html">here</a> to see an example of how to use GetMlApplicationHistoricalPackageContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetMlApplicationHistoricalPackageContent.cs.html">here</a> to see an example of how to use GetMlApplicationHistoricalPackageContent API.</example>
         public async Task<GetMlApplicationHistoricalPackageContentResponse> GetMlApplicationHistoricalPackageContent(GetMlApplicationHistoricalPackageContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMlApplicationHistoricalPackageContent");
@@ -4576,7 +4800,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetMlApplicationImplementation.cs.html">here</a> to see an example of how to use GetMlApplicationImplementation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetMlApplicationImplementation.cs.html">here</a> to see an example of how to use GetMlApplicationImplementation API.</example>
         public async Task<GetMlApplicationImplementationResponse> GetMlApplicationImplementation(GetMlApplicationImplementationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMlApplicationImplementation");
@@ -4632,7 +4856,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetMlApplicationImplementationVersion.cs.html">here</a> to see an example of how to use GetMlApplicationImplementationVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetMlApplicationImplementationVersion.cs.html">here</a> to see an example of how to use GetMlApplicationImplementationVersion API.</example>
         public async Task<GetMlApplicationImplementationVersionResponse> GetMlApplicationImplementationVersion(GetMlApplicationImplementationVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMlApplicationImplementationVersion");
@@ -4688,7 +4912,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetMlApplicationInstance.cs.html">here</a> to see an example of how to use GetMlApplicationInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetMlApplicationInstance.cs.html">here</a> to see an example of how to use GetMlApplicationInstance API.</example>
         public async Task<GetMlApplicationInstanceResponse> GetMlApplicationInstance(GetMlApplicationInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMlApplicationInstance");
@@ -4744,7 +4968,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetMlApplicationInstanceView.cs.html">here</a> to see an example of how to use GetMlApplicationInstanceView API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetMlApplicationInstanceView.cs.html">here</a> to see an example of how to use GetMlApplicationInstanceView API.</example>
         public async Task<GetMlApplicationInstanceViewResponse> GetMlApplicationInstanceView(GetMlApplicationInstanceViewRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMlApplicationInstanceView");
@@ -4800,7 +5024,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetMlApplicationPackageContent.cs.html">here</a> to see an example of how to use GetMlApplicationPackageContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetMlApplicationPackageContent.cs.html">here</a> to see an example of how to use GetMlApplicationPackageContent API.</example>
         public async Task<GetMlApplicationPackageContentResponse> GetMlApplicationPackageContent(GetMlApplicationPackageContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMlApplicationPackageContent");
@@ -4856,7 +5080,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModel.cs.html">here</a> to see an example of how to use GetModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModel.cs.html">here</a> to see an example of how to use GetModel API.</example>
         public async Task<GetModelResponse> GetModel(GetModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getModel");
@@ -4912,7 +5136,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelArtifactContent.cs.html">here</a> to see an example of how to use GetModelArtifactContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelArtifactContent.cs.html">here</a> to see an example of how to use GetModelArtifactContent API.</example>
         public async Task<GetModelArtifactContentResponse> GetModelArtifactContent(GetModelArtifactContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getModelArtifactContent");
@@ -4968,7 +5192,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelCustomMetadatumArtifactContent.cs.html">here</a> to see an example of how to use GetModelCustomMetadatumArtifactContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelCustomMetadatumArtifactContent.cs.html">here</a> to see an example of how to use GetModelCustomMetadatumArtifactContent API.</example>
         public async Task<GetModelCustomMetadatumArtifactContentResponse> GetModelCustomMetadatumArtifactContent(GetModelCustomMetadatumArtifactContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getModelCustomMetadatumArtifactContent");
@@ -5024,7 +5248,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelDefinedMetadatumArtifactContent.cs.html">here</a> to see an example of how to use GetModelDefinedMetadatumArtifactContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelDefinedMetadatumArtifactContent.cs.html">here</a> to see an example of how to use GetModelDefinedMetadatumArtifactContent API.</example>
         public async Task<GetModelDefinedMetadatumArtifactContentResponse> GetModelDefinedMetadatumArtifactContent(GetModelDefinedMetadatumArtifactContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getModelDefinedMetadatumArtifactContent");
@@ -5080,7 +5304,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelDeployment.cs.html">here</a> to see an example of how to use GetModelDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelDeployment.cs.html">here</a> to see an example of how to use GetModelDeployment API.</example>
         public async Task<GetModelDeploymentResponse> GetModelDeployment(GetModelDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getModelDeployment");
@@ -5136,7 +5360,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelGroup.cs.html">here</a> to see an example of how to use GetModelGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelGroup.cs.html">here</a> to see an example of how to use GetModelGroup API.</example>
         public async Task<GetModelGroupResponse> GetModelGroup(GetModelGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getModelGroup");
@@ -5192,7 +5416,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelGroupArtifactContent.cs.html">here</a> to see an example of how to use GetModelGroupArtifactContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelGroupArtifactContent.cs.html">here</a> to see an example of how to use GetModelGroupArtifactContent API.</example>
         public async Task<GetModelGroupArtifactContentResponse> GetModelGroupArtifactContent(GetModelGroupArtifactContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getModelGroupArtifactContent");
@@ -5248,7 +5472,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelGroupVersionHistory.cs.html">here</a> to see an example of how to use GetModelGroupVersionHistory API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelGroupVersionHistory.cs.html">here</a> to see an example of how to use GetModelGroupVersionHistory API.</example>
         public async Task<GetModelGroupVersionHistoryResponse> GetModelGroupVersionHistory(GetModelGroupVersionHistoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getModelGroupVersionHistory");
@@ -5304,7 +5528,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelProvenance.cs.html">here</a> to see an example of how to use GetModelProvenance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelProvenance.cs.html">here</a> to see an example of how to use GetModelProvenance API.</example>
         public async Task<GetModelProvenanceResponse> GetModelProvenance(GetModelProvenanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getModelProvenance");
@@ -5360,7 +5584,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelVersionSet.cs.html">here</a> to see an example of how to use GetModelVersionSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetModelVersionSet.cs.html">here</a> to see an example of how to use GetModelVersionSet API.</example>
         public async Task<GetModelVersionSetResponse> GetModelVersionSet(GetModelVersionSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getModelVersionSet");
@@ -5416,7 +5640,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetNotebookSession.cs.html">here</a> to see an example of how to use GetNotebookSession API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetNotebookSession.cs.html">here</a> to see an example of how to use GetNotebookSession API.</example>
         public async Task<GetNotebookSessionResponse> GetNotebookSession(GetNotebookSessionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNotebookSession");
@@ -5472,7 +5696,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetPipeline.cs.html">here</a> to see an example of how to use GetPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetPipeline.cs.html">here</a> to see an example of how to use GetPipeline API.</example>
         public async Task<GetPipelineResponse> GetPipeline(GetPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPipeline");
@@ -5528,7 +5752,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetPipelineRun.cs.html">here</a> to see an example of how to use GetPipelineRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetPipelineRun.cs.html">here</a> to see an example of how to use GetPipelineRun API.</example>
         public async Task<GetPipelineRunResponse> GetPipelineRun(GetPipelineRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPipelineRun");
@@ -5584,7 +5808,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetProject.cs.html">here</a> to see an example of how to use GetProject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetProject.cs.html">here</a> to see an example of how to use GetProject API.</example>
         public async Task<GetProjectResponse> GetProject(GetProjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getProject");
@@ -5640,7 +5864,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetSchedule.cs.html">here</a> to see an example of how to use GetSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetSchedule.cs.html">here</a> to see an example of how to use GetSchedule API.</example>
         public async Task<GetScheduleResponse> GetSchedule(GetScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSchedule");
@@ -5696,7 +5920,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetStepArtifactContent.cs.html">here</a> to see an example of how to use GetStepArtifactContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetStepArtifactContent.cs.html">here</a> to see an example of how to use GetStepArtifactContent API.</example>
         public async Task<GetStepArtifactContentResponse> GetStepArtifactContent(GetStepArtifactContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getStepArtifactContent");
@@ -5753,7 +5977,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -5809,7 +6033,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/HeadJobArtifact.cs.html">here</a> to see an example of how to use HeadJobArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/HeadJobArtifact.cs.html">here</a> to see an example of how to use HeadJobArtifact API.</example>
         public async Task<HeadJobArtifactResponse> HeadJobArtifact(HeadJobArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called headJobArtifact");
@@ -5865,7 +6089,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/HeadModelArtifact.cs.html">here</a> to see an example of how to use HeadModelArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/HeadModelArtifact.cs.html">here</a> to see an example of how to use HeadModelArtifact API.</example>
         public async Task<HeadModelArtifactResponse> HeadModelArtifact(HeadModelArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called headModelArtifact");
@@ -5921,7 +6145,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/HeadModelCustomMetadatumArtifact.cs.html">here</a> to see an example of how to use HeadModelCustomMetadatumArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/HeadModelCustomMetadatumArtifact.cs.html">here</a> to see an example of how to use HeadModelCustomMetadatumArtifact API.</example>
         public async Task<HeadModelCustomMetadatumArtifactResponse> HeadModelCustomMetadatumArtifact(HeadModelCustomMetadatumArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called headModelCustomMetadatumArtifact");
@@ -5977,7 +6201,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/HeadModelDefinedMetadatumArtifact.cs.html">here</a> to see an example of how to use HeadModelDefinedMetadatumArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/HeadModelDefinedMetadatumArtifact.cs.html">here</a> to see an example of how to use HeadModelDefinedMetadatumArtifact API.</example>
         public async Task<HeadModelDefinedMetadatumArtifactResponse> HeadModelDefinedMetadatumArtifact(HeadModelDefinedMetadatumArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called headModelDefinedMetadatumArtifact");
@@ -6033,7 +6257,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/HeadModelGroupArtifact.cs.html">here</a> to see an example of how to use HeadModelGroupArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/HeadModelGroupArtifact.cs.html">here</a> to see an example of how to use HeadModelGroupArtifact API.</example>
         public async Task<HeadModelGroupArtifactResponse> HeadModelGroupArtifact(HeadModelGroupArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called headModelGroupArtifact");
@@ -6089,7 +6313,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/HeadStepArtifact.cs.html">here</a> to see an example of how to use HeadStepArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/HeadStepArtifact.cs.html">here</a> to see an example of how to use HeadStepArtifact API.</example>
         public async Task<HeadStepArtifactResponse> HeadStepArtifact(HeadStepArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called headStepArtifact");
@@ -6145,7 +6369,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ImportModelArtifact.cs.html">here</a> to see an example of how to use ImportModelArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ImportModelArtifact.cs.html">here</a> to see an example of how to use ImportModelArtifact API.</example>
         public async Task<ImportModelArtifactResponse> ImportModelArtifact(ImportModelArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called importModelArtifact");
@@ -6194,6 +6418,119 @@ namespace Oci.DatascienceService
         }
 
         /// <summary>
+        /// Lists the valid compute target shapes.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListComputeTargetShapes.cs.html">here</a> to see an example of how to use ListComputeTargetShapes API.</example>
+        public async Task<ListComputeTargetShapesResponse> ListComputeTargetShapes(ListComputeTargetShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called listComputeTargetShapes");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/computeTargetShapes".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DataScience",
+                    OperationName = "ListComputeTargetShapes",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/data-science/20190101/ComputeTargetShapeSummary/ListComputeTargetShapes",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ListComputeTargetShapesResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListComputeTargetShapes failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// List all compute targets in the specified compartment. Supports queries on various other parameters in the query alongside compartmentId (must be included).
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListComputeTargets.cs.html">here</a> to see an example of how to use ListComputeTargets API.</example>
+        public async Task<ListComputeTargetsResponse> ListComputeTargets(ListComputeTargetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called listComputeTargets");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/computeTargets".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DataScience",
+                    OperationName = "ListComputeTargets",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/data-science/20190101/ComputeTargetSummary/ListComputeTargets",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ListComputeTargetsResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListComputeTargets failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// List containers.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -6201,7 +6538,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListContainers.cs.html">here</a> to see an example of how to use ListContainers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListContainers.cs.html">here</a> to see an example of how to use ListContainers API.</example>
         public async Task<ListContainersResponse> ListContainers(ListContainersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listContainers");
@@ -6258,7 +6595,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListDataSciencePrivateEndpoints.cs.html">here</a> to see an example of how to use ListDataSciencePrivateEndpoints API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListDataSciencePrivateEndpoints.cs.html">here</a> to see an example of how to use ListDataSciencePrivateEndpoints API.</example>
         public async Task<ListDataSciencePrivateEndpointsResponse> ListDataSciencePrivateEndpoints(ListDataSciencePrivateEndpointsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDataSciencePrivateEndpoints");
@@ -6314,7 +6651,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListFastLaunchJobConfigs.cs.html">here</a> to see an example of how to use ListFastLaunchJobConfigs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListFastLaunchJobConfigs.cs.html">here</a> to see an example of how to use ListFastLaunchJobConfigs API.</example>
         public async Task<ListFastLaunchJobConfigsResponse> ListFastLaunchJobConfigs(ListFastLaunchJobConfigsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFastLaunchJobConfigs");
@@ -6370,7 +6707,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListJobRuns.cs.html">here</a> to see an example of how to use ListJobRuns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListJobRuns.cs.html">here</a> to see an example of how to use ListJobRuns API.</example>
         public async Task<ListJobRunsResponse> ListJobRuns(ListJobRunsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJobRuns");
@@ -6426,7 +6763,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListJobShapes.cs.html">here</a> to see an example of how to use ListJobShapes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListJobShapes.cs.html">here</a> to see an example of how to use ListJobShapes API.</example>
         public async Task<ListJobShapesResponse> ListJobShapes(ListJobShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJobShapes");
@@ -6482,7 +6819,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListJobs.cs.html">here</a> to see an example of how to use ListJobs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListJobs.cs.html">here</a> to see an example of how to use ListJobs API.</example>
         public async Task<ListJobsResponse> ListJobs(ListJobsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJobs");
@@ -6539,7 +6876,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListMlApplicationImplementationVersions.cs.html">here</a> to see an example of how to use ListMlApplicationImplementationVersions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListMlApplicationImplementationVersions.cs.html">here</a> to see an example of how to use ListMlApplicationImplementationVersions API.</example>
         public async Task<ListMlApplicationImplementationVersionsResponse> ListMlApplicationImplementationVersions(ListMlApplicationImplementationVersionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMlApplicationImplementationVersions");
@@ -6596,7 +6933,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListMlApplicationImplementations.cs.html">here</a> to see an example of how to use ListMlApplicationImplementations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListMlApplicationImplementations.cs.html">here</a> to see an example of how to use ListMlApplicationImplementations API.</example>
         public async Task<ListMlApplicationImplementationsResponse> ListMlApplicationImplementations(ListMlApplicationImplementationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMlApplicationImplementations");
@@ -6653,7 +6990,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListMlApplicationInstanceViews.cs.html">here</a> to see an example of how to use ListMlApplicationInstanceViews API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListMlApplicationInstanceViews.cs.html">here</a> to see an example of how to use ListMlApplicationInstanceViews API.</example>
         public async Task<ListMlApplicationInstanceViewsResponse> ListMlApplicationInstanceViews(ListMlApplicationInstanceViewsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMlApplicationInstanceViews");
@@ -6710,7 +7047,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListMlApplicationInstances.cs.html">here</a> to see an example of how to use ListMlApplicationInstances API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListMlApplicationInstances.cs.html">here</a> to see an example of how to use ListMlApplicationInstances API.</example>
         public async Task<ListMlApplicationInstancesResponse> ListMlApplicationInstances(ListMlApplicationInstancesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMlApplicationInstances");
@@ -6767,7 +7104,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListMlApplications.cs.html">here</a> to see an example of how to use ListMlApplications API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListMlApplications.cs.html">here</a> to see an example of how to use ListMlApplications API.</example>
         public async Task<ListMlApplicationsResponse> ListMlApplications(ListMlApplicationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMlApplications");
@@ -6823,7 +7160,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListModelDeploymentModelStates.cs.html">here</a> to see an example of how to use ListModelDeploymentModelStates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListModelDeploymentModelStates.cs.html">here</a> to see an example of how to use ListModelDeploymentModelStates API.</example>
         public async Task<ListModelDeploymentModelStatesResponse> ListModelDeploymentModelStates(ListModelDeploymentModelStatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listModelDeploymentModelStates");
@@ -6879,7 +7216,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListModelDeploymentShapes.cs.html">here</a> to see an example of how to use ListModelDeploymentShapes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListModelDeploymentShapes.cs.html">here</a> to see an example of how to use ListModelDeploymentShapes API.</example>
         public async Task<ListModelDeploymentShapesResponse> ListModelDeploymentShapes(ListModelDeploymentShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listModelDeploymentShapes");
@@ -6936,7 +7273,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListModelDeployments.cs.html">here</a> to see an example of how to use ListModelDeployments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListModelDeployments.cs.html">here</a> to see an example of how to use ListModelDeployments API.</example>
         public async Task<ListModelDeploymentsResponse> ListModelDeployments(ListModelDeploymentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listModelDeployments");
@@ -6992,7 +7329,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListModelGroupModels.cs.html">here</a> to see an example of how to use ListModelGroupModels API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListModelGroupModels.cs.html">here</a> to see an example of how to use ListModelGroupModels API.</example>
         public async Task<ListModelGroupModelsResponse> ListModelGroupModels(ListModelGroupModelsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listModelGroupModels");
@@ -7048,7 +7385,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListModelGroupVersionHistories.cs.html">here</a> to see an example of how to use ListModelGroupVersionHistories API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListModelGroupVersionHistories.cs.html">here</a> to see an example of how to use ListModelGroupVersionHistories API.</example>
         public async Task<ListModelGroupVersionHistoriesResponse> ListModelGroupVersionHistories(ListModelGroupVersionHistoriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listModelGroupVersionHistories");
@@ -7104,7 +7441,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListModelGroups.cs.html">here</a> to see an example of how to use ListModelGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListModelGroups.cs.html">here</a> to see an example of how to use ListModelGroups API.</example>
         public async Task<ListModelGroupsResponse> ListModelGroups(ListModelGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listModelGroups");
@@ -7160,7 +7497,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListModelVersionSets.cs.html">here</a> to see an example of how to use ListModelVersionSets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListModelVersionSets.cs.html">here</a> to see an example of how to use ListModelVersionSets API.</example>
         public async Task<ListModelVersionSetsResponse> ListModelVersionSets(ListModelVersionSetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listModelVersionSets");
@@ -7216,7 +7553,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListModels.cs.html">here</a> to see an example of how to use ListModels API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListModels.cs.html">here</a> to see an example of how to use ListModels API.</example>
         public async Task<ListModelsResponse> ListModels(ListModelsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listModels");
@@ -7272,7 +7609,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListNotebookSessionShapes.cs.html">here</a> to see an example of how to use ListNotebookSessionShapes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListNotebookSessionShapes.cs.html">here</a> to see an example of how to use ListNotebookSessionShapes API.</example>
         public async Task<ListNotebookSessionShapesResponse> ListNotebookSessionShapes(ListNotebookSessionShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNotebookSessionShapes");
@@ -7328,7 +7665,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListNotebookSessions.cs.html">here</a> to see an example of how to use ListNotebookSessions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListNotebookSessions.cs.html">here</a> to see an example of how to use ListNotebookSessions API.</example>
         public async Task<ListNotebookSessionsResponse> ListNotebookSessions(ListNotebookSessionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNotebookSessions");
@@ -7384,7 +7721,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListPipelineRuns.cs.html">here</a> to see an example of how to use ListPipelineRuns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListPipelineRuns.cs.html">here</a> to see an example of how to use ListPipelineRuns API.</example>
         public async Task<ListPipelineRunsResponse> ListPipelineRuns(ListPipelineRunsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPipelineRuns");
@@ -7440,7 +7777,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListPipelines.cs.html">here</a> to see an example of how to use ListPipelines API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListPipelines.cs.html">here</a> to see an example of how to use ListPipelines API.</example>
         public async Task<ListPipelinesResponse> ListPipelines(ListPipelinesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPipelines");
@@ -7496,7 +7833,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListProjects.cs.html">here</a> to see an example of how to use ListProjects API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListProjects.cs.html">here</a> to see an example of how to use ListProjects API.</example>
         public async Task<ListProjectsResponse> ListProjects(ListProjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProjects");
@@ -7553,7 +7890,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListSchedules.cs.html">here</a> to see an example of how to use ListSchedules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListSchedules.cs.html">here</a> to see an example of how to use ListSchedules API.</example>
         public async Task<ListSchedulesResponse> ListSchedules(ListSchedulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSchedules");
@@ -7609,7 +7946,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -7665,7 +8002,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -7721,7 +8058,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -7777,7 +8114,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/PutMlApplicationPackage.cs.html">here</a> to see an example of how to use PutMlApplicationPackage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/PutMlApplicationPackage.cs.html">here</a> to see an example of how to use PutMlApplicationPackage API.</example>
         public async Task<PutMlApplicationPackageResponse> PutMlApplicationPackage(PutMlApplicationPackageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putMlApplicationPackage");
@@ -7835,7 +8172,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/RecoverMlApplicationInstanceView.cs.html">here</a> to see an example of how to use RecoverMlApplicationInstanceView API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/RecoverMlApplicationInstanceView.cs.html">here</a> to see an example of how to use RecoverMlApplicationInstanceView API.</example>
         public async Task<RecoverMlApplicationInstanceViewResponse> RecoverMlApplicationInstanceView(RecoverMlApplicationInstanceViewRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called recoverMlApplicationInstanceView");
@@ -7891,7 +8228,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/RegisterModelArtifactReference.cs.html">here</a> to see an example of how to use RegisterModelArtifactReference API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/RegisterModelArtifactReference.cs.html">here</a> to see an example of how to use RegisterModelArtifactReference API.</example>
         public async Task<RegisterModelArtifactReferenceResponse> RegisterModelArtifactReference(RegisterModelArtifactReferenceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called registerModelArtifactReference");
@@ -7947,7 +8284,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/RestoreArchivedModelArtifact.cs.html">here</a> to see an example of how to use RestoreArchivedModelArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/RestoreArchivedModelArtifact.cs.html">here</a> to see an example of how to use RestoreArchivedModelArtifact API.</example>
         public async Task<RestoreArchivedModelArtifactResponse> RestoreArchivedModelArtifact(RestoreArchivedModelArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called restoreArchivedModelArtifact");
@@ -8003,7 +8340,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/TriggerMlApplicationInstanceFlow.cs.html">here</a> to see an example of how to use TriggerMlApplicationInstanceFlow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/TriggerMlApplicationInstanceFlow.cs.html">here</a> to see an example of how to use TriggerMlApplicationInstanceFlow API.</example>
         public async Task<TriggerMlApplicationInstanceFlowResponse> TriggerMlApplicationInstanceFlow(TriggerMlApplicationInstanceFlowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called triggerMlApplicationInstanceFlow");
@@ -8059,7 +8396,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/TriggerMlApplicationInstanceViewFlow.cs.html">here</a> to see an example of how to use TriggerMlApplicationInstanceViewFlow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/TriggerMlApplicationInstanceViewFlow.cs.html">here</a> to see an example of how to use TriggerMlApplicationInstanceViewFlow API.</example>
         public async Task<TriggerMlApplicationInstanceViewFlowResponse> TriggerMlApplicationInstanceViewFlow(TriggerMlApplicationInstanceViewFlowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called triggerMlApplicationInstanceViewFlow");
@@ -8108,6 +8445,62 @@ namespace Oci.DatascienceService
         }
 
         /// <summary>
+        /// Updates the compute target.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateComputeTarget.cs.html">here</a> to see an example of how to use UpdateComputeTarget API.</example>
+        public async Task<UpdateComputeTargetResponse> UpdateComputeTarget(UpdateComputeTargetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called updateComputeTarget");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/computeTargets/{computeTargetId}".Trim('/')));
+            HttpMethod method = new HttpMethod("PUT");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DataScience",
+                    OperationName = "UpdateComputeTarget",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/data-science/20190101/ComputeTarget/UpdateComputeTarget",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<UpdateComputeTargetResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"UpdateComputeTarget failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Updates a private endpoint using a &#x60;privateEndpointId&#x60;.  If changes to a private endpoint match
         /// a previously defined private endpoint, then a 409 status code is returned.  This indicates
         /// that a conflict has been detected.
@@ -8118,7 +8511,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateDataSciencePrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateDataSciencePrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateDataSciencePrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateDataSciencePrivateEndpoint API.</example>
         public async Task<UpdateDataSciencePrivateEndpointResponse> UpdateDataSciencePrivateEndpoint(UpdateDataSciencePrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDataSciencePrivateEndpoint");
@@ -8174,7 +8567,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateJob.cs.html">here</a> to see an example of how to use UpdateJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateJob.cs.html">here</a> to see an example of how to use UpdateJob API.</example>
         public async Task<UpdateJobResponse> UpdateJob(UpdateJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateJob");
@@ -8230,7 +8623,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateJobRun.cs.html">here</a> to see an example of how to use UpdateJobRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateJobRun.cs.html">here</a> to see an example of how to use UpdateJobRun API.</example>
         public async Task<UpdateJobRunResponse> UpdateJobRun(UpdateJobRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateJobRun");
@@ -8286,7 +8679,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateMlApplication.cs.html">here</a> to see an example of how to use UpdateMlApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateMlApplication.cs.html">here</a> to see an example of how to use UpdateMlApplication API.</example>
         public async Task<UpdateMlApplicationResponse> UpdateMlApplication(UpdateMlApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMlApplication");
@@ -8342,7 +8735,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateMlApplicationImplementation.cs.html">here</a> to see an example of how to use UpdateMlApplicationImplementation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateMlApplicationImplementation.cs.html">here</a> to see an example of how to use UpdateMlApplicationImplementation API.</example>
         public async Task<UpdateMlApplicationImplementationResponse> UpdateMlApplicationImplementation(UpdateMlApplicationImplementationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMlApplicationImplementation");
@@ -8398,7 +8791,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateMlApplicationImplementationVersion.cs.html">here</a> to see an example of how to use UpdateMlApplicationImplementationVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateMlApplicationImplementationVersion.cs.html">here</a> to see an example of how to use UpdateMlApplicationImplementationVersion API.</example>
         public async Task<UpdateMlApplicationImplementationVersionResponse> UpdateMlApplicationImplementationVersion(UpdateMlApplicationImplementationVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMlApplicationImplementationVersion");
@@ -8454,7 +8847,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateMlApplicationInstance.cs.html">here</a> to see an example of how to use UpdateMlApplicationInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateMlApplicationInstance.cs.html">here</a> to see an example of how to use UpdateMlApplicationInstance API.</example>
         public async Task<UpdateMlApplicationInstanceResponse> UpdateMlApplicationInstance(UpdateMlApplicationInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMlApplicationInstance");
@@ -8510,7 +8903,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateMlApplicationInstanceView.cs.html">here</a> to see an example of how to use UpdateMlApplicationInstanceView API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateMlApplicationInstanceView.cs.html">here</a> to see an example of how to use UpdateMlApplicationInstanceView API.</example>
         public async Task<UpdateMlApplicationInstanceViewResponse> UpdateMlApplicationInstanceView(UpdateMlApplicationInstanceViewRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMlApplicationInstanceView");
@@ -8566,7 +8959,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateModel.cs.html">here</a> to see an example of how to use UpdateModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateModel.cs.html">here</a> to see an example of how to use UpdateModel API.</example>
         public async Task<UpdateModelResponse> UpdateModel(UpdateModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateModel");
@@ -8622,7 +9015,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateModelCustomMetadatumArtifact.cs.html">here</a> to see an example of how to use UpdateModelCustomMetadatumArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateModelCustomMetadatumArtifact.cs.html">here</a> to see an example of how to use UpdateModelCustomMetadatumArtifact API.</example>
         public async Task<UpdateModelCustomMetadatumArtifactResponse> UpdateModelCustomMetadatumArtifact(UpdateModelCustomMetadatumArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateModelCustomMetadatumArtifact");
@@ -8679,7 +9072,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateModelDefinedMetadatumArtifact.cs.html">here</a> to see an example of how to use UpdateModelDefinedMetadatumArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateModelDefinedMetadatumArtifact.cs.html">here</a> to see an example of how to use UpdateModelDefinedMetadatumArtifact API.</example>
         public async Task<UpdateModelDefinedMetadatumArtifactResponse> UpdateModelDefinedMetadatumArtifact(UpdateModelDefinedMetadatumArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateModelDefinedMetadatumArtifact");
@@ -8740,7 +9133,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateModelDeployment.cs.html">here</a> to see an example of how to use UpdateModelDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateModelDeployment.cs.html">here</a> to see an example of how to use UpdateModelDeployment API.</example>
         public async Task<UpdateModelDeploymentResponse> UpdateModelDeployment(UpdateModelDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateModelDeployment");
@@ -8796,7 +9189,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateModelGroup.cs.html">here</a> to see an example of how to use UpdateModelGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateModelGroup.cs.html">here</a> to see an example of how to use UpdateModelGroup API.</example>
         public async Task<UpdateModelGroupResponse> UpdateModelGroup(UpdateModelGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateModelGroup");
@@ -8852,7 +9245,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateModelGroupVersionHistory.cs.html">here</a> to see an example of how to use UpdateModelGroupVersionHistory API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateModelGroupVersionHistory.cs.html">here</a> to see an example of how to use UpdateModelGroupVersionHistory API.</example>
         public async Task<UpdateModelGroupVersionHistoryResponse> UpdateModelGroupVersionHistory(UpdateModelGroupVersionHistoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateModelGroupVersionHistory");
@@ -8908,7 +9301,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateModelProvenance.cs.html">here</a> to see an example of how to use UpdateModelProvenance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateModelProvenance.cs.html">here</a> to see an example of how to use UpdateModelProvenance API.</example>
         public async Task<UpdateModelProvenanceResponse> UpdateModelProvenance(UpdateModelProvenanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateModelProvenance");
@@ -8964,7 +9357,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateModelVersionSet.cs.html">here</a> to see an example of how to use UpdateModelVersionSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateModelVersionSet.cs.html">here</a> to see an example of how to use UpdateModelVersionSet API.</example>
         public async Task<UpdateModelVersionSetResponse> UpdateModelVersionSet(UpdateModelVersionSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateModelVersionSet");
@@ -9023,7 +9416,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateNotebookSession.cs.html">here</a> to see an example of how to use UpdateNotebookSession API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateNotebookSession.cs.html">here</a> to see an example of how to use UpdateNotebookSession API.</example>
         public async Task<UpdateNotebookSessionResponse> UpdateNotebookSession(UpdateNotebookSessionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNotebookSession");
@@ -9079,7 +9472,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdatePipeline.cs.html">here</a> to see an example of how to use UpdatePipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdatePipeline.cs.html">here</a> to see an example of how to use UpdatePipeline API.</example>
         public async Task<UpdatePipelineResponse> UpdatePipeline(UpdatePipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePipeline");
@@ -9135,7 +9528,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdatePipelineRun.cs.html">here</a> to see an example of how to use UpdatePipelineRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdatePipelineRun.cs.html">here</a> to see an example of how to use UpdatePipelineRun API.</example>
         public async Task<UpdatePipelineRunResponse> UpdatePipelineRun(UpdatePipelineRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePipelineRun");
@@ -9191,7 +9584,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateProject.cs.html">here</a> to see an example of how to use UpdateProject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateProject.cs.html">here</a> to see an example of how to use UpdateProject API.</example>
         public async Task<UpdateProjectResponse> UpdateProject(UpdateProjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateProject");
@@ -9247,7 +9640,7 @@ namespace Oci.DatascienceService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateSchedule.cs.html">here</a> to see an example of how to use UpdateSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/UpdateSchedule.cs.html">here</a> to see an example of how to use UpdateSchedule API.</example>
         public async Task<UpdateScheduleResponse> UpdateSchedule(UpdateScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSchedule");

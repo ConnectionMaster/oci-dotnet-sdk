@@ -17,7 +17,7 @@ namespace Oci.VnmonitoringService.Models
 {
     /// <summary>
     /// A service offering from a supported provider. For more information,
-    /// see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+    /// see [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
     /// 
     /// </summary>
     public class FastConnectProviderService 
@@ -34,7 +34,7 @@ namespace Oci.VnmonitoringService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the service offered by the provider.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the service offered by the provider.
         /// 
         /// </value>
         /// <remarks>

@@ -14,13 +14,13 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddIpv6VcnCidr.cs.html">here</a> to see an example of how to use AddIpv6VcnCidr request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddIpv6VcnCidr.cs.html">here</a> to see an example of how to use AddIpv6VcnCidr request.
     /// </example>
     public class AddIpv6VcnCidrRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// Specify the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VCN.
+        /// Specify the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VCN.
         /// </value>
         /// <remarks>
         /// Required

@@ -14,13 +14,13 @@ using Oci.OcvpService.Models;
 namespace Oci.OcvpService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DeleteDatastore.cs.html">here</a> to see an example of how to use DeleteDatastore request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DeleteDatastore.cs.html">here</a> to see an example of how to use DeleteDatastore request.
     /// </example>
     public class DeleteDatastoreRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Datastore.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Datastore.
         /// 
         /// </value>
         /// <remarks>

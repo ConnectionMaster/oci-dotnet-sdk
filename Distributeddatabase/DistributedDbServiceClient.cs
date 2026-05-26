@@ -81,7 +81,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/AddDistributedDatabaseGdsControlNode.cs.html">here</a> to see an example of how to use AddDistributedDatabaseGdsControlNode API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/AddDistributedDatabaseGdsControlNode.cs.html">here</a> to see an example of how to use AddDistributedDatabaseGdsControlNode API.</example>
         public async Task<AddDistributedDatabaseGdsControlNodeResponse> AddDistributedDatabaseGdsControlNode(AddDistributedDatabaseGdsControlNodeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addDistributedDatabaseGdsControlNode");
@@ -138,7 +138,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ChangeDistributedDatabaseCompartment.cs.html">here</a> to see an example of how to use ChangeDistributedDatabaseCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ChangeDistributedDatabaseCompartment.cs.html">here</a> to see an example of how to use ChangeDistributedDatabaseCompartment API.</example>
         public async Task<ChangeDistributedDatabaseCompartmentResponse> ChangeDistributedDatabaseCompartment(ChangeDistributedDatabaseCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDistributedDatabaseCompartment");
@@ -195,7 +195,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ChangeDistributedDbBackupConfig.cs.html">here</a> to see an example of how to use ChangeDistributedDbBackupConfig API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ChangeDistributedDbBackupConfig.cs.html">here</a> to see an example of how to use ChangeDistributedDbBackupConfig API.</example>
         public async Task<ChangeDistributedDbBackupConfigResponse> ChangeDistributedDbBackupConfig(ChangeDistributedDbBackupConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDistributedDbBackupConfig");
@@ -252,7 +252,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ConfigureDistributedDatabaseGsms.cs.html">here</a> to see an example of how to use ConfigureDistributedDatabaseGsms API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ConfigureDistributedDatabaseGsms.cs.html">here</a> to see an example of how to use ConfigureDistributedDatabaseGsms API.</example>
         public async Task<ConfigureDistributedDatabaseGsmsResponse> ConfigureDistributedDatabaseGsms(ConfigureDistributedDatabaseGsmsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called configureDistributedDatabaseGsms");
@@ -313,7 +313,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ConfigureDistributedDatabaseSharding.cs.html">here</a> to see an example of how to use ConfigureDistributedDatabaseSharding API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ConfigureDistributedDatabaseSharding.cs.html">here</a> to see an example of how to use ConfigureDistributedDatabaseSharding API.</example>
         public async Task<ConfigureDistributedDatabaseShardingResponse> ConfigureDistributedDatabaseSharding(ConfigureDistributedDatabaseShardingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called configureDistributedDatabaseSharding");
@@ -370,7 +370,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/CreateDistributedDatabase.cs.html">here</a> to see an example of how to use CreateDistributedDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/CreateDistributedDatabase.cs.html">here</a> to see an example of how to use CreateDistributedDatabase API.</example>
         public async Task<CreateDistributedDatabaseResponse> CreateDistributedDatabase(CreateDistributedDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDistributedDatabase");
@@ -429,7 +429,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/DeleteDistributedDatabase.cs.html">here</a> to see an example of how to use DeleteDistributedDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/DeleteDistributedDatabase.cs.html">here</a> to see an example of how to use DeleteDistributedDatabase API.</example>
         public async Task<DeleteDistributedDatabaseResponse> DeleteDistributedDatabase(DeleteDistributedDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDistributedDatabase");
@@ -489,7 +489,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/DownloadDistributedDatabaseGsmCertificateSigningRequest.cs.html">here</a> to see an example of how to use DownloadDistributedDatabaseGsmCertificateSigningRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/DownloadDistributedDatabaseGsmCertificateSigningRequest.cs.html">here</a> to see an example of how to use DownloadDistributedDatabaseGsmCertificateSigningRequest API.</example>
         public async Task<DownloadDistributedDatabaseGsmCertificateSigningRequestResponse> DownloadDistributedDatabaseGsmCertificateSigningRequest(DownloadDistributedDatabaseGsmCertificateSigningRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called downloadDistributedDatabaseGsmCertificateSigningRequest");
@@ -548,7 +548,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/GenerateDistributedDatabaseGsmCertificateSigningRequest.cs.html">here</a> to see an example of how to use GenerateDistributedDatabaseGsmCertificateSigningRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/GenerateDistributedDatabaseGsmCertificateSigningRequest.cs.html">here</a> to see an example of how to use GenerateDistributedDatabaseGsmCertificateSigningRequest API.</example>
         public async Task<GenerateDistributedDatabaseGsmCertificateSigningRequestResponse> GenerateDistributedDatabaseGsmCertificateSigningRequest(GenerateDistributedDatabaseGsmCertificateSigningRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateDistributedDatabaseGsmCertificateSigningRequest");
@@ -605,7 +605,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/GenerateDistributedDatabaseWallet.cs.html">here</a> to see an example of how to use GenerateDistributedDatabaseWallet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/GenerateDistributedDatabaseWallet.cs.html">here</a> to see an example of how to use GenerateDistributedDatabaseWallet API.</example>
         public async Task<GenerateDistributedDatabaseWalletResponse> GenerateDistributedDatabaseWallet(GenerateDistributedDatabaseWalletRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateDistributedDatabaseWallet");
@@ -662,7 +662,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/GetDistributedDatabase.cs.html">here</a> to see an example of how to use GetDistributedDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/GetDistributedDatabase.cs.html">here</a> to see an example of how to use GetDistributedDatabase API.</example>
         public async Task<GetDistributedDatabaseResponse> GetDistributedDatabase(GetDistributedDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDistributedDatabase");
@@ -720,7 +720,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/GetDistributedDatabaseRaftMetric.cs.html">here</a> to see an example of how to use GetDistributedDatabaseRaftMetric API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/GetDistributedDatabaseRaftMetric.cs.html">here</a> to see an example of how to use GetDistributedDatabaseRaftMetric API.</example>
         public async Task<GetDistributedDatabaseRaftMetricResponse> GetDistributedDatabaseRaftMetric(GetDistributedDatabaseRaftMetricRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDistributedDatabaseRaftMetric");
@@ -777,7 +777,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ListDistributedDatabases.cs.html">here</a> to see an example of how to use ListDistributedDatabases API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ListDistributedDatabases.cs.html">here</a> to see an example of how to use ListDistributedDatabases API.</example>
         public async Task<ListDistributedDatabasesResponse> ListDistributedDatabases(ListDistributedDatabasesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDistributedDatabases");
@@ -834,7 +834,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/MoveDistributedDatabaseReplicationUnit.cs.html">here</a> to see an example of how to use MoveDistributedDatabaseReplicationUnit API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/MoveDistributedDatabaseReplicationUnit.cs.html">here</a> to see an example of how to use MoveDistributedDatabaseReplicationUnit API.</example>
         public async Task<MoveDistributedDatabaseReplicationUnitResponse> MoveDistributedDatabaseReplicationUnit(MoveDistributedDatabaseReplicationUnitRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called moveDistributedDatabaseReplicationUnit");
@@ -895,7 +895,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/PatchDistributedDatabase.cs.html">here</a> to see an example of how to use PatchDistributedDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/PatchDistributedDatabase.cs.html">here</a> to see an example of how to use PatchDistributedDatabase API.</example>
         public async Task<PatchDistributedDatabaseResponse> PatchDistributedDatabase(PatchDistributedDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchDistributedDatabase");
@@ -952,7 +952,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/RecreateFailedDistributedDatabaseResource.cs.html">here</a> to see an example of how to use RecreateFailedDistributedDatabaseResource API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/RecreateFailedDistributedDatabaseResource.cs.html">here</a> to see an example of how to use RecreateFailedDistributedDatabaseResource API.</example>
         public async Task<RecreateFailedDistributedDatabaseResourceResponse> RecreateFailedDistributedDatabaseResource(RecreateFailedDistributedDatabaseResourceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called recreateFailedDistributedDatabaseResource");
@@ -1008,7 +1008,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/RotateDistributedDatabasePasswords.cs.html">here</a> to see an example of how to use RotateDistributedDatabasePasswords API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/RotateDistributedDatabasePasswords.cs.html">here</a> to see an example of how to use RotateDistributedDatabasePasswords API.</example>
         public async Task<RotateDistributedDatabasePasswordsResponse> RotateDistributedDatabasePasswords(RotateDistributedDatabasePasswordsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called rotateDistributedDatabasePasswords");
@@ -1064,7 +1064,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/StartDistributedDatabase.cs.html">here</a> to see an example of how to use StartDistributedDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/StartDistributedDatabase.cs.html">here</a> to see an example of how to use StartDistributedDatabase API.</example>
         public async Task<StartDistributedDatabaseResponse> StartDistributedDatabase(StartDistributedDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startDistributedDatabase");
@@ -1120,7 +1120,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/StopDistributedDatabase.cs.html">here</a> to see an example of how to use StopDistributedDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/StopDistributedDatabase.cs.html">here</a> to see an example of how to use StopDistributedDatabase API.</example>
         public async Task<StopDistributedDatabaseResponse> StopDistributedDatabase(StopDistributedDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopDistributedDatabase");
@@ -1177,7 +1177,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/UpdateDistributedDatabase.cs.html">here</a> to see an example of how to use UpdateDistributedDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/UpdateDistributedDatabase.cs.html">here</a> to see an example of how to use UpdateDistributedDatabase API.</example>
         public async Task<UpdateDistributedDatabaseResponse> UpdateDistributedDatabase(UpdateDistributedDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDistributedDatabase");
@@ -1236,7 +1236,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/UploadDistributedDatabaseSignedCertificateAndGenerateWallet.cs.html">here</a> to see an example of how to use UploadDistributedDatabaseSignedCertificateAndGenerateWallet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/UploadDistributedDatabaseSignedCertificateAndGenerateWallet.cs.html">here</a> to see an example of how to use UploadDistributedDatabaseSignedCertificateAndGenerateWallet API.</example>
         public async Task<UploadDistributedDatabaseSignedCertificateAndGenerateWalletResponse> UploadDistributedDatabaseSignedCertificateAndGenerateWallet(UploadDistributedDatabaseSignedCertificateAndGenerateWalletRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called uploadDistributedDatabaseSignedCertificateAndGenerateWallet");
@@ -1293,7 +1293,7 @@ namespace Oci.DistributeddatabaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ValidateDistributedDatabaseNetwork.cs.html">here</a> to see an example of how to use ValidateDistributedDatabaseNetwork API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ValidateDistributedDatabaseNetwork.cs.html">here</a> to see an example of how to use ValidateDistributedDatabaseNetwork API.</example>
         public async Task<ValidateDistributedDatabaseNetworkResponse> ValidateDistributedDatabaseNetwork(ValidateDistributedDatabaseNetworkRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called validateDistributedDatabaseNetwork");

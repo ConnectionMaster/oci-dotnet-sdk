@@ -80,7 +80,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/CancelCertificateAuthorityDeletion.cs.html">here</a> to see an example of how to use CancelCertificateAuthorityDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/CancelCertificateAuthorityDeletion.cs.html">here</a> to see an example of how to use CancelCertificateAuthorityDeletion API.</example>
         public async Task<CancelCertificateAuthorityDeletionResponse> CancelCertificateAuthorityDeletion(CancelCertificateAuthorityDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelCertificateAuthorityDeletion");
@@ -139,7 +139,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/CancelCertificateAuthorityVersionDeletion.cs.html">here</a> to see an example of how to use CancelCertificateAuthorityVersionDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/CancelCertificateAuthorityVersionDeletion.cs.html">here</a> to see an example of how to use CancelCertificateAuthorityVersionDeletion API.</example>
         public async Task<CancelCertificateAuthorityVersionDeletionResponse> CancelCertificateAuthorityVersionDeletion(CancelCertificateAuthorityVersionDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelCertificateAuthorityVersionDeletion");
@@ -198,7 +198,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/CancelCertificateDeletion.cs.html">here</a> to see an example of how to use CancelCertificateDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/CancelCertificateDeletion.cs.html">here</a> to see an example of how to use CancelCertificateDeletion API.</example>
         public async Task<CancelCertificateDeletionResponse> CancelCertificateDeletion(CancelCertificateDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelCertificateDeletion");
@@ -254,7 +254,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/CancelCertificateVersionDeletion.cs.html">here</a> to see an example of how to use CancelCertificateVersionDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/CancelCertificateVersionDeletion.cs.html">here</a> to see an example of how to use CancelCertificateVersionDeletion API.</example>
         public async Task<CancelCertificateVersionDeletionResponse> CancelCertificateVersionDeletion(CancelCertificateVersionDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelCertificateVersionDeletion");
@@ -304,7 +304,7 @@ namespace Oci.CertificatesmanagementService
 
         /// <summary>
         /// Moves a CA bundle to a different compartment in the same tenancy. For information about
-        /// moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// &lt;br/&gt;
         /// When provided, if-match is checked against the ETag values of the secret.
         /// 
@@ -314,7 +314,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ChangeCaBundleCompartment.cs.html">here</a> to see an example of how to use ChangeCaBundleCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ChangeCaBundleCompartment.cs.html">here</a> to see an example of how to use ChangeCaBundleCompartment API.</example>
         public async Task<ChangeCaBundleCompartmentResponse> ChangeCaBundleCompartment(ChangeCaBundleCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeCaBundleCompartment");
@@ -364,7 +364,7 @@ namespace Oci.CertificatesmanagementService
 
         /// <summary>
         /// Moves a certificate authority (CA) to a different compartment within the same tenancy. For information about
-        /// moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// &lt;br/&gt;
         /// When provided, If-Match is checked against the ETag values of the source.
         /// 
@@ -374,7 +374,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ChangeCertificateAuthorityCompartment.cs.html">here</a> to see an example of how to use ChangeCertificateAuthorityCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ChangeCertificateAuthorityCompartment.cs.html">here</a> to see an example of how to use ChangeCertificateAuthorityCompartment API.</example>
         public async Task<ChangeCertificateAuthorityCompartmentResponse> ChangeCertificateAuthorityCompartment(ChangeCertificateAuthorityCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeCertificateAuthorityCompartment");
@@ -424,7 +424,7 @@ namespace Oci.CertificatesmanagementService
 
         /// <summary>
         /// Moves a certificate to a different compartment within the same tenancy. For information about
-        /// moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// &lt;br/&gt;
         /// When provided, if-match is checked against the ETag values of the secret.
         /// 
@@ -434,7 +434,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ChangeCertificateCompartment.cs.html">here</a> to see an example of how to use ChangeCertificateCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ChangeCertificateCompartment.cs.html">here</a> to see an example of how to use ChangeCertificateCompartment API.</example>
         public async Task<ChangeCertificateCompartmentResponse> ChangeCertificateCompartment(ChangeCertificateCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeCertificateCompartment");
@@ -490,7 +490,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/CreateCaBundle.cs.html">here</a> to see an example of how to use CreateCaBundle API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/CreateCaBundle.cs.html">here</a> to see an example of how to use CreateCaBundle API.</example>
         public async Task<CreateCaBundleResponse> CreateCaBundle(CreateCaBundleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCaBundle");
@@ -546,7 +546,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/CreateCertificate.cs.html">here</a> to see an example of how to use CreateCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/CreateCertificate.cs.html">here</a> to see an example of how to use CreateCertificate API.</example>
         public async Task<CreateCertificateResponse> CreateCertificate(CreateCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCertificate");
@@ -602,7 +602,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/CreateCertificateAuthority.cs.html">here</a> to see an example of how to use CreateCertificateAuthority API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/CreateCertificateAuthority.cs.html">here</a> to see an example of how to use CreateCertificateAuthority API.</example>
         public async Task<CreateCertificateAuthorityResponse> CreateCertificateAuthority(CreateCertificateAuthorityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCertificateAuthority");
@@ -658,7 +658,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/DeleteCaBundle.cs.html">here</a> to see an example of how to use DeleteCaBundle API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/DeleteCaBundle.cs.html">here</a> to see an example of how to use DeleteCaBundle API.</example>
         public async Task<DeleteCaBundleResponse> DeleteCaBundle(DeleteCaBundleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCaBundle");
@@ -714,7 +714,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/GetAssociation.cs.html">here</a> to see an example of how to use GetAssociation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/GetAssociation.cs.html">here</a> to see an example of how to use GetAssociation API.</example>
         public async Task<GetAssociationResponse> GetAssociation(GetAssociationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAssociation");
@@ -770,7 +770,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/GetCaBundle.cs.html">here</a> to see an example of how to use GetCaBundle API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/GetCaBundle.cs.html">here</a> to see an example of how to use GetCaBundle API.</example>
         public async Task<GetCaBundleResponse> GetCaBundle(GetCaBundleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCaBundle");
@@ -826,7 +826,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/GetCertificate.cs.html">here</a> to see an example of how to use GetCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/GetCertificate.cs.html">here</a> to see an example of how to use GetCertificate API.</example>
         public async Task<GetCertificateResponse> GetCertificate(GetCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCertificate");
@@ -882,7 +882,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/GetCertificateAuthority.cs.html">here</a> to see an example of how to use GetCertificateAuthority API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/GetCertificateAuthority.cs.html">here</a> to see an example of how to use GetCertificateAuthority API.</example>
         public async Task<GetCertificateAuthorityResponse> GetCertificateAuthority(GetCertificateAuthorityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCertificateAuthority");
@@ -938,7 +938,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/GetCertificateAuthorityVersion.cs.html">here</a> to see an example of how to use GetCertificateAuthorityVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/GetCertificateAuthorityVersion.cs.html">here</a> to see an example of how to use GetCertificateAuthorityVersion API.</example>
         public async Task<GetCertificateAuthorityVersionResponse> GetCertificateAuthorityVersion(GetCertificateAuthorityVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCertificateAuthorityVersion");
@@ -994,7 +994,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/GetCertificateVersion.cs.html">here</a> to see an example of how to use GetCertificateVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/GetCertificateVersion.cs.html">here</a> to see an example of how to use GetCertificateVersion API.</example>
         public async Task<GetCertificateVersionResponse> GetCertificateVersion(GetCertificateVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCertificateVersion");
@@ -1052,7 +1052,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ListAssociations.cs.html">here</a> to see an example of how to use ListAssociations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ListAssociations.cs.html">here</a> to see an example of how to use ListAssociations API.</example>
         public async Task<ListAssociationsResponse> ListAssociations(ListAssociationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAssociations");
@@ -1110,7 +1110,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ListCaBundles.cs.html">here</a> to see an example of how to use ListCaBundles API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ListCaBundles.cs.html">here</a> to see an example of how to use ListCaBundles API.</example>
         public async Task<ListCaBundlesResponse> ListCaBundles(ListCaBundlesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCaBundles");
@@ -1168,7 +1168,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ListCertificateAuthorities.cs.html">here</a> to see an example of how to use ListCertificateAuthorities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ListCertificateAuthorities.cs.html">here</a> to see an example of how to use ListCertificateAuthorities API.</example>
         public async Task<ListCertificateAuthoritiesResponse> ListCertificateAuthorities(ListCertificateAuthoritiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCertificateAuthorities");
@@ -1226,7 +1226,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ListCertificateAuthorityVersions.cs.html">here</a> to see an example of how to use ListCertificateAuthorityVersions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ListCertificateAuthorityVersions.cs.html">here</a> to see an example of how to use ListCertificateAuthorityVersions API.</example>
         public async Task<ListCertificateAuthorityVersionsResponse> ListCertificateAuthorityVersions(ListCertificateAuthorityVersionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCertificateAuthorityVersions");
@@ -1284,7 +1284,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ListCertificateVersions.cs.html">here</a> to see an example of how to use ListCertificateVersions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ListCertificateVersions.cs.html">here</a> to see an example of how to use ListCertificateVersions API.</example>
         public async Task<ListCertificateVersionsResponse> ListCertificateVersions(ListCertificateVersionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCertificateVersions");
@@ -1342,7 +1342,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ListCertificates.cs.html">here</a> to see an example of how to use ListCertificates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ListCertificates.cs.html">here</a> to see an example of how to use ListCertificates API.</example>
         public async Task<ListCertificatesResponse> ListCertificates(ListCertificatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCertificates");
@@ -1398,7 +1398,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/RevokeCertificateAuthorityVersion.cs.html">here</a> to see an example of how to use RevokeCertificateAuthorityVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/RevokeCertificateAuthorityVersion.cs.html">here</a> to see an example of how to use RevokeCertificateAuthorityVersion API.</example>
         public async Task<RevokeCertificateAuthorityVersionResponse> RevokeCertificateAuthorityVersion(RevokeCertificateAuthorityVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called revokeCertificateAuthorityVersion");
@@ -1454,7 +1454,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/RevokeCertificateVersion.cs.html">here</a> to see an example of how to use RevokeCertificateVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/RevokeCertificateVersion.cs.html">here</a> to see an example of how to use RevokeCertificateVersion API.</example>
         public async Task<RevokeCertificateVersionResponse> RevokeCertificateVersion(RevokeCertificateVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called revokeCertificateVersion");
@@ -1511,7 +1511,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ScheduleCertificateAuthorityDeletion.cs.html">here</a> to see an example of how to use ScheduleCertificateAuthorityDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ScheduleCertificateAuthorityDeletion.cs.html">here</a> to see an example of how to use ScheduleCertificateAuthorityDeletion API.</example>
         public async Task<ScheduleCertificateAuthorityDeletionResponse> ScheduleCertificateAuthorityDeletion(ScheduleCertificateAuthorityDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called scheduleCertificateAuthorityDeletion");
@@ -1570,7 +1570,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ScheduleCertificateAuthorityVersionDeletion.cs.html">here</a> to see an example of how to use ScheduleCertificateAuthorityVersionDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ScheduleCertificateAuthorityVersionDeletion.cs.html">here</a> to see an example of how to use ScheduleCertificateAuthorityVersionDeletion API.</example>
         public async Task<ScheduleCertificateAuthorityVersionDeletionResponse> ScheduleCertificateAuthorityVersionDeletion(ScheduleCertificateAuthorityVersionDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called scheduleCertificateAuthorityVersionDeletion");
@@ -1629,7 +1629,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ScheduleCertificateDeletion.cs.html">here</a> to see an example of how to use ScheduleCertificateDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ScheduleCertificateDeletion.cs.html">here</a> to see an example of how to use ScheduleCertificateDeletion API.</example>
         public async Task<ScheduleCertificateDeletionResponse> ScheduleCertificateDeletion(ScheduleCertificateDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called scheduleCertificateDeletion");
@@ -1689,7 +1689,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ScheduleCertificateVersionDeletion.cs.html">here</a> to see an example of how to use ScheduleCertificateVersionDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/ScheduleCertificateVersionDeletion.cs.html">here</a> to see an example of how to use ScheduleCertificateVersionDeletion API.</example>
         public async Task<ScheduleCertificateVersionDeletionResponse> ScheduleCertificateVersionDeletion(ScheduleCertificateVersionDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called scheduleCertificateVersionDeletion");
@@ -1745,7 +1745,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/UpdateCaBundle.cs.html">here</a> to see an example of how to use UpdateCaBundle API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/UpdateCaBundle.cs.html">here</a> to see an example of how to use UpdateCaBundle API.</example>
         public async Task<UpdateCaBundleResponse> UpdateCaBundle(UpdateCaBundleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCaBundle");
@@ -1801,7 +1801,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/UpdateCertificate.cs.html">here</a> to see an example of how to use UpdateCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/UpdateCertificate.cs.html">here</a> to see an example of how to use UpdateCertificate API.</example>
         public async Task<UpdateCertificateResponse> UpdateCertificate(UpdateCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCertificate");
@@ -1857,7 +1857,7 @@ namespace Oci.CertificatesmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/UpdateCertificateAuthority.cs.html">here</a> to see an example of how to use UpdateCertificateAuthority API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/UpdateCertificateAuthority.cs.html">here</a> to see an example of how to use UpdateCertificateAuthority API.</example>
         public async Task<UpdateCertificateAuthorityResponse> UpdateCertificateAuthority(UpdateCertificateAuthorityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCertificateAuthority");

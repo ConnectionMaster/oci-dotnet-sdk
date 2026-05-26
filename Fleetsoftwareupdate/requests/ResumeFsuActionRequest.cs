@@ -14,7 +14,7 @@ using Oci.FleetsoftwareupdateService.Models;
 namespace Oci.FleetsoftwareupdateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ResumeFsuAction.cs.html">here</a> to see an example of how to use ResumeFsuAction request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ResumeFsuAction.cs.html">here</a> to see an example of how to use ResumeFsuAction request.
     /// </example>
     public class ResumeFsuActionRequest : Oci.Common.IOciRequest
     {

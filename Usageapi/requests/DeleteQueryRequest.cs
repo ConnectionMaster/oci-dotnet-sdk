@@ -14,7 +14,7 @@ using Oci.UsageapiService.Models;
 namespace Oci.UsageapiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/DeleteQuery.cs.html">here</a> to see an example of how to use DeleteQuery request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/DeleteQuery.cs.html">here</a> to see an example of how to use DeleteQuery request.
     /// </example>
     public class DeleteQueryRequest : Oci.Common.IOciRequest
     {

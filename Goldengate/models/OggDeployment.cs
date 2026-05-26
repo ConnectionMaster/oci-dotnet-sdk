@@ -68,18 +68,25 @@ namespace Oci.GoldengateService.Models
         public System.Nullable<CredentialStore> CredentialStore { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Identity Domain when IAM credential store is used.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Identity Domain when IAM credential store is used.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "identityDomainId")]
         public string IdentityDomainId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the deployment password is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the deployment password is stored.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "passwordSecretId")]
         public string PasswordSecretId { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the deployment ssl private key is stored in PEM format.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "keySecretId")]
+        public string KeySecretId { get; set; }
         
         [JsonProperty(PropertyName = "groupToRolesMapping")]
         public GroupToRolesMappingDetails GroupToRolesMapping { get; set; }

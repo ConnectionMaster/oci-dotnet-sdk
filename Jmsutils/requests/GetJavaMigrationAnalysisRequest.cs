@@ -14,13 +14,13 @@ using Oci.JmsutilsService.Models;
 namespace Oci.JmsutilsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsutils/GetJavaMigrationAnalysis.cs.html">here</a> to see an example of how to use GetJavaMigrationAnalysis request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsutils/GetJavaMigrationAnalysis.cs.html">here</a> to see an example of how to use GetJavaMigrationAnalysis request.
     /// </example>
     public class GetJavaMigrationAnalysisRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Java Migration Analysis.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Java Migration Analysis.
         /// </value>
         /// <remarks>
         /// Required

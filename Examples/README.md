@@ -4,7 +4,7 @@
 ```
 git clone https://github.com/oracle/oci-dotnet-sdk.git
 ```
-2. Create a configuration file in your home directory (`~/.oci/config`). See [SDK and Tool Configuration](https://docs.us-phoenix-1.oraclecloud.com/Content/API/Concepts/sdkconfig.htm) for more information.
+2. Create a configuration file in your home directory (`~/.oci/config`). See [SDK and Tool Configuration](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/sdkconfig.htm) for more information.
 3. Change directory into the .NET Examples folder. For example:
 ```
 cd ./oci-dotnet-sdk/Examples/

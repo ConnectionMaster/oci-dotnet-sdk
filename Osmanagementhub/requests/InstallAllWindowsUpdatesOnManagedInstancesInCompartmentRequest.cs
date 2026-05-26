@@ -14,7 +14,7 @@ using Oci.OsmanagementhubService.Models;
 namespace Oci.OsmanagementhubService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/InstallAllWindowsUpdatesOnManagedInstancesInCompartment.cs.html">here</a> to see an example of how to use InstallAllWindowsUpdatesOnManagedInstancesInCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/InstallAllWindowsUpdatesOnManagedInstancesInCompartment.cs.html">here</a> to see an example of how to use InstallAllWindowsUpdatesOnManagedInstancesInCompartment request.
     /// </example>
     public class InstallAllWindowsUpdatesOnManagedInstancesInCompartmentRequest : Oci.Common.IOciRequest
     {

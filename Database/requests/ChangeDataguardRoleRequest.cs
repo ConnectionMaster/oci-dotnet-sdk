@@ -14,7 +14,7 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ChangeDataguardRole.cs.html">here</a> to see an example of how to use ChangeDataguardRole request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ChangeDataguardRole.cs.html">here</a> to see an example of how to use ChangeDataguardRole request.
     /// </example>
     public class ChangeDataguardRoleRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.DatabaseService.Requests
         public ChangeDataguardRoleDetails ChangeDataguardRoleDetails { get; set; }
         
         /// <value>
-        /// The Autonomous Container Database [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The Autonomous Container Database [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

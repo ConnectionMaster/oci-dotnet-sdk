@@ -33,7 +33,7 @@ namespace Oci.DatabasetoolsService.Models
         public System.Nullable<int> Version { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment containing the Database Tools MCP server.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the Database Tools MCP server.
         /// </value>
         /// <remarks>
         /// Required

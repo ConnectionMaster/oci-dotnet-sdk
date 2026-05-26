@@ -14,7 +14,7 @@ using Oci.FleetappsmanagementService.Models;
 namespace Oci.FleetappsmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListRunbookExportStatuses.cs.html">here</a> to see an example of how to use ListRunbookExportStatuses request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListRunbookExportStatuses.cs.html">here</a> to see an example of how to use ListRunbookExportStatuses request.
     /// </example>
     public class ListRunbookExportStatusesRequest : Oci.Common.IOciRequest
     {

@@ -104,6 +104,22 @@ namespace Oci.DatascienceService.Models
         [JsonProperty(PropertyName = "defaultEnvironmentVariables")]
         public System.Collections.Generic.Dictionary<string, string> DefaultEnvironmentVariables { get; set; }
         
+        /// <value>
+        /// The chosen specification from predefined set of endpoints a user can access. 
+        /// For example, if the value is 'openai', the user can access OpenAI-compliant endpoints 
+        /// like /v1/completions, /v1/chat/completions, /v1/models, etc., for inference.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "predictApiSpecification")]
+        public string PredictApiSpecification { get; set; }
+        
+        /// <value>
+        /// List of custom inference HTTP endpoints configured on the model deployment instance for inferencing.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "customHttpEndpoints")]
+        public System.Collections.Generic.List<InferenceHttpEndpoint> CustomHttpEndpoints { get; set; }
+        
         [JsonProperty(PropertyName = "environmentConfigurationType")]
         private readonly string environmentConfigurationType = "OCIR_CONTAINER";
     }

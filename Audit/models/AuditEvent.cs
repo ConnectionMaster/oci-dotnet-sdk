@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.AuditService.Models
 {
     /// <summary>
-    /// All the attributes of an audit event. For more information, see [Viewing Audit Log Events](https://docs.cloud.oracle.com/iaas/Content/Audit/Tasks/viewinglogevents.htm).
+    /// All the attributes of an audit event. For more information, see [Viewing Audit Log Events](https://docs.oracle.com/iaas/Content/Audit/Tasks/viewinglogevents.htm).
     /// 
     /// </summary>
     public class AuditEvent 

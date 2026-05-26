@@ -35,7 +35,7 @@ namespace Oci.LoadbalancerService.Models
         
         /// <value>
         /// A virtual hostname. For more information about virtual hostname string construction, see
-        /// [Managing Request Routing](https://docs.cloud.oracle.com/Content/Balance/Tasks/managingrequest.htm#routing).
+        /// [Managing Request Routing](https://docs.oracle.com/iaas/Content/Balance/Tasks/managingrequest.htm#routing).
         /// <br/>
         /// Example: app.example.com
         /// </value>

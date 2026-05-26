@@ -14,7 +14,7 @@ using Oci.MarketplacepublisherService.Models;
 namespace Oci.MarketplacepublisherService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplacepublisher/CreateTerm.cs.html">here</a> to see an example of how to use CreateTerm request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplacepublisher/CreateTerm.cs.html">here</a> to see an example of how to use CreateTerm request.
     /// </example>
     public class CreateTermRequest : Oci.Common.IOciRequest
     {

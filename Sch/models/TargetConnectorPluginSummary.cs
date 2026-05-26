@@ -18,7 +18,7 @@ namespace Oci.SchService.Models
     /// <summary>
     /// Summary information for a connector plugin that sends data to a target service.
     /// For configuration instructions, see
-    /// [Creating a Connector](https://docs.cloud.oracle.com/iaas/Content/connector-hub/create-service-connector.htm).
+    /// [Creating a Connector](https://docs.oracle.com/iaas/Content/connector-hub/create-service-connector.htm).
     /// 
     /// </summary>
     public class TargetConnectorPluginSummary : ConnectorPluginSummary

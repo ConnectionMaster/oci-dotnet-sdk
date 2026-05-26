@@ -14,7 +14,7 @@ using Oci.ContainerengineService.Models;
 namespace Oci.ContainerengineService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/CreateWorkloadMapping.cs.html">here</a> to see an example of how to use CreateWorkloadMapping request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/CreateWorkloadMapping.cs.html">here</a> to see an example of how to use CreateWorkloadMapping request.
     /// </example>
     public class CreateWorkloadMappingRequest : Oci.Common.IOciRequest
     {

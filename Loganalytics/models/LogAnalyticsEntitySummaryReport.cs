@@ -56,7 +56,7 @@ namespace Oci.LoganalyticsService.Models
         public System.Nullable<int> EntitiesWithManagementAgentCount { get; set; }
         
         /// <value>
-        /// Compartment Identifier [OCID] (https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Compartment Identifier [OCID] (https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

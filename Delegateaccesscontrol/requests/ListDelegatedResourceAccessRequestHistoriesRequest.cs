@@ -14,7 +14,7 @@ using Oci.DelegateaccesscontrolService.Models;
 namespace Oci.DelegateaccesscontrolService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListDelegatedResourceAccessRequestHistories.cs.html">here</a> to see an example of how to use ListDelegatedResourceAccessRequestHistories request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/ListDelegatedResourceAccessRequestHistories.cs.html">here</a> to see an example of how to use ListDelegatedResourceAccessRequestHistories request.
     /// </example>
     public class ListDelegatedResourceAccessRequestHistoriesRequest : Oci.Common.IOciRequest
     {

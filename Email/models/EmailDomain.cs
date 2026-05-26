@@ -36,7 +36,7 @@ namespace Oci.EmailService.Models
         public string Name { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the email domain.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the email domain.
         /// 
         /// </value>
         /// <remarks>
@@ -47,7 +47,7 @@ namespace Oci.EmailService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains this email domain.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains this email domain.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
@@ -83,7 +83,7 @@ namespace Oci.EmailService.Models
         public System.Nullable<LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the DKIM key
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the DKIM key
         /// that will be used to sign mail sent from this email domain.
         /// 
         /// </value>
@@ -92,7 +92,7 @@ namespace Oci.EmailService.Models
         
         /// <value>
         /// Value of the SPF field. For more information about SPF, please see
-        /// [SPF Authentication](https://docs.cloud.oracle.com/iaas/Content/Email/Concepts/overview.htm#components).
+        /// [SPF Authentication](https://docs.oracle.com/iaas/Content/Email/Concepts/overview.htm#components).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isSpf")]
@@ -128,7 +128,7 @@ namespace Oci.EmailService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -137,7 +137,7 @@ namespace Oci.EmailService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>

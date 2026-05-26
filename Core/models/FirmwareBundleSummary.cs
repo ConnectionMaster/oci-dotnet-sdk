@@ -22,7 +22,7 @@ namespace Oci.CoreService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of this firmware bundle.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of this firmware bundle.
         /// </value>
         /// <remarks>
         /// Required
@@ -61,7 +61,7 @@ namespace Oci.CoreService.Models
         public FirmwareBundleTransitions AllowableTransitions { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment of this firmware bundle.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment of this firmware bundle.
         /// 
         /// </value>
         /// <remarks>

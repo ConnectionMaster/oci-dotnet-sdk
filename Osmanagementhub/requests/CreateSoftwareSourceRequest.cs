@@ -14,7 +14,7 @@ using Oci.OsmanagementhubService.Models;
 namespace Oci.OsmanagementhubService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/CreateSoftwareSource.cs.html">here</a> to see an example of how to use CreateSoftwareSource request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/CreateSoftwareSource.cs.html">here</a> to see an example of how to use CreateSoftwareSource request.
     /// </example>
     public class CreateSoftwareSourceRequest : Oci.Common.IOciRequest
     {

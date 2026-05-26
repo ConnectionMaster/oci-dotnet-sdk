@@ -14,7 +14,7 @@ using Oci.CimsService.Models;
 namespace Oci.CimsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cims/PutAttachment.cs.html">here</a> to see an example of how to use PutAttachment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cims/PutAttachment.cs.html">here</a> to see an example of how to use PutAttachment request.
     /// </example>
     public class PutAttachmentRequest : Oci.Common.IOciRequest
     {

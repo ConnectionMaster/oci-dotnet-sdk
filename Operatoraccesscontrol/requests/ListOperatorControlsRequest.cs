@@ -14,7 +14,7 @@ using Oci.OperatoraccesscontrolService.Models;
 namespace Oci.OperatoraccesscontrolService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ListOperatorControls.cs.html">here</a> to see an example of how to use ListOperatorControls request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ListOperatorControls.cs.html">here</a> to see an example of how to use ListOperatorControls request.
     /// </example>
     public class ListOperatorControlsRequest : Oci.Common.IOciRequest
     {

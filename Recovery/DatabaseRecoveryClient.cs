@@ -80,7 +80,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/CancelProtectedDatabaseDeletion.cs.html">here</a> to see an example of how to use CancelProtectedDatabaseDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/CancelProtectedDatabaseDeletion.cs.html">here</a> to see an example of how to use CancelProtectedDatabaseDeletion API.</example>
         public async Task<CancelProtectedDatabaseDeletionResponse> CancelProtectedDatabaseDeletion(CancelProtectedDatabaseDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelProtectedDatabaseDeletion");
@@ -136,7 +136,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ChangeProtectedDatabaseCompartment.cs.html">here</a> to see an example of how to use ChangeProtectedDatabaseCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ChangeProtectedDatabaseCompartment.cs.html">here</a> to see an example of how to use ChangeProtectedDatabaseCompartment API.</example>
         public async Task<ChangeProtectedDatabaseCompartmentResponse> ChangeProtectedDatabaseCompartment(ChangeProtectedDatabaseCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeProtectedDatabaseCompartment");
@@ -192,7 +192,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ChangeProtectedDatabaseSubscription.cs.html">here</a> to see an example of how to use ChangeProtectedDatabaseSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ChangeProtectedDatabaseSubscription.cs.html">here</a> to see an example of how to use ChangeProtectedDatabaseSubscription API.</example>
         public async Task<ChangeProtectedDatabaseSubscriptionResponse> ChangeProtectedDatabaseSubscription(ChangeProtectedDatabaseSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeProtectedDatabaseSubscription");
@@ -248,7 +248,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ChangeProtectionPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeProtectionPolicyCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ChangeProtectionPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeProtectionPolicyCompartment API.</example>
         public async Task<ChangeProtectionPolicyCompartmentResponse> ChangeProtectionPolicyCompartment(ChangeProtectionPolicyCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeProtectionPolicyCompartment");
@@ -304,7 +304,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ChangeRecoveryServiceSubnetCompartment.cs.html">here</a> to see an example of how to use ChangeRecoveryServiceSubnetCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ChangeRecoveryServiceSubnetCompartment.cs.html">here</a> to see an example of how to use ChangeRecoveryServiceSubnetCompartment API.</example>
         public async Task<ChangeRecoveryServiceSubnetCompartmentResponse> ChangeRecoveryServiceSubnetCompartment(ChangeRecoveryServiceSubnetCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeRecoveryServiceSubnetCompartment");
@@ -361,7 +361,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/CreateProtectedDatabase.cs.html">here</a> to see an example of how to use CreateProtectedDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/CreateProtectedDatabase.cs.html">here</a> to see an example of how to use CreateProtectedDatabase API.</example>
         public async Task<CreateProtectedDatabaseResponse> CreateProtectedDatabase(CreateProtectedDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createProtectedDatabase");
@@ -418,7 +418,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/CreateProtectionPolicy.cs.html">here</a> to see an example of how to use CreateProtectionPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/CreateProtectionPolicy.cs.html">here</a> to see an example of how to use CreateProtectionPolicy API.</example>
         public async Task<CreateProtectionPolicyResponse> CreateProtectionPolicy(CreateProtectionPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createProtectionPolicy");
@@ -475,7 +475,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/CreateRecoveryServiceSubnet.cs.html">here</a> to see an example of how to use CreateRecoveryServiceSubnet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/CreateRecoveryServiceSubnet.cs.html">here</a> to see an example of how to use CreateRecoveryServiceSubnet API.</example>
         public async Task<CreateRecoveryServiceSubnetResponse> CreateRecoveryServiceSubnet(CreateRecoveryServiceSubnetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRecoveryServiceSubnet");
@@ -531,7 +531,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/DeleteProtectedDatabase.cs.html">here</a> to see an example of how to use DeleteProtectedDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/DeleteProtectedDatabase.cs.html">here</a> to see an example of how to use DeleteProtectedDatabase API.</example>
         public async Task<DeleteProtectedDatabaseResponse> DeleteProtectedDatabase(DeleteProtectedDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteProtectedDatabase");
@@ -589,7 +589,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/DeleteProtectionPolicy.cs.html">here</a> to see an example of how to use DeleteProtectionPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/DeleteProtectionPolicy.cs.html">here</a> to see an example of how to use DeleteProtectionPolicy API.</example>
         public async Task<DeleteProtectionPolicyResponse> DeleteProtectionPolicy(DeleteProtectionPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteProtectionPolicy");
@@ -645,7 +645,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/DeleteRecoveryServiceSubnet.cs.html">here</a> to see an example of how to use DeleteRecoveryServiceSubnet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/DeleteRecoveryServiceSubnet.cs.html">here</a> to see an example of how to use DeleteRecoveryServiceSubnet API.</example>
         public async Task<DeleteRecoveryServiceSubnetResponse> DeleteRecoveryServiceSubnet(DeleteRecoveryServiceSubnetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRecoveryServiceSubnet");
@@ -701,7 +701,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/FetchProtectedDatabaseConfiguration.cs.html">here</a> to see an example of how to use FetchProtectedDatabaseConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/FetchProtectedDatabaseConfiguration.cs.html">here</a> to see an example of how to use FetchProtectedDatabaseConfiguration API.</example>
         public async Task<FetchProtectedDatabaseConfigurationResponse> FetchProtectedDatabaseConfiguration(FetchProtectedDatabaseConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called fetchProtectedDatabaseConfiguration");
@@ -757,7 +757,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/GetProtectedDatabase.cs.html">here</a> to see an example of how to use GetProtectedDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/GetProtectedDatabase.cs.html">here</a> to see an example of how to use GetProtectedDatabase API.</example>
         public async Task<GetProtectedDatabaseResponse> GetProtectedDatabase(GetProtectedDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getProtectedDatabase");
@@ -813,7 +813,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/GetProtectionPolicy.cs.html">here</a> to see an example of how to use GetProtectionPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/GetProtectionPolicy.cs.html">here</a> to see an example of how to use GetProtectionPolicy API.</example>
         public async Task<GetProtectionPolicyResponse> GetProtectionPolicy(GetProtectionPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getProtectionPolicy");
@@ -869,7 +869,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/GetRecoveryServiceSubnet.cs.html">here</a> to see an example of how to use GetRecoveryServiceSubnet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/GetRecoveryServiceSubnet.cs.html">here</a> to see an example of how to use GetRecoveryServiceSubnet API.</example>
         public async Task<GetRecoveryServiceSubnetResponse> GetRecoveryServiceSubnet(GetRecoveryServiceSubnetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRecoveryServiceSubnet");
@@ -925,7 +925,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -982,7 +982,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ListProtectedDatabases.cs.html">here</a> to see an example of how to use ListProtectedDatabases API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ListProtectedDatabases.cs.html">here</a> to see an example of how to use ListProtectedDatabases API.</example>
         public async Task<ListProtectedDatabasesResponse> ListProtectedDatabases(ListProtectedDatabasesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProtectedDatabases");
@@ -1039,7 +1039,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ListProtectionPolicies.cs.html">here</a> to see an example of how to use ListProtectionPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ListProtectionPolicies.cs.html">here</a> to see an example of how to use ListProtectionPolicies API.</example>
         public async Task<ListProtectionPoliciesResponse> ListProtectionPolicies(ListProtectionPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProtectionPolicies");
@@ -1096,7 +1096,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ListRecoveryServiceSubnets.cs.html">here</a> to see an example of how to use ListRecoveryServiceSubnets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ListRecoveryServiceSubnets.cs.html">here</a> to see an example of how to use ListRecoveryServiceSubnets API.</example>
         public async Task<ListRecoveryServiceSubnetsResponse> ListRecoveryServiceSubnets(ListRecoveryServiceSubnetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRecoveryServiceSubnets");
@@ -1153,7 +1153,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -1210,7 +1210,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -1267,7 +1267,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1326,7 +1326,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ScheduleProtectedDatabaseDeletion.cs.html">here</a> to see an example of how to use ScheduleProtectedDatabaseDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/ScheduleProtectedDatabaseDeletion.cs.html">here</a> to see an example of how to use ScheduleProtectedDatabaseDeletion API.</example>
         public async Task<ScheduleProtectedDatabaseDeletionResponse> ScheduleProtectedDatabaseDeletion(ScheduleProtectedDatabaseDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called scheduleProtectedDatabaseDeletion");
@@ -1382,7 +1382,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/UpdateProtectedDatabase.cs.html">here</a> to see an example of how to use UpdateProtectedDatabase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/UpdateProtectedDatabase.cs.html">here</a> to see an example of how to use UpdateProtectedDatabase API.</example>
         public async Task<UpdateProtectedDatabaseResponse> UpdateProtectedDatabase(UpdateProtectedDatabaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateProtectedDatabase");
@@ -1438,7 +1438,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/UpdateProtectionPolicy.cs.html">here</a> to see an example of how to use UpdateProtectionPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/UpdateProtectionPolicy.cs.html">here</a> to see an example of how to use UpdateProtectionPolicy API.</example>
         public async Task<UpdateProtectionPolicyResponse> UpdateProtectionPolicy(UpdateProtectionPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateProtectionPolicy");
@@ -1494,7 +1494,7 @@ namespace Oci.RecoveryService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/UpdateRecoveryServiceSubnet.cs.html">here</a> to see an example of how to use UpdateRecoveryServiceSubnet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/UpdateRecoveryServiceSubnet.cs.html">here</a> to see an example of how to use UpdateRecoveryServiceSubnet API.</example>
         public async Task<UpdateRecoveryServiceSubnetResponse> UpdateRecoveryServiceSubnet(UpdateRecoveryServiceSubnetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRecoveryServiceSubnet");

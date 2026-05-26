@@ -14,7 +14,7 @@ using Oci.CapacitymanagementService.Models;
 namespace Oci.CapacitymanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/GetOccmDemandSignal.cs.html">here</a> to see an example of how to use GetOccmDemandSignal request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/GetOccmDemandSignal.cs.html">here</a> to see an example of how to use GetOccmDemandSignal request.
     /// </example>
     public class GetOccmDemandSignalRequest : Oci.Common.IOciRequest
     {

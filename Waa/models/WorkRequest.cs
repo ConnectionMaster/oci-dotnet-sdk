@@ -94,7 +94,7 @@ namespace Oci.WaaService.Models
         public System.Nullable<StatusEnum> Status { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the WorkRequest.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the WorkRequest.
         /// </value>
         /// <remarks>
         /// Required
@@ -104,7 +104,7 @@ namespace Oci.WaaService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment that contains the WorkRequest.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the WorkRequest.
         /// WorkRequests should be scoped to the same compartment as the resource the work request affects.
         /// 
         /// </value>

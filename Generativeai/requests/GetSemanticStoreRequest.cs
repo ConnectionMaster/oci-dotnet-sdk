@@ -14,13 +14,13 @@ using Oci.GenerativeaiService.Models;
 namespace Oci.GenerativeaiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetSemanticStore.cs.html">here</a> to see an example of how to use GetSemanticStore request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetSemanticStore.cs.html">here</a> to see an example of how to use GetSemanticStore request.
     /// </example>
     public class GetSemanticStoreRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the SemanticStore.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the SemanticStore.
         /// </value>
         /// <remarks>
         /// Required

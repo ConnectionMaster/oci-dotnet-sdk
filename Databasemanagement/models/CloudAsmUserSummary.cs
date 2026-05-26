@@ -42,7 +42,7 @@ namespace Oci.DatabasemanagementService.Models
         public System.Collections.Generic.List<string> Privileges { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the cloud ASM.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cloud ASM.
         /// </value>
         [JsonProperty(PropertyName = "asmId")]
         public string AsmId { get; set; }

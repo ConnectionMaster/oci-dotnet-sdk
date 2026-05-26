@@ -43,7 +43,7 @@ namespace Oci.GenerativeaiagentService.Models
         public string ClientId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the secret for client secret.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the secret for client secret.
         /// </value>
         /// <remarks>
         /// Required

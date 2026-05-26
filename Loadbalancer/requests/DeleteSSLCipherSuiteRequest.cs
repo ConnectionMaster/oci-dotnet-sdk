@@ -14,13 +14,13 @@ using Oci.LoadbalancerService.Models;
 namespace Oci.LoadbalancerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteSSLCipherSuite.cs.html">here</a> to see an example of how to use DeleteSSLCipherSuite request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/DeleteSSLCipherSuite.cs.html">here</a> to see an example of how to use DeleteSSLCipherSuite request.
     /// </example>
     public class DeleteSSLCipherSuiteRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the associated load balancer.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the associated load balancer.
         /// 
         /// </value>
         /// <remarks>

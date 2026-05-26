@@ -78,7 +78,7 @@ namespace Oci.OnesubscriptionService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/onesubscription/ListInvoicelineComputedUsages.cs.html">here</a> to see an example of how to use ListInvoicelineComputedUsages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/onesubscription/ListInvoicelineComputedUsages.cs.html">here</a> to see an example of how to use ListInvoicelineComputedUsages API.</example>
         public async Task<ListInvoicelineComputedUsagesResponse> ListInvoicelineComputedUsages(ListInvoicelineComputedUsagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInvoicelineComputedUsages");
@@ -135,7 +135,7 @@ namespace Oci.OnesubscriptionService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/onesubscription/ListInvoices.cs.html">here</a> to see an example of how to use ListInvoices API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/onesubscription/ListInvoices.cs.html">here</a> to see an example of how to use ListInvoices API.</example>
         public async Task<ListInvoicesResponse> ListInvoices(ListInvoicesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInvoices");

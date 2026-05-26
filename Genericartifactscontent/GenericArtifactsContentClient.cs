@@ -74,7 +74,7 @@ namespace Oci.GenericartifactscontentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/genericartifactscontent/GetGenericArtifactContent.cs.html">here</a> to see an example of how to use GetGenericArtifactContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/genericartifactscontent/GetGenericArtifactContent.cs.html">here</a> to see an example of how to use GetGenericArtifactContent API.</example>
         public async Task<GetGenericArtifactContentResponse> GetGenericArtifactContent(GetGenericArtifactContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getGenericArtifactContent");
@@ -130,7 +130,7 @@ namespace Oci.GenericartifactscontentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/genericartifactscontent/GetGenericArtifactContentByPath.cs.html">here</a> to see an example of how to use GetGenericArtifactContentByPath API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/genericartifactscontent/GetGenericArtifactContentByPath.cs.html">here</a> to see an example of how to use GetGenericArtifactContentByPath API.</example>
         public async Task<GetGenericArtifactContentByPathResponse> GetGenericArtifactContentByPath(GetGenericArtifactContentByPathRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getGenericArtifactContentByPath");
@@ -186,7 +186,7 @@ namespace Oci.GenericartifactscontentService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/genericartifactscontent/PutGenericArtifactContentByPath.cs.html">here</a> to see an example of how to use PutGenericArtifactContentByPath API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/genericartifactscontent/PutGenericArtifactContentByPath.cs.html">here</a> to see an example of how to use PutGenericArtifactContentByPath API.</example>
         public async Task<PutGenericArtifactContentByPathResponse> PutGenericArtifactContentByPath(PutGenericArtifactContentByPathRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putGenericArtifactContentByPath");

@@ -14,13 +14,13 @@ using Oci.GenerativeaiService.Models;
 namespace Oci.GenerativeaiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetDedicatedAiCluster.cs.html">here</a> to see an example of how to use GetDedicatedAiCluster request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetDedicatedAiCluster.cs.html">here</a> to see an example of how to use GetDedicatedAiCluster request.
     /// </example>
     public class GetDedicatedAiClusterRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the dedicated AI cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the dedicated AI cluster.
         /// </value>
         /// <remarks>
         /// Required

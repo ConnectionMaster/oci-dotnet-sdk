@@ -68,7 +68,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateApiKey.cs.html">here</a> to see an example of how to use CreateApiKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateApiKey.cs.html">here</a> to see an example of how to use CreateApiKey API.</example>
         public async Task<CreateApiKeyResponse> CreateApiKey(CreateApiKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createApiKey");
@@ -124,7 +124,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateApp.cs.html">here</a> to see an example of how to use CreateApp API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateApp.cs.html">here</a> to see an example of how to use CreateApp API.</example>
         public async Task<CreateAppResponse> CreateApp(CreateAppRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createApp");
@@ -180,7 +180,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateAppRole.cs.html">here</a> to see an example of how to use CreateAppRole API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateAppRole.cs.html">here</a> to see an example of how to use CreateAppRole API.</example>
         public async Task<CreateAppRoleResponse> CreateAppRole(CreateAppRoleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAppRole");
@@ -236,7 +236,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateApprovalWorkflow.cs.html">here</a> to see an example of how to use CreateApprovalWorkflow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateApprovalWorkflow.cs.html">here</a> to see an example of how to use CreateApprovalWorkflow API.</example>
         public async Task<CreateApprovalWorkflowResponse> CreateApprovalWorkflow(CreateApprovalWorkflowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createApprovalWorkflow");
@@ -292,7 +292,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateApprovalWorkflowAssignment.cs.html">here</a> to see an example of how to use CreateApprovalWorkflowAssignment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateApprovalWorkflowAssignment.cs.html">here</a> to see an example of how to use CreateApprovalWorkflowAssignment API.</example>
         public async Task<CreateApprovalWorkflowAssignmentResponse> CreateApprovalWorkflowAssignment(CreateApprovalWorkflowAssignmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createApprovalWorkflowAssignment");
@@ -348,7 +348,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateApprovalWorkflowStep.cs.html">here</a> to see an example of how to use CreateApprovalWorkflowStep API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateApprovalWorkflowStep.cs.html">here</a> to see an example of how to use CreateApprovalWorkflowStep API.</example>
         public async Task<CreateApprovalWorkflowStepResponse> CreateApprovalWorkflowStep(CreateApprovalWorkflowStepRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createApprovalWorkflowStep");
@@ -404,7 +404,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateAuthToken.cs.html">here</a> to see an example of how to use CreateAuthToken API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateAuthToken.cs.html">here</a> to see an example of how to use CreateAuthToken API.</example>
         public async Task<CreateAuthTokenResponse> CreateAuthToken(CreateAuthTokenRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAuthToken");
@@ -460,7 +460,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateAuthenticationFactorsRemover.cs.html">here</a> to see an example of how to use CreateAuthenticationFactorsRemover API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateAuthenticationFactorsRemover.cs.html">here</a> to see an example of how to use CreateAuthenticationFactorsRemover API.</example>
         public async Task<CreateAuthenticationFactorsRemoverResponse> CreateAuthenticationFactorsRemover(CreateAuthenticationFactorsRemoverRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAuthenticationFactorsRemover");
@@ -516,7 +516,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateCloudGate.cs.html">here</a> to see an example of how to use CreateCloudGate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateCloudGate.cs.html">here</a> to see an example of how to use CreateCloudGate API.</example>
         public async Task<CreateCloudGateResponse> CreateCloudGate(CreateCloudGateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCloudGate");
@@ -572,7 +572,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateCloudGateMapping.cs.html">here</a> to see an example of how to use CreateCloudGateMapping API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateCloudGateMapping.cs.html">here</a> to see an example of how to use CreateCloudGateMapping API.</example>
         public async Task<CreateCloudGateMappingResponse> CreateCloudGateMapping(CreateCloudGateMappingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCloudGateMapping");
@@ -628,7 +628,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateCloudGateServer.cs.html">here</a> to see an example of how to use CreateCloudGateServer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateCloudGateServer.cs.html">here</a> to see an example of how to use CreateCloudGateServer API.</example>
         public async Task<CreateCloudGateServerResponse> CreateCloudGateServer(CreateCloudGateServerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCloudGateServer");
@@ -684,7 +684,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateCondition.cs.html">here</a> to see an example of how to use CreateCondition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateCondition.cs.html">here</a> to see an example of how to use CreateCondition API.</example>
         public async Task<CreateConditionResponse> CreateCondition(CreateConditionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCondition");
@@ -740,7 +740,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateCustomerSecretKey.cs.html">here</a> to see an example of how to use CreateCustomerSecretKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateCustomerSecretKey.cs.html">here</a> to see an example of how to use CreateCustomerSecretKey API.</example>
         public async Task<CreateCustomerSecretKeyResponse> CreateCustomerSecretKey(CreateCustomerSecretKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCustomerSecretKey");
@@ -796,7 +796,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateDynamicResourceGroup.cs.html">here</a> to see an example of how to use CreateDynamicResourceGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateDynamicResourceGroup.cs.html">here</a> to see an example of how to use CreateDynamicResourceGroup API.</example>
         public async Task<CreateDynamicResourceGroupResponse> CreateDynamicResourceGroup(CreateDynamicResourceGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDynamicResourceGroup");
@@ -852,7 +852,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateGrant.cs.html">here</a> to see an example of how to use CreateGrant API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateGrant.cs.html">here</a> to see an example of how to use CreateGrant API.</example>
         public async Task<CreateGrantResponse> CreateGrant(CreateGrantRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createGrant");
@@ -908,7 +908,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateGroup.cs.html">here</a> to see an example of how to use CreateGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateGroup.cs.html">here</a> to see an example of how to use CreateGroup API.</example>
         public async Task<CreateGroupResponse> CreateGroup(CreateGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createGroup");
@@ -964,7 +964,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateIdentityProofingProvider.cs.html">here</a> to see an example of how to use CreateIdentityProofingProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateIdentityProofingProvider.cs.html">here</a> to see an example of how to use CreateIdentityProofingProvider API.</example>
         public async Task<CreateIdentityProofingProviderResponse> CreateIdentityProofingProvider(CreateIdentityProofingProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createIdentityProofingProvider");
@@ -1020,7 +1020,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateIdentityProofingProviderTemplate.cs.html">here</a> to see an example of how to use CreateIdentityProofingProviderTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateIdentityProofingProviderTemplate.cs.html">here</a> to see an example of how to use CreateIdentityProofingProviderTemplate API.</example>
         public async Task<CreateIdentityProofingProviderTemplateResponse> CreateIdentityProofingProviderTemplate(CreateIdentityProofingProviderTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createIdentityProofingProviderTemplate");
@@ -1076,7 +1076,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateIdentityPropagationTrust.cs.html">here</a> to see an example of how to use CreateIdentityPropagationTrust API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateIdentityPropagationTrust.cs.html">here</a> to see an example of how to use CreateIdentityPropagationTrust API.</example>
         public async Task<CreateIdentityPropagationTrustResponse> CreateIdentityPropagationTrust(CreateIdentityPropagationTrustRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createIdentityPropagationTrust");
@@ -1132,7 +1132,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateIdentityProvider.cs.html">here</a> to see an example of how to use CreateIdentityProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateIdentityProvider.cs.html">here</a> to see an example of how to use CreateIdentityProvider API.</example>
         public async Task<CreateIdentityProviderResponse> CreateIdentityProvider(CreateIdentityProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createIdentityProvider");
@@ -1188,7 +1188,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMe.cs.html">here</a> to see an example of how to use CreateMe API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMe.cs.html">here</a> to see an example of how to use CreateMe API.</example>
         public async Task<CreateMeResponse> CreateMe(CreateMeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMe");
@@ -1244,7 +1244,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyApiKey.cs.html">here</a> to see an example of how to use CreateMyApiKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyApiKey.cs.html">here</a> to see an example of how to use CreateMyApiKey API.</example>
         public async Task<CreateMyApiKeyResponse> CreateMyApiKey(CreateMyApiKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMyApiKey");
@@ -1300,7 +1300,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyAuthToken.cs.html">here</a> to see an example of how to use CreateMyAuthToken API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyAuthToken.cs.html">here</a> to see an example of how to use CreateMyAuthToken API.</example>
         public async Task<CreateMyAuthTokenResponse> CreateMyAuthToken(CreateMyAuthTokenRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMyAuthToken");
@@ -1356,7 +1356,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyAuthenticationFactorInitiator.cs.html">here</a> to see an example of how to use CreateMyAuthenticationFactorInitiator API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyAuthenticationFactorInitiator.cs.html">here</a> to see an example of how to use CreateMyAuthenticationFactorInitiator API.</example>
         public async Task<CreateMyAuthenticationFactorInitiatorResponse> CreateMyAuthenticationFactorInitiator(CreateMyAuthenticationFactorInitiatorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMyAuthenticationFactorInitiator");
@@ -1412,7 +1412,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyAuthenticationFactorValidator.cs.html">here</a> to see an example of how to use CreateMyAuthenticationFactorValidator API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyAuthenticationFactorValidator.cs.html">here</a> to see an example of how to use CreateMyAuthenticationFactorValidator API.</example>
         public async Task<CreateMyAuthenticationFactorValidatorResponse> CreateMyAuthenticationFactorValidator(CreateMyAuthenticationFactorValidatorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMyAuthenticationFactorValidator");
@@ -1468,7 +1468,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyAuthenticationFactorsRemover.cs.html">here</a> to see an example of how to use CreateMyAuthenticationFactorsRemover API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyAuthenticationFactorsRemover.cs.html">here</a> to see an example of how to use CreateMyAuthenticationFactorsRemover API.</example>
         public async Task<CreateMyAuthenticationFactorsRemoverResponse> CreateMyAuthenticationFactorsRemover(CreateMyAuthenticationFactorsRemoverRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMyAuthenticationFactorsRemover");
@@ -1524,7 +1524,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyCustomerSecretKey.cs.html">here</a> to see an example of how to use CreateMyCustomerSecretKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyCustomerSecretKey.cs.html">here</a> to see an example of how to use CreateMyCustomerSecretKey API.</example>
         public async Task<CreateMyCustomerSecretKeyResponse> CreateMyCustomerSecretKey(CreateMyCustomerSecretKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMyCustomerSecretKey");
@@ -1580,7 +1580,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyOAuth2ClientCredential.cs.html">here</a> to see an example of how to use CreateMyOAuth2ClientCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyOAuth2ClientCredential.cs.html">here</a> to see an example of how to use CreateMyOAuth2ClientCredential API.</example>
         public async Task<CreateMyOAuth2ClientCredentialResponse> CreateMyOAuth2ClientCredential(CreateMyOAuth2ClientCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMyOAuth2ClientCredential");
@@ -1636,7 +1636,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyRequest.cs.html">here</a> to see an example of how to use CreateMyRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyRequest.cs.html">here</a> to see an example of how to use CreateMyRequest API.</example>
         public async Task<CreateMyRequestResponse> CreateMyRequest(CreateMyRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMyRequest");
@@ -1692,7 +1692,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMySmtpCredential.cs.html">here</a> to see an example of how to use CreateMySmtpCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMySmtpCredential.cs.html">here</a> to see an example of how to use CreateMySmtpCredential API.</example>
         public async Task<CreateMySmtpCredentialResponse> CreateMySmtpCredential(CreateMySmtpCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMySmtpCredential");
@@ -1748,7 +1748,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMySupportAccount.cs.html">here</a> to see an example of how to use CreateMySupportAccount API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMySupportAccount.cs.html">here</a> to see an example of how to use CreateMySupportAccount API.</example>
         public async Task<CreateMySupportAccountResponse> CreateMySupportAccount(CreateMySupportAccountRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMySupportAccount");
@@ -1804,7 +1804,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyUserDbCredential.cs.html">here</a> to see an example of how to use CreateMyUserDbCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateMyUserDbCredential.cs.html">here</a> to see an example of how to use CreateMyUserDbCredential API.</example>
         public async Task<CreateMyUserDbCredentialResponse> CreateMyUserDbCredential(CreateMyUserDbCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMyUserDbCredential");
@@ -1860,7 +1860,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateNetworkPerimeter.cs.html">here</a> to see an example of how to use CreateNetworkPerimeter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateNetworkPerimeter.cs.html">here</a> to see an example of how to use CreateNetworkPerimeter API.</example>
         public async Task<CreateNetworkPerimeterResponse> CreateNetworkPerimeter(CreateNetworkPerimeterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createNetworkPerimeter");
@@ -1916,7 +1916,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateOAuth2ClientCredential.cs.html">here</a> to see an example of how to use CreateOAuth2ClientCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateOAuth2ClientCredential.cs.html">here</a> to see an example of how to use CreateOAuth2ClientCredential API.</example>
         public async Task<CreateOAuth2ClientCredentialResponse> CreateOAuth2ClientCredential(CreateOAuth2ClientCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOAuth2ClientCredential");
@@ -1972,7 +1972,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateOAuthClientCertificate.cs.html">here</a> to see an example of how to use CreateOAuthClientCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateOAuthClientCertificate.cs.html">here</a> to see an example of how to use CreateOAuthClientCertificate API.</example>
         public async Task<CreateOAuthClientCertificateResponse> CreateOAuthClientCertificate(CreateOAuthClientCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOAuthClientCertificate");
@@ -2028,7 +2028,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateOAuthPartnerCertificate.cs.html">here</a> to see an example of how to use CreateOAuthPartnerCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateOAuthPartnerCertificate.cs.html">here</a> to see an example of how to use CreateOAuthPartnerCertificate API.</example>
         public async Task<CreateOAuthPartnerCertificateResponse> CreateOAuthPartnerCertificate(CreateOAuthPartnerCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOAuthPartnerCertificate");
@@ -2084,7 +2084,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreatePasswordPolicy.cs.html">here</a> to see an example of how to use CreatePasswordPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreatePasswordPolicy.cs.html">here</a> to see an example of how to use CreatePasswordPolicy API.</example>
         public async Task<CreatePasswordPolicyResponse> CreatePasswordPolicy(CreatePasswordPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPasswordPolicy");
@@ -2140,7 +2140,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreatePolicy.cs.html">here</a> to see an example of how to use CreatePolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreatePolicy.cs.html">here</a> to see an example of how to use CreatePolicy API.</example>
         public async Task<CreatePolicyResponse> CreatePolicy(CreatePolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPolicy");
@@ -2196,7 +2196,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateRestoreOciConsolePolicy.cs.html">here</a> to see an example of how to use CreateRestoreOciConsolePolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateRestoreOciConsolePolicy.cs.html">here</a> to see an example of how to use CreateRestoreOciConsolePolicy API.</example>
         public async Task<CreateRestoreOciConsolePolicyResponse> CreateRestoreOciConsolePolicy(CreateRestoreOciConsolePolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRestoreOciConsolePolicy");
@@ -2252,7 +2252,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateRule.cs.html">here</a> to see an example of how to use CreateRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateRule.cs.html">here</a> to see an example of how to use CreateRule API.</example>
         public async Task<CreateRuleResponse> CreateRule(CreateRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRule");
@@ -2308,7 +2308,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateSecurityQuestion.cs.html">here</a> to see an example of how to use CreateSecurityQuestion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateSecurityQuestion.cs.html">here</a> to see an example of how to use CreateSecurityQuestion API.</example>
         public async Task<CreateSecurityQuestionResponse> CreateSecurityQuestion(CreateSecurityQuestionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSecurityQuestion");
@@ -2364,7 +2364,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateSelfRegistrationProfile.cs.html">here</a> to see an example of how to use CreateSelfRegistrationProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateSelfRegistrationProfile.cs.html">here</a> to see an example of how to use CreateSelfRegistrationProfile API.</example>
         public async Task<CreateSelfRegistrationProfileResponse> CreateSelfRegistrationProfile(CreateSelfRegistrationProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSelfRegistrationProfile");
@@ -2420,7 +2420,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateSmtpCredential.cs.html">here</a> to see an example of how to use CreateSmtpCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateSmtpCredential.cs.html">here</a> to see an example of how to use CreateSmtpCredential API.</example>
         public async Task<CreateSmtpCredentialResponse> CreateSmtpCredential(CreateSmtpCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSmtpCredential");
@@ -2476,7 +2476,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateSocialIdentityProvider.cs.html">here</a> to see an example of how to use CreateSocialIdentityProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateSocialIdentityProvider.cs.html">here</a> to see an example of how to use CreateSocialIdentityProvider API.</example>
         public async Task<CreateSocialIdentityProviderResponse> CreateSocialIdentityProvider(CreateSocialIdentityProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSocialIdentityProvider");
@@ -2532,7 +2532,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateUser.cs.html">here</a> to see an example of how to use CreateUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateUser.cs.html">here</a> to see an example of how to use CreateUser API.</example>
         public async Task<CreateUserResponse> CreateUser(CreateUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createUser");
@@ -2588,7 +2588,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateUserDbCredential.cs.html">here</a> to see an example of how to use CreateUserDbCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateUserDbCredential.cs.html">here</a> to see an example of how to use CreateUserDbCredential API.</example>
         public async Task<CreateUserDbCredentialResponse> CreateUserDbCredential(CreateUserDbCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createUserDbCredential");
@@ -2644,7 +2644,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateVerificationClaim.cs.html">here</a> to see an example of how to use CreateVerificationClaim API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreateVerificationClaim.cs.html">here</a> to see an example of how to use CreateVerificationClaim API.</example>
         public async Task<CreateVerificationClaimResponse> CreateVerificationClaim(CreateVerificationClaimRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVerificationClaim");
@@ -2700,7 +2700,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteApiKey.cs.html">here</a> to see an example of how to use DeleteApiKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteApiKey.cs.html">here</a> to see an example of how to use DeleteApiKey API.</example>
         public async Task<DeleteApiKeyResponse> DeleteApiKey(DeleteApiKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteApiKey");
@@ -2756,7 +2756,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteApp.cs.html">here</a> to see an example of how to use DeleteApp API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteApp.cs.html">here</a> to see an example of how to use DeleteApp API.</example>
         public async Task<DeleteAppResponse> DeleteApp(DeleteAppRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteApp");
@@ -2812,7 +2812,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteAppRole.cs.html">here</a> to see an example of how to use DeleteAppRole API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteAppRole.cs.html">here</a> to see an example of how to use DeleteAppRole API.</example>
         public async Task<DeleteAppRoleResponse> DeleteAppRole(DeleteAppRoleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAppRole");
@@ -2868,7 +2868,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteApprovalWorkflow.cs.html">here</a> to see an example of how to use DeleteApprovalWorkflow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteApprovalWorkflow.cs.html">here</a> to see an example of how to use DeleteApprovalWorkflow API.</example>
         public async Task<DeleteApprovalWorkflowResponse> DeleteApprovalWorkflow(DeleteApprovalWorkflowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteApprovalWorkflow");
@@ -2924,7 +2924,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteApprovalWorkflowAssignment.cs.html">here</a> to see an example of how to use DeleteApprovalWorkflowAssignment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteApprovalWorkflowAssignment.cs.html">here</a> to see an example of how to use DeleteApprovalWorkflowAssignment API.</example>
         public async Task<DeleteApprovalWorkflowAssignmentResponse> DeleteApprovalWorkflowAssignment(DeleteApprovalWorkflowAssignmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteApprovalWorkflowAssignment");
@@ -2980,7 +2980,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteApprovalWorkflowStep.cs.html">here</a> to see an example of how to use DeleteApprovalWorkflowStep API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteApprovalWorkflowStep.cs.html">here</a> to see an example of how to use DeleteApprovalWorkflowStep API.</example>
         public async Task<DeleteApprovalWorkflowStepResponse> DeleteApprovalWorkflowStep(DeleteApprovalWorkflowStepRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteApprovalWorkflowStep");
@@ -3036,7 +3036,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteAuthToken.cs.html">here</a> to see an example of how to use DeleteAuthToken API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteAuthToken.cs.html">here</a> to see an example of how to use DeleteAuthToken API.</example>
         public async Task<DeleteAuthTokenResponse> DeleteAuthToken(DeleteAuthTokenRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAuthToken");
@@ -3092,7 +3092,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteCloudGate.cs.html">here</a> to see an example of how to use DeleteCloudGate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteCloudGate.cs.html">here</a> to see an example of how to use DeleteCloudGate API.</example>
         public async Task<DeleteCloudGateResponse> DeleteCloudGate(DeleteCloudGateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCloudGate");
@@ -3148,7 +3148,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteCloudGateMapping.cs.html">here</a> to see an example of how to use DeleteCloudGateMapping API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteCloudGateMapping.cs.html">here</a> to see an example of how to use DeleteCloudGateMapping API.</example>
         public async Task<DeleteCloudGateMappingResponse> DeleteCloudGateMapping(DeleteCloudGateMappingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCloudGateMapping");
@@ -3204,7 +3204,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteCloudGateServer.cs.html">here</a> to see an example of how to use DeleteCloudGateServer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteCloudGateServer.cs.html">here</a> to see an example of how to use DeleteCloudGateServer API.</example>
         public async Task<DeleteCloudGateServerResponse> DeleteCloudGateServer(DeleteCloudGateServerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCloudGateServer");
@@ -3260,7 +3260,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteCondition.cs.html">here</a> to see an example of how to use DeleteCondition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteCondition.cs.html">here</a> to see an example of how to use DeleteCondition API.</example>
         public async Task<DeleteConditionResponse> DeleteCondition(DeleteConditionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCondition");
@@ -3316,7 +3316,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteCustomerSecretKey.cs.html">here</a> to see an example of how to use DeleteCustomerSecretKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteCustomerSecretKey.cs.html">here</a> to see an example of how to use DeleteCustomerSecretKey API.</example>
         public async Task<DeleteCustomerSecretKeyResponse> DeleteCustomerSecretKey(DeleteCustomerSecretKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCustomerSecretKey");
@@ -3372,7 +3372,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteDynamicResourceGroup.cs.html">here</a> to see an example of how to use DeleteDynamicResourceGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteDynamicResourceGroup.cs.html">here</a> to see an example of how to use DeleteDynamicResourceGroup API.</example>
         public async Task<DeleteDynamicResourceGroupResponse> DeleteDynamicResourceGroup(DeleteDynamicResourceGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDynamicResourceGroup");
@@ -3428,7 +3428,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteGrant.cs.html">here</a> to see an example of how to use DeleteGrant API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteGrant.cs.html">here</a> to see an example of how to use DeleteGrant API.</example>
         public async Task<DeleteGrantResponse> DeleteGrant(DeleteGrantRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteGrant");
@@ -3484,7 +3484,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteGroup.cs.html">here</a> to see an example of how to use DeleteGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteGroup.cs.html">here</a> to see an example of how to use DeleteGroup API.</example>
         public async Task<DeleteGroupResponse> DeleteGroup(DeleteGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteGroup");
@@ -3540,7 +3540,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteIdentityProofingProvider.cs.html">here</a> to see an example of how to use DeleteIdentityProofingProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteIdentityProofingProvider.cs.html">here</a> to see an example of how to use DeleteIdentityProofingProvider API.</example>
         public async Task<DeleteIdentityProofingProviderResponse> DeleteIdentityProofingProvider(DeleteIdentityProofingProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteIdentityProofingProvider");
@@ -3596,7 +3596,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteIdentityProofingProviderTemplate.cs.html">here</a> to see an example of how to use DeleteIdentityProofingProviderTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteIdentityProofingProviderTemplate.cs.html">here</a> to see an example of how to use DeleteIdentityProofingProviderTemplate API.</example>
         public async Task<DeleteIdentityProofingProviderTemplateResponse> DeleteIdentityProofingProviderTemplate(DeleteIdentityProofingProviderTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteIdentityProofingProviderTemplate");
@@ -3652,7 +3652,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteIdentityPropagationTrust.cs.html">here</a> to see an example of how to use DeleteIdentityPropagationTrust API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteIdentityPropagationTrust.cs.html">here</a> to see an example of how to use DeleteIdentityPropagationTrust API.</example>
         public async Task<DeleteIdentityPropagationTrustResponse> DeleteIdentityPropagationTrust(DeleteIdentityPropagationTrustRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteIdentityPropagationTrust");
@@ -3708,7 +3708,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteIdentityProvider.cs.html">here</a> to see an example of how to use DeleteIdentityProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteIdentityProvider.cs.html">here</a> to see an example of how to use DeleteIdentityProvider API.</example>
         public async Task<DeleteIdentityProviderResponse> DeleteIdentityProvider(DeleteIdentityProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteIdentityProvider");
@@ -3764,7 +3764,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMyApiKey.cs.html">here</a> to see an example of how to use DeleteMyApiKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMyApiKey.cs.html">here</a> to see an example of how to use DeleteMyApiKey API.</example>
         public async Task<DeleteMyApiKeyResponse> DeleteMyApiKey(DeleteMyApiKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMyApiKey");
@@ -3820,7 +3820,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMyAuthToken.cs.html">here</a> to see an example of how to use DeleteMyAuthToken API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMyAuthToken.cs.html">here</a> to see an example of how to use DeleteMyAuthToken API.</example>
         public async Task<DeleteMyAuthTokenResponse> DeleteMyAuthToken(DeleteMyAuthTokenRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMyAuthToken");
@@ -3876,7 +3876,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMyCustomerSecretKey.cs.html">here</a> to see an example of how to use DeleteMyCustomerSecretKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMyCustomerSecretKey.cs.html">here</a> to see an example of how to use DeleteMyCustomerSecretKey API.</example>
         public async Task<DeleteMyCustomerSecretKeyResponse> DeleteMyCustomerSecretKey(DeleteMyCustomerSecretKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMyCustomerSecretKey");
@@ -3932,7 +3932,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMyDevice.cs.html">here</a> to see an example of how to use DeleteMyDevice API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMyDevice.cs.html">here</a> to see an example of how to use DeleteMyDevice API.</example>
         public async Task<DeleteMyDeviceResponse> DeleteMyDevice(DeleteMyDeviceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMyDevice");
@@ -3988,7 +3988,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMyOAuth2ClientCredential.cs.html">here</a> to see an example of how to use DeleteMyOAuth2ClientCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMyOAuth2ClientCredential.cs.html">here</a> to see an example of how to use DeleteMyOAuth2ClientCredential API.</example>
         public async Task<DeleteMyOAuth2ClientCredentialResponse> DeleteMyOAuth2ClientCredential(DeleteMyOAuth2ClientCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMyOAuth2ClientCredential");
@@ -4044,7 +4044,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMySmtpCredential.cs.html">here</a> to see an example of how to use DeleteMySmtpCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMySmtpCredential.cs.html">here</a> to see an example of how to use DeleteMySmtpCredential API.</example>
         public async Task<DeleteMySmtpCredentialResponse> DeleteMySmtpCredential(DeleteMySmtpCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMySmtpCredential");
@@ -4100,7 +4100,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMySupportAccount.cs.html">here</a> to see an example of how to use DeleteMySupportAccount API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMySupportAccount.cs.html">here</a> to see an example of how to use DeleteMySupportAccount API.</example>
         public async Task<DeleteMySupportAccountResponse> DeleteMySupportAccount(DeleteMySupportAccountRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMySupportAccount");
@@ -4156,7 +4156,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMyTrustedUserAgent.cs.html">here</a> to see an example of how to use DeleteMyTrustedUserAgent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMyTrustedUserAgent.cs.html">here</a> to see an example of how to use DeleteMyTrustedUserAgent API.</example>
         public async Task<DeleteMyTrustedUserAgentResponse> DeleteMyTrustedUserAgent(DeleteMyTrustedUserAgentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMyTrustedUserAgent");
@@ -4212,7 +4212,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMyUserDbCredential.cs.html">here</a> to see an example of how to use DeleteMyUserDbCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteMyUserDbCredential.cs.html">here</a> to see an example of how to use DeleteMyUserDbCredential API.</example>
         public async Task<DeleteMyUserDbCredentialResponse> DeleteMyUserDbCredential(DeleteMyUserDbCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMyUserDbCredential");
@@ -4268,7 +4268,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteNetworkPerimeter.cs.html">here</a> to see an example of how to use DeleteNetworkPerimeter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteNetworkPerimeter.cs.html">here</a> to see an example of how to use DeleteNetworkPerimeter API.</example>
         public async Task<DeleteNetworkPerimeterResponse> DeleteNetworkPerimeter(DeleteNetworkPerimeterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteNetworkPerimeter");
@@ -4324,7 +4324,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteOAuth2ClientCredential.cs.html">here</a> to see an example of how to use DeleteOAuth2ClientCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteOAuth2ClientCredential.cs.html">here</a> to see an example of how to use DeleteOAuth2ClientCredential API.</example>
         public async Task<DeleteOAuth2ClientCredentialResponse> DeleteOAuth2ClientCredential(DeleteOAuth2ClientCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOAuth2ClientCredential");
@@ -4380,7 +4380,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteOAuthClientCertificate.cs.html">here</a> to see an example of how to use DeleteOAuthClientCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteOAuthClientCertificate.cs.html">here</a> to see an example of how to use DeleteOAuthClientCertificate API.</example>
         public async Task<DeleteOAuthClientCertificateResponse> DeleteOAuthClientCertificate(DeleteOAuthClientCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOAuthClientCertificate");
@@ -4436,7 +4436,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteOAuthPartnerCertificate.cs.html">here</a> to see an example of how to use DeleteOAuthPartnerCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteOAuthPartnerCertificate.cs.html">here</a> to see an example of how to use DeleteOAuthPartnerCertificate API.</example>
         public async Task<DeleteOAuthPartnerCertificateResponse> DeleteOAuthPartnerCertificate(DeleteOAuthPartnerCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOAuthPartnerCertificate");
@@ -4492,7 +4492,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeletePasswordPolicy.cs.html">here</a> to see an example of how to use DeletePasswordPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeletePasswordPolicy.cs.html">here</a> to see an example of how to use DeletePasswordPolicy API.</example>
         public async Task<DeletePasswordPolicyResponse> DeletePasswordPolicy(DeletePasswordPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePasswordPolicy");
@@ -4548,7 +4548,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeletePolicy.cs.html">here</a> to see an example of how to use DeletePolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeletePolicy.cs.html">here</a> to see an example of how to use DeletePolicy API.</example>
         public async Task<DeletePolicyResponse> DeletePolicy(DeletePolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePolicy");
@@ -4604,7 +4604,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteRule.cs.html">here</a> to see an example of how to use DeleteRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteRule.cs.html">here</a> to see an example of how to use DeleteRule API.</example>
         public async Task<DeleteRuleResponse> DeleteRule(DeleteRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRule");
@@ -4660,7 +4660,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteSecurityQuestion.cs.html">here</a> to see an example of how to use DeleteSecurityQuestion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteSecurityQuestion.cs.html">here</a> to see an example of how to use DeleteSecurityQuestion API.</example>
         public async Task<DeleteSecurityQuestionResponse> DeleteSecurityQuestion(DeleteSecurityQuestionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSecurityQuestion");
@@ -4716,7 +4716,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteSelfRegistrationProfile.cs.html">here</a> to see an example of how to use DeleteSelfRegistrationProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteSelfRegistrationProfile.cs.html">here</a> to see an example of how to use DeleteSelfRegistrationProfile API.</example>
         public async Task<DeleteSelfRegistrationProfileResponse> DeleteSelfRegistrationProfile(DeleteSelfRegistrationProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSelfRegistrationProfile");
@@ -4772,7 +4772,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteSmtpCredential.cs.html">here</a> to see an example of how to use DeleteSmtpCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteSmtpCredential.cs.html">here</a> to see an example of how to use DeleteSmtpCredential API.</example>
         public async Task<DeleteSmtpCredentialResponse> DeleteSmtpCredential(DeleteSmtpCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSmtpCredential");
@@ -4828,7 +4828,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteSocialIdentityProvider.cs.html">here</a> to see an example of how to use DeleteSocialIdentityProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteSocialIdentityProvider.cs.html">here</a> to see an example of how to use DeleteSocialIdentityProvider API.</example>
         public async Task<DeleteSocialIdentityProviderResponse> DeleteSocialIdentityProvider(DeleteSocialIdentityProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSocialIdentityProvider");
@@ -4884,7 +4884,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteUser.cs.html">here</a> to see an example of how to use DeleteUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteUser.cs.html">here</a> to see an example of how to use DeleteUser API.</example>
         public async Task<DeleteUserResponse> DeleteUser(DeleteUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteUser");
@@ -4940,7 +4940,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteUserDbCredential.cs.html">here</a> to see an example of how to use DeleteUserDbCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/DeleteUserDbCredential.cs.html">here</a> to see an example of how to use DeleteUserDbCredential API.</example>
         public async Task<DeleteUserDbCredentialResponse> DeleteUserDbCredential(DeleteUserDbCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteUserDbCredential");
@@ -4996,7 +4996,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetAccountMgmtInfo.cs.html">here</a> to see an example of how to use GetAccountMgmtInfo API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetAccountMgmtInfo.cs.html">here</a> to see an example of how to use GetAccountMgmtInfo API.</example>
         public async Task<GetAccountMgmtInfoResponse> GetAccountMgmtInfo(GetAccountMgmtInfoRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAccountMgmtInfo");
@@ -5052,7 +5052,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetAccountRecoverySetting.cs.html">here</a> to see an example of how to use GetAccountRecoverySetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetAccountRecoverySetting.cs.html">here</a> to see an example of how to use GetAccountRecoverySetting API.</example>
         public async Task<GetAccountRecoverySettingResponse> GetAccountRecoverySetting(GetAccountRecoverySettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAccountRecoverySetting");
@@ -5108,7 +5108,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetApiKey.cs.html">here</a> to see an example of how to use GetApiKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetApiKey.cs.html">here</a> to see an example of how to use GetApiKey API.</example>
         public async Task<GetApiKeyResponse> GetApiKey(GetApiKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getApiKey");
@@ -5164,7 +5164,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetApp.cs.html">here</a> to see an example of how to use GetApp API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetApp.cs.html">here</a> to see an example of how to use GetApp API.</example>
         public async Task<GetAppResponse> GetApp(GetAppRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getApp");
@@ -5220,7 +5220,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetAppRole.cs.html">here</a> to see an example of how to use GetAppRole API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetAppRole.cs.html">here</a> to see an example of how to use GetAppRole API.</example>
         public async Task<GetAppRoleResponse> GetAppRole(GetAppRoleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAppRole");
@@ -5276,7 +5276,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetApprovalWorkflow.cs.html">here</a> to see an example of how to use GetApprovalWorkflow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetApprovalWorkflow.cs.html">here</a> to see an example of how to use GetApprovalWorkflow API.</example>
         public async Task<GetApprovalWorkflowResponse> GetApprovalWorkflow(GetApprovalWorkflowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getApprovalWorkflow");
@@ -5332,7 +5332,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetApprovalWorkflowAssignment.cs.html">here</a> to see an example of how to use GetApprovalWorkflowAssignment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetApprovalWorkflowAssignment.cs.html">here</a> to see an example of how to use GetApprovalWorkflowAssignment API.</example>
         public async Task<GetApprovalWorkflowAssignmentResponse> GetApprovalWorkflowAssignment(GetApprovalWorkflowAssignmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getApprovalWorkflowAssignment");
@@ -5388,7 +5388,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetApprovalWorkflowStep.cs.html">here</a> to see an example of how to use GetApprovalWorkflowStep API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetApprovalWorkflowStep.cs.html">here</a> to see an example of how to use GetApprovalWorkflowStep API.</example>
         public async Task<GetApprovalWorkflowStepResponse> GetApprovalWorkflowStep(GetApprovalWorkflowStepRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getApprovalWorkflowStep");
@@ -5444,7 +5444,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetAuthToken.cs.html">here</a> to see an example of how to use GetAuthToken API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetAuthToken.cs.html">here</a> to see an example of how to use GetAuthToken API.</example>
         public async Task<GetAuthTokenResponse> GetAuthToken(GetAuthTokenRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAuthToken");
@@ -5500,7 +5500,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetAuthenticationFactorSetting.cs.html">here</a> to see an example of how to use GetAuthenticationFactorSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetAuthenticationFactorSetting.cs.html">here</a> to see an example of how to use GetAuthenticationFactorSetting API.</example>
         public async Task<GetAuthenticationFactorSettingResponse> GetAuthenticationFactorSetting(GetAuthenticationFactorSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAuthenticationFactorSetting");
@@ -5556,7 +5556,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetBrandingSetting.cs.html">here</a> to see an example of how to use GetBrandingSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetBrandingSetting.cs.html">here</a> to see an example of how to use GetBrandingSetting API.</example>
         public async Task<GetBrandingSettingResponse> GetBrandingSetting(GetBrandingSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBrandingSetting");
@@ -5612,7 +5612,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetCloudGate.cs.html">here</a> to see an example of how to use GetCloudGate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetCloudGate.cs.html">here</a> to see an example of how to use GetCloudGate API.</example>
         public async Task<GetCloudGateResponse> GetCloudGate(GetCloudGateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCloudGate");
@@ -5668,7 +5668,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetCloudGateMapping.cs.html">here</a> to see an example of how to use GetCloudGateMapping API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetCloudGateMapping.cs.html">here</a> to see an example of how to use GetCloudGateMapping API.</example>
         public async Task<GetCloudGateMappingResponse> GetCloudGateMapping(GetCloudGateMappingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCloudGateMapping");
@@ -5724,7 +5724,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetCloudGateServer.cs.html">here</a> to see an example of how to use GetCloudGateServer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetCloudGateServer.cs.html">here</a> to see an example of how to use GetCloudGateServer API.</example>
         public async Task<GetCloudGateServerResponse> GetCloudGateServer(GetCloudGateServerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCloudGateServer");
@@ -5780,7 +5780,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetCondition.cs.html">here</a> to see an example of how to use GetCondition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetCondition.cs.html">here</a> to see an example of how to use GetCondition API.</example>
         public async Task<GetConditionResponse> GetCondition(GetConditionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCondition");
@@ -5836,7 +5836,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetCustomerSecretKey.cs.html">here</a> to see an example of how to use GetCustomerSecretKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetCustomerSecretKey.cs.html">here</a> to see an example of how to use GetCustomerSecretKey API.</example>
         public async Task<GetCustomerSecretKeyResponse> GetCustomerSecretKey(GetCustomerSecretKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCustomerSecretKey");
@@ -5892,7 +5892,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetDynamicResourceGroup.cs.html">here</a> to see an example of how to use GetDynamicResourceGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetDynamicResourceGroup.cs.html">here</a> to see an example of how to use GetDynamicResourceGroup API.</example>
         public async Task<GetDynamicResourceGroupResponse> GetDynamicResourceGroup(GetDynamicResourceGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDynamicResourceGroup");
@@ -5948,7 +5948,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetGrant.cs.html">here</a> to see an example of how to use GetGrant API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetGrant.cs.html">here</a> to see an example of how to use GetGrant API.</example>
         public async Task<GetGrantResponse> GetGrant(GetGrantRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getGrant");
@@ -6004,7 +6004,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetGroup.cs.html">here</a> to see an example of how to use GetGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetGroup.cs.html">here</a> to see an example of how to use GetGroup API.</example>
         public async Task<GetGroupResponse> GetGroup(GetGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getGroup");
@@ -6060,7 +6060,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetIdentityProofingProvider.cs.html">here</a> to see an example of how to use GetIdentityProofingProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetIdentityProofingProvider.cs.html">here</a> to see an example of how to use GetIdentityProofingProvider API.</example>
         public async Task<GetIdentityProofingProviderResponse> GetIdentityProofingProvider(GetIdentityProofingProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIdentityProofingProvider");
@@ -6116,7 +6116,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetIdentityProofingProviderTemplate.cs.html">here</a> to see an example of how to use GetIdentityProofingProviderTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetIdentityProofingProviderTemplate.cs.html">here</a> to see an example of how to use GetIdentityProofingProviderTemplate API.</example>
         public async Task<GetIdentityProofingProviderTemplateResponse> GetIdentityProofingProviderTemplate(GetIdentityProofingProviderTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIdentityProofingProviderTemplate");
@@ -6172,7 +6172,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetIdentityPropagationTrust.cs.html">here</a> to see an example of how to use GetIdentityPropagationTrust API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetIdentityPropagationTrust.cs.html">here</a> to see an example of how to use GetIdentityPropagationTrust API.</example>
         public async Task<GetIdentityPropagationTrustResponse> GetIdentityPropagationTrust(GetIdentityPropagationTrustRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIdentityPropagationTrust");
@@ -6228,7 +6228,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetIdentityProvider.cs.html">here</a> to see an example of how to use GetIdentityProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetIdentityProvider.cs.html">here</a> to see an example of how to use GetIdentityProvider API.</example>
         public async Task<GetIdentityProviderResponse> GetIdentityProvider(GetIdentityProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIdentityProvider");
@@ -6284,7 +6284,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetIdentitySetting.cs.html">here</a> to see an example of how to use GetIdentitySetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetIdentitySetting.cs.html">here</a> to see an example of how to use GetIdentitySetting API.</example>
         public async Task<GetIdentitySettingResponse> GetIdentitySetting(GetIdentitySettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIdentitySetting");
@@ -6340,7 +6340,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetKmsiSetting.cs.html">here</a> to see an example of how to use GetKmsiSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetKmsiSetting.cs.html">here</a> to see an example of how to use GetKmsiSetting API.</example>
         public async Task<GetKmsiSettingResponse> GetKmsiSetting(GetKmsiSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getKmsiSetting");
@@ -6396,7 +6396,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMappedAttribute.cs.html">here</a> to see an example of how to use GetMappedAttribute API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMappedAttribute.cs.html">here</a> to see an example of how to use GetMappedAttribute API.</example>
         public async Task<GetMappedAttributeResponse> GetMappedAttribute(GetMappedAttributeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMappedAttribute");
@@ -6452,7 +6452,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMe.cs.html">here</a> to see an example of how to use GetMe API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMe.cs.html">here</a> to see an example of how to use GetMe API.</example>
         public async Task<GetMeResponse> GetMe(GetMeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMe");
@@ -6508,7 +6508,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyApiKey.cs.html">here</a> to see an example of how to use GetMyApiKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyApiKey.cs.html">here</a> to see an example of how to use GetMyApiKey API.</example>
         public async Task<GetMyApiKeyResponse> GetMyApiKey(GetMyApiKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMyApiKey");
@@ -6564,7 +6564,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyAuthToken.cs.html">here</a> to see an example of how to use GetMyAuthToken API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyAuthToken.cs.html">here</a> to see an example of how to use GetMyAuthToken API.</example>
         public async Task<GetMyAuthTokenResponse> GetMyAuthToken(GetMyAuthTokenRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMyAuthToken");
@@ -6620,7 +6620,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyCompletedApproval.cs.html">here</a> to see an example of how to use GetMyCompletedApproval API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyCompletedApproval.cs.html">here</a> to see an example of how to use GetMyCompletedApproval API.</example>
         public async Task<GetMyCompletedApprovalResponse> GetMyCompletedApproval(GetMyCompletedApprovalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMyCompletedApproval");
@@ -6676,7 +6676,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyCustomerSecretKey.cs.html">here</a> to see an example of how to use GetMyCustomerSecretKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyCustomerSecretKey.cs.html">here</a> to see an example of how to use GetMyCustomerSecretKey API.</example>
         public async Task<GetMyCustomerSecretKeyResponse> GetMyCustomerSecretKey(GetMyCustomerSecretKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMyCustomerSecretKey");
@@ -6732,7 +6732,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyDevice.cs.html">here</a> to see an example of how to use GetMyDevice API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyDevice.cs.html">here</a> to see an example of how to use GetMyDevice API.</example>
         public async Task<GetMyDeviceResponse> GetMyDevice(GetMyDeviceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMyDevice");
@@ -6788,7 +6788,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyOAuth2ClientCredential.cs.html">here</a> to see an example of how to use GetMyOAuth2ClientCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyOAuth2ClientCredential.cs.html">here</a> to see an example of how to use GetMyOAuth2ClientCredential API.</example>
         public async Task<GetMyOAuth2ClientCredentialResponse> GetMyOAuth2ClientCredential(GetMyOAuth2ClientCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMyOAuth2ClientCredential");
@@ -6844,7 +6844,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyPendingApproval.cs.html">here</a> to see an example of how to use GetMyPendingApproval API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyPendingApproval.cs.html">here</a> to see an example of how to use GetMyPendingApproval API.</example>
         public async Task<GetMyPendingApprovalResponse> GetMyPendingApproval(GetMyPendingApprovalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMyPendingApproval");
@@ -6900,7 +6900,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyRequest.cs.html">here</a> to see an example of how to use GetMyRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyRequest.cs.html">here</a> to see an example of how to use GetMyRequest API.</example>
         public async Task<GetMyRequestResponse> GetMyRequest(GetMyRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMyRequest");
@@ -6956,7 +6956,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMySmtpCredential.cs.html">here</a> to see an example of how to use GetMySmtpCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMySmtpCredential.cs.html">here</a> to see an example of how to use GetMySmtpCredential API.</example>
         public async Task<GetMySmtpCredentialResponse> GetMySmtpCredential(GetMySmtpCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMySmtpCredential");
@@ -7012,7 +7012,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMySupportAccount.cs.html">here</a> to see an example of how to use GetMySupportAccount API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMySupportAccount.cs.html">here</a> to see an example of how to use GetMySupportAccount API.</example>
         public async Task<GetMySupportAccountResponse> GetMySupportAccount(GetMySupportAccountRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMySupportAccount");
@@ -7068,7 +7068,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyTrustedUserAgent.cs.html">here</a> to see an example of how to use GetMyTrustedUserAgent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyTrustedUserAgent.cs.html">here</a> to see an example of how to use GetMyTrustedUserAgent API.</example>
         public async Task<GetMyTrustedUserAgentResponse> GetMyTrustedUserAgent(GetMyTrustedUserAgentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMyTrustedUserAgent");
@@ -7124,7 +7124,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyUserDbCredential.cs.html">here</a> to see an example of how to use GetMyUserDbCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyUserDbCredential.cs.html">here</a> to see an example of how to use GetMyUserDbCredential API.</example>
         public async Task<GetMyUserDbCredentialResponse> GetMyUserDbCredential(GetMyUserDbCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMyUserDbCredential");
@@ -7180,7 +7180,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetNetworkPerimeter.cs.html">here</a> to see an example of how to use GetNetworkPerimeter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetNetworkPerimeter.cs.html">here</a> to see an example of how to use GetNetworkPerimeter API.</example>
         public async Task<GetNetworkPerimeterResponse> GetNetworkPerimeter(GetNetworkPerimeterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNetworkPerimeter");
@@ -7236,7 +7236,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetNotificationSetting.cs.html">here</a> to see an example of how to use GetNotificationSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetNotificationSetting.cs.html">here</a> to see an example of how to use GetNotificationSetting API.</example>
         public async Task<GetNotificationSettingResponse> GetNotificationSetting(GetNotificationSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNotificationSetting");
@@ -7292,7 +7292,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetOAuth2ClientCredential.cs.html">here</a> to see an example of how to use GetOAuth2ClientCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetOAuth2ClientCredential.cs.html">here</a> to see an example of how to use GetOAuth2ClientCredential API.</example>
         public async Task<GetOAuth2ClientCredentialResponse> GetOAuth2ClientCredential(GetOAuth2ClientCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOAuth2ClientCredential");
@@ -7348,7 +7348,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetOAuthClientCertificate.cs.html">here</a> to see an example of how to use GetOAuthClientCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetOAuthClientCertificate.cs.html">here</a> to see an example of how to use GetOAuthClientCertificate API.</example>
         public async Task<GetOAuthClientCertificateResponse> GetOAuthClientCertificate(GetOAuthClientCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOAuthClientCertificate");
@@ -7404,7 +7404,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetOAuthPartnerCertificate.cs.html">here</a> to see an example of how to use GetOAuthPartnerCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetOAuthPartnerCertificate.cs.html">here</a> to see an example of how to use GetOAuthPartnerCertificate API.</example>
         public async Task<GetOAuthPartnerCertificateResponse> GetOAuthPartnerCertificate(GetOAuthPartnerCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOAuthPartnerCertificate");
@@ -7460,7 +7460,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetOciConsoleSignOnPolicyConsent.cs.html">here</a> to see an example of how to use GetOciConsoleSignOnPolicyConsent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetOciConsoleSignOnPolicyConsent.cs.html">here</a> to see an example of how to use GetOciConsoleSignOnPolicyConsent API.</example>
         public async Task<GetOciConsoleSignOnPolicyConsentResponse> GetOciConsoleSignOnPolicyConsent(GetOciConsoleSignOnPolicyConsentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOciConsoleSignOnPolicyConsent");
@@ -7516,7 +7516,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetPasswordPolicy.cs.html">here</a> to see an example of how to use GetPasswordPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetPasswordPolicy.cs.html">here</a> to see an example of how to use GetPasswordPolicy API.</example>
         public async Task<GetPasswordPolicyResponse> GetPasswordPolicy(GetPasswordPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPasswordPolicy");
@@ -7572,7 +7572,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetPolicy.cs.html">here</a> to see an example of how to use GetPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetPolicy.cs.html">here</a> to see an example of how to use GetPolicy API.</example>
         public async Task<GetPolicyResponse> GetPolicy(GetPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPolicy");
@@ -7628,7 +7628,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetRule.cs.html">here</a> to see an example of how to use GetRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetRule.cs.html">here</a> to see an example of how to use GetRule API.</example>
         public async Task<GetRuleResponse> GetRule(GetRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRule");
@@ -7684,7 +7684,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetSchema.cs.html">here</a> to see an example of how to use GetSchema API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetSchema.cs.html">here</a> to see an example of how to use GetSchema API.</example>
         public async Task<GetSchemaResponse> GetSchema(GetSchemaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSchema");
@@ -7740,7 +7740,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetSecurityQuestion.cs.html">here</a> to see an example of how to use GetSecurityQuestion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetSecurityQuestion.cs.html">here</a> to see an example of how to use GetSecurityQuestion API.</example>
         public async Task<GetSecurityQuestionResponse> GetSecurityQuestion(GetSecurityQuestionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecurityQuestion");
@@ -7796,7 +7796,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetSecurityQuestionSetting.cs.html">here</a> to see an example of how to use GetSecurityQuestionSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetSecurityQuestionSetting.cs.html">here</a> to see an example of how to use GetSecurityQuestionSetting API.</example>
         public async Task<GetSecurityQuestionSettingResponse> GetSecurityQuestionSetting(GetSecurityQuestionSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecurityQuestionSetting");
@@ -7852,7 +7852,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetSelfRegistrationProfile.cs.html">here</a> to see an example of how to use GetSelfRegistrationProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetSelfRegistrationProfile.cs.html">here</a> to see an example of how to use GetSelfRegistrationProfile API.</example>
         public async Task<GetSelfRegistrationProfileResponse> GetSelfRegistrationProfile(GetSelfRegistrationProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSelfRegistrationProfile");
@@ -7908,7 +7908,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetSetting.cs.html">here</a> to see an example of how to use GetSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetSetting.cs.html">here</a> to see an example of how to use GetSetting API.</example>
         public async Task<GetSettingResponse> GetSetting(GetSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSetting");
@@ -7964,7 +7964,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetSmtpCredential.cs.html">here</a> to see an example of how to use GetSmtpCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetSmtpCredential.cs.html">here</a> to see an example of how to use GetSmtpCredential API.</example>
         public async Task<GetSmtpCredentialResponse> GetSmtpCredential(GetSmtpCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSmtpCredential");
@@ -8020,7 +8020,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetSocialIdentityProvider.cs.html">here</a> to see an example of how to use GetSocialIdentityProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetSocialIdentityProvider.cs.html">here</a> to see an example of how to use GetSocialIdentityProvider API.</example>
         public async Task<GetSocialIdentityProviderResponse> GetSocialIdentityProvider(GetSocialIdentityProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSocialIdentityProvider");
@@ -8076,7 +8076,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetUser.cs.html">here</a> to see an example of how to use GetUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetUser.cs.html">here</a> to see an example of how to use GetUser API.</example>
         public async Task<GetUserResponse> GetUser(GetUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getUser");
@@ -8132,7 +8132,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetUserAttributesSetting.cs.html">here</a> to see an example of how to use GetUserAttributesSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetUserAttributesSetting.cs.html">here</a> to see an example of how to use GetUserAttributesSetting API.</example>
         public async Task<GetUserAttributesSettingResponse> GetUserAttributesSetting(GetUserAttributesSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getUserAttributesSetting");
@@ -8188,7 +8188,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetUserDbCredential.cs.html">here</a> to see an example of how to use GetUserDbCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetUserDbCredential.cs.html">here</a> to see an example of how to use GetUserDbCredential API.</example>
         public async Task<GetUserDbCredentialResponse> GetUserDbCredential(GetUserDbCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getUserDbCredential");
@@ -8244,7 +8244,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListAccountMgmtInfos.cs.html">here</a> to see an example of how to use ListAccountMgmtInfos API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListAccountMgmtInfos.cs.html">here</a> to see an example of how to use ListAccountMgmtInfos API.</example>
         public async Task<ListAccountMgmtInfosResponse> ListAccountMgmtInfos(ListAccountMgmtInfosRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAccountMgmtInfos");
@@ -8300,7 +8300,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListAccountRecoverySettings.cs.html">here</a> to see an example of how to use ListAccountRecoverySettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListAccountRecoverySettings.cs.html">here</a> to see an example of how to use ListAccountRecoverySettings API.</example>
         public async Task<ListAccountRecoverySettingsResponse> ListAccountRecoverySettings(ListAccountRecoverySettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAccountRecoverySettings");
@@ -8356,7 +8356,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListApiKeys.cs.html">here</a> to see an example of how to use ListApiKeys API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListApiKeys.cs.html">here</a> to see an example of how to use ListApiKeys API.</example>
         public async Task<ListApiKeysResponse> ListApiKeys(ListApiKeysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listApiKeys");
@@ -8412,7 +8412,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListAppRoles.cs.html">here</a> to see an example of how to use ListAppRoles API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListAppRoles.cs.html">here</a> to see an example of how to use ListAppRoles API.</example>
         public async Task<ListAppRolesResponse> ListAppRoles(ListAppRolesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAppRoles");
@@ -8468,7 +8468,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListApprovalWorkflowAssignments.cs.html">here</a> to see an example of how to use ListApprovalWorkflowAssignments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListApprovalWorkflowAssignments.cs.html">here</a> to see an example of how to use ListApprovalWorkflowAssignments API.</example>
         public async Task<ListApprovalWorkflowAssignmentsResponse> ListApprovalWorkflowAssignments(ListApprovalWorkflowAssignmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listApprovalWorkflowAssignments");
@@ -8524,7 +8524,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListApprovalWorkflowSteps.cs.html">here</a> to see an example of how to use ListApprovalWorkflowSteps API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListApprovalWorkflowSteps.cs.html">here</a> to see an example of how to use ListApprovalWorkflowSteps API.</example>
         public async Task<ListApprovalWorkflowStepsResponse> ListApprovalWorkflowSteps(ListApprovalWorkflowStepsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listApprovalWorkflowSteps");
@@ -8580,7 +8580,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListApprovalWorkflows.cs.html">here</a> to see an example of how to use ListApprovalWorkflows API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListApprovalWorkflows.cs.html">here</a> to see an example of how to use ListApprovalWorkflows API.</example>
         public async Task<ListApprovalWorkflowsResponse> ListApprovalWorkflows(ListApprovalWorkflowsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listApprovalWorkflows");
@@ -8636,7 +8636,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListApps.cs.html">here</a> to see an example of how to use ListApps API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListApps.cs.html">here</a> to see an example of how to use ListApps API.</example>
         public async Task<ListAppsResponse> ListApps(ListAppsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listApps");
@@ -8692,7 +8692,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListAuthTokens.cs.html">here</a> to see an example of how to use ListAuthTokens API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListAuthTokens.cs.html">here</a> to see an example of how to use ListAuthTokens API.</example>
         public async Task<ListAuthTokensResponse> ListAuthTokens(ListAuthTokensRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAuthTokens");
@@ -8748,7 +8748,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListAuthenticationFactorSettings.cs.html">here</a> to see an example of how to use ListAuthenticationFactorSettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListAuthenticationFactorSettings.cs.html">here</a> to see an example of how to use ListAuthenticationFactorSettings API.</example>
         public async Task<ListAuthenticationFactorSettingsResponse> ListAuthenticationFactorSettings(ListAuthenticationFactorSettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAuthenticationFactorSettings");
@@ -8804,7 +8804,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListBrandingSettings.cs.html">here</a> to see an example of how to use ListBrandingSettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListBrandingSettings.cs.html">here</a> to see an example of how to use ListBrandingSettings API.</example>
         public async Task<ListBrandingSettingsResponse> ListBrandingSettings(ListBrandingSettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBrandingSettings");
@@ -8860,7 +8860,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListCloudGateMappings.cs.html">here</a> to see an example of how to use ListCloudGateMappings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListCloudGateMappings.cs.html">here</a> to see an example of how to use ListCloudGateMappings API.</example>
         public async Task<ListCloudGateMappingsResponse> ListCloudGateMappings(ListCloudGateMappingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCloudGateMappings");
@@ -8916,7 +8916,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListCloudGateServers.cs.html">here</a> to see an example of how to use ListCloudGateServers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListCloudGateServers.cs.html">here</a> to see an example of how to use ListCloudGateServers API.</example>
         public async Task<ListCloudGateServersResponse> ListCloudGateServers(ListCloudGateServersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCloudGateServers");
@@ -8972,7 +8972,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListCloudGates.cs.html">here</a> to see an example of how to use ListCloudGates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListCloudGates.cs.html">here</a> to see an example of how to use ListCloudGates API.</example>
         public async Task<ListCloudGatesResponse> ListCloudGates(ListCloudGatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCloudGates");
@@ -9028,7 +9028,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListConditions.cs.html">here</a> to see an example of how to use ListConditions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListConditions.cs.html">here</a> to see an example of how to use ListConditions API.</example>
         public async Task<ListConditionsResponse> ListConditions(ListConditionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listConditions");
@@ -9084,7 +9084,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListCustomerSecretKeys.cs.html">here</a> to see an example of how to use ListCustomerSecretKeys API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListCustomerSecretKeys.cs.html">here</a> to see an example of how to use ListCustomerSecretKeys API.</example>
         public async Task<ListCustomerSecretKeysResponse> ListCustomerSecretKeys(ListCustomerSecretKeysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCustomerSecretKeys");
@@ -9140,7 +9140,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListDynamicResourceGroups.cs.html">here</a> to see an example of how to use ListDynamicResourceGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListDynamicResourceGroups.cs.html">here</a> to see an example of how to use ListDynamicResourceGroups API.</example>
         public async Task<ListDynamicResourceGroupsResponse> ListDynamicResourceGroups(ListDynamicResourceGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDynamicResourceGroups");
@@ -9196,7 +9196,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListGrants.cs.html">here</a> to see an example of how to use ListGrants API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListGrants.cs.html">here</a> to see an example of how to use ListGrants API.</example>
         public async Task<ListGrantsResponse> ListGrants(ListGrantsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listGrants");
@@ -9252,7 +9252,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListGroups.cs.html">here</a> to see an example of how to use ListGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListGroups.cs.html">here</a> to see an example of how to use ListGroups API.</example>
         public async Task<ListGroupsResponse> ListGroups(ListGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listGroups");
@@ -9308,7 +9308,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListIdentityProofingProviderTemplates.cs.html">here</a> to see an example of how to use ListIdentityProofingProviderTemplates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListIdentityProofingProviderTemplates.cs.html">here</a> to see an example of how to use ListIdentityProofingProviderTemplates API.</example>
         public async Task<ListIdentityProofingProviderTemplatesResponse> ListIdentityProofingProviderTemplates(ListIdentityProofingProviderTemplatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIdentityProofingProviderTemplates");
@@ -9364,7 +9364,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListIdentityProofingProviders.cs.html">here</a> to see an example of how to use ListIdentityProofingProviders API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListIdentityProofingProviders.cs.html">here</a> to see an example of how to use ListIdentityProofingProviders API.</example>
         public async Task<ListIdentityProofingProvidersResponse> ListIdentityProofingProviders(ListIdentityProofingProvidersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIdentityProofingProviders");
@@ -9420,7 +9420,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListIdentityPropagationTrusts.cs.html">here</a> to see an example of how to use ListIdentityPropagationTrusts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListIdentityPropagationTrusts.cs.html">here</a> to see an example of how to use ListIdentityPropagationTrusts API.</example>
         public async Task<ListIdentityPropagationTrustsResponse> ListIdentityPropagationTrusts(ListIdentityPropagationTrustsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIdentityPropagationTrusts");
@@ -9476,7 +9476,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListIdentityProviders.cs.html">here</a> to see an example of how to use ListIdentityProviders API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListIdentityProviders.cs.html">here</a> to see an example of how to use ListIdentityProviders API.</example>
         public async Task<ListIdentityProvidersResponse> ListIdentityProviders(ListIdentityProvidersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIdentityProviders");
@@ -9532,7 +9532,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListIdentitySettings.cs.html">here</a> to see an example of how to use ListIdentitySettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListIdentitySettings.cs.html">here</a> to see an example of how to use ListIdentitySettings API.</example>
         public async Task<ListIdentitySettingsResponse> ListIdentitySettings(ListIdentitySettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIdentitySettings");
@@ -9588,7 +9588,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListKmsiSettings.cs.html">here</a> to see an example of how to use ListKmsiSettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListKmsiSettings.cs.html">here</a> to see an example of how to use ListKmsiSettings API.</example>
         public async Task<ListKmsiSettingsResponse> ListKmsiSettings(ListKmsiSettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listKmsiSettings");
@@ -9644,7 +9644,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMappedAttributes.cs.html">here</a> to see an example of how to use ListMappedAttributes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMappedAttributes.cs.html">here</a> to see an example of how to use ListMappedAttributes API.</example>
         public async Task<ListMappedAttributesResponse> ListMappedAttributes(ListMappedAttributesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMappedAttributes");
@@ -9700,7 +9700,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyApiKeys.cs.html">here</a> to see an example of how to use ListMyApiKeys API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyApiKeys.cs.html">here</a> to see an example of how to use ListMyApiKeys API.</example>
         public async Task<ListMyApiKeysResponse> ListMyApiKeys(ListMyApiKeysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMyApiKeys");
@@ -9756,7 +9756,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyApps.cs.html">here</a> to see an example of how to use ListMyApps API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyApps.cs.html">here</a> to see an example of how to use ListMyApps API.</example>
         public async Task<ListMyAppsResponse> ListMyApps(ListMyAppsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMyApps");
@@ -9812,7 +9812,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyAuthTokens.cs.html">here</a> to see an example of how to use ListMyAuthTokens API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyAuthTokens.cs.html">here</a> to see an example of how to use ListMyAuthTokens API.</example>
         public async Task<ListMyAuthTokensResponse> ListMyAuthTokens(ListMyAuthTokensRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMyAuthTokens");
@@ -9868,7 +9868,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyCompletedApprovals.cs.html">here</a> to see an example of how to use ListMyCompletedApprovals API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyCompletedApprovals.cs.html">here</a> to see an example of how to use ListMyCompletedApprovals API.</example>
         public async Task<ListMyCompletedApprovalsResponse> ListMyCompletedApprovals(ListMyCompletedApprovalsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMyCompletedApprovals");
@@ -9924,7 +9924,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyCustomerSecretKeys.cs.html">here</a> to see an example of how to use ListMyCustomerSecretKeys API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyCustomerSecretKeys.cs.html">here</a> to see an example of how to use ListMyCustomerSecretKeys API.</example>
         public async Task<ListMyCustomerSecretKeysResponse> ListMyCustomerSecretKeys(ListMyCustomerSecretKeysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMyCustomerSecretKeys");
@@ -9980,7 +9980,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyDevices.cs.html">here</a> to see an example of how to use ListMyDevices API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyDevices.cs.html">here</a> to see an example of how to use ListMyDevices API.</example>
         public async Task<ListMyDevicesResponse> ListMyDevices(ListMyDevicesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMyDevices");
@@ -10036,7 +10036,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyGroups.cs.html">here</a> to see an example of how to use ListMyGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyGroups.cs.html">here</a> to see an example of how to use ListMyGroups API.</example>
         public async Task<ListMyGroupsResponse> ListMyGroups(ListMyGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMyGroups");
@@ -10092,7 +10092,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyOAuth2ClientCredentials.cs.html">here</a> to see an example of how to use ListMyOAuth2ClientCredentials API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyOAuth2ClientCredentials.cs.html">here</a> to see an example of how to use ListMyOAuth2ClientCredentials API.</example>
         public async Task<ListMyOAuth2ClientCredentialsResponse> ListMyOAuth2ClientCredentials(ListMyOAuth2ClientCredentialsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMyOAuth2ClientCredentials");
@@ -10148,7 +10148,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyPendingApprovals.cs.html">here</a> to see an example of how to use ListMyPendingApprovals API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyPendingApprovals.cs.html">here</a> to see an example of how to use ListMyPendingApprovals API.</example>
         public async Task<ListMyPendingApprovalsResponse> ListMyPendingApprovals(ListMyPendingApprovalsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMyPendingApprovals");
@@ -10204,7 +10204,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyRequestableGroups.cs.html">here</a> to see an example of how to use ListMyRequestableGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyRequestableGroups.cs.html">here</a> to see an example of how to use ListMyRequestableGroups API.</example>
         public async Task<ListMyRequestableGroupsResponse> ListMyRequestableGroups(ListMyRequestableGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMyRequestableGroups");
@@ -10260,7 +10260,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyRequests.cs.html">here</a> to see an example of how to use ListMyRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyRequests.cs.html">here</a> to see an example of how to use ListMyRequests API.</example>
         public async Task<ListMyRequestsResponse> ListMyRequests(ListMyRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMyRequests");
@@ -10316,7 +10316,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMySmtpCredentials.cs.html">here</a> to see an example of how to use ListMySmtpCredentials API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMySmtpCredentials.cs.html">here</a> to see an example of how to use ListMySmtpCredentials API.</example>
         public async Task<ListMySmtpCredentialsResponse> ListMySmtpCredentials(ListMySmtpCredentialsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMySmtpCredentials");
@@ -10372,7 +10372,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMySupportAccounts.cs.html">here</a> to see an example of how to use ListMySupportAccounts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMySupportAccounts.cs.html">here</a> to see an example of how to use ListMySupportAccounts API.</example>
         public async Task<ListMySupportAccountsResponse> ListMySupportAccounts(ListMySupportAccountsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMySupportAccounts");
@@ -10428,7 +10428,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyTrustedUserAgents.cs.html">here</a> to see an example of how to use ListMyTrustedUserAgents API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyTrustedUserAgents.cs.html">here</a> to see an example of how to use ListMyTrustedUserAgents API.</example>
         public async Task<ListMyTrustedUserAgentsResponse> ListMyTrustedUserAgents(ListMyTrustedUserAgentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMyTrustedUserAgents");
@@ -10484,7 +10484,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyUserDbCredentials.cs.html">here</a> to see an example of how to use ListMyUserDbCredentials API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListMyUserDbCredentials.cs.html">here</a> to see an example of how to use ListMyUserDbCredentials API.</example>
         public async Task<ListMyUserDbCredentialsResponse> ListMyUserDbCredentials(ListMyUserDbCredentialsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMyUserDbCredentials");
@@ -10540,7 +10540,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListNetworkPerimeters.cs.html">here</a> to see an example of how to use ListNetworkPerimeters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListNetworkPerimeters.cs.html">here</a> to see an example of how to use ListNetworkPerimeters API.</example>
         public async Task<ListNetworkPerimetersResponse> ListNetworkPerimeters(ListNetworkPerimetersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNetworkPerimeters");
@@ -10596,7 +10596,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListNotificationSettings.cs.html">here</a> to see an example of how to use ListNotificationSettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListNotificationSettings.cs.html">here</a> to see an example of how to use ListNotificationSettings API.</example>
         public async Task<ListNotificationSettingsResponse> ListNotificationSettings(ListNotificationSettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNotificationSettings");
@@ -10652,7 +10652,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListOAuth2ClientCredentials.cs.html">here</a> to see an example of how to use ListOAuth2ClientCredentials API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListOAuth2ClientCredentials.cs.html">here</a> to see an example of how to use ListOAuth2ClientCredentials API.</example>
         public async Task<ListOAuth2ClientCredentialsResponse> ListOAuth2ClientCredentials(ListOAuth2ClientCredentialsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOAuth2ClientCredentials");
@@ -10708,7 +10708,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListOAuthClientCertificates.cs.html">here</a> to see an example of how to use ListOAuthClientCertificates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListOAuthClientCertificates.cs.html">here</a> to see an example of how to use ListOAuthClientCertificates API.</example>
         public async Task<ListOAuthClientCertificatesResponse> ListOAuthClientCertificates(ListOAuthClientCertificatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOAuthClientCertificates");
@@ -10764,7 +10764,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListOAuthPartnerCertificates.cs.html">here</a> to see an example of how to use ListOAuthPartnerCertificates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListOAuthPartnerCertificates.cs.html">here</a> to see an example of how to use ListOAuthPartnerCertificates API.</example>
         public async Task<ListOAuthPartnerCertificatesResponse> ListOAuthPartnerCertificates(ListOAuthPartnerCertificatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOAuthPartnerCertificates");
@@ -10820,7 +10820,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListOciConsoleSignOnPolicyConsents.cs.html">here</a> to see an example of how to use ListOciConsoleSignOnPolicyConsents API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListOciConsoleSignOnPolicyConsents.cs.html">here</a> to see an example of how to use ListOciConsoleSignOnPolicyConsents API.</example>
         public async Task<ListOciConsoleSignOnPolicyConsentsResponse> ListOciConsoleSignOnPolicyConsents(ListOciConsoleSignOnPolicyConsentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOciConsoleSignOnPolicyConsents");
@@ -10876,7 +10876,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListPasswordPolicies.cs.html">here</a> to see an example of how to use ListPasswordPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListPasswordPolicies.cs.html">here</a> to see an example of how to use ListPasswordPolicies API.</example>
         public async Task<ListPasswordPoliciesResponse> ListPasswordPolicies(ListPasswordPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPasswordPolicies");
@@ -10932,7 +10932,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListPolicies.cs.html">here</a> to see an example of how to use ListPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListPolicies.cs.html">here</a> to see an example of how to use ListPolicies API.</example>
         public async Task<ListPoliciesResponse> ListPolicies(ListPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPolicies");
@@ -10988,7 +10988,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListResourceTypeSchemaAttributes.cs.html">here</a> to see an example of how to use ListResourceTypeSchemaAttributes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListResourceTypeSchemaAttributes.cs.html">here</a> to see an example of how to use ListResourceTypeSchemaAttributes API.</example>
         public async Task<ListResourceTypeSchemaAttributesResponse> ListResourceTypeSchemaAttributes(ListResourceTypeSchemaAttributesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listResourceTypeSchemaAttributes");
@@ -11044,7 +11044,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListRules.cs.html">here</a> to see an example of how to use ListRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListRules.cs.html">here</a> to see an example of how to use ListRules API.</example>
         public async Task<ListRulesResponse> ListRules(ListRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRules");
@@ -11100,7 +11100,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListSchemas.cs.html">here</a> to see an example of how to use ListSchemas API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListSchemas.cs.html">here</a> to see an example of how to use ListSchemas API.</example>
         public async Task<ListSchemasResponse> ListSchemas(ListSchemasRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSchemas");
@@ -11156,7 +11156,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListSecurityQuestionSettings.cs.html">here</a> to see an example of how to use ListSecurityQuestionSettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListSecurityQuestionSettings.cs.html">here</a> to see an example of how to use ListSecurityQuestionSettings API.</example>
         public async Task<ListSecurityQuestionSettingsResponse> ListSecurityQuestionSettings(ListSecurityQuestionSettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityQuestionSettings");
@@ -11212,7 +11212,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListSecurityQuestions.cs.html">here</a> to see an example of how to use ListSecurityQuestions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListSecurityQuestions.cs.html">here</a> to see an example of how to use ListSecurityQuestions API.</example>
         public async Task<ListSecurityQuestionsResponse> ListSecurityQuestions(ListSecurityQuestionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityQuestions");
@@ -11268,7 +11268,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListSelfRegistrationProfiles.cs.html">here</a> to see an example of how to use ListSelfRegistrationProfiles API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListSelfRegistrationProfiles.cs.html">here</a> to see an example of how to use ListSelfRegistrationProfiles API.</example>
         public async Task<ListSelfRegistrationProfilesResponse> ListSelfRegistrationProfiles(ListSelfRegistrationProfilesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSelfRegistrationProfiles");
@@ -11324,7 +11324,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListSettings.cs.html">here</a> to see an example of how to use ListSettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListSettings.cs.html">here</a> to see an example of how to use ListSettings API.</example>
         public async Task<ListSettingsResponse> ListSettings(ListSettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSettings");
@@ -11380,7 +11380,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListSmtpCredentials.cs.html">here</a> to see an example of how to use ListSmtpCredentials API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListSmtpCredentials.cs.html">here</a> to see an example of how to use ListSmtpCredentials API.</example>
         public async Task<ListSmtpCredentialsResponse> ListSmtpCredentials(ListSmtpCredentialsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSmtpCredentials");
@@ -11436,7 +11436,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListSocialIdentityProviders.cs.html">here</a> to see an example of how to use ListSocialIdentityProviders API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListSocialIdentityProviders.cs.html">here</a> to see an example of how to use ListSocialIdentityProviders API.</example>
         public async Task<ListSocialIdentityProvidersResponse> ListSocialIdentityProviders(ListSocialIdentityProvidersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSocialIdentityProviders");
@@ -11492,7 +11492,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListUserAttributesSettings.cs.html">here</a> to see an example of how to use ListUserAttributesSettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListUserAttributesSettings.cs.html">here</a> to see an example of how to use ListUserAttributesSettings API.</example>
         public async Task<ListUserAttributesSettingsResponse> ListUserAttributesSettings(ListUserAttributesSettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUserAttributesSettings");
@@ -11548,7 +11548,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListUserDbCredentials.cs.html">here</a> to see an example of how to use ListUserDbCredentials API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListUserDbCredentials.cs.html">here</a> to see an example of how to use ListUserDbCredentials API.</example>
         public async Task<ListUserDbCredentialsResponse> ListUserDbCredentials(ListUserDbCredentialsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUserDbCredentials");
@@ -11604,7 +11604,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListUsers.cs.html">here</a> to see an example of how to use ListUsers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/ListUsers.cs.html">here</a> to see an example of how to use ListUsers API.</example>
         public async Task<ListUsersResponse> ListUsers(ListUsersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUsers");
@@ -11660,7 +11660,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchAccountRecoverySetting.cs.html">here</a> to see an example of how to use PatchAccountRecoverySetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchAccountRecoverySetting.cs.html">here</a> to see an example of how to use PatchAccountRecoverySetting API.</example>
         public async Task<PatchAccountRecoverySettingResponse> PatchAccountRecoverySetting(PatchAccountRecoverySettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchAccountRecoverySetting");
@@ -11716,7 +11716,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchApiKey.cs.html">here</a> to see an example of how to use PatchApiKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchApiKey.cs.html">here</a> to see an example of how to use PatchApiKey API.</example>
         public async Task<PatchApiKeyResponse> PatchApiKey(PatchApiKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchApiKey");
@@ -11772,7 +11772,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchApp.cs.html">here</a> to see an example of how to use PatchApp API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchApp.cs.html">here</a> to see an example of how to use PatchApp API.</example>
         public async Task<PatchAppResponse> PatchApp(PatchAppRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchApp");
@@ -11828,7 +11828,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchAppRole.cs.html">here</a> to see an example of how to use PatchAppRole API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchAppRole.cs.html">here</a> to see an example of how to use PatchAppRole API.</example>
         public async Task<PatchAppRoleResponse> PatchAppRole(PatchAppRoleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchAppRole");
@@ -11884,7 +11884,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchApprovalWorkflow.cs.html">here</a> to see an example of how to use PatchApprovalWorkflow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchApprovalWorkflow.cs.html">here</a> to see an example of how to use PatchApprovalWorkflow API.</example>
         public async Task<PatchApprovalWorkflowResponse> PatchApprovalWorkflow(PatchApprovalWorkflowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchApprovalWorkflow");
@@ -11940,7 +11940,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchApprovalWorkflowStep.cs.html">here</a> to see an example of how to use PatchApprovalWorkflowStep API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchApprovalWorkflowStep.cs.html">here</a> to see an example of how to use PatchApprovalWorkflowStep API.</example>
         public async Task<PatchApprovalWorkflowStepResponse> PatchApprovalWorkflowStep(PatchApprovalWorkflowStepRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchApprovalWorkflowStep");
@@ -11996,7 +11996,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchAuthToken.cs.html">here</a> to see an example of how to use PatchAuthToken API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchAuthToken.cs.html">here</a> to see an example of how to use PatchAuthToken API.</example>
         public async Task<PatchAuthTokenResponse> PatchAuthToken(PatchAuthTokenRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchAuthToken");
@@ -12052,7 +12052,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchCloudGate.cs.html">here</a> to see an example of how to use PatchCloudGate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchCloudGate.cs.html">here</a> to see an example of how to use PatchCloudGate API.</example>
         public async Task<PatchCloudGateResponse> PatchCloudGate(PatchCloudGateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchCloudGate");
@@ -12108,7 +12108,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchCloudGateMapping.cs.html">here</a> to see an example of how to use PatchCloudGateMapping API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchCloudGateMapping.cs.html">here</a> to see an example of how to use PatchCloudGateMapping API.</example>
         public async Task<PatchCloudGateMappingResponse> PatchCloudGateMapping(PatchCloudGateMappingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchCloudGateMapping");
@@ -12164,7 +12164,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchCloudGateServer.cs.html">here</a> to see an example of how to use PatchCloudGateServer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchCloudGateServer.cs.html">here</a> to see an example of how to use PatchCloudGateServer API.</example>
         public async Task<PatchCloudGateServerResponse> PatchCloudGateServer(PatchCloudGateServerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchCloudGateServer");
@@ -12220,7 +12220,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchCondition.cs.html">here</a> to see an example of how to use PatchCondition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchCondition.cs.html">here</a> to see an example of how to use PatchCondition API.</example>
         public async Task<PatchConditionResponse> PatchCondition(PatchConditionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchCondition");
@@ -12276,7 +12276,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchCustomerSecretKey.cs.html">here</a> to see an example of how to use PatchCustomerSecretKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchCustomerSecretKey.cs.html">here</a> to see an example of how to use PatchCustomerSecretKey API.</example>
         public async Task<PatchCustomerSecretKeyResponse> PatchCustomerSecretKey(PatchCustomerSecretKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchCustomerSecretKey");
@@ -12332,7 +12332,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchDynamicResourceGroup.cs.html">here</a> to see an example of how to use PatchDynamicResourceGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchDynamicResourceGroup.cs.html">here</a> to see an example of how to use PatchDynamicResourceGroup API.</example>
         public async Task<PatchDynamicResourceGroupResponse> PatchDynamicResourceGroup(PatchDynamicResourceGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchDynamicResourceGroup");
@@ -12388,7 +12388,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchGrant.cs.html">here</a> to see an example of how to use PatchGrant API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchGrant.cs.html">here</a> to see an example of how to use PatchGrant API.</example>
         public async Task<PatchGrantResponse> PatchGrant(PatchGrantRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchGrant");
@@ -12444,7 +12444,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchGroup.cs.html">here</a> to see an example of how to use PatchGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchGroup.cs.html">here</a> to see an example of how to use PatchGroup API.</example>
         public async Task<PatchGroupResponse> PatchGroup(PatchGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchGroup");
@@ -12500,7 +12500,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchIdentityProofingProvider.cs.html">here</a> to see an example of how to use PatchIdentityProofingProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchIdentityProofingProvider.cs.html">here</a> to see an example of how to use PatchIdentityProofingProvider API.</example>
         public async Task<PatchIdentityProofingProviderResponse> PatchIdentityProofingProvider(PatchIdentityProofingProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchIdentityProofingProvider");
@@ -12556,7 +12556,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchIdentityProofingProviderTemplate.cs.html">here</a> to see an example of how to use PatchIdentityProofingProviderTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchIdentityProofingProviderTemplate.cs.html">here</a> to see an example of how to use PatchIdentityProofingProviderTemplate API.</example>
         public async Task<PatchIdentityProofingProviderTemplateResponse> PatchIdentityProofingProviderTemplate(PatchIdentityProofingProviderTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchIdentityProofingProviderTemplate");
@@ -12612,7 +12612,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchIdentityPropagationTrust.cs.html">here</a> to see an example of how to use PatchIdentityPropagationTrust API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchIdentityPropagationTrust.cs.html">here</a> to see an example of how to use PatchIdentityPropagationTrust API.</example>
         public async Task<PatchIdentityPropagationTrustResponse> PatchIdentityPropagationTrust(PatchIdentityPropagationTrustRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchIdentityPropagationTrust");
@@ -12668,7 +12668,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchIdentityProvider.cs.html">here</a> to see an example of how to use PatchIdentityProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchIdentityProvider.cs.html">here</a> to see an example of how to use PatchIdentityProvider API.</example>
         public async Task<PatchIdentityProviderResponse> PatchIdentityProvider(PatchIdentityProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchIdentityProvider");
@@ -12724,7 +12724,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchIdentitySetting.cs.html">here</a> to see an example of how to use PatchIdentitySetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchIdentitySetting.cs.html">here</a> to see an example of how to use PatchIdentitySetting API.</example>
         public async Task<PatchIdentitySettingResponse> PatchIdentitySetting(PatchIdentitySettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchIdentitySetting");
@@ -12780,7 +12780,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchKmsiSetting.cs.html">here</a> to see an example of how to use PatchKmsiSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchKmsiSetting.cs.html">here</a> to see an example of how to use PatchKmsiSetting API.</example>
         public async Task<PatchKmsiSettingResponse> PatchKmsiSetting(PatchKmsiSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchKmsiSetting");
@@ -12836,7 +12836,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMappedAttribute.cs.html">here</a> to see an example of how to use PatchMappedAttribute API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMappedAttribute.cs.html">here</a> to see an example of how to use PatchMappedAttribute API.</example>
         public async Task<PatchMappedAttributeResponse> PatchMappedAttribute(PatchMappedAttributeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchMappedAttribute");
@@ -12892,7 +12892,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMe.cs.html">here</a> to see an example of how to use PatchMe API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMe.cs.html">here</a> to see an example of how to use PatchMe API.</example>
         public async Task<PatchMeResponse> PatchMe(PatchMeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchMe");
@@ -12948,7 +12948,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyApiKey.cs.html">here</a> to see an example of how to use PatchMyApiKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyApiKey.cs.html">here</a> to see an example of how to use PatchMyApiKey API.</example>
         public async Task<PatchMyApiKeyResponse> PatchMyApiKey(PatchMyApiKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchMyApiKey");
@@ -13004,7 +13004,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyAuthToken.cs.html">here</a> to see an example of how to use PatchMyAuthToken API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyAuthToken.cs.html">here</a> to see an example of how to use PatchMyAuthToken API.</example>
         public async Task<PatchMyAuthTokenResponse> PatchMyAuthToken(PatchMyAuthTokenRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchMyAuthToken");
@@ -13060,7 +13060,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyCustomerSecretKey.cs.html">here</a> to see an example of how to use PatchMyCustomerSecretKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyCustomerSecretKey.cs.html">here</a> to see an example of how to use PatchMyCustomerSecretKey API.</example>
         public async Task<PatchMyCustomerSecretKeyResponse> PatchMyCustomerSecretKey(PatchMyCustomerSecretKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchMyCustomerSecretKey");
@@ -13116,7 +13116,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyDevice.cs.html">here</a> to see an example of how to use PatchMyDevice API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyDevice.cs.html">here</a> to see an example of how to use PatchMyDevice API.</example>
         public async Task<PatchMyDeviceResponse> PatchMyDevice(PatchMyDeviceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchMyDevice");
@@ -13172,7 +13172,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyOAuth2ClientCredential.cs.html">here</a> to see an example of how to use PatchMyOAuth2ClientCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyOAuth2ClientCredential.cs.html">here</a> to see an example of how to use PatchMyOAuth2ClientCredential API.</example>
         public async Task<PatchMyOAuth2ClientCredentialResponse> PatchMyOAuth2ClientCredential(PatchMyOAuth2ClientCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchMyOAuth2ClientCredential");
@@ -13228,7 +13228,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyPendingApproval.cs.html">here</a> to see an example of how to use PatchMyPendingApproval API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyPendingApproval.cs.html">here</a> to see an example of how to use PatchMyPendingApproval API.</example>
         public async Task<PatchMyPendingApprovalResponse> PatchMyPendingApproval(PatchMyPendingApprovalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchMyPendingApproval");
@@ -13284,7 +13284,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyRequest.cs.html">here</a> to see an example of how to use PatchMyRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMyRequest.cs.html">here</a> to see an example of how to use PatchMyRequest API.</example>
         public async Task<PatchMyRequestResponse> PatchMyRequest(PatchMyRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchMyRequest");
@@ -13340,7 +13340,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMySmtpCredential.cs.html">here</a> to see an example of how to use PatchMySmtpCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchMySmtpCredential.cs.html">here</a> to see an example of how to use PatchMySmtpCredential API.</example>
         public async Task<PatchMySmtpCredentialResponse> PatchMySmtpCredential(PatchMySmtpCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchMySmtpCredential");
@@ -13396,7 +13396,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchNetworkPerimeter.cs.html">here</a> to see an example of how to use PatchNetworkPerimeter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchNetworkPerimeter.cs.html">here</a> to see an example of how to use PatchNetworkPerimeter API.</example>
         public async Task<PatchNetworkPerimeterResponse> PatchNetworkPerimeter(PatchNetworkPerimeterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchNetworkPerimeter");
@@ -13452,7 +13452,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchOAuth2ClientCredential.cs.html">here</a> to see an example of how to use PatchOAuth2ClientCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchOAuth2ClientCredential.cs.html">here</a> to see an example of how to use PatchOAuth2ClientCredential API.</example>
         public async Task<PatchOAuth2ClientCredentialResponse> PatchOAuth2ClientCredential(PatchOAuth2ClientCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchOAuth2ClientCredential");
@@ -13508,7 +13508,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchPasswordPolicy.cs.html">here</a> to see an example of how to use PatchPasswordPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchPasswordPolicy.cs.html">here</a> to see an example of how to use PatchPasswordPolicy API.</example>
         public async Task<PatchPasswordPolicyResponse> PatchPasswordPolicy(PatchPasswordPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchPasswordPolicy");
@@ -13564,7 +13564,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchPolicy.cs.html">here</a> to see an example of how to use PatchPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchPolicy.cs.html">here</a> to see an example of how to use PatchPolicy API.</example>
         public async Task<PatchPolicyResponse> PatchPolicy(PatchPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchPolicy");
@@ -13620,7 +13620,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchRule.cs.html">here</a> to see an example of how to use PatchRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchRule.cs.html">here</a> to see an example of how to use PatchRule API.</example>
         public async Task<PatchRuleResponse> PatchRule(PatchRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchRule");
@@ -13676,7 +13676,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchSchema.cs.html">here</a> to see an example of how to use PatchSchema API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchSchema.cs.html">here</a> to see an example of how to use PatchSchema API.</example>
         public async Task<PatchSchemaResponse> PatchSchema(PatchSchemaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchSchema");
@@ -13732,7 +13732,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchSecurityQuestion.cs.html">here</a> to see an example of how to use PatchSecurityQuestion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchSecurityQuestion.cs.html">here</a> to see an example of how to use PatchSecurityQuestion API.</example>
         public async Task<PatchSecurityQuestionResponse> PatchSecurityQuestion(PatchSecurityQuestionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchSecurityQuestion");
@@ -13788,7 +13788,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchSecurityQuestionSetting.cs.html">here</a> to see an example of how to use PatchSecurityQuestionSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchSecurityQuestionSetting.cs.html">here</a> to see an example of how to use PatchSecurityQuestionSetting API.</example>
         public async Task<PatchSecurityQuestionSettingResponse> PatchSecurityQuestionSetting(PatchSecurityQuestionSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchSecurityQuestionSetting");
@@ -13844,7 +13844,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchSelfRegistrationProfile.cs.html">here</a> to see an example of how to use PatchSelfRegistrationProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchSelfRegistrationProfile.cs.html">here</a> to see an example of how to use PatchSelfRegistrationProfile API.</example>
         public async Task<PatchSelfRegistrationProfileResponse> PatchSelfRegistrationProfile(PatchSelfRegistrationProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchSelfRegistrationProfile");
@@ -13900,7 +13900,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchSetting.cs.html">here</a> to see an example of how to use PatchSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchSetting.cs.html">here</a> to see an example of how to use PatchSetting API.</example>
         public async Task<PatchSettingResponse> PatchSetting(PatchSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchSetting");
@@ -13956,7 +13956,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchSmtpCredential.cs.html">here</a> to see an example of how to use PatchSmtpCredential API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchSmtpCredential.cs.html">here</a> to see an example of how to use PatchSmtpCredential API.</example>
         public async Task<PatchSmtpCredentialResponse> PatchSmtpCredential(PatchSmtpCredentialRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchSmtpCredential");
@@ -14012,7 +14012,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchSocialIdentityProvider.cs.html">here</a> to see an example of how to use PatchSocialIdentityProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchSocialIdentityProvider.cs.html">here</a> to see an example of how to use PatchSocialIdentityProvider API.</example>
         public async Task<PatchSocialIdentityProviderResponse> PatchSocialIdentityProvider(PatchSocialIdentityProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchSocialIdentityProvider");
@@ -14068,7 +14068,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchUser.cs.html">here</a> to see an example of how to use PatchUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchUser.cs.html">here</a> to see an example of how to use PatchUser API.</example>
         public async Task<PatchUserResponse> PatchUser(PatchUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchUser");
@@ -14124,7 +14124,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchUserAttributesSetting.cs.html">here</a> to see an example of how to use PatchUserAttributesSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PatchUserAttributesSetting.cs.html">here</a> to see an example of how to use PatchUserAttributesSetting API.</example>
         public async Task<PatchUserAttributesSettingResponse> PatchUserAttributesSetting(PatchUserAttributesSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchUserAttributesSetting");
@@ -14180,7 +14180,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutAccountRecoverySetting.cs.html">here</a> to see an example of how to use PutAccountRecoverySetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutAccountRecoverySetting.cs.html">here</a> to see an example of how to use PutAccountRecoverySetting API.</example>
         public async Task<PutAccountRecoverySettingResponse> PutAccountRecoverySetting(PutAccountRecoverySettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putAccountRecoverySetting");
@@ -14236,7 +14236,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutApp.cs.html">here</a> to see an example of how to use PutApp API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutApp.cs.html">here</a> to see an example of how to use PutApp API.</example>
         public async Task<PutAppResponse> PutApp(PutAppRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putApp");
@@ -14292,7 +14292,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutAppStatusChanger.cs.html">here</a> to see an example of how to use PutAppStatusChanger API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutAppStatusChanger.cs.html">here</a> to see an example of how to use PutAppStatusChanger API.</example>
         public async Task<PutAppStatusChangerResponse> PutAppStatusChanger(PutAppStatusChangerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putAppStatusChanger");
@@ -14348,7 +14348,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutApprovalWorkflow.cs.html">here</a> to see an example of how to use PutApprovalWorkflow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutApprovalWorkflow.cs.html">here</a> to see an example of how to use PutApprovalWorkflow API.</example>
         public async Task<PutApprovalWorkflowResponse> PutApprovalWorkflow(PutApprovalWorkflowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putApprovalWorkflow");
@@ -14404,7 +14404,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutAuthenticationFactorSetting.cs.html">here</a> to see an example of how to use PutAuthenticationFactorSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutAuthenticationFactorSetting.cs.html">here</a> to see an example of how to use PutAuthenticationFactorSetting API.</example>
         public async Task<PutAuthenticationFactorSettingResponse> PutAuthenticationFactorSetting(PutAuthenticationFactorSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putAuthenticationFactorSetting");
@@ -14460,7 +14460,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutCloudGate.cs.html">here</a> to see an example of how to use PutCloudGate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutCloudGate.cs.html">here</a> to see an example of how to use PutCloudGate API.</example>
         public async Task<PutCloudGateResponse> PutCloudGate(PutCloudGateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putCloudGate");
@@ -14516,7 +14516,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutCloudGateMapping.cs.html">here</a> to see an example of how to use PutCloudGateMapping API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutCloudGateMapping.cs.html">here</a> to see an example of how to use PutCloudGateMapping API.</example>
         public async Task<PutCloudGateMappingResponse> PutCloudGateMapping(PutCloudGateMappingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putCloudGateMapping");
@@ -14572,7 +14572,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutCloudGateServer.cs.html">here</a> to see an example of how to use PutCloudGateServer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutCloudGateServer.cs.html">here</a> to see an example of how to use PutCloudGateServer API.</example>
         public async Task<PutCloudGateServerResponse> PutCloudGateServer(PutCloudGateServerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putCloudGateServer");
@@ -14628,7 +14628,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutCondition.cs.html">here</a> to see an example of how to use PutCondition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutCondition.cs.html">here</a> to see an example of how to use PutCondition API.</example>
         public async Task<PutConditionResponse> PutCondition(PutConditionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putCondition");
@@ -14684,7 +14684,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutDynamicResourceGroup.cs.html">here</a> to see an example of how to use PutDynamicResourceGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutDynamicResourceGroup.cs.html">here</a> to see an example of how to use PutDynamicResourceGroup API.</example>
         public async Task<PutDynamicResourceGroupResponse> PutDynamicResourceGroup(PutDynamicResourceGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putDynamicResourceGroup");
@@ -14740,7 +14740,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutGroup.cs.html">here</a> to see an example of how to use PutGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutGroup.cs.html">here</a> to see an example of how to use PutGroup API.</example>
         public async Task<PutGroupResponse> PutGroup(PutGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putGroup");
@@ -14796,7 +14796,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutIdentityProofingProvider.cs.html">here</a> to see an example of how to use PutIdentityProofingProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutIdentityProofingProvider.cs.html">here</a> to see an example of how to use PutIdentityProofingProvider API.</example>
         public async Task<PutIdentityProofingProviderResponse> PutIdentityProofingProvider(PutIdentityProofingProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putIdentityProofingProvider");
@@ -14852,7 +14852,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutIdentityProofingProviderTemplate.cs.html">here</a> to see an example of how to use PutIdentityProofingProviderTemplate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutIdentityProofingProviderTemplate.cs.html">here</a> to see an example of how to use PutIdentityProofingProviderTemplate API.</example>
         public async Task<PutIdentityProofingProviderTemplateResponse> PutIdentityProofingProviderTemplate(PutIdentityProofingProviderTemplateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putIdentityProofingProviderTemplate");
@@ -14908,7 +14908,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutIdentityPropagationTrust.cs.html">here</a> to see an example of how to use PutIdentityPropagationTrust API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutIdentityPropagationTrust.cs.html">here</a> to see an example of how to use PutIdentityPropagationTrust API.</example>
         public async Task<PutIdentityPropagationTrustResponse> PutIdentityPropagationTrust(PutIdentityPropagationTrustRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putIdentityPropagationTrust");
@@ -14964,7 +14964,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutIdentityProvider.cs.html">here</a> to see an example of how to use PutIdentityProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutIdentityProvider.cs.html">here</a> to see an example of how to use PutIdentityProvider API.</example>
         public async Task<PutIdentityProviderResponse> PutIdentityProvider(PutIdentityProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putIdentityProvider");
@@ -15020,7 +15020,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutIdentitySetting.cs.html">here</a> to see an example of how to use PutIdentitySetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutIdentitySetting.cs.html">here</a> to see an example of how to use PutIdentitySetting API.</example>
         public async Task<PutIdentitySettingResponse> PutIdentitySetting(PutIdentitySettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putIdentitySetting");
@@ -15076,7 +15076,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutKmsiSetting.cs.html">here</a> to see an example of how to use PutKmsiSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutKmsiSetting.cs.html">here</a> to see an example of how to use PutKmsiSetting API.</example>
         public async Task<PutKmsiSettingResponse> PutKmsiSetting(PutKmsiSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putKmsiSetting");
@@ -15132,7 +15132,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutMappedAttribute.cs.html">here</a> to see an example of how to use PutMappedAttribute API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutMappedAttribute.cs.html">here</a> to see an example of how to use PutMappedAttribute API.</example>
         public async Task<PutMappedAttributeResponse> PutMappedAttribute(PutMappedAttributeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putMappedAttribute");
@@ -15188,7 +15188,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutMe.cs.html">here</a> to see an example of how to use PutMe API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutMe.cs.html">here</a> to see an example of how to use PutMe API.</example>
         public async Task<PutMeResponse> PutMe(PutMeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putMe");
@@ -15244,7 +15244,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutMePasswordChanger.cs.html">here</a> to see an example of how to use PutMePasswordChanger API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutMePasswordChanger.cs.html">here</a> to see an example of how to use PutMePasswordChanger API.</example>
         public async Task<PutMePasswordChangerResponse> PutMePasswordChanger(PutMePasswordChangerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putMePasswordChanger");
@@ -15300,7 +15300,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutNetworkPerimeter.cs.html">here</a> to see an example of how to use PutNetworkPerimeter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutNetworkPerimeter.cs.html">here</a> to see an example of how to use PutNetworkPerimeter API.</example>
         public async Task<PutNetworkPerimeterResponse> PutNetworkPerimeter(PutNetworkPerimeterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putNetworkPerimeter");
@@ -15356,7 +15356,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutNotificationSetting.cs.html">here</a> to see an example of how to use PutNotificationSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutNotificationSetting.cs.html">here</a> to see an example of how to use PutNotificationSetting API.</example>
         public async Task<PutNotificationSettingResponse> PutNotificationSetting(PutNotificationSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putNotificationSetting");
@@ -15412,7 +15412,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutPasswordPolicy.cs.html">here</a> to see an example of how to use PutPasswordPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutPasswordPolicy.cs.html">here</a> to see an example of how to use PutPasswordPolicy API.</example>
         public async Task<PutPasswordPolicyResponse> PutPasswordPolicy(PutPasswordPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putPasswordPolicy");
@@ -15468,7 +15468,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutPolicy.cs.html">here</a> to see an example of how to use PutPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutPolicy.cs.html">here</a> to see an example of how to use PutPolicy API.</example>
         public async Task<PutPolicyResponse> PutPolicy(PutPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putPolicy");
@@ -15524,7 +15524,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutRule.cs.html">here</a> to see an example of how to use PutRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutRule.cs.html">here</a> to see an example of how to use PutRule API.</example>
         public async Task<PutRuleResponse> PutRule(PutRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putRule");
@@ -15580,7 +15580,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutSchema.cs.html">here</a> to see an example of how to use PutSchema API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutSchema.cs.html">here</a> to see an example of how to use PutSchema API.</example>
         public async Task<PutSchemaResponse> PutSchema(PutSchemaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putSchema");
@@ -15636,7 +15636,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutSecurityQuestionSetting.cs.html">here</a> to see an example of how to use PutSecurityQuestionSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutSecurityQuestionSetting.cs.html">here</a> to see an example of how to use PutSecurityQuestionSetting API.</example>
         public async Task<PutSecurityQuestionSettingResponse> PutSecurityQuestionSetting(PutSecurityQuestionSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putSecurityQuestionSetting");
@@ -15692,7 +15692,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutSelfRegistrationProfile.cs.html">here</a> to see an example of how to use PutSelfRegistrationProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutSelfRegistrationProfile.cs.html">here</a> to see an example of how to use PutSelfRegistrationProfile API.</example>
         public async Task<PutSelfRegistrationProfileResponse> PutSelfRegistrationProfile(PutSelfRegistrationProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putSelfRegistrationProfile");
@@ -15748,7 +15748,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutSetting.cs.html">here</a> to see an example of how to use PutSetting API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutSetting.cs.html">here</a> to see an example of how to use PutSetting API.</example>
         public async Task<PutSettingResponse> PutSetting(PutSettingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putSetting");
@@ -15804,7 +15804,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutSocialIdentityProvider.cs.html">here</a> to see an example of how to use PutSocialIdentityProvider API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutSocialIdentityProvider.cs.html">here</a> to see an example of how to use PutSocialIdentityProvider API.</example>
         public async Task<PutSocialIdentityProviderResponse> PutSocialIdentityProvider(PutSocialIdentityProviderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putSocialIdentityProvider");
@@ -15860,7 +15860,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutUser.cs.html">here</a> to see an example of how to use PutUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutUser.cs.html">here</a> to see an example of how to use PutUser API.</example>
         public async Task<PutUserResponse> PutUser(PutUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putUser");
@@ -15916,7 +15916,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutUserCapabilitiesChanger.cs.html">here</a> to see an example of how to use PutUserCapabilitiesChanger API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutUserCapabilitiesChanger.cs.html">here</a> to see an example of how to use PutUserCapabilitiesChanger API.</example>
         public async Task<PutUserCapabilitiesChangerResponse> PutUserCapabilitiesChanger(PutUserCapabilitiesChangerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putUserCapabilitiesChanger");
@@ -15972,7 +15972,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutUserPasswordChanger.cs.html">here</a> to see an example of how to use PutUserPasswordChanger API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutUserPasswordChanger.cs.html">here</a> to see an example of how to use PutUserPasswordChanger API.</example>
         public async Task<PutUserPasswordChangerResponse> PutUserPasswordChanger(PutUserPasswordChangerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putUserPasswordChanger");
@@ -16028,7 +16028,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutUserPasswordResetter.cs.html">here</a> to see an example of how to use PutUserPasswordResetter API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutUserPasswordResetter.cs.html">here</a> to see an example of how to use PutUserPasswordResetter API.</example>
         public async Task<PutUserPasswordResetterResponse> PutUserPasswordResetter(PutUserPasswordResetterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putUserPasswordResetter");
@@ -16084,7 +16084,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutUserStatusChanger.cs.html">here</a> to see an example of how to use PutUserStatusChanger API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutUserStatusChanger.cs.html">here</a> to see an example of how to use PutUserStatusChanger API.</example>
         public async Task<PutUserStatusChangerResponse> PutUserStatusChanger(PutUserStatusChangerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putUserStatusChanger");
@@ -16140,7 +16140,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchAccountMgmtInfos.cs.html">here</a> to see an example of how to use SearchAccountMgmtInfos API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchAccountMgmtInfos.cs.html">here</a> to see an example of how to use SearchAccountMgmtInfos API.</example>
         public async Task<SearchAccountMgmtInfosResponse> SearchAccountMgmtInfos(SearchAccountMgmtInfosRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchAccountMgmtInfos");
@@ -16196,7 +16196,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchApiKeys.cs.html">here</a> to see an example of how to use SearchApiKeys API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchApiKeys.cs.html">here</a> to see an example of how to use SearchApiKeys API.</example>
         public async Task<SearchApiKeysResponse> SearchApiKeys(SearchApiKeysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchApiKeys");
@@ -16252,7 +16252,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchAppRoles.cs.html">here</a> to see an example of how to use SearchAppRoles API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchAppRoles.cs.html">here</a> to see an example of how to use SearchAppRoles API.</example>
         public async Task<SearchAppRolesResponse> SearchAppRoles(SearchAppRolesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchAppRoles");
@@ -16308,7 +16308,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchApps.cs.html">here</a> to see an example of how to use SearchApps API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchApps.cs.html">here</a> to see an example of how to use SearchApps API.</example>
         public async Task<SearchAppsResponse> SearchApps(SearchAppsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchApps");
@@ -16364,7 +16364,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchAuthTokens.cs.html">here</a> to see an example of how to use SearchAuthTokens API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchAuthTokens.cs.html">here</a> to see an example of how to use SearchAuthTokens API.</example>
         public async Task<SearchAuthTokensResponse> SearchAuthTokens(SearchAuthTokensRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchAuthTokens");
@@ -16420,7 +16420,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchAuthenticationFactorSettings.cs.html">here</a> to see an example of how to use SearchAuthenticationFactorSettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchAuthenticationFactorSettings.cs.html">here</a> to see an example of how to use SearchAuthenticationFactorSettings API.</example>
         public async Task<SearchAuthenticationFactorSettingsResponse> SearchAuthenticationFactorSettings(SearchAuthenticationFactorSettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchAuthenticationFactorSettings");
@@ -16476,7 +16476,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchCloudGateMappings.cs.html">here</a> to see an example of how to use SearchCloudGateMappings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchCloudGateMappings.cs.html">here</a> to see an example of how to use SearchCloudGateMappings API.</example>
         public async Task<SearchCloudGateMappingsResponse> SearchCloudGateMappings(SearchCloudGateMappingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchCloudGateMappings");
@@ -16532,7 +16532,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchCloudGateServers.cs.html">here</a> to see an example of how to use SearchCloudGateServers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchCloudGateServers.cs.html">here</a> to see an example of how to use SearchCloudGateServers API.</example>
         public async Task<SearchCloudGateServersResponse> SearchCloudGateServers(SearchCloudGateServersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchCloudGateServers");
@@ -16588,7 +16588,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchCloudGates.cs.html">here</a> to see an example of how to use SearchCloudGates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchCloudGates.cs.html">here</a> to see an example of how to use SearchCloudGates API.</example>
         public async Task<SearchCloudGatesResponse> SearchCloudGates(SearchCloudGatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchCloudGates");
@@ -16644,7 +16644,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchConditions.cs.html">here</a> to see an example of how to use SearchConditions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchConditions.cs.html">here</a> to see an example of how to use SearchConditions API.</example>
         public async Task<SearchConditionsResponse> SearchConditions(SearchConditionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchConditions");
@@ -16700,7 +16700,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchCustomerSecretKeys.cs.html">here</a> to see an example of how to use SearchCustomerSecretKeys API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchCustomerSecretKeys.cs.html">here</a> to see an example of how to use SearchCustomerSecretKeys API.</example>
         public async Task<SearchCustomerSecretKeysResponse> SearchCustomerSecretKeys(SearchCustomerSecretKeysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchCustomerSecretKeys");
@@ -16756,7 +16756,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchDynamicResourceGroups.cs.html">here</a> to see an example of how to use SearchDynamicResourceGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchDynamicResourceGroups.cs.html">here</a> to see an example of how to use SearchDynamicResourceGroups API.</example>
         public async Task<SearchDynamicResourceGroupsResponse> SearchDynamicResourceGroups(SearchDynamicResourceGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchDynamicResourceGroups");
@@ -16812,7 +16812,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchGrants.cs.html">here</a> to see an example of how to use SearchGrants API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchGrants.cs.html">here</a> to see an example of how to use SearchGrants API.</example>
         public async Task<SearchGrantsResponse> SearchGrants(SearchGrantsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchGrants");
@@ -16868,7 +16868,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchGroups.cs.html">here</a> to see an example of how to use SearchGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchGroups.cs.html">here</a> to see an example of how to use SearchGroups API.</example>
         public async Task<SearchGroupsResponse> SearchGroups(SearchGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchGroups");
@@ -16924,7 +16924,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchIdentityProofingProviders.cs.html">here</a> to see an example of how to use SearchIdentityProofingProviders API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchIdentityProofingProviders.cs.html">here</a> to see an example of how to use SearchIdentityProofingProviders API.</example>
         public async Task<SearchIdentityProofingProvidersResponse> SearchIdentityProofingProviders(SearchIdentityProofingProvidersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchIdentityProofingProviders");
@@ -16980,7 +16980,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchIdentityProviders.cs.html">here</a> to see an example of how to use SearchIdentityProviders API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchIdentityProviders.cs.html">here</a> to see an example of how to use SearchIdentityProviders API.</example>
         public async Task<SearchIdentityProvidersResponse> SearchIdentityProviders(SearchIdentityProvidersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchIdentityProviders");
@@ -17036,7 +17036,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchIdentitySettings.cs.html">here</a> to see an example of how to use SearchIdentitySettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchIdentitySettings.cs.html">here</a> to see an example of how to use SearchIdentitySettings API.</example>
         public async Task<SearchIdentitySettingsResponse> SearchIdentitySettings(SearchIdentitySettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchIdentitySettings");
@@ -17092,7 +17092,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchKmsiSettings.cs.html">here</a> to see an example of how to use SearchKmsiSettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchKmsiSettings.cs.html">here</a> to see an example of how to use SearchKmsiSettings API.</example>
         public async Task<SearchKmsiSettingsResponse> SearchKmsiSettings(SearchKmsiSettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchKmsiSettings");
@@ -17148,7 +17148,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchMappedAttributes.cs.html">here</a> to see an example of how to use SearchMappedAttributes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchMappedAttributes.cs.html">here</a> to see an example of how to use SearchMappedAttributes API.</example>
         public async Task<SearchMappedAttributesResponse> SearchMappedAttributes(SearchMappedAttributesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchMappedAttributes");
@@ -17204,7 +17204,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchMyApps.cs.html">here</a> to see an example of how to use SearchMyApps API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchMyApps.cs.html">here</a> to see an example of how to use SearchMyApps API.</example>
         public async Task<SearchMyAppsResponse> SearchMyApps(SearchMyAppsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchMyApps");
@@ -17260,7 +17260,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchMyGroups.cs.html">here</a> to see an example of how to use SearchMyGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchMyGroups.cs.html">here</a> to see an example of how to use SearchMyGroups API.</example>
         public async Task<SearchMyGroupsResponse> SearchMyGroups(SearchMyGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchMyGroups");
@@ -17316,7 +17316,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchMyRequestableGroups.cs.html">here</a> to see an example of how to use SearchMyRequestableGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchMyRequestableGroups.cs.html">here</a> to see an example of how to use SearchMyRequestableGroups API.</example>
         public async Task<SearchMyRequestableGroupsResponse> SearchMyRequestableGroups(SearchMyRequestableGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchMyRequestableGroups");
@@ -17372,7 +17372,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchMyRequests.cs.html">here</a> to see an example of how to use SearchMyRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchMyRequests.cs.html">here</a> to see an example of how to use SearchMyRequests API.</example>
         public async Task<SearchMyRequestsResponse> SearchMyRequests(SearchMyRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchMyRequests");
@@ -17428,7 +17428,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchNetworkPerimeters.cs.html">here</a> to see an example of how to use SearchNetworkPerimeters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchNetworkPerimeters.cs.html">here</a> to see an example of how to use SearchNetworkPerimeters API.</example>
         public async Task<SearchNetworkPerimetersResponse> SearchNetworkPerimeters(SearchNetworkPerimetersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchNetworkPerimeters");
@@ -17484,7 +17484,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchNotificationSettings.cs.html">here</a> to see an example of how to use SearchNotificationSettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchNotificationSettings.cs.html">here</a> to see an example of how to use SearchNotificationSettings API.</example>
         public async Task<SearchNotificationSettingsResponse> SearchNotificationSettings(SearchNotificationSettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchNotificationSettings");
@@ -17540,7 +17540,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchOAuth2ClientCredentials.cs.html">here</a> to see an example of how to use SearchOAuth2ClientCredentials API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchOAuth2ClientCredentials.cs.html">here</a> to see an example of how to use SearchOAuth2ClientCredentials API.</example>
         public async Task<SearchOAuth2ClientCredentialsResponse> SearchOAuth2ClientCredentials(SearchOAuth2ClientCredentialsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchOAuth2ClientCredentials");
@@ -17596,7 +17596,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchOAuthClientCertificates.cs.html">here</a> to see an example of how to use SearchOAuthClientCertificates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchOAuthClientCertificates.cs.html">here</a> to see an example of how to use SearchOAuthClientCertificates API.</example>
         public async Task<SearchOAuthClientCertificatesResponse> SearchOAuthClientCertificates(SearchOAuthClientCertificatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchOAuthClientCertificates");
@@ -17652,7 +17652,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchOAuthPartnerCertificates.cs.html">here</a> to see an example of how to use SearchOAuthPartnerCertificates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchOAuthPartnerCertificates.cs.html">here</a> to see an example of how to use SearchOAuthPartnerCertificates API.</example>
         public async Task<SearchOAuthPartnerCertificatesResponse> SearchOAuthPartnerCertificates(SearchOAuthPartnerCertificatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchOAuthPartnerCertificates");
@@ -17708,7 +17708,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchOciConsoleSignOnPolicyConsents.cs.html">here</a> to see an example of how to use SearchOciConsoleSignOnPolicyConsents API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchOciConsoleSignOnPolicyConsents.cs.html">here</a> to see an example of how to use SearchOciConsoleSignOnPolicyConsents API.</example>
         public async Task<SearchOciConsoleSignOnPolicyConsentsResponse> SearchOciConsoleSignOnPolicyConsents(SearchOciConsoleSignOnPolicyConsentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchOciConsoleSignOnPolicyConsents");
@@ -17764,7 +17764,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchPasswordPolicies.cs.html">here</a> to see an example of how to use SearchPasswordPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchPasswordPolicies.cs.html">here</a> to see an example of how to use SearchPasswordPolicies API.</example>
         public async Task<SearchPasswordPoliciesResponse> SearchPasswordPolicies(SearchPasswordPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchPasswordPolicies");
@@ -17820,7 +17820,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchPolicies.cs.html">here</a> to see an example of how to use SearchPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchPolicies.cs.html">here</a> to see an example of how to use SearchPolicies API.</example>
         public async Task<SearchPoliciesResponse> SearchPolicies(SearchPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchPolicies");
@@ -17876,7 +17876,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchResourceTypeSchemaAttributes.cs.html">here</a> to see an example of how to use SearchResourceTypeSchemaAttributes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchResourceTypeSchemaAttributes.cs.html">here</a> to see an example of how to use SearchResourceTypeSchemaAttributes API.</example>
         public async Task<SearchResourceTypeSchemaAttributesResponse> SearchResourceTypeSchemaAttributes(SearchResourceTypeSchemaAttributesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchResourceTypeSchemaAttributes");
@@ -17932,7 +17932,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchRules.cs.html">here</a> to see an example of how to use SearchRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchRules.cs.html">here</a> to see an example of how to use SearchRules API.</example>
         public async Task<SearchRulesResponse> SearchRules(SearchRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchRules");
@@ -17988,7 +17988,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchSchemas.cs.html">here</a> to see an example of how to use SearchSchemas API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchSchemas.cs.html">here</a> to see an example of how to use SearchSchemas API.</example>
         public async Task<SearchSchemasResponse> SearchSchemas(SearchSchemasRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchSchemas");
@@ -18044,7 +18044,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchSecurityQuestionSettings.cs.html">here</a> to see an example of how to use SearchSecurityQuestionSettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchSecurityQuestionSettings.cs.html">here</a> to see an example of how to use SearchSecurityQuestionSettings API.</example>
         public async Task<SearchSecurityQuestionSettingsResponse> SearchSecurityQuestionSettings(SearchSecurityQuestionSettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchSecurityQuestionSettings");
@@ -18100,7 +18100,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchSecurityQuestions.cs.html">here</a> to see an example of how to use SearchSecurityQuestions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchSecurityQuestions.cs.html">here</a> to see an example of how to use SearchSecurityQuestions API.</example>
         public async Task<SearchSecurityQuestionsResponse> SearchSecurityQuestions(SearchSecurityQuestionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchSecurityQuestions");
@@ -18156,7 +18156,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchSelfRegistrationProfiles.cs.html">here</a> to see an example of how to use SearchSelfRegistrationProfiles API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchSelfRegistrationProfiles.cs.html">here</a> to see an example of how to use SearchSelfRegistrationProfiles API.</example>
         public async Task<SearchSelfRegistrationProfilesResponse> SearchSelfRegistrationProfiles(SearchSelfRegistrationProfilesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchSelfRegistrationProfiles");
@@ -18212,7 +18212,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchSettings.cs.html">here</a> to see an example of how to use SearchSettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchSettings.cs.html">here</a> to see an example of how to use SearchSettings API.</example>
         public async Task<SearchSettingsResponse> SearchSettings(SearchSettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchSettings");
@@ -18268,7 +18268,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchSmtpCredentials.cs.html">here</a> to see an example of how to use SearchSmtpCredentials API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchSmtpCredentials.cs.html">here</a> to see an example of how to use SearchSmtpCredentials API.</example>
         public async Task<SearchSmtpCredentialsResponse> SearchSmtpCredentials(SearchSmtpCredentialsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchSmtpCredentials");
@@ -18324,7 +18324,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchSocialIdentityProviders.cs.html">here</a> to see an example of how to use SearchSocialIdentityProviders API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchSocialIdentityProviders.cs.html">here</a> to see an example of how to use SearchSocialIdentityProviders API.</example>
         public async Task<SearchSocialIdentityProvidersResponse> SearchSocialIdentityProviders(SearchSocialIdentityProvidersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchSocialIdentityProviders");
@@ -18380,7 +18380,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchUserAttributesSettings.cs.html">here</a> to see an example of how to use SearchUserAttributesSettings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchUserAttributesSettings.cs.html">here</a> to see an example of how to use SearchUserAttributesSettings API.</example>
         public async Task<SearchUserAttributesSettingsResponse> SearchUserAttributesSettings(SearchUserAttributesSettingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchUserAttributesSettings");
@@ -18436,7 +18436,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchUserDbCredentials.cs.html">here</a> to see an example of how to use SearchUserDbCredentials API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchUserDbCredentials.cs.html">here</a> to see an example of how to use SearchUserDbCredentials API.</example>
         public async Task<SearchUserDbCredentialsResponse> SearchUserDbCredentials(SearchUserDbCredentialsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchUserDbCredentials");
@@ -18492,7 +18492,7 @@ namespace Oci.IdentitydomainsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchUsers.cs.html">here</a> to see an example of how to use SearchUsers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchUsers.cs.html">here</a> to see an example of how to use SearchUsers API.</example>
         public async Task<SearchUsersResponse> SearchUsers(SearchUsersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchUsers");

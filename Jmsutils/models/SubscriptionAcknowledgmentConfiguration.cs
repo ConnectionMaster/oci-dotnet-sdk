@@ -32,7 +32,7 @@ namespace Oci.JmsutilsService.Models
         public System.Nullable<bool> IsAcknowledged { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the principal that ackwnoledged the subscription.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the principal that ackwnoledged the subscription.
         /// </value>
         [JsonProperty(PropertyName = "acknowledgedBy")]
         public string AcknowledgedBy { get; set; }

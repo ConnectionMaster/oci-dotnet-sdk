@@ -14,7 +14,7 @@ using Oci.DatalabelingservicedataplaneService.Models;
 namespace Oci.DatalabelingservicedataplaneService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datalabelingservicedataplane/CreateRecord.cs.html">here</a> to see an example of how to use CreateRecord request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datalabelingservicedataplane/CreateRecord.cs.html">here</a> to see an example of how to use CreateRecord request.
     /// </example>
     public class CreateRecordRequest : Oci.Common.IOciRequest
     {

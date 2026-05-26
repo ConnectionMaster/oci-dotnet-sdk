@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/GetCloudExadataInfrastructureUnallocatedResources.cs.html">here</a> to see an example of how to use GetCloudExadataInfrastructureUnallocatedResources request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/GetCloudExadataInfrastructureUnallocatedResources.cs.html">here</a> to see an example of how to use GetCloudExadataInfrastructureUnallocatedResources request.
     /// </example>
     public class GetCloudExadataInfrastructureUnallocatedResourcesRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The cloud Exadata infrastructure [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The cloud Exadata infrastructure [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required
@@ -37,7 +37,7 @@ namespace Oci.DatabaseService.Requests
         public string OpcRequestId { get; set; }
         
         /// <value>
-        /// The list of [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Db servers.
+        /// The list of [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Db servers.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "dbServers", Oci.Common.Http.CollectionFormatType.Multi)]
         public System.Collections.Generic.List<string> DbServers { get; set; }

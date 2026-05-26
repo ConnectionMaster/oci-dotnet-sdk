@@ -23,7 +23,7 @@ namespace Oci.IdentityService.Models
         
         /// <value>
         /// A REPLICATION_ENABLED region, e.g. us-ashburn-1.
-        /// See [Regions and Availability Domains](https://docs.cloud.oracle.com/Content/General/Concepts/regions.htm)
+        /// See [Regions and Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm)
         /// for the full list of supported region names.
         /// 
         /// </value>

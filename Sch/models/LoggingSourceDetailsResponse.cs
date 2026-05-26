@@ -18,7 +18,7 @@ namespace Oci.SchService.Models
     /// <summary>
     /// The Logging source.
     /// For configuration instructions, see
-    /// [Creating a Connector with a Logging Source](https://docs.cloud.oracle.com/iaas/Content/connector-hub/create-service-connector-logging-source.htm).
+    /// [Creating a Connector with a Logging Source](https://docs.oracle.com/iaas/Content/connector-hub/create-service-connector-logging-source.htm).
     /// 
     /// </summary>
     public class LoggingSourceDetailsResponse : SourceDetailsResponse

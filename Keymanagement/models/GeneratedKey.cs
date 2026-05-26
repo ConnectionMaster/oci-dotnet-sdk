@@ -33,7 +33,7 @@ namespace Oci.KeymanagementService.Models
         
         /// <value>
         /// The plaintext data encryption key, a base64-encoded sequence of random bytes, which is
-        /// included if the [GenerateDataEncryptionKey](https://docs.cloud.oracle.com/api/#/en/key/latest/GeneratedKey/GenerateDataEncryptionKey)
+        /// included if the [GenerateDataEncryptionKey](https://docs.oracle.com/iaas/api/#/en/key/latest/GeneratedKey/GenerateDataEncryptionKey)
         /// request includes the `includePlaintextKey` parameter and sets its value to \"true\".
         /// 
         /// </value>
@@ -42,7 +42,7 @@ namespace Oci.KeymanagementService.Models
         
         /// <value>
         /// The checksum of the plaintext data encryption key, which is included if the
-        /// [GenerateDataEncryptionKey](https://docs.cloud.oracle.com/api/#/en/key/latest/GeneratedKey/GenerateDataEncryptionKey)
+        /// [GenerateDataEncryptionKey](https://docs.oracle.com/iaas/api/#/en/key/latest/GeneratedKey/GenerateDataEncryptionKey)
         /// request includes the `includePlaintextKey` parameter and sets its value to \"true\".
         /// 
         /// </value>

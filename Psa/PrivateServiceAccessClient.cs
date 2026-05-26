@@ -81,7 +81,7 @@ namespace Oci.PsaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/CancelPsaWorkRequest.cs.html">here</a> to see an example of how to use CancelPsaWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/CancelPsaWorkRequest.cs.html">here</a> to see an example of how to use CancelPsaWorkRequest API.</example>
         public async Task<CancelPsaWorkRequestResponse> CancelPsaWorkRequest(CancelPsaWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelPsaWorkRequest");
@@ -131,7 +131,7 @@ namespace Oci.PsaService
 
         /// <summary>
         /// Moves a PrivateServiceAccess into a different compartment within the same tenancy. For information about moving resources between
-        /// compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -139,7 +139,7 @@ namespace Oci.PsaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/ChangePrivateServiceAccessCompartment.cs.html">here</a> to see an example of how to use ChangePrivateServiceAccessCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/ChangePrivateServiceAccessCompartment.cs.html">here</a> to see an example of how to use ChangePrivateServiceAccessCompartment API.</example>
         public async Task<ChangePrivateServiceAccessCompartmentResponse> ChangePrivateServiceAccessCompartment(ChangePrivateServiceAccessCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changePrivateServiceAccessCompartment");
@@ -197,7 +197,7 @@ namespace Oci.PsaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/CreatePrivateServiceAccess.cs.html">here</a> to see an example of how to use CreatePrivateServiceAccess API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/CreatePrivateServiceAccess.cs.html">here</a> to see an example of how to use CreatePrivateServiceAccess API.</example>
         public async Task<CreatePrivateServiceAccessResponse> CreatePrivateServiceAccess(CreatePrivateServiceAccessRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPrivateServiceAccess");
@@ -253,7 +253,7 @@ namespace Oci.PsaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/DeletePrivateServiceAccess.cs.html">here</a> to see an example of how to use DeletePrivateServiceAccess API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/DeletePrivateServiceAccess.cs.html">here</a> to see an example of how to use DeletePrivateServiceAccess API.</example>
         public async Task<DeletePrivateServiceAccessResponse> DeletePrivateServiceAccess(DeletePrivateServiceAccessRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePrivateServiceAccess");
@@ -309,7 +309,7 @@ namespace Oci.PsaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/GetPrivateServiceAccess.cs.html">here</a> to see an example of how to use GetPrivateServiceAccess API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/GetPrivateServiceAccess.cs.html">here</a> to see an example of how to use GetPrivateServiceAccess API.</example>
         public async Task<GetPrivateServiceAccessResponse> GetPrivateServiceAccess(GetPrivateServiceAccessRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPrivateServiceAccess");
@@ -365,7 +365,7 @@ namespace Oci.PsaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/GetPsaWorkRequest.cs.html">here</a> to see an example of how to use GetPsaWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/GetPsaWorkRequest.cs.html">here</a> to see an example of how to use GetPsaWorkRequest API.</example>
         public async Task<GetPsaWorkRequestResponse> GetPsaWorkRequest(GetPsaWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPsaWorkRequest");
@@ -415,7 +415,7 @@ namespace Oci.PsaService
 
         /// <summary>
         /// List the private service accesses in the specified compartment. You can optionally filter the list by
-        /// specifying the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a subnet in the cunsumer&#39;s VCN.
+        /// specifying the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a subnet in the cunsumer&#39;s VCN.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -423,7 +423,7 @@ namespace Oci.PsaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/ListPrivateServiceAccesses.cs.html">here</a> to see an example of how to use ListPrivateServiceAccesses API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/ListPrivateServiceAccesses.cs.html">here</a> to see an example of how to use ListPrivateServiceAccesses API.</example>
         public async Task<ListPrivateServiceAccessesResponse> ListPrivateServiceAccesses(ListPrivateServiceAccessesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPrivateServiceAccesses");
@@ -480,7 +480,7 @@ namespace Oci.PsaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/ListPsaServices.cs.html">here</a> to see an example of how to use ListPsaServices API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/ListPsaServices.cs.html">here</a> to see an example of how to use ListPsaServices API.</example>
         public async Task<ListPsaServicesResponse> ListPsaServices(ListPsaServicesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPsaServices");
@@ -537,7 +537,7 @@ namespace Oci.PsaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/ListPsaWorkRequestErrors.cs.html">here</a> to see an example of how to use ListPsaWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/ListPsaWorkRequestErrors.cs.html">here</a> to see an example of how to use ListPsaWorkRequestErrors API.</example>
         public async Task<ListPsaWorkRequestErrorsResponse> ListPsaWorkRequestErrors(ListPsaWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPsaWorkRequestErrors");
@@ -594,7 +594,7 @@ namespace Oci.PsaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/ListPsaWorkRequestLogs.cs.html">here</a> to see an example of how to use ListPsaWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/ListPsaWorkRequestLogs.cs.html">here</a> to see an example of how to use ListPsaWorkRequestLogs API.</example>
         public async Task<ListPsaWorkRequestLogsResponse> ListPsaWorkRequestLogs(ListPsaWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPsaWorkRequestLogs");
@@ -651,7 +651,7 @@ namespace Oci.PsaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/ListPsaWorkRequests.cs.html">here</a> to see an example of how to use ListPsaWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/ListPsaWorkRequests.cs.html">here</a> to see an example of how to use ListPsaWorkRequests API.</example>
         public async Task<ListPsaWorkRequestsResponse> ListPsaWorkRequests(ListPsaWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPsaWorkRequests");
@@ -707,7 +707,7 @@ namespace Oci.PsaService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/UpdatePrivateServiceAccess.cs.html">here</a> to see an example of how to use UpdatePrivateServiceAccess API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/UpdatePrivateServiceAccess.cs.html">here</a> to see an example of how to use UpdatePrivateServiceAccess API.</example>
         public async Task<UpdatePrivateServiceAccessResponse> UpdatePrivateServiceAccess(UpdatePrivateServiceAccessRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePrivateServiceAccess");

@@ -14,7 +14,7 @@ using Oci.ThreatintelligenceService.Models;
 namespace Oci.ThreatintelligenceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/threatintelligence/ListThreatTypes.cs.html">here</a> to see an example of how to use ListThreatTypes request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/threatintelligence/ListThreatTypes.cs.html">here</a> to see an example of how to use ListThreatTypes request.
     /// </example>
     public class ListThreatTypesRequest : Oci.Common.IOciRequest
     {

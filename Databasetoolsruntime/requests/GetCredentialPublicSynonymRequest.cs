@@ -14,13 +14,13 @@ using Oci.DatabasetoolsruntimeService.Models;
 namespace Oci.DatabasetoolsruntimeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetCredentialPublicSynonym.cs.html">here</a> to see an example of how to use GetCredentialPublicSynonym request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/GetCredentialPublicSynonym.cs.html">here</a> to see an example of how to use GetCredentialPublicSynonym request.
     /// </example>
     public class GetCredentialPublicSynonymRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of a Database Tools connection.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a Database Tools connection.
         /// </value>
         /// <remarks>
         /// Required

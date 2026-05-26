@@ -14,7 +14,7 @@ using Oci.IdentityService.Models;
 namespace Oci.IdentityService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identity/GetIamWorkRequest.cs.html">here</a> to see an example of how to use GetIamWorkRequest request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identity/GetIamWorkRequest.cs.html">here</a> to see an example of how to use GetIamWorkRequest request.
     /// </example>
     public class GetIamWorkRequestRequest : Oci.Common.IOciRequest
     {

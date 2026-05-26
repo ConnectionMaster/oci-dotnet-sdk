@@ -14,7 +14,7 @@ using Oci.BdsService.Models;
 namespace Oci.BdsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/AddAutoScalingConfiguration.cs.html">here</a> to see an example of how to use AddAutoScalingConfiguration request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/AddAutoScalingConfiguration.cs.html">here</a> to see an example of how to use AddAutoScalingConfiguration request.
     /// </example>
     public class AddAutoScalingConfigurationRequest : Oci.Common.IOciRequest
     {

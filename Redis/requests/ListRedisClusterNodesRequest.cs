@@ -14,13 +14,13 @@ using Oci.RedisService.Models;
 namespace Oci.RedisService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ListRedisClusterNodes.cs.html">here</a> to see an example of how to use ListRedisClusterNodes request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ListRedisClusterNodes.cs.html">here</a> to see an example of how to use ListRedisClusterNodes request.
     /// </example>
     public class ListRedisClusterNodesRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the cluster.
         /// </value>
         /// <remarks>
         /// Required

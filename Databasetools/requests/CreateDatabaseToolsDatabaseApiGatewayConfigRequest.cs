@@ -14,7 +14,7 @@ using Oci.DatabasetoolsService.Models;
 namespace Oci.DatabasetoolsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetools/CreateDatabaseToolsDatabaseApiGatewayConfig.cs.html">here</a> to see an example of how to use CreateDatabaseToolsDatabaseApiGatewayConfig request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetools/CreateDatabaseToolsDatabaseApiGatewayConfig.cs.html">here</a> to see an example of how to use CreateDatabaseToolsDatabaseApiGatewayConfig request.
     /// </example>
     public class CreateDatabaseToolsDatabaseApiGatewayConfigRequest : Oci.Common.IOciRequest
     {

@@ -22,7 +22,7 @@ namespace Oci.BatchService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private endpoint's VNIC,
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private endpoint's VNIC,
         /// which resides in the customer's VCN.
         /// 
         /// </value>

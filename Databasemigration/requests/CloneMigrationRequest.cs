@@ -14,7 +14,7 @@ using Oci.DatabasemigrationService.Models;
 namespace Oci.DatabasemigrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/CloneMigration.cs.html">here</a> to see an example of how to use CloneMigration request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/CloneMigration.cs.html">here</a> to see an example of how to use CloneMigration request.
     /// </example>
     public class CloneMigrationRequest : Oci.Common.IOciRequest
     {

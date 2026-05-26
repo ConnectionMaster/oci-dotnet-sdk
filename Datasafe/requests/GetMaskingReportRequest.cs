@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetMaskingReport.cs.html">here</a> to see an example of how to use GetMaskingReport request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetMaskingReport.cs.html">here</a> to see an example of how to use GetMaskingReport request.
     /// </example>
     public class GetMaskingReportRequest : Oci.Common.IOciRequest
     {

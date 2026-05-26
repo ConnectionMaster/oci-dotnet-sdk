@@ -14,7 +14,7 @@ using Oci.LoganalyticsService.Models;
 namespace Oci.LoganalyticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/ValidateEndpoint.cs.html">here</a> to see an example of how to use ValidateEndpoint request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/ValidateEndpoint.cs.html">here</a> to see an example of how to use ValidateEndpoint request.
     /// </example>
     public class ValidateEndpointRequest : Oci.Common.IOciRequest
     {

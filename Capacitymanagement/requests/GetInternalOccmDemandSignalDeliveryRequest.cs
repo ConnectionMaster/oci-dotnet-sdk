@@ -14,7 +14,7 @@ using Oci.CapacitymanagementService.Models;
 namespace Oci.CapacitymanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/GetInternalOccmDemandSignalDelivery.cs.html">here</a> to see an example of how to use GetInternalOccmDemandSignalDelivery request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/GetInternalOccmDemandSignalDelivery.cs.html">here</a> to see an example of how to use GetInternalOccmDemandSignalDelivery request.
     /// </example>
     public class GetInternalOccmDemandSignalDeliveryRequest : Oci.Common.IOciRequest
     {

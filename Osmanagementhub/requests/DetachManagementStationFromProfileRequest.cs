@@ -14,13 +14,13 @@ using Oci.OsmanagementhubService.Models;
 namespace Oci.OsmanagementhubService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DetachManagementStationFromProfile.cs.html">here</a> to see an example of how to use DetachManagementStationFromProfile request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DetachManagementStationFromProfile.cs.html">here</a> to see an example of how to use DetachManagementStationFromProfile request.
     /// </example>
     public class DetachManagementStationFromProfileRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the registration profile.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the registration profile.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.OsmanagementhubService.Requests
         public string ProfileId { get; set; }
         
         /// <value>
-        /// The management station [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) to detach from the profile
+        /// The management station [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) to detach from the profile
         /// </value>
         /// <remarks>
         /// Required

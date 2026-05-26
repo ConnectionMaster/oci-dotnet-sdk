@@ -14,7 +14,7 @@ using Oci.ApmconfigService.Models;
 namespace Oci.ApmconfigService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/ExportConfiguration.cs.html">here</a> to see an example of how to use ExportConfiguration request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/ExportConfiguration.cs.html">here</a> to see an example of how to use ExportConfiguration request.
     /// </example>
     public class ExportConfigurationRequest : Oci.Common.IOciRequest
     {

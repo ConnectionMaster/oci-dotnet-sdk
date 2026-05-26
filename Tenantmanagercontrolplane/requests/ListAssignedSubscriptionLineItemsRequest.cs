@@ -14,7 +14,7 @@ using Oci.TenantmanagercontrolplaneService.Models;
 namespace Oci.TenantmanagercontrolplaneService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/ListAssignedSubscriptionLineItems.cs.html">here</a> to see an example of how to use ListAssignedSubscriptionLineItems request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/ListAssignedSubscriptionLineItems.cs.html">here</a> to see an example of how to use ListAssignedSubscriptionLineItems request.
     /// </example>
     public class ListAssignedSubscriptionLineItemsRequest : Oci.Common.IOciRequest
     {

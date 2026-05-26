@@ -80,7 +80,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/AddSubscriberLock.cs.html">here</a> to see an example of how to use AddSubscriberLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/AddSubscriberLock.cs.html">here</a> to see an example of how to use AddSubscriberLock API.</example>
         public async Task<AddSubscriberLockResponse> AddSubscriberLock(AddSubscriberLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addSubscriberLock");
@@ -136,7 +136,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/ChangeSubscriberCompartment.cs.html">here</a> to see an example of how to use ChangeSubscriberCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/ChangeSubscriberCompartment.cs.html">here</a> to see an example of how to use ChangeSubscriberCompartment API.</example>
         public async Task<ChangeSubscriberCompartmentResponse> ChangeSubscriberCompartment(ChangeSubscriberCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSubscriberCompartment");
@@ -192,7 +192,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/CreateSubscriber.cs.html">here</a> to see an example of how to use CreateSubscriber API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/CreateSubscriber.cs.html">here</a> to see an example of how to use CreateSubscriber API.</example>
         public async Task<CreateSubscriberResponse> CreateSubscriber(CreateSubscriberRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSubscriber");
@@ -248,7 +248,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/DeleteSubscriber.cs.html">here</a> to see an example of how to use DeleteSubscriber API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/DeleteSubscriber.cs.html">here</a> to see an example of how to use DeleteSubscriber API.</example>
         public async Task<DeleteSubscriberResponse> DeleteSubscriber(DeleteSubscriberRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSubscriber");
@@ -304,7 +304,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/GetSubscriber.cs.html">here</a> to see an example of how to use GetSubscriber API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/GetSubscriber.cs.html">here</a> to see an example of how to use GetSubscriber API.</example>
         public async Task<GetSubscriberResponse> GetSubscriber(GetSubscriberRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSubscriber");
@@ -360,7 +360,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/ListSubscribers.cs.html">here</a> to see an example of how to use ListSubscribers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/ListSubscribers.cs.html">here</a> to see an example of how to use ListSubscribers API.</example>
         public async Task<ListSubscribersResponse> ListSubscribers(ListSubscribersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSubscribers");
@@ -416,7 +416,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/RemoveSubscriberLock.cs.html">here</a> to see an example of how to use RemoveSubscriberLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/RemoveSubscriberLock.cs.html">here</a> to see an example of how to use RemoveSubscriberLock API.</example>
         public async Task<RemoveSubscriberLockResponse> RemoveSubscriberLock(RemoveSubscriberLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeSubscriberLock");
@@ -472,7 +472,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/UpdateSubscriber.cs.html">here</a> to see an example of how to use UpdateSubscriber API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/UpdateSubscriber.cs.html">here</a> to see an example of how to use UpdateSubscriber API.</example>
         public async Task<UpdateSubscriberResponse> UpdateSubscriber(UpdateSubscriberRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSubscriber");

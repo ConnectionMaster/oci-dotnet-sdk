@@ -78,7 +78,7 @@ namespace Oci.UsageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usage/CreateRedeemableUser.cs.html">here</a> to see an example of how to use CreateRedeemableUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usage/CreateRedeemableUser.cs.html">here</a> to see an example of how to use CreateRedeemableUser API.</example>
         public async Task<CreateRedeemableUserResponse> CreateRedeemableUser(CreateRedeemableUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRedeemableUser");
@@ -135,7 +135,7 @@ namespace Oci.UsageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usage/DeleteRedeemableUser.cs.html">here</a> to see an example of how to use DeleteRedeemableUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usage/DeleteRedeemableUser.cs.html">here</a> to see an example of how to use DeleteRedeemableUser API.</example>
         public async Task<DeleteRedeemableUserResponse> DeleteRedeemableUser(DeleteRedeemableUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRedeemableUser");
@@ -192,7 +192,7 @@ namespace Oci.UsageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usage/ListProducts.cs.html">here</a> to see an example of how to use ListProducts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usage/ListProducts.cs.html">here</a> to see an example of how to use ListProducts API.</example>
         public async Task<ListProductsResponse> ListProducts(ListProductsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProducts");
@@ -249,7 +249,7 @@ namespace Oci.UsageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usage/ListRedeemableUsers.cs.html">here</a> to see an example of how to use ListRedeemableUsers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usage/ListRedeemableUsers.cs.html">here</a> to see an example of how to use ListRedeemableUsers API.</example>
         public async Task<ListRedeemableUsersResponse> ListRedeemableUsers(ListRedeemableUsersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRedeemableUsers");
@@ -306,7 +306,7 @@ namespace Oci.UsageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usage/ListRedemptions.cs.html">here</a> to see an example of how to use ListRedemptions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usage/ListRedemptions.cs.html">here</a> to see an example of how to use ListRedemptions API.</example>
         public async Task<ListRedemptionsResponse> ListRedemptions(ListRedemptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRedemptions");
@@ -363,7 +363,7 @@ namespace Oci.UsageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usage/ListRewards.cs.html">here</a> to see an example of how to use ListRewards API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usage/ListRewards.cs.html">here</a> to see an example of how to use ListRewards API.</example>
         public async Task<ListRewardsResponse> ListRewards(ListRewardsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRewards");

@@ -81,7 +81,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/AddExportLock.cs.html">here</a> to see an example of how to use AddExportLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/AddExportLock.cs.html">here</a> to see an example of how to use AddExportLock API.</example>
         public async Task<AddExportLockResponse> AddExportLock(AddExportLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addExportLock");
@@ -138,7 +138,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/AddFileSystemLock.cs.html">here</a> to see an example of how to use AddFileSystemLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/AddFileSystemLock.cs.html">here</a> to see an example of how to use AddFileSystemLock API.</example>
         public async Task<AddFileSystemLockResponse> AddFileSystemLock(AddFileSystemLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addFileSystemLock");
@@ -195,7 +195,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/AddFilesystemSnapshotPolicyLock.cs.html">here</a> to see an example of how to use AddFilesystemSnapshotPolicyLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/AddFilesystemSnapshotPolicyLock.cs.html">here</a> to see an example of how to use AddFilesystemSnapshotPolicyLock API.</example>
         public async Task<AddFilesystemSnapshotPolicyLockResponse> AddFilesystemSnapshotPolicyLock(AddFilesystemSnapshotPolicyLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addFilesystemSnapshotPolicyLock");
@@ -252,7 +252,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/AddMountTargetLock.cs.html">here</a> to see an example of how to use AddMountTargetLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/AddMountTargetLock.cs.html">here</a> to see an example of how to use AddMountTargetLock API.</example>
         public async Task<AddMountTargetLockResponse> AddMountTargetLock(AddMountTargetLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addMountTargetLock");
@@ -309,7 +309,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/AddOutboundConnectorLock.cs.html">here</a> to see an example of how to use AddOutboundConnectorLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/AddOutboundConnectorLock.cs.html">here</a> to see an example of how to use AddOutboundConnectorLock API.</example>
         public async Task<AddOutboundConnectorLockResponse> AddOutboundConnectorLock(AddOutboundConnectorLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addOutboundConnectorLock");
@@ -366,7 +366,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/AddReplicationLock.cs.html">here</a> to see an example of how to use AddReplicationLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/AddReplicationLock.cs.html">here</a> to see an example of how to use AddReplicationLock API.</example>
         public async Task<AddReplicationLockResponse> AddReplicationLock(AddReplicationLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addReplicationLock");
@@ -423,7 +423,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/AddSnapshotLock.cs.html">here</a> to see an example of how to use AddSnapshotLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/AddSnapshotLock.cs.html">here</a> to see an example of how to use AddSnapshotLock API.</example>
         public async Task<AddSnapshotLockResponse> AddSnapshotLock(AddSnapshotLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addSnapshotLock");
@@ -481,7 +481,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CancelDowngradeShapeMountTarget.cs.html">here</a> to see an example of how to use CancelDowngradeShapeMountTarget API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CancelDowngradeShapeMountTarget.cs.html">here</a> to see an example of how to use CancelDowngradeShapeMountTarget API.</example>
         public async Task<CancelDowngradeShapeMountTargetResponse> CancelDowngradeShapeMountTarget(CancelDowngradeShapeMountTargetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelDowngradeShapeMountTarget");
@@ -531,7 +531,7 @@ namespace Oci.FilestorageService
         }
 
         /// <summary>
-        /// Moves a file system and its associated snapshots into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes)
+        /// Moves a file system and its associated snapshots into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes)
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -539,7 +539,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ChangeFileSystemCompartment.cs.html">here</a> to see an example of how to use ChangeFileSystemCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ChangeFileSystemCompartment.cs.html">here</a> to see an example of how to use ChangeFileSystemCompartment API.</example>
         public async Task<ChangeFileSystemCompartmentResponse> ChangeFileSystemCompartment(ChangeFileSystemCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeFileSystemCompartment");
@@ -589,7 +589,7 @@ namespace Oci.FilestorageService
         }
 
         /// <summary>
-        /// Moves a file system snapshot policy into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Moves a file system snapshot policy into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -597,7 +597,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ChangeFilesystemSnapshotPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeFilesystemSnapshotPolicyCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ChangeFilesystemSnapshotPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeFilesystemSnapshotPolicyCompartment API.</example>
         public async Task<ChangeFilesystemSnapshotPolicyCompartmentResponse> ChangeFilesystemSnapshotPolicyCompartment(ChangeFilesystemSnapshotPolicyCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeFilesystemSnapshotPolicyCompartment");
@@ -647,7 +647,7 @@ namespace Oci.FilestorageService
         }
 
         /// <summary>
-        /// Moves a mount target and its associated export set or share set into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes)
+        /// Moves a mount target and its associated export set or share set into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes)
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -655,7 +655,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ChangeMountTargetCompartment.cs.html">here</a> to see an example of how to use ChangeMountTargetCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ChangeMountTargetCompartment.cs.html">here</a> to see an example of how to use ChangeMountTargetCompartment API.</example>
         public async Task<ChangeMountTargetCompartmentResponse> ChangeMountTargetCompartment(ChangeMountTargetCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMountTargetCompartment");
@@ -707,7 +707,7 @@ namespace Oci.FilestorageService
         /// <summary>
         /// Moves an outbound connector into a different compartment within the same tenancy.
         /// For information about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes)
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes)
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -715,7 +715,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ChangeOutboundConnectorCompartment.cs.html">here</a> to see an example of how to use ChangeOutboundConnectorCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ChangeOutboundConnectorCompartment.cs.html">here</a> to see an example of how to use ChangeOutboundConnectorCompartment API.</example>
         public async Task<ChangeOutboundConnectorCompartmentResponse> ChangeOutboundConnectorCompartment(ChangeOutboundConnectorCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeOutboundConnectorCompartment");
@@ -766,7 +766,7 @@ namespace Oci.FilestorageService
 
         /// <summary>
         /// Moves a replication and its replication target into a different compartment within the same tenancy.
-        /// For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -774,7 +774,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ChangeReplicationCompartment.cs.html">here</a> to see an example of how to use ChangeReplicationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ChangeReplicationCompartment.cs.html">here</a> to see an example of how to use ChangeReplicationCompartment API.</example>
         public async Task<ChangeReplicationCompartmentResponse> ChangeReplicationCompartment(ChangeReplicationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeReplicationCompartment");
@@ -833,7 +833,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateExport.cs.html">here</a> to see an example of how to use CreateExport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateExport.cs.html">here</a> to see an example of how to use CreateExport API.</example>
         public async Task<CreateExportResponse> CreateExport(CreateExportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createExport");
@@ -895,20 +895,20 @@ namespace Oci.FilestorageService
         /// more than one mount target at a time.
         /// &lt;br/&gt;
         /// For information about access control and compartments, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// &lt;br/&gt;
         /// For information about Network Security Groups access control, see
-        /// [Network Security Groups](https://docs.cloud.oracle.com/Content/Network/Concepts/networksecuritygroups.htm).
+        /// [Network Security Groups](https://docs.oracle.com/iaas/Content/Network/Concepts/networksecuritygroups.htm).
         /// &lt;br/&gt;
         /// For information about availability domains, see [Regions and
-        /// Availability Domains](https://docs.cloud.oracle.com/Content/General/Concepts/regions.htm).
+        /// Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm).
         /// To get a list of availability domains, use the
         /// &#x60;ListAvailabilityDomains&#x60; operation in the Identity and Access
         /// Management Service API.
         /// &lt;br/&gt;
         /// All Oracle Cloud Infrastructure resources, including
         /// file systems, get an Oracle-assigned, unique ID called an Oracle
-        /// Cloud Identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)).
+        /// Cloud Identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
         /// When you create a resource, you can find its OCID in the response.
         /// You can also retrieve a resource&#39;s OCID by using a List API operation on that resource
         /// type or by viewing the resource in the Console.
@@ -919,7 +919,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateFileSystem.cs.html">here</a> to see an example of how to use CreateFileSystem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateFileSystem.cs.html">here</a> to see an example of how to use CreateFileSystem API.</example>
         public async Task<CreateFileSystemResponse> CreateFileSystem(CreateFileSystemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createFileSystem");
@@ -981,7 +981,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateFilesystemSnapshotPolicy.cs.html">here</a> to see an example of how to use CreateFilesystemSnapshotPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateFilesystemSnapshotPolicy.cs.html">here</a> to see an example of how to use CreateFilesystemSnapshotPolicy API.</example>
         public async Task<CreateFilesystemSnapshotPolicyResponse> CreateFilesystemSnapshotPolicy(CreateFilesystemSnapshotPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createFilesystemSnapshotPolicy");
@@ -1049,17 +1049,17 @@ namespace Oci.FilestorageService
         /// &lt;br/&gt;
         /// For information about access control and compartments, see
         /// [Overview of the IAM
-        /// Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm).
+        /// Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// &lt;br/&gt;
         /// For information about availability domains, see [Regions and
-        /// Availability Domains](https://docs.cloud.oracle.com/Content/General/Concepts/regions.htm).
+        /// Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm).
         /// To get a list of availability domains, use the
         /// &#x60;ListAvailabilityDomains&#x60; operation in the Identity and Access
         /// Management Service API.
         /// &lt;br/&gt;
         /// All Oracle Cloud Infrastructure Services resources, including
         /// mount targets, get an Oracle-assigned, unique ID called an
-        /// Oracle Cloud Identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)).
+        /// Oracle Cloud Identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
         /// When you create a resource, you can find its OCID in the response.
         /// You can also retrieve a resource&#39;s OCID by using a List API operation on that resource
         /// type, or by viewing the resource in the Console.
@@ -1070,7 +1070,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateMountTarget.cs.html">here</a> to see an example of how to use CreateMountTarget API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateMountTarget.cs.html">here</a> to see an example of how to use CreateMountTarget API.</example>
         public async Task<CreateMountTargetResponse> CreateMountTarget(CreateMountTargetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMountTarget");
@@ -1126,17 +1126,17 @@ namespace Oci.FilestorageService
         /// &lt;br/&gt;
         /// For information about access control and compartments, see
         /// [Overview of the IAM
-        /// Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm).
+        /// Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// &lt;br/&gt;
         /// For information about availability domains, see [Regions and
-        /// Availability Domains](https://docs.cloud.oracle.com/Content/General/Concepts/regions.htm).
+        /// Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm).
         /// To get a list of availability domains, use the
         /// &#x60;ListAvailabilityDomains&#x60; operation in the Identity and Access
         /// Management Service API.
         /// &lt;br/&gt;
         /// All Oracle Cloud Infrastructure Services resources, including
         /// outbound connectors, get an Oracle-assigned, unique ID called an
-        /// Oracle Cloud Identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)).
+        /// Oracle Cloud Identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
         /// When you create a resource, you can find its OCID in the response.
         /// You can also retrieve a resource&#39;s OCID by using a List API operation on that resource
         /// type, or by viewing the resource in the Console.
@@ -1147,7 +1147,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateOutboundConnector.cs.html">here</a> to see an example of how to use CreateOutboundConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateOutboundConnector.cs.html">here</a> to see an example of how to use CreateOutboundConnector API.</example>
         public async Task<CreateOutboundConnectorResponse> CreateOutboundConnector(CreateOutboundConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOutboundConnector");
@@ -1206,7 +1206,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateQuotaRule.cs.html">here</a> to see an example of how to use CreateQuotaRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateQuotaRule.cs.html">here</a> to see an example of how to use CreateQuotaRule API.</example>
         public async Task<CreateQuotaRuleResponse> CreateQuotaRule(CreateQuotaRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createQuotaRule");
@@ -1265,21 +1265,21 @@ namespace Oci.FilestorageService
         /// and sends it to the associated &#x60;ReplicationTarget&#x60;, which retrieves the delta and applies it to the target
         /// file system.
         /// Only unexported file systems can be used as target file systems.
-        /// For more information, see [Using Replication](https://docs.cloud.oracle.com/iaas/Content/File/Tasks/FSreplication.htm).
+        /// For more information, see [Using Replication](https://docs.oracle.com/iaas/Content/File/Tasks/FSreplication.htm).
         /// &lt;br/&gt;
         /// For information about access control and compartments, see
         /// [Overview of the IAM
-        /// Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm).
+        /// Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// &lt;br/&gt;
         /// For information about availability domains, see [Regions and
-        /// Availability Domains](https://docs.cloud.oracle.com/Content/General/Concepts/regions.htm).
+        /// Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm).
         /// To get a list of availability domains, use the
         /// &#x60;ListAvailabilityDomains&#x60; operation in the Identity and Access
         /// Management Service API.
         /// &lt;br/&gt;
         /// All Oracle Cloud Infrastructure Services resources, including
         /// replications, get an Oracle-assigned, unique ID called an
-        /// Oracle Cloud Identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)).
+        /// Oracle Cloud Identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
         /// When you create a resource, you can find its OCID in the response.
         /// You can also retrieve a resource&#39;s OCID by using a List API operation on that resource
         /// type, or by viewing the resource in the Console.
@@ -1290,7 +1290,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateReplication.cs.html">here</a> to see an example of how to use CreateReplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateReplication.cs.html">here</a> to see an example of how to use CreateReplication API.</example>
         public async Task<CreateReplicationResponse> CreateReplication(CreateReplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createReplication");
@@ -1349,7 +1349,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateSnapshot.cs.html">here</a> to see an example of how to use CreateSnapshot API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateSnapshot.cs.html">here</a> to see an example of how to use CreateSnapshot API.</example>
         public async Task<CreateSnapshotResponse> CreateSnapshot(CreateSnapshotRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSnapshot");
@@ -1407,7 +1407,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteExport.cs.html">here</a> to see an example of how to use DeleteExport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteExport.cs.html">here</a> to see an example of how to use DeleteExport API.</example>
         public async Task<DeleteExportResponse> DeleteExport(DeleteExportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteExport");
@@ -1467,7 +1467,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteFileSystem.cs.html">here</a> to see an example of how to use DeleteFileSystem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteFileSystem.cs.html">here</a> to see an example of how to use DeleteFileSystem API.</example>
         public async Task<DeleteFileSystemResponse> DeleteFileSystem(DeleteFileSystemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteFileSystem");
@@ -1525,7 +1525,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteFilesystemSnapshotPolicy.cs.html">here</a> to see an example of how to use DeleteFilesystemSnapshotPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteFilesystemSnapshotPolicy.cs.html">here</a> to see an example of how to use DeleteFilesystemSnapshotPolicy API.</example>
         public async Task<DeleteFilesystemSnapshotPolicyResponse> DeleteFilesystemSnapshotPolicy(DeleteFilesystemSnapshotPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteFilesystemSnapshotPolicy");
@@ -1584,7 +1584,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteMountTarget.cs.html">here</a> to see an example of how to use DeleteMountTarget API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteMountTarget.cs.html">here</a> to see an example of how to use DeleteMountTarget API.</example>
         public async Task<DeleteMountTargetResponse> DeleteMountTarget(DeleteMountTargetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMountTarget");
@@ -1642,7 +1642,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteOutboundConnector.cs.html">here</a> to see an example of how to use DeleteOutboundConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteOutboundConnector.cs.html">here</a> to see an example of how to use DeleteOutboundConnector API.</example>
         public async Task<DeleteOutboundConnectorResponse> DeleteOutboundConnector(DeleteOutboundConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOutboundConnector");
@@ -1700,7 +1700,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteQuotaRule.cs.html">here</a> to see an example of how to use DeleteQuotaRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteQuotaRule.cs.html">here</a> to see an example of how to use DeleteQuotaRule API.</example>
         public async Task<DeleteQuotaRuleResponse> DeleteQuotaRule(DeleteQuotaRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteQuotaRule");
@@ -1758,7 +1758,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteReplication.cs.html">here</a> to see an example of how to use DeleteReplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteReplication.cs.html">here</a> to see an example of how to use DeleteReplication API.</example>
         public async Task<DeleteReplicationResponse> DeleteReplication(DeleteReplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteReplication");
@@ -1819,7 +1819,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteReplicationTarget.cs.html">here</a> to see an example of how to use DeleteReplicationTarget API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteReplicationTarget.cs.html">here</a> to see an example of how to use DeleteReplicationTarget API.</example>
         public async Task<DeleteReplicationTargetResponse> DeleteReplicationTarget(DeleteReplicationTargetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteReplicationTarget");
@@ -1877,7 +1877,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteSnapshot.cs.html">here</a> to see an example of how to use DeleteSnapshot API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteSnapshot.cs.html">here</a> to see an example of how to use DeleteSnapshot API.</example>
         public async Task<DeleteSnapshotResponse> DeleteSnapshot(DeleteSnapshotRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSnapshot");
@@ -1935,7 +1935,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DetachClone.cs.html">here</a> to see an example of how to use DetachClone API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DetachClone.cs.html">here</a> to see an example of how to use DetachClone API.</example>
         public async Task<DetachCloneResponse> DetachClone(DetachCloneRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detachClone");
@@ -1993,7 +1993,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/EstimateReplication.cs.html">here</a> to see an example of how to use EstimateReplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/EstimateReplication.cs.html">here</a> to see an example of how to use EstimateReplication API.</example>
         public async Task<EstimateReplicationResponse> EstimateReplication(EstimateReplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called estimateReplication");
@@ -2050,7 +2050,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetExport.cs.html">here</a> to see an example of how to use GetExport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetExport.cs.html">here</a> to see an example of how to use GetExport API.</example>
         public async Task<GetExportResponse> GetExport(GetExportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getExport");
@@ -2107,7 +2107,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetExportSet.cs.html">here</a> to see an example of how to use GetExportSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetExportSet.cs.html">here</a> to see an example of how to use GetExportSet API.</example>
         public async Task<GetExportSetResponse> GetExportSet(GetExportSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getExportSet");
@@ -2164,7 +2164,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetFileSystem.cs.html">here</a> to see an example of how to use GetFileSystem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetFileSystem.cs.html">here</a> to see an example of how to use GetFileSystem API.</example>
         public async Task<GetFileSystemResponse> GetFileSystem(GetFileSystemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFileSystem");
@@ -2221,7 +2221,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetFilesystemSnapshotPolicy.cs.html">here</a> to see an example of how to use GetFilesystemSnapshotPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetFilesystemSnapshotPolicy.cs.html">here</a> to see an example of how to use GetFilesystemSnapshotPolicy API.</example>
         public async Task<GetFilesystemSnapshotPolicyResponse> GetFilesystemSnapshotPolicy(GetFilesystemSnapshotPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFilesystemSnapshotPolicy");
@@ -2278,7 +2278,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetMountTarget.cs.html">here</a> to see an example of how to use GetMountTarget API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetMountTarget.cs.html">here</a> to see an example of how to use GetMountTarget API.</example>
         public async Task<GetMountTargetResponse> GetMountTarget(GetMountTargetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMountTarget");
@@ -2335,7 +2335,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetOutboundConnector.cs.html">here</a> to see an example of how to use GetOutboundConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetOutboundConnector.cs.html">here</a> to see an example of how to use GetOutboundConnector API.</example>
         public async Task<GetOutboundConnectorResponse> GetOutboundConnector(GetOutboundConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOutboundConnector");
@@ -2393,7 +2393,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetQuotaRule.cs.html">here</a> to see an example of how to use GetQuotaRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetQuotaRule.cs.html">here</a> to see an example of how to use GetQuotaRule API.</example>
         public async Task<GetQuotaRuleResponse> GetQuotaRule(GetQuotaRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getQuotaRule");
@@ -2450,7 +2450,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetReplication.cs.html">here</a> to see an example of how to use GetReplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetReplication.cs.html">here</a> to see an example of how to use GetReplication API.</example>
         public async Task<GetReplicationResponse> GetReplication(GetReplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getReplication");
@@ -2507,7 +2507,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetReplicationTarget.cs.html">here</a> to see an example of how to use GetReplicationTarget API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetReplicationTarget.cs.html">here</a> to see an example of how to use GetReplicationTarget API.</example>
         public async Task<GetReplicationTargetResponse> GetReplicationTarget(GetReplicationTargetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getReplicationTarget");
@@ -2564,7 +2564,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetSnapshot.cs.html">here</a> to see an example of how to use GetSnapshot API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/GetSnapshot.cs.html">here</a> to see an example of how to use GetSnapshot API.</example>
         public async Task<GetSnapshotResponse> GetSnapshot(GetSnapshotRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSnapshot");
@@ -2622,7 +2622,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListExportSets.cs.html">here</a> to see an example of how to use ListExportSets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListExportSets.cs.html">here</a> to see an example of how to use ListExportSets API.</example>
         public async Task<ListExportSetsResponse> ListExportSets(ListExportSetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listExportSets");
@@ -2682,7 +2682,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListExports.cs.html">here</a> to see an example of how to use ListExports API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListExports.cs.html">here</a> to see an example of how to use ListExports API.</example>
         public async Task<ListExportsResponse> ListExports(ListExportsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listExports");
@@ -2741,7 +2741,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListFileSystems.cs.html">here</a> to see an example of how to use ListFileSystems API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListFileSystems.cs.html">here</a> to see an example of how to use ListFileSystems API.</example>
         public async Task<ListFileSystemsResponse> ListFileSystems(ListFileSystemsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFileSystems");
@@ -2799,7 +2799,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListFilesystemSnapshotPolicies.cs.html">here</a> to see an example of how to use ListFilesystemSnapshotPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListFilesystemSnapshotPolicies.cs.html">here</a> to see an example of how to use ListFilesystemSnapshotPolicies API.</example>
         public async Task<ListFilesystemSnapshotPoliciesResponse> ListFilesystemSnapshotPolicies(ListFilesystemSnapshotPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFilesystemSnapshotPolicies");
@@ -2857,7 +2857,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListMountTargets.cs.html">here</a> to see an example of how to use ListMountTargets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListMountTargets.cs.html">here</a> to see an example of how to use ListMountTargets API.</example>
         public async Task<ListMountTargetsResponse> ListMountTargets(ListMountTargetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMountTargets");
@@ -2915,7 +2915,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListOutboundConnectors.cs.html">here</a> to see an example of how to use ListOutboundConnectors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListOutboundConnectors.cs.html">here</a> to see an example of how to use ListOutboundConnectors API.</example>
         public async Task<ListOutboundConnectorsResponse> ListOutboundConnectors(ListOutboundConnectorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOutboundConnectors");
@@ -2973,7 +2973,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListQuotaRules.cs.html">here</a> to see an example of how to use ListQuotaRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListQuotaRules.cs.html">here</a> to see an example of how to use ListQuotaRules API.</example>
         public async Task<ListQuotaRulesResponse> ListQuotaRules(ListQuotaRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listQuotaRules");
@@ -3031,7 +3031,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListReplicationTargets.cs.html">here</a> to see an example of how to use ListReplicationTargets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListReplicationTargets.cs.html">here</a> to see an example of how to use ListReplicationTargets API.</example>
         public async Task<ListReplicationTargetsResponse> ListReplicationTargets(ListReplicationTargetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listReplicationTargets");
@@ -3089,7 +3089,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListReplications.cs.html">here</a> to see an example of how to use ListReplications API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListReplications.cs.html">here</a> to see an example of how to use ListReplications API.</example>
         public async Task<ListReplicationsResponse> ListReplications(ListReplicationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listReplications");
@@ -3153,7 +3153,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListSnapshots.cs.html">here</a> to see an example of how to use ListSnapshots API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ListSnapshots.cs.html">here</a> to see an example of how to use ListSnapshots API.</example>
         public async Task<ListSnapshotsResponse> ListSnapshots(ListSnapshotsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSnapshots");
@@ -3216,7 +3216,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/PauseFilesystemSnapshotPolicy.cs.html">here</a> to see an example of how to use PauseFilesystemSnapshotPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/PauseFilesystemSnapshotPolicy.cs.html">here</a> to see an example of how to use PauseFilesystemSnapshotPolicy API.</example>
         public async Task<PauseFilesystemSnapshotPolicyResponse> PauseFilesystemSnapshotPolicy(PauseFilesystemSnapshotPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called pauseFilesystemSnapshotPolicy");
@@ -3273,7 +3273,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/RemoveExportLock.cs.html">here</a> to see an example of how to use RemoveExportLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/RemoveExportLock.cs.html">here</a> to see an example of how to use RemoveExportLock API.</example>
         public async Task<RemoveExportLockResponse> RemoveExportLock(RemoveExportLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeExportLock");
@@ -3330,7 +3330,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/RemoveFileSystemLock.cs.html">here</a> to see an example of how to use RemoveFileSystemLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/RemoveFileSystemLock.cs.html">here</a> to see an example of how to use RemoveFileSystemLock API.</example>
         public async Task<RemoveFileSystemLockResponse> RemoveFileSystemLock(RemoveFileSystemLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeFileSystemLock");
@@ -3387,7 +3387,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/RemoveFilesystemSnapshotPolicyLock.cs.html">here</a> to see an example of how to use RemoveFilesystemSnapshotPolicyLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/RemoveFilesystemSnapshotPolicyLock.cs.html">here</a> to see an example of how to use RemoveFilesystemSnapshotPolicyLock API.</example>
         public async Task<RemoveFilesystemSnapshotPolicyLockResponse> RemoveFilesystemSnapshotPolicyLock(RemoveFilesystemSnapshotPolicyLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeFilesystemSnapshotPolicyLock");
@@ -3444,7 +3444,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/RemoveMountTargetLock.cs.html">here</a> to see an example of how to use RemoveMountTargetLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/RemoveMountTargetLock.cs.html">here</a> to see an example of how to use RemoveMountTargetLock API.</example>
         public async Task<RemoveMountTargetLockResponse> RemoveMountTargetLock(RemoveMountTargetLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeMountTargetLock");
@@ -3501,7 +3501,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/RemoveOutboundConnectorLock.cs.html">here</a> to see an example of how to use RemoveOutboundConnectorLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/RemoveOutboundConnectorLock.cs.html">here</a> to see an example of how to use RemoveOutboundConnectorLock API.</example>
         public async Task<RemoveOutboundConnectorLockResponse> RemoveOutboundConnectorLock(RemoveOutboundConnectorLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeOutboundConnectorLock");
@@ -3558,7 +3558,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/RemoveReplicationLock.cs.html">here</a> to see an example of how to use RemoveReplicationLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/RemoveReplicationLock.cs.html">here</a> to see an example of how to use RemoveReplicationLock API.</example>
         public async Task<RemoveReplicationLockResponse> RemoveReplicationLock(RemoveReplicationLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeReplicationLock");
@@ -3615,7 +3615,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/RemoveSnapshotLock.cs.html">here</a> to see an example of how to use RemoveSnapshotLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/RemoveSnapshotLock.cs.html">here</a> to see an example of how to use RemoveSnapshotLock API.</example>
         public async Task<RemoveSnapshotLockResponse> RemoveSnapshotLock(RemoveSnapshotLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeSnapshotLock");
@@ -3673,7 +3673,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ScheduleDowngradeShapeMountTarget.cs.html">here</a> to see an example of how to use ScheduleDowngradeShapeMountTarget API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ScheduleDowngradeShapeMountTarget.cs.html">here</a> to see an example of how to use ScheduleDowngradeShapeMountTarget API.</example>
         public async Task<ScheduleDowngradeShapeMountTargetResponse> ScheduleDowngradeShapeMountTarget(ScheduleDowngradeShapeMountTargetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called scheduleDowngradeShapeMountTarget");
@@ -3733,7 +3733,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ToggleQuotaRules.cs.html">here</a> to see an example of how to use ToggleQuotaRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ToggleQuotaRules.cs.html">here</a> to see an example of how to use ToggleQuotaRules API.</example>
         public async Task<ToggleQuotaRulesResponse> ToggleQuotaRules(ToggleQuotaRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called toggleQuotaRules");
@@ -3795,7 +3795,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UnpauseFilesystemSnapshotPolicy.cs.html">here</a> to see an example of how to use UnpauseFilesystemSnapshotPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UnpauseFilesystemSnapshotPolicy.cs.html">here</a> to see an example of how to use UnpauseFilesystemSnapshotPolicy API.</example>
         public async Task<UnpauseFilesystemSnapshotPolicyResponse> UnpauseFilesystemSnapshotPolicy(UnpauseFilesystemSnapshotPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called unpauseFilesystemSnapshotPolicy");
@@ -3852,7 +3852,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateExport.cs.html">here</a> to see an example of how to use UpdateExport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateExport.cs.html">here</a> to see an example of how to use UpdateExport API.</example>
         public async Task<UpdateExportResponse> UpdateExport(UpdateExportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateExport");
@@ -3909,7 +3909,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateExportSet.cs.html">here</a> to see an example of how to use UpdateExportSet API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateExportSet.cs.html">here</a> to see an example of how to use UpdateExportSet API.</example>
         public async Task<UpdateExportSetResponse> UpdateExportSet(UpdateExportSetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateExportSet");
@@ -3968,7 +3968,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateFileSystem.cs.html">here</a> to see an example of how to use UpdateFileSystem API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateFileSystem.cs.html">here</a> to see an example of how to use UpdateFileSystem API.</example>
         public async Task<UpdateFileSystemResponse> UpdateFileSystem(UpdateFileSystemRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateFileSystem");
@@ -4025,7 +4025,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateFilesystemSnapshotPolicy.cs.html">here</a> to see an example of how to use UpdateFilesystemSnapshotPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateFilesystemSnapshotPolicy.cs.html">here</a> to see an example of how to use UpdateFilesystemSnapshotPolicy API.</example>
         public async Task<UpdateFilesystemSnapshotPolicyResponse> UpdateFilesystemSnapshotPolicy(UpdateFilesystemSnapshotPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateFilesystemSnapshotPolicy");
@@ -4082,7 +4082,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateMountTarget.cs.html">here</a> to see an example of how to use UpdateMountTarget API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateMountTarget.cs.html">here</a> to see an example of how to use UpdateMountTarget API.</example>
         public async Task<UpdateMountTargetResponse> UpdateMountTarget(UpdateMountTargetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMountTarget");
@@ -4139,7 +4139,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateOutboundConnector.cs.html">here</a> to see an example of how to use UpdateOutboundConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateOutboundConnector.cs.html">here</a> to see an example of how to use UpdateOutboundConnector API.</example>
         public async Task<UpdateOutboundConnectorResponse> UpdateOutboundConnector(UpdateOutboundConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOutboundConnector");
@@ -4197,7 +4197,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateQuotaRule.cs.html">here</a> to see an example of how to use UpdateQuotaRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateQuotaRule.cs.html">here</a> to see an example of how to use UpdateQuotaRule API.</example>
         public async Task<UpdateQuotaRuleResponse> UpdateQuotaRule(UpdateQuotaRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateQuotaRule");
@@ -4255,7 +4255,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateReplication.cs.html">here</a> to see an example of how to use UpdateReplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateReplication.cs.html">here</a> to see an example of how to use UpdateReplication API.</example>
         public async Task<UpdateReplicationResponse> UpdateReplication(UpdateReplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateReplication");
@@ -4312,7 +4312,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateSnapshot.cs.html">here</a> to see an example of how to use UpdateSnapshot API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpdateSnapshot.cs.html">here</a> to see an example of how to use UpdateSnapshot API.</example>
         public async Task<UpdateSnapshotResponse> UpdateSnapshot(UpdateSnapshotRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSnapshot");
@@ -4370,7 +4370,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpgradeShapeMountTarget.cs.html">here</a> to see an example of how to use UpgradeShapeMountTarget API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/UpgradeShapeMountTarget.cs.html">here</a> to see an example of how to use UpgradeShapeMountTarget API.</example>
         public async Task<UpgradeShapeMountTargetResponse> UpgradeShapeMountTarget(UpgradeShapeMountTargetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called upgradeShapeMountTarget");
@@ -4430,7 +4430,7 @@ namespace Oci.FilestorageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ValidateKeyTabs.cs.html">here</a> to see an example of how to use ValidateKeyTabs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/ValidateKeyTabs.cs.html">here</a> to see an example of how to use ValidateKeyTabs API.</example>
         public async Task<ValidateKeyTabsResponse> ValidateKeyTabs(ValidateKeyTabsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called validateKeyTabs");

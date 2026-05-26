@@ -22,13 +22,13 @@ namespace Oci.CoreService.Models
     {
         
         /// <value>
-        /// An array of [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of validated firmware bundle upgrades.
+        /// An array of [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of validated firmware bundle upgrades.
         /// </value>
         [JsonProperty(PropertyName = "upgrades")]
         public System.Collections.Generic.List<string> Upgrades { get; set; }
         
         /// <value>
-        /// An array of [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of validated firmware bundle downgrades.
+        /// An array of [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of validated firmware bundle downgrades.
         /// </value>
         [JsonProperty(PropertyName = "downgrades")]
         public System.Collections.Generic.List<string> Downgrades { get; set; }

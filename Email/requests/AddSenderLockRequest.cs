@@ -14,7 +14,7 @@ using Oci.EmailService.Models;
 namespace Oci.EmailService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/AddSenderLock.cs.html">here</a> to see an example of how to use AddSenderLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/AddSenderLock.cs.html">here</a> to see an example of how to use AddSenderLock request.
     /// </example>
     public class AddSenderLockRequest : Oci.Common.IOciRequest
     {

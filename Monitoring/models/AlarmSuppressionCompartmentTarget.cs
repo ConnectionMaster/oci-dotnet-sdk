@@ -22,7 +22,7 @@ namespace Oci.MonitoringService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment or tenancy that is the 
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment or tenancy that is the 
         /// target of the alarm suppression.
         /// Example: ocid1.compartment.oc1..exampleuniqueID
         /// </value>

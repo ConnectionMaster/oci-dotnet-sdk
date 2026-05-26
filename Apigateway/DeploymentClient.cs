@@ -80,7 +80,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/AddDeploymentLock.cs.html">here</a> to see an example of how to use AddDeploymentLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/AddDeploymentLock.cs.html">here</a> to see an example of how to use AddDeploymentLock API.</example>
         public async Task<AddDeploymentLockResponse> AddDeploymentLock(AddDeploymentLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addDeploymentLock");
@@ -136,7 +136,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/ChangeDeploymentCompartment.cs.html">here</a> to see an example of how to use ChangeDeploymentCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/ChangeDeploymentCompartment.cs.html">here</a> to see an example of how to use ChangeDeploymentCompartment API.</example>
         public async Task<ChangeDeploymentCompartmentResponse> ChangeDeploymentCompartment(ChangeDeploymentCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDeploymentCompartment");
@@ -193,7 +193,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/CreateDeployment.cs.html">here</a> to see an example of how to use CreateDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/CreateDeployment.cs.html">here</a> to see an example of how to use CreateDeployment API.</example>
         public async Task<CreateDeploymentResponse> CreateDeployment(CreateDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDeployment");
@@ -249,7 +249,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/DeleteDeployment.cs.html">here</a> to see an example of how to use DeleteDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/DeleteDeployment.cs.html">here</a> to see an example of how to use DeleteDeployment API.</example>
         public async Task<DeleteDeploymentResponse> DeleteDeployment(DeleteDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDeployment");
@@ -305,7 +305,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/GetDeployment.cs.html">here</a> to see an example of how to use GetDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/GetDeployment.cs.html">here</a> to see an example of how to use GetDeployment API.</example>
         public async Task<GetDeploymentResponse> GetDeployment(GetDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDeployment");
@@ -362,7 +362,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/ListDeployments.cs.html">here</a> to see an example of how to use ListDeployments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/ListDeployments.cs.html">here</a> to see an example of how to use ListDeployments API.</example>
         public async Task<ListDeploymentsResponse> ListDeployments(ListDeploymentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDeployments");
@@ -418,7 +418,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/RemoveDeploymentLock.cs.html">here</a> to see an example of how to use RemoveDeploymentLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/RemoveDeploymentLock.cs.html">here</a> to see an example of how to use RemoveDeploymentLock API.</example>
         public async Task<RemoveDeploymentLockResponse> RemoveDeploymentLock(RemoveDeploymentLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeDeploymentLock");
@@ -474,7 +474,7 @@ namespace Oci.ApigatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/UpdateDeployment.cs.html">here</a> to see an example of how to use UpdateDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apigateway/UpdateDeployment.cs.html">here</a> to see an example of how to use UpdateDeployment API.</example>
         public async Task<UpdateDeploymentResponse> UpdateDeployment(UpdateDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDeployment");

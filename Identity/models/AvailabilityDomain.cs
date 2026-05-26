@@ -18,7 +18,7 @@ namespace Oci.IdentityService.Models
     /// <summary>
     /// One or more isolated, fault-tolerant Oracle data centers that host cloud resources such as instances, volumes,
     /// and subnets. A region contains several Availability Domains. For more information, see
-    /// [Regions and Availability Domains](https://docs.cloud.oracle.com/Content/General/Concepts/regions.htm).
+    /// [Regions and Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm).
     /// 
     /// </summary>
     public class AvailabilityDomain 

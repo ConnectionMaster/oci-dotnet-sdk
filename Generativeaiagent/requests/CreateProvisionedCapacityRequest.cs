@@ -14,7 +14,7 @@ using Oci.GenerativeaiagentService.Models;
 namespace Oci.GenerativeaiagentService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagent/CreateProvisionedCapacity.cs.html">here</a> to see an example of how to use CreateProvisionedCapacity request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagent/CreateProvisionedCapacity.cs.html">here</a> to see an example of how to use CreateProvisionedCapacity request.
     /// </example>
     public class CreateProvisionedCapacityRequest : Oci.Common.IOciRequest
     {

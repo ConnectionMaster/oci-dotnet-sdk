@@ -14,13 +14,13 @@ using Oci.DifService.Models;
 namespace Oci.DifService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dif/UpdateStack.cs.html">here</a> to see an example of how to use UpdateStack request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dif/UpdateStack.cs.html">here</a> to see an example of how to use UpdateStack request.
     /// </example>
     public class UpdateStackRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Stack.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Stack.
         /// </value>
         /// <remarks>
         /// Required

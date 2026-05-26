@@ -22,7 +22,7 @@ namespace Oci.DatabaseService.Models
     {
         
         /// <value>
-        /// The database [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The database [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }

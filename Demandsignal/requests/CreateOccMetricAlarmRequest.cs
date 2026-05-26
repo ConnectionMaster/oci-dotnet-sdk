@@ -14,7 +14,7 @@ using Oci.DemandsignalService.Models;
 namespace Oci.DemandsignalService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/CreateOccMetricAlarm.cs.html">here</a> to see an example of how to use CreateOccMetricAlarm request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/CreateOccMetricAlarm.cs.html">here</a> to see an example of how to use CreateOccMetricAlarm request.
     /// </example>
     public class CreateOccMetricAlarmRequest : Oci.Common.IOciRequest
     {

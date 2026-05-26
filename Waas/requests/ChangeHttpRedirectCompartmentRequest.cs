@@ -14,13 +14,13 @@ using Oci.WaasService.Models;
 namespace Oci.WaasService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waas/ChangeHttpRedirectCompartment.cs.html">here</a> to see an example of how to use ChangeHttpRedirectCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waas/ChangeHttpRedirectCompartment.cs.html">here</a> to see an example of how to use ChangeHttpRedirectCompartment request.
     /// </example>
     public class ChangeHttpRedirectCompartmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the HTTP Redirect.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the HTTP Redirect.
         /// </value>
         /// <remarks>
         /// Required

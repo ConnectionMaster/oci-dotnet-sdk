@@ -14,7 +14,7 @@ using Oci.VbsinstService.Models;
 namespace Oci.VbsinstService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vbsinst/ChangeVbsInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeVbsInstanceCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vbsinst/ChangeVbsInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeVbsInstanceCompartment request.
     /// </example>
     public class ChangeVbsInstanceCompartmentRequest : Oci.Common.IOciRequest
     {

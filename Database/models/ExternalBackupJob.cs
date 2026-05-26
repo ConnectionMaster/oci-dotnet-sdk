@@ -23,7 +23,7 @@ namespace Oci.DatabaseService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the associated backup resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the associated backup resource.
         /// </value>
         /// <remarks>
         /// Required
@@ -84,7 +84,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// The auth token to use for access to the Swift compartment bucket that will store the standalone backup.
-        /// For information about auth tokens, see [Working with Auth Tokens](https://docs.cloud.oracle.com/Content/Identity/Tasks/managingcredentials.htm#two).
+        /// For information about auth tokens, see [Working with Auth Tokens](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcredentials.htm#two).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "swiftPassword")]

@@ -14,7 +14,7 @@ using Oci.LoganalyticsService.Models;
 namespace Oci.LoganalyticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/CreateLogAnalyticsEmBridge.cs.html">here</a> to see an example of how to use CreateLogAnalyticsEmBridge request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/CreateLogAnalyticsEmBridge.cs.html">here</a> to see an example of how to use CreateLogAnalyticsEmBridge request.
     /// </example>
     public class CreateLogAnalyticsEmBridgeRequest : Oci.Common.IOciRequest
     {

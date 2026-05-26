@@ -14,13 +14,13 @@ using Oci.ZprService.Models;
 namespace Oci.ZprService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/GetZprConfigurationWorkRequest.cs.html">here</a> to see an example of how to use GetZprConfigurationWorkRequest request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/GetZprConfigurationWorkRequest.cs.html">here</a> to see an example of how to use GetZprConfigurationWorkRequest request.
     /// </example>
     public class GetZprConfigurationWorkRequestRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the asynchronous work request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the asynchronous work request.
         /// </value>
         /// <remarks>
         /// Required

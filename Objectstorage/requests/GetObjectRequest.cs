@@ -14,7 +14,7 @@ using Oci.ObjectstorageService.Models;
 namespace Oci.ObjectstorageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/objectstorage/GetObject.cs.html">here</a> to see an example of how to use GetObject request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/objectstorage/GetObject.cs.html">here</a> to see an example of how to use GetObject request.
     /// </example>
     public class GetObjectRequest : Oci.Common.IOciRequest
     {
@@ -91,7 +91,7 @@ namespace Oci.ObjectstorageService.Requests
         
         /// <value>
         /// The optional header that specifies \"AES256\" as the encryption algorithm. For more information, see
-        /// [Using Your Own Keys for Server-Side Encryption](https://docs.cloud.oracle.com/Content/Object/Tasks/usingyourencryptionkeys.htm).
+        /// [Using Your Own Keys for Server-Side Encryption](https://docs.oracle.com/iaas/Content/Object/Tasks/usingyourencryptionkeys.htm).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-sse-customer-algorithm")]
@@ -100,7 +100,7 @@ namespace Oci.ObjectstorageService.Requests
         /// <value>
         /// The optional header that specifies the base64-encoded 256-bit encryption key to use to encrypt or
         /// decrypt the data. For more information, see
-        /// [Using Your Own Keys for Server-Side Encryption](https://docs.cloud.oracle.com/Content/Object/Tasks/usingyourencryptionkeys.htm).
+        /// [Using Your Own Keys for Server-Side Encryption](https://docs.oracle.com/iaas/Content/Object/Tasks/usingyourencryptionkeys.htm).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-sse-customer-key")]
@@ -109,7 +109,7 @@ namespace Oci.ObjectstorageService.Requests
         /// <value>
         /// The optional header that specifies the base64-encoded SHA256 hash of the encryption key. This
         /// value is used to check the integrity of the encryption key. For more information, see
-        /// [Using Your Own Keys for Server-Side Encryption](https://docs.cloud.oracle.com/Content/Object/Tasks/usingyourencryptionkeys.htm).
+        /// [Using Your Own Keys for Server-Side Encryption](https://docs.oracle.com/iaas/Content/Object/Tasks/usingyourencryptionkeys.htm).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-sse-customer-key-sha256")]

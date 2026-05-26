@@ -25,7 +25,7 @@ namespace Oci.GoldengateService.Models
         
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the connection being
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the connection being
         /// referenced.
         /// 
         /// </value>
@@ -55,7 +55,7 @@ namespace Oci.GoldengateService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment being referenced.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment being referenced.
         /// 
         /// </value>
         /// <remarks>
@@ -85,7 +85,7 @@ namespace Oci.GoldengateService.Models
         /// <value>
         /// The system tags associated with this resource, if any. The system tags are set by Oracle
         /// Cloud Infrastructure services. Each key is predefined and scoped to namespaces.  For more
-        /// information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {orcl-cloud: {free-tier-retain: true}}
         /// </value>
@@ -195,7 +195,7 @@ namespace Oci.GoldengateService.Models
         public System.Collections.Generic.List<string> NsgIds { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the target subnet of the dedicated connection.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the target subnet of the dedicated connection.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "subnetId")]
@@ -220,7 +220,7 @@ namespace Oci.GoldengateService.Models
         public System.Nullable<bool> DoesUseSecretIds { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the subscription with which resource needs to be associated with.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subscription with which resource needs to be associated with.
         /// </value>
         [JsonProperty(PropertyName = "subscriptionId")]
         public string SubscriptionId { get; set; }
@@ -236,7 +236,7 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// Security attributes for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Oracle-ZPR&quot;: {&quot;MaxEgressCount&quot;: {&quot;value&quot;: &quot;42&quot;, &quot;mode&quot;: &quot;enforce&quot;}}}
         /// </value>

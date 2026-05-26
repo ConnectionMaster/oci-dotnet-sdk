@@ -14,7 +14,7 @@ using Oci.DelegateaccesscontrolService.Models;
 namespace Oci.DelegateaccesscontrolService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/DeleteDelegationControl.cs.html">here</a> to see an example of how to use DeleteDelegationControl request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/delegateaccesscontrol/DeleteDelegationControl.cs.html">here</a> to see an example of how to use DeleteDelegationControl request.
     /// </example>
     public class DeleteDelegationControlRequest : Oci.Common.IOciRequest
     {

@@ -14,7 +14,7 @@ using Oci.OcicontrolcenterService.Models;
 namespace Oci.OcicontrolcenterService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocicontrolcenter/ListMetricProperties.cs.html">here</a> to see an example of how to use ListMetricProperties request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocicontrolcenter/ListMetricProperties.cs.html">here</a> to see an example of how to use ListMetricProperties request.
     /// </example>
     public class ListMetricPropertiesRequest : Oci.Common.IOciRequest
     {

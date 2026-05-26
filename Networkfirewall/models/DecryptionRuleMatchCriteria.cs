@@ -22,13 +22,13 @@ namespace Oci.NetworkfirewallService.Models
     {
         
         /// <value>
-        /// An array of IP address list names to be evaluated against the traffic source address.
+        /// An array of address list names to be evaluated against the traffic source address.
         /// </value>
         [JsonProperty(PropertyName = "sourceAddress")]
         public System.Collections.Generic.List<string> SourceAddress { get; set; }
         
         /// <value>
-        /// An array of IP address list names to be evaluated against the traffic destination address.
+        /// An array of address list names to be evaluated against the traffic destination address.
         /// </value>
         [JsonProperty(PropertyName = "destinationAddress")]
         public System.Collections.Generic.List<string> DestinationAddress { get; set; }

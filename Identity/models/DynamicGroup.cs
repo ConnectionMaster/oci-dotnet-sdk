@@ -24,7 +24,7 @@ namespace Oci.IdentityService.Models
     /// <br/>
     /// This works like regular user/group membership. But in that case, the membership is a static relationship, whereas
     /// in a dynamic group, the membership of an instance certificate to a dynamic group is determined during runtime.
-    /// For more information, see [Managing Dynamic Groups](https://docs.cloud.oracle.com/Content/Identity/dynamicgroups/managingdynamicgroups.htm).
+    /// For more information, see [Managing Dynamic Groups](https://docs.oracle.com/iaas/Content/Identity/dynamicgroups/managingdynamicgroups.htm).
     /// <br/>
     /// **Warning:** Oracle recommends that you avoid using any confidential information when you supply string values using
     /// the API.
@@ -80,7 +80,7 @@ namespace Oci.IdentityService.Models
         
         /// <value>
         /// A rule string that defines which instance certificates will be matched.
-        /// For syntax, see [Managing Dynamic Groups](https://docs.cloud.oracle.com/Content/Identity/dynamicgroups/managingdynamicgroups.htm).
+        /// For syntax, see [Managing Dynamic Groups](https://docs.oracle.com/iaas/Content/Identity/dynamicgroups/managingdynamicgroups.htm).
         /// 
         /// </value>
         /// <remarks>
@@ -145,7 +145,7 @@ namespace Oci.IdentityService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
         [JsonProperty(PropertyName = "freeformTags")]
@@ -153,7 +153,7 @@ namespace Oci.IdentityService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]

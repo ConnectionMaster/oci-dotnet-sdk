@@ -14,7 +14,7 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ChangeExadbVmClusterSubscription.cs.html">here</a> to see an example of how to use ChangeExadbVmClusterSubscription request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ChangeExadbVmClusterSubscription.cs.html">here</a> to see an example of how to use ChangeExadbVmClusterSubscription request.
     /// </example>
     public class ChangeExadbVmClusterSubscriptionRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.DatabaseService.Requests
         public ChangeExadbVmClusterSubscriptionDetails ChangeExadbVmClusterSubscriptionDetails { get; set; }
         
         /// <value>
-        /// The Exadata VM cluster [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) on Exascale Infrastructure.
+        /// The Exadata VM cluster [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) on Exascale Infrastructure.
         /// </value>
         /// <remarks>
         /// Required

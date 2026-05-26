@@ -14,7 +14,7 @@ using Oci.AilanguageService.Models;
 namespace Oci.AilanguageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListModels.cs.html">here</a> to see an example of how to use ListModels request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListModels.cs.html">here</a> to see an example of how to use ListModels request.
     /// </example>
     public class ListModelsRequest : Oci.Common.IOciRequest
     {

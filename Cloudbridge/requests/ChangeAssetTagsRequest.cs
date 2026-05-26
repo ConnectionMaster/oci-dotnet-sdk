@@ -14,7 +14,7 @@ using Oci.CloudbridgeService.Models;
 namespace Oci.CloudbridgeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ChangeAssetTags.cs.html">here</a> to see an example of how to use ChangeAssetTags request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ChangeAssetTags.cs.html">here</a> to see an example of how to use ChangeAssetTags request.
     /// </example>
     public class ChangeAssetTagsRequest : Oci.Common.IOciRequest
     {

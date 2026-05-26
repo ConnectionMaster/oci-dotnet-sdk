@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/GetDbSystemUpgradeHistoryEntry.cs.html">here</a> to see an example of how to use GetDbSystemUpgradeHistoryEntry request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/GetDbSystemUpgradeHistoryEntry.cs.html">here</a> to see an example of how to use GetDbSystemUpgradeHistoryEntry request.
     /// </example>
     public class GetDbSystemUpgradeHistoryEntryRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The DB system [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The DB system [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.DatabaseService.Requests
         public string DbSystemId { get; set; }
         
         /// <value>
-        /// The database/db system upgrade History [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The database/db system upgrade History [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

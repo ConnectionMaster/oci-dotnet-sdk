@@ -80,7 +80,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/CreateReplica.cs.html">here</a> to see an example of how to use CreateReplica API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/CreateReplica.cs.html">here</a> to see an example of how to use CreateReplica API.</example>
         public async Task<CreateReplicaResponse> CreateReplica(CreateReplicaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createReplica");
@@ -136,7 +136,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/DeleteReplica.cs.html">here</a> to see an example of how to use DeleteReplica API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/DeleteReplica.cs.html">here</a> to see an example of how to use DeleteReplica API.</example>
         public async Task<DeleteReplicaResponse> DeleteReplica(DeleteReplicaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteReplica");
@@ -192,7 +192,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/GetReplica.cs.html">here</a> to see an example of how to use GetReplica API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/GetReplica.cs.html">here</a> to see an example of how to use GetReplica API.</example>
         public async Task<GetReplicaResponse> GetReplica(GetReplicaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getReplica");
@@ -248,7 +248,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/ListReplicas.cs.html">here</a> to see an example of how to use ListReplicas API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/ListReplicas.cs.html">here</a> to see an example of how to use ListReplicas API.</example>
         public async Task<ListReplicasResponse> ListReplicas(ListReplicasRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listReplicas");
@@ -304,7 +304,7 @@ namespace Oci.MysqlService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/UpdateReplica.cs.html">here</a> to see an example of how to use UpdateReplica API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/UpdateReplica.cs.html">here</a> to see an example of how to use UpdateReplica API.</example>
         public async Task<UpdateReplicaResponse> UpdateReplica(UpdateReplicaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateReplica");

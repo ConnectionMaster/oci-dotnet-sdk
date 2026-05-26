@@ -14,7 +14,7 @@ using Oci.AispeechService.Models;
 namespace Oci.AispeechService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ChangeTranscriptionJobCompartment.cs.html">here</a> to see an example of how to use ChangeTranscriptionJobCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ChangeTranscriptionJobCompartment.cs.html">here</a> to see an example of how to use ChangeTranscriptionJobCompartment request.
     /// </example>
     public class ChangeTranscriptionJobCompartmentRequest : Oci.Common.IOciRequest
     {

@@ -22,7 +22,7 @@ namespace Oci.DatascienceService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the job to be used as a step.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the job to be used as a step.
         /// </value>
         /// <remarks>
         /// Required

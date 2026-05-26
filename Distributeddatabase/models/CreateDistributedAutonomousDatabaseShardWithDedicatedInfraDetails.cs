@@ -71,7 +71,7 @@ namespace Oci.DistributeddatabaseService.Models
         public System.Nullable<bool> IsAutoScalingEnabled { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the cloud Autonomous Exadata VM Cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cloud Autonomous Exadata VM Cluster.
         /// </value>
         /// <remarks>
         /// Required
@@ -95,7 +95,7 @@ namespace Oci.DistributeddatabaseService.Models
         public System.Collections.Generic.List<CreateShardPeerWithDedicatedInfraDetails> PeerDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Oracle Cloud Infrastructure [vault](https://docs.cloud.oracle.com/Content/KeyManagement/Concepts/keyoverview.htm#concepts). This parameter and `kmsKeyId` are required for Customer Managed Keys.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Oracle Cloud Infrastructure [vault](https://docs.oracle.com/iaas/Content/KeyManagement/Concepts/keyoverview.htm#concepts). This parameter and `kmsKeyId` are required for Customer Managed Keys.
         /// </value>
         [JsonProperty(PropertyName = "vaultId")]
         public string VaultId { get; set; }
@@ -114,7 +114,7 @@ namespace Oci.DistributeddatabaseService.Models
         public string KmsKeyVersionId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the key store used to create the shard.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the key store used to create the shard.
         /// </value>
         [JsonProperty(PropertyName = "okvKeyStoreId")]
         public string OkvKeyStoreId { get; set; }

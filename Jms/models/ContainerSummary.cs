@@ -33,7 +33,7 @@ namespace Oci.JmsService.Models
         public string ContainerKey { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the associated managed instance of type OCMA.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the associated managed instance of type OCMA.
         /// </value>
         /// <remarks>
         /// Required

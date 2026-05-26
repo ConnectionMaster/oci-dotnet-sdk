@@ -14,7 +14,7 @@ using Oci.PsqlService.Models;
 namespace Oci.PsqlService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psql/RestartDbInstanceInDbSystem.cs.html">here</a> to see an example of how to use RestartDbInstanceInDbSystem request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psql/RestartDbInstanceInDbSystem.cs.html">here</a> to see an example of how to use RestartDbInstanceInDbSystem request.
     /// </example>
     public class RestartDbInstanceInDbSystemRequest : Oci.Common.IOciRequest
     {

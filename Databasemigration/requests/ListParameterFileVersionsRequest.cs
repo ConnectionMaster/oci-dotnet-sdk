@@ -14,7 +14,7 @@ using Oci.DatabasemigrationService.Models;
 namespace Oci.DatabasemigrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ListParameterFileVersions.cs.html">here</a> to see an example of how to use ListParameterFileVersions request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/ListParameterFileVersions.cs.html">here</a> to see an example of how to use ListParameterFileVersions request.
     /// </example>
     public class ListParameterFileVersionsRequest : Oci.Common.IOciRequest
     {

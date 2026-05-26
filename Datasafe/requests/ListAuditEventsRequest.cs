@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditEvents.cs.html">here</a> to see an example of how to use ListAuditEvents request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListAuditEvents.cs.html">here</a> to see an example of how to use ListAuditEvents request.
     /// </example>
     public class ListAuditEventsRequest : Oci.Common.IOciRequest
     {
@@ -70,7 +70,7 @@ namespace Oci.DatasafeService.Requests
         public System.Nullable<AccessLevelEnum> AccessLevel { get; set; }
         
         /// <value>
-        /// For details about how pagination works, see [List Pagination](https://docs.cloud.oracle.com/en-us/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// For details about how pagination works, see [List Pagination](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "limit")]
@@ -78,7 +78,7 @@ namespace Oci.DatasafeService.Requests
         
         /// <value>
         /// It is usually retrieved from a previous \"List\" call. For details about how pagination works,
-        /// see [List Pagination](https://docs.cloud.oracle.com/en-us/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// see [List Pagination](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]

@@ -14,7 +14,7 @@ using Oci.CertificatesmanagementService.Models;
 namespace Oci.CertificatesmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/GetAssociation.cs.html">here</a> to see an example of how to use GetAssociation request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/GetAssociation.cs.html">here</a> to see an example of how to use GetAssociation request.
     /// </example>
     public class GetAssociationRequest : Oci.Common.IOciRequest
     {

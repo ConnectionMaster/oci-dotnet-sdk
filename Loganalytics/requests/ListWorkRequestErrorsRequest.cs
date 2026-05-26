@@ -14,7 +14,7 @@ using Oci.LoganalyticsService.Models;
 namespace Oci.LoganalyticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors request.
     /// </example>
     public class ListWorkRequestErrorsRequest : Oci.Common.IOciRequest
     {
@@ -31,7 +31,7 @@ namespace Oci.LoganalyticsService.Requests
         public string NamespaceName { get; set; }
         
         /// <value>
-        /// Work Request Identifier [OCID] (https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the asynchronous request. The work request id can be usually obtained from the 'opc-work-request-id' response header of the asynchronous request.
+        /// Work Request Identifier [OCID] (https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the asynchronous request. The work request id can be usually obtained from the 'opc-work-request-id' response header of the asynchronous request.
         /// </value>
         /// <remarks>
         /// Required

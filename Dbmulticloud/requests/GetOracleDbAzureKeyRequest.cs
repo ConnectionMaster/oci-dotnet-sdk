@@ -14,13 +14,13 @@ using Oci.DbmulticloudService.Models;
 namespace Oci.DbmulticloudService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetOracleDbAzureKey.cs.html">here</a> to see an example of how to use GetOracleDbAzureKey request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetOracleDbAzureKey.cs.html">here</a> to see an example of how to use GetOracleDbAzureKey request.
     /// </example>
     public class GetOracleDbAzureKeyRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Oracle DB Azure Vault Key resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Oracle DB Azure Vault Key resource.
         /// </value>
         /// <remarks>
         /// Required

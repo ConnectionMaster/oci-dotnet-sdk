@@ -56,6 +56,64 @@ namespace Oci.GoldengateService.Models
         [JsonProperty(PropertyName = "actionOnExistingTable")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<InitialLoadAction> ActionOnExistingTable { get; set; }
+                ///
+        /// <value>
+        /// Type of Initial load, which can be objectStorage or dbLink.
+        /// 
+        /// </value>
+        ///
+        public enum InitialLoadTypeEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "DB_LINK")]
+            DbLink,
+            [EnumMember(Value = "OBJECT_STORAGE")]
+            ObjectStorage
+        };
+
+        /// <value>
+        /// Type of Initial load, which can be objectStorage or dbLink.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "initialLoadType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<InitialLoadTypeEnum> InitialLoadType { get; set; }
+        
+        /// <value>
+        /// Directory path of ADB wallet locally available in Non-ADB target DB. Required for ADB to non-ADB DBLink type initial load only. If not provided the default wallet path \"/u01/targetwallet\" will be used.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "adbWalletPath")]
+        public string AdbWalletPath { get; set; }
+        
+        /// <value>
+        /// Directory path of ObjectStorage wallet locally available in Non-ADB source DB. Required for Object Storage type initial load only if source DB is Non-ADB type.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "sourceWalletPath")]
+        public string SourceWalletPath { get; set; }
+        
+        /// <value>
+        /// Directory path of ObjectStorage wallet locally available in Non-ADB target DB. Required for Object Storage type initial load only if target DB is Non-ADB type.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "targetWalletPath")]
+        public string TargetWalletPath { get; set; }
+        
+        /// <value>
+        /// Namespace that serves as a container of the ObjectStorage bucket. Required only for Objectstorage Initial load.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "namespaceName")]
+        public string NamespaceName { get; set; }
+        
+        /// <value>
+        /// Name of the ObjectStorage bucket. Required only for Objectstorage Initial load.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "bucketName")]
+        public string BucketName { get; set; }
         
     }
 }

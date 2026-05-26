@@ -14,7 +14,7 @@ using Oci.DesktopsService.Models;
 namespace Oci.DesktopsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/desktops/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/desktops/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest request.
     /// </example>
     public class GetWorkRequestRequest : Oci.Common.IOciRequest
     {

@@ -81,7 +81,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachLifecycleStageToProfile.cs.html">here</a> to see an example of how to use AttachLifecycleStageToProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachLifecycleStageToProfile.cs.html">here</a> to see an example of how to use AttachLifecycleStageToProfile API.</example>
         public async Task<AttachLifecycleStageToProfileResponse> AttachLifecycleStageToProfile(AttachLifecycleStageToProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called attachLifecycleStageToProfile");
@@ -138,7 +138,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachManagedInstanceGroupToProfile.cs.html">here</a> to see an example of how to use AttachManagedInstanceGroupToProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachManagedInstanceGroupToProfile.cs.html">here</a> to see an example of how to use AttachManagedInstanceGroupToProfile API.</example>
         public async Task<AttachManagedInstanceGroupToProfileResponse> AttachManagedInstanceGroupToProfile(AttachManagedInstanceGroupToProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called attachManagedInstanceGroupToProfile");
@@ -195,7 +195,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachManagementStationToProfile.cs.html">here</a> to see an example of how to use AttachManagementStationToProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachManagementStationToProfile.cs.html">here</a> to see an example of how to use AttachManagementStationToProfile API.</example>
         public async Task<AttachManagementStationToProfileResponse> AttachManagementStationToProfile(AttachManagementStationToProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called attachManagementStationToProfile");
@@ -252,7 +252,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachSoftwareSourcesToProfile.cs.html">here</a> to see an example of how to use AttachSoftwareSourcesToProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachSoftwareSourcesToProfile.cs.html">here</a> to see an example of how to use AttachSoftwareSourcesToProfile API.</example>
         public async Task<AttachSoftwareSourcesToProfileResponse> AttachSoftwareSourcesToProfile(AttachSoftwareSourcesToProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called attachSoftwareSourcesToProfile");
@@ -308,7 +308,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ChangeProfileCompartment.cs.html">here</a> to see an example of how to use ChangeProfileCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ChangeProfileCompartment.cs.html">here</a> to see an example of how to use ChangeProfileCompartment API.</example>
         public async Task<ChangeProfileCompartmentResponse> ChangeProfileCompartment(ChangeProfileCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeProfileCompartment");
@@ -365,7 +365,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/CreateProfile.cs.html">here</a> to see an example of how to use CreateProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/CreateProfile.cs.html">here</a> to see an example of how to use CreateProfile API.</example>
         public async Task<CreateProfileResponse> CreateProfile(CreateProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createProfile");
@@ -421,7 +421,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteProfile.cs.html">here</a> to see an example of how to use DeleteProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteProfile.cs.html">here</a> to see an example of how to use DeleteProfile API.</example>
         public async Task<DeleteProfileResponse> DeleteProfile(DeleteProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteProfile");
@@ -478,7 +478,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DetachManagementStationFromProfile.cs.html">here</a> to see an example of how to use DetachManagementStationFromProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DetachManagementStationFromProfile.cs.html">here</a> to see an example of how to use DetachManagementStationFromProfile API.</example>
         public async Task<DetachManagementStationFromProfileResponse> DetachManagementStationFromProfile(DetachManagementStationFromProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detachManagementStationFromProfile");
@@ -535,7 +535,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DetachSoftwareSourcesFromProfile.cs.html">here</a> to see an example of how to use DetachSoftwareSourcesFromProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DetachSoftwareSourcesFromProfile.cs.html">here</a> to see an example of how to use DetachSoftwareSourcesFromProfile API.</example>
         public async Task<DetachSoftwareSourcesFromProfileResponse> DetachSoftwareSourcesFromProfile(DetachSoftwareSourcesFromProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detachSoftwareSourcesFromProfile");
@@ -591,7 +591,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetProfile.cs.html">here</a> to see an example of how to use GetProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetProfile.cs.html">here</a> to see an example of how to use GetProfile API.</example>
         public async Task<GetProfileResponse> GetProfile(GetProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getProfile");
@@ -647,7 +647,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetProfileVersion.cs.html">here</a> to see an example of how to use GetProfileVersion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetProfileVersion.cs.html">here</a> to see an example of how to use GetProfileVersion API.</example>
         public async Task<GetProfileVersionResponse> GetProfileVersion(GetProfileVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getProfileVersion");
@@ -704,7 +704,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListProfileAvailableSoftwareSources.cs.html">here</a> to see an example of how to use ListProfileAvailableSoftwareSources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListProfileAvailableSoftwareSources.cs.html">here</a> to see an example of how to use ListProfileAvailableSoftwareSources API.</example>
         public async Task<ListProfileAvailableSoftwareSourcesResponse> ListProfileAvailableSoftwareSources(ListProfileAvailableSoftwareSourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProfileAvailableSoftwareSources");
@@ -762,7 +762,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListProfiles.cs.html">here</a> to see an example of how to use ListProfiles API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListProfiles.cs.html">here</a> to see an example of how to use ListProfiles API.</example>
         public async Task<ListProfilesResponse> ListProfiles(ListProfilesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProfiles");
@@ -818,7 +818,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateProfile.cs.html">here</a> to see an example of how to use UpdateProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateProfile.cs.html">here</a> to see an example of how to use UpdateProfile API.</example>
         public async Task<UpdateProfileResponse> UpdateProfile(UpdateProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateProfile");

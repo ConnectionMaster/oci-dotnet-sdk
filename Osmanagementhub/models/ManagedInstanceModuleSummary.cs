@@ -58,7 +58,7 @@ namespace Oci.OsmanagementhubService.Models
         public System.Collections.Generic.List<string> DisabledStreams { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the software source that provides this module and the associated streams.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the software source that provides this module and the associated streams.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "softwareSourceId")]

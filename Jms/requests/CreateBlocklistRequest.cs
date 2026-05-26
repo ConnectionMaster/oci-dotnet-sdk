@@ -14,13 +14,13 @@ using Oci.JmsService.Models;
 namespace Oci.JmsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/CreateBlocklist.cs.html">here</a> to see an example of how to use CreateBlocklist request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/CreateBlocklist.cs.html">here</a> to see an example of how to use CreateBlocklist request.
     /// </example>
     public class CreateBlocklistRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Fleet.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Fleet.
         /// </value>
         /// <remarks>
         /// Required

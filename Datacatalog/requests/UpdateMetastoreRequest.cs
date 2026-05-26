@@ -14,7 +14,7 @@ using Oci.DatacatalogService.Models;
 namespace Oci.DatacatalogService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datacatalog/UpdateMetastore.cs.html">here</a> to see an example of how to use UpdateMetastore request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datacatalog/UpdateMetastore.cs.html">here</a> to see an example of how to use UpdateMetastore request.
     /// </example>
     public class UpdateMetastoreRequest : Oci.Common.IOciRequest
     {

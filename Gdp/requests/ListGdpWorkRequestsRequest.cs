@@ -14,7 +14,7 @@ using Oci.GdpService.Models;
 namespace Oci.GdpService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/ListGdpWorkRequests.cs.html">here</a> to see an example of how to use ListGdpWorkRequests request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/ListGdpWorkRequests.cs.html">here</a> to see an example of how to use ListGdpWorkRequests request.
     /// </example>
     public class ListGdpWorkRequestsRequest : Oci.Common.IOciRequest
     {

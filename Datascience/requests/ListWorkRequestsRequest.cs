@@ -14,13 +14,13 @@ using Oci.DatascienceService.Models;
 namespace Oci.DatascienceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests request.
     /// </example>
     public class ListWorkRequestsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// <b>Filter</b> results by the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
+        /// <b>Filter</b> results by the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,14 +30,14 @@ namespace Oci.DatascienceService.Requests
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// <b>Filter</b> results by [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Must be an OCID of the correct type for the resource type.
+        /// <b>Filter</b> results by [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm). Must be an OCID of the correct type for the resource type.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "id")]
         public string Id { get; set; }
         
         /// <value>
-        /// <b>Filter</b> results by the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the resource associated with the work request.
+        /// <b>Filter</b> results by the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the resource associated with the work request.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "resourceId")]
         public string ResourceId { get; set; }
@@ -140,6 +140,12 @@ namespace Oci.DatascienceService.Requests
             RegisterModelArtifact,
             [EnumMember(Value = "RESTORE_ARCHIVED_MODEL")]
             RestoreArchivedModel,
+            [EnumMember(Value = "COMPUTE_TARGET_CREATE")]
+            ComputeTargetCreate,
+            [EnumMember(Value = "COMPUTE_TARGET_UPDATE")]
+            ComputeTargetUpdate,
+            [EnumMember(Value = "COMPUTE_TARGET_DELETE")]
+            ComputeTargetDelete,
             [EnumMember(Value = "MODEL_GROUP_CREATE")]
             ModelGroupCreate,
             [EnumMember(Value = "MODEL_GROUP_UPDATE")]
@@ -186,7 +192,7 @@ namespace Oci.DatascienceService.Requests
         /// For list pagination. The maximum number of results per page,
         /// or items to return in a paginated \"List\" call.
         /// 1 is the minimum, 100 is the maximum.
-        /// See [List Pagination](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/usingapi.htm#nine).
+        /// See [List Pagination](https://docs.oracle.com/iaas/Content/General/Concepts/usingapi.htm#nine).
         /// <br/>
         /// Example: 50
         /// </value>
@@ -197,7 +203,7 @@ namespace Oci.DatascienceService.Requests
         /// For list pagination. The value of the `opc-next-page` response
         /// header from the previous \"List\" call.
         /// <br/>
-        /// See [List Pagination](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/usingapi.htm#nine).
+        /// See [List Pagination](https://docs.oracle.com/iaas/Content/General/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]

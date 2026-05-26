@@ -24,7 +24,7 @@ namespace Oci.DataflowService.Models
         
         /// <value>
         /// The total number of OCPUs used for the driver or executors.
-        /// See [here](https://docs.cloud.oracle.com/en-us/iaas/api/#/en/iaas/20160918/Shape/) for details.
+        /// See [here](https://docs.oracle.com/en-us/iaas/api/#/en/iaas/20160918/Shape/) for details.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "ocpus")]

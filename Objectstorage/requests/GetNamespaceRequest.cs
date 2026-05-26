@@ -14,7 +14,7 @@ using Oci.ObjectstorageService.Models;
 namespace Oci.ObjectstorageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/objectstorage/GetNamespace.cs.html">here</a> to see an example of how to use GetNamespace request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/objectstorage/GetNamespace.cs.html">here</a> to see an example of how to use GetNamespace request.
     /// </example>
     public class GetNamespaceRequest : Oci.Common.IOciRequest
     {
@@ -26,8 +26,8 @@ namespace Oci.ObjectstorageService.Requests
         public string OpcClientRequestId { get; set; }
         
         /// <value>
-        /// This is an optional field representing either the tenancy [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) or the compartment
-        /// [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) within the tenancy whose Object Storage namespace is to be retrieved.
+        /// This is an optional field representing either the tenancy [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) or the compartment
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) within the tenancy whose Object Storage namespace is to be retrieved.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "compartmentId")]

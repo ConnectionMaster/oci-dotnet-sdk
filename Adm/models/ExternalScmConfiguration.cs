@@ -69,7 +69,7 @@ namespace Oci.AdmService.Models
         public string Username { get; set; }
         
         /// <value>
-        /// The Oracle Cloud Identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the Private Access Token (PAT) Secret.
+        /// The Oracle Cloud Identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the Private Access Token (PAT) Secret.
         /// The secret provides the credentials necessary to authenticate against the SCM.
         /// 
         /// </value>

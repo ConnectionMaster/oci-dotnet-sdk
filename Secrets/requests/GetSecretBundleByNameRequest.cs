@@ -14,7 +14,7 @@ using Oci.SecretsService.Models;
 namespace Oci.SecretsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/secrets/GetSecretBundleByName.cs.html">here</a> to see an example of how to use GetSecretBundleByName request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/secrets/GetSecretBundleByName.cs.html">here</a> to see an example of how to use GetSecretBundleByName request.
     /// </example>
     public class GetSecretBundleByNameRequest : Oci.Common.IOciRequest
     {

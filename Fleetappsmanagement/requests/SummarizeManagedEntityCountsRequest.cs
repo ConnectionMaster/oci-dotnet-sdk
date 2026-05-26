@@ -14,7 +14,7 @@ using Oci.FleetappsmanagementService.Models;
 namespace Oci.FleetappsmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/SummarizeManagedEntityCounts.cs.html">here</a> to see an example of how to use SummarizeManagedEntityCounts request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/SummarizeManagedEntityCounts.cs.html">here</a> to see an example of how to use SummarizeManagedEntityCounts request.
     /// </example>
     public class SummarizeManagedEntityCountsRequest : Oci.Common.IOciRequest
     {

@@ -22,7 +22,7 @@ namespace Oci.DbmulticloudService.Models
     {
         
         /// <value>
-        /// The compartment [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) where the Oracle DB GCP Key Ring resource resides.
+        /// The compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) where the Oracle DB GCP Key Ring resource resides.
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }

@@ -40,7 +40,7 @@ namespace Oci.AilanguageService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) compartment identifier for the endpoint
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) compartment identifier for the endpoint
         /// </value>
         /// <remarks>
         /// Required
@@ -50,7 +50,7 @@ namespace Oci.AilanguageService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the model to associate with the endpoint.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the model to associate with the endpoint.
         /// </value>
         /// <remarks>
         /// Required

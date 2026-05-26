@@ -80,7 +80,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ActivateRemediationRecipe.cs.html">here</a> to see an example of how to use ActivateRemediationRecipe API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ActivateRemediationRecipe.cs.html">here</a> to see an example of how to use ActivateRemediationRecipe API.</example>
         public async Task<ActivateRemediationRecipeResponse> ActivateRemediationRecipe(ActivateRemediationRecipeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called activateRemediationRecipe");
@@ -136,7 +136,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/CancelRemediationRun.cs.html">here</a> to see an example of how to use CancelRemediationRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/CancelRemediationRun.cs.html">here</a> to see an example of how to use CancelRemediationRun API.</example>
         public async Task<CancelRemediationRunResponse> CancelRemediationRun(CancelRemediationRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelRemediationRun");
@@ -192,7 +192,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
         public async Task<CancelWorkRequestResponse> CancelWorkRequest(CancelWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelWorkRequest");
@@ -248,7 +248,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ChangeKnowledgeBaseCompartment.cs.html">here</a> to see an example of how to use ChangeKnowledgeBaseCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ChangeKnowledgeBaseCompartment.cs.html">here</a> to see an example of how to use ChangeKnowledgeBaseCompartment API.</example>
         public async Task<ChangeKnowledgeBaseCompartmentResponse> ChangeKnowledgeBaseCompartment(ChangeKnowledgeBaseCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeKnowledgeBaseCompartment");
@@ -304,7 +304,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ChangeRemediationRecipeCompartment.cs.html">here</a> to see an example of how to use ChangeRemediationRecipeCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ChangeRemediationRecipeCompartment.cs.html">here</a> to see an example of how to use ChangeRemediationRecipeCompartment API.</example>
         public async Task<ChangeRemediationRecipeCompartmentResponse> ChangeRemediationRecipeCompartment(ChangeRemediationRecipeCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeRemediationRecipeCompartment");
@@ -360,7 +360,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ChangeRemediationRunCompartment.cs.html">here</a> to see an example of how to use ChangeRemediationRunCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ChangeRemediationRunCompartment.cs.html">here</a> to see an example of how to use ChangeRemediationRunCompartment API.</example>
         public async Task<ChangeRemediationRunCompartmentResponse> ChangeRemediationRunCompartment(ChangeRemediationRunCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeRemediationRunCompartment");
@@ -416,7 +416,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ChangeVulnerabilityAuditCompartment.cs.html">here</a> to see an example of how to use ChangeVulnerabilityAuditCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ChangeVulnerabilityAuditCompartment.cs.html">here</a> to see an example of how to use ChangeVulnerabilityAuditCompartment API.</example>
         public async Task<ChangeVulnerabilityAuditCompartmentResponse> ChangeVulnerabilityAuditCompartment(ChangeVulnerabilityAuditCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeVulnerabilityAuditCompartment");
@@ -472,7 +472,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/CreateKnowledgeBase.cs.html">here</a> to see an example of how to use CreateKnowledgeBase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/CreateKnowledgeBase.cs.html">here</a> to see an example of how to use CreateKnowledgeBase API.</example>
         public async Task<CreateKnowledgeBaseResponse> CreateKnowledgeBase(CreateKnowledgeBaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createKnowledgeBase");
@@ -528,7 +528,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/CreateRemediationRecipe.cs.html">here</a> to see an example of how to use CreateRemediationRecipe API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/CreateRemediationRecipe.cs.html">here</a> to see an example of how to use CreateRemediationRecipe API.</example>
         public async Task<CreateRemediationRecipeResponse> CreateRemediationRecipe(CreateRemediationRecipeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRemediationRecipe");
@@ -584,7 +584,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/CreateRemediationRun.cs.html">here</a> to see an example of how to use CreateRemediationRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/CreateRemediationRun.cs.html">here</a> to see an example of how to use CreateRemediationRun API.</example>
         public async Task<CreateRemediationRunResponse> CreateRemediationRun(CreateRemediationRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRemediationRun");
@@ -640,7 +640,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/CreateVulnerabilityAudit.cs.html">here</a> to see an example of how to use CreateVulnerabilityAudit API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/CreateVulnerabilityAudit.cs.html">here</a> to see an example of how to use CreateVulnerabilityAudit API.</example>
         public async Task<CreateVulnerabilityAuditResponse> CreateVulnerabilityAudit(CreateVulnerabilityAuditRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVulnerabilityAudit");
@@ -696,7 +696,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/DeactivateRemediationRecipe.cs.html">here</a> to see an example of how to use DeactivateRemediationRecipe API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/DeactivateRemediationRecipe.cs.html">here</a> to see an example of how to use DeactivateRemediationRecipe API.</example>
         public async Task<DeactivateRemediationRecipeResponse> DeactivateRemediationRecipe(DeactivateRemediationRecipeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deactivateRemediationRecipe");
@@ -752,7 +752,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/DeleteKnowledgeBase.cs.html">here</a> to see an example of how to use DeleteKnowledgeBase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/DeleteKnowledgeBase.cs.html">here</a> to see an example of how to use DeleteKnowledgeBase API.</example>
         public async Task<DeleteKnowledgeBaseResponse> DeleteKnowledgeBase(DeleteKnowledgeBaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteKnowledgeBase");
@@ -808,7 +808,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/DeleteRemediationRecipe.cs.html">here</a> to see an example of how to use DeleteRemediationRecipe API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/DeleteRemediationRecipe.cs.html">here</a> to see an example of how to use DeleteRemediationRecipe API.</example>
         public async Task<DeleteRemediationRecipeResponse> DeleteRemediationRecipe(DeleteRemediationRecipeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRemediationRecipe");
@@ -864,7 +864,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/DeleteRemediationRun.cs.html">here</a> to see an example of how to use DeleteRemediationRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/DeleteRemediationRun.cs.html">here</a> to see an example of how to use DeleteRemediationRun API.</example>
         public async Task<DeleteRemediationRunResponse> DeleteRemediationRun(DeleteRemediationRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRemediationRun");
@@ -920,7 +920,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/DeleteVulnerabilityAudit.cs.html">here</a> to see an example of how to use DeleteVulnerabilityAudit API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/DeleteVulnerabilityAudit.cs.html">here</a> to see an example of how to use DeleteVulnerabilityAudit API.</example>
         public async Task<DeleteVulnerabilityAuditResponse> DeleteVulnerabilityAudit(DeleteVulnerabilityAuditRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVulnerabilityAudit");
@@ -976,7 +976,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/GetKnowledgeBase.cs.html">here</a> to see an example of how to use GetKnowledgeBase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/GetKnowledgeBase.cs.html">here</a> to see an example of how to use GetKnowledgeBase API.</example>
         public async Task<GetKnowledgeBaseResponse> GetKnowledgeBase(GetKnowledgeBaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getKnowledgeBase");
@@ -1032,7 +1032,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/GetRemediationRecipe.cs.html">here</a> to see an example of how to use GetRemediationRecipe API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/GetRemediationRecipe.cs.html">here</a> to see an example of how to use GetRemediationRecipe API.</example>
         public async Task<GetRemediationRecipeResponse> GetRemediationRecipe(GetRemediationRecipeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRemediationRecipe");
@@ -1088,7 +1088,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/GetRemediationRun.cs.html">here</a> to see an example of how to use GetRemediationRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/GetRemediationRun.cs.html">here</a> to see an example of how to use GetRemediationRun API.</example>
         public async Task<GetRemediationRunResponse> GetRemediationRun(GetRemediationRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRemediationRun");
@@ -1144,7 +1144,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/GetStage.cs.html">here</a> to see an example of how to use GetStage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/GetStage.cs.html">here</a> to see an example of how to use GetStage API.</example>
         public async Task<GetStageResponse> GetStage(GetStageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getStage");
@@ -1200,7 +1200,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/GetVulnerabilityAudit.cs.html">here</a> to see an example of how to use GetVulnerabilityAudit API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/GetVulnerabilityAudit.cs.html">here</a> to see an example of how to use GetVulnerabilityAudit API.</example>
         public async Task<GetVulnerabilityAuditResponse> GetVulnerabilityAudit(GetVulnerabilityAuditRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVulnerabilityAudit");
@@ -1256,7 +1256,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -1312,7 +1312,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListApplicationDependencyRecommendations.cs.html">here</a> to see an example of how to use ListApplicationDependencyRecommendations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListApplicationDependencyRecommendations.cs.html">here</a> to see an example of how to use ListApplicationDependencyRecommendations API.</example>
         public async Task<ListApplicationDependencyRecommendationsResponse> ListApplicationDependencyRecommendations(ListApplicationDependencyRecommendationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listApplicationDependencyRecommendations");
@@ -1368,7 +1368,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListApplicationDependencyVulnerabilities.cs.html">here</a> to see an example of how to use ListApplicationDependencyVulnerabilities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListApplicationDependencyVulnerabilities.cs.html">here</a> to see an example of how to use ListApplicationDependencyVulnerabilities API.</example>
         public async Task<ListApplicationDependencyVulnerabilitiesResponse> ListApplicationDependencyVulnerabilities(ListApplicationDependencyVulnerabilitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listApplicationDependencyVulnerabilities");
@@ -1426,7 +1426,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListKnowledgeBases.cs.html">here</a> to see an example of how to use ListKnowledgeBases API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListKnowledgeBases.cs.html">here</a> to see an example of how to use ListKnowledgeBases API.</example>
         public async Task<ListKnowledgeBasesResponse> ListKnowledgeBases(ListKnowledgeBasesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listKnowledgeBases");
@@ -1484,7 +1484,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListRemediationRecipes.cs.html">here</a> to see an example of how to use ListRemediationRecipes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListRemediationRecipes.cs.html">here</a> to see an example of how to use ListRemediationRecipes API.</example>
         public async Task<ListRemediationRecipesResponse> ListRemediationRecipes(ListRemediationRecipesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRemediationRecipes");
@@ -1542,7 +1542,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListRemediationRuns.cs.html">here</a> to see an example of how to use ListRemediationRuns API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListRemediationRuns.cs.html">here</a> to see an example of how to use ListRemediationRuns API.</example>
         public async Task<ListRemediationRunsResponse> ListRemediationRuns(ListRemediationRunsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRemediationRuns");
@@ -1598,7 +1598,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListStages.cs.html">here</a> to see an example of how to use ListStages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListStages.cs.html">here</a> to see an example of how to use ListStages API.</example>
         public async Task<ListStagesResponse> ListStages(ListStagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listStages");
@@ -1654,7 +1654,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListVulnerabilities.cs.html">here</a> to see an example of how to use ListVulnerabilities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListVulnerabilities.cs.html">here</a> to see an example of how to use ListVulnerabilities API.</example>
         public async Task<ListVulnerabilitiesResponse> ListVulnerabilities(ListVulnerabilitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVulnerabilities");
@@ -1712,7 +1712,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListVulnerabilityAudits.cs.html">here</a> to see an example of how to use ListVulnerabilityAudits API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListVulnerabilityAudits.cs.html">here</a> to see an example of how to use ListVulnerabilityAudits API.</example>
         public async Task<ListVulnerabilityAuditsResponse> ListVulnerabilityAudits(ListVulnerabilityAuditsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVulnerabilityAudits");
@@ -1769,7 +1769,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -1826,7 +1826,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -1883,7 +1883,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1939,7 +1939,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/UpdateKnowledgeBase.cs.html">here</a> to see an example of how to use UpdateKnowledgeBase API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/UpdateKnowledgeBase.cs.html">here</a> to see an example of how to use UpdateKnowledgeBase API.</example>
         public async Task<UpdateKnowledgeBaseResponse> UpdateKnowledgeBase(UpdateKnowledgeBaseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateKnowledgeBase");
@@ -1995,7 +1995,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/UpdateRemediationRecipe.cs.html">here</a> to see an example of how to use UpdateRemediationRecipe API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/UpdateRemediationRecipe.cs.html">here</a> to see an example of how to use UpdateRemediationRecipe API.</example>
         public async Task<UpdateRemediationRecipeResponse> UpdateRemediationRecipe(UpdateRemediationRecipeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRemediationRecipe");
@@ -2051,7 +2051,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/UpdateRemediationRun.cs.html">here</a> to see an example of how to use UpdateRemediationRun API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/UpdateRemediationRun.cs.html">here</a> to see an example of how to use UpdateRemediationRun API.</example>
         public async Task<UpdateRemediationRunResponse> UpdateRemediationRun(UpdateRemediationRunRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRemediationRun");
@@ -2107,7 +2107,7 @@ namespace Oci.AdmService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/UpdateVulnerabilityAudit.cs.html">here</a> to see an example of how to use UpdateVulnerabilityAudit API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/UpdateVulnerabilityAudit.cs.html">here</a> to see an example of how to use UpdateVulnerabilityAudit API.</example>
         public async Task<UpdateVulnerabilityAuditResponse> UpdateVulnerabilityAudit(UpdateVulnerabilityAuditRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVulnerabilityAudit");

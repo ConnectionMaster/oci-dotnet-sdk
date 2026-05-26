@@ -29,7 +29,7 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<int> ActionOrder { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the action resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the action resource.
         /// </value>
         [JsonProperty(PropertyName = "actionResourceId")]
         public string ActionResourceId { get; set; }

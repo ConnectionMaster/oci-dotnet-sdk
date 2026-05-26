@@ -14,7 +14,7 @@ using Oci.NetworkfirewallService.Models;
 namespace Oci.NetworkfirewallService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateNatRule.cs.html">here</a> to see an example of how to use UpdateNatRule request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateNatRule.cs.html">here</a> to see an example of how to use UpdateNatRule request.
     /// </example>
     public class UpdateNatRuleRequest : Oci.Common.IOciRequest
     {

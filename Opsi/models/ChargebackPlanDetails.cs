@@ -23,7 +23,7 @@ namespace Oci.OpsiService.Models
     {
         
         /// <value>
-        /// [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of OPSI Chargeback plan resource.
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of OPSI Chargeback plan resource.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "planId")]

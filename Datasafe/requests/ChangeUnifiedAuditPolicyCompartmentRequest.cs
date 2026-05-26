@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeUnifiedAuditPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeUnifiedAuditPolicyCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ChangeUnifiedAuditPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeUnifiedAuditPolicyCompartment request.
     /// </example>
     public class ChangeUnifiedAuditPolicyCompartmentRequest : Oci.Common.IOciRequest
     {

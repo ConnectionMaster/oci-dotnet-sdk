@@ -14,7 +14,7 @@ using Oci.ApmconfigService.Models;
 namespace Oci.ApmconfigService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/ImportConfiguration.cs.html">here</a> to see an example of how to use ImportConfiguration request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmconfig/ImportConfiguration.cs.html">here</a> to see an example of how to use ImportConfiguration request.
     /// </example>
     public class ImportConfigurationRequest : Oci.Common.IOciRequest
     {
