@@ -14,7 +14,7 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ChangeKeyStoreCompartment.cs.html">here</a> to see an example of how to use ChangeKeyStoreCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ChangeKeyStoreCompartment.cs.html">here</a> to see an example of how to use ChangeKeyStoreCompartment request.
     /// </example>
     public class ChangeKeyStoreCompartmentRequest : Oci.Common.IOciRequest
     {
@@ -31,7 +31,7 @@ namespace Oci.DatabaseService.Requests
         public ChangeKeyStoreCompartmentDetails ChangeKeyStoreCompartmentDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the key store.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the key store.
         /// </value>
         /// <remarks>
         /// Required

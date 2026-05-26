@@ -14,7 +14,7 @@ using Oci.CertificatesmanagementService.Models;
 namespace Oci.CertificatesmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/CancelCertificateDeletion.cs.html">here</a> to see an example of how to use CancelCertificateDeletion request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/CancelCertificateDeletion.cs.html">here</a> to see an example of how to use CancelCertificateDeletion request.
     /// </example>
     public class CancelCertificateDeletionRequest : Oci.Common.IOciRequest
     {

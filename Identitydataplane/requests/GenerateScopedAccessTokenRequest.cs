@@ -14,7 +14,7 @@ using Oci.IdentitydataplaneService.Models;
 namespace Oci.IdentitydataplaneService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydataplane/GenerateScopedAccessToken.cs.html">here</a> to see an example of how to use GenerateScopedAccessToken request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydataplane/GenerateScopedAccessToken.cs.html">here</a> to see an example of how to use GenerateScopedAccessToken request.
     /// </example>
     public class GenerateScopedAccessTokenRequest : Oci.Common.IOciRequest
     {

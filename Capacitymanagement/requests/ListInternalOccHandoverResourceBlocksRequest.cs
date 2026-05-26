@@ -14,7 +14,7 @@ using Oci.CapacitymanagementService.Models;
 namespace Oci.CapacitymanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListInternalOccHandoverResourceBlocks.cs.html">here</a> to see an example of how to use ListInternalOccHandoverResourceBlocks request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/ListInternalOccHandoverResourceBlocks.cs.html">here</a> to see an example of how to use ListInternalOccHandoverResourceBlocks request.
     /// </example>
     public class ListInternalOccHandoverResourceBlocksRequest : Oci.Common.IOciRequest
     {

@@ -14,7 +14,7 @@ using Oci.GovernancerulescontrolplaneService.Models;
 namespace Oci.GovernancerulescontrolplaneService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/governancerulescontrolplane/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors request.
     /// </example>
     public class ListWorkRequestErrorsRequest : Oci.Common.IOciRequest
     {

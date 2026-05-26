@@ -14,7 +14,7 @@ using Oci.CloudguardService.Models;
 namespace Oci.CloudguardService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudguard/ListResourceProfileImpactedResources.cs.html">here</a> to see an example of how to use ListResourceProfileImpactedResources request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudguard/ListResourceProfileImpactedResources.cs.html">here</a> to see an example of how to use ListResourceProfileImpactedResources request.
     /// </example>
     public class ListResourceProfileImpactedResourcesRequest : Oci.Common.IOciRequest
     {

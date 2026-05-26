@@ -24,7 +24,7 @@ namespace Oci.ComputecloudatcustomerService.Models
     {
         
         /// <value>
-        /// The upgrade schedule [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// The upgrade schedule [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// This cannot be changed once created.
         /// 
         /// </value>
@@ -48,7 +48,7 @@ namespace Oci.ComputecloudatcustomerService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// Compartment [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the
+        /// Compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the
         /// Compute Cloud@Customer Upgrade Schedule.
         /// 
         /// </value>

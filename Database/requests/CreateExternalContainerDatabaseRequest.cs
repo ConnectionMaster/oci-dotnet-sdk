@@ -14,7 +14,7 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/CreateExternalContainerDatabase.cs.html">here</a> to see an example of how to use CreateExternalContainerDatabase request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/CreateExternalContainerDatabase.cs.html">here</a> to see an example of how to use CreateExternalContainerDatabase request.
     /// </example>
     public class CreateExternalContainerDatabaseRequest : Oci.Common.IOciRequest
     {

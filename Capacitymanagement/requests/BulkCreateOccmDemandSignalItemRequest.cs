@@ -14,7 +14,7 @@ using Oci.CapacitymanagementService.Models;
 namespace Oci.CapacitymanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/BulkCreateOccmDemandSignalItem.cs.html">here</a> to see an example of how to use BulkCreateOccmDemandSignalItem request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/BulkCreateOccmDemandSignalItem.cs.html">here</a> to see an example of how to use BulkCreateOccmDemandSignalItem request.
     /// </example>
     public class BulkCreateOccmDemandSignalItemRequest : Oci.Common.IOciRequest
     {

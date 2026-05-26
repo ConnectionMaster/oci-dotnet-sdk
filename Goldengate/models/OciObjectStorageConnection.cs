@@ -46,7 +46,7 @@ namespace Oci.GoldengateService.Models
         public System.Nullable<TechnologyTypeEnum> TechnologyType { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the related OCI tenancy.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the related OCI tenancy.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "tenancyId")]
@@ -61,7 +61,7 @@ namespace Oci.GoldengateService.Models
         public string Region { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the OCI user who will access the Object Storage.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the OCI user who will access the Object Storage.
         /// The user must have write access to the bucket they want to connect to.
         /// If the user is not provided, backend will default to the user who is calling the API endpoint.
         /// 
@@ -74,7 +74,7 @@ namespace Oci.GoldengateService.Models
         public string UserId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret that stores the content of the private key file (PEM file) corresponding to the API key of the fingerprint.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret that stores the content of the private key file (PEM file) corresponding to the API key of the fingerprint.
         /// See documentation: https://docs.oracle.com/en-us/iaas/Content/Identity/Tasks/managingcredentials.htm
         /// Note: When provided, 'privateKeyFile' field must not be provided.
         /// 
@@ -83,7 +83,7 @@ namespace Oci.GoldengateService.Models
         public string PrivateKeyFileSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret that stores the passphrase of the private key.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret that stores the passphrase of the private key.
         /// Note: When provided, 'privateKeyPassphrase' field must not be provided.
         /// 
         /// </value>

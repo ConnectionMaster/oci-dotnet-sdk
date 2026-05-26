@@ -78,7 +78,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AssociateManagedInstancesWithManagementStation.cs.html">here</a> to see an example of how to use AssociateManagedInstancesWithManagementStation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AssociateManagedInstancesWithManagementStation.cs.html">here</a> to see an example of how to use AssociateManagedInstancesWithManagementStation API.</example>
         public async Task<AssociateManagedInstancesWithManagementStationResponse> AssociateManagedInstancesWithManagementStation(AssociateManagedInstancesWithManagementStationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called associateManagedInstancesWithManagementStation");
@@ -136,7 +136,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachProfileToManagedInstance.cs.html">here</a> to see an example of how to use AttachProfileToManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachProfileToManagedInstance.cs.html">here</a> to see an example of how to use AttachProfileToManagedInstance API.</example>
         public async Task<AttachProfileToManagedInstanceResponse> AttachProfileToManagedInstance(AttachProfileToManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called attachProfileToManagedInstance");
@@ -194,7 +194,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachSoftwareSourcesToManagedInstance.cs.html">here</a> to see an example of how to use AttachSoftwareSourcesToManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/AttachSoftwareSourcesToManagedInstance.cs.html">here</a> to see an example of how to use AttachSoftwareSourcesToManagedInstance API.</example>
         public async Task<AttachSoftwareSourcesToManagedInstanceResponse> AttachSoftwareSourcesToManagedInstance(AttachSoftwareSourcesToManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called attachSoftwareSourcesToManagedInstance");
@@ -252,7 +252,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteManagedInstance.cs.html">here</a> to see an example of how to use DeleteManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DeleteManagedInstance.cs.html">here</a> to see an example of how to use DeleteManagedInstance API.</example>
         public async Task<DeleteManagedInstanceResponse> DeleteManagedInstance(DeleteManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteManagedInstance");
@@ -310,7 +310,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DetachProfileFromManagedInstance.cs.html">here</a> to see an example of how to use DetachProfileFromManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DetachProfileFromManagedInstance.cs.html">here</a> to see an example of how to use DetachProfileFromManagedInstance API.</example>
         public async Task<DetachProfileFromManagedInstanceResponse> DetachProfileFromManagedInstance(DetachProfileFromManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detachProfileFromManagedInstance");
@@ -368,7 +368,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DetachSoftwareSourcesFromManagedInstance.cs.html">here</a> to see an example of how to use DetachSoftwareSourcesFromManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DetachSoftwareSourcesFromManagedInstance.cs.html">here</a> to see an example of how to use DetachSoftwareSourcesFromManagedInstance API.</example>
         public async Task<DetachSoftwareSourcesFromManagedInstanceResponse> DetachSoftwareSourcesFromManagedInstance(DetachSoftwareSourcesFromManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detachSoftwareSourcesFromManagedInstance");
@@ -428,7 +428,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DisableModuleStreamOnManagedInstance.cs.html">here</a> to see an example of how to use DisableModuleStreamOnManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DisableModuleStreamOnManagedInstance.cs.html">here</a> to see an example of how to use DisableModuleStreamOnManagedInstance API.</example>
         public async Task<DisableModuleStreamOnManagedInstanceResponse> DisableModuleStreamOnManagedInstance(DisableModuleStreamOnManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableModuleStreamOnManagedInstance");
@@ -489,7 +489,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/EnableModuleStreamOnManagedInstance.cs.html">here</a> to see an example of how to use EnableModuleStreamOnManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/EnableModuleStreamOnManagedInstance.cs.html">here</a> to see an example of how to use EnableModuleStreamOnManagedInstance API.</example>
         public async Task<EnableModuleStreamOnManagedInstanceResponse> EnableModuleStreamOnManagedInstance(EnableModuleStreamOnManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enableModuleStreamOnManagedInstance");
@@ -545,7 +545,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetManagedInstance.cs.html">here</a> to see an example of how to use GetManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetManagedInstance.cs.html">here</a> to see an example of how to use GetManagedInstance API.</example>
         public async Task<GetManagedInstanceResponse> GetManagedInstance(GetManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getManagedInstance");
@@ -602,7 +602,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetWindowsUpdate.cs.html">here</a> to see an example of how to use GetWindowsUpdate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetWindowsUpdate.cs.html">here</a> to see an example of how to use GetWindowsUpdate API.</example>
         public async Task<GetWindowsUpdateResponse> GetWindowsUpdate(GetWindowsUpdateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWindowsUpdate");
@@ -659,7 +659,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/InstallAllWindowsUpdatesOnManagedInstancesInCompartment.cs.html">here</a> to see an example of how to use InstallAllWindowsUpdatesOnManagedInstancesInCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/InstallAllWindowsUpdatesOnManagedInstancesInCompartment.cs.html">here</a> to see an example of how to use InstallAllWindowsUpdatesOnManagedInstancesInCompartment API.</example>
         public async Task<InstallAllWindowsUpdatesOnManagedInstancesInCompartmentResponse> InstallAllWindowsUpdatesOnManagedInstancesInCompartment(InstallAllWindowsUpdatesOnManagedInstancesInCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called installAllWindowsUpdatesOnManagedInstancesInCompartment");
@@ -718,7 +718,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/InstallModuleStreamProfileOnManagedInstance.cs.html">here</a> to see an example of how to use InstallModuleStreamProfileOnManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/InstallModuleStreamProfileOnManagedInstance.cs.html">here</a> to see an example of how to use InstallModuleStreamProfileOnManagedInstance API.</example>
         public async Task<InstallModuleStreamProfileOnManagedInstanceResponse> InstallModuleStreamProfileOnManagedInstance(InstallModuleStreamProfileOnManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called installModuleStreamProfileOnManagedInstance");
@@ -775,7 +775,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/InstallPackagesOnManagedInstance.cs.html">here</a> to see an example of how to use InstallPackagesOnManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/InstallPackagesOnManagedInstance.cs.html">here</a> to see an example of how to use InstallPackagesOnManagedInstance API.</example>
         public async Task<InstallPackagesOnManagedInstanceResponse> InstallPackagesOnManagedInstance(InstallPackagesOnManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called installPackagesOnManagedInstance");
@@ -831,7 +831,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/InstallSnapsOnManagedInstance.cs.html">here</a> to see an example of how to use InstallSnapsOnManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/InstallSnapsOnManagedInstance.cs.html">here</a> to see an example of how to use InstallSnapsOnManagedInstance API.</example>
         public async Task<InstallSnapsOnManagedInstanceResponse> InstallSnapsOnManagedInstance(InstallSnapsOnManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called installSnapsOnManagedInstance");
@@ -888,7 +888,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/InstallWindowsUpdatesOnManagedInstance.cs.html">here</a> to see an example of how to use InstallWindowsUpdatesOnManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/InstallWindowsUpdatesOnManagedInstance.cs.html">here</a> to see an example of how to use InstallWindowsUpdatesOnManagedInstance API.</example>
         public async Task<InstallWindowsUpdatesOnManagedInstanceResponse> InstallWindowsUpdatesOnManagedInstance(InstallWindowsUpdatesOnManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called installWindowsUpdatesOnManagedInstance");
@@ -945,7 +945,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceAvailablePackages.cs.html">here</a> to see an example of how to use ListManagedInstanceAvailablePackages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceAvailablePackages.cs.html">here</a> to see an example of how to use ListManagedInstanceAvailablePackages API.</example>
         public async Task<ListManagedInstanceAvailablePackagesResponse> ListManagedInstanceAvailablePackages(ListManagedInstanceAvailablePackagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedInstanceAvailablePackages");
@@ -1002,7 +1002,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceAvailableSoftwareSources.cs.html">here</a> to see an example of how to use ListManagedInstanceAvailableSoftwareSources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceAvailableSoftwareSources.cs.html">here</a> to see an example of how to use ListManagedInstanceAvailableSoftwareSources API.</example>
         public async Task<ListManagedInstanceAvailableSoftwareSourcesResponse> ListManagedInstanceAvailableSoftwareSources(ListManagedInstanceAvailableSoftwareSourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedInstanceAvailableSoftwareSources");
@@ -1059,7 +1059,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceAvailableWindowsUpdates.cs.html">here</a> to see an example of how to use ListManagedInstanceAvailableWindowsUpdates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceAvailableWindowsUpdates.cs.html">here</a> to see an example of how to use ListManagedInstanceAvailableWindowsUpdates API.</example>
         public async Task<ListManagedInstanceAvailableWindowsUpdatesResponse> ListManagedInstanceAvailableWindowsUpdates(ListManagedInstanceAvailableWindowsUpdatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedInstanceAvailableWindowsUpdates");
@@ -1116,7 +1116,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceErrata.cs.html">here</a> to see an example of how to use ListManagedInstanceErrata API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceErrata.cs.html">here</a> to see an example of how to use ListManagedInstanceErrata API.</example>
         public async Task<ListManagedInstanceErrataResponse> ListManagedInstanceErrata(ListManagedInstanceErrataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedInstanceErrata");
@@ -1173,7 +1173,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceInstalledPackages.cs.html">here</a> to see an example of how to use ListManagedInstanceInstalledPackages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceInstalledPackages.cs.html">here</a> to see an example of how to use ListManagedInstanceInstalledPackages API.</example>
         public async Task<ListManagedInstanceInstalledPackagesResponse> ListManagedInstanceInstalledPackages(ListManagedInstanceInstalledPackagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedInstanceInstalledPackages");
@@ -1230,7 +1230,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceInstalledWindowsUpdates.cs.html">here</a> to see an example of how to use ListManagedInstanceInstalledWindowsUpdates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceInstalledWindowsUpdates.cs.html">here</a> to see an example of how to use ListManagedInstanceInstalledWindowsUpdates API.</example>
         public async Task<ListManagedInstanceInstalledWindowsUpdatesResponse> ListManagedInstanceInstalledWindowsUpdates(ListManagedInstanceInstalledWindowsUpdatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedInstanceInstalledWindowsUpdates");
@@ -1287,7 +1287,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceModules.cs.html">here</a> to see an example of how to use ListManagedInstanceModules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceModules.cs.html">here</a> to see an example of how to use ListManagedInstanceModules API.</example>
         public async Task<ListManagedInstanceModulesResponse> ListManagedInstanceModules(ListManagedInstanceModulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedInstanceModules");
@@ -1344,7 +1344,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceSnaps.cs.html">here</a> to see an example of how to use ListManagedInstanceSnaps API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceSnaps.cs.html">here</a> to see an example of how to use ListManagedInstanceSnaps API.</example>
         public async Task<ListManagedInstanceSnapsResponse> ListManagedInstanceSnaps(ListManagedInstanceSnapsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedInstanceSnaps");
@@ -1401,7 +1401,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceUpdatablePackages.cs.html">here</a> to see an example of how to use ListManagedInstanceUpdatablePackages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstanceUpdatablePackages.cs.html">here</a> to see an example of how to use ListManagedInstanceUpdatablePackages API.</example>
         public async Task<ListManagedInstanceUpdatablePackagesResponse> ListManagedInstanceUpdatablePackages(ListManagedInstanceUpdatablePackagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedInstanceUpdatablePackages");
@@ -1457,7 +1457,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstances.cs.html">here</a> to see an example of how to use ListManagedInstances API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagedInstances.cs.html">here</a> to see an example of how to use ListManagedInstances API.</example>
         public async Task<ListManagedInstancesResponse> ListManagedInstances(ListManagedInstancesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagedInstances");
@@ -1514,7 +1514,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListWindowsUpdates.cs.html">here</a> to see an example of how to use ListWindowsUpdates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListWindowsUpdates.cs.html">here</a> to see an example of how to use ListWindowsUpdates API.</example>
         public async Task<ListWindowsUpdatesResponse> ListWindowsUpdates(ListWindowsUpdatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWindowsUpdates");
@@ -1574,7 +1574,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ManageModuleStreamsOnManagedInstance.cs.html">here</a> to see an example of how to use ManageModuleStreamsOnManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ManageModuleStreamsOnManagedInstance.cs.html">here</a> to see an example of how to use ManageModuleStreamsOnManagedInstance API.</example>
         public async Task<ManageModuleStreamsOnManagedInstanceResponse> ManageModuleStreamsOnManagedInstance(ManageModuleStreamsOnManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called manageModuleStreamsOnManagedInstance");
@@ -1632,7 +1632,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RebootManagedInstance.cs.html">here</a> to see an example of how to use RebootManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RebootManagedInstance.cs.html">here</a> to see an example of how to use RebootManagedInstance API.</example>
         public async Task<RebootManagedInstanceResponse> RebootManagedInstance(RebootManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called rebootManagedInstance");
@@ -1689,7 +1689,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RefreshSoftwareOnManagedInstance.cs.html">here</a> to see an example of how to use RefreshSoftwareOnManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RefreshSoftwareOnManagedInstance.cs.html">here</a> to see an example of how to use RefreshSoftwareOnManagedInstance API.</example>
         public async Task<RefreshSoftwareOnManagedInstanceResponse> RefreshSoftwareOnManagedInstance(RefreshSoftwareOnManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshSoftwareOnManagedInstance");
@@ -1748,7 +1748,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RemoveModuleStreamProfileFromManagedInstance.cs.html">here</a> to see an example of how to use RemoveModuleStreamProfileFromManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RemoveModuleStreamProfileFromManagedInstance.cs.html">here</a> to see an example of how to use RemoveModuleStreamProfileFromManagedInstance API.</example>
         public async Task<RemoveModuleStreamProfileFromManagedInstanceResponse> RemoveModuleStreamProfileFromManagedInstance(RemoveModuleStreamProfileFromManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeModuleStreamProfileFromManagedInstance");
@@ -1805,7 +1805,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RemovePackagesFromManagedInstance.cs.html">here</a> to see an example of how to use RemovePackagesFromManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RemovePackagesFromManagedInstance.cs.html">here</a> to see an example of how to use RemovePackagesFromManagedInstance API.</example>
         public async Task<RemovePackagesFromManagedInstanceResponse> RemovePackagesFromManagedInstance(RemovePackagesFromManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removePackagesFromManagedInstance");
@@ -1861,7 +1861,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RemoveSnapsFromManagedInstance.cs.html">here</a> to see an example of how to use RemoveSnapsFromManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/RemoveSnapsFromManagedInstance.cs.html">here</a> to see an example of how to use RemoveSnapsFromManagedInstance API.</example>
         public async Task<RemoveSnapsFromManagedInstanceResponse> RemoveSnapsFromManagedInstance(RemoveSnapsFromManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeSnapsFromManagedInstance");
@@ -1921,7 +1921,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SwitchModuleStreamOnManagedInstance.cs.html">here</a> to see an example of how to use SwitchModuleStreamOnManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SwitchModuleStreamOnManagedInstance.cs.html">here</a> to see an example of how to use SwitchModuleStreamOnManagedInstance API.</example>
         public async Task<SwitchModuleStreamOnManagedInstanceResponse> SwitchModuleStreamOnManagedInstance(SwitchModuleStreamOnManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called switchModuleStreamOnManagedInstance");
@@ -1977,7 +1977,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SwitchSnapChannelOnManagedInstance.cs.html">here</a> to see an example of how to use SwitchSnapChannelOnManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SwitchSnapChannelOnManagedInstance.cs.html">here</a> to see an example of how to use SwitchSnapChannelOnManagedInstance API.</example>
         public async Task<SwitchSnapChannelOnManagedInstanceResponse> SwitchSnapChannelOnManagedInstance(SwitchSnapChannelOnManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called switchSnapChannelOnManagedInstance");
@@ -2034,7 +2034,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateAllPackagesOnManagedInstancesInCompartment.cs.html">here</a> to see an example of how to use UpdateAllPackagesOnManagedInstancesInCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateAllPackagesOnManagedInstancesInCompartment.cs.html">here</a> to see an example of how to use UpdateAllPackagesOnManagedInstancesInCompartment API.</example>
         public async Task<UpdateAllPackagesOnManagedInstancesInCompartmentResponse> UpdateAllPackagesOnManagedInstancesInCompartment(UpdateAllPackagesOnManagedInstancesInCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAllPackagesOnManagedInstancesInCompartment");
@@ -2091,7 +2091,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateManagedInstance.cs.html">here</a> to see an example of how to use UpdateManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdateManagedInstance.cs.html">here</a> to see an example of how to use UpdateManagedInstance API.</example>
         public async Task<UpdateManagedInstanceResponse> UpdateManagedInstance(UpdateManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateManagedInstance");
@@ -2148,7 +2148,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdatePackagesOnManagedInstance.cs.html">here</a> to see an example of how to use UpdatePackagesOnManagedInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/UpdatePackagesOnManagedInstance.cs.html">here</a> to see an example of how to use UpdatePackagesOnManagedInstance API.</example>
         public async Task<UpdatePackagesOnManagedInstanceResponse> UpdatePackagesOnManagedInstance(UpdatePackagesOnManagedInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePackagesOnManagedInstance");

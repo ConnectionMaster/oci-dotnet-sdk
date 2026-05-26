@@ -96,7 +96,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/BulkDeleteSecurityAttributes.cs.html">here</a> to see an example of how to use BulkDeleteSecurityAttributes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/BulkDeleteSecurityAttributes.cs.html">here</a> to see an example of how to use BulkDeleteSecurityAttributes API.</example>
         public async Task<BulkDeleteSecurityAttributesResponse> BulkDeleteSecurityAttributes(BulkDeleteSecurityAttributesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkDeleteSecurityAttributes");
@@ -162,7 +162,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/BulkEditSecurityAttributes.cs.html">here</a> to see an example of how to use BulkEditSecurityAttributes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/BulkEditSecurityAttributes.cs.html">here</a> to see an example of how to use BulkEditSecurityAttributes API.</example>
         public async Task<BulkEditSecurityAttributesResponse> BulkEditSecurityAttributes(BulkEditSecurityAttributesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkEditSecurityAttributes");
@@ -237,7 +237,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/CascadingDeleteSecurityAttributeNamespace.cs.html">here</a> to see an example of how to use CascadingDeleteSecurityAttributeNamespace API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/CascadingDeleteSecurityAttributeNamespace.cs.html">here</a> to see an example of how to use CascadingDeleteSecurityAttributeNamespace API.</example>
         public async Task<CascadingDeleteSecurityAttributeNamespaceResponse> CascadingDeleteSecurityAttributeNamespace(CascadingDeleteSecurityAttributeNamespaceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cascadingDeleteSecurityAttributeNamespace");
@@ -289,7 +289,7 @@ namespace Oci.SecurityattributeService
         /// Moves the specified security attribute namespace to the specified compartment within the same tenancy.
         /// &lt;br/&gt;
         /// To move the security attribute namespace, you must have the manage security-attributes permission on both compartments.
-        /// For more information about IAM policies, see [Details for IAM](https://docs.cloud.oracle.com/Content/Identity/policyreference/iampolicyreference.htm).
+        /// For more information about IAM policies, see [Details for IAM](https://docs.oracle.com/iaas/Content/Identity/policyreference/iampolicyreference.htm).
         /// &lt;br/&gt;
         /// Moving a security attribute namespace moves all the security attributes contained in the security attribute namespace.
         /// 
@@ -299,7 +299,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/ChangeSecurityAttributeNamespaceCompartment.cs.html">here</a> to see an example of how to use ChangeSecurityAttributeNamespaceCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/ChangeSecurityAttributeNamespaceCompartment.cs.html">here</a> to see an example of how to use ChangeSecurityAttributeNamespaceCompartment API.</example>
         public async Task<ChangeSecurityAttributeNamespaceCompartmentResponse> ChangeSecurityAttributeNamespaceCompartment(ChangeSecurityAttributeNamespaceCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSecurityAttributeNamespaceCompartment");
@@ -372,7 +372,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/CreateSecurityAttribute.cs.html">here</a> to see an example of how to use CreateSecurityAttribute API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/CreateSecurityAttribute.cs.html">here</a> to see an example of how to use CreateSecurityAttribute API.</example>
         public async Task<CreateSecurityAttributeResponse> CreateSecurityAttribute(CreateSecurityAttributeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSecurityAttribute");
@@ -442,7 +442,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/CreateSecurityAttributeNamespace.cs.html">here</a> to see an example of how to use CreateSecurityAttributeNamespace API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/CreateSecurityAttributeNamespace.cs.html">here</a> to see an example of how to use CreateSecurityAttributeNamespace API.</example>
         public async Task<CreateSecurityAttributeNamespaceResponse> CreateSecurityAttributeNamespace(CreateSecurityAttributeNamespaceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSecurityAttributeNamespace");
@@ -512,7 +512,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/DeleteSecurityAttribute.cs.html">here</a> to see an example of how to use DeleteSecurityAttribute API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/DeleteSecurityAttribute.cs.html">here</a> to see an example of how to use DeleteSecurityAttribute API.</example>
         public async Task<DeleteSecurityAttributeResponse> DeleteSecurityAttribute(DeleteSecurityAttributeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSecurityAttribute");
@@ -571,7 +571,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/DeleteSecurityAttributeNamespace.cs.html">here</a> to see an example of how to use DeleteSecurityAttributeNamespace API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/DeleteSecurityAttributeNamespace.cs.html">here</a> to see an example of how to use DeleteSecurityAttributeNamespace API.</example>
         public async Task<DeleteSecurityAttributeNamespaceResponse> DeleteSecurityAttributeNamespace(DeleteSecurityAttributeNamespaceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSecurityAttributeNamespace");
@@ -627,7 +627,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/GetSecurityAttribute.cs.html">here</a> to see an example of how to use GetSecurityAttribute API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/GetSecurityAttribute.cs.html">here</a> to see an example of how to use GetSecurityAttribute API.</example>
         public async Task<GetSecurityAttributeResponse> GetSecurityAttribute(GetSecurityAttributeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecurityAttribute");
@@ -684,7 +684,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/GetSecurityAttributeNamespace.cs.html">here</a> to see an example of how to use GetSecurityAttributeNamespace API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/GetSecurityAttributeNamespace.cs.html">here</a> to see an example of how to use GetSecurityAttributeNamespace API.</example>
         public async Task<GetSecurityAttributeNamespaceResponse> GetSecurityAttributeNamespace(GetSecurityAttributeNamespaceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecurityAttributeNamespace");
@@ -742,7 +742,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/GetSecurityAttributeWorkRequest.cs.html">here</a> to see an example of how to use GetSecurityAttributeWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/GetSecurityAttributeWorkRequest.cs.html">here</a> to see an example of how to use GetSecurityAttributeWorkRequest API.</example>
         public async Task<GetSecurityAttributeWorkRequestResponse> GetSecurityAttributeWorkRequest(GetSecurityAttributeWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecurityAttributeWorkRequest");
@@ -799,7 +799,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/ListSecurityAttributeNamespaces.cs.html">here</a> to see an example of how to use ListSecurityAttributeNamespaces API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/ListSecurityAttributeNamespaces.cs.html">here</a> to see an example of how to use ListSecurityAttributeNamespaces API.</example>
         public async Task<ListSecurityAttributeNamespacesResponse> ListSecurityAttributeNamespaces(ListSecurityAttributeNamespacesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityAttributeNamespaces");
@@ -856,7 +856,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/ListSecurityAttributeWorkRequestErrors.cs.html">here</a> to see an example of how to use ListSecurityAttributeWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/ListSecurityAttributeWorkRequestErrors.cs.html">here</a> to see an example of how to use ListSecurityAttributeWorkRequestErrors API.</example>
         public async Task<ListSecurityAttributeWorkRequestErrorsResponse> ListSecurityAttributeWorkRequestErrors(ListSecurityAttributeWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityAttributeWorkRequestErrors");
@@ -913,7 +913,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/ListSecurityAttributeWorkRequestLogs.cs.html">here</a> to see an example of how to use ListSecurityAttributeWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/ListSecurityAttributeWorkRequestLogs.cs.html">here</a> to see an example of how to use ListSecurityAttributeWorkRequestLogs API.</example>
         public async Task<ListSecurityAttributeWorkRequestLogsResponse> ListSecurityAttributeWorkRequestLogs(ListSecurityAttributeWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityAttributeWorkRequestLogs");
@@ -970,7 +970,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/ListSecurityAttributeWorkRequests.cs.html">here</a> to see an example of how to use ListSecurityAttributeWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/ListSecurityAttributeWorkRequests.cs.html">here</a> to see an example of how to use ListSecurityAttributeWorkRequests API.</example>
         public async Task<ListSecurityAttributeWorkRequestsResponse> ListSecurityAttributeWorkRequests(ListSecurityAttributeWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityAttributeWorkRequests");
@@ -1027,7 +1027,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/ListSecurityAttributes.cs.html">here</a> to see an example of how to use ListSecurityAttributes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/ListSecurityAttributes.cs.html">here</a> to see an example of how to use ListSecurityAttributes API.</example>
         public async Task<ListSecurityAttributesResponse> ListSecurityAttributes(ListSecurityAttributesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityAttributes");
@@ -1084,7 +1084,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/UpdateSecurityAttribute.cs.html">here</a> to see an example of how to use UpdateSecurityAttribute API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/UpdateSecurityAttribute.cs.html">here</a> to see an example of how to use UpdateSecurityAttribute API.</example>
         public async Task<UpdateSecurityAttributeResponse> UpdateSecurityAttribute(UpdateSecurityAttributeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSecurityAttribute");
@@ -1139,7 +1139,7 @@ namespace Oci.SecurityattributeService
         /// namespace (changing &#x60;isRetired&#x60; from &#39;true&#39; to &#39;false&#39;) does not reactivate security attributes.
         /// To reactivate the security attributes, you must reactivate each one individually *after* you reactivate the namespace,
         /// using {@link #updateSecurityAttribute(UpdateSecurityAttributeRequest) updateSecurityAttribute}. For more information about retiring security attribute namespaces, see
-        /// [Managing Security Attribute Namespaces](https://docs.cloud.oracle.com/Content/zero-trust-packet-routing/managing-security-attribute-namespaces.htm).
+        /// [Managing Security Attribute Namespaces](https://docs.oracle.com/iaas/Content/zero-trust-packet-routing/managing-security-attribute-namespaces.htm).
         /// &lt;br/&gt;
         /// You can&#39;t add a namespace with the same name as a retired namespace in the same tenancy.
         /// 
@@ -1149,7 +1149,7 @@ namespace Oci.SecurityattributeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/UpdateSecurityAttributeNamespace.cs.html">here</a> to see an example of how to use UpdateSecurityAttributeNamespace API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/UpdateSecurityAttributeNamespace.cs.html">here</a> to see an example of how to use UpdateSecurityAttributeNamespace API.</example>
         public async Task<UpdateSecurityAttributeNamespaceResponse> UpdateSecurityAttributeNamespace(UpdateSecurityAttributeNamespaceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSecurityAttributeNamespace");

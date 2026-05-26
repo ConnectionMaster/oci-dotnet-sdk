@@ -14,13 +14,13 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddIpv4SubnetCidr.cs.html">here</a> to see an example of how to use AddIpv4SubnetCidr request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/AddIpv4SubnetCidr.cs.html">here</a> to see an example of how to use AddIpv4SubnetCidr request.
     /// </example>
     public class AddIpv4SubnetCidrRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// Specify the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet.
+        /// Specify the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet.
         /// </value>
         /// <remarks>
         /// Required

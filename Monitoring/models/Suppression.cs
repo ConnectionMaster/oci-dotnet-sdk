@@ -20,7 +20,7 @@ namespace Oci.MonitoringService.Models
     /// For dimension-specific suppressions, see {@link AlarmSuppression}.
     /// <br/>
     /// For information about alarms, see
-    /// [Alarms Overview](https://docs.cloud.oracle.com/iaas/Content/Monitoring/Concepts/monitoringoverview.htm#AlarmsOverview).
+    /// [Alarms Overview](https://docs.oracle.com/iaas/Content/Monitoring/Concepts/monitoringoverview.htm#AlarmsOverview).
     /// 
     /// </summary>
     public class Suppression 

@@ -14,7 +14,7 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/CreateExternalMySqlDatabase.cs.html">here</a> to see an example of how to use CreateExternalMySqlDatabase request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/CreateExternalMySqlDatabase.cs.html">here</a> to see an example of how to use CreateExternalMySqlDatabase request.
     /// </example>
     public class CreateExternalMySqlDatabaseRequest : Oci.Common.IOciRequest
     {

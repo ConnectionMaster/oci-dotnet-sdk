@@ -74,7 +74,7 @@ namespace Oci.FleetappsmanagementService
 
         /// <summary>
         /// Moves a Patch into a different compartment within the same tenancy. For information about moving resources between
-        /// compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -82,7 +82,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ChangePatchCompartment.cs.html">here</a> to see an example of how to use ChangePatchCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ChangePatchCompartment.cs.html">here</a> to see an example of how to use ChangePatchCompartment API.</example>
         public async Task<ChangePatchCompartmentResponse> ChangePatchCompartment(ChangePatchCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changePatchCompartment");
@@ -139,7 +139,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/CreatePatch.cs.html">here</a> to see an example of how to use CreatePatch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/CreatePatch.cs.html">here</a> to see an example of how to use CreatePatch API.</example>
         public async Task<CreatePatchResponse> CreatePatch(CreatePatchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPatch");
@@ -196,7 +196,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/CreateSchedulerDefinition.cs.html">here</a> to see an example of how to use CreateSchedulerDefinition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/CreateSchedulerDefinition.cs.html">here</a> to see an example of how to use CreateSchedulerDefinition API.</example>
         public async Task<CreateSchedulerDefinitionResponse> CreateSchedulerDefinition(CreateSchedulerDefinitionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSchedulerDefinition");
@@ -252,7 +252,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/DeletePatch.cs.html">here</a> to see an example of how to use DeletePatch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/DeletePatch.cs.html">here</a> to see an example of how to use DeletePatch API.</example>
         public async Task<DeletePatchResponse> DeletePatch(DeletePatchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePatch");
@@ -308,7 +308,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/DeleteSchedulerDefinition.cs.html">here</a> to see an example of how to use DeleteSchedulerDefinition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/DeleteSchedulerDefinition.cs.html">here</a> to see an example of how to use DeleteSchedulerDefinition API.</example>
         public async Task<DeleteSchedulerDefinitionResponse> DeleteSchedulerDefinition(DeleteSchedulerDefinitionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSchedulerDefinition");
@@ -364,7 +364,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/DeleteSchedulerJob.cs.html">here</a> to see an example of how to use DeleteSchedulerJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/DeleteSchedulerJob.cs.html">here</a> to see an example of how to use DeleteSchedulerJob API.</example>
         public async Task<DeleteSchedulerJobResponse> DeleteSchedulerJob(DeleteSchedulerJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSchedulerJob");
@@ -421,7 +421,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ExportComplianceReport.cs.html">here</a> to see an example of how to use ExportComplianceReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ExportComplianceReport.cs.html">here</a> to see an example of how to use ExportComplianceReport API.</example>
         public async Task<ExportComplianceReportResponse> ExportComplianceReport(ExportComplianceReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called exportComplianceReport");
@@ -477,7 +477,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetExecution.cs.html">here</a> to see an example of how to use GetExecution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetExecution.cs.html">here</a> to see an example of how to use GetExecution API.</example>
         public async Task<GetExecutionResponse> GetExecution(GetExecutionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getExecution");
@@ -533,7 +533,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetJobActivity.cs.html">here</a> to see an example of how to use GetJobActivity API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetJobActivity.cs.html">here</a> to see an example of how to use GetJobActivity API.</example>
         public async Task<GetJobActivityResponse> GetJobActivity(GetJobActivityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJobActivity");
@@ -589,7 +589,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetPatch.cs.html">here</a> to see an example of how to use GetPatch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetPatch.cs.html">here</a> to see an example of how to use GetPatch API.</example>
         public async Task<GetPatchResponse> GetPatch(GetPatchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPatch");
@@ -645,7 +645,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetSchedulerDefinition.cs.html">here</a> to see an example of how to use GetSchedulerDefinition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetSchedulerDefinition.cs.html">here</a> to see an example of how to use GetSchedulerDefinition API.</example>
         public async Task<GetSchedulerDefinitionResponse> GetSchedulerDefinition(GetSchedulerDefinitionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSchedulerDefinition");
@@ -701,7 +701,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetSchedulerJob.cs.html">here</a> to see an example of how to use GetSchedulerJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetSchedulerJob.cs.html">here</a> to see an example of how to use GetSchedulerJob API.</example>
         public async Task<GetSchedulerJobResponse> GetSchedulerJob(GetSchedulerJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSchedulerJob");
@@ -758,7 +758,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListComplianceRecords.cs.html">here</a> to see an example of how to use ListComplianceRecords API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListComplianceRecords.cs.html">here</a> to see an example of how to use ListComplianceRecords API.</example>
         public async Task<ListComplianceRecordsResponse> ListComplianceRecords(ListComplianceRecordsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listComplianceRecords");
@@ -814,7 +814,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListExecutions.cs.html">here</a> to see an example of how to use ListExecutions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListExecutions.cs.html">here</a> to see an example of how to use ListExecutions API.</example>
         public async Task<ListExecutionsResponse> ListExecutions(ListExecutionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listExecutions");
@@ -872,7 +872,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListInstalledPatches.cs.html">here</a> to see an example of how to use ListInstalledPatches API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListInstalledPatches.cs.html">here</a> to see an example of how to use ListInstalledPatches API.</example>
         public async Task<ListInstalledPatchesResponse> ListInstalledPatches(ListInstalledPatchesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInstalledPatches");
@@ -929,7 +929,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListInventoryRecords.cs.html">here</a> to see an example of how to use ListInventoryRecords API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListInventoryRecords.cs.html">here</a> to see an example of how to use ListInventoryRecords API.</example>
         public async Task<ListInventoryRecordsResponse> ListInventoryRecords(ListInventoryRecordsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInventoryRecords");
@@ -987,7 +987,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListPatches.cs.html">here</a> to see an example of how to use ListPatches API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListPatches.cs.html">here</a> to see an example of how to use ListPatches API.</example>
         public async Task<ListPatchesResponse> ListPatches(ListPatchesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPatches");
@@ -1044,7 +1044,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListRecommendedPatches.cs.html">here</a> to see an example of how to use ListRecommendedPatches API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListRecommendedPatches.cs.html">here</a> to see an example of how to use ListRecommendedPatches API.</example>
         public async Task<ListRecommendedPatchesResponse> ListRecommendedPatches(ListRecommendedPatchesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRecommendedPatches");
@@ -1101,7 +1101,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListReportMetadata.cs.html">here</a> to see an example of how to use ListReportMetadata API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListReportMetadata.cs.html">here</a> to see an example of how to use ListReportMetadata API.</example>
         public async Task<ListReportMetadataResponse> ListReportMetadata(ListReportMetadataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listReportMetadata");
@@ -1157,7 +1157,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListResources.cs.html">here</a> to see an example of how to use ListResources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListResources.cs.html">here</a> to see an example of how to use ListResources API.</example>
         public async Task<ListResourcesResponse> ListResources(ListResourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listResources");
@@ -1214,7 +1214,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListScheduledFleets.cs.html">here</a> to see an example of how to use ListScheduledFleets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListScheduledFleets.cs.html">here</a> to see an example of how to use ListScheduledFleets API.</example>
         public async Task<ListScheduledFleetsResponse> ListScheduledFleets(ListScheduledFleetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listScheduledFleets");
@@ -1272,7 +1272,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListSchedulerDefinitions.cs.html">here</a> to see an example of how to use ListSchedulerDefinitions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListSchedulerDefinitions.cs.html">here</a> to see an example of how to use ListSchedulerDefinitions API.</example>
         public async Task<ListSchedulerDefinitionsResponse> ListSchedulerDefinitions(ListSchedulerDefinitionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSchedulerDefinitions");
@@ -1329,7 +1329,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListSchedulerExecutions.cs.html">here</a> to see an example of how to use ListSchedulerExecutions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListSchedulerExecutions.cs.html">here</a> to see an example of how to use ListSchedulerExecutions API.</example>
         public async Task<ListSchedulerExecutionsResponse> ListSchedulerExecutions(ListSchedulerExecutionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSchedulerExecutions");
@@ -1387,7 +1387,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListSchedulerJobs.cs.html">here</a> to see an example of how to use ListSchedulerJobs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListSchedulerJobs.cs.html">here</a> to see an example of how to use ListSchedulerJobs API.</example>
         public async Task<ListSchedulerJobsResponse> ListSchedulerJobs(ListSchedulerJobsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSchedulerJobs");
@@ -1443,7 +1443,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListSteps.cs.html">here</a> to see an example of how to use ListSteps API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListSteps.cs.html">here</a> to see an example of how to use ListSteps API.</example>
         public async Task<ListStepsResponse> ListSteps(ListStepsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSteps");
@@ -1500,7 +1500,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListTargetComponents.cs.html">here</a> to see an example of how to use ListTargetComponents API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListTargetComponents.cs.html">here</a> to see an example of how to use ListTargetComponents API.</example>
         public async Task<ListTargetComponentsResponse> ListTargetComponents(ListTargetComponentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTargetComponents");
@@ -1557,7 +1557,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListTargetProperties.cs.html">here</a> to see an example of how to use ListTargetProperties API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListTargetProperties.cs.html">here</a> to see an example of how to use ListTargetProperties API.</example>
         public async Task<ListTargetPropertiesResponse> ListTargetProperties(ListTargetPropertiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTargetProperties");
@@ -1614,7 +1614,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ManageJobExecution.cs.html">here</a> to see an example of how to use ManageJobExecution API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ManageJobExecution.cs.html">here</a> to see an example of how to use ManageJobExecution API.</example>
         public async Task<ManageJobExecutionResponse> ManageJobExecution(ManageJobExecutionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called manageJobExecution");
@@ -1671,7 +1671,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/Report.cs.html">here</a> to see an example of how to use Report API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/Report.cs.html">here</a> to see an example of how to use Report API.</example>
         public async Task<ReportResponse> Report(ReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called report");
@@ -1728,7 +1728,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/SummarizeComplianceRecordCounts.cs.html">here</a> to see an example of how to use SummarizeComplianceRecordCounts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/SummarizeComplianceRecordCounts.cs.html">here</a> to see an example of how to use SummarizeComplianceRecordCounts API.</example>
         public async Task<SummarizeComplianceRecordCountsResponse> SummarizeComplianceRecordCounts(SummarizeComplianceRecordCountsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeComplianceRecordCounts");
@@ -1785,7 +1785,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/SummarizeManagedEntityCounts.cs.html">here</a> to see an example of how to use SummarizeManagedEntityCounts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/SummarizeManagedEntityCounts.cs.html">here</a> to see an example of how to use SummarizeManagedEntityCounts API.</example>
         public async Task<SummarizeManagedEntityCountsResponse> SummarizeManagedEntityCounts(SummarizeManagedEntityCountsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeManagedEntityCounts");
@@ -1842,7 +1842,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/SummarizeSchedulerJobCounts.cs.html">here</a> to see an example of how to use SummarizeSchedulerJobCounts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/SummarizeSchedulerJobCounts.cs.html">here</a> to see an example of how to use SummarizeSchedulerJobCounts API.</example>
         public async Task<SummarizeSchedulerJobCountsResponse> SummarizeSchedulerJobCounts(SummarizeSchedulerJobCountsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeSchedulerJobCounts");
@@ -1898,7 +1898,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/UpdatePatch.cs.html">here</a> to see an example of how to use UpdatePatch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/UpdatePatch.cs.html">here</a> to see an example of how to use UpdatePatch API.</example>
         public async Task<UpdatePatchResponse> UpdatePatch(UpdatePatchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePatch");
@@ -1954,7 +1954,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/UpdateSchedulerDefinition.cs.html">here</a> to see an example of how to use UpdateSchedulerDefinition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/UpdateSchedulerDefinition.cs.html">here</a> to see an example of how to use UpdateSchedulerDefinition API.</example>
         public async Task<UpdateSchedulerDefinitionResponse> UpdateSchedulerDefinition(UpdateSchedulerDefinitionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSchedulerDefinition");
@@ -2010,7 +2010,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/UpdateSchedulerJob.cs.html">here</a> to see an example of how to use UpdateSchedulerJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/UpdateSchedulerJob.cs.html">here</a> to see an example of how to use UpdateSchedulerJob API.</example>
         public async Task<UpdateSchedulerJobResponse> UpdateSchedulerJob(UpdateSchedulerJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSchedulerJob");

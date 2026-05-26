@@ -14,13 +14,13 @@ using Oci.ComputeinstanceagentService.Models;
 namespace Oci.ComputeinstanceagentService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computeinstanceagent/GetInstanceAgentPlugin.cs.html">here</a> to see an example of how to use GetInstanceAgentPlugin request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computeinstanceagent/GetInstanceAgentPlugin.cs.html">here</a> to see an example of how to use GetInstanceAgentPlugin request.
     /// </example>
     public class GetInstanceAgentPluginRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the instance.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the instance.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.ComputeinstanceagentService.Requests
         public string InstanceagentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
         /// </value>
         /// <remarks>
         /// Required

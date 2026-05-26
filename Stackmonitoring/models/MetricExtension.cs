@@ -22,7 +22,7 @@ namespace Oci.StackmonitoringService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of Metric Extension resource
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of Metric Extension resource
         /// </value>
         /// <remarks>
         /// Required
@@ -68,7 +68,7 @@ namespace Oci.StackmonitoringService.Models
         public string ResourceType { get; set; }
         
         /// <value>
-        /// Compartment Identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)
+        /// Compartment Identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)
         /// </value>
         /// <remarks>
         /// Required
@@ -78,7 +78,7 @@ namespace Oci.StackmonitoringService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// Tenant Identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)
+        /// Tenant Identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)
         /// </value>
         /// <remarks>
         /// Required

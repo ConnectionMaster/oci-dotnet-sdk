@@ -23,7 +23,7 @@ namespace Oci.AdmService.Models
     {
         
         /// <value>
-        /// The Oracle Cloud Identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the subnet.
+        /// The Oracle Cloud Identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the subnet.
         /// </value>
         /// <remarks>
         /// Required
@@ -33,7 +33,7 @@ namespace Oci.AdmService.Models
         public string SubnetId { get; set; }
         
         /// <value>
-        /// The list of Oracle Cloud Identifiers ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) corresponding to Network Security Groups.
+        /// The list of Oracle Cloud Identifiers ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) corresponding to Network Security Groups.
         /// </value>
         [JsonProperty(PropertyName = "nsgIds")]
         public System.Collections.Generic.List<string> NsgIds { get; set; }

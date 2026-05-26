@@ -77,7 +77,7 @@ namespace Oci.CoreService.Models
         /// VNIC and the boot volume.
         /// <br/>
         /// The image must have paravirtualized drivers installed. For more information, see
-        /// [Editing an Instance](https://docs.cloud.oracle.com/iaas/Content/Compute/Tasks/resizinginstances.htm).
+        /// [Editing an Instance](https://docs.oracle.com/iaas/Content/Compute/Tasks/resizinginstances.htm).
         /// <br/>
         /// If the instance is running when you change the network type, it will be rebooted.
         /// <br/>
@@ -107,7 +107,7 @@ namespace Oci.CoreService.Models
         /// VNIC and the boot volume.
         /// <br/>
         /// The image must have paravirtualized drivers installed. For more information, see
-        /// [Editing an Instance](https://docs.cloud.oracle.com/iaas/Content/Compute/Tasks/resizinginstances.htm).
+        /// [Editing an Instance](https://docs.oracle.com/iaas/Content/Compute/Tasks/resizinginstances.htm).
         /// <br/>
         /// If the instance is running when you change the network type, it will be rebooted.
         /// <br/>
@@ -131,7 +131,7 @@ namespace Oci.CoreService.Models
         /// <br/>
         /// All boot volumes and block volumes are encrypted at rest.
         /// <br/>
-        /// For more information, see [Block Volume Encryption](https://docs.cloud.oracle.com/iaas/Content/Block/Concepts/overview.htm#Encrypti).
+        /// For more information, see [Block Volume Encryption](https://docs.oracle.com/iaas/Content/Block/Concepts/overview.htm#Encrypti).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isPvEncryptionInTransitEnabled")]

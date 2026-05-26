@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListPluggableDatabaseSnapshots.cs.html">here</a> to see an example of how to use ListPluggableDatabaseSnapshots request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListPluggableDatabaseSnapshots.cs.html">here</a> to see an example of how to use ListPluggableDatabaseSnapshots request.
     /// </example>
     public class ListPluggableDatabaseSnapshotsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The compartment [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "compartmentId")]
         public string CompartmentId { get; set; }
@@ -94,7 +94,7 @@ namespace Oci.DatabaseService.Requests
         public string ClusterId { get; set; }
         
         /// <value>
-        /// A filter to return only Exadata Pluggable Database Snapshots that match the given database [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// A filter to return only Exadata Pluggable Database Snapshots that match the given database [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "pluggableDatabaseId")]
         public string PluggableDatabaseId { get; set; }

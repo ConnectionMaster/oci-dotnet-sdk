@@ -24,7 +24,7 @@ namespace Oci.VnmonitoringService.Models
     /// 2. Reserved
     /// <br/>
     /// For more information and comparison of the two types,
-    /// see [Public IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
+    /// see [Public IP Addresses](https://docs.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
     /// 
     /// </summary>
     public class PublicIp 
@@ -41,7 +41,7 @@ namespace Oci.VnmonitoringService.Models
         public string AvailabilityDomain { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the public IP. For an ephemeral public IP, this is
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the public IP. For an ephemeral public IP, this is
         /// the same compartment as the private IP's. For a reserved public IP that is currently assigned,
         /// this can be a different compartment than the assigned private IP's.
         /// 
@@ -72,7 +72,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
         
         /// <value>
-        /// The public IP's Oracle ID ([OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
+        /// The public IP's Oracle ID ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
         /// </value>
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
@@ -127,7 +127,7 @@ namespace Oci.VnmonitoringService.Models
         /// whenever you like. It does not need to be assigned to a private IP at all times.
         /// <br/>
         /// For more information and comparison of the two types,
-        /// see [Public IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
+        /// see [Public IP Addresses](https://docs.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
         /// 
         /// </value>
         ///
@@ -150,7 +150,7 @@ namespace Oci.VnmonitoringService.Models
         /// whenever you like. It does not need to be assigned to a private IP at all times.
         /// <br/>
         /// For more information and comparison of the two types,
-        /// see [Public IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
+        /// see [Public IP Addresses](https://docs.oracle.com/iaas/Content/Network/Tasks/managingpublicIPs.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "lifetime")]
@@ -158,7 +158,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Nullable<LifetimeEnum> Lifetime { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private IP that the public IP is currently assigned to, or in the
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private IP that the public IP is currently assigned to, or in the
         /// process of being assigned to.
         /// 
         /// </value>

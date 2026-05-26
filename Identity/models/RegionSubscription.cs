@@ -17,18 +17,18 @@ namespace Oci.IdentityService.Models
 {
     /// <summary>
     /// An object that represents your tenancy's access to a particular region (i.e., a subscription), the status of that
-    /// access, and whether that region is the home region. For more information, see [Managing Regions](https://docs.cloud.oracle.com/Content/Identity/regions/managingregions.htm).
+    /// access, and whether that region is the home region. For more information, see [Managing Regions](https://docs.oracle.com/iaas/Content/Identity/regions/managingregions.htm).
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,
     /// talk to an administrator. If you're an administrator who needs to write policies to give users access,
-    /// see [Get Started with Policies](https://docs.cloud.oracle.com/Content/Identity/policiesgs/get-started-with-policies.htm).
+    /// see [Get Started with Policies](https://docs.oracle.com/iaas/Content/Identity/policiesgs/get-started-with-policies.htm).
     /// 
     /// </summary>
     public class RegionSubscription 
     {
         
         /// <value>
-        /// The region's key. See [Regions and Availability Domains](https://docs.cloud.oracle.com/Content/General/Concepts/regions.htm)
+        /// The region's key. See [Regions and Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm)
         /// for the full list of supported 3-letter region codes.
         /// <br/>
         /// Example: PHX
@@ -41,7 +41,7 @@ namespace Oci.IdentityService.Models
         public string RegionKey { get; set; }
         
         /// <value>
-        /// The region's name. See [Regions and Availability Domains](https://docs.cloud.oracle.com/Content/General/Concepts/regions.htm)
+        /// The region's name. See [Regions and Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm)
         /// for the full list of supported region names.
         /// <br/>
         /// Example: us-phoenix-1

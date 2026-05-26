@@ -14,7 +14,7 @@ using Oci.DisasterrecoveryService.Models;
 namespace Oci.DisasterrecoveryService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/UpdateDrProtectionGroup.cs.html">here</a> to see an example of how to use UpdateDrProtectionGroup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/UpdateDrProtectionGroup.cs.html">here</a> to see an example of how to use UpdateDrProtectionGroup request.
     /// </example>
     public class UpdateDrProtectionGroupRequest : Oci.Common.IOciRequest
     {

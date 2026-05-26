@@ -14,7 +14,7 @@ using Oci.CloudguardService.Models;
 namespace Oci.CloudguardService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudguard/ListResourcePorts.cs.html">here</a> to see an example of how to use ListResourcePorts request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudguard/ListResourcePorts.cs.html">here</a> to see an example of how to use ListResourcePorts request.
     /// </example>
     public class ListResourcePortsRequest : Oci.Common.IOciRequest
     {

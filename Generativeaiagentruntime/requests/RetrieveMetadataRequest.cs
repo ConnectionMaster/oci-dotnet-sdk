@@ -14,7 +14,7 @@ using Oci.GenerativeaiagentruntimeService.Models;
 namespace Oci.GenerativeaiagentruntimeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagentruntime/RetrieveMetadata.cs.html">here</a> to see an example of how to use RetrieveMetadata request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagentruntime/RetrieveMetadata.cs.html">here</a> to see an example of how to use RetrieveMetadata request.
     /// </example>
     public class RetrieveMetadataRequest : Oci.Common.IOciRequest
     {

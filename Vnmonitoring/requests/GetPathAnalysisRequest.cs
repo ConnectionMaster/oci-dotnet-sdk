@@ -14,7 +14,7 @@ using Oci.VnmonitoringService.Models;
 namespace Oci.VnmonitoringService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/GetPathAnalysis.cs.html">here</a> to see an example of how to use GetPathAnalysis request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/GetPathAnalysis.cs.html">here</a> to see an example of how to use GetPathAnalysis request.
     /// </example>
     public class GetPathAnalysisRequest : Oci.Common.IOciRequest
     {

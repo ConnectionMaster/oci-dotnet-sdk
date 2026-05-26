@@ -14,13 +14,13 @@ using Oci.EmailService.Models;
 namespace Oci.EmailService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/AddEmailDomainLock.cs.html">here</a> to see an example of how to use AddEmailDomainLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/AddEmailDomainLock.cs.html">here</a> to see an example of how to use AddEmailDomainLock request.
     /// </example>
     public class AddEmailDomainLockRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of this email domain.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of this email domain.
         /// </value>
         /// <remarks>
         /// Required

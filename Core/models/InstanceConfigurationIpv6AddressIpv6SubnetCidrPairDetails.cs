@@ -37,7 +37,7 @@ namespace Oci.CoreService.Models
         public string Ipv6Address { get; set; }
         
         /// <value>
-        /// An [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that specifies a previously-reserved ipv6 to use.
+        /// An [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) that specifies a previously-reserved ipv6 to use.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "ipv6Id")]

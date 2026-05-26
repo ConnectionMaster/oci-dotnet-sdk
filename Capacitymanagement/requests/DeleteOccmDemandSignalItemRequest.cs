@@ -14,7 +14,7 @@ using Oci.CapacitymanagementService.Models;
 namespace Oci.CapacitymanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/DeleteOccmDemandSignalItem.cs.html">here</a> to see an example of how to use DeleteOccmDemandSignalItem request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/DeleteOccmDemandSignalItem.cs.html">here</a> to see an example of how to use DeleteOccmDemandSignalItem request.
     /// </example>
     public class DeleteOccmDemandSignalItemRequest : Oci.Common.IOciRequest
     {

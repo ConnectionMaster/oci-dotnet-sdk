@@ -40,7 +40,7 @@ namespace Oci.AdmService.Models
         public NetworkConfiguration NetworkConfiguration { get; set; }
         
         /// <value>
-        /// The Oracle Cloud Identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the knowledge base.
+        /// The Oracle Cloud Identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the knowledge base.
         /// </value>
         [JsonProperty(PropertyName = "knowledgeBaseId")]
         public string KnowledgeBaseId { get; set; }

@@ -22,13 +22,13 @@ namespace Oci.WaasService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the custom protection rule.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the custom protection rule.
         /// </value>
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the custom protection rule's compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the custom protection rule's compartment.
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }
@@ -60,7 +60,7 @@ namespace Oci.WaasService.Models
         /// <br/>
         /// `ctl:ruleEngine={{mode}}` - The action to be taken when the criteria of the `SecRule` are met, either `OFF`, `DETECT` or `BLOCK`. This field is automatically populated with the corresponding value of the `action` field of the `CustomProtectionRuleSetting` schema when the `WafConfig` is updated.
         /// <br/>
-        /// *Example: *    SecRule REQUEST_COOKIES &quot;regex matching SQL injection - part 1/2&quot; \\          &quot;phase:2,                                                 \\          msg:'Detects chained SQL injection attempts 1/2.',        \\          id: {{id_1}},                                             \\          ctl:ruleEngine={{mode}},                                  \\          deny&quot;  SecRule REQUEST_COOKIES &quot;regex matching SQL injection - part 2/2&quot; \\          &quot;phase:2,                                                 \\          msg:'Detects chained SQL injection attempts 2/2.',        \\          id: {{id_2}},                                             \\          ctl:ruleEngine={{mode}},                                  \\          deny&quot;  The example contains two SecRules each having distinct regex expression to match the Cookie header value during the second input analysis phase.For more information about custom protection rules, see [Custom Protection Rules](https://docs.cloud.oracle.com/Content/WAF/Tasks/customprotectionrules.htm).For more information about ModSecurity syntax, see [Making Rules: The Basic Syntax](https://www.modsecurity.org/CRS/Documentation/making.html).For more information about ModSecurity's open source WAF rules, see [Mod Security's OWASP Core Rule Set documentation](https://www.modsecurity.org/CRS/Documentation/index.html).
+        /// *Example: *    SecRule REQUEST_COOKIES &quot;regex matching SQL injection - part 1/2&quot; \\          &quot;phase:2,                                                 \\          msg:'Detects chained SQL injection attempts 1/2.',        \\          id: {{id_1}},                                             \\          ctl:ruleEngine={{mode}},                                  \\          deny&quot;  SecRule REQUEST_COOKIES &quot;regex matching SQL injection - part 2/2&quot; \\          &quot;phase:2,                                                 \\          msg:'Detects chained SQL injection attempts 2/2.',        \\          id: {{id_2}},                                             \\          ctl:ruleEngine={{mode}},                                  \\          deny&quot;  The example contains two SecRules each having distinct regex expression to match the Cookie header value during the second input analysis phase.For more information about custom protection rules, see [Custom Protection Rules](https://docs.oracle.com/iaas/Content/WAF/Tasks/customprotectionrules.htm).For more information about ModSecurity syntax, see [Making Rules: The Basic Syntax](https://www.modsecurity.org/CRS/Documentation/making.html).For more information about ModSecurity's open source WAF rules, see [Mod Security's OWASP Core Rule Set documentation](https://www.modsecurity.org/CRS/Documentation/index.html).
         /// </value>
         [JsonProperty(PropertyName = "template")]
         public string Template { get; set; }
@@ -80,7 +80,7 @@ namespace Oci.WaasService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -89,7 +89,7 @@ namespace Oci.WaasService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>

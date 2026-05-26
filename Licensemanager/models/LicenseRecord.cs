@@ -22,7 +22,7 @@ namespace Oci.LicensemanagerService.Models
     {
         
         /// <value>
-        /// The license record [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// The license record [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required
@@ -32,13 +32,13 @@ namespace Oci.LicensemanagerService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The product license [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) with which the license record is associated.
+        /// The product license [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) with which the license record is associated.
         /// </value>
         [JsonProperty(PropertyName = "productLicenseId")]
         public string ProductLicenseId { get; set; }
         
         /// <value>
-        /// The compartment [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) where the license record is created.
+        /// The compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) where the license record is created.
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }

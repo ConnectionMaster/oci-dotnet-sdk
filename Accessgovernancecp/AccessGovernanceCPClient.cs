@@ -80,7 +80,7 @@ namespace Oci.AccessgovernancecpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/ChangeGovernanceInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeGovernanceInstanceCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/ChangeGovernanceInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeGovernanceInstanceCompartment API.</example>
         public async Task<ChangeGovernanceInstanceCompartmentResponse> ChangeGovernanceInstanceCompartment(ChangeGovernanceInstanceCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeGovernanceInstanceCompartment");
@@ -137,7 +137,7 @@ namespace Oci.AccessgovernancecpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/CreateGovernanceInstance.cs.html">here</a> to see an example of how to use CreateGovernanceInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/CreateGovernanceInstance.cs.html">here</a> to see an example of how to use CreateGovernanceInstance API.</example>
         public async Task<CreateGovernanceInstanceResponse> CreateGovernanceInstance(CreateGovernanceInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createGovernanceInstance");
@@ -194,7 +194,7 @@ namespace Oci.AccessgovernancecpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/DeleteGovernanceInstance.cs.html">here</a> to see an example of how to use DeleteGovernanceInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/DeleteGovernanceInstance.cs.html">here</a> to see an example of how to use DeleteGovernanceInstance API.</example>
         public async Task<DeleteGovernanceInstanceResponse> DeleteGovernanceInstance(DeleteGovernanceInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteGovernanceInstance");
@@ -250,7 +250,7 @@ namespace Oci.AccessgovernancecpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/GetGovernanceInstance.cs.html">here</a> to see an example of how to use GetGovernanceInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/GetGovernanceInstance.cs.html">here</a> to see an example of how to use GetGovernanceInstance API.</example>
         public async Task<GetGovernanceInstanceResponse> GetGovernanceInstance(GetGovernanceInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getGovernanceInstance");
@@ -306,7 +306,7 @@ namespace Oci.AccessgovernancecpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/GetGovernanceInstanceConfiguration.cs.html">here</a> to see an example of how to use GetGovernanceInstanceConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/GetGovernanceInstanceConfiguration.cs.html">here</a> to see an example of how to use GetGovernanceInstanceConfiguration API.</example>
         public async Task<GetGovernanceInstanceConfigurationResponse> GetGovernanceInstanceConfiguration(GetGovernanceInstanceConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getGovernanceInstanceConfiguration");
@@ -363,7 +363,7 @@ namespace Oci.AccessgovernancecpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/ListGovernanceInstances.cs.html">here</a> to see an example of how to use ListGovernanceInstances API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/ListGovernanceInstances.cs.html">here</a> to see an example of how to use ListGovernanceInstances API.</example>
         public async Task<ListGovernanceInstancesResponse> ListGovernanceInstances(ListGovernanceInstancesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listGovernanceInstances");
@@ -419,7 +419,7 @@ namespace Oci.AccessgovernancecpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/UpdateGovernanceInstance.cs.html">here</a> to see an example of how to use UpdateGovernanceInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/UpdateGovernanceInstance.cs.html">here</a> to see an example of how to use UpdateGovernanceInstance API.</example>
         public async Task<UpdateGovernanceInstanceResponse> UpdateGovernanceInstance(UpdateGovernanceInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateGovernanceInstance");
@@ -475,7 +475,7 @@ namespace Oci.AccessgovernancecpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/UpdateGovernanceInstanceConfiguration.cs.html">here</a> to see an example of how to use UpdateGovernanceInstanceConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/UpdateGovernanceInstanceConfiguration.cs.html">here</a> to see an example of how to use UpdateGovernanceInstanceConfiguration API.</example>
         public async Task<UpdateGovernanceInstanceConfigurationResponse> UpdateGovernanceInstanceConfiguration(UpdateGovernanceInstanceConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateGovernanceInstanceConfiguration");

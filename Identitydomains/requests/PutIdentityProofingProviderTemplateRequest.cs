@@ -14,7 +14,7 @@ using Oci.IdentitydomainsService.Models;
 namespace Oci.IdentitydomainsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutIdentityProofingProviderTemplate.cs.html">here</a> to see an example of how to use PutIdentityProofingProviderTemplate request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/PutIdentityProofingProviderTemplate.cs.html">here</a> to see an example of how to use PutIdentityProofingProviderTemplate request.
     /// </example>
     public class PutIdentityProofingProviderTemplateRequest : Oci.Common.IOciRequest
     {

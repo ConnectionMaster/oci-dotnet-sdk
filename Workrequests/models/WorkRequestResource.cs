@@ -69,7 +69,7 @@ namespace Oci.WorkrequestsService.Models
         public string EntityType { get; set; }
         
         /// <value>
-        /// An [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) or other unique identifier for the
+        /// An [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) or other unique identifier for the
         /// resource.
         /// 
         /// </value>

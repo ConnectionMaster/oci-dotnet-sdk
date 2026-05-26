@@ -32,7 +32,7 @@ namespace Oci.ContainerengineService.Models
         public string ImageId { get; set; }
         
         /// <value>
-        /// The size of the boot volume in GBs. Minimum value is 50 GB. See [here](https://docs.cloud.oracle.com/en-us/iaas/Content/Block/Concepts/bootvolumes.htm) for max custom boot volume sizing and OS-specific requirements.
+        /// The size of the boot volume in GBs. Minimum value is 50 GB. See [here](https://docs.oracle.com/en-us/iaas/Content/Block/Concepts/bootvolumes.htm) for max custom boot volume sizing and OS-specific requirements.
         /// </value>
         [JsonProperty(PropertyName = "bootVolumeSizeInGBs")]
         public System.Nullable<long> BootVolumeSizeInGBs { get; set; }

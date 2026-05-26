@@ -14,7 +14,7 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ChangeExascaleDbStorageVaultCompartment.cs.html">here</a> to see an example of how to use ChangeExascaleDbStorageVaultCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ChangeExascaleDbStorageVaultCompartment.cs.html">here</a> to see an example of how to use ChangeExascaleDbStorageVaultCompartment request.
     /// </example>
     public class ChangeExascaleDbStorageVaultCompartmentRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.DatabaseService.Requests
         public ChangeExascaleDbStorageVaultCompartmentDetails ChangeExascaleDbStorageVaultCompartmentDetails { get; set; }
         
         /// <value>
-        /// The Exadata Database Storage Vault [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The Exadata Database Storage Vault [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

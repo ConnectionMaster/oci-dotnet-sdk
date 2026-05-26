@@ -14,7 +14,7 @@ using Oci.ApiaccesscontrolService.Models;
 namespace Oci.ApiaccesscontrolService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/RevokePrivilegedApiRequest.cs.html">here</a> to see an example of how to use RevokePrivilegedApiRequest request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/RevokePrivilegedApiRequest.cs.html">here</a> to see an example of how to use RevokePrivilegedApiRequest request.
     /// </example>
     public class RevokePrivilegedApiRequestRequest : Oci.Common.IOciRequest
     {

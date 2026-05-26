@@ -87,7 +87,7 @@ namespace Oci.GoldengateService.Models
         public string Password { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the password is stored, 
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the password is stored, 
         /// that Oracle GoldenGate uses to connect the associated DB2 database.
         /// Note: When provided, 'password' field must not be provided.
         /// 
@@ -125,7 +125,7 @@ namespace Oci.GoldengateService.Models
         public string SslClientKeystoredb { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the keystore file stored, 
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the keystore file stored, 
         /// which created at the client containing the server certificate / CA root certificate.
         /// This property is not supported for IBM Db2 for i, as client TLS mode is not available.
         /// <br/>
@@ -146,7 +146,7 @@ namespace Oci.GoldengateService.Models
         public string SslClientKeystash { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the keystash file is stored, 
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the keystash file is stored, 
         /// which contains the encrypted password to the key database file.
         /// This property is not supported for IBM Db2 for i, as client TLS mode is not available.
         /// <br/>

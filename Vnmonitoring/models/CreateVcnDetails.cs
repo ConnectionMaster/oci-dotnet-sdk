@@ -31,7 +31,7 @@ namespace Oci.VnmonitoringService.Models
         public string CidrBlock { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to contain the VCN.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to contain the VCN.
         /// </value>
         /// <remarks>
         /// Required
@@ -42,7 +42,7 @@ namespace Oci.VnmonitoringService.Models
         
         /// <value>
         /// If you enable IPv6 for the VCN (see `isIpv6Enabled`), you may optionally provide an IPv6
-        /// /56 prefix from the supported ranges (see [IPv6 Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
+        /// /56 prefix from the supported ranges (see [IPv6 Addresses](https://docs.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
         /// The addresses in this block will be considered private and cannot be accessed
         /// from the internet. The documentation refers to this as a *custom CIDR* for the VCN.
         /// <br/>
@@ -58,7 +58,7 @@ namespace Oci.VnmonitoringService.Models
         /// an IPv6 address can be used for internet communication by using the `isInternetAccessAllowed`
         /// attribute in the {@link Ipv6} object.
         /// <br/>
-        /// For important details about IPv6 addressing in a VCN, see [IPv6 Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
+        /// For important details about IPv6 addressing in a VCN, see [IPv6 Addresses](https://docs.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
         /// <br/>
         /// Example: 2001:0db8:0123::/48
         /// </value>
@@ -93,7 +93,7 @@ namespace Oci.VnmonitoringService.Models
         /// will not work.
         /// <br/>
         /// For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// <br/>
         /// Example: vcn1
         /// </value>
@@ -110,7 +110,7 @@ namespace Oci.VnmonitoringService.Models
         /// <value>
         /// Whether IPv6 is enabled for the VCN. Default is `false`.
         /// If enabled, Oracle will assign the VCN a IPv6 /56 CIDR block.
-        /// For important details about IPv6 addressing in a VCN, see [IPv6 Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
+        /// For important details about IPv6 addressing in a VCN, see [IPv6 Addresses](https://docs.oracle.com/iaas/Content/Network/Concepts/ipv6.htm).
         /// <br/>
         /// Example: true
         /// </value>

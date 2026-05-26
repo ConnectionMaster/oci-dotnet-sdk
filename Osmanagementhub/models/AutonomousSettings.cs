@@ -28,7 +28,7 @@ namespace Oci.OsmanagementhubService.Models
         public System.Nullable<bool> IsDataCollectionAuthorized { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the restricted scheduled job associated with this instance. This value cannot be deleted by the user.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the restricted scheduled job associated with this instance. This value cannot be deleted by the user.
         /// </value>
         [JsonProperty(PropertyName = "scheduledJobId")]
         public string ScheduledJobId { get; set; }

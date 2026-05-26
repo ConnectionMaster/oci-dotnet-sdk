@@ -23,7 +23,7 @@ namespace Oci.SchService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the log source.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the log source.
         /// 
         /// </value>
         /// <remarks>
@@ -34,7 +34,7 @@ namespace Oci.SchService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// Identifier of the log group. Either `_Audit` or the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the log group.
+        /// Identifier of the log group. Either `_Audit` or the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the log group.
         /// Note: For the Notifications target, only `_Audit` is allowed.
         /// 
         /// </value>
@@ -42,7 +42,7 @@ namespace Oci.SchService.Models
         public string LogGroupId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the log.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the log.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "logId")]

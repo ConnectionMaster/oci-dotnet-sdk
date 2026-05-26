@@ -14,7 +14,7 @@ using Oci.CloudbridgeService.Models;
 namespace Oci.CloudbridgeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/UpdateDiscoverySchedule.cs.html">here</a> to see an example of how to use UpdateDiscoverySchedule request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/UpdateDiscoverySchedule.cs.html">here</a> to see an example of how to use UpdateDiscoverySchedule request.
     /// </example>
     public class UpdateDiscoveryScheduleRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.CloudbridgeService.Requests
         public UpdateDiscoveryScheduleDetails UpdateDiscoveryScheduleDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the discovery schedule.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the discovery schedule.
         /// </value>
         /// <remarks>
         /// Required

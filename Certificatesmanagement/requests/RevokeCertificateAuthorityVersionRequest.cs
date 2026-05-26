@@ -14,7 +14,7 @@ using Oci.CertificatesmanagementService.Models;
 namespace Oci.CertificatesmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/RevokeCertificateAuthorityVersion.cs.html">here</a> to see an example of how to use RevokeCertificateAuthorityVersion request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/RevokeCertificateAuthorityVersion.cs.html">here</a> to see an example of how to use RevokeCertificateAuthorityVersion request.
     /// </example>
     public class RevokeCertificateAuthorityVersionRequest : Oci.Common.IOciRequest
     {

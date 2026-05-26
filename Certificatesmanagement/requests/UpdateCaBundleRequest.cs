@@ -14,7 +14,7 @@ using Oci.CertificatesmanagementService.Models;
 namespace Oci.CertificatesmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/UpdateCaBundle.cs.html">here</a> to see an example of how to use UpdateCaBundle request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/certificatesmanagement/UpdateCaBundle.cs.html">here</a> to see an example of how to use UpdateCaBundle request.
     /// </example>
     public class UpdateCaBundleRequest : Oci.Common.IOciRequest
     {

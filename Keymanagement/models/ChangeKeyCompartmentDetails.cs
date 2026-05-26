@@ -22,7 +22,7 @@ namespace Oci.KeymanagementService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment that you want to move the key to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that you want to move the key to.
         /// </value>
         /// <remarks>
         /// Required

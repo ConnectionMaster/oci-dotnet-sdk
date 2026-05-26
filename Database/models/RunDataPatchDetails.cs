@@ -23,7 +23,7 @@ namespace Oci.DatabaseService.Models
     {
         
         /// <value>
-        /// List of Pluggable Database [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) to run datapatch on. The datapatch would run on the database first and then the given pluggable databases.
+        /// List of Pluggable Database [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) to run datapatch on. The datapatch would run on the database first and then the given pluggable databases.
         /// </value>
         [JsonProperty(PropertyName = "pluggableDatabases")]
         public System.Collections.Generic.List<string> PluggableDatabases { get; set; }

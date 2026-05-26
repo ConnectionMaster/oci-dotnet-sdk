@@ -80,7 +80,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/CancelTranscriptionJob.cs.html">here</a> to see an example of how to use CancelTranscriptionJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/CancelTranscriptionJob.cs.html">here</a> to see an example of how to use CancelTranscriptionJob API.</example>
         public async Task<CancelTranscriptionJobResponse> CancelTranscriptionJob(CancelTranscriptionJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelTranscriptionJob");
@@ -136,7 +136,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/CancelTranscriptionTask.cs.html">here</a> to see an example of how to use CancelTranscriptionTask API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/CancelTranscriptionTask.cs.html">here</a> to see an example of how to use CancelTranscriptionTask API.</example>
         public async Task<CancelTranscriptionTaskResponse> CancelTranscriptionTask(CancelTranscriptionTaskRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelTranscriptionTask");
@@ -192,7 +192,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ChangeCustomizationCompartment.cs.html">here</a> to see an example of how to use ChangeCustomizationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ChangeCustomizationCompartment.cs.html">here</a> to see an example of how to use ChangeCustomizationCompartment API.</example>
         public async Task<ChangeCustomizationCompartmentResponse> ChangeCustomizationCompartment(ChangeCustomizationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeCustomizationCompartment");
@@ -248,7 +248,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ChangeTranscriptionJobCompartment.cs.html">here</a> to see an example of how to use ChangeTranscriptionJobCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ChangeTranscriptionJobCompartment.cs.html">here</a> to see an example of how to use ChangeTranscriptionJobCompartment API.</example>
         public async Task<ChangeTranscriptionJobCompartmentResponse> ChangeTranscriptionJobCompartment(ChangeTranscriptionJobCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeTranscriptionJobCompartment");
@@ -305,7 +305,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/CreateCustomization.cs.html">here</a> to see an example of how to use CreateCustomization API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/CreateCustomization.cs.html">here</a> to see an example of how to use CreateCustomization API.</example>
         public async Task<CreateCustomizationResponse> CreateCustomization(CreateCustomizationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCustomization");
@@ -362,7 +362,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/CreateRealtimeSessionToken.cs.html">here</a> to see an example of how to use CreateRealtimeSessionToken API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/CreateRealtimeSessionToken.cs.html">here</a> to see an example of how to use CreateRealtimeSessionToken API.</example>
         public async Task<CreateRealtimeSessionTokenResponse> CreateRealtimeSessionToken(CreateRealtimeSessionTokenRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRealtimeSessionToken");
@@ -419,7 +419,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/CreateTranscriptionJob.cs.html">here</a> to see an example of how to use CreateTranscriptionJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/CreateTranscriptionJob.cs.html">here</a> to see an example of how to use CreateTranscriptionJob API.</example>
         public async Task<CreateTranscriptionJobResponse> CreateTranscriptionJob(CreateTranscriptionJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createTranscriptionJob");
@@ -475,7 +475,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/DeleteCustomization.cs.html">here</a> to see an example of how to use DeleteCustomization API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/DeleteCustomization.cs.html">here</a> to see an example of how to use DeleteCustomization API.</example>
         public async Task<DeleteCustomizationResponse> DeleteCustomization(DeleteCustomizationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCustomization");
@@ -531,7 +531,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/DeleteTranscriptionJob.cs.html">here</a> to see an example of how to use DeleteTranscriptionJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/DeleteTranscriptionJob.cs.html">here</a> to see an example of how to use DeleteTranscriptionJob API.</example>
         public async Task<DeleteTranscriptionJobResponse> DeleteTranscriptionJob(DeleteTranscriptionJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteTranscriptionJob");
@@ -587,7 +587,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/GetCustomization.cs.html">here</a> to see an example of how to use GetCustomization API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/GetCustomization.cs.html">here</a> to see an example of how to use GetCustomization API.</example>
         public async Task<GetCustomizationResponse> GetCustomization(GetCustomizationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCustomization");
@@ -643,7 +643,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/GetTranscriptionJob.cs.html">here</a> to see an example of how to use GetTranscriptionJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/GetTranscriptionJob.cs.html">here</a> to see an example of how to use GetTranscriptionJob API.</example>
         public async Task<GetTranscriptionJobResponse> GetTranscriptionJob(GetTranscriptionJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTranscriptionJob");
@@ -699,7 +699,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/GetTranscriptionTask.cs.html">here</a> to see an example of how to use GetTranscriptionTask API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/GetTranscriptionTask.cs.html">here</a> to see an example of how to use GetTranscriptionTask API.</example>
         public async Task<GetTranscriptionTaskResponse> GetTranscriptionTask(GetTranscriptionTaskRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTranscriptionTask");
@@ -756,7 +756,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ListCustomizations.cs.html">here</a> to see an example of how to use ListCustomizations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ListCustomizations.cs.html">here</a> to see an example of how to use ListCustomizations API.</example>
         public async Task<ListCustomizationsResponse> ListCustomizations(ListCustomizationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCustomizations");
@@ -813,7 +813,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ListTranscriptionJobs.cs.html">here</a> to see an example of how to use ListTranscriptionJobs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ListTranscriptionJobs.cs.html">here</a> to see an example of how to use ListTranscriptionJobs API.</example>
         public async Task<ListTranscriptionJobsResponse> ListTranscriptionJobs(ListTranscriptionJobsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTranscriptionJobs");
@@ -870,7 +870,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ListTranscriptionTasks.cs.html">here</a> to see an example of how to use ListTranscriptionTasks API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ListTranscriptionTasks.cs.html">here</a> to see an example of how to use ListTranscriptionTasks API.</example>
         public async Task<ListTranscriptionTasksResponse> ListTranscriptionTasks(ListTranscriptionTasksRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTranscriptionTasks");
@@ -927,7 +927,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ListVoices.cs.html">here</a> to see an example of how to use ListVoices API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/ListVoices.cs.html">here</a> to see an example of how to use ListVoices API.</example>
         public async Task<ListVoicesResponse> ListVoices(ListVoicesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVoices");
@@ -984,7 +984,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/SynthesizeSpeech.cs.html">here</a> to see an example of how to use SynthesizeSpeech API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/SynthesizeSpeech.cs.html">here</a> to see an example of how to use SynthesizeSpeech API.</example>
         public async Task<SynthesizeSpeechResponse> SynthesizeSpeech(SynthesizeSpeechRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called synthesizeSpeech");
@@ -1040,7 +1040,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/UpdateCustomization.cs.html">here</a> to see an example of how to use UpdateCustomization API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/UpdateCustomization.cs.html">here</a> to see an example of how to use UpdateCustomization API.</example>
         public async Task<UpdateCustomizationResponse> UpdateCustomization(UpdateCustomizationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCustomization");
@@ -1096,7 +1096,7 @@ namespace Oci.AispeechService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/UpdateTranscriptionJob.cs.html">here</a> to see an example of how to use UpdateTranscriptionJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/UpdateTranscriptionJob.cs.html">here</a> to see an example of how to use UpdateTranscriptionJob API.</example>
         public async Task<UpdateTranscriptionJobResponse> UpdateTranscriptionJob(UpdateTranscriptionJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateTranscriptionJob");

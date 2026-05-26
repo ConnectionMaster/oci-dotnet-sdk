@@ -14,13 +14,13 @@ using Oci.AutoscalingService.Models;
 namespace Oci.AutoscalingService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/ListAutoScalingConfigurations.cs.html">here</a> to see an example of how to use ListAutoScalingConfigurations request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/ListAutoScalingConfigurations.cs.html">here</a> to see an example of how to use ListAutoScalingConfigurations request.
     /// </example>
     public class ListAutoScalingConfigurationsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment containing the
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the
         /// resource. Use tenancyId to search in
         /// the root compartment.
         /// 
@@ -47,7 +47,7 @@ namespace Oci.AutoscalingService.Requests
         
         /// <value>
         /// For list pagination. The maximum number of items to return in a paginated \"List\" call. For important details
-        /// about how pagination works, see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// about how pagination works, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "limit")]
@@ -55,7 +55,7 @@ namespace Oci.AutoscalingService.Requests
         
         /// <value>
         /// For list pagination. The value of the `opc-next-page` response header from the previous \"List\" call. For important
-        /// details about how pagination works, see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// details about how pagination works, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]

@@ -28,13 +28,13 @@ namespace Oci.OpsiService.Models
         public string DatabaseResourceType { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Management Agent
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Management Agent
         /// </value>
         [JsonProperty(PropertyName = "managementAgentId")]
         public string ManagementAgentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of External Database Connector
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of External Database Connector
         /// </value>
         [JsonProperty(PropertyName = "connectorId")]
         public string ConnectorId { get; set; }

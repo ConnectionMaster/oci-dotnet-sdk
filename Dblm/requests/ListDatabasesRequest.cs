@@ -14,7 +14,7 @@ using Oci.DblmService.Models;
 namespace Oci.DblmService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dblm/ListDatabases.cs.html">here</a> to see an example of how to use ListDatabases request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dblm/ListDatabases.cs.html">here</a> to see an example of how to use ListDatabases request.
     /// </example>
     public class ListDatabasesRequest : Oci.Common.IOciRequest
     {

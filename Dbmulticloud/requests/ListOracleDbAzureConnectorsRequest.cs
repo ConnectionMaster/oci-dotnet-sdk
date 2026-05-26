@@ -14,13 +14,13 @@ using Oci.DbmulticloudService.Models;
 namespace Oci.DbmulticloudService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbAzureConnectors.cs.html">here</a> to see an example of how to use ListOracleDbAzureConnectors request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbAzureConnectors.cs.html">here</a> to see an example of how to use ListOracleDbAzureConnectors request.
     /// </example>
     public class ListOracleDbAzureConnectorsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [ID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
+        /// The [ID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
         /// </value>
         /// <remarks>
         /// Required
@@ -49,7 +49,7 @@ namespace Oci.DbmulticloudService.Requests
         public System.Nullable<OracleDbAzureConnector.LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
-        /// The [ID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Database resource.
+        /// The [ID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Database resource.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "dbClusterResourceId")]
         public string DbClusterResourceId { get; set; }

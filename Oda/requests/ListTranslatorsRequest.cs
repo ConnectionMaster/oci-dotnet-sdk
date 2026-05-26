@@ -14,7 +14,7 @@ using Oci.OdaService.Models;
 namespace Oci.OdaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListTranslators.cs.html">here</a> to see an example of how to use ListTranslators request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/ListTranslators.cs.html">here</a> to see an example of how to use ListTranslators request.
     /// </example>
     public class ListTranslatorsRequest : Oci.Common.IOciRequest
     {

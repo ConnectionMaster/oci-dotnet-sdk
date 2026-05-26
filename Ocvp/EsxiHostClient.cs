@@ -86,7 +86,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/CreateEsxiHost.cs.html">here</a> to see an example of how to use CreateEsxiHost API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/CreateEsxiHost.cs.html">here</a> to see an example of how to use CreateEsxiHost API.</example>
         public async Task<CreateEsxiHostResponse> CreateEsxiHost(CreateEsxiHostRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createEsxiHost");
@@ -156,7 +156,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DeleteEsxiHost.cs.html">here</a> to see an example of how to use DeleteEsxiHost API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DeleteEsxiHost.cs.html">here</a> to see an example of how to use DeleteEsxiHost API.</example>
         public async Task<DeleteEsxiHostResponse> DeleteEsxiHost(DeleteEsxiHostRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteEsxiHost");
@@ -212,7 +212,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/GetEsxiHost.cs.html">here</a> to see an example of how to use GetEsxiHost API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/GetEsxiHost.cs.html">here</a> to see an example of how to use GetEsxiHost API.</example>
         public async Task<GetEsxiHostResponse> GetEsxiHost(GetEsxiHostRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getEsxiHost");
@@ -269,7 +269,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/InplaceUpgrade.cs.html">here</a> to see an example of how to use InplaceUpgrade API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/InplaceUpgrade.cs.html">here</a> to see an example of how to use InplaceUpgrade API.</example>
         public async Task<InplaceUpgradeResponse> InplaceUpgrade(InplaceUpgradeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called inplaceUpgrade");
@@ -334,7 +334,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ListEsxiHosts.cs.html">here</a> to see an example of how to use ListEsxiHosts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ListEsxiHosts.cs.html">here</a> to see an example of how to use ListEsxiHosts API.</example>
         public async Task<ListEsxiHostsResponse> ListEsxiHosts(ListEsxiHostsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listEsxiHosts");
@@ -391,7 +391,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ReplaceHost.cs.html">here</a> to see an example of how to use ReplaceHost API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ReplaceHost.cs.html">here</a> to see an example of how to use ReplaceHost API.</example>
         public async Task<ReplaceHostResponse> ReplaceHost(ReplaceHostRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called replaceHost");
@@ -448,7 +448,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/SwapBilling.cs.html">here</a> to see an example of how to use SwapBilling API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/SwapBilling.cs.html">here</a> to see an example of how to use SwapBilling API.</example>
         public async Task<SwapBillingResponse> SwapBilling(SwapBillingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called swapBilling");
@@ -504,7 +504,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/UpdateEsxiHost.cs.html">here</a> to see an example of how to use UpdateEsxiHost API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/UpdateEsxiHost.cs.html">here</a> to see an example of how to use UpdateEsxiHost API.</example>
         public async Task<UpdateEsxiHostResponse> UpdateEsxiHost(UpdateEsxiHostRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateEsxiHost");

@@ -75,7 +75,7 @@ namespace Oci.GenerativeaiagentruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagentruntime/Chat.cs.html">here</a> to see an example of how to use Chat API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagentruntime/Chat.cs.html">here</a> to see an example of how to use Chat API.</example>
         public async Task<ChatResponse> Chat(ChatRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called chat");
@@ -134,7 +134,7 @@ namespace Oci.GenerativeaiagentruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagentruntime/CreateSession.cs.html">here</a> to see an example of how to use CreateSession API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagentruntime/CreateSession.cs.html">here</a> to see an example of how to use CreateSession API.</example>
         public async Task<CreateSessionResponse> CreateSession(CreateSessionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSession");
@@ -191,7 +191,7 @@ namespace Oci.GenerativeaiagentruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagentruntime/DeleteSession.cs.html">here</a> to see an example of how to use DeleteSession API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagentruntime/DeleteSession.cs.html">here</a> to see an example of how to use DeleteSession API.</example>
         public async Task<DeleteSessionResponse> DeleteSession(DeleteSessionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSession");
@@ -248,7 +248,7 @@ namespace Oci.GenerativeaiagentruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagentruntime/GetSession.cs.html">here</a> to see an example of how to use GetSession API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagentruntime/GetSession.cs.html">here</a> to see an example of how to use GetSession API.</example>
         public async Task<GetSessionResponse> GetSession(GetSessionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSession");
@@ -305,7 +305,7 @@ namespace Oci.GenerativeaiagentruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagentruntime/RetrieveMetadata.cs.html">here</a> to see an example of how to use RetrieveMetadata API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagentruntime/RetrieveMetadata.cs.html">here</a> to see an example of how to use RetrieveMetadata API.</example>
         public async Task<RetrieveMetadataResponse> RetrieveMetadata(RetrieveMetadataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called retrieveMetadata");
@@ -362,7 +362,7 @@ namespace Oci.GenerativeaiagentruntimeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagentruntime/UpdateSession.cs.html">here</a> to see an example of how to use UpdateSession API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagentruntime/UpdateSession.cs.html">here</a> to see an example of how to use UpdateSession API.</example>
         public async Task<UpdateSessionResponse> UpdateSession(UpdateSessionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSession");

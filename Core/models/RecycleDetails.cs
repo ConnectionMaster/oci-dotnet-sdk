@@ -50,7 +50,7 @@ namespace Oci.CoreService.Models
         public System.Nullable<RecycleLevelEnum> RecycleLevel { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compute host group this host was attached to at the time of recycle. 
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compute host group this host was attached to at the time of recycle. 
         /// 
         /// </value>
         [JsonProperty(PropertyName = "computeHostGroupId")]

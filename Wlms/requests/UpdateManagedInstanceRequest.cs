@@ -14,13 +14,13 @@ using Oci.WlmsService.Models;
 namespace Oci.WlmsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/UpdateManagedInstance.cs.html">here</a> to see an example of how to use UpdateManagedInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/wlms/UpdateManagedInstance.cs.html">here</a> to see an example of how to use UpdateManagedInstance request.
     /// </example>
     public class UpdateManagedInstanceRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the instance.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the instance.
         /// </value>
         /// <remarks>
         /// Required

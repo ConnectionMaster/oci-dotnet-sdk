@@ -22,7 +22,7 @@ namespace Oci.JmsutilsService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the principal.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the principal.
         /// </value>
         /// <remarks>
         /// Required

@@ -14,7 +14,7 @@ using Oci.GoldengateService.Models;
 namespace Oci.GoldengateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ExportDeploymentWallet.cs.html">here</a> to see an example of how to use ExportDeploymentWallet request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/ExportDeploymentWallet.cs.html">here</a> to see an example of how to use ExportDeploymentWallet request.
     /// </example>
     public class ExportDeploymentWalletRequest : Oci.Common.IOciRequest
     {

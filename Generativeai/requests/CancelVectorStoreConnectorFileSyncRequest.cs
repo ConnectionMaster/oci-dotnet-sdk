@@ -14,13 +14,13 @@ using Oci.GenerativeaiService.Models;
 namespace Oci.GenerativeaiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CancelVectorStoreConnectorFileSync.cs.html">here</a> to see an example of how to use CancelVectorStoreConnectorFileSync request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CancelVectorStoreConnectorFileSync.cs.html">here</a> to see an example of how to use CancelVectorStoreConnectorFileSync request.
     /// </example>
     public class CancelVectorStoreConnectorFileSyncRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the vectorStoreConnectorFileSync.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the vectorStoreConnectorFileSync.
         /// </value>
         /// <remarks>
         /// Required

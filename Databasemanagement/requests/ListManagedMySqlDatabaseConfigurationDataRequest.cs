@@ -14,7 +14,7 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListManagedMySqlDatabaseConfigurationData.cs.html">here</a> to see an example of how to use ListManagedMySqlDatabaseConfigurationData request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/ListManagedMySqlDatabaseConfigurationData.cs.html">here</a> to see an example of how to use ListManagedMySqlDatabaseConfigurationData request.
     /// </example>
     public class ListManagedMySqlDatabaseConfigurationDataRequest : Oci.Common.IOciRequest
     {

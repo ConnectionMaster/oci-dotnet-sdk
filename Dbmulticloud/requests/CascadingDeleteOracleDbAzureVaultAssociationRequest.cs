@@ -14,13 +14,13 @@ using Oci.DbmulticloudService.Models;
 namespace Oci.DbmulticloudService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CascadingDeleteOracleDbAzureVaultAssociation.cs.html">here</a> to see an example of how to use CascadingDeleteOracleDbAzureVaultAssociation request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CascadingDeleteOracleDbAzureVaultAssociation.cs.html">here</a> to see an example of how to use CascadingDeleteOracleDbAzureVaultAssociation request.
     /// </example>
     public class CascadingDeleteOracleDbAzureVaultAssociationRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Oracle DB Azure Vault Association resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Oracle DB Azure Vault Association resource.
         /// </value>
         /// <remarks>
         /// Required

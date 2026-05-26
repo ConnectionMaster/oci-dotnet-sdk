@@ -18,7 +18,7 @@ namespace Oci.LoadbalancerService.Models
     /// <summary>
     /// The listener's configuration.
     /// For more information on backend set configuration, see
-    /// [Managing Load Balancer Listeners](https://docs.cloud.oracle.com/Content/Balance/Tasks/managinglisteners.htm).
+    /// [Managing Load Balancer Listeners](https://docs.oracle.com/iaas/Content/Balance/Tasks/managinglisteners.htm).
     /// 
     /// </summary>
     public class Listener 

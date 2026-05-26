@@ -14,7 +14,7 @@ using Oci.OperatoraccesscontrolService.Models;
 namespace Oci.OperatoraccesscontrolService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/GetOperatorControlAssignment.cs.html">here</a> to see an example of how to use GetOperatorControlAssignment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/GetOperatorControlAssignment.cs.html">here</a> to see an example of how to use GetOperatorControlAssignment request.
     /// </example>
     public class GetOperatorControlAssignmentRequest : Oci.Common.IOciRequest
     {

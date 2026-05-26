@@ -18,7 +18,7 @@ namespace Oci.LoadbalancerService.Models
     /// <summary>
     /// The configuration of a load balancer backend set.
     /// For more information on backend set configuration, see
-    /// [Managing Backend Sets](https://docs.cloud.oracle.com/Content/Balance/Tasks/managingbackendsets.htm).
+    /// [Managing Backend Sets](https://docs.oracle.com/iaas/Content/Balance/Tasks/managingbackendsets.htm).
     /// <br/>
     /// **Note:** The `sessionPersistenceConfiguration` (application cookie stickiness) and `lbCookieSessionPersistenceConfiguration`
     /// (LB cookie stickiness) attributes are mutually exclusive. To avoid returning an error, configure only one of these two

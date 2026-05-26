@@ -14,13 +14,13 @@ using Oci.FleetappsmanagementService.Models;
 namespace Oci.FleetappsmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ChangeProvisionCompartment.cs.html">here</a> to see an example of how to use ChangeProvisionCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ChangeProvisionCompartment.cs.html">here</a> to see an example of how to use ChangeProvisionCompartment request.
     /// </example>
     public class ChangeProvisionCompartmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the FamProvision.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the FamProvision.
         /// </value>
         /// <remarks>
         /// Required

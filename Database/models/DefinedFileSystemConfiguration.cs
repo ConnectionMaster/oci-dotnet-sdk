@@ -34,6 +34,12 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<int> MinSizeGb { get; set; }
         
         /// <value>
+        /// The maximum size of file system.
+        /// </value>
+        [JsonProperty(PropertyName = "maxSizeGb")]
+        public System.Nullable<int> MaxSizeGb { get; set; }
+        
+        /// <value>
         /// If true, the file system resize is allowed for the Exadata Infrastructure cluster. If false, the file system resize is not allowed.
         /// </value>
         [JsonProperty(PropertyName = "isResizable")]

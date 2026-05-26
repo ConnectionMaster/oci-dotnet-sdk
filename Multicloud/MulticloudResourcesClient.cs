@@ -73,7 +73,7 @@ namespace Oci.MulticloudService
         /// Lists Multicloud resources in the specified Multicloud subscription.
         /// Details for each resource include Multicloud base compartment, name, state, resource type, and network anchor.
         /// For more information, see
-        /// [Multicloud Resources](https://docs.cloud.oracle.com/iaas/Content/multicloud-hub/list-resources.htm).
+        /// [Multicloud Resources](https://docs.oracle.com/iaas/Content/multicloud-hub/list-resources.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -81,7 +81,7 @@ namespace Oci.MulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/ListMulticloudResources.cs.html">here</a> to see an example of how to use ListMulticloudResources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/ListMulticloudResources.cs.html">here</a> to see an example of how to use ListMulticloudResources API.</example>
         public async Task<ListMulticloudResourcesResponse> ListMulticloudResources(ListMulticloudResourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMulticloudResources");

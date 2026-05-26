@@ -24,7 +24,7 @@ namespace Oci.DatabasetoolsService.Models
         
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment containing the Database Tools SQL report.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the Database Tools SQL report.
         /// </value>
         /// <remarks>
         /// Required

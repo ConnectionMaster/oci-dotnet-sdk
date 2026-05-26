@@ -82,7 +82,7 @@ namespace Oci.DemandsignalService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/CreateOccMetricAlarm.cs.html">here</a> to see an example of how to use CreateOccMetricAlarm API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/CreateOccMetricAlarm.cs.html">here</a> to see an example of how to use CreateOccMetricAlarm API.</example>
         public async Task<CreateOccMetricAlarmResponse> CreateOccMetricAlarm(CreateOccMetricAlarmRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOccMetricAlarm");
@@ -139,7 +139,7 @@ namespace Oci.DemandsignalService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/DeleteOccMetricAlarm.cs.html">here</a> to see an example of how to use DeleteOccMetricAlarm API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/DeleteOccMetricAlarm.cs.html">here</a> to see an example of how to use DeleteOccMetricAlarm API.</example>
         public async Task<DeleteOccMetricAlarmResponse> DeleteOccMetricAlarm(DeleteOccMetricAlarmRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOccMetricAlarm");
@@ -196,7 +196,7 @@ namespace Oci.DemandsignalService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/GetOccMetricAlarm.cs.html">here</a> to see an example of how to use GetOccMetricAlarm API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/GetOccMetricAlarm.cs.html">here</a> to see an example of how to use GetOccMetricAlarm API.</example>
         public async Task<GetOccMetricAlarmResponse> GetOccMetricAlarm(GetOccMetricAlarmRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOccMetricAlarm");
@@ -253,7 +253,7 @@ namespace Oci.DemandsignalService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/ListOccMetricAlarms.cs.html">here</a> to see an example of how to use ListOccMetricAlarms API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/ListOccMetricAlarms.cs.html">here</a> to see an example of how to use ListOccMetricAlarms API.</example>
         public async Task<ListOccMetricAlarmsResponse> ListOccMetricAlarms(ListOccMetricAlarmsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOccMetricAlarms");
@@ -310,7 +310,7 @@ namespace Oci.DemandsignalService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/UpdateOccMetricAlarm.cs.html">here</a> to see an example of how to use UpdateOccMetricAlarm API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/demandsignal/UpdateOccMetricAlarm.cs.html">here</a> to see an example of how to use UpdateOccMetricAlarm API.</example>
         public async Task<UpdateOccMetricAlarmResponse> UpdateOccMetricAlarm(UpdateOccMetricAlarmRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOccMetricAlarm");

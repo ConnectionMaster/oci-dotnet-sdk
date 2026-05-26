@@ -14,7 +14,7 @@ using Oci.OpaService.Models;
 namespace Oci.OpaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opa/UpdateOpaInstance.cs.html">here</a> to see an example of how to use UpdateOpaInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opa/UpdateOpaInstance.cs.html">here</a> to see an example of how to use UpdateOpaInstance request.
     /// </example>
     public class UpdateOpaInstanceRequest : Oci.Common.IOciRequest
     {

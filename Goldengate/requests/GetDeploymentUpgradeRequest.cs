@@ -14,7 +14,7 @@ using Oci.GoldengateService.Models;
 namespace Oci.GoldengateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetDeploymentUpgrade.cs.html">here</a> to see an example of how to use GetDeploymentUpgrade request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/goldengate/GetDeploymentUpgrade.cs.html">here</a> to see an example of how to use GetDeploymentUpgrade request.
     /// </example>
     public class GetDeploymentUpgradeRequest : Oci.Common.IOciRequest
     {

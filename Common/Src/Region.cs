@@ -53,10 +53,10 @@ namespace Oci.Common
             return Environment.GetEnvironmentVariable(OCI_DEFAULT_REALM_ENV_VAR_NAME);
         }
 
-        /// <summary>The region identifier as defined in https://docs.cloud.oracle.com/iaas/Content/General/Concepts/regions.htm</summary>
+        /// <summary>The region identifier as defined in https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm</summary>
         public string RegionId { get; }
 
-        /// <summary>The region key as defined in https://docs.cloud.oracle.com/iaas/Content/General/Concepts/regions.htm</summary>
+        /// <summary>The region key as defined in https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm</summary>
         public string RegionCode { get; }
 
         /// <summary>The realm this region belongs to.</summary>

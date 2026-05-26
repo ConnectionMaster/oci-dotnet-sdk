@@ -32,7 +32,7 @@ namespace Oci.AilanguageService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) Compartment Identifier
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) Compartment Identifier
         /// </value>
         /// <remarks>
         /// Required

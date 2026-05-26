@@ -14,7 +14,7 @@ using Oci.DatascienceService.Models;
 namespace Oci.DatascienceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelGroup.cs.html">here</a> to see an example of how to use CreateModelGroup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelGroup.cs.html">here</a> to see an example of how to use CreateModelGroup request.
     /// </example>
     public class CreateModelGroupRequest : Oci.Common.IOciRequest
     {

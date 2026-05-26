@@ -14,7 +14,7 @@ using Oci.DatascienceService.Models;
 namespace Oci.DatascienceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreatePipelineRun.cs.html">here</a> to see an example of how to use CreatePipelineRun request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreatePipelineRun.cs.html">here</a> to see an example of how to use CreatePipelineRun request.
     /// </example>
     public class CreatePipelineRunRequest : Oci.Common.IOciRequest
     {

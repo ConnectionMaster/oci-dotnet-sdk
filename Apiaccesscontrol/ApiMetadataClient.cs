@@ -80,7 +80,7 @@ namespace Oci.ApiaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/GetApiMetadata.cs.html">here</a> to see an example of how to use GetApiMetadata API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/GetApiMetadata.cs.html">here</a> to see an example of how to use GetApiMetadata API.</example>
         public async Task<GetApiMetadataResponse> GetApiMetadata(GetApiMetadataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getApiMetadata");
@@ -137,7 +137,7 @@ namespace Oci.ApiaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/ListApiMetadata.cs.html">here</a> to see an example of how to use ListApiMetadata API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/ListApiMetadata.cs.html">here</a> to see an example of how to use ListApiMetadata API.</example>
         public async Task<ListApiMetadataResponse> ListApiMetadata(ListApiMetadataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listApiMetadata");
@@ -194,7 +194,7 @@ namespace Oci.ApiaccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/ListApiMetadataByEntityTypes.cs.html">here</a> to see an example of how to use ListApiMetadataByEntityTypes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiaccesscontrol/ListApiMetadataByEntityTypes.cs.html">here</a> to see an example of how to use ListApiMetadataByEntityTypes API.</example>
         public async Task<ListApiMetadataByEntityTypesResponse> ListApiMetadataByEntityTypes(ListApiMetadataByEntityTypesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listApiMetadataByEntityTypes");

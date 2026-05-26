@@ -18,7 +18,7 @@ namespace Oci.CoreService.Models
     /// <summary>
     /// Request to enable a multi-encryption domain policy on the IPSec tunnel.
     /// There can't be more than 50 security associations in use at one time. See [Encryption domain for policy-based
-    /// tunnels](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/ipsecencryptiondomains.htm#spi_policy_based_tunnel) for more.
+    /// tunnels](https://docs.oracle.com/iaas/Content/Network/Tasks/ipsecencryptiondomains.htm#spi_policy_based_tunnel) for more.
     /// 
     /// </summary>
     public class CreateIPSecTunnelEncryptionDomainDetails 

@@ -14,7 +14,7 @@ using Oci.OsmanagementhubService.Models;
 namespace Oci.OsmanagementhubService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagementStations.cs.html">here</a> to see an example of how to use ListManagementStations request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/ListManagementStations.cs.html">here</a> to see an example of how to use ListManagementStations request.
     /// </example>
     public class ListManagementStationsRequest : Oci.Common.IOciRequest
     {
@@ -44,14 +44,14 @@ namespace Oci.OsmanagementhubService.Requests
         public System.Nullable<ManagementStation.LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the managed instance. This filter returns resources associated with this managed instance.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the managed instance. This filter returns resources associated with this managed instance.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "managedInstanceId")]
         public string ManagedInstanceId { get; set; }
         
         /// <value>
         /// For list pagination. The maximum number of results per page, or items to return in a paginated \"List\" call.
-        /// For important details about how pagination works, see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// For important details about how pagination works, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// <br/>
         /// Example: 50
         /// </value>
@@ -60,7 +60,7 @@ namespace Oci.OsmanagementhubService.Requests
         
         /// <value>
         /// For list pagination. The value of the `opc-next-page` response header from the previous \"List\" call.
-        /// For important details about how pagination works, see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// For important details about how pagination works, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// <br/>
         /// Example: 3
         /// </value>
@@ -112,7 +112,7 @@ namespace Oci.OsmanagementhubService.Requests
         public string OpcRequestId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the management station. A filter that returns information about the specified management station.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the management station. A filter that returns information about the specified management station.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "id")]
         public string Id { get; set; }

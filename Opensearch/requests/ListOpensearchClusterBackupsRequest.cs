@@ -14,7 +14,7 @@ using Oci.OpensearchService.Models;
 namespace Oci.OpensearchService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ListOpensearchClusterBackups.cs.html">here</a> to see an example of how to use ListOpensearchClusterBackups request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ListOpensearchClusterBackups.cs.html">here</a> to see an example of how to use ListOpensearchClusterBackups request.
     /// </example>
     public class ListOpensearchClusterBackupsRequest : Oci.Common.IOciRequest
     {

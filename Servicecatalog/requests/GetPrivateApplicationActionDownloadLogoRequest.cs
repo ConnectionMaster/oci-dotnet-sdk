@@ -14,7 +14,7 @@ using Oci.ServicecatalogService.Models;
 namespace Oci.ServicecatalogService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetPrivateApplicationActionDownloadLogo.cs.html">here</a> to see an example of how to use GetPrivateApplicationActionDownloadLogo request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/GetPrivateApplicationActionDownloadLogo.cs.html">here</a> to see an example of how to use GetPrivateApplicationActionDownloadLogo request.
     /// </example>
     public class GetPrivateApplicationActionDownloadLogoRequest : Oci.Common.IOciRequest
     {

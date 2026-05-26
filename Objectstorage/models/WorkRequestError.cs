@@ -21,7 +21,7 @@ namespace Oci.ObjectstorageService.Models
         
         /// <value>
         /// A machine-usable code for the error that occurred. For the list of error codes,
-        /// see [API Errors](https://docs.cloud.oracle.com/Content/API/References/apierrors.htm).
+        /// see [API Errors](https://docs.oracle.com/iaas/Content/API/References/apierrors.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "code")]

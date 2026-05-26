@@ -14,7 +14,7 @@ using Oci.AccessgovernancecpService.Models;
 namespace Oci.AccessgovernancecpService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/CreateGovernanceInstance.cs.html">here</a> to see an example of how to use CreateGovernanceInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/accessgovernancecp/CreateGovernanceInstance.cs.html">here</a> to see an example of how to use CreateGovernanceInstance request.
     /// </example>
     public class CreateGovernanceInstanceRequest : Oci.Common.IOciRequest
     {

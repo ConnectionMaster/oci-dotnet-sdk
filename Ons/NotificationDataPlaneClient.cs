@@ -75,7 +75,7 @@ namespace Oci.OnsService
         /// <summary>
         /// Moves a subscription into a different compartment within the same tenancy. For information about moving
         /// resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// &lt;br/&gt;
         /// Transactions Per Minute (TPM) per-tenancy limit for this operation: 60.
         /// 
@@ -85,7 +85,7 @@ namespace Oci.OnsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/ChangeSubscriptionCompartment.cs.html">here</a> to see an example of how to use ChangeSubscriptionCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/ChangeSubscriptionCompartment.cs.html">here</a> to see an example of how to use ChangeSubscriptionCompartment API.</example>
         public async Task<ChangeSubscriptionCompartmentResponse> ChangeSubscriptionCompartment(ChangeSubscriptionCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSubscriptionCompartment");
@@ -136,7 +136,7 @@ namespace Oci.OnsService
         /// <summary>
         /// Creates a subscription for the specified topic and sends a subscription confirmation URL to the endpoint. The subscription remains in \&quot;Pending\&quot; status until it has been confirmed.
         /// For information about confirming subscriptions, see
-        /// [To confirm a subscription](https://docs.cloud.oracle.com/iaas/Content/Notification/Tasks/managingtopicsandsubscriptions.htm#confirmSub).
+        /// [To confirm a subscription](https://docs.oracle.com/iaas/Content/Notification/Tasks/managingtopicsandsubscriptions.htm#confirmSub).
         /// &lt;br/&gt;
         /// Transactions Per Minute (TPM) per-tenancy limit for this operation: 60.
         /// 
@@ -146,7 +146,7 @@ namespace Oci.OnsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/CreateSubscription.cs.html">here</a> to see an example of how to use CreateSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/CreateSubscription.cs.html">here</a> to see an example of how to use CreateSubscription API.</example>
         public async Task<CreateSubscriptionResponse> CreateSubscription(CreateSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSubscription");
@@ -205,7 +205,7 @@ namespace Oci.OnsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/DeleteSubscription.cs.html">here</a> to see an example of how to use DeleteSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/DeleteSubscription.cs.html">here</a> to see an example of how to use DeleteSubscription API.</example>
         public async Task<DeleteSubscriptionResponse> DeleteSubscription(DeleteSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSubscription");
@@ -264,7 +264,7 @@ namespace Oci.OnsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/GetConfirmSubscription.cs.html">here</a> to see an example of how to use GetConfirmSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/GetConfirmSubscription.cs.html">here</a> to see an example of how to use GetConfirmSubscription API.</example>
         public async Task<GetConfirmSubscriptionResponse> GetConfirmSubscription(GetConfirmSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getConfirmSubscription");
@@ -323,7 +323,7 @@ namespace Oci.OnsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/GetSubscription.cs.html">here</a> to see an example of how to use GetSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/GetSubscription.cs.html">here</a> to see an example of how to use GetSubscription API.</example>
         public async Task<GetSubscriptionResponse> GetSubscription(GetSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSubscription");
@@ -382,7 +382,7 @@ namespace Oci.OnsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/GetUnsubscription.cs.html">here</a> to see an example of how to use GetUnsubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/GetUnsubscription.cs.html">here</a> to see an example of how to use GetUnsubscription API.</example>
         public async Task<GetUnsubscriptionResponse> GetUnsubscription(GetUnsubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getUnsubscription");
@@ -441,7 +441,7 @@ namespace Oci.OnsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/ListSubscriptions.cs.html">here</a> to see an example of how to use ListSubscriptions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/ListSubscriptions.cs.html">here</a> to see an example of how to use ListSubscriptions API.</example>
         public async Task<ListSubscriptionsResponse> ListSubscriptions(ListSubscriptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSubscriptions");
@@ -505,8 +505,8 @@ namespace Oci.OnsService
         /// &lt;br/&gt;
         /// Transactions Per Minute (TPM) per-tenancy limit for this operation: 60 per topic. (This TPM limit represents messages per minute.)
         /// &lt;br/&gt;
-        /// For more information about publishing messages, see [Publishing Messages](https://docs.cloud.oracle.com/iaas/Content/Notification/Tasks/publishingmessages.htm).
-        /// For steps to request a limit increase, see [Requesting a Service Limit Increase](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/servicelimits.htm#three).
+        /// For more information about publishing messages, see [Publishing Messages](https://docs.oracle.com/iaas/Content/Notification/Tasks/publishingmessages.htm).
+        /// For steps to request a limit increase, see [Requesting a Service Limit Increase](https://docs.oracle.com/iaas/Content/General/Concepts/servicelimits.htm#three).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -514,7 +514,7 @@ namespace Oci.OnsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/PublishMessage.cs.html">here</a> to see an example of how to use PublishMessage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/PublishMessage.cs.html">here</a> to see an example of how to use PublishMessage API.</example>
         public async Task<PublishMessageResponse> PublishMessage(PublishMessageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called publishMessage");
@@ -573,7 +573,7 @@ namespace Oci.OnsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/ResendSubscriptionConfirmation.cs.html">here</a> to see an example of how to use ResendSubscriptionConfirmation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/ResendSubscriptionConfirmation.cs.html">here</a> to see an example of how to use ResendSubscriptionConfirmation API.</example>
         public async Task<ResendSubscriptionConfirmationResponse> ResendSubscriptionConfirmation(ResendSubscriptionConfirmationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called resendSubscriptionConfirmation");
@@ -632,7 +632,7 @@ namespace Oci.OnsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/UpdateSubscription.cs.html">here</a> to see an example of how to use UpdateSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/UpdateSubscription.cs.html">here</a> to see an example of how to use UpdateSubscription API.</example>
         public async Task<UpdateSubscriptionResponse> UpdateSubscription(UpdateSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSubscription");

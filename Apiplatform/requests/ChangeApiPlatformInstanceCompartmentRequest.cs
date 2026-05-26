@@ -14,13 +14,13 @@ using Oci.ApiplatformService.Models;
 namespace Oci.ApiplatformService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiplatform/ChangeApiPlatformInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeApiPlatformInstanceCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiplatform/ChangeApiPlatformInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeApiPlatformInstanceCompartment request.
     /// </example>
     public class ChangeApiPlatformInstanceCompartmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the instance
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the instance
         /// </value>
         /// <remarks>
         /// Required

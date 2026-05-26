@@ -217,7 +217,7 @@ namespace Oci.GenerativeaiinferenceService.Models
         /// Contextual: (Default) Puts fewer constraints on the output. It maintains core protections by aiming to reject harmful or illegal suggestions, but it allows profanity and some toxic content, sexually explicit and violent content, and content that contains medical, financial, or legal information. Contextual mode is suited for entertainment, creative, or academic use.
         /// Strict: Aims to avoid sensitive topics, such as violent or sexual acts and profanity. This mode aims to provide a safer experience by prohibiting responses or recommendations that it finds inappropriate. Strict mode is suited for corporate use, such as for corporate communications and customer service.
         /// Off: No safety mode is applied.
-        /// Note: This parameter is only compatible with models cohere.command-r-08-2024, cohere.command-r-plus-08-2024 and Cohere models released after these models. See [release dates](https://docs.cloud.oracle.com/iaas/Content/generative-ai/deprecating.htm).
+        /// Note: This parameter is only compatible with models cohere.command-r-08-2024, cohere.command-r-plus-08-2024 and Cohere models released after these models. See [release dates](https://docs.oracle.com/iaas/Content/generative-ai/deprecating.htm).
         /// 
         /// </value>
         ///
@@ -235,7 +235,7 @@ namespace Oci.GenerativeaiinferenceService.Models
         /// Contextual: (Default) Puts fewer constraints on the output. It maintains core protections by aiming to reject harmful or illegal suggestions, but it allows profanity and some toxic content, sexually explicit and violent content, and content that contains medical, financial, or legal information. Contextual mode is suited for entertainment, creative, or academic use.
         /// Strict: Aims to avoid sensitive topics, such as violent or sexual acts and profanity. This mode aims to provide a safer experience by prohibiting responses or recommendations that it finds inappropriate. Strict mode is suited for corporate use, such as for corporate communications and customer service.
         /// Off: No safety mode is applied.
-        /// Note: This parameter is only compatible with models cohere.command-r-08-2024, cohere.command-r-plus-08-2024 and Cohere models released after these models. See [release dates](https://docs.cloud.oracle.com/iaas/Content/generative-ai/deprecating.htm).
+        /// Note: This parameter is only compatible with models cohere.command-r-08-2024, cohere.command-r-plus-08-2024 and Cohere models released after these models. See [release dates](https://docs.oracle.com/iaas/Content/generative-ai/deprecating.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "safetyMode")]

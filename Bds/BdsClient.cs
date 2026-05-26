@@ -81,7 +81,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ActivateBdsMetastoreConfiguration.cs.html">here</a> to see an example of how to use ActivateBdsMetastoreConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ActivateBdsMetastoreConfiguration.cs.html">here</a> to see an example of how to use ActivateBdsMetastoreConfiguration API.</example>
         public async Task<ActivateBdsMetastoreConfigurationResponse> ActivateBdsMetastoreConfiguration(ActivateBdsMetastoreConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called activateBdsMetastoreConfiguration");
@@ -137,7 +137,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ActivateIamUserSyncConfiguration.cs.html">here</a> to see an example of how to use ActivateIamUserSyncConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ActivateIamUserSyncConfiguration.cs.html">here</a> to see an example of how to use ActivateIamUserSyncConfiguration API.</example>
         public async Task<ActivateIamUserSyncConfigurationResponse> ActivateIamUserSyncConfiguration(ActivateIamUserSyncConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called activateIamUserSyncConfiguration");
@@ -193,7 +193,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ActivateUpstConfiguration.cs.html">here</a> to see an example of how to use ActivateUpstConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ActivateUpstConfiguration.cs.html">here</a> to see an example of how to use ActivateUpstConfiguration API.</example>
         public async Task<ActivateUpstConfigurationResponse> ActivateUpstConfiguration(ActivateUpstConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called activateUpstConfiguration");
@@ -250,7 +250,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/AddAutoScalingConfiguration.cs.html">here</a> to see an example of how to use AddAutoScalingConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/AddAutoScalingConfiguration.cs.html">here</a> to see an example of how to use AddAutoScalingConfiguration API.</example>
         public async Task<AddAutoScalingConfigurationResponse> AddAutoScalingConfiguration(AddAutoScalingConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addAutoScalingConfiguration");
@@ -307,7 +307,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/AddBlockStorage.cs.html">here</a> to see an example of how to use AddBlockStorage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/AddBlockStorage.cs.html">here</a> to see an example of how to use AddBlockStorage API.</example>
         public async Task<AddBlockStorageResponse> AddBlockStorage(AddBlockStorageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addBlockStorage");
@@ -364,7 +364,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/AddCloudSql.cs.html">here</a> to see an example of how to use AddCloudSql API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/AddCloudSql.cs.html">here</a> to see an example of how to use AddCloudSql API.</example>
         public async Task<AddCloudSqlResponse> AddCloudSql(AddCloudSqlRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addCloudSql");
@@ -421,7 +421,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/AddKafka.cs.html">here</a> to see an example of how to use AddKafka API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/AddKafka.cs.html">here</a> to see an example of how to use AddKafka API.</example>
         public async Task<AddKafkaResponse> AddKafka(AddKafkaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addKafka");
@@ -478,7 +478,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/AddMasterNodes.cs.html">here</a> to see an example of how to use AddMasterNodes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/AddMasterNodes.cs.html">here</a> to see an example of how to use AddMasterNodes API.</example>
         public async Task<AddMasterNodesResponse> AddMasterNodes(AddMasterNodesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addMasterNodes");
@@ -535,7 +535,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/AddUtilityNodes.cs.html">here</a> to see an example of how to use AddUtilityNodes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/AddUtilityNodes.cs.html">here</a> to see an example of how to use AddUtilityNodes API.</example>
         public async Task<AddUtilityNodesResponse> AddUtilityNodes(AddUtilityNodesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addUtilityNodes");
@@ -592,7 +592,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/AddWorkerNodes.cs.html">here</a> to see an example of how to use AddWorkerNodes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/AddWorkerNodes.cs.html">here</a> to see an example of how to use AddWorkerNodes API.</example>
         public async Task<AddWorkerNodesResponse> AddWorkerNodes(AddWorkerNodesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addWorkerNodes");
@@ -649,7 +649,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/BackupNode.cs.html">here</a> to see an example of how to use BackupNode API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/BackupNode.cs.html">here</a> to see an example of how to use BackupNode API.</example>
         public async Task<BackupNodeResponse> BackupNode(BackupNodeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called backupNode");
@@ -706,7 +706,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/BdsInstanceResetPassword.cs.html">here</a> to see an example of how to use BdsInstanceResetPassword API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/BdsInstanceResetPassword.cs.html">here</a> to see an example of how to use BdsInstanceResetPassword API.</example>
         public async Task<BdsInstanceResetPasswordResponse> BdsInstanceResetPassword(BdsInstanceResetPasswordRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bdsInstanceResetPassword");
@@ -763,7 +763,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CertificateServiceInfo.cs.html">here</a> to see an example of how to use CertificateServiceInfo API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CertificateServiceInfo.cs.html">here</a> to see an example of how to use CertificateServiceInfo API.</example>
         public async Task<CertificateServiceInfoResponse> CertificateServiceInfo(CertificateServiceInfoRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called certificateServiceInfo");
@@ -820,7 +820,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ChangeBdsInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeBdsInstanceCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ChangeBdsInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeBdsInstanceCompartment API.</example>
         public async Task<ChangeBdsInstanceCompartmentResponse> ChangeBdsInstanceCompartment(ChangeBdsInstanceCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeBdsInstanceCompartment");
@@ -877,7 +877,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ChangeShape.cs.html">here</a> to see an example of how to use ChangeShape API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ChangeShape.cs.html">here</a> to see an example of how to use ChangeShape API.</example>
         public async Task<ChangeShapeResponse> ChangeShape(ChangeShapeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeShape");
@@ -934,7 +934,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateBdsApiKey.cs.html">here</a> to see an example of how to use CreateBdsApiKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateBdsApiKey.cs.html">here</a> to see an example of how to use CreateBdsApiKey API.</example>
         public async Task<CreateBdsApiKeyResponse> CreateBdsApiKey(CreateBdsApiKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBdsApiKey");
@@ -991,7 +991,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateBdsCapacityReport.cs.html">here</a> to see an example of how to use CreateBdsCapacityReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateBdsCapacityReport.cs.html">here</a> to see an example of how to use CreateBdsCapacityReport API.</example>
         public async Task<CreateBdsCapacityReportResponse> CreateBdsCapacityReport(CreateBdsCapacityReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBdsCapacityReport");
@@ -1048,7 +1048,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateBdsCertificateConfiguration.cs.html">here</a> to see an example of how to use CreateBdsCertificateConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateBdsCertificateConfiguration.cs.html">here</a> to see an example of how to use CreateBdsCertificateConfiguration API.</example>
         public async Task<CreateBdsCertificateConfigurationResponse> CreateBdsCertificateConfiguration(CreateBdsCertificateConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBdsCertificateConfiguration");
@@ -1105,7 +1105,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateBdsInstance.cs.html">here</a> to see an example of how to use CreateBdsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateBdsInstance.cs.html">here</a> to see an example of how to use CreateBdsInstance API.</example>
         public async Task<CreateBdsInstanceResponse> CreateBdsInstance(CreateBdsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBdsInstance");
@@ -1162,7 +1162,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateBdsMetastoreConfiguration.cs.html">here</a> to see an example of how to use CreateBdsMetastoreConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateBdsMetastoreConfiguration.cs.html">here</a> to see an example of how to use CreateBdsMetastoreConfiguration API.</example>
         public async Task<CreateBdsMetastoreConfigurationResponse> CreateBdsMetastoreConfiguration(CreateBdsMetastoreConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBdsMetastoreConfiguration");
@@ -1218,7 +1218,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateIdentityConfiguration.cs.html">here</a> to see an example of how to use CreateIdentityConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateIdentityConfiguration.cs.html">here</a> to see an example of how to use CreateIdentityConfiguration API.</example>
         public async Task<CreateIdentityConfigurationResponse> CreateIdentityConfiguration(CreateIdentityConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createIdentityConfiguration");
@@ -1275,7 +1275,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateNodeBackupConfiguration.cs.html">here</a> to see an example of how to use CreateNodeBackupConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateNodeBackupConfiguration.cs.html">here</a> to see an example of how to use CreateNodeBackupConfiguration API.</example>
         public async Task<CreateNodeBackupConfigurationResponse> CreateNodeBackupConfiguration(CreateNodeBackupConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createNodeBackupConfiguration");
@@ -1332,7 +1332,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateNodeReplaceConfiguration.cs.html">here</a> to see an example of how to use CreateNodeReplaceConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateNodeReplaceConfiguration.cs.html">here</a> to see an example of how to use CreateNodeReplaceConfiguration API.</example>
         public async Task<CreateNodeReplaceConfigurationResponse> CreateNodeReplaceConfiguration(CreateNodeReplaceConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createNodeReplaceConfiguration");
@@ -1389,7 +1389,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateResourcePrincipalConfiguration.cs.html">here</a> to see an example of how to use CreateResourcePrincipalConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/CreateResourcePrincipalConfiguration.cs.html">here</a> to see an example of how to use CreateResourcePrincipalConfiguration API.</example>
         public async Task<CreateResourcePrincipalConfigurationResponse> CreateResourcePrincipalConfiguration(CreateResourcePrincipalConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createResourcePrincipalConfiguration");
@@ -1445,7 +1445,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeactivateIamUserSyncConfiguration.cs.html">here</a> to see an example of how to use DeactivateIamUserSyncConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeactivateIamUserSyncConfiguration.cs.html">here</a> to see an example of how to use DeactivateIamUserSyncConfiguration API.</example>
         public async Task<DeactivateIamUserSyncConfigurationResponse> DeactivateIamUserSyncConfiguration(DeactivateIamUserSyncConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deactivateIamUserSyncConfiguration");
@@ -1501,7 +1501,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeactivateUpstConfiguration.cs.html">here</a> to see an example of how to use DeactivateUpstConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeactivateUpstConfiguration.cs.html">here</a> to see an example of how to use DeactivateUpstConfiguration API.</example>
         public async Task<DeactivateUpstConfigurationResponse> DeactivateUpstConfiguration(DeactivateUpstConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deactivateUpstConfiguration");
@@ -1557,7 +1557,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeleteBdsApiKey.cs.html">here</a> to see an example of how to use DeleteBdsApiKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeleteBdsApiKey.cs.html">here</a> to see an example of how to use DeleteBdsApiKey API.</example>
         public async Task<DeleteBdsApiKeyResponse> DeleteBdsApiKey(DeleteBdsApiKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBdsApiKey");
@@ -1613,7 +1613,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeleteBdsCertificateConfiguration.cs.html">here</a> to see an example of how to use DeleteBdsCertificateConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeleteBdsCertificateConfiguration.cs.html">here</a> to see an example of how to use DeleteBdsCertificateConfiguration API.</example>
         public async Task<DeleteBdsCertificateConfigurationResponse> DeleteBdsCertificateConfiguration(DeleteBdsCertificateConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBdsCertificateConfiguration");
@@ -1669,7 +1669,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeleteBdsInstance.cs.html">here</a> to see an example of how to use DeleteBdsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeleteBdsInstance.cs.html">here</a> to see an example of how to use DeleteBdsInstance API.</example>
         public async Task<DeleteBdsInstanceResponse> DeleteBdsInstance(DeleteBdsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBdsInstance");
@@ -1725,7 +1725,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeleteBdsMetastoreConfiguration.cs.html">here</a> to see an example of how to use DeleteBdsMetastoreConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeleteBdsMetastoreConfiguration.cs.html">here</a> to see an example of how to use DeleteBdsMetastoreConfiguration API.</example>
         public async Task<DeleteBdsMetastoreConfigurationResponse> DeleteBdsMetastoreConfiguration(DeleteBdsMetastoreConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBdsMetastoreConfiguration");
@@ -1781,7 +1781,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeleteIdentityConfiguration.cs.html">here</a> to see an example of how to use DeleteIdentityConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeleteIdentityConfiguration.cs.html">here</a> to see an example of how to use DeleteIdentityConfiguration API.</example>
         public async Task<DeleteIdentityConfigurationResponse> DeleteIdentityConfiguration(DeleteIdentityConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteIdentityConfiguration");
@@ -1837,7 +1837,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeleteNodeBackup.cs.html">here</a> to see an example of how to use DeleteNodeBackup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeleteNodeBackup.cs.html">here</a> to see an example of how to use DeleteNodeBackup API.</example>
         public async Task<DeleteNodeBackupResponse> DeleteNodeBackup(DeleteNodeBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteNodeBackup");
@@ -1893,7 +1893,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeleteNodeBackupConfiguration.cs.html">here</a> to see an example of how to use DeleteNodeBackupConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DeleteNodeBackupConfiguration.cs.html">here</a> to see an example of how to use DeleteNodeBackupConfiguration API.</example>
         public async Task<DeleteNodeBackupConfigurationResponse> DeleteNodeBackupConfiguration(DeleteNodeBackupConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteNodeBackupConfiguration");
@@ -1950,7 +1950,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DisableCertificate.cs.html">here</a> to see an example of how to use DisableCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/DisableCertificate.cs.html">here</a> to see an example of how to use DisableCertificate API.</example>
         public async Task<DisableCertificateResponse> DisableCertificate(DisableCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableCertificate");
@@ -2007,7 +2007,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/EnableCertificate.cs.html">here</a> to see an example of how to use EnableCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/EnableCertificate.cs.html">here</a> to see an example of how to use EnableCertificate API.</example>
         public async Task<EnableCertificateResponse> EnableCertificate(EnableCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enableCertificate");
@@ -2064,7 +2064,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ExecuteBootstrapScript.cs.html">here</a> to see an example of how to use ExecuteBootstrapScript API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ExecuteBootstrapScript.cs.html">here</a> to see an example of how to use ExecuteBootstrapScript API.</example>
         public async Task<ExecuteBootstrapScriptResponse> ExecuteBootstrapScript(ExecuteBootstrapScriptRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called executeBootstrapScript");
@@ -2121,7 +2121,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ForceRefreshResourcePrincipal.cs.html">here</a> to see an example of how to use ForceRefreshResourcePrincipal API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ForceRefreshResourcePrincipal.cs.html">here</a> to see an example of how to use ForceRefreshResourcePrincipal API.</example>
         public async Task<ForceRefreshResourcePrincipalResponse> ForceRefreshResourcePrincipal(ForceRefreshResourcePrincipalRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called forceRefreshResourcePrincipal");
@@ -2178,7 +2178,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GenerateBdsCertificate.cs.html">here</a> to see an example of how to use GenerateBdsCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GenerateBdsCertificate.cs.html">here</a> to see an example of how to use GenerateBdsCertificate API.</example>
         public async Task<GenerateBdsCertificateResponse> GenerateBdsCertificate(GenerateBdsCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateBdsCertificate");
@@ -2235,7 +2235,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetAutoScalingConfiguration.cs.html">here</a> to see an example of how to use GetAutoScalingConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetAutoScalingConfiguration.cs.html">here</a> to see an example of how to use GetAutoScalingConfiguration API.</example>
         public async Task<GetAutoScalingConfigurationResponse> GetAutoScalingConfiguration(GetAutoScalingConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAutoScalingConfiguration");
@@ -2291,7 +2291,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetBdsApiKey.cs.html">here</a> to see an example of how to use GetBdsApiKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetBdsApiKey.cs.html">here</a> to see an example of how to use GetBdsApiKey API.</example>
         public async Task<GetBdsApiKeyResponse> GetBdsApiKey(GetBdsApiKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBdsApiKey");
@@ -2348,7 +2348,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetBdsCertificateConfiguration.cs.html">here</a> to see an example of how to use GetBdsCertificateConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetBdsCertificateConfiguration.cs.html">here</a> to see an example of how to use GetBdsCertificateConfiguration API.</example>
         public async Task<GetBdsCertificateConfigurationResponse> GetBdsCertificateConfiguration(GetBdsCertificateConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBdsCertificateConfiguration");
@@ -2404,7 +2404,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetBdsInstance.cs.html">here</a> to see an example of how to use GetBdsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetBdsInstance.cs.html">here</a> to see an example of how to use GetBdsInstance API.</example>
         public async Task<GetBdsInstanceResponse> GetBdsInstance(GetBdsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBdsInstance");
@@ -2460,7 +2460,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetBdsMetastoreConfiguration.cs.html">here</a> to see an example of how to use GetBdsMetastoreConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetBdsMetastoreConfiguration.cs.html">here</a> to see an example of how to use GetBdsMetastoreConfiguration API.</example>
         public async Task<GetBdsMetastoreConfigurationResponse> GetBdsMetastoreConfiguration(GetBdsMetastoreConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBdsMetastoreConfiguration");
@@ -2516,7 +2516,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetIdentityConfiguration.cs.html">here</a> to see an example of how to use GetIdentityConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetIdentityConfiguration.cs.html">here</a> to see an example of how to use GetIdentityConfiguration API.</example>
         public async Task<GetIdentityConfigurationResponse> GetIdentityConfiguration(GetIdentityConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIdentityConfiguration");
@@ -2573,7 +2573,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetNodeBackup.cs.html">here</a> to see an example of how to use GetNodeBackup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetNodeBackup.cs.html">here</a> to see an example of how to use GetNodeBackup API.</example>
         public async Task<GetNodeBackupResponse> GetNodeBackup(GetNodeBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNodeBackup");
@@ -2630,7 +2630,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetNodeBackupConfiguration.cs.html">here</a> to see an example of how to use GetNodeBackupConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetNodeBackupConfiguration.cs.html">here</a> to see an example of how to use GetNodeBackupConfiguration API.</example>
         public async Task<GetNodeBackupConfigurationResponse> GetNodeBackupConfiguration(GetNodeBackupConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNodeBackupConfiguration");
@@ -2687,7 +2687,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetNodeReplaceConfiguration.cs.html">here</a> to see an example of how to use GetNodeReplaceConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetNodeReplaceConfiguration.cs.html">here</a> to see an example of how to use GetNodeReplaceConfiguration API.</example>
         public async Task<GetNodeReplaceConfigurationResponse> GetNodeReplaceConfiguration(GetNodeReplaceConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNodeReplaceConfiguration");
@@ -2743,7 +2743,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetOsPatchDetails.cs.html">here</a> to see an example of how to use GetOsPatchDetails API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetOsPatchDetails.cs.html">here</a> to see an example of how to use GetOsPatchDetails API.</example>
         public async Task<GetOsPatchDetailsResponse> GetOsPatchDetails(GetOsPatchDetailsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOsPatchDetails");
@@ -2800,7 +2800,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetResourcePrincipalConfiguration.cs.html">here</a> to see an example of how to use GetResourcePrincipalConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetResourcePrincipalConfiguration.cs.html">here</a> to see an example of how to use GetResourcePrincipalConfiguration API.</example>
         public async Task<GetResourcePrincipalConfigurationResponse> GetResourcePrincipalConfiguration(GetResourcePrincipalConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getResourcePrincipalConfiguration");
@@ -2857,7 +2857,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetSoftwareUpdate.cs.html">here</a> to see an example of how to use GetSoftwareUpdate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetSoftwareUpdate.cs.html">here</a> to see an example of how to use GetSoftwareUpdate API.</example>
         public async Task<GetSoftwareUpdateResponse> GetSoftwareUpdate(GetSoftwareUpdateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSoftwareUpdate");
@@ -2913,7 +2913,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -2970,7 +2970,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/InstallOsPatch.cs.html">here</a> to see an example of how to use InstallOsPatch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/InstallOsPatch.cs.html">here</a> to see an example of how to use InstallOsPatch API.</example>
         public async Task<InstallOsPatchResponse> InstallOsPatch(InstallOsPatchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called installOsPatch");
@@ -3027,7 +3027,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/InstallPatch.cs.html">here</a> to see an example of how to use InstallPatch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/InstallPatch.cs.html">here</a> to see an example of how to use InstallPatch API.</example>
         public async Task<InstallPatchResponse> InstallPatch(InstallPatchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called installPatch");
@@ -3084,7 +3084,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/InstallSoftwareUpdates.cs.html">here</a> to see an example of how to use InstallSoftwareUpdates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/InstallSoftwareUpdates.cs.html">here</a> to see an example of how to use InstallSoftwareUpdates API.</example>
         public async Task<InstallSoftwareUpdatesResponse> InstallSoftwareUpdates(InstallSoftwareUpdatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called installSoftwareUpdates");
@@ -3141,7 +3141,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListAutoScalingConfigurations.cs.html">here</a> to see an example of how to use ListAutoScalingConfigurations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListAutoScalingConfigurations.cs.html">here</a> to see an example of how to use ListAutoScalingConfigurations API.</example>
         public async Task<ListAutoScalingConfigurationsResponse> ListAutoScalingConfigurations(ListAutoScalingConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAutoScalingConfigurations");
@@ -3198,7 +3198,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListBdsApiKeys.cs.html">here</a> to see an example of how to use ListBdsApiKeys API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListBdsApiKeys.cs.html">here</a> to see an example of how to use ListBdsApiKeys API.</example>
         public async Task<ListBdsApiKeysResponse> ListBdsApiKeys(ListBdsApiKeysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBdsApiKeys");
@@ -3255,7 +3255,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListBdsCertificateConfigurations.cs.html">here</a> to see an example of how to use ListBdsCertificateConfigurations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListBdsCertificateConfigurations.cs.html">here</a> to see an example of how to use ListBdsCertificateConfigurations API.</example>
         public async Task<ListBdsCertificateConfigurationsResponse> ListBdsCertificateConfigurations(ListBdsCertificateConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBdsCertificateConfigurations");
@@ -3312,7 +3312,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListBdsClusterVersions.cs.html">here</a> to see an example of how to use ListBdsClusterVersions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListBdsClusterVersions.cs.html">here</a> to see an example of how to use ListBdsClusterVersions API.</example>
         public async Task<ListBdsClusterVersionsResponse> ListBdsClusterVersions(ListBdsClusterVersionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBdsClusterVersions");
@@ -3369,7 +3369,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListBdsInstances.cs.html">here</a> to see an example of how to use ListBdsInstances API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListBdsInstances.cs.html">here</a> to see an example of how to use ListBdsInstances API.</example>
         public async Task<ListBdsInstancesResponse> ListBdsInstances(ListBdsInstancesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBdsInstances");
@@ -3426,7 +3426,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListBdsMetastoreConfigurations.cs.html">here</a> to see an example of how to use ListBdsMetastoreConfigurations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListBdsMetastoreConfigurations.cs.html">here</a> to see an example of how to use ListBdsMetastoreConfigurations API.</example>
         public async Task<ListBdsMetastoreConfigurationsResponse> ListBdsMetastoreConfigurations(ListBdsMetastoreConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBdsMetastoreConfigurations");
@@ -3483,7 +3483,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListIdentityConfigurations.cs.html">here</a> to see an example of how to use ListIdentityConfigurations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListIdentityConfigurations.cs.html">here</a> to see an example of how to use ListIdentityConfigurations API.</example>
         public async Task<ListIdentityConfigurationsResponse> ListIdentityConfigurations(ListIdentityConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIdentityConfigurations");
@@ -3540,7 +3540,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListNodeBackupConfigurations.cs.html">here</a> to see an example of how to use ListNodeBackupConfigurations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListNodeBackupConfigurations.cs.html">here</a> to see an example of how to use ListNodeBackupConfigurations API.</example>
         public async Task<ListNodeBackupConfigurationsResponse> ListNodeBackupConfigurations(ListNodeBackupConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNodeBackupConfigurations");
@@ -3597,7 +3597,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListNodeBackups.cs.html">here</a> to see an example of how to use ListNodeBackups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListNodeBackups.cs.html">here</a> to see an example of how to use ListNodeBackups API.</example>
         public async Task<ListNodeBackupsResponse> ListNodeBackups(ListNodeBackupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNodeBackups");
@@ -3654,7 +3654,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListNodeReplaceConfigurations.cs.html">here</a> to see an example of how to use ListNodeReplaceConfigurations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListNodeReplaceConfigurations.cs.html">here</a> to see an example of how to use ListNodeReplaceConfigurations API.</example>
         public async Task<ListNodeReplaceConfigurationsResponse> ListNodeReplaceConfigurations(ListNodeReplaceConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNodeReplaceConfigurations");
@@ -3710,7 +3710,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListOsPatches.cs.html">here</a> to see an example of how to use ListOsPatches API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListOsPatches.cs.html">here</a> to see an example of how to use ListOsPatches API.</example>
         public async Task<ListOsPatchesResponse> ListOsPatches(ListOsPatchesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOsPatches");
@@ -3767,7 +3767,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListPatchHistories.cs.html">here</a> to see an example of how to use ListPatchHistories API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListPatchHistories.cs.html">here</a> to see an example of how to use ListPatchHistories API.</example>
         public async Task<ListPatchHistoriesResponse> ListPatchHistories(ListPatchHistoriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPatchHistories");
@@ -3824,7 +3824,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListPatches.cs.html">here</a> to see an example of how to use ListPatches API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListPatches.cs.html">here</a> to see an example of how to use ListPatches API.</example>
         public async Task<ListPatchesResponse> ListPatches(ListPatchesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPatches");
@@ -3881,7 +3881,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListResourcePrincipalConfigurations.cs.html">here</a> to see an example of how to use ListResourcePrincipalConfigurations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListResourcePrincipalConfigurations.cs.html">here</a> to see an example of how to use ListResourcePrincipalConfigurations API.</example>
         public async Task<ListResourcePrincipalConfigurationsResponse> ListResourcePrincipalConfigurations(ListResourcePrincipalConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listResourcePrincipalConfigurations");
@@ -3937,7 +3937,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListSoftwareUpdates.cs.html">here</a> to see an example of how to use ListSoftwareUpdates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListSoftwareUpdates.cs.html">here</a> to see an example of how to use ListSoftwareUpdates API.</example>
         public async Task<ListSoftwareUpdatesResponse> ListSoftwareUpdates(ListSoftwareUpdatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSoftwareUpdates");
@@ -3994,7 +3994,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -4051,7 +4051,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -4108,7 +4108,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -4164,7 +4164,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RefreshConfidentialApplication.cs.html">here</a> to see an example of how to use RefreshConfidentialApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RefreshConfidentialApplication.cs.html">here</a> to see an example of how to use RefreshConfidentialApplication API.</example>
         public async Task<RefreshConfidentialApplicationResponse> RefreshConfidentialApplication(RefreshConfidentialApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshConfidentialApplication");
@@ -4220,7 +4220,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RefreshUpstTokenExchangeKeytab.cs.html">here</a> to see an example of how to use RefreshUpstTokenExchangeKeytab API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RefreshUpstTokenExchangeKeytab.cs.html">here</a> to see an example of how to use RefreshUpstTokenExchangeKeytab API.</example>
         public async Task<RefreshUpstTokenExchangeKeytabResponse> RefreshUpstTokenExchangeKeytab(RefreshUpstTokenExchangeKeytabRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshUpstTokenExchangeKeytab");
@@ -4277,7 +4277,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RemoveAutoScalingConfiguration.cs.html">here</a> to see an example of how to use RemoveAutoScalingConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RemoveAutoScalingConfiguration.cs.html">here</a> to see an example of how to use RemoveAutoScalingConfiguration API.</example>
         public async Task<RemoveAutoScalingConfigurationResponse> RemoveAutoScalingConfiguration(RemoveAutoScalingConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeAutoScalingConfiguration");
@@ -4334,7 +4334,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RemoveCloudSql.cs.html">here</a> to see an example of how to use RemoveCloudSql API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RemoveCloudSql.cs.html">here</a> to see an example of how to use RemoveCloudSql API.</example>
         public async Task<RemoveCloudSqlResponse> RemoveCloudSql(RemoveCloudSqlRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeCloudSql");
@@ -4391,7 +4391,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RemoveKafka.cs.html">here</a> to see an example of how to use RemoveKafka API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RemoveKafka.cs.html">here</a> to see an example of how to use RemoveKafka API.</example>
         public async Task<RemoveKafkaResponse> RemoveKafka(RemoveKafkaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeKafka");
@@ -4448,7 +4448,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RemoveNode.cs.html">here</a> to see an example of how to use RemoveNode API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RemoveNode.cs.html">here</a> to see an example of how to use RemoveNode API.</example>
         public async Task<RemoveNodeResponse> RemoveNode(RemoveNodeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeNode");
@@ -4505,7 +4505,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RemoveNodeReplaceConfiguration.cs.html">here</a> to see an example of how to use RemoveNodeReplaceConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RemoveNodeReplaceConfiguration.cs.html">here</a> to see an example of how to use RemoveNodeReplaceConfiguration API.</example>
         public async Task<RemoveNodeReplaceConfigurationResponse> RemoveNodeReplaceConfiguration(RemoveNodeReplaceConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeNodeReplaceConfiguration");
@@ -4562,7 +4562,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RemoveNodes.cs.html">here</a> to see an example of how to use RemoveNodes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RemoveNodes.cs.html">here</a> to see an example of how to use RemoveNodes API.</example>
         public async Task<RemoveNodesResponse> RemoveNodes(RemoveNodesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeNodes");
@@ -4619,7 +4619,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RemoveResourcePrincipalConfiguration.cs.html">here</a> to see an example of how to use RemoveResourcePrincipalConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RemoveResourcePrincipalConfiguration.cs.html">here</a> to see an example of how to use RemoveResourcePrincipalConfiguration API.</example>
         public async Task<RemoveResourcePrincipalConfigurationResponse> RemoveResourcePrincipalConfiguration(RemoveResourcePrincipalConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeResourcePrincipalConfiguration");
@@ -4676,7 +4676,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RenewBdsCertificate.cs.html">here</a> to see an example of how to use RenewBdsCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RenewBdsCertificate.cs.html">here</a> to see an example of how to use RenewBdsCertificate API.</example>
         public async Task<RenewBdsCertificateResponse> RenewBdsCertificate(RenewBdsCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called renewBdsCertificate");
@@ -4733,7 +4733,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RenewCertificate.cs.html">here</a> to see an example of how to use RenewCertificate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RenewCertificate.cs.html">here</a> to see an example of how to use RenewCertificate API.</example>
         public async Task<RenewCertificateResponse> RenewCertificate(RenewCertificateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called renewCertificate");
@@ -4790,7 +4790,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ReplaceNode.cs.html">here</a> to see an example of how to use ReplaceNode API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ReplaceNode.cs.html">here</a> to see an example of how to use ReplaceNode API.</example>
         public async Task<ReplaceNodeResponse> ReplaceNode(ReplaceNodeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called replaceNode");
@@ -4847,7 +4847,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RestartNode.cs.html">here</a> to see an example of how to use RestartNode API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/RestartNode.cs.html">here</a> to see an example of how to use RestartNode API.</example>
         public async Task<RestartNodeResponse> RestartNode(RestartNodeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called restartNode");
@@ -4904,7 +4904,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/SetDefaultBdsCertificateConfiguration.cs.html">here</a> to see an example of how to use SetDefaultBdsCertificateConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/SetDefaultBdsCertificateConfiguration.cs.html">here</a> to see an example of how to use SetDefaultBdsCertificateConfiguration API.</example>
         public async Task<SetDefaultBdsCertificateConfigurationResponse> SetDefaultBdsCertificateConfiguration(SetDefaultBdsCertificateConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called setDefaultBdsCertificateConfiguration");
@@ -4961,7 +4961,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/StartBdsInstance.cs.html">here</a> to see an example of how to use StartBdsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/StartBdsInstance.cs.html">here</a> to see an example of how to use StartBdsInstance API.</example>
         public async Task<StartBdsInstanceResponse> StartBdsInstance(StartBdsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startBdsInstance");
@@ -5018,7 +5018,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/StopBdsInstance.cs.html">here</a> to see an example of how to use StopBdsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/StopBdsInstance.cs.html">here</a> to see an example of how to use StopBdsInstance API.</example>
         public async Task<StopBdsInstanceResponse> StopBdsInstance(StopBdsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopBdsInstance");
@@ -5075,7 +5075,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/TestBdsMetastoreConfiguration.cs.html">here</a> to see an example of how to use TestBdsMetastoreConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/TestBdsMetastoreConfiguration.cs.html">here</a> to see an example of how to use TestBdsMetastoreConfiguration API.</example>
         public async Task<TestBdsMetastoreConfigurationResponse> TestBdsMetastoreConfiguration(TestBdsMetastoreConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called testBdsMetastoreConfiguration");
@@ -5131,7 +5131,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/TestBdsObjectStorageConnection.cs.html">here</a> to see an example of how to use TestBdsObjectStorageConnection API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/TestBdsObjectStorageConnection.cs.html">here</a> to see an example of how to use TestBdsObjectStorageConnection API.</example>
         public async Task<TestBdsObjectStorageConnectionResponse> TestBdsObjectStorageConnection(TestBdsObjectStorageConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called testBdsObjectStorageConnection");
@@ -5188,7 +5188,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/UpdateAutoScalingConfiguration.cs.html">here</a> to see an example of how to use UpdateAutoScalingConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/UpdateAutoScalingConfiguration.cs.html">here</a> to see an example of how to use UpdateAutoScalingConfiguration API.</example>
         public async Task<UpdateAutoScalingConfigurationResponse> UpdateAutoScalingConfiguration(UpdateAutoScalingConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAutoScalingConfiguration");
@@ -5244,7 +5244,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/UpdateBdsInstance.cs.html">here</a> to see an example of how to use UpdateBdsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/UpdateBdsInstance.cs.html">here</a> to see an example of how to use UpdateBdsInstance API.</example>
         public async Task<UpdateBdsInstanceResponse> UpdateBdsInstance(UpdateBdsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateBdsInstance");
@@ -5300,7 +5300,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/UpdateBdsMetastoreConfiguration.cs.html">here</a> to see an example of how to use UpdateBdsMetastoreConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/UpdateBdsMetastoreConfiguration.cs.html">here</a> to see an example of how to use UpdateBdsMetastoreConfiguration API.</example>
         public async Task<UpdateBdsMetastoreConfigurationResponse> UpdateBdsMetastoreConfiguration(UpdateBdsMetastoreConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateBdsMetastoreConfiguration");
@@ -5356,7 +5356,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/UpdateIdentityConfiguration.cs.html">here</a> to see an example of how to use UpdateIdentityConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/UpdateIdentityConfiguration.cs.html">here</a> to see an example of how to use UpdateIdentityConfiguration API.</example>
         public async Task<UpdateIdentityConfigurationResponse> UpdateIdentityConfiguration(UpdateIdentityConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateIdentityConfiguration");
@@ -5413,7 +5413,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/UpdateNodeBackupConfiguration.cs.html">here</a> to see an example of how to use UpdateNodeBackupConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/UpdateNodeBackupConfiguration.cs.html">here</a> to see an example of how to use UpdateNodeBackupConfiguration API.</example>
         public async Task<UpdateNodeBackupConfigurationResponse> UpdateNodeBackupConfiguration(UpdateNodeBackupConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNodeBackupConfiguration");
@@ -5470,7 +5470,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/UpdateNodeReplaceConfiguration.cs.html">here</a> to see an example of how to use UpdateNodeReplaceConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/UpdateNodeReplaceConfiguration.cs.html">here</a> to see an example of how to use UpdateNodeReplaceConfiguration API.</example>
         public async Task<UpdateNodeReplaceConfigurationResponse> UpdateNodeReplaceConfiguration(UpdateNodeReplaceConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNodeReplaceConfiguration");
@@ -5527,7 +5527,7 @@ namespace Oci.BdsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/UpdateResourcePrincipalConfiguration.cs.html">here</a> to see an example of how to use UpdateResourcePrincipalConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/UpdateResourcePrincipalConfiguration.cs.html">here</a> to see an example of how to use UpdateResourcePrincipalConfiguration API.</example>
         public async Task<UpdateResourcePrincipalConfigurationResponse> UpdateResourcePrincipalConfiguration(UpdateResourcePrincipalConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateResourcePrincipalConfiguration");

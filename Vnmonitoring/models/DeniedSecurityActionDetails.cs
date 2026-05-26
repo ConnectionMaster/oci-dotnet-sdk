@@ -33,7 +33,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Nullable<bool> IsRestrictedOrPartial { get; set; }
         
         /// <value>
-        /// The list of [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of evaluated security lists associated
+        /// The list of [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of evaluated security lists associated
         /// with the OCI resource's subnet.
         /// 
         /// </value>
@@ -41,7 +41,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Collections.Generic.List<string> EvaluatedSecurityListIds { get; set; }
         
         /// <value>
-        /// List of [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of evaluated network security groups
+        /// List of [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of evaluated network security groups
         /// associated with the OCI resource's VNIC.
         /// 
         /// </value>

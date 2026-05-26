@@ -24,7 +24,7 @@ namespace Oci.ResourceanalyticsService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet for the private network details.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet for the private network details.
         /// </value>
         /// <remarks>
         /// Required
@@ -34,7 +34,7 @@ namespace Oci.ResourceanalyticsService.Models
         public string SubnetId { get; set; }
         
         /// <value>
-        /// List of Network Security Group [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)'s for the private network details.
+        /// List of Network Security Group [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)'s for the private network details.
         /// <br/>
         /// Example: [&quot;ocid...&quot;, &quot;ocid...&quot;]
         /// </value>

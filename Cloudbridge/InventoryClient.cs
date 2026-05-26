@@ -82,7 +82,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/AnalyzeAssets.cs.html">here</a> to see an example of how to use AnalyzeAssets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/AnalyzeAssets.cs.html">here</a> to see an example of how to use AnalyzeAssets API.</example>
         public async Task<AnalyzeAssetsResponse> AnalyzeAssets(AnalyzeAssetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called analyzeAssets");
@@ -138,7 +138,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ChangeAssetCompartment.cs.html">here</a> to see an example of how to use ChangeAssetCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ChangeAssetCompartment.cs.html">here</a> to see an example of how to use ChangeAssetCompartment API.</example>
         public async Task<ChangeAssetCompartmentResponse> ChangeAssetCompartment(ChangeAssetCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeAssetCompartment");
@@ -194,7 +194,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ChangeAssetTags.cs.html">here</a> to see an example of how to use ChangeAssetTags API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ChangeAssetTags.cs.html">here</a> to see an example of how to use ChangeAssetTags API.</example>
         public async Task<ChangeAssetTagsResponse> ChangeAssetTags(ChangeAssetTagsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeAssetTags");
@@ -250,7 +250,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/CreateAsset.cs.html">here</a> to see an example of how to use CreateAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/CreateAsset.cs.html">here</a> to see an example of how to use CreateAsset API.</example>
         public async Task<CreateAssetResponse> CreateAsset(CreateAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAsset");
@@ -306,7 +306,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/CreateInventory.cs.html">here</a> to see an example of how to use CreateInventory API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/CreateInventory.cs.html">here</a> to see an example of how to use CreateInventory API.</example>
         public async Task<CreateInventoryResponse> CreateInventory(CreateInventoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createInventory");
@@ -362,7 +362,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/DeleteAsset.cs.html">here</a> to see an example of how to use DeleteAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/DeleteAsset.cs.html">here</a> to see an example of how to use DeleteAsset API.</example>
         public async Task<DeleteAssetResponse> DeleteAsset(DeleteAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAsset");
@@ -418,7 +418,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/DeleteInventory.cs.html">here</a> to see an example of how to use DeleteInventory API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/DeleteInventory.cs.html">here</a> to see an example of how to use DeleteInventory API.</example>
         public async Task<DeleteInventoryResponse> DeleteInventory(DeleteInventoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteInventory");
@@ -474,7 +474,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/GetAsset.cs.html">here</a> to see an example of how to use GetAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/GetAsset.cs.html">here</a> to see an example of how to use GetAsset API.</example>
         public async Task<GetAssetResponse> GetAsset(GetAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAsset");
@@ -530,7 +530,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/GetInventory.cs.html">here</a> to see an example of how to use GetInventory API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/GetInventory.cs.html">here</a> to see an example of how to use GetInventory API.</example>
         public async Task<GetInventoryResponse> GetInventory(GetInventoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getInventory");
@@ -586,7 +586,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ImportInventory.cs.html">here</a> to see an example of how to use ImportInventory API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ImportInventory.cs.html">here</a> to see an example of how to use ImportInventory API.</example>
         public async Task<ImportInventoryResponse> ImportInventory(ImportInventoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called importInventory");
@@ -643,7 +643,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListAssets.cs.html">here</a> to see an example of how to use ListAssets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListAssets.cs.html">here</a> to see an example of how to use ListAssets API.</example>
         public async Task<ListAssetsResponse> ListAssets(ListAssetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAssets");
@@ -699,7 +699,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListHistoricalMetrics.cs.html">here</a> to see an example of how to use ListHistoricalMetrics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListHistoricalMetrics.cs.html">here</a> to see an example of how to use ListHistoricalMetrics API.</example>
         public async Task<ListHistoricalMetricsResponse> ListHistoricalMetrics(ListHistoricalMetricsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listHistoricalMetrics");
@@ -756,7 +756,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListInventories.cs.html">here</a> to see an example of how to use ListInventories API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListInventories.cs.html">here</a> to see an example of how to use ListInventories API.</example>
         public async Task<ListInventoriesResponse> ListInventories(ListInventoriesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInventories");
@@ -812,7 +812,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/SubmitHistoricalMetrics.cs.html">here</a> to see an example of how to use SubmitHistoricalMetrics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/SubmitHistoricalMetrics.cs.html">here</a> to see an example of how to use SubmitHistoricalMetrics API.</example>
         public async Task<SubmitHistoricalMetricsResponse> SubmitHistoricalMetrics(SubmitHistoricalMetricsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called submitHistoricalMetrics");
@@ -868,7 +868,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/UpdateAsset.cs.html">here</a> to see an example of how to use UpdateAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/UpdateAsset.cs.html">here</a> to see an example of how to use UpdateAsset API.</example>
         public async Task<UpdateAssetResponse> UpdateAsset(UpdateAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAsset");
@@ -924,7 +924,7 @@ namespace Oci.CloudbridgeService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/UpdateInventory.cs.html">here</a> to see an example of how to use UpdateInventory API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/UpdateInventory.cs.html">here</a> to see an example of how to use UpdateInventory API.</example>
         public async Task<UpdateInventoryResponse> UpdateInventory(UpdateInventoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateInventory");

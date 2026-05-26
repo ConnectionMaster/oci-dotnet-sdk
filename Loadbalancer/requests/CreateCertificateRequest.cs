@@ -14,7 +14,7 @@ using Oci.LoadbalancerService.Models;
 namespace Oci.LoadbalancerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateCertificate.cs.html">here</a> to see an example of how to use CreateCertificate request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loadbalancer/CreateCertificate.cs.html">here</a> to see an example of how to use CreateCertificate request.
     /// </example>
     public class CreateCertificateRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.LoadbalancerService.Requests
         public CreateCertificateDetails CreateCertificateDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the load balancer on which to add the certificate bundle.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the load balancer on which to add the certificate bundle.
         /// </value>
         /// <remarks>
         /// Required

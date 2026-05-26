@@ -80,7 +80,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ChangeOracleDbAzureBlobContainerCompartment.cs.html">here</a> to see an example of how to use ChangeOracleDbAzureBlobContainerCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ChangeOracleDbAzureBlobContainerCompartment.cs.html">here</a> to see an example of how to use ChangeOracleDbAzureBlobContainerCompartment API.</example>
         public async Task<ChangeOracleDbAzureBlobContainerCompartmentResponse> ChangeOracleDbAzureBlobContainerCompartment(ChangeOracleDbAzureBlobContainerCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeOracleDbAzureBlobContainerCompartment");
@@ -137,7 +137,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbAzureBlobContainer.cs.html">here</a> to see an example of how to use CreateOracleDbAzureBlobContainer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbAzureBlobContainer.cs.html">here</a> to see an example of how to use CreateOracleDbAzureBlobContainer API.</example>
         public async Task<CreateOracleDbAzureBlobContainerResponse> CreateOracleDbAzureBlobContainer(CreateOracleDbAzureBlobContainerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOracleDbAzureBlobContainer");
@@ -194,7 +194,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/DeleteOracleDbAzureBlobContainer.cs.html">here</a> to see an example of how to use DeleteOracleDbAzureBlobContainer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/DeleteOracleDbAzureBlobContainer.cs.html">here</a> to see an example of how to use DeleteOracleDbAzureBlobContainer API.</example>
         public async Task<DeleteOracleDbAzureBlobContainerResponse> DeleteOracleDbAzureBlobContainer(DeleteOracleDbAzureBlobContainerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOracleDbAzureBlobContainer");
@@ -243,7 +243,7 @@ namespace Oci.DbmulticloudService
         }
 
         /// <summary>
-        /// Retrieves the details of an Oracle DB\u2013associated Azure Blob Container using the specified container resource [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Retrieves the details of an Oracle DB\u2013associated Azure Blob Container using the specified container resource [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -251,7 +251,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetOracleDbAzureBlobContainer.cs.html">here</a> to see an example of how to use GetOracleDbAzureBlobContainer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetOracleDbAzureBlobContainer.cs.html">here</a> to see an example of how to use GetOracleDbAzureBlobContainer API.</example>
         public async Task<GetOracleDbAzureBlobContainerResponse> GetOracleDbAzureBlobContainer(GetOracleDbAzureBlobContainerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOracleDbAzureBlobContainer");
@@ -308,7 +308,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbAzureBlobContainers.cs.html">here</a> to see an example of how to use ListOracleDbAzureBlobContainers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbAzureBlobContainers.cs.html">here</a> to see an example of how to use ListOracleDbAzureBlobContainers API.</example>
         public async Task<ListOracleDbAzureBlobContainersResponse> ListOracleDbAzureBlobContainers(ListOracleDbAzureBlobContainersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOracleDbAzureBlobContainers");
@@ -357,7 +357,7 @@ namespace Oci.DbmulticloudService
         }
 
         /// <summary>
-        /// Modifies the existing Oracle DB Azure Blob Container resource for a given [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Modifies the existing Oracle DB Azure Blob Container resource for a given [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -365,7 +365,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/UpdateOracleDbAzureBlobContainer.cs.html">here</a> to see an example of how to use UpdateOracleDbAzureBlobContainer API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/UpdateOracleDbAzureBlobContainer.cs.html">here</a> to see an example of how to use UpdateOracleDbAzureBlobContainer API.</example>
         public async Task<UpdateOracleDbAzureBlobContainerResponse> UpdateOracleDbAzureBlobContainer(UpdateOracleDbAzureBlobContainerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOracleDbAzureBlobContainer");

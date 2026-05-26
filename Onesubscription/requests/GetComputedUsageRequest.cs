@@ -14,7 +14,7 @@ using Oci.OnesubscriptionService.Models;
 namespace Oci.OnesubscriptionService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/onesubscription/GetComputedUsage.cs.html">here</a> to see an example of how to use GetComputedUsage request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/onesubscription/GetComputedUsage.cs.html">here</a> to see an example of how to use GetComputedUsage request.
     /// </example>
     public class GetComputedUsageRequest : Oci.Common.IOciRequest
     {

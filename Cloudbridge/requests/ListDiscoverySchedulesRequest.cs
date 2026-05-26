@@ -14,7 +14,7 @@ using Oci.CloudbridgeService.Models;
 namespace Oci.CloudbridgeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListDiscoverySchedules.cs.html">here</a> to see an example of how to use ListDiscoverySchedules request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/ListDiscoverySchedules.cs.html">here</a> to see an example of how to use ListDiscoverySchedules request.
     /// </example>
     public class ListDiscoverySchedulesRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.CloudbridgeService.Requests
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the discovery schedule.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the discovery schedule.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "discoveryScheduleId")]
         public string DiscoveryScheduleId { get; set; }

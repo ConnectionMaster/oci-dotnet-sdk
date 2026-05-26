@@ -84,7 +84,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/AddBlockVolumeToDatastore.cs.html">here</a> to see an example of how to use AddBlockVolumeToDatastore API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/AddBlockVolumeToDatastore.cs.html">here</a> to see an example of how to use AddBlockVolumeToDatastore API.</example>
         public async Task<AddBlockVolumeToDatastoreResponse> AddBlockVolumeToDatastore(AddBlockVolumeToDatastoreRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addBlockVolumeToDatastore");
@@ -135,7 +135,7 @@ namespace Oci.OcvpService
         /// <summary>
         /// Moves an Datastore into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -143,7 +143,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ChangeDatastoreCompartment.cs.html">here</a> to see an example of how to use ChangeDatastoreCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ChangeDatastoreCompartment.cs.html">here</a> to see an example of how to use ChangeDatastoreCompartment API.</example>
         public async Task<ChangeDatastoreCompartmentResponse> ChangeDatastoreCompartment(ChangeDatastoreCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDatastoreCompartment");
@@ -203,7 +203,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/CreateDatastore.cs.html">here</a> to see an example of how to use CreateDatastore API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/CreateDatastore.cs.html">here</a> to see an example of how to use CreateDatastore API.</example>
         public async Task<CreateDatastoreResponse> CreateDatastore(CreateDatastoreRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDatastore");
@@ -263,7 +263,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DeleteDatastore.cs.html">here</a> to see an example of how to use DeleteDatastore API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DeleteDatastore.cs.html">here</a> to see an example of how to use DeleteDatastore API.</example>
         public async Task<DeleteDatastoreResponse> DeleteDatastore(DeleteDatastoreRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDatastore");
@@ -319,7 +319,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/GetDatastore.cs.html">here</a> to see an example of how to use GetDatastore API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/GetDatastore.cs.html">here</a> to see an example of how to use GetDatastore API.</example>
         public async Task<GetDatastoreResponse> GetDatastore(GetDatastoreRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDatastore");
@@ -377,7 +377,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ListDatastores.cs.html">here</a> to see an example of how to use ListDatastores API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ListDatastores.cs.html">here</a> to see an example of how to use ListDatastores API.</example>
         public async Task<ListDatastoresResponse> ListDatastores(ListDatastoresRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDatastores");
@@ -437,7 +437,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/UpdateDatastore.cs.html">here</a> to see an example of how to use UpdateDatastore API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/UpdateDatastore.cs.html">here</a> to see an example of how to use UpdateDatastore API.</example>
         public async Task<UpdateDatastoreResponse> UpdateDatastore(UpdateDatastoreRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDatastore");

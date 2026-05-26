@@ -14,7 +14,7 @@ using Oci.QueueService.Models;
 namespace Oci.QueueService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/CreateQueue.cs.html">here</a> to see an example of how to use CreateQueue request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/queue/CreateQueue.cs.html">here</a> to see an example of how to use CreateQueue request.
     /// </example>
     public class CreateQueueRequest : Oci.Common.IOciRequest
     {

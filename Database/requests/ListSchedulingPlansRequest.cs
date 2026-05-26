@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListSchedulingPlans.cs.html">here</a> to see an example of how to use ListSchedulingPlans request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListSchedulingPlans.cs.html">here</a> to see an example of how to use ListSchedulingPlans request.
     /// </example>
     public class ListSchedulingPlansRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The compartment [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required
@@ -115,5 +115,23 @@ namespace Oci.DatabaseService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "id")]
         public string Id { get; set; }
+        
+        ///
+        /// <value>
+        /// A filter to return only resources that match the given plan intent exactly.
+        /// </value>
+        ///
+        public enum PlanIntentEnum {
+            [EnumMember(Value = "EXADATA_INFRASTRUCTURE_FULL_SOFTWARE_UPDATE")]
+            ExadataInfrastructureFullSoftwareUpdate,
+            [EnumMember(Value = "EXADATA_INFRASTRUCTURE_SECURITY_UPDATE")]
+            ExadataInfrastructureSecurityUpdate
+        };
+
+        /// <value>
+        /// A filter to return only resources that match the given plan intent exactly.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "planIntent")]
+        public System.Nullable<PlanIntentEnum> PlanIntent { get; set; }
     }
 }

@@ -14,7 +14,7 @@ using Oci.IdentitydomainsService.Models;
 namespace Oci.IdentitydomainsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyRequest.cs.html">here</a> to see an example of how to use GetMyRequest request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/GetMyRequest.cs.html">here</a> to see an example of how to use GetMyRequest request.
     /// </example>
     public class GetMyRequestRequest : Oci.Common.IOciRequest
     {

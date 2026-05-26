@@ -103,6 +103,10 @@ namespace Oci.GoldengateService.Models
       [EnumMember(Value = "GOLDENGATE_SWITCHOVER_DEPLOYMENT_PEER")]
       GoldengateSwitchoverDeploymentPeer,
       [EnumMember(Value = "GOLDENGATE_PIPELINE_PAUSE")]
-      GoldengatePipelinePause
+      GoldengatePipelinePause,
+      [EnumMember(Value = "GOLDENGATE_PIPELINE_CLONE")]
+      GoldengatePipelineClone,
+      [EnumMember(Value = "GOLDENGATE_DEPLOYMENT_DISASTER_RECOVERY_PRECHECK")]
+      GoldengateDeploymentDisasterRecoveryPrecheck
   }
 }

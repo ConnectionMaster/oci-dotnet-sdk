@@ -39,7 +39,7 @@ namespace Oci.ObjectstorageService.Responses
         /// GET request to get the next batch of object versions and prefixes. Repeat this process to retrieve the entire list of
         /// object versions and prefixes.
         /// <br/>
-        /// For more details about how pagination works, see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// For more details about how pagination works, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-next-page")]

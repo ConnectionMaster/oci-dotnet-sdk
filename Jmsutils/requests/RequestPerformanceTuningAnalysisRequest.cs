@@ -14,7 +14,7 @@ using Oci.JmsutilsService.Models;
 namespace Oci.JmsutilsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsutils/RequestPerformanceTuningAnalysis.cs.html">here</a> to see an example of how to use RequestPerformanceTuningAnalysis request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsutils/RequestPerformanceTuningAnalysis.cs.html">here</a> to see an example of how to use RequestPerformanceTuningAnalysis request.
     /// </example>
     public class RequestPerformanceTuningAnalysisRequest : Oci.Common.IOciRequest
     {

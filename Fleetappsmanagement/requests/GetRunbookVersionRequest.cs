@@ -14,7 +14,7 @@ using Oci.FleetappsmanagementService.Models;
 namespace Oci.FleetappsmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetRunbookVersion.cs.html">here</a> to see an example of how to use GetRunbookVersion request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetRunbookVersion.cs.html">here</a> to see an example of how to use GetRunbookVersion request.
     /// </example>
     public class GetRunbookVersionRequest : Oci.Common.IOciRequest
     {

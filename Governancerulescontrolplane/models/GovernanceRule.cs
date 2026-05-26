@@ -22,7 +22,7 @@ namespace Oci.GovernancerulescontrolplaneService.Models
     {
         
         /// <value>
-        /// The Oracle ID ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the governance rule.
+        /// The Oracle ID ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the governance rule.
         /// </value>
         /// <remarks>
         /// Required
@@ -32,7 +32,7 @@ namespace Oci.GovernancerulescontrolplaneService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The Oracle ID ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the root compartment containing the governance rule.
+        /// The Oracle ID ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the root compartment containing the governance rule.
         /// </value>
         /// <remarks>
         /// Required
@@ -91,7 +91,7 @@ namespace Oci.GovernancerulescontrolplaneService.Models
         public Template Template { get; set; }
         
         /// <value>
-        /// The Oracle ID ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the resource, which was used as a template to create this governance rule.
+        /// The Oracle ID ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the resource, which was used as a template to create this governance rule.
         /// </value>
         [JsonProperty(PropertyName = "relatedResourceId")]
         public string RelatedResourceId { get; set; }

@@ -20,7 +20,7 @@ namespace Oci.DnsService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment into which the resolver, along with
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment into which the resolver, along with
         /// its protected default view and resolver endpoints, should be moved.
         /// 
         /// </value>

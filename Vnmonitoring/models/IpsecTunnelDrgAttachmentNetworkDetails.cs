@@ -96,7 +96,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Nullable<bool> IsRouteUnificationEnabled { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the virtual circuit's DRG attachment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the virtual circuit's DRG attachment.
         /// </value>
         [JsonProperty(PropertyName = "transportAttachmentId")]
         public string TransportAttachmentId { get; set; }

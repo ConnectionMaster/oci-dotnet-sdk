@@ -14,7 +14,7 @@ using Oci.AnalyticsService.Models;
 namespace Oci.AnalyticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/DeletePrivateAccessChannel.cs.html">here</a> to see an example of how to use DeletePrivateAccessChannel request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/DeletePrivateAccessChannel.cs.html">here</a> to see an example of how to use DeletePrivateAccessChannel request.
     /// </example>
     public class DeletePrivateAccessChannelRequest : Oci.Common.IOciRequest
     {

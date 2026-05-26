@@ -82,7 +82,7 @@ namespace Oci.LimitsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/GetResourceAvailability.cs.html">here</a> to see an example of how to use GetResourceAvailability API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/GetResourceAvailability.cs.html">here</a> to see an example of how to use GetResourceAvailability API.</example>
         public async Task<GetResourceAvailabilityResponse> GetResourceAvailability(GetResourceAvailabilityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getResourceAvailability");
@@ -141,7 +141,7 @@ namespace Oci.LimitsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/ListLimitDefinitions.cs.html">here</a> to see an example of how to use ListLimitDefinitions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/ListLimitDefinitions.cs.html">here</a> to see an example of how to use ListLimitDefinitions API.</example>
         public async Task<ListLimitDefinitionsResponse> ListLimitDefinitions(ListLimitDefinitionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLimitDefinitions");
@@ -199,7 +199,7 @@ namespace Oci.LimitsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/ListLimitValues.cs.html">here</a> to see an example of how to use ListLimitValues API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/ListLimitValues.cs.html">here</a> to see an example of how to use ListLimitValues API.</example>
         public async Task<ListLimitValuesResponse> ListLimitValues(ListLimitValuesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLimitValues");
@@ -257,7 +257,7 @@ namespace Oci.LimitsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/ListServices.cs.html">here</a> to see an example of how to use ListServices API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/ListServices.cs.html">here</a> to see an example of how to use ListServices API.</example>
         public async Task<ListServicesResponse> ListServices(ListServicesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listServices");

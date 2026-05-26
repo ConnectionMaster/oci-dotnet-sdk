@@ -24,7 +24,7 @@ namespace Oci.FleetsoftwareupdateService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Exadata Fleet Update Collection.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Exadata Fleet Update Collection.
         /// 
         /// </value>
         /// <remarks>
@@ -59,7 +59,7 @@ namespace Oci.FleetsoftwareupdateService.Models
         public System.Nullable<CollectionServiceTypes> ServiceType { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Compartment.
         /// 
         /// </value>
         /// <remarks>
@@ -118,7 +118,7 @@ namespace Oci.FleetsoftwareupdateService.Models
         public string LifecycleDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of last completed FSU Cycle.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of last completed FSU Cycle.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "lastCompletedFsuCycleId")]

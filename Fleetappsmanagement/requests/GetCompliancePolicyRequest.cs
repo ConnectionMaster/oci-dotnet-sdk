@@ -14,7 +14,7 @@ using Oci.FleetappsmanagementService.Models;
 namespace Oci.FleetappsmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetCompliancePolicy.cs.html">here</a> to see an example of how to use GetCompliancePolicy request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetCompliancePolicy.cs.html">here</a> to see an example of how to use GetCompliancePolicy request.
     /// </example>
     public class GetCompliancePolicyRequest : Oci.Common.IOciRequest
     {

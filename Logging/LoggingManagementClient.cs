@@ -75,7 +75,7 @@ namespace Oci.LoggingService
 
         /// <summary>
         /// Moves a log group into a different compartment within the same tenancy.  When provided, the If-Match is checked against the resource ETag values.
-        /// For information about moving resources between compartments, see [Moving Resources Between Compartments](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// For information about moving resources between compartments, see [Moving Resources Between Compartments](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -83,7 +83,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ChangeLogGroupCompartment.cs.html">here</a> to see an example of how to use ChangeLogGroupCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ChangeLogGroupCompartment.cs.html">here</a> to see an example of how to use ChangeLogGroupCompartment API.</example>
         public async Task<ChangeLogGroupCompartmentResponse> ChangeLogGroupCompartment(ChangeLogGroupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeLogGroupCompartment");
@@ -141,7 +141,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ChangeLogLogGroup.cs.html">here</a> to see an example of how to use ChangeLogLogGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ChangeLogLogGroup.cs.html">here</a> to see an example of how to use ChangeLogLogGroup API.</example>
         public async Task<ChangeLogLogGroupResponse> ChangeLogLogGroup(ChangeLogLogGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeLogLogGroup");
@@ -192,7 +192,7 @@ namespace Oci.LoggingService
 
         /// <summary>
         /// Moves a saved search into a different compartment within the same tenancy. For information about moving
-        /// resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -200,7 +200,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ChangeLogSavedSearchCompartment.cs.html">here</a> to see an example of how to use ChangeLogSavedSearchCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ChangeLogSavedSearchCompartment.cs.html">here</a> to see an example of how to use ChangeLogSavedSearchCompartment API.</example>
         public async Task<ChangeLogSavedSearchCompartmentResponse> ChangeLogSavedSearchCompartment(ChangeLogSavedSearchCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeLogSavedSearchCompartment");
@@ -251,7 +251,7 @@ namespace Oci.LoggingService
 
         /// <summary>
         /// Moves the unified agent configuration into a different compartment within the same tenancy.  When provided, the If-Match is checked against the ETag values of the resource.
-        /// For information about moving resources between compartments, see [Moving Resources Between Compartments](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// For information about moving resources between compartments, see [Moving Resources Between Compartments](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -259,7 +259,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ChangeUnifiedAgentConfigurationCompartment.cs.html">here</a> to see an example of how to use ChangeUnifiedAgentConfigurationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ChangeUnifiedAgentConfigurationCompartment.cs.html">here</a> to see an example of how to use ChangeUnifiedAgentConfigurationCompartment API.</example>
         public async Task<ChangeUnifiedAgentConfigurationCompartmentResponse> ChangeUnifiedAgentConfigurationCompartment(ChangeUnifiedAgentConfigurationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeUnifiedAgentConfigurationCompartment");
@@ -318,7 +318,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/CreateLog.cs.html">here</a> to see an example of how to use CreateLog API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/CreateLog.cs.html">here</a> to see an example of how to use CreateLog API.</example>
         public async Task<CreateLogResponse> CreateLog(CreateLogRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createLog");
@@ -377,7 +377,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/CreateLogGroup.cs.html">here</a> to see an example of how to use CreateLogGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/CreateLogGroup.cs.html">here</a> to see an example of how to use CreateLogGroup API.</example>
         public async Task<CreateLogGroupResponse> CreateLogGroup(CreateLogGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createLogGroup");
@@ -435,7 +435,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/CreateLogSavedSearch.cs.html">here</a> to see an example of how to use CreateLogSavedSearch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/CreateLogSavedSearch.cs.html">here</a> to see an example of how to use CreateLogSavedSearch API.</example>
         public async Task<CreateLogSavedSearchResponse> CreateLogSavedSearch(CreateLogSavedSearchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createLogSavedSearch");
@@ -492,7 +492,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/CreateUnifiedAgentConfiguration.cs.html">here</a> to see an example of how to use CreateUnifiedAgentConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/CreateUnifiedAgentConfiguration.cs.html">here</a> to see an example of how to use CreateUnifiedAgentConfiguration API.</example>
         public async Task<CreateUnifiedAgentConfigurationResponse> CreateUnifiedAgentConfiguration(CreateUnifiedAgentConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createUnifiedAgentConfiguration");
@@ -549,7 +549,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/DeleteLog.cs.html">here</a> to see an example of how to use DeleteLog API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/DeleteLog.cs.html">here</a> to see an example of how to use DeleteLog API.</example>
         public async Task<DeleteLogResponse> DeleteLog(DeleteLogRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteLog");
@@ -606,7 +606,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/DeleteLogGroup.cs.html">here</a> to see an example of how to use DeleteLogGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/DeleteLogGroup.cs.html">here</a> to see an example of how to use DeleteLogGroup API.</example>
         public async Task<DeleteLogGroupResponse> DeleteLogGroup(DeleteLogGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteLogGroup");
@@ -663,7 +663,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/DeleteLogSavedSearch.cs.html">here</a> to see an example of how to use DeleteLogSavedSearch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/DeleteLogSavedSearch.cs.html">here</a> to see an example of how to use DeleteLogSavedSearch API.</example>
         public async Task<DeleteLogSavedSearchResponse> DeleteLogSavedSearch(DeleteLogSavedSearchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteLogSavedSearch");
@@ -720,7 +720,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/DeleteUnifiedAgentConfiguration.cs.html">here</a> to see an example of how to use DeleteUnifiedAgentConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/DeleteUnifiedAgentConfiguration.cs.html">here</a> to see an example of how to use DeleteUnifiedAgentConfiguration API.</example>
         public async Task<DeleteUnifiedAgentConfigurationResponse> DeleteUnifiedAgentConfiguration(DeleteUnifiedAgentConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteUnifiedAgentConfiguration");
@@ -778,7 +778,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/DeleteWorkRequest.cs.html">here</a> to see an example of how to use DeleteWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/DeleteWorkRequest.cs.html">here</a> to see an example of how to use DeleteWorkRequest API.</example>
         public async Task<DeleteWorkRequestResponse> DeleteWorkRequest(DeleteWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteWorkRequest");
@@ -836,7 +836,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/GetLog.cs.html">here</a> to see an example of how to use GetLog API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/GetLog.cs.html">here</a> to see an example of how to use GetLog API.</example>
         public async Task<GetLogResponse> GetLog(GetLogRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getLog");
@@ -893,7 +893,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/GetLogGroup.cs.html">here</a> to see an example of how to use GetLogGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/GetLogGroup.cs.html">here</a> to see an example of how to use GetLogGroup API.</example>
         public async Task<GetLogGroupResponse> GetLogGroup(GetLogGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getLogGroup");
@@ -950,7 +950,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/GetLogSavedSearch.cs.html">here</a> to see an example of how to use GetLogSavedSearch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/GetLogSavedSearch.cs.html">here</a> to see an example of how to use GetLogSavedSearch API.</example>
         public async Task<GetLogSavedSearchResponse> GetLogSavedSearch(GetLogSavedSearchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getLogSavedSearch");
@@ -1007,7 +1007,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/GetUnifiedAgentConfiguration.cs.html">here</a> to see an example of how to use GetUnifiedAgentConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/GetUnifiedAgentConfiguration.cs.html">here</a> to see an example of how to use GetUnifiedAgentConfiguration API.</example>
         public async Task<GetUnifiedAgentConfigurationResponse> GetUnifiedAgentConfiguration(GetUnifiedAgentConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getUnifiedAgentConfiguration");
@@ -1064,7 +1064,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -1121,7 +1121,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListLogGroups.cs.html">here</a> to see an example of how to use ListLogGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListLogGroups.cs.html">here</a> to see an example of how to use ListLogGroups API.</example>
         public async Task<ListLogGroupsResponse> ListLogGroups(ListLogGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLogGroups");
@@ -1179,7 +1179,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListLogSavedSearches.cs.html">here</a> to see an example of how to use ListLogSavedSearches API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListLogSavedSearches.cs.html">here</a> to see an example of how to use ListLogSavedSearches API.</example>
         public async Task<ListLogSavedSearchesResponse> ListLogSavedSearches(ListLogSavedSearchesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLogSavedSearches");
@@ -1236,7 +1236,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListLogs.cs.html">here</a> to see an example of how to use ListLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListLogs.cs.html">here</a> to see an example of how to use ListLogs API.</example>
         public async Task<ListLogsResponse> ListLogs(ListLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLogs");
@@ -1293,7 +1293,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListServices.cs.html">here</a> to see an example of how to use ListServices API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListServices.cs.html">here</a> to see an example of how to use ListServices API.</example>
         public async Task<ListServicesResponse> ListServices(ListServicesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listServices");
@@ -1350,7 +1350,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListUnifiedAgentConfigurations.cs.html">here</a> to see an example of how to use ListUnifiedAgentConfigurations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListUnifiedAgentConfigurations.cs.html">here</a> to see an example of how to use ListUnifiedAgentConfigurations API.</example>
         public async Task<ListUnifiedAgentConfigurationsResponse> ListUnifiedAgentConfigurations(ListUnifiedAgentConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUnifiedAgentConfigurations");
@@ -1408,7 +1408,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -1466,7 +1466,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -1524,7 +1524,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1583,7 +1583,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/UpdateLog.cs.html">here</a> to see an example of how to use UpdateLog API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/UpdateLog.cs.html">here</a> to see an example of how to use UpdateLog API.</example>
         public async Task<UpdateLogResponse> UpdateLog(UpdateLogRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateLog");
@@ -1642,7 +1642,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/UpdateLogGroup.cs.html">here</a> to see an example of how to use UpdateLogGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/UpdateLogGroup.cs.html">here</a> to see an example of how to use UpdateLogGroup API.</example>
         public async Task<UpdateLogGroupResponse> UpdateLogGroup(UpdateLogGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateLogGroup");
@@ -1700,7 +1700,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/UpdateLogSavedSearch.cs.html">here</a> to see an example of how to use UpdateLogSavedSearch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/UpdateLogSavedSearch.cs.html">here</a> to see an example of how to use UpdateLogSavedSearch API.</example>
         public async Task<UpdateLogSavedSearchResponse> UpdateLogSavedSearch(UpdateLogSavedSearchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateLogSavedSearch");
@@ -1759,7 +1759,7 @@ namespace Oci.LoggingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/UpdateUnifiedAgentConfiguration.cs.html">here</a> to see an example of how to use UpdateUnifiedAgentConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/logging/UpdateUnifiedAgentConfiguration.cs.html">here</a> to see an example of how to use UpdateUnifiedAgentConfiguration API.</example>
         public async Task<UpdateUnifiedAgentConfigurationResponse> UpdateUnifiedAgentConfiguration(UpdateUnifiedAgentConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateUnifiedAgentConfiguration");

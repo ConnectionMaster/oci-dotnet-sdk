@@ -14,7 +14,7 @@ using Oci.DbmulticloudService.Models;
 namespace Oci.DbmulticloudService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbAzureConnector.cs.html">here</a> to see an example of how to use CreateOracleDbAzureConnector request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbAzureConnector.cs.html">here</a> to see an example of how to use CreateOracleDbAzureConnector request.
     /// </example>
     public class CreateOracleDbAzureConnectorRequest : Oci.Common.IOciRequest
     {

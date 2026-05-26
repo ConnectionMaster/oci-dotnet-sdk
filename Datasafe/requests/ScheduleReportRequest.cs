@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ScheduleReport.cs.html">here</a> to see an example of how to use ScheduleReport request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ScheduleReport.cs.html">here</a> to see an example of how to use ScheduleReport request.
     /// </example>
     public class ScheduleReportRequest : Oci.Common.IOciRequest
     {

@@ -35,7 +35,7 @@ namespace Oci.LoadbalancerService.Models
         /// *  **SUFFIX_MATCH** - Looks for a `path` string that matches the ending portion of the incoming URI path.
         /// <br/>
         /// For a full description of how the system handles `matchType` in a path route set containing multiple rules, see
-        /// [Managing Request Routing](https://docs.cloud.oracle.com/Content/Balance/Tasks/managingrequest.htm).
+        /// [Managing Request Routing](https://docs.oracle.com/iaas/Content/Balance/Tasks/managingrequest.htm).
         /// 
         /// </value>
         ///
@@ -67,7 +67,7 @@ namespace Oci.LoadbalancerService.Models
         /// *  **SUFFIX_MATCH** - Looks for a `path` string that matches the ending portion of the incoming URI path.
         /// <br/>
         /// For a full description of how the system handles `matchType` in a path route set containing multiple rules, see
-        /// [Managing Request Routing](https://docs.cloud.oracle.com/Content/Balance/Tasks/managingrequest.htm).
+        /// [Managing Request Routing](https://docs.oracle.com/iaas/Content/Balance/Tasks/managingrequest.htm).
         /// 
         /// </value>
         /// <remarks>

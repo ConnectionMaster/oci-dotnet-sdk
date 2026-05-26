@@ -14,7 +14,7 @@ using Oci.RecoveryService.Models;
 namespace Oci.RecoveryService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/GetRecoveryServiceSubnet.cs.html">here</a> to see an example of how to use GetRecoveryServiceSubnet request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/recovery/GetRecoveryServiceSubnet.cs.html">here</a> to see an example of how to use GetRecoveryServiceSubnet request.
     /// </example>
     public class GetRecoveryServiceSubnetRequest : Oci.Common.IOciRequest
     {

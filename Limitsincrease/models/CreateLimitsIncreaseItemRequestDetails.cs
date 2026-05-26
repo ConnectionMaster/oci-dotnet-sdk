@@ -18,7 +18,7 @@ namespace Oci.LimitsincreaseService.Models
     /// <summary>
     /// The configuration details for creating a limit increase item within a limit increase request.
     /// For more information, see
-    /// [Creating a Limit Increase Request](https://docs.cloud.oracle.com/iaas/Content/General/service-limits/create-requests.htm).
+    /// [Creating a Limit Increase Request](https://docs.oracle.com/iaas/Content/General/service-limits/create-requests.htm).
     /// 
     /// </summary>
     public class CreateLimitsIncreaseItemRequestDetails 

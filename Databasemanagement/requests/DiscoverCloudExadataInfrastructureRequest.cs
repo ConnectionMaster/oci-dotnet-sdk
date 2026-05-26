@@ -14,7 +14,7 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/DiscoverCloudExadataInfrastructure.cs.html">here</a> to see an example of how to use DiscoverCloudExadataInfrastructure request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/DiscoverCloudExadataInfrastructure.cs.html">here</a> to see an example of how to use DiscoverCloudExadataInfrastructure request.
     /// </example>
     public class DiscoverCloudExadataInfrastructureRequest : Oci.Common.IOciRequest
     {

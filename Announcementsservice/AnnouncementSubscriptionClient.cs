@@ -83,7 +83,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/ChangeAnnouncementSubscriptionCompartment.cs.html">here</a> to see an example of how to use ChangeAnnouncementSubscriptionCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/ChangeAnnouncementSubscriptionCompartment.cs.html">here</a> to see an example of how to use ChangeAnnouncementSubscriptionCompartment API.</example>
         public async Task<ChangeAnnouncementSubscriptionCompartmentResponse> ChangeAnnouncementSubscriptionCompartment(ChangeAnnouncementSubscriptionCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeAnnouncementSubscriptionCompartment");
@@ -142,7 +142,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/CreateAnnouncementSubscription.cs.html">here</a> to see an example of how to use CreateAnnouncementSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/CreateAnnouncementSubscription.cs.html">here</a> to see an example of how to use CreateAnnouncementSubscription API.</example>
         public async Task<CreateAnnouncementSubscriptionResponse> CreateAnnouncementSubscription(CreateAnnouncementSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAnnouncementSubscription");
@@ -201,7 +201,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/CreateFilterGroup.cs.html">here</a> to see an example of how to use CreateFilterGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/CreateFilterGroup.cs.html">here</a> to see an example of how to use CreateFilterGroup API.</example>
         public async Task<CreateFilterGroupResponse> CreateFilterGroup(CreateFilterGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createFilterGroup");
@@ -260,7 +260,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/DeleteAnnouncementSubscription.cs.html">here</a> to see an example of how to use DeleteAnnouncementSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/DeleteAnnouncementSubscription.cs.html">here</a> to see an example of how to use DeleteAnnouncementSubscription API.</example>
         public async Task<DeleteAnnouncementSubscriptionResponse> DeleteAnnouncementSubscription(DeleteAnnouncementSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAnnouncementSubscription");
@@ -319,7 +319,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/DeleteFilterGroup.cs.html">here</a> to see an example of how to use DeleteFilterGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/DeleteFilterGroup.cs.html">here</a> to see an example of how to use DeleteFilterGroup API.</example>
         public async Task<DeleteFilterGroupResponse> DeleteFilterGroup(DeleteFilterGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteFilterGroup");
@@ -378,7 +378,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/GetAnnouncementSubscription.cs.html">here</a> to see an example of how to use GetAnnouncementSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/GetAnnouncementSubscription.cs.html">here</a> to see an example of how to use GetAnnouncementSubscription API.</example>
         public async Task<GetAnnouncementSubscriptionResponse> GetAnnouncementSubscription(GetAnnouncementSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAnnouncementSubscription");
@@ -437,7 +437,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/ListAnnouncementSubscriptions.cs.html">here</a> to see an example of how to use ListAnnouncementSubscriptions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/ListAnnouncementSubscriptions.cs.html">here</a> to see an example of how to use ListAnnouncementSubscriptions API.</example>
         public async Task<ListAnnouncementSubscriptionsResponse> ListAnnouncementSubscriptions(ListAnnouncementSubscriptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAnnouncementSubscriptions");
@@ -496,7 +496,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/UpdateAnnouncementSubscription.cs.html">here</a> to see an example of how to use UpdateAnnouncementSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/UpdateAnnouncementSubscription.cs.html">here</a> to see an example of how to use UpdateAnnouncementSubscription API.</example>
         public async Task<UpdateAnnouncementSubscriptionResponse> UpdateAnnouncementSubscription(UpdateAnnouncementSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAnnouncementSubscription");
@@ -555,7 +555,7 @@ namespace Oci.AnnouncementsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/UpdateFilterGroup.cs.html">here</a> to see an example of how to use UpdateFilterGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/UpdateFilterGroup.cs.html">here</a> to see an example of how to use UpdateFilterGroup API.</example>
         public async Task<UpdateFilterGroupResponse> UpdateFilterGroup(UpdateFilterGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateFilterGroup");

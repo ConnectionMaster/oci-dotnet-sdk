@@ -75,7 +75,7 @@ namespace Oci.IdentitydataplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydataplane/GenerateScopedAccessToken.cs.html">here</a> to see an example of how to use GenerateScopedAccessToken API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydataplane/GenerateScopedAccessToken.cs.html">here</a> to see an example of how to use GenerateScopedAccessToken API.</example>
         public async Task<GenerateScopedAccessTokenResponse> GenerateScopedAccessToken(GenerateScopedAccessTokenRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateScopedAccessToken");
@@ -134,7 +134,7 @@ namespace Oci.IdentitydataplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydataplane/GenerateUserSecurityToken.cs.html">here</a> to see an example of how to use GenerateUserSecurityToken API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydataplane/GenerateUserSecurityToken.cs.html">here</a> to see an example of how to use GenerateUserSecurityToken API.</example>
         public async Task<GenerateUserSecurityTokenResponse> GenerateUserSecurityToken(GenerateUserSecurityTokenRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateUserSecurityToken");

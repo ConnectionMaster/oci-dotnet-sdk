@@ -37,7 +37,7 @@ namespace Oci.LoadbalancerService.Models
         /// By default, you can specify only the standard HTTP methods defined in the
         /// [HTTP Method Registry](http://www.iana.org/assignments/http-methods/http-methods.xhtml). You can also
         /// see a list of supported standard HTTP methods in the Load Balancing service documentation at
-        /// [Managing Rule Sets](https://docs.cloud.oracle.com/Content/Balance/Tasks/managingrulesets.htm).
+        /// [Managing Rule Sets](https://docs.oracle.com/iaas/Content/Balance/Tasks/managingrulesets.htm).
         /// <br/>
         /// Your backend application must be able to handle the methods specified in this list.
         /// <br/>

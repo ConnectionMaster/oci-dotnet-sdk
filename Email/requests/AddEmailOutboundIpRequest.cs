@@ -14,7 +14,7 @@ using Oci.EmailService.Models;
 namespace Oci.EmailService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/AddEmailOutboundIp.cs.html">here</a> to see an example of how to use AddEmailOutboundIp request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/AddEmailOutboundIp.cs.html">here</a> to see an example of how to use AddEmailOutboundIp request.
     /// </example>
     public class AddEmailOutboundIpRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.EmailService.Requests
         public AddEmailOutboundIpDetails AddEmailOutboundIpDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the IpPool.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the IpPool.
         /// </value>
         /// <remarks>
         /// Required

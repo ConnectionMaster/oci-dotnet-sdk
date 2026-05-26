@@ -14,13 +14,13 @@ using Oci.GenerativeaiagentService.Models;
 namespace Oci.GenerativeaiagentService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagent/GetAgent.cs.html">here</a> to see an example of how to use GetAgent request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagent/GetAgent.cs.html">here</a> to see an example of how to use GetAgent request.
     /// </example>
     public class GetAgentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the agent.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the agent.
         /// </value>
         /// <remarks>
         /// Required

@@ -17,10 +17,10 @@ namespace Oci.ResourcemanagerService.Models
 {
     /// <summary>
     /// Location information about custom Terraform providers for a stack.
-    /// For more information, see [Using Custom Providers with a Stack](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/update-stack-custom-providers.htm).
+    /// For more information, see [Using Custom Providers with a Stack](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/update-stack-custom-providers.htm).
     /// Note: Older stacks must be explicitly updated to use Terraform Registry (`isThirdPartyProviderExperienceEnabled=true`).
     /// See {@link #updateStack(UpdateStackRequest) updateStack}. For more information, see
-    /// [Using Terraform Registry with an Older Stack](https://docs.cloud.oracle.com/iaas/Content/ResourceManager/Tasks/update-stack-tf-reg.htm).
+    /// [Using Terraform Registry with an Older Stack](https://docs.oracle.com/iaas/Content/ResourceManager/Tasks/update-stack-tf-reg.htm).
     /// 
     /// </summary>
     public class CustomTerraformProvider 
@@ -28,7 +28,7 @@ namespace Oci.ResourcemanagerService.Models
         
         /// <value>
         /// The name of the region that contains the bucket you want.
-        /// For information about regions, see [Regions and Availability Domains](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/regions.htm).
+        /// For information about regions, see [Regions and Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm).
         /// Example: us-phoenix-1
         /// </value>
         /// <remarks>
@@ -40,7 +40,7 @@ namespace Oci.ResourcemanagerService.Models
         
         /// <value>
         /// The Object Storage namespace that contains the bucket you want.
-        /// For information about Object Storage namespaces, see [Understanding Object Storage Namespaces](https://docs.cloud.oracle.com/iaas/Content/Object/Tasks/understandingnamespaces.htm).
+        /// For information about Object Storage namespaces, see [Understanding Object Storage Namespaces](https://docs.oracle.com/iaas/Content/Object/Tasks/understandingnamespaces.htm).
         /// 
         /// </value>
         /// <remarks>
@@ -52,7 +52,7 @@ namespace Oci.ResourcemanagerService.Models
         
         /// <value>
         /// The name of the bucket that contains the binary files for the custom Terraform providers.
-        /// For information about buckets, see [Managing Buckets](https://docs.cloud.oracle.com/iaas/Content/Object/Tasks/managingbuckets.htm).
+        /// For information about buckets, see [Managing Buckets](https://docs.oracle.com/iaas/Content/Object/Tasks/managingbuckets.htm).
         /// 
         /// </value>
         /// <remarks>

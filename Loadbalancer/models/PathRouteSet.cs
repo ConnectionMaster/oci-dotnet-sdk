@@ -17,7 +17,7 @@ namespace Oci.LoadbalancerService.Models
 {
     /// <summary>
     /// A named set of path route rules. For more information, see
-    /// [Managing Request Routing](https://docs.cloud.oracle.com/Content/Balance/Tasks/managingrequest.htm).
+    /// [Managing Request Routing](https://docs.oracle.com/iaas/Content/Balance/Tasks/managingrequest.htm).
     /// <br/>
     /// **Warning:** Oracle recommends that you avoid using any confidential information when you supply string values using the API.
     /// 

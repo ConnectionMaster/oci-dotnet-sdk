@@ -14,7 +14,7 @@ using Oci.DatalabelingService.Models;
 namespace Oci.DatalabelingService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datalabelingservice/AddDatasetLabels.cs.html">here</a> to see an example of how to use AddDatasetLabels request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datalabelingservice/AddDatasetLabels.cs.html">here</a> to see an example of how to use AddDatasetLabels request.
     /// </example>
     public class AddDatasetLabelsRequest : Oci.Common.IOciRequest
     {

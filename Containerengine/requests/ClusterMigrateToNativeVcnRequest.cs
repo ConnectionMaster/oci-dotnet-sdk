@@ -14,7 +14,7 @@ using Oci.ContainerengineService.Models;
 namespace Oci.ContainerengineService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ClusterMigrateToNativeVcn.cs.html">here</a> to see an example of how to use ClusterMigrateToNativeVcn request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/ClusterMigrateToNativeVcn.cs.html">here</a> to see an example of how to use ClusterMigrateToNativeVcn request.
     /// </example>
     public class ClusterMigrateToNativeVcnRequest : Oci.Common.IOciRequest
     {

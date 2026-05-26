@@ -81,7 +81,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/CreateOpensearchClusterPipeline.cs.html">here</a> to see an example of how to use CreateOpensearchClusterPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/CreateOpensearchClusterPipeline.cs.html">here</a> to see an example of how to use CreateOpensearchClusterPipeline API.</example>
         public async Task<CreateOpensearchClusterPipelineResponse> CreateOpensearchClusterPipeline(CreateOpensearchClusterPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOpensearchClusterPipeline");
@@ -137,7 +137,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/DeleteOpensearchClusterPipeline.cs.html">here</a> to see an example of how to use DeleteOpensearchClusterPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/DeleteOpensearchClusterPipeline.cs.html">here</a> to see an example of how to use DeleteOpensearchClusterPipeline API.</example>
         public async Task<DeleteOpensearchClusterPipelineResponse> DeleteOpensearchClusterPipeline(DeleteOpensearchClusterPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOpensearchClusterPipeline");
@@ -193,7 +193,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/GetOpensearchClusterPipeline.cs.html">here</a> to see an example of how to use GetOpensearchClusterPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/GetOpensearchClusterPipeline.cs.html">here</a> to see an example of how to use GetOpensearchClusterPipeline API.</example>
         public async Task<GetOpensearchClusterPipelineResponse> GetOpensearchClusterPipeline(GetOpensearchClusterPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOpensearchClusterPipeline");
@@ -250,7 +250,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ListOpensearchClusterPipelines.cs.html">here</a> to see an example of how to use ListOpensearchClusterPipelines API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/ListOpensearchClusterPipelines.cs.html">here</a> to see an example of how to use ListOpensearchClusterPipelines API.</example>
         public async Task<ListOpensearchClusterPipelinesResponse> ListOpensearchClusterPipelines(ListOpensearchClusterPipelinesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOpensearchClusterPipelines");
@@ -306,7 +306,7 @@ namespace Oci.OpensearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/UpdateOpensearchClusterPipeline.cs.html">here</a> to see an example of how to use UpdateOpensearchClusterPipeline API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/UpdateOpensearchClusterPipeline.cs.html">here</a> to see an example of how to use UpdateOpensearchClusterPipeline API.</example>
         public async Task<UpdateOpensearchClusterPipelineResponse> UpdateOpensearchClusterPipeline(UpdateOpensearchClusterPipelineRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOpensearchClusterPipeline");

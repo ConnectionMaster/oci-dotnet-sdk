@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDifferenceColumn.cs.html">here</a> to see an example of how to use GetDifferenceColumn request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetDifferenceColumn.cs.html">here</a> to see an example of how to use GetDifferenceColumn request.
     /// </example>
     public class GetDifferenceColumnRequest : Oci.Common.IOciRequest
     {

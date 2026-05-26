@@ -72,7 +72,7 @@ namespace Oci.OnsService
         /// <summary>
         /// Moves a topic into a different compartment within the same tenancy. For information about moving resources
         /// between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// &lt;br/&gt;
         /// Transactions Per Minute (TPM) per-tenancy limit for this operation: 60.
         /// 
@@ -82,7 +82,7 @@ namespace Oci.OnsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/ChangeTopicCompartment.cs.html">here</a> to see an example of how to use ChangeTopicCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/ChangeTopicCompartment.cs.html">here</a> to see an example of how to use ChangeTopicCompartment API.</example>
         public async Task<ChangeTopicCompartmentResponse> ChangeTopicCompartment(ChangeTopicCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeTopicCompartment");
@@ -132,17 +132,17 @@ namespace Oci.OnsService
 
         /// <summary>
         /// Creates a topic in the specified compartment. For general information about topics, see
-        /// [Managing Topics and Subscriptions](https://docs.cloud.oracle.com/iaas/Content/Notification/Tasks/managingtopicsandsubscriptions.htm).
+        /// [Managing Topics and Subscriptions](https://docs.oracle.com/iaas/Content/Notification/Tasks/managingtopicsandsubscriptions.htm).
         /// &lt;br/&gt;
         /// For the purposes of access control, you must provide the OCID of the compartment where you want the topic to reside.
-        /// For information about access control and compartments, see [Overview of the IAM Service](https://docs.cloud.oracle.com/Content/Identity/Concepts/overview.htm).
+        /// For information about access control and compartments, see [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// &lt;br/&gt;
         /// You must specify a display name for the topic.
         /// &lt;br/&gt;
         /// All Oracle Cloud Infrastructure resources, including topics, get an Oracle-assigned, unique ID called an
         /// Oracle Cloud Identifier (OCID). When you create a resource, you can find its OCID in the response. You can also
         /// retrieve a resource&#39;s OCID by using a List API operation on that resource type, or by viewing the resource in the
-        /// Console. For more information, see [Resource Identifiers](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Console. For more information, see [Resource Identifiers](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// &lt;br/&gt;
         /// Transactions Per Minute (TPM) per-tenancy limit for this operation: 60.
         /// 
@@ -152,7 +152,7 @@ namespace Oci.OnsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/CreateTopic.cs.html">here</a> to see an example of how to use CreateTopic API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/CreateTopic.cs.html">here</a> to see an example of how to use CreateTopic API.</example>
         public async Task<CreateTopicResponse> CreateTopic(CreateTopicRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createTopic");
@@ -211,7 +211,7 @@ namespace Oci.OnsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/DeleteTopic.cs.html">here</a> to see an example of how to use DeleteTopic API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/DeleteTopic.cs.html">here</a> to see an example of how to use DeleteTopic API.</example>
         public async Task<DeleteTopicResponse> DeleteTopic(DeleteTopicRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteTopic");
@@ -268,7 +268,7 @@ namespace Oci.OnsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/GetTopic.cs.html">here</a> to see an example of how to use GetTopic API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/GetTopic.cs.html">here</a> to see an example of how to use GetTopic API.</example>
         public async Task<GetTopicResponse> GetTopic(GetTopicRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTopic");
@@ -327,7 +327,7 @@ namespace Oci.OnsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/ListTopics.cs.html">here</a> to see an example of how to use ListTopics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/ListTopics.cs.html">here</a> to see an example of how to use ListTopics API.</example>
         public async Task<ListTopicsResponse> ListTopics(ListTopicsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTopics");
@@ -386,7 +386,7 @@ namespace Oci.OnsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/UpdateTopic.cs.html">here</a> to see an example of how to use UpdateTopic API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/UpdateTopic.cs.html">here</a> to see an example of how to use UpdateTopic API.</example>
         public async Task<UpdateTopicResponse> UpdateTopic(UpdateTopicRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateTopic");

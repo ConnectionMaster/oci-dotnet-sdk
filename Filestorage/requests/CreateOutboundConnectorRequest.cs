@@ -14,7 +14,7 @@ using Oci.FilestorageService.Models;
 namespace Oci.FilestorageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateOutboundConnector.cs.html">here</a> to see an example of how to use CreateOutboundConnector request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/CreateOutboundConnector.cs.html">here</a> to see an example of how to use CreateOutboundConnector request.
     /// </example>
     public class CreateOutboundConnectorRequest : Oci.Common.IOciRequest
     {

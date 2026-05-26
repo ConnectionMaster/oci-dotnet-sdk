@@ -14,13 +14,13 @@ using Oci.WafService.Models;
 namespace Oci.WafService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListWebAppFirewalls.cs.html">here</a> to see an example of how to use ListWebAppFirewalls request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waf/ListWebAppFirewalls.cs.html">here</a> to see an example of how to use ListWebAppFirewalls request.
     /// </example>
     public class ListWebAppFirewallsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment in which to list resources.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment in which to list resources.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,13 +30,13 @@ namespace Oci.WafService.Requests
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// A filter to return only the WebAppFirewall with the given [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// A filter to return only the WebAppFirewall with the given [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "id")]
         public string Id { get; set; }
         
         /// <value>
-        /// A filter to return only the WebAppFirewall with the given [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of related WebAppFirewallPolicy.
+        /// A filter to return only the WebAppFirewall with the given [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of related WebAppFirewallPolicy.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "webAppFirewallPolicyId")]

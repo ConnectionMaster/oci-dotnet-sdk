@@ -14,7 +14,7 @@ using Oci.DataflowService.Models;
 namespace Oci.DataflowService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dataflow/CascadingDeleteApplication.cs.html">here</a> to see an example of how to use CascadingDeleteApplication request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dataflow/CascadingDeleteApplication.cs.html">here</a> to see an example of how to use CascadingDeleteApplication request.
     /// </example>
     public class CascadingDeleteApplicationRequest : Oci.Common.IOciRequest
     {

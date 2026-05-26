@@ -14,7 +14,7 @@ using Oci.FleetappsmanagementService.Models;
 namespace Oci.FleetappsmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ChangeFleetCompartment.cs.html">here</a> to see an example of how to use ChangeFleetCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ChangeFleetCompartment.cs.html">here</a> to see an example of how to use ChangeFleetCompartment request.
     /// </example>
     public class ChangeFleetCompartmentRequest : Oci.Common.IOciRequest
     {

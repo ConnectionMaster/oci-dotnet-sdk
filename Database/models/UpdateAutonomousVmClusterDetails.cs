@@ -46,7 +46,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -55,7 +55,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]
@@ -78,6 +78,48 @@ namespace Oci.DatabaseService.Models
         /// </value>
         [JsonProperty(PropertyName = "totalContainerDatabases")]
         public System.Nullable<int> TotalContainerDatabases { get; set; }
+        
+        /// <value>
+        /// The time zone to use for the Autonomous VM cluster. For details, see [DB System Time Zones](https://docs.oracle.com/iaas/Content/Database/References/timezones.htm).
+        /// </value>
+        [JsonProperty(PropertyName = "timeZone")]
+        public string TimeZone { get; set; }
+        
+        /// <value>
+        /// The SCAN Listener TLS port number. Default value is 2484.
+        /// </value>
+        [JsonProperty(PropertyName = "scanListenerPortTls")]
+        public System.Nullable<int> ScanListenerPortTls { get; set; }
+        
+        /// <value>
+        /// The SCAN Listener Non TLS port number. Default value is 1521.
+        /// </value>
+        [JsonProperty(PropertyName = "scanListenerPortNonTls")]
+        public System.Nullable<int> ScanListenerPortNonTls { get; set; }
+        
+        /// <value>
+        /// Enable mutual TLS(mTLS) authentication for database. Default is TLS.
+        /// </value>
+        [JsonProperty(PropertyName = "isMtlsEnabled")]
+        public System.Nullable<bool> IsMtlsEnabled { get; set; }
+                ///
+        /// <value>
+        /// The distribution algorithm used for the Autonomous VM cluster.
+        /// </value>
+        ///
+        public enum DistributionAlgorithmEnum {
+            [EnumMember(Value = "RESOURCE_OPTIMIZED")]
+            ResourceOptimized,
+            [EnumMember(Value = "DISTRIBUTION_OPTIMIZED")]
+            DistributionOptimized
+        };
+
+        /// <value>
+        /// The distribution algorithm used for the Autonomous VM cluster.
+        /// </value>
+        [JsonProperty(PropertyName = "distributionAlgorithm")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<DistributionAlgorithmEnum> DistributionAlgorithm { get; set; }
         
     }
 }

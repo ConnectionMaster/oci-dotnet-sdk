@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.OpensearchService.Models
 {
     /// <summary>
-    /// The OCPU and memory configuration to update on an existing OpenSearch cluster for [vertical resizing](https://docs.cloud.oracle.com/iaas/Content/search-opensearch/Tasks/resizingacluster.htm#vertical).
+    /// The OCPU and memory configuration to update on an existing OpenSearch cluster for [vertical resizing](https://docs.oracle.com/iaas/Content/search-opensearch/Tasks/resizingacluster.htm#vertical).
     /// </summary>
     public class ResizeOpensearchClusterVerticalDetails 
     {

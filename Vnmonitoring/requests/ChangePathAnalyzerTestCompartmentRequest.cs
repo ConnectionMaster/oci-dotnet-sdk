@@ -14,13 +14,13 @@ using Oci.VnmonitoringService.Models;
 namespace Oci.VnmonitoringService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/ChangePathAnalyzerTestCompartment.cs.html">here</a> to see an example of how to use ChangePathAnalyzerTestCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vnmonitoring/ChangePathAnalyzerTestCompartment.cs.html">here</a> to see an example of how to use ChangePathAnalyzerTestCompartment request.
     /// </example>
     public class ChangePathAnalyzerTestCompartmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the `PathAnalyzerTest` resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the `PathAnalyzerTest` resource.
         /// </value>
         /// <remarks>
         /// Required

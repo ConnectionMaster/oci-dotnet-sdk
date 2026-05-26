@@ -14,13 +14,13 @@ using Oci.OnsService.Models;
 namespace Oci.OnsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/GetTopic.cs.html">here</a> to see an example of how to use GetTopic request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ons/GetTopic.cs.html">here</a> to see an example of how to use GetTopic request.
     /// </example>
     public class GetTopicRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the topic to retrieve.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the topic to retrieve.
         /// <br/>
         /// Transactions Per Minute (TPM) per-tenancy limit for this operation: 120.
         /// 

@@ -14,7 +14,7 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDetachIpv6s.cs.html">here</a> to see an example of how to use BulkDetachIpv6s request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkDetachIpv6s.cs.html">here</a> to see an example of how to use BulkDetachIpv6s request.
     /// </example>
     public class BulkDetachIpv6sRequest : Oci.Common.IOciRequest
     {

@@ -14,7 +14,7 @@ using Oci.ManagementagentService.Models;
 namespace Oci.ManagementagentService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetNamedCredential.cs.html">here</a> to see an example of how to use GetNamedCredential request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementagent/GetNamedCredential.cs.html">here</a> to see an example of how to use GetNamedCredential request.
     /// </example>
     public class GetNamedCredentialRequest : Oci.Common.IOciRequest
     {

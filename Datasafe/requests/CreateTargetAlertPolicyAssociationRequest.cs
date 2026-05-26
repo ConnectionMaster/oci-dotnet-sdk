@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateTargetAlertPolicyAssociation.cs.html">here</a> to see an example of how to use CreateTargetAlertPolicyAssociation request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/CreateTargetAlertPolicyAssociation.cs.html">here</a> to see an example of how to use CreateTargetAlertPolicyAssociation request.
     /// </example>
     public class CreateTargetAlertPolicyAssociationRequest : Oci.Common.IOciRequest
     {

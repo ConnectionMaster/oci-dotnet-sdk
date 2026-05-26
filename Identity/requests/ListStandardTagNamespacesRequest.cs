@@ -14,7 +14,7 @@ using Oci.IdentityService.Models;
 namespace Oci.IdentityService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identity/ListStandardTagNamespaces.cs.html">here</a> to see an example of how to use ListStandardTagNamespaces request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identity/ListStandardTagNamespaces.cs.html">here</a> to see an example of how to use ListStandardTagNamespaces request.
     /// </example>
     public class ListStandardTagNamespacesRequest : Oci.Common.IOciRequest
     {

@@ -14,7 +14,7 @@ using Oci.UsageapiService.Models;
 namespace Oci.UsageapiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/RequestCleanEnergyUsage.cs.html">here</a> to see an example of how to use RequestCleanEnergyUsage request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/RequestCleanEnergyUsage.cs.html">here</a> to see an example of how to use RequestCleanEnergyUsage request.
     /// </example>
     public class RequestCleanEnergyUsageRequest : Oci.Common.IOciRequest
     {

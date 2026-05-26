@@ -22,7 +22,7 @@ namespace Oci.ApmsyntheticsService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the On-premise VP worker.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the On-premise VP worker.
         /// </value>
         /// <remarks>
         /// Required

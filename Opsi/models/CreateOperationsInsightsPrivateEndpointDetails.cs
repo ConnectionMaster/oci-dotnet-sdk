@@ -32,7 +32,7 @@ namespace Oci.OpsiService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The compartment [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Private service accessed database.
+        /// The compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Private service accessed database.
         /// </value>
         /// <remarks>
         /// Required
@@ -42,7 +42,7 @@ namespace Oci.OpsiService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The VCN [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Private service accessed database.
+        /// The VCN [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Private service accessed database.
         /// </value>
         /// <remarks>
         /// Required
@@ -52,7 +52,7 @@ namespace Oci.OpsiService.Models
         public string VcnId { get; set; }
         
         /// <value>
-        /// The Subnet [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Private service accessed database.
+        /// The Subnet [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Private service accessed database.
         /// </value>
         /// <remarks>
         /// Required
@@ -80,7 +80,7 @@ namespace Oci.OpsiService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the network security groups that the private endpoint belongs to.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the network security groups that the private endpoint belongs to.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "nsgIds")]

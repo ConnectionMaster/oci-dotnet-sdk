@@ -14,13 +14,13 @@ using Oci.JmsjavadownloadsService.Models;
 namespace Oci.JmsjavadownloadsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListJavaDownloadTokens.cs.html">here</a> to see an example of how to use ListJavaDownloadTokens request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListJavaDownloadTokens.cs.html">here</a> to see an example of how to use ListJavaDownloadTokens request.
     /// </example>
     public class ListJavaDownloadTokensRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the tenancy.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the tenancy.
         /// 
         /// </value>
         /// <remarks>

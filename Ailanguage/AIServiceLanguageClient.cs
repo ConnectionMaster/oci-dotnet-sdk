@@ -75,7 +75,7 @@ namespace Oci.AilanguageService
         /// <summary>
         /// The API returns the detected language and a related confidence score (between 0 and 1).  It supports passing a batch of records.
         /// &lt;br/&gt;
-        /// [List of supported languages.](https://docs.cloud.oracle.com/iaas/language/using/pretrain-models.htm#lang-detect)
+        /// [List of supported languages.](https://docs.oracle.com/iaas/language/using/pretrain-models.htm#lang-detect)
         /// &lt;br/&gt;
         /// Limitations:
         /// - A batch may have up to 100 records.
@@ -88,7 +88,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchDetectDominantLanguage.cs.html">here</a> to see an example of how to use BatchDetectDominantLanguage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchDetectDominantLanguage.cs.html">here</a> to see an example of how to use BatchDetectDominantLanguage API.</example>
         public async Task<BatchDetectDominantLanguageResponse> BatchDetectDominantLanguage(BatchDetectDominantLanguageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called batchDetectDominantLanguage");
@@ -150,7 +150,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchDetectHealthEntity.cs.html">here</a> to see an example of how to use BatchDetectHealthEntity API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchDetectHealthEntity.cs.html">here</a> to see an example of how to use BatchDetectHealthEntity API.</example>
         public async Task<BatchDetectHealthEntityResponse> BatchDetectHealthEntity(BatchDetectHealthEntityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called batchDetectHealthEntity");
@@ -201,7 +201,7 @@ namespace Oci.AilanguageService
         /// <summary>
         /// The API extracts entities in text records. For each entity, its type/subtype and confidence score (between 0 and 1) is returned.  It supports passing a batch of records.
         /// &lt;br/&gt;
-        /// [List of supported entities.](https://docs.cloud.oracle.com/iaas/language/using/pretrain-models.htm#ner__sup-ner-entity)
+        /// [List of supported entities.](https://docs.oracle.com/iaas/language/using/pretrain-models.htm#ner__sup-ner-entity)
         /// &lt;br/&gt;
         /// Limitations:
         /// - A batch may have up to 100 records.
@@ -214,7 +214,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchDetectLanguageEntities.cs.html">here</a> to see an example of how to use BatchDetectLanguageEntities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchDetectLanguageEntities.cs.html">here</a> to see an example of how to use BatchDetectLanguageEntities API.</example>
         public async Task<BatchDetectLanguageEntitiesResponse> BatchDetectLanguageEntities(BatchDetectLanguageEntitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called batchDetectLanguageEntities");
@@ -276,7 +276,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchDetectLanguageKeyPhrases.cs.html">here</a> to see an example of how to use BatchDetectLanguageKeyPhrases API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchDetectLanguageKeyPhrases.cs.html">here</a> to see an example of how to use BatchDetectLanguageKeyPhrases API.</example>
         public async Task<BatchDetectLanguageKeyPhrasesResponse> BatchDetectLanguageKeyPhrases(BatchDetectLanguageKeyPhrasesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called batchDetectLanguageKeyPhrases");
@@ -338,7 +338,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchDetectLanguagePiiEntities.cs.html">here</a> to see an example of how to use BatchDetectLanguagePiiEntities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchDetectLanguagePiiEntities.cs.html">here</a> to see an example of how to use BatchDetectLanguagePiiEntities API.</example>
         public async Task<BatchDetectLanguagePiiEntitiesResponse> BatchDetectLanguagePiiEntities(BatchDetectLanguagePiiEntitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called batchDetectLanguagePiiEntities");
@@ -393,7 +393,7 @@ namespace Oci.AilanguageService
         /// &lt;br/&gt;
         /// For sentiment analysis, confidence scores are provided for each of the classes (positive, negative, neutral and mixed).
         /// &lt;br/&gt;
-        /// Learn more about sentiment analysis [here](https://docs.cloud.oracle.com/iaas/language/using/pretrain-models.htm#sentiment).
+        /// Learn more about sentiment analysis [here](https://docs.oracle.com/iaas/language/using/pretrain-models.htm#sentiment).
         /// &lt;br/&gt;
         /// Limitations:
         ///  - A batch may have up to 100 records.
@@ -406,7 +406,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchDetectLanguageSentiments.cs.html">here</a> to see an example of how to use BatchDetectLanguageSentiments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchDetectLanguageSentiments.cs.html">here</a> to see an example of how to use BatchDetectLanguageSentiments API.</example>
         public async Task<BatchDetectLanguageSentimentsResponse> BatchDetectLanguageSentiments(BatchDetectLanguageSentimentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called batchDetectLanguageSentiments");
@@ -459,7 +459,7 @@ namespace Oci.AilanguageService
         /// &lt;br/&gt;
         /// It supports passing a batch of records.
         /// &lt;br/&gt;
-        /// Learn more about text classification [here](https://docs.cloud.oracle.com/iaas/language/using/pretrain-models.htm#text-class).
+        /// Learn more about text classification [here](https://docs.oracle.com/iaas/language/using/pretrain-models.htm#text-class).
         /// &lt;br/&gt;
         /// Limitations:
         /// - A batch may have up to 100 records.
@@ -472,7 +472,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchDetectLanguageTextClassification.cs.html">here</a> to see an example of how to use BatchDetectLanguageTextClassification API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchDetectLanguageTextClassification.cs.html">here</a> to see an example of how to use BatchDetectLanguageTextClassification API.</example>
         public async Task<BatchDetectLanguageTextClassificationResponse> BatchDetectLanguageTextClassification(BatchDetectLanguageTextClassificationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called batchDetectLanguageTextClassification");
@@ -533,7 +533,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchLanguageTranslation.cs.html">here</a> to see an example of how to use BatchLanguageTranslation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchLanguageTranslation.cs.html">here</a> to see an example of how to use BatchLanguageTranslation API.</example>
         public async Task<BatchLanguageTranslationResponse> BatchLanguageTranslation(BatchLanguageTranslationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called batchLanguageTranslation");
@@ -589,7 +589,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/CancelJob.cs.html">here</a> to see an example of how to use CancelJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/CancelJob.cs.html">here</a> to see an example of how to use CancelJob API.</example>
         public async Task<CancelJobResponse> CancelJob(CancelJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelJob");
@@ -645,7 +645,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ChangeEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeEndpointCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ChangeEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeEndpointCompartment API.</example>
         public async Task<ChangeEndpointCompartmentResponse> ChangeEndpointCompartment(ChangeEndpointCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeEndpointCompartment");
@@ -701,7 +701,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ChangeJobCompartment.cs.html">here</a> to see an example of how to use ChangeJobCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ChangeJobCompartment.cs.html">here</a> to see an example of how to use ChangeJobCompartment API.</example>
         public async Task<ChangeJobCompartmentResponse> ChangeJobCompartment(ChangeJobCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeJobCompartment");
@@ -757,7 +757,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ChangeModelCompartment.cs.html">here</a> to see an example of how to use ChangeModelCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ChangeModelCompartment.cs.html">here</a> to see an example of how to use ChangeModelCompartment API.</example>
         public async Task<ChangeModelCompartmentResponse> ChangeModelCompartment(ChangeModelCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeModelCompartment");
@@ -813,7 +813,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ChangeProjectCompartment.cs.html">here</a> to see an example of how to use ChangeProjectCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ChangeProjectCompartment.cs.html">here</a> to see an example of how to use ChangeProjectCompartment API.</example>
         public async Task<ChangeProjectCompartmentResponse> ChangeProjectCompartment(ChangeProjectCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeProjectCompartment");
@@ -870,7 +870,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/CreateEndpoint.cs.html">here</a> to see an example of how to use CreateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/CreateEndpoint.cs.html">here</a> to see an example of how to use CreateEndpoint API.</example>
         public async Task<CreateEndpointResponse> CreateEndpoint(CreateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createEndpoint");
@@ -927,7 +927,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/CreateJob.cs.html">here</a> to see an example of how to use CreateJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/CreateJob.cs.html">here</a> to see an example of how to use CreateJob API.</example>
         public async Task<CreateJobResponse> CreateJob(CreateJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createJob");
@@ -984,7 +984,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/CreateModel.cs.html">here</a> to see an example of how to use CreateModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/CreateModel.cs.html">here</a> to see an example of how to use CreateModel API.</example>
         public async Task<CreateModelResponse> CreateModel(CreateModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createModel");
@@ -1041,7 +1041,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/CreateProject.cs.html">here</a> to see an example of how to use CreateProject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/CreateProject.cs.html">here</a> to see an example of how to use CreateProject API.</example>
         public async Task<CreateProjectResponse> CreateProject(CreateProjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createProject");
@@ -1097,7 +1097,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DeleteEndpoint.cs.html">here</a> to see an example of how to use DeleteEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DeleteEndpoint.cs.html">here</a> to see an example of how to use DeleteEndpoint API.</example>
         public async Task<DeleteEndpointResponse> DeleteEndpoint(DeleteEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteEndpoint");
@@ -1153,7 +1153,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DeleteJob.cs.html">here</a> to see an example of how to use DeleteJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DeleteJob.cs.html">here</a> to see an example of how to use DeleteJob API.</example>
         public async Task<DeleteJobResponse> DeleteJob(DeleteJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteJob");
@@ -1209,7 +1209,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DeleteModel.cs.html">here</a> to see an example of how to use DeleteModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DeleteModel.cs.html">here</a> to see an example of how to use DeleteModel API.</example>
         public async Task<DeleteModelResponse> DeleteModel(DeleteModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteModel");
@@ -1265,7 +1265,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DeleteProject.cs.html">here</a> to see an example of how to use DeleteProject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DeleteProject.cs.html">here</a> to see an example of how to use DeleteProject API.</example>
         public async Task<DeleteProjectResponse> DeleteProject(DeleteProjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteProject");
@@ -1315,11 +1315,11 @@ namespace Oci.AilanguageService
 
         /// <summary>
         /// **Deprecated**: This API will be retired Tuesday, 10 Oct 2023 00:00:00 GMT.
-        /// We recommend you replace this API with the batch API, [BatchDetectDominantLanguage](https://docs.cloud.oracle.com/iaas/api/#/en/language/20221001/BatchDetectDominantLanguage/BatchDetectDominantLanguage).
+        /// We recommend you replace this API with the batch API, [BatchDetectDominantLanguage](https://docs.oracle.com/iaas/api/#/en/language/20221001/BatchDetectDominantLanguage/BatchDetectDominantLanguage).
         /// &lt;br/&gt;
         /// The DetectDominantLanguage API returns the detected language and a related confidence score (between 0 and 1).
         /// &lt;br/&gt;
-        /// [List of supported languages](https://docs.cloud.oracle.com/iaas/language/using/pretrain-models.htm#lang-detect)
+        /// [List of supported languages](https://docs.oracle.com/iaas/language/using/pretrain-models.htm#lang-detect)
         /// &lt;br/&gt;
         /// Limitations:
         /// - A record may be up to 1000 characters long.
@@ -1330,7 +1330,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DetectDominantLanguage.cs.html">here</a> to see an example of how to use DetectDominantLanguage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DetectDominantLanguage.cs.html">here</a> to see an example of how to use DetectDominantLanguage API.</example>
         public async Task<DetectDominantLanguageResponse> DetectDominantLanguage(DetectDominantLanguageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detectDominantLanguage");
@@ -1380,7 +1380,7 @@ namespace Oci.AilanguageService
 
         /// <summary>
         /// **Deprecated**: This API will be retired Tuesday, 10 Oct 2023 00:00:00 GMT.
-        /// We recommend you replace this API with the batch API, [BatchDetectLanguageEntities](https://docs.cloud.oracle.com/iaas/api/#/en/language/20221001/BatchDetectLanguageEntities/BatchDetectLanguageEntities).
+        /// We recommend you replace this API with the batch API, [BatchDetectLanguageEntities](https://docs.oracle.com/iaas/api/#/en/language/20221001/BatchDetectLanguageEntities/BatchDetectLanguageEntities).
         /// &lt;br/&gt;
         /// The DetectLanguageEntities API extracts entities in text records. For each entity, its type and confidence score (between 0 and 1) is returned.
         /// &lt;br/&gt;
@@ -1393,7 +1393,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DetectLanguageEntities.cs.html">here</a> to see an example of how to use DetectLanguageEntities API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DetectLanguageEntities.cs.html">here</a> to see an example of how to use DetectLanguageEntities API.</example>
         public async Task<DetectLanguageEntitiesResponse> DetectLanguageEntities(DetectLanguageEntitiesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detectLanguageEntities");
@@ -1443,7 +1443,7 @@ namespace Oci.AilanguageService
 
         /// <summary>
         /// **Deprecated**: This API will be retired Tuesday, 10 Oct 2023 00:00:00 GMT.
-        ///         We recommend you replace this API with the batch API, [BatchDetectLanguageKeyPhrases](https://docs.cloud.oracle.com/iaas/api/#/en/language/20221001/BatchDetectLanguageKeyPhrases/BatchDetectLanguageKeyPhrases).
+        ///         We recommend you replace this API with the batch API, [BatchDetectLanguageKeyPhrases](https://docs.oracle.com/iaas/api/#/en/language/20221001/BatchDetectLanguageKeyPhrases/BatchDetectLanguageKeyPhrases).
         /// &lt;br/&gt;
         ///         The DetectLanguageKeyPhrases API extracts key-phrases in text records. For each key-phrase, a score (between 0 and 1) is returned that highlights the importance of the key-phrase in the context of the text.
         /// Limitations:
@@ -1455,7 +1455,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DetectLanguageKeyPhrases.cs.html">here</a> to see an example of how to use DetectLanguageKeyPhrases API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DetectLanguageKeyPhrases.cs.html">here</a> to see an example of how to use DetectLanguageKeyPhrases API.</example>
         public async Task<DetectLanguageKeyPhrasesResponse> DetectLanguageKeyPhrases(DetectLanguageKeyPhrasesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detectLanguageKeyPhrases");
@@ -1505,7 +1505,7 @@ namespace Oci.AilanguageService
 
         /// <summary>
         /// **Deprecated**: This API will be retired Tuesday, 10 Oct 2023 00:00:00 GMT.
-        /// We recommend you replace this API with the batch API, [BatchDetectLanguageSentiments](https://docs.cloud.oracle.com/iaas/api/#/en/language/20221001/BatchDetectLanguageSentiments/BatchDetectLanguageSentiments).
+        /// We recommend you replace this API with the batch API, [BatchDetectLanguageSentiments](https://docs.oracle.com/iaas/api/#/en/language/20221001/BatchDetectLanguageSentiments/BatchDetectLanguageSentiments).
         /// &lt;br/&gt;
         /// The DetectLanguageSentiments API extracts aspect-based in text records.
         /// &lt;br/&gt;
@@ -1513,7 +1513,7 @@ namespace Oci.AilanguageService
         /// &lt;br/&gt;
         /// For sentiment analysis, confidence scores are provided for each of the classes (positive, negative, neutral).
         /// &lt;br/&gt;
-        /// Learn more about sentiment analysis [here](https://docs.cloud.oracle.com/iaas/language/using/pretrain-models.htm#sentiment).
+        /// Learn more about sentiment analysis [here](https://docs.oracle.com/iaas/language/using/pretrain-models.htm#sentiment).
         /// &lt;br/&gt;
         /// Limitations:
         ///  - A record may be up to 1000 characters long.
@@ -1524,7 +1524,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DetectLanguageSentiments.cs.html">here</a> to see an example of how to use DetectLanguageSentiments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DetectLanguageSentiments.cs.html">here</a> to see an example of how to use DetectLanguageSentiments API.</example>
         public async Task<DetectLanguageSentimentsResponse> DetectLanguageSentiments(DetectLanguageSentimentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detectLanguageSentiments");
@@ -1574,11 +1574,11 @@ namespace Oci.AilanguageService
 
         /// <summary>
         /// **Deprecated**: This API will be retired Tuesday, 10 Oct 2023 00:00:00 GMT.
-        /// We recommend you replace this API with the batch API, [BatchDetectLanguageTextClassification](https://docs.cloud.oracle.com/iaas/api/#/en/language/20221001/BatchDetectLanguageTextClassification/BatchDetectLanguageTextClassification).
+        /// We recommend you replace this API with the batch API, [BatchDetectLanguageTextClassification](https://docs.oracle.com/iaas/api/#/en/language/20221001/BatchDetectLanguageTextClassification/BatchDetectLanguageTextClassification).
         /// &lt;br/&gt;
         /// The DetectLanguageTextClassification API automatically classifies text into a set of pre-determined classes and sub-classes. A single class/subclass is returned for each record classified.
         /// &lt;br/&gt;
-        /// Learn more about text classification [here](https://docs.cloud.oracle.com/iaas/language/using/pretrain-models.htm#text-class).
+        /// Learn more about text classification [here](https://docs.oracle.com/iaas/language/using/pretrain-models.htm#text-class).
         /// &lt;br/&gt;
         /// Limitations:
         /// - A record may be up to 1000 characters long.
@@ -1589,7 +1589,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DetectLanguageTextClassification.cs.html">here</a> to see an example of how to use DetectLanguageTextClassification API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/DetectLanguageTextClassification.cs.html">here</a> to see an example of how to use DetectLanguageTextClassification API.</example>
         public async Task<DetectLanguageTextClassificationResponse> DetectLanguageTextClassification(DetectLanguageTextClassificationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detectLanguageTextClassification");
@@ -1645,7 +1645,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/GetEndpoint.cs.html">here</a> to see an example of how to use GetEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/GetEndpoint.cs.html">here</a> to see an example of how to use GetEndpoint API.</example>
         public async Task<GetEndpointResponse> GetEndpoint(GetEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getEndpoint");
@@ -1701,7 +1701,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/GetJob.cs.html">here</a> to see an example of how to use GetJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/GetJob.cs.html">here</a> to see an example of how to use GetJob API.</example>
         public async Task<GetJobResponse> GetJob(GetJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJob");
@@ -1757,7 +1757,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/GetModel.cs.html">here</a> to see an example of how to use GetModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/GetModel.cs.html">here</a> to see an example of how to use GetModel API.</example>
         public async Task<GetModelResponse> GetModel(GetModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getModel");
@@ -1813,7 +1813,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/GetModelType.cs.html">here</a> to see an example of how to use GetModelType API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/GetModelType.cs.html">here</a> to see an example of how to use GetModelType API.</example>
         public async Task<GetModelTypeResponse> GetModelType(GetModelTypeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getModelType");
@@ -1869,7 +1869,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/GetProject.cs.html">here</a> to see an example of how to use GetProject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/GetProject.cs.html">here</a> to see an example of how to use GetProject API.</example>
         public async Task<GetProjectResponse> GetProject(GetProjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getProject");
@@ -1925,7 +1925,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -1982,7 +1982,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListEndpoints.cs.html">here</a> to see an example of how to use ListEndpoints API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListEndpoints.cs.html">here</a> to see an example of how to use ListEndpoints API.</example>
         public async Task<ListEndpointsResponse> ListEndpoints(ListEndpointsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listEndpoints");
@@ -2038,7 +2038,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListEvaluationResults.cs.html">here</a> to see an example of how to use ListEvaluationResults API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListEvaluationResults.cs.html">here</a> to see an example of how to use ListEvaluationResults API.</example>
         public async Task<ListEvaluationResultsResponse> ListEvaluationResults(ListEvaluationResultsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listEvaluationResults");
@@ -2095,7 +2095,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListJobs.cs.html">here</a> to see an example of how to use ListJobs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListJobs.cs.html">here</a> to see an example of how to use ListJobs API.</example>
         public async Task<ListJobsResponse> ListJobs(ListJobsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJobs");
@@ -2152,7 +2152,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListModels.cs.html">here</a> to see an example of how to use ListModels API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListModels.cs.html">here</a> to see an example of how to use ListModels API.</example>
         public async Task<ListModelsResponse> ListModels(ListModelsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listModels");
@@ -2209,7 +2209,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListProjects.cs.html">here</a> to see an example of how to use ListProjects API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListProjects.cs.html">here</a> to see an example of how to use ListProjects API.</example>
         public async Task<ListProjectsResponse> ListProjects(ListProjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listProjects");
@@ -2266,7 +2266,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -2323,7 +2323,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -2380,7 +2380,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -2436,7 +2436,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/UpdateEndpoint.cs.html">here</a> to see an example of how to use UpdateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/UpdateEndpoint.cs.html">here</a> to see an example of how to use UpdateEndpoint API.</example>
         public async Task<UpdateEndpointResponse> UpdateEndpoint(UpdateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateEndpoint");
@@ -2492,7 +2492,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/UpdateJob.cs.html">here</a> to see an example of how to use UpdateJob API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/UpdateJob.cs.html">here</a> to see an example of how to use UpdateJob API.</example>
         public async Task<UpdateJobResponse> UpdateJob(UpdateJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateJob");
@@ -2548,7 +2548,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/UpdateModel.cs.html">here</a> to see an example of how to use UpdateModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/UpdateModel.cs.html">here</a> to see an example of how to use UpdateModel API.</example>
         public async Task<UpdateModelResponse> UpdateModel(UpdateModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateModel");
@@ -2604,7 +2604,7 @@ namespace Oci.AilanguageService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/UpdateProject.cs.html">here</a> to see an example of how to use UpdateProject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/UpdateProject.cs.html">here</a> to see an example of how to use UpdateProject API.</example>
         public async Task<UpdateProjectResponse> UpdateProject(UpdateProjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateProject");

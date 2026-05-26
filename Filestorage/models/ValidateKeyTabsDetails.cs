@@ -22,7 +22,7 @@ namespace Oci.FilestorageService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the mount target whose keytabs are to be validated.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the mount target whose keytabs are to be validated.
         /// </value>
         [JsonProperty(PropertyName = "mountTargetId")]
         public string MountTargetId { get; set; }

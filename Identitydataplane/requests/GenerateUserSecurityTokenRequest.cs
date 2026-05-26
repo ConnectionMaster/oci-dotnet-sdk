@@ -14,7 +14,7 @@ using Oci.IdentitydataplaneService.Models;
 namespace Oci.IdentitydataplaneService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydataplane/GenerateUserSecurityToken.cs.html">here</a> to see an example of how to use GenerateUserSecurityToken request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydataplane/GenerateUserSecurityToken.cs.html">here</a> to see an example of how to use GenerateUserSecurityToken request.
     /// </example>
     public class GenerateUserSecurityTokenRequest : Oci.Common.IOciRequest
     {

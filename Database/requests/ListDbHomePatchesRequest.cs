@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListDbHomePatches.cs.html">here</a> to see an example of how to use ListDbHomePatches request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListDbHomePatches.cs.html">here</a> to see an example of how to use ListDbHomePatches request.
     /// </example>
     public class ListDbHomePatchesRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The Database Home [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The Database Home [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

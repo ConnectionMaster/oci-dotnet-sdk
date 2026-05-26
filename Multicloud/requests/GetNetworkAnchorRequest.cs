@@ -14,13 +14,13 @@ using Oci.MulticloudService.Models;
 namespace Oci.MulticloudService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/GetNetworkAnchor.cs.html">here</a> to see an example of how to use GetNetworkAnchor request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/GetNetworkAnchor.cs.html">here</a> to see an example of how to use GetNetworkAnchor request.
     /// </example>
     public class GetNetworkAnchorRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the NetworkAnchor.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the NetworkAnchor.
         /// </value>
         /// <remarks>
         /// Required
@@ -40,7 +40,7 @@ namespace Oci.MulticloudService.Requests
         public System.Nullable<SubscriptionType> SubscriptionServiceName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Multicloud subscription in which to list resources.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Multicloud subscription in which to list resources.
         /// </value>
         /// <remarks>
         /// Required

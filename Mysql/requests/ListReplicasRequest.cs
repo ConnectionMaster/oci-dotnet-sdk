@@ -14,13 +14,13 @@ using Oci.MysqlService.Models;
 namespace Oci.MysqlService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/ListReplicas.cs.html">here</a> to see an example of how to use ListReplicas request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mysql/ListReplicas.cs.html">here</a> to see an example of how to use ListReplicas request.
     /// </example>
     public class ListReplicasRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The compartment [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required
@@ -40,7 +40,7 @@ namespace Oci.MysqlService.Requests
         
         /// <value>
         /// The maximum number of items to return in a paginated list call. For information about pagination, see
-        /// [List Pagination](https://docs.cloud.oracle.com/#API/Concepts/usingapi.htm#List_Pagination).
+        /// [List Pagination](https://docs.oracle.com/#API/Concepts/usingapi.htm#List_Pagination).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "limit")]
@@ -49,7 +49,7 @@ namespace Oci.MysqlService.Requests
         /// <value>
         /// The value of the `opc-next-page` or `opc-prev-page` response header from
         /// the previous list call. For information about pagination, see [List
-        /// Pagination](https://docs.cloud.oracle.com/#API/Concepts/usingapi.htm#List_Pagination).
+        /// Pagination](https://docs.oracle.com/#API/Concepts/usingapi.htm#List_Pagination).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]
@@ -62,7 +62,7 @@ namespace Oci.MysqlService.Requests
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The DB System [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The DB System [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "dbSystemId")]
         public string DbSystemId { get; set; }
@@ -74,7 +74,7 @@ namespace Oci.MysqlService.Requests
         public System.Nullable<ReplicaSummary.LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
-        /// The read replica [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The read replica [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "replicaId")]
         public string ReplicaId { get; set; }

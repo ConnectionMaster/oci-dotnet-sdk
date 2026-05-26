@@ -14,7 +14,7 @@ using Oci.UsageapiService.Models;
 namespace Oci.UsageapiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/ListSchedules.cs.html">here</a> to see an example of how to use ListSchedules request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/ListSchedules.cs.html">here</a> to see an example of how to use ListSchedules request.
     /// </example>
     public class ListSchedulesRequest : Oci.Common.IOciRequest
     {

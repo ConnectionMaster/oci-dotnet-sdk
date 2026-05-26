@@ -45,7 +45,7 @@ namespace Oci.FleetsoftwareupdateService.Models
         public System.Nullable<CollectionServiceTypes> ServiceType { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Compartment.
         /// </value>
         /// <remarks>
         /// Required

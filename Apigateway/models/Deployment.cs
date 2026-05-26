@@ -18,14 +18,14 @@ namespace Oci.ApigatewayService.Models
     /// <summary>
     /// A deployment deploys an API on a gateway. Avoid entering confidential information.
     /// For more information, see
-    /// [API Gateway Concepts](https://docs.cloud.oracle.com/iaas/Content/APIGateway/Concepts/apigatewayconcepts.htm).
+    /// [API Gateway Concepts](https://docs.oracle.com/iaas/Content/APIGateway/Concepts/apigatewayconcepts.htm).
     /// 
     /// </summary>
     public class Deployment 
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the resource.
         /// 
         /// </value>
         /// <remarks>
@@ -36,7 +36,7 @@ namespace Oci.ApigatewayService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the resource.
         /// 
         /// </value>
         /// <remarks>
@@ -56,7 +56,7 @@ namespace Oci.ApigatewayService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment in which the
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment in which the
         /// resource is created.
         /// 
         /// </value>
@@ -71,7 +71,7 @@ namespace Oci.ApigatewayService.Models
         /// A path on which to deploy all routes contained in the API
         /// deployment specification. For more information, see
         /// [Deploying an API on an API Gateway by Creating an API
-        /// Deployment](https://docs.cloud.oracle.com/iaas/Content/APIGateway/Tasks/apigatewaycreatingdeployment.htm).
+        /// Deployment](https://docs.oracle.com/iaas/Content/APIGateway/Tasks/apigatewaycreatingdeployment.htm).
         /// 
         /// </value>
         /// <remarks>
@@ -157,7 +157,7 @@ namespace Oci.ApigatewayService.Models
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair
         /// with no predefined name, type, or namespace. For more information, see
-        /// [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -167,7 +167,7 @@ namespace Oci.ApigatewayService.Models
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
         /// namespace. For more information, see
-        /// [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>

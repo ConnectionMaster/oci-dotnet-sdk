@@ -14,7 +14,7 @@ using Oci.LimitsincreaseService.Models;
 namespace Oci.LimitsincreaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/PatchLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use PatchLimitsIncreaseRequest request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/PatchLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use PatchLimitsIncreaseRequest request.
     /// </example>
     public class PatchLimitsIncreaseRequestRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.LimitsincreaseService.Requests
         public PatchLimitsIncreaseRequestDetails PatchLimitsIncreaseRequestDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the limit increase request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the limit increase request.
         /// </value>
         /// <remarks>
         /// Required

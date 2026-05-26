@@ -14,7 +14,7 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/CreateJob.cs.html">here</a> to see an example of how to use CreateJob request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/CreateJob.cs.html">here</a> to see an example of how to use CreateJob request.
     /// </example>
     public class CreateJobRequest : Oci.Common.IOciRequest
     {

@@ -29,7 +29,7 @@ namespace Oci.AivisionService.Models
         public StreamSourceDetails StreamSourceDetails { get; set; }
         
         /// <value>
-        /// [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the streamSource.
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the streamSource.
         /// 
         /// </value>
         /// <remarks>
@@ -40,7 +40,7 @@ namespace Oci.AivisionService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartm.
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartm.
         /// 
         /// </value>
         /// <remarks>

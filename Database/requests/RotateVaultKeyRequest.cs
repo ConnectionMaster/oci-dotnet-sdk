@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/RotateVaultKey.cs.html">here</a> to see an example of how to use RotateVaultKey request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/RotateVaultKey.cs.html">here</a> to see an example of how to use RotateVaultKey request.
     /// </example>
     public class RotateVaultKeyRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The database [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The database [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FusionappsService.Models
 {
     /// <summary>
-    /// An environment refresh copies data from a source environment to a target environment, making a copy of the source environment onto the target environment. For more information, see [Refreshing an Environment](https://docs.cloud.oracle.com/iaas/Content/fusion-applications/refresh-environment.htm).
+    /// An environment refresh copies data from a source environment to a target environment, making a copy of the source environment onto the target environment. For more information, see [Refreshing an Environment](https://docs.oracle.com/iaas/Content/fusion-applications/refresh-environment.htm).
     /// </summary>
     public class RefreshActivity 
     {

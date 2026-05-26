@@ -17,7 +17,7 @@ namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
     /// The details of an external DB system connector that uses the
-    /// [Management Agent Cloud Service (MACS)](https://docs.cloud.oracle.com/iaas/management-agents/index.html)
+    /// [Management Agent Cloud Service (MACS)](https://docs.oracle.com/iaas/management-agents/index.html)
     /// to connect to an external DB system component.
     /// 
     /// </summary>
@@ -25,7 +25,7 @@ namespace Oci.DatabasemanagementService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the management agent
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the management agent
         /// used for the external DB system connector.
         /// 
         /// </value>

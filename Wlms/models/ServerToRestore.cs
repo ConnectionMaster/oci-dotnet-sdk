@@ -25,7 +25,7 @@ namespace Oci.WlmsService.Models
         /// <value>
         /// The unique identifier of the server for which backup needs to be restored.
         /// <br/>
-        /// **Note:** Not an [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// **Note:** Not an [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "serverId")]
@@ -34,7 +34,7 @@ namespace Oci.WlmsService.Models
         /// <value>
         /// The list of backup unique identifiers to be used to restore.
         /// <br/>
-        /// **Note:** Not [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// **Note:** Not [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "backups")]

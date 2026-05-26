@@ -16,13 +16,13 @@ using Newtonsoft.Json.Converters;
 namespace Oci.ResourcemanagerService.Models
 {
     /// <summary>
-    /// Update details for a [DevOps](https://docs.cloud.oracle.com/iaas/Content/devops/using/home.htm) configuration source.
+    /// Update details for a [DevOps](https://docs.oracle.com/iaas/Content/devops/using/home.htm) configuration source.
     /// </summary>
     public class UpdateDevOpsConfigSourceDetails : UpdateConfigSourceDetails
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the {@link Project}.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the {@link Project}.
         /// </value>
         /// <remarks>
         /// Required
@@ -32,7 +32,7 @@ namespace Oci.ResourcemanagerService.Models
         public string ProjectId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the {@link Repository}.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the {@link Repository}.
         /// </value>
         /// <remarks>
         /// Required

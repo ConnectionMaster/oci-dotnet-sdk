@@ -14,7 +14,7 @@ using Oci.IdentitydomainsService.Models;
 namespace Oci.IdentitydomainsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreatePolicy.cs.html">here</a> to see an example of how to use CreatePolicy request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/CreatePolicy.cs.html">here</a> to see an example of how to use CreatePolicy request.
     /// </example>
     public class CreatePolicyRequest : Oci.Common.IOciRequest
     {

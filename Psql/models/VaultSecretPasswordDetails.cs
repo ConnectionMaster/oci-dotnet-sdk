@@ -22,7 +22,7 @@ namespace Oci.PsqlService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the secret where the password is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the secret where the password is stored.
         /// </value>
         /// <remarks>
         /// Required

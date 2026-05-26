@@ -14,13 +14,13 @@ using Oci.LimitsincreaseService.Models;
 namespace Oci.LimitsincreaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/ListLimitsIncreaseItemRequests.cs.html">here</a> to see an example of how to use ListLimitsIncreaseItemRequests request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/ListLimitsIncreaseItemRequests.cs.html">here</a> to see an example of how to use ListLimitsIncreaseItemRequests request.
     /// </example>
     public class ListLimitsIncreaseItemRequestsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the parent compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the parent compartment.
         /// Note: The tenancy is the root compartment.
         /// 
         /// </value>
@@ -46,7 +46,7 @@ namespace Oci.LimitsincreaseService.Requests
         public string LifecycleState { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the limit increase request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the limit increase request.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "limitsIncreaseRequestId")]

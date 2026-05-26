@@ -14,7 +14,7 @@ using Oci.ApiplatformService.Models;
 namespace Oci.ApiplatformService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiplatform/CreateApiPlatformInstance.cs.html">here</a> to see an example of how to use CreateApiPlatformInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apiplatform/CreateApiPlatformInstance.cs.html">here</a> to see an example of how to use CreateApiPlatformInstance request.
     /// </example>
     public class CreateApiPlatformInstanceRequest : Oci.Common.IOciRequest
     {

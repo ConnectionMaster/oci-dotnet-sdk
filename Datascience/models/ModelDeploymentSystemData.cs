@@ -28,7 +28,9 @@ namespace Oci.DatascienceService.Models
         ///
         public enum SystemInfraTypeEnum {
             [EnumMember(Value = "INSTANCE_POOL")]
-            InstancePool
+            InstancePool,
+            [EnumMember(Value = "MANAGED_COMPUTE_CLUSTER")]
+            ManagedComputeCluster
         };
 
         
@@ -62,6 +64,9 @@ namespace Oci.DatascienceService.Models
             var discriminator = jsonObject["systemInfraType"].Value<string>();
             switch (discriminator)
             {
+                case "MANAGED_COMPUTE_CLUSTER":
+                    obj = new ManagedComputeClusterModelDeploymentSystemData();
+                    break;
                 case "INSTANCE_POOL":
                     obj = new InstancePoolModelDeploymentSystemData();
                     break;

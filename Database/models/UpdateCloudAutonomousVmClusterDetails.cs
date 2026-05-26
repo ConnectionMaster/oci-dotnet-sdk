@@ -86,7 +86,7 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<LicenseModelEnum> LicenseModel { get; set; }
         
         /// <value>
-        /// The list of [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) for the network security groups (NSGs) to which this resource belongs. Setting this to an empty list removes all resources from all NSGs. For more information about NSGs, see [Security Rules](https://docs.cloud.oracle.com/Content/Network/Concepts/securityrules.htm).
+        /// The list of [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the network security groups (NSGs) to which this resource belongs. Setting this to an empty list removes all resources from all NSGs. For more information about NSGs, see [Security Rules](https://docs.oracle.com/iaas/Content/Network/Concepts/securityrules.htm).
         /// **NsgIds restrictions:**
         /// - A network security group (NSG) is optional for Autonomous AI Databases with private access. The nsgIds list can be empty.
         /// 
@@ -96,7 +96,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -105,15 +105,57 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
         
         /// <value>
+        /// The time zone to use for the Autonomous VM cluster. For details, see [DB System Time Zones](https://docs.oracle.com/iaas/Content/Database/References/timezones.htm).
+        /// </value>
+        [JsonProperty(PropertyName = "clusterTimeZone")]
+        public string ClusterTimeZone { get; set; }
+        
+        /// <value>
+        /// The SCAN Listener TLS port. Default is 2484.
+        /// </value>
+        [JsonProperty(PropertyName = "scanListenerPortTls")]
+        public System.Nullable<int> ScanListenerPortTls { get; set; }
+        
+        /// <value>
+        /// The SCAN Listener Non TLS port. Default is 1521.
+        /// </value>
+        [JsonProperty(PropertyName = "scanListenerPortNonTls")]
+        public System.Nullable<int> ScanListenerPortNonTls { get; set; }
+        
+        /// <value>
+        /// Enable mutual TLS(mTLS) authentication for database at time of provisioning a VMCluster. This is applicable to database TLS Certificates only. Default is TLS
+        /// </value>
+        [JsonProperty(PropertyName = "isMtlsEnabledVmCluster")]
+        public System.Nullable<bool> IsMtlsEnabledVmCluster { get; set; }
+                ///
+        /// <value>
+        /// The distribution algorithm used for the Autonomous VM cluster.
+        /// </value>
+        ///
+        public enum DistributionAlgorithmEnum {
+            [EnumMember(Value = "RESOURCE_OPTIMIZED")]
+            ResourceOptimized,
+            [EnumMember(Value = "DISTRIBUTION_OPTIMIZED")]
+            DistributionOptimized
+        };
+
+        /// <value>
+        /// The distribution algorithm used for the Autonomous VM cluster.
+        /// </value>
+        [JsonProperty(PropertyName = "distributionAlgorithm")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<DistributionAlgorithmEnum> DistributionAlgorithm { get; set; }
+        
+        /// <value>
         /// Security Attributes for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Oracle-ZPR&quot;: {&quot;MaxEgressCount&quot;: {&quot;value&quot;: &quot;42&quot;, &quot;mode&quot;: &quot;audit&quot;}}}
         /// </value>
         [JsonProperty(PropertyName = "securityAttributes")]

@@ -19,9 +19,9 @@ namespace Oci.SchService.Models
     /// An object that represents a task within the flow defined by the connector.
     /// An example task is a filter for error logs.
     /// For more information about flows defined by connectors, see
-    /// [Overview of Connector Hub](https://docs.cloud.oracle.com/iaas/Content/connector-hub/overview.htm).
+    /// [Overview of Connector Hub](https://docs.oracle.com/iaas/Content/connector-hub/overview.htm).
     /// For configuration instructions, see
-    /// [Creating a Connector](https://docs.cloud.oracle.com/iaas/Content/connector-hub/create-service-connector.htm).
+    /// [Creating a Connector](https://docs.oracle.com/iaas/Content/connector-hub/create-service-connector.htm).
     /// 
     /// </summary>
     [JsonConverter(typeof(TaskDetailsResponseModelConverter))]

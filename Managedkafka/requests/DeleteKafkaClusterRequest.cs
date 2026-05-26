@@ -14,13 +14,13 @@ using Oci.ManagedkafkaService.Models;
 namespace Oci.ManagedkafkaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/DeleteKafkaCluster.cs.html">here</a> to see an example of how to use DeleteKafkaCluster request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/DeleteKafkaCluster.cs.html">here</a> to see an example of how to use DeleteKafkaCluster request.
     /// </example>
     public class DeleteKafkaClusterRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the KafkaCluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the KafkaCluster.
         /// </value>
         /// <remarks>
         /// Required

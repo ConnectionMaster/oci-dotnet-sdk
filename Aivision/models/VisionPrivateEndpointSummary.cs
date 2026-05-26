@@ -48,7 +48,7 @@ namespace Oci.AivisionService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of subnet
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of subnet
         /// 
         /// </value>
         /// <remarks>

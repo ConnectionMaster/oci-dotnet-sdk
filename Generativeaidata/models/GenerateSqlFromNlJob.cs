@@ -41,7 +41,7 @@ namespace Oci.GenerativeaidataService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// Owning SemanticStore [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for a GenerateSqlFromNlJob.
+        /// Owning SemanticStore [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for a GenerateSqlFromNlJob.
         /// </value>
         /// <remarks>
         /// Required

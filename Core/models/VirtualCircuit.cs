@@ -22,7 +22,7 @@ namespace Oci.CoreService.Models
     /// network connections to provide a single, logical connection between the edge router
     /// on the customer's existing network and Oracle Cloud Infrastructure. *Private*
     /// virtual circuits support private peering, and *public* virtual circuits support
-    /// public peering. For more information, see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+    /// public peering. For more information, see [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
     /// <br/>
     /// Each virtual circuit is made up of information shared between a customer, Oracle,
     /// and a provider (if the customer is using FastConnect via a provider). Who fills in
@@ -34,7 +34,7 @@ namespace Oci.CoreService.Models
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,
     /// talk to an administrator. If you're an administrator who needs to write policies to give users access, see
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
+    /// [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// 
     /// </summary>
     public class VirtualCircuit 
@@ -120,7 +120,7 @@ namespace Oci.CoreService.Models
         public System.Nullable<BgpIpv6SessionStateEnum> BgpIpv6SessionState { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the virtual circuit.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the virtual circuit.
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }
@@ -152,7 +152,7 @@ namespace Oci.CoreService.Models
         /// <value>
         /// The routing policy sets how routing information about the Oracle cloud is shared over a public virtual circuit.
         /// Policies available are: `ORACLE_SERVICE_NETWORK`, `REGIONAL`, `MARKET_LEVEL`, and `GLOBAL`.
-        /// See [Route Filtering](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/routingonprem.htm#route_filtering) for details.
+        /// See [Route Filtering](https://docs.oracle.com/iaas/Content/Network/Concepts/routingonprem.htm#route_filtering) for details.
         /// By default, routing information is shared for all routes in the same market.
         /// 
         /// </value>
@@ -218,7 +218,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -235,7 +235,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -243,7 +243,7 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the customer's {@link Drg}
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the customer's {@link Drg}
         /// that this virtual circuit uses. Applicable only to private virtual circuits.
         /// 
         /// </value>
@@ -251,7 +251,7 @@ namespace Oci.CoreService.Models
         public string GatewayId { get; set; }
         
         /// <value>
-        /// The virtual circuit's Oracle ID ([OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
+        /// The virtual circuit's Oracle ID ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
         /// </value>
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
@@ -259,7 +259,7 @@ namespace Oci.CoreService.Models
         /// <value>
         /// The virtual circuit's current state. For information about
         /// the different states, see
-        /// [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+        /// [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </value>
         ///
@@ -288,7 +288,7 @@ namespace Oci.CoreService.Models
         /// <value>
         /// The virtual circuit's current state. For information about
         /// the different states, see
-        /// [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+        /// [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "lifecycleState")]
@@ -309,7 +309,7 @@ namespace Oci.CoreService.Models
         public string ProviderName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the service offered by the provider (if the customer is connecting via a provider).
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the service offered by the provider (if the customer is connecting via a provider).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "providerServiceId")]
@@ -420,7 +420,7 @@ namespace Oci.CoreService.Models
                 ///
         /// <value>
         /// Whether the virtual circuit supports private or public peering. For more information,
-        /// see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+        /// see [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </value>
         ///
@@ -436,7 +436,7 @@ namespace Oci.CoreService.Models
 
         /// <value>
         /// Whether the virtual circuit supports private or public peering. For more information,
-        /// see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+        /// see [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "type")]

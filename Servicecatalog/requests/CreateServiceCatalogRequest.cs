@@ -14,7 +14,7 @@ using Oci.ServicecatalogService.Models;
 namespace Oci.ServicecatalogService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/CreateServiceCatalog.cs.html">here</a> to see an example of how to use CreateServiceCatalog request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicecatalog/CreateServiceCatalog.cs.html">here</a> to see an example of how to use CreateServiceCatalog request.
     /// </example>
     public class CreateServiceCatalogRequest : Oci.Common.IOciRequest
     {

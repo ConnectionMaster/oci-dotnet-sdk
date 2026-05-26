@@ -47,7 +47,7 @@ namespace Oci.VnmonitoringService.Models
         public string Destination { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the routing table that contains the route rule.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the routing table that contains the route rule.
         /// </value>
         /// <remarks>
         /// Required

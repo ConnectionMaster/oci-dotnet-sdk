@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSecurityAssessmentComparison.cs.html">here</a> to see an example of how to use GetSecurityAssessmentComparison request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/GetSecurityAssessmentComparison.cs.html">here</a> to see an example of how to use GetSecurityAssessmentComparison request.
     /// </example>
     public class GetSecurityAssessmentComparisonRequest : Oci.Common.IOciRequest
     {

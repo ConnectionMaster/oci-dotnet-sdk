@@ -14,7 +14,7 @@ using Oci.IdentitydomainsService.Models;
 namespace Oci.IdentitydomainsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchAccountMgmtInfos.cs.html">here</a> to see an example of how to use SearchAccountMgmtInfos request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identitydomains/SearchAccountMgmtInfos.cs.html">here</a> to see an example of how to use SearchAccountMgmtInfos request.
     /// </example>
     public class SearchAccountMgmtInfosRequest : Oci.Common.IOciRequest
     {

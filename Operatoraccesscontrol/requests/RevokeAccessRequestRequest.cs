@@ -14,7 +14,7 @@ using Oci.OperatoraccesscontrolService.Models;
 namespace Oci.OperatoraccesscontrolService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/RevokeAccessRequest.cs.html">here</a> to see an example of how to use RevokeAccessRequest request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/RevokeAccessRequest.cs.html">here</a> to see an example of how to use RevokeAccessRequest request.
     /// </example>
     public class RevokeAccessRequestRequest : Oci.Common.IOciRequest
     {

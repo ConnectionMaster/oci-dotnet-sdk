@@ -16,16 +16,16 @@ using Newtonsoft.Json.Converters;
 namespace Oci.LustrefilestorageService.Models
 {
     /// <summary>
-    /// A list of Network Security Group [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) associated with this Lustre file system. For more information about NSGs, see [Security Rules](https://docs.cloud.oracle.com/Content/Network/Concepts/securityrules.htm).
+    /// A list of Network Security Group [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) associated with this Lustre file system. For more information about NSGs, see [Security Rules](https://docs.oracle.com/iaas/Content/Network/Concepts/securityrules.htm).
     /// </summary>
     public class NetworkSecurityGroup 
     {
         
         /// <value>
-        /// A list of Network Security Group [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) associated with this lustre file system.
+        /// A list of Network Security Group [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) associated with this lustre file system.
         /// A maximum of 5 is allowed.
         /// Setting this to an empty array after the list is created removes the lustre file system from all NSGs.
-        /// For more information about NSGs, see [Security Rules](https://docs.cloud.oracle.com/Content/Network/Concepts/securityrules.htm).
+        /// For more information about NSGs, see [Security Rules](https://docs.oracle.com/iaas/Content/Network/Concepts/securityrules.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "nsgIds")]

@@ -22,7 +22,7 @@ namespace Oci.AdmService.Models
     {
         
         /// <value>
-        /// The Oracle Cloud Identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the OCI DevOps repository.
+        /// The Oracle Cloud Identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the OCI DevOps repository.
         /// </value>
         /// <remarks>
         /// Required

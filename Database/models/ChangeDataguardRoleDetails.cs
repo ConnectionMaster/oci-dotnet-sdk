@@ -53,7 +53,7 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<RoleEnum> Role { get; set; }
         
         /// <value>
-        /// The Autonomous Container Database-Autonomous Data Guard association [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The Autonomous Container Database-Autonomous Data Guard association [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

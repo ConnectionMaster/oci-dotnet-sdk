@@ -45,12 +45,6 @@ namespace Oci.DatascienceService.Models
             var discriminator = jsonObject["type"].Value<string>();
             switch (discriminator)
             {
-                case "IDCS":
-                    obj = new CreateIdcsAuthConfigurationDetails();
-                    break;
-                case "IDCS_CUSTOM_SERVICE":
-                    obj = new CreateIdcsCustomServiceAuthConfigurationDetails();
-                    break;
                 case "IAM":
                     obj = new CreateIamAuthConfigurationCreateDetails();
                     break;

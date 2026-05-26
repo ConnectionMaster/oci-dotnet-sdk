@@ -14,7 +14,7 @@ using Oci.DatabasemigrationService.Models;
 namespace Oci.DatabasemigrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/EvaluateMigration.cs.html">here</a> to see an example of how to use EvaluateMigration request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/EvaluateMigration.cs.html">here</a> to see an example of how to use EvaluateMigration request.
     /// </example>
     public class EvaluateMigrationRequest : Oci.Common.IOciRequest
     {

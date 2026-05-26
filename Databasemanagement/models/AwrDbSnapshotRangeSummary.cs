@@ -22,7 +22,7 @@ namespace Oci.DatabasemanagementService.Models
     {
         
         /// <value>
-        /// The internal ID of the database. The internal ID of the database is not the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The internal ID of the database. The internal ID of the database is not the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// It can be retrieved from the following endpoint:
         /// /managedDatabases/{managedDatabaseId}/awrDbs
         /// 
@@ -87,7 +87,7 @@ namespace Oci.DatabasemanagementService.Models
         public System.Nullable<System.DateTime> TimeLatestSnapshotEnd { get; set; }
         
         /// <value>
-        /// The ID of the earliest snapshot. The snapshot ID is not the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The ID of the earliest snapshot. The snapshot ID is not the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// It can be retrieved from the following endpoint:
         /// /managedDatabases/{managedDatabaseId}/awrDbs/{awrDbId}/awrDbSnapshots
         /// 
@@ -96,7 +96,7 @@ namespace Oci.DatabasemanagementService.Models
         public System.Nullable<int> FirstSnapshotId { get; set; }
         
         /// <value>
-        /// The ID of the latest snapshot. The snapshot ID is not the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The ID of the latest snapshot. The snapshot ID is not the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// It can be retrieved from the following endpoint:
         /// /managedDatabases/{managedDatabaseId}/awrDbs/{awrDbId}/awrDbSnapshots
         /// 
@@ -117,7 +117,7 @@ namespace Oci.DatabasemanagementService.Models
         public System.Nullable<int> SnapshotIntervalInMin { get; set; }
         
         /// <value>
-        /// ID of the database container. The database container ID is not the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// ID of the database container. The database container ID is not the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// It can be retrieved from the following endpoint:
         /// /managedDatabases/{managedDatabaseId}/awrDbSnapshotRanges
         /// 

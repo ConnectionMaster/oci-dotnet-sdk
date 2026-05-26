@@ -18,7 +18,7 @@ namespace Oci.IdentityService.Models
     /// <summary>
     /// A special type of {@link IdentityProvider} that
     /// supports the SAML 2.0 protocol. For more information, see
-    /// [Identity Providers and Federation](https://docs.cloud.oracle.com/Content/Identity/Concepts/federation.htm).
+    /// [Identity Providers and Federation](https://docs.oracle.com/iaas/Content/Identity/Concepts/federation.htm).
     /// 
     /// </summary>
     public class Saml2IdentityProvider : IdentityProvider

@@ -14,7 +14,7 @@ using Oci.CapacitymanagementService.Models;
 namespace Oci.CapacitymanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/DeleteOccCustomerGroup.cs.html">here</a> to see an example of how to use DeleteOccCustomerGroup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/DeleteOccCustomerGroup.cs.html">here</a> to see an example of how to use DeleteOccCustomerGroup request.
     /// </example>
     public class DeleteOccCustomerGroupRequest : Oci.Common.IOciRequest
     {

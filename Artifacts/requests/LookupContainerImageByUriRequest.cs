@@ -14,7 +14,7 @@ using Oci.ArtifactsService.Models;
 namespace Oci.ArtifactsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/artifacts/LookupContainerImageByUri.cs.html">here</a> to see an example of how to use LookupContainerImageByUri request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/artifacts/LookupContainerImageByUri.cs.html">here</a> to see an example of how to use LookupContainerImageByUri request.
     /// </example>
     public class LookupContainerImageByUriRequest : Oci.Common.IOciRequest
     {

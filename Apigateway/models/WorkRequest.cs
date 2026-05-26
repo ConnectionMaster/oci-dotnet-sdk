@@ -22,7 +22,7 @@ namespace Oci.ApigatewayService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the resource.
         /// 
         /// </value>
         /// <remarks>
@@ -129,7 +129,7 @@ namespace Oci.ApigatewayService.Models
         public System.Nullable<StatusEnum> Status { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment in which the
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment in which the
         /// resource is created.
         /// 
         /// </value>

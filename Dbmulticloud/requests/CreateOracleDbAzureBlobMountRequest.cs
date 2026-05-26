@@ -14,7 +14,7 @@ using Oci.DbmulticloudService.Models;
 namespace Oci.DbmulticloudService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbAzureBlobMount.cs.html">here</a> to see an example of how to use CreateOracleDbAzureBlobMount request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbAzureBlobMount.cs.html">here</a> to see an example of how to use CreateOracleDbAzureBlobMount request.
     /// </example>
     public class CreateOracleDbAzureBlobMountRequest : Oci.Common.IOciRequest
     {

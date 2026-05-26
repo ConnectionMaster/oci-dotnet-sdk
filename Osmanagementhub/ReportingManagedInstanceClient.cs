@@ -75,7 +75,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetManagedInstanceAnalyticContent.cs.html">here</a> to see an example of how to use GetManagedInstanceAnalyticContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetManagedInstanceAnalyticContent.cs.html">here</a> to see an example of how to use GetManagedInstanceAnalyticContent API.</example>
         public async Task<GetManagedInstanceAnalyticContentResponse> GetManagedInstanceAnalyticContent(GetManagedInstanceAnalyticContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getManagedInstanceAnalyticContent");
@@ -132,7 +132,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetManagedInstanceContent.cs.html">here</a> to see an example of how to use GetManagedInstanceContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/GetManagedInstanceContent.cs.html">here</a> to see an example of how to use GetManagedInstanceContent API.</example>
         public async Task<GetManagedInstanceContentResponse> GetManagedInstanceContent(GetManagedInstanceContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getManagedInstanceContent");
@@ -189,7 +189,7 @@ namespace Oci.OsmanagementhubService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SummarizeManagedInstanceAnalytics.cs.html">here</a> to see an example of how to use SummarizeManagedInstanceAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SummarizeManagedInstanceAnalytics.cs.html">here</a> to see an example of how to use SummarizeManagedInstanceAnalytics API.</example>
         public async Task<SummarizeManagedInstanceAnalyticsResponse> SummarizeManagedInstanceAnalytics(SummarizeManagedInstanceAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeManagedInstanceAnalytics");

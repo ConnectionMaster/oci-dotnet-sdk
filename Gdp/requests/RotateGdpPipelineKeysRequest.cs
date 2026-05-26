@@ -14,7 +14,7 @@ using Oci.GdpService.Models;
 namespace Oci.GdpService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/RotateGdpPipelineKeys.cs.html">here</a> to see an example of how to use RotateGdpPipelineKeys request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/gdp/RotateGdpPipelineKeys.cs.html">here</a> to see an example of how to use RotateGdpPipelineKeys request.
     /// </example>
     public class RotateGdpPipelineKeysRequest : Oci.Common.IOciRequest
     {

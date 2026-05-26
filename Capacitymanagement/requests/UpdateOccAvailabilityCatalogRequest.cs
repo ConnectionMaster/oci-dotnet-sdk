@@ -14,7 +14,7 @@ using Oci.CapacitymanagementService.Models;
 namespace Oci.CapacitymanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateOccAvailabilityCatalog.cs.html">here</a> to see an example of how to use UpdateOccAvailabilityCatalog request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateOccAvailabilityCatalog.cs.html">here</a> to see an example of how to use UpdateOccAvailabilityCatalog request.
     /// </example>
     public class UpdateOccAvailabilityCatalogRequest : Oci.Common.IOciRequest
     {

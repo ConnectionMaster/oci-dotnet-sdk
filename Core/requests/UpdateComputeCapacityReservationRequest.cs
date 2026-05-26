@@ -14,7 +14,7 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateComputeCapacityReservation.cs.html">here</a> to see an example of how to use UpdateComputeCapacityReservation request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateComputeCapacityReservation.cs.html">here</a> to see an example of how to use UpdateComputeCapacityReservation request.
     /// </example>
     public class UpdateComputeCapacityReservationRequest : Oci.Common.IOciRequest
     {

@@ -99,7 +99,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -108,7 +108,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]
@@ -116,6 +116,56 @@ namespace Oci.DatabaseService.Models
         
         [JsonProperty(PropertyName = "backupConfig")]
         public AutonomousContainerDatabaseBackupConfig BackupConfig { get; set; }
+        
+        /// <value>
+        /// The CPU value beyond which an Autonomous AI Database will be opened across multiple nodes. The default value of this attribute is 16 for OCPUs and 64 for ECPUs.
+        /// </value>
+        [JsonProperty(PropertyName = "dbSplitThreshold")]
+        public System.Nullable<int> DbSplitThreshold { get; set; }
+        
+        /// <value>
+        /// The percentage of CPUs reserved across nodes to support node failover. Allowed values are 0%, 25%, 50%, 75%, and 100%, with 50% being the default option.
+        /// </value>
+        [JsonProperty(PropertyName = "vmFailoverReservation")]
+        public System.Nullable<int> VmFailoverReservation { get; set; }
+                ///
+        /// <value>
+        /// Determines whether an Autonomous AI Database must be opened across a minimum or maximum of nodes. By default, Minimum nodes is selected.
+        /// </value>
+        ///
+        public enum DistributionAffinityEnum {
+            [EnumMember(Value = "MINIMUM_DISTRIBUTION")]
+            MinimumDistribution,
+            [EnumMember(Value = "MAXIMUM_DISTRIBUTION")]
+            MaximumDistribution
+        };
+
+        /// <value>
+        /// Determines whether an Autonomous AI Database must be opened across a minimum or maximum of nodes. By default, Minimum nodes is selected.
+        /// </value>
+        [JsonProperty(PropertyName = "distributionAffinity")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<DistributionAffinityEnum> DistributionAffinity { get; set; }
+                ///
+        /// <value>
+        /// Enabling SHARED server architecture enables a database server to allow many client processes to share very few server processes, thereby increasing the number of supported users.
+        /// </value>
+        ///
+        public enum NetServicesArchitectureEnum {
+            [EnumMember(Value = "DEDICATED")]
+            Dedicated,
+            [EnumMember(Value = "SHARED")]
+            Shared,
+            [EnumMember(Value = "DRCP")]
+            Drcp
+        };
+
+        /// <value>
+        /// Enabling SHARED server architecture enables a database server to allow many client processes to share very few server processes, thereby increasing the number of supported users.
+        /// </value>
+        [JsonProperty(PropertyName = "netServicesArchitecture")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<NetServicesArchitectureEnum> NetServicesArchitecture { get; set; }
         
     }
 }

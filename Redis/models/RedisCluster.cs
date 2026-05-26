@@ -16,13 +16,13 @@ using Newtonsoft.Json.Converters;
 namespace Oci.RedisService.Models
 {
     /// <summary>
-    /// An OCI Cache cluster is a memory-based storage solution. For more information, see [OCI Cache](https://docs.cloud.oracle.com/iaas/Content/ocicache/home.htm).
+    /// An OCI Cache cluster is a memory-based storage solution. For more information, see [OCI Cache](https://docs.oracle.com/iaas/Content/ocicache/home.htm).
     /// </summary>
     public class RedisCluster 
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the cluster.
         /// </value>
         /// <remarks>
         /// Required
@@ -42,7 +42,7 @@ namespace Oci.RedisService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the compartment that contains the cluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the compartment that contains the cluster.
         /// </value>
         /// <remarks>
         /// Required
@@ -188,7 +188,7 @@ namespace Oci.RedisService.Models
         public System.Nullable<SoftwareVersionEnum> SoftwareVersion { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the cluster's subnet.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the cluster's subnet.
         /// </value>
         /// <remarks>
         /// Required
@@ -250,9 +250,9 @@ namespace Oci.RedisService.Models
         public System.Nullable<int> ShardCount { get; set; }
         
         /// <value>
-        /// A list of Network Security Group (NSG) [OCIDs](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)
+        /// A list of Network Security Group (NSG) [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)
         /// associated with this cluster. For more information,
-        /// see [Using an NSG for Clusters](https://docs.cloud.oracle.com/iaas/Content/ocicache/connecttocluster.htm#connecttocluster__networksecuritygroup).
+        /// see [Using an NSG for Clusters](https://docs.oracle.com/iaas/Content/ocicache/connecttocluster.htm#connecttocluster__networksecuritygroup).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "nsgIds")]
@@ -269,7 +269,7 @@ namespace Oci.RedisService.Models
         
         /// <value>
         /// Security attributes for redis cluster resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Oracle-ZPR&quot;: {&quot;MaxEgressCount&quot;: {&quot;value&quot;: &quot;42&quot;, &quot;mode&quot;: &quot;enforce&quot;}}}
         /// </value>

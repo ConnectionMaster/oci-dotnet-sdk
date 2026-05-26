@@ -39,7 +39,7 @@ namespace Oci.DatabasemanagementService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the cloud DB system.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cloud DB system.
         /// </value>
         /// <remarks>
         /// Required

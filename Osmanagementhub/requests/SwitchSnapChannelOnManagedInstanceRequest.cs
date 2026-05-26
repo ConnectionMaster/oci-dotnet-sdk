@@ -14,13 +14,13 @@ using Oci.OsmanagementhubService.Models;
 namespace Oci.OsmanagementhubService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SwitchSnapChannelOnManagedInstance.cs.html">here</a> to see an example of how to use SwitchSnapChannelOnManagedInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/SwitchSnapChannelOnManagedInstance.cs.html">here</a> to see an example of how to use SwitchSnapChannelOnManagedInstance request.
     /// </example>
     public class SwitchSnapChannelOnManagedInstanceRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the managed instance.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the managed instance.
         /// </value>
         /// <remarks>
         /// Required

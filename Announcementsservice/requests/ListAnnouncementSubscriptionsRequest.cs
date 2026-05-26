@@ -14,7 +14,7 @@ using Oci.AnnouncementsService.Models;
 namespace Oci.AnnouncementsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/ListAnnouncementSubscriptions.cs.html">here</a> to see an example of how to use ListAnnouncementSubscriptions request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/ListAnnouncementSubscriptions.cs.html">here</a> to see an example of how to use ListAnnouncementSubscriptions request.
     /// </example>
     public class ListAnnouncementSubscriptionsRequest : Oci.Common.IOciRequest
     {

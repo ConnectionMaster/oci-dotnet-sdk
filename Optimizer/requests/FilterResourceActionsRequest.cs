@@ -14,7 +14,7 @@ using Oci.OptimizerService.Models;
 namespace Oci.OptimizerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/optimizer/FilterResourceActions.cs.html">here</a> to see an example of how to use FilterResourceActions request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/optimizer/FilterResourceActions.cs.html">here</a> to see an example of how to use FilterResourceActions request.
     /// </example>
     public class FilterResourceActionsRequest : Oci.Common.IOciRequest
     {

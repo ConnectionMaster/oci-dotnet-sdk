@@ -17,7 +17,7 @@ namespace Oci.AuditService.Models
 {
     /// <summary>
     /// The configuration details for the retention period setting, specified in days. For more
-    /// information, see [Setting Audit Log Retention Period](https://docs.cloud.oracle.com/iaas/Content/Audit/Tasks/settingretentionperiod.htm).
+    /// information, see [Setting Audit Log Retention Period](https://docs.oracle.com/iaas/Content/Audit/Tasks/settingretentionperiod.htm).
     /// 
     /// </summary>
     public class UpdateConfigurationDetails 

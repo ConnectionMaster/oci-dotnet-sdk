@@ -75,7 +75,7 @@ namespace Oci.OcvpService
         /// <summary>
         /// Moves an BYOL Allocation into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -83,7 +83,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ChangeByolAllocationCompartment.cs.html">here</a> to see an example of how to use ChangeByolAllocationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ChangeByolAllocationCompartment.cs.html">here</a> to see an example of how to use ChangeByolAllocationCompartment API.</example>
         public async Task<ChangeByolAllocationCompartmentResponse> ChangeByolAllocationCompartment(ChangeByolAllocationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeByolAllocationCompartment");
@@ -143,7 +143,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/CreateByolAllocation.cs.html">here</a> to see an example of how to use CreateByolAllocation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/CreateByolAllocation.cs.html">here</a> to see an example of how to use CreateByolAllocation API.</example>
         public async Task<CreateByolAllocationResponse> CreateByolAllocation(CreateByolAllocationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createByolAllocation");
@@ -200,7 +200,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DeleteByolAllocation.cs.html">here</a> to see an example of how to use DeleteByolAllocation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DeleteByolAllocation.cs.html">here</a> to see an example of how to use DeleteByolAllocation API.</example>
         public async Task<DeleteByolAllocationResponse> DeleteByolAllocation(DeleteByolAllocationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteByolAllocation");
@@ -256,7 +256,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/GetByolAllocation.cs.html">here</a> to see an example of how to use GetByolAllocation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/GetByolAllocation.cs.html">here</a> to see an example of how to use GetByolAllocation API.</example>
         public async Task<GetByolAllocationResponse> GetByolAllocation(GetByolAllocationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getByolAllocation");
@@ -314,7 +314,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ListByolAllocations.cs.html">here</a> to see an example of how to use ListByolAllocations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ListByolAllocations.cs.html">here</a> to see an example of how to use ListByolAllocations API.</example>
         public async Task<ListByolAllocationsResponse> ListByolAllocations(ListByolAllocationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listByolAllocations");
@@ -371,7 +371,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/UpdateByolAllocation.cs.html">here</a> to see an example of how to use UpdateByolAllocation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/UpdateByolAllocation.cs.html">here</a> to see an example of how to use UpdateByolAllocation API.</example>
         public async Task<UpdateByolAllocationResponse> UpdateByolAllocation(UpdateByolAllocationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateByolAllocation");

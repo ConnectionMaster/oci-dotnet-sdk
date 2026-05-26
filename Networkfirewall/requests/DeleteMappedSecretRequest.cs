@@ -14,7 +14,7 @@ using Oci.NetworkfirewallService.Models;
 namespace Oci.NetworkfirewallService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteMappedSecret.cs.html">here</a> to see an example of how to use DeleteMappedSecret request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteMappedSecret.cs.html">here</a> to see an example of how to use DeleteMappedSecret request.
     /// </example>
     public class DeleteMappedSecretRequest : Oci.Common.IOciRequest
     {

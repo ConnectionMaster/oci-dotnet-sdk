@@ -35,6 +35,20 @@ namespace Oci.GoldengateService.Models
       [EnumMember(Value = "SCHEDULE_MANUAL_BACKUP")]
       ScheduleManualBackup,
       [EnumMember(Value = "MULTICLOUD")]
-      Multicloud
+      Multicloud,
+      [EnumMember(Value = "TRAIL_FILES")]
+      TrailFiles,
+      [EnumMember(Value = "MASTER_KEY_OPERATIONS")]
+      MasterKeyOperations,
+      [EnumMember(Value = "TRUSTSTORE_CERTIFICATES")]
+      TruststoreCertificates,
+      [EnumMember(Value = "DEPLOYMENT_DIAGNOSTICS")]
+      DeploymentDiagnostics,
+      [EnumMember(Value = "CREDENTIALS")]
+      Credentials,
+      [EnumMember(Value = "CONSOLE_ACCESS")]
+      ConsoleAccess,
+      [EnumMember(Value = "NETWORK_CONFIGURATION")]
+      NetworkConfiguration
   }
 }

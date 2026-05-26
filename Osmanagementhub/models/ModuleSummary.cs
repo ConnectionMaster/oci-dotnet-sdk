@@ -39,7 +39,7 @@ namespace Oci.OsmanagementhubService.Models
         public System.Collections.Generic.List<string> Streams { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the software source.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the software source.
         /// 
         /// </value>
         /// <remarks>

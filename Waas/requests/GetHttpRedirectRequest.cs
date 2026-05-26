@@ -14,13 +14,13 @@ using Oci.WaasService.Models;
 namespace Oci.WaasService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waas/GetHttpRedirect.cs.html">here</a> to see an example of how to use GetHttpRedirect request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waas/GetHttpRedirect.cs.html">here</a> to see an example of how to use GetHttpRedirect request.
     /// </example>
     public class GetHttpRedirectRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the HTTP Redirect.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the HTTP Redirect.
         /// </value>
         /// <remarks>
         /// Required

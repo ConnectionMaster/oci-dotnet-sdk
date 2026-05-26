@@ -81,7 +81,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/AddDatastoreToDatastoreCluster.cs.html">here</a> to see an example of how to use AddDatastoreToDatastoreCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/AddDatastoreToDatastoreCluster.cs.html">here</a> to see an example of how to use AddDatastoreToDatastoreCluster API.</example>
         public async Task<AddDatastoreToDatastoreClusterResponse> AddDatastoreToDatastoreCluster(AddDatastoreToDatastoreClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addDatastoreToDatastoreCluster");
@@ -141,7 +141,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/AttachDatastoreClusterToCluster.cs.html">here</a> to see an example of how to use AttachDatastoreClusterToCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/AttachDatastoreClusterToCluster.cs.html">here</a> to see an example of how to use AttachDatastoreClusterToCluster API.</example>
         public async Task<AttachDatastoreClusterToClusterResponse> AttachDatastoreClusterToCluster(AttachDatastoreClusterToClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called attachDatastoreClusterToCluster");
@@ -201,7 +201,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/AttachDatastoreClusterToEsxiHost.cs.html">here</a> to see an example of how to use AttachDatastoreClusterToEsxiHost API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/AttachDatastoreClusterToEsxiHost.cs.html">here</a> to see an example of how to use AttachDatastoreClusterToEsxiHost API.</example>
         public async Task<AttachDatastoreClusterToEsxiHostResponse> AttachDatastoreClusterToEsxiHost(AttachDatastoreClusterToEsxiHostRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called attachDatastoreClusterToEsxiHost");
@@ -252,7 +252,7 @@ namespace Oci.OcvpService
         /// <summary>
         /// Moves an Datastore Cluster into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -260,7 +260,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ChangeDatastoreClusterCompartment.cs.html">here</a> to see an example of how to use ChangeDatastoreClusterCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ChangeDatastoreClusterCompartment.cs.html">here</a> to see an example of how to use ChangeDatastoreClusterCompartment API.</example>
         public async Task<ChangeDatastoreClusterCompartmentResponse> ChangeDatastoreClusterCompartment(ChangeDatastoreClusterCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDatastoreClusterCompartment");
@@ -317,7 +317,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/CreateDatastoreCluster.cs.html">here</a> to see an example of how to use CreateDatastoreCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/CreateDatastoreCluster.cs.html">here</a> to see an example of how to use CreateDatastoreCluster API.</example>
         public async Task<CreateDatastoreClusterResponse> CreateDatastoreCluster(CreateDatastoreClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDatastoreCluster");
@@ -374,7 +374,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DeleteDatastoreCluster.cs.html">here</a> to see an example of how to use DeleteDatastoreCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DeleteDatastoreCluster.cs.html">here</a> to see an example of how to use DeleteDatastoreCluster API.</example>
         public async Task<DeleteDatastoreClusterResponse> DeleteDatastoreCluster(DeleteDatastoreClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDatastoreCluster");
@@ -434,7 +434,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DetachDatastoreClusterFromCluster.cs.html">here</a> to see an example of how to use DetachDatastoreClusterFromCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DetachDatastoreClusterFromCluster.cs.html">here</a> to see an example of how to use DetachDatastoreClusterFromCluster API.</example>
         public async Task<DetachDatastoreClusterFromClusterResponse> DetachDatastoreClusterFromCluster(DetachDatastoreClusterFromClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detachDatastoreClusterFromCluster");
@@ -494,7 +494,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DetachDatastoreClusterFromEsxiHost.cs.html">here</a> to see an example of how to use DetachDatastoreClusterFromEsxiHost API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DetachDatastoreClusterFromEsxiHost.cs.html">here</a> to see an example of how to use DetachDatastoreClusterFromEsxiHost API.</example>
         public async Task<DetachDatastoreClusterFromEsxiHostResponse> DetachDatastoreClusterFromEsxiHost(DetachDatastoreClusterFromEsxiHostRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detachDatastoreClusterFromEsxiHost");
@@ -550,7 +550,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/GetDatastoreCluster.cs.html">here</a> to see an example of how to use GetDatastoreCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/GetDatastoreCluster.cs.html">here</a> to see an example of how to use GetDatastoreCluster API.</example>
         public async Task<GetDatastoreClusterResponse> GetDatastoreCluster(GetDatastoreClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDatastoreCluster");
@@ -608,7 +608,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ListDatastoreClusters.cs.html">here</a> to see an example of how to use ListDatastoreClusters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ListDatastoreClusters.cs.html">here</a> to see an example of how to use ListDatastoreClusters API.</example>
         public async Task<ListDatastoreClustersResponse> ListDatastoreClusters(ListDatastoreClustersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDatastoreClusters");
@@ -665,7 +665,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/RemoveDatastoreFromDatastoreCluster.cs.html">here</a> to see an example of how to use RemoveDatastoreFromDatastoreCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/RemoveDatastoreFromDatastoreCluster.cs.html">here</a> to see an example of how to use RemoveDatastoreFromDatastoreCluster API.</example>
         public async Task<RemoveDatastoreFromDatastoreClusterResponse> RemoveDatastoreFromDatastoreCluster(RemoveDatastoreFromDatastoreClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeDatastoreFromDatastoreCluster");
@@ -725,7 +725,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/UpdateDatastoreCluster.cs.html">here</a> to see an example of how to use UpdateDatastoreCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/UpdateDatastoreCluster.cs.html">here</a> to see an example of how to use UpdateDatastoreCluster API.</example>
         public async Task<UpdateDatastoreClusterResponse> UpdateDatastoreCluster(UpdateDatastoreClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDatastoreCluster");

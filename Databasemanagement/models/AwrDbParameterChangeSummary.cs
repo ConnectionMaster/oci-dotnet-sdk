@@ -52,7 +52,7 @@ namespace Oci.DatabasemanagementService.Models
         public string Value { get; set; }
         
         /// <value>
-        /// The ID of the snapshot with the parameter value changed. The snapshot ID is not the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The ID of the snapshot with the parameter value changed. The snapshot ID is not the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// It can be retrieved from the following endpoint:
         /// /managedDatabases/{managedDatabaseId}/awrDbs/{awrDbId}/awrDbSnapshots
         /// 

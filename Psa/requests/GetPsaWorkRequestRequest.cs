@@ -14,13 +14,13 @@ using Oci.PsaService.Models;
 namespace Oci.PsaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/GetPsaWorkRequest.cs.html">here</a> to see an example of how to use GetPsaWorkRequest request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/psa/GetPsaWorkRequest.cs.html">here</a> to see an example of how to use GetPsaWorkRequest request.
     /// </example>
     public class GetPsaWorkRequestRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the asynchronous work request.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the asynchronous work request.
         /// </value>
         /// <remarks>
         /// Required

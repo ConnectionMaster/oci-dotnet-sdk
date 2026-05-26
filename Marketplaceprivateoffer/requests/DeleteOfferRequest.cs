@@ -14,7 +14,7 @@ using Oci.MarketplaceprivateofferService.Models;
 namespace Oci.MarketplaceprivateofferService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplaceprivateoffer/DeleteOffer.cs.html">here</a> to see an example of how to use DeleteOffer request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/marketplaceprivateoffer/DeleteOffer.cs.html">here</a> to see an example of how to use DeleteOffer request.
     /// </example>
     public class DeleteOfferRequest : Oci.Common.IOciRequest
     {

@@ -72,7 +72,7 @@ namespace Oci.AutoscalingService
         /// <summary>
         /// Moves an autoscaling configuration into a different compartment within the same tenancy. For information
         /// about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// &lt;br/&gt;
         /// When you move an autoscaling configuration to a different compartment, associated resources such as instance
         /// pools are not moved.
@@ -83,7 +83,7 @@ namespace Oci.AutoscalingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/ChangeAutoScalingConfigurationCompartment.cs.html">here</a> to see an example of how to use ChangeAutoScalingConfigurationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/ChangeAutoScalingConfigurationCompartment.cs.html">here</a> to see an example of how to use ChangeAutoScalingConfigurationCompartment API.</example>
         public async Task<ChangeAutoScalingConfigurationCompartmentResponse> ChangeAutoScalingConfigurationCompartment(ChangeAutoScalingConfigurationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeAutoScalingConfigurationCompartment");
@@ -139,7 +139,7 @@ namespace Oci.AutoscalingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/CreateAutoScalingConfiguration.cs.html">here</a> to see an example of how to use CreateAutoScalingConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/CreateAutoScalingConfiguration.cs.html">here</a> to see an example of how to use CreateAutoScalingConfiguration API.</example>
         public async Task<CreateAutoScalingConfigurationResponse> CreateAutoScalingConfiguration(CreateAutoScalingConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAutoScalingConfiguration");
@@ -204,7 +204,7 @@ namespace Oci.AutoscalingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/CreateAutoScalingPolicy.cs.html">here</a> to see an example of how to use CreateAutoScalingPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/CreateAutoScalingPolicy.cs.html">here</a> to see an example of how to use CreateAutoScalingPolicy API.</example>
         public async Task<CreateAutoScalingPolicyResponse> CreateAutoScalingPolicy(CreateAutoScalingPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAutoScalingPolicy");
@@ -260,7 +260,7 @@ namespace Oci.AutoscalingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/DeleteAutoScalingConfiguration.cs.html">here</a> to see an example of how to use DeleteAutoScalingConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/DeleteAutoScalingConfiguration.cs.html">here</a> to see an example of how to use DeleteAutoScalingConfiguration API.</example>
         public async Task<DeleteAutoScalingConfigurationResponse> DeleteAutoScalingConfiguration(DeleteAutoScalingConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAutoScalingConfiguration");
@@ -316,7 +316,7 @@ namespace Oci.AutoscalingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/DeleteAutoScalingPolicy.cs.html">here</a> to see an example of how to use DeleteAutoScalingPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/DeleteAutoScalingPolicy.cs.html">here</a> to see an example of how to use DeleteAutoScalingPolicy API.</example>
         public async Task<DeleteAutoScalingPolicyResponse> DeleteAutoScalingPolicy(DeleteAutoScalingPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAutoScalingPolicy");
@@ -372,7 +372,7 @@ namespace Oci.AutoscalingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/GetAutoScalingConfiguration.cs.html">here</a> to see an example of how to use GetAutoScalingConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/GetAutoScalingConfiguration.cs.html">here</a> to see an example of how to use GetAutoScalingConfiguration API.</example>
         public async Task<GetAutoScalingConfigurationResponse> GetAutoScalingConfiguration(GetAutoScalingConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAutoScalingConfiguration");
@@ -428,7 +428,7 @@ namespace Oci.AutoscalingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/GetAutoScalingPolicy.cs.html">here</a> to see an example of how to use GetAutoScalingPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/GetAutoScalingPolicy.cs.html">here</a> to see an example of how to use GetAutoScalingPolicy API.</example>
         public async Task<GetAutoScalingPolicyResponse> GetAutoScalingPolicy(GetAutoScalingPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAutoScalingPolicy");
@@ -485,7 +485,7 @@ namespace Oci.AutoscalingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/ListAutoScalingConfigurations.cs.html">here</a> to see an example of how to use ListAutoScalingConfigurations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/ListAutoScalingConfigurations.cs.html">here</a> to see an example of how to use ListAutoScalingConfigurations API.</example>
         public async Task<ListAutoScalingConfigurationsResponse> ListAutoScalingConfigurations(ListAutoScalingConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAutoScalingConfigurations");
@@ -542,7 +542,7 @@ namespace Oci.AutoscalingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/ListAutoScalingPolicies.cs.html">here</a> to see an example of how to use ListAutoScalingPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/ListAutoScalingPolicies.cs.html">here</a> to see an example of how to use ListAutoScalingPolicies API.</example>
         public async Task<ListAutoScalingPoliciesResponse> ListAutoScalingPolicies(ListAutoScalingPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAutoScalingPolicies");
@@ -600,7 +600,7 @@ namespace Oci.AutoscalingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/UpdateAutoScalingConfiguration.cs.html">here</a> to see an example of how to use UpdateAutoScalingConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/UpdateAutoScalingConfiguration.cs.html">here</a> to see an example of how to use UpdateAutoScalingConfiguration API.</example>
         public async Task<UpdateAutoScalingConfigurationResponse> UpdateAutoScalingConfiguration(UpdateAutoScalingConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAutoScalingConfiguration");
@@ -656,7 +656,7 @@ namespace Oci.AutoscalingService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/UpdateAutoScalingPolicy.cs.html">here</a> to see an example of how to use UpdateAutoScalingPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/autoscaling/UpdateAutoScalingPolicy.cs.html">here</a> to see an example of how to use UpdateAutoScalingPolicy API.</example>
         public async Task<UpdateAutoScalingPolicyResponse> UpdateAutoScalingPolicy(UpdateAutoScalingPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAutoScalingPolicy");

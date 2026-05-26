@@ -14,7 +14,7 @@ using Oci.ApmtracesService.Models;
 namespace Oci.ApmtracesService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/ListQuickPicks.cs.html">here</a> to see an example of how to use ListQuickPicks request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/ListQuickPicks.cs.html">here</a> to see an example of how to use ListQuickPicks request.
     /// </example>
     public class ListQuickPicksRequest : Oci.Common.IOciRequest
     {

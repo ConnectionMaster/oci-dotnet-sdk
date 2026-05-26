@@ -14,7 +14,7 @@ using Oci.OpsiService.Models;
 namespace Oci.OpsiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateDatabaseInsight.cs.html">here</a> to see an example of how to use CreateDatabaseInsight request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/CreateDatabaseInsight.cs.html">here</a> to see an example of how to use CreateDatabaseInsight request.
     /// </example>
     public class CreateDatabaseInsightRequest : Oci.Common.IOciRequest
     {

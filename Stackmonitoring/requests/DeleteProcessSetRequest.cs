@@ -14,7 +14,7 @@ using Oci.StackmonitoringService.Models;
 namespace Oci.StackmonitoringService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteProcessSet.cs.html">here</a> to see an example of how to use DeleteProcessSet request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/DeleteProcessSet.cs.html">here</a> to see an example of how to use DeleteProcessSet request.
     /// </example>
     public class DeleteProcessSetRequest : Oci.Common.IOciRequest
     {

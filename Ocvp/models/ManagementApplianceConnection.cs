@@ -33,7 +33,7 @@ namespace Oci.OcvpService.Models
         public System.Nullable<ManagementApplianceConnectionType> Type { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of secret in OCI vault, that is used for storage of username and password in JSON format.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of secret in OCI vault, that is used for storage of username and password in JSON format.
         /// 
         /// </value>
         /// <remarks>

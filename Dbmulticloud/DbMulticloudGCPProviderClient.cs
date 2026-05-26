@@ -80,7 +80,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ChangeOracleDbGcpIdentityConnectorCompartment.cs.html">here</a> to see an example of how to use ChangeOracleDbGcpIdentityConnectorCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ChangeOracleDbGcpIdentityConnectorCompartment.cs.html">here</a> to see an example of how to use ChangeOracleDbGcpIdentityConnectorCompartment API.</example>
         public async Task<ChangeOracleDbGcpIdentityConnectorCompartmentResponse> ChangeOracleDbGcpIdentityConnectorCompartment(ChangeOracleDbGcpIdentityConnectorCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeOracleDbGcpIdentityConnectorCompartment");
@@ -136,7 +136,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ChangeOracleDbGcpKeyRingCompartment.cs.html">here</a> to see an example of how to use ChangeOracleDbGcpKeyRingCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ChangeOracleDbGcpKeyRingCompartment.cs.html">here</a> to see an example of how to use ChangeOracleDbGcpKeyRingCompartment API.</example>
         public async Task<ChangeOracleDbGcpKeyRingCompartmentResponse> ChangeOracleDbGcpKeyRingCompartment(ChangeOracleDbGcpKeyRingCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeOracleDbGcpKeyRingCompartment");
@@ -193,7 +193,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbGcpIdentityConnector.cs.html">here</a> to see an example of how to use CreateOracleDbGcpIdentityConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbGcpIdentityConnector.cs.html">here</a> to see an example of how to use CreateOracleDbGcpIdentityConnector API.</example>
         public async Task<CreateOracleDbGcpIdentityConnectorResponse> CreateOracleDbGcpIdentityConnector(CreateOracleDbGcpIdentityConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOracleDbGcpIdentityConnector");
@@ -250,7 +250,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbGcpKeyRing.cs.html">here</a> to see an example of how to use CreateOracleDbGcpKeyRing API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbGcpKeyRing.cs.html">here</a> to see an example of how to use CreateOracleDbGcpKeyRing API.</example>
         public async Task<CreateOracleDbGcpKeyRingResponse> CreateOracleDbGcpKeyRing(CreateOracleDbGcpKeyRingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOracleDbGcpKeyRing");
@@ -307,7 +307,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/DeleteOracleDbGcpIdentityConnector.cs.html">here</a> to see an example of how to use DeleteOracleDbGcpIdentityConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/DeleteOracleDbGcpIdentityConnector.cs.html">here</a> to see an example of how to use DeleteOracleDbGcpIdentityConnector API.</example>
         public async Task<DeleteOracleDbGcpIdentityConnectorResponse> DeleteOracleDbGcpIdentityConnector(DeleteOracleDbGcpIdentityConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOracleDbGcpIdentityConnector");
@@ -364,7 +364,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/DeleteOracleDbGcpKeyRing.cs.html">here</a> to see an example of how to use DeleteOracleDbGcpKeyRing API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/DeleteOracleDbGcpKeyRing.cs.html">here</a> to see an example of how to use DeleteOracleDbGcpKeyRing API.</example>
         public async Task<DeleteOracleDbGcpKeyRingResponse> DeleteOracleDbGcpKeyRing(DeleteOracleDbGcpKeyRingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOracleDbGcpKeyRing");
@@ -413,7 +413,7 @@ namespace Oci.DbmulticloudService
         }
 
         /// <summary>
-        /// Retrieves the Oracle DB GCP Identity Connector for a specified resource [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Retrieves the Oracle DB GCP Identity Connector for a specified resource [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -421,7 +421,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetOracleDbGcpIdentityConnector.cs.html">here</a> to see an example of how to use GetOracleDbGcpIdentityConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetOracleDbGcpIdentityConnector.cs.html">here</a> to see an example of how to use GetOracleDbGcpIdentityConnector API.</example>
         public async Task<GetOracleDbGcpIdentityConnectorResponse> GetOracleDbGcpIdentityConnector(GetOracleDbGcpIdentityConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOracleDbGcpIdentityConnector");
@@ -470,7 +470,7 @@ namespace Oci.DbmulticloudService
         }
 
         /// <summary>
-        /// Retrieves Oracle DB Google Cloud Key details using a specific resource [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Retrieves Oracle DB Google Cloud Key details using a specific resource [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -478,7 +478,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetOracleDbGcpKey.cs.html">here</a> to see an example of how to use GetOracleDbGcpKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetOracleDbGcpKey.cs.html">here</a> to see an example of how to use GetOracleDbGcpKey API.</example>
         public async Task<GetOracleDbGcpKeyResponse> GetOracleDbGcpKey(GetOracleDbGcpKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOracleDbGcpKey");
@@ -527,7 +527,7 @@ namespace Oci.DbmulticloudService
         }
 
         /// <summary>
-        /// Retrieves the Oracle GCP Key Ring details using a specific Container resource [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Retrieves the Oracle GCP Key Ring details using a specific Container resource [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -535,7 +535,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetOracleDbGcpKeyRing.cs.html">here</a> to see an example of how to use GetOracleDbGcpKeyRing API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetOracleDbGcpKeyRing.cs.html">here</a> to see an example of how to use GetOracleDbGcpKeyRing API.</example>
         public async Task<GetOracleDbGcpKeyRingResponse> GetOracleDbGcpKeyRing(GetOracleDbGcpKeyRingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOracleDbGcpKeyRing");
@@ -592,7 +592,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbGcpIdentityConnectors.cs.html">here</a> to see an example of how to use ListOracleDbGcpIdentityConnectors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbGcpIdentityConnectors.cs.html">here</a> to see an example of how to use ListOracleDbGcpIdentityConnectors API.</example>
         public async Task<ListOracleDbGcpIdentityConnectorsResponse> ListOracleDbGcpIdentityConnectors(ListOracleDbGcpIdentityConnectorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOracleDbGcpIdentityConnectors");
@@ -649,7 +649,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbGcpKeyRings.cs.html">here</a> to see an example of how to use ListOracleDbGcpKeyRings API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbGcpKeyRings.cs.html">here</a> to see an example of how to use ListOracleDbGcpKeyRings API.</example>
         public async Task<ListOracleDbGcpKeyRingsResponse> ListOracleDbGcpKeyRings(ListOracleDbGcpKeyRingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOracleDbGcpKeyRings");
@@ -706,7 +706,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbGcpKeys.cs.html">here</a> to see an example of how to use ListOracleDbGcpKeys API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbGcpKeys.cs.html">here</a> to see an example of how to use ListOracleDbGcpKeys API.</example>
         public async Task<ListOracleDbGcpKeysResponse> ListOracleDbGcpKeys(ListOracleDbGcpKeysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOracleDbGcpKeys");
@@ -763,7 +763,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/RefreshOracleDbGcpIdentityConnector.cs.html">here</a> to see an example of how to use RefreshOracleDbGcpIdentityConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/RefreshOracleDbGcpIdentityConnector.cs.html">here</a> to see an example of how to use RefreshOracleDbGcpIdentityConnector API.</example>
         public async Task<RefreshOracleDbGcpIdentityConnectorResponse> RefreshOracleDbGcpIdentityConnector(RefreshOracleDbGcpIdentityConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshOracleDbGcpIdentityConnector");
@@ -820,7 +820,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/RefreshOracleDbGcpKeyRing.cs.html">here</a> to see an example of how to use RefreshOracleDbGcpKeyRing API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/RefreshOracleDbGcpKeyRing.cs.html">here</a> to see an example of how to use RefreshOracleDbGcpKeyRing API.</example>
         public async Task<RefreshOracleDbGcpKeyRingResponse> RefreshOracleDbGcpKeyRing(RefreshOracleDbGcpKeyRingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshOracleDbGcpKeyRing");
@@ -877,7 +877,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ReplicateOracleDbGcpKeyRing.cs.html">here</a> to see an example of how to use ReplicateOracleDbGcpKeyRing API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ReplicateOracleDbGcpKeyRing.cs.html">here</a> to see an example of how to use ReplicateOracleDbGcpKeyRing API.</example>
         public async Task<ReplicateOracleDbGcpKeyRingResponse> ReplicateOracleDbGcpKeyRing(ReplicateOracleDbGcpKeyRingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called replicateOracleDbGcpKeyRing");
@@ -926,7 +926,7 @@ namespace Oci.DbmulticloudService
         }
 
         /// <summary>
-        /// Modifies the existing Oracle DB GCP Identity Connector resource for a given [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Modifies the existing Oracle DB GCP Identity Connector resource for a given [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -934,7 +934,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/UpdateOracleDbGcpIdentityConnector.cs.html">here</a> to see an example of how to use UpdateOracleDbGcpIdentityConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/UpdateOracleDbGcpIdentityConnector.cs.html">here</a> to see an example of how to use UpdateOracleDbGcpIdentityConnector API.</example>
         public async Task<UpdateOracleDbGcpIdentityConnectorResponse> UpdateOracleDbGcpIdentityConnector(UpdateOracleDbGcpIdentityConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOracleDbGcpIdentityConnector");
@@ -983,7 +983,7 @@ namespace Oci.DbmulticloudService
         }
 
         /// <summary>
-        /// Modifies the existing Oracle GCP Key Ring Details for a given [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Modifies the existing Oracle GCP Key Ring Details for a given [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -991,7 +991,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/UpdateOracleDbGcpKeyRing.cs.html">here</a> to see an example of how to use UpdateOracleDbGcpKeyRing API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/UpdateOracleDbGcpKeyRing.cs.html">here</a> to see an example of how to use UpdateOracleDbGcpKeyRing API.</example>
         public async Task<UpdateOracleDbGcpKeyRingResponse> UpdateOracleDbGcpKeyRing(UpdateOracleDbGcpKeyRingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOracleDbGcpKeyRing");

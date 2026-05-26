@@ -14,13 +14,13 @@ using Oci.DbmulticloudService.Models;
 namespace Oci.DbmulticloudService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbAwsKeys.cs.html">here</a> to see an example of how to use ListOracleDbAwsKeys request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbAwsKeys.cs.html">here</a> to see an example of how to use ListOracleDbAwsKeys request.
     /// </example>
     public class ListOracleDbAwsKeysRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [ID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
+        /// The [ID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment.
         /// </value>
         /// <remarks>
         /// Required
@@ -49,7 +49,7 @@ namespace Oci.DbmulticloudService.Requests
         public System.Nullable<OracleDbAwsKey.LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
-        /// A filter to return Oracle DB AWS Identity Connector resources that match the specified [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Oracle DB AWS Identity Connector resource.
+        /// A filter to return Oracle DB AWS Identity Connector resources that match the specified [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Oracle DB AWS Identity Connector resource.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "oracleDbAwsConnectorId")]
         public string OracleDbAwsConnectorId { get; set; }

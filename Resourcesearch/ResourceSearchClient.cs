@@ -78,7 +78,7 @@ namespace Oci.ResourcesearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcesearch/GetResourceType.cs.html">here</a> to see an example of how to use GetResourceType API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcesearch/GetResourceType.cs.html">here</a> to see an example of how to use GetResourceType API.</example>
         public async Task<GetResourceTypeResponse> GetResourceType(GetResourceTypeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getResourceType");
@@ -135,7 +135,7 @@ namespace Oci.ResourcesearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcesearch/ListResourceTypes.cs.html">here</a> to see an example of how to use ListResourceTypes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcesearch/ListResourceTypes.cs.html">here</a> to see an example of how to use ListResourceTypes API.</example>
         public async Task<ListResourceTypesResponse> ListResourceTypes(ListResourceTypesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listResourceTypes");
@@ -194,7 +194,7 @@ namespace Oci.ResourcesearchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcesearch/SearchResources.cs.html">here</a> to see an example of how to use SearchResources API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourcesearch/SearchResources.cs.html">here</a> to see an example of how to use SearchResources API.</example>
         public async Task<SearchResourcesResponse> SearchResources(SearchResourcesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called searchResources");

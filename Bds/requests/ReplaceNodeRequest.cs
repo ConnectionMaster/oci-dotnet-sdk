@@ -14,7 +14,7 @@ using Oci.BdsService.Models;
 namespace Oci.BdsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ReplaceNode.cs.html">here</a> to see an example of how to use ReplaceNode request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ReplaceNode.cs.html">here</a> to see an example of how to use ReplaceNode request.
     /// </example>
     public class ReplaceNodeRequest : Oci.Common.IOciRequest
     {

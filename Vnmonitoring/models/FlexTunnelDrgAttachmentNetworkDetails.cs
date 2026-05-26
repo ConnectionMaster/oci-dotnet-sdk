@@ -22,7 +22,7 @@ namespace Oci.VnmonitoringService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the transport drg attachment of the flex tunnel.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the transport drg attachment of the flex tunnel.
         /// </value>
         [JsonProperty(PropertyName = "transportAttachmentId")]
         public string TransportAttachmentId { get; set; }

@@ -22,7 +22,7 @@ namespace Oci.DashboardService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the dashboardGroup
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the dashboardGroup
         /// into which the resource should be moved.
         /// 
         /// </value>

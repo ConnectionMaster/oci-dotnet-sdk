@@ -37,7 +37,7 @@ namespace Oci.DatascienceService.Models
         public ModelDeploymentInstanceShapeConfigDetails ModelDeploymentInstanceShapeConfigDetails { get; set; }
         
         /// <value>
-        /// A model deployment instance is provided with a VNIC for network access.  This specifies the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet to create a VNIC in.  The subnet should be in a VCN with a NAT/SGW gateway for egress.
+        /// A model deployment instance is provided with a VNIC for network access.  This specifies the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet to create a VNIC in.  The subnet should be in a VCN with a NAT/SGW gateway for egress.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "subnetId")]

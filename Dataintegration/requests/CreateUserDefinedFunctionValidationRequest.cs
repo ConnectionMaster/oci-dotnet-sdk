@@ -14,7 +14,7 @@ using Oci.DataintegrationService.Models;
 namespace Oci.DataintegrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dataintegration/CreateUserDefinedFunctionValidation.cs.html">here</a> to see an example of how to use CreateUserDefinedFunctionValidation request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dataintegration/CreateUserDefinedFunctionValidation.cs.html">here</a> to see an example of how to use CreateUserDefinedFunctionValidation request.
     /// </example>
     public class CreateUserDefinedFunctionValidationRequest : Oci.Common.IOciRequest
     {

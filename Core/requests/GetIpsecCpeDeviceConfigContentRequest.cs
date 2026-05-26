@@ -14,13 +14,13 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIpsecCpeDeviceConfigContent.cs.html">here</a> to see an example of how to use GetIpsecCpeDeviceConfigContent request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetIpsecCpeDeviceConfigContent.cs.html">here</a> to see an example of how to use GetIpsecCpeDeviceConfigContent request.
     /// </example>
     public class GetIpsecCpeDeviceConfigContentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the IPSec connection.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the IPSec connection.
         /// </value>
         /// <remarks>
         /// Required

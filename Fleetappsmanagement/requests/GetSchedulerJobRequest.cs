@@ -14,7 +14,7 @@ using Oci.FleetappsmanagementService.Models;
 namespace Oci.FleetappsmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetSchedulerJob.cs.html">here</a> to see an example of how to use GetSchedulerJob request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetSchedulerJob.cs.html">here</a> to see an example of how to use GetSchedulerJob request.
     /// </example>
     public class GetSchedulerJobRequest : Oci.Common.IOciRequest
     {

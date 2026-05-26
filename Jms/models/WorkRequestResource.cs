@@ -47,7 +47,7 @@ namespace Oci.JmsService.Models
         public System.Nullable<ActionType> ActionType { get; set; }
         
         /// <value>
-        /// An [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) or other unique identifier of the resource affected by the work request.
+        /// An [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) or other unique identifier of the resource affected by the work request.
         /// </value>
         /// <remarks>
         /// Required

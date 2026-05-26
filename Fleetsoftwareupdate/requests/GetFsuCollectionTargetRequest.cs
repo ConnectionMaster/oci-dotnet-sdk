@@ -14,7 +14,7 @@ using Oci.FleetsoftwareupdateService.Models;
 namespace Oci.FleetsoftwareupdateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuCollectionTarget.cs.html">here</a> to see an example of how to use GetFsuCollectionTarget request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuCollectionTarget.cs.html">here</a> to see an example of how to use GetFsuCollectionTarget request.
     /// </example>
     public class GetFsuCollectionTargetRequest : Oci.Common.IOciRequest
     {

@@ -22,7 +22,7 @@ namespace Oci.MulticloudService.Models
     {
         
         /// <value>
-        /// Tenancy [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) used for the query.
+        /// Tenancy [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) used for the query.
         /// </value>
         /// <remarks>
         /// Required

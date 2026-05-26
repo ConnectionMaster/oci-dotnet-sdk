@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadSecurityAssessmentReport.cs.html">here</a> to see an example of how to use DownloadSecurityAssessmentReport request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DownloadSecurityAssessmentReport.cs.html">here</a> to see an example of how to use DownloadSecurityAssessmentReport request.
     /// </example>
     public class DownloadSecurityAssessmentReportRequest : Oci.Common.IOciRequest
     {

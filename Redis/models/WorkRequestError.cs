@@ -22,7 +22,7 @@ namespace Oci.RedisService.Models
     {
         
         /// <value>
-        /// A machine-usable code for the error that occured. Error codes are listed at [API Errors](https://docs.cloud.oracle.com/iaas/Content/API/References/apierrors.htm).
+        /// A machine-usable code for the error that occured. Error codes are listed at [API Errors](https://docs.oracle.com/iaas/Content/API/References/apierrors.htm).
         /// 
         /// </value>
         /// <remarks>

@@ -58,7 +58,7 @@ namespace Oci.StackmonitoringService.Models
         public System.Nullable<int> Port { get; set; }
         
         /// <value>
-        /// Database connector Identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Database connector Identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "connectorId")]
@@ -88,7 +88,7 @@ namespace Oci.StackmonitoringService.Models
         public string DbId { get; set; }
         
         /// <value>
-        /// SSL Secret Identifier for TCPS connector in OCI Vault[OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// SSL Secret Identifier for TCPS connector in OCI Vault[OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "sslSecretId")]

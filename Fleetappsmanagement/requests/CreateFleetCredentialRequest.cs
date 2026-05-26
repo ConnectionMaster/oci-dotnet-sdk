@@ -14,7 +14,7 @@ using Oci.FleetappsmanagementService.Models;
 namespace Oci.FleetappsmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/CreateFleetCredential.cs.html">here</a> to see an example of how to use CreateFleetCredential request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/CreateFleetCredential.cs.html">here</a> to see an example of how to use CreateFleetCredential request.
     /// </example>
     public class CreateFleetCredentialRequest : Oci.Common.IOciRequest
     {

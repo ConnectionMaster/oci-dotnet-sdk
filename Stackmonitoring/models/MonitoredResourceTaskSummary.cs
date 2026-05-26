@@ -22,7 +22,7 @@ namespace Oci.StackmonitoringService.Models
     {
         
         /// <value>
-        /// Task identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Task identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         /// <remarks>
@@ -56,7 +56,7 @@ namespace Oci.StackmonitoringService.Models
         public MonitoredResourceTaskDetails TaskDetails { get; set; }
         
         /// <value>
-        /// Identifiers [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) for work requests submitted for this task.
+        /// Identifiers [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for work requests submitted for this task.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "workRequestIds")]

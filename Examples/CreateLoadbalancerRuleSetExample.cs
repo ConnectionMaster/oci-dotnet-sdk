@@ -15,7 +15,7 @@ using Oci.Common.Waiters;
 namespace Oci.Examples
 {
     /**
-    * Please refer to https://docs.cloud.oracle.com/iaas/api/#/en/loadbalancer/latest/RuleSet/CreateRuleSet
+    * Please refer to https://docs.oracle.com/iaas/api/#/en/loadbalancer/latest/RuleSet/CreateRuleSet
     * for information about using the API to create a rule set.
     * This example requires an existing LoadBalancer and it will do the following
     * 1) Create new rule set.

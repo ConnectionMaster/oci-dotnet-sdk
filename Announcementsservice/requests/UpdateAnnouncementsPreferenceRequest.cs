@@ -14,7 +14,7 @@ using Oci.AnnouncementsService.Models;
 namespace Oci.AnnouncementsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/UpdateAnnouncementsPreference.cs.html">here</a> to see an example of how to use UpdateAnnouncementsPreference request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/announcementsservice/UpdateAnnouncementsPreference.cs.html">here</a> to see an example of how to use UpdateAnnouncementsPreference request.
     /// </example>
     public class UpdateAnnouncementsPreferenceRequest : Oci.Common.IOciRequest
     {

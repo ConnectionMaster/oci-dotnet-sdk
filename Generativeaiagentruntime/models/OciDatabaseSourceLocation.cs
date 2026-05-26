@@ -23,7 +23,7 @@ namespace Oci.GenerativeaiagentruntimeService.Models
     {
         
         /// <value>
-        /// The OCID of the [OCI Database Tools Connection](https://docs.cloud.oracle.com/iaas/database-tools/home.htm).
+        /// The OCID of the [OCI Database Tools Connection](https://docs.oracle.com/iaas/database-tools/home.htm).
         /// </value>
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }

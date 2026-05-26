@@ -14,7 +14,7 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/UpdateExternalMysqlDatabaseConnector.cs.html">here</a> to see an example of how to use UpdateExternalMysqlDatabaseConnector request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/UpdateExternalMysqlDatabaseConnector.cs.html">here</a> to see an example of how to use UpdateExternalMysqlDatabaseConnector request.
     /// </example>
     public class UpdateExternalMysqlDatabaseConnectorRequest : Oci.Common.IOciRequest
     {

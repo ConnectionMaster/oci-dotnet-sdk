@@ -75,7 +75,7 @@ namespace Oci.LimitsincreaseService
         /// <summary>
         /// Withdraws the specified item from the limit increase request.
         /// For more information, see
-        /// [Withdrawing an Item from a Limit Increase Request](https://docs.cloud.oracle.com/iaas/Content/General/service-limits/withdraw-item-request.htm).
+        /// [Withdrawing an Item from a Limit Increase Request](https://docs.oracle.com/iaas/Content/General/service-limits/withdraw-item-request.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -83,7 +83,7 @@ namespace Oci.LimitsincreaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/CancelLimitsIncreaseItemRequest.cs.html">here</a> to see an example of how to use CancelLimitsIncreaseItemRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/CancelLimitsIncreaseItemRequest.cs.html">here</a> to see an example of how to use CancelLimitsIncreaseItemRequest API.</example>
         public async Task<CancelLimitsIncreaseItemRequestResponse> CancelLimitsIncreaseItemRequest(CancelLimitsIncreaseItemRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelLimitsIncreaseItemRequest");
@@ -134,7 +134,7 @@ namespace Oci.LimitsincreaseService
         /// <summary>
         /// Withdraws the specified limit increase request.
         /// For more information, see
-        /// [Withdrawing a Limit Increase Request](https://docs.cloud.oracle.com/iaas/Content/General/service-limits/withdraw-request.htm).
+        /// [Withdrawing a Limit Increase Request](https://docs.oracle.com/iaas/Content/General/service-limits/withdraw-request.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -142,7 +142,7 @@ namespace Oci.LimitsincreaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/CancelLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use CancelLimitsIncreaseRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/CancelLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use CancelLimitsIncreaseRequest API.</example>
         public async Task<CancelLimitsIncreaseRequestResponse> CancelLimitsIncreaseRequest(CancelLimitsIncreaseRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelLimitsIncreaseRequest");
@@ -193,7 +193,7 @@ namespace Oci.LimitsincreaseService
         /// <summary>
         /// Creates a limit increase request in the specified compartment.
         /// For more information, see
-        /// [Creating a Limit Increase Request](https://docs.cloud.oracle.com/iaas/Content/General/service-limits/create-request.htm).
+        /// [Creating a Limit Increase Request](https://docs.oracle.com/iaas/Content/General/service-limits/create-request.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -201,7 +201,7 @@ namespace Oci.LimitsincreaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/CreateLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use CreateLimitsIncreaseRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/CreateLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use CreateLimitsIncreaseRequest API.</example>
         public async Task<CreateLimitsIncreaseRequestResponse> CreateLimitsIncreaseRequest(CreateLimitsIncreaseRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createLimitsIncreaseRequest");
@@ -252,7 +252,7 @@ namespace Oci.LimitsincreaseService
         /// <summary>
         /// Deletes the specified limit increase request.
         /// For more information, see
-        /// [Deleting a Limit Increase Request](https://docs.cloud.oracle.com/iaas/Content/General/service-limits/delete-request.htm).
+        /// [Deleting a Limit Increase Request](https://docs.oracle.com/iaas/Content/General/service-limits/delete-request.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -260,7 +260,7 @@ namespace Oci.LimitsincreaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/DeleteLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use DeleteLimitsIncreaseRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/DeleteLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use DeleteLimitsIncreaseRequest API.</example>
         public async Task<DeleteLimitsIncreaseRequestResponse> DeleteLimitsIncreaseRequest(DeleteLimitsIncreaseRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteLimitsIncreaseRequest");
@@ -311,7 +311,7 @@ namespace Oci.LimitsincreaseService
         /// <summary>
         /// Gets the specified item from the limit increase request.
         /// For more information, see
-        /// [Getting Details for a Limit Increase Request](https://docs.cloud.oracle.com/iaas/Content/General/service-limits/get-request.htm).
+        /// [Getting Details for a Limit Increase Request](https://docs.oracle.com/iaas/Content/General/service-limits/get-request.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -319,7 +319,7 @@ namespace Oci.LimitsincreaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/GetLimitsIncreaseItemRequest.cs.html">here</a> to see an example of how to use GetLimitsIncreaseItemRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/GetLimitsIncreaseItemRequest.cs.html">here</a> to see an example of how to use GetLimitsIncreaseItemRequest API.</example>
         public async Task<GetLimitsIncreaseItemRequestResponse> GetLimitsIncreaseItemRequest(GetLimitsIncreaseItemRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getLimitsIncreaseItemRequest");
@@ -370,7 +370,7 @@ namespace Oci.LimitsincreaseService
         /// <summary>
         /// Gets the specified limit increase request.
         /// For more information, see
-        /// [Getting Details for a Limit Increase Request](https://docs.cloud.oracle.com/iaas/Content/General/service-limits/get-request.htm).
+        /// [Getting Details for a Limit Increase Request](https://docs.oracle.com/iaas/Content/General/service-limits/get-request.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -378,7 +378,7 @@ namespace Oci.LimitsincreaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/GetLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use GetLimitsIncreaseRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/GetLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use GetLimitsIncreaseRequest API.</example>
         public async Task<GetLimitsIncreaseRequestResponse> GetLimitsIncreaseRequest(GetLimitsIncreaseRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getLimitsIncreaseRequest");
@@ -429,7 +429,7 @@ namespace Oci.LimitsincreaseService
         /// <summary>
         /// Lists items in the specified limit increase request.
         /// For more information, see
-        /// [Getting Details for a Limit Increase Request](https://docs.cloud.oracle.com/iaas/Content/General/service-limits/get-request.htm).
+        /// [Getting Details for a Limit Increase Request](https://docs.oracle.com/iaas/Content/General/service-limits/get-request.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -437,7 +437,7 @@ namespace Oci.LimitsincreaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/ListLimitsIncreaseItemRequests.cs.html">here</a> to see an example of how to use ListLimitsIncreaseItemRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/ListLimitsIncreaseItemRequests.cs.html">here</a> to see an example of how to use ListLimitsIncreaseItemRequests API.</example>
         public async Task<ListLimitsIncreaseItemRequestsResponse> ListLimitsIncreaseItemRequests(ListLimitsIncreaseItemRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLimitsIncreaseItemRequests");
@@ -491,7 +491,7 @@ namespace Oci.LimitsincreaseService
         /// If limit name is not provided, returns all questions for the specified service.
         /// If service name is not provided, returns all available questions.
         /// For more information, see
-        /// [Creating a Limit Increase Request](https://docs.cloud.oracle.com/iaas/Content/General/service-limits/create-request.htm).
+        /// [Creating a Limit Increase Request](https://docs.oracle.com/iaas/Content/General/service-limits/create-request.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -499,7 +499,7 @@ namespace Oci.LimitsincreaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/ListLimitsIncreaseQuestions.cs.html">here</a> to see an example of how to use ListLimitsIncreaseQuestions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/ListLimitsIncreaseQuestions.cs.html">here</a> to see an example of how to use ListLimitsIncreaseQuestions API.</example>
         public async Task<ListLimitsIncreaseQuestionsResponse> ListLimitsIncreaseQuestions(ListLimitsIncreaseQuestionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLimitsIncreaseQuestions");
@@ -550,7 +550,7 @@ namespace Oci.LimitsincreaseService
         /// <summary>
         /// Lists limit increase requests in the specified compartment.
         /// For more information, see
-        /// [Listing Limit Increase Requests](https://docs.cloud.oracle.com/iaas/Content/General/service-limits/list-requests.htm).
+        /// [Listing Limit Increase Requests](https://docs.oracle.com/iaas/Content/General/service-limits/list-requests.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -558,7 +558,7 @@ namespace Oci.LimitsincreaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/ListLimitsIncreaseRequests.cs.html">here</a> to see an example of how to use ListLimitsIncreaseRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/ListLimitsIncreaseRequests.cs.html">here</a> to see an example of how to use ListLimitsIncreaseRequests API.</example>
         public async Task<ListLimitsIncreaseRequestsResponse> ListLimitsIncreaseRequests(ListLimitsIncreaseRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLimitsIncreaseRequests");
@@ -609,7 +609,7 @@ namespace Oci.LimitsincreaseService
         /// <summary>
         /// Adds one or more comments to the specified limit increase request.
         /// For more information, see
-        /// [Adding Comments to a Limit Increase Request](https://docs.cloud.oracle.com/iaas/Content/General/service-limits/comment-request.htm).
+        /// [Adding Comments to a Limit Increase Request](https://docs.oracle.com/iaas/Content/General/service-limits/comment-request.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -617,7 +617,7 @@ namespace Oci.LimitsincreaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/PatchLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use PatchLimitsIncreaseRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/PatchLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use PatchLimitsIncreaseRequest API.</example>
         public async Task<PatchLimitsIncreaseRequestResponse> PatchLimitsIncreaseRequest(PatchLimitsIncreaseRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchLimitsIncreaseRequest");
@@ -668,7 +668,7 @@ namespace Oci.LimitsincreaseService
         /// <summary>
         /// Updates the limit increase request.
         /// For more information, see
-        /// [Updating a Limit Increase Request](https://docs.cloud.oracle.com/iaas/Content/General/service-limits/update-request.htm).
+        /// [Updating a Limit Increase Request](https://docs.oracle.com/iaas/Content/General/service-limits/update-request.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -676,7 +676,7 @@ namespace Oci.LimitsincreaseService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/UpdateLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use UpdateLimitsIncreaseRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/UpdateLimitsIncreaseRequest.cs.html">here</a> to see an example of how to use UpdateLimitsIncreaseRequest API.</example>
         public async Task<UpdateLimitsIncreaseRequestResponse> UpdateLimitsIncreaseRequest(UpdateLimitsIncreaseRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateLimitsIncreaseRequest");

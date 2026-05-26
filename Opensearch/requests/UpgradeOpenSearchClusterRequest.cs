@@ -14,7 +14,7 @@ using Oci.OpensearchService.Models;
 namespace Oci.OpensearchService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/UpgradeOpenSearchCluster.cs.html">here</a> to see an example of how to use UpgradeOpenSearchCluster request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opensearch/UpgradeOpenSearchCluster.cs.html">here</a> to see an example of how to use UpgradeOpenSearchCluster request.
     /// </example>
     public class UpgradeOpenSearchClusterRequest : Oci.Common.IOciRequest
     {

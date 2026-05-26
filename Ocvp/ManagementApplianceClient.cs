@@ -80,7 +80,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/CreateManagementAppliance.cs.html">here</a> to see an example of how to use CreateManagementAppliance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/CreateManagementAppliance.cs.html">here</a> to see an example of how to use CreateManagementAppliance API.</example>
         public async Task<CreateManagementApplianceResponse> CreateManagementAppliance(CreateManagementApplianceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createManagementAppliance");
@@ -136,7 +136,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DeleteManagementAppliance.cs.html">here</a> to see an example of how to use DeleteManagementAppliance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/DeleteManagementAppliance.cs.html">here</a> to see an example of how to use DeleteManagementAppliance API.</example>
         public async Task<DeleteManagementApplianceResponse> DeleteManagementAppliance(DeleteManagementApplianceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteManagementAppliance");
@@ -192,7 +192,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/GetManagementAppliance.cs.html">here</a> to see an example of how to use GetManagementAppliance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/GetManagementAppliance.cs.html">here</a> to see an example of how to use GetManagementAppliance API.</example>
         public async Task<GetManagementApplianceResponse> GetManagementAppliance(GetManagementApplianceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getManagementAppliance");
@@ -248,7 +248,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ListManagementAppliances.cs.html">here</a> to see an example of how to use ListManagementAppliances API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/ListManagementAppliances.cs.html">here</a> to see an example of how to use ListManagementAppliances API.</example>
         public async Task<ListManagementAppliancesResponse> ListManagementAppliances(ListManagementAppliancesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagementAppliances");
@@ -304,7 +304,7 @@ namespace Oci.OcvpService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/UpdateManagementAppliance.cs.html">here</a> to see an example of how to use UpdateManagementAppliance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/UpdateManagementAppliance.cs.html">here</a> to see an example of how to use UpdateManagementAppliance API.</example>
         public async Task<UpdateManagementApplianceResponse> UpdateManagementAppliance(UpdateManagementApplianceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateManagementAppliance");

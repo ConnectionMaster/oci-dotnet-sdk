@@ -23,7 +23,7 @@ namespace Oci.OcvpService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the VMware BYOL Allocation used to deploy VMware Avi Load Balancer.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VMware BYOL Allocation used to deploy VMware Avi Load Balancer.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "loadBalancerByolAllocationId")]

@@ -14,7 +14,7 @@ using Oci.ThreatintelligenceService.Models;
 namespace Oci.ThreatintelligenceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/threatintelligence/GetIndicator.cs.html">here</a> to see an example of how to use GetIndicator request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/threatintelligence/GetIndicator.cs.html">here</a> to see an example of how to use GetIndicator request.
     /// </example>
     public class GetIndicatorRequest : Oci.Common.IOciRequest
     {

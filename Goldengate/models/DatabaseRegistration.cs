@@ -23,7 +23,7 @@ namespace Oci.GoldengateService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the databaseRegistration being
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the databaseRegistration being
         /// referenced.
         /// 
         /// </value>
@@ -53,7 +53,7 @@ namespace Oci.GoldengateService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment being referenced.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment being referenced.
         /// 
         /// </value>
         /// <remarks>
@@ -136,14 +136,14 @@ namespace Oci.GoldengateService.Models
         public string IpAddress { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the target subnet of the dedicated connection.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the target subnet of the dedicated connection.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "subnetId")]
         public string SubnetId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the database being referenced.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database being referenced.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "databaseId")]
@@ -162,7 +162,7 @@ namespace Oci.GoldengateService.Models
         /// <value>
         /// The system tags associated with this resource, if any. The system tags are set by Oracle
         /// Cloud Infrastructure services. Each key is predefined and scoped to namespaces.  For more
-        /// information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {orcl-cloud: {free-tier-retain: true}}
         /// </value>
@@ -264,7 +264,7 @@ namespace Oci.GoldengateService.Models
         public string SecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the connection being
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the connection being
         /// referenced as the successor resource of the deprecated database registration.
         /// 
         /// </value>

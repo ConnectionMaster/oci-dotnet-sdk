@@ -23,7 +23,7 @@ namespace Oci.LicensemanagerService.Models
     {
         
         /// <value>
-        /// The product license [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// The product license [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

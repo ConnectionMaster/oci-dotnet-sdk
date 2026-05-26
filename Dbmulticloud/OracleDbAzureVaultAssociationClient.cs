@@ -81,7 +81,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CascadingDeleteOracleDbAzureVaultAssociation.cs.html">here</a> to see an example of how to use CascadingDeleteOracleDbAzureVaultAssociation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CascadingDeleteOracleDbAzureVaultAssociation.cs.html">here</a> to see an example of how to use CascadingDeleteOracleDbAzureVaultAssociation API.</example>
         public async Task<CascadingDeleteOracleDbAzureVaultAssociationResponse> CascadingDeleteOracleDbAzureVaultAssociation(CascadingDeleteOracleDbAzureVaultAssociationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cascadingDeleteOracleDbAzureVaultAssociation");
@@ -137,7 +137,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ChangeOracleDbAzureVaultAssociationCompartment.cs.html">here</a> to see an example of how to use ChangeOracleDbAzureVaultAssociationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ChangeOracleDbAzureVaultAssociationCompartment.cs.html">here</a> to see an example of how to use ChangeOracleDbAzureVaultAssociationCompartment API.</example>
         public async Task<ChangeOracleDbAzureVaultAssociationCompartmentResponse> ChangeOracleDbAzureVaultAssociationCompartment(ChangeOracleDbAzureVaultAssociationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeOracleDbAzureVaultAssociationCompartment");
@@ -194,7 +194,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbAzureVaultAssociation.cs.html">here</a> to see an example of how to use CreateOracleDbAzureVaultAssociation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/CreateOracleDbAzureVaultAssociation.cs.html">here</a> to see an example of how to use CreateOracleDbAzureVaultAssociation API.</example>
         public async Task<CreateOracleDbAzureVaultAssociationResponse> CreateOracleDbAzureVaultAssociation(CreateOracleDbAzureVaultAssociationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOracleDbAzureVaultAssociation");
@@ -251,7 +251,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/DeleteOracleDbAzureVaultAssociation.cs.html">here</a> to see an example of how to use DeleteOracleDbAzureVaultAssociation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/DeleteOracleDbAzureVaultAssociation.cs.html">here</a> to see an example of how to use DeleteOracleDbAzureVaultAssociation API.</example>
         public async Task<DeleteOracleDbAzureVaultAssociationResponse> DeleteOracleDbAzureVaultAssociation(DeleteOracleDbAzureVaultAssociationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOracleDbAzureVaultAssociation");
@@ -300,7 +300,7 @@ namespace Oci.DbmulticloudService
         }
 
         /// <summary>
-        /// Retrieves the details of an Oracle DB Azure Vault Association using the specified association resource [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Retrieves the details of an Oracle DB Azure Vault Association using the specified association resource [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -308,7 +308,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetOracleDbAzureVaultAssociation.cs.html">here</a> to see an example of how to use GetOracleDbAzureVaultAssociation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/GetOracleDbAzureVaultAssociation.cs.html">here</a> to see an example of how to use GetOracleDbAzureVaultAssociation API.</example>
         public async Task<GetOracleDbAzureVaultAssociationResponse> GetOracleDbAzureVaultAssociation(GetOracleDbAzureVaultAssociationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOracleDbAzureVaultAssociation");
@@ -365,7 +365,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbAzureVaultAssociations.cs.html">here</a> to see an example of how to use ListOracleDbAzureVaultAssociations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/ListOracleDbAzureVaultAssociations.cs.html">here</a> to see an example of how to use ListOracleDbAzureVaultAssociations API.</example>
         public async Task<ListOracleDbAzureVaultAssociationsResponse> ListOracleDbAzureVaultAssociations(ListOracleDbAzureVaultAssociationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOracleDbAzureVaultAssociations");
@@ -414,7 +414,7 @@ namespace Oci.DbmulticloudService
         }
 
         /// <summary>
-        /// Modifies the properties of an Oracle DB Azure Vault Association resource identified by the specified resource [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Modifies the properties of an Oracle DB Azure Vault Association resource identified by the specified resource [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -422,7 +422,7 @@ namespace Oci.DbmulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/UpdateOracleDbAzureVaultAssociation.cs.html">here</a> to see an example of how to use UpdateOracleDbAzureVaultAssociation API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dbmulticloud/UpdateOracleDbAzureVaultAssociation.cs.html">here</a> to see an example of how to use UpdateOracleDbAzureVaultAssociation API.</example>
         public async Task<UpdateOracleDbAzureVaultAssociationResponse> UpdateOracleDbAzureVaultAssociation(UpdateOracleDbAzureVaultAssociationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOracleDbAzureVaultAssociation");

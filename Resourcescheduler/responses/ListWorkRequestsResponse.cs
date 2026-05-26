@@ -26,7 +26,7 @@ namespace Oci.ResourceschedulerService.Responses
 
         /// <value>
         /// When this header appears in the list pagination response, there are additional results pages to view. For
-        /// important details about how pagination works, see [List Pagination](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
+        /// important details about how pagination works, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-next-page")]

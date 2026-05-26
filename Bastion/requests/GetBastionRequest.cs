@@ -14,7 +14,7 @@ using Oci.BastionService.Models;
 namespace Oci.BastionService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bastion/GetBastion.cs.html">here</a> to see an example of how to use GetBastion request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bastion/GetBastion.cs.html">here</a> to see an example of how to use GetBastion request.
     /// </example>
     public class GetBastionRequest : Oci.Common.IOciRequest
     {

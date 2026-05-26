@@ -14,7 +14,7 @@ using Oci.AivisionService.Models;
 namespace Oci.AivisionService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aivision/ListStreamGroups.cs.html">here</a> to see an example of how to use ListStreamGroups request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aivision/ListStreamGroups.cs.html">here</a> to see an example of how to use ListStreamGroups request.
     /// </example>
     public class ListStreamGroupsRequest : Oci.Common.IOciRequest
     {

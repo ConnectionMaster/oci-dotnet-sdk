@@ -22,7 +22,7 @@ namespace Oci.OsmanagementhubService.Models
     {
         
         /// <value>
-        /// The profile [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) to attach to the managed instance.
+        /// The profile [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) to attach to the managed instance.
         /// </value>
         /// <remarks>
         /// Required

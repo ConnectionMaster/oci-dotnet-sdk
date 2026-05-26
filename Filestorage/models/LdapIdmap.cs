@@ -78,13 +78,13 @@ namespace Oci.FilestorageService.Models
         public string GroupSearchBase { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the first connector to use to communicate with the LDAP server.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the first connector to use to communicate with the LDAP server.
         /// </value>
         [JsonProperty(PropertyName = "outboundConnector1Id")]
         public string OutboundConnector1Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the second connector to use to communicate with the LDAP server.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the second connector to use to communicate with the LDAP server.
         /// </value>
         [JsonProperty(PropertyName = "outboundConnector2Id")]
         public string OutboundConnector2Id { get; set; }

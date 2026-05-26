@@ -28,13 +28,13 @@ namespace Oci.OpsiService.Models
         public string UserName { get; set; }
         
         /// <value>
-        /// The secret [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) mapping to the database credentials.
+        /// The secret [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) mapping to the database credentials.
         /// </value>
         [JsonProperty(PropertyName = "passwordSecretId")]
         public string PasswordSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the database keystore contents are stored. This is used for TCPS support in BM/VM/ExaCS cases.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the database keystore contents are stored. This is used for TCPS support in BM/VM/ExaCS cases.
         /// </value>
         [JsonProperty(PropertyName = "walletSecretId")]
         public string WalletSecretId { get; set; }

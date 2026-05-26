@@ -80,7 +80,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
         public async Task<CancelWorkRequestResponse> CancelWorkRequest(CancelWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelWorkRequest");
@@ -136,7 +136,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ChangeMigrationCompartment.cs.html">here</a> to see an example of how to use ChangeMigrationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ChangeMigrationCompartment.cs.html">here</a> to see an example of how to use ChangeMigrationCompartment API.</example>
         public async Task<ChangeMigrationCompartmentResponse> ChangeMigrationCompartment(ChangeMigrationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMigrationCompartment");
@@ -192,7 +192,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ChangeMigrationPlanCompartment.cs.html">here</a> to see an example of how to use ChangeMigrationPlanCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ChangeMigrationPlanCompartment.cs.html">here</a> to see an example of how to use ChangeMigrationPlanCompartment API.</example>
         public async Task<ChangeMigrationPlanCompartmentResponse> ChangeMigrationPlanCompartment(ChangeMigrationPlanCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeMigrationPlanCompartment");
@@ -248,7 +248,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ChangeReplicationScheduleCompartment.cs.html">here</a> to see an example of how to use ChangeReplicationScheduleCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ChangeReplicationScheduleCompartment.cs.html">here</a> to see an example of how to use ChangeReplicationScheduleCompartment API.</example>
         public async Task<ChangeReplicationScheduleCompartmentResponse> ChangeReplicationScheduleCompartment(ChangeReplicationScheduleCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeReplicationScheduleCompartment");
@@ -305,7 +305,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/CreateMigration.cs.html">here</a> to see an example of how to use CreateMigration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/CreateMigration.cs.html">here</a> to see an example of how to use CreateMigration API.</example>
         public async Task<CreateMigrationResponse> CreateMigration(CreateMigrationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMigration");
@@ -362,7 +362,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/CreateMigrationAsset.cs.html">here</a> to see an example of how to use CreateMigrationAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/CreateMigrationAsset.cs.html">here</a> to see an example of how to use CreateMigrationAsset API.</example>
         public async Task<CreateMigrationAssetResponse> CreateMigrationAsset(CreateMigrationAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMigrationAsset");
@@ -419,7 +419,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/CreateMigrationPlan.cs.html">here</a> to see an example of how to use CreateMigrationPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/CreateMigrationPlan.cs.html">here</a> to see an example of how to use CreateMigrationPlan API.</example>
         public async Task<CreateMigrationPlanResponse> CreateMigrationPlan(CreateMigrationPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMigrationPlan");
@@ -476,7 +476,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/CreateReplicationSchedule.cs.html">here</a> to see an example of how to use CreateReplicationSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/CreateReplicationSchedule.cs.html">here</a> to see an example of how to use CreateReplicationSchedule API.</example>
         public async Task<CreateReplicationScheduleResponse> CreateReplicationSchedule(CreateReplicationScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createReplicationSchedule");
@@ -533,7 +533,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/CreateTargetAsset.cs.html">here</a> to see an example of how to use CreateTargetAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/CreateTargetAsset.cs.html">here</a> to see an example of how to use CreateTargetAsset API.</example>
         public async Task<CreateTargetAssetResponse> CreateTargetAsset(CreateTargetAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createTargetAsset");
@@ -589,7 +589,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/DeleteMigration.cs.html">here</a> to see an example of how to use DeleteMigration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/DeleteMigration.cs.html">here</a> to see an example of how to use DeleteMigration API.</example>
         public async Task<DeleteMigrationResponse> DeleteMigration(DeleteMigrationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMigration");
@@ -645,7 +645,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/DeleteMigrationAsset.cs.html">here</a> to see an example of how to use DeleteMigrationAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/DeleteMigrationAsset.cs.html">here</a> to see an example of how to use DeleteMigrationAsset API.</example>
         public async Task<DeleteMigrationAssetResponse> DeleteMigrationAsset(DeleteMigrationAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMigrationAsset");
@@ -701,7 +701,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/DeleteMigrationPlan.cs.html">here</a> to see an example of how to use DeleteMigrationPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/DeleteMigrationPlan.cs.html">here</a> to see an example of how to use DeleteMigrationPlan API.</example>
         public async Task<DeleteMigrationPlanResponse> DeleteMigrationPlan(DeleteMigrationPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMigrationPlan");
@@ -757,7 +757,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/DeleteReplicationSchedule.cs.html">here</a> to see an example of how to use DeleteReplicationSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/DeleteReplicationSchedule.cs.html">here</a> to see an example of how to use DeleteReplicationSchedule API.</example>
         public async Task<DeleteReplicationScheduleResponse> DeleteReplicationSchedule(DeleteReplicationScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteReplicationSchedule");
@@ -813,7 +813,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/DeleteTargetAsset.cs.html">here</a> to see an example of how to use DeleteTargetAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/DeleteTargetAsset.cs.html">here</a> to see an example of how to use DeleteTargetAsset API.</example>
         public async Task<DeleteTargetAssetResponse> DeleteTargetAsset(DeleteTargetAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteTargetAsset");
@@ -870,7 +870,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ExecuteMigrationPlan.cs.html">here</a> to see an example of how to use ExecuteMigrationPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ExecuteMigrationPlan.cs.html">here</a> to see an example of how to use ExecuteMigrationPlan API.</example>
         public async Task<ExecuteMigrationPlanResponse> ExecuteMigrationPlan(ExecuteMigrationPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called executeMigrationPlan");
@@ -926,7 +926,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ExportMigrationPlan.cs.html">here</a> to see an example of how to use ExportMigrationPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ExportMigrationPlan.cs.html">here</a> to see an example of how to use ExportMigrationPlan API.</example>
         public async Task<ExportMigrationPlanResponse> ExportMigrationPlan(ExportMigrationPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called exportMigrationPlan");
@@ -982,7 +982,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetMigration.cs.html">here</a> to see an example of how to use GetMigration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetMigration.cs.html">here</a> to see an example of how to use GetMigration API.</example>
         public async Task<GetMigrationResponse> GetMigration(GetMigrationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMigration");
@@ -1038,7 +1038,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetMigrationAsset.cs.html">here</a> to see an example of how to use GetMigrationAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetMigrationAsset.cs.html">here</a> to see an example of how to use GetMigrationAsset API.</example>
         public async Task<GetMigrationAssetResponse> GetMigrationAsset(GetMigrationAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMigrationAsset");
@@ -1094,7 +1094,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetMigrationPlan.cs.html">here</a> to see an example of how to use GetMigrationPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetMigrationPlan.cs.html">here</a> to see an example of how to use GetMigrationPlan API.</example>
         public async Task<GetMigrationPlanResponse> GetMigrationPlan(GetMigrationPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMigrationPlan");
@@ -1151,7 +1151,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetReplicationProgress.cs.html">here</a> to see an example of how to use GetReplicationProgress API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetReplicationProgress.cs.html">here</a> to see an example of how to use GetReplicationProgress API.</example>
         public async Task<GetReplicationProgressResponse> GetReplicationProgress(GetReplicationProgressRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getReplicationProgress");
@@ -1207,7 +1207,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetReplicationSchedule.cs.html">here</a> to see an example of how to use GetReplicationSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetReplicationSchedule.cs.html">here</a> to see an example of how to use GetReplicationSchedule API.</example>
         public async Task<GetReplicationScheduleResponse> GetReplicationSchedule(GetReplicationScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getReplicationSchedule");
@@ -1263,7 +1263,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetTargetAsset.cs.html">here</a> to see an example of how to use GetTargetAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetTargetAsset.cs.html">here</a> to see an example of how to use GetTargetAsset API.</example>
         public async Task<GetTargetAssetResponse> GetTargetAsset(GetTargetAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTargetAsset");
@@ -1319,7 +1319,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -1375,7 +1375,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ImportMigrationPlan.cs.html">here</a> to see an example of how to use ImportMigrationPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ImportMigrationPlan.cs.html">here</a> to see an example of how to use ImportMigrationPlan API.</example>
         public async Task<ImportMigrationPlanResponse> ImportMigrationPlan(ImportMigrationPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called importMigrationPlan");
@@ -1431,7 +1431,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListAvailableShapes.cs.html">here</a> to see an example of how to use ListAvailableShapes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListAvailableShapes.cs.html">here</a> to see an example of how to use ListAvailableShapes API.</example>
         public async Task<ListAvailableShapesResponse> ListAvailableShapes(ListAvailableShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAvailableShapes");
@@ -1488,7 +1488,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListMigrationAssets.cs.html">here</a> to see an example of how to use ListMigrationAssets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListMigrationAssets.cs.html">here</a> to see an example of how to use ListMigrationAssets API.</example>
         public async Task<ListMigrationAssetsResponse> ListMigrationAssets(ListMigrationAssetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMigrationAssets");
@@ -1545,7 +1545,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListMigrationPlans.cs.html">here</a> to see an example of how to use ListMigrationPlans API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListMigrationPlans.cs.html">here</a> to see an example of how to use ListMigrationPlans API.</example>
         public async Task<ListMigrationPlansResponse> ListMigrationPlans(ListMigrationPlansRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMigrationPlans");
@@ -1602,7 +1602,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListMigrations.cs.html">here</a> to see an example of how to use ListMigrations API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListMigrations.cs.html">here</a> to see an example of how to use ListMigrations API.</example>
         public async Task<ListMigrationsResponse> ListMigrations(ListMigrationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMigrations");
@@ -1659,7 +1659,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListReplicationSchedules.cs.html">here</a> to see an example of how to use ListReplicationSchedules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListReplicationSchedules.cs.html">here</a> to see an example of how to use ListReplicationSchedules API.</example>
         public async Task<ListReplicationSchedulesResponse> ListReplicationSchedules(ListReplicationSchedulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listReplicationSchedules");
@@ -1716,7 +1716,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListTargetAssets.cs.html">here</a> to see an example of how to use ListTargetAssets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListTargetAssets.cs.html">here</a> to see an example of how to use ListTargetAssets API.</example>
         public async Task<ListTargetAssetsResponse> ListTargetAssets(ListTargetAssetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTargetAssets");
@@ -1773,7 +1773,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -1830,7 +1830,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -1887,7 +1887,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1944,7 +1944,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/RefreshMigration.cs.html">here</a> to see an example of how to use RefreshMigration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/RefreshMigration.cs.html">here</a> to see an example of how to use RefreshMigration API.</example>
         public async Task<RefreshMigrationResponse> RefreshMigration(RefreshMigrationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshMigration");
@@ -2001,7 +2001,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/RefreshMigrationAsset.cs.html">here</a> to see an example of how to use RefreshMigrationAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/RefreshMigrationAsset.cs.html">here</a> to see an example of how to use RefreshMigrationAsset API.</example>
         public async Task<RefreshMigrationAssetResponse> RefreshMigrationAsset(RefreshMigrationAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshMigrationAsset");
@@ -2058,7 +2058,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/RefreshMigrationPlan.cs.html">here</a> to see an example of how to use RefreshMigrationPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/RefreshMigrationPlan.cs.html">here</a> to see an example of how to use RefreshMigrationPlan API.</example>
         public async Task<RefreshMigrationPlanResponse> RefreshMigrationPlan(RefreshMigrationPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called refreshMigrationPlan");
@@ -2115,7 +2115,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/StartAssetReplication.cs.html">here</a> to see an example of how to use StartAssetReplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/StartAssetReplication.cs.html">here</a> to see an example of how to use StartAssetReplication API.</example>
         public async Task<StartAssetReplicationResponse> StartAssetReplication(StartAssetReplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startAssetReplication");
@@ -2172,7 +2172,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/StartMigrationReplication.cs.html">here</a> to see an example of how to use StartMigrationReplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/StartMigrationReplication.cs.html">here</a> to see an example of how to use StartMigrationReplication API.</example>
         public async Task<StartMigrationReplicationResponse> StartMigrationReplication(StartMigrationReplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startMigrationReplication");
@@ -2228,7 +2228,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/UpdateMigration.cs.html">here</a> to see an example of how to use UpdateMigration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/UpdateMigration.cs.html">here</a> to see an example of how to use UpdateMigration API.</example>
         public async Task<UpdateMigrationResponse> UpdateMigration(UpdateMigrationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMigration");
@@ -2284,7 +2284,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/UpdateMigrationAsset.cs.html">here</a> to see an example of how to use UpdateMigrationAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/UpdateMigrationAsset.cs.html">here</a> to see an example of how to use UpdateMigrationAsset API.</example>
         public async Task<UpdateMigrationAssetResponse> UpdateMigrationAsset(UpdateMigrationAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMigrationAsset");
@@ -2340,7 +2340,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/UpdateMigrationPlan.cs.html">here</a> to see an example of how to use UpdateMigrationPlan API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/UpdateMigrationPlan.cs.html">here</a> to see an example of how to use UpdateMigrationPlan API.</example>
         public async Task<UpdateMigrationPlanResponse> UpdateMigrationPlan(UpdateMigrationPlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMigrationPlan");
@@ -2396,7 +2396,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/UpdateReplicationSchedule.cs.html">here</a> to see an example of how to use UpdateReplicationSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/UpdateReplicationSchedule.cs.html">here</a> to see an example of how to use UpdateReplicationSchedule API.</example>
         public async Task<UpdateReplicationScheduleResponse> UpdateReplicationSchedule(UpdateReplicationScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateReplicationSchedule");
@@ -2452,7 +2452,7 @@ namespace Oci.CloudmigrationsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/UpdateTargetAsset.cs.html">here</a> to see an example of how to use UpdateTargetAsset API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/UpdateTargetAsset.cs.html">here</a> to see an example of how to use UpdateTargetAsset API.</example>
         public async Task<UpdateTargetAssetResponse> UpdateTargetAsset(UpdateTargetAssetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateTargetAsset");

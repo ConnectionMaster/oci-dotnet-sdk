@@ -14,13 +14,13 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCrossConnectLetterOfAuthority.cs.html">here</a> to see an example of how to use GetCrossConnectLetterOfAuthority request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetCrossConnectLetterOfAuthority.cs.html">here</a> to see an example of how to use GetCrossConnectLetterOfAuthority request.
     /// </example>
     public class GetCrossConnectLetterOfAuthorityRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cross-connect.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cross-connect.
         /// </value>
         /// <remarks>
         /// Required

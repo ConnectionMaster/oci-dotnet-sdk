@@ -27,7 +27,7 @@ namespace Oci.ServicemanagerproxyService.Models
         /// <value>
         /// Unqiue identifier for the entitlement related to the environment. 
         /// <br/>
-        /// **Note:** Not an [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// **Note:** Not an [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         /// <remarks>
@@ -40,7 +40,7 @@ namespace Oci.ServicemanagerproxyService.Models
         /// <value>
         /// The unique subscription ID associated with the service environment ID.
         /// <br/>
-        /// **Note:** Not an [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// **Note:** Not an [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         /// <remarks>
@@ -62,7 +62,7 @@ namespace Oci.ServicemanagerproxyService.Models
         public System.Nullable<ServiceEntitlementRegistrationStatus> Status { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) for the compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the compartment.
         /// </value>
         /// <remarks>
         /// Required

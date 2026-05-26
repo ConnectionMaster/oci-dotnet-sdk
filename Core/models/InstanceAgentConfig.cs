@@ -65,7 +65,7 @@ namespace Oci.CoreService.Models
         /// This includes the management and monitoring plugins.
         /// <br/>
         /// For more information about the available plugins, see
-        /// [Managing Plugins with Oracle Cloud Agent](https://docs.cloud.oracle.com/iaas/Content/Compute/Tasks/manage-plugins.htm).
+        /// [Managing Plugins with Oracle Cloud Agent](https://docs.oracle.com/iaas/Content/Compute/Tasks/manage-plugins.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "areAllPluginsDisabled")]

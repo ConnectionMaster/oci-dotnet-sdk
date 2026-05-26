@@ -14,7 +14,7 @@ using Oci.CloudbridgeService.Models;
 namespace Oci.CloudbridgeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/UpdateAsset.cs.html">here</a> to see an example of how to use UpdateAsset request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudbridge/UpdateAsset.cs.html">here</a> to see an example of how to use UpdateAsset request.
     /// </example>
     public class UpdateAssetRequest : Oci.Common.IOciRequest
     {

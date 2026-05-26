@@ -24,13 +24,10 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// The name given to the GoldenGate service deployment.
-        /// The name must be 1 to 32 characters long, must contain only alphanumeric characters and must start with a letter.
+        /// The name must contain only alphanumeric characters and must start with a letter.
+        /// For standby deployment the deployment name is inherited from primary.
         /// 
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "DeploymentName is required.")]
         [JsonProperty(PropertyName = "deploymentName")]
         public string DeploymentName { get; set; }
         
@@ -43,14 +40,14 @@ namespace Oci.GoldengateService.Models
         public System.Nullable<CredentialStore> CredentialStore { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Identity Domain when IAM credential store is used.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Identity Domain when IAM credential store is used.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "identityDomainId")]
         public string IdentityDomainId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the deployment password is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the deployment password is stored.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "passwordSecretId")]
@@ -86,6 +83,13 @@ namespace Oci.GoldengateService.Models
         /// </value>
         [JsonProperty(PropertyName = "key")]
         public string Key { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the deployment ssl private key is stored in PEM format.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "keySecretId")]
+        public string KeySecretId { get; set; }
         
         /// <value>
         /// Version of OGG

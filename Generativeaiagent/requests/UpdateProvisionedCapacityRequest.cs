@@ -14,13 +14,13 @@ using Oci.GenerativeaiagentService.Models;
 namespace Oci.GenerativeaiagentService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagent/UpdateProvisionedCapacity.cs.html">here</a> to see an example of how to use UpdateProvisionedCapacity request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaiagent/UpdateProvisionedCapacity.cs.html">here</a> to see an example of how to use UpdateProvisionedCapacity request.
     /// </example>
     public class UpdateProvisionedCapacityRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the provisioned capacity.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the provisioned capacity.
         /// </value>
         /// <remarks>
         /// Required

@@ -23,7 +23,7 @@ namespace Oci.DatabaseService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the maintenance update.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the maintenance update.
         /// </value>
         [JsonProperty(PropertyName = "updateId")]
         public string UpdateId { get; set; }
@@ -51,7 +51,7 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<UpdateActionEnum> UpdateAction { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of a grid infrastructure software image. This is a database software image of the type `GRID_IMAGE`.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a grid infrastructure software image. This is a database software image of the type `GRID_IMAGE`.
         /// </value>
         [JsonProperty(PropertyName = "giSoftwareImageId")]
         public string GiSoftwareImageId { get; set; }

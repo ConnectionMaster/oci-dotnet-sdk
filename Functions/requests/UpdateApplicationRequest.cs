@@ -14,13 +14,13 @@ using Oci.FunctionsService.Models;
 namespace Oci.FunctionsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/functions/UpdateApplication.cs.html">here</a> to see an example of how to use UpdateApplication request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/functions/UpdateApplication.cs.html">here</a> to see an example of how to use UpdateApplication request.
     /// </example>
     public class UpdateApplicationRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of this application.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of this application.
         /// 
         /// </value>
         /// <remarks>

@@ -16,14 +16,14 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FleetsoftwareupdateService.Models
 {
     /// <summary>
-    /// List of [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of compartments to include when discovering Exadata VM Cluster targets for a 'GUEST_OS' collection.
+    /// List of [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of compartments to include when discovering Exadata VM Cluster targets for a 'GUEST_OS' collection.
     /// 
     /// </summary>
     public class GuestOsCompartmentIdFilter : GuestOsFleetDiscoveryFilter
     {
         
         /// <value>
-        /// List of [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of Compartments to include when discovering Exadata VM Cluster targets for a 'GUEST_OS' collection.
+        /// List of [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of Compartments to include when discovering Exadata VM Cluster targets for a 'GUEST_OS' collection.
         /// 
         /// </value>
         /// <remarks>

@@ -51,6 +51,9 @@ namespace Oci.DatascienceService.Models
                 case "SINGLE_MODEL":
                     obj = new UpdateSingleModelDeploymentConfigurationDetails();
                     break;
+                case "SINGLE_MODEL_FLEX":
+                    obj = new UpdateSingleModelDeploymentFlexConfigurationDetails();
+                    break;
             }
             serializer.Populate(jsonObject.CreateReader(), obj);
             return obj;

@@ -17,7 +17,7 @@ namespace Oci.OpensearchService.Models
 {
     /// <summary>
     /// An OpenSearch cluster resource. An OpenSearch cluster is set of instances that provide OpenSearch functionality in OCI Search Service with OpenSearch.
-    /// For more information, see [About Search Service with OpenSearch](https://docs.cloud.oracle.com/iaas/Content/search-opensearch/Concepts/ociopensearch.htm).
+    /// For more information, see [About Search Service with OpenSearch](https://docs.oracle.com/iaas/Content/search-opensearch/Concepts/ociopensearch.htm).
     /// 
     /// </summary>
     public class OpensearchCluster 
@@ -137,7 +137,7 @@ namespace Oci.OpensearchService.Models
         
         /// <value>
         /// Security attributes for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Oracle-ZPR&quot;: {&quot;MaxEgressCount&quot;: {&quot;value&quot;: &quot;42&quot;, &quot;mode&quot;: &quot;enforce&quot;}}}
         /// </value>

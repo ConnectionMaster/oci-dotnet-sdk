@@ -64,12 +64,26 @@ namespace Oci.GoldengateService.Models
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the subnet of the pipeline's private endpoint.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet of the pipeline's private endpoint.
         /// The subnet must be a private subnet.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "subnetId")]
         public string SubnetId { get; set; }
+        
+        /// <value>
+        /// The Minimum number of OCPUs to be made available for this Deployment.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "cpuCoreCount")]
+        public System.Nullable<int> CpuCoreCount { get; set; }
+        
+        /// <value>
+        /// Indicates if auto scaling is enabled for the Deployment's CPU core count.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isAutoScalingEnabled")]
+        public System.Nullable<bool> IsAutoScalingEnabled { get; set; }
         
     }
 

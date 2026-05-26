@@ -14,7 +14,7 @@ using Oci.UsageService.Models;
 namespace Oci.UsageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usage/ListResourceQuota.cs.html">here</a> to see an example of how to use ListResourceQuota request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usage/ListResourceQuota.cs.html">here</a> to see an example of how to use ListResourceQuota request.
     /// </example>
     public class ListResourceQuotaRequest : Oci.Common.IOciRequest
     {

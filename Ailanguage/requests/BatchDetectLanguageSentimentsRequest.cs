@@ -14,7 +14,7 @@ using Oci.AilanguageService.Models;
 namespace Oci.AilanguageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchDetectLanguageSentiments.cs.html">here</a> to see an example of how to use BatchDetectLanguageSentiments request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/BatchDetectLanguageSentiments.cs.html">here</a> to see an example of how to use BatchDetectLanguageSentiments request.
     /// </example>
     public class BatchDetectLanguageSentimentsRequest : Oci.Common.IOciRequest
     {

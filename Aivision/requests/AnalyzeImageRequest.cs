@@ -14,7 +14,7 @@ using Oci.AivisionService.Models;
 namespace Oci.AivisionService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aivision/AnalyzeImage.cs.html">here</a> to see an example of how to use AnalyzeImage request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aivision/AnalyzeImage.cs.html">here</a> to see an example of how to use AnalyzeImage request.
     /// </example>
     public class AnalyzeImageRequest : Oci.Common.IOciRequest
     {

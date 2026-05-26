@@ -14,7 +14,7 @@ using Oci.AdmService.Models;
 namespace Oci.AdmService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListApplicationDependencyRecommendations.cs.html">here</a> to see an example of how to use ListApplicationDependencyRecommendations request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/adm/ListApplicationDependencyRecommendations.cs.html">here</a> to see an example of how to use ListApplicationDependencyRecommendations request.
     /// </example>
     public class ListApplicationDependencyRecommendationsRequest : Oci.Common.IOciRequest
     {

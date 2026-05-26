@@ -14,7 +14,7 @@ using Oci.FleetappsmanagementService.Models;
 namespace Oci.FleetappsmanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListFleetProducts.cs.html">here</a> to see an example of how to use ListFleetProducts request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListFleetProducts.cs.html">here</a> to see an example of how to use ListFleetProducts request.
     /// </example>
     public class ListFleetProductsRequest : Oci.Common.IOciRequest
     {

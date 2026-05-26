@@ -14,13 +14,13 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetComputeGlobalImageCapabilitySchemaVersion.cs.html">here</a> to see an example of how to use GetComputeGlobalImageCapabilitySchemaVersion request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/GetComputeGlobalImageCapabilitySchemaVersion.cs.html">here</a> to see an example of how to use GetComputeGlobalImageCapabilitySchemaVersion request.
     /// </example>
     public class GetComputeGlobalImageCapabilitySchemaVersionRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compute global image capability schema
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compute global image capability schema
         /// </value>
         /// <remarks>
         /// Required

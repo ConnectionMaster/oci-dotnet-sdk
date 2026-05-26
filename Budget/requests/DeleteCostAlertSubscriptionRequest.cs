@@ -14,7 +14,7 @@ using Oci.BudgetService.Models;
 namespace Oci.BudgetService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/budget/DeleteCostAlertSubscription.cs.html">here</a> to see an example of how to use DeleteCostAlertSubscription request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/budget/DeleteCostAlertSubscription.cs.html">here</a> to see an example of how to use DeleteCostAlertSubscription request.
     /// </example>
     public class DeleteCostAlertSubscriptionRequest : Oci.Common.IOciRequest
     {

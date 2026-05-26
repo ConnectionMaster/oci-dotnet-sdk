@@ -23,7 +23,7 @@ namespace Oci.FunctionsService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the PbfListing this
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the PbfListing this
         /// function is sourced from.
         /// 
         /// </value>

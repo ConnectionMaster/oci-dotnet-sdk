@@ -14,13 +14,13 @@ using Oci.IotService.Models;
 namespace Oci.IotService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/DeleteDigitalTwinAdapter.cs.html">here</a> to see an example of how to use DeleteDigitalTwinAdapter request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/DeleteDigitalTwinAdapter.cs.html">here</a> to see an example of how to use DeleteDigitalTwinAdapter request.
     /// </example>
     public class DeleteDigitalTwinAdapterRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the digital twin adapter.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the digital twin adapter.
         /// 
         /// </value>
         /// <remarks>

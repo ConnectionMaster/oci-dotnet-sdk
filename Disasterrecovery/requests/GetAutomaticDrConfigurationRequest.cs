@@ -14,7 +14,7 @@ using Oci.DisasterrecoveryService.Models;
 namespace Oci.DisasterrecoveryService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/GetAutomaticDrConfiguration.cs.html">here</a> to see an example of how to use GetAutomaticDrConfiguration request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/disasterrecovery/GetAutomaticDrConfiguration.cs.html">here</a> to see an example of how to use GetAutomaticDrConfiguration request.
     /// </example>
     public class GetAutomaticDrConfigurationRequest : Oci.Common.IOciRequest
     {

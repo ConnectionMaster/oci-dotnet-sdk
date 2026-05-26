@@ -80,7 +80,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ApplyNetworkFirewallPolicy.cs.html">here</a> to see an example of how to use ApplyNetworkFirewallPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ApplyNetworkFirewallPolicy.cs.html">here</a> to see an example of how to use ApplyNetworkFirewallPolicy API.</example>
         public async Task<ApplyNetworkFirewallPolicyResponse> ApplyNetworkFirewallPolicy(ApplyNetworkFirewallPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called applyNetworkFirewallPolicy");
@@ -137,7 +137,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadAddressLists.cs.html">here</a> to see an example of how to use BulkUploadAddressLists API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadAddressLists.cs.html">here</a> to see an example of how to use BulkUploadAddressLists API.</example>
         public async Task<BulkUploadAddressListsResponse> BulkUploadAddressLists(BulkUploadAddressListsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUploadAddressLists");
@@ -194,7 +194,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadApplicationGroups.cs.html">here</a> to see an example of how to use BulkUploadApplicationGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadApplicationGroups.cs.html">here</a> to see an example of how to use BulkUploadApplicationGroups API.</example>
         public async Task<BulkUploadApplicationGroupsResponse> BulkUploadApplicationGroups(BulkUploadApplicationGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUploadApplicationGroups");
@@ -251,7 +251,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadApplications.cs.html">here</a> to see an example of how to use BulkUploadApplications API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadApplications.cs.html">here</a> to see an example of how to use BulkUploadApplications API.</example>
         public async Task<BulkUploadApplicationsResponse> BulkUploadApplications(BulkUploadApplicationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUploadApplications");
@@ -308,7 +308,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadDecryptionProfiles.cs.html">here</a> to see an example of how to use BulkUploadDecryptionProfiles API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadDecryptionProfiles.cs.html">here</a> to see an example of how to use BulkUploadDecryptionProfiles API.</example>
         public async Task<BulkUploadDecryptionProfilesResponse> BulkUploadDecryptionProfiles(BulkUploadDecryptionProfilesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUploadDecryptionProfiles");
@@ -365,7 +365,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadDecryptionRules.cs.html">here</a> to see an example of how to use BulkUploadDecryptionRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadDecryptionRules.cs.html">here</a> to see an example of how to use BulkUploadDecryptionRules API.</example>
         public async Task<BulkUploadDecryptionRulesResponse> BulkUploadDecryptionRules(BulkUploadDecryptionRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUploadDecryptionRules");
@@ -422,7 +422,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadMappedSecrets.cs.html">here</a> to see an example of how to use BulkUploadMappedSecrets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadMappedSecrets.cs.html">here</a> to see an example of how to use BulkUploadMappedSecrets API.</example>
         public async Task<BulkUploadMappedSecretsResponse> BulkUploadMappedSecrets(BulkUploadMappedSecretsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUploadMappedSecrets");
@@ -471,7 +471,7 @@ namespace Oci.NetworkfirewallService
         }
 
         /// <summary>
-        /// Creates a new [NAT rule](https://docs.cloud.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) at bulk for the Network Firewall policy.
+        /// Creates a new [NAT rule](https://docs.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) at bulk for the Network Firewall policy.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -479,7 +479,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadNatRules.cs.html">here</a> to see an example of how to use BulkUploadNatRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadNatRules.cs.html">here</a> to see an example of how to use BulkUploadNatRules API.</example>
         public async Task<BulkUploadNatRulesResponse> BulkUploadNatRules(BulkUploadNatRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUploadNatRules");
@@ -536,7 +536,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadSecurityRules.cs.html">here</a> to see an example of how to use BulkUploadSecurityRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadSecurityRules.cs.html">here</a> to see an example of how to use BulkUploadSecurityRules API.</example>
         public async Task<BulkUploadSecurityRulesResponse> BulkUploadSecurityRules(BulkUploadSecurityRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUploadSecurityRules");
@@ -593,7 +593,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadServiceLists.cs.html">here</a> to see an example of how to use BulkUploadServiceLists API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadServiceLists.cs.html">here</a> to see an example of how to use BulkUploadServiceLists API.</example>
         public async Task<BulkUploadServiceListsResponse> BulkUploadServiceLists(BulkUploadServiceListsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUploadServiceLists");
@@ -650,7 +650,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadServices.cs.html">here</a> to see an example of how to use BulkUploadServices API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadServices.cs.html">here</a> to see an example of how to use BulkUploadServices API.</example>
         public async Task<BulkUploadServicesResponse> BulkUploadServices(BulkUploadServicesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUploadServices");
@@ -707,7 +707,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadTunnelInspectionRules.cs.html">here</a> to see an example of how to use BulkUploadTunnelInspectionRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadTunnelInspectionRules.cs.html">here</a> to see an example of how to use BulkUploadTunnelInspectionRules API.</example>
         public async Task<BulkUploadTunnelInspectionRulesResponse> BulkUploadTunnelInspectionRules(BulkUploadTunnelInspectionRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUploadTunnelInspectionRules");
@@ -764,7 +764,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadUrlLists.cs.html">here</a> to see an example of how to use BulkUploadUrlLists API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/BulkUploadUrlLists.cs.html">here</a> to see an example of how to use BulkUploadUrlLists API.</example>
         public async Task<BulkUploadUrlListsResponse> BulkUploadUrlLists(BulkUploadUrlListsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUploadUrlLists");
@@ -820,7 +820,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
         public async Task<CancelWorkRequestResponse> CancelWorkRequest(CancelWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelWorkRequest");
@@ -876,7 +876,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ChangeNetworkFirewallCompartment.cs.html">here</a> to see an example of how to use ChangeNetworkFirewallCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ChangeNetworkFirewallCompartment.cs.html">here</a> to see an example of how to use ChangeNetworkFirewallCompartment API.</example>
         public async Task<ChangeNetworkFirewallCompartmentResponse> ChangeNetworkFirewallCompartment(ChangeNetworkFirewallCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeNetworkFirewallCompartment");
@@ -932,7 +932,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ChangeNetworkFirewallPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeNetworkFirewallPolicyCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ChangeNetworkFirewallPolicyCompartment.cs.html">here</a> to see an example of how to use ChangeNetworkFirewallPolicyCompartment API.</example>
         public async Task<ChangeNetworkFirewallPolicyCompartmentResponse> ChangeNetworkFirewallPolicyCompartment(ChangeNetworkFirewallPolicyCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeNetworkFirewallPolicyCompartment");
@@ -988,7 +988,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CloneNetworkFirewallPolicy.cs.html">here</a> to see an example of how to use CloneNetworkFirewallPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CloneNetworkFirewallPolicy.cs.html">here</a> to see an example of how to use CloneNetworkFirewallPolicy API.</example>
         public async Task<CloneNetworkFirewallPolicyResponse> CloneNetworkFirewallPolicy(CloneNetworkFirewallPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cloneNetworkFirewallPolicy");
@@ -1045,7 +1045,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateAddressList.cs.html">here</a> to see an example of how to use CreateAddressList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateAddressList.cs.html">here</a> to see an example of how to use CreateAddressList API.</example>
         public async Task<CreateAddressListResponse> CreateAddressList(CreateAddressListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAddressList");
@@ -1102,7 +1102,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateApplication.cs.html">here</a> to see an example of how to use CreateApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateApplication.cs.html">here</a> to see an example of how to use CreateApplication API.</example>
         public async Task<CreateApplicationResponse> CreateApplication(CreateApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createApplication");
@@ -1159,7 +1159,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateApplicationGroup.cs.html">here</a> to see an example of how to use CreateApplicationGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateApplicationGroup.cs.html">here</a> to see an example of how to use CreateApplicationGroup API.</example>
         public async Task<CreateApplicationGroupResponse> CreateApplicationGroup(CreateApplicationGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createApplicationGroup");
@@ -1216,7 +1216,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateDecryptionProfile.cs.html">here</a> to see an example of how to use CreateDecryptionProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateDecryptionProfile.cs.html">here</a> to see an example of how to use CreateDecryptionProfile API.</example>
         public async Task<CreateDecryptionProfileResponse> CreateDecryptionProfile(CreateDecryptionProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDecryptionProfile");
@@ -1273,7 +1273,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateDecryptionRule.cs.html">here</a> to see an example of how to use CreateDecryptionRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateDecryptionRule.cs.html">here</a> to see an example of how to use CreateDecryptionRule API.</example>
         public async Task<CreateDecryptionRuleResponse> CreateDecryptionRule(CreateDecryptionRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDecryptionRule");
@@ -1330,7 +1330,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateMappedSecret.cs.html">here</a> to see an example of how to use CreateMappedSecret API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateMappedSecret.cs.html">here</a> to see an example of how to use CreateMappedSecret API.</example>
         public async Task<CreateMappedSecretResponse> CreateMappedSecret(CreateMappedSecretRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMappedSecret");
@@ -1379,7 +1379,7 @@ namespace Oci.NetworkfirewallService
         }
 
         /// <summary>
-        /// Creates a new [NAT rule](https://docs.cloud.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) for the Network Firewall policy.
+        /// Creates a new [NAT rule](https://docs.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) for the Network Firewall policy.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1387,7 +1387,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateNatRule.cs.html">here</a> to see an example of how to use CreateNatRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateNatRule.cs.html">here</a> to see an example of how to use CreateNatRule API.</example>
         public async Task<CreateNatRuleResponse> CreateNatRule(CreateNatRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createNatRule");
@@ -1444,7 +1444,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateNetworkFirewall.cs.html">here</a> to see an example of how to use CreateNetworkFirewall API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateNetworkFirewall.cs.html">here</a> to see an example of how to use CreateNetworkFirewall API.</example>
         public async Task<CreateNetworkFirewallResponse> CreateNetworkFirewall(CreateNetworkFirewallRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createNetworkFirewall");
@@ -1501,7 +1501,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateNetworkFirewallPolicy.cs.html">here</a> to see an example of how to use CreateNetworkFirewallPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateNetworkFirewallPolicy.cs.html">here</a> to see an example of how to use CreateNetworkFirewallPolicy API.</example>
         public async Task<CreateNetworkFirewallPolicyResponse> CreateNetworkFirewallPolicy(CreateNetworkFirewallPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createNetworkFirewallPolicy");
@@ -1558,7 +1558,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateSecurityRule.cs.html">here</a> to see an example of how to use CreateSecurityRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateSecurityRule.cs.html">here</a> to see an example of how to use CreateSecurityRule API.</example>
         public async Task<CreateSecurityRuleResponse> CreateSecurityRule(CreateSecurityRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSecurityRule");
@@ -1615,7 +1615,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateService.cs.html">here</a> to see an example of how to use CreateService API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateService.cs.html">here</a> to see an example of how to use CreateService API.</example>
         public async Task<CreateServiceResponse> CreateService(CreateServiceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createService");
@@ -1672,7 +1672,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateServiceList.cs.html">here</a> to see an example of how to use CreateServiceList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateServiceList.cs.html">here</a> to see an example of how to use CreateServiceList API.</example>
         public async Task<CreateServiceListResponse> CreateServiceList(CreateServiceListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createServiceList");
@@ -1729,7 +1729,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateTunnelInspectionRule.cs.html">here</a> to see an example of how to use CreateTunnelInspectionRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateTunnelInspectionRule.cs.html">here</a> to see an example of how to use CreateTunnelInspectionRule API.</example>
         public async Task<CreateTunnelInspectionRuleResponse> CreateTunnelInspectionRule(CreateTunnelInspectionRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createTunnelInspectionRule");
@@ -1786,7 +1786,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateUrlList.cs.html">here</a> to see an example of how to use CreateUrlList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/CreateUrlList.cs.html">here</a> to see an example of how to use CreateUrlList API.</example>
         public async Task<CreateUrlListResponse> CreateUrlList(CreateUrlListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createUrlList");
@@ -1842,7 +1842,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteAddressList.cs.html">here</a> to see an example of how to use DeleteAddressList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteAddressList.cs.html">here</a> to see an example of how to use DeleteAddressList API.</example>
         public async Task<DeleteAddressListResponse> DeleteAddressList(DeleteAddressListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAddressList");
@@ -1898,7 +1898,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteApplication.cs.html">here</a> to see an example of how to use DeleteApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteApplication.cs.html">here</a> to see an example of how to use DeleteApplication API.</example>
         public async Task<DeleteApplicationResponse> DeleteApplication(DeleteApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteApplication");
@@ -1954,7 +1954,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteApplicationGroup.cs.html">here</a> to see an example of how to use DeleteApplicationGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteApplicationGroup.cs.html">here</a> to see an example of how to use DeleteApplicationGroup API.</example>
         public async Task<DeleteApplicationGroupResponse> DeleteApplicationGroup(DeleteApplicationGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteApplicationGroup");
@@ -2010,7 +2010,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteDecryptionProfile.cs.html">here</a> to see an example of how to use DeleteDecryptionProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteDecryptionProfile.cs.html">here</a> to see an example of how to use DeleteDecryptionProfile API.</example>
         public async Task<DeleteDecryptionProfileResponse> DeleteDecryptionProfile(DeleteDecryptionProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDecryptionProfile");
@@ -2066,7 +2066,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteDecryptionRule.cs.html">here</a> to see an example of how to use DeleteDecryptionRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteDecryptionRule.cs.html">here</a> to see an example of how to use DeleteDecryptionRule API.</example>
         public async Task<DeleteDecryptionRuleResponse> DeleteDecryptionRule(DeleteDecryptionRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDecryptionRule");
@@ -2122,7 +2122,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteMappedSecret.cs.html">here</a> to see an example of how to use DeleteMappedSecret API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteMappedSecret.cs.html">here</a> to see an example of how to use DeleteMappedSecret API.</example>
         public async Task<DeleteMappedSecretResponse> DeleteMappedSecret(DeleteMappedSecretRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMappedSecret");
@@ -2171,14 +2171,14 @@ namespace Oci.NetworkfirewallService
         }
 
         /// <summary>
-        /// Deletes a [NAT rule](https://docs.cloud.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) resource with the given identifier.
+        /// Deletes a [NAT rule](https://docs.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) resource with the given identifier.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteNatRule.cs.html">here</a> to see an example of how to use DeleteNatRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteNatRule.cs.html">here</a> to see an example of how to use DeleteNatRule API.</example>
         public async Task<DeleteNatRuleResponse> DeleteNatRule(DeleteNatRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteNatRule");
@@ -2234,7 +2234,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteNetworkFirewall.cs.html">here</a> to see an example of how to use DeleteNetworkFirewall API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteNetworkFirewall.cs.html">here</a> to see an example of how to use DeleteNetworkFirewall API.</example>
         public async Task<DeleteNetworkFirewallResponse> DeleteNetworkFirewall(DeleteNetworkFirewallRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteNetworkFirewall");
@@ -2290,7 +2290,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteNetworkFirewallPolicy.cs.html">here</a> to see an example of how to use DeleteNetworkFirewallPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteNetworkFirewallPolicy.cs.html">here</a> to see an example of how to use DeleteNetworkFirewallPolicy API.</example>
         public async Task<DeleteNetworkFirewallPolicyResponse> DeleteNetworkFirewallPolicy(DeleteNetworkFirewallPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteNetworkFirewallPolicy");
@@ -2346,7 +2346,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteSecurityRule.cs.html">here</a> to see an example of how to use DeleteSecurityRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteSecurityRule.cs.html">here</a> to see an example of how to use DeleteSecurityRule API.</example>
         public async Task<DeleteSecurityRuleResponse> DeleteSecurityRule(DeleteSecurityRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSecurityRule");
@@ -2402,7 +2402,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteService.cs.html">here</a> to see an example of how to use DeleteService API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteService.cs.html">here</a> to see an example of how to use DeleteService API.</example>
         public async Task<DeleteServiceResponse> DeleteService(DeleteServiceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteService");
@@ -2458,7 +2458,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteServiceList.cs.html">here</a> to see an example of how to use DeleteServiceList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteServiceList.cs.html">here</a> to see an example of how to use DeleteServiceList API.</example>
         public async Task<DeleteServiceListResponse> DeleteServiceList(DeleteServiceListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteServiceList");
@@ -2514,7 +2514,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteTunnelInspectionRule.cs.html">here</a> to see an example of how to use DeleteTunnelInspectionRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteTunnelInspectionRule.cs.html">here</a> to see an example of how to use DeleteTunnelInspectionRule API.</example>
         public async Task<DeleteTunnelInspectionRuleResponse> DeleteTunnelInspectionRule(DeleteTunnelInspectionRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteTunnelInspectionRule");
@@ -2570,7 +2570,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteUrlList.cs.html">here</a> to see an example of how to use DeleteUrlList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/DeleteUrlList.cs.html">here</a> to see an example of how to use DeleteUrlList API.</example>
         public async Task<DeleteUrlListResponse> DeleteUrlList(DeleteUrlListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteUrlList");
@@ -2626,7 +2626,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetAddressList.cs.html">here</a> to see an example of how to use GetAddressList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetAddressList.cs.html">here</a> to see an example of how to use GetAddressList API.</example>
         public async Task<GetAddressListResponse> GetAddressList(GetAddressListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAddressList");
@@ -2682,7 +2682,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetApplication.cs.html">here</a> to see an example of how to use GetApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetApplication.cs.html">here</a> to see an example of how to use GetApplication API.</example>
         public async Task<GetApplicationResponse> GetApplication(GetApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getApplication");
@@ -2738,7 +2738,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetApplicationGroup.cs.html">here</a> to see an example of how to use GetApplicationGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetApplicationGroup.cs.html">here</a> to see an example of how to use GetApplicationGroup API.</example>
         public async Task<GetApplicationGroupResponse> GetApplicationGroup(GetApplicationGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getApplicationGroup");
@@ -2794,7 +2794,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetDecryptionProfile.cs.html">here</a> to see an example of how to use GetDecryptionProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetDecryptionProfile.cs.html">here</a> to see an example of how to use GetDecryptionProfile API.</example>
         public async Task<GetDecryptionProfileResponse> GetDecryptionProfile(GetDecryptionProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDecryptionProfile");
@@ -2850,7 +2850,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetDecryptionRule.cs.html">here</a> to see an example of how to use GetDecryptionRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetDecryptionRule.cs.html">here</a> to see an example of how to use GetDecryptionRule API.</example>
         public async Task<GetDecryptionRuleResponse> GetDecryptionRule(GetDecryptionRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDecryptionRule");
@@ -2906,7 +2906,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetMappedSecret.cs.html">here</a> to see an example of how to use GetMappedSecret API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetMappedSecret.cs.html">here</a> to see an example of how to use GetMappedSecret API.</example>
         public async Task<GetMappedSecretResponse> GetMappedSecret(GetMappedSecretRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMappedSecret");
@@ -2955,14 +2955,14 @@ namespace Oci.NetworkfirewallService
         }
 
         /// <summary>
-        /// Get a [NAT rule](https://docs.cloud.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) by the given name in the context of Network Firewall policy.
+        /// Get a [NAT rule](https://docs.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) by the given name in the context of Network Firewall policy.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetNatRule.cs.html">here</a> to see an example of how to use GetNatRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetNatRule.cs.html">here</a> to see an example of how to use GetNatRule API.</example>
         public async Task<GetNatRuleResponse> GetNatRule(GetNatRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNatRule");
@@ -3018,7 +3018,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetNetworkFirewall.cs.html">here</a> to see an example of how to use GetNetworkFirewall API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetNetworkFirewall.cs.html">here</a> to see an example of how to use GetNetworkFirewall API.</example>
         public async Task<GetNetworkFirewallResponse> GetNetworkFirewall(GetNetworkFirewallRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNetworkFirewall");
@@ -3067,6 +3067,63 @@ namespace Oci.NetworkfirewallService
         }
 
         /// <summary>
+        /// Get Overall health status of Network Firewall
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetNetworkFirewallHealthStatus.cs.html">here</a> to see an example of how to use GetNetworkFirewallHealthStatus API.</example>
+        public async Task<GetNetworkFirewallHealthStatusResponse> GetNetworkFirewallHealthStatus(GetNetworkFirewallHealthStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called getNetworkFirewallHealthStatus");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/networkFirewalls/{networkFirewallId}/healthStatus".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "NetworkFirewall",
+                    OperationName = "GetNetworkFirewallHealthStatus",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/network-firewall/20230501/NetworkFirewallHealthStatus/GetNetworkFirewallHealthStatus",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<GetNetworkFirewallHealthStatusResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetNetworkFirewallHealthStatus failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Gets a NetworkFirewallPolicy given the network firewall policy identifier.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -3074,7 +3131,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetNetworkFirewallPolicy.cs.html">here</a> to see an example of how to use GetNetworkFirewallPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetNetworkFirewallPolicy.cs.html">here</a> to see an example of how to use GetNetworkFirewallPolicy API.</example>
         public async Task<GetNetworkFirewallPolicyResponse> GetNetworkFirewallPolicy(GetNetworkFirewallPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNetworkFirewallPolicy");
@@ -3130,7 +3187,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetSecurityRule.cs.html">here</a> to see an example of how to use GetSecurityRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetSecurityRule.cs.html">here</a> to see an example of how to use GetSecurityRule API.</example>
         public async Task<GetSecurityRuleResponse> GetSecurityRule(GetSecurityRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecurityRule");
@@ -3186,7 +3243,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetService.cs.html">here</a> to see an example of how to use GetService API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetService.cs.html">here</a> to see an example of how to use GetService API.</example>
         public async Task<GetServiceResponse> GetService(GetServiceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getService");
@@ -3242,7 +3299,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetServiceList.cs.html">here</a> to see an example of how to use GetServiceList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetServiceList.cs.html">here</a> to see an example of how to use GetServiceList API.</example>
         public async Task<GetServiceListResponse> GetServiceList(GetServiceListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getServiceList");
@@ -3298,7 +3355,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetTunnelInspectionRule.cs.html">here</a> to see an example of how to use GetTunnelInspectionRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetTunnelInspectionRule.cs.html">here</a> to see an example of how to use GetTunnelInspectionRule API.</example>
         public async Task<GetTunnelInspectionRuleResponse> GetTunnelInspectionRule(GetTunnelInspectionRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTunnelInspectionRule");
@@ -3354,7 +3411,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetUrlList.cs.html">here</a> to see an example of how to use GetUrlList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetUrlList.cs.html">here</a> to see an example of how to use GetUrlList API.</example>
         public async Task<GetUrlListResponse> GetUrlList(GetUrlListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getUrlList");
@@ -3410,7 +3467,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -3467,7 +3524,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListAddressLists.cs.html">here</a> to see an example of how to use ListAddressLists API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListAddressLists.cs.html">here</a> to see an example of how to use ListAddressLists API.</example>
         public async Task<ListAddressListsResponse> ListAddressLists(ListAddressListsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAddressLists");
@@ -3524,7 +3581,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListApplicationGroups.cs.html">here</a> to see an example of how to use ListApplicationGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListApplicationGroups.cs.html">here</a> to see an example of how to use ListApplicationGroups API.</example>
         public async Task<ListApplicationGroupsResponse> ListApplicationGroups(ListApplicationGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listApplicationGroups");
@@ -3581,7 +3638,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListApplications.cs.html">here</a> to see an example of how to use ListApplications API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListApplications.cs.html">here</a> to see an example of how to use ListApplications API.</example>
         public async Task<ListApplicationsResponse> ListApplications(ListApplicationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listApplications");
@@ -3638,7 +3695,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListDecryptionProfiles.cs.html">here</a> to see an example of how to use ListDecryptionProfiles API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListDecryptionProfiles.cs.html">here</a> to see an example of how to use ListDecryptionProfiles API.</example>
         public async Task<ListDecryptionProfilesResponse> ListDecryptionProfiles(ListDecryptionProfilesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDecryptionProfiles");
@@ -3695,7 +3752,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListDecryptionRules.cs.html">here</a> to see an example of how to use ListDecryptionRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListDecryptionRules.cs.html">here</a> to see an example of how to use ListDecryptionRules API.</example>
         public async Task<ListDecryptionRulesResponse> ListDecryptionRules(ListDecryptionRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDecryptionRules");
@@ -3752,7 +3809,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListMappedSecrets.cs.html">here</a> to see an example of how to use ListMappedSecrets API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListMappedSecrets.cs.html">here</a> to see an example of how to use ListMappedSecrets API.</example>
         public async Task<ListMappedSecretsResponse> ListMappedSecrets(ListMappedSecretsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMappedSecrets");
@@ -3801,7 +3858,7 @@ namespace Oci.NetworkfirewallService
         }
 
         /// <summary>
-        /// Returns a list of [NAT rules](https://docs.cloud.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) for the Network Firewall policy.
+        /// Returns a list of [NAT rules](https://docs.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) for the Network Firewall policy.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -3809,7 +3866,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListNatRules.cs.html">here</a> to see an example of how to use ListNatRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListNatRules.cs.html">here</a> to see an example of how to use ListNatRules API.</example>
         public async Task<ListNatRulesResponse> ListNatRules(ListNatRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNatRules");
@@ -3866,7 +3923,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListNetworkFirewallPolicies.cs.html">here</a> to see an example of how to use ListNetworkFirewallPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListNetworkFirewallPolicies.cs.html">here</a> to see an example of how to use ListNetworkFirewallPolicies API.</example>
         public async Task<ListNetworkFirewallPoliciesResponse> ListNetworkFirewallPolicies(ListNetworkFirewallPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNetworkFirewallPolicies");
@@ -3923,7 +3980,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListNetworkFirewalls.cs.html">here</a> to see an example of how to use ListNetworkFirewalls API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListNetworkFirewalls.cs.html">here</a> to see an example of how to use ListNetworkFirewalls API.</example>
         public async Task<ListNetworkFirewallsResponse> ListNetworkFirewalls(ListNetworkFirewallsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNetworkFirewalls");
@@ -3980,7 +4037,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListSecurityRules.cs.html">here</a> to see an example of how to use ListSecurityRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListSecurityRules.cs.html">here</a> to see an example of how to use ListSecurityRules API.</example>
         public async Task<ListSecurityRulesResponse> ListSecurityRules(ListSecurityRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityRules");
@@ -4037,7 +4094,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListServiceLists.cs.html">here</a> to see an example of how to use ListServiceLists API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListServiceLists.cs.html">here</a> to see an example of how to use ListServiceLists API.</example>
         public async Task<ListServiceListsResponse> ListServiceLists(ListServiceListsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listServiceLists");
@@ -4094,7 +4151,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListServices.cs.html">here</a> to see an example of how to use ListServices API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListServices.cs.html">here</a> to see an example of how to use ListServices API.</example>
         public async Task<ListServicesResponse> ListServices(ListServicesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listServices");
@@ -4151,7 +4208,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListTunnelInspectionRules.cs.html">here</a> to see an example of how to use ListTunnelInspectionRules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListTunnelInspectionRules.cs.html">here</a> to see an example of how to use ListTunnelInspectionRules API.</example>
         public async Task<ListTunnelInspectionRulesResponse> ListTunnelInspectionRules(ListTunnelInspectionRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTunnelInspectionRules");
@@ -4208,7 +4265,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListUrlLists.cs.html">here</a> to see an example of how to use ListUrlLists API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListUrlLists.cs.html">here</a> to see an example of how to use ListUrlLists API.</example>
         public async Task<ListUrlListsResponse> ListUrlLists(ListUrlListsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listUrlLists");
@@ -4265,7 +4322,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -4322,7 +4379,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -4379,7 +4436,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -4435,7 +4492,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/MigrateNetworkFirewallPolicy.cs.html">here</a> to see an example of how to use MigrateNetworkFirewallPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/MigrateNetworkFirewallPolicy.cs.html">here</a> to see an example of how to use MigrateNetworkFirewallPolicy API.</example>
         public async Task<MigrateNetworkFirewallPolicyResponse> MigrateNetworkFirewallPolicy(MigrateNetworkFirewallPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called migrateNetworkFirewallPolicy");
@@ -4491,7 +4548,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateAddressList.cs.html">here</a> to see an example of how to use UpdateAddressList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateAddressList.cs.html">here</a> to see an example of how to use UpdateAddressList API.</example>
         public async Task<UpdateAddressListResponse> UpdateAddressList(UpdateAddressListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAddressList");
@@ -4547,7 +4604,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateApplication.cs.html">here</a> to see an example of how to use UpdateApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateApplication.cs.html">here</a> to see an example of how to use UpdateApplication API.</example>
         public async Task<UpdateApplicationResponse> UpdateApplication(UpdateApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateApplication");
@@ -4603,7 +4660,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateApplicationGroup.cs.html">here</a> to see an example of how to use UpdateApplicationGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateApplicationGroup.cs.html">here</a> to see an example of how to use UpdateApplicationGroup API.</example>
         public async Task<UpdateApplicationGroupResponse> UpdateApplicationGroup(UpdateApplicationGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateApplicationGroup");
@@ -4659,7 +4716,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateDecryptionProfile.cs.html">here</a> to see an example of how to use UpdateDecryptionProfile API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateDecryptionProfile.cs.html">here</a> to see an example of how to use UpdateDecryptionProfile API.</example>
         public async Task<UpdateDecryptionProfileResponse> UpdateDecryptionProfile(UpdateDecryptionProfileRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDecryptionProfile");
@@ -4715,7 +4772,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateDecryptionRule.cs.html">here</a> to see an example of how to use UpdateDecryptionRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateDecryptionRule.cs.html">here</a> to see an example of how to use UpdateDecryptionRule API.</example>
         public async Task<UpdateDecryptionRuleResponse> UpdateDecryptionRule(UpdateDecryptionRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDecryptionRule");
@@ -4771,7 +4828,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateMappedSecret.cs.html">here</a> to see an example of how to use UpdateMappedSecret API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateMappedSecret.cs.html">here</a> to see an example of how to use UpdateMappedSecret API.</example>
         public async Task<UpdateMappedSecretResponse> UpdateMappedSecret(UpdateMappedSecretRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMappedSecret");
@@ -4820,14 +4877,14 @@ namespace Oci.NetworkfirewallService
         }
 
         /// <summary>
-        /// Updates the [NAT rule](https://docs.cloud.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) with the given name in the Network Firewall policy.
+        /// Updates the [NAT rule](https://docs.oracle.com/iaas/Content/network-firewall/policies.htm#network-firewall-policies__nat) with the given name in the Network Firewall policy.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateNatRule.cs.html">here</a> to see an example of how to use UpdateNatRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateNatRule.cs.html">here</a> to see an example of how to use UpdateNatRule API.</example>
         public async Task<UpdateNatRuleResponse> UpdateNatRule(UpdateNatRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNatRule");
@@ -4883,7 +4940,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateNetworkFirewall.cs.html">here</a> to see an example of how to use UpdateNetworkFirewall API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateNetworkFirewall.cs.html">here</a> to see an example of how to use UpdateNetworkFirewall API.</example>
         public async Task<UpdateNetworkFirewallResponse> UpdateNetworkFirewall(UpdateNetworkFirewallRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNetworkFirewall");
@@ -4939,7 +4996,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateNetworkFirewallPolicy.cs.html">here</a> to see an example of how to use UpdateNetworkFirewallPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateNetworkFirewallPolicy.cs.html">here</a> to see an example of how to use UpdateNetworkFirewallPolicy API.</example>
         public async Task<UpdateNetworkFirewallPolicyResponse> UpdateNetworkFirewallPolicy(UpdateNetworkFirewallPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNetworkFirewallPolicy");
@@ -4995,7 +5052,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateSecurityRule.cs.html">here</a> to see an example of how to use UpdateSecurityRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateSecurityRule.cs.html">here</a> to see an example of how to use UpdateSecurityRule API.</example>
         public async Task<UpdateSecurityRuleResponse> UpdateSecurityRule(UpdateSecurityRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSecurityRule");
@@ -5051,7 +5108,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateService.cs.html">here</a> to see an example of how to use UpdateService API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateService.cs.html">here</a> to see an example of how to use UpdateService API.</example>
         public async Task<UpdateServiceResponse> UpdateService(UpdateServiceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateService");
@@ -5107,7 +5164,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateServiceList.cs.html">here</a> to see an example of how to use UpdateServiceList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateServiceList.cs.html">here</a> to see an example of how to use UpdateServiceList API.</example>
         public async Task<UpdateServiceListResponse> UpdateServiceList(UpdateServiceListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateServiceList");
@@ -5163,7 +5220,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateTunnelInspectionRule.cs.html">here</a> to see an example of how to use UpdateTunnelInspectionRule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateTunnelInspectionRule.cs.html">here</a> to see an example of how to use UpdateTunnelInspectionRule API.</example>
         public async Task<UpdateTunnelInspectionRuleResponse> UpdateTunnelInspectionRule(UpdateTunnelInspectionRuleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateTunnelInspectionRule");
@@ -5219,7 +5276,7 @@ namespace Oci.NetworkfirewallService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateUrlList.cs.html">here</a> to see an example of how to use UpdateUrlList API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/UpdateUrlList.cs.html">here</a> to see an example of how to use UpdateUrlList API.</example>
         public async Task<UpdateUrlListResponse> UpdateUrlList(UpdateUrlListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateUrlList");

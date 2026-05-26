@@ -14,13 +14,13 @@ using Oci.FilestorageService.Models;
 namespace Oci.FilestorageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteMountTarget.cs.html">here</a> to see an example of how to use DeleteMountTarget request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/filestorage/DeleteMountTarget.cs.html">here</a> to see an example of how to use DeleteMountTarget request.
     /// </example>
     public class DeleteMountTargetRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the mount target.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the mount target.
         /// </value>
         /// <remarks>
         /// Required

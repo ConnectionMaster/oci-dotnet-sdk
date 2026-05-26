@@ -43,7 +43,7 @@ namespace Oci.GoldengateService.Models
         public string ClientId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret that stores the password Oracle GoldenGate uses to connect to Polaris.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret that stores the password Oracle GoldenGate uses to connect to Polaris.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "clientSecretSecretId")]

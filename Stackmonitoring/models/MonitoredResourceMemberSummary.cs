@@ -23,7 +23,7 @@ namespace Oci.StackmonitoringService.Models
     {
         
         /// <value>
-        /// Monitored resource identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Monitored resource identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "resourceId")]
@@ -57,7 +57,7 @@ namespace Oci.StackmonitoringService.Models
         public string HostName { get; set; }
         
         /// <value>
-        /// External resource is any OCI resource identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)
+        /// External resource is any OCI resource identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)
         /// which is not a Stack Monitoring service resource.
         /// Currently supports only following resource types - Container database, non-container database, 
         /// pluggable database and OCI compute instance.
@@ -67,13 +67,13 @@ namespace Oci.StackmonitoringService.Models
         public string ExternalId { get; set; }
         
         /// <value>
-        /// Compartment Identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Compartment Identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// Parent monitored resource identifier [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// Parent monitored resource identifier [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "parentId")]

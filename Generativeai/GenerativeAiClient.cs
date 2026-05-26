@@ -81,7 +81,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/AddArtifact.cs.html">here</a> to see an example of how to use AddArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/AddArtifact.cs.html">here</a> to see an example of how to use AddArtifact API.</example>
         public async Task<AddArtifactResponse> AddArtifact(AddArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addArtifact");
@@ -138,7 +138,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CancelVectorStoreConnectorFileSync.cs.html">here</a> to see an example of how to use CancelVectorStoreConnectorFileSync API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CancelVectorStoreConnectorFileSync.cs.html">here</a> to see an example of how to use CancelVectorStoreConnectorFileSync API.</example>
         public async Task<CancelVectorStoreConnectorFileSyncResponse> CancelVectorStoreConnectorFileSync(CancelVectorStoreConnectorFileSyncRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelVectorStoreConnectorFileSync");
@@ -188,14 +188,14 @@ namespace Oci.GenerativeaiService
         }
 
         /// <summary>
-        /// Moves an API key into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Moves an API key into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeApiKeyCompartment.cs.html">here</a> to see an example of how to use ChangeApiKeyCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeApiKeyCompartment.cs.html">here</a> to see an example of how to use ChangeApiKeyCompartment API.</example>
         public async Task<ChangeApiKeyCompartmentResponse> ChangeApiKeyCompartment(ChangeApiKeyCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeApiKeyCompartment");
@@ -245,14 +245,14 @@ namespace Oci.GenerativeaiService
         }
 
         /// <summary>
-        /// Moves a dedicated AI cluster into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Moves a dedicated AI cluster into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeDedicatedAiClusterCompartment.cs.html">here</a> to see an example of how to use ChangeDedicatedAiClusterCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeDedicatedAiClusterCompartment.cs.html">here</a> to see an example of how to use ChangeDedicatedAiClusterCompartment API.</example>
         public async Task<ChangeDedicatedAiClusterCompartmentResponse> ChangeDedicatedAiClusterCompartment(ChangeDedicatedAiClusterCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDedicatedAiClusterCompartment");
@@ -302,14 +302,14 @@ namespace Oci.GenerativeaiService
         }
 
         /// <summary>
-        /// Moves an endpoint into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Moves an endpoint into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeEndpointCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeEndpointCompartment API.</example>
         public async Task<ChangeEndpointCompartmentResponse> ChangeEndpointCompartment(ChangeEndpointCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeEndpointCompartment");
@@ -367,7 +367,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeGenerativeAiPrivateEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeGenerativeAiPrivateEndpointCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeGenerativeAiPrivateEndpointCompartment.cs.html">here</a> to see an example of how to use ChangeGenerativeAiPrivateEndpointCompartment API.</example>
         public async Task<ChangeGenerativeAiPrivateEndpointCompartmentResponse> ChangeGenerativeAiPrivateEndpointCompartment(ChangeGenerativeAiPrivateEndpointCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeGenerativeAiPrivateEndpointCompartment");
@@ -417,14 +417,14 @@ namespace Oci.GenerativeaiService
         }
 
         /// <summary>
-        /// Moves a generativeAiProject into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Moves a generativeAiProject into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeGenerativeAiProjectCompartment.cs.html">here</a> to see an example of how to use ChangeGenerativeAiProjectCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeGenerativeAiProjectCompartment.cs.html">here</a> to see an example of how to use ChangeGenerativeAiProjectCompartment API.</example>
         public async Task<ChangeGenerativeAiProjectCompartmentResponse> ChangeGenerativeAiProjectCompartment(ChangeGenerativeAiProjectCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeGenerativeAiProjectCompartment");
@@ -474,14 +474,14 @@ namespace Oci.GenerativeaiService
         }
 
         /// <summary>
-        /// Moves a hosted application into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Moves a hosted application into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeHostedApplicationCompartment.cs.html">here</a> to see an example of how to use ChangeHostedApplicationCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeHostedApplicationCompartment.cs.html">here</a> to see an example of how to use ChangeHostedApplicationCompartment API.</example>
         public async Task<ChangeHostedApplicationCompartmentResponse> ChangeHostedApplicationCompartment(ChangeHostedApplicationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeHostedApplicationCompartment");
@@ -531,14 +531,14 @@ namespace Oci.GenerativeaiService
         }
 
         /// <summary>
-        /// Moves a hosted application storage into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Moves a hosted application storage into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeHostedApplicationStorageCompartment.cs.html">here</a> to see an example of how to use ChangeHostedApplicationStorageCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeHostedApplicationStorageCompartment.cs.html">here</a> to see an example of how to use ChangeHostedApplicationStorageCompartment API.</example>
         public async Task<ChangeHostedApplicationStorageCompartmentResponse> ChangeHostedApplicationStorageCompartment(ChangeHostedApplicationStorageCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeHostedApplicationStorageCompartment");
@@ -588,14 +588,14 @@ namespace Oci.GenerativeaiService
         }
 
         /// <summary>
-        /// Moves an imported model into a different compartment. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Moves an imported model into a different compartment. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeImportedModelCompartment.cs.html">here</a> to see an example of how to use ChangeImportedModelCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeImportedModelCompartment.cs.html">here</a> to see an example of how to use ChangeImportedModelCompartment API.</example>
         public async Task<ChangeImportedModelCompartmentResponse> ChangeImportedModelCompartment(ChangeImportedModelCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeImportedModelCompartment");
@@ -645,14 +645,14 @@ namespace Oci.GenerativeaiService
         }
 
         /// <summary>
-        /// Moves a custom model into a different compartment. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Moves a custom model into a different compartment. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeModelCompartment.cs.html">here</a> to see an example of how to use ChangeModelCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeModelCompartment.cs.html">here</a> to see an example of how to use ChangeModelCompartment API.</example>
         public async Task<ChangeModelCompartmentResponse> ChangeModelCompartment(ChangeModelCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeModelCompartment");
@@ -702,14 +702,14 @@ namespace Oci.GenerativeaiService
         }
 
         /// <summary>
-        /// Moves a SemanticStore into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// Moves a SemanticStore into a different compartment within the same tenancy. For information about moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeSemanticStoreCompartment.cs.html">here</a> to see an example of how to use ChangeSemanticStoreCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeSemanticStoreCompartment.cs.html">here</a> to see an example of how to use ChangeSemanticStoreCompartment API.</example>
         public async Task<ChangeSemanticStoreCompartmentResponse> ChangeSemanticStoreCompartment(ChangeSemanticStoreCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSemanticStoreCompartment");
@@ -766,7 +766,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateApiKey.cs.html">here</a> to see an example of how to use CreateApiKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateApiKey.cs.html">here</a> to see an example of how to use CreateApiKey API.</example>
         public async Task<CreateApiKeyResponse> CreateApiKey(CreateApiKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createApiKey");
@@ -823,7 +823,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateDedicatedAiCluster.cs.html">here</a> to see an example of how to use CreateDedicatedAiCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateDedicatedAiCluster.cs.html">here</a> to see an example of how to use CreateDedicatedAiCluster API.</example>
         public async Task<CreateDedicatedAiClusterResponse> CreateDedicatedAiCluster(CreateDedicatedAiClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDedicatedAiCluster");
@@ -883,7 +883,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateEndpoint.cs.html">here</a> to see an example of how to use CreateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateEndpoint.cs.html">here</a> to see an example of how to use CreateEndpoint API.</example>
         public async Task<CreateEndpointResponse> CreateEndpoint(CreateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createEndpoint");
@@ -941,7 +941,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateGenerativeAiPrivateEndpoint.cs.html">here</a> to see an example of how to use CreateGenerativeAiPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateGenerativeAiPrivateEndpoint.cs.html">here</a> to see an example of how to use CreateGenerativeAiPrivateEndpoint API.</example>
         public async Task<CreateGenerativeAiPrivateEndpointResponse> CreateGenerativeAiPrivateEndpoint(CreateGenerativeAiPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createGenerativeAiPrivateEndpoint");
@@ -1000,7 +1000,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateGenerativeAiProject.cs.html">here</a> to see an example of how to use CreateGenerativeAiProject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateGenerativeAiProject.cs.html">here</a> to see an example of how to use CreateGenerativeAiProject API.</example>
         public async Task<CreateGenerativeAiProjectResponse> CreateGenerativeAiProject(CreateGenerativeAiProjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createGenerativeAiProject");
@@ -1057,7 +1057,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateHostedApplication.cs.html">here</a> to see an example of how to use CreateHostedApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateHostedApplication.cs.html">here</a> to see an example of how to use CreateHostedApplication API.</example>
         public async Task<CreateHostedApplicationResponse> CreateHostedApplication(CreateHostedApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createHostedApplication");
@@ -1114,7 +1114,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateHostedApplicationStorage.cs.html">here</a> to see an example of how to use CreateHostedApplicationStorage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateHostedApplicationStorage.cs.html">here</a> to see an example of how to use CreateHostedApplicationStorage API.</example>
         public async Task<CreateHostedApplicationStorageResponse> CreateHostedApplicationStorage(CreateHostedApplicationStorageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createHostedApplicationStorage");
@@ -1171,7 +1171,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateHostedDeployment.cs.html">here</a> to see an example of how to use CreateHostedDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateHostedDeployment.cs.html">here</a> to see an example of how to use CreateHostedDeployment API.</example>
         public async Task<CreateHostedDeploymentResponse> CreateHostedDeployment(CreateHostedDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createHostedDeployment");
@@ -1231,7 +1231,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateImportedModel.cs.html">here</a> to see an example of how to use CreateImportedModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateImportedModel.cs.html">here</a> to see an example of how to use CreateImportedModel API.</example>
         public async Task<CreateImportedModelResponse> CreateImportedModel(CreateImportedModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createImportedModel");
@@ -1291,7 +1291,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateModel.cs.html">here</a> to see an example of how to use CreateModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateModel.cs.html">here</a> to see an example of how to use CreateModel API.</example>
         public async Task<CreateModelResponse> CreateModel(CreateModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createModel");
@@ -1349,7 +1349,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateSemanticStore.cs.html">here</a> to see an example of how to use CreateSemanticStore API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateSemanticStore.cs.html">here</a> to see an example of how to use CreateSemanticStore API.</example>
         public async Task<CreateSemanticStoreResponse> CreateSemanticStore(CreateSemanticStoreRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSemanticStore");
@@ -1408,7 +1408,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateVectorStoreConnector.cs.html">here</a> to see an example of how to use CreateVectorStoreConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateVectorStoreConnector.cs.html">here</a> to see an example of how to use CreateVectorStoreConnector API.</example>
         public async Task<CreateVectorStoreConnectorResponse> CreateVectorStoreConnector(CreateVectorStoreConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVectorStoreConnector");
@@ -1467,7 +1467,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateVectorStoreConnectorFileSync.cs.html">here</a> to see an example of how to use CreateVectorStoreConnectorFileSync API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/CreateVectorStoreConnectorFileSync.cs.html">here</a> to see an example of how to use CreateVectorStoreConnectorFileSync API.</example>
         public async Task<CreateVectorStoreConnectorFileSyncResponse> CreateVectorStoreConnectorFileSync(CreateVectorStoreConnectorFileSyncRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVectorStoreConnectorFileSync");
@@ -1524,7 +1524,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteApiKey.cs.html">here</a> to see an example of how to use DeleteApiKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteApiKey.cs.html">here</a> to see an example of how to use DeleteApiKey API.</example>
         public async Task<DeleteApiKeyResponse> DeleteApiKey(DeleteApiKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteApiKey");
@@ -1584,7 +1584,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteDedicatedAiCluster.cs.html">here</a> to see an example of how to use DeleteDedicatedAiCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteDedicatedAiCluster.cs.html">here</a> to see an example of how to use DeleteDedicatedAiCluster API.</example>
         public async Task<DeleteDedicatedAiClusterResponse> DeleteDedicatedAiCluster(DeleteDedicatedAiClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDedicatedAiCluster");
@@ -1641,7 +1641,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteEndpoint.cs.html">here</a> to see an example of how to use DeleteEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteEndpoint.cs.html">here</a> to see an example of how to use DeleteEndpoint API.</example>
         public async Task<DeleteEndpointResponse> DeleteEndpoint(DeleteEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteEndpoint");
@@ -1699,7 +1699,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteGenerativeAiPrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteGenerativeAiPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteGenerativeAiPrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteGenerativeAiPrivateEndpoint API.</example>
         public async Task<DeleteGenerativeAiPrivateEndpointResponse> DeleteGenerativeAiPrivateEndpoint(DeleteGenerativeAiPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteGenerativeAiPrivateEndpoint");
@@ -1756,7 +1756,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteGenerativeAiProject.cs.html">here</a> to see an example of how to use DeleteGenerativeAiProject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteGenerativeAiProject.cs.html">here</a> to see an example of how to use DeleteGenerativeAiProject API.</example>
         public async Task<DeleteGenerativeAiProjectResponse> DeleteGenerativeAiProject(DeleteGenerativeAiProjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteGenerativeAiProject");
@@ -1815,7 +1815,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteHostedApplication.cs.html">here</a> to see an example of how to use DeleteHostedApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteHostedApplication.cs.html">here</a> to see an example of how to use DeleteHostedApplication API.</example>
         public async Task<DeleteHostedApplicationResponse> DeleteHostedApplication(DeleteHostedApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteHostedApplication");
@@ -1874,7 +1874,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteHostedApplicationStorage.cs.html">here</a> to see an example of how to use DeleteHostedApplicationStorage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteHostedApplicationStorage.cs.html">here</a> to see an example of how to use DeleteHostedApplicationStorage API.</example>
         public async Task<DeleteHostedApplicationStorageResponse> DeleteHostedApplicationStorage(DeleteHostedApplicationStorageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteHostedApplicationStorage");
@@ -1933,7 +1933,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteHostedDeployment.cs.html">here</a> to see an example of how to use DeleteHostedDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteHostedDeployment.cs.html">here</a> to see an example of how to use DeleteHostedDeployment API.</example>
         public async Task<DeleteHostedDeploymentResponse> DeleteHostedDeployment(DeleteHostedDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteHostedDeployment");
@@ -1990,7 +1990,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteHostedDeploymentArtifact.cs.html">here</a> to see an example of how to use DeleteHostedDeploymentArtifact API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteHostedDeploymentArtifact.cs.html">here</a> to see an example of how to use DeleteHostedDeploymentArtifact API.</example>
         public async Task<DeleteHostedDeploymentArtifactResponse> DeleteHostedDeploymentArtifact(DeleteHostedDeploymentArtifactRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteHostedDeploymentArtifact");
@@ -2047,7 +2047,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteImportedModel.cs.html">here</a> to see an example of how to use DeleteImportedModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteImportedModel.cs.html">here</a> to see an example of how to use DeleteImportedModel API.</example>
         public async Task<DeleteImportedModelResponse> DeleteImportedModel(DeleteImportedModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteImportedModel");
@@ -2104,7 +2104,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteModel.cs.html">here</a> to see an example of how to use DeleteModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteModel.cs.html">here</a> to see an example of how to use DeleteModel API.</example>
         public async Task<DeleteModelResponse> DeleteModel(DeleteModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteModel");
@@ -2161,7 +2161,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteSemanticStore.cs.html">here</a> to see an example of how to use DeleteSemanticStore API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteSemanticStore.cs.html">here</a> to see an example of how to use DeleteSemanticStore API.</example>
         public async Task<DeleteSemanticStoreResponse> DeleteSemanticStore(DeleteSemanticStoreRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSemanticStore");
@@ -2218,7 +2218,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteVectorStoreConnector.cs.html">here</a> to see an example of how to use DeleteVectorStoreConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteVectorStoreConnector.cs.html">here</a> to see an example of how to use DeleteVectorStoreConnector API.</example>
         public async Task<DeleteVectorStoreConnectorResponse> DeleteVectorStoreConnector(DeleteVectorStoreConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVectorStoreConnector");
@@ -2275,7 +2275,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetApiKey.cs.html">here</a> to see an example of how to use GetApiKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetApiKey.cs.html">here</a> to see an example of how to use GetApiKey API.</example>
         public async Task<GetApiKeyResponse> GetApiKey(GetApiKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getApiKey");
@@ -2332,7 +2332,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetDedicatedAiCluster.cs.html">here</a> to see an example of how to use GetDedicatedAiCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetDedicatedAiCluster.cs.html">here</a> to see an example of how to use GetDedicatedAiCluster API.</example>
         public async Task<GetDedicatedAiClusterResponse> GetDedicatedAiCluster(GetDedicatedAiClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDedicatedAiCluster");
@@ -2389,7 +2389,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetEndpoint.cs.html">here</a> to see an example of how to use GetEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetEndpoint.cs.html">here</a> to see an example of how to use GetEndpoint API.</example>
         public async Task<GetEndpointResponse> GetEndpoint(GetEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getEndpoint");
@@ -2447,7 +2447,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetGenerativeAiPrivateEndpoint.cs.html">here</a> to see an example of how to use GetGenerativeAiPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetGenerativeAiPrivateEndpoint.cs.html">here</a> to see an example of how to use GetGenerativeAiPrivateEndpoint API.</example>
         public async Task<GetGenerativeAiPrivateEndpointResponse> GetGenerativeAiPrivateEndpoint(GetGenerativeAiPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getGenerativeAiPrivateEndpoint");
@@ -2504,7 +2504,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetGenerativeAiProject.cs.html">here</a> to see an example of how to use GetGenerativeAiProject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetGenerativeAiProject.cs.html">here</a> to see an example of how to use GetGenerativeAiProject API.</example>
         public async Task<GetGenerativeAiProjectResponse> GetGenerativeAiProject(GetGenerativeAiProjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getGenerativeAiProject");
@@ -2561,7 +2561,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetHostedApplication.cs.html">here</a> to see an example of how to use GetHostedApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetHostedApplication.cs.html">here</a> to see an example of how to use GetHostedApplication API.</example>
         public async Task<GetHostedApplicationResponse> GetHostedApplication(GetHostedApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getHostedApplication");
@@ -2618,7 +2618,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetHostedApplicationStorage.cs.html">here</a> to see an example of how to use GetHostedApplicationStorage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetHostedApplicationStorage.cs.html">here</a> to see an example of how to use GetHostedApplicationStorage API.</example>
         public async Task<GetHostedApplicationStorageResponse> GetHostedApplicationStorage(GetHostedApplicationStorageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getHostedApplicationStorage");
@@ -2675,7 +2675,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetHostedDeployment.cs.html">here</a> to see an example of how to use GetHostedDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetHostedDeployment.cs.html">here</a> to see an example of how to use GetHostedDeployment API.</example>
         public async Task<GetHostedDeploymentResponse> GetHostedDeployment(GetHostedDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getHostedDeployment");
@@ -2732,7 +2732,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetImportedModel.cs.html">here</a> to see an example of how to use GetImportedModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetImportedModel.cs.html">here</a> to see an example of how to use GetImportedModel API.</example>
         public async Task<GetImportedModelResponse> GetImportedModel(GetImportedModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getImportedModel");
@@ -2789,7 +2789,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetModel.cs.html">here</a> to see an example of how to use GetModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetModel.cs.html">here</a> to see an example of how to use GetModel API.</example>
         public async Task<GetModelResponse> GetModel(GetModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getModel");
@@ -2846,7 +2846,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetSemanticStore.cs.html">here</a> to see an example of how to use GetSemanticStore API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetSemanticStore.cs.html">here</a> to see an example of how to use GetSemanticStore API.</example>
         public async Task<GetSemanticStoreResponse> GetSemanticStore(GetSemanticStoreRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSemanticStore");
@@ -2903,7 +2903,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetVectorStoreConnector.cs.html">here</a> to see an example of how to use GetVectorStoreConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetVectorStoreConnector.cs.html">here</a> to see an example of how to use GetVectorStoreConnector API.</example>
         public async Task<GetVectorStoreConnectorResponse> GetVectorStoreConnector(GetVectorStoreConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVectorStoreConnector");
@@ -2960,7 +2960,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetVectorStoreConnectorFileSync.cs.html">here</a> to see an example of how to use GetVectorStoreConnectorFileSync API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetVectorStoreConnectorFileSync.cs.html">here</a> to see an example of how to use GetVectorStoreConnectorFileSync API.</example>
         public async Task<GetVectorStoreConnectorFileSyncResponse> GetVectorStoreConnectorFileSync(GetVectorStoreConnectorFileSyncRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVectorStoreConnectorFileSync");
@@ -3017,7 +3017,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetVectorStoreConnectorStats.cs.html">here</a> to see an example of how to use GetVectorStoreConnectorStats API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetVectorStoreConnectorStats.cs.html">here</a> to see an example of how to use GetVectorStoreConnectorStats API.</example>
         public async Task<GetVectorStoreConnectorStatsResponse> GetVectorStoreConnectorStats(GetVectorStoreConnectorStatsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVectorStoreConnectorStats");
@@ -3074,7 +3074,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -3131,7 +3131,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListApiKeys.cs.html">here</a> to see an example of how to use ListApiKeys API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListApiKeys.cs.html">here</a> to see an example of how to use ListApiKeys API.</example>
         public async Task<ListApiKeysResponse> ListApiKeys(ListApiKeysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listApiKeys");
@@ -3188,7 +3188,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListDedicatedAiClusters.cs.html">here</a> to see an example of how to use ListDedicatedAiClusters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListDedicatedAiClusters.cs.html">here</a> to see an example of how to use ListDedicatedAiClusters API.</example>
         public async Task<ListDedicatedAiClustersResponse> ListDedicatedAiClusters(ListDedicatedAiClustersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDedicatedAiClusters");
@@ -3245,7 +3245,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListEndpoints.cs.html">here</a> to see an example of how to use ListEndpoints API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListEndpoints.cs.html">here</a> to see an example of how to use ListEndpoints API.</example>
         public async Task<ListEndpointsResponse> ListEndpoints(ListEndpointsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listEndpoints");
@@ -3303,7 +3303,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListGenerativeAiPrivateEndpoints.cs.html">here</a> to see an example of how to use ListGenerativeAiPrivateEndpoints API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListGenerativeAiPrivateEndpoints.cs.html">here</a> to see an example of how to use ListGenerativeAiPrivateEndpoints API.</example>
         public async Task<ListGenerativeAiPrivateEndpointsResponse> ListGenerativeAiPrivateEndpoints(ListGenerativeAiPrivateEndpointsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listGenerativeAiPrivateEndpoints");
@@ -3360,7 +3360,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListGenerativeAiProjects.cs.html">here</a> to see an example of how to use ListGenerativeAiProjects API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListGenerativeAiProjects.cs.html">here</a> to see an example of how to use ListGenerativeAiProjects API.</example>
         public async Task<ListGenerativeAiProjectsResponse> ListGenerativeAiProjects(ListGenerativeAiProjectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listGenerativeAiProjects");
@@ -3417,7 +3417,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListHostedApplicationStorages.cs.html">here</a> to see an example of how to use ListHostedApplicationStorages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListHostedApplicationStorages.cs.html">here</a> to see an example of how to use ListHostedApplicationStorages API.</example>
         public async Task<ListHostedApplicationStoragesResponse> ListHostedApplicationStorages(ListHostedApplicationStoragesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listHostedApplicationStorages");
@@ -3474,7 +3474,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListHostedApplications.cs.html">here</a> to see an example of how to use ListHostedApplications API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListHostedApplications.cs.html">here</a> to see an example of how to use ListHostedApplications API.</example>
         public async Task<ListHostedApplicationsResponse> ListHostedApplications(ListHostedApplicationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listHostedApplications");
@@ -3531,7 +3531,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListHostedDeployments.cs.html">here</a> to see an example of how to use ListHostedDeployments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListHostedDeployments.cs.html">here</a> to see an example of how to use ListHostedDeployments API.</example>
         public async Task<ListHostedDeploymentsResponse> ListHostedDeployments(ListHostedDeploymentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listHostedDeployments");
@@ -3588,7 +3588,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListImportedModels.cs.html">here</a> to see an example of how to use ListImportedModels API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListImportedModels.cs.html">here</a> to see an example of how to use ListImportedModels API.</example>
         public async Task<ListImportedModelsResponse> ListImportedModels(ListImportedModelsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listImportedModels");
@@ -3645,7 +3645,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListModels.cs.html">here</a> to see an example of how to use ListModels API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListModels.cs.html">here</a> to see an example of how to use ListModels API.</example>
         public async Task<ListModelsResponse> ListModels(ListModelsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listModels");
@@ -3702,7 +3702,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListSemanticStores.cs.html">here</a> to see an example of how to use ListSemanticStores API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListSemanticStores.cs.html">here</a> to see an example of how to use ListSemanticStores API.</example>
         public async Task<ListSemanticStoresResponse> ListSemanticStores(ListSemanticStoresRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSemanticStores");
@@ -3759,7 +3759,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListVectorStoreConnectorFileSyncIngestionLogs.cs.html">here</a> to see an example of how to use ListVectorStoreConnectorFileSyncIngestionLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListVectorStoreConnectorFileSyncIngestionLogs.cs.html">here</a> to see an example of how to use ListVectorStoreConnectorFileSyncIngestionLogs API.</example>
         public async Task<ListVectorStoreConnectorFileSyncIngestionLogsResponse> ListVectorStoreConnectorFileSyncIngestionLogs(ListVectorStoreConnectorFileSyncIngestionLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVectorStoreConnectorFileSyncIngestionLogs");
@@ -3816,7 +3816,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListVectorStoreConnectorFileSyncs.cs.html">here</a> to see an example of how to use ListVectorStoreConnectorFileSyncs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListVectorStoreConnectorFileSyncs.cs.html">here</a> to see an example of how to use ListVectorStoreConnectorFileSyncs API.</example>
         public async Task<ListVectorStoreConnectorFileSyncsResponse> ListVectorStoreConnectorFileSyncs(ListVectorStoreConnectorFileSyncsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVectorStoreConnectorFileSyncs");
@@ -3873,7 +3873,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListVectorStoreConnectorIngestionLogs.cs.html">here</a> to see an example of how to use ListVectorStoreConnectorIngestionLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListVectorStoreConnectorIngestionLogs.cs.html">here</a> to see an example of how to use ListVectorStoreConnectorIngestionLogs API.</example>
         public async Task<ListVectorStoreConnectorIngestionLogsResponse> ListVectorStoreConnectorIngestionLogs(ListVectorStoreConnectorIngestionLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVectorStoreConnectorIngestionLogs");
@@ -3930,7 +3930,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListVectorStoreConnectors.cs.html">here</a> to see an example of how to use ListVectorStoreConnectors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListVectorStoreConnectors.cs.html">here</a> to see an example of how to use ListVectorStoreConnectors API.</example>
         public async Task<ListVectorStoreConnectorsResponse> ListVectorStoreConnectors(ListVectorStoreConnectorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVectorStoreConnectors");
@@ -3987,7 +3987,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -4044,7 +4044,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -4101,7 +4101,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -4158,7 +4158,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/RenewApiKey.cs.html">here</a> to see an example of how to use RenewApiKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/RenewApiKey.cs.html">here</a> to see an example of how to use RenewApiKey API.</example>
         public async Task<RenewApiKeyResponse> RenewApiKey(RenewApiKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called renewApiKey");
@@ -4215,7 +4215,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/SetApiKeyState.cs.html">here</a> to see an example of how to use SetApiKeyState API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/SetApiKeyState.cs.html">here</a> to see an example of how to use SetApiKeyState API.</example>
         public async Task<SetApiKeyStateResponse> SetApiKeyState(SetApiKeyStateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called setApiKeyState");
@@ -4272,7 +4272,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateApiKey.cs.html">here</a> to see an example of how to use UpdateApiKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateApiKey.cs.html">here</a> to see an example of how to use UpdateApiKey API.</example>
         public async Task<UpdateApiKeyResponse> UpdateApiKey(UpdateApiKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateApiKey");
@@ -4329,7 +4329,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateDedicatedAiCluster.cs.html">here</a> to see an example of how to use UpdateDedicatedAiCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateDedicatedAiCluster.cs.html">here</a> to see an example of how to use UpdateDedicatedAiCluster API.</example>
         public async Task<UpdateDedicatedAiClusterResponse> UpdateDedicatedAiCluster(UpdateDedicatedAiClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDedicatedAiCluster");
@@ -4386,7 +4386,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateEndpoint.cs.html">here</a> to see an example of how to use UpdateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateEndpoint.cs.html">here</a> to see an example of how to use UpdateEndpoint API.</example>
         public async Task<UpdateEndpointResponse> UpdateEndpoint(UpdateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateEndpoint");
@@ -4444,7 +4444,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateGenerativeAiPrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateGenerativeAiPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateGenerativeAiPrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateGenerativeAiPrivateEndpoint API.</example>
         public async Task<UpdateGenerativeAiPrivateEndpointResponse> UpdateGenerativeAiPrivateEndpoint(UpdateGenerativeAiPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateGenerativeAiPrivateEndpoint");
@@ -4501,7 +4501,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateGenerativeAiProject.cs.html">here</a> to see an example of how to use UpdateGenerativeAiProject API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateGenerativeAiProject.cs.html">here</a> to see an example of how to use UpdateGenerativeAiProject API.</example>
         public async Task<UpdateGenerativeAiProjectResponse> UpdateGenerativeAiProject(UpdateGenerativeAiProjectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateGenerativeAiProject");
@@ -4558,7 +4558,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateHostedApplication.cs.html">here</a> to see an example of how to use UpdateHostedApplication API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateHostedApplication.cs.html">here</a> to see an example of how to use UpdateHostedApplication API.</example>
         public async Task<UpdateHostedApplicationResponse> UpdateHostedApplication(UpdateHostedApplicationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateHostedApplication");
@@ -4615,7 +4615,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateHostedDeployment.cs.html">here</a> to see an example of how to use UpdateHostedDeployment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateHostedDeployment.cs.html">here</a> to see an example of how to use UpdateHostedDeployment API.</example>
         public async Task<UpdateHostedDeploymentResponse> UpdateHostedDeployment(UpdateHostedDeploymentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateHostedDeployment");
@@ -4672,7 +4672,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateImportedModel.cs.html">here</a> to see an example of how to use UpdateImportedModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateImportedModel.cs.html">here</a> to see an example of how to use UpdateImportedModel API.</example>
         public async Task<UpdateImportedModelResponse> UpdateImportedModel(UpdateImportedModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateImportedModel");
@@ -4729,7 +4729,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateModel.cs.html">here</a> to see an example of how to use UpdateModel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateModel.cs.html">here</a> to see an example of how to use UpdateModel API.</example>
         public async Task<UpdateModelResponse> UpdateModel(UpdateModelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateModel");
@@ -4786,7 +4786,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateSemanticStore.cs.html">here</a> to see an example of how to use UpdateSemanticStore API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateSemanticStore.cs.html">here</a> to see an example of how to use UpdateSemanticStore API.</example>
         public async Task<UpdateSemanticStoreResponse> UpdateSemanticStore(UpdateSemanticStoreRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSemanticStore");
@@ -4843,7 +4843,7 @@ namespace Oci.GenerativeaiService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateVectorStoreConnector.cs.html">here</a> to see an example of how to use UpdateVectorStoreConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/UpdateVectorStoreConnector.cs.html">here</a> to see an example of how to use UpdateVectorStoreConnector API.</example>
         public async Task<UpdateVectorStoreConnectorResponse> UpdateVectorStoreConnector(UpdateVectorStoreConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVectorStoreConnector");

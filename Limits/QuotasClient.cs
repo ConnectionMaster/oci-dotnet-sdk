@@ -80,7 +80,7 @@ namespace Oci.LimitsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/AddQuotaLock.cs.html">here</a> to see an example of how to use AddQuotaLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/AddQuotaLock.cs.html">here</a> to see an example of how to use AddQuotaLock API.</example>
         public async Task<AddQuotaLockResponse> AddQuotaLock(AddQuotaLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addQuotaLock");
@@ -136,7 +136,7 @@ namespace Oci.LimitsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/CreateQuota.cs.html">here</a> to see an example of how to use CreateQuota API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/CreateQuota.cs.html">here</a> to see an example of how to use CreateQuota API.</example>
         public async Task<CreateQuotaResponse> CreateQuota(CreateQuotaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createQuota");
@@ -192,7 +192,7 @@ namespace Oci.LimitsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/DeleteQuota.cs.html">here</a> to see an example of how to use DeleteQuota API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/DeleteQuota.cs.html">here</a> to see an example of how to use DeleteQuota API.</example>
         public async Task<DeleteQuotaResponse> DeleteQuota(DeleteQuotaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteQuota");
@@ -248,7 +248,7 @@ namespace Oci.LimitsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/GetQuota.cs.html">here</a> to see an example of how to use GetQuota API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/GetQuota.cs.html">here</a> to see an example of how to use GetQuota API.</example>
         public async Task<GetQuotaResponse> GetQuota(GetQuotaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getQuota");
@@ -304,7 +304,7 @@ namespace Oci.LimitsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/ListQuotas.cs.html">here</a> to see an example of how to use ListQuotas API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/ListQuotas.cs.html">here</a> to see an example of how to use ListQuotas API.</example>
         public async Task<ListQuotasResponse> ListQuotas(ListQuotasRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listQuotas");
@@ -360,7 +360,7 @@ namespace Oci.LimitsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/RemoveQuotaLock.cs.html">here</a> to see an example of how to use RemoveQuotaLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/RemoveQuotaLock.cs.html">here</a> to see an example of how to use RemoveQuotaLock API.</example>
         public async Task<RemoveQuotaLockResponse> RemoveQuotaLock(RemoveQuotaLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeQuotaLock");
@@ -416,7 +416,7 @@ namespace Oci.LimitsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/UpdateQuota.cs.html">here</a> to see an example of how to use UpdateQuota API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limits/UpdateQuota.cs.html">here</a> to see an example of how to use UpdateQuota API.</example>
         public async Task<UpdateQuotaResponse> UpdateQuota(UpdateQuotaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateQuota");

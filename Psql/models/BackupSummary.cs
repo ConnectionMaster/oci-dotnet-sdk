@@ -42,7 +42,7 @@ namespace Oci.PsqlService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment that contains the backup.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that contains the backup.
         /// </value>
         /// <remarks>
         /// Required
@@ -114,7 +114,7 @@ namespace Oci.PsqlService.Models
         public System.Nullable<int> BackupSize { get; set; }
         
         /// <value>
-        /// The backup's source database system's [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The backup's source database system's [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         [JsonProperty(PropertyName = "dbSystemId")]
         public string DbSystemId { get; set; }

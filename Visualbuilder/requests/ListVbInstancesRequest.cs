@@ -14,7 +14,7 @@ using Oci.VisualbuilderService.Models;
 namespace Oci.VisualbuilderService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/visualbuilder/ListVbInstances.cs.html">here</a> to see an example of how to use ListVbInstances request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/visualbuilder/ListVbInstances.cs.html">here</a> to see an example of how to use ListVbInstances request.
     /// </example>
     public class ListVbInstancesRequest : Oci.Common.IOciRequest
     {

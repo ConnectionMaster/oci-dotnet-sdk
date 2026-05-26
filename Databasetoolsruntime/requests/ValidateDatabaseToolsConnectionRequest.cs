@@ -14,13 +14,13 @@ using Oci.DatabasetoolsruntimeService.Models;
 namespace Oci.DatabasetoolsruntimeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ValidateDatabaseToolsConnection.cs.html">here</a> to see an example of how to use ValidateDatabaseToolsConnection request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetoolsruntime/ValidateDatabaseToolsConnection.cs.html">here</a> to see an example of how to use ValidateDatabaseToolsConnection request.
     /// </example>
     public class ValidateDatabaseToolsConnectionRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of a Database Tools connection.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a Database Tools connection.
         /// </value>
         /// <remarks>
         /// Required

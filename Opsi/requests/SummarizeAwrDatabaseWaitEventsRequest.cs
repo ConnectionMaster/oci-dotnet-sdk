@@ -14,7 +14,7 @@ using Oci.OpsiService.Models;
 namespace Oci.OpsiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseWaitEvents.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseWaitEvents request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/SummarizeAwrDatabaseWaitEvents.cs.html">here</a> to see an example of how to use SummarizeAwrDatabaseWaitEvents request.
     /// </example>
     public class SummarizeAwrDatabaseWaitEventsRequest : Oci.Common.IOciRequest
     {
@@ -30,7 +30,7 @@ namespace Oci.OpsiService.Requests
         public string AwrHubId { get; set; }
         
         /// <value>
-        /// The internal ID of the database. The internal ID of the database is not the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The internal ID of the database. The internal ID of the database is not the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// It can be retrieved from the following endpoint:
         /// /awrHubs/{awrHubId}/awrDatabases
         /// 
@@ -105,7 +105,7 @@ namespace Oci.OpsiService.Requests
         /// <value>
         /// For list pagination. The value of the `opc-next-page` response header from
         /// the previous \"List\" call. For important details about how pagination works,
-        /// see [List Pagination](https://docs.cloud.oracle.com/Content/API/Concepts/usingapi.htm#nine).
+        /// see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]
@@ -115,7 +115,7 @@ namespace Oci.OpsiService.Requests
         /// For list pagination. The maximum number of results per page, or items to
         /// return in a paginated \"List\" call.
         /// For important details about how pagination works, see
-        /// [List Pagination](https://docs.cloud.oracle.com/Content/API/Concepts/usingapi.htm#nine).
+        /// [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// Example: 50
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "limit")]

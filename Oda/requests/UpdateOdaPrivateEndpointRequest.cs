@@ -14,13 +14,13 @@ using Oci.OdaService.Models;
 namespace Oci.OdaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateOdaPrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateOdaPrivateEndpoint request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/oda/UpdateOdaPrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateOdaPrivateEndpoint request.
     /// </example>
     public class UpdateOdaPrivateEndpointRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// Unique ODA Private Endpoint identifier which is the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// Unique ODA Private Endpoint identifier which is the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

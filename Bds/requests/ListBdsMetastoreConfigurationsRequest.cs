@@ -14,7 +14,7 @@ using Oci.BdsService.Models;
 namespace Oci.BdsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListBdsMetastoreConfigurations.cs.html">here</a> to see an example of how to use ListBdsMetastoreConfigurations request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/ListBdsMetastoreConfigurations.cs.html">here</a> to see an example of how to use ListBdsMetastoreConfigurations request.
     /// </example>
     public class ListBdsMetastoreConfigurationsRequest : Oci.Common.IOciRequest
     {

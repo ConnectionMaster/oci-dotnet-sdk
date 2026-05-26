@@ -14,7 +14,7 @@ using Oci.DatabasemigrationService.Models;
 namespace Oci.DatabasemigrationService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/UpdateAssessment.cs.html">here</a> to see an example of how to use UpdateAssessment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemigration/UpdateAssessment.cs.html">here</a> to see an example of how to use UpdateAssessment request.
     /// </example>
     public class UpdateAssessmentRequest : Oci.Common.IOciRequest
     {

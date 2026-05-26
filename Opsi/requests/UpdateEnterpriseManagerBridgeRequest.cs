@@ -14,7 +14,7 @@ using Oci.OpsiService.Models;
 namespace Oci.OpsiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateEnterpriseManagerBridge.cs.html">here</a> to see an example of how to use UpdateEnterpriseManagerBridge request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/UpdateEnterpriseManagerBridge.cs.html">here</a> to see an example of how to use UpdateEnterpriseManagerBridge request.
     /// </example>
     public class UpdateEnterpriseManagerBridgeRequest : Oci.Common.IOciRequest
     {

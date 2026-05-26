@@ -30,7 +30,7 @@ namespace Oci.VnmonitoringService.Models
         public string BandwidthShapeName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to contain the virtual circuit.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to contain the virtual circuit.
         /// 
         /// </value>
         /// <remarks>
@@ -73,7 +73,7 @@ namespace Oci.VnmonitoringService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// For private virtual circuits only. The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the {@link Drg}
+        /// For private virtual circuits only. The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the {@link Drg}
         /// that this virtual circuit uses.
         /// 
         /// </value>
@@ -90,7 +90,7 @@ namespace Oci.VnmonitoringService.Models
         public string ProviderName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the service offered by the provider (if you're connecting
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the service offered by the provider (if you're connecting
         /// via a provider). To get a list of the available service offerings, see
         /// {@link #listFastConnectProviderServices(ListFastConnectProviderServicesRequest) listFastConnectProviderServices}.
         /// 

@@ -57,7 +57,7 @@ namespace Oci.ResourcemanagerService.Models
         
         /// <value>
         /// Resource region. 
-        /// For information about regions, see [Regions and Availability Domains](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/regions.htm).
+        /// For information about regions, see [Regions and Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm).
         /// Example: us-phoenix-1
         /// </value>
         [JsonProperty(PropertyName = "region")]

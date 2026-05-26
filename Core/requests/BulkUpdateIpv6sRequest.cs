@@ -14,7 +14,7 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkUpdateIpv6s.cs.html">here</a> to see an example of how to use BulkUpdateIpv6s request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/BulkUpdateIpv6s.cs.html">here</a> to see an example of how to use BulkUpdateIpv6s request.
     /// </example>
     public class BulkUpdateIpv6sRequest : Oci.Common.IOciRequest
     {

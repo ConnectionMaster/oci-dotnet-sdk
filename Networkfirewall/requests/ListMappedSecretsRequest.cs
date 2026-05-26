@@ -14,7 +14,7 @@ using Oci.NetworkfirewallService.Models;
 namespace Oci.NetworkfirewallService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListMappedSecrets.cs.html">here</a> to see an example of how to use ListMappedSecrets request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/networkfirewall/ListMappedSecrets.cs.html">here</a> to see an example of how to use ListMappedSecrets request.
     /// </example>
     public class ListMappedSecretsRequest : Oci.Common.IOciRequest
     {

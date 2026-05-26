@@ -25,7 +25,7 @@ namespace Oci.GoldengateService.Models
         
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the pipeline. This option applies when retrieving a pipeline.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the pipeline. This option applies when retrieving a pipeline.
         /// 
         /// </value>
         /// <remarks>
@@ -54,7 +54,7 @@ namespace Oci.GoldengateService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment being referenced.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment being referenced.
         /// 
         /// </value>
         /// <remarks>
@@ -135,7 +135,7 @@ namespace Oci.GoldengateService.Models
         /// <value>
         /// The system tags associated with this resource, if any. The system tags are set by Oracle
         /// Cloud Infrastructure services. Each key is predefined and scoped to namespaces.  For more
-        /// information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {orcl-cloud: {free-tier-retain: true}}
         /// </value>
@@ -225,7 +225,7 @@ namespace Oci.GoldengateService.Models
         public System.Nullable<System.DateTime> TimeUpdated { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the subnet of the pipeline's private endpoint.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet of the pipeline's private endpoint.
         /// The subnet must be a private subnet.
         /// 
         /// </value>

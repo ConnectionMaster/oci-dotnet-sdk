@@ -14,7 +14,7 @@ using Oci.DistributeddatabaseService.Models;
 namespace Oci.DistributeddatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/StopDistributedAutonomousDatabase.cs.html">here</a> to see an example of how to use StopDistributedAutonomousDatabase request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/StopDistributedAutonomousDatabase.cs.html">here</a> to see an example of how to use StopDistributedAutonomousDatabase request.
     /// </example>
     public class StopDistributedAutonomousDatabaseRequest : Oci.Common.IOciRequest
     {

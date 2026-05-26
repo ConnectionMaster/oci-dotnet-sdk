@@ -14,7 +14,7 @@ using Oci.ClusterplacementgroupsService.Models;
 namespace Oci.ClusterplacementgroupsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/CreateClusterPlacementGroup.cs.html">here</a> to see an example of how to use CreateClusterPlacementGroup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/CreateClusterPlacementGroup.cs.html">here</a> to see an example of how to use CreateClusterPlacementGroup request.
     /// </example>
     public class CreateClusterPlacementGroupRequest : Oci.Common.IOciRequest
     {

@@ -47,7 +47,7 @@ namespace Oci.RedisService.Models
         public System.Nullable<ActionType> ActionType { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the resource the work request affects.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the resource the work request affects.
         /// </value>
         /// <remarks>
         /// Required

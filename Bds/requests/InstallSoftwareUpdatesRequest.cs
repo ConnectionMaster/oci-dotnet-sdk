@@ -14,7 +14,7 @@ using Oci.BdsService.Models;
 namespace Oci.BdsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/InstallSoftwareUpdates.cs.html">here</a> to see an example of how to use InstallSoftwareUpdates request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/InstallSoftwareUpdates.cs.html">here</a> to see an example of how to use InstallSoftwareUpdates request.
     /// </example>
     public class InstallSoftwareUpdatesRequest : Oci.Common.IOciRequest
     {

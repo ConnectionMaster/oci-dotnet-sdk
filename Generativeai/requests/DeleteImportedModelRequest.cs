@@ -14,7 +14,7 @@ using Oci.GenerativeaiService.Models;
 namespace Oci.GenerativeaiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteImportedModel.cs.html">here</a> to see an example of how to use DeleteImportedModel request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/DeleteImportedModel.cs.html">here</a> to see an example of how to use DeleteImportedModel request.
     /// </example>
     public class DeleteImportedModelRequest : Oci.Common.IOciRequest
     {

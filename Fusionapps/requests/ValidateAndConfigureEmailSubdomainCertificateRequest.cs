@@ -14,7 +14,7 @@ using Oci.FusionappsService.Models;
 namespace Oci.FusionappsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ValidateAndConfigureEmailSubdomainCertificate.cs.html">here</a> to see an example of how to use ValidateAndConfigureEmailSubdomainCertificate request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fusionapps/ValidateAndConfigureEmailSubdomainCertificate.cs.html">here</a> to see an example of how to use ValidateAndConfigureEmailSubdomainCertificate request.
     /// </example>
     public class ValidateAndConfigureEmailSubdomainCertificateRequest : Oci.Common.IOciRequest
     {

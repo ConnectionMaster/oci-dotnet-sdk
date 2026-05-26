@@ -32,7 +32,7 @@ namespace Oci.RedisService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the compartment that contains the OCI Cache Config Set.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the compartment that contains the OCI Cache Config Set.
         /// </value>
         /// <remarks>
         /// Required

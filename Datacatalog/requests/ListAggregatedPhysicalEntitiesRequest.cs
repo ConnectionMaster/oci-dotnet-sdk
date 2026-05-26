@@ -14,7 +14,7 @@ using Oci.DatacatalogService.Models;
 namespace Oci.DatacatalogService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datacatalog/ListAggregatedPhysicalEntities.cs.html">here</a> to see an example of how to use ListAggregatedPhysicalEntities request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datacatalog/ListAggregatedPhysicalEntities.cs.html">here</a> to see an example of how to use ListAggregatedPhysicalEntities request.
     /// </example>
     public class ListAggregatedPhysicalEntitiesRequest : Oci.Common.IOciRequest
     {

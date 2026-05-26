@@ -14,7 +14,7 @@ using Oci.AidocumentService.Models;
 namespace Oci.AidocumentService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aidocument/RemoveModelLock.cs.html">here</a> to see an example of how to use RemoveModelLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aidocument/RemoveModelLock.cs.html">here</a> to see an example of how to use RemoveModelLock request.
     /// </example>
     public class RemoveModelLockRequest : Oci.Common.IOciRequest
     {

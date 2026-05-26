@@ -14,13 +14,13 @@ using Oci.OpsiService.Models;
 namespace Oci.OpsiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestHostMetrics.cs.html">here</a> to see an example of how to use IngestHostMetrics request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/opsi/IngestHostMetrics.cs.html">here</a> to see an example of how to use IngestHostMetrics request.
     /// </example>
     public class IngestHostMetricsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// Required [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the host insight resource.
+        /// Required [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the host insight resource.
         /// 
         /// </value>
         /// <remarks>

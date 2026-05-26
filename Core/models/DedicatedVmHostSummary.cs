@@ -83,7 +83,7 @@ namespace Oci.CoreService.Models
         public string FaultDomain { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the dedicated VM host.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the dedicated VM host.
         /// 
         /// </value>
         /// <remarks>
@@ -182,6 +182,20 @@ namespace Oci.CoreService.Models
         /// </value>
         [JsonProperty(PropertyName = "remainingMemoryInGBs")]
         public System.Nullable<float> RemainingMemoryInGBs { get; set; }
+        
+        /// <value>
+        /// The current total local volume of the dedicated VM host, in GBs.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "totalLocalVolumeInGBs")]
+        public System.Nullable<float> TotalLocalVolumeInGBs { get; set; }
+        
+        /// <value>
+        /// The current available local volume of the dedicated VM host, in GBs.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "remainingLocalVolumeInGBs")]
+        public System.Nullable<float> RemainingLocalVolumeInGBs { get; set; }
         
     }
 }

@@ -14,13 +14,13 @@ using Oci.LustrefilestorageService.Models;
 namespace Oci.LustrefilestorageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/StartImportFromObject.cs.html">here</a> to see an example of how to use StartImportFromObject request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/StartImportFromObject.cs.html">here</a> to see an example of how to use StartImportFromObject request.
     /// </example>
     public class StartImportFromObjectRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Object Storage link.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Object Storage link.
         /// </value>
         /// <remarks>
         /// Required

@@ -17,8 +17,8 @@ namespace Oci.CoreService.Models
 {
     /// <summary>
     /// A compute instance shape that can be used in {@link #launchInstance(LaunchInstanceRequest) launchInstance}.
-    /// For more information, see [Overview of the Compute Service](https://docs.cloud.oracle.com/iaas/Content/Compute/Concepts/computeoverview.htm) and
-    /// [Compute Shapes](https://docs.cloud.oracle.com/iaas/Content/Compute/References/computeshapes.htm).
+    /// For more information, see [Overview of the Compute Service](https://docs.oracle.com/iaas/Content/Compute/Concepts/computeoverview.htm) and
+    /// [Compute Shapes](https://docs.oracle.com/iaas/Content/Compute/References/computeshapes.htm).
     /// 
     /// </summary>
     public class Shape 
@@ -226,7 +226,7 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.List<string> QuotaNames { get; set; }
         
         /// <value>
-        /// Whether the shape supports creating subcore or burstable instances. A [burstable instance](https://docs.cloud.oracle.com/iaas/Content/Compute/References/burstable-instances.htm)
+        /// Whether the shape supports creating subcore or burstable instances. A [burstable instance](https://docs.oracle.com/iaas/Content/Compute/References/burstable-instances.htm)
         /// is a virtual machine (VM) instance that provides a baseline level of CPU performance with the ability to burst to a higher level to support occasional
         /// spikes in usage.
         /// 
@@ -235,7 +235,7 @@ namespace Oci.CoreService.Models
         public System.Nullable<bool> IsSubcore { get; set; }
         
         /// <value>
-        /// Whether the shape supports creating flexible instances. A [flexible shape](https://docs.cloud.oracle.com/iaas/Content/Compute/References/computeshapes.htm#flexible)
+        /// Whether the shape supports creating flexible instances. A [flexible shape](https://docs.oracle.com/iaas/Content/Compute/References/computeshapes.htm#flexible)
         /// is a shape that lets you customize the number of OCPUs and the amount of memory when launching or resizing your instance.
         /// 
         /// </value>
@@ -244,7 +244,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// The list of compatible shapes that this shape can be changed to. For more information,
-        /// see [Changing the Shape of an Instance](https://docs.cloud.oracle.com/iaas/Content/Compute/Tasks/resizinginstances.htm).
+        /// see [Changing the Shape of an Instance](https://docs.oracle.com/iaas/Content/Compute/Tasks/resizinginstances.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "resizeCompatibleShapes")]

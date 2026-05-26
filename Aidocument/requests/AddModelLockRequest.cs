@@ -14,7 +14,7 @@ using Oci.AidocumentService.Models;
 namespace Oci.AidocumentService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aidocument/AddModelLock.cs.html">here</a> to see an example of how to use AddModelLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aidocument/AddModelLock.cs.html">here</a> to see an example of how to use AddModelLock request.
     /// </example>
     public class AddModelLockRequest : Oci.Common.IOciRequest
     {

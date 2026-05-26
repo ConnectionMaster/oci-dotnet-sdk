@@ -23,7 +23,7 @@ namespace Oci.GoldengateService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the deployment being referenced.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the deployment being referenced.
         /// 
         /// </value>
         /// <remarks>
@@ -145,7 +145,7 @@ namespace Oci.GoldengateService.Models
         public System.Nullable<System.DateTime> TimeLastSynced { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the subscription with which resource needs to be associated with.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subscription with which resource needs to be associated with.
         /// </value>
         [JsonProperty(PropertyName = "subscriptionId")]
         public string SubscriptionId { get; set; }
@@ -176,7 +176,9 @@ namespace Oci.GoldengateService.Models
             [EnumMember(Value = "UPDATING")]
             Updating,
             [EnumMember(Value = "DELETING")]
-            Deleting
+            Deleting,
+            [EnumMember(Value = "INACTIVE")]
+            Inactive
         };
 
         /// <value>
@@ -189,6 +191,21 @@ namespace Oci.GoldengateService.Models
         [JsonProperty(PropertyName = "lifecycleState")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<LifecycleStateEnum> LifecycleState { get; set; }
+        
+        /// <value>
+        /// Status of the DR precheck result.
+        /// </value>
+        [JsonProperty(PropertyName = "precheckStatus")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<PrecheckStatus> PrecheckStatus { get; set; }
+        
+        /// <value>
+        /// The timestamp when pre-check started. The format is defined by
+        /// [RFC3339](https://tools.ietf.org/html/rfc3339), such as `2024-10-26T20:19:29.600Z`.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "timeLastPrecheckPerformed")]
+        public System.Nullable<System.DateTime> TimeLastPrecheckPerformed { get; set; }
         
     }
 }

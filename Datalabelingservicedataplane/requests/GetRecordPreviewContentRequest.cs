@@ -14,7 +14,7 @@ using Oci.DatalabelingservicedataplaneService.Models;
 namespace Oci.DatalabelingservicedataplaneService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datalabelingservicedataplane/GetRecordPreviewContent.cs.html">here</a> to see an example of how to use GetRecordPreviewContent request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datalabelingservicedataplane/GetRecordPreviewContent.cs.html">here</a> to see an example of how to use GetRecordPreviewContent request.
     /// </example>
     public class GetRecordPreviewContentRequest : Oci.Common.IOciRequest
     {

@@ -14,13 +14,13 @@ using Oci.LustrefilestorageService.Models;
 namespace Oci.LustrefilestorageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/OverrideMaintenance.cs.html">here</a> to see an example of how to use OverrideMaintenance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lustrefilestorage/OverrideMaintenance.cs.html">here</a> to see an example of how to use OverrideMaintenance request.
     /// </example>
     public class OverrideMaintenanceRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Lustre file system.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Lustre file system.
         /// </value>
         /// <remarks>
         /// Required

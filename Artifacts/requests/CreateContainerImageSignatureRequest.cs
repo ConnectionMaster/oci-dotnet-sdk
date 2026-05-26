@@ -14,7 +14,7 @@ using Oci.ArtifactsService.Models;
 namespace Oci.ArtifactsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/artifacts/CreateContainerImageSignature.cs.html">here</a> to see an example of how to use CreateContainerImageSignature request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/artifacts/CreateContainerImageSignature.cs.html">here</a> to see an example of how to use CreateContainerImageSignature request.
     /// </example>
     public class CreateContainerImageSignatureRequest : Oci.Common.IOciRequest
     {

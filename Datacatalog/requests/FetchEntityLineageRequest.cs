@@ -14,7 +14,7 @@ using Oci.DatacatalogService.Models;
 namespace Oci.DatacatalogService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datacatalog/FetchEntityLineage.cs.html">here</a> to see an example of how to use FetchEntityLineage request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datacatalog/FetchEntityLineage.cs.html">here</a> to see an example of how to use FetchEntityLineage request.
     /// </example>
     public class FetchEntityLineageRequest : Oci.Common.IOciRequest
     {

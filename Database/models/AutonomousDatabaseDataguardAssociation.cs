@@ -35,7 +35,7 @@ namespace Oci.DatabaseService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Autonomous AI Database that has a relationship with the peer Autonomous AI Database.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Autonomous AI Database that has a relationship with the peer Autonomous AI Database.
         /// 
         /// </value>
         /// <remarks>
@@ -156,7 +156,7 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<PeerRoleEnum> PeerRole { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the peer Autonomous AI Database.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the peer Autonomous AI Database.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "peerAutonomousDatabaseId")]

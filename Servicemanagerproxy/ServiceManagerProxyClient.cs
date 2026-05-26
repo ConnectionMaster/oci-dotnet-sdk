@@ -78,7 +78,7 @@ namespace Oci.ServicemanagerproxyService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicemanagerproxy/GetServiceEnvironment.cs.html">here</a> to see an example of how to use GetServiceEnvironment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicemanagerproxy/GetServiceEnvironment.cs.html">here</a> to see an example of how to use GetServiceEnvironment API.</example>
         public async Task<GetServiceEnvironmentResponse> GetServiceEnvironment(GetServiceEnvironmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getServiceEnvironment");
@@ -136,7 +136,7 @@ namespace Oci.ServicemanagerproxyService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicemanagerproxy/ListServiceEnvironments.cs.html">here</a> to see an example of how to use ListServiceEnvironments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/servicemanagerproxy/ListServiceEnvironments.cs.html">here</a> to see an example of how to use ListServiceEnvironments API.</example>
         public async Task<ListServiceEnvironmentsResponse> ListServiceEnvironments(ListServiceEnvironmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listServiceEnvironments");

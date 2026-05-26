@@ -14,7 +14,7 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListAutonomousDatabaseCharacterSets.cs.html">here</a> to see an example of how to use ListAutonomousDatabaseCharacterSets request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListAutonomousDatabaseCharacterSets.cs.html">here</a> to see an example of how to use ListAutonomousDatabaseCharacterSets request.
     /// </example>
     public class ListAutonomousDatabaseCharacterSetsRequest : Oci.Common.IOciRequest
     {

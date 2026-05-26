@@ -14,7 +14,7 @@ using Oci.OcvpService.Models;
 namespace Oci.OcvpService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/CreateDatastoreCluster.cs.html">here</a> to see an example of how to use CreateDatastoreCluster request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocvp/CreateDatastoreCluster.cs.html">here</a> to see an example of how to use CreateDatastoreCluster request.
     /// </example>
     public class CreateDatastoreClusterRequest : Oci.Common.IOciRequest
     {

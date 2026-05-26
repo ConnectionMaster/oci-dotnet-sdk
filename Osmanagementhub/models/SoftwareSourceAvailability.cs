@@ -16,13 +16,13 @@ using Newtonsoft.Json.Converters;
 namespace Oci.OsmanagementhubService.Models
 {
     /// <summary>
-    /// An object that defines the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) and the availability of a vendor software source.
+    /// An object that defines the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) and the availability of a vendor software source.
     /// </summary>
     public class SoftwareSourceAvailability 
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the vendor software source.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the vendor software source.
         /// </value>
         /// <remarks>
         /// Required

@@ -29,7 +29,7 @@ namespace Oci.VnmonitoringService.Models
     /// <br/>
     /// You can add *secondary private IPs* to a VNIC after it's created. For more
     /// information, see the `privateIp` operations and also
-    /// [IP Addresses](https://docs.cloud.oracle.com/iaas/Content/Network/Tasks/managingIPaddresses.htm).
+    /// [IP Addresses](https://docs.oracle.com/iaas/Content/Network/Tasks/managingIPaddresses.htm).
     /// <br/>
     /// **Note:** Only
     /// {@link #listPrivateIps(ListPrivateIpsRequest) listPrivateIps} and
@@ -44,7 +44,7 @@ namespace Oci.VnmonitoringService.Models
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,
     /// talk to an administrator. If you're an administrator who needs to write policies to give users access, see
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
+    /// [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// 
     /// </summary>
     public class PrivateIp 
@@ -59,7 +59,7 @@ namespace Oci.VnmonitoringService.Models
         public string AvailabilityDomain { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the private IP.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the private IP.
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }
@@ -95,7 +95,7 @@ namespace Oci.VnmonitoringService.Models
         /// [RFC 1123](https://tools.ietf.org/html/rfc1123).
         /// <br/>
         /// For more information, see
-        /// [DNS in Your Virtual Cloud Network](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/dns.htm).
+        /// [DNS in Your Virtual Cloud Network](https://docs.oracle.com/iaas/Content/Network/Concepts/dns.htm).
         /// <br/>
         /// Example: bminstance1
         /// </value>
@@ -103,7 +103,7 @@ namespace Oci.VnmonitoringService.Models
         public string HostnameLabel { get; set; }
         
         /// <value>
-        /// The private IP's Oracle ID ([OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
+        /// The private IP's Oracle ID ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
         /// </value>
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
@@ -128,7 +128,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Nullable<bool> IsPrimary { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet the VNIC is in.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet the VNIC is in.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "subnetId")]
@@ -143,7 +143,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Nullable<System.DateTime> TimeCreated { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC the private IP is assigned to. The VNIC and private IP
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC the private IP is assigned to. The VNIC and private IP
         /// must be in the same subnet.
         /// 
         /// </value>

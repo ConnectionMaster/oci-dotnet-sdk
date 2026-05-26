@@ -14,7 +14,7 @@ using Oci.UsageapiService.Models;
 namespace Oci.UsageapiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/GetQuery.cs.html">here</a> to see an example of how to use GetQuery request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usageapi/GetQuery.cs.html">here</a> to see an example of how to use GetQuery request.
     /// </example>
     public class GetQueryRequest : Oci.Common.IOciRequest
     {

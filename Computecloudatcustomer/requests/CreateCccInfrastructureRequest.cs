@@ -14,7 +14,7 @@ using Oci.ComputecloudatcustomerService.Models;
 namespace Oci.ComputecloudatcustomerService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/CreateCccInfrastructure.cs.html">here</a> to see an example of how to use CreateCccInfrastructure request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/CreateCccInfrastructure.cs.html">here</a> to see an example of how to use CreateCccInfrastructure request.
     /// </example>
     public class CreateCccInfrastructureRequest : Oci.Common.IOciRequest
     {
@@ -41,7 +41,7 @@ namespace Oci.ComputecloudatcustomerService.Requests
         public string OpcRetryToken { get; set; }
         
         /// <value>
-        /// The client request [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for tracing.
+        /// The client request [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for tracing.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-request-id")]

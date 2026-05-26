@@ -22,7 +22,7 @@ namespace Oci.VnmonitoringService.Models
     /// network connections to provide a single, logical connection between the edge router
     /// on the customer's existing network and Oracle Cloud Infrastructure. *Private*
     /// virtual circuits support private peering, and *public* virtual circuits support
-    /// public peering. For more information, see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+    /// public peering. For more information, see [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
     /// <br/>
     /// Each virtual circuit is made up of information shared between a customer, Oracle,
     /// and a provider (if the customer is using FastConnect via a provider). Who fills in
@@ -34,7 +34,7 @@ namespace Oci.VnmonitoringService.Models
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized,
     /// talk to an administrator. If you're an administrator who needs to write policies to give users access, see
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
+    /// [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// 
     /// </summary>
     public class VirtualCircuit 
@@ -91,7 +91,7 @@ namespace Oci.VnmonitoringService.Models
         public System.Nullable<BgpSessionStateEnum> BgpSessionState { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the virtual circuit.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the virtual circuit.
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }
@@ -132,7 +132,7 @@ namespace Oci.VnmonitoringService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the customer's {@link Drg}
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the customer's {@link Drg}
         /// that this virtual circuit uses. Applicable only to private virtual circuits.
         /// 
         /// </value>
@@ -140,7 +140,7 @@ namespace Oci.VnmonitoringService.Models
         public string GatewayId { get; set; }
         
         /// <value>
-        /// The virtual circuit's Oracle ID ([OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
+        /// The virtual circuit's Oracle ID ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)).
         /// </value>
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
@@ -148,7 +148,7 @@ namespace Oci.VnmonitoringService.Models
         /// <value>
         /// The virtual circuit's current state. For information about
         /// the different states, see
-        /// [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+        /// [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </value>
         ///
@@ -174,7 +174,7 @@ namespace Oci.VnmonitoringService.Models
         /// <value>
         /// The virtual circuit's current state. For information about
         /// the different states, see
-        /// [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+        /// [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "lifecycleState")]
@@ -195,7 +195,7 @@ namespace Oci.VnmonitoringService.Models
         public string ProviderName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the service offered by the provider (if the customer is connecting via a provider).
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the service offered by the provider (if the customer is connecting via a provider).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "providerServiceId")]
@@ -293,7 +293,7 @@ namespace Oci.VnmonitoringService.Models
                 ///
         /// <value>
         /// Whether the virtual circuit supports private or public peering. For more information,
-        /// see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+        /// see [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </value>
         ///
@@ -306,7 +306,7 @@ namespace Oci.VnmonitoringService.Models
 
         /// <value>
         /// Whether the virtual circuit supports private or public peering. For more information,
-        /// see [FastConnect Overview](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
+        /// see [FastConnect Overview](https://docs.oracle.com/iaas/Content/Network/Concepts/fastconnect.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "type")]

@@ -14,7 +14,7 @@ using Oci.LoganalyticsService.Models;
 namespace Oci.LoganalyticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/GetUnprocessedDataBucket.cs.html">here</a> to see an example of how to use GetUnprocessedDataBucket request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/GetUnprocessedDataBucket.cs.html">here</a> to see an example of how to use GetUnprocessedDataBucket request.
     /// </example>
     public class GetUnprocessedDataBucketRequest : Oci.Common.IOciRequest
     {

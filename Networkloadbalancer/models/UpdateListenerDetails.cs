@@ -18,7 +18,7 @@ namespace Oci.NetworkloadbalancerService.Models
     /// <summary>
     /// The configuration of the listener.
     /// For more information about listeners, see
-    /// [Listeners for Network Load Balancers](https://docs.cloud.oracle.com/Content/NetworkLoadBalancer/Listeners/listener-management.htm).
+    /// [Listeners for Network Load Balancers](https://docs.oracle.com/iaas/Content/NetworkLoadBalancer/Listeners/listener-management.htm).
     /// 
     /// </summary>
     public class UpdateListenerDetails 

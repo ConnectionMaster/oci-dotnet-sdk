@@ -28,7 +28,7 @@ namespace Oci.DistributeddatabaseService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Database Vault Storage.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Database Vault Storage.
         /// </value>
         [JsonProperty(PropertyName = "dbStorageVaultId")]
         public string DbStorageVaultId { get; set; }

@@ -22,7 +22,7 @@ namespace Oci.ComputeinstanceagentService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the target instance.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the target instance.
         /// </value>
         [JsonProperty(PropertyName = "instanceId")]
         public string InstanceId { get; set; }

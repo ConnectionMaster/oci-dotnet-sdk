@@ -14,7 +14,7 @@ using Oci.AidocumentService.Models;
 namespace Oci.AidocumentService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aidocument/UpdateProject.cs.html">here</a> to see an example of how to use UpdateProject request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aidocument/UpdateProject.cs.html">here</a> to see an example of how to use UpdateProject request.
     /// </example>
     public class UpdateProjectRequest : Oci.Common.IOciRequest
     {

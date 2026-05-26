@@ -83,7 +83,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
         public async Task<CancelWorkRequestResponse> CancelWorkRequest(CancelWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelWorkRequest");
@@ -142,7 +142,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/CreateJavaDownloadReport.cs.html">here</a> to see an example of how to use CreateJavaDownloadReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/CreateJavaDownloadReport.cs.html">here</a> to see an example of how to use CreateJavaDownloadReport API.</example>
         public async Task<CreateJavaDownloadReportResponse> CreateJavaDownloadReport(CreateJavaDownloadReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createJavaDownloadReport");
@@ -201,7 +201,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/CreateJavaDownloadToken.cs.html">here</a> to see an example of how to use CreateJavaDownloadToken API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/CreateJavaDownloadToken.cs.html">here</a> to see an example of how to use CreateJavaDownloadToken API.</example>
         public async Task<CreateJavaDownloadTokenResponse> CreateJavaDownloadToken(CreateJavaDownloadTokenRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createJavaDownloadToken");
@@ -259,7 +259,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/CreateJavaLicenseAcceptanceRecord.cs.html">here</a> to see an example of how to use CreateJavaLicenseAcceptanceRecord API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/CreateJavaLicenseAcceptanceRecord.cs.html">here</a> to see an example of how to use CreateJavaLicenseAcceptanceRecord API.</example>
         public async Task<CreateJavaLicenseAcceptanceRecordResponse> CreateJavaLicenseAcceptanceRecord(CreateJavaLicenseAcceptanceRecordRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createJavaLicenseAcceptanceRecord");
@@ -316,7 +316,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/DeleteJavaDownloadReport.cs.html">here</a> to see an example of how to use DeleteJavaDownloadReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/DeleteJavaDownloadReport.cs.html">here</a> to see an example of how to use DeleteJavaDownloadReport API.</example>
         public async Task<DeleteJavaDownloadReportResponse> DeleteJavaDownloadReport(DeleteJavaDownloadReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteJavaDownloadReport");
@@ -373,7 +373,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/DeleteJavaDownloadToken.cs.html">here</a> to see an example of how to use DeleteJavaDownloadToken API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/DeleteJavaDownloadToken.cs.html">here</a> to see an example of how to use DeleteJavaDownloadToken API.</example>
         public async Task<DeleteJavaDownloadTokenResponse> DeleteJavaDownloadToken(DeleteJavaDownloadTokenRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteJavaDownloadToken");
@@ -431,7 +431,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/DeleteJavaLicenseAcceptanceRecord.cs.html">here</a> to see an example of how to use DeleteJavaLicenseAcceptanceRecord API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/DeleteJavaLicenseAcceptanceRecord.cs.html">here</a> to see an example of how to use DeleteJavaLicenseAcceptanceRecord API.</example>
         public async Task<DeleteJavaLicenseAcceptanceRecordResponse> DeleteJavaLicenseAcceptanceRecord(DeleteJavaLicenseAcceptanceRecordRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteJavaLicenseAcceptanceRecord");
@@ -494,7 +494,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/GenerateArtifactDownloadUrl.cs.html">here</a> to see an example of how to use GenerateArtifactDownloadUrl API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/GenerateArtifactDownloadUrl.cs.html">here</a> to see an example of how to use GenerateArtifactDownloadUrl API.</example>
         public async Task<GenerateArtifactDownloadUrlResponse> GenerateArtifactDownloadUrl(GenerateArtifactDownloadUrlRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called generateArtifactDownloadUrl");
@@ -551,7 +551,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/GetJavaDownloadReport.cs.html">here</a> to see an example of how to use GetJavaDownloadReport API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/GetJavaDownloadReport.cs.html">here</a> to see an example of how to use GetJavaDownloadReport API.</example>
         public async Task<GetJavaDownloadReportResponse> GetJavaDownloadReport(GetJavaDownloadReportRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJavaDownloadReport");
@@ -608,7 +608,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/GetJavaDownloadReportContent.cs.html">here</a> to see an example of how to use GetJavaDownloadReportContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/GetJavaDownloadReportContent.cs.html">here</a> to see an example of how to use GetJavaDownloadReportContent API.</example>
         public async Task<GetJavaDownloadReportContentResponse> GetJavaDownloadReportContent(GetJavaDownloadReportContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJavaDownloadReportContent");
@@ -665,7 +665,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/GetJavaDownloadToken.cs.html">here</a> to see an example of how to use GetJavaDownloadToken API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/GetJavaDownloadToken.cs.html">here</a> to see an example of how to use GetJavaDownloadToken API.</example>
         public async Task<GetJavaDownloadTokenResponse> GetJavaDownloadToken(GetJavaDownloadTokenRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJavaDownloadToken");
@@ -723,7 +723,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/GetJavaLicense.cs.html">here</a> to see an example of how to use GetJavaLicense API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/GetJavaLicense.cs.html">here</a> to see an example of how to use GetJavaLicense API.</example>
         public async Task<GetJavaLicenseResponse> GetJavaLicense(GetJavaLicenseRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJavaLicense");
@@ -781,7 +781,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/GetJavaLicenseAcceptanceRecord.cs.html">here</a> to see an example of how to use GetJavaLicenseAcceptanceRecord API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/GetJavaLicenseAcceptanceRecord.cs.html">here</a> to see an example of how to use GetJavaLicenseAcceptanceRecord API.</example>
         public async Task<GetJavaLicenseAcceptanceRecordResponse> GetJavaLicenseAcceptanceRecord(GetJavaLicenseAcceptanceRecordRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getJavaLicenseAcceptanceRecord");
@@ -838,7 +838,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -898,7 +898,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListJavaDownloadRecords.cs.html">here</a> to see an example of how to use ListJavaDownloadRecords API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListJavaDownloadRecords.cs.html">here</a> to see an example of how to use ListJavaDownloadRecords API.</example>
         public async Task<ListJavaDownloadRecordsResponse> ListJavaDownloadRecords(ListJavaDownloadRecordsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJavaDownloadRecords");
@@ -956,7 +956,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListJavaDownloadReports.cs.html">here</a> to see an example of how to use ListJavaDownloadReports API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListJavaDownloadReports.cs.html">here</a> to see an example of how to use ListJavaDownloadReports API.</example>
         public async Task<ListJavaDownloadReportsResponse> ListJavaDownloadReports(ListJavaDownloadReportsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJavaDownloadReports");
@@ -1014,7 +1014,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListJavaDownloadTokens.cs.html">here</a> to see an example of how to use ListJavaDownloadTokens API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListJavaDownloadTokens.cs.html">here</a> to see an example of how to use ListJavaDownloadTokens API.</example>
         public async Task<ListJavaDownloadTokensResponse> ListJavaDownloadTokens(ListJavaDownloadTokensRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJavaDownloadTokens");
@@ -1072,7 +1072,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListJavaLicenseAcceptanceRecords.cs.html">here</a> to see an example of how to use ListJavaLicenseAcceptanceRecords API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListJavaLicenseAcceptanceRecords.cs.html">here</a> to see an example of how to use ListJavaLicenseAcceptanceRecords API.</example>
         public async Task<ListJavaLicenseAcceptanceRecordsResponse> ListJavaLicenseAcceptanceRecords(ListJavaLicenseAcceptanceRecordsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJavaLicenseAcceptanceRecords");
@@ -1130,7 +1130,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListJavaLicenses.cs.html">here</a> to see an example of how to use ListJavaLicenses API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListJavaLicenses.cs.html">here</a> to see an example of how to use ListJavaLicenses API.</example>
         public async Task<ListJavaLicensesResponse> ListJavaLicenses(ListJavaLicensesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listJavaLicenses");
@@ -1188,7 +1188,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -1246,7 +1246,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -1304,7 +1304,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1362,7 +1362,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/RequestSummarizedJavaDownloadCounts.cs.html">here</a> to see an example of how to use RequestSummarizedJavaDownloadCounts API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/RequestSummarizedJavaDownloadCounts.cs.html">here</a> to see an example of how to use RequestSummarizedJavaDownloadCounts API.</example>
         public async Task<RequestSummarizedJavaDownloadCountsResponse> RequestSummarizedJavaDownloadCounts(RequestSummarizedJavaDownloadCountsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called requestSummarizedJavaDownloadCounts");
@@ -1419,7 +1419,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/UpdateJavaDownloadToken.cs.html">here</a> to see an example of how to use UpdateJavaDownloadToken API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/UpdateJavaDownloadToken.cs.html">here</a> to see an example of how to use UpdateJavaDownloadToken API.</example>
         public async Task<UpdateJavaDownloadTokenResponse> UpdateJavaDownloadToken(UpdateJavaDownloadTokenRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateJavaDownloadToken");
@@ -1477,7 +1477,7 @@ namespace Oci.JmsjavadownloadsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/UpdateJavaLicenseAcceptanceRecord.cs.html">here</a> to see an example of how to use UpdateJavaLicenseAcceptanceRecord API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jmsjavadownloads/UpdateJavaLicenseAcceptanceRecord.cs.html">here</a> to see an example of how to use UpdateJavaLicenseAcceptanceRecord API.</example>
         public async Task<UpdateJavaLicenseAcceptanceRecordResponse> UpdateJavaLicenseAcceptanceRecord(UpdateJavaLicenseAcceptanceRecordRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateJavaLicenseAcceptanceRecord");

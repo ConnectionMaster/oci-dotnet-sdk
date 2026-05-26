@@ -72,7 +72,7 @@ namespace Oci.GoldengateService.Models
         public string Username { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Oracle Autonomous Json Database.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Oracle Autonomous Json Database.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "databaseId")]
@@ -102,7 +102,7 @@ namespace Oci.GoldengateService.Models
         public System.Nullable<SecurityProtocolEnum> SecurityProtocol { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret that stores the password Oracle GoldenGate uses to connect the associated database.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret that stores the password Oracle GoldenGate uses to connect the associated database.
         /// Note: When provided, 'password' field must not be provided.
         /// 
         /// </value>
@@ -110,7 +110,7 @@ namespace Oci.GoldengateService.Models
         public string PasswordSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret that stores the certificate key file of the mtls connection.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret that stores the certificate key file of the mtls connection.
         /// - The content of a .pem file containing the client private key (for 2-way SSL).
         /// Note: When provided, 'tlsCertificateKeyFile' field must not be provided.
         /// 
@@ -119,7 +119,7 @@ namespace Oci.GoldengateService.Models
         public string TlsCertificateKeyFileSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret that stores the password of the tls certificate key file.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret that stores the password of the tls certificate key file.
         /// Note: When provided, 'tlsCertificateKeyFilePassword' field must not be provided.
         /// 
         /// </value>

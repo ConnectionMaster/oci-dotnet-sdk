@@ -79,7 +79,7 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<TypeEnum> Type { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the backup destination.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the backup destination.
         /// </value>
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
@@ -109,7 +109,7 @@ namespace Oci.DatabaseService.Models
         public string InternetProxy { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the DBRS policy used for backup.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the DBRS policy used for backup.
         /// </value>
         [JsonProperty(PropertyName = "dbrsPolicyId")]
         public string DbrsPolicyId { get; set; }
@@ -160,7 +160,7 @@ namespace Oci.DatabaseService.Models
         /// <value>
         /// The name of the remote region where the remote automatic incremental backups will be stored.          
         /// For information about valid region names, see
-        /// [Regions and Availability Domains](https://docs.cloud.oracle.com/Content/General/Concepts/regions.htm).
+        /// [Regions and Availability Domains](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "remoteRegion")]

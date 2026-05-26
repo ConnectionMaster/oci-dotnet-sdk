@@ -14,7 +14,7 @@ using Oci.DatascienceService.Models;
 namespace Oci.DatascienceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelVersionSet.cs.html">here</a> to see an example of how to use CreateModelVersionSet request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/CreateModelVersionSet.cs.html">here</a> to see an example of how to use CreateModelVersionSet request.
     /// </example>
     public class CreateModelVersionSetRequest : Oci.Common.IOciRequest
     {

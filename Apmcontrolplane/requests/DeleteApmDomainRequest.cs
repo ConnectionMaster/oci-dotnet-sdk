@@ -14,7 +14,7 @@ using Oci.ApmcontrolplaneService.Models;
 namespace Oci.ApmcontrolplaneService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmcontrolplane/DeleteApmDomain.cs.html">here</a> to see an example of how to use DeleteApmDomain request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmcontrolplane/DeleteApmDomain.cs.html">here</a> to see an example of how to use DeleteApmDomain request.
     /// </example>
     public class DeleteApmDomainRequest : Oci.Common.IOciRequest
     {

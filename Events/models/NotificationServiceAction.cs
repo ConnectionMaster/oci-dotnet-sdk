@@ -23,7 +23,7 @@ namespace Oci.EventsService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the topic to which messages are delivered.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the topic to which messages are delivered.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "topicId")]

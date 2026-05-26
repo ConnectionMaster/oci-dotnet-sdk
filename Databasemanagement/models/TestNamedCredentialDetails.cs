@@ -16,13 +16,13 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
-    /// The The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the database against which the credential is to be tested.
+    /// The The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database against which the credential is to be tested.
     /// </summary>
     public class TestNamedCredentialDetails 
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Managed Database.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Managed Database.
         /// </value>
         [JsonProperty(PropertyName = "managedDatabaseId")]
         public string ManagedDatabaseId { get; set; }

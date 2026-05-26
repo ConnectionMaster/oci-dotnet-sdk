@@ -22,7 +22,7 @@ namespace Oci.ResourceanalyticsService.Models
     {
         
         /// <value>
-        /// The [Region Identifier](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/regions.htm) of the monitored region. E.g. us-ashburn-1
+        /// The [Region Identifier](https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm) of the monitored region. E.g. us-ashburn-1
         /// </value>
         /// <remarks>
         /// Required

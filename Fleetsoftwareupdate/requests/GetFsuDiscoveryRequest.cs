@@ -14,7 +14,7 @@ using Oci.FleetsoftwareupdateService.Models;
 namespace Oci.FleetsoftwareupdateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuDiscovery.cs.html">here</a> to see an example of how to use GetFsuDiscovery request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/GetFsuDiscovery.cs.html">here</a> to see an example of how to use GetFsuDiscovery request.
     /// </example>
     public class GetFsuDiscoveryRequest : Oci.Common.IOciRequest
     {

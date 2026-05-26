@@ -73,7 +73,7 @@ namespace Oci.MulticloudService
         /// Gets details for Multicloud metadata for the specified Multicloud subscription.
         /// Multicloud metadata for a subscription includes the Multicloud base compartment (top-level OCI compartment).
         /// For more information, see
-        /// [Getting Details for Multicloud Metadata](https://docs.cloud.oracle.com/iaas/Content/multicloud-hub/get-subscription-metadata.htm).
+        /// [Getting Details for Multicloud Metadata](https://docs.oracle.com/iaas/Content/multicloud-hub/get-subscription-metadata.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -81,7 +81,7 @@ namespace Oci.MulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/GetMultiCloudMetadata.cs.html">here</a> to see an example of how to use GetMultiCloudMetadata API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/GetMultiCloudMetadata.cs.html">here</a> to see an example of how to use GetMultiCloudMetadata API.</example>
         public async Task<GetMultiCloudMetadataResponse> GetMultiCloudMetadata(GetMultiCloudMetadataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMultiCloudMetadata");
@@ -133,7 +133,7 @@ namespace Oci.MulticloudService
         /// Lists Multicloud metadata for Multicloud subscriptions in the specified compartment.
         /// Multicloud metadata for a subscription includes the Multicloud base compartment (top-level OCI compartment).
         /// For more information, see
-        /// [Listing Multicloud Metadata for a Subscription](https://docs.cloud.oracle.com/iaas/Content/multicloud-hub/list-subscription-metadata.htm).
+        /// [Listing Multicloud Metadata for a Subscription](https://docs.oracle.com/iaas/Content/multicloud-hub/list-subscription-metadata.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -141,7 +141,7 @@ namespace Oci.MulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/ListMultiCloudMetadata.cs.html">here</a> to see an example of how to use ListMultiCloudMetadata API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/ListMultiCloudMetadata.cs.html">here</a> to see an example of how to use ListMultiCloudMetadata API.</example>
         public async Task<ListMultiCloudMetadataResponse> ListMultiCloudMetadata(ListMultiCloudMetadataRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMultiCloudMetadata");

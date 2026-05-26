@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.CoreService.Models
 {
     /// <summary>
-    /// Oracle offers the ability to Bring Your Own Autonomous System Number (BYOASN), importing AS Numbers you currently own to Oracle Cloud Infrastructure. A `Byoasn` resource is a record of the imported AS Number and also some associated metadata. The process used to [Bring Your Own ASN](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/BYOASN.htm) is explained in the documentation.
+    /// Oracle offers the ability to Bring Your Own Autonomous System Number (BYOASN), importing AS Numbers you currently own to Oracle Cloud Infrastructure. A `Byoasn` resource is a record of the imported AS Number and also some associated metadata. The process used to [Bring Your Own ASN](https://docs.oracle.com/iaas/Content/Network/Concepts/BYOASN.htm) is explained in the documentation.
     /// </summary>
     public class Byoasn 
     {
@@ -54,7 +54,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -71,7 +71,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -79,7 +79,7 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the `Byoasn` resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the `Byoasn` resource.
         /// </value>
         /// <remarks>
         /// Required
@@ -99,7 +99,7 @@ namespace Oci.CoreService.Models
         public System.Nullable<long> Asn { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the `Byoasn` resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing the `Byoasn` resource.
         /// 
         /// </value>
         /// <remarks>
@@ -118,7 +118,7 @@ namespace Oci.CoreService.Models
         public System.Nullable<System.DateTime> TimeValidated { get; set; }
         
         /// <value>
-        /// The validation token is an internally-generated ASCII string used in the validation process. See [Importing a Byoasn](https://docs.cloud.oracle.com/iaas/Content/Network/Concepts/BYOASN.htm) for details.
+        /// The validation token is an internally-generated ASCII string used in the validation process. See [Importing a Byoasn](https://docs.oracle.com/iaas/Content/Network/Concepts/BYOASN.htm) for details.
         /// </value>
         /// <remarks>
         /// Required

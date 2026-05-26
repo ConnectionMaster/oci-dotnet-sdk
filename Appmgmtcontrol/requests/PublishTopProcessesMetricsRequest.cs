@@ -14,7 +14,7 @@ using Oci.AppmgmtcontrolService.Models;
 namespace Oci.AppmgmtcontrolService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/appmgmtcontrol/PublishTopProcessesMetrics.cs.html">here</a> to see an example of how to use PublishTopProcessesMetrics request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/appmgmtcontrol/PublishTopProcessesMetrics.cs.html">here</a> to see an example of how to use PublishTopProcessesMetrics request.
     /// </example>
     public class PublishTopProcessesMetricsRequest : Oci.Common.IOciRequest
     {

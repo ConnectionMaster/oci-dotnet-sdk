@@ -75,7 +75,7 @@ namespace Oci.MulticloudService
         /// <summary>
         /// Gets details for the specified resource anchor. The subscription OCID and service name are required.
         /// For more information, see
-        /// [Getting a Resource Anchor&#39;s Details (OCI)](https://docs.cloud.oracle.com/iaas/Content/multicloud-hub/get-resource-anchor.htm).
+        /// [Getting a Resource Anchor&#39;s Details (OCI)](https://docs.oracle.com/iaas/Content/multicloud-hub/get-resource-anchor.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -83,7 +83,7 @@ namespace Oci.MulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/GetResourceAnchor.cs.html">here</a> to see an example of how to use GetResourceAnchor API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/GetResourceAnchor.cs.html">here</a> to see an example of how to use GetResourceAnchor API.</example>
         public async Task<GetResourceAnchorResponse> GetResourceAnchor(GetResourceAnchorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getResourceAnchor");
@@ -135,7 +135,7 @@ namespace Oci.MulticloudService
         /// Lists resource anchors in the specified Multicloud subscription.
         /// Details listed for each resource anchor include name, state, and the related Multicloud compartment.
         /// For more information, see
-        /// [Listing Resource Anchors](https://docs.cloud.oracle.com/iaas/Content/multicloud-hub/list-resource-anchors.htm).
+        /// [Listing Resource Anchors](https://docs.oracle.com/iaas/Content/multicloud-hub/list-resource-anchors.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -143,7 +143,7 @@ namespace Oci.MulticloudService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/ListResourceAnchors.cs.html">here</a> to see an example of how to use ListResourceAnchors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/multicloud/ListResourceAnchors.cs.html">here</a> to see an example of how to use ListResourceAnchors API.</example>
         public async Task<ListResourceAnchorsResponse> ListResourceAnchors(ListResourceAnchorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listResourceAnchors");

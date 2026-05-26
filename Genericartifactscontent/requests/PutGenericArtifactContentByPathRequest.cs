@@ -14,13 +14,13 @@ using Oci.GenericartifactscontentService.Models;
 namespace Oci.GenericartifactscontentService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/genericartifactscontent/PutGenericArtifactContentByPath.cs.html">here</a> to see an example of how to use PutGenericArtifactContentByPath request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/genericartifactscontent/PutGenericArtifactContentByPath.cs.html">here</a> to see an example of how to use PutGenericArtifactContentByPath request.
     /// </example>
     public class PutGenericArtifactContentByPathRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the repository.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the repository.
         /// <br/>
         /// Example: ocid1.repository.oc1..exampleuniqueID
         /// </value>
@@ -73,7 +73,7 @@ namespace Oci.GenericartifactscontentService.Requests
         public string IfMatch { get; set; }
         
         /// <value>
-        /// Unique Oracle-assigned [request ID](https://docs.cloud.oracle.com/iaas/Content/API/Concepts/usingapi.htm)
+        /// Unique Oracle-assigned [request ID](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm)
         /// <br/>
         /// Example: bxxxxxxx-fxxx-4xxx-9xxx-bxxxxxxxxxxxIf you contact Oracle about a request, provide this request ID.
         /// </value>

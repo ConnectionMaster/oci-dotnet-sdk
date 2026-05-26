@@ -30,7 +30,7 @@ namespace Oci.OcvpService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the ESXi host.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the ESXi host.
         /// 
         /// </value>
         /// <remarks>
@@ -53,7 +53,7 @@ namespace Oci.OcvpService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the SDDC that the
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the SDDC that the
         /// ESXi host belongs to.
         /// 
         /// </value>
@@ -65,7 +65,7 @@ namespace Oci.OcvpService.Models
         public string SddcId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Cluster that the
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Cluster that the
         /// ESXi host belongs to.
         /// 
         /// </value>
@@ -77,7 +77,7 @@ namespace Oci.OcvpService.Models
         public string ClusterId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment that
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment that
         /// contains the Cluster.
         /// 
         /// </value>
@@ -87,7 +87,7 @@ namespace Oci.OcvpService.Models
         /// <value>
         /// In terms of implementation, an ESXi host is a Compute instance that
         /// is configured with the chosen bundle of VMware software. The `computeInstanceId`
-        /// is the [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of that Compute instance.
+        /// is the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of that Compute instance.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "computeInstanceId")]
@@ -118,14 +118,14 @@ namespace Oci.OcvpService.Models
         public System.Nullable<LifecycleStates> LifecycleState { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the deleted ESXi Host with LeftOver billing cycle.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the deleted ESXi Host with LeftOver billing cycle.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "billingDonorHostId")]
         public string BillingDonorHostId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the active ESXi Host to swap billing with current host.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the active ESXi Host to swap billing with current host.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "swapBillingHostId")]
@@ -185,14 +185,14 @@ namespace Oci.OcvpService.Models
         public System.Nullable<System.DateTime> BillingContractEndDate { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the ESXi host that failed.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the ESXi host that failed.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "failedEsxiHostId")]
         public string FailedEsxiHostId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the ESXi host that
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the ESXi host that
         /// is created to replace the failed host.
         /// 
         /// </value>
@@ -226,7 +226,7 @@ namespace Oci.OcvpService.Models
         public string EsxiSoftwareVersion { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the ESXi host that
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the ESXi host that
         /// will be upgraded.
         /// 
         /// </value>
@@ -234,7 +234,7 @@ namespace Oci.OcvpService.Models
         public string NonUpgradedEsxiHostId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the ESXi host that
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the ESXi host that
         /// is newly created to upgrade the original host.
         /// 
         /// </value>
@@ -272,7 +272,7 @@ namespace Oci.OcvpService.Models
         public System.Nullable<float> HostOcpuCount { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Capacity Reservation.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Capacity Reservation.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "capacityReservationId")]
@@ -280,7 +280,7 @@ namespace Oci.OcvpService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
-        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -293,7 +293,7 @@ namespace Oci.OcvpService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a
-        /// namespace. For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
@@ -332,7 +332,7 @@ namespace Oci.OcvpService.Models
         public string PrimaryVnicMacAddress { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Byol Allocation for VCF (VMware Cloud Foundation) deployment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Byol Allocation for VCF (VMware Cloud Foundation) deployment.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "vcfByolAllocationId")]

@@ -23,7 +23,7 @@ namespace Oci.GoldengateService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the deployment being referenced.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the deployment being referenced.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "deploymentId")]
@@ -59,7 +59,7 @@ namespace Oci.GoldengateService.Models
         public string Password { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the password is stored,
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the password is stored,
         /// which is used to connect to the Oracle GoldenGate accessed trough this connection.
         /// Note: When provided, 'password' field must not be provided.
         /// 

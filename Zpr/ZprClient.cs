@@ -82,7 +82,7 @@ namespace Oci.ZprService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/CreateConfiguration.cs.html">here</a> to see an example of how to use CreateConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/CreateConfiguration.cs.html">here</a> to see an example of how to use CreateConfiguration API.</example>
         public async Task<CreateConfigurationResponse> CreateConfiguration(CreateConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createConfiguration");
@@ -139,7 +139,7 @@ namespace Oci.ZprService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/CreateZprPolicy.cs.html">here</a> to see an example of how to use CreateZprPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/CreateZprPolicy.cs.html">here</a> to see an example of how to use CreateZprPolicy API.</example>
         public async Task<CreateZprPolicyResponse> CreateZprPolicy(CreateZprPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createZprPolicy");
@@ -195,7 +195,7 @@ namespace Oci.ZprService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/DeleteZprPolicy.cs.html">here</a> to see an example of how to use DeleteZprPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/DeleteZprPolicy.cs.html">here</a> to see an example of how to use DeleteZprPolicy API.</example>
         public async Task<DeleteZprPolicyResponse> DeleteZprPolicy(DeleteZprPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteZprPolicy");
@@ -253,7 +253,7 @@ namespace Oci.ZprService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/GetConfiguration.cs.html">here</a> to see an example of how to use GetConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/GetConfiguration.cs.html">here</a> to see an example of how to use GetConfiguration API.</example>
         public async Task<GetConfigurationResponse> GetConfiguration(GetConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getConfiguration");
@@ -309,7 +309,7 @@ namespace Oci.ZprService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/GetZprConfigurationWorkRequest.cs.html">here</a> to see an example of how to use GetZprConfigurationWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/GetZprConfigurationWorkRequest.cs.html">here</a> to see an example of how to use GetZprConfigurationWorkRequest API.</example>
         public async Task<GetZprConfigurationWorkRequestResponse> GetZprConfigurationWorkRequest(GetZprConfigurationWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getZprConfigurationWorkRequest");
@@ -365,7 +365,7 @@ namespace Oci.ZprService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/GetZprPolicy.cs.html">here</a> to see an example of how to use GetZprPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/GetZprPolicy.cs.html">here</a> to see an example of how to use GetZprPolicy API.</example>
         public async Task<GetZprPolicyResponse> GetZprPolicy(GetZprPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getZprPolicy");
@@ -421,7 +421,7 @@ namespace Oci.ZprService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/GetZprPolicyWorkRequest.cs.html">here</a> to see an example of how to use GetZprPolicyWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/GetZprPolicyWorkRequest.cs.html">here</a> to see an example of how to use GetZprPolicyWorkRequest API.</example>
         public async Task<GetZprPolicyWorkRequestResponse> GetZprPolicyWorkRequest(GetZprPolicyWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getZprPolicyWorkRequest");
@@ -478,7 +478,7 @@ namespace Oci.ZprService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/ListZprConfigurationWorkRequestErrors.cs.html">here</a> to see an example of how to use ListZprConfigurationWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/ListZprConfigurationWorkRequestErrors.cs.html">here</a> to see an example of how to use ListZprConfigurationWorkRequestErrors API.</example>
         public async Task<ListZprConfigurationWorkRequestErrorsResponse> ListZprConfigurationWorkRequestErrors(ListZprConfigurationWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listZprConfigurationWorkRequestErrors");
@@ -535,7 +535,7 @@ namespace Oci.ZprService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/ListZprConfigurationWorkRequestLogs.cs.html">here</a> to see an example of how to use ListZprConfigurationWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/ListZprConfigurationWorkRequestLogs.cs.html">here</a> to see an example of how to use ListZprConfigurationWorkRequestLogs API.</example>
         public async Task<ListZprConfigurationWorkRequestLogsResponse> ListZprConfigurationWorkRequestLogs(ListZprConfigurationWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listZprConfigurationWorkRequestLogs");
@@ -592,7 +592,7 @@ namespace Oci.ZprService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/ListZprConfigurationWorkRequests.cs.html">here</a> to see an example of how to use ListZprConfigurationWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/ListZprConfigurationWorkRequests.cs.html">here</a> to see an example of how to use ListZprConfigurationWorkRequests API.</example>
         public async Task<ListZprConfigurationWorkRequestsResponse> ListZprConfigurationWorkRequests(ListZprConfigurationWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listZprConfigurationWorkRequests");
@@ -649,7 +649,7 @@ namespace Oci.ZprService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/ListZprPolicies.cs.html">here</a> to see an example of how to use ListZprPolicies API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/ListZprPolicies.cs.html">here</a> to see an example of how to use ListZprPolicies API.</example>
         public async Task<ListZprPoliciesResponse> ListZprPolicies(ListZprPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listZprPolicies");
@@ -706,7 +706,7 @@ namespace Oci.ZprService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/ListZprPolicyWorkRequestErrors.cs.html">here</a> to see an example of how to use ListZprPolicyWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/ListZprPolicyWorkRequestErrors.cs.html">here</a> to see an example of how to use ListZprPolicyWorkRequestErrors API.</example>
         public async Task<ListZprPolicyWorkRequestErrorsResponse> ListZprPolicyWorkRequestErrors(ListZprPolicyWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listZprPolicyWorkRequestErrors");
@@ -763,7 +763,7 @@ namespace Oci.ZprService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/ListZprPolicyWorkRequestLogs.cs.html">here</a> to see an example of how to use ListZprPolicyWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/ListZprPolicyWorkRequestLogs.cs.html">here</a> to see an example of how to use ListZprPolicyWorkRequestLogs API.</example>
         public async Task<ListZprPolicyWorkRequestLogsResponse> ListZprPolicyWorkRequestLogs(ListZprPolicyWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listZprPolicyWorkRequestLogs");
@@ -820,7 +820,7 @@ namespace Oci.ZprService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/ListZprPolicyWorkRequests.cs.html">here</a> to see an example of how to use ListZprPolicyWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/ListZprPolicyWorkRequests.cs.html">here</a> to see an example of how to use ListZprPolicyWorkRequests API.</example>
         public async Task<ListZprPolicyWorkRequestsResponse> ListZprPolicyWorkRequests(ListZprPolicyWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listZprPolicyWorkRequests");
@@ -876,7 +876,7 @@ namespace Oci.ZprService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/UpdateZprPolicy.cs.html">here</a> to see an example of how to use UpdateZprPolicy API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/zpr/UpdateZprPolicy.cs.html">here</a> to see an example of how to use UpdateZprPolicy API.</example>
         public async Task<UpdateZprPolicyResponse> UpdateZprPolicy(UpdateZprPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateZprPolicy");

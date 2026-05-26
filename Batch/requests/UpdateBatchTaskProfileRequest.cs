@@ -14,13 +14,13 @@ using Oci.BatchService.Models;
 namespace Oci.BatchService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/UpdateBatchTaskProfile.cs.html">here</a> to see an example of how to use UpdateBatchTaskProfile request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/UpdateBatchTaskProfile.cs.html">here</a> to see an example of how to use UpdateBatchTaskProfile request.
     /// </example>
     public class UpdateBatchTaskProfileRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the batch task profile.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the batch task profile.
         /// </value>
         /// <remarks>
         /// Required

@@ -14,7 +14,7 @@ using Oci.WaaService.Models;
 namespace Oci.WaaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/CreateWebAppAcceleration.cs.html">here</a> to see an example of how to use CreateWebAppAcceleration request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/CreateWebAppAcceleration.cs.html">here</a> to see an example of how to use CreateWebAppAcceleration request.
     /// </example>
     public class CreateWebAppAccelerationRequest : Oci.Common.IOciRequest
     {

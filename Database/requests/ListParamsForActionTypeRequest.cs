@@ -14,7 +14,7 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListParamsForActionType.cs.html">here</a> to see an example of how to use ListParamsForActionType request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/ListParamsForActionType.cs.html">here</a> to see an example of how to use ListParamsForActionType request.
     /// </example>
     public class ListParamsForActionTypeRequest : Oci.Common.IOciRequest
     {
@@ -28,6 +28,24 @@ namespace Oci.DatabaseService.Requests
         [Required(ErrorMessage = "Type is required.")]
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "type")]
         public System.Nullable<RecommendedScheduledActionSummary.ActionTypeEnum> Type { get; set; }
+        
+        ///
+        /// <value>
+        /// The plan intent the action will be used for. Relevant to action type that can be used in multiple plans
+        /// </value>
+        ///
+        public enum PlanIntentEnum {
+            [EnumMember(Value = "EXADATA_INFRASTRUCTURE_FULL_SOFTWARE_UPDATE")]
+            ExadataInfrastructureFullSoftwareUpdate,
+            [EnumMember(Value = "EXADATA_INFRASTRUCTURE_SECURITY_UPDATE")]
+            ExadataInfrastructureSecurityUpdate
+        };
+
+        /// <value>
+        /// The plan intent the action will be used for. Relevant to action type that can be used in multiple plans
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "planIntent")]
+        public System.Nullable<PlanIntentEnum> PlanIntent { get; set; }
         
         /// <value>
         /// The maximum number of items to return per page.

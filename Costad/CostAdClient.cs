@@ -81,7 +81,7 @@ namespace Oci.CostadService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/CreateCostAlertSubscription.cs.html">here</a> to see an example of how to use CreateCostAlertSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/CreateCostAlertSubscription.cs.html">here</a> to see an example of how to use CreateCostAlertSubscription API.</example>
         public async Task<CreateCostAlertSubscriptionResponse> CreateCostAlertSubscription(CreateCostAlertSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCostAlertSubscription");
@@ -138,7 +138,7 @@ namespace Oci.CostadService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/CreateCostAnomalyMonitor.cs.html">here</a> to see an example of how to use CreateCostAnomalyMonitor API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/CreateCostAnomalyMonitor.cs.html">here</a> to see an example of how to use CreateCostAnomalyMonitor API.</example>
         public async Task<CreateCostAnomalyMonitorResponse> CreateCostAnomalyMonitor(CreateCostAnomalyMonitorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCostAnomalyMonitor");
@@ -194,7 +194,7 @@ namespace Oci.CostadService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/DeleteCostAlertSubscription.cs.html">here</a> to see an example of how to use DeleteCostAlertSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/DeleteCostAlertSubscription.cs.html">here</a> to see an example of how to use DeleteCostAlertSubscription API.</example>
         public async Task<DeleteCostAlertSubscriptionResponse> DeleteCostAlertSubscription(DeleteCostAlertSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCostAlertSubscription");
@@ -250,7 +250,7 @@ namespace Oci.CostadService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/DeleteCostAnomalyMonitor.cs.html">here</a> to see an example of how to use DeleteCostAnomalyMonitor API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/DeleteCostAnomalyMonitor.cs.html">here</a> to see an example of how to use DeleteCostAnomalyMonitor API.</example>
         public async Task<DeleteCostAnomalyMonitorResponse> DeleteCostAnomalyMonitor(DeleteCostAnomalyMonitorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCostAnomalyMonitor");
@@ -306,7 +306,7 @@ namespace Oci.CostadService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/DisableCostAnomalyMonitor.cs.html">here</a> to see an example of how to use DisableCostAnomalyMonitor API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/DisableCostAnomalyMonitor.cs.html">here</a> to see an example of how to use DisableCostAnomalyMonitor API.</example>
         public async Task<DisableCostAnomalyMonitorResponse> DisableCostAnomalyMonitor(DisableCostAnomalyMonitorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableCostAnomalyMonitor");
@@ -362,7 +362,7 @@ namespace Oci.CostadService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/EnableCostAnomalyMonitor.cs.html">here</a> to see an example of how to use EnableCostAnomalyMonitor API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/EnableCostAnomalyMonitor.cs.html">here</a> to see an example of how to use EnableCostAnomalyMonitor API.</example>
         public async Task<EnableCostAnomalyMonitorResponse> EnableCostAnomalyMonitor(EnableCostAnomalyMonitorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enableCostAnomalyMonitor");
@@ -418,7 +418,7 @@ namespace Oci.CostadService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/GetCostAlertSubscription.cs.html">here</a> to see an example of how to use GetCostAlertSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/GetCostAlertSubscription.cs.html">here</a> to see an example of how to use GetCostAlertSubscription API.</example>
         public async Task<GetCostAlertSubscriptionResponse> GetCostAlertSubscription(GetCostAlertSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCostAlertSubscription");
@@ -474,7 +474,7 @@ namespace Oci.CostadService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/GetCostAnomalyEvent.cs.html">here</a> to see an example of how to use GetCostAnomalyEvent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/GetCostAnomalyEvent.cs.html">here</a> to see an example of how to use GetCostAnomalyEvent API.</example>
         public async Task<GetCostAnomalyEventResponse> GetCostAnomalyEvent(GetCostAnomalyEventRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCostAnomalyEvent");
@@ -530,7 +530,7 @@ namespace Oci.CostadService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/GetCostAnomalyMonitor.cs.html">here</a> to see an example of how to use GetCostAnomalyMonitor API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/GetCostAnomalyMonitor.cs.html">here</a> to see an example of how to use GetCostAnomalyMonitor API.</example>
         public async Task<GetCostAnomalyMonitorResponse> GetCostAnomalyMonitor(GetCostAnomalyMonitorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCostAnomalyMonitor");
@@ -587,7 +587,7 @@ namespace Oci.CostadService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/ListCostAlertSubscriptions.cs.html">here</a> to see an example of how to use ListCostAlertSubscriptions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/ListCostAlertSubscriptions.cs.html">here</a> to see an example of how to use ListCostAlertSubscriptions API.</example>
         public async Task<ListCostAlertSubscriptionsResponse> ListCostAlertSubscriptions(ListCostAlertSubscriptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCostAlertSubscriptions");
@@ -644,7 +644,7 @@ namespace Oci.CostadService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/ListCostAnomalyEvents.cs.html">here</a> to see an example of how to use ListCostAnomalyEvents API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/ListCostAnomalyEvents.cs.html">here</a> to see an example of how to use ListCostAnomalyEvents API.</example>
         public async Task<ListCostAnomalyEventsResponse> ListCostAnomalyEvents(ListCostAnomalyEventsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCostAnomalyEvents");
@@ -701,7 +701,7 @@ namespace Oci.CostadService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/ListCostAnomalyMonitors.cs.html">here</a> to see an example of how to use ListCostAnomalyMonitors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/ListCostAnomalyMonitors.cs.html">here</a> to see an example of how to use ListCostAnomalyMonitors API.</example>
         public async Task<ListCostAnomalyMonitorsResponse> ListCostAnomalyMonitors(ListCostAnomalyMonitorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCostAnomalyMonitors");
@@ -758,7 +758,7 @@ namespace Oci.CostadService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/SummarizeCostAnomalyEventAnalytics.cs.html">here</a> to see an example of how to use SummarizeCostAnomalyEventAnalytics API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/SummarizeCostAnomalyEventAnalytics.cs.html">here</a> to see an example of how to use SummarizeCostAnomalyEventAnalytics API.</example>
         public async Task<SummarizeCostAnomalyEventAnalyticsResponse> SummarizeCostAnomalyEventAnalytics(SummarizeCostAnomalyEventAnalyticsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called summarizeCostAnomalyEventAnalytics");
@@ -814,7 +814,7 @@ namespace Oci.CostadService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/UpdateCostAlertSubscription.cs.html">here</a> to see an example of how to use UpdateCostAlertSubscription API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/UpdateCostAlertSubscription.cs.html">here</a> to see an example of how to use UpdateCostAlertSubscription API.</example>
         public async Task<UpdateCostAlertSubscriptionResponse> UpdateCostAlertSubscription(UpdateCostAlertSubscriptionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCostAlertSubscription");
@@ -870,7 +870,7 @@ namespace Oci.CostadService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/UpdateCostAnomalyEvent.cs.html">here</a> to see an example of how to use UpdateCostAnomalyEvent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/UpdateCostAnomalyEvent.cs.html">here</a> to see an example of how to use UpdateCostAnomalyEvent API.</example>
         public async Task<UpdateCostAnomalyEventResponse> UpdateCostAnomalyEvent(UpdateCostAnomalyEventRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCostAnomalyEvent");
@@ -926,7 +926,7 @@ namespace Oci.CostadService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/UpdateCostAnomalyMonitor.cs.html">here</a> to see an example of how to use UpdateCostAnomalyMonitor API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/costad/UpdateCostAnomalyMonitor.cs.html">here</a> to see an example of how to use UpdateCostAnomalyMonitor API.</example>
         public async Task<UpdateCostAnomalyMonitorResponse> UpdateCostAnomalyMonitor(UpdateCostAnomalyMonitorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCostAnomalyMonitor");

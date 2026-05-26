@@ -81,7 +81,7 @@ namespace Oci.ClusterplacementgroupsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/ActivateClusterPlacementGroup.cs.html">here</a> to see an example of how to use ActivateClusterPlacementGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/ActivateClusterPlacementGroup.cs.html">here</a> to see an example of how to use ActivateClusterPlacementGroup API.</example>
         public async Task<ActivateClusterPlacementGroupResponse> ActivateClusterPlacementGroup(ActivateClusterPlacementGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called activateClusterPlacementGroup");
@@ -137,7 +137,7 @@ namespace Oci.ClusterplacementgroupsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/CancelWorkRequest.cs.html">here</a> to see an example of how to use CancelWorkRequest API.</example>
         public async Task<CancelWorkRequestResponse> CancelWorkRequest(CancelWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelWorkRequest");
@@ -187,7 +187,7 @@ namespace Oci.ClusterplacementgroupsService
 
         /// <summary>
         /// Moves a cluster placement group resource from one compartment to another in the same tenancy. For information about
-        /// moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// moving resources between compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// &lt;br/&gt;
         /// When provided, If-Match is checked against ETag values of the resource.
         /// 
@@ -197,7 +197,7 @@ namespace Oci.ClusterplacementgroupsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/ChangeClusterPlacementGroupCompartment.cs.html">here</a> to see an example of how to use ChangeClusterPlacementGroupCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/ChangeClusterPlacementGroupCompartment.cs.html">here</a> to see an example of how to use ChangeClusterPlacementGroupCompartment API.</example>
         public async Task<ChangeClusterPlacementGroupCompartmentResponse> ChangeClusterPlacementGroupCompartment(ChangeClusterPlacementGroupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeClusterPlacementGroupCompartment");
@@ -254,7 +254,7 @@ namespace Oci.ClusterplacementgroupsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/CreateClusterPlacementGroup.cs.html">here</a> to see an example of how to use CreateClusterPlacementGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/CreateClusterPlacementGroup.cs.html">here</a> to see an example of how to use CreateClusterPlacementGroup API.</example>
         public async Task<CreateClusterPlacementGroupResponse> CreateClusterPlacementGroup(CreateClusterPlacementGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createClusterPlacementGroup");
@@ -310,7 +310,7 @@ namespace Oci.ClusterplacementgroupsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/DeactivateClusterPlacementGroup.cs.html">here</a> to see an example of how to use DeactivateClusterPlacementGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/DeactivateClusterPlacementGroup.cs.html">here</a> to see an example of how to use DeactivateClusterPlacementGroup API.</example>
         public async Task<DeactivateClusterPlacementGroupResponse> DeactivateClusterPlacementGroup(DeactivateClusterPlacementGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deactivateClusterPlacementGroup");
@@ -366,7 +366,7 @@ namespace Oci.ClusterplacementgroupsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/DeleteClusterPlacementGroup.cs.html">here</a> to see an example of how to use DeleteClusterPlacementGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/DeleteClusterPlacementGroup.cs.html">here</a> to see an example of how to use DeleteClusterPlacementGroup API.</example>
         public async Task<DeleteClusterPlacementGroupResponse> DeleteClusterPlacementGroup(DeleteClusterPlacementGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteClusterPlacementGroup");
@@ -422,7 +422,7 @@ namespace Oci.ClusterplacementgroupsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/GetClusterPlacementGroup.cs.html">here</a> to see an example of how to use GetClusterPlacementGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/GetClusterPlacementGroup.cs.html">here</a> to see an example of how to use GetClusterPlacementGroup API.</example>
         public async Task<GetClusterPlacementGroupResponse> GetClusterPlacementGroup(GetClusterPlacementGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getClusterPlacementGroup");
@@ -478,7 +478,7 @@ namespace Oci.ClusterplacementgroupsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -535,7 +535,7 @@ namespace Oci.ClusterplacementgroupsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/ListClusterPlacementGroups.cs.html">here</a> to see an example of how to use ListClusterPlacementGroups API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/ListClusterPlacementGroups.cs.html">here</a> to see an example of how to use ListClusterPlacementGroups API.</example>
         public async Task<ListClusterPlacementGroupsResponse> ListClusterPlacementGroups(ListClusterPlacementGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listClusterPlacementGroups");
@@ -592,7 +592,7 @@ namespace Oci.ClusterplacementgroupsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -649,7 +649,7 @@ namespace Oci.ClusterplacementgroupsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -706,7 +706,7 @@ namespace Oci.ClusterplacementgroupsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -762,7 +762,7 @@ namespace Oci.ClusterplacementgroupsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/UpdateClusterPlacementGroup.cs.html">here</a> to see an example of how to use UpdateClusterPlacementGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/clusterplacementgroups/UpdateClusterPlacementGroup.cs.html">here</a> to see an example of how to use UpdateClusterPlacementGroup API.</example>
         public async Task<UpdateClusterPlacementGroupResponse> UpdateClusterPlacementGroup(UpdateClusterPlacementGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateClusterPlacementGroup");

@@ -14,7 +14,7 @@ using Oci.LoganalyticsService.Models;
 namespace Oci.LoganalyticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/RemoveSourceEventTypes.cs.html">here</a> to see an example of how to use RemoveSourceEventTypes request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/RemoveSourceEventTypes.cs.html">here</a> to see an example of how to use RemoveSourceEventTypes request.
     /// </example>
     public class RemoveSourceEventTypesRequest : Oci.Common.IOciRequest
     {

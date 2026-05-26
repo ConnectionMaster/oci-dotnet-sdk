@@ -14,13 +14,13 @@ using Oci.DatabasetoolsService.Models;
 namespace Oci.DatabasetoolsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetools/RefreshDatabaseToolsIdentityCredential.cs.html">here</a> to see an example of how to use RefreshDatabaseToolsIdentityCredential request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetools/RefreshDatabaseToolsIdentityCredential.cs.html">here</a> to see an example of how to use RefreshDatabaseToolsIdentityCredential request.
     /// </example>
     public class RefreshDatabaseToolsIdentityCredentialRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of a Database Tools identity.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a Database Tools identity.
         /// </value>
         /// <remarks>
         /// Required

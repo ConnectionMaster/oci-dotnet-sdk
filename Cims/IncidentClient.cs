@@ -71,7 +71,7 @@ namespace Oci.CimsService
 
         /// <summary>
         /// Creates a support request in the specified tenancy.
-        /// For more information, see [Creating Support Requests](https://docs.cloud.oracle.com/iaas/Content/GSG/support/create-incident.htm).
+        /// For more information, see [Creating Support Requests](https://docs.oracle.com/iaas/Content/GSG/support/create-incident.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -79,7 +79,7 @@ namespace Oci.CimsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cims/CreateIncident.cs.html">here</a> to see an example of how to use CreateIncident API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cims/CreateIncident.cs.html">here</a> to see an example of how to use CreateIncident API.</example>
         public async Task<CreateIncidentResponse> CreateIncident(CreateIncidentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createIncident");
@@ -129,7 +129,7 @@ namespace Oci.CimsService
 
         /// <summary>
         /// Gets the specified support request.
-        /// For more information, see [Getting Details for a Support Request](https://docs.cloud.oracle.com/iaas/Content/GSG/support/get-incident.htm).
+        /// For more information, see [Getting Details for a Support Request](https://docs.oracle.com/iaas/Content/GSG/support/get-incident.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -137,7 +137,7 @@ namespace Oci.CimsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cims/GetIncident.cs.html">here</a> to see an example of how to use GetIncident API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cims/GetIncident.cs.html">here</a> to see an example of how to use GetIncident API.</example>
         public async Task<GetIncidentResponse> GetIncident(GetIncidentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIncident");
@@ -191,9 +191,9 @@ namespace Oci.CimsService
         /// lists limits and current usage for limit increase tickets.
         /// This operation is called during creation of technical support and limit increase tickets.
         /// For more information about listing products, see
-        /// [Listing Products for Support Requests](https://docs.cloud.oracle.com/iaas/Content/GSG/support/list-incident-resource-types-taxonomy.htm).
+        /// [Listing Products for Support Requests](https://docs.oracle.com/iaas/Content/GSG/support/list-incident-resource-types-taxonomy.htm).
         /// For more information about listing limits, see
-        /// [Listing Limits for Service Limit Increase Requests](https://docs.cloud.oracle.com/iaas/Content/GSG/support/list-incident-resource-types-limit.htm).
+        /// [Listing Limits for Service Limit Increase Requests](https://docs.oracle.com/iaas/Content/GSG/support/list-incident-resource-types-limit.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -201,7 +201,7 @@ namespace Oci.CimsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cims/ListIncidentResourceTypes.cs.html">here</a> to see an example of how to use ListIncidentResourceTypes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cims/ListIncidentResourceTypes.cs.html">here</a> to see an example of how to use ListIncidentResourceTypes API.</example>
         public async Task<ListIncidentResourceTypesResponse> ListIncidentResourceTypes(ListIncidentResourceTypesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIncidentResourceTypes");
@@ -251,7 +251,7 @@ namespace Oci.CimsService
 
         /// <summary>
         /// Lists support requests for the specified tenancy.
-        /// For more information, see [Listing Support Requests](https://docs.cloud.oracle.com/iaas/Content/GSG/support/list-incidents.htm).
+        /// For more information, see [Listing Support Requests](https://docs.oracle.com/iaas/Content/GSG/support/list-incidents.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -259,7 +259,7 @@ namespace Oci.CimsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cims/ListIncidents.cs.html">here</a> to see an example of how to use ListIncidents API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cims/ListIncidents.cs.html">here</a> to see an example of how to use ListIncidents API.</example>
         public async Task<ListIncidentsResponse> ListIncidents(ListIncidentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIncidents");
@@ -315,7 +315,7 @@ namespace Oci.CimsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cims/PutAttachment.cs.html">here</a> to see an example of how to use PutAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cims/PutAttachment.cs.html">here</a> to see an example of how to use PutAttachment API.</example>
         public async Task<PutAttachmentResponse> PutAttachment(PutAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putAttachment");
@@ -365,7 +365,7 @@ namespace Oci.CimsService
 
         /// <summary>
         /// Updates the specified support request.
-        /// For more information, see [Updating Support Requests](https://docs.cloud.oracle.com/iaas/Content/GSG/support/update-incident.htm).
+        /// For more information, see [Updating Support Requests](https://docs.oracle.com/iaas/Content/GSG/support/update-incident.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -373,7 +373,7 @@ namespace Oci.CimsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cims/UpdateIncident.cs.html">here</a> to see an example of how to use UpdateIncident API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cims/UpdateIncident.cs.html">here</a> to see an example of how to use UpdateIncident API.</example>
         public async Task<UpdateIncidentResponse> UpdateIncident(UpdateIncidentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateIncident");
@@ -423,7 +423,7 @@ namespace Oci.CimsService
 
         /// <summary>
         /// Checks whether the requested user is valid.
-        /// For more information, see [Validating a User](https://docs.cloud.oracle.com/iaas/Content/GSG/support/validate-user.htm).
+        /// For more information, see [Validating a User](https://docs.oracle.com/iaas/Content/GSG/support/validate-user.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -431,7 +431,7 @@ namespace Oci.CimsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cims/ValidateUser.cs.html">here</a> to see an example of how to use ValidateUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cims/ValidateUser.cs.html">here</a> to see an example of how to use ValidateUser API.</example>
         public async Task<ValidateUserResponse> ValidateUser(ValidateUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called validateUser");

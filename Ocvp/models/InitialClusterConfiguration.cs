@@ -129,7 +129,7 @@ namespace Oci.OcvpService.Models
         public System.Nullable<bool> IsShieldedInstanceEnabled { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Capacity Reservation.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Capacity Reservation.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "capacityReservationId")]
@@ -154,7 +154,7 @@ namespace Oci.OcvpService.Models
         public ClusterByolAllocationDetails ClusterByolAllocationDetails { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the initial VMware BYOL Allocation used to deploy VMware Cloud Foundation.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the initial VMware BYOL Allocation used to deploy VMware Cloud Foundation.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "initialVcfByolAllocationId")]

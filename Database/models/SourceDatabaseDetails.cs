@@ -73,6 +73,7 @@ namespace Oci.DatabaseService.Models
         /// - LH - indicates an Oracle Autonomous AI Lakehouse database
         /// <br/>
         /// **Note** Starting December 2026, DW will not be supported as a valid value for this parameter.
+        /// When creating an Autonomous AI Database, if this parameter is not specified, the default value is `OLTP`.
         /// <br/>
         /// 
         /// This cannot be updated in parallel with any of the following: licenseModel, dbEdition, cpuCoreCount, computeCount, computeModel, adminPassword, whitelistedIps, isMTLSConnectionRequired, privateEndpointLabel, nsgIds, dbVersion, isRefreshable, dbName, scheduledOperations, dbToolsDetails, isLocalDataGuardEnabled, or isFreeTier.
@@ -104,6 +105,7 @@ namespace Oci.DatabaseService.Models
         /// - LH - indicates an Oracle Autonomous AI Lakehouse database
         /// <br/>
         /// **Note** Starting December 2026, DW will not be supported as a valid value for this parameter.
+        /// When creating an Autonomous AI Database, if this parameter is not specified, the default value is `OLTP`.
         /// <br/>
         /// 
         /// This cannot be updated in parallel with any of the following: licenseModel, dbEdition, cpuCoreCount, computeCount, computeModel, adminPassword, whitelistedIps, isMTLSConnectionRequired, privateEndpointLabel, nsgIds, dbVersion, isRefreshable, dbName, scheduledOperations, dbToolsDetails, isLocalDataGuardEnabled, or isFreeTier.

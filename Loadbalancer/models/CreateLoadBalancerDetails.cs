@@ -25,7 +25,7 @@ namespace Oci.LoadbalancerService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment in which to create the load balancer.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment in which to create the load balancer.
         /// </value>
         /// <remarks>
         /// Required
@@ -76,8 +76,8 @@ namespace Oci.LoadbalancerService.Models
         /// If \"false\", the service assigns a public IP address to the load balancer.
         /// <br/>
         /// A public load balancer is accessible from the internet, depending on your VCN's
-        /// [security list rules](https://docs.cloud.oracle.com/Content/Network/Concepts/securitylists.htm). For more information about public and
-        /// private load balancers, see [How Load Balancing Works](https://docs.cloud.oracle.com/Content/Balance/Concepts/balanceoverview.htm#how-load-balancing-works).
+        /// [security list rules](https://docs.oracle.com/iaas/Content/Network/Concepts/securitylists.htm). For more information about public and
+        /// private load balancers, see [How Load Balancing Works](https://docs.oracle.com/iaas/Content/Balance/Concepts/balanceoverview.htm#how-load-balancing-works).
         /// <br/>
         /// Example: true
         /// </value>
@@ -194,7 +194,7 @@ namespace Oci.LoadbalancerService.Models
         public System.Collections.Generic.Dictionary<string, BackendSetDetails> BackendSets { get; set; }
         
         /// <value>
-        /// An array of NSG [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) associated with this load balancer.
+        /// An array of NSG [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) associated with this load balancer.
         /// <br/>
         /// During the load balancer's creation, the service adds the new load balancer to the specified NSGs.
         /// <br/>
@@ -211,7 +211,7 @@ namespace Oci.LoadbalancerService.Models
         public System.Collections.Generic.List<string> NetworkSecurityGroupIds { get; set; }
         
         /// <value>
-        /// An array of subnet [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// An array of subnet [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required
@@ -231,7 +231,7 @@ namespace Oci.LoadbalancerService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -240,7 +240,7 @@ namespace Oci.LoadbalancerService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>

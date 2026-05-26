@@ -14,7 +14,7 @@ using Oci.MngdmacService.Models;
 namespace Oci.MngdmacService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mngdmac/CreateMacOrder.cs.html">here</a> to see an example of how to use CreateMacOrder request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mngdmac/CreateMacOrder.cs.html">here</a> to see an example of how to use CreateMacOrder request.
     /// </example>
     public class CreateMacOrderRequest : Oci.Common.IOciRequest
     {

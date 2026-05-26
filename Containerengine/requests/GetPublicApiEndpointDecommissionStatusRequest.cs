@@ -14,7 +14,7 @@ using Oci.ContainerengineService.Models;
 namespace Oci.ContainerengineService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetPublicApiEndpointDecommissionStatus.cs.html">here</a> to see an example of how to use GetPublicApiEndpointDecommissionStatus request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerengine/GetPublicApiEndpointDecommissionStatus.cs.html">here</a> to see an example of how to use GetPublicApiEndpointDecommissionStatus request.
     /// </example>
     public class GetPublicApiEndpointDecommissionStatusRequest : Oci.Common.IOciRequest
     {

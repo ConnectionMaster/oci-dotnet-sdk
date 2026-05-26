@@ -30,7 +30,7 @@ namespace Oci.SecurityattributeService.Models
         
         /// <value>
         /// Whether the security attribute is retired.
-        /// See [Managing Security Attributes](https://docs.cloud.oracle.com/Content/zero-trust-packet-routing/managing-security-attributes.htm).
+        /// See [Managing Security Attributes](https://docs.oracle.com/iaas/Content/zero-trust-packet-routing/managing-security-attributes.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isRetired")]

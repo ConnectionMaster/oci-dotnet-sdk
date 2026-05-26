@@ -82,7 +82,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/ChangeAnalyticsInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeAnalyticsInstanceCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/ChangeAnalyticsInstanceCompartment.cs.html">here</a> to see an example of how to use ChangeAnalyticsInstanceCompartment API.</example>
         public async Task<ChangeAnalyticsInstanceCompartmentResponse> ChangeAnalyticsInstanceCompartment(ChangeAnalyticsInstanceCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeAnalyticsInstanceCompartment");
@@ -140,7 +140,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/ChangeAnalyticsInstanceNetworkEndpoint.cs.html">here</a> to see an example of how to use ChangeAnalyticsInstanceNetworkEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/ChangeAnalyticsInstanceNetworkEndpoint.cs.html">here</a> to see an example of how to use ChangeAnalyticsInstanceNetworkEndpoint API.</example>
         public async Task<ChangeAnalyticsInstanceNetworkEndpointResponse> ChangeAnalyticsInstanceNetworkEndpoint(ChangeAnalyticsInstanceNetworkEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeAnalyticsInstanceNetworkEndpoint");
@@ -198,7 +198,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/CreateAnalyticsInstance.cs.html">here</a> to see an example of how to use CreateAnalyticsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/CreateAnalyticsInstance.cs.html">here</a> to see an example of how to use CreateAnalyticsInstance API.</example>
         public async Task<CreateAnalyticsInstanceResponse> CreateAnalyticsInstance(CreateAnalyticsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createAnalyticsInstance");
@@ -256,7 +256,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/CreatePrivateAccessChannel.cs.html">here</a> to see an example of how to use CreatePrivateAccessChannel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/CreatePrivateAccessChannel.cs.html">here</a> to see an example of how to use CreatePrivateAccessChannel API.</example>
         public async Task<CreatePrivateAccessChannelResponse> CreatePrivateAccessChannel(CreatePrivateAccessChannelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPrivateAccessChannel");
@@ -314,7 +314,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/CreateVanityUrl.cs.html">here</a> to see an example of how to use CreateVanityUrl API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/CreateVanityUrl.cs.html">here</a> to see an example of how to use CreateVanityUrl API.</example>
         public async Task<CreateVanityUrlResponse> CreateVanityUrl(CreateVanityUrlRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVanityUrl");
@@ -372,7 +372,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/DeleteAnalyticsInstance.cs.html">here</a> to see an example of how to use DeleteAnalyticsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/DeleteAnalyticsInstance.cs.html">here</a> to see an example of how to use DeleteAnalyticsInstance API.</example>
         public async Task<DeleteAnalyticsInstanceResponse> DeleteAnalyticsInstance(DeleteAnalyticsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteAnalyticsInstance");
@@ -429,7 +429,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/DeletePrivateAccessChannel.cs.html">here</a> to see an example of how to use DeletePrivateAccessChannel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/DeletePrivateAccessChannel.cs.html">here</a> to see an example of how to use DeletePrivateAccessChannel API.</example>
         public async Task<DeletePrivateAccessChannelResponse> DeletePrivateAccessChannel(DeletePrivateAccessChannelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePrivateAccessChannel");
@@ -486,7 +486,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/DeleteVanityUrl.cs.html">here</a> to see an example of how to use DeleteVanityUrl API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/DeleteVanityUrl.cs.html">here</a> to see an example of how to use DeleteVanityUrl API.</example>
         public async Task<DeleteVanityUrlResponse> DeleteVanityUrl(DeleteVanityUrlRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVanityUrl");
@@ -543,7 +543,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/DeleteWorkRequest.cs.html">here</a> to see an example of how to use DeleteWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/DeleteWorkRequest.cs.html">here</a> to see an example of how to use DeleteWorkRequest API.</example>
         public async Task<DeleteWorkRequestResponse> DeleteWorkRequest(DeleteWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteWorkRequest");
@@ -600,7 +600,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/GetAnalyticsInstance.cs.html">here</a> to see an example of how to use GetAnalyticsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/GetAnalyticsInstance.cs.html">here</a> to see an example of how to use GetAnalyticsInstance API.</example>
         public async Task<GetAnalyticsInstanceResponse> GetAnalyticsInstance(GetAnalyticsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAnalyticsInstance");
@@ -657,7 +657,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/GetPrivateAccessChannel.cs.html">here</a> to see an example of how to use GetPrivateAccessChannel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/GetPrivateAccessChannel.cs.html">here</a> to see an example of how to use GetPrivateAccessChannel API.</example>
         public async Task<GetPrivateAccessChannelResponse> GetPrivateAccessChannel(GetPrivateAccessChannelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPrivateAccessChannel");
@@ -714,7 +714,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -771,7 +771,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/ListAnalyticsInstances.cs.html">here</a> to see an example of how to use ListAnalyticsInstances API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/ListAnalyticsInstances.cs.html">here</a> to see an example of how to use ListAnalyticsInstances API.</example>
         public async Task<ListAnalyticsInstancesResponse> ListAnalyticsInstances(ListAnalyticsInstancesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAnalyticsInstances");
@@ -828,7 +828,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -885,7 +885,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -942,7 +942,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -1000,7 +1000,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/ScaleAnalyticsInstance.cs.html">here</a> to see an example of how to use ScaleAnalyticsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/ScaleAnalyticsInstance.cs.html">here</a> to see an example of how to use ScaleAnalyticsInstance API.</example>
         public async Task<ScaleAnalyticsInstanceResponse> ScaleAnalyticsInstance(ScaleAnalyticsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called scaleAnalyticsInstance");
@@ -1057,7 +1057,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/SetFeatureBundle.cs.html">here</a> to see an example of how to use SetFeatureBundle API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/SetFeatureBundle.cs.html">here</a> to see an example of how to use SetFeatureBundle API.</example>
         public async Task<SetFeatureBundleResponse> SetFeatureBundle(SetFeatureBundleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called setFeatureBundle");
@@ -1114,7 +1114,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/SetKmsKey.cs.html">here</a> to see an example of how to use SetKmsKey API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/SetKmsKey.cs.html">here</a> to see an example of how to use SetKmsKey API.</example>
         public async Task<SetKmsKeyResponse> SetKmsKey(SetKmsKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called setKmsKey");
@@ -1172,7 +1172,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/StartAnalyticsInstance.cs.html">here</a> to see an example of how to use StartAnalyticsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/StartAnalyticsInstance.cs.html">here</a> to see an example of how to use StartAnalyticsInstance API.</example>
         public async Task<StartAnalyticsInstanceResponse> StartAnalyticsInstance(StartAnalyticsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startAnalyticsInstance");
@@ -1230,7 +1230,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/StopAnalyticsInstance.cs.html">here</a> to see an example of how to use StopAnalyticsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/StopAnalyticsInstance.cs.html">here</a> to see an example of how to use StopAnalyticsInstance API.</example>
         public async Task<StopAnalyticsInstanceResponse> StopAnalyticsInstance(StopAnalyticsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopAnalyticsInstance");
@@ -1288,7 +1288,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/UpdateAnalyticsInstance.cs.html">here</a> to see an example of how to use UpdateAnalyticsInstance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/UpdateAnalyticsInstance.cs.html">here</a> to see an example of how to use UpdateAnalyticsInstance API.</example>
         public async Task<UpdateAnalyticsInstanceResponse> UpdateAnalyticsInstance(UpdateAnalyticsInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAnalyticsInstance");
@@ -1345,7 +1345,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/UpdatePrivateAccessChannel.cs.html">here</a> to see an example of how to use UpdatePrivateAccessChannel API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/UpdatePrivateAccessChannel.cs.html">here</a> to see an example of how to use UpdatePrivateAccessChannel API.</example>
         public async Task<UpdatePrivateAccessChannelResponse> UpdatePrivateAccessChannel(UpdatePrivateAccessChannelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePrivateAccessChannel");
@@ -1402,7 +1402,7 @@ namespace Oci.AnalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/UpdateVanityUrl.cs.html">here</a> to see an example of how to use UpdateVanityUrl API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/UpdateVanityUrl.cs.html">here</a> to see an example of how to use UpdateVanityUrl API.</example>
         public async Task<UpdateVanityUrlResponse> UpdateVanityUrl(UpdateVanityUrlRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVanityUrl");

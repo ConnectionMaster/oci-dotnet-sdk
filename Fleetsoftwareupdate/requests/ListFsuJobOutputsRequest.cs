@@ -14,7 +14,7 @@ using Oci.FleetsoftwareupdateService.Models;
 namespace Oci.FleetsoftwareupdateService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuJobOutputs.cs.html">here</a> to see an example of how to use ListFsuJobOutputs request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetsoftwareupdate/ListFsuJobOutputs.cs.html">here</a> to see an example of how to use ListFsuJobOutputs request.
     /// </example>
     public class ListFsuJobOutputsRequest : Oci.Common.IOciRequest
     {

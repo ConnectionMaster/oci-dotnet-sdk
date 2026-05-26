@@ -14,7 +14,7 @@ using Oci.AispeechService.Models;
 namespace Oci.AispeechService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/SynthesizeSpeech.cs.html">here</a> to see an example of how to use SynthesizeSpeech request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/aispeech/SynthesizeSpeech.cs.html">here</a> to see an example of how to use SynthesizeSpeech request.
     /// </example>
     public class SynthesizeSpeechRequest : Oci.Common.IOciRequest
     {

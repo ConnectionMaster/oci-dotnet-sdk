@@ -35,7 +35,7 @@ namespace Oci.GoldengateService.Models
         public string ProjectId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the content of the service account key file is stored,
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the content of the service account key file is stored,
         /// which contains the credentials required to use Google Cloud Storage.
         /// 
         /// </value>

@@ -14,7 +14,7 @@ using Oci.UsageService.Models;
 namespace Oci.UsageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usage/ListUsageLimits.cs.html">here</a> to see an example of how to use ListUsageLimits request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/usage/ListUsageLimits.cs.html">here</a> to see an example of how to use ListUsageLimits request.
     /// </example>
     public class ListUsageLimitsRequest : Oci.Common.IOciRequest
     {

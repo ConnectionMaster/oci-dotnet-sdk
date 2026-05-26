@@ -14,13 +14,13 @@ using Oci.DatabasemanagementService.Models;
 namespace Oci.DatabasemanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/EnableCloudDbSystemDatabaseManagement.cs.html">here</a> to see an example of how to use EnableCloudDbSystemDatabaseManagement request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasemanagement/EnableCloudDbSystemDatabaseManagement.cs.html">here</a> to see an example of how to use EnableCloudDbSystemDatabaseManagement request.
     /// </example>
     public class EnableCloudDbSystemDatabaseManagementRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the cloud DB system.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cloud DB system.
         /// </value>
         /// <remarks>
         /// Required

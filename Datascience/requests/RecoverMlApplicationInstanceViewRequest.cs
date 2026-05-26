@@ -14,7 +14,7 @@ using Oci.DatascienceService.Models;
 namespace Oci.DatascienceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/RecoverMlApplicationInstanceView.cs.html">here</a> to see an example of how to use RecoverMlApplicationInstanceView request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/RecoverMlApplicationInstanceView.cs.html">here</a> to see an example of how to use RecoverMlApplicationInstanceView request.
     /// </example>
     public class RecoverMlApplicationInstanceViewRequest : Oci.Common.IOciRequest
     {

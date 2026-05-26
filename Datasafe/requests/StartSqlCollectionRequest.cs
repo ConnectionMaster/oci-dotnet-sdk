@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/StartSqlCollection.cs.html">here</a> to see an example of how to use StartSqlCollection request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/StartSqlCollection.cs.html">here</a> to see an example of how to use StartSqlCollection request.
     /// </example>
     public class StartSqlCollectionRequest : Oci.Common.IOciRequest
     {

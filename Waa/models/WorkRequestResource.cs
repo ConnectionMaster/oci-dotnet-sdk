@@ -71,7 +71,7 @@ namespace Oci.WaaService.Models
         public System.Nullable<ActionTypeEnum> ActionType { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the resource the WorkRequest affects.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the resource the WorkRequest affects.
         /// </value>
         /// <remarks>
         /// Required

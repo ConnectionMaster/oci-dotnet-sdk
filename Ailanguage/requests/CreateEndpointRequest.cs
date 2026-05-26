@@ -14,7 +14,7 @@ using Oci.AilanguageService.Models;
 namespace Oci.AilanguageService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/CreateEndpoint.cs.html">here</a> to see an example of how to use CreateEndpoint request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ailanguage/CreateEndpoint.cs.html">here</a> to see an example of how to use CreateEndpoint request.
     /// </example>
     public class CreateEndpointRequest : Oci.Common.IOciRequest
     {

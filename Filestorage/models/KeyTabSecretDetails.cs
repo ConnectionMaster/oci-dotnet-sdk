@@ -22,7 +22,7 @@ namespace Oci.FilestorageService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the keytab secret in the Vault.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the keytab secret in the Vault.
         /// </value>
         /// <remarks>
         /// Required

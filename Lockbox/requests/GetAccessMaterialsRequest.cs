@@ -14,7 +14,7 @@ using Oci.LockboxService.Models;
 namespace Oci.LockboxService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/GetAccessMaterials.cs.html">here</a> to see an example of how to use GetAccessMaterials request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/lockbox/GetAccessMaterials.cs.html">here</a> to see an example of how to use GetAccessMaterials request.
     /// </example>
     public class GetAccessMaterialsRequest : Oci.Common.IOciRequest
     {

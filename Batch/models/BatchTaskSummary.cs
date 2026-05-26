@@ -33,7 +33,7 @@ namespace Oci.BatchService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the batch job to which this task belongs.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the batch job to which this task belongs.
         /// </value>
         /// <remarks>
         /// Required

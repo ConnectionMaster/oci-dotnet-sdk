@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/DeleteSchedulingPolicy.cs.html">here</a> to see an example of how to use DeleteSchedulingPolicy request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/DeleteSchedulingPolicy.cs.html">here</a> to see an example of how to use DeleteSchedulingPolicy request.
     /// </example>
     public class DeleteSchedulingPolicyRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The Scheduling Policy [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The Scheduling Policy [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         /// <remarks>
         /// Required

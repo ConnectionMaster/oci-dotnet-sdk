@@ -18,7 +18,7 @@ namespace Oci.LimitsincreaseService.Models
     /// <summary>
     /// Configuration details for new comments to be added to the limit increase request.
     /// For more information, see
-    /// [Adding Comments to a Limit Increase Request](https://docs.cloud.oracle.com/iaas/Content/General/service-limits/comment-request.htm).
+    /// [Adding Comments to a Limit Increase Request](https://docs.oracle.com/iaas/Content/General/service-limits/comment-request.htm).
     /// 
     /// </summary>
     public class PatchLimitsIncreaseRequestDetails 

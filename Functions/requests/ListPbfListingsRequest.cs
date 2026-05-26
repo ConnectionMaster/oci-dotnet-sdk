@@ -14,7 +14,7 @@ using Oci.FunctionsService.Models;
 namespace Oci.FunctionsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/functions/ListPbfListings.cs.html">here</a> to see an example of how to use ListPbfListings request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/functions/ListPbfListings.cs.html">here</a> to see an example of how to use ListPbfListings request.
     /// </example>
     public class ListPbfListingsRequest : Oci.Common.IOciRequest
     {

@@ -80,7 +80,7 @@ namespace Oci.RedisService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ChangeOciCacheUserCompartment.cs.html">here</a> to see an example of how to use ChangeOciCacheUserCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ChangeOciCacheUserCompartment.cs.html">here</a> to see an example of how to use ChangeOciCacheUserCompartment API.</example>
         public async Task<ChangeOciCacheUserCompartmentResponse> ChangeOciCacheUserCompartment(ChangeOciCacheUserCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeOciCacheUserCompartment");
@@ -136,7 +136,7 @@ namespace Oci.RedisService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/CreateOciCacheUser.cs.html">here</a> to see an example of how to use CreateOciCacheUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/CreateOciCacheUser.cs.html">here</a> to see an example of how to use CreateOciCacheUser API.</example>
         public async Task<CreateOciCacheUserResponse> CreateOciCacheUser(CreateOciCacheUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOciCacheUser");
@@ -192,7 +192,7 @@ namespace Oci.RedisService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/DeleteOciCacheUser.cs.html">here</a> to see an example of how to use DeleteOciCacheUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/DeleteOciCacheUser.cs.html">here</a> to see an example of how to use DeleteOciCacheUser API.</example>
         public async Task<DeleteOciCacheUserResponse> DeleteOciCacheUser(DeleteOciCacheUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOciCacheUser");
@@ -248,7 +248,7 @@ namespace Oci.RedisService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/GetOciCacheUser.cs.html">here</a> to see an example of how to use GetOciCacheUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/GetOciCacheUser.cs.html">here</a> to see an example of how to use GetOciCacheUser API.</example>
         public async Task<GetOciCacheUserResponse> GetOciCacheUser(GetOciCacheUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOciCacheUser");
@@ -304,7 +304,7 @@ namespace Oci.RedisService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ListAttachedRedisClusters.cs.html">here</a> to see an example of how to use ListAttachedRedisClusters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ListAttachedRedisClusters.cs.html">here</a> to see an example of how to use ListAttachedRedisClusters API.</example>
         public async Task<ListAttachedRedisClustersResponse> ListAttachedRedisClusters(ListAttachedRedisClustersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAttachedRedisClusters");
@@ -360,7 +360,7 @@ namespace Oci.RedisService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ListOciCacheUsers.cs.html">here</a> to see an example of how to use ListOciCacheUsers API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ListOciCacheUsers.cs.html">here</a> to see an example of how to use ListOciCacheUsers API.</example>
         public async Task<ListOciCacheUsersResponse> ListOciCacheUsers(ListOciCacheUsersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOciCacheUsers");
@@ -416,7 +416,7 @@ namespace Oci.RedisService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/UpdateOciCacheUser.cs.html">here</a> to see an example of how to use UpdateOciCacheUser API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/UpdateOciCacheUser.cs.html">here</a> to see an example of how to use UpdateOciCacheUser API.</example>
         public async Task<UpdateOciCacheUserResponse> UpdateOciCacheUser(UpdateOciCacheUserRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOciCacheUser");

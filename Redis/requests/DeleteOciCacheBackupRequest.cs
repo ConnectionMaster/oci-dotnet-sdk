@@ -14,7 +14,7 @@ using Oci.RedisService.Models;
 namespace Oci.RedisService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/DeleteOciCacheBackup.cs.html">here</a> to see an example of how to use DeleteOciCacheBackup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/DeleteOciCacheBackup.cs.html">here</a> to see an example of how to use DeleteOciCacheBackup request.
     /// </example>
     public class DeleteOciCacheBackupRequest : Oci.Common.IOciRequest
     {

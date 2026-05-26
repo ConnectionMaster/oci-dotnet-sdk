@@ -14,7 +14,7 @@ using Oci.RedisService.Models;
 namespace Oci.RedisService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ExportOciCacheBackupToObjectStorage.cs.html">here</a> to see an example of how to use ExportOciCacheBackupToObjectStorage request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/redis/ExportOciCacheBackupToObjectStorage.cs.html">here</a> to see an example of how to use ExportOciCacheBackupToObjectStorage request.
     /// </example>
     public class ExportOciCacheBackupToObjectStorageRequest : Oci.Common.IOciRequest
     {

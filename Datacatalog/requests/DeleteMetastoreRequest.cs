@@ -14,7 +14,7 @@ using Oci.DatacatalogService.Models;
 namespace Oci.DatacatalogService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datacatalog/DeleteMetastore.cs.html">here</a> to see an example of how to use DeleteMetastore request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datacatalog/DeleteMetastore.cs.html">here</a> to see an example of how to use DeleteMetastore request.
     /// </example>
     public class DeleteMetastoreRequest : Oci.Common.IOciRequest
     {

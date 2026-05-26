@@ -14,7 +14,7 @@ using Oci.MediaservicesService.Models;
 namespace Oci.MediaservicesService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteMediaAsset.cs.html">here</a> to see an example of how to use DeleteMediaAsset request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/mediaservices/DeleteMediaAsset.cs.html">here</a> to see an example of how to use DeleteMediaAsset request.
     /// </example>
     public class DeleteMediaAssetRequest : Oci.Common.IOciRequest
     {

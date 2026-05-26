@@ -22,7 +22,7 @@ namespace Oci.DevopsService.Models
     {
         
         /// <value>
-        /// A machine-usable code for the error that occured. Error codes are listed in [API Errors](https://docs.cloud.oracle.com/Content/API/References/apierrors.htm).
+        /// A machine-usable code for the error that occured. Error codes are listed in [API Errors](https://docs.oracle.com/iaas/Content/API/References/apierrors.htm).
         /// </value>
         /// <remarks>
         /// Required

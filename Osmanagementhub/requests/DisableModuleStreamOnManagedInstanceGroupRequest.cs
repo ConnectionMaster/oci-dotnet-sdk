@@ -14,13 +14,13 @@ using Oci.OsmanagementhubService.Models;
 namespace Oci.OsmanagementhubService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DisableModuleStreamOnManagedInstanceGroup.cs.html">here</a> to see an example of how to use DisableModuleStreamOnManagedInstanceGroup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/osmanagementhub/DisableModuleStreamOnManagedInstanceGroup.cs.html">here</a> to see an example of how to use DisableModuleStreamOnManagedInstanceGroup request.
     /// </example>
     public class DisableModuleStreamOnManagedInstanceGroupRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the managed instance group.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the managed instance group.
         /// </value>
         /// <remarks>
         /// Required

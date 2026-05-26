@@ -14,13 +14,13 @@ using Oci.ArtifactsService.Models;
 namespace Oci.ArtifactsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/artifacts/DeleteContainerImageSignature.cs.html">here</a> to see an example of how to use DeleteContainerImageSignature request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/artifacts/DeleteContainerImageSignature.cs.html">here</a> to see an example of how to use DeleteContainerImageSignature request.
     /// </example>
     public class DeleteContainerImageSignatureRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the container image signature.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the container image signature.
         /// <br/>
         /// Example: ocid1.containersignature.oc1..exampleuniqueID
         /// </value>

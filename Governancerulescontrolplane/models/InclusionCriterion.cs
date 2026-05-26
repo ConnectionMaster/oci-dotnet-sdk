@@ -22,7 +22,7 @@ namespace Oci.GovernancerulescontrolplaneService.Models
     {
         
         /// <value>
-        /// The Oracle ID ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the inclusion criterion.
+        /// The Oracle ID ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the inclusion criterion.
         /// </value>
         /// <remarks>
         /// Required
@@ -32,7 +32,7 @@ namespace Oci.GovernancerulescontrolplaneService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The Oracle ID ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the governance rule. Every inclusion criterion is associated with a governance rule.
+        /// The Oracle ID ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the governance rule. Every inclusion criterion is associated with a governance rule.
         /// </value>
         /// <remarks>
         /// Required

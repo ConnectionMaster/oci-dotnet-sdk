@@ -14,7 +14,7 @@ using Oci.DatacatalogService.Models;
 namespace Oci.DatacatalogService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datacatalog/AddMetastoreLock.cs.html">here</a> to see an example of how to use AddMetastoreLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datacatalog/AddMetastoreLock.cs.html">here</a> to see an example of how to use AddMetastoreLock request.
     /// </example>
     public class AddMetastoreLockRequest : Oci.Common.IOciRequest
     {

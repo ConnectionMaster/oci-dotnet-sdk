@@ -14,7 +14,7 @@ using Oci.ManagedkafkaService.Models;
 namespace Oci.ManagedkafkaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/CreateKafkaCluster.cs.html">here</a> to see an example of how to use CreateKafkaCluster request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managedkafka/CreateKafkaCluster.cs.html">here</a> to see an example of how to use CreateKafkaCluster request.
     /// </example>
     public class CreateKafkaClusterRequest : Oci.Common.IOciRequest
     {

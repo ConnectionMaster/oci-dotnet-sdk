@@ -14,13 +14,13 @@ using Oci.ContainerinstancesService.Models;
 namespace Oci.ContainerinstancesService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerinstances/GetContainerInstance.cs.html">here</a> to see an example of how to use GetContainerInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/containerinstances/GetContainerInstance.cs.html">here</a> to see an example of how to use GetContainerInstance request.
     /// </example>
     public class GetContainerInstanceRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the container instance.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the container instance.
         /// </value>
         /// <remarks>
         /// Required

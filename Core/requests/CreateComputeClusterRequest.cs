@@ -14,13 +14,13 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateComputeCluster.cs.html">here</a> to see an example of how to use CreateComputeCluster request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CreateComputeCluster.cs.html">here</a> to see an example of how to use CreateComputeCluster request.
     /// </example>
     public class CreateComputeClusterRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The data for creating a [compute cluster](https://docs.cloud.oracle.com/iaas/Content/Compute/Tasks/compute-clusters.htm). A compute cluster
+        /// The data for creating a [compute cluster](https://docs.oracle.com/iaas/Content/Compute/Tasks/compute-clusters.htm). A compute cluster
         /// is an empty remote direct memory access (RDMA) network group.
         /// <br/>
         /// After the compute cluster is created, you can use the compute cluster's OCID with the

@@ -80,7 +80,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/CreateEkmsPrivateEndpoint.cs.html">here</a> to see an example of how to use CreateEkmsPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/CreateEkmsPrivateEndpoint.cs.html">here</a> to see an example of how to use CreateEkmsPrivateEndpoint API.</example>
         public async Task<CreateEkmsPrivateEndpointResponse> CreateEkmsPrivateEndpoint(CreateEkmsPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createEkmsPrivateEndpoint");
@@ -136,7 +136,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/DeleteEkmsPrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteEkmsPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/DeleteEkmsPrivateEndpoint.cs.html">here</a> to see an example of how to use DeleteEkmsPrivateEndpoint API.</example>
         public async Task<DeleteEkmsPrivateEndpointResponse> DeleteEkmsPrivateEndpoint(DeleteEkmsPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteEkmsPrivateEndpoint");
@@ -192,7 +192,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetEkmsPrivateEndpoint.cs.html">here</a> to see an example of how to use GetEkmsPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetEkmsPrivateEndpoint.cs.html">here</a> to see an example of how to use GetEkmsPrivateEndpoint API.</example>
         public async Task<GetEkmsPrivateEndpointResponse> GetEkmsPrivateEndpoint(GetEkmsPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getEkmsPrivateEndpoint");
@@ -249,7 +249,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ListEkmsPrivateEndpoints.cs.html">here</a> to see an example of how to use ListEkmsPrivateEndpoints API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ListEkmsPrivateEndpoints.cs.html">here</a> to see an example of how to use ListEkmsPrivateEndpoints API.</example>
         public async Task<ListEkmsPrivateEndpointsResponse> ListEkmsPrivateEndpoints(ListEkmsPrivateEndpointsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listEkmsPrivateEndpoints");
@@ -305,7 +305,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/UpdateEkmsPrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateEkmsPrivateEndpoint API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/UpdateEkmsPrivateEndpoint.cs.html">here</a> to see an example of how to use UpdateEkmsPrivateEndpoint API.</example>
         public async Task<UpdateEkmsPrivateEndpointResponse> UpdateEkmsPrivateEndpoint(UpdateEkmsPrivateEndpointRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateEkmsPrivateEndpoint");

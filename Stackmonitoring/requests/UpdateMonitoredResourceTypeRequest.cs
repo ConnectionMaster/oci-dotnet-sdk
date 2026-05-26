@@ -14,13 +14,13 @@ using Oci.StackmonitoringService.Models;
 namespace Oci.StackmonitoringService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateMonitoredResourceType.cs.html">here</a> to see an example of how to use UpdateMonitoredResourceType request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/stackmonitoring/UpdateMonitoredResourceType.cs.html">here</a> to see an example of how to use UpdateMonitoredResourceType request.
     /// </example>
     public class UpdateMonitoredResourceTypeRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of monitored resource type.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of monitored resource type.
         /// </value>
         /// <remarks>
         /// Required

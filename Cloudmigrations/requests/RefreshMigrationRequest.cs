@@ -14,7 +14,7 @@ using Oci.CloudmigrationsService.Models;
 namespace Oci.CloudmigrationsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/RefreshMigration.cs.html">here</a> to see an example of how to use RefreshMigration request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudmigrations/RefreshMigration.cs.html">here</a> to see an example of how to use RefreshMigration request.
     /// </example>
     public class RefreshMigrationRequest : Oci.Common.IOciRequest
     {

@@ -22,7 +22,7 @@ namespace Oci.DbmulticloudService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the new compartment to contain the Oracle DB AWS Identity Connector resource.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the new compartment to contain the Oracle DB AWS Identity Connector resource.
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }

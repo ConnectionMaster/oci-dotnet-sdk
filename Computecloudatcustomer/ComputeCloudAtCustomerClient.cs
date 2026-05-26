@@ -81,7 +81,7 @@ namespace Oci.ComputecloudatcustomerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/ChangeCccInfrastructureCompartment.cs.html">here</a> to see an example of how to use ChangeCccInfrastructureCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/ChangeCccInfrastructureCompartment.cs.html">here</a> to see an example of how to use ChangeCccInfrastructureCompartment API.</example>
         public async Task<ChangeCccInfrastructureCompartmentResponse> ChangeCccInfrastructureCompartment(ChangeCccInfrastructureCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeCccInfrastructureCompartment");
@@ -131,7 +131,7 @@ namespace Oci.ComputecloudatcustomerService
 
         /// <summary>
         /// Moves a Compute Cloud@Customer upgrade schedule from one compartment to another using the
-        /// specified [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// specified [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -139,7 +139,7 @@ namespace Oci.ComputecloudatcustomerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/ChangeCccUpgradeScheduleCompartment.cs.html">here</a> to see an example of how to use ChangeCccUpgradeScheduleCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/ChangeCccUpgradeScheduleCompartment.cs.html">here</a> to see an example of how to use ChangeCccUpgradeScheduleCompartment API.</example>
         public async Task<ChangeCccUpgradeScheduleCompartmentResponse> ChangeCccUpgradeScheduleCompartment(ChangeCccUpgradeScheduleCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeCccUpgradeScheduleCompartment");
@@ -197,7 +197,7 @@ namespace Oci.ComputecloudatcustomerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/CreateCccInfrastructure.cs.html">here</a> to see an example of how to use CreateCccInfrastructure API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/CreateCccInfrastructure.cs.html">here</a> to see an example of how to use CreateCccInfrastructure API.</example>
         public async Task<CreateCccInfrastructureResponse> CreateCccInfrastructure(CreateCccInfrastructureRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCccInfrastructure");
@@ -254,7 +254,7 @@ namespace Oci.ComputecloudatcustomerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/CreateCccUpgradeSchedule.cs.html">here</a> to see an example of how to use CreateCccUpgradeSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/CreateCccUpgradeSchedule.cs.html">here</a> to see an example of how to use CreateCccUpgradeSchedule API.</example>
         public async Task<CreateCccUpgradeScheduleResponse> CreateCccUpgradeSchedule(CreateCccUpgradeScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCccUpgradeSchedule");
@@ -304,7 +304,7 @@ namespace Oci.ComputecloudatcustomerService
 
         /// <summary>
         /// Deletes a Compute Cloud@Customer infrastructure resource specified by the resource
-        /// [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -312,7 +312,7 @@ namespace Oci.ComputecloudatcustomerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/DeleteCccInfrastructure.cs.html">here</a> to see an example of how to use DeleteCccInfrastructure API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/DeleteCccInfrastructure.cs.html">here</a> to see an example of how to use DeleteCccInfrastructure API.</example>
         public async Task<DeleteCccInfrastructureResponse> DeleteCccInfrastructure(DeleteCccInfrastructureRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCccInfrastructure");
@@ -362,7 +362,7 @@ namespace Oci.ComputecloudatcustomerService
 
         /// <summary>
         /// Deletes a Compute Cloud@Customer upgrade schedule by the specified
-        /// [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -370,7 +370,7 @@ namespace Oci.ComputecloudatcustomerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/DeleteCccUpgradeSchedule.cs.html">here</a> to see an example of how to use DeleteCccUpgradeSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/DeleteCccUpgradeSchedule.cs.html">here</a> to see an example of how to use DeleteCccUpgradeSchedule API.</example>
         public async Task<DeleteCccUpgradeScheduleResponse> DeleteCccUpgradeSchedule(DeleteCccUpgradeScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCccUpgradeSchedule");
@@ -420,7 +420,7 @@ namespace Oci.ComputecloudatcustomerService
 
         /// <summary>
         /// Gets a Compute Cloud@Customer infrastructure using the infrastructure
-        /// [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -428,7 +428,7 @@ namespace Oci.ComputecloudatcustomerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/GetCccInfrastructure.cs.html">here</a> to see an example of how to use GetCccInfrastructure API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/GetCccInfrastructure.cs.html">here</a> to see an example of how to use GetCccInfrastructure API.</example>
         public async Task<GetCccInfrastructureResponse> GetCccInfrastructure(GetCccInfrastructureRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCccInfrastructure");
@@ -478,7 +478,7 @@ namespace Oci.ComputecloudatcustomerService
 
         /// <summary>
         /// Gets a Compute Cloud@Customer upgrade schedule by the specified
-        /// [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -486,7 +486,7 @@ namespace Oci.ComputecloudatcustomerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/GetCccUpgradeSchedule.cs.html">here</a> to see an example of how to use GetCccUpgradeSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/GetCccUpgradeSchedule.cs.html">here</a> to see an example of how to use GetCccUpgradeSchedule API.</example>
         public async Task<GetCccUpgradeScheduleResponse> GetCccUpgradeSchedule(GetCccUpgradeScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCccUpgradeSchedule");
@@ -543,7 +543,7 @@ namespace Oci.ComputecloudatcustomerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/ListCccInfrastructures.cs.html">here</a> to see an example of how to use ListCccInfrastructures API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/ListCccInfrastructures.cs.html">here</a> to see an example of how to use ListCccInfrastructures API.</example>
         public async Task<ListCccInfrastructuresResponse> ListCccInfrastructures(ListCccInfrastructuresRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCccInfrastructures");
@@ -600,7 +600,7 @@ namespace Oci.ComputecloudatcustomerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/ListCccUpgradeSchedules.cs.html">here</a> to see an example of how to use ListCccUpgradeSchedules API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/ListCccUpgradeSchedules.cs.html">here</a> to see an example of how to use ListCccUpgradeSchedules API.</example>
         public async Task<ListCccUpgradeSchedulesResponse> ListCccUpgradeSchedules(ListCccUpgradeSchedulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCccUpgradeSchedules");
@@ -656,7 +656,7 @@ namespace Oci.ComputecloudatcustomerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/UpdateCccInfrastructure.cs.html">here</a> to see an example of how to use UpdateCccInfrastructure API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/UpdateCccInfrastructure.cs.html">here</a> to see an example of how to use UpdateCccInfrastructure API.</example>
         public async Task<UpdateCccInfrastructureResponse> UpdateCccInfrastructure(UpdateCccInfrastructureRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCccInfrastructure");
@@ -712,7 +712,7 @@ namespace Oci.ComputecloudatcustomerService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/UpdateCccUpgradeSchedule.cs.html">here</a> to see an example of how to use UpdateCccUpgradeSchedule API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/computecloudatcustomer/UpdateCccUpgradeSchedule.cs.html">here</a> to see an example of how to use UpdateCccUpgradeSchedule API.</example>
         public async Task<UpdateCccUpgradeScheduleResponse> UpdateCccUpgradeSchedule(UpdateCccUpgradeScheduleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCccUpgradeSchedule");

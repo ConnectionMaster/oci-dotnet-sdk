@@ -14,7 +14,7 @@ using Oci.DblmService.Models;
 namespace Oci.DblmService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dblm/ListNotifications.cs.html">here</a> to see an example of how to use ListNotifications request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dblm/ListNotifications.cs.html">here</a> to see an example of how to use ListNotifications request.
     /// </example>
     public class ListNotificationsRequest : Oci.Common.IOciRequest
     {

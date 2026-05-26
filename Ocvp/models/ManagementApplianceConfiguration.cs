@@ -42,7 +42,7 @@ namespace Oci.OcvpService.Models
         public System.Nullable<bool> IsLogIngestionEnabled { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of support bundle Object Storage bucket.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of support bundle Object Storage bucket.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "supportBundleBucketId")]

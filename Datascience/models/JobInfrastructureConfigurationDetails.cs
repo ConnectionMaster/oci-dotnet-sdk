@@ -35,7 +35,9 @@ namespace Oci.DatascienceService.Models
             [EnumMember(Value = "MULTI_NODE")]
             MultiNode,
             [EnumMember(Value = "EMPTY")]
-            Empty
+            Empty,
+            [EnumMember(Value = "MANAGED_COMPUTE_CLUSTER")]
+            ManagedComputeCluster
         };
 
         
@@ -70,6 +72,9 @@ namespace Oci.DatascienceService.Models
                     break;
                 case "ME_STANDALONE":
                     obj = new ManagedEgressStandaloneJobInfrastructureConfigurationDetails();
+                    break;
+                case "MANAGED_COMPUTE_CLUSTER":
+                    obj = new ManagedComputeClusterJobInfrastructureConfigurationDetails();
                     break;
                 case "STANDALONE":
                     obj = new StandaloneJobInfrastructureConfigurationDetails();

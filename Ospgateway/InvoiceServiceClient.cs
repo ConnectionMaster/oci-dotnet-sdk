@@ -77,7 +77,7 @@ namespace Oci.OspgatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/DownloadPdfContent.cs.html">here</a> to see an example of how to use DownloadPdfContent API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/DownloadPdfContent.cs.html">here</a> to see an example of how to use DownloadPdfContent API.</example>
         public async Task<DownloadPdfContentResponse> DownloadPdfContent(DownloadPdfContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called downloadPdfContent");
@@ -133,7 +133,7 @@ namespace Oci.OspgatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/GetInvoice.cs.html">here</a> to see an example of how to use GetInvoice API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/GetInvoice.cs.html">here</a> to see an example of how to use GetInvoice API.</example>
         public async Task<GetInvoiceResponse> GetInvoice(GetInvoiceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getInvoice");
@@ -189,7 +189,7 @@ namespace Oci.OspgatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/ListInvoiceLines.cs.html">here</a> to see an example of how to use ListInvoiceLines API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/ListInvoiceLines.cs.html">here</a> to see an example of how to use ListInvoiceLines API.</example>
         public async Task<ListInvoiceLinesResponse> ListInvoiceLines(ListInvoiceLinesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInvoiceLines");
@@ -245,7 +245,7 @@ namespace Oci.OspgatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/ListInvoices.cs.html">here</a> to see an example of how to use ListInvoices API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/ListInvoices.cs.html">here</a> to see an example of how to use ListInvoices API.</example>
         public async Task<ListInvoicesResponse> ListInvoices(ListInvoicesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInvoices");
@@ -301,7 +301,7 @@ namespace Oci.OspgatewayService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/PayInvoice.cs.html">here</a> to see an example of how to use PayInvoice API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ospgateway/PayInvoice.cs.html">here</a> to see an example of how to use PayInvoice API.</example>
         public async Task<PayInvoiceResponse> PayInvoice(PayInvoiceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called payInvoice");

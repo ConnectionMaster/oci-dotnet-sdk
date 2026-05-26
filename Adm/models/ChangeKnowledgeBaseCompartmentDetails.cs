@@ -22,7 +22,7 @@ namespace Oci.AdmService.Models
     {
         
         /// <value>
-        /// The compartment Oracle Cloud Identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) to which the resource must be moved.
+        /// The compartment Oracle Cloud Identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) to which the resource must be moved.
         /// </value>
         /// <remarks>
         /// Required

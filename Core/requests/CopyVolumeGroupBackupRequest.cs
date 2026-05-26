@@ -14,7 +14,7 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CopyVolumeGroupBackup.cs.html">here</a> to see an example of how to use CopyVolumeGroupBackup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/CopyVolumeGroupBackup.cs.html">here</a> to see an example of how to use CopyVolumeGroupBackup request.
     /// </example>
     public class CopyVolumeGroupBackupRequest : Oci.Common.IOciRequest
     {

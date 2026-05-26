@@ -81,7 +81,7 @@ namespace Oci.ApmtracesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/BulkActivateAttribute.cs.html">here</a> to see an example of how to use BulkActivateAttribute API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/BulkActivateAttribute.cs.html">here</a> to see an example of how to use BulkActivateAttribute API.</example>
         public async Task<BulkActivateAttributeResponse> BulkActivateAttribute(BulkActivateAttributeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkActivateAttribute");
@@ -145,7 +145,7 @@ namespace Oci.ApmtracesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/BulkDeActivateAttribute.cs.html">here</a> to see an example of how to use BulkDeActivateAttribute API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/BulkDeActivateAttribute.cs.html">here</a> to see an example of how to use BulkDeActivateAttribute API.</example>
         public async Task<BulkDeActivateAttributeResponse> BulkDeActivateAttribute(BulkDeActivateAttributeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkDeActivateAttribute");
@@ -203,7 +203,7 @@ namespace Oci.ApmtracesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/BulkPinAttribute.cs.html">here</a> to see an example of how to use BulkPinAttribute API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/BulkPinAttribute.cs.html">here</a> to see an example of how to use BulkPinAttribute API.</example>
         public async Task<BulkPinAttributeResponse> BulkPinAttribute(BulkPinAttributeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkPinAttribute");
@@ -260,7 +260,7 @@ namespace Oci.ApmtracesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/BulkUnpinAttribute.cs.html">here</a> to see an example of how to use BulkUnpinAttribute API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/BulkUnpinAttribute.cs.html">here</a> to see an example of how to use BulkUnpinAttribute API.</example>
         public async Task<BulkUnpinAttributeResponse> BulkUnpinAttribute(BulkUnpinAttributeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUnpinAttribute");
@@ -317,7 +317,7 @@ namespace Oci.ApmtracesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/BulkUpdateAttribute.cs.html">here</a> to see an example of how to use BulkUpdateAttribute API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/BulkUpdateAttribute.cs.html">here</a> to see an example of how to use BulkUpdateAttribute API.</example>
         public async Task<BulkUpdateAttributeResponse> BulkUpdateAttribute(BulkUpdateAttributeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUpdateAttribute");
@@ -376,7 +376,7 @@ namespace Oci.ApmtracesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/BulkUpdateAttributeNotes.cs.html">here</a> to see an example of how to use BulkUpdateAttributeNotes API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/BulkUpdateAttributeNotes.cs.html">here</a> to see an example of how to use BulkUpdateAttributeNotes API.</example>
         public async Task<BulkUpdateAttributeNotesResponse> BulkUpdateAttributeNotes(BulkUpdateAttributeNotesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUpdateAttributeNotes");
@@ -433,7 +433,7 @@ namespace Oci.ApmtracesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/GetStatusAutoActivate.cs.html">here</a> to see an example of how to use GetStatusAutoActivate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/GetStatusAutoActivate.cs.html">here</a> to see an example of how to use GetStatusAutoActivate API.</example>
         public async Task<GetStatusAutoActivateResponse> GetStatusAutoActivate(GetStatusAutoActivateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getStatusAutoActivate");
@@ -490,7 +490,7 @@ namespace Oci.ApmtracesService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/PutToggleAutoActivate.cs.html">here</a> to see an example of how to use PutToggleAutoActivate API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmtraces/PutToggleAutoActivate.cs.html">here</a> to see an example of how to use PutToggleAutoActivate API.</example>
         public async Task<PutToggleAutoActivateResponse> PutToggleAutoActivate(PutToggleAutoActivateRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called putToggleAutoActivate");

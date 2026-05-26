@@ -16,28 +16,20 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatascienceService.Models
 {
     /// <summary>
-    /// Configuration of IDCS AuthN/Z for online prediction
+    /// Details for the compute target job resource configuration.
     /// </summary>
-    public class IdcsAuthConfiguration : AuthConfiguration
+    public class ManagedComputeClusterJobResourceConfiguration 
     {
         
-        /// <value>
-        /// Identity Domain OCID
-        /// </value>
+        [JsonProperty(PropertyName = "resourceLimitConfiguration")]
+        public ResourceLimitConfiguration ResourceLimitConfiguration { get; set; }
+        
         /// <remarks>
         /// Required
         /// </remarks>
-        [Required(ErrorMessage = "DomainId is required.")]
-        [JsonProperty(PropertyName = "domainId")]
-        public string DomainId { get; set; }
+        [Required(ErrorMessage = "ResourceRequestConfiguration is required.")]
+        [JsonProperty(PropertyName = "resourceRequestConfiguration")]
+        public ResourceRequestConfiguration ResourceRequestConfiguration { get; set; }
         
-        /// <value>
-        /// Name of the IDCS application
-        /// </value>
-        [JsonProperty(PropertyName = "applicationName")]
-        public string ApplicationName { get; set; }
-        
-        [JsonProperty(PropertyName = "type")]
-        private readonly string type = "IDCS";
     }
 }

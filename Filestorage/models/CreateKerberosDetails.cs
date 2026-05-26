@@ -33,7 +33,7 @@ namespace Oci.FilestorageService.Models
         public string KerberosRealm { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the keytab Secret in the Vault.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the keytab Secret in the Vault.
         /// </value>
         [JsonProperty(PropertyName = "keyTabSecretId")]
         public string KeyTabSecretId { get; set; }

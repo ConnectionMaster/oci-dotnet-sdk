@@ -14,7 +14,7 @@ using Oci.VisualbuilderService.Models;
 namespace Oci.VisualbuilderService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/visualbuilder/StopVbInstance.cs.html">here</a> to see an example of how to use StopVbInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/visualbuilder/StopVbInstance.cs.html">here</a> to see an example of how to use StopVbInstance request.
     /// </example>
     public class StopVbInstanceRequest : Oci.Common.IOciRequest
     {

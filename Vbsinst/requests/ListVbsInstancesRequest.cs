@@ -14,7 +14,7 @@ using Oci.VbsinstService.Models;
 namespace Oci.VbsinstService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vbsinst/ListVbsInstances.cs.html">here</a> to see an example of how to use ListVbsInstances request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/vbsinst/ListVbsInstances.cs.html">here</a> to see an example of how to use ListVbsInstances request.
     /// </example>
     public class ListVbsInstancesRequest : Oci.Common.IOciRequest
     {

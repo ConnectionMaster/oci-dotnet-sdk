@@ -14,7 +14,7 @@ using Oci.DevopsService.Models;
 namespace Oci.DevopsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateProjectNotificationPreference.cs.html">here</a> to see an example of how to use UpdateProjectNotificationPreference request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/UpdateProjectNotificationPreference.cs.html">here</a> to see an example of how to use UpdateProjectNotificationPreference request.
     /// </example>
     public class UpdateProjectNotificationPreferenceRequest : Oci.Common.IOciRequest
     {

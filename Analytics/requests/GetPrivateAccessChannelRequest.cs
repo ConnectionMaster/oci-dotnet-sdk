@@ -14,7 +14,7 @@ using Oci.AnalyticsService.Models;
 namespace Oci.AnalyticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/GetPrivateAccessChannel.cs.html">here</a> to see an example of how to use GetPrivateAccessChannel request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/GetPrivateAccessChannel.cs.html">here</a> to see an example of how to use GetPrivateAccessChannel request.
     /// </example>
     public class GetPrivateAccessChannelRequest : Oci.Common.IOciRequest
     {

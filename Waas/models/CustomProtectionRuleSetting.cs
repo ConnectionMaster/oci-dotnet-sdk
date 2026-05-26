@@ -22,7 +22,7 @@ namespace Oci.WaasService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the custom protection rule.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the custom protection rule.
         /// </value>
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }

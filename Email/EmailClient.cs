@@ -80,7 +80,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/AddEmailDomainLock.cs.html">here</a> to see an example of how to use AddEmailDomainLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/AddEmailDomainLock.cs.html">here</a> to see an example of how to use AddEmailDomainLock API.</example>
         public async Task<AddEmailDomainLockResponse> AddEmailDomainLock(AddEmailDomainLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addEmailDomainLock");
@@ -136,7 +136,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/AddEmailIpPoolLock.cs.html">here</a> to see an example of how to use AddEmailIpPoolLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/AddEmailIpPoolLock.cs.html">here</a> to see an example of how to use AddEmailIpPoolLock API.</example>
         public async Task<AddEmailIpPoolLockResponse> AddEmailIpPoolLock(AddEmailIpPoolLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addEmailIpPoolLock");
@@ -192,7 +192,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/AddEmailOutboundIp.cs.html">here</a> to see an example of how to use AddEmailOutboundIp API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/AddEmailOutboundIp.cs.html">here</a> to see an example of how to use AddEmailOutboundIp API.</example>
         public async Task<AddEmailOutboundIpResponse> AddEmailOutboundIp(AddEmailOutboundIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addEmailOutboundIp");
@@ -248,7 +248,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/AddReturnPathLock.cs.html">here</a> to see an example of how to use AddReturnPathLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/AddReturnPathLock.cs.html">here</a> to see an example of how to use AddReturnPathLock API.</example>
         public async Task<AddReturnPathLockResponse> AddReturnPathLock(AddReturnPathLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addReturnPathLock");
@@ -304,7 +304,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/AddSenderLock.cs.html">here</a> to see an example of how to use AddSenderLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/AddSenderLock.cs.html">here</a> to see an example of how to use AddSenderLock API.</example>
         public async Task<AddSenderLockResponse> AddSenderLock(AddSenderLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addSenderLock");
@@ -356,7 +356,7 @@ namespace Oci.EmailService
         /// Moves an email domain into a different compartment.
         /// When provided, If-Match is checked against ETag value of the resource.
         /// For information about moving resources between compartments, see
-        /// [Moving Resources to a Different Compartment](https://docs.cloud.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
+        /// [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// &lt;br/&gt;
         /// **Note:** All DKIM objects associated with this email domain will also be moved into the provided compartment.
         /// 
@@ -366,7 +366,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ChangeEmailDomainCompartment.cs.html">here</a> to see an example of how to use ChangeEmailDomainCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ChangeEmailDomainCompartment.cs.html">here</a> to see an example of how to use ChangeEmailDomainCompartment API.</example>
         public async Task<ChangeEmailDomainCompartmentResponse> ChangeEmailDomainCompartment(ChangeEmailDomainCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeEmailDomainCompartment");
@@ -422,7 +422,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ChangeEmailIpPoolCompartment.cs.html">here</a> to see an example of how to use ChangeEmailIpPoolCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ChangeEmailIpPoolCompartment.cs.html">here</a> to see an example of how to use ChangeEmailIpPoolCompartment API.</example>
         public async Task<ChangeEmailIpPoolCompartmentResponse> ChangeEmailIpPoolCompartment(ChangeEmailIpPoolCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeEmailIpPoolCompartment");
@@ -478,7 +478,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ChangeSenderCompartment.cs.html">here</a> to see an example of how to use ChangeSenderCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ChangeSenderCompartment.cs.html">here</a> to see an example of how to use ChangeSenderCompartment API.</example>
         public async Task<ChangeSenderCompartmentResponse> ChangeSenderCompartment(ChangeSenderCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSenderCompartment");
@@ -539,7 +539,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateDkim.cs.html">here</a> to see an example of how to use CreateDkim API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateDkim.cs.html">here</a> to see an example of how to use CreateDkim API.</example>
         public async Task<CreateDkimResponse> CreateDkim(CreateDkimRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDkim");
@@ -595,7 +595,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateEmailDomain.cs.html">here</a> to see an example of how to use CreateEmailDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateEmailDomain.cs.html">here</a> to see an example of how to use CreateEmailDomain API.</example>
         public async Task<CreateEmailDomainResponse> CreateEmailDomain(CreateEmailDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createEmailDomain");
@@ -651,7 +651,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateEmailIpPool.cs.html">here</a> to see an example of how to use CreateEmailIpPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateEmailIpPool.cs.html">here</a> to see an example of how to use CreateEmailIpPool API.</example>
         public async Task<CreateEmailIpPoolResponse> CreateEmailIpPool(CreateEmailIpPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createEmailIpPool");
@@ -707,7 +707,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateEmailReturnPath.cs.html">here</a> to see an example of how to use CreateEmailReturnPath API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateEmailReturnPath.cs.html">here</a> to see an example of how to use CreateEmailReturnPath API.</example>
         public async Task<CreateEmailReturnPathResponse> CreateEmailReturnPath(CreateEmailReturnPathRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createEmailReturnPath");
@@ -763,7 +763,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateSender.cs.html">here</a> to see an example of how to use CreateSender API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateSender.cs.html">here</a> to see an example of how to use CreateSender API.</example>
         public async Task<CreateSenderResponse> CreateSender(CreateSenderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSender");
@@ -823,7 +823,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateSuppression.cs.html">here</a> to see an example of how to use CreateSuppression API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/CreateSuppression.cs.html">here</a> to see an example of how to use CreateSuppression API.</example>
         public async Task<CreateSuppressionResponse> CreateSuppression(CreateSuppressionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSuppression");
@@ -885,7 +885,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/DeleteDkim.cs.html">here</a> to see an example of how to use DeleteDkim API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/DeleteDkim.cs.html">here</a> to see an example of how to use DeleteDkim API.</example>
         public async Task<DeleteDkimResponse> DeleteDkim(DeleteDkimRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDkim");
@@ -941,7 +941,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/DeleteEmailDomain.cs.html">here</a> to see an example of how to use DeleteEmailDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/DeleteEmailDomain.cs.html">here</a> to see an example of how to use DeleteEmailDomain API.</example>
         public async Task<DeleteEmailDomainResponse> DeleteEmailDomain(DeleteEmailDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteEmailDomain");
@@ -997,7 +997,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/DeleteEmailIpPool.cs.html">here</a> to see an example of how to use DeleteEmailIpPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/DeleteEmailIpPool.cs.html">here</a> to see an example of how to use DeleteEmailIpPool API.</example>
         public async Task<DeleteEmailIpPoolResponse> DeleteEmailIpPool(DeleteEmailIpPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteEmailIpPool");
@@ -1053,7 +1053,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/DeleteEmailReturnPath.cs.html">here</a> to see an example of how to use DeleteEmailReturnPath API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/DeleteEmailReturnPath.cs.html">here</a> to see an example of how to use DeleteEmailReturnPath API.</example>
         public async Task<DeleteEmailReturnPathResponse> DeleteEmailReturnPath(DeleteEmailReturnPathRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteEmailReturnPath");
@@ -1111,7 +1111,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/DeleteSender.cs.html">here</a> to see an example of how to use DeleteSender API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/DeleteSender.cs.html">here</a> to see an example of how to use DeleteSender API.</example>
         public async Task<DeleteSenderResponse> DeleteSender(DeleteSenderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSender");
@@ -1169,7 +1169,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/DeleteSuppression.cs.html">here</a> to see an example of how to use DeleteSuppression API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/DeleteSuppression.cs.html">here</a> to see an example of how to use DeleteSuppression API.</example>
         public async Task<DeleteSuppressionResponse> DeleteSuppression(DeleteSuppressionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSuppression");
@@ -1225,7 +1225,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/GetDkim.cs.html">here</a> to see an example of how to use GetDkim API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/GetDkim.cs.html">here</a> to see an example of how to use GetDkim API.</example>
         public async Task<GetDkimResponse> GetDkim(GetDkimRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDkim");
@@ -1282,7 +1282,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/GetEmailConfiguration.cs.html">here</a> to see an example of how to use GetEmailConfiguration API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/GetEmailConfiguration.cs.html">here</a> to see an example of how to use GetEmailConfiguration API.</example>
         public async Task<GetEmailConfigurationResponse> GetEmailConfiguration(GetEmailConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getEmailConfiguration");
@@ -1338,7 +1338,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/GetEmailDomain.cs.html">here</a> to see an example of how to use GetEmailDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/GetEmailDomain.cs.html">here</a> to see an example of how to use GetEmailDomain API.</example>
         public async Task<GetEmailDomainResponse> GetEmailDomain(GetEmailDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getEmailDomain");
@@ -1394,7 +1394,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/GetEmailIpPool.cs.html">here</a> to see an example of how to use GetEmailIpPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/GetEmailIpPool.cs.html">here</a> to see an example of how to use GetEmailIpPool API.</example>
         public async Task<GetEmailIpPoolResponse> GetEmailIpPool(GetEmailIpPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getEmailIpPool");
@@ -1450,7 +1450,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/GetEmailReturnPath.cs.html">here</a> to see an example of how to use GetEmailReturnPath API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/GetEmailReturnPath.cs.html">here</a> to see an example of how to use GetEmailReturnPath API.</example>
         public async Task<GetEmailReturnPathResponse> GetEmailReturnPath(GetEmailReturnPathRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getEmailReturnPath");
@@ -1506,7 +1506,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/GetSender.cs.html">here</a> to see an example of how to use GetSender API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/GetSender.cs.html">here</a> to see an example of how to use GetSender API.</example>
         public async Task<GetSenderResponse> GetSender(GetSenderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSender");
@@ -1564,7 +1564,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/GetSuppression.cs.html">here</a> to see an example of how to use GetSuppression API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/GetSuppression.cs.html">here</a> to see an example of how to use GetSuppression API.</example>
         public async Task<GetSuppressionResponse> GetSuppression(GetSuppressionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSuppression");
@@ -1620,7 +1620,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -1676,7 +1676,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListDkims.cs.html">here</a> to see an example of how to use ListDkims API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListDkims.cs.html">here</a> to see an example of how to use ListDkims API.</example>
         public async Task<ListDkimsResponse> ListDkims(ListDkimsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDkims");
@@ -1732,7 +1732,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListEmailDomains.cs.html">here</a> to see an example of how to use ListEmailDomains API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListEmailDomains.cs.html">here</a> to see an example of how to use ListEmailDomains API.</example>
         public async Task<ListEmailDomainsResponse> ListEmailDomains(ListEmailDomainsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listEmailDomains");
@@ -1788,7 +1788,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListEmailIpPools.cs.html">here</a> to see an example of how to use ListEmailIpPools API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListEmailIpPools.cs.html">here</a> to see an example of how to use ListEmailIpPools API.</example>
         public async Task<ListEmailIpPoolsResponse> ListEmailIpPools(ListEmailIpPoolsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listEmailIpPools");
@@ -1844,7 +1844,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListEmailOutboundIps.cs.html">here</a> to see an example of how to use ListEmailOutboundIps API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListEmailOutboundIps.cs.html">here</a> to see an example of how to use ListEmailOutboundIps API.</example>
         public async Task<ListEmailOutboundIpsResponse> ListEmailOutboundIps(ListEmailOutboundIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listEmailOutboundIps");
@@ -1900,7 +1900,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListEmailReturnPaths.cs.html">here</a> to see an example of how to use ListEmailReturnPaths API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListEmailReturnPaths.cs.html">here</a> to see an example of how to use ListEmailReturnPaths API.</example>
         public async Task<ListEmailReturnPathsResponse> ListEmailReturnPaths(ListEmailReturnPathsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listEmailReturnPaths");
@@ -1957,7 +1957,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListSenders.cs.html">here</a> to see an example of how to use ListSenders API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListSenders.cs.html">here</a> to see an example of how to use ListSenders API.</example>
         public async Task<ListSendersResponse> ListSenders(ListSendersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSenders");
@@ -2016,7 +2016,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListSuppressions.cs.html">here</a> to see an example of how to use ListSuppressions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListSuppressions.cs.html">here</a> to see an example of how to use ListSuppressions API.</example>
         public async Task<ListSuppressionsResponse> ListSuppressions(ListSuppressionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSuppressions");
@@ -2073,7 +2073,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -2130,7 +2130,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -2187,7 +2187,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -2243,7 +2243,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/RemoveEmailDomainLock.cs.html">here</a> to see an example of how to use RemoveEmailDomainLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/RemoveEmailDomainLock.cs.html">here</a> to see an example of how to use RemoveEmailDomainLock API.</example>
         public async Task<RemoveEmailDomainLockResponse> RemoveEmailDomainLock(RemoveEmailDomainLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeEmailDomainLock");
@@ -2299,7 +2299,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/RemoveEmailIpPoolLock.cs.html">here</a> to see an example of how to use RemoveEmailIpPoolLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/RemoveEmailIpPoolLock.cs.html">here</a> to see an example of how to use RemoveEmailIpPoolLock API.</example>
         public async Task<RemoveEmailIpPoolLockResponse> RemoveEmailIpPoolLock(RemoveEmailIpPoolLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeEmailIpPoolLock");
@@ -2355,7 +2355,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/RemoveEmailOutboundIp.cs.html">here</a> to see an example of how to use RemoveEmailOutboundIp API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/RemoveEmailOutboundIp.cs.html">here</a> to see an example of how to use RemoveEmailOutboundIp API.</example>
         public async Task<RemoveEmailOutboundIpResponse> RemoveEmailOutboundIp(RemoveEmailOutboundIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeEmailOutboundIp");
@@ -2411,7 +2411,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/RemoveReturnPathLock.cs.html">here</a> to see an example of how to use RemoveReturnPathLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/RemoveReturnPathLock.cs.html">here</a> to see an example of how to use RemoveReturnPathLock API.</example>
         public async Task<RemoveReturnPathLockResponse> RemoveReturnPathLock(RemoveReturnPathLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeReturnPathLock");
@@ -2467,7 +2467,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/RemoveSenderLock.cs.html">here</a> to see an example of how to use RemoveSenderLock API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/RemoveSenderLock.cs.html">here</a> to see an example of how to use RemoveSenderLock API.</example>
         public async Task<RemoveSenderLockResponse> RemoveSenderLock(RemoveSenderLockRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeSenderLock");
@@ -2523,7 +2523,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/UpdateDkim.cs.html">here</a> to see an example of how to use UpdateDkim API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/UpdateDkim.cs.html">here</a> to see an example of how to use UpdateDkim API.</example>
         public async Task<UpdateDkimResponse> UpdateDkim(UpdateDkimRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDkim");
@@ -2579,7 +2579,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/UpdateEmailDomain.cs.html">here</a> to see an example of how to use UpdateEmailDomain API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/UpdateEmailDomain.cs.html">here</a> to see an example of how to use UpdateEmailDomain API.</example>
         public async Task<UpdateEmailDomainResponse> UpdateEmailDomain(UpdateEmailDomainRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateEmailDomain");
@@ -2635,7 +2635,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/UpdateEmailIpPool.cs.html">here</a> to see an example of how to use UpdateEmailIpPool API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/UpdateEmailIpPool.cs.html">here</a> to see an example of how to use UpdateEmailIpPool API.</example>
         public async Task<UpdateEmailIpPoolResponse> UpdateEmailIpPool(UpdateEmailIpPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateEmailIpPool");
@@ -2691,7 +2691,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/UpdateEmailReturnPath.cs.html">here</a> to see an example of how to use UpdateEmailReturnPath API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/UpdateEmailReturnPath.cs.html">here</a> to see an example of how to use UpdateEmailReturnPath API.</example>
         public async Task<UpdateEmailReturnPathResponse> UpdateEmailReturnPath(UpdateEmailReturnPathRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateEmailReturnPath");
@@ -2743,7 +2743,7 @@ namespace Oci.EmailService
         /// Replaces the set of tags for a sender with the tags provided. If either freeform
         /// or defined tags are omitted, the tags for that set remain the same. Each set must
         /// include the full set of tags for the sender, partial updates are not permitted.
-        /// For more information about tagging, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information about tagging, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -2751,7 +2751,7 @@ namespace Oci.EmailService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/UpdateSender.cs.html">here</a> to see an example of how to use UpdateSender API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/email/UpdateSender.cs.html">here</a> to see an example of how to use UpdateSender API.</example>
         public async Task<UpdateSenderResponse> UpdateSender(UpdateSenderRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSender");

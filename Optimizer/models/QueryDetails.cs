@@ -23,7 +23,7 @@ namespace Oci.OptimizerService.Models
         
         /// <value>
         /// The query describing which resources to search for.
-        /// For more information, see [Query Language Syntax](https://docs.cloud.oracle.com/iaas/Content/CloudAdvisor/Reference/query-syntax.htm).
+        /// For more information, see [Query Language Syntax](https://docs.oracle.com/iaas/Content/CloudAdvisor/Reference/query-syntax.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "query")]

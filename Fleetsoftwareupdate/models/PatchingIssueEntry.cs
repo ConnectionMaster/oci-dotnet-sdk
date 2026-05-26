@@ -45,7 +45,7 @@ namespace Oci.FleetsoftwareupdateService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the resource impacted by the patching issue.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the resource impacted by the patching issue.
         /// 
         /// </value>
         /// <remarks>

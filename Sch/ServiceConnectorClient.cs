@@ -79,7 +79,7 @@ namespace Oci.SchService
         /// UPDATING. When the state changes to ACTIVE, data begins transferring from the
         /// source service to the target service.
         /// For more information, see
-        /// [Activating a Connector](https://docs.cloud.oracle.com/iaas/Content/connector-hub/activate-service-connector.htm).
+        /// [Activating a Connector](https://docs.oracle.com/iaas/Content/connector-hub/activate-service-connector.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -87,7 +87,7 @@ namespace Oci.SchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/ActivateServiceConnector.cs.html">here</a> to see an example of how to use ActivateServiceConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/ActivateServiceConnector.cs.html">here</a> to see an example of how to use ActivateServiceConnector API.</example>
         public async Task<ActivateServiceConnectorResponse> ActivateServiceConnector(ActivateServiceConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called activateServiceConnector");
@@ -138,7 +138,7 @@ namespace Oci.SchService
         /// <summary>
         /// Moves a connector into a different compartment within the same tenancy.
         /// For more information, see
-        /// [Moving a Connector](https://docs.cloud.oracle.com/iaas/Content/connector-hub/change-compartment-service-connector.htm).
+        /// [Moving a Connector](https://docs.oracle.com/iaas/Content/connector-hub/change-compartment-service-connector.htm).
         /// &lt;br/&gt;
         /// When provided, If-Match is checked against ETag values of the resource.
         /// 
@@ -148,7 +148,7 @@ namespace Oci.SchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/ChangeServiceConnectorCompartment.cs.html">here</a> to see an example of how to use ChangeServiceConnectorCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/ChangeServiceConnectorCompartment.cs.html">here</a> to see an example of how to use ChangeServiceConnectorCompartment API.</example>
         public async Task<ChangeServiceConnectorCompartmentResponse> ChangeServiceConnectorCompartment(ChangeServiceConnectorCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeServiceConnectorCompartment");
@@ -201,22 +201,22 @@ namespace Oci.SchService
         /// A connector is a logically defined flow for moving data from
         /// a source service to a destination service in Oracle Cloud Infrastructure.
         /// For more information, see
-        /// [Creating a Connector](https://docs.cloud.oracle.com/iaas/Content/connector-hub/create-service-connector.htm).
+        /// [Creating a Connector](https://docs.oracle.com/iaas/Content/connector-hub/create-service-connector.htm).
         /// For general information about connectors, see
-        /// [Overview of Connector Hub](https://docs.cloud.oracle.com/iaas/Content/connector-hub/overview.htm).
+        /// [Overview of Connector Hub](https://docs.oracle.com/iaas/Content/connector-hub/overview.htm).
         /// &lt;br/&gt;
         /// For purposes of access control, you must provide the
-        /// [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where
+        /// [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where
         /// you want the connector to reside. Notice that the connector
         /// doesn&#39;t have to be in the same compartment as the source or target services.
         /// For information about access control and compartments, see
-        /// [Overview of the IAM Service](https://docs.cloud.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
+        /// [Overview of the IAM Service](https://docs.oracle.com/iaas/Content/Identity/Concepts/overview.htm).
         /// &lt;br/&gt;
         /// After you send your request, the new connector&#39;s state is temporarily
         /// CREATING. When the state changes to ACTIVE, data begins transferring from the
         /// source service to the target service. For instructions on deactivating and
         /// activating connectors, see
-        /// [Activating a Connector](https://docs.cloud.oracle.com/iaas/Content/connector-hub/activate-service-connector.htm).
+        /// [Activating a Connector](https://docs.oracle.com/iaas/Content/connector-hub/activate-service-connector.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -224,7 +224,7 @@ namespace Oci.SchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/CreateServiceConnector.cs.html">here</a> to see an example of how to use CreateServiceConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/CreateServiceConnector.cs.html">here</a> to see an example of how to use CreateServiceConnector API.</example>
         public async Task<CreateServiceConnectorResponse> CreateServiceConnector(CreateServiceConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createServiceConnector");
@@ -278,7 +278,7 @@ namespace Oci.SchService
         /// After you send your request, the connector&#39;s state is temporarily
         /// UPDATING and any data transfer stops. The state then changes to INACTIVE.
         /// For more information, see
-        /// [Deactivating a Connector](https://docs.cloud.oracle.com/iaas/Content/connector-hub/deactivate-service-connector.htm).
+        /// [Deactivating a Connector](https://docs.oracle.com/iaas/Content/connector-hub/deactivate-service-connector.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -286,7 +286,7 @@ namespace Oci.SchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/DeactivateServiceConnector.cs.html">here</a> to see an example of how to use DeactivateServiceConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/DeactivateServiceConnector.cs.html">here</a> to see an example of how to use DeactivateServiceConnector API.</example>
         public async Task<DeactivateServiceConnectorResponse> DeactivateServiceConnector(DeactivateServiceConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deactivateServiceConnector");
@@ -337,7 +337,7 @@ namespace Oci.SchService
         /// <summary>
         /// Deletes the specified connector.
         /// For more information, see
-        /// [Deleting a Connector](https://docs.cloud.oracle.com/iaas/Content/connector-hub/delete-service-connector.htm).
+        /// [Deleting a Connector](https://docs.oracle.com/iaas/Content/connector-hub/delete-service-connector.htm).
         /// &lt;br/&gt;
         /// After you send your request, the connector&#39;s state is temporarily
         /// DELETING and any data transfer stops. The state then changes to DELETED.
@@ -348,7 +348,7 @@ namespace Oci.SchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/DeleteServiceConnector.cs.html">here</a> to see an example of how to use DeleteServiceConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/DeleteServiceConnector.cs.html">here</a> to see an example of how to use DeleteServiceConnector API.</example>
         public async Task<DeleteServiceConnectorResponse> DeleteServiceConnector(DeleteServiceConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteServiceConnector");
@@ -399,7 +399,7 @@ namespace Oci.SchService
         /// <summary>
         /// Gets the specified connector&#39;s configuration information.
         /// For more information, see
-        /// [Getting a Connector](https://docs.cloud.oracle.com/iaas/Content/connector-hub/get-service-connector.htm).
+        /// [Getting a Connector](https://docs.oracle.com/iaas/Content/connector-hub/get-service-connector.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -407,7 +407,7 @@ namespace Oci.SchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/GetServiceConnector.cs.html">here</a> to see an example of how to use GetServiceConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/GetServiceConnector.cs.html">here</a> to see an example of how to use GetServiceConnector API.</example>
         public async Task<GetServiceConnectorResponse> GetServiceConnector(GetServiceConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getServiceConnector");
@@ -458,7 +458,7 @@ namespace Oci.SchService
         /// <summary>
         /// Gets the details of the specified work request.
         /// For more information, see
-        /// [Getting a Work Request&#39;s Details](https://docs.cloud.oracle.com/iaas/Content/connector-hub/get-work-request.htm).
+        /// [Getting a Work Request&#39;s Details](https://docs.oracle.com/iaas/Content/connector-hub/get-work-request.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -466,7 +466,7 @@ namespace Oci.SchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/GetWorkRequest.cs.html">here</a> to see an example of how to use GetWorkRequest API.</example>
         public async Task<GetWorkRequestResponse> GetWorkRequest(GetWorkRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getWorkRequest");
@@ -517,7 +517,7 @@ namespace Oci.SchService
         /// <summary>
         /// Lists connectors in the specified compartment.
         /// For more information, see
-        /// [Listing Connectors](https://docs.cloud.oracle.com/iaas/Content/connector-hub/list-service-connector.htm).
+        /// [Listing Connectors](https://docs.oracle.com/iaas/Content/connector-hub/list-service-connector.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -525,7 +525,7 @@ namespace Oci.SchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/ListServiceConnectors.cs.html">here</a> to see an example of how to use ListServiceConnectors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/ListServiceConnectors.cs.html">here</a> to see an example of how to use ListServiceConnectors API.</example>
         public async Task<ListServiceConnectorsResponse> ListServiceConnectors(ListServiceConnectorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listServiceConnectors");
@@ -576,7 +576,7 @@ namespace Oci.SchService
         /// <summary>
         /// Lists work request errors for the specified work request. Results are paginated.
         /// For more information, see
-        /// [Listing Work Request Errors](https://docs.cloud.oracle.com/iaas/Content/connector-hub/list-work-request-error.htm).
+        /// [Listing Work Request Errors](https://docs.oracle.com/iaas/Content/connector-hub/list-work-request-error.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -584,7 +584,7 @@ namespace Oci.SchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/ListWorkRequestErrors.cs.html">here</a> to see an example of how to use ListWorkRequestErrors API.</example>
         public async Task<ListWorkRequestErrorsResponse> ListWorkRequestErrors(ListWorkRequestErrorsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestErrors");
@@ -635,7 +635,7 @@ namespace Oci.SchService
         /// <summary>
         /// Lists logs for the specified work request. Results are paginated.
         /// For more information, see
-        /// [Listing Work Request Log Entries](https://docs.cloud.oracle.com/iaas/Content/connector-hub/list-work-request-log-entry.htm).
+        /// [Listing Work Request Log Entries](https://docs.oracle.com/iaas/Content/connector-hub/list-work-request-log-entry.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -643,7 +643,7 @@ namespace Oci.SchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/ListWorkRequestLogs.cs.html">here</a> to see an example of how to use ListWorkRequestLogs API.</example>
         public async Task<ListWorkRequestLogsResponse> ListWorkRequestLogs(ListWorkRequestLogsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequestLogs");
@@ -694,7 +694,7 @@ namespace Oci.SchService
         /// <summary>
         /// Lists the work requests in the specified compartment.
         /// For more information, see
-        /// [Listing Work Requests](https://docs.cloud.oracle.com/iaas/Content/connector-hub/list-work-request.htm).
+        /// [Listing Work Requests](https://docs.oracle.com/iaas/Content/connector-hub/list-work-request.htm).
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -702,7 +702,7 @@ namespace Oci.SchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/ListWorkRequests.cs.html">here</a> to see an example of how to use ListWorkRequests API.</example>
         public async Task<ListWorkRequestsResponse> ListWorkRequests(ListWorkRequestsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listWorkRequests");
@@ -753,7 +753,7 @@ namespace Oci.SchService
         /// <summary>
         /// Updates the configuration information for the specified connector.
         /// For more information, see
-        /// [Updating a Connector](https://docs.cloud.oracle.com/iaas/Content/connector-hub/update-service-connector.htm).
+        /// [Updating a Connector](https://docs.oracle.com/iaas/Content/connector-hub/update-service-connector.htm).
         /// &lt;br/&gt;
         /// After you send your request, the connector&#39;s state is temporarily
         /// UPDATING and any data transfer pauses. The state then changes back to its
@@ -765,7 +765,7 @@ namespace Oci.SchService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/UpdateServiceConnector.cs.html">here</a> to see an example of how to use UpdateServiceConnector API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/sch/UpdateServiceConnector.cs.html">here</a> to see an example of how to use UpdateServiceConnector API.</example>
         public async Task<UpdateServiceConnectorResponse> UpdateServiceConnector(UpdateServiceConnectorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateServiceConnector");

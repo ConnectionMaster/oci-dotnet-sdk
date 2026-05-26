@@ -40,7 +40,7 @@ namespace Oci.AilanguageService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the model to associate with the endpoint.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the model to associate with the endpoint.
         /// </value>
         [JsonProperty(PropertyName = "modelId")]
         public string ModelId { get; set; }

@@ -81,7 +81,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/ChangeManagementDashboardsCompartment.cs.html">here</a> to see an example of how to use ChangeManagementDashboardsCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/ChangeManagementDashboardsCompartment.cs.html">here</a> to see an example of how to use ChangeManagementDashboardsCompartment API.</example>
         public async Task<ChangeManagementDashboardsCompartmentResponse> ChangeManagementDashboardsCompartment(ChangeManagementDashboardsCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeManagementDashboardsCompartment");
@@ -138,7 +138,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/ChangeManagementSavedSearchesCompartment.cs.html">here</a> to see an example of how to use ChangeManagementSavedSearchesCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/ChangeManagementSavedSearchesCompartment.cs.html">here</a> to see an example of how to use ChangeManagementSavedSearchesCompartment API.</example>
         public async Task<ChangeManagementSavedSearchesCompartmentResponse> ChangeManagementSavedSearchesCompartment(ChangeManagementSavedSearchesCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeManagementSavedSearchesCompartment");
@@ -198,7 +198,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/CreateManagementDashboard.cs.html">here</a> to see an example of how to use CreateManagementDashboard API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/CreateManagementDashboard.cs.html">here</a> to see an example of how to use CreateManagementDashboard API.</example>
         public async Task<CreateManagementDashboardResponse> CreateManagementDashboard(CreateManagementDashboardRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createManagementDashboard");
@@ -258,7 +258,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/CreateManagementSavedSearch.cs.html">here</a> to see an example of how to use CreateManagementSavedSearch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/CreateManagementSavedSearch.cs.html">here</a> to see an example of how to use CreateManagementSavedSearch API.</example>
         public async Task<CreateManagementSavedSearchResponse> CreateManagementSavedSearch(CreateManagementSavedSearchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createManagementSavedSearch");
@@ -314,7 +314,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/DeleteManagementDashboard.cs.html">here</a> to see an example of how to use DeleteManagementDashboard API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/DeleteManagementDashboard.cs.html">here</a> to see an example of how to use DeleteManagementDashboard API.</example>
         public async Task<DeleteManagementDashboardResponse> DeleteManagementDashboard(DeleteManagementDashboardRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteManagementDashboard");
@@ -370,7 +370,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/DeleteManagementSavedSearch.cs.html">here</a> to see an example of how to use DeleteManagementSavedSearch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/DeleteManagementSavedSearch.cs.html">here</a> to see an example of how to use DeleteManagementSavedSearch API.</example>
         public async Task<DeleteManagementSavedSearchResponse> DeleteManagementSavedSearch(DeleteManagementSavedSearchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteManagementSavedSearch");
@@ -429,7 +429,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/ExportDashboard.cs.html">here</a> to see an example of how to use ExportDashboard API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/ExportDashboard.cs.html">here</a> to see an example of how to use ExportDashboard API.</example>
         public async Task<ExportDashboardResponse> ExportDashboard(ExportDashboardRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called exportDashboard");
@@ -485,7 +485,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/GetManagementDashboard.cs.html">here</a> to see an example of how to use GetManagementDashboard API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/GetManagementDashboard.cs.html">here</a> to see an example of how to use GetManagementDashboard API.</example>
         public async Task<GetManagementDashboardResponse> GetManagementDashboard(GetManagementDashboardRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getManagementDashboard");
@@ -541,7 +541,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/GetManagementSavedSearch.cs.html">here</a> to see an example of how to use GetManagementSavedSearch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/GetManagementSavedSearch.cs.html">here</a> to see an example of how to use GetManagementSavedSearch API.</example>
         public async Task<GetManagementSavedSearchResponse> GetManagementSavedSearch(GetManagementSavedSearchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getManagementSavedSearch");
@@ -597,7 +597,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/GetOobManagementDashboard.cs.html">here</a> to see an example of how to use GetOobManagementDashboard API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/GetOobManagementDashboard.cs.html">here</a> to see an example of how to use GetOobManagementDashboard API.</example>
         public async Task<GetOobManagementDashboardResponse> GetOobManagementDashboard(GetOobManagementDashboardRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOobManagementDashboard");
@@ -653,7 +653,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/GetOobManagementSavedSearch.cs.html">here</a> to see an example of how to use GetOobManagementSavedSearch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/GetOobManagementSavedSearch.cs.html">here</a> to see an example of how to use GetOobManagementSavedSearch API.</example>
         public async Task<GetOobManagementSavedSearchResponse> GetOobManagementSavedSearch(GetOobManagementSavedSearchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOobManagementSavedSearch");
@@ -715,7 +715,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/ImportDashboard.cs.html">here</a> to see an example of how to use ImportDashboard API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/ImportDashboard.cs.html">here</a> to see an example of how to use ImportDashboard API.</example>
         public async Task<ImportDashboardResponse> ImportDashboard(ImportDashboardRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called importDashboard");
@@ -771,7 +771,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/ListManagementDashboards.cs.html">here</a> to see an example of how to use ListManagementDashboards API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/ListManagementDashboards.cs.html">here</a> to see an example of how to use ListManagementDashboards API.</example>
         public async Task<ListManagementDashboardsResponse> ListManagementDashboards(ListManagementDashboardsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagementDashboards");
@@ -827,7 +827,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/ListManagementSavedSearches.cs.html">here</a> to see an example of how to use ListManagementSavedSearches API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/ListManagementSavedSearches.cs.html">here</a> to see an example of how to use ListManagementSavedSearches API.</example>
         public async Task<ListManagementSavedSearchesResponse> ListManagementSavedSearches(ListManagementSavedSearchesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listManagementSavedSearches");
@@ -883,7 +883,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/ListOobManagementDashboards.cs.html">here</a> to see an example of how to use ListOobManagementDashboards API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/ListOobManagementDashboards.cs.html">here</a> to see an example of how to use ListOobManagementDashboards API.</example>
         public async Task<ListOobManagementDashboardsResponse> ListOobManagementDashboards(ListOobManagementDashboardsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOobManagementDashboards");
@@ -939,7 +939,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/ListOobManagementSavedSearches.cs.html">here</a> to see an example of how to use ListOobManagementSavedSearches API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/ListOobManagementSavedSearches.cs.html">here</a> to see an example of how to use ListOobManagementSavedSearches API.</example>
         public async Task<ListOobManagementSavedSearchesResponse> ListOobManagementSavedSearches(ListOobManagementSavedSearchesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOobManagementSavedSearches");
@@ -996,7 +996,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/UpdateManagementDashboard.cs.html">here</a> to see an example of how to use UpdateManagementDashboard API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/UpdateManagementDashboard.cs.html">here</a> to see an example of how to use UpdateManagementDashboard API.</example>
         public async Task<UpdateManagementDashboardResponse> UpdateManagementDashboard(UpdateManagementDashboardRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateManagementDashboard");
@@ -1053,7 +1053,7 @@ namespace Oci.ManagementdashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/UpdateManagementSavedSearch.cs.html">here</a> to see an example of how to use UpdateManagementSavedSearch API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/managementdashboard/UpdateManagementSavedSearch.cs.html">here</a> to see an example of how to use UpdateManagementSavedSearch API.</example>
         public async Task<UpdateManagementSavedSearchResponse> UpdateManagementSavedSearch(UpdateManagementSavedSearchRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateManagementSavedSearch");

@@ -14,13 +14,13 @@ using Oci.JmsService.Models;
 namespace Oci.JmsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeleteTaskSchedule.cs.html">here</a> to see an example of how to use DeleteTaskSchedule request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/jms/DeleteTaskSchedule.cs.html">here</a> to see an example of how to use DeleteTaskSchedule request.
     /// </example>
     public class DeleteTaskScheduleRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) to identify this task schedule.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) to identify this task schedule.
         /// </value>
         /// <remarks>
         /// Required

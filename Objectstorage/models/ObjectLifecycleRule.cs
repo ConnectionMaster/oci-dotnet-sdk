@@ -18,7 +18,7 @@ namespace Oci.ObjectstorageService.Models
     /// <summary>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you are not authorized,
     /// talk to an administrator. If you are an administrator who needs to write policies to give users access, see
-    /// [Getting Started with Policies](https://docs.cloud.oracle.com/Content/Identity/Concepts/policygetstarted.htm).
+    /// [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/Concepts/policygetstarted.htm).
     /// 
     /// </summary>
     public class ObjectLifecycleRule 
@@ -51,7 +51,7 @@ namespace Oci.ObjectstorageService.Models
         /// <value>
         /// The action of the object lifecycle policy rule.
         /// Rules using the action 'ARCHIVE' move objects from Standard and InfrequentAccess storage tiers
-        /// into the [Archive storage tier](https://docs.cloud.oracle.com/Content/Archive/Concepts/archivestorageoverview.htm).
+        /// into the [Archive storage tier](https://docs.oracle.com/iaas/Content/Archive/Concepts/archivestorageoverview.htm).
         /// Rules using the action 'INFREQUENT_ACCESS' move objects from Standard storage tier into the
         /// Infrequent Access Storage tier. Objects that are already in InfrequentAccess tier or in Archive
         /// tier are left untouched.

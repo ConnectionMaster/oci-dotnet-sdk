@@ -81,7 +81,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ChangeOperatorControlAssignmentCompartment.cs.html">here</a> to see an example of how to use ChangeOperatorControlAssignmentCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ChangeOperatorControlAssignmentCompartment.cs.html">here</a> to see an example of how to use ChangeOperatorControlAssignmentCompartment API.</example>
         public async Task<ChangeOperatorControlAssignmentCompartmentResponse> ChangeOperatorControlAssignmentCompartment(ChangeOperatorControlAssignmentCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeOperatorControlAssignmentCompartment");
@@ -137,7 +137,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/CreateOperatorControlAssignment.cs.html">here</a> to see an example of how to use CreateOperatorControlAssignment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/CreateOperatorControlAssignment.cs.html">here</a> to see an example of how to use CreateOperatorControlAssignment API.</example>
         public async Task<CreateOperatorControlAssignmentResponse> CreateOperatorControlAssignment(CreateOperatorControlAssignmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createOperatorControlAssignment");
@@ -193,7 +193,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/DeleteOperatorControlAssignment.cs.html">here</a> to see an example of how to use DeleteOperatorControlAssignment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/DeleteOperatorControlAssignment.cs.html">here</a> to see an example of how to use DeleteOperatorControlAssignment API.</example>
         public async Task<DeleteOperatorControlAssignmentResponse> DeleteOperatorControlAssignment(DeleteOperatorControlAssignmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteOperatorControlAssignment");
@@ -250,7 +250,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/GetAssignmentValidationStatus.cs.html">here</a> to see an example of how to use GetAssignmentValidationStatus API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/GetAssignmentValidationStatus.cs.html">here</a> to see an example of how to use GetAssignmentValidationStatus API.</example>
         public async Task<GetAssignmentValidationStatusResponse> GetAssignmentValidationStatus(GetAssignmentValidationStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAssignmentValidationStatus");
@@ -306,7 +306,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/GetOperatorControlAssignment.cs.html">here</a> to see an example of how to use GetOperatorControlAssignment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/GetOperatorControlAssignment.cs.html">here</a> to see an example of how to use GetOperatorControlAssignment API.</example>
         public async Task<GetOperatorControlAssignmentResponse> GetOperatorControlAssignment(GetOperatorControlAssignmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getOperatorControlAssignment");
@@ -362,7 +362,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ListOperatorControlAssignments.cs.html">here</a> to see an example of how to use ListOperatorControlAssignments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ListOperatorControlAssignments.cs.html">here</a> to see an example of how to use ListOperatorControlAssignments API.</example>
         public async Task<ListOperatorControlAssignmentsResponse> ListOperatorControlAssignments(ListOperatorControlAssignmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listOperatorControlAssignments");
@@ -419,7 +419,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/UpdateOperatorControlAssignment.cs.html">here</a> to see an example of how to use UpdateOperatorControlAssignment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/UpdateOperatorControlAssignment.cs.html">here</a> to see an example of how to use UpdateOperatorControlAssignment API.</example>
         public async Task<UpdateOperatorControlAssignmentResponse> UpdateOperatorControlAssignment(UpdateOperatorControlAssignmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateOperatorControlAssignment");
@@ -476,7 +476,7 @@ namespace Oci.OperatoraccesscontrolService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ValidateOperatorAssignment.cs.html">here</a> to see an example of how to use ValidateOperatorAssignment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/operatoraccesscontrol/ValidateOperatorAssignment.cs.html">here</a> to see an example of how to use ValidateOperatorAssignment API.</example>
         public async Task<ValidateOperatorAssignmentResponse> ValidateOperatorAssignment(ValidateOperatorAssignmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called validateOperatorAssignment");

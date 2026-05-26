@@ -80,7 +80,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/CancelHsmClusterDeletion.cs.html">here</a> to see an example of how to use CancelHsmClusterDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/CancelHsmClusterDeletion.cs.html">here</a> to see an example of how to use CancelHsmClusterDeletion API.</example>
         public async Task<CancelHsmClusterDeletionResponse> CancelHsmClusterDeletion(CancelHsmClusterDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called cancelHsmClusterDeletion");
@@ -137,7 +137,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ChangeHsmClusterCompartment.cs.html">here</a> to see an example of how to use ChangeHsmClusterCompartment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ChangeHsmClusterCompartment.cs.html">here</a> to see an example of how to use ChangeHsmClusterCompartment API.</example>
         public async Task<ChangeHsmClusterCompartmentResponse> ChangeHsmClusterCompartment(ChangeHsmClusterCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeHsmClusterCompartment");
@@ -194,7 +194,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/CreateHsmCluster.cs.html">here</a> to see an example of how to use CreateHsmCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/CreateHsmCluster.cs.html">here</a> to see an example of how to use CreateHsmCluster API.</example>
         public async Task<CreateHsmClusterResponse> CreateHsmCluster(CreateHsmClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createHsmCluster");
@@ -251,7 +251,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/DisableAuditMgmtLogging.cs.html">here</a> to see an example of how to use DisableAuditMgmtLogging API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/DisableAuditMgmtLogging.cs.html">here</a> to see an example of how to use DisableAuditMgmtLogging API.</example>
         public async Task<DisableAuditMgmtLoggingResponse> DisableAuditMgmtLogging(DisableAuditMgmtLoggingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called disableAuditMgmtLogging");
@@ -308,7 +308,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/DownloadCertificateSigningRequest.cs.html">here</a> to see an example of how to use DownloadCertificateSigningRequest API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/DownloadCertificateSigningRequest.cs.html">here</a> to see an example of how to use DownloadCertificateSigningRequest API.</example>
         public async Task<DownloadCertificateSigningRequestResponse> DownloadCertificateSigningRequest(DownloadCertificateSigningRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called downloadCertificateSigningRequest");
@@ -367,7 +367,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/EnableAuditMgmtLogging.cs.html">here</a> to see an example of how to use EnableAuditMgmtLogging API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/EnableAuditMgmtLogging.cs.html">here</a> to see an example of how to use EnableAuditMgmtLogging API.</example>
         public async Task<EnableAuditMgmtLoggingResponse> EnableAuditMgmtLogging(EnableAuditMgmtLoggingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called enableAuditMgmtLogging");
@@ -429,7 +429,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetHsmCluster.cs.html">here</a> to see an example of how to use GetHsmCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetHsmCluster.cs.html">here</a> to see an example of how to use GetHsmCluster API.</example>
         public async Task<GetHsmClusterResponse> GetHsmCluster(GetHsmClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getHsmCluster");
@@ -486,7 +486,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetHsmPartition.cs.html">here</a> to see an example of how to use GetHsmPartition API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetHsmPartition.cs.html">here</a> to see an example of how to use GetHsmPartition API.</example>
         public async Task<GetHsmPartitionResponse> GetHsmPartition(GetHsmPartitionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getHsmPartition");
@@ -543,7 +543,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetPreCoUserCredentials.cs.html">here</a> to see an example of how to use GetPreCoUserCredentials API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/GetPreCoUserCredentials.cs.html">here</a> to see an example of how to use GetPreCoUserCredentials API.</example>
         public async Task<GetPreCoUserCredentialsResponse> GetPreCoUserCredentials(GetPreCoUserCredentialsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPreCoUserCredentials");
@@ -599,7 +599,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/InitiateAuditLogging.cs.html">here</a> to see an example of how to use InitiateAuditLogging API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/InitiateAuditLogging.cs.html">here</a> to see an example of how to use InitiateAuditLogging API.</example>
         public async Task<InitiateAuditLoggingResponse> InitiateAuditLogging(InitiateAuditLoggingRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called initiateAuditLogging");
@@ -661,7 +661,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ListHsmClusters.cs.html">here</a> to see an example of how to use ListHsmClusters API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ListHsmClusters.cs.html">here</a> to see an example of how to use ListHsmClusters API.</example>
         public async Task<ListHsmClustersResponse> ListHsmClusters(ListHsmClustersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listHsmClusters");
@@ -718,7 +718,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ListHsmPartitions.cs.html">here</a> to see an example of how to use ListHsmPartitions API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ListHsmPartitions.cs.html">here</a> to see an example of how to use ListHsmPartitions API.</example>
         public async Task<ListHsmPartitionsResponse> ListHsmPartitions(ListHsmPartitionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listHsmPartitions");
@@ -776,7 +776,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ScheduleHsmClusterDeletion.cs.html">here</a> to see an example of how to use ScheduleHsmClusterDeletion API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/ScheduleHsmClusterDeletion.cs.html">here</a> to see an example of how to use ScheduleHsmClusterDeletion API.</example>
         public async Task<ScheduleHsmClusterDeletionResponse> ScheduleHsmClusterDeletion(ScheduleHsmClusterDeletionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called scheduleHsmClusterDeletion");
@@ -832,7 +832,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/UpdateAuditLoggingDestination.cs.html">here</a> to see an example of how to use UpdateAuditLoggingDestination API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/UpdateAuditLoggingDestination.cs.html">here</a> to see an example of how to use UpdateAuditLoggingDestination API.</example>
         public async Task<UpdateAuditLoggingDestinationResponse> UpdateAuditLoggingDestination(UpdateAuditLoggingDestinationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateAuditLoggingDestination");
@@ -894,7 +894,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/UpdateHsmCluster.cs.html">here</a> to see an example of how to use UpdateHsmCluster API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/UpdateHsmCluster.cs.html">here</a> to see an example of how to use UpdateHsmCluster API.</example>
         public async Task<UpdateHsmClusterResponse> UpdateHsmCluster(UpdateHsmClusterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateHsmCluster");
@@ -951,7 +951,7 @@ namespace Oci.KeymanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/UploadPartitionCertificates.cs.html">here</a> to see an example of how to use UploadPartitionCertificates API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/keymanagement/UploadPartitionCertificates.cs.html">here</a> to see an example of how to use UploadPartitionCertificates API.</example>
         public async Task<UploadPartitionCertificatesResponse> UploadPartitionCertificates(UploadPartitionCertificatesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called uploadPartitionCertificates");

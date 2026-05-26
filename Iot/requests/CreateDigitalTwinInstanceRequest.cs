@@ -14,7 +14,7 @@ using Oci.IotService.Models;
 namespace Oci.IotService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/CreateDigitalTwinInstance.cs.html">here</a> to see an example of how to use CreateDigitalTwinInstance request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/iot/CreateDigitalTwinInstance.cs.html">here</a> to see an example of how to use CreateDigitalTwinInstance request.
     /// </example>
     public class CreateDigitalTwinInstanceRequest : Oci.Common.IOciRequest
     {

@@ -18,7 +18,7 @@ namespace Oci.MonitoringService.Models
     /// <summary>
     /// The properties that define a metric.
     /// For information about metrics, see
-    /// [Metrics Overview](https://docs.cloud.oracle.com/iaas/Content/Monitoring/Concepts/monitoringoverview.htm#MetricsOverview).
+    /// [Metrics Overview](https://docs.oracle.com/iaas/Content/Monitoring/Concepts/monitoringoverview.htm#MetricsOverview).
     /// 
     /// </summary>
     public class Metric 
@@ -50,7 +50,7 @@ namespace Oci.MonitoringService.Models
         public string ResourceGroup { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment containing
         /// the resources monitored by the metric.
         /// 
         /// </value>

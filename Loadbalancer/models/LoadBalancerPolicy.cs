@@ -18,7 +18,7 @@ namespace Oci.LoadbalancerService.Models
     /// <summary>
     /// A policy that determines how traffic is distributed among backend servers.
     /// For more information on load balancing policies, see
-    /// [How Load Balancing Policies Work](https://docs.cloud.oracle.com/Content/Balance/Reference/lbpolicies.htm).
+    /// [How Load Balancing Policies Work](https://docs.oracle.com/iaas/Content/Balance/Reference/lbpolicies.htm).
     /// 
     /// </summary>
     public class LoadBalancerPolicy 

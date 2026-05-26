@@ -14,13 +14,13 @@ using Oci.DatascienceService.Models;
 namespace Oci.DatascienceService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/HeadModelGroupArtifact.cs.html">here</a> to see an example of how to use HeadModelGroupArtifact request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datascience/HeadModelGroupArtifact.cs.html">here</a> to see an example of how to use HeadModelGroupArtifact request.
     /// </example>
     public class HeadModelGroupArtifactRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the modelGroup.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the modelGroup.
         /// </value>
         /// <remarks>
         /// Required

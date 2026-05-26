@@ -14,13 +14,13 @@ using Oci.GenerativeaiService.Models;
 namespace Oci.GenerativeaiService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeGenerativeAiProjectCompartment.cs.html">here</a> to see an example of how to use ChangeGenerativeAiProjectCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeai/ChangeGenerativeAiProjectCompartment.cs.html">here</a> to see an example of how to use ChangeGenerativeAiProjectCompartment request.
     /// </example>
     public class ChangeGenerativeAiProjectCompartmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the generativeAiProject.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the generativeAiProject.
         /// </value>
         /// <remarks>
         /// Required

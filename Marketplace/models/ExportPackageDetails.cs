@@ -22,7 +22,7 @@ namespace Oci.MarketplaceService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment where you want to export container image or helm chart.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment where you want to export container image or helm chart.
         /// </value>
         /// <remarks>
         /// Required

@@ -178,7 +178,7 @@ namespace Oci.GoldengateService.Models
         public string PrivateIp { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the security credentials are stored associated to the principal.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the security credentials are stored associated to the principal.
         /// Note: When provided, 'jndiSecurityCredentials' field must not be provided.
         /// 
         /// </value>
@@ -186,7 +186,7 @@ namespace Oci.GoldengateService.Models
         public string JndiSecurityCredentialsSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the password is stored,
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the password is stored,
         /// that Oracle GoldenGate uses to connect the associated Java Message Service.
         /// Note: When provided, 'password' field must not be provided.
         /// 
@@ -195,7 +195,7 @@ namespace Oci.GoldengateService.Models
         public string PasswordSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the content of the TrustStore file is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the content of the TrustStore file is stored.
         /// Note: When provided, 'trustStore' field must not be provided.
         /// 
         /// </value>
@@ -203,7 +203,7 @@ namespace Oci.GoldengateService.Models
         public string TrustStoreSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the TrustStore password is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the TrustStore password is stored.
         /// Note: When provided, 'trustStorePassword' field must not be provided.
         /// 
         /// </value>
@@ -211,7 +211,7 @@ namespace Oci.GoldengateService.Models
         public string TrustStorePasswordSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the content of the KeyStore file is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the content of the KeyStore file is stored.
         /// Note: When provided, 'keyStore' field must not be provided.
         /// 
         /// </value>
@@ -219,7 +219,7 @@ namespace Oci.GoldengateService.Models
         public string KeyStoreSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the KeyStore password is stored.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the KeyStore password is stored.
         /// Note: When provided, 'keyStorePassword' field must not be provided.
         /// 
         /// </value>
@@ -227,7 +227,7 @@ namespace Oci.GoldengateService.Models
         public string KeyStorePasswordSecretId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the Secret where the password is stored for the cert inside of the Keystore.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Secret where the password is stored for the cert inside of the Keystore.
         /// In case it differs from the KeyStore password, it should be provided.
         /// Note: When provided, 'sslKeyPassword' field must not be provided.
         /// 

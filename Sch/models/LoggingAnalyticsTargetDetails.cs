@@ -18,14 +18,14 @@ namespace Oci.SchService.Models
     /// <summary>
     /// The destination log group for data transferred from the source.
     /// For configuration instructions, see
-    /// [Creating a Connector](https://docs.cloud.oracle.com/iaas/Content/connector-hub/create-service-connector.htm).
+    /// [Creating a Connector](https://docs.oracle.com/iaas/Content/connector-hub/create-service-connector.htm).
     /// 
     /// </summary>
     public class LoggingAnalyticsTargetDetails : TargetDetails
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Logging Analytics log group.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Logging Analytics log group.
         /// 
         /// </value>
         /// <remarks>

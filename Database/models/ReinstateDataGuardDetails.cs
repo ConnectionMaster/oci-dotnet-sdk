@@ -36,7 +36,7 @@ namespace Oci.DatabaseService.Models
         public string DatabaseAdminPassword { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the source (primary) database in the Data Guard group.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the source (primary) database in the Data Guard group.
         /// </value>
         /// <remarks>
         /// Required

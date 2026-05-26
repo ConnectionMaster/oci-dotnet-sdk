@@ -14,7 +14,7 @@ using Oci.CapacitymanagementService.Models;
 namespace Oci.CapacitymanagementService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateOccCustomerGroup.cs.html">here</a> to see an example of how to use UpdateOccCustomerGroup request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/capacitymanagement/UpdateOccCustomerGroup.cs.html">here</a> to see an example of how to use UpdateOccCustomerGroup request.
     /// </example>
     public class UpdateOccCustomerGroupRequest : Oci.Common.IOciRequest
     {

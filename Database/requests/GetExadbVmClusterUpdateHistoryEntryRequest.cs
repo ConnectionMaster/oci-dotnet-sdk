@@ -14,13 +14,13 @@ using Oci.DatabaseService.Models;
 namespace Oci.DatabaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/GetExadbVmClusterUpdateHistoryEntry.cs.html">here</a> to see an example of how to use GetExadbVmClusterUpdateHistoryEntry request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/database/GetExadbVmClusterUpdateHistoryEntry.cs.html">here</a> to see an example of how to use GetExadbVmClusterUpdateHistoryEntry request.
     /// </example>
     public class GetExadbVmClusterUpdateHistoryEntryRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The Exadata VM cluster [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) on Exascale Infrastructure.
+        /// The Exadata VM cluster [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) on Exascale Infrastructure.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.DatabaseService.Requests
         public string ExadbVmClusterId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the maintenance update history entry.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the maintenance update history entry.
         /// </value>
         /// <remarks>
         /// Required

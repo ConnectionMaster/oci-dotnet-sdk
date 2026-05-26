@@ -23,7 +23,7 @@ namespace Oci.FilestorageService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the file system from which the snapshot
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the file system from which the snapshot
         /// was created.
         /// 
         /// </value>
@@ -35,7 +35,7 @@ namespace Oci.FilestorageService.Models
         public string FileSystemId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the snapshot.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the snapshot.
         /// </value>
         /// <remarks>
         /// Required
@@ -140,10 +140,10 @@ namespace Oci.FilestorageService.Models
         public System.Nullable<System.DateTime> SnapshotTime { get; set; }
         
         /// <value>
-        /// An [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) identifying the parent from which this snapshot was cloned.
+        /// An [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) identifying the parent from which this snapshot was cloned.
         /// If this snapshot was not cloned, then the `provenanceId` is the same as the snapshot `id` value.
         /// If this snapshot was cloned, then the `provenanceId` value is the parent's `provenanceId`.
-        /// See [Cloning a File System](https://docs.cloud.oracle.com/iaas/Content/File/Tasks/cloningFS.htm).
+        /// See [Cloning a File System](https://docs.oracle.com/iaas/Content/File/Tasks/cloningFS.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "provenanceId")]
@@ -151,7 +151,7 @@ namespace Oci.FilestorageService.Models
         
         /// <value>
         /// Specifies whether the snapshot has been cloned.
-        /// See [Cloning a File System](https://docs.cloud.oracle.com/iaas/Content/File/Tasks/cloningFS.htm).
+        /// See [Cloning a File System](https://docs.oracle.com/iaas/Content/File/Tasks/cloningFS.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isCloneSource")]
@@ -183,7 +183,7 @@ namespace Oci.FilestorageService.Models
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair
         ///  with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
         [JsonProperty(PropertyName = "freeformTags")]
@@ -191,7 +191,7 @@ namespace Oci.FilestorageService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Operations&quot;: {&quot;CostCenter&quot;: &quot;42&quot;}}
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]
@@ -212,7 +212,7 @@ namespace Oci.FilestorageService.Models
         public System.Nullable<System.DateTime> ExpirationTime { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the file system snapshot policy that created this snapshot.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the file system snapshot policy that created this snapshot.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "filesystemSnapshotPolicyId")]

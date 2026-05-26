@@ -43,7 +43,7 @@ namespace Oci.ComputecloudatcustomerService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The compartment [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) associated with
+        /// The compartment [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) associated with
         /// the infrastructure.
         /// 
         /// </value>

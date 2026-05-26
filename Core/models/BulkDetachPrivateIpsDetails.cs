@@ -22,7 +22,7 @@ namespace Oci.CoreService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC of which private IPs should be detached. The VNIC and private IPs must be in the same subnet.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC of which private IPs should be detached. The VNIC and private IPs must be in the same subnet.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "vnicId")]

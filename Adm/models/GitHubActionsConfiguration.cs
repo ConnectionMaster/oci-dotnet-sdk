@@ -35,7 +35,7 @@ namespace Oci.AdmService.Models
         public string RepositoryUrl { get; set; }
         
         /// <value>
-        /// The Oracle Cloud Identifier ([OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm)) of the Private Access Token (PAT) Secret.
+        /// The Oracle Cloud Identifier ([OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm)) of the Private Access Token (PAT) Secret.
         /// The PAT provides the credentials to access the GitHub Action.
         /// 
         /// </value>

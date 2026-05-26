@@ -80,7 +80,7 @@ namespace Oci.DashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dashboardservice/ChangeDashboardGroup.cs.html">here</a> to see an example of how to use ChangeDashboardGroup API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dashboardservice/ChangeDashboardGroup.cs.html">here</a> to see an example of how to use ChangeDashboardGroup API.</example>
         public async Task<ChangeDashboardGroupResponse> ChangeDashboardGroup(ChangeDashboardGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDashboardGroup");
@@ -142,7 +142,7 @@ namespace Oci.DashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dashboardservice/CreateDashboard.cs.html">here</a> to see an example of how to use CreateDashboard API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dashboardservice/CreateDashboard.cs.html">here</a> to see an example of how to use CreateDashboard API.</example>
         public async Task<CreateDashboardResponse> CreateDashboard(CreateDashboardRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDashboard");
@@ -198,7 +198,7 @@ namespace Oci.DashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dashboardservice/DeleteDashboard.cs.html">here</a> to see an example of how to use DeleteDashboard API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dashboardservice/DeleteDashboard.cs.html">here</a> to see an example of how to use DeleteDashboard API.</example>
         public async Task<DeleteDashboardResponse> DeleteDashboard(DeleteDashboardRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDashboard");
@@ -254,7 +254,7 @@ namespace Oci.DashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dashboardservice/GetDashboard.cs.html">here</a> to see an example of how to use GetDashboard API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dashboardservice/GetDashboard.cs.html">here</a> to see an example of how to use GetDashboard API.</example>
         public async Task<GetDashboardResponse> GetDashboard(GetDashboardRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDashboard");
@@ -311,7 +311,7 @@ namespace Oci.DashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dashboardservice/ListDashboards.cs.html">here</a> to see an example of how to use ListDashboards API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dashboardservice/ListDashboards.cs.html">here</a> to see an example of how to use ListDashboards API.</example>
         public async Task<ListDashboardsResponse> ListDashboards(ListDashboardsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDashboards");
@@ -367,7 +367,7 @@ namespace Oci.DashboardService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dashboardservice/UpdateDashboard.cs.html">here</a> to see an example of how to use UpdateDashboard API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/dashboardservice/UpdateDashboard.cs.html">here</a> to see an example of how to use UpdateDashboard API.</example>
         public async Task<UpdateDashboardResponse> UpdateDashboard(UpdateDashboardRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDashboard");

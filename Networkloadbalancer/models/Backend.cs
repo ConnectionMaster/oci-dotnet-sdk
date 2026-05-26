@@ -17,7 +17,7 @@ namespace Oci.NetworkloadbalancerService.Models
 {
     /// <summary>
     /// The configuration of a backend server that is a member of a network load balancer backend set.
-    /// For more information, see [Backend Servers for Network Load Balancers](https://docs.cloud.oracle.com/Content/NetworkLoadBalancer/BackendServers/backend-server-management.htm).
+    /// For more information, see [Backend Servers for Network Load Balancers](https://docs.oracle.com/iaas/Content/NetworkLoadBalancer/BackendServers/backend-server-management.htm).
     /// 
     /// </summary>
     public class Backend 
@@ -62,7 +62,7 @@ namespace Oci.NetworkloadbalancerService.Models
         /// proportion of incoming traffic. For example, a server weighted '3' receives three times the number of new connections
         /// as a server weighted '1'.
         /// For more information about network load balancing policies, see
-        /// [Network Load Balancer Policies](https://docs.cloud.oracle.com/Content/NetworkLoadBalancer/introduction.htm#Policies).
+        /// [Network Load Balancer Policies](https://docs.oracle.com/iaas/Content/NetworkLoadBalancer/introduction.htm#Policies).
         /// <br/>
         /// Example: 3
         /// </value>

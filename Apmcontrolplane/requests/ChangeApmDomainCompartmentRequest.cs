@@ -14,7 +14,7 @@ using Oci.ApmcontrolplaneService.Models;
 namespace Oci.ApmcontrolplaneService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmcontrolplane/ChangeApmDomainCompartment.cs.html">here</a> to see an example of how to use ChangeApmDomainCompartment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/apmcontrolplane/ChangeApmDomainCompartment.cs.html">here</a> to see an example of how to use ChangeApmDomainCompartment request.
     /// </example>
     public class ChangeApmDomainCompartmentRequest : Oci.Common.IOciRequest
     {

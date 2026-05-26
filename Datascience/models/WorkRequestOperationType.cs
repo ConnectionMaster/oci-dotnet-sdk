@@ -111,6 +111,12 @@ namespace Oci.DatascienceService.Models
       RegisterModelArtifact,
       [EnumMember(Value = "RESTORE_ARCHIVED_MODEL")]
       RestoreArchivedModel,
+      [EnumMember(Value = "COMPUTE_TARGET_CREATE")]
+      ComputeTargetCreate,
+      [EnumMember(Value = "COMPUTE_TARGET_UPDATE")]
+      ComputeTargetUpdate,
+      [EnumMember(Value = "COMPUTE_TARGET_DELETE")]
+      ComputeTargetDelete,
       [EnumMember(Value = "MODEL_GROUP_CREATE")]
       ModelGroupCreate,
       [EnumMember(Value = "MODEL_GROUP_UPDATE")]

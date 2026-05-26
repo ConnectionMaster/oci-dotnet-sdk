@@ -81,7 +81,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/CreateMaintenanceWindow.cs.html">here</a> to see an example of how to use CreateMaintenanceWindow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/CreateMaintenanceWindow.cs.html">here</a> to see an example of how to use CreateMaintenanceWindow API.</example>
         public async Task<CreateMaintenanceWindowResponse> CreateMaintenanceWindow(CreateMaintenanceWindowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createMaintenanceWindow");
@@ -137,7 +137,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/DeleteMaintenanceWindow.cs.html">here</a> to see an example of how to use DeleteMaintenanceWindow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/DeleteMaintenanceWindow.cs.html">here</a> to see an example of how to use DeleteMaintenanceWindow API.</example>
         public async Task<DeleteMaintenanceWindowResponse> DeleteMaintenanceWindow(DeleteMaintenanceWindowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteMaintenanceWindow");
@@ -193,7 +193,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetMaintenanceWindow.cs.html">here</a> to see an example of how to use GetMaintenanceWindow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/GetMaintenanceWindow.cs.html">here</a> to see an example of how to use GetMaintenanceWindow API.</example>
         public async Task<GetMaintenanceWindowResponse> GetMaintenanceWindow(GetMaintenanceWindowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getMaintenanceWindow");
@@ -251,7 +251,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListMaintenanceWindows.cs.html">here</a> to see an example of how to use ListMaintenanceWindows API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/ListMaintenanceWindows.cs.html">here</a> to see an example of how to use ListMaintenanceWindows API.</example>
         public async Task<ListMaintenanceWindowsResponse> ListMaintenanceWindows(ListMaintenanceWindowsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listMaintenanceWindows");
@@ -307,7 +307,7 @@ namespace Oci.FleetappsmanagementService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/UpdateMaintenanceWindow.cs.html">here</a> to see an example of how to use UpdateMaintenanceWindow API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/fleetappsmanagement/UpdateMaintenanceWindow.cs.html">here</a> to see an example of how to use UpdateMaintenanceWindow API.</example>
         public async Task<UpdateMaintenanceWindowResponse> UpdateMaintenanceWindow(UpdateMaintenanceWindowRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateMaintenanceWindow");

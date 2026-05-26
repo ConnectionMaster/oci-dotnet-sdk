@@ -14,7 +14,7 @@ using Oci.DatabasetoolsService.Models;
 namespace Oci.DatabasetoolsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetools/CreateDatabaseToolsMcpServer.cs.html">here</a> to see an example of how to use CreateDatabaseToolsMcpServer request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/databasetools/CreateDatabaseToolsMcpServer.cs.html">here</a> to see an example of how to use CreateDatabaseToolsMcpServer request.
     /// </example>
     public class CreateDatabaseToolsMcpServerRequest : Oci.Common.IOciRequest
     {

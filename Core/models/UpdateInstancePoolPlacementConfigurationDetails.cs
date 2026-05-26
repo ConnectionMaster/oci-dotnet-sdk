@@ -53,7 +53,7 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.List<string> FaultDomains { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the primary subnet in which to place instances. This field is deprecated.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the primary subnet in which to place instances. This field is deprecated.
         /// Use `primaryVnicSubnets` instead to set VNIC data for instances in the pool.
         /// 
         /// </value>

@@ -14,7 +14,7 @@ using Oci.OcicontrolcenterService.Models;
 namespace Oci.OcicontrolcenterService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocicontrolcenter/ListNamespaces.cs.html">here</a> to see an example of how to use ListNamespaces request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/ocicontrolcenter/ListNamespaces.cs.html">here</a> to see an example of how to use ListNamespaces request.
     /// </example>
     public class ListNamespacesRequest : Oci.Common.IOciRequest
     {

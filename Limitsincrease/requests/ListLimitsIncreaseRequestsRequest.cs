@@ -14,13 +14,13 @@ using Oci.LimitsincreaseService.Models;
 namespace Oci.LimitsincreaseService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/ListLimitsIncreaseRequests.cs.html">here</a> to see an example of how to use ListLimitsIncreaseRequests request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/limitsincrease/ListLimitsIncreaseRequests.cs.html">here</a> to see an example of how to use ListLimitsIncreaseRequests request.
     /// </example>
     public class ListLimitsIncreaseRequestsRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the parent compartment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the parent compartment.
         /// Note: The tenancy is the root compartment.
         /// 
         /// </value>

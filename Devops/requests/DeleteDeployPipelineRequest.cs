@@ -14,7 +14,7 @@ using Oci.DevopsService.Models;
 namespace Oci.DevopsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteDeployPipeline.cs.html">here</a> to see an example of how to use DeleteDeployPipeline request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/devops/DeleteDeployPipeline.cs.html">here</a> to see an example of how to use DeleteDeployPipeline request.
     /// </example>
     public class DeleteDeployPipelineRequest : Oci.Common.IOciRequest
     {

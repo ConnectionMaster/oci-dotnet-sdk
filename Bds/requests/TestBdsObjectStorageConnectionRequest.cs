@@ -14,7 +14,7 @@ using Oci.BdsService.Models;
 namespace Oci.BdsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/TestBdsObjectStorageConnection.cs.html">here</a> to see an example of how to use TestBdsObjectStorageConnection request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/bds/TestBdsObjectStorageConnection.cs.html">here</a> to see an example of how to use TestBdsObjectStorageConnection request.
     /// </example>
     public class TestBdsObjectStorageConnectionRequest : Oci.Common.IOciRequest
     {

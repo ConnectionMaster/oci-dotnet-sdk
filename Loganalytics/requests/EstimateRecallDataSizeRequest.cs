@@ -14,7 +14,7 @@ using Oci.LoganalyticsService.Models;
 namespace Oci.LoganalyticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/EstimateRecallDataSize.cs.html">here</a> to see an example of how to use EstimateRecallDataSize request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/EstimateRecallDataSize.cs.html">here</a> to see an example of how to use EstimateRecallDataSize request.
     /// </example>
     public class EstimateRecallDataSizeRequest : Oci.Common.IOciRequest
     {

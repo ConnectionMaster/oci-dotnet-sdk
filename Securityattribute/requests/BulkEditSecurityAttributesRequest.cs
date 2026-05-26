@@ -14,7 +14,7 @@ using Oci.SecurityattributeService.Models;
 namespace Oci.SecurityattributeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/BulkEditSecurityAttributes.cs.html">here</a> to see an example of how to use BulkEditSecurityAttributes request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/securityattribute/BulkEditSecurityAttributes.cs.html">here</a> to see an example of how to use BulkEditSecurityAttributes request.
     /// </example>
     public class BulkEditSecurityAttributesRequest : Oci.Common.IOciRequest
     {

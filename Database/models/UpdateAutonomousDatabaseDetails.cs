@@ -175,7 +175,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
         /// </value>
@@ -184,7 +184,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Defined tags for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "definedTags")]
@@ -192,7 +192,7 @@ namespace Oci.DatabaseService.Models
         
         /// <value>
         /// Security Attributes for this resource. Each key is predefined and scoped to a namespace.
-        /// For more information, see [Resource Tags](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
+        /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Oracle-ZPR&quot;: {&quot;MaxEgressCount&quot;: {&quot;value&quot;: &quot;42&quot;, &quot;mode&quot;: &quot;audit&quot;}}}
         /// </value>
         [JsonProperty(PropertyName = "securityAttributes")]
@@ -207,6 +207,7 @@ namespace Oci.DatabaseService.Models
         /// - LH - indicates an Oracle Autonomous AI Lakehouse database
         /// <br/>
         /// **Note** Starting December 2026, DW will not be supported as a valid value for this parameter.
+        /// When creating an Autonomous AI Database, if this parameter is not specified, the default value is `OLTP`.
         /// <br/>
         /// 
         /// This cannot be updated in parallel with any of the following: licenseModel, dbEdition, cpuCoreCount, computeCount, computeModel, adminPassword, whitelistedIps, isMTLSConnectionRequired, privateEndpointLabel, nsgIds, dbVersion, isRefreshable, dbName, scheduledOperations, dbToolsDetails, isLocalDataGuardEnabled, or isFreeTier.
@@ -235,6 +236,7 @@ namespace Oci.DatabaseService.Models
         /// - LH - indicates an Oracle Autonomous AI Lakehouse database
         /// <br/>
         /// **Note** Starting December 2026, DW will not be supported as a valid value for this parameter.
+        /// When creating an Autonomous AI Database, if this parameter is not specified, the default value is `OLTP`.
         /// <br/>
         /// 
         /// This cannot be updated in parallel with any of the following: licenseModel, dbEdition, cpuCoreCount, computeCount, computeModel, adminPassword, whitelistedIps, isMTLSConnectionRequired, privateEndpointLabel, nsgIds, dbVersion, isRefreshable, dbName, scheduledOperations, dbToolsDetails, isLocalDataGuardEnabled, or isFreeTier.
@@ -392,6 +394,8 @@ namespace Oci.DatabaseService.Models
         /// The database OCID(/Content/General/Concepts/identifiers.htm) of the Disaster Recovery peer (source Primary) database, which is located in a different (remote) region from the current peer database.
         /// <br/>
         /// To create or delete a local (in-region) standby, see the `isDataGuardEnabled` parameter.
+        /// <br/>
+        /// When disconnecting a cross-region standby, specify the standby database OCID in this parameter together with `isDisconnectPeer=true`.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "peerDbId")]
@@ -458,7 +462,7 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<PermissionLevelEnum> PermissionLevel { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the subnet the resource is associated with.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet the resource is associated with.
         /// <br/>
         /// **Subnet Restrictions:**
         /// - For bare metal DB systems and for single node virtual machine DB systems, do not use a subnet that overlaps with 192.168.16.16/28.
@@ -492,7 +496,7 @@ namespace Oci.DatabaseService.Models
         public string PrivateEndpointIp { get; set; }
         
         /// <value>
-        /// The list of [OCIDs](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) for the network security groups (NSGs) to which this resource belongs. Setting this to an empty list removes all resources from all NSGs. For more information about NSGs, see [Security Rules](https://docs.cloud.oracle.com/Content/Network/Concepts/securityrules.htm).
+        /// The list of [OCIDs](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the network security groups (NSGs) to which this resource belongs. Setting this to an empty list removes all resources from all NSGs. For more information about NSGs, see [Security Rules](https://docs.oracle.com/iaas/Content/Network/Concepts/securityrules.htm).
         /// **NsgIds restrictions:**
         /// - A network security group (NSG) is optional for Autonomous AI Databases with private access. The nsgIds list can be empty.
         /// 
@@ -545,7 +549,7 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<bool> IsMtlsConnectionRequired { get; set; }
         
         /// <value>
-        /// The unique identifier for leader Autonomous AI Database OCID [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// The unique identifier for leader Autonomous AI Database OCID [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         [JsonProperty(PropertyName = "resourcePoolLeaderId")]
         public string ResourcePoolLeaderId { get; set; }
@@ -663,16 +667,18 @@ namespace Oci.DatabaseService.Models
         public AutonomousDatabaseEncryptionKeyDetails EncryptionKey { get; set; }
         
         /// <value>
-        /// If true, this will disconnect the Autonomous AI Database from its peer and the Autonomous AI Database can work permanently as a standalone database.
+        /// If true, this disconnects the Autonomous AI Database from its peer. After the disconnect completes, the Autonomous AI Database works permanently as a standalone database.
         /// <br/>
-        /// To disconnect a cross region standby, please also provide the OCID of the standby database in the `peerDbId` parameter.
+        /// **Warning:** A disconnected standby is no longer part of the disaster recovery configuration. Operations and restrictions that apply to a connected standby do not apply in the same way after the database has been disconnected.
+        /// <br/>
+        /// To disconnect a cross region standby, also provide the OCID of the standby database in the `peerDbId` parameter.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "isDisconnectPeer")]
         public System.Nullable<bool> IsDisconnectPeer { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of a dedicated resource pool leader Autonomous AI Database in the same region, that is required when local Autonomous Data Guard is enabled for a dedicated resource pool member using the parameter `isLocalDataGuardEnabled`.  
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a dedicated resource pool leader Autonomous AI Database in the same region, that is required when local Autonomous Data Guard is enabled for a dedicated resource pool member using the parameter `isLocalDataGuardEnabled`.  
         /// This field applies only to dedicated resource pool members, and the specified leader must be different from the primary\u2019s leader.
         /// Local Autonomous Data Guard can be enabled only if more than one dedicated resource pool exists in the region.
         /// 

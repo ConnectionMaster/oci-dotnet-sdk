@@ -14,7 +14,7 @@ using Oci.CloudguardService.Models;
 namespace Oci.CloudguardService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudguard/ListWlpAgents.cs.html">here</a> to see an example of how to use ListWlpAgents request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/cloudguard/ListWlpAgents.cs.html">here</a> to see an example of how to use ListWlpAgents request.
     /// </example>
     public class ListWlpAgentsRequest : Oci.Common.IOciRequest
     {

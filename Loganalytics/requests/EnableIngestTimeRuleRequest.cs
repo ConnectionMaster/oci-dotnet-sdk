@@ -14,7 +14,7 @@ using Oci.LoganalyticsService.Models;
 namespace Oci.LoganalyticsService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/EnableIngestTimeRule.cs.html">here</a> to see an example of how to use EnableIngestTimeRule request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/loganalytics/EnableIngestTimeRule.cs.html">here</a> to see an example of how to use EnableIngestTimeRule request.
     /// </example>
     public class EnableIngestTimeRuleRequest : Oci.Common.IOciRequest
     {

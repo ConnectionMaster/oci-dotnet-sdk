@@ -80,7 +80,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/CreateDomainGovernance.cs.html">here</a> to see an example of how to use CreateDomainGovernance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/CreateDomainGovernance.cs.html">here</a> to see an example of how to use CreateDomainGovernance API.</example>
         public async Task<CreateDomainGovernanceResponse> CreateDomainGovernance(CreateDomainGovernanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDomainGovernance");
@@ -136,7 +136,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/DeleteDomainGovernance.cs.html">here</a> to see an example of how to use DeleteDomainGovernance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/DeleteDomainGovernance.cs.html">here</a> to see an example of how to use DeleteDomainGovernance API.</example>
         public async Task<DeleteDomainGovernanceResponse> DeleteDomainGovernance(DeleteDomainGovernanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDomainGovernance");
@@ -192,7 +192,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/GetDomainGovernance.cs.html">here</a> to see an example of how to use GetDomainGovernance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/GetDomainGovernance.cs.html">here</a> to see an example of how to use GetDomainGovernance API.</example>
         public async Task<GetDomainGovernanceResponse> GetDomainGovernance(GetDomainGovernanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDomainGovernance");
@@ -249,7 +249,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/ListDomainGovernances.cs.html">here</a> to see an example of how to use ListDomainGovernances API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/ListDomainGovernances.cs.html">here</a> to see an example of how to use ListDomainGovernances API.</example>
         public async Task<ListDomainGovernancesResponse> ListDomainGovernances(ListDomainGovernancesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDomainGovernances");
@@ -305,7 +305,7 @@ namespace Oci.TenantmanagercontrolplaneService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/UpdateDomainGovernance.cs.html">here</a> to see an example of how to use UpdateDomainGovernance API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/tenantmanagercontrolplane/UpdateDomainGovernance.cs.html">here</a> to see an example of how to use UpdateDomainGovernance API.</example>
         public async Task<UpdateDomainGovernanceResponse> UpdateDomainGovernance(UpdateDomainGovernanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDomainGovernance");

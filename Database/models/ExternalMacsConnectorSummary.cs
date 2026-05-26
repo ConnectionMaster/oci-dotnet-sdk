@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabaseService.Models
 {
     /// <summary>
-    /// An Oracle Cloud Infrastructure resource that uses the [Management Agent cloud service (MACS)](https://docs.cloud.oracle.com/iaas/management-agents/index.html) to connect to an external Oracle Database.
+    /// An Oracle Cloud Infrastructure resource that uses the [Management Agent cloud service (MACS)](https://docs.oracle.com/iaas/management-agents/index.html) to connect to an external Oracle Database.
     /// 
     /// </summary>
     public class ExternalMacsConnectorSummary : ExternalDatabaseConnectorSummary

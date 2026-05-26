@@ -1057,7 +1057,7 @@ namespace Oci.MysqlService.Models
         /// [innodb_buffer_pool_size](https://dev.mysql.com/doc/refman/en/innodb-parameters.html#sysvar_innodb_buffer_pool_size).
         /// <br/>
         /// The default and maximum values depend on the amount of RAM provisioned by the shape.
-        /// See [Default User Variables](https://docs.cloud.oracle.com/mysql-database/doc/configuring-db-system.html#GUID-B5504C19-F6F4-4DAB-8506-189A4E8F4A6A).
+        /// See [Default User Variables](https://docs.oracle.com/mysql-database/doc/configuring-db-system.html#GUID-B5504C19-F6F4-4DAB-8506-189A4E8F4A6A).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "innodbBufferPoolSize")]

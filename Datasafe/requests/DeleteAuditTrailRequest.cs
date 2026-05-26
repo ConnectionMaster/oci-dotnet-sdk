@@ -14,7 +14,7 @@ using Oci.DatasafeService.Models;
 namespace Oci.DatasafeService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteAuditTrail.cs.html">here</a> to see an example of how to use DeleteAuditTrail request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/DeleteAuditTrail.cs.html">here</a> to see an example of how to use DeleteAuditTrail request.
     /// </example>
     public class DeleteAuditTrailRequest : Oci.Common.IOciRequest
     {

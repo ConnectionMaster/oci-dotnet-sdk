@@ -81,7 +81,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/CreateTenancyAttachment.cs.html">here</a> to see an example of how to use CreateTenancyAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/CreateTenancyAttachment.cs.html">here</a> to see an example of how to use CreateTenancyAttachment API.</example>
         public async Task<CreateTenancyAttachmentResponse> CreateTenancyAttachment(CreateTenancyAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createTenancyAttachment");
@@ -137,7 +137,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/DeleteTenancyAttachment.cs.html">here</a> to see an example of how to use DeleteTenancyAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/DeleteTenancyAttachment.cs.html">here</a> to see an example of how to use DeleteTenancyAttachment API.</example>
         public async Task<DeleteTenancyAttachmentResponse> DeleteTenancyAttachment(DeleteTenancyAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteTenancyAttachment");
@@ -193,7 +193,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/GetTenancyAttachment.cs.html">here</a> to see an example of how to use GetTenancyAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/GetTenancyAttachment.cs.html">here</a> to see an example of how to use GetTenancyAttachment API.</example>
         public async Task<GetTenancyAttachmentResponse> GetTenancyAttachment(GetTenancyAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTenancyAttachment");
@@ -250,7 +250,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ListTenancyAttachments.cs.html">here</a> to see an example of how to use ListTenancyAttachments API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/ListTenancyAttachments.cs.html">here</a> to see an example of how to use ListTenancyAttachments API.</example>
         public async Task<ListTenancyAttachmentsResponse> ListTenancyAttachments(ListTenancyAttachmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listTenancyAttachments");
@@ -306,7 +306,7 @@ namespace Oci.ResourceanalyticsService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/UpdateTenancyAttachment.cs.html">here</a> to see an example of how to use UpdateTenancyAttachment API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/resourceanalytics/UpdateTenancyAttachment.cs.html">here</a> to see an example of how to use UpdateTenancyAttachment API.</example>
         public async Task<UpdateTenancyAttachmentResponse> UpdateTenancyAttachment(UpdateTenancyAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateTenancyAttachment");

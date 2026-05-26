@@ -30,7 +30,7 @@ namespace Oci.PsqlService.Models
         public string Ad { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the database instance node. This parameter is optional.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database instance node. This parameter is optional.
         /// If not set, an existing database instance node will be chosen based on availability.
         /// 
         /// </value>

@@ -14,13 +14,13 @@ using Oci.BatchService.Models;
 namespace Oci.BatchService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/GetBatchTaskEnvironment.cs.html">here</a> to see an example of how to use GetBatchTaskEnvironment request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/batch/GetBatchTaskEnvironment.cs.html">here</a> to see an example of how to use GetBatchTaskEnvironment request.
     /// </example>
     public class GetBatchTaskEnvironmentRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the batch task environment.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the batch task environment.
         /// </value>
         /// <remarks>
         /// Required

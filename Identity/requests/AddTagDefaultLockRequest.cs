@@ -14,7 +14,7 @@ using Oci.IdentityService.Models;
 namespace Oci.IdentityService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identity/AddTagDefaultLock.cs.html">here</a> to see an example of how to use AddTagDefaultLock request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identity/AddTagDefaultLock.cs.html">here</a> to see an example of how to use AddTagDefaultLock request.
     /// </example>
     public class AddTagDefaultLockRequest : Oci.Common.IOciRequest
     {

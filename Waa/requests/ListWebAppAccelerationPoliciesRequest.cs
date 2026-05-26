@@ -14,13 +14,13 @@ using Oci.WaaService.Models;
 namespace Oci.WaaService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/ListWebAppAccelerationPolicies.cs.html">here</a> to see an example of how to use ListWebAppAccelerationPolicies request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/waa/ListWebAppAccelerationPolicies.cs.html">here</a> to see an example of how to use ListWebAppAccelerationPolicies request.
     /// </example>
     public class ListWebAppAccelerationPoliciesRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// The [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm) of the compartment in which to list resources.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment in which to list resources.
         /// </value>
         /// <remarks>
         /// Required
@@ -42,7 +42,7 @@ namespace Oci.WaaService.Requests
         public string DisplayName { get; set; }
         
         /// <value>
-        /// A filter to return only the WebAppAccelerationPolicy with the given [OCID](https://docs.cloud.oracle.com/Content/General/Concepts/identifiers.htm).
+        /// A filter to return only the WebAppAccelerationPolicy with the given [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm).
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "id")]
         public string Id { get; set; }

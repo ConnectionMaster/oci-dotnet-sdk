@@ -14,7 +14,7 @@ using Oci.IdentityService.Models;
 namespace Oci.IdentityService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identity/EnableReplicationToRegion.cs.html">here</a> to see an example of how to use EnableReplicationToRegion request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/identity/EnableReplicationToRegion.cs.html">here</a> to see an example of how to use EnableReplicationToRegion request.
     /// </example>
     public class EnableReplicationToRegionRequest : Oci.Common.IOciRequest
     {

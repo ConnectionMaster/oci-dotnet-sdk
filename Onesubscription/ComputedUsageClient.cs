@@ -78,7 +78,7 @@ namespace Oci.OnesubscriptionService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/onesubscription/GetComputedUsage.cs.html">here</a> to see an example of how to use GetComputedUsage API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/onesubscription/GetComputedUsage.cs.html">here</a> to see an example of how to use GetComputedUsage API.</example>
         public async Task<GetComputedUsageResponse> GetComputedUsage(GetComputedUsageRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getComputedUsage");
@@ -135,7 +135,7 @@ namespace Oci.OnesubscriptionService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/onesubscription/ListAggregatedComputedUsages.cs.html">here</a> to see an example of how to use ListAggregatedComputedUsages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/onesubscription/ListAggregatedComputedUsages.cs.html">here</a> to see an example of how to use ListAggregatedComputedUsages API.</example>
         public async Task<ListAggregatedComputedUsagesResponse> ListAggregatedComputedUsages(ListAggregatedComputedUsagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAggregatedComputedUsages");
@@ -192,7 +192,7 @@ namespace Oci.OnesubscriptionService
         /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
         /// <param name="completionOption">The completion option for this operation. Optional.</param>
         /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/onesubscription/ListComputedUsages.cs.html">here</a> to see an example of how to use ListComputedUsages API.</example>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/onesubscription/ListComputedUsages.cs.html">here</a> to see an example of how to use ListComputedUsages API.</example>
         public async Task<ListComputedUsagesResponse> ListComputedUsages(ListComputedUsagesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listComputedUsages");

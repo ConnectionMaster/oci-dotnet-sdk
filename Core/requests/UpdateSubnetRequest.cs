@@ -14,13 +14,13 @@ using Oci.CoreService.Models;
 namespace Oci.CoreService.Requests
 {
     /// <example>
-    /// Click <a href="https://docs.cloud.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateSubnet.cs.html">here</a> to see an example of how to use UpdateSubnet request.
+    /// Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/core/UpdateSubnet.cs.html">here</a> to see an example of how to use UpdateSubnet request.
     /// </example>
     public class UpdateSubnetRequest : Oci.Common.IOciRequest
     {
         
         /// <value>
-        /// Specify the [OCID](https://docs.cloud.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet.
+        /// Specify the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subnet.
         /// </value>
         /// <remarks>
         /// Required
