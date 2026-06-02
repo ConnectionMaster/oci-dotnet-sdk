@@ -28,7 +28,9 @@ namespace Oci.GenerativeaiinferenceService.Models
         ///
         public enum TypeEnum {
             [EnumMember(Value = "TEXT")]
-            Text
+            Text,
+            [EnumMember(Value = "IMAGE")]
+            Image
         };
 
         
@@ -56,6 +58,9 @@ namespace Oci.GenerativeaiinferenceService.Models
             {
                 case "TEXT":
                     obj = new GuardrailsTextInput();
+                    break;
+                case "IMAGE":
+                    obj = new GuardrailsImageInput();
                     break;
             }
             serializer.Populate(jsonObject.CreateReader(), obj);

@@ -30,7 +30,7 @@ namespace Oci.DatabasemanagementService.Requests
         public string CloudDbSystemId { get; set; }
         
         /// <value>
-        /// The details required to enable Stack Monitoring for an cloud DB system.
+        /// The details required to enable Stack Monitoring for a cloud DB system.
         /// </value>
         /// <remarks>
         /// Required

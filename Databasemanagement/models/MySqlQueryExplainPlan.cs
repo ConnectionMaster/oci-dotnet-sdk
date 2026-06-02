@@ -16,13 +16,13 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
-    /// The explain plan for a given MySQL query.
+    /// The explain plan for a given MySQL query. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
     /// </summary>
     public class MySqlQueryExplainPlan 
     {
         
         /// <value>
-        /// The json format of the explain plan.
+        /// The JSON format of the explain plan.
         /// </value>
         /// <remarks>
         /// Required
@@ -32,7 +32,7 @@ namespace Oci.DatabasemanagementService.Models
         public string JsonExplain { get; set; }
         
         /// <value>
-        /// The version of the Json format of MySQL Explain.
+        /// The version of the JSON format of the MySQL explain plan.
         /// </value>
         /// <remarks>
         /// Required

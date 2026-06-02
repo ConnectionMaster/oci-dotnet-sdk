@@ -13,7 +13,7 @@ using System.Runtime.Serialization;
 namespace Oci.DatabasemanagementService.Models
 {
   /// <summary>
-  /// The type of MySQL Database installation.
+  /// The type of MySQL Database installation. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
   /// </summary>
   public enum MySqlDeploymentType {
       /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.

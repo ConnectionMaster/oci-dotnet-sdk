@@ -32,5 +32,12 @@ namespace Oci.OcvpService.Models
         [JsonProperty(PropertyName = "esxiSoftwareVersion")]
         public string EsxiSoftwareVersion { get; set; }
         
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Byol Allocation for VCF (VMware Cloud Foundation) deployment.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "vcfByolAllocationId")]
+        public string VcfByolAllocationId { get; set; }
+        
     }
 }

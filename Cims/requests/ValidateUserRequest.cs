@@ -20,14 +20,6 @@ namespace Oci.CimsService.Requests
     {
         
         /// <value>
-        /// The Customer Support Identifier (CSI) number associated with the support account.
-        /// The CSI is optional for all support request types.
-        /// 
-        /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "csi")]
-        public string Csi { get; set; }
-        
-        /// <value>
         /// Unique Oracle-assigned identifier for the request. If you need to contact Oracle about a particular request, please provide the request ID.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-request-id")]

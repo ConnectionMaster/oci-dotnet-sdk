@@ -106,9 +106,52 @@ namespace Oci.Common.Http
         {
             logger.Debug($"Setting endpoint to: {endpoint}");
 
+            Uri endpointUri = ValidateEndpoint(endpoint);
             // Track both plain and encoded endpoint for parity with Java implementation.
-            this.httpClient.BaseAddress = new Uri(endpoint);
+            this.httpClient.BaseAddress = endpointUri;
             this.encodedEndpoint = Uri.EscapeDataString(endpoint);
+        }
+
+        /// <summary>Validates the endpoint.</summary>
+        /// <param name="endpoint">The endpoint string to validate.</param>
+        /// <returns>The parsed endpoint URI.</returns>
+        /// <exception cref="ArgumentException">Thrown when the endpoint is invalid.</exception>
+        public static Uri ValidateEndpoint(string endpoint)
+        {
+            if (!Uri.TryCreate(endpoint, UriKind.Absolute, out Uri endpointUri))
+            {
+                throw new ArgumentException($"host is invalid. {endpoint}");
+            }
+
+            return ValidateEndpoint(endpointUri);
+        }
+
+        /// <summary>Validates the endpoint.</summary>
+        /// <param name="endpointUri">The endpoint URI to validate.</param>
+        /// <returns>The validated URI.</returns>
+        /// <exception cref="ArgumentException">Thrown when the endpoint is invalid.</exception>
+        public static Uri ValidateEndpoint(Uri endpointUri)
+        {
+            if (endpointUri == null)
+            {
+                throw new ArgumentNullException(nameof(endpointUri));
+            }
+
+            if (endpointUri.Scheme != Uri.UriSchemeHttp && endpointUri.Scheme != Uri.UriSchemeHttps)
+            {
+                throw new ArgumentException("host is invalid. endpoint scheme must be http or https");
+            }
+
+            bool hasUserInfo = !string.IsNullOrEmpty(endpointUri.UserInfo);
+            bool hasPath = !string.IsNullOrEmpty(endpointUri.AbsolutePath) && endpointUri.AbsolutePath != "/";
+            bool hasQuery = !string.IsNullOrEmpty(endpointUri.Query);
+            bool hasFragment = !string.IsNullOrEmpty(endpointUri.Fragment);
+            if (hasUserInfo || hasPath || hasQuery || hasFragment)
+            {
+                throw new ArgumentException("host is invalid. endpoint must not contain user info, path, query, or fragment");
+            }
+
+            return endpointUri;
         }
 
         /// <summary>

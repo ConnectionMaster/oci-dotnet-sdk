@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
-    /// Information pertaining to the binary logs of a MySQL server.
+    /// Information pertaining to the binary logs of a MySQL server. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
     /// </summary>
     public class ManagedMySqlDatabaseBinaryLogInformation 
     {

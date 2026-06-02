@@ -13,7 +13,7 @@ using System.Runtime.Serialization;
 namespace Oci.DatabasemanagementService.Models
 {
   /// <summary>
-  /// If the value is ON, the instance is configured as read_only. If the value is SUPER, the instance is configured as super_read_only. If the value is OFF, the instance is neither read_only nor super_read_only.
+  /// If the value is ON, the instance is configured as read_only. If the value is SUPER, the instance is configured as super_read_only. If the value is OFF, the instance is neither read_only nor super_read_only. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
   /// </summary>
   public enum MySqlReadOnly {
       /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.

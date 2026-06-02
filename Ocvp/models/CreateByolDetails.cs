@@ -118,6 +118,13 @@ namespace Oci.OcvpService.Models
         public string EntitlementKey { get; set; }
         
         /// <value>
+        /// The hyperscaler identifier in Broadcom systems.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "siteId")]
+        public string SiteId { get; set; }
+        
+        /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no
         /// predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>

@@ -16,17 +16,28 @@ using Newtonsoft.Json.Converters;
 namespace Oci.GenerativeaiinferenceService.Models
 {
     /// <summary>
-    /// Details for applying guardrails to the input text.
+    /// Details for applying guardrails to the input content.
+    /// Case 1: Use `input` for simple single-text moderation. Existing customers can continue to
+    /// use this field for the current text-only flow.
+    /// Case 2: Use `multimodalInput` for moderation over text, image, or a combination of both.
+    /// `multimodalInput` supports a single text item, an array of text items only, an array of
+    /// images only, or a mixed ordered combination of text and image items.
+    /// Clients may provide `input`, `multimodalInput`, or both. At least one of these fields must
+    /// be provided. If both `input` and `multimodalInput` are provided, the service will process
+    /// `input` and discard `multimodalInput`.
+    /// 
     /// </summary>
     public class ApplyGuardrailsDetails 
     {
         
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "Input is required.")]
         [JsonProperty(PropertyName = "input")]
         public GuardrailsInput Input { get; set; }
+        
+        /// <value>
+        /// An ordered list of text and image inputs for multimodal guardrail evaluation. This field supports a single text item, an array of text items only, an array of images only, or a mixed ordered combination of text and image items. If both `input` and `multimodalInput` are provided, this field is ignored.
+        /// </value>
+        [JsonProperty(PropertyName = "multimodalInput")]
+        public System.Collections.Generic.List<GuardrailsInput> MultimodalInput { get; set; }
         
         /// <remarks>
         /// Required

@@ -30,14 +30,6 @@ namespace Oci.CimsService.Requests
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The Customer Support Identifier (CSI) number associated with the support account.
-        /// The CSI is optional for all support request types.
-        /// 
-        /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "csi")]
-        public string Csi { get; set; }
-        
-        /// <value>
         /// For list pagination. The maximum number of results per page, or items to return in a paginated \"List\" call. For important details about how pagination works, see [List Pagination](https://docs.oracle.com/iaas/Content/API/Concepts/usingapi.htm#nine).
         /// 
         /// </value>
@@ -55,6 +47,12 @@ namespace Oci.CimsService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "sortOrder")]
         public System.Nullable<SortOrder> SortOrder { get; set; }
+        
+        /// <value>
+        /// Filter to return results updated only after the specified timestamp. Must be an RFC 3339 timestamp (e.g. 2025-12-07T17:42:54Z).
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "timeUpdatedGreaterThanOrEqualTo")]
+        public System.Nullable<System.DateTime> TimeUpdatedGreaterThanOrEqualTo { get; set; }
         
         /// <value>
         /// The current state of the ticket.

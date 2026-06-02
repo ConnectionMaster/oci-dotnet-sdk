@@ -74,7 +74,8 @@ namespace Oci.DatabasemanagementService
 
         /// <summary>
         /// Changes the management type for a HeatWave MySQL instance, from BASIC to FULL and vice versa.
-        /// It can also be used to enable or disable database management.
+        /// It can also be used to enable or disable Database Management.
+        /// MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -132,6 +133,7 @@ namespace Oci.DatabasemanagementService
 
         /// <summary>
         /// Retrieves information pertaining to the binary log of a specific MySQL server.
+        /// MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -189,6 +191,7 @@ namespace Oci.DatabasemanagementService
 
         /// <summary>
         /// Retrieves general information regarding the replication of a specific MySQL server.
+        /// MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -246,6 +249,7 @@ namespace Oci.DatabasemanagementService
 
         /// <summary>
         /// Gets the health metrics for a fleet of HeatWave clusters in a compartment.
+        /// MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -303,6 +307,7 @@ namespace Oci.DatabasemanagementService
 
         /// <summary>
         /// Retrieves the general information for a specific MySQL Database.
+        /// MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -360,6 +365,7 @@ namespace Oci.DatabasemanagementService
 
         /// <summary>
         /// Gets the health metrics for a fleet of MySQL Databases in a compartment.
+        /// MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -416,7 +422,8 @@ namespace Oci.DatabasemanagementService
         }
 
         /// <summary>
-        /// Retrieves query sample details, explain plan and potential warnings for a given digest.
+        /// Retrieves query sample details, explain plan, and potential warnings for a given digest.
+        /// MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -474,6 +481,7 @@ namespace Oci.DatabasemanagementService
 
         /// <summary>
         /// Retrieves information about the high availability members of a specific MySQL server&#39;s replication group.
+        /// MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -531,6 +539,7 @@ namespace Oci.DatabasemanagementService
 
         /// <summary>
         /// Retrieves information about the inbound replications of a specific MySQL server.
+        /// MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -588,6 +597,7 @@ namespace Oci.DatabasemanagementService
 
         /// <summary>
         /// Retrieves configuration data for a specific MySQL database.
+        /// MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -645,6 +655,7 @@ namespace Oci.DatabasemanagementService
 
         /// <summary>
         /// Retrieves the SQL performance data for a specific MySQL database.
+        /// MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -701,7 +712,8 @@ namespace Oci.DatabasemanagementService
         }
 
         /// <summary>
-        /// Gets the list of Managed MySQL Databases in a specific compartment.
+        /// Gets the list of Managed MySQL Databases in a specific compartment. 
+        /// MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -759,6 +771,7 @@ namespace Oci.DatabasemanagementService
 
         /// <summary>
         /// Retrieves any potential errors for a given digest.
+        /// MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -816,6 +829,7 @@ namespace Oci.DatabasemanagementService
 
         /// <summary>
         /// Retrieves information pertaining to the outbound replications of a specific MySQL server.
+        /// MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -873,6 +887,7 @@ namespace Oci.DatabasemanagementService
 
         /// <summary>
         /// Gets the availability metrics for the MySQL Database specified by managedMySqlDatabaseId.
+        /// MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>

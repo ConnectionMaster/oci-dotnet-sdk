@@ -13,23 +13,24 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
 
-namespace Oci.DatabasemanagementService.Models
+namespace Oci.GenerativeaiinferenceService.Models
 {
     /// <summary>
-    /// Details for updating an external MySQL database. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
+    /// Provide a base64 encoded image or an image uri if it's supported.
     /// </summary>
-    public class UpdateExternalMySqlDatabaseDetails 
+    public class GuardrailsImageUrl 
     {
         
         /// <value>
-        /// Display Name of the External MySQL Database.
+        /// The base64 encoded image data or an image URI, if supported.
+        /// 
         /// </value>
         /// <remarks>
         /// Required
         /// </remarks>
-        [Required(ErrorMessage = "DbName is required.")]
-        [JsonProperty(PropertyName = "dbName")]
-        public string DbName { get; set; }
+        [Required(ErrorMessage = "Url is required.")]
+        [JsonProperty(PropertyName = "url")]
+        public string Url { get; set; }
         
     }
 }

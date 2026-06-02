@@ -22,7 +22,7 @@ namespace Oci.DatabasemanagementService.Models
     {
         
         /// <value>
-        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the external DB system.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cloud DB system.
         /// </value>
         /// <remarks>
         /// Required
@@ -52,7 +52,7 @@ namespace Oci.DatabasemanagementService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The `DB_UNIQUE_NAME` of the external database.
+        /// The `DB_UNIQUE_NAME` of the cloud database.
         /// </value>
         [JsonProperty(PropertyName = "dbUniqueName")]
         public string DbUniqueName { get; set; }
@@ -82,7 +82,7 @@ namespace Oci.DatabasemanagementService.Models
         public string ParentContainerDatabaseId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the external DB home.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cloud DB home.
         /// </value>
         [JsonProperty(PropertyName = "cloudDbHomeId")]
         public string CloudDbHomeId { get; set; }
@@ -100,7 +100,7 @@ namespace Oci.DatabasemanagementService.Models
         public System.Collections.Generic.List<CloudDatabaseInstance> InstanceDetails { get; set; }
                 ///
         /// <value>
-        /// The current lifecycle state of the external database resource.
+        /// The current lifecycle state of the cloud database resource.
         /// </value>
         ///
         public enum LifecycleStateEnum {
@@ -124,7 +124,7 @@ namespace Oci.DatabasemanagementService.Models
         };
 
         /// <value>
-        /// The current lifecycle state of the external database resource.
+        /// The current lifecycle state of the cloud database resource.
         /// </value>
         /// <remarks>
         /// Required
@@ -135,7 +135,7 @@ namespace Oci.DatabasemanagementService.Models
         public System.Nullable<LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
-        /// The date and time the external DB system was created.
+        /// The date and time the cloud DB system was created.
         /// </value>
         /// <remarks>
         /// Required

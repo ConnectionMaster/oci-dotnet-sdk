@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
-    /// The number of MySQL Databases in the fleet, grouped by database type and sub type.
+    /// The number of MySQL Databases in the fleet, grouped by database type and sub type. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
     /// </summary>
     public class MySqlFleetByCategory 
     {

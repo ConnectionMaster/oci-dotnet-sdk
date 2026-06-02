@@ -20,7 +20,7 @@ namespace Oci.DatabasemanagementService.Requests
     {
         
         /// <value>
-        /// The details required to create an cloud DB system discovery.
+        /// The details required to create a cloud DB system discovery.
         /// </value>
         /// <remarks>
         /// Required

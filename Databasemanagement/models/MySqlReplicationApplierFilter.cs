@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
-    /// Filter configured for a replication channel.
+    /// Filter configured for a replication channel. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
     /// </summary>
     public class MySqlReplicationApplierFilter 
     {

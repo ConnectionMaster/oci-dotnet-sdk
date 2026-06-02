@@ -30,7 +30,7 @@ namespace Oci.DatabasemanagementService.Requests
         public string CloudAsmId { get; set; }
         
         /// <value>
-        /// The details required to update an cloud ASM.
+        /// The details required to update a cloud ASM.
         /// </value>
         /// <remarks>
         /// Required

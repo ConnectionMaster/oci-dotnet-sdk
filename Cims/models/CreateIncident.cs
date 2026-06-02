@@ -40,14 +40,6 @@ namespace Oci.CimsService.Models
         public CreateTicketDetails Ticket { get; set; }
         
         /// <value>
-        /// Deprecated. The Customer Support Identifier (CSI) number associated with the support account.
-        /// The CSI is optional for all support request types.
-        /// 
-        /// </value>
-        [JsonProperty(PropertyName = "csi")]
-        public string Csi { get; set; }
-        
-        /// <value>
         /// Technical support type (`TECH`) only: Identifier of the user group to assign the new support request to.
         /// To find identifiers of user groups that you have access to, run the
         /// {@link #validateUser(ValidateUserRequest) validateUser} operation.

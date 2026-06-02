@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
-    /// The details of the HeatWave cluster fleet health metrics.
+    /// The details of the HeatWave cluster fleet health metrics. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
     /// </summary>
     public class HeatWaveFleetMetrics 
     {

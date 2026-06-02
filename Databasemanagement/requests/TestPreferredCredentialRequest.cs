@@ -30,7 +30,11 @@ namespace Oci.DatabasemanagementService.Requests
         public string ManagedDatabaseId { get; set; }
         
         /// <value>
-        /// The name of the preferred credential.
+        /// The name of the preferred credential. There are 3 built-in preferred credentials with display names and names as below:  
+        ///   Basic Monitoring(MONITORING)
+        ///   Advanced diagnostics(PC_READ)
+        ///   Administrator(PC_WRITE)
+        /// 
         /// </value>
         /// <remarks>
         /// Required
