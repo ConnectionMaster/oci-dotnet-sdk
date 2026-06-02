@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.GenerativeaiinferenceService.Models
 {
     /// <summary>
-    /// The result of applying guardrails to the input text.
+    /// The result of applying guardrails to the input content.
     /// </summary>
     public class ApplyGuardrailsResult 
     {

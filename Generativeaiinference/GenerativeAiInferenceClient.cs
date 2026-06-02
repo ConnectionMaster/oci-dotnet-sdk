@@ -71,7 +71,16 @@ namespace Oci.GenerativeaiinferenceService
         }
 
         /// <summary>
-        /// Applies guardrails to the input text, including content moderation, PII detection, and prompt injection protection.
+        /// Applies guardrails to the input content, including content moderation, PII detection, and prompt injection protection.
+        /// Case 1: Use &#x60;input&#x60; when the customer wants simple single-text moderation. Existing
+        /// customers can continue to use this field without changing their current integration.
+        /// Case 2: Use &#x60;multimodalInput&#x60; when the customer wants moderation over text, image, or a
+        /// combination of both.
+        /// &#x60;multimodalInput&#x60; supports a single text item, an array of text items only, an array of
+        /// images only, or a mixed ordered combination of text and image items.
+        /// Clients may provide &#x60;input&#x60;, &#x60;multimodalInput&#x60;, or both. At least one of these fields must
+        /// be provided. If both &#x60;input&#x60; and &#x60;multimodalInput&#x60; are provided, the service will process
+        /// &#x60;input&#x60; and discard &#x60;multimodalInput&#x60;.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>

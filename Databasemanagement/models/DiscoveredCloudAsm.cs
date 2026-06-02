@@ -40,7 +40,7 @@ namespace Oci.DatabasemanagementService.Models
         public string Version { get; set; }
         
         /// <value>
-        /// The list of asm instances for the cloud Asm.
+        /// The list of ASM instances for the cloud Asm.
         /// </value>
         [JsonProperty(PropertyName = "asmInstances")]
         public System.Collections.Generic.List<DiscoveredCloudAsmInstance> AsmInstances { get; set; }

@@ -20,7 +20,7 @@ namespace Oci.GenerativeaiinferenceService.Requests
     {
         
         /// <value>
-        /// Details for applying guardrails to the input text.
+        /// Details for applying guardrails to the input content.
         /// </value>
         /// <remarks>
         /// Required

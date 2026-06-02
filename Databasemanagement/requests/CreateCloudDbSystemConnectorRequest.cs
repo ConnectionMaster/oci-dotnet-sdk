@@ -20,7 +20,7 @@ namespace Oci.DatabasemanagementService.Requests
     {
         
         /// <value>
-        /// The details required to create an cloud connector.
+        /// The details required to create a cloud connector.
         /// </value>
         /// <remarks>
         /// Required

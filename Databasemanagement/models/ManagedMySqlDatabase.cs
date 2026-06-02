@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
-    /// The details of the Managed MySQL Database.
+    /// The details of the Managed MySQL Database. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
     /// </summary>
     public class ManagedMySqlDatabase 
     {
@@ -82,7 +82,7 @@ namespace Oci.DatabasemanagementService.Models
         public string Name { get; set; }
                 ///
         /// <value>
-        /// The customer's selected type for HeatWave management.
+        /// The selected management type for a HeatWave MySQL DB system.
         /// </value>
         ///
         public enum HeatWaveManagementTypeEnum {
@@ -96,7 +96,7 @@ namespace Oci.DatabasemanagementService.Models
         };
 
         /// <value>
-        /// The customer's selected type for HeatWave management.
+        /// The selected management type for a HeatWave MySQL DB system.
         /// </value>
         [JsonProperty(PropertyName = "heatWaveManagementType")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]

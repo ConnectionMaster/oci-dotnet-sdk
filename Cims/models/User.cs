@@ -50,12 +50,6 @@ namespace Oci.CimsService.Models
         public string Country { get; set; }
         
         /// <value>
-        /// The CSI associated with the user.
-        /// </value>
-        [JsonProperty(PropertyName = "csi")]
-        public string Csi { get; set; }
-        
-        /// <value>
         /// The user's contact phone number.
         /// </value>
         [JsonProperty(PropertyName = "phone")]

@@ -30,7 +30,7 @@ namespace Oci.DatabasemanagementService.Requests
         public string CloudDbHomeId { get; set; }
         
         /// <value>
-        /// The details required to update an cloud DB home.
+        /// The details required to update a cloud DB home.
         /// </value>
         /// <remarks>
         /// Required

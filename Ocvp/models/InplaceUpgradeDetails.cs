@@ -13,23 +13,21 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
 
-namespace Oci.DatabasemanagementService.Models
+namespace Oci.OcvpService.Models
 {
     /// <summary>
-    /// Details for updating an external MySQL database. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
+    /// The details for upgrading ESXi host.
+    /// 
     /// </summary>
-    public class UpdateExternalMySqlDatabaseDetails 
+    public class InplaceUpgradeDetails 
     {
         
         /// <value>
-        /// Display Name of the External MySQL Database.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Byol Allocation for VCF (VMware Cloud Foundation) deployment.
+        /// 
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "DbName is required.")]
-        [JsonProperty(PropertyName = "dbName")]
-        public string DbName { get; set; }
+        [JsonProperty(PropertyName = "vcfByolAllocationId")]
+        public string VcfByolAllocationId { get; set; }
         
     }
 }

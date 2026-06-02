@@ -13,7 +13,7 @@ using System.Runtime.Serialization;
 namespace Oci.DatabasemanagementService.Models
 {
   /// <summary>
-  /// The level of severity of the MySQL message. Indicates whether it is an ERROR, a WARNING, or a NOTE.
+  /// The level of severity of the MySQL message. Indicates whether it is an ERROR, a WARNING, or a NOTE. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
   /// </summary>
   public enum MySqlMessageSeverity {
       /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.

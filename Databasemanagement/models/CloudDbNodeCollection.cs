@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
-    /// A collection of cloud database nodes.
+    /// A collection of cloud DB nodes.
     /// </summary>
     public class CloudDbNodeCollection 
     {

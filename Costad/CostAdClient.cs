@@ -110,7 +110,7 @@ namespace Oci.CostadService
                     ServiceName = "CostAd",
                     OperationName = "CreateCostAlertSubscription",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/cost-anomaly/20190111/CostAlertSubscription/CreateCostAlertSubscription",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -167,7 +167,7 @@ namespace Oci.CostadService
                     ServiceName = "CostAd",
                     OperationName = "CreateCostAnomalyMonitor",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/cost-anomaly/20190111/CostAnomalyMonitor/CreateCostAnomalyMonitor",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -223,7 +223,7 @@ namespace Oci.CostadService
                     ServiceName = "CostAd",
                     OperationName = "DeleteCostAlertSubscription",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/cost-anomaly/20190111/CostAlertSubscription/DeleteCostAlertSubscription",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -279,7 +279,7 @@ namespace Oci.CostadService
                     ServiceName = "CostAd",
                     OperationName = "DeleteCostAnomalyMonitor",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/cost-anomaly/20190111/CostAnomalyMonitor/DeleteCostAnomalyMonitor",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -335,7 +335,7 @@ namespace Oci.CostadService
                     ServiceName = "CostAd",
                     OperationName = "DisableCostAnomalyMonitor",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/cost-anomaly/20190111/CostAnomalyMonitor/DisableCostAnomalyMonitor",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -391,7 +391,7 @@ namespace Oci.CostadService
                     ServiceName = "CostAd",
                     OperationName = "EnableCostAnomalyMonitor",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/cost-anomaly/20190111/CostAnomalyMonitor/EnableCostAnomalyMonitor",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -447,7 +447,7 @@ namespace Oci.CostadService
                     ServiceName = "CostAd",
                     OperationName = "GetCostAlertSubscription",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/cost-anomaly/20190111/CostAlertSubscription/GetCostAlertSubscription",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -503,7 +503,7 @@ namespace Oci.CostadService
                     ServiceName = "CostAd",
                     OperationName = "GetCostAnomalyEvent",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/cost-anomaly/20190111/CostAnomalyEvent/GetCostAnomalyEvent",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -559,7 +559,7 @@ namespace Oci.CostadService
                     ServiceName = "CostAd",
                     OperationName = "GetCostAnomalyMonitor",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/cost-anomaly/20190111/CostAnomalyMonitor/GetCostAnomalyMonitor",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -616,7 +616,7 @@ namespace Oci.CostadService
                     ServiceName = "CostAd",
                     OperationName = "ListCostAlertSubscriptions",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/cost-anomaly/20190111/CostAlertSubscriptionCollection/ListCostAlertSubscriptions",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -673,7 +673,7 @@ namespace Oci.CostadService
                     ServiceName = "CostAd",
                     OperationName = "ListCostAnomalyEvents",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/cost-anomaly/20190111/CostAnomalyEventCollection/ListCostAnomalyEvents",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -730,7 +730,7 @@ namespace Oci.CostadService
                     ServiceName = "CostAd",
                     OperationName = "ListCostAnomalyMonitors",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/cost-anomaly/20190111/CostAnomalyMonitorCollection/ListCostAnomalyMonitors",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -787,7 +787,7 @@ namespace Oci.CostadService
                     ServiceName = "CostAd",
                     OperationName = "SummarizeCostAnomalyEventAnalytics",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/cost-anomaly/20190111/CostAnomalyEvent/SummarizeCostAnomalyEventAnalytics",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -843,7 +843,7 @@ namespace Oci.CostadService
                     ServiceName = "CostAd",
                     OperationName = "UpdateCostAlertSubscription",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/cost-anomaly/20190111/CostAlertSubscription/UpdateCostAlertSubscription",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -899,7 +899,7 @@ namespace Oci.CostadService
                     ServiceName = "CostAd",
                     OperationName = "UpdateCostAnomalyEvent",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/cost-anomaly/20190111/CostAnomalyEvent/UpdateCostAnomalyEvent",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -955,7 +955,7 @@ namespace Oci.CostadService
                     ServiceName = "CostAd",
                     OperationName = "UpdateCostAnomalyMonitor",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/cost-anomaly/20190111/CostAnomalyMonitor/UpdateCostAnomalyMonitor",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);

@@ -30,7 +30,7 @@ namespace Oci.DatabasemanagementService.Requests
         public string CloudClusterInstanceId { get; set; }
         
         /// <value>
-        /// The details required to update an cloud cluster instance.
+        /// The details required to update a cloud cluster instance.
         /// </value>
         /// <remarks>
         /// Required

@@ -38,7 +38,7 @@ namespace Oci.DatabasemanagementService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the existing Dbaas OCI resource matching the discovered DB system component.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the existing DBaas OCI resource matching the discovered DB system component.
         /// </value>
         /// <remarks>
         /// Required

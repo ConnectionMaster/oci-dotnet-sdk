@@ -31,6 +31,12 @@ namespace Oci.OcvpService.Requests
         public string EsxiHostId { get; set; }
         
         /// <value>
+        /// The details for upgrading ESXi host.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Body)]
+        public InplaceUpgradeDetails InplaceUpgradeDetails { get; set; }
+        
+        /// <value>
         /// A token that uniquely identifies a request so it can be retried in case of a timeout or
         /// server error without risk of executing that same action again. Retry tokens expire after 24
         /// hours, but can be invalidated before then due to conflicting operations (for example, if a resource

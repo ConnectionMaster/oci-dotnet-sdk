@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
-    /// Detail to enable or disable database management.
+    /// Detail to enable or disable database management. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
     /// </summary>
     public class EnableExternalDatabaseManagementDetails 
     {

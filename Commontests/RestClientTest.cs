@@ -51,5 +51,36 @@ namespace Oci.Common
             Uri updatedEndpointTemplate = RegionalClientBase.PopulateServiceParametersInEndpointTemplate(restclient, requiredParametersDictionary);
             Assert.Equal(expectedEndpoint, updatedEndpointTemplate.ToString());
         }
+
+        [Theory]
+        [InlineData("https://{namespaceName+Dot}objectstorage.us-phoenix-1.oci.customer-oci.com", "foo/bar")]
+        [InlineData("https://{namespaceName+Dot}objectstorage.us-phoenix-1.oci.customer-oci.com", "foo?bar")]
+        [InlineData("https://{namespaceName+Dot}objectstorage.us-phoenix-1.oci.customer-oci.com", "foo#bar")]
+        [InlineData("https://{namespaceName+Dot}objectstorage.us-phoenix-1.oci.customer-oci.com", "foo@")]
+        [InlineData("file://{namespaceName+Dot}objectstorage.us-phoenix-1.oci.customer-oci.com", "https-objectstorage")]
+        [Trait("Category", "Unit")]
+        [DisplayTestMethodNameAttribute]
+        public void TestPopulateServiceParametersInEndpointTemplateRejectsInvalidHostComponents(string parameterizedTemplate, string namespaceName)
+        {
+            RestClient restclient = new RestClient { RealmSpecificEndpointTemplate = parameterizedTemplate };
+            Dictionary<string, object> requiredParametersDictionary = new Dictionary<string, object> { { "namespaceName", namespaceName } };
+
+            Assert.Throws<ArgumentException>(() => RegionalClientBase.PopulateServiceParametersInEndpointTemplate(restclient, requiredParametersDictionary));
+        }
+
+        [Theory]
+        [InlineData("https://foo/bar.objectstorage.us-phoenix-1.oci.customer-oci.com")]
+        [InlineData("https://foo?bar.objectstorage.us-phoenix-1.oci.customer-oci.com")]
+        [InlineData("https://foo#bar.objectstorage.us-phoenix-1.oci.customer-oci.com")]
+        [InlineData("https://foo@objectstorage.us-phoenix-1.oci.customer-oci.com")]
+        [InlineData("file://https-objectstorage.us-phoenix-1.oci.customer-oci.com")]
+        [Trait("Category", "Unit")]
+        [DisplayTestMethodNameAttribute]
+        public void TestSetEndpointRejectsInvalidHostComponents(string endpoint)
+        {
+            RestClient restclient = new RestClient();
+
+            Assert.Throws<ArgumentException>(() => restclient.SetEndpoint(endpoint));
+        }
     }
 }

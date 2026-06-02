@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
-    /// The details of a query sample including the query text, execution time and other details.
+    /// The details of a query sample including the query text, execution time, and other details. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
     /// </summary>
     public class MySqlQuerySampleDetails 
     {
@@ -52,7 +52,7 @@ namespace Oci.DatabasemanagementService.Models
         public System.Nullable<long> ExecutionTime { get; set; }
         
         /// <value>
-        /// The thread id of the connection.
+        /// The thread ID of the connection.
         /// </value>
         /// <remarks>
         /// Required
