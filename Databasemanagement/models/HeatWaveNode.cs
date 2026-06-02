@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
-    /// The information about an individual HeatWave node.
+    /// The information about an individual HeatWave node. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
     /// </summary>
     public class HeatWaveNode 
     {

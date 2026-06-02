@@ -202,6 +202,13 @@ namespace Oci.OcvpService.Models
         public string EntitlementKey { get; set; }
         
         /// <value>
+        /// The hyperscaler identifier in Broadcom systems.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "siteId")]
+        public string SiteId { get; set; }
+        
+        /// <value>
         /// The date and time the BYOL Allocation was created, in the format defined by
         /// [RFC3339](https://tools.ietf.org/html/rfc3339).
         /// Example: 2016-08-25T21:10:29.600Z

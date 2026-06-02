@@ -30,7 +30,7 @@ namespace Oci.DatabasemanagementService.Requests
         public string CloudDbSystemDiscoveryId { get; set; }
         
         /// <value>
-        /// The details required to update an cloud DB system discovery.
+        /// The details required to update a cloud DB system discovery.
         /// </value>
         /// <remarks>
         /// Required

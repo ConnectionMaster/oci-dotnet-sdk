@@ -105,7 +105,7 @@ namespace Oci.Common
             String updatedEndpoint = EndpointBuilder.GetEndpointWithPopulatedServiceParams(endpointTemplate,
                 requiredParametersDictionary, client.OptionsMap);
             logger.Info($"Setting endpoint to: {updatedEndpoint}");
-            return new Uri(updatedEndpoint);
+            return RestClient.ValidateEndpoint(updatedEndpoint);
         }
 
         /// <summary>

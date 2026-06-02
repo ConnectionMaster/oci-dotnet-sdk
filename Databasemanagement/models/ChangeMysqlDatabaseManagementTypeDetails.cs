@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
-    /// Details to change managed MySQL database management type.
+    /// Details required to change the management type for a HeatWave MySQL instance, from BASIC to FULL and vice versa. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
     /// </summary>
     public class ChangeMysqlDatabaseManagementTypeDetails 
     {
@@ -33,7 +33,7 @@ namespace Oci.DatabasemanagementService.Models
         public System.Nullable<ManagedMySqlDatabase.HeatWaveManagementTypeEnum> ManagementType { get; set; }
                 ///
         /// <value>
-        /// The type of operation to perform: update managementType, enable or disable database management.
+        /// The type of operation to perform: Update managementType, enable, or disable Database Management.
         /// 
         /// </value>
         ///
@@ -47,7 +47,7 @@ namespace Oci.DatabasemanagementService.Models
         };
 
         /// <value>
-        /// The type of operation to perform: update managementType, enable or disable database management.
+        /// The type of operation to perform: Update managementType, enable, or disable Database Management.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "operation")]

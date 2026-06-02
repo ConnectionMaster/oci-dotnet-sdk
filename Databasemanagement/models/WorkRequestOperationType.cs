@@ -39,6 +39,10 @@ namespace Oci.DatabasemanagementService.Models
       UpdateExternalDbSystemConnector,
       [EnumMember(Value = "CHANGE_EXTERNAL_DB_SYSTEM_COMPARTMENT")]
       ChangeExternalDbSystemCompartment,
+      [EnumMember(Value = "UPDATE_CLOUD_DB_SYSTEM_CONNECTOR")]
+      UpdateCloudDbSystemConnector,
+      [EnumMember(Value = "CHANGE_CLOUD_DB_SYSTEM_COMPARTMENT")]
+      ChangeCloudDbSystemCompartment,
       [EnumMember(Value = "DISABLE_EXADATA_INFRASTURCTURE")]
       DisableExadataInfrasturcture,
       [EnumMember(Value = "ENABLE_EXADATA_INFRASTRUCTURE")]

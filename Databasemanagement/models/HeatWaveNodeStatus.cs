@@ -13,7 +13,7 @@ using System.Runtime.Serialization;
 namespace Oci.DatabasemanagementService.Models
 {
   /// <summary>
-  /// The status of the HeatWave node. Indicates whether the status of the HeatWave node is UP, DOWN, or UNKNOWN at the current time.
+  /// The status of the HeatWave node. Indicates whether the status of the HeatWave node is UP, DOWN, or UNKNOWN at the current time. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
   /// </summary>
   public enum HeatWaveNodeStatus {
       /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.

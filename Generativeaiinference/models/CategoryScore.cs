@@ -40,6 +40,25 @@ namespace Oci.GenerativeaiinferenceService.Models
         [Required(ErrorMessage = "Score is required.")]
         [JsonProperty(PropertyName = "score")]
         public System.Double Score { get; set; }
+                ///
+        ///
+        public enum FlaggedModalitiesEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "TEXT")]
+            Text,
+            [EnumMember(Value = "IMAGE")]
+            Image
+        };
+
+        /// <value>
+        /// The input modalities flagged by this category score. Present only when the request is
+        /// processed using a non-empty `multimodalInput`.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "flaggedModalities", ItemConverterType = typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Collections.Generic.List<FlaggedModalitiesEnum> FlaggedModalities { get; set; }
         
     }
 }

@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
-    /// The MySQL error, warning or note raised when a query is run, if any.
+    /// The MySQL error, warning, or note raised when a query is run, if any. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
     /// </summary>
     public class MySqlQueryMessage 
     {
@@ -33,7 +33,7 @@ namespace Oci.DatabasemanagementService.Models
         public System.Nullable<MySqlMessageSeverity> Level { get; set; }
         
         /// <value>
-        /// The MySQL code of the raised error, warning or note.
+        /// The MySQL code of the raised error, warning, or note.
         /// </value>
         /// <remarks>
         /// Required
@@ -43,7 +43,7 @@ namespace Oci.DatabasemanagementService.Models
         public System.Nullable<int> Code { get; set; }
         
         /// <value>
-        /// The MySQL message text of the raised error, warning or note.
+        /// The MySQL message text of the raised error, warning, or note.
         /// </value>
         /// <remarks>
         /// Required

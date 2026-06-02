@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
-    /// The collection of outbound replication records of a MySQL server.
+    /// The collection of outbound replication records of a MySQL server. MySQL support within OCI Database Management service has been deprecated as of January 29, 2026.
     /// </summary>
     public class ManagedMySqlDatabaseOutboundReplicationCollection 
     {

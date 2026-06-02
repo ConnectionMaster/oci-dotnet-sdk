@@ -22,16 +22,6 @@ namespace Oci.CimsService.Models
     {
         
         /// <value>
-        /// The Customer Support Identifier (CSI) number associated with the tenancy.
-        /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "CustomerSupportKey is required.")]
-        [JsonProperty(PropertyName = "customerSupportKey")]
-        public string CustomerSupportKey { get; set; }
-        
-        /// <value>
         /// The OCID of the tenancy.
         /// </value>
         /// <remarks>

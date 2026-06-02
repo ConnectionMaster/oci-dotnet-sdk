@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasemanagementService.Models
 {
     /// <summary>
-    /// The details of a cloud database node.
+    /// The details of a cloud DB node.
     /// </summary>
     public class CloudDbNode 
     {
@@ -152,7 +152,7 @@ namespace Oci.DatabasemanagementService.Models
         public string LifecycleDetails { get; set; }
         
         /// <value>
-        /// Name of the domain.
+        /// The name of the domain.
         /// </value>
         [JsonProperty(PropertyName = "domainName")]
         public string DomainName { get; set; }
