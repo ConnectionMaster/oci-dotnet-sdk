@@ -37,6 +37,27 @@ namespace Oci.MysqlService.Models
         [Required(ErrorMessage = "IpAddress is required.")]
         [JsonProperty(PropertyName = "ipAddress")]
         public string IpAddress { get; set; }
+                ///
+        /// <value>
+        /// The internet protocol (IP) version of the IP address.
+        /// </value>
+        ///
+        public enum IpAddressVersionEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "IPV4")]
+            Ipv4,
+            [EnumMember(Value = "IPV6")]
+            Ipv6
+        };
+
+        /// <value>
+        /// The internet protocol (IP) version of the IP address.
+        /// </value>
+        [JsonProperty(PropertyName = "ipAddressVersion")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<IpAddressVersionEnum> IpAddressVersion { get; set; }
         
         /// <value>
         /// The port the MySQL instance listens on.

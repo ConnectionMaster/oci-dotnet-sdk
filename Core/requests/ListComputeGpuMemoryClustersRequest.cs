@@ -45,6 +45,13 @@ namespace Oci.CoreService.Requests
         public string ComputeGpuMemoryClusterId { get; set; }
         
         /// <value>
+        /// A filter to return only the listings that matches the given GPU memory fabric id.
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "computeGpuMemoryFabricId")]
+        public string ComputeGpuMemoryFabricId { get; set; }
+        
+        /// <value>
         /// The name of the availability domain.
         /// <br/>
         /// Example: Uocm:PHX-AD-1

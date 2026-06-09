@@ -92,5 +92,11 @@ namespace Oci.DelegateaccesscontrolService.Models
         [JsonProperty(PropertyName = "approverAdditionalMessage")]
         public string ApproverAdditionalMessage { get; set; }
         
+        /// <value>
+        /// Time when the access request was approved or rejected by the customer in [RFC 3339](https://tools.ietf.org/html/rfc3339) timestamp format, e.g. '2020-05-22T21:10:29.600Z'.
+        /// </value>
+        [JsonProperty(PropertyName = "timeOfAction")]
+        public System.Nullable<System.DateTime> TimeOfAction { get; set; }
+        
     }
 }

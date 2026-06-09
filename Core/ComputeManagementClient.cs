@@ -50,7 +50,8 @@ namespace Oci.CoreService
             {
                 ServiceName = "COMPUTEMANAGEMENT",
                 ServiceEndpointPrefix = "iaas",
-                ServiceEndpointTemplate = "https://iaas.{region}.{secondLevelDomain}"
+                ServiceEndpointTemplate = "https://iaas.{region}.{dualStack?ds.oci.:}{secondLevelDomain}",
+                EndpointServiceName = "iaas"
             };
 
             ClientConfiguration clientConfigurationToUse = clientConfiguration ?? new ClientConfiguration();
@@ -87,7 +88,8 @@ namespace Oci.CoreService
         public async Task<AttachInstancePoolInstanceResponse> AttachInstancePoolInstance(AttachInstancePoolInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called attachInstancePoolInstance");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/instances".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/instances".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -144,7 +146,8 @@ namespace Oci.CoreService
         public async Task<AttachLoadBalancerResponse> AttachLoadBalancer(AttachLoadBalancerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called attachLoadBalancer");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/attachLoadBalancer".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/attachLoadBalancer".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -207,7 +210,8 @@ namespace Oci.CoreService
         public async Task<ChangeClusterNetworkCompartmentResponse> ChangeClusterNetworkCompartment(ChangeClusterNetworkCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeClusterNetworkCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/clusterNetworks/{clusterNetworkId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "clusterNetworkId", request.ClusterNetworkId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/clusterNetworks/{clusterNetworkId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -276,7 +280,8 @@ namespace Oci.CoreService
         public async Task<ChangeInstanceConfigurationCompartmentResponse> ChangeInstanceConfigurationCompartment(ChangeInstanceConfigurationCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeInstanceConfigurationCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instanceConfigurations/{instanceConfigurationId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instanceConfigurationId", request.InstanceConfigurationId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instanceConfigurations/{instanceConfigurationId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -338,7 +343,8 @@ namespace Oci.CoreService
         public async Task<ChangeInstancePoolCompartmentResponse> ChangeInstancePoolCompartment(ChangeInstancePoolCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeInstancePoolCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -409,7 +415,8 @@ namespace Oci.CoreService
         public async Task<CreateClusterNetworkResponse> CreateClusterNetwork(CreateClusterNetworkRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createClusterNetwork");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/clusterNetworks".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/clusterNetworks".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -467,7 +474,8 @@ namespace Oci.CoreService
         public async Task<CreateInstanceConfigurationResponse> CreateInstanceConfiguration(CreateInstanceConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createInstanceConfiguration");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instanceConfigurations".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instanceConfigurations".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -528,7 +536,8 @@ namespace Oci.CoreService
         public async Task<CreateInstancePoolResponse> CreateInstancePool(CreateInstancePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createInstancePool");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -584,7 +593,8 @@ namespace Oci.CoreService
         public async Task<DeleteInstanceConfigurationResponse> DeleteInstanceConfiguration(DeleteInstanceConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteInstanceConfiguration");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instanceConfigurations/{instanceConfigurationId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instanceConfigurationId", request.InstanceConfigurationId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instanceConfigurations/{instanceConfigurationId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -641,7 +651,8 @@ namespace Oci.CoreService
         public async Task<DetachInstancePoolInstanceResponse> DetachInstancePoolInstance(DetachInstancePoolInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detachInstancePoolInstance");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/detachInstance".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/detachInstance".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -698,7 +709,8 @@ namespace Oci.CoreService
         public async Task<DetachLoadBalancerResponse> DetachLoadBalancer(DetachLoadBalancerRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detachLoadBalancer");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/detachLoadBalancer".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/detachLoadBalancer".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -755,7 +767,8 @@ namespace Oci.CoreService
         public async Task<GetClusterNetworkResponse> GetClusterNetwork(GetClusterNetworkRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getClusterNetwork");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/clusterNetworks/{clusterNetworkId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "clusterNetworkId", request.ClusterNetworkId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/clusterNetworks/{clusterNetworkId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -811,7 +824,8 @@ namespace Oci.CoreService
         public async Task<GetInstanceConfigurationResponse> GetInstanceConfiguration(GetInstanceConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getInstanceConfiguration");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instanceConfigurations/{instanceConfigurationId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instanceConfigurationId", request.InstanceConfigurationId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instanceConfigurations/{instanceConfigurationId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -867,7 +881,8 @@ namespace Oci.CoreService
         public async Task<GetInstancePoolResponse> GetInstancePool(GetInstancePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getInstancePool");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -923,7 +938,8 @@ namespace Oci.CoreService
         public async Task<GetInstancePoolInstanceResponse> GetInstancePoolInstance(GetInstancePoolInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getInstancePoolInstance");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/instances/{instanceId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId }, { "instanceId", request.InstanceId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/instances/{instanceId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -980,7 +996,8 @@ namespace Oci.CoreService
         public async Task<GetInstancePoolLoadBalancerAttachmentResponse> GetInstancePoolLoadBalancerAttachment(GetInstancePoolLoadBalancerAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getInstancePoolLoadBalancerAttachment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/loadBalancerAttachments/{instancePoolLoadBalancerAttachmentId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId }, { "instancePoolLoadBalancerAttachmentId", request.InstancePoolLoadBalancerAttachmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/loadBalancerAttachments/{instancePoolLoadBalancerAttachmentId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1047,7 +1064,8 @@ namespace Oci.CoreService
         public async Task<LaunchInstanceConfigurationResponse> LaunchInstanceConfiguration(LaunchInstanceConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called launchInstanceConfiguration");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instanceConfigurations/{instanceConfigurationId}/actions/launch".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instanceConfigurationId", request.InstanceConfigurationId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instanceConfigurations/{instanceConfigurationId}/actions/launch".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1104,7 +1122,8 @@ namespace Oci.CoreService
         public async Task<ListClusterNetworkInstancesResponse> ListClusterNetworkInstances(ListClusterNetworkInstancesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listClusterNetworkInstances");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/clusterNetworks/{clusterNetworkId}/instances".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "clusterNetworkId", request.ClusterNetworkId }, { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/clusterNetworks/{clusterNetworkId}/instances".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1162,7 +1181,8 @@ namespace Oci.CoreService
         public async Task<ListClusterNetworksResponse> ListClusterNetworks(ListClusterNetworksRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listClusterNetworks");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/clusterNetworks".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/clusterNetworks".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1219,7 +1239,8 @@ namespace Oci.CoreService
         public async Task<ListInstanceConfigurationsResponse> ListInstanceConfigurations(ListInstanceConfigurationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInstanceConfigurations");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instanceConfigurations".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instanceConfigurations".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1275,7 +1296,8 @@ namespace Oci.CoreService
         public async Task<ListInstancePoolInstancesResponse> ListInstancePoolInstances(ListInstancePoolInstancesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInstancePoolInstances");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/instances".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId }, { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/instances".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1331,7 +1353,8 @@ namespace Oci.CoreService
         public async Task<ListInstancePoolsResponse> ListInstancePools(ListInstancePoolsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInstancePools");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1389,7 +1412,8 @@ namespace Oci.CoreService
         public async Task<ResetInstancePoolResponse> ResetInstancePool(ResetInstancePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called resetInstancePool");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/reset".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/reset".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1450,7 +1474,8 @@ namespace Oci.CoreService
         public async Task<SoftresetInstancePoolResponse> SoftresetInstancePool(SoftresetInstancePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called softresetInstancePool");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/softreset".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/softreset".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1511,7 +1536,8 @@ namespace Oci.CoreService
         public async Task<SoftstopInstancePoolResponse> SoftstopInstancePool(SoftstopInstancePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called softstopInstancePool");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/softstop".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/softstop".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1569,7 +1595,8 @@ namespace Oci.CoreService
         public async Task<StartInstancePoolResponse> StartInstancePool(StartInstancePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called startInstancePool");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/start".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/start".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1627,7 +1654,8 @@ namespace Oci.CoreService
         public async Task<StopInstancePoolResponse> StopInstancePool(StopInstancePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called stopInstancePool");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/stop".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/stop".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1687,7 +1715,8 @@ namespace Oci.CoreService
         public async Task<TerminateClusterNetworkResponse> TerminateClusterNetwork(TerminateClusterNetworkRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called terminateClusterNetwork");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/clusterNetworks/{clusterNetworkId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "clusterNetworkId", request.ClusterNetworkId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/clusterNetworks/{clusterNetworkId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1751,7 +1780,8 @@ namespace Oci.CoreService
         public async Task<TerminateInstancePoolResponse> TerminateInstancePool(TerminateInstancePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called terminateInstancePool");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1808,7 +1838,8 @@ namespace Oci.CoreService
         public async Task<TerminationProceedInstancePoolInstanceResponse> TerminationProceedInstancePoolInstance(TerminationProceedInstancePoolInstanceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called terminationProceedInstancePoolInstance");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/terminationProceed".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}/actions/terminationProceed".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1866,7 +1897,8 @@ namespace Oci.CoreService
         public async Task<UpdateClusterNetworkResponse> UpdateClusterNetwork(UpdateClusterNetworkRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateClusterNetwork");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/clusterNetworks/{clusterNetworkId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "clusterNetworkId", request.ClusterNetworkId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/clusterNetworks/{clusterNetworkId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1922,7 +1954,8 @@ namespace Oci.CoreService
         public async Task<UpdateInstanceConfigurationResponse> UpdateInstanceConfiguration(UpdateInstanceConfigurationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateInstanceConfiguration");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instanceConfigurations/{instanceConfigurationId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instanceConfigurationId", request.InstanceConfigurationId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instanceConfigurations/{instanceConfigurationId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1981,7 +2014,8 @@ namespace Oci.CoreService
         public async Task<UpdateInstancePoolResponse> UpdateInstancePool(UpdateInstancePoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateInstancePool");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "instancePoolId", request.InstancePoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instancePools/{instancePoolId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");

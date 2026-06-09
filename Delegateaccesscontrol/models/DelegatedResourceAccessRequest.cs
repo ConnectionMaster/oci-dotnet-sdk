@@ -129,10 +129,16 @@ namespace Oci.DelegateaccesscontrolService.Models
         public System.Collections.Generic.List<string> RequestedActionNames { get; set; }
         
         /// <value>
-        /// List of Database unique names for which access is requested. This parameter is required for DLGT_MGMT_SYS_MAINT_ACCESS cage when database access in needed.
+        /// List of Database unique names for which access is requested. This parameter is required when database access in needed.
         /// </value>
         [JsonProperty(PropertyName = "databaseNameList")]
         public System.Collections.Generic.List<string> DatabaseNameList { get; set; }
+        
+        /// <value>
+        /// List of Database ID for which access is requested. This parameter is required when database access is needed.
+        /// </value>
+        [JsonProperty(PropertyName = "databaseIdList")]
+        public System.Collections.Generic.List<string> DatabaseIdList { get; set; }
         
         /// <value>
         /// List of Service Provider Service Types being provided by the support operator user.

@@ -33,7 +33,7 @@ namespace Oci.DelegateaccesscontrolService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The OCID of the compartment that contains the Delegation Control.
+        /// The OCID of the compartment that contains the Service Provider.
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }

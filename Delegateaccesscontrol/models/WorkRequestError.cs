@@ -22,7 +22,7 @@ namespace Oci.DelegateaccesscontrolService.Models
     {
         
         /// <value>
-        /// A machine-usable code for the error that occured. Error codes are listed on
+        /// A machine-usable code for the error that occurred. Error codes are listed on
         /// (https://docs.oracle.com/iaas/Content/API/References/apierrors.htm)
         /// 
         /// </value>
@@ -44,7 +44,7 @@ namespace Oci.DelegateaccesscontrolService.Models
         public string Message { get; set; }
         
         /// <value>
-        /// The time the error occured. An RFC3339 formatted datetime string.
+        /// The time the error occurred. An RFC3339 formatted datetime string.
         /// </value>
         /// <remarks>
         /// Required

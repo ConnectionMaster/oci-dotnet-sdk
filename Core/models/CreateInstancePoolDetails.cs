@@ -17,6 +17,7 @@ namespace Oci.CoreService.Models
 {
     /// <summary>
     /// The data to create an instance pool.
+    /// 
     /// </summary>
     public class CreateInstancePoolDetails 
     {
@@ -89,6 +90,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// The number of instances that should be in the instance pool.
+        /// 
         /// </value>
         /// <remarks>
         /// Required

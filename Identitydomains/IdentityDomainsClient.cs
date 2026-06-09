@@ -9449,7 +9449,7 @@ namespace Oci.IdentitydomainsService
                     ServiceName = "IdentityDomains",
                     OperationName = "ListIdentityPropagationTrusts",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/identity-domains/v1/IdentityPropagationTrusts/ListIdentityPropagationTrusts",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/identity-domains/v1/IdentityPropagationTrust/ListIdentityPropagationTrusts",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);

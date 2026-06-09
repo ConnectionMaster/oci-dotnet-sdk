@@ -22,6 +22,8 @@ namespace Oci.DelegateaccesscontrolService.Models
       [EnumMember(Value = "TROUBLESHOOTING")]
       Troubleshooting,
       [EnumMember(Value = "ASSISTED_PATCHING")]
-      AssistedPatching
+      AssistedPatching,
+      [EnumMember(Value = "MANAGED_SOFTWARE_UPDATES")]
+      ManagedSoftwareUpdates
   }
 }

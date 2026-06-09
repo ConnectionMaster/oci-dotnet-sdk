@@ -169,5 +169,14 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "storageSizeDetails")]
         public DatabaseStorageSizeDetails StorageSizeDetails { get; set; }
         
+        [JsonProperty(PropertyName = "managedSoftwareUpdateDetails")]
+        public ManagedSoftwareUpdateInputDetails ManagedSoftwareUpdateDetails { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VM cluster.
+        /// </value>
+        [JsonProperty(PropertyName = "vmClusterId")]
+        public string VmClusterId { get; set; }
+        
     }
 }

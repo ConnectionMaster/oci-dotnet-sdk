@@ -34,6 +34,12 @@ namespace Oci.DelegateaccesscontrolService.Models
         public string Id { get; set; }
         
         /// <value>
+        /// The OCID of the compartment that contains the Service Provider Action.
+        /// </value>
+        [JsonProperty(PropertyName = "compartmentId")]
+        public string CompartmentId { get; set; }
+        
+        /// <value>
         /// Unique name of the Service Provider Action.
         /// </value>
         /// <remarks>
@@ -61,6 +67,12 @@ namespace Oci.DelegateaccesscontrolService.Models
         [JsonProperty(PropertyName = "resourceType")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<DelegationControlResourceType> ResourceType { get; set; }
+        
+        /// <value>
+        /// Indicates whether the service provider action allows SSH access.
+        /// </value>
+        [JsonProperty(PropertyName = "isSshAccessAllowed")]
+        public System.Nullable<bool> IsSshAccessAllowed { get; set; }
         
         /// <value>
         /// List of Service Provider Service Types that this Service Provider Action is applicable to.

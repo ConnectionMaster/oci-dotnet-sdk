@@ -50,7 +50,8 @@ namespace Oci.CoreService
             {
                 ServiceName = "VIRTUALNETWORK",
                 ServiceEndpointPrefix = "iaas",
-                ServiceEndpointTemplate = "https://iaas.{region}.{secondLevelDomain}"
+                ServiceEndpointTemplate = "https://iaas.{region}.{dualStack?ds.oci.:}{secondLevelDomain}",
+                EndpointServiceName = "iaas"
             };
 
             ClientConfiguration clientConfigurationToUse = clientConfiguration ?? new ClientConfiguration();
@@ -85,7 +86,8 @@ namespace Oci.CoreService
         public async Task<AddDrgRouteDistributionStatementsResponse> AddDrgRouteDistributionStatements(AddDrgRouteDistributionStatementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addDrgRouteDistributionStatements");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}/actions/addDrgRouteDistributionStatements".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgRouteDistributionId", request.DrgRouteDistributionId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}/actions/addDrgRouteDistributionStatements".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -142,7 +144,8 @@ namespace Oci.CoreService
         public async Task<AddDrgRouteRulesResponse> AddDrgRouteRules(AddDrgRouteRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addDrgRouteRules");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}/actions/addDrgRouteRules".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgRouteTableId", request.DrgRouteTableId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}/actions/addDrgRouteRules".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -199,7 +202,8 @@ namespace Oci.CoreService
         public async Task<AddIpv4SubnetCidrResponse> AddIpv4SubnetCidr(AddIpv4SubnetCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addIpv4SubnetCidr");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}/actions/addIpv4Cidr".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "subnetId", request.SubnetId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}/actions/addIpv4Cidr".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -256,7 +260,8 @@ namespace Oci.CoreService
         public async Task<AddIpv6SubnetCidrResponse> AddIpv6SubnetCidr(AddIpv6SubnetCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addIpv6SubnetCidr");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}/actions/addIpv6Cidr".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "subnetId", request.SubnetId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}/actions/addIpv6Cidr".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -314,7 +319,8 @@ namespace Oci.CoreService
         public async Task<AddIpv6VcnCidrResponse> AddIpv6VcnCidr(AddIpv6VcnCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addIpv6VcnCidr");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}/actions/addIpv6Cidr".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vcnId", request.VcnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}/actions/addIpv6Cidr".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -371,7 +377,8 @@ namespace Oci.CoreService
         public async Task<AddNetworkSecurityGroupSecurityRulesResponse> AddNetworkSecurityGroupSecurityRules(AddNetworkSecurityGroupSecurityRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addNetworkSecurityGroupSecurityRules");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}/actions/addSecurityRules".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "networkSecurityGroupId", request.NetworkSecurityGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}/actions/addSecurityRules".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -430,7 +437,8 @@ namespace Oci.CoreService
         public async Task<AddPublicIpPoolCapacityResponse> AddPublicIpPoolCapacity(AddPublicIpPoolCapacityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addPublicIpPoolCapacity");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/publicIpPools/{publicIpPoolId}/actions/addCapacity".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "publicIpPoolId", request.PublicIpPoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/publicIpPools/{publicIpPoolId}/actions/addCapacity".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -493,7 +501,8 @@ namespace Oci.CoreService
         public async Task<AddVcnCidrResponse> AddVcnCidr(AddVcnCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called addVcnCidr");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}/actions/addCidr".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vcnId", request.VcnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}/actions/addCidr".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -551,7 +560,8 @@ namespace Oci.CoreService
         public async Task<AdvertiseByoipRangeResponse> AdvertiseByoipRange(AdvertiseByoipRangeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called advertiseByoipRange");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}/actions/advertise".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "byoipRangeId", request.ByoipRangeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}/actions/advertise".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -617,7 +627,8 @@ namespace Oci.CoreService
         public async Task<AttachServiceIdResponse> AttachServiceId(AttachServiceIdRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called attachServiceId");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/serviceGateways/{serviceGatewayId}/actions/attachService".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "serviceGatewayId", request.ServiceGatewayId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/serviceGateways/{serviceGatewayId}/actions/attachService".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -677,7 +688,8 @@ namespace Oci.CoreService
         public async Task<BulkAddVirtualCircuitPublicPrefixesResponse> BulkAddVirtualCircuitPublicPrefixes(BulkAddVirtualCircuitPublicPrefixesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkAddVirtualCircuitPublicPrefixes");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}/actions/bulkAddPublicPrefixes".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "virtualCircuitId", request.VirtualCircuitId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}/actions/bulkAddPublicPrefixes".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -734,7 +746,8 @@ namespace Oci.CoreService
         public async Task<BulkCreateIpv6sResponse> BulkCreateIpv6s(BulkCreateIpv6sRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkCreateIpv6s");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/actions/bulkCreateIpv6s".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/actions/bulkCreateIpv6s".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -791,7 +804,8 @@ namespace Oci.CoreService
         public async Task<BulkCreatePrivateIpsResponse> BulkCreatePrivateIps(BulkCreatePrivateIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkCreatePrivateIps");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/actions/bulkCreatePrivateIps".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/actions/bulkCreatePrivateIps".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -848,7 +862,8 @@ namespace Oci.CoreService
         public async Task<BulkDeleteIpv6sResponse> BulkDeleteIpv6s(BulkDeleteIpv6sRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkDeleteIpv6s");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/actions/bulkDeleteIpv6s".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/actions/bulkDeleteIpv6s".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -905,7 +920,8 @@ namespace Oci.CoreService
         public async Task<BulkDeletePrivateIpsResponse> BulkDeletePrivateIps(BulkDeletePrivateIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkDeletePrivateIps");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/actions/bulkDeletePrivateIps".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/actions/bulkDeletePrivateIps".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -965,7 +981,8 @@ namespace Oci.CoreService
         public async Task<BulkDeleteVirtualCircuitPublicPrefixesResponse> BulkDeleteVirtualCircuitPublicPrefixes(BulkDeleteVirtualCircuitPublicPrefixesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkDeleteVirtualCircuitPublicPrefixes");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}/actions/bulkDeletePublicPrefixes".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "virtualCircuitId", request.VirtualCircuitId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}/actions/bulkDeletePublicPrefixes".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1022,7 +1039,8 @@ namespace Oci.CoreService
         public async Task<BulkDetachIpv6sResponse> BulkDetachIpv6s(BulkDetachIpv6sRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkDetachIpv6s");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/actions/bulkDetachIpv6s".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/actions/bulkDetachIpv6s".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1079,7 +1097,8 @@ namespace Oci.CoreService
         public async Task<BulkDetachPrivateIpsResponse> BulkDetachPrivateIps(BulkDetachPrivateIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkDetachPrivateIps");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/actions/bulkDetachPrivateIps".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/actions/bulkDetachPrivateIps".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1136,7 +1155,8 @@ namespace Oci.CoreService
         public async Task<BulkUpdateIpv6sResponse> BulkUpdateIpv6s(BulkUpdateIpv6sRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUpdateIpv6s");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/actions/bulkUpdateIpv6s".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/actions/bulkUpdateIpv6s".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1192,7 +1212,8 @@ namespace Oci.CoreService
         public async Task<BulkUpdatePrivateIpsResponse> BulkUpdatePrivateIps(BulkUpdatePrivateIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called bulkUpdatePrivateIps");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/actions/bulkUpdatePrivateIps".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/actions/bulkUpdatePrivateIps".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1251,7 +1272,8 @@ namespace Oci.CoreService
         public async Task<ChangeByoasnCompartmentResponse> ChangeByoasnCompartment(ChangeByoasnCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeByoasnCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoasns/{byoasnId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "byoasnId", request.ByoasnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoasns/{byoasnId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1310,7 +1332,8 @@ namespace Oci.CoreService
         public async Task<ChangeByoipRangeCompartmentResponse> ChangeByoipRangeCompartment(ChangeByoipRangeCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeByoipRangeCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "byoipRangeId", request.ByoipRangeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1369,7 +1392,8 @@ namespace Oci.CoreService
         public async Task<ChangeCaptureFilterCompartmentResponse> ChangeCaptureFilterCompartment(ChangeCaptureFilterCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeCaptureFilterCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/captureFilters/{captureFilterId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "captureFilterId", request.CaptureFilterId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/captureFilters/{captureFilterId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1428,7 +1452,8 @@ namespace Oci.CoreService
         public async Task<ChangeCpeCompartmentResponse> ChangeCpeCompartment(ChangeCpeCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeCpeCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/cpes/{cpeId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "cpeId", request.CpeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/cpes/{cpeId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1487,7 +1512,8 @@ namespace Oci.CoreService
         public async Task<ChangeCrossConnectCompartmentResponse> ChangeCrossConnectCompartment(ChangeCrossConnectCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeCrossConnectCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/crossConnects/{crossConnectId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "crossConnectId", request.CrossConnectId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/crossConnects/{crossConnectId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1546,7 +1572,8 @@ namespace Oci.CoreService
         public async Task<ChangeCrossConnectGroupCompartmentResponse> ChangeCrossConnectGroupCompartment(ChangeCrossConnectGroupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeCrossConnectGroupCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/crossConnectGroups/{crossConnectGroupId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "crossConnectGroupId", request.CrossConnectGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/crossConnectGroups/{crossConnectGroupId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1605,7 +1632,8 @@ namespace Oci.CoreService
         public async Task<ChangeDhcpOptionsCompartmentResponse> ChangeDhcpOptionsCompartment(ChangeDhcpOptionsCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDhcpOptionsCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/dhcps/{dhcpId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "dhcpId", request.DhcpId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/dhcps/{dhcpId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1664,7 +1692,8 @@ namespace Oci.CoreService
         public async Task<ChangeDrgCompartmentResponse> ChangeDrgCompartment(ChangeDrgCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeDrgCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgId", request.DrgId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1723,7 +1752,8 @@ namespace Oci.CoreService
         public async Task<ChangeIPSecConnectionCompartmentResponse> ChangeIPSecConnectionCompartment(ChangeIPSecConnectionCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeIPSecConnectionCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1782,7 +1812,8 @@ namespace Oci.CoreService
         public async Task<ChangeInternetGatewayCompartmentResponse> ChangeInternetGatewayCompartment(ChangeInternetGatewayCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeInternetGatewayCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/internetGateways/{igId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "igId", request.IgId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/internetGateways/{igId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1841,7 +1872,8 @@ namespace Oci.CoreService
         public async Task<ChangeLocalPeeringGatewayCompartmentResponse> ChangeLocalPeeringGatewayCompartment(ChangeLocalPeeringGatewayCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeLocalPeeringGatewayCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/localPeeringGateways/{localPeeringGatewayId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "localPeeringGatewayId", request.LocalPeeringGatewayId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/localPeeringGateways/{localPeeringGatewayId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1900,7 +1932,8 @@ namespace Oci.CoreService
         public async Task<ChangeNatGatewayCompartmentResponse> ChangeNatGatewayCompartment(ChangeNatGatewayCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeNatGatewayCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/natGateways/{natGatewayId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "natGatewayId", request.NatGatewayId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/natGateways/{natGatewayId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1958,7 +1991,8 @@ namespace Oci.CoreService
         public async Task<ChangeNetworkSecurityGroupCompartmentResponse> ChangeNetworkSecurityGroupCompartment(ChangeNetworkSecurityGroupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeNetworkSecurityGroupCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "networkSecurityGroupId", request.NetworkSecurityGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2020,7 +2054,8 @@ namespace Oci.CoreService
         public async Task<ChangePublicIpCompartmentResponse> ChangePublicIpCompartment(ChangePublicIpCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changePublicIpCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/publicIps/{publicIpId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "publicIpId", request.PublicIpId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/publicIps/{publicIpId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2079,7 +2114,8 @@ namespace Oci.CoreService
         public async Task<ChangePublicIpPoolCompartmentResponse> ChangePublicIpPoolCompartment(ChangePublicIpPoolCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changePublicIpPoolCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/publicIpPools/{publicIpPoolId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "publicIpPoolId", request.PublicIpPoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/publicIpPools/{publicIpPoolId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2138,7 +2174,8 @@ namespace Oci.CoreService
         public async Task<ChangeRemotePeeringConnectionCompartmentResponse> ChangeRemotePeeringConnectionCompartment(ChangeRemotePeeringConnectionCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeRemotePeeringConnectionCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/remotePeeringConnections/{remotePeeringConnectionId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "remotePeeringConnectionId", request.RemotePeeringConnectionId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/remotePeeringConnections/{remotePeeringConnectionId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2197,7 +2234,8 @@ namespace Oci.CoreService
         public async Task<ChangeRouteTableCompartmentResponse> ChangeRouteTableCompartment(ChangeRouteTableCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeRouteTableCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/routeTables/{rtId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "rtId", request.RtId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/routeTables/{rtId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2256,7 +2294,8 @@ namespace Oci.CoreService
         public async Task<ChangeSecurityListCompartmentResponse> ChangeSecurityListCompartment(ChangeSecurityListCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSecurityListCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/securityLists/{securityListId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "securityListId", request.SecurityListId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/securityLists/{securityListId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2315,7 +2354,8 @@ namespace Oci.CoreService
         public async Task<ChangeServiceGatewayCompartmentResponse> ChangeServiceGatewayCompartment(ChangeServiceGatewayCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeServiceGatewayCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/serviceGateways/{serviceGatewayId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "serviceGatewayId", request.ServiceGatewayId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/serviceGateways/{serviceGatewayId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2374,7 +2414,8 @@ namespace Oci.CoreService
         public async Task<ChangeSubnetCompartmentResponse> ChangeSubnetCompartment(ChangeSubnetCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeSubnetCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "subnetId", request.SubnetId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2433,7 +2474,8 @@ namespace Oci.CoreService
         public async Task<ChangeVcnCompartmentResponse> ChangeVcnCompartment(ChangeVcnCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeVcnCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vcnId", request.VcnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2492,7 +2534,8 @@ namespace Oci.CoreService
         public async Task<ChangeVirtualCircuitCompartmentResponse> ChangeVirtualCircuitCompartment(ChangeVirtualCircuitCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeVirtualCircuitCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "virtualCircuitId", request.VirtualCircuitId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2551,7 +2594,8 @@ namespace Oci.CoreService
         public async Task<ChangeVlanCompartmentResponse> ChangeVlanCompartment(ChangeVlanCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeVlanCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vlans/{vlanId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vlanId", request.VlanId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vlans/{vlanId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2610,7 +2654,8 @@ namespace Oci.CoreService
         public async Task<ChangeVtapCompartmentResponse> ChangeVtapCompartment(ChangeVtapCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeVtapCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vtaps/{vtapId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vtapId", request.VtapId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vtaps/{vtapId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2674,7 +2719,8 @@ namespace Oci.CoreService
         public async Task<ConnectLocalPeeringGatewaysResponse> ConnectLocalPeeringGateways(ConnectLocalPeeringGatewaysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called connectLocalPeeringGateways");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/localPeeringGateways/{localPeeringGatewayId}/actions/connect".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "localPeeringGatewayId", request.LocalPeeringGatewayId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/localPeeringGateways/{localPeeringGatewayId}/actions/connect".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2738,7 +2784,8 @@ namespace Oci.CoreService
         public async Task<ConnectRemotePeeringConnectionsResponse> ConnectRemotePeeringConnections(ConnectRemotePeeringConnectionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called connectRemotePeeringConnections");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/remotePeeringConnections/{remotePeeringConnectionId}/actions/connect".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "remotePeeringConnectionId", request.RemotePeeringConnectionId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/remotePeeringConnections/{remotePeeringConnectionId}/actions/connect".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2795,7 +2842,8 @@ namespace Oci.CoreService
         public async Task<CreateByoasnResponse> CreateByoasn(CreateByoasnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createByoasn");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoasns".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoasns".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2852,7 +2900,8 @@ namespace Oci.CoreService
         public async Task<CreateByoipRangeResponse> CreateByoipRange(CreateByoipRangeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createByoipRange");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2917,7 +2966,8 @@ namespace Oci.CoreService
         public async Task<CreateCaptureFilterResponse> CreateCaptureFilter(CreateCaptureFilterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCaptureFilter");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/captureFilters".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/captureFilters".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2988,7 +3038,8 @@ namespace Oci.CoreService
         public async Task<CreateCpeResponse> CreateCpe(CreateCpeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCpe");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/cpes".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/cpes".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3063,7 +3114,8 @@ namespace Oci.CoreService
         public async Task<CreateCrossConnectResponse> CreateCrossConnect(CreateCrossConnectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCrossConnect");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/crossConnects".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/crossConnects".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3134,7 +3186,8 @@ namespace Oci.CoreService
         public async Task<CreateCrossConnectGroupResponse> CreateCrossConnectGroup(CreateCrossConnectGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createCrossConnectGroup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/crossConnectGroups".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/crossConnectGroups".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3202,7 +3255,8 @@ namespace Oci.CoreService
         public async Task<CreateDhcpOptionsResponse> CreateDhcpOptions(CreateDhcpOptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDhcpOptions");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/dhcps".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/dhcps".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3270,7 +3324,8 @@ namespace Oci.CoreService
         public async Task<CreateDrgResponse> CreateDrg(CreateDrgRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDrg");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgs".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgs".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3337,7 +3392,8 @@ namespace Oci.CoreService
         public async Task<CreateDrgAttachmentResponse> CreateDrgAttachment(CreateDrgAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDrgAttachment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgAttachments".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgAttachments".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3397,7 +3453,8 @@ namespace Oci.CoreService
         public async Task<CreateDrgRouteDistributionResponse> CreateDrgRouteDistribution(CreateDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDrgRouteDistribution");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3455,7 +3512,8 @@ namespace Oci.CoreService
         public async Task<CreateDrgRouteTableResponse> CreateDrgRouteTable(CreateDrgRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createDrgRouteTable");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3539,7 +3597,8 @@ namespace Oci.CoreService
         public async Task<CreateIPSecConnectionResponse> CreateIPSecConnection(CreateIPSecConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createIPSecConnection");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3615,7 +3674,8 @@ namespace Oci.CoreService
         public async Task<CreateInternetGatewayResponse> CreateInternetGateway(CreateInternetGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createInternetGateway");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/internetGateways".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/internetGateways".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3672,7 +3732,8 @@ namespace Oci.CoreService
         public async Task<CreateIpv6Response> CreateIpv6(CreateIpv6Request request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createIpv6");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipv6".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipv6".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3729,7 +3790,8 @@ namespace Oci.CoreService
         public async Task<CreateLocalPeeringGatewayResponse> CreateLocalPeeringGateway(CreateLocalPeeringGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createLocalPeeringGateway");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/localPeeringGateways".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/localPeeringGateways".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3787,7 +3849,8 @@ namespace Oci.CoreService
         public async Task<CreateNatGatewayResponse> CreateNatGateway(CreateNatGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createNatGateway");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/natGateways".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/natGateways".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3844,7 +3907,8 @@ namespace Oci.CoreService
         public async Task<CreateNetworkSecurityGroupResponse> CreateNetworkSecurityGroup(CreateNetworkSecurityGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createNetworkSecurityGroup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3903,7 +3967,8 @@ namespace Oci.CoreService
         public async Task<CreatePrivateIpResponse> CreatePrivateIp(CreatePrivateIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPrivateIp");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/privateIps".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/privateIps".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3980,7 +4045,8 @@ namespace Oci.CoreService
         public async Task<CreatePublicIpResponse> CreatePublicIp(CreatePublicIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPublicIp");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/publicIps".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/publicIps".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -4037,7 +4103,8 @@ namespace Oci.CoreService
         public async Task<CreatePublicIpPoolResponse> CreatePublicIpPool(CreatePublicIpPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createPublicIpPool");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/publicIpPools".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/publicIpPools".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -4094,7 +4161,8 @@ namespace Oci.CoreService
         public async Task<CreateRemotePeeringConnectionResponse> CreateRemotePeeringConnection(CreateRemotePeeringConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRemotePeeringConnection");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/remotePeeringConnections".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/remotePeeringConnections".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -4165,7 +4233,8 @@ namespace Oci.CoreService
         public async Task<CreateRouteTableResponse> CreateRouteTable(CreateRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createRouteTable");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/routeTables".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/routeTables".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -4235,7 +4304,8 @@ namespace Oci.CoreService
         public async Task<CreateSecurityListResponse> CreateSecurityList(CreateSecurityListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSecurityList");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/securityLists".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/securityLists".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -4303,7 +4373,8 @@ namespace Oci.CoreService
         public async Task<CreateServiceGatewayResponse> CreateServiceGateway(CreateServiceGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createServiceGateway");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/serviceGateways".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/serviceGateways".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -4390,7 +4461,8 @@ namespace Oci.CoreService
         public async Task<CreateSubnetResponse> CreateSubnet(CreateSubnetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createSubnet");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/subnets".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/subnets".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -4479,7 +4551,8 @@ namespace Oci.CoreService
         public async Task<CreateVcnResponse> CreateVcn(CreateVcnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVcn");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vcns".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vcns".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -4556,7 +4629,8 @@ namespace Oci.CoreService
         public async Task<CreateVirtualCircuitResponse> CreateVirtualCircuit(CreateVirtualCircuitRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVirtualCircuit");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -4613,7 +4687,8 @@ namespace Oci.CoreService
         public async Task<CreateVlanResponse> CreateVlan(CreateVlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVlan");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vlans".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vlans".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -4678,7 +4753,8 @@ namespace Oci.CoreService
         public async Task<CreateVtapResponse> CreateVtap(CreateVtapRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVtap");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vtaps".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vtaps".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -4738,7 +4814,8 @@ namespace Oci.CoreService
         public async Task<DeleteByoasnResponse> DeleteByoasn(DeleteByoasnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteByoasn");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoasns/{byoasnId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "byoasnId", request.ByoasnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoasns/{byoasnId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -4799,7 +4876,8 @@ namespace Oci.CoreService
         public async Task<DeleteByoipRangeResponse> DeleteByoipRange(DeleteByoipRangeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteByoipRange");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "byoipRangeId", request.ByoipRangeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -4857,7 +4935,8 @@ namespace Oci.CoreService
         public async Task<DeleteCaptureFilterResponse> DeleteCaptureFilter(DeleteCaptureFilterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCaptureFilter");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/captureFilters/{captureFilterId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "captureFilterId", request.CaptureFilterId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/captureFilters/{captureFilterId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -4916,7 +4995,8 @@ namespace Oci.CoreService
         public async Task<DeleteCpeResponse> DeleteCpe(DeleteCpeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCpe");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/cpes/{cpeId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "cpeId", request.CpeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/cpes/{cpeId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -4974,7 +5054,8 @@ namespace Oci.CoreService
         public async Task<DeleteCrossConnectResponse> DeleteCrossConnect(DeleteCrossConnectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCrossConnect");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/crossConnects/{crossConnectId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "crossConnectId", request.CrossConnectId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/crossConnects/{crossConnectId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -5033,7 +5114,8 @@ namespace Oci.CoreService
         public async Task<DeleteCrossConnectGroupResponse> DeleteCrossConnectGroup(DeleteCrossConnectGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteCrossConnectGroup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/crossConnectGroups/{crossConnectGroupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "crossConnectGroupId", request.CrossConnectGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/crossConnectGroups/{crossConnectGroupId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -5094,7 +5176,8 @@ namespace Oci.CoreService
         public async Task<DeleteDhcpOptionsResponse> DeleteDhcpOptions(DeleteDhcpOptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDhcpOptions");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/dhcps/{dhcpId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "dhcpId", request.DhcpId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/dhcps/{dhcpId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -5154,7 +5237,8 @@ namespace Oci.CoreService
         public async Task<DeleteDrgResponse> DeleteDrg(DeleteDrgRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDrg");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgId", request.DrgId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -5213,7 +5297,8 @@ namespace Oci.CoreService
         public async Task<DeleteDrgAttachmentResponse> DeleteDrgAttachment(DeleteDrgAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDrgAttachment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgAttachments/{drgAttachmentId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgAttachmentId", request.DrgAttachmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgAttachments/{drgAttachmentId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -5272,7 +5357,8 @@ namespace Oci.CoreService
         public async Task<DeleteDrgRouteDistributionResponse> DeleteDrgRouteDistribution(DeleteDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDrgRouteDistribution");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgRouteDistributionId", request.DrgRouteDistributionId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -5329,7 +5415,8 @@ namespace Oci.CoreService
         public async Task<DeleteDrgRouteTableResponse> DeleteDrgRouteTable(DeleteDrgRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteDrgRouteTable");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgRouteTableId", request.DrgRouteTableId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -5393,7 +5480,8 @@ namespace Oci.CoreService
         public async Task<DeleteIPSecConnectionResponse> DeleteIPSecConnection(DeleteIPSecConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteIPSecConnection");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -5454,7 +5542,8 @@ namespace Oci.CoreService
         public async Task<DeleteInternetGatewayResponse> DeleteInternetGateway(DeleteInternetGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteInternetGateway");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/internetGateways/{igId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "igId", request.IgId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/internetGateways/{igId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -5512,7 +5601,8 @@ namespace Oci.CoreService
         public async Task<DeleteIpv6Response> DeleteIpv6(DeleteIpv6Request request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteIpv6");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/{ipv6Id}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipv6Id", request.Ipv6Id } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/{ipv6Id}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -5572,7 +5662,8 @@ namespace Oci.CoreService
         public async Task<DeleteLocalPeeringGatewayResponse> DeleteLocalPeeringGateway(DeleteLocalPeeringGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteLocalPeeringGateway");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/localPeeringGateways/{localPeeringGatewayId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "localPeeringGatewayId", request.LocalPeeringGatewayId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/localPeeringGateways/{localPeeringGatewayId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -5633,7 +5724,8 @@ namespace Oci.CoreService
         public async Task<DeleteNatGatewayResponse> DeleteNatGateway(DeleteNatGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteNatGateway");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/natGateways/{natGatewayId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "natGatewayId", request.NatGatewayId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/natGateways/{natGatewayId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -5696,7 +5788,8 @@ namespace Oci.CoreService
         public async Task<DeleteNetworkSecurityGroupResponse> DeleteNetworkSecurityGroup(DeleteNetworkSecurityGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteNetworkSecurityGroup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "networkSecurityGroupId", request.NetworkSecurityGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -5763,7 +5856,8 @@ namespace Oci.CoreService
         public async Task<DeletePrivateIpResponse> DeletePrivateIp(DeletePrivateIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePrivateIp");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/{privateIpId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "privateIpId", request.PrivateIpId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/{privateIpId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -5834,7 +5928,8 @@ namespace Oci.CoreService
         public async Task<DeletePublicIpResponse> DeletePublicIp(DeletePublicIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePublicIp");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/publicIps/{publicIpId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "publicIpId", request.PublicIpId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/publicIps/{publicIpId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -5893,7 +5988,8 @@ namespace Oci.CoreService
         public async Task<DeletePublicIpPoolResponse> DeletePublicIpPool(DeletePublicIpPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deletePublicIpPool");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/publicIpPools/{publicIpPoolId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "publicIpPoolId", request.PublicIpPoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/publicIpPools/{publicIpPoolId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -5953,7 +6049,8 @@ namespace Oci.CoreService
         public async Task<DeleteRemotePeeringConnectionResponse> DeleteRemotePeeringConnection(DeleteRemotePeeringConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRemotePeeringConnection");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/remotePeeringConnections/{remotePeeringConnectionId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "remotePeeringConnectionId", request.RemotePeeringConnectionId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/remotePeeringConnections/{remotePeeringConnectionId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -6014,7 +6111,8 @@ namespace Oci.CoreService
         public async Task<DeleteRouteTableResponse> DeleteRouteTable(DeleteRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteRouteTable");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/routeTables/{rtId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "rtId", request.RtId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/routeTables/{rtId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -6075,7 +6173,8 @@ namespace Oci.CoreService
         public async Task<DeleteSecurityListResponse> DeleteSecurityList(DeleteSecurityListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSecurityList");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/securityLists/{securityListId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "securityListId", request.SecurityListId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/securityLists/{securityListId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -6133,7 +6232,8 @@ namespace Oci.CoreService
         public async Task<DeleteServiceGatewayResponse> DeleteServiceGateway(DeleteServiceGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteServiceGateway");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/serviceGateways/{serviceGatewayId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "serviceGatewayId", request.ServiceGatewayId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/serviceGateways/{serviceGatewayId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -6192,7 +6292,8 @@ namespace Oci.CoreService
         public async Task<DeleteSubnetResponse> DeleteSubnet(DeleteSubnetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteSubnet");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "subnetId", request.SubnetId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -6254,7 +6355,8 @@ namespace Oci.CoreService
         public async Task<DeleteVcnResponse> DeleteVcn(DeleteVcnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVcn");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vcnId", request.VcnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -6315,7 +6417,8 @@ namespace Oci.CoreService
         public async Task<DeleteVirtualCircuitResponse> DeleteVirtualCircuit(DeleteVirtualCircuitRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVirtualCircuit");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "virtualCircuitId", request.VirtualCircuitId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -6372,7 +6475,8 @@ namespace Oci.CoreService
         public async Task<DeleteVlanResponse> DeleteVlan(DeleteVlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVlan");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vlans/{vlanId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vlanId", request.VlanId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vlans/{vlanId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -6430,7 +6534,8 @@ namespace Oci.CoreService
         public async Task<DeleteVtapResponse> DeleteVtap(DeleteVtapRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVtap");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vtaps/{vtapId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vtapId", request.VtapId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vtaps/{vtapId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -6498,7 +6603,8 @@ namespace Oci.CoreService
         public async Task<DetachServiceIdResponse> DetachServiceId(DetachServiceIdRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called detachServiceId");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/serviceGateways/{serviceGatewayId}/actions/detachService".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "serviceGatewayId", request.ServiceGatewayId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/serviceGateways/{serviceGatewayId}/actions/detachService".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -6555,7 +6661,8 @@ namespace Oci.CoreService
         public async Task<GetAllDrgAttachmentsResponse> GetAllDrgAttachments(GetAllDrgAttachmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAllDrgAttachments");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}/actions/getAllDrgAttachments".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgId", request.DrgId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}/actions/getAllDrgAttachments".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -6612,7 +6719,8 @@ namespace Oci.CoreService
         public async Task<GetAllowedIkeIPSecParametersResponse> GetAllowedIkeIPSecParameters(GetAllowedIkeIPSecParametersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getAllowedIkeIPSecParameters");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecAlgorithms".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecAlgorithms".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -6669,7 +6777,8 @@ namespace Oci.CoreService
         public async Task<GetByoasnResponse> GetByoasn(GetByoasnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getByoasn");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoasns/{byoasnId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "byoasnId", request.ByoasnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoasns/{byoasnId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -6726,7 +6835,8 @@ namespace Oci.CoreService
         public async Task<GetByoipRangeResponse> GetByoipRange(GetByoipRangeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getByoipRange");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "byoipRangeId", request.ByoipRangeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -6782,7 +6892,8 @@ namespace Oci.CoreService
         public async Task<GetCaptureFilterResponse> GetCaptureFilter(GetCaptureFilterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCaptureFilter");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/captureFilters/{captureFilterId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "captureFilterId", request.CaptureFilterId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/captureFilters/{captureFilterId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -6838,7 +6949,8 @@ namespace Oci.CoreService
         public async Task<GetCpeResponse> GetCpe(GetCpeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCpe");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/cpes/{cpeId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "cpeId", request.CpeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/cpes/{cpeId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -6912,7 +7024,8 @@ namespace Oci.CoreService
         public async Task<GetCpeDeviceConfigContentResponse> GetCpeDeviceConfigContent(GetCpeDeviceConfigContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCpeDeviceConfigContent");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/cpes/{cpeId}/cpeConfigContent".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "cpeId", request.CpeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/cpes/{cpeId}/cpeConfigContent".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "text/plain; charset=utf-8");
@@ -6977,7 +7090,8 @@ namespace Oci.CoreService
         public async Task<GetCpeDeviceShapeResponse> GetCpeDeviceShape(GetCpeDeviceShapeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCpeDeviceShape");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/cpeDeviceShapes/{cpeDeviceShapeId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "cpeDeviceShapeId", request.CpeDeviceShapeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/cpeDeviceShapes/{cpeDeviceShapeId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -7033,7 +7147,8 @@ namespace Oci.CoreService
         public async Task<GetCrossConnectResponse> GetCrossConnect(GetCrossConnectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCrossConnect");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/crossConnects/{crossConnectId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "crossConnectId", request.CrossConnectId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/crossConnects/{crossConnectId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -7089,7 +7204,8 @@ namespace Oci.CoreService
         public async Task<GetCrossConnectGroupResponse> GetCrossConnectGroup(GetCrossConnectGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCrossConnectGroup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/crossConnectGroups/{crossConnectGroupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "crossConnectGroupId", request.CrossConnectGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/crossConnectGroups/{crossConnectGroupId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -7145,7 +7261,8 @@ namespace Oci.CoreService
         public async Task<GetCrossConnectLetterOfAuthorityResponse> GetCrossConnectLetterOfAuthority(GetCrossConnectLetterOfAuthorityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCrossConnectLetterOfAuthority");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/crossConnects/{crossConnectId}/letterOfAuthority".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "crossConnectId", request.CrossConnectId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/crossConnects/{crossConnectId}/letterOfAuthority".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json, text/html");
@@ -7202,7 +7319,8 @@ namespace Oci.CoreService
         public async Task<GetCrossConnectStatusResponse> GetCrossConnectStatus(GetCrossConnectStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getCrossConnectStatus");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/crossConnects/{crossConnectId}/status".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "crossConnectId", request.CrossConnectId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/crossConnects/{crossConnectId}/status".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -7258,7 +7376,8 @@ namespace Oci.CoreService
         public async Task<GetDhcpOptionsResponse> GetDhcpOptions(GetDhcpOptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDhcpOptions");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/dhcps/{dhcpId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "dhcpId", request.DhcpId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/dhcps/{dhcpId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -7314,7 +7433,8 @@ namespace Oci.CoreService
         public async Task<GetDrgResponse> GetDrg(GetDrgRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDrg");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgId", request.DrgId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -7370,7 +7490,8 @@ namespace Oci.CoreService
         public async Task<GetDrgAttachmentResponse> GetDrgAttachment(GetDrgAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDrgAttachment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgAttachments/{drgAttachmentId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgAttachmentId", request.DrgAttachmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgAttachments/{drgAttachmentId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -7428,7 +7549,8 @@ namespace Oci.CoreService
         public async Task<GetDrgRedundancyStatusResponse> GetDrgRedundancyStatus(GetDrgRedundancyStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDrgRedundancyStatus");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}/redundancyStatus".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgId", request.DrgId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}/redundancyStatus".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -7484,7 +7606,8 @@ namespace Oci.CoreService
         public async Task<GetDrgRouteDistributionResponse> GetDrgRouteDistribution(GetDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDrgRouteDistribution");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgRouteDistributionId", request.DrgRouteDistributionId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -7540,7 +7663,8 @@ namespace Oci.CoreService
         public async Task<GetDrgRouteTableResponse> GetDrgRouteTable(GetDrgRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getDrgRouteTable");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgRouteTableId", request.DrgRouteTableId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -7598,7 +7722,8 @@ namespace Oci.CoreService
         public async Task<GetFastConnectProviderServiceResponse> GetFastConnectProviderService(GetFastConnectProviderServiceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFastConnectProviderService");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/fastConnectProviderServices/{providerServiceId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "providerServiceId", request.ProviderServiceId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/fastConnectProviderServices/{providerServiceId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -7656,7 +7781,8 @@ namespace Oci.CoreService
         public async Task<GetFastConnectProviderServiceKeyResponse> GetFastConnectProviderServiceKey(GetFastConnectProviderServiceKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getFastConnectProviderServiceKey");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/fastConnectProviderServices/{providerServiceId}/providerServiceKeys/{providerServiceKeyName}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "providerServiceId", request.ProviderServiceId }, { "providerServiceKeyName", request.ProviderServiceKeyName } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/fastConnectProviderServices/{providerServiceId}/providerServiceKeys/{providerServiceKeyName}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -7715,7 +7841,8 @@ namespace Oci.CoreService
         public async Task<GetIPSecConnectionResponse> GetIPSecConnection(GetIPSecConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIPSecConnection");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -7775,7 +7902,8 @@ namespace Oci.CoreService
         public async Task<GetIPSecConnectionDeviceConfigResponse> GetIPSecConnectionDeviceConfig(GetIPSecConnectionDeviceConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIPSecConnectionDeviceConfig");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/deviceConfig".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/deviceConfig".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -7833,7 +7961,8 @@ namespace Oci.CoreService
         public async Task<GetIPSecConnectionDeviceStatusResponse> GetIPSecConnectionDeviceStatus(GetIPSecConnectionDeviceStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIPSecConnectionDeviceStatus");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/deviceStatus".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/deviceStatus".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -7892,7 +8021,8 @@ namespace Oci.CoreService
         public async Task<GetIPSecConnectionTunnelResponse> GetIPSecConnectionTunnel(GetIPSecConnectionTunnelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIPSecConnectionTunnel");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId }, { "tunnelId", request.TunnelId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -7949,7 +8079,8 @@ namespace Oci.CoreService
         public async Task<GetIPSecConnectionTunnelErrorResponse> GetIPSecConnectionTunnelError(GetIPSecConnectionTunnelErrorRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIPSecConnectionTunnelError");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}/error".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId }, { "tunnelId", request.TunnelId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}/error".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -8007,7 +8138,8 @@ namespace Oci.CoreService
         public async Task<GetIPSecConnectionTunnelSharedSecretResponse> GetIPSecConnectionTunnelSharedSecret(GetIPSecConnectionTunnelSharedSecretRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIPSecConnectionTunnelSharedSecret");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}/sharedSecret".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId }, { "tunnelId", request.TunnelId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}/sharedSecret".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -8063,7 +8195,8 @@ namespace Oci.CoreService
         public async Task<GetInternetGatewayResponse> GetInternetGateway(GetInternetGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getInternetGateway");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/internetGateways/{igId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "igId", request.IgId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/internetGateways/{igId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -8138,7 +8271,8 @@ namespace Oci.CoreService
         public async Task<GetIpsecCpeDeviceConfigContentResponse> GetIpsecCpeDeviceConfigContent(GetIpsecCpeDeviceConfigContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIpsecCpeDeviceConfigContent");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/cpeConfigContent".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/cpeConfigContent".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "text/plain; charset=utf-8");
@@ -8198,7 +8332,8 @@ namespace Oci.CoreService
         public async Task<GetIpv6Response> GetIpv6(GetIpv6Request request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getIpv6");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/{ipv6Id}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipv6Id", request.Ipv6Id } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/{ipv6Id}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -8254,7 +8389,8 @@ namespace Oci.CoreService
         public async Task<GetLocalPeeringGatewayResponse> GetLocalPeeringGateway(GetLocalPeeringGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getLocalPeeringGateway");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/localPeeringGateways/{localPeeringGatewayId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "localPeeringGatewayId", request.LocalPeeringGatewayId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/localPeeringGateways/{localPeeringGatewayId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -8310,7 +8446,8 @@ namespace Oci.CoreService
         public async Task<GetNatGatewayResponse> GetNatGateway(GetNatGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNatGateway");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/natGateways/{natGatewayId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "natGatewayId", request.NatGatewayId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/natGateways/{natGatewayId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -8373,7 +8510,8 @@ namespace Oci.CoreService
         public async Task<GetNetworkSecurityGroupResponse> GetNetworkSecurityGroup(GetNetworkSecurityGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNetworkSecurityGroup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "networkSecurityGroupId", request.NetworkSecurityGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -8429,7 +8567,8 @@ namespace Oci.CoreService
         public async Task<GetNetworkingTopologyResponse> GetNetworkingTopology(GetNetworkingTopologyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getNetworkingTopology");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/networkingTopology".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/networkingTopology".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -8489,7 +8628,8 @@ namespace Oci.CoreService
         public async Task<GetPrivateIpResponse> GetPrivateIp(GetPrivateIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPrivateIp");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/{privateIpId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "privateIpId", request.PrivateIpId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/{privateIpId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -8556,7 +8696,8 @@ namespace Oci.CoreService
         public async Task<GetPublicIpResponse> GetPublicIp(GetPublicIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPublicIp");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/publicIps/{publicIpId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "publicIpId", request.PublicIpId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/publicIps/{publicIpId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -8617,7 +8758,8 @@ namespace Oci.CoreService
         public async Task<GetPublicIpByIpAddressResponse> GetPublicIpByIpAddress(GetPublicIpByIpAddressRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPublicIpByIpAddress");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/publicIps/actions/getByIpAddress".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/publicIps/actions/getByIpAddress".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -8684,7 +8826,8 @@ namespace Oci.CoreService
         public async Task<GetPublicIpByPrivateIpIdResponse> GetPublicIpByPrivateIpId(GetPublicIpByPrivateIpIdRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPublicIpByPrivateIpId");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/publicIps/actions/getByPrivateIpId".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/publicIps/actions/getByPrivateIpId".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -8741,7 +8884,8 @@ namespace Oci.CoreService
         public async Task<GetPublicIpPoolResponse> GetPublicIpPool(GetPublicIpPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getPublicIpPool");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/publicIpPools/{publicIpPoolId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "publicIpPoolId", request.PublicIpPoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/publicIpPools/{publicIpPoolId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -8798,7 +8942,8 @@ namespace Oci.CoreService
         public async Task<GetRemotePeeringConnectionResponse> GetRemotePeeringConnection(GetRemotePeeringConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRemotePeeringConnection");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/remotePeeringConnections/{remotePeeringConnectionId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "remotePeeringConnectionId", request.RemotePeeringConnectionId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/remotePeeringConnections/{remotePeeringConnectionId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -8855,7 +9000,8 @@ namespace Oci.CoreService
         public async Task<GetResourceIpInventoryResponse> GetResourceIpInventory(GetResourceIpInventoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getResourceIpInventory");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipinventory/DataRequestId/{dataRequestId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "dataRequestId", request.DataRequestId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipinventory/DataRequestId/{dataRequestId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -8911,7 +9057,8 @@ namespace Oci.CoreService
         public async Task<GetRouteTableResponse> GetRouteTable(GetRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getRouteTable");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/routeTables/{rtId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "rtId", request.RtId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/routeTables/{rtId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -8967,7 +9114,8 @@ namespace Oci.CoreService
         public async Task<GetSecurityListResponse> GetSecurityList(GetSecurityListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSecurityList");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/securityLists/{securityListId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "securityListId", request.SecurityListId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/securityLists/{securityListId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -9024,7 +9172,8 @@ namespace Oci.CoreService
         public async Task<GetServiceResponse> GetService(GetServiceRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getService");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/services/{serviceId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "serviceId", request.ServiceId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/services/{serviceId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -9080,7 +9229,8 @@ namespace Oci.CoreService
         public async Task<GetServiceGatewayResponse> GetServiceGateway(GetServiceGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getServiceGateway");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/serviceGateways/{serviceGatewayId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "serviceGatewayId", request.ServiceGatewayId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/serviceGateways/{serviceGatewayId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -9136,7 +9286,8 @@ namespace Oci.CoreService
         public async Task<GetSubnetResponse> GetSubnet(GetSubnetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSubnet");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "subnetId", request.SubnetId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -9193,7 +9344,8 @@ namespace Oci.CoreService
         public async Task<GetSubnetCidrUtilizationResponse> GetSubnetCidrUtilization(GetSubnetCidrUtilizationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSubnetCidrUtilization");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipInventory/subnets/{subnetId}/cidrs".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "subnetId", request.SubnetId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipInventory/subnets/{subnetId}/cidrs".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -9250,7 +9402,8 @@ namespace Oci.CoreService
         public async Task<GetSubnetIpInventoryResponse> GetSubnetIpInventory(GetSubnetIpInventoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSubnetIpInventory");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipInventory/subnets/{subnetId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "subnetId", request.SubnetId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipInventory/subnets/{subnetId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -9306,7 +9459,8 @@ namespace Oci.CoreService
         public async Task<GetSubnetTopologyResponse> GetSubnetTopology(GetSubnetTopologyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getSubnetTopology");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/subnetTopology".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId }, { "subnetId", request.SubnetId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/subnetTopology".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -9367,7 +9521,8 @@ namespace Oci.CoreService
         public async Task<GetTunnelCpeDeviceConfigResponse> GetTunnelCpeDeviceConfig(GetTunnelCpeDeviceConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTunnelCpeDeviceConfig");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}/tunnelDeviceConfig".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId }, { "tunnelId", request.TunnelId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}/tunnelDeviceConfig".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -9441,7 +9596,8 @@ namespace Oci.CoreService
         public async Task<GetTunnelCpeDeviceConfigContentResponse> GetTunnelCpeDeviceConfigContent(GetTunnelCpeDeviceConfigContentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getTunnelCpeDeviceConfigContent");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}/tunnelDeviceConfig/content".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId }, { "tunnelId", request.TunnelId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}/tunnelDeviceConfig/content".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "text/plain; charset=utf-8");
@@ -9498,7 +9654,8 @@ namespace Oci.CoreService
         public async Task<GetUpgradeStatusResponse> GetUpgradeStatus(GetUpgradeStatusRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getUpgradeStatus");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}/actions/upgradeStatus".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgId", request.DrgId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}/actions/upgradeStatus".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -9554,7 +9711,8 @@ namespace Oci.CoreService
         public async Task<GetVcnResponse> GetVcn(GetVcnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVcn");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vcnId", request.VcnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -9610,7 +9768,8 @@ namespace Oci.CoreService
         public async Task<GetVcnDnsResolverAssociationResponse> GetVcnDnsResolverAssociation(GetVcnDnsResolverAssociationRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVcnDnsResolverAssociation");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}/dnsResolverAssociation".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vcnId", request.VcnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}/dnsResolverAssociation".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -9667,7 +9826,8 @@ namespace Oci.CoreService
         public async Task<GetVcnOverlapResponse> GetVcnOverlap(GetVcnOverlapRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVcnOverlap");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipInventory/vcns/{vcnId}/overlaps".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vcnId", request.VcnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipInventory/vcns/{vcnId}/overlaps".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -9723,7 +9883,8 @@ namespace Oci.CoreService
         public async Task<GetVcnTopologyResponse> GetVcnTopology(GetVcnTopologyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVcnTopology");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vcnTopology".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId }, { "vcnId", request.VcnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vcnTopology".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -9779,7 +9940,8 @@ namespace Oci.CoreService
         public async Task<GetVirtualCircuitResponse> GetVirtualCircuit(GetVirtualCircuitRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVirtualCircuit");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "virtualCircuitId", request.VirtualCircuitId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -9835,7 +9997,8 @@ namespace Oci.CoreService
         public async Task<GetVlanResponse> GetVlan(GetVlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVlan");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vlans/{vlanId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vlanId", request.VlanId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vlans/{vlanId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -9895,7 +10058,8 @@ namespace Oci.CoreService
         public async Task<GetVnicResponse> GetVnic(GetVnicRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVnic");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vnics/{vnicId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vnicId", request.VnicId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vnics/{vnicId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -9951,7 +10115,8 @@ namespace Oci.CoreService
         public async Task<GetVtapResponse> GetVtap(GetVtapRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVtap");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vtaps/{vtapId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vtapId", request.VtapId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vtaps/{vtapId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10008,7 +10173,8 @@ namespace Oci.CoreService
         public async Task<Ipv6VnicDetachResponse> Ipv6VnicDetach(Ipv6VnicDetachRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called ipv6VnicDetach");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/{ipv6Id}/actions/detach".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipv6Id", request.Ipv6Id } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/{ipv6Id}/actions/detach".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10066,7 +10232,8 @@ namespace Oci.CoreService
         public async Task<ListAllowedPeerRegionsForRemotePeeringResponse> ListAllowedPeerRegionsForRemotePeering(ListAllowedPeerRegionsForRemotePeeringRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listAllowedPeerRegionsForRemotePeering");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/allowedPeerRegionsForRemotePeering".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/allowedPeerRegionsForRemotePeering".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10124,7 +10291,8 @@ namespace Oci.CoreService
         public async Task<ListByoasnsResponse> ListByoasns(ListByoasnsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listByoasns");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoasns".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoasns".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10182,7 +10350,8 @@ namespace Oci.CoreService
         public async Task<ListByoipAllocatedRangesResponse> ListByoipAllocatedRanges(ListByoipAllocatedRangesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listByoipAllocatedRanges");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}/byoipAllocatedRanges".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "byoipRangeId", request.ByoipRangeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}/byoipAllocatedRanges".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10240,7 +10409,8 @@ namespace Oci.CoreService
         public async Task<ListByoipRangesResponse> ListByoipRanges(ListByoipRangesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listByoipRanges");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10297,7 +10467,8 @@ namespace Oci.CoreService
         public async Task<ListCaptureFiltersResponse> ListCaptureFilters(ListCaptureFiltersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCaptureFilters");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/captureFilters".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/captureFilters".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10366,7 +10537,8 @@ namespace Oci.CoreService
         public async Task<ListCpeDeviceShapesResponse> ListCpeDeviceShapes(ListCpeDeviceShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCpeDeviceShapes");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/cpeDeviceShapes".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/cpeDeviceShapes".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10423,7 +10595,8 @@ namespace Oci.CoreService
         public async Task<ListCpesResponse> ListCpes(ListCpesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCpes");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/cpes".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/cpes".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10480,7 +10653,8 @@ namespace Oci.CoreService
         public async Task<ListCrossConnectGroupsResponse> ListCrossConnectGroups(ListCrossConnectGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCrossConnectGroups");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/crossConnectGroups".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/crossConnectGroups".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10538,7 +10712,8 @@ namespace Oci.CoreService
         public async Task<ListCrossConnectLocationsResponse> ListCrossConnectLocations(ListCrossConnectLocationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCrossConnectLocations");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/crossConnectLocations".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/crossConnectLocations".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10596,7 +10771,8 @@ namespace Oci.CoreService
         public async Task<ListCrossConnectMappingsResponse> ListCrossConnectMappings(ListCrossConnectMappingsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCrossConnectMappings");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}/crossConnectMappings".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "virtualCircuitId", request.VirtualCircuitId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}/crossConnectMappings".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10654,7 +10830,8 @@ namespace Oci.CoreService
         public async Task<ListCrossConnectsResponse> ListCrossConnects(ListCrossConnectsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCrossConnects");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/crossConnects".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/crossConnects".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10713,7 +10890,8 @@ namespace Oci.CoreService
         public async Task<ListCrossconnectPortSpeedShapesResponse> ListCrossconnectPortSpeedShapes(ListCrossconnectPortSpeedShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listCrossconnectPortSpeedShapes");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/crossConnectPortSpeedShapes".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/crossConnectPortSpeedShapes".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10773,7 +10951,8 @@ namespace Oci.CoreService
         public async Task<ListDhcpOptionsResponse> ListDhcpOptions(ListDhcpOptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDhcpOptions");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/dhcps".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/dhcps".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10835,7 +11014,8 @@ namespace Oci.CoreService
         public async Task<ListDrgAttachmentsResponse> ListDrgAttachments(ListDrgAttachmentsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDrgAttachments");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgAttachments".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgAttachments".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10891,7 +11071,8 @@ namespace Oci.CoreService
         public async Task<ListDrgRouteDistributionStatementsResponse> ListDrgRouteDistributionStatements(ListDrgRouteDistributionStatementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDrgRouteDistributionStatements");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}/drgRouteDistributionStatements".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgRouteDistributionId", request.DrgRouteDistributionId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}/drgRouteDistributionStatements".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -10951,7 +11132,8 @@ namespace Oci.CoreService
         public async Task<ListDrgRouteDistributionsResponse> ListDrgRouteDistributions(ListDrgRouteDistributionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDrgRouteDistributions");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgId", request.DrgId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11007,7 +11189,8 @@ namespace Oci.CoreService
         public async Task<ListDrgRouteRulesResponse> ListDrgRouteRules(ListDrgRouteRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDrgRouteRules");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}/drgRouteRules".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgRouteTableId", request.DrgRouteTableId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}/drgRouteRules".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11066,7 +11249,8 @@ namespace Oci.CoreService
         public async Task<ListDrgRouteTablesResponse> ListDrgRouteTables(ListDrgRouteTablesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDrgRouteTables");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgId", request.DrgId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11123,7 +11307,8 @@ namespace Oci.CoreService
         public async Task<ListDrgsResponse> ListDrgs(ListDrgsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listDrgs");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgs".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgs".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11186,7 +11371,8 @@ namespace Oci.CoreService
         public async Task<ListFastConnectProviderServicesResponse> ListFastConnectProviderServices(ListFastConnectProviderServicesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFastConnectProviderServices");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/fastConnectProviderServices".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/fastConnectProviderServices".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11246,7 +11432,8 @@ namespace Oci.CoreService
         public async Task<ListFastConnectProviderVirtualCircuitBandwidthShapesResponse> ListFastConnectProviderVirtualCircuitBandwidthShapes(ListFastConnectProviderVirtualCircuitBandwidthShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listFastConnectProviderVirtualCircuitBandwidthShapes");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/fastConnectProviderServices/{providerServiceId}/virtualCircuitBandwidthShapes".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "providerServiceId", request.ProviderServiceId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/fastConnectProviderServices/{providerServiceId}/virtualCircuitBandwidthShapes".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11303,7 +11490,8 @@ namespace Oci.CoreService
         public async Task<ListIPSecConnectionTunnelRoutesResponse> ListIPSecConnectionTunnelRoutes(ListIPSecConnectionTunnelRoutesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIPSecConnectionTunnelRoutes");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}/routes".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId }, { "tunnelId", request.TunnelId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}/routes".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11360,7 +11548,8 @@ namespace Oci.CoreService
         public async Task<ListIPSecConnectionTunnelSecurityAssociationsResponse> ListIPSecConnectionTunnelSecurityAssociations(ListIPSecConnectionTunnelSecurityAssociationsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIPSecConnectionTunnelSecurityAssociations");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}/tunnelSecurityAssociations".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId }, { "tunnelId", request.TunnelId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}/tunnelSecurityAssociations".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11417,7 +11606,8 @@ namespace Oci.CoreService
         public async Task<ListIPSecConnectionTunnelsResponse> ListIPSecConnectionTunnels(ListIPSecConnectionTunnelsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIPSecConnectionTunnels");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11475,7 +11665,8 @@ namespace Oci.CoreService
         public async Task<ListIPSecConnectionsResponse> ListIPSecConnections(ListIPSecConnectionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIPSecConnections");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11533,7 +11724,8 @@ namespace Oci.CoreService
         public async Task<ListInternetGatewaysResponse> ListInternetGateways(ListInternetGatewaysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInternetGateways");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/internetGateways".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/internetGateways".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11590,7 +11782,8 @@ namespace Oci.CoreService
         public async Task<ListIpInventoryResponse> ListIpInventory(ListIpInventoryRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIpInventory");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipInventory".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipInventory".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11654,7 +11847,8 @@ namespace Oci.CoreService
         public async Task<ListIpv6sResponse> ListIpv6s(ListIpv6sRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listIpv6s");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipv6".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipv6".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11712,7 +11906,8 @@ namespace Oci.CoreService
         public async Task<ListLocalPeeringGatewaysResponse> ListLocalPeeringGateways(ListLocalPeeringGatewaysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listLocalPeeringGateways");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/localPeeringGateways".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/localPeeringGateways".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11770,7 +11965,8 @@ namespace Oci.CoreService
         public async Task<ListNatGatewaysResponse> ListNatGateways(ListNatGatewaysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNatGateways");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/natGateways".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/natGateways".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11827,7 +12023,8 @@ namespace Oci.CoreService
         public async Task<ListNetworkSecurityGroupSecurityRulesResponse> ListNetworkSecurityGroupSecurityRules(ListNetworkSecurityGroupSecurityRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNetworkSecurityGroupSecurityRules");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}/securityRules".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "networkSecurityGroupId", request.NetworkSecurityGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}/securityRules".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11884,7 +12081,8 @@ namespace Oci.CoreService
         public async Task<ListNetworkSecurityGroupVnicsResponse> ListNetworkSecurityGroupVnics(ListNetworkSecurityGroupVnicsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNetworkSecurityGroupVnics");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}/vnics".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "networkSecurityGroupId", request.NetworkSecurityGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}/vnics".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -11942,7 +12140,8 @@ namespace Oci.CoreService
         public async Task<ListNetworkSecurityGroupsResponse> ListNetworkSecurityGroups(ListNetworkSecurityGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listNetworkSecurityGroups");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12014,7 +12213,8 @@ namespace Oci.CoreService
         public async Task<ListPrivateIpsResponse> ListPrivateIps(ListPrivateIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPrivateIps");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/privateIps".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/privateIps".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12072,7 +12272,8 @@ namespace Oci.CoreService
         public async Task<ListPublicIpPoolsResponse> ListPublicIpPools(ListPublicIpPoolsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPublicIpPools");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/publicIpPools".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/publicIpPools".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12148,7 +12349,8 @@ namespace Oci.CoreService
         public async Task<ListPublicIpsResponse> ListPublicIps(ListPublicIpsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listPublicIps");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/publicIps".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "scope", request.Scope }, { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/publicIps".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12206,7 +12408,8 @@ namespace Oci.CoreService
         public async Task<ListRemotePeeringConnectionsResponse> ListRemotePeeringConnections(ListRemotePeeringConnectionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRemotePeeringConnections");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/remotePeeringConnections".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/remotePeeringConnections".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12266,7 +12469,8 @@ namespace Oci.CoreService
         public async Task<ListRouteTablesResponse> ListRouteTables(ListRouteTablesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listRouteTables");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/routeTables".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/routeTables".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12324,7 +12528,8 @@ namespace Oci.CoreService
         public async Task<ListSecurityListsResponse> ListSecurityLists(ListSecurityListsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSecurityLists");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/securityLists".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/securityLists".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12382,7 +12587,8 @@ namespace Oci.CoreService
         public async Task<ListServiceGatewaysResponse> ListServiceGateways(ListServiceGatewaysRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listServiceGateways");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/serviceGateways".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/serviceGateways".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12440,7 +12646,8 @@ namespace Oci.CoreService
         public async Task<ListServicesResponse> ListServices(ListServicesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listServices");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/services".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/services".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12498,7 +12705,8 @@ namespace Oci.CoreService
         public async Task<ListSubnetsResponse> ListSubnets(ListSubnetsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listSubnets");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/subnets".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/subnets".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12555,7 +12763,8 @@ namespace Oci.CoreService
         public async Task<ListVcnsResponse> ListVcns(ListVcnsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVcns");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vcns".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vcns".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12611,7 +12820,8 @@ namespace Oci.CoreService
         public async Task<ListVirtualCircuitAssociatedTunnelsResponse> ListVirtualCircuitAssociatedTunnels(ListVirtualCircuitAssociatedTunnelsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVirtualCircuitAssociatedTunnels");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}/associatedTunnels".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "virtualCircuitId", request.VirtualCircuitId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}/associatedTunnels".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12668,7 +12878,8 @@ namespace Oci.CoreService
         public async Task<ListVirtualCircuitBandwidthShapesResponse> ListVirtualCircuitBandwidthShapes(ListVirtualCircuitBandwidthShapesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVirtualCircuitBandwidthShapes");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuitBandwidthShapes".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuitBandwidthShapes".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12726,7 +12937,8 @@ namespace Oci.CoreService
         public async Task<ListVirtualCircuitPublicPrefixesResponse> ListVirtualCircuitPublicPrefixes(ListVirtualCircuitPublicPrefixesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVirtualCircuitPublicPrefixes");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}/publicPrefixes".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "virtualCircuitId", request.VirtualCircuitId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}/publicPrefixes".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12783,7 +12995,8 @@ namespace Oci.CoreService
         public async Task<ListVirtualCircuitsResponse> ListVirtualCircuits(ListVirtualCircuitsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVirtualCircuits");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12840,7 +13053,8 @@ namespace Oci.CoreService
         public async Task<ListVlansResponse> ListVlans(ListVlansRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVlans");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vlans".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vlans".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12897,7 +13111,8 @@ namespace Oci.CoreService
         public async Task<ListVtapsResponse> ListVtaps(ListVtapsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVtaps");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vtaps".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vtaps".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -12960,7 +13175,8 @@ namespace Oci.CoreService
         public async Task<ModifyIpv4SubnetCidrResponse> ModifyIpv4SubnetCidr(ModifyIpv4SubnetCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called modifyIpv4SubnetCidr");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}/actions/modifyIpv4Cidr".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "subnetId", request.SubnetId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}/actions/modifyIpv4Cidr".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13025,7 +13241,8 @@ namespace Oci.CoreService
         public async Task<ModifyVcnCidrResponse> ModifyVcnCidr(ModifyVcnCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called modifyVcnCidr");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}/actions/modifyCidr".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vcnId", request.VcnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}/actions/modifyCidr".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13091,7 +13308,8 @@ namespace Oci.CoreService
         public async Task<PatchSubnetResponse> PatchSubnet(PatchSubnetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchSubnet");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "subnetId", request.SubnetId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}".Trim('/')));
             HttpMethod method = new HttpMethod("PATCH");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13162,7 +13380,8 @@ namespace Oci.CoreService
         public async Task<PatchVcnResponse> PatchVcn(PatchVcnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called patchVcn");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vcnId", request.VcnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}".Trim('/')));
             HttpMethod method = new HttpMethod("PATCH");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13219,7 +13438,8 @@ namespace Oci.CoreService
         public async Task<PrivateIpVnicDetachResponse> PrivateIpVnicDetach(PrivateIpVnicDetachRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called privateIpVnicDetach");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/{privateIpId}/actions/detach".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "privateIpId", request.PrivateIpId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/{privateIpId}/actions/detach".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13276,7 +13496,8 @@ namespace Oci.CoreService
         public async Task<RemoveDrgRouteDistributionStatementsResponse> RemoveDrgRouteDistributionStatements(RemoveDrgRouteDistributionStatementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeDrgRouteDistributionStatements");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}/actions/removeDrgRouteDistributionStatements".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgRouteDistributionId", request.DrgRouteDistributionId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}/actions/removeDrgRouteDistributionStatements".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13333,7 +13554,8 @@ namespace Oci.CoreService
         public async Task<RemoveDrgRouteRulesResponse> RemoveDrgRouteRules(RemoveDrgRouteRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeDrgRouteRules");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}/actions/removeDrgRouteRules".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgRouteTableId", request.DrgRouteTableId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}/actions/removeDrgRouteRules".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13390,7 +13612,8 @@ namespace Oci.CoreService
         public async Task<RemoveExportDrgRouteDistributionResponse> RemoveExportDrgRouteDistribution(RemoveExportDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeExportDrgRouteDistribution");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgAttachments/{drgAttachmentId}/actions/removeExportDrgRouteDistribution".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgAttachmentId", request.DrgAttachmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgAttachments/{drgAttachmentId}/actions/removeExportDrgRouteDistribution".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13448,7 +13671,8 @@ namespace Oci.CoreService
         public async Task<RemoveImportDrgRouteDistributionResponse> RemoveImportDrgRouteDistribution(RemoveImportDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeImportDrgRouteDistribution");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}/actions/removeImportDrgRouteDistribution".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgRouteTableId", request.DrgRouteTableId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}/actions/removeImportDrgRouteDistribution".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13505,7 +13729,8 @@ namespace Oci.CoreService
         public async Task<RemoveIpv4SubnetCidrResponse> RemoveIpv4SubnetCidr(RemoveIpv4SubnetCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeIpv4SubnetCidr");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}/actions/removeIpv4Cidr".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "subnetId", request.SubnetId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}/actions/removeIpv4Cidr".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13562,7 +13787,8 @@ namespace Oci.CoreService
         public async Task<RemoveIpv6SubnetCidrResponse> RemoveIpv6SubnetCidr(RemoveIpv6SubnetCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeIpv6SubnetCidr");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}/actions/removeIpv6Cidr".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "subnetId", request.SubnetId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}/actions/removeIpv6Cidr".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13619,7 +13845,8 @@ namespace Oci.CoreService
         public async Task<RemoveIpv6VcnCidrResponse> RemoveIpv6VcnCidr(RemoveIpv6VcnCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeIpv6VcnCidr");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}/actions/removeIpv6Cidr".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vcnId", request.VcnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}/actions/removeIpv6Cidr".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13676,7 +13903,8 @@ namespace Oci.CoreService
         public async Task<RemoveNetworkSecurityGroupSecurityRulesResponse> RemoveNetworkSecurityGroupSecurityRules(RemoveNetworkSecurityGroupSecurityRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeNetworkSecurityGroupSecurityRules");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}/actions/removeSecurityRules".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "networkSecurityGroupId", request.NetworkSecurityGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}/actions/removeSecurityRules".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13733,7 +13961,8 @@ namespace Oci.CoreService
         public async Task<RemovePublicIpPoolCapacityResponse> RemovePublicIpPoolCapacity(RemovePublicIpPoolCapacityRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removePublicIpPoolCapacity");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/publicIpPools/{publicIpPoolId}/actions/removeCapacity".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "publicIpPoolId", request.PublicIpPoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/publicIpPools/{publicIpPoolId}/actions/removeCapacity".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13794,7 +14023,8 @@ namespace Oci.CoreService
         public async Task<RemoveVcnCidrResponse> RemoveVcnCidr(RemoveVcnCidrRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called removeVcnCidr");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}/actions/removeCidr".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vcnId", request.VcnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}/actions/removeCidr".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13851,7 +14081,8 @@ namespace Oci.CoreService
         public async Task<SetOriginAsnResponse> SetOriginAsn(SetOriginAsnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called setOriginAsn");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}/actions/setOrigin/byoasn".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "byoipRangeId", request.ByoipRangeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}/actions/setOrigin/byoasn".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13908,7 +14139,8 @@ namespace Oci.CoreService
         public async Task<SetOriginAsnToOracleResponse> SetOriginAsnToOracle(SetOriginAsnToOracleRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called setOriginAsnToOracle");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}/actions/setOrigin/oracleAsn".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "byoipRangeId", request.ByoipRangeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}/actions/setOrigin/oracleAsn".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -13965,7 +14197,8 @@ namespace Oci.CoreService
         public async Task<UpdateByoasnResponse> UpdateByoasn(UpdateByoasnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateByoasn");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoasns/{byoasnId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "byoasnId", request.ByoasnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoasns/{byoasnId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14022,7 +14255,8 @@ namespace Oci.CoreService
         public async Task<UpdateByoipRangeResponse> UpdateByoipRange(UpdateByoipRangeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateByoipRange");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "byoipRangeId", request.ByoipRangeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14079,7 +14313,8 @@ namespace Oci.CoreService
         public async Task<UpdateCaptureFilterResponse> UpdateCaptureFilter(UpdateCaptureFilterRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCaptureFilter");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/captureFilters/{captureFilterId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "captureFilterId", request.CaptureFilterId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/captureFilters/{captureFilterId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14137,7 +14372,8 @@ namespace Oci.CoreService
         public async Task<UpdateCpeResponse> UpdateCpe(UpdateCpeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCpe");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/cpes/{cpeId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "cpeId", request.CpeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/cpes/{cpeId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14193,7 +14429,8 @@ namespace Oci.CoreService
         public async Task<UpdateCrossConnectResponse> UpdateCrossConnect(UpdateCrossConnectRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCrossConnect");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/crossConnects/{crossConnectId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "crossConnectId", request.CrossConnectId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/crossConnects/{crossConnectId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14251,7 +14488,8 @@ namespace Oci.CoreService
         public async Task<UpdateCrossConnectGroupResponse> UpdateCrossConnectGroup(UpdateCrossConnectGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateCrossConnectGroup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/crossConnectGroups/{crossConnectGroupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "crossConnectGroupId", request.CrossConnectGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/crossConnectGroups/{crossConnectGroupId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14311,7 +14549,8 @@ namespace Oci.CoreService
         public async Task<UpdateDhcpOptionsResponse> UpdateDhcpOptions(UpdateDhcpOptionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDhcpOptions");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/dhcps/{dhcpId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "dhcpId", request.DhcpId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/dhcps/{dhcpId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14368,7 +14607,8 @@ namespace Oci.CoreService
         public async Task<UpdateDrgResponse> UpdateDrg(UpdateDrgRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrg");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgId", request.DrgId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14426,7 +14666,8 @@ namespace Oci.CoreService
         public async Task<UpdateDrgAttachmentResponse> UpdateDrgAttachment(UpdateDrgAttachmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrgAttachment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgAttachments/{drgAttachmentId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgAttachmentId", request.DrgAttachmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgAttachments/{drgAttachmentId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14483,7 +14724,8 @@ namespace Oci.CoreService
         public async Task<UpdateDrgRouteDistributionResponse> UpdateDrgRouteDistribution(UpdateDrgRouteDistributionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrgRouteDistribution");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgRouteDistributionId", request.DrgRouteDistributionId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14540,7 +14782,8 @@ namespace Oci.CoreService
         public async Task<UpdateDrgRouteDistributionStatementsResponse> UpdateDrgRouteDistributionStatements(UpdateDrgRouteDistributionStatementsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrgRouteDistributionStatements");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}/actions/updateDrgRouteDistributionStatements".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgRouteDistributionId", request.DrgRouteDistributionId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteDistributions/{drgRouteDistributionId}/actions/updateDrgRouteDistributionStatements".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14597,7 +14840,8 @@ namespace Oci.CoreService
         public async Task<UpdateDrgRouteRulesResponse> UpdateDrgRouteRules(UpdateDrgRouteRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrgRouteRules");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}/actions/updateDrgRouteRules".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgRouteTableId", request.DrgRouteTableId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}/actions/updateDrgRouteRules".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14654,7 +14898,8 @@ namespace Oci.CoreService
         public async Task<UpdateDrgRouteTableResponse> UpdateDrgRouteTable(UpdateDrgRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateDrgRouteTable");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgRouteTableId", request.DrgRouteTableId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgRouteTables/{drgRouteTableId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14714,7 +14959,8 @@ namespace Oci.CoreService
         public async Task<UpdateIPSecConnectionResponse> UpdateIPSecConnection(UpdateIPSecConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateIPSecConnection");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14782,7 +15028,8 @@ namespace Oci.CoreService
         public async Task<UpdateIPSecConnectionTunnelResponse> UpdateIPSecConnectionTunnel(UpdateIPSecConnectionTunnelRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateIPSecConnectionTunnel");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId }, { "tunnelId", request.TunnelId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14841,7 +15088,8 @@ namespace Oci.CoreService
         public async Task<UpdateIPSecConnectionTunnelSharedSecretResponse> UpdateIPSecConnectionTunnelSharedSecret(UpdateIPSecConnectionTunnelSharedSecretRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateIPSecConnectionTunnelSharedSecret");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}/sharedSecret".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId }, { "tunnelId", request.TunnelId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}/sharedSecret".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14902,7 +15150,8 @@ namespace Oci.CoreService
         public async Task<UpdateInternetGatewayResponse> UpdateInternetGateway(UpdateInternetGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateInternetGateway");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/internetGateways/{igId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "igId", request.IgId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/internetGateways/{igId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -14965,7 +15214,8 @@ namespace Oci.CoreService
         public async Task<UpdateIpv6Response> UpdateIpv6(UpdateIpv6Request request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateIpv6");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/{ipv6Id}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipv6Id", request.Ipv6Id } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipv6/{ipv6Id}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -15022,7 +15272,8 @@ namespace Oci.CoreService
         public async Task<UpdateLocalPeeringGatewayResponse> UpdateLocalPeeringGateway(UpdateLocalPeeringGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateLocalPeeringGateway");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/localPeeringGateways/{localPeeringGatewayId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "localPeeringGatewayId", request.LocalPeeringGatewayId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/localPeeringGateways/{localPeeringGatewayId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -15079,7 +15330,8 @@ namespace Oci.CoreService
         public async Task<UpdateNatGatewayResponse> UpdateNatGateway(UpdateNatGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNatGateway");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/natGateways/{natGatewayId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "natGatewayId", request.NatGatewayId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/natGateways/{natGatewayId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -15150,7 +15402,8 @@ namespace Oci.CoreService
         public async Task<UpdateNetworkSecurityGroupResponse> UpdateNetworkSecurityGroup(UpdateNetworkSecurityGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNetworkSecurityGroup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "networkSecurityGroupId", request.NetworkSecurityGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -15207,7 +15460,8 @@ namespace Oci.CoreService
         public async Task<UpdateNetworkSecurityGroupSecurityRulesResponse> UpdateNetworkSecurityGroupSecurityRules(UpdateNetworkSecurityGroupSecurityRulesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateNetworkSecurityGroupSecurityRules");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}/actions/updateSecurityRules".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "networkSecurityGroupId", request.NetworkSecurityGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/networkSecurityGroups/{networkSecurityGroupId}/actions/updateSecurityRules".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -15273,7 +15527,8 @@ namespace Oci.CoreService
         public async Task<UpdatePrivateIpResponse> UpdatePrivateIp(UpdatePrivateIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePrivateIp");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/{privateIpId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "privateIpId", request.PrivateIpId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/privateIps/{privateIpId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -15368,7 +15623,8 @@ namespace Oci.CoreService
         public async Task<UpdatePublicIpResponse> UpdatePublicIp(UpdatePublicIpRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePublicIp");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/publicIps/{publicIpId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "publicIpId", request.PublicIpId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/publicIps/{publicIpId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -15425,7 +15681,8 @@ namespace Oci.CoreService
         public async Task<UpdatePublicIpPoolResponse> UpdatePublicIpPool(UpdatePublicIpPoolRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updatePublicIpPool");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/publicIpPools/{publicIpPoolId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "publicIpPoolId", request.PublicIpPoolId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/publicIpPools/{publicIpPoolId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -15482,7 +15739,8 @@ namespace Oci.CoreService
         public async Task<UpdateRemotePeeringConnectionResponse> UpdateRemotePeeringConnection(UpdateRemotePeeringConnectionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRemotePeeringConnection");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/remotePeeringConnections/{remotePeeringConnectionId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "remotePeeringConnectionId", request.RemotePeeringConnectionId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/remotePeeringConnections/{remotePeeringConnectionId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -15542,7 +15800,8 @@ namespace Oci.CoreService
         public async Task<UpdateRouteTableResponse> UpdateRouteTable(UpdateRouteTableRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateRouteTable");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/routeTables/{rtId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "rtId", request.RtId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/routeTables/{rtId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -15603,7 +15862,8 @@ namespace Oci.CoreService
         public async Task<UpdateSecurityListResponse> UpdateSecurityList(UpdateSecurityListRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSecurityList");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/securityLists/{securityListId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "securityListId", request.SecurityListId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/securityLists/{securityListId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -15661,7 +15921,8 @@ namespace Oci.CoreService
         public async Task<UpdateServiceGatewayResponse> UpdateServiceGateway(UpdateServiceGatewayRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateServiceGateway");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/serviceGateways/{serviceGatewayId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "serviceGatewayId", request.ServiceGatewayId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/serviceGateways/{serviceGatewayId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -15718,7 +15979,8 @@ namespace Oci.CoreService
         public async Task<UpdateSubnetResponse> UpdateSubnet(UpdateSubnetRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateSubnet");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "subnetId", request.SubnetId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/subnets/{subnetId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -15777,7 +16039,8 @@ namespace Oci.CoreService
         public async Task<UpdateTunnelCpeDeviceConfigResponse> UpdateTunnelCpeDeviceConfig(UpdateTunnelCpeDeviceConfigRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateTunnelCpeDeviceConfig");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}/tunnelDeviceConfig".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "ipscId", request.IpscId }, { "tunnelId", request.TunnelId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/ipsecConnections/{ipscId}/tunnels/{tunnelId}/tunnelDeviceConfig".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -15834,7 +16097,8 @@ namespace Oci.CoreService
         public async Task<UpdateVcnResponse> UpdateVcn(UpdateVcnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVcn");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vcnId", request.VcnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vcns/{vcnId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -15914,7 +16178,8 @@ namespace Oci.CoreService
         public async Task<UpdateVirtualCircuitResponse> UpdateVirtualCircuit(UpdateVirtualCircuitRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVirtualCircuit");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "virtualCircuitId", request.VirtualCircuitId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/virtualCircuits/{virtualCircuitId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -15972,7 +16237,8 @@ namespace Oci.CoreService
         public async Task<UpdateVlanResponse> UpdateVlan(UpdateVlanRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVlan");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vlans/{vlanId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vlanId", request.VlanId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vlans/{vlanId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -16029,7 +16295,8 @@ namespace Oci.CoreService
         public async Task<UpdateVnicResponse> UpdateVnic(UpdateVnicRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVnic");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vnics/{vnicId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vnicId", request.VnicId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vnics/{vnicId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -16086,7 +16353,8 @@ namespace Oci.CoreService
         public async Task<UpdateVtapResponse> UpdateVtap(UpdateVtapRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVtap");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/vtaps/{vtapId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "vtapId", request.VtapId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/vtaps/{vtapId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -16144,7 +16412,8 @@ namespace Oci.CoreService
         public async Task<UpgradeDrgResponse> UpgradeDrg(UpgradeDrgRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called upgradeDrg");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}/actions/upgrade".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "drgId", request.DrgId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/drgs/{drgId}/actions/upgrade".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -16202,7 +16471,8 @@ namespace Oci.CoreService
         public async Task<ValidateByoasnResponse> ValidateByoasn(ValidateByoasnRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called validateByoasn");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoasns/{byoasnId}/actions/validate".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "byoasnId", request.ByoasnId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoasns/{byoasnId}/actions/validate".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -16260,7 +16530,8 @@ namespace Oci.CoreService
         public async Task<ValidateByoipRangeResponse> ValidateByoipRange(ValidateByoipRangeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called validateByoipRange");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}/actions/validate".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "byoipRangeId", request.ByoipRangeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}/actions/validate".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -16317,7 +16588,8 @@ namespace Oci.CoreService
         public async Task<WithdrawByoipRangeResponse> WithdrawByoipRange(WithdrawByoipRangeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called withdrawByoipRange");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}/actions/withdraw".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "byoipRangeId", request.ByoipRangeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/byoipRanges/{byoipRangeId}/actions/withdraw".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");

@@ -22,7 +22,7 @@ namespace Oci.GenerativeaiService.Models
     {
         
         /// <value>
-        /// The user-friendly display name for the Hosted Application. 
+        /// The user-friendly display name for the Hosted Application.
         /// Does not need to be unique and can be updated after creation.
         /// 
         /// </value>
@@ -59,7 +59,7 @@ namespace Oci.GenerativeaiService.Models
         public NetworkingConfig NetworkingConfig { get; set; }
         
         /// <value>
-        /// The list of storage configuration for the Hosted Application. 
+        /// The list of storage configuration for the Hosted Application.
         /// Defines a list of service-managed storage back-ends.
         /// 
         /// </value>
@@ -67,7 +67,7 @@ namespace Oci.GenerativeaiService.Models
         public System.Collections.Generic.List<StorageConfig> StorageConfigs { get; set; }
         
         /// <value>
-        /// The list of environment variables for the Hosted Application. 
+        /// The list of environment variables for the Hosted Application.
         /// Defines a list of environment variables injected at runtime.
         /// 
         /// </value>

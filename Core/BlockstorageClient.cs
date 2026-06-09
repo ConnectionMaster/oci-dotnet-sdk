@@ -50,7 +50,8 @@ namespace Oci.CoreService
             {
                 ServiceName = "BLOCKSTORAGE",
                 ServiceEndpointPrefix = "iaas",
-                ServiceEndpointTemplate = "https://iaas.{region}.{secondLevelDomain}"
+                ServiceEndpointTemplate = "https://iaas.{region}.{dualStack?ds.oci.:}{secondLevelDomain}",
+                EndpointServiceName = "iaas"
             };
 
             ClientConfiguration clientConfigurationToUse = clientConfiguration ?? new ClientConfiguration();
@@ -87,7 +88,8 @@ namespace Oci.CoreService
         public async Task<ChangeBootVolumeBackupCompartmentResponse> ChangeBootVolumeBackupCompartment(ChangeBootVolumeBackupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeBootVolumeBackupCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeBackups/{bootVolumeBackupId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "bootVolumeBackupId", request.BootVolumeBackupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeBackups/{bootVolumeBackupId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -146,7 +148,8 @@ namespace Oci.CoreService
         public async Task<ChangeBootVolumeCompartmentResponse> ChangeBootVolumeCompartment(ChangeBootVolumeCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeBootVolumeCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes/{bootVolumeId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "bootVolumeId", request.BootVolumeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes/{bootVolumeId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -205,7 +208,8 @@ namespace Oci.CoreService
         public async Task<ChangeVolumeBackupCompartmentResponse> ChangeVolumeBackupCompartment(ChangeVolumeBackupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeVolumeBackupCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackups/{volumeBackupId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeBackupId", request.VolumeBackupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackups/{volumeBackupId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -264,7 +268,8 @@ namespace Oci.CoreService
         public async Task<ChangeVolumeCompartmentResponse> ChangeVolumeCompartment(ChangeVolumeCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeVolumeCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumes/{volumeId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeId", request.VolumeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumes/{volumeId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -323,7 +328,8 @@ namespace Oci.CoreService
         public async Task<ChangeVolumeGroupBackupCompartmentResponse> ChangeVolumeGroupBackupCompartment(ChangeVolumeGroupBackupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeVolumeGroupBackupCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupBackups/{volumeGroupBackupId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeGroupBackupId", request.VolumeGroupBackupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupBackups/{volumeGroupBackupId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -382,7 +388,8 @@ namespace Oci.CoreService
         public async Task<ChangeVolumeGroupCompartmentResponse> ChangeVolumeGroupCompartment(ChangeVolumeGroupCompartmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called changeVolumeGroupCompartment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroups/{volumeGroupId}/actions/changeCompartment".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeGroupId", request.VolumeGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroups/{volumeGroupId}/actions/changeCompartment".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -440,7 +447,8 @@ namespace Oci.CoreService
         public async Task<CopyBootVolumeBackupResponse> CopyBootVolumeBackup(CopyBootVolumeBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called copyBootVolumeBackup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeBackups/{bootVolumeBackupId}/actions/copy".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "bootVolumeBackupId", request.BootVolumeBackupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeBackups/{bootVolumeBackupId}/actions/copy".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -498,7 +506,8 @@ namespace Oci.CoreService
         public async Task<CopyVolumeBackupResponse> CopyVolumeBackup(CopyVolumeBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called copyVolumeBackup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackups/{volumeBackupId}/actions/copy".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeBackupId", request.VolumeBackupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackups/{volumeBackupId}/actions/copy".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -556,7 +565,8 @@ namespace Oci.CoreService
         public async Task<CopyVolumeGroupBackupResponse> CopyVolumeGroupBackup(CopyVolumeGroupBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called copyVolumeGroupBackup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupBackups/{volumeGroupBackupId}/actions/copy".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeGroupBackupId", request.VolumeGroupBackupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupBackups/{volumeGroupBackupId}/actions/copy".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -616,7 +626,8 @@ namespace Oci.CoreService
         public async Task<CreateBootVolumeResponse> CreateBootVolume(CreateBootVolumeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBootVolume");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -678,7 +689,8 @@ namespace Oci.CoreService
         public async Task<CreateBootVolumeBackupResponse> CreateBootVolumeBackup(CreateBootVolumeBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createBootVolumeBackup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeBackups".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeBackups".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -748,7 +760,8 @@ namespace Oci.CoreService
         public async Task<CreateVolumeResponse> CreateVolume(CreateVolumeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVolume");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumes".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumes".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -810,7 +823,8 @@ namespace Oci.CoreService
         public async Task<CreateVolumeBackupResponse> CreateVolumeBackup(CreateVolumeBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVolumeBackup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackups".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackups".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -870,7 +884,8 @@ namespace Oci.CoreService
         public async Task<CreateVolumeBackupPolicyResponse> CreateVolumeBackupPolicy(CreateVolumeBackupPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVolumeBackupPolicy");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicies".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicies".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -929,7 +944,8 @@ namespace Oci.CoreService
         public async Task<CreateVolumeBackupPolicyAssignmentResponse> CreateVolumeBackupPolicyAssignment(CreateVolumeBackupPolicyAssignmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVolumeBackupPolicyAssignment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicyAssignments".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicyAssignments".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -992,7 +1008,8 @@ namespace Oci.CoreService
         public async Task<CreateVolumeGroupResponse> CreateVolumeGroup(CreateVolumeGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVolumeGroup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroups".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroups".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1050,7 +1067,8 @@ namespace Oci.CoreService
         public async Task<CreateVolumeGroupBackupResponse> CreateVolumeGroupBackup(CreateVolumeGroupBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called createVolumeGroupBackup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupBackups".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupBackups".Trim('/')));
             HttpMethod method = new HttpMethod("POST");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1110,7 +1128,8 @@ namespace Oci.CoreService
         public async Task<DeleteBootVolumeResponse> DeleteBootVolume(DeleteBootVolumeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBootVolume");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes/{bootVolumeId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "bootVolumeId", request.BootVolumeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes/{bootVolumeId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1166,7 +1185,8 @@ namespace Oci.CoreService
         public async Task<DeleteBootVolumeBackupResponse> DeleteBootVolumeBackup(DeleteBootVolumeBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBootVolumeBackup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeBackups/{bootVolumeBackupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "bootVolumeBackupId", request.BootVolumeBackupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeBackups/{bootVolumeBackupId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1223,7 +1243,8 @@ namespace Oci.CoreService
         public async Task<DeleteBootVolumeKmsKeyResponse> DeleteBootVolumeKmsKey(DeleteBootVolumeKmsKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteBootVolumeKmsKey");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes/{bootVolumeId}/kmsKey".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "bootVolumeId", request.BootVolumeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes/{bootVolumeId}/kmsKey".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1283,7 +1304,8 @@ namespace Oci.CoreService
         public async Task<DeleteVolumeResponse> DeleteVolume(DeleteVolumeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVolume");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumes/{volumeId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeId", request.VolumeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumes/{volumeId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1339,7 +1361,8 @@ namespace Oci.CoreService
         public async Task<DeleteVolumeBackupResponse> DeleteVolumeBackup(DeleteVolumeBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVolumeBackup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackups/{volumeBackupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeBackupId", request.VolumeBackupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackups/{volumeBackupId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1400,7 +1423,8 @@ namespace Oci.CoreService
         public async Task<DeleteVolumeBackupPolicyResponse> DeleteVolumeBackupPolicy(DeleteVolumeBackupPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVolumeBackupPolicy");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicies/{policyId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "policyId", request.PolicyId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicies/{policyId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1456,7 +1480,8 @@ namespace Oci.CoreService
         public async Task<DeleteVolumeBackupPolicyAssignmentResponse> DeleteVolumeBackupPolicyAssignment(DeleteVolumeBackupPolicyAssignmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVolumeBackupPolicyAssignment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicyAssignments/{policyAssignmentId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "policyAssignmentId", request.PolicyAssignmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicyAssignments/{policyAssignmentId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1514,7 +1539,8 @@ namespace Oci.CoreService
         public async Task<DeleteVolumeGroupResponse> DeleteVolumeGroup(DeleteVolumeGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVolumeGroup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroups/{volumeGroupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeGroupId", request.VolumeGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroups/{volumeGroupId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1572,7 +1598,8 @@ namespace Oci.CoreService
         public async Task<DeleteVolumeGroupBackupResponse> DeleteVolumeGroupBackup(DeleteVolumeGroupBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVolumeGroupBackup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupBackups/{volumeGroupBackupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeGroupBackupId", request.VolumeGroupBackupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupBackups/{volumeGroupBackupId}".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1629,7 +1656,8 @@ namespace Oci.CoreService
         public async Task<DeleteVolumeKmsKeyResponse> DeleteVolumeKmsKey(DeleteVolumeKmsKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called deleteVolumeKmsKey");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumes/{volumeId}/kmsKey".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeId", request.VolumeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumes/{volumeId}/kmsKey".Trim('/')));
             HttpMethod method = new HttpMethod("DELETE");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1685,7 +1713,8 @@ namespace Oci.CoreService
         public async Task<GetBlockVolumeReplicaResponse> GetBlockVolumeReplica(GetBlockVolumeReplicaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBlockVolumeReplica");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/blockVolumeReplicas/{blockVolumeReplicaId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "blockVolumeReplicaId", request.BlockVolumeReplicaId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/blockVolumeReplicas/{blockVolumeReplicaId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1741,7 +1770,8 @@ namespace Oci.CoreService
         public async Task<GetBootVolumeResponse> GetBootVolume(GetBootVolumeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBootVolume");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes/{bootVolumeId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "bootVolumeId", request.BootVolumeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes/{bootVolumeId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1797,7 +1827,8 @@ namespace Oci.CoreService
         public async Task<GetBootVolumeBackupResponse> GetBootVolumeBackup(GetBootVolumeBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBootVolumeBackup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeBackups/{bootVolumeBackupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "bootVolumeBackupId", request.BootVolumeBackupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeBackups/{bootVolumeBackupId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1854,7 +1885,8 @@ namespace Oci.CoreService
         public async Task<GetBootVolumeKmsKeyResponse> GetBootVolumeKmsKey(GetBootVolumeKmsKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBootVolumeKmsKey");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes/{bootVolumeId}/kmsKey".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "bootVolumeId", request.BootVolumeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes/{bootVolumeId}/kmsKey".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1910,7 +1942,8 @@ namespace Oci.CoreService
         public async Task<GetBootVolumeReplicaResponse> GetBootVolumeReplica(GetBootVolumeReplicaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getBootVolumeReplica");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeReplicas/{bootVolumeReplicaId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "bootVolumeReplicaId", request.BootVolumeReplicaId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeReplicas/{bootVolumeReplicaId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -1966,7 +1999,8 @@ namespace Oci.CoreService
         public async Task<GetVolumeResponse> GetVolume(GetVolumeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVolume");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumes/{volumeId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeId", request.VolumeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumes/{volumeId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2022,7 +2056,8 @@ namespace Oci.CoreService
         public async Task<GetVolumeBackupResponse> GetVolumeBackup(GetVolumeBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVolumeBackup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackups/{volumeBackupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeBackupId", request.VolumeBackupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackups/{volumeBackupId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2078,7 +2113,8 @@ namespace Oci.CoreService
         public async Task<GetVolumeBackupPolicyResponse> GetVolumeBackupPolicy(GetVolumeBackupPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVolumeBackupPolicy");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicies/{policyId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "policyId", request.PolicyId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicies/{policyId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2137,7 +2173,8 @@ namespace Oci.CoreService
         public async Task<GetVolumeBackupPolicyAssetAssignmentResponse> GetVolumeBackupPolicyAssetAssignment(GetVolumeBackupPolicyAssetAssignmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVolumeBackupPolicyAssetAssignment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicyAssignments".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "assetId", request.AssetId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicyAssignments".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2193,7 +2230,8 @@ namespace Oci.CoreService
         public async Task<GetVolumeBackupPolicyAssignmentResponse> GetVolumeBackupPolicyAssignment(GetVolumeBackupPolicyAssignmentRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVolumeBackupPolicyAssignment");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicyAssignments/{policyAssignmentId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "policyAssignmentId", request.PolicyAssignmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicyAssignments/{policyAssignmentId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2249,7 +2287,8 @@ namespace Oci.CoreService
         public async Task<GetVolumeGroupResponse> GetVolumeGroup(GetVolumeGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVolumeGroup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroups/{volumeGroupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeGroupId", request.VolumeGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroups/{volumeGroupId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2305,7 +2344,8 @@ namespace Oci.CoreService
         public async Task<GetVolumeGroupBackupResponse> GetVolumeGroupBackup(GetVolumeGroupBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVolumeGroupBackup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupBackups/{volumeGroupBackupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeGroupBackupId", request.VolumeGroupBackupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupBackups/{volumeGroupBackupId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2361,7 +2401,8 @@ namespace Oci.CoreService
         public async Task<GetVolumeGroupReplicaResponse> GetVolumeGroupReplica(GetVolumeGroupReplicaRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVolumeGroupReplica");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupReplicas/{volumeGroupReplicaId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeGroupReplicaId", request.VolumeGroupReplicaId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupReplicas/{volumeGroupReplicaId}".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2418,7 +2459,8 @@ namespace Oci.CoreService
         public async Task<GetVolumeKmsKeyResponse> GetVolumeKmsKey(GetVolumeKmsKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called getVolumeKmsKey");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumes/{volumeId}/kmsKey".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeId", request.VolumeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumes/{volumeId}/kmsKey".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2475,7 +2517,8 @@ namespace Oci.CoreService
         public async Task<ListBlockVolumeReplicasResponse> ListBlockVolumeReplicas(ListBlockVolumeReplicasRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBlockVolumeReplicas");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/blockVolumeReplicas".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/blockVolumeReplicas".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2532,7 +2575,8 @@ namespace Oci.CoreService
         public async Task<ListBootVolumeBackupsResponse> ListBootVolumeBackups(ListBootVolumeBackupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBootVolumeBackups");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeBackups".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeBackups".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2589,7 +2633,8 @@ namespace Oci.CoreService
         public async Task<ListBootVolumeReplicasResponse> ListBootVolumeReplicas(ListBootVolumeReplicasRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBootVolumeReplicas");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeReplicas".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeReplicas".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2646,7 +2691,8 @@ namespace Oci.CoreService
         public async Task<ListBootVolumesResponse> ListBootVolumes(ListBootVolumesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listBootVolumes");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2706,7 +2752,8 @@ namespace Oci.CoreService
         public async Task<ListVolumeBackupPoliciesResponse> ListVolumeBackupPolicies(ListVolumeBackupPoliciesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVolumeBackupPolicies");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicies".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicies".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2763,7 +2810,8 @@ namespace Oci.CoreService
         public async Task<ListVolumeBackupsResponse> ListVolumeBackups(ListVolumeBackupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVolumeBackups");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackups".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackups".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2821,7 +2869,8 @@ namespace Oci.CoreService
         public async Task<ListVolumeGroupBackupsResponse> ListVolumeGroupBackups(ListVolumeGroupBackupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVolumeGroupBackups");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupBackups".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupBackups".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2879,7 +2928,8 @@ namespace Oci.CoreService
         public async Task<ListVolumeGroupReplicasResponse> ListVolumeGroupReplicas(ListVolumeGroupReplicasRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVolumeGroupReplicas");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupReplicas".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "availabilityDomain", request.AvailabilityDomain }, { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupReplicas".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2937,7 +2987,8 @@ namespace Oci.CoreService
         public async Task<ListVolumeGroupsResponse> ListVolumeGroups(ListVolumeGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVolumeGroups");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroups".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroups".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -2994,7 +3045,8 @@ namespace Oci.CoreService
         public async Task<ListVolumesResponse> ListVolumes(ListVolumesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listVolumes");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumes".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> {  };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumes".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3050,7 +3102,8 @@ namespace Oci.CoreService
         public async Task<UpdateBootVolumeResponse> UpdateBootVolume(UpdateBootVolumeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateBootVolume");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes/{bootVolumeId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "bootVolumeId", request.BootVolumeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes/{bootVolumeId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3108,7 +3161,8 @@ namespace Oci.CoreService
         public async Task<UpdateBootVolumeBackupResponse> UpdateBootVolumeBackup(UpdateBootVolumeBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateBootVolumeBackup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeBackups/{bootVolumeBackupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "bootVolumeBackupId", request.BootVolumeBackupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumeBackups/{bootVolumeBackupId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3165,7 +3219,8 @@ namespace Oci.CoreService
         public async Task<UpdateBootVolumeKmsKeyResponse> UpdateBootVolumeKmsKey(UpdateBootVolumeKmsKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateBootVolumeKmsKey");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes/{bootVolumeId}/kmsKey".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "bootVolumeId", request.BootVolumeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/bootVolumes/{bootVolumeId}/kmsKey".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3223,7 +3278,8 @@ namespace Oci.CoreService
         public async Task<UpdateVolumeResponse> UpdateVolume(UpdateVolumeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVolume");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumes/{volumeId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeId", request.VolumeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumes/{volumeId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3281,7 +3337,8 @@ namespace Oci.CoreService
         public async Task<UpdateVolumeBackupResponse> UpdateVolumeBackup(UpdateVolumeBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVolumeBackup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackups/{volumeBackupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeBackupId", request.VolumeBackupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackups/{volumeBackupId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3342,7 +3399,8 @@ namespace Oci.CoreService
         public async Task<UpdateVolumeBackupPolicyResponse> UpdateVolumeBackupPolicy(UpdateVolumeBackupPolicyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVolumeBackupPolicy");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicies/{policyId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "policyId", request.PolicyId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeBackupPolicies/{policyId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3404,7 +3462,8 @@ namespace Oci.CoreService
         public async Task<UpdateVolumeGroupResponse> UpdateVolumeGroup(UpdateVolumeGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVolumeGroup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroups/{volumeGroupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeGroupId", request.VolumeGroupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroups/{volumeGroupId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3460,7 +3519,8 @@ namespace Oci.CoreService
         public async Task<UpdateVolumeGroupBackupResponse> UpdateVolumeGroupBackup(UpdateVolumeGroupBackupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVolumeGroupBackup");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupBackups/{volumeGroupBackupId}".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeGroupBackupId", request.VolumeGroupBackupId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumeGroupBackups/{volumeGroupBackupId}".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");
@@ -3517,7 +3577,8 @@ namespace Oci.CoreService
         public async Task<UpdateVolumeKmsKeyResponse> UpdateVolumeKmsKey(UpdateVolumeKmsKeyRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called updateVolumeKmsKey");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/volumes/{volumeId}/kmsKey".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "volumeId", request.VolumeId } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/volumes/{volumeId}/kmsKey".Trim('/')));
             HttpMethod method = new HttpMethod("PUT");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");

@@ -176,6 +176,12 @@ namespace Oci.MysqlService.Models
         public string IpAddress { get; set; }
         
         /// <value>
+        /// The IPv6 address the read replica is configured to listen on.
+        /// </value>
+        [JsonProperty(PropertyName = "ipv6Address")]
+        public string Ipv6Address { get; set; }
+        
+        /// <value>
         /// The port the read replica is configured to listen on.
         /// </value>
         /// <remarks>

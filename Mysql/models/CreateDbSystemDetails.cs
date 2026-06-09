@@ -192,6 +192,20 @@ namespace Oci.MysqlService.Models
         public string IpAddress { get; set; }
         
         /// <value>
+        /// Whether to allocate an IPv6 address at DB system creation from an
+        /// IPv6 enabled subnet. When provided you may optionally
+        /// provide an IPv6 prefix (ipv6AddressIpv6SubnetCidrPairDetails) of your
+        /// choice to assign the IPv6 address from. If ipv6AddressIpv6SubnetCidrPairDetails
+        /// is not provided then an IPv6 prefix is chosen for you.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isIpv6Enabled")]
+        public System.Nullable<bool> IsIpv6Enabled { get; set; }
+        
+        [JsonProperty(PropertyName = "ipv6AddressIpv6SubnetCidrPairDetails")]
+        public Ipv6AddressIpv6SubnetCidrPairDetails Ipv6AddressIpv6SubnetCidrPairDetails { get; set; }
+        
+        /// <value>
         /// The port for primary endpoint of the DB System to listen on.
         /// </value>
         [JsonProperty(PropertyName = "port")]
