@@ -124,7 +124,7 @@ namespace Oci.GenerativeaiService.Models
         public NetworkingConfig NetworkingConfig { get; set; }
         
         /// <value>
-        /// The list of environment variables for the Hosted Application. 
+        /// The list of environment variables for the Hosted Application.
         /// Defines a list of environment variables injected at runtime.
         /// 
         /// </value>

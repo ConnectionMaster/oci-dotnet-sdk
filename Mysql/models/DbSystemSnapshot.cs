@@ -169,6 +169,12 @@ namespace Oci.MysqlService.Models
         public string IpAddress { get; set; }
         
         /// <value>
+        /// The IPv6 address the DB System is configured to listen on.
+        /// </value>
+        [JsonProperty(PropertyName = "ipv6Address")]
+        public string Ipv6Address { get; set; }
+        
+        /// <value>
         /// The port for primary endpoint of the DB System to listen on.
         /// </value>
         [JsonProperty(PropertyName = "port")]

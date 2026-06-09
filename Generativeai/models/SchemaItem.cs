@@ -21,6 +21,9 @@ namespace Oci.GenerativeaiService.Models
     public class SchemaItem 
     {
         
+        /// <value>
+        /// Specifies the name.
+        /// </value>
         /// <remarks>
         /// Required
         /// </remarks>

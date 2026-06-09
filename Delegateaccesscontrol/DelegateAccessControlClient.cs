@@ -419,7 +419,7 @@ namespace Oci.DelegateaccesscontrolService
         }
 
         /// <summary>
-        /// eletes an Delegation Subscription in Delegation Control.
+        /// Deletes an Delegation Subscription in Delegation Control.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>

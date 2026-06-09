@@ -211,6 +211,17 @@ namespace Oci.MysqlService.Models
         public string IpAddress { get; set; }
         
         /// <value>
+        /// Whether an IPv6 address has been allocated for the DB system when attached
+        /// to an IPv6 enabled subnet. Default: False.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isIpv6Enabled")]
+        public System.Nullable<bool> IsIpv6Enabled { get; set; }
+        
+        [JsonProperty(PropertyName = "ipv6AddressIpv6SubnetCidrPairDetails")]
+        public Ipv6AddressIpv6SubnetCidrPairDetails Ipv6AddressIpv6SubnetCidrPairDetails { get; set; }
+        
+        /// <value>
         /// The port for primary endpoint of the DB System to listen on.
         /// </value>
         [JsonProperty(PropertyName = "port")]

@@ -40,6 +40,9 @@ namespace Oci.MysqlService.Models
         [JsonProperty(PropertyName = "readEndpointIpAddress")]
         public string ReadEndpointIpAddress { get; set; }
         
+        [JsonProperty(PropertyName = "readEndpointIpv6AddressIpv6SubnetCidrPairDetails")]
+        public Ipv6AddressIpv6SubnetCidrPairDetails ReadEndpointIpv6AddressIpv6SubnetCidrPairDetails { get; set; }
+        
         /// <value>
         /// The hostname for the read endpoint of the DB System. Used for DNS.
         /// <br/>

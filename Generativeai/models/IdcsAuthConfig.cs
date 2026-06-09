@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.GenerativeaiService.Models
 {
     /// <summary>
-    /// Oracle Identity Cloud Service (IDCS) configuration used 
+    /// Oracle Identity Cloud Service (IDCS) configuration used
     /// when inboundAuthConfigType is set to IDCS_AUTH_CONFIG.
     /// This object must be specified when inboundAuthConfigType is IDCS_AUTH_CONFIG.
     /// 

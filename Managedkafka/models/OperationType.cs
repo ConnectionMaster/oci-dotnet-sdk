@@ -30,6 +30,12 @@ namespace Oci.ManagedkafkaService.Models
       [EnumMember(Value = "ENABLE_SUPERUSER")]
       EnableSuperuser,
       [EnumMember(Value = "DISABLE_SUPERUSER")]
-      DisableSuperuser
+      DisableSuperuser,
+      [EnumMember(Value = "INSTALL_KAFKA_CLUSTER_ADDON")]
+      InstallKafkaClusterAddon,
+      [EnumMember(Value = "UPDATE_KAFKA_CLUSTER_ADDON")]
+      UpdateKafkaClusterAddon,
+      [EnumMember(Value = "UNINSTALL_KAFKA_CLUSTER_ADDON")]
+      UninstallKafkaClusterAddon
   }
 }

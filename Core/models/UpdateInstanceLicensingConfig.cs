@@ -37,6 +37,7 @@ namespace Oci.CoreService.Models
         /// License Type for the OS license.
         /// * `OCI_PROVIDED` - OCI provided license (e.g. metered $/OCPU-hour).
         /// * `BRING_YOUR_OWN_LICENSE` - Bring your own license.
+        /// * `PARTNER_PROVIDED` - Partner provided license.
         /// 
         /// </value>
         ///
@@ -44,13 +45,16 @@ namespace Oci.CoreService.Models
             [EnumMember(Value = "OCI_PROVIDED")]
             OciProvided,
             [EnumMember(Value = "BRING_YOUR_OWN_LICENSE")]
-            BringYourOwnLicense
+            BringYourOwnLicense,
+            [EnumMember(Value = "PARTNER_PROVIDED")]
+            PartnerProvided
         };
 
         /// <value>
         /// License Type for the OS license.
         /// * `OCI_PROVIDED` - OCI provided license (e.g. metered $/OCPU-hour).
         /// * `BRING_YOUR_OWN_LICENSE` - Bring your own license.
+        /// * `PARTNER_PROVIDED` - Partner provided license.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "licenseType")]

@@ -119,5 +119,12 @@ namespace Oci.CoreService.Models
         [JsonProperty(PropertyName = "ipv6SubnetCidr")]
         public string Ipv6SubnetCidr { get; set; }
         
+        /// <value>
+        /// The hostname associated with the IPv6 address. Only the hostname label, not the FQDN.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "hostname")]
+        public string Hostname { get; set; }
+        
     }
 }
