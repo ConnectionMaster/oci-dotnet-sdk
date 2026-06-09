@@ -37,10 +37,6 @@ namespace Oci.CoreService.Models
         /// <br/>
         /// Example: 10.0.1.0/24
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "CidrBlock is required.")]
         [JsonProperty(PropertyName = "cidrBlock")]
         public string CidrBlock { get; set; }
         
@@ -268,10 +264,6 @@ namespace Oci.CoreService.Models
         /// <br/>
         /// Example: 10.0.14.1
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "VirtualRouterIp is required.")]
         [JsonProperty(PropertyName = "virtualRouterIp")]
         public string VirtualRouterIp { get; set; }
         

@@ -260,7 +260,25 @@ namespace Oci.GenerativeaiService.Models
             [EnumMember(Value = "OAI_A100_40G_X1")]
             OaiA10040GX1,
             [EnumMember(Value = "OAI_A100_40G_X4")]
-            OaiA10040GX4
+            OaiA10040GX4,
+            [EnumMember(Value = "B200_X1")]
+            B200X1,
+            [EnumMember(Value = "B200_X2")]
+            B200X2,
+            [EnumMember(Value = "B200_X4")]
+            B200X4,
+            [EnumMember(Value = "B200_X8")]
+            B200X8,
+            [EnumMember(Value = "OAI_B200_X1")]
+            OaiB200X1,
+            [EnumMember(Value = "OAI_B200_X2")]
+            OaiB200X2,
+            [EnumMember(Value = "OAI_B200_X4")]
+            OaiB200X4,
+            [EnumMember(Value = "OAI_B200_X8")]
+            OaiB200X8,
+            [EnumMember(Value = "SB_B200_X1")]
+            SbB200X1
         };
 
         /// <value>

@@ -40,7 +40,7 @@ namespace Oci.GenerativeaiService.Models
         public InboundAuthConfig InboundAuthConfig { get; set; }
         
         /// <value>
-        /// The list of environment variables for the Hosted Application. 
+        /// The list of environment variables for the Hosted Application.
         /// Defines a list of environment variables injected at runtime.
         /// 
         /// </value>

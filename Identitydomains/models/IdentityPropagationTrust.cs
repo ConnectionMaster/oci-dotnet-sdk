@@ -254,7 +254,9 @@ namespace Oci.IdentitydomainsService.Models
             [EnumMember(Value = "SPNEGO")]
             Spnego,
             [EnumMember(Value = "AWS")]
-            Aws
+            Aws,
+            [EnumMember(Value = "X509")]
+            X509
         };
 
         /// <value>
@@ -365,7 +367,9 @@ namespace Oci.IdentitydomainsService.Models
             [EnumMember(Value = "User")]
             User,
             [EnumMember(Value = "App")]
-            App
+            App,
+            [EnumMember(Value = "Resource")]
+            Resource
         };
 
         /// <value>
@@ -508,6 +512,62 @@ namespace Oci.IdentitydomainsService.Models
         /// </value>
         [JsonProperty(PropertyName = "clockSkewSeconds")]
         public System.Nullable<int> ClockSkewSeconds { get; set; }
+        
+        /// <value>
+        /// Defines the external workload that acts as impersonating resource principal.
+        /// <br/>
+        /// **Added In:** 2509172316
+        /// <br/>
+        /// **SCIM++ Properties:**
+        ///  - type: string
+        ///  - multiValued: false
+        ///  - required: false
+        ///  - mutability: readWrite
+        ///  - returned: default
+        ///  - uniqueness: none
+        ///  - caseExact: true
+        ///  - idcsSearchable: false
+        /// </value>
+        [JsonProperty(PropertyName = "impersonatingResource")]
+        public string ImpersonatingResource { get; set; }
+        
+        /// <value>
+        /// A list of claim validations
+        /// <br/>
+        /// **Added In:** 2509172316
+        /// <br/>
+        /// **SCIM++ Properties:**
+        ///  - idcsCompositeKey: [name]
+        ///  - idcsSearchable: false
+        ///  - multiValued: true
+        ///  - mutability: readWrite
+        ///  - required: false
+        ///  - returned: default
+        ///  - type: complex
+        ///  - uniqueness: none
+        /// </value>
+        [JsonProperty(PropertyName = "claimValidations")]
+        public System.Collections.Generic.List<IdentityPropagationTrustClaimValidations> ClaimValidations { get; set; }
+        
+        /// <value>
+        /// A list of claims to propagate in RPST
+        /// <br/>
+        /// **Added In:** 2509172316
+        /// <br/>
+        /// **SCIM++ Properties:**
+        ///  - idcsSearchable: false
+        ///  - multiValued: true
+        ///  - mutability: readWrite
+        ///  - required: false
+        ///  - returned: default
+        ///  - type: string
+        ///  - uniqueness: none
+        /// </value>
+        [JsonProperty(PropertyName = "claimPropagations")]
+        public System.Collections.Generic.List<string> ClaimPropagations { get; set; }
+        
+        [JsonProperty(PropertyName = "CACertChain")]
+        public IdentityPropagationTrustCaCertChain CACertChain { get; set; }
         
         /// <value>
         /// The Impersonating Principal.

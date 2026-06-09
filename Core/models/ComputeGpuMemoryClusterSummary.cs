@@ -57,6 +57,20 @@ namespace Oci.CoreService.Models
         public string AvailabilityDomain { get; set; }
         
         /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the GPU memory fabric.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "gpuMemoryFabricId")]
+        public string GpuMemoryFabricId { get; set; }
+        
+        /// <value>
+        /// The size represents the total number of instances in the GPU Memory Cluster, including both running instances and those still in the process of launching.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "size")]
+        public System.Nullable<long> Size { get; set; }
+        
+        /// <value>
         /// The current state of the compute GPU Memory Cluster.
         /// </value>
         /// <remarks>

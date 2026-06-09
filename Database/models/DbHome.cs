@@ -180,6 +180,29 @@ namespace Oci.DatabaseService.Models
         /// </value>
         [JsonProperty(PropertyName = "isUnifiedAuditingEnabled")]
         public System.Nullable<bool> IsUnifiedAuditingEnabled { get; set; }
+                ///
+        /// <value>
+        /// Represents database home will be managed by oracle or customer
+        /// 
+        /// </value>
+        ///
+        public enum HomeTypeEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "ORACLE_MANAGED")]
+            OracleManaged,
+            [EnumMember(Value = "CUSTOMER_MANAGED")]
+            CustomerManaged
+        };
+
+        /// <value>
+        /// Represents database home will be managed by oracle or customer
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "homeType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<HomeTypeEnum> HomeType { get; set; }
         
     }
 }

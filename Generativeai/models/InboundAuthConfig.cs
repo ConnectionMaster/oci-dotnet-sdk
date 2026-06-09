@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.GenerativeaiService.Models
 {
     /// <summary>
-    /// The client-side inbound authentication configuration for the Hosted Application. 
+    /// The client-side inbound authentication configuration for the Hosted Application.
     /// Defines the network access rules.
     /// When unspecified, the service applies the default inbound authentication configuration type.
     /// 

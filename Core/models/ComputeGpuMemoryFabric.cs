@@ -139,6 +139,12 @@ namespace Oci.CoreService.Models
         public System.Nullable<FabricHealthEnum> FabricHealth { get; set; }
         
         /// <value>
+        /// List of GPU memory clusters within this GPU memory fabric.
+        /// </value>
+        [JsonProperty(PropertyName = "computeGpuMemoryClusters")]
+        public System.Collections.Generic.List<string> ComputeGpuMemoryClusters { get; set; }
+        
+        /// <value>
         /// Additional data that can be exposed to the customer. Right now it will include the switch tray ids.
         /// 
         /// </value>

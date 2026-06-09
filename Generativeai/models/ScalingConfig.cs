@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.GenerativeaiService.Models
 {
     /// <summary>
-    /// The auto scaling configuration for the Hosted Application. 
+    /// The auto scaling configuration for the Hosted Application.
     /// Defines the minimum and maximum number of replicas.
     /// When unspecified, the service applies service-defined default scaling values.
     /// 

@@ -89,6 +89,14 @@ namespace Oci.MysqlService.Models
         [JsonProperty(PropertyName = "anonymousTransactionsHandling")]
         public AnonymousTransactionsHandling AnonymousTransactionsHandling { get; set; }
         
+        /// <value>
+        /// Whether the connection of the channel will be requested using the IPv6 address of
+        /// the dual stack DB system or not. Default: False.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "mustUseIpv6OnDualStack")]
+        public System.Nullable<bool> MustUseIpv6OnDualStack { get; set; }
+        
         [JsonProperty(PropertyName = "sourceType")]
         private readonly string sourceType = "MYSQL";
     }

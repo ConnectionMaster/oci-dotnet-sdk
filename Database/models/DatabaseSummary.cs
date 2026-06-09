@@ -286,6 +286,32 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "storageSizeDetails")]
         public DatabaseStorageSizeResponseDetails StorageSizeDetails { get; set; }
         
+        [JsonProperty(PropertyName = "managedSoftwareUpdateDetails")]
+        public ManagedSoftwareUpdateDetails ManagedSoftwareUpdateDetails { get; set; }
+                ///
+        /// <value>
+        /// Represents database will be under oracle managed home or customer managed home
+        /// 
+        /// </value>
+        ///
+        public enum HomeTypeEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "ORACLE_MANAGED")]
+            OracleManaged,
+            [EnumMember(Value = "CUSTOMER_MANAGED")]
+            CustomerManaged
+        };
+
+        /// <value>
+        /// Represents database will be under oracle managed home or customer managed home
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "homeType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<HomeTypeEnum> HomeType { get; set; }
+        
         /// <value>
         /// The patch version of the database.
         /// </value>

@@ -129,13 +129,13 @@ namespace Oci.DelegateaccesscontrolService.Models
         public System.Nullable<NotificationMessageFormatEnum> NotificationMessageFormat { get; set; }
         
         /// <value>
-        /// The OCID of the OCI Vault that will store the secrets containing the SSH keys to access the resource governed by this Delegation Control by Delegate Access Control Service. This property is required when resourceType is CLOUDVMCLUSTER. Delegate Access Control Service will generate the SSH keys and store them as secrets in the OCI Vault.
+        /// The OCID of the OCI Vault that will store the secrets containing the SSH keys to access the resource governed by this Delegation Control by Delegate Access Control Service. Delegate Access Control Service will generate the SSH keys and store them as secrets in the OCI Vault. This property is optional when the Delegation Control is created for Oracle Managed Software Updates. Otherwise, it is required when resourceType is CLOUDVMCLUSTER or EXADBVMCLUSTER.
         /// </value>
         [JsonProperty(PropertyName = "vaultId")]
         public string VaultId { get; set; }
         
         /// <value>
-        /// The OCID of the Master Encryption Key in the OCI Vault specified by vaultId. This key will be used to encrypt the SSH keys to access the resource governed by this Delegation Control by Delegate Access Control Service. This property is required when resourceType is CLOUDVMCLUSTER.
+        /// The OCID of the Master Encryption Key in the OCI Vault specified by vaultId. This key will be used to encrypt the SSH keys to access the resource governed by this Delegation Control by Delegate Access Control Service. This property is optional when the Delegation Control is created for Oracle Managed Software Updates. Otherwise, it is required when resourceType is CLOUDVMCLUSTER or EXADBVMCLUSTER.
         /// </value>
         [JsonProperty(PropertyName = "vaultKeyId")]
         public string VaultKeyId { get; set; }

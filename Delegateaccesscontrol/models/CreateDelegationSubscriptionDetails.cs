@@ -23,7 +23,7 @@ namespace Oci.DelegateaccesscontrolService.Models
     {
         
         /// <value>
-        /// The OCID of the compartment that contains the Delegation Control.
+        /// The OCID of the compartment that contains the Delegation Subscription.
         /// </value>
         /// <remarks>
         /// Required
