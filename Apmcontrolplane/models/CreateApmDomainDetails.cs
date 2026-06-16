@@ -48,6 +48,12 @@ namespace Oci.ApmcontrolplaneService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
+        /// The OCID of the Log Analytics log group to which the data uploaded to this APM domain will be mapped to.
+        /// </value>
+        [JsonProperty(PropertyName = "logGroupId")]
+        public string LogGroupId { get; set; }
+        
+        /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.
         /// Example: {&quot;bar-key&quot;: &quot;value&quot;}
         /// </value>

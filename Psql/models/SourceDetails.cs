@@ -31,7 +31,9 @@ namespace Oci.PsqlService.Models
             [EnumMember(Value = "BACKUP")]
             Backup,
             [EnumMember(Value = "NONE")]
-            None
+            None,
+            [EnumMember(Value = "DB_SYSTEM")]
+            DbSystem
         };
 
         
@@ -60,6 +62,9 @@ namespace Oci.PsqlService.Models
             {
                 case "BACKUP":
                     obj = new BackupSourceDetails();
+                    break;
+                case "DB_SYSTEM":
+                    obj = new PrimaryDbSystemSourceDetails();
                     break;
                 case "NONE":
                     obj = new NoneSourceDetails();

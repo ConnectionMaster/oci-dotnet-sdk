@@ -45,6 +45,12 @@ namespace Oci.DatabaseService.Requests
         public System.Nullable<bool> IsOnlineRestart { get; set; }
         
         /// <value>
+        /// Request details to restart the Autonomous Database with force option.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Body)]
+        public RestartAutonomousDatabaseDetails RestartAutonomousDatabaseDetails { get; set; }
+        
+        /// <value>
         /// Indicates that the request is a dry run, if set to \"true\". A dry run request does not actually 
         /// creating or updating a resource and is used only to perform validation on the submitted data.
         /// 

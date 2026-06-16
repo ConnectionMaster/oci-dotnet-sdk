@@ -77,6 +77,12 @@ namespace Oci.ApmcontrolplaneService.Models
         public System.Nullable<bool> IsFreeTier { get; set; }
         
         /// <value>
+        /// The OCID of the Log Analytics log group to which the data uploaded to this APM domain will be mapped to.
+        /// </value>
+        [JsonProperty(PropertyName = "logGroupId")]
+        public string LogGroupId { get; set; }
+        
+        /// <value>
         /// The time the APM domain was created, expressed in RFC 3339 timestamp format.
         /// </value>
         [JsonProperty(PropertyName = "timeCreated")]

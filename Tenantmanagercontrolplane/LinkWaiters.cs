@@ -54,5 +54,33 @@ namespace Oci.TenantmanagercontrolplaneService
             );
             return new Waiter<GetLinkRequest, GetLinkResponse>(config, agent);
         }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetLinkWithTenancyNamesRequest, GetLinkWithTenancyNamesResponse> ForLinkWithTenancyNames(GetLinkWithTenancyNamesRequest request, params LifecycleState[] targetStates)
+        {
+            return this.ForLinkWithTenancyNames(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetLinkWithTenancyNamesRequest, GetLinkWithTenancyNamesResponse> ForLinkWithTenancyNames(GetLinkWithTenancyNamesRequest request, WaiterConfiguration config, params LifecycleState[] targetStates)
+        {
+            var agent = new WaiterAgent<GetLinkWithTenancyNamesRequest, GetLinkWithTenancyNamesResponse>(
+                request,
+                request => client.GetLinkWithTenancyNames(request),
+                response => targetStates.Contains(response.LinkWithTenancyNames.LifecycleState.Value),
+                targetStates.Contains(LifecycleState.Terminated)
+            );
+            return new Waiter<GetLinkWithTenancyNamesRequest, GetLinkWithTenancyNamesResponse>(config, agent);
+        }
     }
 }

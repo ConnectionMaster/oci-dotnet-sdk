@@ -13,23 +13,23 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
 
-namespace Oci.OpensearchService.Models
+namespace Oci.ApmconfigService.Models
 {
     /// <summary>
-    /// Customer logging configuration
+    /// A collection of Data File summaries.
     /// </summary>
-    public class CustomerLoggingDetails 
+    public class DataFileSummaryCollection 
     {
         
         /// <value>
-        /// the age of an index after which the index will get deleted by ISM policy
+        /// A list of Data File summaries.
         /// </value>
         /// <remarks>
         /// Required
         /// </remarks>
-        [Required(ErrorMessage = "LogRetentionDays is required.")]
-        [JsonProperty(PropertyName = "logRetentionDays")]
-        public System.Nullable<int> LogRetentionDays { get; set; }
+        [Required(ErrorMessage = "Items is required.")]
+        [JsonProperty(PropertyName = "items")]
+        public System.Collections.Generic.List<DataFileSummary> Items { get; set; }
         
     }
 }

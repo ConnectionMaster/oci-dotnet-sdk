@@ -148,6 +148,55 @@ namespace Oci.PsqlService
         }
 
         /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListDbSystemReplicas operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListDbSystemReplicasResponse> ListDbSystemReplicasResponseEnumerator(ListDbSystemReplicasRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListDbSystemReplicasRequest, ListDbSystemReplicasResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListDbSystemReplicas(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the DbSystemReplicaSummary objects
+        /// contained in responses from the ListDbSystemReplicas operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<DbSystemReplicaSummary> ListDbSystemReplicasRecordEnumerator(ListDbSystemReplicasRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListDbSystemReplicasRequest, ListDbSystemReplicasResponse, DbSystemReplicaSummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListDbSystemReplicas(request, retryConfiguration, cancellationToken),
+                response => response.DbSystemReplicaCollection.Items
+            );
+        }
+
+        /// <summary>
         /// Creates a new enumerable which will iterate over the responses received from the ListDbSystems operation. This enumerable
         /// will fetch more data from the server as needed.
         /// </summary>
@@ -242,6 +291,55 @@ namespace Oci.PsqlService
                 },
                 request => client.ListDefaultConfigurations(request, retryConfiguration, cancellationToken),
                 response => response.DefaultConfigurationCollection.Items
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListInsightCapabilities operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListInsightCapabilitiesResponse> ListInsightCapabilitiesResponseEnumerator(ListInsightCapabilitiesRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListInsightCapabilitiesRequest, ListInsightCapabilitiesResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListInsightCapabilities(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the InsightCapabilitySummary objects
+        /// contained in responses from the ListInsightCapabilities operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<InsightCapabilitySummary> ListInsightCapabilitiesRecordEnumerator(ListInsightCapabilitiesRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListInsightCapabilitiesRequest, ListInsightCapabilitiesResponse, InsightCapabilitySummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListInsightCapabilities(request, retryConfiguration, cancellationToken),
+                response => response.InsightCapabilityCollection.Items
             );
         }
 

@@ -42,8 +42,9 @@ namespace Oci.Common
         private static volatile bool HasOptedForInstanceMetadataService = false;
         private static Region RegionFromIMDS = null;
         private static RegionSchema RegionSchemaFromIMDS = null;
-        private static readonly string METADATA_SERVICE_BASE_URL = "http://169.254.169.254/";
-        private static readonly string METADATA_SERVICE_API_URL = "opc/v2/instance/regionInfo/";
+        private static readonly string METADATA_SERVICE_BASE_URL = "http://169.254.169.254/opc/v2/";
+        private static readonly string METADATA_SERVICE_API_URL = "instance/regionInfo/";
+        private static readonly string METADATA_SERVICE_BASE_URL_ENV_VAR = "OCI_METADATA_BASE_URL";
         private static readonly string OCI_DEFAULT_REALM_ENV_VAR_NAME = "OCI_DEFAULT_REALM";
 
         public static volatile string DefaultRealmFromEnvironmentVariable = getDefaultRealmFromEnvironmentVariable();
@@ -528,8 +529,9 @@ namespace Oci.Common
             var client = new HttpClient();
             try
             {
-                logger.Info($"Requesting region metadata blob from IMDS at {METADATA_SERVICE_BASE_URL}{METADATA_SERVICE_API_URL}");
-                client.BaseAddress = new Uri(METADATA_SERVICE_BASE_URL);
+                var metadataServiceBaseUrl = GetMetadataServiceBaseUrl();
+                logger.Info($"Requesting region metadata blob from IMDS at {metadataServiceBaseUrl}{METADATA_SERVICE_API_URL}");
+                client.BaseAddress = new Uri(metadataServiceBaseUrl);
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "Oracle");
                 client.DefaultRequestHeaders.UserAgent.ParseAdd(HttpUtils.BuildUserAgent(""));
@@ -558,6 +560,17 @@ namespace Oci.Common
                 client.Dispose();
             }
             return RegionSchemaFromIMDS;
+        }
+
+        private static string GetMetadataServiceBaseUrl()
+        {
+            var metadataServiceBaseUrl = Environment.GetEnvironmentVariable(METADATA_SERVICE_BASE_URL_ENV_VAR);
+            if (String.IsNullOrWhiteSpace(metadataServiceBaseUrl))
+            {
+                metadataServiceBaseUrl = METADATA_SERVICE_BASE_URL;
+            }
+
+            return metadataServiceBaseUrl.Trim().TrimEnd('/') + "/";
         }
 
         /// <summary> Calls GetRegionSchemaFromInstanceMetaDataService , only available on OCI instances), registers region</summary>

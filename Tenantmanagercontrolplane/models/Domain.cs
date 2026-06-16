@@ -50,6 +50,12 @@ namespace Oci.TenantmanagercontrolplaneService.Models
         [Required(ErrorMessage = "OwnerId is required.")]
         [JsonProperty(PropertyName = "ownerId")]
         public string OwnerId { get; set; }
+        
+        /// <value>
+        /// The OCID of the tenancy that has started the registration process for this domain.
+        /// </value>
+        [JsonProperty(PropertyName = "compartmentId")]
+        public string CompartmentId { get; set; }
                 ///
         /// <value>
         /// Lifecycle state of the domain.

@@ -115,10 +115,6 @@ namespace Oci.PsqlService.Models
         [JsonProperty(PropertyName = "instancesDetails")]
         public System.Collections.Generic.List<CreateDbInstanceDetails> InstancesDetails { get; set; }
         
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "Credentials is required.")]
         [JsonProperty(PropertyName = "credentials")]
         public Credentials Credentials { get; set; }
         
@@ -134,6 +130,12 @@ namespace Oci.PsqlService.Models
         
         [JsonProperty(PropertyName = "source")]
         public SourceDetails Source { get; set; }
+        
+        [JsonProperty(PropertyName = "replicationConfig")]
+        public CreateReplicationConfigDetails ReplicationConfig { get; set; }
+        
+        [JsonProperty(PropertyName = "odspInsightDetails")]
+        public OdspInsightDetails OdspInsightDetails { get; set; }
         
         /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.

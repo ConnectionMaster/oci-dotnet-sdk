@@ -48,6 +48,12 @@ namespace Oci.OperatoraccesscontrolService.Requests
         public System.Nullable<AccessRequestLifecycleStates> LifecycleState { get; set; }
         
         /// <value>
+        /// The number of days since when the user wants to search .
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "numDays")]
+        public System.Nullable<int> NumDays { get; set; }
+        
+        /// <value>
         /// Query start time in UTC in ISO 8601 format(inclusive).
         /// Example 2019-10-30T00:00:00Z (yyyy-MM-ddThh:mm:ssZ).
         /// timeIntervalStart and timeIntervalEnd parameters are used together.

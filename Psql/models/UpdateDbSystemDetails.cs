@@ -61,8 +61,17 @@ namespace Oci.PsqlService.Models
         [JsonProperty(PropertyName = "storageDetails")]
         public UpdateStorageDetailsParams StorageDetails { get; set; }
         
+        [JsonProperty(PropertyName = "replicationConfig")]
+        public UpdateReplicationConfigDetails ReplicationConfig { get; set; }
+        
         [JsonProperty(PropertyName = "networkDetails")]
         public UpdateNetworkDetails NetworkDetails { get; set; }
+        
+        [JsonProperty(PropertyName = "kerberosAuthDetails")]
+        public KerberosAuthDetails KerberosAuthDetails { get; set; }
+        
+        [JsonProperty(PropertyName = "odspInsightDetails")]
+        public OdspInsightDetails OdspInsightDetails { get; set; }
         
         /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.

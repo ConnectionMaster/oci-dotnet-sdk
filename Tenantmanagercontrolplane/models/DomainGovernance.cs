@@ -42,6 +42,16 @@ namespace Oci.TenantmanagercontrolplaneService.Models
         public string OwnerId { get; set; }
         
         /// <value>
+        /// The OCID of the tenancy that owns this domain governance entity.
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "CompartmentId is required.")]
+        [JsonProperty(PropertyName = "compartmentId")]
+        public string CompartmentId { get; set; }
+        
+        /// <value>
         /// The OCID of the domain associated with this domain governance entity.
         /// </value>
         /// <remarks>

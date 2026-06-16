@@ -80,5 +80,11 @@ namespace Oci.TenantmanagercontrolplaneService.Models
         [JsonProperty(PropertyName = "subscriptionId")]
         public string SubscriptionId { get; set; }
         
+        /// <value>
+        /// List of features that the child and parent tenancies will have links for. Link with feature CORE will always be created.
+        /// </value>
+        [JsonProperty(PropertyName = "features")]
+        public System.Collections.Generic.List<string> Features { get; set; }
+        
     }
 }

@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
+using System.Reflection;
 
 using Oci.Common.Model;
 using Oci.Common.Utils;
@@ -22,6 +23,7 @@ namespace Oci.Common
     public class RegionTests : BaseTest
     {
         private static NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
+        private const string MetadataBaseUrlEnvVar = "OCI_METADATA_BASE_URL";
 
         [Fact]
         [Trait("Category", "Unit")]
@@ -87,6 +89,31 @@ namespace Oci.Common
             {
                 Assert.True(regionFromIMDS == null && regionSchemaFromIMDS == null);
             }
+        }
+
+        [Fact]
+        [Trait("Category", "Unit")]
+        [DisplayTestMethodNameAttribute]
+        public void RegionMetadataServiceBaseUrlDefaultsToImdsV2Endpoint()
+        {
+            WithMetadataBaseUrl(null, () =>
+            {
+                Assert.Equal("http://169.254.169.254/opc/v2/", GetRegionMetadataServiceBaseUrl());
+            });
+        }
+
+        [Theory]
+        [InlineData("http://custom-metadata/opc/v2", "http://custom-metadata/opc/v2/")]
+        [InlineData("  http://custom-metadata/opc/v2/  ", "http://custom-metadata/opc/v2/")]
+        [InlineData("http://[fd00:c1::a9fe:a9fe]/opc/v2", "http://[fd00:c1::a9fe:a9fe]/opc/v2/")]
+        [Trait("Category", "Unit")]
+        [DisplayTestMethodNameAttribute]
+        public void RegionMetadataServiceBaseUrlHonorsEnvironmentOverride(string envValue, string expected)
+        {
+            WithMetadataBaseUrl(envValue, () =>
+            {
+                Assert.Equal(expected, GetRegionMetadataServiceBaseUrl());
+            });
         }
 
         [Fact]
@@ -282,6 +309,28 @@ namespace Oci.Common
             };
             Realm realm = Realm.Register("REL", "foobar-oraclecloud.com");
             Assert.Equal(EndpointBuilder.CreateEndpoint(service, regionId, realm), expectedEndpoint);
+        }
+
+        private static string GetRegionMetadataServiceBaseUrl()
+        {
+            var method = typeof(Region).GetMethod(
+                "GetMetadataServiceBaseUrl",
+                BindingFlags.NonPublic | BindingFlags.Static);
+            return (string)method.Invoke(null, null);
+        }
+
+        private static void WithMetadataBaseUrl(string value, Action action)
+        {
+            var originalValue = Environment.GetEnvironmentVariable(MetadataBaseUrlEnvVar);
+            try
+            {
+                Environment.SetEnvironmentVariable(MetadataBaseUrlEnvVar, value);
+                action();
+            }
+            finally
+            {
+                Environment.SetEnvironmentVariable(MetadataBaseUrlEnvVar, originalValue);
+            }
         }
 
         private bool AreRegionsSame(Region r1, Region r2)

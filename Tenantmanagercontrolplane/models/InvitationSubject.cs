@@ -22,6 +22,8 @@ namespace Oci.TenantmanagercontrolplaneService.Models
       [EnumMember(Value = "LINK")]
       Link,
       [EnumMember(Value = "GOVERNANCE")]
-      Governance
+      Governance,
+      [EnumMember(Value = "EXTENDED_FEATURES")]
+      ExtendedFeatures
   }
 }

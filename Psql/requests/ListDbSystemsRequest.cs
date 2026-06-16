@@ -82,6 +82,12 @@ namespace Oci.PsqlService.Requests
         public System.Nullable<SortByEnum> SortBy { get; set; }
         
         /// <value>
+        /// A filter to return only DbSystem resources if their `systemRole` matches the given value.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "systemRole")]
+        public System.Nullable<DbSystem.SystemRoleEnum> SystemRole { get; set; }
+        
+        /// <value>
         /// The client request ID for tracing.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-request-id")]

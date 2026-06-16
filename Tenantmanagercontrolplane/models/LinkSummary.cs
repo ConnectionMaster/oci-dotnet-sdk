@@ -87,5 +87,11 @@ namespace Oci.TenantmanagercontrolplaneService.Models
         [JsonProperty(PropertyName = "systemTags")]
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> SystemTags { get; set; }
         
+        /// <value>
+        /// The feature associated with this link. Default value is CORE.
+        /// </value>
+        [JsonProperty(PropertyName = "feature")]
+        public string Feature { get; set; }
+        
     }
 }

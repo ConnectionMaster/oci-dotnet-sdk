@@ -106,7 +106,7 @@ namespace Oci.OperatoraccesscontrolService
                     ServiceName = "OperatorActions",
                     OperationName = "GetOperatorAction",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/operatoraccesscontrol/20200630/OperatorAction/GetOperatorAction",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -163,7 +163,7 @@ namespace Oci.OperatoraccesscontrolService
                     ServiceName = "OperatorActions",
                     OperationName = "ListOperatorActions",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/operatoraccesscontrol/20200630/OperatorAction/ListOperatorActions",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
