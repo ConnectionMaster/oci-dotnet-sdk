@@ -80,5 +80,11 @@ namespace Oci.TenantmanagercontrolplaneService.Models
         [JsonProperty(PropertyName = "timeTerminated")]
         public System.Nullable<System.DateTime> TimeTerminated { get; set; }
         
+        /// <value>
+        /// The feature associated with this link. Default value is CORE.
+        /// </value>
+        [JsonProperty(PropertyName = "feature")]
+        public string Feature { get; set; }
+        
     }
 }

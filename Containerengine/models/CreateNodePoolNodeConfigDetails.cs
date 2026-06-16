@@ -52,6 +52,12 @@ namespace Oci.ContainerengineService.Models
         public System.Nullable<bool> IsPvEncryptionInTransitEnabled { get; set; }
         
         /// <value>
+        /// The OCID of the Compute Cluster to be associated with the worker node instance.
+        /// </value>
+        [JsonProperty(PropertyName = "computeClusterId")]
+        public string ComputeClusterId { get; set; }
+        
+        /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
         /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}

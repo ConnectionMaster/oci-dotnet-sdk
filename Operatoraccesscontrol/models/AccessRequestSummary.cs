@@ -85,6 +85,12 @@ namespace Oci.OperatoraccesscontrolService.Models
         public System.Nullable<ResourceTypes> ResourceType { get; set; }
         
         /// <value>
+        /// List of operator actions for which approval is sought by the operator user.
+        /// </value>
+        [JsonProperty(PropertyName = "actionRequestsList")]
+        public System.Collections.Generic.List<string> ActionRequestsList { get; set; }
+        
+        /// <value>
         /// The current state of the AccessRequest.
         /// </value>
         [JsonProperty(PropertyName = "lifecycleState")]

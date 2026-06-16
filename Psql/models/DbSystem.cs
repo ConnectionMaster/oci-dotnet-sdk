@@ -171,6 +171,38 @@ namespace Oci.PsqlService.Models
         [JsonProperty(PropertyName = "systemType")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<SystemTypeEnum> SystemType { get; set; }
+                ///
+        /// <value>
+        /// Type of the database system.
+        /// </value>
+        ///
+        public enum SystemRoleEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "STANDALONE_DB_SYSTEM")]
+            StandaloneDbSystem,
+            [EnumMember(Value = "PRIMARY_DB_SYSTEM")]
+            PrimaryDbSystem,
+            [EnumMember(Value = "WARM_STANDBY_DB_SYSTEM")]
+            WarmStandbyDbSystem,
+            [EnumMember(Value = "PILOT_LIGHT_DB_SYSTEM")]
+            PilotLightDbSystem
+        };
+
+        /// <value>
+        /// Type of the database system.
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "SystemRole is required.")]
+        [JsonProperty(PropertyName = "systemRole")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<SystemRoleEnum> SystemRole { get; set; }
+        
+        [JsonProperty(PropertyName = "replicationConfig")]
+        public ReplicationConfig ReplicationConfig { get; set; }
         
         /// <value>
         /// The major and minor versions of the database system software.
@@ -254,6 +286,12 @@ namespace Oci.PsqlService.Models
         
         [JsonProperty(PropertyName = "source")]
         public SourceDetails Source { get; set; }
+        
+        [JsonProperty(PropertyName = "kerberosAuthDetails")]
+        public KerberosAuthDetails KerberosAuthDetails { get; set; }
+        
+        [JsonProperty(PropertyName = "odspInsightDetails")]
+        public OdspInsightDetails OdspInsightDetails { get; set; }
         
     }
 }

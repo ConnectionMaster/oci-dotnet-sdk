@@ -86,6 +86,12 @@ namespace Oci.OperatoraccesscontrolService.Models
         public System.Nullable<bool> IsFullyPreApproved { get; set; }
         
         /// <value>
+        /// The OCID of the OCI Notification topic to publish messages related to this operator control.
+        /// </value>
+        [JsonProperty(PropertyName = "notificationTopicId")]
+        public string NotificationTopicId { get; set; }
+        
+        /// <value>
         /// List of emailId.
         /// 
         /// </value>

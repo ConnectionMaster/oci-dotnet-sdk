@@ -28,6 +28,8 @@ namespace Oci.TenantmanagercontrolplaneService.Models
       [EnumMember(Value = "EXPIRED")]
       Expired,
       [EnumMember(Value = "FAILED")]
-      Failed
+      Failed,
+      [EnumMember(Value = "NOT_APPLICABLE")]
+      NotApplicable
   }
 }

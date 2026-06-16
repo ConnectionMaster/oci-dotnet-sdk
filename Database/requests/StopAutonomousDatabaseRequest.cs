@@ -46,6 +46,12 @@ namespace Oci.DatabaseService.Requests
         public string OpcRequestId { get; set; }
         
         /// <value>
+        /// Request details to stop the Autonomous Database with force option.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Body)]
+        public StopAutonomousDatabaseDetails StopAutonomousDatabaseDetails { get; set; }
+        
+        /// <value>
         /// Indicates that the request is a dry run, if set to \"true\". A dry run request does not actually 
         /// creating or updating a resource and is used only to perform validation on the submitted data.
         /// 

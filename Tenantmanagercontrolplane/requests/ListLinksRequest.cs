@@ -32,6 +32,12 @@ namespace Oci.TenantmanagercontrolplaneService.Requests
         public string ChildTenancyId { get; set; }
         
         /// <value>
+        /// The feature associated with this link.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "feature")]
+        public string Feature { get; set; }
+        
+        /// <value>
         /// The lifecycle state of the resource.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "lifecycleState")]

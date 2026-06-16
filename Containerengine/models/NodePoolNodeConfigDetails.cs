@@ -42,6 +42,12 @@ namespace Oci.ContainerengineService.Models
         public string KmsKeyId { get; set; }
         
         /// <value>
+        /// The OCID of the Compute Cluster to be associated with the worker node instance.
+        /// </value>
+        [JsonProperty(PropertyName = "computeClusterId")]
+        public string ComputeClusterId { get; set; }
+        
+        /// <value>
         /// Whether to enable in-transit encryption for the data volume's paravirtualized attachment. This field applies to both block volumes and boot volumes. The default value is false.
         /// </value>
         [JsonProperty(PropertyName = "isPvEncryptionInTransitEnabled")]
