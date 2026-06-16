@@ -29,7 +29,12 @@ namespace Oci.Common.Auth
         /**
         * Default base url of metadata service.
         */
-        private static string METADATA_SERVICE_BASE_URL = "http://169.254.169.254/opc/v2/";
+        private static readonly string METADATA_SERVICE_BASE_URL = "http://169.254.169.254/opc/v2/";
+
+        /**
+        * Environment variable that can override the base url of metadata service.
+        */
+        private static readonly string METADATA_SERVICE_BASE_URL_ENV_VAR = "OCI_METADATA_BASE_URL";
 
         /**
         * The Authorization header value to be sent for requests to the metadata service.
@@ -122,7 +127,8 @@ namespace Oci.Common.Auth
             logger.Info("Detecting federation endpoint");
             if (String.IsNullOrEmpty(this.federationEndpoint))
             {
-                var url = METADATA_SERVICE_BASE_URL + Constants.INSTANCE_REGION;
+                var metadataServiceBaseUrl = GetMetadataServiceBaseUrl();
+                var url = metadataServiceBaseUrl + Constants.INSTANCE_REGION;
                 var httpRequestMsg = new HttpRequestMessage(HttpMethod.Get, new Uri(url));
                 httpRequestMsg.Headers.Add(Constants.ACCEPT_HEADER, Constants.ACCEPT_TYPE);
                 httpRequestMsg.Headers.Add(Constants.AUTHORIZATION_HEADER, AUTHORIZATION_HEADER_VALUE);
@@ -215,9 +221,20 @@ namespace Oci.Common.Auth
         {
             return new ResourceDetails
             {
-                Uri = new Uri(METADATA_SERVICE_BASE_URL + path),
+                Uri = new Uri(GetMetadataServiceBaseUrl() + path),
                 Headers = new Dictionary<string, string> { { Constants.AUTHORIZATION_HEADER, AUTHORIZATION_HEADER_VALUE } }
             };
+        }
+
+        private static string GetMetadataServiceBaseUrl()
+        {
+            var metadataServiceBaseUrl = Environment.GetEnvironmentVariable(METADATA_SERVICE_BASE_URL_ENV_VAR);
+            if (String.IsNullOrWhiteSpace(metadataServiceBaseUrl))
+            {
+                metadataServiceBaseUrl = METADATA_SERVICE_BASE_URL;
+            }
+
+            return metadataServiceBaseUrl.Trim().TrimEnd('/') + "/";
         }
     }
 }

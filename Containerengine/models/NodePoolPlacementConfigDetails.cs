@@ -48,6 +48,12 @@ namespace Oci.ContainerengineService.Models
         [JsonProperty(PropertyName = "capacityReservationId")]
         public string CapacityReservationId { get; set; }
         
+        /// <value>
+        /// The OCID of the Host Group to be associated with the worker node instance.
+        /// </value>
+        [JsonProperty(PropertyName = "hostGroupId")]
+        public string HostGroupId { get; set; }
+        
         [JsonProperty(PropertyName = "preemptibleNodeConfig")]
         public PreemptibleNodeConfigDetails PreemptibleNodeConfig { get; set; }
         

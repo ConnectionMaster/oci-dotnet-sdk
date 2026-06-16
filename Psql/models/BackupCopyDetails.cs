@@ -38,7 +38,7 @@ namespace Oci.PsqlService.Models
         public System.Nullable<int> RetentionPeriod { get; set; }
         
         /// <value>
-        /// List of region names of the remote region
+        /// List of region names of the remote regions
         /// </value>
         /// <remarks>
         /// Required

@@ -13,25 +13,15 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
 
-namespace Oci.TenantmanagercontrolplaneService.Models
+namespace Oci.PsqlService.Models
 {
     /// <summary>
-    /// The parameters for reviving failed workflow
+    /// Disable Kerberos Authentication for the database system.
     /// </summary>
-    public class ReviveWorkflowInstanceDetails 
+    public class DisabledKerberosAuthDetails : KerberosAuthDetails
     {
         
-        /// <value>
-        /// Id of failed workflow
-        /// </value>
-        [JsonProperty(PropertyName = "workflowInstanceId")]
-        public string WorkflowInstanceId { get; set; }
-        
-        /// <value>
-        /// Service specific workflow instance name
-        /// </value>
-        [JsonProperty(PropertyName = "workflowInstanceName")]
-        public string WorkflowInstanceName { get; set; }
-        
+        [JsonProperty(PropertyName = "kind")]
+        private readonly string kind = "DISABLED";
     }
 }

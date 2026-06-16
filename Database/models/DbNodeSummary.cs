@@ -160,6 +160,31 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "lifecycleState")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<LifecycleStateEnum> LifecycleState { get; set; }
+                ///
+        ///
+        public enum AvailableActionsEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "STOP")]
+            Stop,
+            [EnumMember(Value = "FORCESTOP")]
+            Forcestop,
+            [EnumMember(Value = "FORCERESET")]
+            Forcereset,
+            [EnumMember(Value = "START")]
+            Start,
+            [EnumMember(Value = "SOFTRESET")]
+            Softreset,
+            [EnumMember(Value = "RESET")]
+            Reset
+        };
+
+        /// <value>
+        /// Actions that can be performed on the database node, depending on its current lifecycle state.
+        /// </value>
+        [JsonProperty(PropertyName = "availableActions", ItemConverterType = typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Collections.Generic.List<AvailableActionsEnum> AvailableActions { get; set; }
         
         /// <value>
         /// The host name for the database node.

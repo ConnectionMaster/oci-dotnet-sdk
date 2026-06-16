@@ -34,6 +34,8 @@ namespace Oci.OperatoraccesscontrolService.Models
       [EnumMember(Value = "DELETED")]
       Deleted,
       [EnumMember(Value = "DELETIONFAILED")]
-      Deletionfailed
+      Deletionfailed,
+      [EnumMember(Value = "CUSTOMERASSIGNED")]
+      Customerassigned
   }
 }

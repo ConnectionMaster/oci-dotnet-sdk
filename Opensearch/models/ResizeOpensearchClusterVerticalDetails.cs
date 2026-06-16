@@ -106,6 +106,24 @@ namespace Oci.OpensearchService.Models
         public System.Nullable<int> SearchNodeStorageGB { get; set; }
         
         /// <value>
+        /// The node shape for the cluster's coordinator nodes.
+        /// </value>
+        [JsonProperty(PropertyName = "coordinatorNodeHostShape")]
+        public string CoordinatorNodeHostShape { get; set; }
+        
+        /// <value>
+        /// The number of OCPUs configured for the cluster's coordinator nodes.
+        /// </value>
+        [JsonProperty(PropertyName = "coordinatorNodeHostOcpuCount")]
+        public System.Nullable<int> CoordinatorNodeHostOcpuCount { get; set; }
+        
+        /// <value>
+        /// The amount of memory in GB, for the cluster's coordinator nodes.
+        /// </value>
+        [JsonProperty(PropertyName = "coordinatorNodeHostMemoryGB")]
+        public System.Nullable<int> CoordinatorNodeHostMemoryGB { get; set; }
+        
+        /// <value>
         /// The node shape for the cluster's ML nodes.
         /// </value>
         [JsonProperty(PropertyName = "mlNodeHostShape")]

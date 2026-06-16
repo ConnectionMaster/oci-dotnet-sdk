@@ -122,6 +122,12 @@ namespace Oci.TenantmanagercontrolplaneService.Models
         public string RecipientEmailAddress { get; set; }
         
         /// <value>
+        /// List of features that the invitation is being sent for. Each feature would create one link, of that type.
+        /// </value>
+        [JsonProperty(PropertyName = "invitationFeatures")]
+        public System.Collections.Generic.List<InvitationFeature> InvitationFeatures { get; set; }
+        
+        /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.
         /// Example: {&quot;bar-key&quot;: &quot;value&quot;}
         /// </value>

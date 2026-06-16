@@ -94,6 +94,22 @@ namespace Oci.DesktopsService.Models
         [JsonProperty(PropertyName = "image")]
         public UpdateDesktopImage Image { get; set; }
         
+        [JsonProperty(PropertyName = "networkConfiguration")]
+        public UpdateDesktopNetworkConfiguration NetworkConfiguration { get; set; }
+        
+        [JsonProperty(PropertyName = "privateAccessDetails")]
+        public UpdateDesktopPoolPrivateAccessDetails PrivateAccessDetails { get; set; }
+        
+        /// <value>
+        /// [Security attributes](https://docs.oracle.com/iaas/Content/zero-trust-packet-routing/zpr-artifacts.htm#security-attributes) for this resource.
+        /// Each attribute can be referenced in a [Zero Trust Packet Routing](https://docs.oracle.com/iaas/Content/zero-trust-packet-routing/overview.htm)
+        /// (ZPR) policy to control access to ZPR-supported resources.
+        /// <br/>
+        /// Example: {&quot;Oracle-ZPR&quot;: {&quot;MaxEgressCount&quot;: {&quot;value&quot;: &quot;42&quot;, &quot;mode&quot;: &quot;audit&quot;}}}
+        /// </value>
+        [JsonProperty(PropertyName = "securityAttributes")]
+        public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> SecurityAttributes { get; set; }
+        
         /// <value>
         /// The size in GBs of the boot volume for the desktop pool.
         /// </value>

@@ -46,6 +46,12 @@ namespace Oci.OpensearchService.Models
         public System.Nullable<int> SearchNodeCount { get; set; }
         
         /// <value>
+        /// The number of coordinator nodes configured for the cluster.
+        /// </value>
+        [JsonProperty(PropertyName = "coordinatorNodeCount")]
+        public System.Nullable<int> CoordinatorNodeCount { get; set; }
+        
+        /// <value>
         /// The number of ML nodes configured for the cluster.
         /// </value>
         [JsonProperty(PropertyName = "mlNodeCount")]
