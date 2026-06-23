@@ -67,6 +67,17 @@ namespace Oci.Common.Auth
 
         public AbstractRequestingAuthenticationDetailsProvider()
         {
+            InitializeFederationClient();
+        }
+
+        protected AbstractRequestingAuthenticationDetailsProvider(string federationEndpoint)
+        {
+            this.federationEndpoint = NormalizeFederationEndpoint(federationEndpoint);
+            InitializeFederationClient();
+        }
+
+        private void InitializeFederationClient()
+        {
             AutoDetectUsingMetadataUrl();
             sessionKeySupplier = new SessionKey();
             federationClient = new X509FederationClient(
@@ -235,6 +246,16 @@ namespace Oci.Common.Auth
             }
 
             return metadataServiceBaseUrl.Trim().TrimEnd('/') + "/";
+        }
+
+        private static string NormalizeFederationEndpoint(string federationEndpoint)
+        {
+            if (String.IsNullOrWhiteSpace(federationEndpoint))
+            {
+                return null;
+            }
+
+            return federationEndpoint.Trim().TrimEnd('/');
         }
     }
 }

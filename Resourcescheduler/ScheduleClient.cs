@@ -185,7 +185,7 @@ namespace Oci.ResourceschedulerService
         }
 
         /// <summary>
-        /// This API) moves a schedule into a different compartment within the same tenancy. For information about moving resources between
+        /// This API moves a schedule into a different compartment within the same tenancy. For information about moving resources between
         /// compartments, see [Moving Resources to a Different Compartment](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
         /// </summary>

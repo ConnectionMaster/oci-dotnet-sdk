@@ -51,7 +51,9 @@ namespace Oci.ResourceschedulerService.Models
             [EnumMember(Value = "START_RESOURCE")]
             StartResource,
             [EnumMember(Value = "STOP_RESOURCE")]
-            StopResource
+            StopResource,
+            [EnumMember(Value = "BACKUP_RESOURCE")]
+            BackupResource
         };
 
         /// <value>

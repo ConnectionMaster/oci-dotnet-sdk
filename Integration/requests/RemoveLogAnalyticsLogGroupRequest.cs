@@ -30,6 +30,12 @@ namespace Oci.IntegrationService.Requests
         public string IntegrationInstanceId { get; set; }
         
         /// <value>
+        /// Details to remove Log Group for given integration instance or Process Automation attached to integration instance.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Body)]
+        public RemoveLogAnalyticsLogGroupDetails RemoveLogAnalyticsLogGroupDetails { get; set; }
+        
+        /// <value>
         /// For optimistic concurrency control. In the PUT or DELETE call
         /// for a resource, set the `if-match` parameter to the value of the
         /// etag from a previous GET or POST response for that resource.

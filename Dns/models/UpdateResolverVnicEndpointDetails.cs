@@ -32,6 +32,9 @@ namespace Oci.DnsService.Models
         [JsonProperty(PropertyName = "nsgIds")]
         public System.Collections.Generic.List<string> NsgIds { get; set; }
         
+        [JsonProperty(PropertyName = "securityAttributes")]
+        public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> SecurityAttributes { get; set; }
+        
         [JsonProperty(PropertyName = "endpointType")]
         private readonly string endpointType = "VNIC";
     }

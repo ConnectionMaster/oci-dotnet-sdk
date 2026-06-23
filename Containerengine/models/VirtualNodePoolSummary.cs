@@ -170,5 +170,8 @@ namespace Oci.ContainerengineService.Models
         [JsonProperty(PropertyName = "virtualNodeTags")]
         public VirtualNodeTags VirtualNodeTags { get; set; }
         
+        [JsonProperty(PropertyName = "virtualNodePoolCyclingDetails")]
+        public VirtualNodePoolCyclingDetails VirtualNodePoolCyclingDetails { get; set; }
+        
     }
 }

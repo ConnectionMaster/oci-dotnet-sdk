@@ -81,10 +81,6 @@ namespace Oci.ApigatewayService.Models
         /// <value>
         /// The algorithm intended for use with this key.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "Alg is required.")]
         [JsonProperty(PropertyName = "alg")]
         public string Alg { get; set; }
         

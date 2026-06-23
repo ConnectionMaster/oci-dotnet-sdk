@@ -318,5 +318,11 @@ namespace Oci.IntegrationService.Models
         [JsonProperty(PropertyName = "logGroupId")]
         public string LogGroupId { get; set; }
         
+        /// <value>
+        /// OCID of LogAnalytics LogGroup, enabled for given Process Automation attached to integration instance.
+        /// </value>
+        [JsonProperty(PropertyName = "processAutomationLogGroupId")]
+        public string ProcessAutomationLogGroupId { get; set; }
+        
     }
 }

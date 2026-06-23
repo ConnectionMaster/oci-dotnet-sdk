@@ -13,5 +13,13 @@ namespace Oci.Common.Auth
     {
         public InstancePrincipalsAuthenticationDetailsProvider() : base()
         { }
+
+        /// <summary>
+        /// Creates an instance principals authentication provider using a custom auth service federation endpoint.
+        /// The endpoint should be the base auth service endpoint; the SDK appends /v1/x509 when requesting the security token.
+        /// </summary>
+        /// <param name="federationEndpoint">The base auth service federation endpoint.</param>
+        public InstancePrincipalsAuthenticationDetailsProvider(string federationEndpoint) : base(federationEndpoint)
+        { }
     }
 }
