@@ -47,6 +47,8 @@ namespace Oci.ContainerengineService.Models
       VirtualnodepoolDelete,
       [EnumMember(Value = "VIRTUALNODE_DELETE")]
       VirtualnodeDelete,
+      [EnumMember(Value = "VIRTUALNODEPOOL_CYCLING")]
+      VirtualnodepoolCycling,
       [EnumMember(Value = "ENABLE_ADDON")]
       EnableAddon,
       [EnumMember(Value = "UPDATE_ADDON")]

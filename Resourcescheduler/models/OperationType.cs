@@ -23,6 +23,8 @@ namespace Oci.ResourceschedulerService.Models
       StartResource,
       [EnumMember(Value = "STOP_RESOURCE")]
       StopResource,
+      [EnumMember(Value = "BACKUP_RESOURCE")]
+      BackupResource,
       [EnumMember(Value = "CHANGE_SCHEDULE_COMPARTMENT")]
       ChangeScheduleCompartment,
       [EnumMember(Value = "CREATE_SCHEDULE")]

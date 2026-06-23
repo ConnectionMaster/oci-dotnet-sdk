@@ -110,6 +110,15 @@ namespace Oci.ApigatewayService.Models
         [JsonProperty(PropertyName = "logoutPath")]
         public string LogoutPath { get; set; }
         
+        /// <value>
+        /// The path (relative to the deployment) where the Identity Provider 
+        /// will redirect the user after authentication. This path must match 
+        /// a route in the specification that uses the OAUTH2_LOGIN_BACKEND.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "loginPath")]
+        public string LoginPath { get; set; }
+        
         [JsonProperty(PropertyName = "type")]
         private readonly string type = "OAUTH2";
     }

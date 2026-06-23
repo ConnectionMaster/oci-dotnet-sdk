@@ -16,22 +16,12 @@ using Newtonsoft.Json.Converters;
 namespace Oci.IntegrationService.Models
 {
     /// <summary>
-    /// Input payload to ADD Log Analytics Log Group for given IntegrationInstance.
+    /// Input payload to remove Log Analytics Log Group for given IntegrationInstance or its supported attachments.
     /// Some actions may not be applicable to specific integration types.
     /// 
     /// </summary>
-    public class AddLogAnalyticsLogGroupDetails 
+    public class RemoveLogAnalyticsLogGroupDetails 
     {
-        
-        /// <value>
-        /// Log Group ocid.
-        /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "LogGroupId is required.")]
-        [JsonProperty(PropertyName = "logGroupId")]
-        public string LogGroupId { get; set; }
                 ///
         /// <value>
         /// Type of attachment. Supported at this include PROCESS_AUTOMATION

@@ -35,6 +35,25 @@ namespace Oci.DnsService.Models
         [JsonProperty(PropertyName = "subnetId")]
         public string SubnetId { get; set; }
         
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "SecurityAttributes is required.")]
+        [JsonProperty(PropertyName = "securityAttributes")]
+        public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> SecurityAttributes { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private endpoint resource that this resolver endpoint corresponds to.
+        /// </value>
+        [JsonProperty(PropertyName = "peId")]
+        public string PeId { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VNIC resource that this resolver endpoint corresponds to.
+        /// </value>
+        [JsonProperty(PropertyName = "vnicId")]
+        public string VnicId { get; set; }
+        
         [JsonProperty(PropertyName = "endpointType")]
         private readonly string endpointType = "VNIC";
     }

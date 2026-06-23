@@ -1265,6 +1265,12 @@ namespace Oci.DatabaseService.Models
         
         [JsonProperty(PropertyName = "remoteDisasterRecoveryConfiguration")]
         public DisasterRecoveryConfiguration RemoteDisasterRecoveryConfiguration { get; set; }
+        
+        /// <value>
+        /// List of access types for an Autonomous AI Database.
+        /// </value>
+        [JsonProperty(PropertyName = "accessTypes")]
+        public System.Collections.Generic.List<string> AccessTypes { get; set; }
                 ///
         /// <value>
         /// Enabling SHARED server architecture enables a database server to allow many client processes to share very few server processes, thereby increasing the number of supported users.

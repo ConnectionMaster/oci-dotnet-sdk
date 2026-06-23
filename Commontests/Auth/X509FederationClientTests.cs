@@ -96,6 +96,38 @@ namespace Oci.Common.Auth
         [Fact]
         [Trait("Category", "Unit")]
         [DisplayTestMethodNameAttribute]
+        public void GetSecurityTokenPostsToFederationEndpointWithAuthPath()
+        {
+            var token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c";
+            var actualJwtToken = $"{{'token': '{token}'}}";
+            HttpRequestMessage capturedRequest = null;
+
+            var handlerMock = new Mock<HttpMessageHandler>();
+            var response = new HttpResponseMessage
+            {
+                StatusCode = HttpStatusCode.OK,
+                Content = new StringContent(actualJwtToken),
+            };
+
+            handlerMock
+               .Protected()
+               .Setup<Task<HttpResponseMessage>>(
+                  "SendAsync",
+                  ItExpr.IsAny<HttpRequestMessage>(),
+                  ItExpr.IsAny<CancellationToken>())
+               .Callback<HttpRequestMessage, CancellationToken>((request, _) => capturedRequest = request)
+               .ReturnsAsync(response);
+
+            x509FederationClient.Client = new HttpClient(handlerMock.Object);
+            x509FederationClient.GetSecurityToken();
+
+            Assert.NotNull(capturedRequest);
+            Assert.Equal("https://auth.us-phoenix-1.oraclecloud.com/v1/x509", capturedRequest.RequestUri.ToString());
+        }
+
+        [Fact]
+        [Trait("Category", "Unit")]
+        [DisplayTestMethodNameAttribute]
         public void GetSecurityTokenNoRetryOn4xx()
         {
             var handlerMock = new Mock<HttpMessageHandler>();
@@ -314,16 +346,16 @@ namespace Oci.Common.Auth
             Assert.Equal(CircuitState.HalfOpen, circuitBreakerPolicy.CircuitState);
 
             //This should succeed now as the circuit is half-open and call succeeded
-            var response = await circuitBreakerPolicy.ExecuteAsync(() => 
+            var response = await circuitBreakerPolicy.ExecuteAsync(() =>
                 {
                     return Task.FromResult(new HttpResponseMessage(HttpStatusCode.OK));
                 }
             );
-            
+
             Assert.Equal(CircuitState.Closed, circuitBreakerPolicy.CircuitState);
             Assert.Equal(HttpStatusCode.OK, response.StatusCode);
         }
-        
+
         private class ErrorCodeAndMessage
         {
             [JsonProperty("code")]

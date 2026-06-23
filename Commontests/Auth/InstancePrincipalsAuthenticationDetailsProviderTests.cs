@@ -51,12 +51,41 @@ namespace Oci.Common.Auth
             });
         }
 
+        [Fact]
+        [Trait("Category", "Unit")]
+        [DisplayTestMethodNameAttribute]
+        public void InstancePrincipalsProviderExposesFederationEndpointConstructor()
+        {
+            Assert.NotNull(typeof(InstancePrincipalsAuthenticationDetailsProvider).GetConstructor(new[] { typeof(string) }));
+        }
+
+        [Theory]
+        [InlineData(null, null)]
+        [InlineData("", null)]
+        [InlineData("   ", null)]
+        [InlineData("https://auth.us-ashburn-1.oraclecloud.com", "https://auth.us-ashburn-1.oraclecloud.com")]
+        [InlineData(" https://auth.us-ashburn-1.oraclecloud.com/ ", "https://auth.us-ashburn-1.oraclecloud.com")]
+        [Trait("Category", "Unit")]
+        [DisplayTestMethodNameAttribute]
+        public void FederationEndpointOverrideIsNormalized(string endpoint, string expected)
+        {
+            Assert.Equal(expected, NormalizeFederationEndpoint(endpoint));
+        }
+
         private static string GetMetadataServiceBaseUrl()
         {
             var method = typeof(AbstractRequestingAuthenticationDetailsProvider).GetMethod(
                 "GetMetadataServiceBaseUrl",
                 BindingFlags.NonPublic | BindingFlags.Static);
             return (string)method.Invoke(null, null);
+        }
+
+        private static string NormalizeFederationEndpoint(string endpoint)
+        {
+            var method = typeof(AbstractRequestingAuthenticationDetailsProvider).GetMethod(
+                "NormalizeFederationEndpoint",
+                BindingFlags.NonPublic | BindingFlags.Static);
+            return (string)method.Invoke(null, new object[] { endpoint });
         }
 
         private static void WithMetadataBaseUrl(string value, Action action)

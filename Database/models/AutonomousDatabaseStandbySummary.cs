@@ -131,5 +131,11 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "availabilityDomain")]
         public string AvailabilityDomain { get; set; }
         
+        /// <value>
+        /// The external logical zone where the local Autonomous Data Guard is located (Intended for multicloud use).
+        /// </value>
+        [JsonProperty(PropertyName = "externalLocationZone")]
+        public string ExternalLocationZone { get; set; }
+        
     }
 }

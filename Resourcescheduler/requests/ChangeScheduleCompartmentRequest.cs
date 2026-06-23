@@ -30,7 +30,7 @@ namespace Oci.ResourceschedulerService.Requests
         public string ScheduleId { get; set; }
         
         /// <value>
-        /// This is the change schedule compartment details that will be updated.
+        /// These are the change schedule compartment details that will be updated.
         /// </value>
         /// <remarks>
         /// Required
