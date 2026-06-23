@@ -23,6 +23,12 @@ namespace Oci.DatabaseService.Models
     {
         
         /// <value>
+        /// The external logical zone where the Autonomous AI Database Serverless instance is located (Intended for multicloud use).
+        /// </value>
+        [JsonProperty(PropertyName = "externalLocationZone")]
+        public string ExternalLocationZone { get; set; }
+        
+        /// <value>
         /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Autonomous AI Database.
         /// </value>
         /// <remarks>
@@ -1316,6 +1322,12 @@ namespace Oci.DatabaseService.Models
         
         [JsonProperty(PropertyName = "remoteDisasterRecoveryConfiguration")]
         public DisasterRecoveryConfiguration RemoteDisasterRecoveryConfiguration { get; set; }
+        
+        /// <value>
+        /// List of access types for an Autonomous AI Database.
+        /// </value>
+        [JsonProperty(PropertyName = "accessTypes")]
+        public System.Collections.Generic.List<string> AccessTypes { get; set; }
                 ///
         /// <value>
         /// Enabling SHARED server architecture enables a database server to allow many client processes to share very few server processes, thereby increasing the number of supported users.

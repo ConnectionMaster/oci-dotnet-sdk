@@ -86,6 +86,26 @@ namespace Oci.DnsService.Models
         public string ListeningAddress { get; set; }
         
         /// <value>
+        /// The OCID of the resolver endpoint.
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "Id is required.")]
+        [JsonProperty(PropertyName = "id")]
+        public string Id { get; set; }
+        
+        /// <value>
+        /// The OCID of the resolver.
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "ResolverId is required.")]
+        [JsonProperty(PropertyName = "resolverId")]
+        public string ResolverId { get; set; }
+        
+        /// <value>
         /// The OCID of the owning compartment. This will match the resolver that the resolver endpoint is under
         /// and will be updated if the resolver's compartment is changed.
         /// 
@@ -162,6 +182,20 @@ namespace Oci.DnsService.Models
         [Required(ErrorMessage = "Self is required.")]
         [JsonProperty(PropertyName = "self")]
         public string Self { get; set; }
+        
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "FreeformTags is required.")]
+        [JsonProperty(PropertyName = "freeformTags")]
+        public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
+        
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "DefinedTags is required.")]
+        [JsonProperty(PropertyName = "definedTags")]
+        public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
         
     }
 

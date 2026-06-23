@@ -45,7 +45,7 @@ namespace Oci.DnsService.Models
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
         
         /// <value>
-        /// The resolution mode of a zone defines behavior related to how query responses can be handled.
+        /// The resolution mode of a zone defines behavior related to how query responses can be handled. See [Private DNS Zone Transparency](https://docs.oracle.com/iaas/Content/DNS/Tasks/privatedns.htm#use-cases__resolution) for more information.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "resolutionMode")]

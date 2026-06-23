@@ -36,6 +36,12 @@ namespace Oci.DnsService.Models
         };
 
         
+        [JsonProperty(PropertyName = "freeformTags")]
+        public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
+        
+        [JsonProperty(PropertyName = "definedTags")]
+        public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
+        
     }
 
     public class UpdateResolverEndpointDetailsModelConverter : JsonConverter

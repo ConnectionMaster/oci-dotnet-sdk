@@ -188,6 +188,8 @@ namespace Oci.DnsService.Models
             Active,
             [EnumMember(Value = "CREATING")]
             Creating,
+            [EnumMember(Value = "UPDATING")]
+            Updating,
             [EnumMember(Value = "DELETED")]
             Deleted,
             [EnumMember(Value = "DELETING")]

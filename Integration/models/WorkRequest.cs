@@ -51,6 +51,10 @@ namespace Oci.IntegrationService.Models
             DeleteLogAnalyticsLogGroup,
             [EnumMember(Value = "CONVERT_INSTANCE")]
             ConvertInstance,
+            [EnumMember(Value = "ADD_OPA_LOG_ANALYTICS_LOG_GROUP")]
+            AddOpaLogAnalyticsLogGroup,
+            [EnumMember(Value = "DELETE_OPA_LOG_ANALYTICS_LOG_GROUP")]
+            DeleteOpaLogAnalyticsLogGroup,
             [EnumMember(Value = "BEGIN_MIGRATION")]
             BeginMigration,
             [EnumMember(Value = "COMPLETE_MIGRATION")]
