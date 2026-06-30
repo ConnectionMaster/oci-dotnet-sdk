@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on Keep a [Changelog](http://keepachangelog.com/).
 
+## 141.0.0 - 2026-06-30
+### Added
+ - Support for Bitbucket Cloud email and API token configuration source providers in the Resource Manager service
+ - Support for configurable randomization windows for schedules in the Data Science service
+ - Support for partner-provided Windows licensing in the Compute service
+ - Support for Key Management service (KMS) bucket key in the Object Storage service
+ - Support for Point-In-Time Recovery (PITR) in the PostgreSQL service   
+
+### Breaking Changes
+ - The models `BitbucketCloudUsernameAppPasswordConfigurationSourceProviderSummary`, `BitbucketCloudUsernameAppPasswordConfigurationSourceProvider`, `CreateBitbucketCloudUsernameAppPasswordConfigurationSourceProviderDetails`, and `UpdateBitbucketCloudUsernameAppPasswordConfigurationSourceProviderDetails` were removed from the Resource Manager service
+
 ## 140.0.0 - 2026-06-23
 ### Added 
  - Support for custom federation endpoints in instance principals authentication  - Support for static redirect paths in OAuth2 and OpenID Connect authentication policies in the API Gateway service 

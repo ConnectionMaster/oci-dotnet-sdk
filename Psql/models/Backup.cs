@@ -69,6 +69,8 @@ namespace Oci.PsqlService.Models
             Scheduled,
             [EnumMember(Value = "MANUAL")]
             Manual,
+            [EnumMember(Value = "PITR")]
+            Pitr,
             [EnumMember(Value = "COPIED")]
             Copied
         };

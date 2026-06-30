@@ -16,31 +16,22 @@ using Newtonsoft.Json.Converters;
 namespace Oci.PsqlService.Models
 {
     /// <summary>
-    /// PostgreSQL database system management policy.
+    /// A standard point-in-time recovery policy.
     /// </summary>
-    public class ManagementPolicy 
+    public class StandardPitrPolicy : PitrPolicy
     {
         
         /// <value>
-        /// The start of the maintenance window.
-        /// 
+        /// The number of days the database system retains backups required for point-in-time recovery.
         /// </value>
         /// <remarks>
         /// Required
         /// </remarks>
-        [Required(ErrorMessage = "MaintenanceWindowStart is required.")]
-        [JsonProperty(PropertyName = "maintenanceWindowStart")]
-        public string MaintenanceWindowStart { get; set; }
+        [Required(ErrorMessage = "RestoreDays is required.")]
+        [JsonProperty(PropertyName = "restoreDays")]
+        public System.Nullable<int> RestoreDays { get; set; }
         
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "BackupPolicy is required.")]
-        [JsonProperty(PropertyName = "backupPolicy")]
-        public BackupPolicy BackupPolicy { get; set; }
-        
-        [JsonProperty(PropertyName = "pitrPolicy")]
-        public PitrPolicy PitrPolicy { get; set; }
-        
+        [JsonProperty(PropertyName = "kind")]
+        private readonly string kind = "STANDARD";
     }
 }

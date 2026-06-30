@@ -71,6 +71,13 @@ namespace Oci.ResourcemanagerService.Models
         public PrivateServerConfigDetails PrivateServerConfigDetails { get; set; }
         
         /// <value>
+        /// Indicates whether this configuration source provider uses legacy Bitbucket Cloud username/app-password credentials and must be migrated.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isMigrationRequired")]
+        public System.Nullable<bool> IsMigrationRequired { get; set; }
+        
+        /// <value>
         /// Free-form tags associated with the resource. Each tag is a key-value pair with no predefined name, type, or namespace.
         /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}
@@ -119,11 +126,11 @@ namespace Oci.ResourcemanagerService.Models
                 case "GITLAB_ACCESS_TOKEN":
                     obj = new GitlabAccessTokenConfigurationSourceProviderSummary();
                     break;
-                case "BITBUCKET_CLOUD_USERNAME_APPPASSWORD":
-                    obj = new BitbucketCloudUsernameAppPasswordConfigurationSourceProviderSummary();
-                    break;
                 case "BITBUCKET_SERVER_ACCESS_TOKEN":
                     obj = new BitbucketServerAccessTokenConfigurationSourceProviderSummary();
+                    break;
+                case "BITBUCKET_CLOUD_ACCESS_TOKEN":
+                    obj = new BitbucketCloudEmailApiTokenConfigurationSourceProviderSummary();
                     break;
                 case "GITHUB_ACCESS_TOKEN":
                     obj = new GithubAccessTokenConfigurationSourceProviderSummary();

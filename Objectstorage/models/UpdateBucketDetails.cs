@@ -112,6 +112,15 @@ namespace Oci.ObjectstorageService.Models
         /// </value>
         [JsonProperty(PropertyName = "kmsKeyId")]
         public string KmsKeyId { get; set; }
+        
+        /// <value>
+        /// Specifies whether Object Storage should use intermediate cached Bucket Encryption Keys with server-side
+        /// encryption using KMS (SSE-KMS) for new objects in the bucket. This reduces calls to OCI Vault Key Management
+        /// Service (KMS). Existing objects are not affected.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isBucketKeyEnabled")]
+        public System.Nullable<bool> IsBucketKeyEnabled { get; set; }
                 ///
         /// <value>
         /// The versioning status on the bucket. If in state `Enabled`, multiple versions of the same object can be kept in the bucket.
