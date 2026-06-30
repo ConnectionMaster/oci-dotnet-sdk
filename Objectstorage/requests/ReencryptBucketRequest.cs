@@ -41,6 +41,12 @@ namespace Oci.ObjectstorageService.Requests
         public string BucketName { get; set; }
         
         /// <value>
+        /// If true, reencrypt only the intermediate bucket keys and skip everything else in the bucket.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "isReencryptBucketKeyOnly")]
+        public System.Nullable<bool> IsReencryptBucketKeyOnly { get; set; }
+        
+        /// <value>
         /// The client request ID for tracing.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-client-request-id")]

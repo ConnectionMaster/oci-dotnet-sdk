@@ -137,6 +137,13 @@ namespace Oci.ObjectstorageService.Responses
 
 
         /// <value>
+        /// True if bucket key was enabled and used to encrypt the object during upload or reencrypt.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-bucket-key-enabled")]
+        public System.Nullable<bool> OpcBucketKeyEnabled { get; set; }
+
+
+        /// <value>
         /// Content-Type header, as described in [RFC 2616](https://tools.ietf.org/html/rfc2616#section-14.17).
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "content-type")]

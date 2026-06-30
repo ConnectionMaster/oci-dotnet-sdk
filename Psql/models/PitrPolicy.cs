@@ -16,39 +16,34 @@ using Newtonsoft.Json.Linq;
 namespace Oci.PsqlService.Models
 {
     /// <summary>
-    /// The source of the database system.
+    /// Point-in-time recovery policy.
     /// </summary>
-    [JsonConverter(typeof(SourceDetailsModelConverter))]
-    public class SourceDetails 
+    [JsonConverter(typeof(PitrPolicyModelConverter))]
+    public class PitrPolicy 
     {
                 ///
         /// <value>
-        /// The source descriminator.
-        /// 
+        /// The kind of recovery policy.
         /// </value>
         ///
-        public enum SourceTypeEnum {
-            [EnumMember(Value = "BACKUP")]
-            Backup,
+        public enum KindEnum {
+            [EnumMember(Value = "STANDARD")]
+            Standard,
             [EnumMember(Value = "NONE")]
-            None,
-            [EnumMember(Value = "POINT_IN_TIME_DB_SYSTEM")]
-            PointInTimeDbSystem,
-            [EnumMember(Value = "DB_SYSTEM")]
-            DbSystem
+            None
         };
 
         
     }
 
-    public class SourceDetailsModelConverter : JsonConverter
+    public class PitrPolicyModelConverter : JsonConverter
     {
         private static NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
         public override bool CanWrite => false;
         public override bool CanRead => true;
         public override bool CanConvert(System.Type type)
         {
-            return type == typeof(SourceDetails);
+            return type == typeof(PitrPolicy);
         }
         public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
         {
@@ -58,21 +53,15 @@ namespace Oci.PsqlService.Models
         public override object ReadJson(JsonReader reader, System.Type objectType, object existingValue, JsonSerializer serializer)
         {
             var jsonObject = JObject.Load(reader);
-            var obj = default(SourceDetails);
-            var discriminator = jsonObject["sourceType"].Value<string>();
+            var obj = default(PitrPolicy);
+            var discriminator = jsonObject["kind"].Value<string>();
             switch (discriminator)
             {
-                case "BACKUP":
-                    obj = new BackupSourceDetails();
-                    break;
-                case "DB_SYSTEM":
-                    obj = new PrimaryDbSystemSourceDetails();
+                case "STANDARD":
+                    obj = new StandardPitrPolicy();
                     break;
                 case "NONE":
-                    obj = new NoneSourceDetails();
-                    break;
-                case "POINT_IN_TIME_DB_SYSTEM":
-                    obj = new PointInTimeDbSystemSourceDetails();
+                    obj = new NonePitrPolicy();
                     break;
             }
             if (obj != null)
@@ -81,7 +70,7 @@ namespace Oci.PsqlService.Models
             }
             else
             {
-                logger.Warn($"The type {discriminator} is not present under SourceDetails! Returning null value.");
+                logger.Warn($"The type {discriminator} is not present under PitrPolicy! Returning null value.");
             }
             return obj;
         }
