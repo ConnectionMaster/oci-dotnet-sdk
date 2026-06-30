@@ -16,11 +16,11 @@ using Newtonsoft.Json.Converters;
 namespace Oci.ResourcemanagerService.Models
 {
     /// <summary>
-    /// The properties that define a configuration source provider of the type `BITBUCKET_CLOUD_USERNAME_APPPASSWORD`.
-    /// This type corresponds to a configuration source provider in Bitbucket cloud that is authenticated with a username and app password.
+    /// Summary information for a configuration source provider of the type `BITBUCKET_CLOUD_ACCESS_TOKEN`.
+    /// This type corresponds to a configuration source provider in Bitbucket Cloud that is authenticated with Atlassian account email and API token.
     /// 
     /// </summary>
-    public class BitbucketCloudUsernameAppPasswordConfigurationSourceProvider : ConfigurationSourceProvider
+    public class BitbucketCloudEmailApiTokenConfigurationSourceProviderSummary : ConfigurationSourceProviderSummary
     {
         
         /// <value>
@@ -31,6 +31,6 @@ namespace Oci.ResourcemanagerService.Models
         public string ApiEndpoint { get; set; }
         
         [JsonProperty(PropertyName = "configSourceProviderType")]
-        private readonly string configSourceProviderType = "BITBUCKET_CLOUD_USERNAME_APPPASSWORD";
+        private readonly string configSourceProviderType = "BITBUCKET_CLOUD_ACCESS_TOKEN";
     }
 }

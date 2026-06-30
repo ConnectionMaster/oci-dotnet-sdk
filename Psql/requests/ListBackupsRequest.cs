@@ -104,5 +104,11 @@ namespace Oci.PsqlService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-request-id")]
         public string OpcRequestId { get; set; }
+        
+        /// <value>
+        /// A filter to return only backups whose backupSourceType matches the given backupSourceType
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "backupSourceType")]
+        public string BackupSourceType { get; set; }
     }
 }

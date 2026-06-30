@@ -78,14 +78,14 @@ namespace Oci.ResourcemanagerService.Models
             var discriminator = jsonObject["configSourceProviderType"].Value<string>();
             switch (discriminator)
             {
-                case "BITBUCKET_CLOUD_USERNAME_APPPASSWORD":
-                    obj = new UpdateBitbucketCloudUsernameAppPasswordConfigurationSourceProviderDetails();
-                    break;
                 case "BITBUCKET_SERVER_ACCESS_TOKEN":
                     obj = new UpdateBitbucketServerAccessTokenConfigurationSourceProviderDetails();
                     break;
                 case "GITLAB_ACCESS_TOKEN":
                     obj = new UpdateGitlabAccessTokenConfigurationSourceProviderDetails();
+                    break;
+                case "BITBUCKET_CLOUD_ACCESS_TOKEN":
+                    obj = new UpdateBitbucketCloudEmailApiTokenConfigurationSourceProviderDetails();
                     break;
                 case "GITHUB_ACCESS_TOKEN":
                     obj = new UpdateGithubAccessTokenConfigurationSourceProviderDetails();

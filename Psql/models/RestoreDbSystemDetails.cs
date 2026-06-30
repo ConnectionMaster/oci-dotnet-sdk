@@ -24,10 +24,6 @@ namespace Oci.PsqlService.Models
         /// <value>
         /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the database system backup.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "BackupId is required.")]
         [JsonProperty(PropertyName = "backupId")]
         public string BackupId { get; set; }
         
@@ -38,6 +34,15 @@ namespace Oci.PsqlService.Models
         /// </value>
         [JsonProperty(PropertyName = "ad")]
         public string Ad { get; set; }
+        
+        /// <value>
+        /// The target point-in-time that the database system restore can get started from, expressed in
+        /// [RFC 3339](https://tools.ietf.org/rfc/rfc3339) timestamp format.
+        /// <br/>
+        /// Example: 2016-08-25T21:10:29.600Z
+        /// </value>
+        [JsonProperty(PropertyName = "timeToRestore")]
+        public System.Nullable<System.DateTime> TimeToRestore { get; set; }
         
     }
 }

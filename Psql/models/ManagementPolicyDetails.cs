@@ -35,5 +35,8 @@ namespace Oci.PsqlService.Models
         [JsonProperty(PropertyName = "backupPolicy")]
         public BackupPolicy BackupPolicy { get; set; }
         
+        [JsonProperty(PropertyName = "pitrPolicy")]
+        public PitrPolicy PitrPolicy { get; set; }
+        
     }
 }

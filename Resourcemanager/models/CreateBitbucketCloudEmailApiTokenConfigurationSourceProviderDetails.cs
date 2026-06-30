@@ -16,34 +16,47 @@ using Newtonsoft.Json.Converters;
 namespace Oci.ResourcemanagerService.Models
 {
     /// <summary>
-    /// Update details for a configuration source provider of the type `BITBUCKET_CLOUD_USERNAME_APPPASSWORD`.
-    /// This type corresponds to a configuration source provider in Bitbucket that is authenticated with a username and app password.
+    /// Creation details for a configuration source provider of the type `BITBUCKET_CLOUD_ACCESS_TOKEN`.
+    /// This type corresponds to a configuration source provider in Bitbucket Cloud that is authenticated with Atlassian account email and API token.
+    /// Legacy username/app-password create request shapes are no longer supported.
     /// 
     /// </summary>
-    public class UpdateBitbucketCloudUsernameAppPasswordConfigurationSourceProviderDetails : UpdateConfigurationSourceProviderDetails
+    public class CreateBitbucketCloudEmailApiTokenConfigurationSourceProviderDetails : CreateConfigurationSourceProviderDetails
     {
         
         /// <value>
-        /// The Bitbucket service endpoint.
+        /// The Bitbucket cloud service endpoint.
         /// Example: https://bitbucket.org/
         /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "ApiEndpoint is required.")]
         [JsonProperty(PropertyName = "apiEndpoint")]
         public string ApiEndpoint { get; set; }
         
         /// <value>
-        /// The username for the user of the Bitbucket cloud repository.
+        /// Atlassian account email used for Bitbucket Cloud API token authentication.
         /// </value>
-        [JsonProperty(PropertyName = "username")]
-        public string Username { get; set; }
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "Email is required.")]
+        [JsonProperty(PropertyName = "email")]
+        public string Email { get; set; }
         
         /// <value>
         /// The secret ocid which is used to authorize the user.
         /// 
         /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "SecretId is required.")]
         [JsonProperty(PropertyName = "secretId")]
         public string SecretId { get; set; }
         
         [JsonProperty(PropertyName = "configSourceProviderType")]
-        private readonly string configSourceProviderType = "BITBUCKET_CLOUD_USERNAME_APPPASSWORD";
+        private readonly string configSourceProviderType = "BITBUCKET_CLOUD_ACCESS_TOKEN";
     }
 }
