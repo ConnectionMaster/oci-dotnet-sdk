@@ -197,6 +197,80 @@ namespace Oci.GenerativeaiService.Models
             CohereA10040GX1,
             [EnumMember(Value = "COHERE_A10_X1")]
             CohereA10X1,
+            [EnumMember(Value = "COHERE_A100_40G_X2")]
+            CohereA10040GX2,
+            [EnumMember(Value = "COHERE_A100_40G_X4")]
+            CohereA10040GX4,
+            [EnumMember(Value = "COHERE_A100_40G_X8")]
+            CohereA10040GX8,
+            [EnumMember(Value = "COHERE_A100_80G_X2")]
+            CohereA10080GX2,
+            [EnumMember(Value = "COHERE_A100_80G_X4")]
+            CohereA10080GX4,
+            [EnumMember(Value = "COHERE_A100_80G_X8")]
+            CohereA10080GX8,
+            [EnumMember(Value = "COHERE_H100_X2")]
+            CohereH100X2,
+            [EnumMember(Value = "COHERE_H100_X4")]
+            CohereH100X4,
+            [EnumMember(Value = "COHERE_H100_X8")]
+            CohereH100X8,
+            [EnumMember(Value = "COHERE_H200_X1")]
+            CohereH200X1,
+            [EnumMember(Value = "COHERE_H200_X2")]
+            CohereH200X2,
+            [EnumMember(Value = "COHERE_H200_X4")]
+            CohereH200X4,
+            [EnumMember(Value = "COHERE_H200_X8")]
+            CohereH200X8,
+            [EnumMember(Value = "COHERE_B200_X1")]
+            CohereB200X1,
+            [EnumMember(Value = "COHERE_B200_X2")]
+            CohereB200X2,
+            [EnumMember(Value = "COHERE_B200_X4")]
+            CohereB200X4,
+            [EnumMember(Value = "COHERE_B200_X8")]
+            CohereB200X8,
+            [EnumMember(Value = "META_A100_40G_X1")]
+            MetaA10040GX1,
+            [EnumMember(Value = "META_A100_40G_X2")]
+            MetaA10040GX2,
+            [EnumMember(Value = "META_A100_40G_X4")]
+            MetaA10040GX4,
+            [EnumMember(Value = "META_A100_40G_X8")]
+            MetaA10040GX8,
+            [EnumMember(Value = "META_A100_80G_X1")]
+            MetaA10080GX1,
+            [EnumMember(Value = "META_A100_80G_X2")]
+            MetaA10080GX2,
+            [EnumMember(Value = "META_A100_80G_X4")]
+            MetaA10080GX4,
+            [EnumMember(Value = "META_A100_80G_X8")]
+            MetaA10080GX8,
+            [EnumMember(Value = "META_H100_X1")]
+            MetaH100X1,
+            [EnumMember(Value = "META_H100_X2")]
+            MetaH100X2,
+            [EnumMember(Value = "META_H100_X4")]
+            MetaH100X4,
+            [EnumMember(Value = "META_H100_X8")]
+            MetaH100X8,
+            [EnumMember(Value = "META_H200_X1")]
+            MetaH200X1,
+            [EnumMember(Value = "META_H200_X2")]
+            MetaH200X2,
+            [EnumMember(Value = "META_H200_X4")]
+            MetaH200X4,
+            [EnumMember(Value = "META_H200_X8")]
+            MetaH200X8,
+            [EnumMember(Value = "META_B200_X1")]
+            MetaB200X1,
+            [EnumMember(Value = "META_B200_X2")]
+            MetaB200X2,
+            [EnumMember(Value = "META_B200_X4")]
+            MetaB200X4,
+            [EnumMember(Value = "META_B200_X8")]
+            MetaB200X8,
             [EnumMember(Value = "LARGE_COHERE_V3")]
             LargeCohereV3,
             [EnumMember(Value = "RERANK_COHERE")]
