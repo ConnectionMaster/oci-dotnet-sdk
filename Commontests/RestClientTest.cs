@@ -53,10 +53,30 @@ namespace Oci.Common
         }
 
         [Theory]
+        [InlineData("foo-bar")]
+        [InlineData("foo_bar")]
+        [InlineData("foo.bar")]
+        [Trait("Category", "Unit")]
+        [DisplayTestMethodNameAttribute]
+        public void TestPopulateServiceParametersInEndpointTemplateAllowsHostSafeCharacters(string namespaceName)
+        {
+            RestClient restclient = new RestClient { RealmSpecificEndpointTemplate = "https://{namespaceName+Dot}objectstorage.us-phoenix-1.oci.customer-oci.com" };
+            Dictionary<string, object> requiredParametersDictionary = new Dictionary<string, object> { { "namespaceName", namespaceName } };
+
+            Uri updatedEndpointTemplate = RegionalClientBase.PopulateServiceParametersInEndpointTemplate(restclient, requiredParametersDictionary);
+
+            Assert.Equal($"https://{namespaceName}.objectstorage.us-phoenix-1.oci.customer-oci.com/", updatedEndpointTemplate.ToString());
+        }
+
+        [Theory]
         [InlineData("https://{namespaceName+Dot}objectstorage.us-phoenix-1.oci.customer-oci.com", "foo/bar")]
         [InlineData("https://{namespaceName+Dot}objectstorage.us-phoenix-1.oci.customer-oci.com", "foo?bar")]
         [InlineData("https://{namespaceName+Dot}objectstorage.us-phoenix-1.oci.customer-oci.com", "foo#bar")]
         [InlineData("https://{namespaceName+Dot}objectstorage.us-phoenix-1.oci.customer-oci.com", "foo@")]
+        [InlineData("https://{namespaceName+Dot}objectstorage.us-phoenix-1.oci.customer-oci.com", "foo:bar")]
+        [InlineData("https://{namespaceName+Dot}objectstorage.us-phoenix-1.oci.customer-oci.com", "foo%bar")]
+        [InlineData("https://{namespaceName+Dot}objectstorage.us-phoenix-1.oci.customer-oci.com", "foo bar")]
+        [InlineData("https://{namespaceName+Dot}objectstorage.us-phoenix-1.oci.customer-oci.com", "")]
         [InlineData("file://{namespaceName+Dot}objectstorage.us-phoenix-1.oci.customer-oci.com", "https-objectstorage")]
         [Trait("Category", "Unit")]
         [DisplayTestMethodNameAttribute]
