@@ -94,6 +94,13 @@ namespace Oci.AidataplatformService.Models
         public string AliasKey { get; set; }
         
         /// <value>
+        /// The current aiFeatureStatus of the AiDataPlatform.
+        /// </value>
+        [JsonProperty(PropertyName = "aiFeatureStatus")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<AiDataPlatform.AiFeatureStatusEnum> AiFeatureStatus { get; set; }
+        
+        /// <value>
         /// The current state of the AiDataPlatform.
         /// </value>
         /// <remarks>

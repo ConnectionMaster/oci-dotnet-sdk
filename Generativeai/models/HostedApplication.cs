@@ -25,6 +25,9 @@ namespace Oci.GenerativeaiService.Models
     public class HostedApplication 
     {
         
+        [JsonProperty(PropertyName = "inboundAuthConfig")]
+        public InboundAuthConfig InboundAuthConfig { get; set; }
+        
         /// <value>
         /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the hosted application.
         /// </value>
@@ -116,9 +119,6 @@ namespace Oci.GenerativeaiService.Models
         /// </value>
         [JsonProperty(PropertyName = "storageConfigs")]
         public System.Collections.Generic.List<StorageConfig> StorageConfigs { get; set; }
-        
-        [JsonProperty(PropertyName = "inboundAuthConfig")]
-        public InboundAuthConfig InboundAuthConfig { get; set; }
         
         [JsonProperty(PropertyName = "networkingConfig")]
         public NetworkingConfig NetworkingConfig { get; set; }

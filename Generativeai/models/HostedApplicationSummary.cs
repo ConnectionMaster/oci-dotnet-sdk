@@ -67,15 +67,6 @@ namespace Oci.GenerativeaiService.Models
         
         /// <value>
         /// The current state of the hosted application.
-        /// <br/>
-        /// Allowed values are:
-        /// - CREATING
-        /// - ACTIVE
-        /// - UPDATING
-        /// - DELETING
-        /// - DELETED
-        /// - FAILED
-        /// 
         /// </value>
         /// <remarks>
         /// Required
@@ -83,7 +74,7 @@ namespace Oci.GenerativeaiService.Models
         [Required(ErrorMessage = "LifecycleState is required.")]
         [JsonProperty(PropertyName = "lifecycleState")]
         [JsonConverter(typeof(StringEnumConverter))]
-        public System.Nullable<HostedApplication.LifecycleStateEnum> LifecycleState { get; set; }
+        public System.Nullable<HostedApplicationBase.LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.

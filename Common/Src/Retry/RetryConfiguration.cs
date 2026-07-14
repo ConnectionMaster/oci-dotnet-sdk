@@ -24,6 +24,7 @@ namespace Oci.Common.Retry
         public static readonly ReadOnlyCollection<Tuple<int, string>> RETRYABLE_ERRORS = new ReadOnlyCollection<Tuple<int, string>>(
             new Tuple<int, string>[] {
                 new Tuple<int, string>(409, "IncorrectState"),
+                new Tuple<int, string>(409, "LockConflict"),
                 new Tuple<int, string>(429, ""),
                 new Tuple<int, string>(500, ""),
                 new Tuple<int, string>(502, ""),

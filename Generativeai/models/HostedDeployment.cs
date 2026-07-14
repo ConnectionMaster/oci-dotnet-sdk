@@ -69,6 +69,8 @@ namespace Oci.GenerativeaiService.Models
             UnknownEnumValue,
             [EnumMember(Value = "CREATING")]
             Creating,
+            [EnumMember(Value = "NEEDS_ATTENTION")]
+            NeedsAttention,
             [EnumMember(Value = "ACTIVE")]
             Active,
             [EnumMember(Value = "INACTIVE")]
@@ -95,12 +97,8 @@ namespace Oci.GenerativeaiService.Models
         public System.Nullable<LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the application.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the HostedApplication parent.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "HostedApplicationId is required.")]
         [JsonProperty(PropertyName = "hostedApplicationId")]
         public string HostedApplicationId { get; set; }
         

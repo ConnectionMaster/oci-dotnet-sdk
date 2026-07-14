@@ -393,6 +393,55 @@ namespace Oci.GenerativeaiService
         }
 
         /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListHostedApplicationsIam operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListHostedApplicationsIamResponse> ListHostedApplicationsIamResponseEnumerator(ListHostedApplicationsIamRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListHostedApplicationsIamRequest, ListHostedApplicationsIamResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListHostedApplicationsIam(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the HostedApplicationSummary objects
+        /// contained in responses from the ListHostedApplicationsIam operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<HostedApplicationSummary> ListHostedApplicationsIamRecordEnumerator(ListHostedApplicationsIamRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListHostedApplicationsIamRequest, ListHostedApplicationsIamResponse, HostedApplicationSummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListHostedApplicationsIam(request, retryConfiguration, cancellationToken),
+                response => response.HostedApplicationCollection.Items
+            );
+        }
+
+        /// <summary>
         /// Creates a new enumerable which will iterate over the responses received from the ListHostedDeployments operation. This enumerable
         /// will fetch more data from the server as needed.
         /// </summary>

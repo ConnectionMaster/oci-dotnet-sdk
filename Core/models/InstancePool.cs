@@ -85,6 +85,29 @@ namespace Oci.CoreService.Models
         public string InstanceConfigurationId { get; set; }
                 ///
         /// <value>
+        /// The type of resources managed by the pool.
+        /// 
+        /// </value>
+        ///
+        public enum PoolTypeEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "INSTANCE")]
+            Instance,
+            [EnumMember(Value = "GMC")]
+            Gmc
+        };
+
+        /// <value>
+        /// The type of resources managed by the pool.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "poolType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<PoolTypeEnum> PoolType { get; set; }
+                ///
+        /// <value>
         /// The current state of the instance pool.
         /// </value>
         ///

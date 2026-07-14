@@ -200,6 +200,34 @@ namespace Oci.GenerativeaiService
         /// <param name="request">Request to send.</param>
         /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetHostedApplicationIamRequest, GetHostedApplicationIamResponse> ForHostedApplicationIam(GetHostedApplicationIamRequest request, params HostedApplicationIam.LifecycleStateEnum[] targetStates)
+        {
+            return this.ForHostedApplicationIam(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetHostedApplicationIamRequest, GetHostedApplicationIamResponse> ForHostedApplicationIam(GetHostedApplicationIamRequest request, WaiterConfiguration config, params HostedApplicationIam.LifecycleStateEnum[] targetStates)
+        {
+            var agent = new WaiterAgent<GetHostedApplicationIamRequest, GetHostedApplicationIamResponse>(
+                request,
+                request => client.GetHostedApplicationIam(request),
+                response => targetStates.Contains(response.HostedApplicationIam.LifecycleState.Value),
+                targetStates.Contains(HostedApplicationIam.LifecycleStateEnum.Deleted)
+            );
+            return new Waiter<GetHostedApplicationIamRequest, GetHostedApplicationIamResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<GetHostedApplicationStorageRequest, GetHostedApplicationStorageResponse> ForHostedApplicationStorage(GetHostedApplicationStorageRequest request, params HostedApplicationStorage.LifecycleStateEnum[] targetStates)
         {
             return this.ForHostedApplicationStorage(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);

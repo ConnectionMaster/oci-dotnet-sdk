@@ -126,7 +126,7 @@ namespace Oci.DatasafeService.Models
         public System.Nullable<AuditTrailLifecycleState> LifecycleState { get; set; }
         
         /// <value>
-        /// Details about the current state of the audit trail in Data Safe.
+        /// Details about the current state of the audit trail in Data Safe. This attribute will be deprecated, but will still be available in GET audit trail response.
         /// </value>
         [JsonProperty(PropertyName = "lifecycleDetails")]
         public string LifecycleDetails { get; set; }

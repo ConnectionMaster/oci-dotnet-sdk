@@ -88,6 +88,7 @@ namespace Oci.CoreService.Models
         /// <br/>
         /// * `NONE`: Creates an instance configuration using the list of settings that you specify.
         /// * `INSTANCE`: Creates an instance configuration using an existing instance as a template.
+        /// * `GMC`: Creates an instance configuration which can be used to create GMC backed pools.
         /// 
         /// </value>
         ///
@@ -95,7 +96,9 @@ namespace Oci.CoreService.Models
             [EnumMember(Value = "NONE")]
             None,
             [EnumMember(Value = "INSTANCE")]
-            Instance
+            Instance,
+            [EnumMember(Value = "GMC")]
+            Gmc
         };
 
         
@@ -121,6 +124,9 @@ namespace Oci.CoreService.Models
             var discriminator = jsonObject["source"].Value<string>();
             switch (discriminator)
             {
+                case "GMC":
+                    obj = new CreateGmcConfigurationDetails();
+                    break;
                 case "NONE":
                     obj = new CreateInstanceConfigurationDetails();
                     break;

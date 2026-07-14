@@ -136,6 +136,31 @@ namespace Oci.AidataplatformService.Models
         [JsonProperty(PropertyName = "lifecycleState")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<LifecycleStateEnum> LifecycleState { get; set; }
+                ///
+        /// <value>
+        /// The current aiFeatureStatus of the AiDataPlatform.
+        /// </value>
+        ///
+        public enum AiFeatureStatusEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "DISABLED")]
+            Disabled,
+            [EnumMember(Value = "ENABLING")]
+            Enabling,
+            [EnumMember(Value = "READY")]
+            Ready,
+            [EnumMember(Value = "FAILED")]
+            Failed
+        };
+
+        /// <value>
+        /// The current aiFeatureStatus of the AiDataPlatform.
+        /// </value>
+        [JsonProperty(PropertyName = "aiFeatureStatus")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<AiFeatureStatusEnum> AiFeatureStatus { get; set; }
         
         /// <value>
         /// A message that describes the current state of the AiDataPlatform in more detail. For example,

@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.GenerativeaiService.Models
 {
     /// <summary>
-    /// The data to create a hosted deployment.
+    /// The data to create a hosted deployment. Exactly one of hostedApplicationId or hostedApplicationIamId must be provided.
     /// </summary>
     public class CreateHostedDeploymentDetails 
     {
@@ -34,12 +34,8 @@ namespace Oci.GenerativeaiService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the application.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the HostedApplication parent.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "HostedApplicationId is required.")]
         [JsonProperty(PropertyName = "hostedApplicationId")]
         public string HostedApplicationId { get; set; }
         

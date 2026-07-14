@@ -58,6 +58,14 @@ namespace Oci.CoreService.Models
         [Required(ErrorMessage = "InstanceConfigurationId is required.")]
         [JsonProperty(PropertyName = "instanceConfigurationId")]
         public string InstanceConfigurationId { get; set; }
+        
+        /// <value>
+        /// The type of resources managed by the pool.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "poolType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<InstancePool.PoolTypeEnum> PoolType { get; set; }
                 ///
         /// <value>
         /// The current state of the instance pool.

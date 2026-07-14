@@ -50,7 +50,7 @@ namespace Oci.DatasafeService.Models
         public string PolicyId { get; set; }
         
         /// <value>
-        /// The OCID of the target on which alert policy is to be applied.
+        /// The OCID of the target or target database group on which alert policy is to be applied.
         /// </value>
         [JsonProperty(PropertyName = "targetId")]
         public string TargetId { get; set; }
@@ -107,6 +107,31 @@ namespace Oci.DatasafeService.Models
         /// </value>
         [JsonProperty(PropertyName = "lifecycleDetails")]
         public string LifecycleDetails { get; set; }
+                ///
+        /// <value>
+        /// The resource type that is represented by the target alert policy association.
+        /// </value>
+        ///
+        public enum TargetTypeEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "TARGET_DATABASE")]
+            TargetDatabase,
+            [EnumMember(Value = "TARGET_DATABASE_GROUP")]
+            TargetDatabaseGroup
+        };
+
+        /// <value>
+        /// The resource type that is represented by the target alert policy association.
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "TargetType is required.")]
+        [JsonProperty(PropertyName = "targetType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<TargetTypeEnum> TargetType { get; set; }
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm)
