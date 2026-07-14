@@ -17,6 +17,8 @@ namespace Oci.CoreService.Models
 {
     /// <summary>
     /// The data to create an instance pool.
+    /// For a GMC-enabled resource pool, the referenced instance configuration must be a GMC configuration and
+    /// the placement configuration must identify the availability domain and compute cluster for the pool.
     /// 
     /// </summary>
     public class CreateInstancePoolDetails 
@@ -90,6 +92,7 @@ namespace Oci.CoreService.Models
         
         /// <value>
         /// The number of instances that should be in the instance pool.
+        /// For a GMC-enabled resource pool, this is the number of GMC resources that should be in the pool.
         /// 
         /// </value>
         /// <remarks>

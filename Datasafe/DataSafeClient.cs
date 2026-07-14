@@ -3753,8 +3753,8 @@ namespace Oci.DatasafeService
         }
 
         /// <summary>
-        /// Creates a new saved security assessment for one or multiple targets in a compartment. When this operation is performed,
-        /// it will save the latest assessments in the specified compartment. If a schedule is passed, it will persist the latest assessments,
+        /// Creates a new saved security assessment for a target database or target database group in a compartment. When this operation is performed,
+        /// it will save the latest assessment in the specified compartment. If a schedule is passed, it will persist the latest assessment,
         /// at the defined date and time, in the format defined by [RFC3339](https://tools.ietf.org/html/rfc3339).
         /// 
         /// </summary>
@@ -4559,8 +4559,8 @@ namespace Oci.DatasafeService
         }
 
         /// <summary>
-        /// Creates a new saved user assessment for one or multiple targets in a compartment. It saves the latest assessments in the
-        /// specified compartment. If a scheduled is passed in, this operation persists the latest assessments that exist at the defined
+        /// Creates a new saved user assessment for a target database or target database group in a compartment. It saves the latest assessment in the
+        /// specified compartment. If a schedule is passed in, this operation persists the latest assessment that exists at the defined
         /// date and time, in the format defined by [RFC3339](https://tools.ietf.org/html/rfc3339).
         /// 
         /// </summary>
@@ -12587,6 +12587,7 @@ namespace Oci.DatasafeService
         /// Retrieves a list of all database view access entries in Data Safe.
         /// &lt;br/&gt;
         /// The ListDatabaseViewAccessEntries operation returns only the database view access objects for the specified security policy report.
+        /// If targetId is specified, it must match the target associated with the securityPolicyReportId path parameter; otherwise, the request is rejected.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -16325,6 +16326,62 @@ namespace Oci.DatasafeService
             catch (Exception e)
             {
                 logger.Error($"ListTargetAlertPolicyAssociations failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Gets the details of target-alert policy association and its unassociated members by its ID.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/datasafe/ListTargetAlertPolicyUnassociatedMembers.cs.html">here</a> to see an example of how to use ListTargetAlertPolicyUnassociatedMembers API.</example>
+        public async Task<ListTargetAlertPolicyUnassociatedMembersResponse> ListTargetAlertPolicyUnassociatedMembers(ListTargetAlertPolicyUnassociatedMembersRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called listTargetAlertPolicyUnassociatedMembers");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/targetAlertPolicyAssociations/{targetAlertPolicyAssociationId}/unassociatedTargetMembers".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DataSafe",
+                    OperationName = "ListTargetAlertPolicyUnassociatedMembers",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/data-safe/20181201/TargetAlertPolicyAssociation/ListTargetAlertPolicyUnassociatedMembers",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ListTargetAlertPolicyUnassociatedMembersResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListTargetAlertPolicyUnassociatedMembers failed with error: {e.Message}");
                 throw;
             }
         }

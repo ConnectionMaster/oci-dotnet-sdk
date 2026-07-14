@@ -16,8 +16,16 @@ using Newtonsoft.Json.Converters;
 namespace Oci.CoreService.Models
 {
     /// <summary>
-    /// The data to update a compute cluster. A [compute cluster](https://docs.oracle.com/iaas/Content/Compute/Tasks/compute-clusters.htm)
-    /// is a remote direct memory access (RDMA) network group.
+    /// The data to update a [compute cluster](https://docs.oracle.com/iaas/Content/Compute/Tasks/compute-clusters.htm).
+    /// <br/>
+    /// Use `COMPUTE_CLUSTER` type when using placementConstraintDetails.
+    /// <br/>
+    /// `placementConstraintDetails.hpcIslandId` is create-only and cannot be part of this update request.
+    /// <br/>
+    /// All other fields in `placementConstraintDetails` are optional, and only the fields provided will be updated.
+    /// <br/>
+    /// If `placementConstraintDetails.targetNetworkBlockIds` or `placementConstraintDetails.targetMemoryFabricIds` is 
+    /// provided, then the target compute cluster must already have `hpcIslandId` persisted.
     /// 
     /// </summary>
     public class UpdateComputeClusterDetails 
@@ -48,6 +56,9 @@ namespace Oci.CoreService.Models
         /// </value>
         [JsonProperty(PropertyName = "freeformTags")]
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
+        
+        [JsonProperty(PropertyName = "placementConstraintDetails")]
+        public PlacementConstraintDetails PlacementConstraintDetails { get; set; }
         
     }
 }

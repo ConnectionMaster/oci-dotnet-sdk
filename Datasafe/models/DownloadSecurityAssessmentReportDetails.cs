@@ -45,5 +45,19 @@ namespace Oci.DatasafeService.Models
         [JsonConverter(typeof(StringEnumConverter))]
         public System.Nullable<FormatEnum> Format { get; set; }
         
+        /// <value>
+        /// Optional flag controlling the output format of a target group report:
+        /// - true: Return a single consolidated report file for the entire target group.
+        /// - false/null (default): Return a ZIP archive containing one file per target in the group.
+        /// <br/>
+        /// Important:
+        /// - This flag is only applicable when the security assessment OCID refers to a target group assessment (targetType TARGET_DATABASE_GROUP).
+        /// - If `isSingleReport` is set to true for an individual target (targetType TARGET_DATABASE), the request will return an error.
+        /// - If `isSingleReport` is null or false for an individual target, the value is ignored and the selected output format for the assessment type is returned.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isSingleReport")]
+        public System.Nullable<bool> IsSingleReport { get; set; }
+        
     }
 }

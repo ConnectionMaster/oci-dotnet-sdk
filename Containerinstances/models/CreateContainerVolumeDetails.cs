@@ -58,6 +58,9 @@ namespace Oci.ContainerinstancesService.Models
             var discriminator = jsonObject["volumeType"].Value<string>();
             switch (discriminator)
             {
+                case "OCI_FSS_FILE_SYSTEM":
+                    obj = new CreateContainerOciFssVolumeDetails();
+                    break;
                 case "CONFIGFILE":
                     obj = new CreateContainerConfigFileVolumeDetails();
                     break;

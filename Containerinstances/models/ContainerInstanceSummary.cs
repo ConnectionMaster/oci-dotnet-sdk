@@ -174,5 +174,8 @@ namespace Oci.ContainerinstancesService.Models
         [JsonConverter(typeof(StringEnumConverter))]
         public System.Nullable<ContainerInstance.ContainerRestartPolicyEnum> ContainerRestartPolicy { get; set; }
         
+        [JsonProperty(PropertyName = "securityContext")]
+        public ContainerInstanceSecurityContext SecurityContext { get; set; }
+        
     }
 }

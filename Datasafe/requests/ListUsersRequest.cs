@@ -195,6 +195,12 @@ namespace Oci.DatasafeService.Requests
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "page")]
         public string Page { get; set; }
         
+        /// <value>
+        /// A filter to return only resources that match the specified compartment OCID.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "compartmentId")]
+        public string CompartmentId { get; set; }
+        
         ///
         /// <value>
         /// The sort order to use, either ascending (ASC) or descending (DESC).

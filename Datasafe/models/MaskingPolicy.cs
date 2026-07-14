@@ -152,7 +152,7 @@ namespace Oci.DatasafeService.Models
         public string ParallelDegree { get; set; }
                 ///
         /// <value>
-        /// Specifies how to recompile invalid objects post data masking. Allowed values are 'SERIAL' (recompile in serial), 
+        /// Specifies how to recompile invalid objects post data masking. Allowed values are 'SERIAL' (recompile in serial),   
         /// 'PARALLEL' (recompile in parallel), 'NONE' (do not recompile). If it's set to PARALLEL, the value of parallelDegree
         /// attribute is used. Use the built-in UTL_RECOMP package to recompile any remaining invalid objects after masking completes.
         /// 
@@ -171,7 +171,7 @@ namespace Oci.DatasafeService.Models
         };
 
         /// <value>
-        /// Specifies how to recompile invalid objects post data masking. Allowed values are 'SERIAL' (recompile in serial), 
+        /// Specifies how to recompile invalid objects post data masking. Allowed values are 'SERIAL' (recompile in serial),   
         /// 'PARALLEL' (recompile in parallel), 'NONE' (do not recompile). If it's set to PARALLEL, the value of parallelDegree
         /// attribute is used. Use the built-in UTL_RECOMP package to recompile any remaining invalid objects after masking completes.
         /// 

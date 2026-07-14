@@ -17,6 +17,10 @@ namespace Oci.CoreService.Models
 {
     /// <summary>
     /// An instance configuration is a template that defines the settings to use when creating Compute instances.
+    /// An instance configuration is a template that defines the settings to use when creating Compute instances
+    /// or GPU Memory Clusters.
+    /// For more information about instance configurations, see
+    /// [Managing Compute Instances](https://docs.oracle.com/iaas/Content/Compute/Concepts/instancemanagement.htm).
     /// 
     /// </summary>
     public class InstanceConfiguration 
@@ -72,6 +76,41 @@ namespace Oci.CoreService.Models
         
         [JsonProperty(PropertyName = "instanceDetails")]
         public InstanceConfigurationInstanceDetails InstanceDetails { get; set; }
+        
+        /// <value>
+        /// The GPU Memory Cluster configuration entries for.
+        /// </value>
+        [JsonProperty(PropertyName = "gmcConfigs")]
+        public System.Collections.Generic.List<InstanceConfigurationGmcConfigDetail> GmcConfigs { get; set; }
+                ///
+        /// <value>
+        /// Differentiator for instance configuration. 
+        /// Following values are supported:
+        /// * INSTANCE : All details related to instance will be passed within instanceDetails.
+        /// * GMC : All details related to gpu memory cluster will be passed within gmcConfigs.
+        /// 
+        /// </value>
+        ///
+        public enum SourceEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "INSTANCE")]
+            Instance,
+            [EnumMember(Value = "GMC")]
+            Gmc
+        };
+
+        /// <value>
+        /// Differentiator for instance configuration. 
+        /// Following values are supported:
+        /// * INSTANCE : All details related to instance will be passed within instanceDetails.
+        /// * GMC : All details related to gpu memory cluster will be passed within gmcConfigs.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "source")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<SourceEnum> Source { get; set; }
         
         /// <value>
         /// Parameters that were not specified when the instance configuration was created, but that

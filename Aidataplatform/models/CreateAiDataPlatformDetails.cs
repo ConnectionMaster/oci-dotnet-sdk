@@ -34,6 +34,34 @@ namespace Oci.AidataplatformService.Models
         public string AiDataPlatformType { get; set; }
         
         /// <value>
+        /// The flag to enable/disable AiFeatures for the instance.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isEnableAiFeature")]
+        public System.Nullable<bool> IsEnableAiFeature { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the vector db Lakehouse 26ai.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "vectorDbId")]
+        public string VectorDbId { get; set; }
+        
+        /// <value>
+        /// The Vector DB Lakehouse 26ai ADMIN user password.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "vectorDbAdminCred")]
+        public string VectorDbAdminCred { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the OCI Vault secret holding the vector db Lakehouse 26ai Admin user password.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "vectorDbAdminSecretId")]
+        public string VectorDbAdminSecretId { get; set; }
+        
+        /// <value>
         /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment to create the AiDataPlatform in.
         /// 
         /// </value>

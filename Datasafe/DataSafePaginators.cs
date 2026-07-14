@@ -4068,6 +4068,55 @@ namespace Oci.DatasafeService
         }
 
         /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListTargetAlertPolicyUnassociatedMembers operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListTargetAlertPolicyUnassociatedMembersResponse> ListTargetAlertPolicyUnassociatedMembersResponseEnumerator(ListTargetAlertPolicyUnassociatedMembersRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListTargetAlertPolicyUnassociatedMembersRequest, ListTargetAlertPolicyUnassociatedMembersResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListTargetAlertPolicyUnassociatedMembers(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the TargetAlertPolicyUnassociatedSummary objects
+        /// contained in responses from the ListTargetAlertPolicyUnassociatedMembers operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<TargetAlertPolicyUnassociatedSummary> ListTargetAlertPolicyUnassociatedMembersRecordEnumerator(ListTargetAlertPolicyUnassociatedMembersRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListTargetAlertPolicyUnassociatedMembersRequest, ListTargetAlertPolicyUnassociatedMembersResponse, TargetAlertPolicyUnassociatedSummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListTargetAlertPolicyUnassociatedMembers(request, retryConfiguration, cancellationToken),
+                response => response.TargetAlertPolicyUnassociatedCollection.Items
+            );
+        }
+
+        /// <summary>
         /// Creates a new enumerable which will iterate over the responses received from the ListTargetDatabaseGroups operation. This enumerable
         /// will fetch more data from the server as needed.
         /// </summary>

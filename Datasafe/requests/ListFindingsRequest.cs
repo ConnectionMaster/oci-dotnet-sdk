@@ -103,6 +103,34 @@ namespace Oci.DatasafeService.Requests
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "category")]
         public string Category { get; set; }
         
+        ///
+        /// <value>
+        /// A filter to return only findings that match the specified risk level(s). Use containsOracleDefinedSeverity parameter if need to filter by one or multiple risk levels.
+        /// </value>
+        ///
+        public enum ContainsOracleDefinedSeverityEnum {
+            [EnumMember(Value = "HIGH")]
+            High,
+            [EnumMember(Value = "MEDIUM")]
+            Medium,
+            [EnumMember(Value = "LOW")]
+            Low,
+            [EnumMember(Value = "EVALUATE")]
+            Evaluate,
+            [EnumMember(Value = "ADVISORY")]
+            Advisory,
+            [EnumMember(Value = "PASS")]
+            Pass,
+            [EnumMember(Value = "DEFERRED")]
+            Deferred
+        };
+
+        /// <value>
+        /// A filter to return only findings that match the specified risk level(s). Use containsOracleDefinedSeverity parameter if need to filter by one or multiple risk levels.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "containsOracleDefinedSeverity", Oci.Common.Http.CollectionFormatType.Multi)]
+        public System.Collections.Generic.List<ContainsOracleDefinedSeverityEnum> ContainsOracleDefinedSeverity { get; set; }
+        
         /// <value>
         /// A filter to return only the findings that match the specified lifecycle states.
         /// </value>

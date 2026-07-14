@@ -254,6 +254,15 @@ namespace Oci.DatasafeService.Models
         public string LifecycleDetails { get; set; }
         
         /// <value>
+        /// Indicates if the reports being generated should be paginated.
+        /// If set to true, multiple reports can be generated and the details of next and previous report are present in Report.
+        /// Values can either be 'true' or 'false'.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isSchedulePaginationEnabled")]
+        public System.Nullable<bool> IsSchedulePaginationEnabled { get; set; }
+        
+        /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm)
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}

@@ -103,5 +103,14 @@ namespace Oci.DatasafeService.Models
         [JsonProperty(PropertyName = "rowLimit")]
         public System.Nullable<int> RowLimit { get; set; }
         
+        /// <value>
+        /// Indicates if the reports being generated should be pagination enabled. 
+        /// If set to true, multiple reports can be generated and the details of next and previous report are present in Report.
+        /// Values can either be 'true' or 'false'.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isPaginationEnabled")]
+        public System.Nullable<bool> IsPaginationEnabled { get; set; }
+        
     }
 }

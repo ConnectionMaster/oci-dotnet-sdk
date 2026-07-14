@@ -30,7 +30,9 @@ namespace Oci.DatasafeService.Models
             [EnumMember(Value = null)]
             UnknownEnumValue,
             [EnumMember(Value = "AUDIT_POLICY")]
-            AuditPolicy
+            AuditPolicy,
+            [EnumMember(Value = "AUDIT_REPORT")]
+            AuditReport
         };
 
         /// <value>

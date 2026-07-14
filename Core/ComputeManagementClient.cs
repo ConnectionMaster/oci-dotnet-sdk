@@ -462,7 +462,7 @@ namespace Oci.CoreService
 
         /// <summary>
         /// Creates an instance configuration. An instance configuration is a template that defines the
-        /// settings to use when creating Compute instances.
+        /// settings to use when creating Compute instances or GPU Memory Clusters.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>

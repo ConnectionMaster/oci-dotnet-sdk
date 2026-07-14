@@ -48,7 +48,9 @@ namespace Oci.OdaService.Models
             [EnumMember(Value = "NUMBER")]
             Number,
             [EnumMember(Value = "BOOLEAN")]
-            Boolean
+            Boolean,
+            [EnumMember(Value = "PARAMETERIZED_STRING")]
+            ParameterizedString
         };
 
         /// <value>

@@ -65,6 +65,9 @@ namespace Oci.ContainerinstancesService.Models
                 case "CONFIGFILE":
                     obj = new ContainerConfigFileVolume();
                     break;
+                case "OCI_FSS_FILE_SYSTEM":
+                    obj = new ContainerOciFssVolume();
+                    break;
             }
             if (obj != null)
             {

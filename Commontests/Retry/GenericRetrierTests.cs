@@ -112,6 +112,7 @@ namespace Oci.Common.Retry
 
         [Theory]
         [InlineData(409, "IncorrectState")]
+        [InlineData(409, "LockConflict")]
         [InlineData(429, "RandomError")]
         [InlineData(500, "InternalServerError")]
         [InlineData(502, null)]
@@ -150,6 +151,7 @@ namespace Oci.Common.Retry
 
         [Theory]
         [InlineData(409, "IncorrectState")]
+        [InlineData(409, "LockConflict")]
         [InlineData(429, "RandomError")]
         [InlineData(500, "InternalServerError")]
         [Trait("Category", "Unit")]
@@ -215,6 +217,7 @@ namespace Oci.Common.Retry
 
         [Theory]
         [InlineData(409, "IncorrectState")]
+        [InlineData(409, "LockConflict")]
         [Trait("Category", "Unit")]
         [DisplayTestMethodNameAttribute]
         public async void TestRetryThrowsTimeoutException(int statusCode, string message)

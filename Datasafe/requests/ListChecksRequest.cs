@@ -75,7 +75,9 @@ namespace Oci.DatasafeService.Requests
             [EnumMember(Value = "title")]
             Title,
             [EnumMember(Value = "category")]
-            Category
+            Category,
+            [EnumMember(Value = "key")]
+            Key
         };
 
         /// <value>

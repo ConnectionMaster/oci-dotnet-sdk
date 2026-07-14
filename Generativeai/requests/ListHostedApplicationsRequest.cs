@@ -33,7 +33,7 @@ namespace Oci.GenerativeaiService.Requests
         /// A filter to return only the hosted applications that their lifecycle state matches the given lifecycle state.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "lifecycleState")]
-        public System.Nullable<HostedApplication.LifecycleStateEnum> LifecycleState { get; set; }
+        public System.Nullable<HostedApplicationBase.LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
         /// A filter to return only resources that match the given display name exactly.
