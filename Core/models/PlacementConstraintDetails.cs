@@ -49,6 +49,9 @@ namespace Oci.CoreService.Models
                 case "HOST_GROUP":
                     obj = new HostGroupPlacementConstraintDetails();
                     break;
+                case "COMPUTE_CLUSTER":
+                    obj = new ComputeClusterPlacementConstraintDetails();
+                    break;
                 case "COMPUTE_BARE_METAL_HOST":
                     obj = new ComputeBareMetalHostPlacementConstraintDetails();
                     break;

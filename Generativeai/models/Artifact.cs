@@ -39,6 +39,13 @@ namespace Oci.GenerativeaiService.Models
         /// </value>
         [JsonProperty(PropertyName = "hostedDeploymentId")]
         public string HostedDeploymentId { get; set; }
+        
+        /// <value>
+        /// Optional flag that requires an OCI Vulnerability Scanning Service compliance report for this artifact before it can become active. When not provided, the value defaults to false and the artifact is not blocked on a scan result.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isVulnerabilityScanRequired")]
+        public System.Nullable<bool> IsVulnerabilityScanRequired { get; set; }
                 ///
         /// <value>
         /// The current status of the artifact.
@@ -50,7 +57,9 @@ namespace Oci.GenerativeaiService.Models
             [EnumMember(Value = "INACTIVE")]
             Inactive,
             [EnumMember(Value = "UPDATING")]
-            Updating
+            Updating,
+            [EnumMember(Value = "FAILED")]
+            Failed
         };
 
         /// <value>

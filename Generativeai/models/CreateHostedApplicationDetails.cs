@@ -21,6 +21,13 @@ namespace Oci.GenerativeaiService.Models
     public class CreateHostedApplicationDetails 
     {
         
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "InboundAuthConfig is required.")]
+        [JsonProperty(PropertyName = "inboundAuthConfig")]
+        public InboundAuthConfig InboundAuthConfig { get; set; }
+        
         /// <value>
         /// The user-friendly display name for the Hosted Application.
         /// Does not need to be unique and can be updated after creation.
@@ -51,9 +58,6 @@ namespace Oci.GenerativeaiService.Models
         
         [JsonProperty(PropertyName = "scalingConfig")]
         public ScalingConfig ScalingConfig { get; set; }
-        
-        [JsonProperty(PropertyName = "inboundAuthConfig")]
-        public InboundAuthConfig InboundAuthConfig { get; set; }
         
         [JsonProperty(PropertyName = "networkingConfig")]
         public NetworkingConfig NetworkingConfig { get; set; }

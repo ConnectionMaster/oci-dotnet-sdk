@@ -16,17 +16,13 @@ using Newtonsoft.Json.Converters;
 namespace Oci.CoreService.Models
 {
     /// <summary>
-    /// The data for creating a [compute cluster](https://docs.oracle.com/iaas/Content/Compute/Tasks/compute-clusters.htm). A compute cluster
-    /// is an empty remote direct memory access (RDMA) network group
+    /// The data for creating a [compute cluster](https://docs.oracle.com/iaas/Content/Compute/Tasks/compute-clusters.htm).
     /// <br/>
-    /// After the compute cluster is created, you can use the compute cluster's OCID with the
-    /// {@link #launchInstance(LaunchInstanceRequest) launchInstance} operation to create instances in the compute cluster.
-    /// The instances must be created in the same compartment and availability domain as the cluster.
+    /// After the compute cluster is created, you can use the compute cluster's OCID to create Instance, GPU Memory 
+    /// Cluster or Instance Pool resources within the compute cluster. These resources must be created in the same 
+    /// compartment and availability domain as the cluster.
     /// <br/>
-    /// Use compute clusters when you want to manage instances in the cluster individually in the RDMA network group.
-    /// <br/>
-    /// For details about creating a cluster network that uses instance pools to manage groups of identical instances,
-    /// see {@link #createClusterNetworkDetails(CreateClusterNetworkDetailsRequest) createClusterNetworkDetails}.
+    /// Use `COMPUTE_CLUSTER` type when using placementConstraintDetails.
     /// 
     /// </summary>
     public class CreateComputeClusterDetails 
@@ -79,6 +75,9 @@ namespace Oci.CoreService.Models
         /// </value>
         [JsonProperty(PropertyName = "freeformTags")]
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
+        
+        [JsonProperty(PropertyName = "placementConstraintDetails")]
+        public PlacementConstraintDetails PlacementConstraintDetails { get; set; }
         
     }
 }

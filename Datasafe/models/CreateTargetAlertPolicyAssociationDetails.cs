@@ -33,7 +33,7 @@ namespace Oci.DatasafeService.Models
         public string PolicyId { get; set; }
         
         /// <value>
-        /// The OCID of the target.
+        /// The OCID of the target or target database group.
         /// </value>
         /// <remarks>
         /// Required
@@ -73,6 +73,13 @@ namespace Oci.DatasafeService.Models
         [Required(ErrorMessage = "IsEnabled is required.")]
         [JsonProperty(PropertyName = "isEnabled")]
         public System.Nullable<bool> IsEnabled { get; set; }
+        
+        /// <value>
+        /// The resource type that is represented by the alert policy association. Default is considered as TARGET_DATABASE.
+        /// </value>
+        [JsonProperty(PropertyName = "targetType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<TargetAlertPolicyAssociation.TargetTypeEnum> TargetType { get; set; }
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm)

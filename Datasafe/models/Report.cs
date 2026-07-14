@@ -140,6 +140,18 @@ namespace Oci.DatasafeService.Models
         public string LifecycleDetails { get; set; }
         
         /// <value>
+        /// The OCID of the previous report generated.
+        /// </value>
+        [JsonProperty(PropertyName = "previousReportId")]
+        public string PreviousReportId { get; set; }
+        
+        /// <value>
+        /// The OCID of the next report generated.
+        /// </value>
+        [JsonProperty(PropertyName = "nextReportId")]
+        public string NextReportId { get; set; }
+        
+        /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace. For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm)
         /// <br/>
         /// Example: {&quot;Department&quot;: &quot;Finance&quot;}

@@ -21,6 +21,9 @@ namespace Oci.GenerativeaiService.Models
     public class UpdateHostedApplicationDetails 
     {
         
+        [JsonProperty(PropertyName = "inboundAuthConfig")]
+        public InboundAuthConfig InboundAuthConfig { get; set; }
+        
         /// <value>
         /// A user-friendly name. Does not have to be unique, and it's changeable.
         /// </value>
@@ -35,9 +38,6 @@ namespace Oci.GenerativeaiService.Models
         
         [JsonProperty(PropertyName = "scalingConfig")]
         public ScalingConfig ScalingConfig { get; set; }
-        
-        [JsonProperty(PropertyName = "inboundAuthConfig")]
-        public InboundAuthConfig InboundAuthConfig { get; set; }
         
         /// <value>
         /// The list of environment variables for the Hosted Application.

@@ -32,6 +32,13 @@ namespace Oci.GenerativeaiService.Models
         };
 
         
+        /// <value>
+        /// Optional flag that requires an OCI Vulnerability Scanning Service compliance report for this artifact before it can become active. When omitted, the value defaults to false.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isVulnerabilityScanRequired")]
+        public System.Nullable<bool> IsVulnerabilityScanRequired { get; set; }
+        
     }
 
     public class CreateArtifactDetailsModelConverter : JsonConverter

@@ -27,6 +27,16 @@ namespace Oci.AidataplatformService.Models
       DeleteDataLake,
       [EnumMember(Value = "MOVE_DATA_LAKE")]
       MoveDataLake,
+      [EnumMember(Value = "CREATE_AI_DATA_PLATFORM")]
+      CreateAiDataPlatform,
+      [EnumMember(Value = "UPDATE_AI_DATA_PLATFORM")]
+      UpdateAiDataPlatform,
+      [EnumMember(Value = "DELETE_AI_DATA_PLATFORM")]
+      DeleteAiDataPlatform,
+      [EnumMember(Value = "MOVE_AI_DATA_PLATFORM")]
+      MoveAiDataPlatform,
+      [EnumMember(Value = "ENABLE_AI_FEATURES")]
+      EnableAiFeatures,
       [EnumMember(Value = "CREATE_WORKSPACE")]
       CreateWorkspace,
       [EnumMember(Value = "UPDATE_WORKSPACE")]

@@ -106,6 +106,12 @@ namespace Oci.DatasafeService.Requests
         public System.Nullable<SortByEnum> SortBy { get; set; }
         
         /// <value>
+        /// A optional filter to return only resources that belong to the specified alert policy association type.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "targetType")]
+        public System.Nullable<TargetAlertPolicyAssociation.TargetTypeEnum> TargetType { get; set; }
+        
+        /// <value>
         /// Unique identifier for the request.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-request-id")]

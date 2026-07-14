@@ -64,7 +64,7 @@ namespace Oci.GenerativeaiService.Models
         public System.Nullable<HostedDeployment.LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
-        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the application.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the HostedApplication parent.
         /// </value>
         [JsonProperty(PropertyName = "hostedApplicationId")]
         public string HostedApplicationId { get; set; }

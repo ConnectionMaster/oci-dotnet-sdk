@@ -40,7 +40,9 @@ namespace Oci.DatasafeService.Models
             [EnumMember(Value = null)]
             UnknownEnumValue,
             [EnumMember(Value = "TABLE")]
-            Table
+            Table,
+            [EnumMember(Value = "EDITIONING_VIEW")]
+            EditioningView
         };
 
         /// <value>

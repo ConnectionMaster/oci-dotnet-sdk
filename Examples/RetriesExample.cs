@@ -67,6 +67,7 @@ namespace Oci.Examples
                 // Retrying on certain HTTP Status Ccode and Error code combo.
                 RetryableErrors = new Collection<Tuple<int, string>>(new Tuple<int, string>[] {
                     new Tuple<int, string>(409, "IncorrectState"),
+                    new Tuple<int, string>(409, "LockConflict"),
                     new Tuple<int, string>(429, "TooManyRequests")
                 })
             };

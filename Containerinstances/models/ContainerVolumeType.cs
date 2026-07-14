@@ -22,6 +22,8 @@ namespace Oci.ContainerinstancesService.Models
       [EnumMember(Value = "EMPTYDIR")]
       Emptydir,
       [EnumMember(Value = "CONFIGFILE")]
-      Configfile
+      Configfile,
+      [EnumMember(Value = "OCI_FSS_FILE_SYSTEM")]
+      OciFssFileSystem
   }
 }

@@ -211,6 +211,8 @@ namespace Oci.DatasafeService.Models
             DeleteReportDefinition,
             [EnumMember(Value = "GENERATE_REPORT")]
             GenerateReport,
+            [EnumMember(Value = "GENERATE_PAGINATED_REPORT")]
+            GeneratePaginatedReport,
             [EnumMember(Value = "CHANGE_REPORT_COMPARTMENT")]
             ChangeReportCompartment,
             [EnumMember(Value = "DELETE_ARCHIVE_RETRIEVAL")]
