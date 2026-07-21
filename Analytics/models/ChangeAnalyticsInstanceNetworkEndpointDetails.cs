@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.AnalyticsService.Models
 {
     /// <summary>
-    /// Input payload to update an Analytics instance endpoint details.
+    /// Input payload to update endpoint details for an Analytics instance.
     /// 
     /// </summary>
     public class ChangeAnalyticsInstanceNetworkEndpointDetails 

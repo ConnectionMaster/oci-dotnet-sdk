@@ -20,7 +20,7 @@ namespace Oci.AnalyticsService.Requests
     {
         
         /// <value>
-        /// The OCID of the AnalyticsInstance.
+        /// The OCID of the Analytics instance.
         /// 
         /// </value>
         /// <remarks>
@@ -31,8 +31,8 @@ namespace Oci.AnalyticsService.Requests
         public string AnalyticsInstanceId { get; set; }
         
         /// <value>
-        /// The Analytics Instance fields to update. Fields that are not provided
-        /// will not be updated.
+        /// Update specified fields for an Analytics instance. Fields that aren't provided
+        ///  won't be updated.
         /// 
         /// </value>
         /// <remarks>

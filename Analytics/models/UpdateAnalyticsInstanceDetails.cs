@@ -16,8 +16,8 @@ using Newtonsoft.Json.Converters;
 namespace Oci.AnalyticsService.Models
 {
     /// <summary>
-    /// Input payload to update an Analytics instance. Fields that are not provided
-    /// will not be updated.
+    /// Input payload to update an Analytics instance. Fields that aren't provided
+    /// won't be updated.
     /// 
     /// </summary>
     public class UpdateAnalyticsInstanceDetails 
@@ -64,7 +64,7 @@ namespace Oci.AnalyticsService.Models
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
         
         /// <value>
-        /// Analytics instance update channel.
+        /// The Analytics instance update cycle.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "updateChannel")]

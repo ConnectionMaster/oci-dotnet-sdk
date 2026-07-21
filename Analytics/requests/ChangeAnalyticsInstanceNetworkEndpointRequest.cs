@@ -20,7 +20,7 @@ namespace Oci.AnalyticsService.Requests
     {
         
         /// <value>
-        /// The OCID of the AnalyticsInstance.
+        /// The OCID of the Analytics instance.
         /// 
         /// </value>
         /// <remarks>
@@ -31,7 +31,7 @@ namespace Oci.AnalyticsService.Requests
         public string AnalyticsInstanceId { get; set; }
         
         /// <value>
-        /// Input payload for changing an Analytics instance network endpoint.
+        /// Input payload for changing a network endpoint for an Analytics instance.
         /// 
         /// </value>
         /// <remarks>

@@ -13,7 +13,7 @@ using System.Runtime.Serialization;
 namespace Oci.AnalyticsService.Models
 {
   /// <summary>
-  /// Various types of Oracle Service categories that can be whitelisted to access an Analytics Instance.
+  /// Various types of Oracle Service categories that can be whitelisted to access an Analytics instance.
     /// 
   /// </summary>
   public enum AccessControlServiceType {

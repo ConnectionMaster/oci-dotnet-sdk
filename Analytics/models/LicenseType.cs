@@ -13,7 +13,7 @@ using System.Runtime.Serialization;
 namespace Oci.AnalyticsService.Models
 {
   /// <summary>
-  /// The license type of the instance.
+  /// The license type of the Analytics instance.
     /// 
   /// </summary>
   public enum LicenseType {

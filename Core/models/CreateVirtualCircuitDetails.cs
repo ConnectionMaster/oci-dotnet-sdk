@@ -241,6 +241,28 @@ namespace Oci.CoreService.Models
         [JsonProperty(PropertyName = "ipMtu")]
         [JsonConverter(typeof(StringEnumConverter))]
         public System.Nullable<VirtualCircuitIpMtu> IpMtu { get; set; }
+                ///
+        /// <value>
+        /// The traffic mode to be set with this Virtual Circuit. This controls whether the traffic is to be drained
+        /// for the associated Virtual Circuit or not.
+        /// 
+        /// </value>
+        ///
+        public enum TrafficModeEnum {
+            [EnumMember(Value = "NORMAL")]
+            Normal,
+            [EnumMember(Value = "DRAIN")]
+            Drain
+        };
+
+        /// <value>
+        /// The traffic mode to be set with this Virtual Circuit. This controls whether the traffic is to be drained
+        /// for the associated Virtual Circuit or not.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "trafficMode")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<TrafficModeEnum> TrafficMode { get; set; }
         
     }
 }

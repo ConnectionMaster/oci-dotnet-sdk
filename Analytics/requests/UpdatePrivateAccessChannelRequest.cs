@@ -20,7 +20,7 @@ namespace Oci.AnalyticsService.Requests
     {
         
         /// <value>
-        /// The unique identifier key of the Private Access Channel.
+        /// The unique identifier key of the private access channel.
         /// 
         /// </value>
         /// <remarks>
@@ -31,7 +31,7 @@ namespace Oci.AnalyticsService.Requests
         public string PrivateAccessChannelKey { get; set; }
         
         /// <value>
-        /// The OCID of the AnalyticsInstance.
+        /// The OCID of the Analytics instance.
         /// 
         /// </value>
         /// <remarks>
@@ -42,7 +42,7 @@ namespace Oci.AnalyticsService.Requests
         public string AnalyticsInstanceId { get; set; }
         
         /// <value>
-        /// Update the Private Access Channel with the given unique identifier key in the specified Analytics Instance.
+        /// Update the private access channel with the given unique identifier key in the specified Analytics instance.
         /// 
         /// </value>
         /// <remarks>

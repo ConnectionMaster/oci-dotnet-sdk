@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.AnalyticsService.Models
 {
     /// <summary>
-    /// Analytics Instance metadata.
+    /// Analytics instance metadata.
     /// 
     /// </summary>
     public class AnalyticsInstance 
@@ -34,7 +34,8 @@ namespace Oci.AnalyticsService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The name of the Analytics instance. This name must be unique in the tenancy and cannot be changed.
+        /// The name of the Analytics instance. This name must be unique in the tenancy and can't be changed.
+        /// The name must start with a letter and can contain only letters, numbers and dash (-).
         /// 
         /// </value>
         /// <remarks>
@@ -63,7 +64,7 @@ namespace Oci.AnalyticsService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// The current state of an instance.
+        /// The current state of the Analytics instance.
         /// 
         /// </value>
         /// <remarks>
@@ -75,7 +76,7 @@ namespace Oci.AnalyticsService.Models
         public System.Nullable<AnalyticsInstanceLifecycleState> LifecycleState { get; set; }
         
         /// <value>
-        /// Analytics feature set.
+        /// The feature set. Either `SELF_SERVICE_ANALYTICS` (Professional Edition) or `ENTERPRISE_ANALYTICS` (Enterprise Edition).
         /// 
         /// </value>
         /// <remarks>
@@ -109,7 +110,7 @@ namespace Oci.AnalyticsService.Models
         public string EmailNotification { get; set; }
         
         /// <value>
-        /// Analytics instance update channel.
+        /// The Analytics instance update cycle.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "updateChannel")]
@@ -138,7 +139,7 @@ namespace Oci.AnalyticsService.Models
         public System.Collections.Generic.Dictionary<string, VanityUrlDetails> VanityUrlDetails { get; set; }
         
         /// <value>
-        /// URL of the Analytics service.
+        /// URL of the Analytics instance.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "serviceUrl")]
@@ -170,14 +171,14 @@ namespace Oci.AnalyticsService.Models
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> SystemTags { get; set; }
         
         /// <value>
-        /// OCID of the OCI Vault Key encrypting the customer data stored in this Analytics instance. A null value indicates Oracle managed default encryption.
+        /// OCID of the OCI Vault Key encrypting the customer data stored in this Analytics instance. A null value indicates that the default Oracle-managed encryption is used.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "kmsKeyId")]
         public string KmsKeyId { get; set; }
         
         /// <value>
-        /// The date and time the instance was created, in the format defined by RFC3339.
+        /// The date and time the Analytics instance was created, in the format defined by RFC3339.
         /// <br/>
         /// Example: 2016-08-25T21:10:29.600Z
         /// </value>
@@ -189,9 +190,9 @@ namespace Oci.AnalyticsService.Models
         public System.Nullable<System.DateTime> TimeCreated { get; set; }
         
         /// <value>
-        /// The date and time the instance was last updated (in the format defined by RFC3339).
-        /// This timestamp represents updates made through this API. External events do not
-        /// influence it.
+        /// The date and time the Analytics instance was last updated (in the format defined by RFC3339).
+        /// This timestamp represents updates made through this API. External events don't
+        /// affect it.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "timeUpdated")]
@@ -211,6 +212,13 @@ namespace Oci.AnalyticsService.Models
         /// </value>
         [JsonProperty(PropertyName = "domainId")]
         public string DomainId { get; set; }
+        
+        /// <value>
+        /// List of resource groups for this Analytics instance. The resource group id must be unique within the instance.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "resourceGroups")]
+        public System.Collections.Generic.List<InstanceResourceGroup> ResourceGroups { get; set; }
         
     }
 }

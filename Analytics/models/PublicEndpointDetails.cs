@@ -37,7 +37,7 @@ namespace Oci.AnalyticsService.Models
         public System.Collections.Generic.List<VirtualCloudNetwork> WhitelistedVcns { get; set; }
         
         /// <value>
-        /// Oracle Cloud Services that are allowed to access this Analytics instance.
+        /// Oracle Cloud services that are allowed to access this Analytics instance.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "whitelistedServices", ItemConverterType = typeof(Oci.Common.Utils.ResponseEnumConverter))]

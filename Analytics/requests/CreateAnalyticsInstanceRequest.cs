@@ -20,7 +20,7 @@ namespace Oci.AnalyticsService.Requests
     {
         
         /// <value>
-        /// Analytics Instance details.
+        /// Analytics instance details.
         /// 
         /// </value>
         /// <remarks>

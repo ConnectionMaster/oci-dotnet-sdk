@@ -14,7 +14,7 @@ namespace Oci.AnalyticsService.Models
 {
   /// <summary>
   /// The field to sort by (one column only). Default sort order is
-    /// ascending exception of `timeCreated` column (descending).
+    /// ascending, except for the `timeCreated` column which is descending.
     /// 
   /// </summary>
   public enum SortBy {

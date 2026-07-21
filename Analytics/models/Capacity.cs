@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.AnalyticsService.Models
 {
     /// <summary>
-    /// Service instance capacity metadata (e.g.: OLPU count, number of users, ...etc...).
+    /// Service instance capacity metadata (for example, OLPU count, number of users, and so on).
     /// 
     /// </summary>
     public class Capacity 
@@ -38,7 +38,7 @@ namespace Oci.AnalyticsService.Models
         
         /// <value>
         /// The capacity value selected, either the number of OCPUs (OLPU_COUNT) or the number of users (USER_COUNT).
-        /// This parameter affects the number of OCPUs, amount of memory, and other resources allocated to the instance.
+        /// This parameter affects the number of OCPUs, amount of memory, and other resources allocated to the Analytics instance.
         /// 
         /// </value>
         /// <remarks>

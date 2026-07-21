@@ -55,5 +55,26 @@ namespace Oci.CoreService.Models
         [JsonProperty(PropertyName = "macsecProperties")]
         public UpdateMacsecProperties MacsecProperties { get; set; }
         
+        /// <value>
+        /// (Optional) Minimum number of active cross-connects required for the cross-connect group to be considered
+        /// operational. If not specified, this value defaults to 1. Value must not exceed the total number of
+        /// cross-connects in the cross-connect group.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "minimumLinks")]
+        public System.Nullable<int> MinimumLinks { get; set; }
+        
+        /// <value>
+        /// The flag to enable or disable the down timer for the interface.
+        /// </value>
+        [JsonProperty(PropertyName = "isInterfaceHoldTimerEnabled")]
+        public System.Nullable<bool> IsInterfaceHoldTimerEnabled { get; set; }
+        
+        /// <value>
+        /// The duration of the interface down timer in milliseconds between 0 and 3000 in multiples of 500.
+        /// </value>
+        [JsonProperty(PropertyName = "interfaceDownTimerValueInMilliseconds")]
+        public System.Nullable<int> InterfaceDownTimerValueInMilliseconds { get; set; }
+        
     }
 }

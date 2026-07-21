@@ -16,15 +16,14 @@ using Newtonsoft.Json.Converters;
 namespace Oci.AnalyticsService.Models
 {
     /// <summary>
-    /// Private source DNS Zone model.
+    /// Private source DNS zone model.
     /// 
     /// </summary>
     public class PrivateSourceDnsZone 
     {
         
         /// <value>
-        /// Private Source DNS Zone. Ex: example-vcn.oraclevcn.com, corp.example.com.
-        /// 
+        /// Private source DNS zone. For Example: example-vcn.oraclevcn.com, corp.example.com.
         /// </value>
         /// <remarks>
         /// Required
@@ -34,7 +33,7 @@ namespace Oci.AnalyticsService.Models
         public string DnsZone { get; set; }
         
         /// <value>
-        /// Description of private source dns zone.
+        /// Description of the private source DNS zone.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "description")]
