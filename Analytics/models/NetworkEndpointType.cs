@@ -13,7 +13,7 @@ using System.Runtime.Serialization;
 namespace Oci.AnalyticsService.Models
 {
   /// <summary>
-  /// Public/Private endpoint access type.
+  /// Public or private endpoint access type.
     /// 
   /// </summary>
   public enum NetworkEndpointType {

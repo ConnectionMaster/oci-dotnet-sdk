@@ -16,14 +16,14 @@ using Newtonsoft.Json.Converters;
 namespace Oci.AnalyticsService.Models
 {
     /// <summary>
-    /// Input payload to reset the OCI Vault encryption key.
+    /// Input payload to reset the OCI vault encryption key.
     /// 
     /// </summary>
     public class SetKmsKeyDetails 
     {
         
         /// <value>
-        /// OCID of the OCI Vault Key encrypting the customer data stored in this Analytics instance. An empty value indicates Oracle managed default encryption (null is not supported in this API).
+        /// OCID of the OCI vault key encrypting the customer data stored in this Analytics instance. An empty value indicates the default Oracle-managed encryption (this API doesn't support null).
         /// 
         /// </value>
         /// <remarks>

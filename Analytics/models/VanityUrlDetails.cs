@@ -16,35 +16,35 @@ using Newtonsoft.Json.Converters;
 namespace Oci.AnalyticsService.Models
 {
     /// <summary>
-    /// Vanity url configuration details.
+    /// Vanity URL configuration details.
     /// 
     /// </summary>
     public class VanityUrlDetails 
     {
         
         /// <value>
-        /// The vanity url unique identifier key.
+        /// The vanity URL unique identifier key.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "key")]
         public string Key { get; set; }
         
         /// <value>
-        /// Description of the vanity url.
+        /// Description of the vanity URL.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "description")]
         public string Description { get; set; }
         
         /// <value>
-        /// List of urls supported by this vanity URL definition (max of 3).
+        /// List of URLs supported by this vanity URL definition (maximum of 3).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "urls")]
         public System.Collections.Generic.List<string> Urls { get; set; }
         
         /// <value>
-        /// List of fully qualified hostnames supported by this vanity URL definition (max of 3).
+        /// List of fully-qualified hostnames supported by this vanity URL definition (maximum of 3).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "hosts")]

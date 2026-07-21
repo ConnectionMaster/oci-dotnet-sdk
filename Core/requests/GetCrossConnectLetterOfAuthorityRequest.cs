@@ -28,5 +28,13 @@ namespace Oci.CoreService.Requests
         [Required(ErrorMessage = "CrossConnectId is required.")]
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Path, "crossConnectId")]
         public string CrossConnectId { get; set; }
+        
+        /// <value>
+        /// Unique identifier for the request.
+        /// If you need to contact Oracle about a particular request, please provide the request ID.
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-request-id")]
+        public string OpcRequestId { get; set; }
     }
 }

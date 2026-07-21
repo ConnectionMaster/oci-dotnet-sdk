@@ -23,7 +23,8 @@ namespace Oci.AnalyticsService.Models
     {
         
         /// <value>
-        /// The name of the Analytics instance. This name must be unique in the tenancy and cannot be changed.
+        /// The name of the Analytics instance. This name must be unique in the tenancy and can't be changed.
+        /// The name must start with a letter and can contain only letters, numbers and dash (-).
         /// 
         /// </value>
         /// <remarks>
@@ -52,7 +53,7 @@ namespace Oci.AnalyticsService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// Analytics feature set.
+        /// The feature set. Either `SELF_SERVICE_ANALYTICS` (Professional Edition) or `ENTERPRISE_ANALYTICS` (Enterprise Edition).
         /// 
         /// </value>
         /// <remarks>
@@ -118,7 +119,7 @@ namespace Oci.AnalyticsService.Models
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
         
         /// <value>
-        /// Analytics instance update channel.
+        /// The Analytics instance update cycle.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "updateChannel")]
@@ -126,22 +127,20 @@ namespace Oci.AnalyticsService.Models
         public System.Nullable<UpdateChannel> UpdateChannel { get; set; }
         
         /// <value>
-        /// OCID of the OCI Vault Key encrypting the customer data stored in this Analytics instance. A null value indicates Oracle managed default encryption.
+        /// OCID of the OCI Vault Key encrypting the customer data stored in this Analytics instance. A null value indicates that the default Oracle-managed encryption is used.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "kmsKeyId")]
         public string KmsKeyId { get; set; }
         
         /// <value>
-        /// domain id for which the user is authorized.
-        /// 
+        /// The OCID of the identity domain to use for the new Analytics instance. For Example: ocid1.domain.oc1..ocid1.domain.oc1..aaaaaa111111bbbbbb222222cccccc333333dddddd444444eeeeee5555.
         /// </value>
         [JsonProperty(PropertyName = "domainId")]
         public string DomainId { get; set; }
         
         /// <value>
-        /// user name of the authorized user.
-        /// 
+        /// The Analytics instance administrator user. This must be the user name (not OCID) of a user in the nominated identity domain. For Example: john.smith@example.com.
         /// </value>
         [JsonProperty(PropertyName = "adminUser")]
         public string AdminUser { get; set; }

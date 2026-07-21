@@ -23,7 +23,7 @@ namespace Oci.AnalyticsService.Models
     {
         
         /// <value>
-        /// A short error code that defines the error, meant for programmatic parsing.
+        /// A short error code that defines the error, for programmatic parsing.
         /// 
         /// </value>
         /// <remarks>
@@ -45,7 +45,7 @@ namespace Oci.AnalyticsService.Models
         public string Message { get; set; }
         
         /// <value>
-        /// The date and time the error occured, in the format defined by RFC3339.
+        /// The date and time the error occurred, in the format defined by RFC3339.
         /// <br/>
         /// Example: 2016-08-25T21:10:29.600Z
         /// </value>

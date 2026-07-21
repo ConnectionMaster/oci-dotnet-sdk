@@ -24,6 +24,8 @@ namespace Oci.AnalyticsService.Models
       FawPaid,
       [EnumMember(Value = "FAW_FREE")]
       FawFree,
+      [EnumMember(Value = "FDI_BASE")]
+      FdiBase,
       [EnumMember(Value = "EE_EMBEDDED")]
       EeEmbedded,
       [EnumMember(Value = "SE_EMBEDDED")]
