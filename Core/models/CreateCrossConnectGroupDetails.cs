@@ -66,5 +66,36 @@ namespace Oci.CoreService.Models
         [JsonProperty(PropertyName = "macsecProperties")]
         public CreateMacsecProperties MacsecProperties { get; set; }
         
+        /// <value>
+        /// (Optional) Minimum number of active cross-connects required for the cross-connect group to be considered
+        /// operational. During create cross-connect-group operation this value can only be set to 1 (If not specified,
+        /// this value defaults to 1) and can be edited using the update cross-connect group operation. Value must not
+        /// exceed the total number of cross-connects in the cross-connect group.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "minimumLinks")]
+        public System.Nullable<int> MinimumLinks { get; set; }
+        
+        /// <value>
+        /// The flag to enable or disable the down timer for the interface.
+        /// </value>
+        [JsonProperty(PropertyName = "isInterfaceHoldTimerEnabled")]
+        public System.Nullable<bool> IsInterfaceHoldTimerEnabled { get; set; }
+        
+        /// <value>
+        /// The duration of the interface down timer in milliseconds between 0 and 3000 in multiples of 500.
+        /// </value>
+        [JsonProperty(PropertyName = "interfaceDownTimerValueInMilliseconds")]
+        public System.Nullable<int> InterfaceDownTimerValueInMilliseconds { get; set; }
+        
+        /// <value>
+        /// (Optional) When true, restricts placement so cross-connects lands only on QoS-capable devices.
+        /// When false (default), placement may use any supported device. If no QoS-capable devices are available
+        /// in the selected location, the request fails.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isQosEnabled")]
+        public System.Nullable<bool> IsQosEnabled { get; set; }
+        
     }
 }

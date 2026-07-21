@@ -34,7 +34,7 @@ namespace Oci.AnalyticsService.Models
         public string Message { get; set; }
         
         /// <value>
-        /// The date and time the log entry occured, in the format defined by RFC3339.
+        /// The date and time the log entry occurred, in the format defined by RFC3339.
         /// <br/>
         /// Example: 2016-08-25T21:10:29.600Z
         /// </value>

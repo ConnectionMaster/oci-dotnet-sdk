@@ -74,7 +74,7 @@ namespace Oci.AnalyticsService
 
         /// <summary>
         /// Change the compartment of an Analytics instance. The operation is long-running
-        /// and creates a new WorkRequest.
+        /// and creates a new work request.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -131,8 +131,8 @@ namespace Oci.AnalyticsService
         }
 
         /// <summary>
-        /// Change an Analytics instance network endpoint. The operation is long-running
-        /// and creates a new WorkRequest.
+        /// Change the network endpoint for an Analytics instance. The operation is long-running
+        /// and creates a new work request.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -189,8 +189,8 @@ namespace Oci.AnalyticsService
         }
 
         /// <summary>
-        /// Create a new AnalyticsInstance in the specified compartment. The operation is long-running
-        /// and creates a new WorkRequest.
+        /// Create a new Analytics instance in the specified compartment. The operation is long-running
+        /// and creates a new work request.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -247,8 +247,8 @@ namespace Oci.AnalyticsService
         }
 
         /// <summary>
-        /// Create an Private access Channel for the Analytics instance. The operation is long-running
-        /// and creates a new WorkRequest.
+        /// Create an private access channel for the Analytics instance. The operation is long-running
+        /// and creates a new work request.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -305,8 +305,64 @@ namespace Oci.AnalyticsService
         }
 
         /// <summary>
-        /// Allows specifying a custom host name to be used to access the analytics instance.  This requires prior setup of DNS entry and certificate
-        /// for this host.
+        /// Create a new resource group for the instance
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/CreateResourceGroup.cs.html">here</a> to see an example of how to use CreateResourceGroup API.</example>
+        public async Task<CreateResourceGroupResponse> CreateResourceGroup(CreateResourceGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called createResourceGroup");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/analyticsInstances/{analyticsInstanceId}/resourceGroups".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "Analytics",
+                    OperationName = "CreateResourceGroup",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/analytics/20190331/AnalyticsInstance/CreateResourceGroup",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<CreateResourceGroupResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"CreateResourceGroup failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Allows you to specify a custom host name to be used to access the Analytics instance.  You must set up a DNS entry and certificate for this host in advance.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -363,8 +419,8 @@ namespace Oci.AnalyticsService
         }
 
         /// <summary>
-        /// Terminates the specified Analytics instance. The operation is long-running
-        /// and creates a new WorkRequest.
+        /// Deletes the specified Analytics instance. The operation is long-running
+        /// and creates a new work request.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -421,7 +477,7 @@ namespace Oci.AnalyticsService
         }
 
         /// <summary>
-        /// Delete an Analytics instance&#39;s Private access channel with the given unique identifier key.
+        /// Delete a private access channel with a given unique identifier key, for an Analytics instance.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -478,7 +534,64 @@ namespace Oci.AnalyticsService
         }
 
         /// <summary>
-        /// Allows deleting a previously created vanity url.
+        /// Allows deleting a previously created resource group.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/DeleteResourceGroup.cs.html">here</a> to see an example of how to use DeleteResourceGroup API.</example>
+        public async Task<DeleteResourceGroupResponse> DeleteResourceGroup(DeleteResourceGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called deleteResourceGroup");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/analyticsInstances/{analyticsInstanceId}/resourceGroups/{analyticsInstanceResourceGroupId}".Trim('/')));
+            HttpMethod method = new HttpMethod("DELETE");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "Analytics",
+                    OperationName = "DeleteResourceGroup",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/analytics/20190331/AnalyticsInstance/DeleteResourceGroup",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<DeleteResourceGroupResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"DeleteResourceGroup failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Deletes a previously created vanity URL.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -535,7 +648,7 @@ namespace Oci.AnalyticsService
         }
 
         /// <summary>
-        /// Cancel a work request that has not started yet.
+        /// Cancel a work request that hasn&#39;t started yet.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -592,7 +705,7 @@ namespace Oci.AnalyticsService
         }
 
         /// <summary>
-        /// Info for a specific Analytics instance.
+        /// Information about a specific Analytics instance.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -649,7 +762,7 @@ namespace Oci.AnalyticsService
         }
 
         /// <summary>
-        /// Retrieve private access channel in the specified Analytics Instance.
+        /// Retrieve private access channel for the specified Analytics Instance.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -701,6 +814,63 @@ namespace Oci.AnalyticsService
             catch (Exception e)
             {
                 logger.Error($"GetPrivateAccessChannel failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Get details of a resource group for an instance
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/GetResourceGroup.cs.html">here</a> to see an example of how to use GetResourceGroup API.</example>
+        public async Task<GetResourceGroupResponse> GetResourceGroup(GetResourceGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called getResourceGroup");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/analyticsInstances/{analyticsInstanceId}/resourceGroups/{analyticsInstanceResourceGroupId}".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "Analytics",
+                    OperationName = "GetResourceGroup",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/analytics/20190331/AnalyticsInstance/GetResourceGroup",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<GetResourceGroupResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetResourceGroup failed with error: {e.Message}");
                 throw;
             }
         }
@@ -815,6 +985,63 @@ namespace Oci.AnalyticsService
             catch (Exception e)
             {
                 logger.Error($"ListAnalyticsInstances failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// List resource groups associated with an instance.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/ListResourceGroups.cs.html">here</a> to see an example of how to use ListResourceGroups API.</example>
+        public async Task<ListResourceGroupsResponse> ListResourceGroups(ListResourceGroupsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called listResourceGroups");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/analyticsInstances/{analyticsInstanceId}/resourceGroups".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "Analytics",
+                    OperationName = "ListResourceGroups",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/analytics/20190331/AnalyticsInstance/ListResourceGroups",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ListResourceGroupsResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListResourceGroups failed with error: {e.Message}");
                 throw;
             }
         }
@@ -992,7 +1219,7 @@ namespace Oci.AnalyticsService
 
         /// <summary>
         /// Scale an Analytics instance up or down. The operation is long-running
-        /// and creates a new WorkRequest.
+        /// and creates a new work request.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1106,7 +1333,7 @@ namespace Oci.AnalyticsService
         }
 
         /// <summary>
-        /// Encrypts the customer data of this Analytics instance using either a customer OCI Vault Key or Oracle managed default key.
+        /// Encrypts the customer data of this Analytics instance using either a customer OCI vault key or default Oracle-managed key.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1164,7 +1391,7 @@ namespace Oci.AnalyticsService
 
         /// <summary>
         /// Starts the specified Analytics instance. The operation is long-running
-        /// and creates a new WorkRequest.
+        /// and creates a new work request.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1222,7 +1449,7 @@ namespace Oci.AnalyticsService
 
         /// <summary>
         /// Stop the specified Analytics instance. The operation is long-running
-        /// and creates a new WorkRequest.
+        /// and creates a new work request.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1337,7 +1564,7 @@ namespace Oci.AnalyticsService
         }
 
         /// <summary>
-        /// Update the Private Access Channel with the given unique identifier key in the specified Analytics Instance.
+        /// Update the private access channel with the given unique identifier key in the specified Analytics instance.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -1394,7 +1621,64 @@ namespace Oci.AnalyticsService
         }
 
         /// <summary>
-        /// Allows uploading a new certificate for a vanity url, which will have to be done when the current certificate is expiring.
+        /// Update any fields in a resource group
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/analytics/UpdateResourceGroup.cs.html">here</a> to see an example of how to use UpdateResourceGroup API.</example>
+        public async Task<UpdateResourceGroupResponse> UpdateResourceGroup(UpdateResourceGroupRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called updateResourceGroup");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/analyticsInstances/{analyticsInstanceId}/resourceGroups/{analyticsInstanceResourceGroupId}".Trim('/')));
+            HttpMethod method = new HttpMethod("PUT");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "Analytics",
+                    OperationName = "UpdateResourceGroup",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/analytics/20190331/AnalyticsInstance/UpdateResourceGroup",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<UpdateResourceGroupResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"UpdateResourceGroup failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Uploads a new certificate for a vanity URL. Required before the current certificate expires.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>

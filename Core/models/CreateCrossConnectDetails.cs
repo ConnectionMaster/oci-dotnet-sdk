@@ -120,6 +120,27 @@ namespace Oci.CoreService.Models
         public CreateMacsecProperties MacsecProperties { get; set; }
         
         /// <value>
+        /// The flag to enable or disable the down timer for the interface.
+        /// </value>
+        [JsonProperty(PropertyName = "isInterfaceHoldTimerEnabled")]
+        public System.Nullable<bool> IsInterfaceHoldTimerEnabled { get; set; }
+        
+        /// <value>
+        /// The duration of the interface down timer in milliseconds between 0 and 3000 in multiples of 500.
+        /// </value>
+        [JsonProperty(PropertyName = "interfaceDownTimerValueInMilliseconds")]
+        public System.Nullable<int> InterfaceDownTimerValueInMilliseconds { get; set; }
+        
+        /// <value>
+        /// When true, restricts placement so cross-connects lands only on QoS-capable devices.
+        /// When false (default), placement may use any supported device. If no QoS-capable devices are available
+        /// in the selected location, the request fails.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isQosEnabled")]
+        public System.Nullable<bool> IsQosEnabled { get; set; }
+        
+        /// <value>
         /// The name of the FastConnect device where this cross-connect is installed.
         /// 
         /// </value>

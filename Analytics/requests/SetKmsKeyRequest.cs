@@ -20,7 +20,7 @@ namespace Oci.AnalyticsService.Requests
     {
         
         /// <value>
-        /// The OCID of the AnalyticsInstance.
+        /// The OCID of the Analytics instance.
         /// 
         /// </value>
         /// <remarks>
@@ -31,7 +31,7 @@ namespace Oci.AnalyticsService.Requests
         public string AnalyticsInstanceId { get; set; }
         
         /// <value>
-        /// Input payload to reset the OCI Vault encryption key.
+        /// Input payload to reset the OCI vault encryption key.
         /// 
         /// </value>
         /// <remarks>

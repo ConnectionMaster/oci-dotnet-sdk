@@ -246,6 +246,27 @@ namespace Oci.FilestorageService.Models
         [JsonProperty(PropertyName = "quotaEnforcementState")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<QuotaEnforcementStateEnum> QuotaEnforcementState { get; set; }
+                ///
+        /// <value>
+        /// Displays the compartment-level quota enforcement state affecting this file system.
+        /// </value>
+        ///
+        public enum CompartmentQuotaEnforcementStateEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "NOT_BLOCKED")]
+            NotBlocked,
+            [EnumMember(Value = "BLOCKED")]
+            Blocked
+        };
+
+        /// <value>
+        /// Displays the compartment-level quota enforcement state affecting this file system.
+        /// </value>
+        [JsonProperty(PropertyName = "compartmentQuotaEnforcementState")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<CompartmentQuotaEnforcementStateEnum> CompartmentQuotaEnforcementState { get; set; }
         
     }
 }

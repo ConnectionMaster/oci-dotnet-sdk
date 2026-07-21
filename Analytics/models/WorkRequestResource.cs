@@ -20,7 +20,7 @@ namespace Oci.AnalyticsService.Models
     {
         
         /// <value>
-        /// The way in which this resource was affected by this work request.
+        /// The way this resource was affected by this work request.
         /// 
         /// </value>
         /// <remarks>

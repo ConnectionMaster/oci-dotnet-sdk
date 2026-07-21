@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.AnalyticsService.Models
 {
     /// <summary>
-    /// Input payload to create a vanity url.
+    /// Input payload to create a vanity URL.
     /// 
     /// </summary>
     public class CreateVanityUrlDetails 
@@ -30,7 +30,7 @@ namespace Oci.AnalyticsService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// List of fully qualified hostnames supported by this vanity URL definition (max of 3).
+        /// List of fully-qualified hostnames supported by this vanity URL definition (maximum of 3).
         /// 
         /// </value>
         /// <remarks>
@@ -41,14 +41,14 @@ namespace Oci.AnalyticsService.Models
         public System.Collections.Generic.List<string> Hosts { get; set; }
         
         /// <value>
-        /// Passphrase for the PEM Private key (if any).
+        /// Passphrase for the PEM private key (if any).
         /// 
         /// </value>
         [JsonProperty(PropertyName = "passphrase")]
         public string Passphrase { get; set; }
         
         /// <value>
-        /// PEM Private key for HTTPS connections.
+        /// PEM private key for HTTPS connections.
         /// 
         /// </value>
         /// <remarks>
@@ -70,7 +70,7 @@ namespace Oci.AnalyticsService.Models
         public string PublicCertificate { get; set; }
         
         /// <value>
-        /// PEM CA certificate(s) for HTTPS connections. This may include multiple PEM certificates.
+        /// PEM CA certificates for HTTPS connections. This may include multiple PEM certificates.
         /// 
         /// </value>
         /// <remarks>

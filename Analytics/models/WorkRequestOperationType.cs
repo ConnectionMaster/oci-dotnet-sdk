@@ -47,6 +47,14 @@ namespace Oci.AnalyticsService.Models
       [EnumMember(Value = "DELETE_PRIVATE_ACCESS_CHANNEL")]
       DeletePrivateAccessChannel,
       [EnumMember(Value = "UPDATE_INSTANCE_ENCRYPTION_KEY")]
-      UpdateInstanceEncryptionKey
+      UpdateInstanceEncryptionKey,
+      [EnumMember(Value = "CREATE_RESOURCE_GROUP")]
+      CreateResourceGroup,
+      [EnumMember(Value = "UPDATE_RESOURCE_GROUP")]
+      UpdateResourceGroup,
+      [EnumMember(Value = "DELETE_RESOURCE_GROUP")]
+      DeleteResourceGroup,
+      [EnumMember(Value = "SET_FEATURE_SET")]
+      SetFeatureSet
   }
 }

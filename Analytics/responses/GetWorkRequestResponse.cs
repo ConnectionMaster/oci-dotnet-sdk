@@ -33,7 +33,7 @@ namespace Oci.AnalyticsService.Responses
 
 
         /// <value>
-        /// The number of seconds a client should wait before polling this endpoint again.
+        /// The number of seconds a client waits before polling this endpoint again.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "retry-after")]

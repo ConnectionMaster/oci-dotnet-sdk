@@ -47,6 +47,12 @@ namespace Oci.AnalyticsService.Models
       [EnumMember(Value = "PRIVATE_ACCESS_CHANNEL_DELETED")]
       PrivateAccessChannelDeleted,
       [EnumMember(Value = "NONE")]
-      None
+      None,
+      [EnumMember(Value = "RESOURCE_GROUP_CREATED")]
+      ResourceGroupCreated,
+      [EnumMember(Value = "RESOURCE_GROUP_UPDATED")]
+      ResourceGroupUpdated,
+      [EnumMember(Value = "RESOURCE_GROUP_DELETED")]
+      ResourceGroupDeleted
   }
 }

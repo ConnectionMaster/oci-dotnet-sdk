@@ -83,5 +83,14 @@ namespace Oci.CoreService.Models
         [JsonProperty(PropertyName = "timeIssued")]
         public System.Nullable<System.DateTime> TimeIssued { get; set; }
         
+        /// <value>
+        /// Name of a customer authorized agent which will be appended to the LOA as 'Authorized Agent'.
+        /// </value>
+        [JsonProperty(PropertyName = "authorizedAgent")]
+        public string AuthorizedAgent { get; set; }
+        
+        [JsonProperty(PropertyName = "extensionDetails")]
+        public LoaExtensionData ExtensionDetails { get; set; }
+        
     }
 }

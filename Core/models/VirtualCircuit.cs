@@ -449,6 +449,31 @@ namespace Oci.CoreService.Models
         [JsonProperty(PropertyName = "ipMtu")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<VirtualCircuitIpMtu> IpMtu { get; set; }
+                ///
+        /// <value>
+        /// The current traffic mode for the Virtual Circuit. This indicates whether the traffic is drained for the
+        /// associated Virtual Circuit or not.
+        /// 
+        /// </value>
+        ///
+        public enum TrafficModeEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "NORMAL")]
+            Normal,
+            [EnumMember(Value = "DRAIN")]
+            Drain
+        };
+
+        /// <value>
+        /// The current traffic mode for the Virtual Circuit. This indicates whether the traffic is drained for the
+        /// associated Virtual Circuit or not.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "trafficMode")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<TrafficModeEnum> TrafficMode { get; set; }
         
         [JsonProperty(PropertyName = "virtualCircuitRedundancyMetadata")]
         public VirtualCircuitRedundancyMetadata VirtualCircuitRedundancyMetadata { get; set; }

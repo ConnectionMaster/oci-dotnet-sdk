@@ -140,5 +140,32 @@ namespace Oci.CoreService.Models
         [JsonProperty(PropertyName = "ociLogicalDeviceName")]
         public string OciLogicalDeviceName { get; set; }
         
+        /// <value>
+        /// Minimum number of active cross-connects required for the cross-connect group to be considered operational.
+        /// If the number of active cross-connects falls below this value, the group is not considered operational.
+        /// If this value was not explicitly set when the group was created or updated, it defaults to 1.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "minimumLinks")]
+        public System.Nullable<int> MinimumLinks { get; set; }
+        
+        /// <value>
+        /// The flag to enable or disable the down timer for the interface.
+        /// </value>
+        [JsonProperty(PropertyName = "isInterfaceHoldTimerEnabled")]
+        public System.Nullable<bool> IsInterfaceHoldTimerEnabled { get; set; }
+        
+        /// <value>
+        /// The duration of the interface down timer in milliseconds between 0 and 3000 in multiples of 500.
+        /// </value>
+        [JsonProperty(PropertyName = "interfaceDownTimerValueInMilliseconds")]
+        public System.Nullable<int> InterfaceDownTimerValueInMilliseconds { get; set; }
+        
+        /// <value>
+        /// The flag to enable or disable the Qos for the cross-connect-group.
+        /// </value>
+        [JsonProperty(PropertyName = "isQosEnabled")]
+        public System.Nullable<bool> IsQosEnabled { get; set; }
+        
     }
 }

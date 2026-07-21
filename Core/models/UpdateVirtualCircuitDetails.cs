@@ -148,6 +148,28 @@ namespace Oci.CoreService.Models
         /// </value>
         [JsonProperty(PropertyName = "freeformTags")]
         public System.Collections.Generic.Dictionary<string, string> FreeformTags { get; set; }
+                ///
+        /// <value>
+        /// The traffic mode to be set with this Virtual Circuit. This controls whether the traffic is to be drained
+        /// for the associated Virtual Circuit or not.
+        /// 
+        /// </value>
+        ///
+        public enum TrafficModeEnum {
+            [EnumMember(Value = "NORMAL")]
+            Normal,
+            [EnumMember(Value = "DRAIN")]
+            Drain
+        };
+
+        /// <value>
+        /// The traffic mode to be set with this Virtual Circuit. This controls whether the traffic is to be drained
+        /// for the associated Virtual Circuit or not.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "trafficMode")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<TrafficModeEnum> TrafficMode { get; set; }
         
         /// <value>
         /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the {@link Drg}

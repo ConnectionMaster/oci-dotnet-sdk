@@ -13,7 +13,7 @@ using System.Runtime.Serialization;
 namespace Oci.AnalyticsService.Models
 {
   /// <summary>
-  /// The current state of an instance.
+  /// The current state of an Analytics instance.
     /// 
   /// </summary>
   public enum AnalyticsInstanceLifecycleState {

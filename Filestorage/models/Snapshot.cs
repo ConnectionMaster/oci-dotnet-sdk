@@ -218,5 +218,12 @@ namespace Oci.FilestorageService.Models
         [JsonProperty(PropertyName = "filesystemSnapshotPolicyId")]
         public string FilesystemSnapshotPolicyId { get; set; }
         
+        /// <value>
+        /// Bytes referenced only by this snapshot; deducted from compartment usage immediately upon deletion.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "exclusiveBytes")]
+        public System.Nullable<long> ExclusiveBytes { get; set; }
+        
     }
 }

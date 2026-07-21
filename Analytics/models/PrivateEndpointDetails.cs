@@ -45,7 +45,7 @@ namespace Oci.AnalyticsService.Models
         public string SubnetId { get; set; }
         
         /// <value>
-        /// Network Security Group OCIDs for an Analytics instance.
+        /// Network Security Group OCIDs for the Analytics instance.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "networkSecurityGroupIds")]

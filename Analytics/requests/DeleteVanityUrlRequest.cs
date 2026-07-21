@@ -20,7 +20,7 @@ namespace Oci.AnalyticsService.Requests
     {
         
         /// <value>
-        /// The OCID of the AnalyticsInstance.
+        /// The OCID of the Analytics instance.
         /// 
         /// </value>
         /// <remarks>
@@ -31,7 +31,7 @@ namespace Oci.AnalyticsService.Requests
         public string AnalyticsInstanceId { get; set; }
         
         /// <value>
-        /// Specify unique identifier key of a vanity url to update or delete.
+        /// Specify unique identifier key of a vanity URL to update or delete.
         /// 
         /// </value>
         /// <remarks>
