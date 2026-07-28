@@ -24,7 +24,7 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// Access key ID to access the Amazon S3 bucket.
-        /// e.g.: \"this-is-not-the-secret\"
+        /// Note: Despite the \"Id\" suffix, this value is not an OCI OCID.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "accessKeyId")]
@@ -32,8 +32,10 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// Secret access key to access the Amazon S3 bucket.
-        /// e.g.: \"this-is-not-the-secret\"
-        /// Deprecated: This field is deprecated and replaced by \"secretAccessKeySecretId\". This field will be removed after February 15 2026.
+        /// <br/>
+        /// Deprecated: This field is deprecated and replaced by \"secretAccessKeySecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "secretAccessKey")]

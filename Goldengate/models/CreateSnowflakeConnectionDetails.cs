@@ -71,7 +71,9 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// The password Oracle GoldenGate uses to connect to Snowflake platform.
-        /// Deprecated: This field is deprecated and replaced by \"passwordSecretId\". This field will be removed after February 15 2026.
+        /// Deprecated: This field is deprecated and replaced by \"passwordSecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "password")]
@@ -90,7 +92,9 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// The base64 encoded content of private key file in PEM format.
-        /// Deprecated: This field is deprecated and replaced by \"privateKeyFileSecretId\". This field will be removed after February 15 2026.
+        /// Deprecated: This field is deprecated and replaced by \"privateKeyFileSecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "privateKeyFile")]
@@ -107,7 +111,9 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// Password if the private key file is encrypted.
-        /// Deprecated: This field is deprecated and replaced by \"privateKeyPassphraseSecretId\". This field will be removed after February 15 2026.
+        /// Deprecated: This field is deprecated and replaced by \"privateKeyPassphraseSecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "privateKeyPassphrase")]

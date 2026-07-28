@@ -80,7 +80,9 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// The password Oracle GoldenGate uses to connect the associated DB2 database.
-        /// Deprecated: This field is deprecated and replaced by \"passwordSecretId\". This field will be removed after February 15 2026.
+        /// Deprecated: This field is deprecated and replaced by \"passwordSecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "password")]
@@ -118,7 +120,9 @@ namespace Oci.GoldengateService.Models
         /// The base64 encoded keystore file created at the client containing the server certificate / CA root certificate.
         /// This property is not supported for IBM Db2 for i, as client TLS mode is not available.
         /// <br/>
-        /// Deprecated: This field is deprecated and replaced by \"sslClientKeystoredbSecretId\". This field will be removed after February 15 2026.
+        /// Deprecated: This field is deprecated and replaced by \"sslClientKeystoredbSecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "sslClientKeystoredb")]
@@ -139,7 +143,9 @@ namespace Oci.GoldengateService.Models
         /// The base64 encoded keystash file which contains the encrypted password to the key database file.
         /// This property is not supported for IBM Db2 for i, as client TLS mode is not available.
         /// <br/>
-        /// Deprecated: This field is deprecated and replaced by \"sslClientKeystashSecretId\". This field will be removed after February 15 2026.
+        /// Deprecated: This field is deprecated and replaced by \"sslClientKeystashSecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "sslClientKeystash")]

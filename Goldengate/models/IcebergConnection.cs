@@ -23,7 +23,8 @@ namespace Oci.GoldengateService.Models
     {
                 ///
         /// <value>
-        /// The Iceberg technology type.
+        /// The Iceberg technology type.              
+        /// 
         /// </value>
         ///
         public enum TechnologyTypeEnum {
@@ -35,7 +36,8 @@ namespace Oci.GoldengateService.Models
         };
 
         /// <value>
-        /// The Iceberg technology type.
+        /// The Iceberg technology type.              
+        /// 
         /// </value>
         /// <remarks>
         /// Required

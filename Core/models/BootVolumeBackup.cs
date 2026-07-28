@@ -239,5 +239,38 @@ namespace Oci.CoreService.Models
         [JsonProperty(PropertyName = "uniqueSizeInGBs")]
         public System.Nullable<long> UniqueSizeInGBs { get; set; }
         
+        /// <value>
+        /// The date and time when a backup\u2019s retention period ends and it is set to expire. This is an optional field. If it is not specified, it is set to null, no retention period will be applied to the backups.
+        /// </value>
+        [JsonProperty(PropertyName = "timeRetentionExpiresAt")]
+        public System.Nullable<System.DateTime> TimeRetentionExpiresAt { get; set; }
+        
+        [JsonProperty(PropertyName = "retentionPeriod")]
+        public RetentionDuration RetentionPeriod { get; set; }
+        
+        /// <value>
+        /// Prevent backups from being deleted during the configured retention period. This is an optional field. If it is not specified, it is set to null, prevent deletion will not be applied to the backups.
+        /// </value>
+        [JsonProperty(PropertyName = "isPreventDeletionEnabled")]
+        public System.Nullable<bool> IsPreventDeletionEnabled { get; set; }
+        
+        /// <value>
+        /// feature that prevents deletion or alteration of backup data for a specified period to ensure data protection and regulatory compliance. This is an optional field. If it is not specified, it is set to null, no retention lock will be applied to the backups. This feature should be used in conjunction with the retention-period field.
+        /// </value>
+        [JsonProperty(PropertyName = "isRetentionLockEnabled")]
+        public System.Nullable<bool> IsRetentionLockEnabled { get; set; }
+        
+        /// <value>
+        /// feature that preserves backup data from modification or deletion to ensure it remains available for legal or regulatory investigations or litigation, regardless of standard retention policies. This is an optional field. If it is not specified, it is set to null, no legal hold will be applied to the backups.
+        /// </value>
+        [JsonProperty(PropertyName = "isIndefiniteRetentionEnabled")]
+        public System.Nullable<bool> IsIndefiniteRetentionEnabled { get; set; }
+        
+        /// <value>
+        /// The OCID of the volume group backup associated with the backup. This is an optional field. If it is not present in the response, the backup does not belong to a volume group.
+        /// </value>
+        [JsonProperty(PropertyName = "volumeGroupBackupId")]
+        public string VolumeGroupBackupId { get; set; }
+        
     }
 }

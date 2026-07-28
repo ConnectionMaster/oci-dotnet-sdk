@@ -29,6 +29,30 @@ namespace Oci.DatabaseService.Models
         public string UpdateId { get; set; }
                 ///
         /// <value>
+        /// The update mode to perform for OS Update.
+        /// </value>
+        ///
+        public enum UpdateModeEnum {
+            [EnumMember(Value = "ONLINE_HIGHCVSS")]
+            OnlineHighcvss,
+            [EnumMember(Value = "ONLINE_ALLCVSS")]
+            OnlineAllcvss,
+            [EnumMember(Value = "ONLINE_ALL_UPDATES")]
+            OnlineAllUpdates,
+            [EnumMember(Value = "PENDING_UPDATES")]
+            PendingUpdates,
+            [EnumMember(Value = "FULL_UPDATE")]
+            FullUpdate
+        };
+
+        /// <value>
+        /// The update mode to perform for OS Update.
+        /// </value>
+        [JsonProperty(PropertyName = "updateMode")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<UpdateModeEnum> UpdateMode { get; set; }
+                ///
+        /// <value>
         /// The update action to perform.
         /// </value>
         ///

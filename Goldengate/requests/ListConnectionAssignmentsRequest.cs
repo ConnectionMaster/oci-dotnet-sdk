@@ -48,6 +48,20 @@ namespace Oci.GoldengateService.Requests
         public string ConnectionId { get; set; }
         
         /// <value>
+        /// The array of connection types.
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "connectionType", Oci.Common.Http.CollectionFormatType.Multi)]
+        public System.Collections.Generic.List<ConnectionType> ConnectionType { get; set; }
+        
+        /// <value>
+        /// The array of connection types to exclude.
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "connectionTypeNotEqualTo", Oci.Common.Http.CollectionFormatType.Multi)]
+        public System.Collections.Generic.List<ConnectionType> ConnectionTypeNotEqualTo { get; set; }
+        
+        /// <value>
         /// The name of the connection in the assignment (aliasName).
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "name")]

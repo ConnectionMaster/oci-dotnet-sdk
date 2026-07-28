@@ -34,6 +34,12 @@ namespace Oci.ApiaccesscontrolService.Models
         public string ApprovalAction { get; set; }
         
         /// <value>
+        /// The group level at which the approver approved.
+        /// </value>
+        [JsonProperty(PropertyName = "approverGroupLevel")]
+        public System.Nullable<int> ApproverGroupLevel { get; set; }
+        
+        /// <value>
         /// Comment specified by the approver of the request.
         /// </value>
         [JsonProperty(PropertyName = "approvalComment")]

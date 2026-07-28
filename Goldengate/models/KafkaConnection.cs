@@ -37,6 +37,8 @@ namespace Oci.GoldengateService.Models
             AzureEventHubs,
             [EnumMember(Value = "CONFLUENT_KAFKA")]
             ConfluentKafka,
+            [EnumMember(Value = "GOOGLE_CLOUD_MANAGED_SERVICE_FOR_APACHE_KAFKA")]
+            GoogleCloudManagedServiceForApacheKafka,
             [EnumMember(Value = "MICROSOFT_FABRIC_EVENTSTREAM")]
             MicrosoftFabricEventstream,
             [EnumMember(Value = "OCI_STREAMING")]

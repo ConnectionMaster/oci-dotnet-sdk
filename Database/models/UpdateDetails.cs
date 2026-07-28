@@ -49,6 +49,30 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "updateAction")]
         [JsonConverter(typeof(StringEnumConverter))]
         public System.Nullable<UpdateActionEnum> UpdateAction { get; set; }
+                ///
+        /// <value>
+        /// The update mode to perform for OS Update.
+        /// </value>
+        ///
+        public enum UpdateModeEnum {
+            [EnumMember(Value = "ONLINE_HIGHCVSS")]
+            OnlineHighcvss,
+            [EnumMember(Value = "ONLINE_ALLCVSS")]
+            OnlineAllcvss,
+            [EnumMember(Value = "ONLINE_ALL_UPDATES")]
+            OnlineAllUpdates,
+            [EnumMember(Value = "PENDING_UPDATES")]
+            PendingUpdates,
+            [EnumMember(Value = "FULL_UPDATE")]
+            FullUpdate
+        };
+
+        /// <value>
+        /// The update mode to perform for OS Update.
+        /// </value>
+        [JsonProperty(PropertyName = "updateMode")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<UpdateModeEnum> UpdateMode { get; set; }
         
         /// <value>
         /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of a grid infrastructure software image. This is a database software image of the type `GRID_IMAGE`.
