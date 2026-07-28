@@ -25,6 +25,10 @@ namespace Oci.GoldengateService.Models
       [EnumMember(Value = "GOOGLE_CLOUD_STORAGE")]
       GoogleCloudStorage,
       [EnumMember(Value = "AZURE_DATA_LAKE_STORAGE")]
-      AzureDataLakeStorage
+      AzureDataLakeStorage,
+      [EnumMember(Value = "NONE")]
+      None,
+      [EnumMember(Value = "OCI_OBJECT_STORAGE_S3_API")]
+      OciObjectStorageS3Api
   }
 }

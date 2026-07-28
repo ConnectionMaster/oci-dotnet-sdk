@@ -50,8 +50,14 @@ namespace Oci.GoldengateService.Models
                 case "GOOGLE_CLOUD_STORAGE":
                     obj = new GoogleCloudStorageIcebergStorageSummary();
                     break;
+                case "OCI_OBJECT_STORAGE_S3_API":
+                    obj = new OciObjectStorageS3ApiIcebergStorageSummary();
+                    break;
                 case "AZURE_DATA_LAKE_STORAGE":
                     obj = new AzureDataLakeStorageIcebergStorageSummary();
+                    break;
+                case "NONE":
+                    obj = new NoIcebergStorageSummary();
                     break;
                 case "AMAZON_S3":
                     obj = new AmazonS3IcebergStorageSummary();

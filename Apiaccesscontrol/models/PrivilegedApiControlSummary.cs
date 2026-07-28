@@ -76,7 +76,6 @@ namespace Oci.ApiaccesscontrolService.Models
         
         /// <value>
         /// The date and time the PrivilegedApiControl was updated, in the format defined by [RFC 3339](https://tools.ietf.org/html/rfc3339).
-        /// <br/>
         /// Example: 2016-08-25T21:10:29.600Z
         /// </value>
         [JsonProperty(PropertyName = "timeUpdated")]

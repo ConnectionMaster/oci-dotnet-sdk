@@ -75,6 +75,12 @@ namespace Oci.ApiaccesscontrolService.Models
         public System.Collections.Generic.List<string> ApproverGroupIdList { get; set; }
         
         /// <value>
+        /// List of Group containing the levels at which the users belonging to the group can authorize.
+        /// </value>
+        [JsonProperty(PropertyName = "approverGroupLevelList")]
+        public System.Collections.Generic.List<ApproverGroupLevel> ApproverGroupLevelList { get; set; }
+        
+        /// <value>
         /// resourceType for which the PrivilegedApiControl is applicable
         /// </value>
         [JsonProperty(PropertyName = "resourceType")]
@@ -101,7 +107,6 @@ namespace Oci.ApiaccesscontrolService.Models
         
         /// <value>
         /// The date and time the PrivilegedApiControl was created, in the format defined by [RFC 3339](https://tools.ietf.org/html/rfc3339).
-        /// <br/>
         /// Example: 2016-08-25T21:10:29.600Z
         /// </value>
         /// <remarks>

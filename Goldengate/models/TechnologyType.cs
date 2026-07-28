@@ -44,14 +44,20 @@ namespace Oci.GoldengateService.Models
       OracleDatabase,
       [EnumMember(Value = "ORACLE_EXADATA")]
       OracleExadata,
+      [EnumMember(Value = "ORACLE_EXADATA_EXASCALE")]
+      OracleExadataExascale,
       [EnumMember(Value = "ORACLE_EXADATA_DATABASE_AT_AZURE")]
       OracleExadataDatabaseAtAzure,
+      [EnumMember(Value = "ORACLE_EXADATA_EXASCALE_AT_AZURE")]
+      OracleExadataExascaleAtAzure,
       [EnumMember(Value = "ORACLE_AUTONOMOUS_DATABASE_AT_AZURE")]
       OracleAutonomousDatabaseAtAzure,
       [EnumMember(Value = "ORACLE_JSON_COLLECTION")]
       OracleJsonCollection,
       [EnumMember(Value = "ORACLE_EXADATA_DATABASE_AT_GOOGLE_CLOUD")]
       OracleExadataDatabaseAtGoogleCloud,
+      [EnumMember(Value = "ORACLE_EXADATA_EXASCALE_AT_GOOGLE_CLOUD")]
+      OracleExadataExascaleAtGoogleCloud,
       [EnumMember(Value = "ORACLE_AUTONOMOUS_DATABASE_AT_GOOGLE_CLOUD")]
       OracleAutonomousDatabaseAtGoogleCloud,
       [EnumMember(Value = "ORACLE_EXADATA_DATABASE_AT_AWS")]
@@ -128,6 +134,8 @@ namespace Oci.GoldengateService.Models
       GoogleAlloyDbForPostgresql,
       [EnumMember(Value = "GOOGLE_BIGQUERY")]
       GoogleBigquery,
+      [EnumMember(Value = "GOOGLE_CLOUD_MANAGED_SERVICE_FOR_APACHE_KAFKA")]
+      GoogleCloudManagedServiceForApacheKafka,
       [EnumMember(Value = "GOOGLE_CLOUD_STORAGE")]
       GoogleCloudStorage,
       [EnumMember(Value = "GOOGLE_CLOUD_SQL_MYSQL")]
@@ -169,6 +177,8 @@ namespace Oci.GoldengateService.Models
       [EnumMember(Value = "SNOWFLAKE")]
       Snowflake,
       [EnumMember(Value = "YUGABYTE_DB")]
-      YugabyteDb
+      YugabyteDb,
+      [EnumMember(Value = "AI_MODEL")]
+      AiModel
   }
 }

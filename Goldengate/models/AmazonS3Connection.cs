@@ -47,7 +47,7 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// Access key ID to access the Amazon S3 bucket.
-        /// e.g.: \"this-is-not-the-secret\"
+        /// Note: Despite the \"Id\" suffix, this value is not an OCI OCID.
         /// 
         /// </value>
         /// <remarks>

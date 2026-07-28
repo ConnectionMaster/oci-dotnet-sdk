@@ -65,6 +65,37 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<UpdateActionEnum> UpdateAction { get; set; }
                 ///
         /// <value>
+        /// The OS update mode performed using this maintenance update.
+        /// </value>
+        ///
+        public enum UpdateModeEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "ONLINE_HIGHCVSS")]
+            OnlineHighcvss,
+            [EnumMember(Value = "ONLINE_ALLCVSS")]
+            OnlineAllcvss,
+            [EnumMember(Value = "ONLINE_ALL_UPDATES")]
+            OnlineAllUpdates,
+            [EnumMember(Value = "PENDING_UPDATES_HIGHCVSS")]
+            PendingUpdatesHighcvss,
+            [EnumMember(Value = "PENDING_UPDATES_ALLCVSS")]
+            PendingUpdatesAllcvss,
+            [EnumMember(Value = "PENDING_ALL_UPDATES")]
+            PendingAllUpdates,
+            [EnumMember(Value = "FULL_UPDATE")]
+            FullUpdate
+        };
+
+        /// <value>
+        /// The OS update mode performed using this maintenance update.
+        /// </value>
+        [JsonProperty(PropertyName = "updateMode")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<UpdateModeEnum> UpdateMode { get; set; }
+                ///
+        /// <value>
         /// The type of cloud VM cluster maintenance update.
         /// </value>
         ///

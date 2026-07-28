@@ -46,7 +46,7 @@ namespace Oci.ApiaccesscontrolService.Models
         public System.Collections.Generic.List<string> Resources { get; set; }
         
         /// <value>
-        /// The OCID of the OCI Notification topic to publish messages related to this Delegation Control.
+        /// The OCID of the OCI Notification topic to publish messages related to this Privileged Api Control.
         /// </value>
         [JsonProperty(PropertyName = "notificationTopicId")]
         public string NotificationTopicId { get; set; }
@@ -56,6 +56,12 @@ namespace Oci.ApiaccesscontrolService.Models
         /// </value>
         [JsonProperty(PropertyName = "approverGroupIdList")]
         public System.Collections.Generic.List<string> ApproverGroupIdList { get; set; }
+        
+        /// <value>
+        /// List of Group containing the levels at which the users belonging to the group can authorize.
+        /// </value>
+        [JsonProperty(PropertyName = "approverGroupLevelList")]
+        public System.Collections.Generic.List<ApproverGroupLevel> ApproverGroupLevelList { get; set; }
         
         /// <value>
         /// List of privileged operator operations. If Privileged API Managment is enabled for a resource it will be validated whether the operation done by the operator is a part of privileged operation.

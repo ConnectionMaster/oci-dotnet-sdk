@@ -71,10 +71,16 @@ namespace Oci.ApiaccesscontrolService.Models
         public string ApiName { get; set; }
         
         /// <value>
-        /// List of the fields that is use while calling post or put for the data.
+        /// deprecated; Use attributes field instead.
         /// </value>
         [JsonProperty(PropertyName = "fields")]
         public System.Collections.Generic.List<string> Fields { get; set; }
+        
+        /// <value>
+        /// List of the fields that is use while calling post or put for the data.
+        /// </value>
+        [JsonProperty(PropertyName = "attributes")]
+        public System.Collections.Generic.List<string> Attributes { get; set; }
         
         /// <value>
         /// The date and time the PrivilegedApiControl was created, in the format defined by [RFC 3339](https://tools.ietf.org/html/rfc3339).

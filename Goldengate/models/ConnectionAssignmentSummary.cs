@@ -57,6 +57,18 @@ namespace Oci.GoldengateService.Models
         public string ConnectionId { get; set; }
         
         /// <value>
+        /// The connection type.
+        /// 
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "ConnectionType is required.")]
+        [JsonProperty(PropertyName = "connectionType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<ConnectionType> ConnectionType { get; set; }
+        
+        /// <value>
         /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the deployment being referenced.
         /// 
         /// </value>
@@ -86,7 +98,7 @@ namespace Oci.GoldengateService.Models
         /// </remarks>
         [Required(ErrorMessage = "LifecycleState is required.")]
         [JsonProperty(PropertyName = "lifecycleState")]
-        [JsonConverter(typeof(StringEnumConverter))]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<ConnectionAssignment.LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>

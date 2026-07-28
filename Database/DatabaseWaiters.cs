@@ -682,6 +682,42 @@ namespace Oci.DatabaseService
         /// <param name="request">Request to send.</param>
         /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<ChangeBaseccVmClusterCompartmentRequest, ChangeBaseccVmClusterCompartmentResponse> ForChangeBaseccVmClusterCompartment(ChangeBaseccVmClusterCompartmentRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return this.ForChangeBaseccVmClusterCompartment(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<ChangeBaseccVmClusterCompartmentRequest, ChangeBaseccVmClusterCompartmentResponse> ForChangeBaseccVmClusterCompartment(ChangeBaseccVmClusterCompartmentRequest request, WaiterConfiguration config, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return new Waiter<ChangeBaseccVmClusterCompartmentRequest, ChangeBaseccVmClusterCompartmentResponse>(() =>
+            {
+                var response = client.ChangeBaseccVmClusterCompartment(request).Result;
+                if (response.OpcWorkRequestId == null)
+                {
+                    return response;
+                }
+                var getWorkRequestRequest = new Oci.WorkrequestsService.Requests.GetWorkRequestRequest
+                {
+                    WorkRequestId = response.OpcWorkRequestId
+                };
+                workRequestClient.Waiters.ForWorkRequest(getWorkRequestRequest, config, targetStates).Execute();
+                return response;
+            });
+        }
+        
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<ChangeCloudAutonomousVmClusterCompartmentRequest, ChangeCloudAutonomousVmClusterCompartmentResponse> ForChangeCloudAutonomousVmClusterCompartment(ChangeCloudAutonomousVmClusterCompartmentRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
         {
             return this.ForChangeCloudAutonomousVmClusterCompartment(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
@@ -2374,6 +2410,42 @@ namespace Oci.DatabaseService
         /// <param name="request">Request to send.</param>
         /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<CreateBaseccVmClusterRequest, CreateBaseccVmClusterResponse> ForCreateBaseccVmCluster(CreateBaseccVmClusterRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return this.ForCreateBaseccVmCluster(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<CreateBaseccVmClusterRequest, CreateBaseccVmClusterResponse> ForCreateBaseccVmCluster(CreateBaseccVmClusterRequest request, WaiterConfiguration config, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return new Waiter<CreateBaseccVmClusterRequest, CreateBaseccVmClusterResponse>(() =>
+            {
+                var response = client.CreateBaseccVmCluster(request).Result;
+                if (response.OpcWorkRequestId == null)
+                {
+                    return response;
+                }
+                var getWorkRequestRequest = new Oci.WorkrequestsService.Requests.GetWorkRequestRequest
+                {
+                    WorkRequestId = response.OpcWorkRequestId
+                };
+                workRequestClient.Waiters.ForWorkRequest(getWorkRequestRequest, config, targetStates).Execute();
+                return response;
+            });
+        }
+        
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<CreateCloudAutonomousVmClusterRequest, CreateCloudAutonomousVmClusterResponse> ForCreateCloudAutonomousVmCluster(CreateCloudAutonomousVmClusterRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
         {
             return this.ForCreateCloudAutonomousVmCluster(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
@@ -3651,6 +3723,42 @@ namespace Oci.DatabaseService
             return new Waiter<DeleteBackupRequest, DeleteBackupResponse>(() =>
             {
                 var response = client.DeleteBackup(request).Result;
+                if (response.OpcWorkRequestId == null)
+                {
+                    return response;
+                }
+                var getWorkRequestRequest = new Oci.WorkrequestsService.Requests.GetWorkRequestRequest
+                {
+                    WorkRequestId = response.OpcWorkRequestId
+                };
+                workRequestClient.Waiters.ForWorkRequest(getWorkRequestRequest, config, targetStates).Execute();
+                return response;
+            });
+        }
+        
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<DeleteBaseccVmClusterRequest, DeleteBaseccVmClusterResponse> ForDeleteBaseccVmCluster(DeleteBaseccVmClusterRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return this.ForDeleteBaseccVmCluster(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<DeleteBaseccVmClusterRequest, DeleteBaseccVmClusterResponse> ForDeleteBaseccVmCluster(DeleteBaseccVmClusterRequest request, WaiterConfiguration config, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return new Waiter<DeleteBaseccVmClusterRequest, DeleteBaseccVmClusterResponse>(() =>
+            {
+                var response = client.DeleteBaseccVmCluster(request).Result;
                 if (response.OpcWorkRequestId == null)
                 {
                     return response;
@@ -6104,6 +6212,88 @@ namespace Oci.DatabaseService
         /// <param name="request">Request to send.</param>
         /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetBaseccVmClusterRequest, GetBaseccVmClusterResponse> ForBaseccVmCluster(GetBaseccVmClusterRequest request, params BaseccVmCluster.LifecycleStateEnum[] targetStates)
+        {
+            return this.ForBaseccVmCluster(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetBaseccVmClusterRequest, GetBaseccVmClusterResponse> ForBaseccVmCluster(GetBaseccVmClusterRequest request, WaiterConfiguration config, params BaseccVmCluster.LifecycleStateEnum[] targetStates)
+        {
+            var agent = new WaiterAgent<GetBaseccVmClusterRequest, GetBaseccVmClusterResponse>(
+                request,
+                request => client.GetBaseccVmCluster(request),
+                response => targetStates.Contains(response.BaseccVmCluster.LifecycleState.Value),
+                targetStates.Contains(BaseccVmCluster.LifecycleStateEnum.Terminated)
+            );
+            return new Waiter<GetBaseccVmClusterRequest, GetBaseccVmClusterResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetBaseccVmClusterUpdateRequest, GetBaseccVmClusterUpdateResponse> ForBaseccVmClusterUpdate(GetBaseccVmClusterUpdateRequest request, params BaseccVmClusterUpdate.LifecycleStateEnum[] targetStates)
+        {
+            return this.ForBaseccVmClusterUpdate(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetBaseccVmClusterUpdateRequest, GetBaseccVmClusterUpdateResponse> ForBaseccVmClusterUpdate(GetBaseccVmClusterUpdateRequest request, WaiterConfiguration config, params BaseccVmClusterUpdate.LifecycleStateEnum[] targetStates)
+        {
+            var agent = new WaiterAgent<GetBaseccVmClusterUpdateRequest, GetBaseccVmClusterUpdateResponse>(
+                request,
+                request => client.GetBaseccVmClusterUpdate(request),
+                response => targetStates.Contains(response.BaseccVmClusterUpdate.LifecycleState.Value)
+            );
+            return new Waiter<GetBaseccVmClusterUpdateRequest, GetBaseccVmClusterUpdateResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetBaseccVmClusterUpdateHistoryEntryRequest, GetBaseccVmClusterUpdateHistoryEntryResponse> ForBaseccVmClusterUpdateHistoryEntry(GetBaseccVmClusterUpdateHistoryEntryRequest request, params BaseccVmClusterUpdateHistoryEntry.LifecycleStateEnum[] targetStates)
+        {
+            return this.ForBaseccVmClusterUpdateHistoryEntry(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetBaseccVmClusterUpdateHistoryEntryRequest, GetBaseccVmClusterUpdateHistoryEntryResponse> ForBaseccVmClusterUpdateHistoryEntry(GetBaseccVmClusterUpdateHistoryEntryRequest request, WaiterConfiguration config, params BaseccVmClusterUpdateHistoryEntry.LifecycleStateEnum[] targetStates)
+        {
+            var agent = new WaiterAgent<GetBaseccVmClusterUpdateHistoryEntryRequest, GetBaseccVmClusterUpdateHistoryEntryResponse>(
+                request,
+                request => client.GetBaseccVmClusterUpdateHistoryEntry(request),
+                response => targetStates.Contains(response.BaseccVmClusterUpdateHistoryEntry.LifecycleState.Value)
+            );
+            return new Waiter<GetBaseccVmClusterUpdateHistoryEntryRequest, GetBaseccVmClusterUpdateHistoryEntryResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<GetCloudAutonomousVmClusterRequest, GetCloudAutonomousVmClusterResponse> ForCloudAutonomousVmCluster(GetCloudAutonomousVmClusterRequest request, params CloudAutonomousVmCluster.LifecycleStateEnum[] targetStates)
         {
             return this.ForCloudAutonomousVmCluster(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
@@ -7947,6 +8137,42 @@ namespace Oci.DatabaseService
         /// <param name="request">Request to send.</param>
         /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<RegisterExadbVmClusterPkcsRequest, RegisterExadbVmClusterPkcsResponse> ForRegisterExadbVmClusterPkcs(RegisterExadbVmClusterPkcsRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return this.ForRegisterExadbVmClusterPkcs(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<RegisterExadbVmClusterPkcsRequest, RegisterExadbVmClusterPkcsResponse> ForRegisterExadbVmClusterPkcs(RegisterExadbVmClusterPkcsRequest request, WaiterConfiguration config, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return new Waiter<RegisterExadbVmClusterPkcsRequest, RegisterExadbVmClusterPkcsResponse>(() =>
+            {
+                var response = client.RegisterExadbVmClusterPkcs(request).Result;
+                if (response.OpcWorkRequestId == null)
+                {
+                    return response;
+                }
+                var getWorkRequestRequest = new Oci.WorkrequestsService.Requests.GetWorkRequestRequest
+                {
+                    WorkRequestId = response.OpcWorkRequestId
+                };
+                workRequestClient.Waiters.ForWorkRequest(getWorkRequestRequest, config, targetStates).Execute();
+                return response;
+            });
+        }
+        
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<ReinstateAutonomousContainerDatabaseDataguardRequest, ReinstateAutonomousContainerDatabaseDataguardResponse> ForReinstateAutonomousContainerDatabaseDataguard(ReinstateAutonomousContainerDatabaseDataguardRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
         {
             return this.ForReinstateAutonomousContainerDatabaseDataguard(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
@@ -9711,6 +9937,42 @@ namespace Oci.DatabaseService
         /// <param name="request">Request to send.</param>
         /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<UnregisterExadbVmClusterPkcsRequest, UnregisterExadbVmClusterPkcsResponse> ForUnregisterExadbVmClusterPkcs(UnregisterExadbVmClusterPkcsRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return this.ForUnregisterExadbVmClusterPkcs(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<UnregisterExadbVmClusterPkcsRequest, UnregisterExadbVmClusterPkcsResponse> ForUnregisterExadbVmClusterPkcs(UnregisterExadbVmClusterPkcsRequest request, WaiterConfiguration config, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return new Waiter<UnregisterExadbVmClusterPkcsRequest, UnregisterExadbVmClusterPkcsResponse>(() =>
+            {
+                var response = client.UnregisterExadbVmClusterPkcs(request).Result;
+                if (response.OpcWorkRequestId == null)
+                {
+                    return response;
+                }
+                var getWorkRequestRequest = new Oci.WorkrequestsService.Requests.GetWorkRequestRequest
+                {
+                    WorkRequestId = response.OpcWorkRequestId
+                };
+                workRequestClient.Waiters.ForWorkRequest(getWorkRequestRequest, config, targetStates).Execute();
+                return response;
+            });
+        }
+        
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<UpdateAdvancedClusterFileSystemRequest, UpdateAdvancedClusterFileSystemResponse> ForUpdateAdvancedClusterFileSystem(UpdateAdvancedClusterFileSystemRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
         {
             return this.ForUpdateAdvancedClusterFileSystem(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
@@ -10052,6 +10314,42 @@ namespace Oci.DatabaseService
             return new Waiter<UpdateBackupRequest, UpdateBackupResponse>(() =>
             {
                 var response = client.UpdateBackup(request).Result;
+                if (response.OpcWorkRequestId == null)
+                {
+                    return response;
+                }
+                var getWorkRequestRequest = new Oci.WorkrequestsService.Requests.GetWorkRequestRequest
+                {
+                    WorkRequestId = response.OpcWorkRequestId
+                };
+                workRequestClient.Waiters.ForWorkRequest(getWorkRequestRequest, config, targetStates).Execute();
+                return response;
+            });
+        }
+        
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<UpdateBaseccVmClusterRequest, UpdateBaseccVmClusterResponse> ForUpdateBaseccVmCluster(UpdateBaseccVmClusterRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return this.ForUpdateBaseccVmCluster(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<UpdateBaseccVmClusterRequest, UpdateBaseccVmClusterResponse> ForUpdateBaseccVmCluster(UpdateBaseccVmClusterRequest request, WaiterConfiguration config, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return new Waiter<UpdateBaseccVmClusterRequest, UpdateBaseccVmClusterResponse>(() =>
+            {
+                var response = client.UpdateBaseccVmCluster(request).Result;
                 if (response.OpcWorkRequestId == null)
                 {
                     return response;

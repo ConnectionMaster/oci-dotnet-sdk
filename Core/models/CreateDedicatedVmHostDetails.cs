@@ -114,5 +114,12 @@ namespace Oci.CoreService.Models
         [JsonProperty(PropertyName = "isMemoryEncryptionEnabled")]
         public System.Nullable<bool> IsMemoryEncryptionEnabled { get; set; }
         
+        /// <value>
+        /// Specifies if the Dedicated Virtual Machine Host (DVMH) is restricted to running only Burstable VMs. If `true`, only Burstable VMs can be launched. If `false`, Burstable VMs cannot be launched.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isBurstable")]
+        public System.Nullable<bool> IsBurstable { get; set; }
+        
     }
 }

@@ -56,17 +56,32 @@ namespace Oci.GoldengateService.Models
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
         
         /// <value>
-        /// Refers to the customer's vault OCID. 
-        /// If provided, it references a vault where GoldenGate can manage secrets. Customers must add policies to permit GoldenGate
-        /// to manage secrets contained within this vault.
+        /// References the OCI Vault that contains the customer-managed encryption key identified by `keyId`.
+        /// <br/>
+        /// Deprecated: This field is deprecated for GoldenGate connections. Sensitive attributes should be provided using the
+        /// corresponding Secret OCID attributes of the connection (for example, `passwordSecretId`) instead of plain-text
+        /// attributes encrypted with `vaultId` and `keyId`. This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
+        /// <br/>
+        /// This field is applicable only when `doesUseSecretIds` is set to `false`.
+        /// If `vaultId` is provided, `keyId` must also be provided.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "vaultId")]
         public string VaultId { get; set; }
         
         /// <value>
-        /// Refers to the customer's master key OCID. 
-        /// If provided, it references a key to manage secrets. Customers must add policies to permit GoldenGate to use this key.
+        /// References the OCI Vault key in the OCI Vault identified by `vaultId`.
+        /// <br/>
+        /// Deprecated: This field is deprecated for GoldenGate connections. Sensitive attributes should be provided using the
+        /// corresponding Secret OCID attributes of the connection (for example, `passwordSecretId`) instead of plain-text
+        /// attributes encrypted with `vaultId` and `keyId`. This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
+        /// <br/>
+        /// The GoldenGate service uses this key to encrypt sensitive information (for example, `password`) that is provided in plain-text connection attributes through the API.
+        /// This field is applicable only when `doesUseSecretIds` is set to `false`. If both `vaultId` and `keyId` are provided,
+        /// the GoldenGate service uses the specified customer-managed key to encrypt the sensitive data.
+        /// If neither `vaultId` nor `keyId` is provided, the GoldenGate service uses Oracle-managed encryption keys.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "keyId")]
@@ -88,9 +103,13 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// Controls the network traffic direction to the target:
-        /// SHARED_SERVICE_ENDPOINT: Traffic flows through the Goldengate Service's network to public hosts. Cannot be used for private targets. 
         /// SHARED_DEPLOYMENT_ENDPOINT: Network traffic flows from the assigned deployment's private endpoint through the deployment's subnet.
         /// DEDICATED_ENDPOINT: A dedicated private endpoint is created in the target VCN subnet for the connection. The subnetId is required when DEDICATED_ENDPOINT networking is selected.
+        /// SHARED_SERVICE_ENDPOINT: Traffic flows through the Goldengate Service's network to public hosts. Cannot be used for private targets. 
+        /// <br/>
+        /// Deprecated: SHARED_SERVICE_ENDPOINT is deprecated. Use another supported routingMethod value, or update existing connections to use a supported routing method.
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "routingMethod")]
@@ -99,6 +118,21 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// Indicates that sensitive attributes are provided via Secrets.
+        /// <br/>
+        /// Deprecated: This field is deprecated. Sensitive attributes should be provided using the corresponding Secret OCID
+        /// attributes of the connection (for example, `passwordSecretId`) instead of plain-text attributes. This change follows
+        /// the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
+        /// <br/>
+        /// When set to `true`, all sensitive information must be provided as OCI Vault secrets using the corresponding
+        /// `*SecretId` attributes of the connection (for example, `passwordSecretId`). Plain-text sensitive attributes (for example, `password`) must not be used.
+        /// This ensures that sensitive information remains stored and managed in the customer's OCI Vault rather than by the GoldenGate service.
+        /// <br/>
+        /// When set to false, sensitive information must be provided in the corresponding plain-text attributes (for example, `password`) rather than in secret OCID attributes.
+        /// In this mode, the sensitive information is stored by the GoldenGate service. If `vaultId` and `keyId` are not specified,
+        /// the GoldenGate service uses Oracle-managed encryption keys to encrypt the stored data.
+        /// <br/>
+        /// If `vaultId` and `keyId` are provided, the specified customer-managed key is used.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "doesUseSecretIds")]
@@ -161,6 +195,9 @@ namespace Oci.GoldengateService.Models
                     break;
                 case "ORACLE_AI_DATA_PLATFORM":
                     obj = new UpdateOracleAiDataPlatformConnectionDetails();
+                    break;
+                case "AI_MODEL":
+                    obj = new UpdateAiModelConnectionDetails();
                     break;
                 case "MICROSOFT_FABRIC":
                     obj = new UpdateMicrosoftFabricConnectionDetails();

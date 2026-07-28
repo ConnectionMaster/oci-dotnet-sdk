@@ -86,6 +86,62 @@ namespace Oci.DatabaseService.Models
         public System.Collections.Generic.List<AvailableActionsEnum> AvailableActions { get; set; }
                 ///
         /// <value>
+        /// The previous update mode performed (only valid for OS Updates).
+        /// </value>
+        ///
+        public enum LastUpdateModeEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "ONLINE_HIGHCVSS")]
+            OnlineHighcvss,
+            [EnumMember(Value = "ONLINE_ALLCVSS")]
+            OnlineAllcvss,
+            [EnumMember(Value = "ONLINE_ALL_UPDATES")]
+            OnlineAllUpdates,
+            [EnumMember(Value = "PENDING_UPDATES")]
+            PendingUpdates,
+            [EnumMember(Value = "FULL_UPDATE")]
+            FullUpdate
+        };
+
+        /// <value>
+        /// The previous update mode performed (only valid for OS Updates).
+        /// </value>
+        [JsonProperty(PropertyName = "lastUpdateMode")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<LastUpdateModeEnum> LastUpdateMode { get; set; }
+                ///
+        ///
+        public enum AvailableUpdateModesEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "ONLINE_HIGHCVSS")]
+            OnlineHighcvss,
+            [EnumMember(Value = "ONLINE_ALLCVSS")]
+            OnlineAllcvss,
+            [EnumMember(Value = "ONLINE_ALL_UPDATES")]
+            OnlineAllUpdates,
+            [EnumMember(Value = "PENDING_UPDATES")]
+            PendingUpdates,
+            [EnumMember(Value = "FULL_UPDATE")]
+            FullUpdate
+        };
+
+        /// <value>
+        /// The possible update options available (only valid for OS Update).
+        /// </value>
+        [JsonProperty(PropertyName = "availableUpdateModes", ItemConverterType = typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Collections.Generic.List<AvailableUpdateModesEnum> AvailableUpdateModes { get; set; }
+        
+        /// <value>
+        /// Oracle Linux version for the respective Exadata Image.
+        /// </value>
+        [JsonProperty(PropertyName = "oracleLinuxVersion")]
+        public string OracleLinuxVersion { get; set; }
+                ///
+        /// <value>
         /// The type of cloud VM cluster maintenance update.
         /// </value>
         ///

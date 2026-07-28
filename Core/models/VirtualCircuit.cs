@@ -449,6 +449,26 @@ namespace Oci.CoreService.Models
         [JsonProperty(PropertyName = "ipMtu")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<VirtualCircuitIpMtu> IpMtu { get; set; }
+        
+        /// <value>
+        /// The OCI's FastConnect MultiCloud Provider/Partner remote region name associated with the OCI region.
+        /// To get the list of associated provider remote region use the ListProviderRemoteRegions operation
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "providerRemoteRegion")]
+        public string ProviderRemoteRegion { get; set; }
+        
+        /// <value>
+        /// The Shared unique identifier for the connection between the multicloud interconnect providers
+        /// </value>
+        [JsonProperty(PropertyName = "sharedConnectionUuid")]
+        public string SharedConnectionUuid { get; set; }
+        
+        /// <value>
+        /// Customer's account on Provider/Partner cloud (AWS, GCP or any other)
+        /// </value>
+        [JsonProperty(PropertyName = "remoteAccountId")]
+        public string RemoteAccountId { get; set; }
                 ///
         /// <value>
         /// The current traffic mode for the Virtual Circuit. This indicates whether the traffic is drained for the

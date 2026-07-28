@@ -311,6 +311,10 @@ namespace Oci.GenerativeaiService.Models
             H100X4,
             [EnumMember(Value = "H100_X8")]
             H100X8,
+            [EnumMember(Value = "H100_X16")]
+            H100X16,
+            [EnumMember(Value = "H100_X32")]
+            H100X32,
             [EnumMember(Value = "H200_X1")]
             H200X1,
             [EnumMember(Value = "H200_X2")]
