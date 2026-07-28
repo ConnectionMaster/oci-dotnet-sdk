@@ -40,7 +40,9 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// The password Oracle GoldenGate uses to connect the associated database.
-        /// Deprecated: This field is deprecated and replaced by \"passwordSecretId\". This field will be removed after February 15 2026.
+        /// Deprecated: This field is deprecated and replaced by \"passwordSecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "password")]
@@ -78,7 +80,9 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// Client Certificate - The base64 encoded content of a .pem file, containing the client public key (for 2-way SSL).
-        /// Deprecated: This field is deprecated and replaced by \"tlsCertificateKeyFileSecretId\". This field will be removed after February 15 2026.
+        /// Deprecated: This field is deprecated and replaced by \"tlsCertificateKeyFileSecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "tlsCertificateKeyFile")]
@@ -95,7 +99,9 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// Client Certificate key file password.
-        /// Deprecated: This field is deprecated and replaced by \"tlsCertificateKeyFilePasswordSecretId\". This field will be removed after February 15 2026.
+        /// Deprecated: This field is deprecated and replaced by \"tlsCertificateKeyFilePasswordSecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "tlsCertificateKeyFilePassword")]

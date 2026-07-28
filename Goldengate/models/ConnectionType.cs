@@ -77,6 +77,8 @@ namespace Oci.GoldengateService.Models
       [EnumMember(Value = "MICROSOFT_FABRIC")]
       MicrosoftFabric,
       [EnumMember(Value = "ICEBERG")]
-      Iceberg
+      Iceberg,
+      [EnumMember(Value = "AI_MODEL")]
+      AiModel
   }
 }

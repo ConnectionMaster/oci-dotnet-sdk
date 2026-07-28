@@ -35,6 +35,7 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// Access key ID to access the Amazon Kinesis.
+        /// Note: Despite the \"Id\" suffix, this value is not an OCI OCID.
         /// 
         /// </value>
         /// <remarks>

@@ -22,6 +22,12 @@ namespace Oci.ApiaccesscontrolService.Models
     {
         
         /// <value>
+        /// The OCID of the compartment that contains the Service Provider Action.
+        /// </value>
+        [JsonProperty(PropertyName = "compartmentId")]
+        public string CompartmentId { get; set; }
+        
+        /// <value>
         /// The entity Type to which the Api belongs to.
         /// </value>
         [JsonProperty(PropertyName = "entityType")]

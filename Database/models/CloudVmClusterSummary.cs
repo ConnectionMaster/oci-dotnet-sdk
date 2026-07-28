@@ -123,6 +123,15 @@ namespace Oci.DatabaseService.Models
         /// </value>
         [JsonProperty(PropertyName = "listenerPort")]
         public System.Nullable<long> ListenerPort { get; set; }
+        
+        [JsonProperty(PropertyName = "liveImageVersionDetails")]
+        public ExadataLiveImageVersionDetails LiveImageVersionDetails { get; set; }
+        
+        /// <value>
+        /// Oracle Linux version for the respective Exadata Image.
+        /// </value>
+        [JsonProperty(PropertyName = "oracleLinuxVersion")]
+        public string OracleLinuxVersion { get; set; }
                 ///
         /// <value>
         /// The current state of the cloud VM cluster.

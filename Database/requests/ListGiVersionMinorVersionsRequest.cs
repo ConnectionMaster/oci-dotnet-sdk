@@ -48,6 +48,12 @@ namespace Oci.DatabaseService.Requests
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-request-id")]
         public string OpcRequestId { get; set; }
         
+        /// <value>
+        /// If provided, filters the results for the given Exadata Infrastructure.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "exadataInfrastructureId")]
+        public string ExadataInfrastructureId { get; set; }
+        
         ///
         /// <value>
         /// If provided, filters the results to the set of database versions which are supported for the given shape family.

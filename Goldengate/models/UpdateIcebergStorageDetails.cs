@@ -49,6 +49,12 @@ namespace Oci.GoldengateService.Models
                 case "AMAZON_S3":
                     obj = new UpdateAmazonS3IcebergStorageDetails();
                     break;
+                case "OCI_OBJECT_STORAGE_S3_API":
+                    obj = new UpdateOciObjectStorageS3ApiIcebergStorageDetails();
+                    break;
+                case "NONE":
+                    obj = new UpdateNoIcebergStorageDetails();
+                    break;
                 case "GOOGLE_CLOUD_STORAGE":
                     obj = new UpdateGoogleCloudStorageIcebergStorageDetails();
                     break;

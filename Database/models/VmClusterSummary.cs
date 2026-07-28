@@ -136,6 +136,15 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "sparseStoragePercentage")]
         public System.Nullable<int> SparseStoragePercentage { get; set; }
         
+        [JsonProperty(PropertyName = "liveImageVersionDetails")]
+        public ExadataLiveImageVersionDetails LiveImageVersionDetails { get; set; }
+        
+        /// <value>
+        /// Oracle Linux version for the respective Exadata Image.
+        /// </value>
+        [JsonProperty(PropertyName = "oracleLinuxVersion")]
+        public string OracleLinuxVersion { get; set; }
+        
         /// <value>
         /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VM cluster network.
         /// </value>

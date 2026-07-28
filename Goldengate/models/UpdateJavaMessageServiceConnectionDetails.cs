@@ -64,7 +64,9 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// The password associated to the principal.
-        /// Deprecated: This field is deprecated and replaced by \"jndiSecurityCredentialsSecretId\". This field will be removed after February 15 2026.
+        /// Deprecated: This field is deprecated and replaced by \"jndiSecurityCredentialsSecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "jndiSecurityCredentials")]
@@ -105,7 +107,9 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// The password Oracle GoldenGate uses to connect the associated Java Message Service.
-        /// Deprecated: This field is deprecated and replaced by \"passwordSecretId\". This field will be removed after February 15 2026.
+        /// Deprecated: This field is deprecated and replaced by \"passwordSecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "password")]
@@ -140,7 +144,9 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// The base64 encoded content of the TrustStore file.
-        /// Deprecated: This field is deprecated and replaced by \"trustStoreSecretId\". This field will be removed after February 15 2026.
+        /// Deprecated: This field is deprecated and replaced by \"trustStoreSecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "trustStore")]
@@ -156,7 +162,9 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// The TrustStore password.
-        /// Deprecated: This field is deprecated and replaced by \"trustStorePasswordSecretId\". This field will be removed after February 15 2026.
+        /// Deprecated: This field is deprecated and replaced by \"trustStorePasswordSecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "trustStorePassword")]
@@ -172,7 +180,9 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// The base64 encoded content of the KeyStore file.
-        /// Deprecated: This field is deprecated and replaced by \"keyStoreSecretId\". This field will be removed after February 15 2026.
+        /// Deprecated: This field is deprecated and replaced by \"keyStoreSecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "keyStore")]
@@ -188,7 +198,9 @@ namespace Oci.GoldengateService.Models
         
         /// <value>
         /// The KeyStore password.
-        /// Deprecated: This field is deprecated and replaced by \"keyStorePasswordSecretId\". This field will be removed after February 15 2026.
+        /// Deprecated: This field is deprecated and replaced by \"keyStorePasswordSecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "keyStorePassword")]
@@ -205,7 +217,9 @@ namespace Oci.GoldengateService.Models
         /// <value>
         /// The password for the cert inside of the KeyStore.
         /// In case it differs from the KeyStore password, it should be provided.
-        /// Deprecated: This field is deprecated and replaced by \"sslKeyPasswordSecretId\". This field will be removed after February 15 2026.
+        /// Deprecated: This field is deprecated and replaced by \"sslKeyPasswordSecretId\".
+        /// This change follows the GoldenGate \"Plain Text Fields in Connections\" deprecation:
+        /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
         [JsonProperty(PropertyName = "sslKeyPassword")]

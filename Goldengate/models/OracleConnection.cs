@@ -38,12 +38,18 @@ namespace Oci.GoldengateService.Models
             OracleDatabase,
             [EnumMember(Value = "ORACLE_EXADATA")]
             OracleExadata,
+            [EnumMember(Value = "ORACLE_EXADATA_EXASCALE")]
+            OracleExadataExascale,
             [EnumMember(Value = "ORACLE_EXADATA_DATABASE_AT_AZURE")]
             OracleExadataDatabaseAtAzure,
+            [EnumMember(Value = "ORACLE_EXADATA_EXASCALE_AT_AZURE")]
+            OracleExadataExascaleAtAzure,
             [EnumMember(Value = "ORACLE_AUTONOMOUS_DATABASE_AT_AZURE")]
             OracleAutonomousDatabaseAtAzure,
             [EnumMember(Value = "ORACLE_EXADATA_DATABASE_AT_GOOGLE_CLOUD")]
             OracleExadataDatabaseAtGoogleCloud,
+            [EnumMember(Value = "ORACLE_EXADATA_EXASCALE_AT_GOOGLE_CLOUD")]
+            OracleExadataExascaleAtGoogleCloud,
             [EnumMember(Value = "ORACLE_AUTONOMOUS_DATABASE_AT_GOOGLE_CLOUD")]
             OracleAutonomousDatabaseAtGoogleCloud,
             [EnumMember(Value = "ORACLE_EXADATA_DATABASE_AT_AWS")]
@@ -118,7 +124,7 @@ namespace Oci.GoldengateService.Models
         /// The default is DIRECT, except when databaseId is provided and the discovered database relies on the SCAN listener.
         /// In this case, the default is REDIRECT.
         /// <br/>
-        /// Deprecated: Defaulting to the REDIRECT session mode will be removed after March 1, 2027.
+        /// Deprecated: Defaulting to the REDIRECT session mode will be removed after April 21, 2027.
         /// 
         /// </value>
         ///
@@ -142,7 +148,7 @@ namespace Oci.GoldengateService.Models
         /// The default is DIRECT, except when databaseId is provided and the discovered database relies on the SCAN listener.
         /// In this case, the default is REDIRECT.
         /// <br/>
-        /// Deprecated: Defaulting to the REDIRECT session mode will be removed after March 1, 2027.
+        /// Deprecated: Defaulting to the REDIRECT session mode will be removed after April 21, 2027.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "sessionMode")]

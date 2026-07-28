@@ -48,6 +48,13 @@ namespace Oci.GoldengateService.Requests
         public System.Collections.Generic.List<ConnectionType> ConnectionType { get; set; }
         
         /// <value>
+        /// The array of connection types to exclude.
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "connectionTypeNotEqualTo", Oci.Common.Http.CollectionFormatType.Multi)]
+        public System.Collections.Generic.List<ConnectionType> ConnectionTypeNotEqualTo { get; set; }
+        
+        /// <value>
         /// The OCID of the deployment which for the connection must be assigned.
         /// 
         /// </value>

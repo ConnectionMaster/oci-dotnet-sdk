@@ -49,11 +49,17 @@ namespace Oci.GoldengateService.Models
                 case "AZURE_DATA_LAKE_STORAGE":
                     obj = new CreateAzureDataLakeStorageIcebergStorageDetails();
                     break;
+                case "NONE":
+                    obj = new CreateNoIcebergStorageDetails();
+                    break;
                 case "GOOGLE_CLOUD_STORAGE":
                     obj = new CreateGoogleCloudStorageIcebergStorageDetails();
                     break;
                 case "AMAZON_S3":
                     obj = new CreateAmazonS3IcebergStorageDetails();
+                    break;
+                case "OCI_OBJECT_STORAGE_S3_API":
+                    obj = new CreateOciObjectStorageS3ApiIcebergStorageDetails();
                     break;
             }
             serializer.Populate(jsonObject.CreateReader(), obj);
