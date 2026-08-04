@@ -46,7 +46,9 @@ namespace Oci.DatabaseService.Models
             [EnumMember(Value = "NONE")]
             None,
             [EnumMember(Value = "BACKUP_FROM_ID")]
-            BackupFromId
+            BackupFromId,
+            [EnumMember(Value = "BACKUP_FROM_TIMESTAMP")]
+            BackupFromTimestamp
         };
 
         
@@ -388,6 +390,9 @@ namespace Oci.DatabaseService.Models
             var discriminator = jsonObject["source"].Value<string>();
             switch (discriminator)
             {
+                case "BACKUP_FROM_TIMESTAMP":
+                    obj = new CreateAutonomousContainerDatabaseFromBackupTimestampDetails();
+                    break;
                 case "NONE":
                     obj = new CreateAutonomousContainerDatabaseDetails();
                     break;

@@ -16,19 +16,19 @@ using Newtonsoft.Json.Converters;
 namespace Oci.MarketplaceprivateofferService.Models
 {
     /// <summary>
-    /// A key value pair specified by the seller of the offer
+    /// A key value pair specified by the seller of the offer.
     /// </summary>
     public class CustomField 
     {
         
         /// <value>
-        /// the key of the custom field
+        /// The key of the custom field.
         /// </value>
         [JsonProperty(PropertyName = "key")]
         public string Key { get; set; }
         
         /// <value>
-        /// the value of the custom field
+        /// The value of the custom field.
         /// </value>
         [JsonProperty(PropertyName = "value")]
         public string Value { get; set; }

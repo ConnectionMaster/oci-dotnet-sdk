@@ -44,6 +44,12 @@ namespace Oci.SelfService.Models
       [EnumMember(Value = "UPDATING")]
       Updating,
       [EnumMember(Value = "DELETED")]
-      Deleted
+      Deleted,
+      [EnumMember(Value = "PENDING_CANCELLATION")]
+      PendingCancellation,
+      [EnumMember(Value = "SUSPENDED")]
+      Suspended,
+      [EnumMember(Value = "CANCELED")]
+      Canceled
   }
 }

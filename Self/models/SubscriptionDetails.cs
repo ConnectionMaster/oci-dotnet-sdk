@@ -50,12 +50,15 @@ namespace Oci.SelfService.Models
         [JsonProperty(PropertyName = "amount")]
         public System.Nullable<float> Amount { get; set; }
         
+        /// <value>
+        /// Billing details associated with the subscription plan and its usage dimensions.
+        /// </value>
         /// <remarks>
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "BillingDetails is required.")]
         [JsonProperty(PropertyName = "billingDetails")]
-        public BillingDetails BillingDetails { get; set; }
+        public System.Collections.Generic.List<BillingDetails> BillingDetails { get; set; }
         
         /// <value>
         /// Whether subscription should be auto-renewed at the end of cycle.
