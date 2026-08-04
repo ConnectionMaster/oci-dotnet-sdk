@@ -31,6 +31,53 @@ namespace Oci.DatabaseService.Models
         [Required(ErrorMessage = "AutonomousContainerDatabaseBackupId is required.")]
         [JsonProperty(PropertyName = "autonomousContainerDatabaseBackupId")]
         public string AutonomousContainerDatabaseBackupId { get; set; }
+                ///
+        /// <value>
+        /// The Autonomous AI Database clone type.
+        /// </value>
+        ///
+        public enum CloneTypeEnum {
+            [EnumMember(Value = "FULL")]
+            Full,
+            [EnumMember(Value = "METADATA")]
+            Metadata,
+            [EnumMember(Value = "PARTIAL")]
+            Partial
+        };
+
+        /// <value>
+        /// The Autonomous AI Database clone type.
+        /// </value>
+        [JsonProperty(PropertyName = "cloneType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<CloneTypeEnum> CloneType { get; set; }
+        
+        /// <value>
+        /// A list of Autonomous Databases ( display name of the ADB in specific ) to be cloned from backup of the source Autonomous Container Database.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "autonomousDatabasesToClone")]
+        public System.Collections.Generic.List<string> AutonomousDatabasesToClone { get; set; }
+                ///
+        /// <value>
+        /// The speed at which the Autonomous Container Database Clone from backup operation to be performed by OCI.
+        /// </value>
+        ///
+        public enum CloneBandWidthEnum {
+            [EnumMember(Value = "SLOW")]
+            Slow,
+            [EnumMember(Value = "MEDIUM")]
+            Medium,
+            [EnumMember(Value = "FAST")]
+            Fast
+        };
+
+        /// <value>
+        /// The speed at which the Autonomous Container Database Clone from backup operation to be performed by OCI.
+        /// </value>
+        [JsonProperty(PropertyName = "cloneBandWidth")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<CloneBandWidthEnum> CloneBandWidth { get; set; }
         
         [JsonProperty(PropertyName = "source")]
         private readonly string source = "BACKUP_FROM_ID";

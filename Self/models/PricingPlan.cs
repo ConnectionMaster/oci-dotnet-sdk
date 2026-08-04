@@ -30,7 +30,11 @@ namespace Oci.SelfService.Models
             [EnumMember(Value = null)]
             UnknownEnumValue,
             [EnumMember(Value = "FIXED")]
-            Fixed
+            Fixed,
+            [EnumMember(Value = "USAGE_BASED")]
+            UsageBased,
+            [EnumMember(Value = "HYBRID")]
+            Hybrid
         };
 
         /// <value>
@@ -59,21 +63,9 @@ namespace Oci.SelfService.Models
         /// </value>
         [JsonProperty(PropertyName = "planDescription")]
         public string PlanDescription { get; set; }
-                ///
+        
         /// <value>
-        /// Specifies the interval at which billing occurs for the subscription plan.
-        /// </value>
-        ///
-        public enum BillingFrequencyEnum {
-            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
-            [EnumMember(Value = null)]
-            UnknownEnumValue,
-            [EnumMember(Value = "YEARLY")]
-            Yearly
-        };
-
-        /// <value>
-        /// Specifies the interval at which billing occurs for the subscription plan.
+        /// Specifies the interval at which billing occurs for the subscription plan or usage dimension.
         /// </value>
         /// <remarks>
         /// Required
@@ -81,22 +73,32 @@ namespace Oci.SelfService.Models
         [Required(ErrorMessage = "BillingFrequency is required.")]
         [JsonProperty(PropertyName = "billingFrequency")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
-        public System.Nullable<BillingFrequencyEnum> BillingFrequency { get; set; }
+        public System.Nullable<BillingFrequency> BillingFrequency { get; set; }
                 ///
         /// <value>
-        /// Specifies the interval at which billing occurs for the subscription plan.
+        /// Specifies the duration of the subscription plan.
         /// </value>
         ///
         public enum PlanDurationEnum {
             /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
             [EnumMember(Value = null)]
             UnknownEnumValue,
+            [EnumMember(Value = "MONTHLY")]
+            Monthly,
+            [EnumMember(Value = "QUARTERLY")]
+            Quarterly,
+            [EnumMember(Value = "SEMI_ANNUAL")]
+            SemiAnnual,
             [EnumMember(Value = "ANNUAL")]
-            Annual
+            Annual,
+            [EnumMember(Value = "BIENNIAL")]
+            Biennial,
+            [EnumMember(Value = "TRIENNIAL")]
+            Triennial
         };
 
         /// <value>
-        /// Specifies the interval at which billing occurs for the subscription plan.
+        /// Specifies the duration of the subscription plan.
         /// </value>
         [JsonProperty(PropertyName = "planDuration")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
@@ -111,6 +113,12 @@ namespace Oci.SelfService.Models
         [Required(ErrorMessage = "Rates is required.")]
         [JsonProperty(PropertyName = "rates")]
         public System.Collections.Generic.List<PricingRate> Rates { get; set; }
+        
+        /// <value>
+        /// Metered usage dimensions associated with the pricing plan.
+        /// </value>
+        [JsonProperty(PropertyName = "dimensions")]
+        public System.Collections.Generic.List<UsageDimension> Dimensions { get; set; }
         
     }
 }

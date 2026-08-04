@@ -200,6 +200,27 @@ namespace Oci.MarketplaceprivateofferService.Models
         /// </value>
         [JsonProperty(PropertyName = "resourceBundles")]
         public System.Collections.Generic.List<ResourceBundle> ResourceBundles { get; set; }
+                ///
+        /// <value>
+        /// The type of the offer.
+        /// </value>
+        ///
+        public enum OfferTypeEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "DIRECT")]
+            Direct,
+            [EnumMember(Value = "MULTI_PARTY")]
+            MultiParty
+        };
+
+        /// <value>
+        /// The type of the offer.
+        /// </value>
+        [JsonProperty(PropertyName = "offerType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<OfferTypeEnum> OfferType { get; set; }
         
         /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.
@@ -222,6 +243,13 @@ namespace Oci.MarketplaceprivateofferService.Models
         [Required(ErrorMessage = "DefinedTags is required.")]
         [JsonProperty(PropertyName = "definedTags")]
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
+        
+        /// <value>
+        /// System tags for this resource. Each key is predefined and scoped to a namespace.
+        /// Example: {&quot;orcl-cloud&quot;: {&quot;free-tier-retained&quot;: &quot;true&quot;}}
+        /// </value>
+        [JsonProperty(PropertyName = "systemTags")]
+        public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> SystemTags { get; set; }
         
     }
 }

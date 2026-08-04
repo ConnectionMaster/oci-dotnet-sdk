@@ -99,6 +99,19 @@ namespace Oci.MarketplaceprivateofferService.Models
         public System.Collections.Generic.List<CustomField> CustomFields { get; set; }
         
         /// <value>
+        /// The type of the offer.
+        /// </value>
+        [JsonProperty(PropertyName = "offerType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<Offer.OfferTypeEnum> OfferType { get; set; }
+        
+        /// <value>
+        /// A list of associated offer quotes.
+        /// </value>
+        [JsonProperty(PropertyName = "offerQuoteIds")]
+        public System.Collections.Generic.List<string> OfferQuoteIds { get; set; }
+        
+        /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.
         /// Example: {&quot;bar-key&quot;: &quot;value&quot;}
         /// </value>

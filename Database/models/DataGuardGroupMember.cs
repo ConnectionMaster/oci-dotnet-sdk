@@ -154,6 +154,8 @@ namespace Oci.DatabaseService.Models
                 ///
         /// <value>
         /// The switchover readiness status of the Data Guard member.
+        /// * HEALTHY_AND_NOT_ROLECHANGE_TARGET - Indicates that the respective standby member is healthy 
+        /// but not currently designated to take switchover, when auto failover is enabled.
         /// 
         /// </value>
         ///
@@ -166,11 +168,15 @@ namespace Oci.DatabaseService.Models
             [EnumMember(Value = "WARNING")]
             Warning,
             [EnumMember(Value = "CRITICAL")]
-            Critical
+            Critical,
+            [EnumMember(Value = "HEALTHY_AND_NOT_ROLECHANGE_TARGET")]
+            HealthyAndNotRolechangeTarget
         };
 
         /// <value>
         /// The switchover readiness status of the Data Guard member.
+        /// * HEALTHY_AND_NOT_ROLECHANGE_TARGET - Indicates that the respective standby member is healthy 
+        /// but not currently designated to take switchover, when auto failover is enabled.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "switchoverReadiness")]
@@ -186,6 +192,8 @@ namespace Oci.DatabaseService.Models
                 ///
         /// <value>
         /// The failover readiness status of the Data Guard member.
+        /// HEALTHY_AND_NOT_ROLECHANGE_TARGET - Indicates that the respective standby member is healthy 
+        /// but not currently designated to take failover, when auto failover is enabled.
         /// 
         /// </value>
         ///
@@ -198,11 +206,15 @@ namespace Oci.DatabaseService.Models
             [EnumMember(Value = "WARNING")]
             Warning,
             [EnumMember(Value = "CRITICAL")]
-            Critical
+            Critical,
+            [EnumMember(Value = "HEALTHY_AND_NOT_ROLECHANGE_TARGET")]
+            HealthyAndNotRolechangeTarget
         };
 
         /// <value>
         /// The failover readiness status of the Data Guard member.
+        /// HEALTHY_AND_NOT_ROLECHANGE_TARGET - Indicates that the respective standby member is healthy 
+        /// but not currently designated to take failover, when auto failover is enabled.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "failoverReadiness")]
@@ -229,6 +241,34 @@ namespace Oci.DatabaseService.Models
         /// </value>
         [JsonProperty(PropertyName = "timeUpdated")]
         public System.Nullable<System.DateTime> TimeUpdated { get; set; }
+                ///
+        /// <value>
+        /// The state of managed auto failover.
+        /// </value>
+        ///
+        public enum ManagedAutoFailoverEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "ENABLE")]
+            Enable,
+            [EnumMember(Value = "DISABLE")]
+            Disable
+        };
+
+        /// <value>
+        /// The state of managed auto failover.
+        /// </value>
+        [JsonProperty(PropertyName = "managedAutoFailover")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<ManagedAutoFailoverEnum> ManagedAutoFailover { get; set; }
+        
+        /// <value>
+        /// Specifies the `DB_UNIQUE_NAME` of the data guard group member databases.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "failoverTargets")]
+        public System.Collections.Generic.List<string> FailoverTargets { get; set; }
         
     }
 }

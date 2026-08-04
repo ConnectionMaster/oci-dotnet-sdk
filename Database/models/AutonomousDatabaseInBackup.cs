@@ -41,6 +41,67 @@ namespace Oci.DatabaseService.Models
         [Required(ErrorMessage = "DisplayName is required.")]
         [JsonProperty(PropertyName = "displayName")]
         public string DisplayName { get; set; }
+                ///
+        /// <value>
+        /// The current state of the Autonomous AI Database.
+        /// </value>
+        ///
+        public enum LifecycleStateEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "PROVISIONING")]
+            Provisioning,
+            [EnumMember(Value = "AVAILABLE")]
+            Available,
+            [EnumMember(Value = "STOPPING")]
+            Stopping,
+            [EnumMember(Value = "STOPPED")]
+            Stopped,
+            [EnumMember(Value = "STARTING")]
+            Starting,
+            [EnumMember(Value = "TERMINATING")]
+            Terminating,
+            [EnumMember(Value = "TERMINATED")]
+            Terminated,
+            [EnumMember(Value = "UNAVAILABLE")]
+            Unavailable,
+            [EnumMember(Value = "RESTORE_IN_PROGRESS")]
+            RestoreInProgress,
+            [EnumMember(Value = "RESTORE_FAILED")]
+            RestoreFailed,
+            [EnumMember(Value = "BACKUP_IN_PROGRESS")]
+            BackupInProgress,
+            [EnumMember(Value = "SCALE_IN_PROGRESS")]
+            ScaleInProgress,
+            [EnumMember(Value = "AVAILABLE_NEEDS_ATTENTION")]
+            AvailableNeedsAttention,
+            [EnumMember(Value = "UPDATING")]
+            Updating,
+            [EnumMember(Value = "MAINTENANCE_IN_PROGRESS")]
+            MaintenanceInProgress,
+            [EnumMember(Value = "RESTARTING")]
+            Restarting,
+            [EnumMember(Value = "RECREATING")]
+            Recreating,
+            [EnumMember(Value = "ROLE_CHANGE_IN_PROGRESS")]
+            RoleChangeInProgress,
+            [EnumMember(Value = "UPGRADING")]
+            Upgrading,
+            [EnumMember(Value = "INACCESSIBLE")]
+            Inaccessible,
+            [EnumMember(Value = "STANDBY")]
+            Standby,
+            [EnumMember(Value = "TRANSPORTING")]
+            Transporting
+        };
+
+        /// <value>
+        /// The current state of the Autonomous AI Database.
+        /// </value>
+        [JsonProperty(PropertyName = "lifecycleState")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<LifecycleStateEnum> LifecycleState { get; set; }
         
     }
 }

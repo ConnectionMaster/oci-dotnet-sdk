@@ -45,8 +45,6 @@ namespace Oci.SelfService.Requests
             TimeCreated,
             [EnumMember(Value = "displayName")]
             DisplayName,
-            [EnumMember(Value = "selfTokenId")]
-            SelfTokenId,
             [EnumMember(Value = "productId")]
             ProductId
         };

@@ -13,7 +13,7 @@ using System.Runtime.Serialization;
 namespace Oci.SelfService.Models
 {
   /// <summary>
-  /// Possible values for a metric types.
+  /// Possible values for metric types.
   /// </summary>
   public enum MetricType {
       /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
@@ -24,6 +24,8 @@ namespace Oci.SelfService.Models
       [EnumMember(Value = "INSTANCE_HOURS")]
       InstanceHours,
       [EnumMember(Value = "CORE_HOURS")]
-      CoreHours
+      CoreHours,
+      [EnumMember(Value = "EACH")]
+      Each
   }
 }

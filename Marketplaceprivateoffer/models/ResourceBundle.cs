@@ -16,13 +16,13 @@ using Newtonsoft.Json.Converters;
 namespace Oci.MarketplaceprivateofferService.Models
 {
     /// <summary>
-    /// Resource Bundle associated with an Offer
+    /// Resource bundle associated with an offer.
     /// </summary>
     public class ResourceBundle 
     {
                 ///
         /// <value>
-        /// The type of resources in the bundle
+        /// The type of resources in the bundle.
         /// </value>
         ///
         public enum TypeEnum {
@@ -34,20 +34,20 @@ namespace Oci.MarketplaceprivateofferService.Models
         };
 
         /// <value>
-        /// The type of resources in the bundle
+        /// The type of resources in the bundle.
         /// </value>
         [JsonProperty(PropertyName = "type")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<TypeEnum> Type { get; set; }
         
         /// <value>
-        /// The quantity of a resources associated with the bundle
+        /// The quantity of a resources associated with the bundle.
         /// </value>
         [JsonProperty(PropertyName = "quantity")]
         public System.Nullable<long> Quantity { get; set; }
                 ///
         /// <value>
-        /// The unit of measurement for the resource bundle
+        /// The unit of measurement for the resource bundle.
         /// </value>
         ///
         public enum UnitOfMeasurementEnum {
@@ -67,14 +67,14 @@ namespace Oci.MarketplaceprivateofferService.Models
         };
 
         /// <value>
-        /// The unit of measurement for the resource bundle
+        /// The unit of measurement for the resource bundle.
         /// </value>
         [JsonProperty(PropertyName = "unitOfMeasurement")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<UnitOfMeasurementEnum> UnitOfMeasurement { get; set; }
         
         /// <value>
-        /// the ids of the resources in the Offer
+        /// The IDs of the resources in the offer.
         /// </value>
         [JsonProperty(PropertyName = "resourceIds")]
         public System.Collections.Generic.List<string> ResourceIds { get; set; }

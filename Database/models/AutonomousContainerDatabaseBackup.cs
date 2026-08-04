@@ -73,6 +73,9 @@ namespace Oci.DatabaseService.Models
         /// </value>
         ///
         public enum TypeEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
             [EnumMember(Value = "INCREMENTAL")]
             Incremental,
             [EnumMember(Value = "FULL")]
@@ -89,7 +92,7 @@ namespace Oci.DatabaseService.Models
         /// </remarks>
         [Required(ErrorMessage = "Type is required.")]
         [JsonProperty(PropertyName = "type")]
-        [JsonConverter(typeof(StringEnumConverter))]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<TypeEnum> Type { get; set; }
         
         /// <value>
@@ -125,6 +128,9 @@ namespace Oci.DatabaseService.Models
         /// </value>
         ///
         public enum LifecycleStateEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
             [EnumMember(Value = "CREATING")]
             Creating,
             [EnumMember(Value = "ACTIVE")]
@@ -145,7 +151,7 @@ namespace Oci.DatabaseService.Models
         /// </remarks>
         [Required(ErrorMessage = "LifecycleState is required.")]
         [JsonProperty(PropertyName = "lifecycleState")]
-        [JsonConverter(typeof(StringEnumConverter))]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
@@ -165,6 +171,9 @@ namespace Oci.DatabaseService.Models
         /// </value>
         ///
         public enum InfrastructureTypeEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
             [EnumMember(Value = "CLOUD")]
             Cloud,
             [EnumMember(Value = "CLOUD_AT_CUSTOMER")]
@@ -175,7 +184,7 @@ namespace Oci.DatabaseService.Models
         /// The infrastructure type this resource belongs to.
         /// </value>
         [JsonProperty(PropertyName = "infrastructureType")]
-        [JsonConverter(typeof(StringEnumConverter))]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<InfrastructureTypeEnum> InfrastructureType { get; set; }
         
         /// <value>
@@ -208,6 +217,21 @@ namespace Oci.DatabaseService.Models
         /// </value>
         [JsonProperty(PropertyName = "autonomousDatabases")]
         public System.Collections.Generic.List<AutonomousDatabaseInBackup> AutonomousDatabases { get; set; }
+        
+        /// <value>
+        /// A valid Oracle AI Database version for Autonomous AI Database.
+        /// When you specify 23ai for dbversion, the system will provision a 23ai database, but the UI will display it as 26ai.
+        /// When you specify 26ai for dbversion, the system will provision and display a 26ai database as expected.
+        /// For new databases, it is recommended to use either 19c or 26ai.
+        /// <br/>
+        /// **Note** Starting December 2026, 23ai will not be supported as a valid value for this parameter.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "dbVersion")]
+        public string DbVersion { get; set; }
+        
+        [JsonProperty(PropertyName = "backupDestinationDetails")]
+        public BackupDestinationDetails BackupDestinationDetails { get; set; }
         
     }
 }

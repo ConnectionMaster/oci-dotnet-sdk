@@ -16,25 +16,25 @@ using Newtonsoft.Json.Converters;
 namespace Oci.MarketplaceprivateofferService.Models
 {
     /// <summary>
-    /// The contact information of an individual
+    /// The contact information of an individual.
     /// </summary>
     public class Contact 
     {
         
         /// <value>
-        /// The first name of the contact
+        /// The first name of the contact.
         /// </value>
         [JsonProperty(PropertyName = "firstName")]
         public string FirstName { get; set; }
         
         /// <value>
-        /// The last name of the contact
+        /// The last name of the contact.
         /// </value>
         [JsonProperty(PropertyName = "lastName")]
         public string LastName { get; set; }
         
         /// <value>
-        /// The email of the contact
+        /// The email of the contact.
         /// </value>
         [JsonProperty(PropertyName = "email")]
         public string Email { get; set; }

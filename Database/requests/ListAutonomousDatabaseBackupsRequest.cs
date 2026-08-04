@@ -122,6 +122,13 @@ namespace Oci.DatabaseService.Requests
         public System.Nullable<AutonomousDatabaseBackupSummary.InfrastructureTypeEnum> InfrastructureType { get; set; }
         
         /// <value>
+        /// Filters backups based on the current Autonomous AI Database configuration; returns only those relevant for point-in-time recovery (PITR). Does not guarantee exclusion of backups in orphan ranges.
+        /// 
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "isPitrEligible")]
+        public System.Nullable<bool> IsPitrEligible { get; set; }
+        
+        /// <value>
         /// Unique identifier for the request.
         /// 
         /// </value>

@@ -77,5 +77,91 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "patchOptions")]
         public PatchOptions PatchOptions { get; set; }
         
+        /// <value>
+        /// The administrator password of the primary database in this Data Guard association.
+        /// <br/>
+        /// **The password MUST be the same as the primary admin password.**
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "databaseAdminPassword")]
+        public string DatabaseAdminPassword { get; set; }
+                ///
+        /// <value>
+        /// The protection mode of this Data Guard. For more information, see
+        /// [Oracle Data Guard Protection Modes](http://docs.oracle.com/database/122/SBYDB/oracle-data-guard-protection-modes.htm#SBYDB02000)
+        /// in the Oracle Data Guard documentation.
+        /// 
+        /// </value>
+        ///
+        public enum ProtectionModeEnum {
+            [EnumMember(Value = "MAXIMUM_AVAILABILITY")]
+            MaximumAvailability,
+            [EnumMember(Value = "MAXIMUM_PERFORMANCE")]
+            MaximumPerformance,
+            [EnumMember(Value = "MAXIMUM_PROTECTION")]
+            MaximumProtection
+        };
+
+        /// <value>
+        /// The protection mode of this Data Guard. For more information, see
+        /// [Oracle Data Guard Protection Modes](http://docs.oracle.com/database/122/SBYDB/oracle-data-guard-protection-modes.htm#SBYDB02000)
+        /// in the Oracle Data Guard documentation.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "protectionMode")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<ProtectionModeEnum> ProtectionMode { get; set; }
+                ///
+        /// <value>
+        /// The redo transport type to use for this Data Guard association.  Valid values depend on the specified `protectionMode`:
+        /// <br/>
+        /// * MAXIMUM_AVAILABILITY - SYNC or FASTSYNC
+        /// * MAXIMUM_PERFORMANCE - ASYNC
+        /// * MAXIMUM_PROTECTION - SYNC
+        /// <br/>
+        /// For more information, see
+        /// [Redo Transport Services](http://docs.oracle.com/database/122/SBYDB/oracle-data-guard-redo-transport-services.htm#SBYDB00400)
+        /// in the Oracle Data Guard documentation.
+        /// <br/>
+        /// **IMPORTANT** - The only transport type currently supported by the Database service is ASYNC.
+        /// 
+        /// </value>
+        ///
+        public enum TransportTypeEnum {
+            [EnumMember(Value = "SYNC")]
+            Sync,
+            [EnumMember(Value = "ASYNC")]
+            Async,
+            [EnumMember(Value = "FASTSYNC")]
+            Fastsync
+        };
+
+        /// <value>
+        /// The redo transport type to use for this Data Guard association.  Valid values depend on the specified `protectionMode`:
+        /// <br/>
+        /// * MAXIMUM_AVAILABILITY - SYNC or FASTSYNC
+        /// * MAXIMUM_PERFORMANCE - ASYNC
+        /// * MAXIMUM_PROTECTION - SYNC
+        /// <br/>
+        /// For more information, see
+        /// [Redo Transport Services](http://docs.oracle.com/database/122/SBYDB/oracle-data-guard-redo-transport-services.htm#SBYDB00400)
+        /// in the Oracle Data Guard documentation.
+        /// <br/>
+        /// **IMPORTANT** - The only transport type currently supported by the Database service is ASYNC.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "transportType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<TransportTypeEnum> TransportType { get; set; }
+        
+        /// <value>
+        /// True if active Data Guard is enabled.
+        /// </value>
+        [JsonProperty(PropertyName = "isActiveDataGuardEnabled")]
+        public System.Nullable<bool> IsActiveDataGuardEnabled { get; set; }
+        
+        [JsonProperty(PropertyName = "autoFailoverConfiguration")]
+        public AutoFailoverConfiguration AutoFailoverConfiguration { get; set; }
+        
     }
 }
