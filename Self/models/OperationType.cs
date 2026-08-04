@@ -26,6 +26,8 @@ namespace Oci.SelfService.Models
       [EnumMember(Value = "DELETE_SUBSCRIPTION")]
       DeleteSubscription,
       [EnumMember(Value = "MOVE_SUBSCRIPTION")]
-      MoveSubscription
+      MoveSubscription,
+      [EnumMember(Value = "SUBMIT_SUBSCRIPTION_USAGE_BATCH")]
+      SubmitSubscriptionUsageBatch
   }
 }

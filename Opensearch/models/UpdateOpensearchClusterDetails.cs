@@ -62,6 +62,12 @@ namespace Oci.OpensearchService.Models
         public BackupPolicy BackupPolicy { get; set; }
         
         /// <value>
+        /// The OCID of the NSG where the private endpoint vnic will be attached.
+        /// </value>
+        [JsonProperty(PropertyName = "nsgId")]
+        public string NsgId { get; set; }
+        
+        /// <value>
         /// The customer IP addresses of the endpoint in customer VCN
         /// </value>
         [JsonProperty(PropertyName = "reverseConnectionEndpointCustomerIps")]

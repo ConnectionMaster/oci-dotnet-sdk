@@ -135,6 +135,13 @@ namespace Oci.MarketplaceprivateofferService.Models
         public Pricing Pricing { get; set; }
         
         /// <value>
+        /// The type of the offer.
+        /// </value>
+        [JsonProperty(PropertyName = "offerType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<Offer.OfferTypeEnum> OfferType { get; set; }
+        
+        /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.
         /// Example: {&quot;bar-key&quot;: &quot;value&quot;}
         /// </value>
@@ -155,6 +162,13 @@ namespace Oci.MarketplaceprivateofferService.Models
         [Required(ErrorMessage = "DefinedTags is required.")]
         [JsonProperty(PropertyName = "definedTags")]
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
+        
+        /// <value>
+        /// System tags for this resource. Each key is predefined and scoped to a namespace.
+        /// Example: {&quot;orcl-cloud&quot;: {&quot;free-tier-retained&quot;: &quot;true&quot;}}
+        /// </value>
+        [JsonProperty(PropertyName = "systemTags")]
+        public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> SystemTags { get; set; }
         
     }
 }

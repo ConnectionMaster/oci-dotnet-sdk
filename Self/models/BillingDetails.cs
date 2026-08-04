@@ -16,10 +16,45 @@ using Newtonsoft.Json.Converters;
 namespace Oci.SelfService.Models
 {
     /// <summary>
-    /// Sku details for billing subscription.
+    /// Billing detail entry associated with a subscription.
     /// </summary>
     public class BillingDetails 
     {
+        
+        /// <value>
+        /// Unique key used to map this SKU to the pricing plan.
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "PricingPlanKey is required.")]
+        [JsonProperty(PropertyName = "pricingPlanKey")]
+        public string PricingPlanKey { get; set; }
+                ///
+        /// <value>
+        /// The billing model this billing detail applies to.
+        /// </value>
+        ///
+        public enum BillingModelEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "FLAT_RATE")]
+            FlatRate,
+            [EnumMember(Value = "USAGE_BASED")]
+            UsageBased
+        };
+
+        /// <value>
+        /// The billing model this billing detail applies to.
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "BillingModel is required.")]
+        [JsonProperty(PropertyName = "billingModel")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<BillingModelEnum> BillingModel { get; set; }
         
         /// <value>
         /// Sku for service.

@@ -41,5 +41,11 @@ namespace Oci.MarketplaceprivateofferService.Models
         [JsonProperty(PropertyName = "internalNotes")]
         public string InternalNotes { get; set; }
         
+        /// <value>
+        /// A list of associated offer quotes.
+        /// </value>
+        [JsonProperty(PropertyName = "offerQuoteIds")]
+        public System.Collections.Generic.List<string> OfferQuoteIds { get; set; }
+        
     }
 }

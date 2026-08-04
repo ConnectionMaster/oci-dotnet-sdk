@@ -100,5 +100,45 @@ namespace Oci.DatabaseService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "dbName")]
         public string DbName { get; set; }
+        
+        ///
+        /// <value>
+        /// Filter the databases by managed auto failover param.
+        /// </value>
+        ///
+        public enum ManagedAutoFailoverEnum {
+            [EnumMember(Value = "REGISTERED")]
+            Registered,
+            [EnumMember(Value = "UNREGISTERED")]
+            Unregistered,
+            [EnumMember(Value = "ALL")]
+            All
+        };
+
+        /// <value>
+        /// Filter the databases by managed auto failover param.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "managedAutoFailover")]
+        public System.Nullable<ManagedAutoFailoverEnum> ManagedAutoFailover { get; set; }
+        
+        ///
+        /// <value>
+        /// Filter the databases by failoverTargets param.
+        /// </value>
+        ///
+        public enum FailoverTargetsEnum {
+            [EnumMember(Value = "DEFINED")]
+            Defined,
+            [EnumMember(Value = "UNDEFINED")]
+            Undefined,
+            [EnumMember(Value = "ALL")]
+            All
+        };
+
+        /// <value>
+        /// Filter the databases by failoverTargets param.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "failoverTargets")]
+        public System.Nullable<FailoverTargetsEnum> FailoverTargets { get; set; }
     }
 }

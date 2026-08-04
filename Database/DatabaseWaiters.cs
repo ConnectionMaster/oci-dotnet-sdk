@@ -5878,6 +5878,34 @@ namespace Oci.DatabaseService
         /// <param name="request">Request to send.</param>
         /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetAutonomousContainerDatabaseBackupRequest, GetAutonomousContainerDatabaseBackupResponse> ForAutonomousContainerDatabaseBackup(GetAutonomousContainerDatabaseBackupRequest request, params AutonomousContainerDatabaseBackup.LifecycleStateEnum[] targetStates)
+        {
+            return this.ForAutonomousContainerDatabaseBackup(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetAutonomousContainerDatabaseBackupRequest, GetAutonomousContainerDatabaseBackupResponse> ForAutonomousContainerDatabaseBackup(GetAutonomousContainerDatabaseBackupRequest request, WaiterConfiguration config, params AutonomousContainerDatabaseBackup.LifecycleStateEnum[] targetStates)
+        {
+            var agent = new WaiterAgent<GetAutonomousContainerDatabaseBackupRequest, GetAutonomousContainerDatabaseBackupResponse>(
+                request,
+                request => client.GetAutonomousContainerDatabaseBackup(request),
+                response => targetStates.Contains(response.AutonomousContainerDatabaseBackup.LifecycleState.Value),
+                targetStates.Contains(AutonomousContainerDatabaseBackup.LifecycleStateEnum.Deleted)
+            );
+            return new Waiter<GetAutonomousContainerDatabaseBackupRequest, GetAutonomousContainerDatabaseBackupResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<GetAutonomousContainerDatabaseDataguardAssociationRequest, GetAutonomousContainerDatabaseDataguardAssociationResponse> ForAutonomousContainerDatabaseDataguardAssociation(GetAutonomousContainerDatabaseDataguardAssociationRequest request, params AutonomousContainerDatabaseDataguardAssociation.LifecycleStateEnum[] targetStates)
         {
             return this.ForAutonomousContainerDatabaseDataguardAssociation(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);

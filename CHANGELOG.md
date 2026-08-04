@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on Keep a [Changelog](http://keepachangelog.com/).
 
+## 144.0.0 - 2026-08-04
+### Added
+ - Support for cloning autonomous container databases from backups by timestamp and retrieving backup details in the Database service
+ - Support for managing automatic failover for existing data guard configurations with multiple standby databases in the Database service
+ - Support for creating and managing private-offer quotes and quote attachments in the Marketplace Private Offer service
+ - Support for usage-based SaaS listings, subscription usage reporting, and subscription cancellation in the Service Enablement Lifecycle Framework service
+ - Support for network security group IDs on private endpoints during open search cluster updates in the OpenSearch service
+ - Support for database tools MCP server, DB API gateway configuration, and IAM authentication APIs in the Database Tools service    
+
+### Breaking Changes
+ - The field `BillingDetails` was changed from `BillingDetails` to `List<BillingDetails>` in the model `SubscriptionDetails` in the Service Enablement Lifecycle Framework service
+ - The nested enum `PricingPlan.BillingFrequencyEnum` was removed and the type of field `BillingFrequency` was changed to `BillingFrequency` in the model `PricingPlan` in the Service Enablement Lifecycle Framework service
+ - The fields `PricingPlanKey` and `BillingModel` were added as required fields to the model `BillingDetails` in the Service Enablement Lifecycle Framework service
+ - The enum value `SelfTokenId` was removed from the `SortBy` enum in the requests `ListSubscriptionsRequest` and `ListingSubscriptionsRequest` in the Service Enablement Lifecycle Framework service
+ - The endpoints for `ActivateSubscription`, `ListingSubscriptions`, and `ResolveSubscription` now use `/partners` instead of `/partner` in the Service Enablement Lifecycle Framework service
+ - The enums `TypeEnum`, `LifecycleStateEnum`, and `InfrastructureTypeEnum` in the model `AutonomousContainerDatabaseBackup` now deserialize unknown values as `UnknownEnumValue` instead of throwing an exception, and the underlying numeric values of their existing enum members have changed, in the Database service
+
 ## 143.0.0 - 2026-07-28
 ### Added
  - Support for retention locks for block backups in the Block Volume service

@@ -16,25 +16,25 @@ using Newtonsoft.Json.Converters;
 namespace Oci.MarketplaceprivateofferService.Models
 {
     /// <summary>
-    /// the pricing information for the offer
+    /// The pricing information for the offer.
     /// </summary>
     public class Pricing 
     {
         
         /// <value>
-        /// The currency supported for a given Offer, in the format specified by ISO-4217
+        /// The currency supported for a given Offer, in the format specified by ISO-4217.
         /// </value>
         [JsonProperty(PropertyName = "currencyType")]
         public string CurrencyType { get; set; }
         
         /// <value>
-        /// The total amount an Offer costs
+        /// The total amount an offer costs.
         /// </value>
         [JsonProperty(PropertyName = "totalAmount")]
         public System.Nullable<long> TotalAmount { get; set; }
                 ///
         /// <value>
-        /// The frequency at which the customer is billed for the Offer
+        /// The frequency at which the customer is billed for the offer.
         /// </value>
         ///
         public enum BillingCycleEnum {
@@ -46,7 +46,7 @@ namespace Oci.MarketplaceprivateofferService.Models
         };
 
         /// <value>
-        /// The frequency at which the customer is billed for the Offer
+        /// The frequency at which the customer is billed for the offer.
         /// </value>
         [JsonProperty(PropertyName = "billingCycle")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
