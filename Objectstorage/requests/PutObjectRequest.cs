@@ -163,9 +163,10 @@ namespace Oci.ObjectstorageService.Requests
         
         /// <value>
         /// The optional Content-Type header that defines the standard MIME type format of the object. Content type defaults to
-        /// 'application/octet-stream' if not specified in the PutObject call. Specifying values for this header has no effect
-        /// on Object Storage behavior. Programs that read the object determine what to do based on the value provided. For example,
-        /// you could use this header to identify and perform special operations on text only objects.
+        /// 'application/octet-stream' if not specified in the PutObject call. In the OCI CLI, you can set this value to 'auto'
+        /// to have the CLI infer the content type from the file name. Specifying values for this header has no effect on Object
+        /// Storage behavior. Programs that read the object determine what to do based on the value provided. For example, you
+        /// could use this header to identify and perform special operations on text only objects.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "Content-Type")]

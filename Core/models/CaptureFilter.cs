@@ -125,6 +125,13 @@ namespace Oci.CoreService.Models
         public System.Nullable<FilterTypeEnum> FilterType { get; set; }
         
         /// <value>
+        /// Usage of system tag keys. These predefined keys are scoped to namespaces.
+        /// Example: { &quot;orcl-cloud&quot;: { &quot;free-tier-retained&quot;: &quot;true&quot; } }
+        /// </value>
+        [JsonProperty(PropertyName = "systemTags")]
+        public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> SystemTags { get; set; }
+        
+        /// <value>
         /// The date and time the capture filter was created, in the format defined by [RFC3339](https://tools.ietf.org/html/rfc3339).
         /// <br/>
         /// Example: 2021-08-25T21:10:29.600Z

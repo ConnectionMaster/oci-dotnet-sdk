@@ -59,6 +59,9 @@ namespace Oci.CoreService.Models
         [JsonProperty(PropertyName = "recycleLevel")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<RecycleLevelEnum> RecycleLevel { get; set; }
+        
+        [JsonProperty(PropertyName = "quickRecycleSettings")]
+        public QuickRecycleSettings QuickRecycleSettings { get; set; }
                 ///
         /// <value>
         /// The state of the host group configuration.

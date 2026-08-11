@@ -130,6 +130,14 @@ namespace Oci.ResourceschedulerService.Models
         public System.Nullable<System.DateTime> TimeEnds { get; set; }
         
         /// <value>
+        /// IANA timezone identifier (e.g., 'America/New_York', 'UTC', 'Europe/London').
+        /// This determines the timezone context for evaluating the recurrence expression.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "localTimeZone")]
+        public string LocalTimeZone { get; set; }
+        
+        /// <value>
         /// These are free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.
         /// For more information, see [Resource Tags](https://docs.oracle.com/iaas/Content/General/Concepts/resourcetags.htm).
         /// <br/>
