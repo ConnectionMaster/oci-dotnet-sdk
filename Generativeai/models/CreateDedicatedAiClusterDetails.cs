@@ -137,6 +137,9 @@ namespace Oci.GenerativeaiService.Models
         /// - OAI_B200_X4
         /// - OAI_B200_X8
         /// - SB_B200_X1
+        /// - COHERE_B300_X1
+        /// - META_B300_X1
+        /// - OAI_B300_X1
         /// 
         /// </value>
         /// <remarks>

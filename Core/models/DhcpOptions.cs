@@ -122,6 +122,13 @@ namespace Oci.CoreService.Models
         public System.Collections.Generic.List<DhcpOption> Options { get; set; }
         
         /// <value>
+        /// Usage of system tag keys. These predefined keys are scoped to namespaces.
+        /// Example: { &quot;orcl-cloud&quot;: { &quot;free-tier-retained&quot;: &quot;true&quot; } }
+        /// </value>
+        [JsonProperty(PropertyName = "systemTags")]
+        public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> SystemTags { get; set; }
+        
+        /// <value>
         /// Date and time the set of DHCP options was created, in the format defined by [RFC3339](https://tools.ietf.org/html/rfc3339).
         /// <br/>
         /// Example: 2016-08-25T21:10:29.600Z

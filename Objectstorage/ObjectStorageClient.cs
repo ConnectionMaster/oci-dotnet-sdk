@@ -50,10 +50,10 @@ namespace Oci.ObjectstorageService
             {
                 ServiceName = "OBJECTSTORAGE",
                 ServiceEndpointPrefix = "objectstorage",
-                ServiceEndpointTemplate = "https://objectstorage.{region}.{secondLevelDomain}",
+                ServiceEndpointTemplate = "https://objectstorage.{region}.{dualStack?ds.oci.:}{secondLevelDomain}",
                 EndpointServiceName = "objectstorage"
             };
-            service.AddServiceEndpointTemplateForRealm("oc1", "https://{namespaceName+Dot}objectstorage.{region}.oci.customer-oci.com");
+            service.AddServiceEndpointTemplateForRealm("oc1", "https://{namespaceName+Dot}objectstorage.{region}.{dualStack?ds.:}oci.customer-oci.com");
 
             ClientConfiguration clientConfigurationToUse = clientConfiguration ?? new ClientConfiguration();
 

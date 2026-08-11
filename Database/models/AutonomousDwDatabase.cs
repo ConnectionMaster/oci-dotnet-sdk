@@ -1307,6 +1307,30 @@ namespace Oci.DatabaseService.Models
         public string ClusterPlacementGroupId { get; set; }
         
         /// <value>
+        /// The Availability Domain which is planned for Scheduled Update
+        /// </value>
+        [JsonProperty(PropertyName = "adScheduledForUpdate")]
+        public string AdScheduledForUpdate { get; set; }
+        
+        /// <value>
+        /// The earliest date and time to which you can schedule an Autonomous Database availability domain update.
+        /// </value>
+        [JsonProperty(PropertyName = "timeEarliestAvailableAdUpdate")]
+        public System.Nullable<System.DateTime> TimeEarliestAvailableAdUpdate { get; set; }
+        
+        /// <value>
+        /// The latest date and time to which you can schedule an Autonomous Database availability domain update.
+        /// </value>
+        [JsonProperty(PropertyName = "timeLatestAvailableAdUpdate")]
+        public System.Nullable<System.DateTime> TimeLatestAvailableAdUpdate { get; set; }
+        
+        /// <value>
+        /// The date and time to which the Autonomous Database availability domain update is scheduled.
+        /// </value>
+        [JsonProperty(PropertyName = "timeScheduledAdUpdate")]
+        public System.Nullable<System.DateTime> TimeScheduledAdUpdate { get; set; }
+        
+        /// <value>
         /// A list of the source Autonomous AI Database's table space number(s) used to create this partial clone from the backup.
         /// </value>
         [JsonProperty(PropertyName = "cloneTableSpaceList")]

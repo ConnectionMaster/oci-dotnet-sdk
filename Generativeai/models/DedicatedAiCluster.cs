@@ -271,6 +271,12 @@ namespace Oci.GenerativeaiService.Models
             MetaB200X4,
             [EnumMember(Value = "META_B200_X8")]
             MetaB200X8,
+            [EnumMember(Value = "COHERE_B300_X1")]
+            CohereB300X1,
+            [EnumMember(Value = "META_B300_X1")]
+            MetaB300X1,
+            [EnumMember(Value = "OAI_B300_X1")]
+            OaiB300X1,
             [EnumMember(Value = "LARGE_COHERE_V3")]
             LargeCohereV3,
             [EnumMember(Value = "RERANK_COHERE")]
