@@ -152,6 +152,30 @@ namespace Oci.DatabaseService.Models
         public System.Nullable<bool> IsFreeTier { get; set; }
         
         /// <value>
+        /// The Autonomous Database Serverless instance's availability domain.
+        /// </value>
+        [JsonProperty(PropertyName = "availabilityDomain")]
+        public string AvailabilityDomain { get; set; }
+        
+        /// <value>
+        /// The date and time when the Autonomous Database availability domain is to be updated.
+        /// </value>
+        [JsonProperty(PropertyName = "timeScheduledAdUpdate")]
+        public System.Nullable<System.DateTime> TimeScheduledAdUpdate { get; set; }
+        
+        /// <value>
+        /// True, if you want to disable Autonomous Database availability domain scheduled update.
+        /// </value>
+        [JsonProperty(PropertyName = "isDisableAdUpdateSchedule")]
+        public System.Nullable<bool> IsDisableAdUpdateSchedule { get; set; }
+        
+        /// <value>
+        /// True, if you want to schedule Autonomous Database availability domain update to the earliest available time.
+        /// </value>
+        [JsonProperty(PropertyName = "isScheduleAdUpdateToEarliest")]
+        public System.Nullable<bool> IsScheduleAdUpdateToEarliest { get; set; }
+        
+        /// <value>
         /// The password must be between 12 and 30 characters long, and must contain at least 1 uppercase, 1 lowercase, and 1 numeric character. It cannot contain the double quote symbol (\") or the username \"admin\", regardless of casing. It must be different from the last four passwords and it must not be a password used within the last 24 hours.
         /// <br/>
         /// This cannot be used in conjunction with with OCI vault secrets (secretId).
