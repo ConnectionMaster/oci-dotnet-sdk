@@ -102,5 +102,11 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "definedTags")]
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> DefinedTags { get; set; }
         
+        /// <value>
+        /// The password for the VPC user that is used to access the Recovery Appliance, if the given backup is from a backup destination of type RECOVERY_APPLIANCE.
+        /// </value>
+        [JsonProperty(PropertyName = "recoveryApplianceVpcPassword")]
+        public string RecoveryApplianceVpcPassword { get; set; }
+        
     }
 }

@@ -108,5 +108,11 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "vmClusterId")]
         public string VmClusterId { get; set; }
         
+        /// <value>
+        /// The password for the VPC user that is used to access the Recovery Appliance, if the given backup is from a backup destination of type RECOVERY_APPLIANCE.
+        /// </value>
+        [JsonProperty(PropertyName = "recoveryApplianceVpcPassword")]
+        public string RecoveryApplianceVpcPassword { get; set; }
+        
     }
 }
