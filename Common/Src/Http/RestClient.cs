@@ -230,7 +230,10 @@ namespace Oci.Common.Http
 
             try
             {
-                logger.Debug("Dumping HttpResponse:\n{0}", httpResponse.ToString());
+                if (logger.IsDebugEnabled)
+                {
+                    logger.Debug("Dumping HttpResponse:\n{0}", HeaderRedactor.RedactSensitiveHeadersForLogs(httpResponse.ToString()));
+                }
                 // Check for success immediately to avoid unnecessary processing of failure responses.
                 if (!httpResponse.IsSuccessStatusCode && httpResponse?.StatusCode != System.Net.HttpStatusCode.NotModified)
                 {

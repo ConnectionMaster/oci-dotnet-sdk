@@ -255,7 +255,11 @@ namespace Oci.DatabaseService.Models
             [EnumMember(Value = "DBRS")]
             Dbrs,
             [EnumMember(Value = "AWS_S3")]
-            AwsS3
+            AwsS3,
+            [EnumMember(Value = "NFS")]
+            Nfs,
+            [EnumMember(Value = "RECOVERY_APPLIANCE")]
+            RecoveryAppliance
         };
 
         /// <value>

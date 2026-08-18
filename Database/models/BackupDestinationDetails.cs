@@ -142,5 +142,8 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "remoteRegion")]
         public string RemoteRegion { get; set; }
         
+        [JsonProperty(PropertyName = "tdeWalletBackupDestination")]
+        public TdeWalletBackupDestination TdeWalletBackupDestination { get; set; }
+        
     }
 }
