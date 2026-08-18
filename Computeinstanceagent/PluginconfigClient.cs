@@ -48,7 +48,7 @@ namespace Oci.ComputeinstanceagentService
             {
                 ServiceName = "PLUGINCONFIG",
                 ServiceEndpointPrefix = "",
-                ServiceEndpointTemplate = "https://iaas.{region}.{secondLevelDomain}"
+                ServiceEndpointTemplate = "https://iaas.{region}.{dualStack?ds.:}oci.{secondLevelDomain}"
             };
 
             ClientConfiguration clientConfigurationToUse = clientConfiguration ?? new ClientConfiguration();
@@ -81,7 +81,8 @@ namespace Oci.ComputeinstanceagentService
         public async Task<ListInstanceagentAvailablePluginsResponse> ListInstanceagentAvailablePlugins(ListInstanceagentAvailablePluginsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
         {
             logger.Trace("Called listInstanceagentAvailablePlugins");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/instanceagent/availablePlugins".Trim('/')));
+            var requiredParametersDictionary = new System.Collections.Generic.Dictionary<string, object> { { "compartmentId", request.CompartmentId }, { "osName", request.OsName }, { "osVersion", request.OsVersion } };
+            Uri uri = new Uri(PopulateServiceParametersInEndpointTemplate(this.restClient, requiredParametersDictionary), System.IO.Path.Combine(basePathWithoutHost, "/instanceagent/availablePlugins".Trim('/')));
             HttpMethod method = new HttpMethod("GET");
             HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
             requestMessage.Headers.Add("Accept", "application/json");

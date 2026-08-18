@@ -9,6 +9,7 @@ using System.Security.Authentication;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading;
 using System.Threading.Tasks;
+using Oci.Common.Http.Internal;
 
 namespace Oci.Common.Http
 {
@@ -58,7 +59,10 @@ namespace Oci.Common.Http
             // Invoke request receptor (callback) so that consumer get an oppotunity to add custom headers.
             //
             this.callback?.Invoke(request);
-            logger.Debug("Dumping HttpRequest:\n{0}", request.ToString());
+            if (logger.IsDebugEnabled)
+            {
+                logger.Debug("Dumping HttpRequest:\n{0}", HeaderRedactor.RedactSensitiveHeadersForLogs(request.ToString()));
+            }
             return base.SendAsync(request, cancellationToken);
         }
 

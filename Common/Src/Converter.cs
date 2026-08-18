@@ -81,13 +81,20 @@ namespace Oci.Common
                             else if (propertyType.IsGenericType && propertyType.GetGenericTypeDefinition() == typeof(List<>))
                             {
                                 var headerName = httpRequestAttr.Name;
-                                var csvHeaderValue = string.Join(",", prop.GetValue(request) as IList<string>);
-                                logger.Debug($"Adding header {headerName}: {csvHeaderValue}");
+                                var headerValues = prop.GetValue(request) as IList<string>;
+                                var csvHeaderValue = string.Join(",", headerValues);
+                                if (logger.IsDebugEnabled)
+                                {
+                                    logger.Debug($"Adding header {headerName}: {string.Join(",", headerValues.Select(value => HeaderRedactor.RedactHeaderValue(headerName, value)))}");
+                                }
                                 requestMessage.Headers.TryAddWithoutValidation(headerName.ToLower(), csvHeaderValue);
                             }
                             else
                             {
-                                logger.Debug($"Adding header {httpRequestAttr.Name}: {prop.GetValue(request)}");
+                                if (logger.IsDebugEnabled)
+                                {
+                                    logger.Debug($"Adding header {httpRequestAttr.Name}: {HeaderRedactor.RedactHeaderValue(httpRequestAttr.Name, Convert.ToString(prop.GetValue(request)))}");
+                                }
                                 // To avoid validating header name formatting (.Net HttpClient has some strict validation rules and not all OCI service headers satisfy them.),
                                 // call TryAddWithoutValidation instead of Add.
                                 var headerName = httpRequestAttr.Name;
