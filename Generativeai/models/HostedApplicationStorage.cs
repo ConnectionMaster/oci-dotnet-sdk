@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.GenerativeaiService.Models
 {
     /// <summary>
-    /// defines a physical storage (database or cache) managed by service. Each application can choose one or two storages for certain purpose such as agent memory. 
+    /// Represents managed storage for an application. An application can use at most one managed storage resource of each type.
     /// <br/>
     /// To use any of the API operations, you must be authorized in an IAM policy. If you're not authorized, talk to an administrator who gives OCI resource access to users. See
     /// [Getting Started with Policies](https://docs.oracle.com/iaas/Content/Identity/policiesgs/get-started-with-policies.htm) and [Getting Access to Generative AI Resources](https://docs.oracle.com/iaas/Content/generative-ai/iam-policies.htm).
@@ -62,7 +62,7 @@ namespace Oci.GenerativeaiService.Models
         public string CompartmentId { get; set; }
                 ///
         /// <value>
-        /// type like Cache, Postgresql and ADB.
+        /// The managed storage type for the application.
         /// </value>
         ///
         public enum StorageTypeEnum {
@@ -78,7 +78,7 @@ namespace Oci.GenerativeaiService.Models
         };
 
         /// <value>
-        /// type like Cache, Postgresql and ADB.
+        /// The managed storage type for the application.
         /// </value>
         /// <remarks>
         /// Required

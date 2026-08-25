@@ -22,7 +22,7 @@ namespace Oci.GenerativeaiService.Models
     {
         
         /// <value>
-        /// The key of environment variable to store the database connection.
+        /// The environment variable key for accessing the managed storage.
         /// </value>
         /// <remarks>
         /// Required

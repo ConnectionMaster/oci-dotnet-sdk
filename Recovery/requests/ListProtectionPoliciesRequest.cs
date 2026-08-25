@@ -22,10 +22,6 @@ namespace Oci.RecoveryService.Requests
         /// <value>
         /// The compartment OCID.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "CompartmentId is required.")]
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "compartmentId")]
         public string CompartmentId { get; set; }
         
@@ -64,6 +60,12 @@ namespace Oci.RecoveryService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "owner")]
         public System.Nullable<OwnerEnum> Owner { get; set; }
+        
+        /// <value>
+        /// A filter to return only the protection policies that enforce backup colocation (mustEnforceCloudLocality is set to TRUE).
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "mustEnforceCloudLocality")]
+        public System.Nullable<bool> MustEnforceCloudLocality { get; set; }
         
         /// <value>
         /// The maximum number of items to return. Specify a value greater than 4.

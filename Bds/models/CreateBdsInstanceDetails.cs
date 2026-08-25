@@ -120,6 +120,12 @@ namespace Oci.BdsService.Models
         public System.Collections.Generic.List<CreateNodeDetails> Nodes { get; set; }
         
         /// <value>
+        /// Optional BDS capacity reservation configurations to associate with the cluster during creation.
+        /// </value>
+        [JsonProperty(PropertyName = "bdsCapacityReservationConfigurations")]
+        public System.Collections.Generic.List<CreateBdsCapacityReservationConfigurationDetails> BdsCapacityReservationConfigurations { get; set; }
+        
+        /// <value>
         /// The user-defined kerberos realm name.
         /// </value>
         [JsonProperty(PropertyName = "kerberosRealmName")]

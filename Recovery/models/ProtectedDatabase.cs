@@ -207,6 +207,13 @@ namespace Oci.RecoveryService.Models
         public Metrics Metrics { get; set; }
         
         /// <value>
+        /// Indicates the cloud service environment where the protected database is provisioned. For example, Oracle Cloud or Microsoft Azure.
+        /// </value>
+        [JsonProperty(PropertyName = "backupCloudLocation")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<BackupCloudLocation> BackupCloudLocation { get; set; }
+        
+        /// <value>
         /// The OCID of the cloud service subscription to which the protected database is linked.
         /// </value>
         [JsonProperty(PropertyName = "subscriptionId")]

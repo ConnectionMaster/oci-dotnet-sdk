@@ -74,6 +74,16 @@ namespace Oci.MysqlService.Models
       [EnumMember(Value = "UPDATE_BACKUP")]
       UpdateBackup,
       [EnumMember(Value = "EXPORT_BACKUP")]
-      ExportBackup
+      ExportBackup,
+      [EnumMember(Value = "CREATE_BLUE_GREEN_DEPLOYMENT")]
+      CreateBlueGreenDeployment,
+      [EnumMember(Value = "UPDATE_BLUE_GREEN_DEPLOYMENT")]
+      UpdateBlueGreenDeployment,
+      [EnumMember(Value = "DELETE_BLUE_GREEN_DEPLOYMENT")]
+      DeleteBlueGreenDeployment,
+      [EnumMember(Value = "CHANGE_BLUE_GREEN_DEPLOYMENT_COMPARTMENT")]
+      ChangeBlueGreenDeploymentCompartment,
+      [EnumMember(Value = "SWITCHOVER_BLUE_GREEN_DEPLOYMENT")]
+      SwitchoverBlueGreenDeployment
   }
 }

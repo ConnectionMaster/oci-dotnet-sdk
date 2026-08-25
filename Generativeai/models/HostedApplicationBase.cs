@@ -108,7 +108,7 @@ namespace Oci.GenerativeaiService.Models
         public ScalingConfig ScalingConfig { get; set; }
         
         /// <value>
-        /// A list of storageConfigs managed by the OCI GenAI Platform and attached to the application.
+        /// A list of managed storage configurations for the application.
         /// </value>
         [JsonProperty(PropertyName = "storageConfigs")]
         public System.Collections.Generic.List<StorageConfig> StorageConfigs { get; set; }

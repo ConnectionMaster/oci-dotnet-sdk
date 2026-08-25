@@ -187,6 +187,12 @@ namespace Oci.BdsService.Models
         [JsonProperty(PropertyName = "nodes")]
         public System.Collections.Generic.List<Node> Nodes { get; set; }
         
+        /// <value>
+        /// The list of BDS capacity reservation configurations associated with the cluster.
+        /// </value>
+        [JsonProperty(PropertyName = "bdsCapacityReservationConfigurations")]
+        public System.Collections.Generic.List<BdsCapacityReservationConfiguration> BdsCapacityReservationConfigurations { get; set; }
+        
         [JsonProperty(PropertyName = "cloudSqlDetails")]
         public CloudSqlDetails CloudSqlDetails { get; set; }
         

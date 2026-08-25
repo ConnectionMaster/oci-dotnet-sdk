@@ -24,10 +24,6 @@ namespace Oci.BdsService.Models
         /// <value>
         /// BDS version to be used for cluster creation
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "BdsVersion is required.")]
         [JsonProperty(PropertyName = "bdsVersion")]
         public string BdsVersion { get; set; }
         

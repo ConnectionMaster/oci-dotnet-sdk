@@ -88,6 +88,62 @@ namespace Oci.BdsService
         /// <param name="request">Request to send.</param>
         /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetBdsCapacityReservationRequest, GetBdsCapacityReservationResponse> ForBdsCapacityReservation(GetBdsCapacityReservationRequest request, params BdsCapacityReservation.LifecycleStateEnum[] targetStates)
+        {
+            return this.ForBdsCapacityReservation(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetBdsCapacityReservationRequest, GetBdsCapacityReservationResponse> ForBdsCapacityReservation(GetBdsCapacityReservationRequest request, WaiterConfiguration config, params BdsCapacityReservation.LifecycleStateEnum[] targetStates)
+        {
+            var agent = new WaiterAgent<GetBdsCapacityReservationRequest, GetBdsCapacityReservationResponse>(
+                request,
+                request => client.GetBdsCapacityReservation(request),
+                response => targetStates.Contains(response.BdsCapacityReservation.LifecycleState.Value),
+                targetStates.Contains(BdsCapacityReservation.LifecycleStateEnum.Deleted)
+            );
+            return new Waiter<GetBdsCapacityReservationRequest, GetBdsCapacityReservationResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetBdsCapacityReservationConfigurationRequest, GetBdsCapacityReservationConfigurationResponse> ForBdsCapacityReservationConfiguration(GetBdsCapacityReservationConfigurationRequest request, params BdsCapacityReservationConfiguration.LifecycleStateEnum[] targetStates)
+        {
+            return this.ForBdsCapacityReservationConfiguration(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetBdsCapacityReservationConfigurationRequest, GetBdsCapacityReservationConfigurationResponse> ForBdsCapacityReservationConfiguration(GetBdsCapacityReservationConfigurationRequest request, WaiterConfiguration config, params BdsCapacityReservationConfiguration.LifecycleStateEnum[] targetStates)
+        {
+            var agent = new WaiterAgent<GetBdsCapacityReservationConfigurationRequest, GetBdsCapacityReservationConfigurationResponse>(
+                request,
+                request => client.GetBdsCapacityReservationConfiguration(request),
+                response => targetStates.Contains(response.BdsCapacityReservationConfiguration.LifecycleState.Value),
+                targetStates.Contains(BdsCapacityReservationConfiguration.LifecycleStateEnum.Deleted)
+            );
+            return new Waiter<GetBdsCapacityReservationConfigurationRequest, GetBdsCapacityReservationConfigurationResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<GetBdsCertificateConfigurationRequest, GetBdsCertificateConfigurationResponse> ForBdsCertificateConfiguration(GetBdsCertificateConfigurationRequest request, params BdsCertificateConfiguration.LifecycleStateEnum[] targetStates)
         {
             return this.ForBdsCertificateConfiguration(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
