@@ -32,6 +32,34 @@ namespace Oci.RecoveryService
         /// <param name="request">Request to send.</param>
         /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetLongTermBackupRequest, GetLongTermBackupResponse> ForLongTermBackup(GetLongTermBackupRequest request, params LongTermBackup.LifecycleStateEnum[] targetStates)
+        {
+            return this.ForLongTermBackup(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetLongTermBackupRequest, GetLongTermBackupResponse> ForLongTermBackup(GetLongTermBackupRequest request, WaiterConfiguration config, params LongTermBackup.LifecycleStateEnum[] targetStates)
+        {
+            var agent = new WaiterAgent<GetLongTermBackupRequest, GetLongTermBackupResponse>(
+                request,
+                request => client.GetLongTermBackup(request),
+                response => targetStates.Contains(response.LongTermBackup.LifecycleState.Value),
+                targetStates.Contains(LongTermBackup.LifecycleStateEnum.Deleted)
+            );
+            return new Waiter<GetLongTermBackupRequest, GetLongTermBackupResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<GetProtectedDatabaseRequest, GetProtectedDatabaseResponse> ForProtectedDatabase(GetProtectedDatabaseRequest request, params LifecycleState[] targetStates)
         {
             return this.ForProtectedDatabase(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);

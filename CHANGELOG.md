@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on Keep a [Changelog](http://keepachangelog.com/).
 
+## 145.0.0 - 2026-08-25
+### Added
+ - Support for blue/green deployments in the MySQL HeatWave service
+ - Support for capacity reservations, capacity reservation configurations, and associating reservations when creating instances in the Big Data service
+ - Support for Zero Trust Packet Routing (ZPR) security attributes on recovery subnets in the Autonomous Recovery service
+ - Support for network firewall as a Virtual Test Access Points (VTAP) source in the Networking service
+ - Support for NL2SQL model selection, annotation, background mode and delta enrichment in the Generative AI service
+ - Support for NL2SQL model selection, annotation, background mode and delta enrichment in the Generative AI Data service
+ - Support for B200, B300, L40S, and MI300X dedicated AI cluster unit shapes in the Generative AI service  
+
+### Breaking Changes
+ - The clients `CancelEnrichmentJobClient`, `GenerateEnrichmentJobClient`, `GetEnrichmentJobClient`, and `ListEnrichmentJobsClient` were removed from the Generative AI Data service
+ - The client `GenerateSqlFromNlJobClient` was renamed to `GenerateSqlClient` in the Generative AI Data service
+ - The paginator `ListEnrichmentJobsPaginators` was renamed to `EnrichmentJobPaginators` in the Generative AI Data service
+ - The waiter `GetEnrichmentJobWaiters` was renamed to `EnrichmentJobWaiters` in the Generative AI Data service
+
 ## 144.2.0 - 2026-08-18
 ### Added
  - Support for creating databases from another database with additional input fields and source encryption-key location details in the Database service

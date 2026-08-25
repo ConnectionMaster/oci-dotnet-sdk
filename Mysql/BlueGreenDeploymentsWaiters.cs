@@ -8,20 +8,20 @@
 
 using System.Linq;
 using Oci.Common.Waiters;
-using Oci.GenerativeaidataService.Models;
-using Oci.GenerativeaidataService.Requests;
-using Oci.GenerativeaidataService.Responses;
+using Oci.MysqlService.Models;
+using Oci.MysqlService.Requests;
+using Oci.MysqlService.Responses;
 
-namespace Oci.GenerativeaidataService
+namespace Oci.MysqlService
 {
     /// <summary>
-    /// Contains collection of helper methods to produce Oci.Common.Waiters for different resources of GetEnrichmentJob.
+    /// Contains collection of helper methods to produce Oci.Common.Waiters for different resources of BlueGreenDeployments.
     /// </summary>
-    public class GetEnrichmentJobWaiters
+    public class BlueGreenDeploymentsWaiters
     {
-        private readonly GetEnrichmentJobClient client;
+        private readonly BlueGreenDeploymentsClient client;
 
-        public  GetEnrichmentJobWaiters(GetEnrichmentJobClient client)
+        public  BlueGreenDeploymentsWaiters(BlueGreenDeploymentsClient client)
         {
             this.client = client;
         }
@@ -32,9 +32,9 @@ namespace Oci.GenerativeaidataService
         /// <param name="request">Request to send.</param>
         /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
-        public Waiter<GetEnrichmentJobRequest, GetEnrichmentJobResponse> ForEnrichmentJob(GetEnrichmentJobRequest request, params LifecycleState[] targetStates)
+        public Waiter<GetBlueGreenDeploymentRequest, GetBlueGreenDeploymentResponse> ForBlueGreenDeployment(GetBlueGreenDeploymentRequest request, params BlueGreenDeployment.LifecycleStateEnum[] targetStates)
         {
-            return this.ForEnrichmentJob(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+            return this.ForBlueGreenDeployment(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
         }
 
         /// <summary>
@@ -44,14 +44,15 @@ namespace Oci.GenerativeaidataService
         /// <param name="config">Wait Configuration</param>
         /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
-        public Waiter<GetEnrichmentJobRequest, GetEnrichmentJobResponse> ForEnrichmentJob(GetEnrichmentJobRequest request, WaiterConfiguration config, params LifecycleState[] targetStates)
+        public Waiter<GetBlueGreenDeploymentRequest, GetBlueGreenDeploymentResponse> ForBlueGreenDeployment(GetBlueGreenDeploymentRequest request, WaiterConfiguration config, params BlueGreenDeployment.LifecycleStateEnum[] targetStates)
         {
-            var agent = new WaiterAgent<GetEnrichmentJobRequest, GetEnrichmentJobResponse>(
+            var agent = new WaiterAgent<GetBlueGreenDeploymentRequest, GetBlueGreenDeploymentResponse>(
                 request,
-                request => client.GetEnrichmentJob(request),
-                response => targetStates.Contains(response.EnrichmentJob.LifecycleState.Value)
+                request => client.GetBlueGreenDeployment(request),
+                response => targetStates.Contains(response.BlueGreenDeployment.LifecycleState.Value),
+                targetStates.Contains(BlueGreenDeployment.LifecycleStateEnum.Deleted)
             );
-            return new Waiter<GetEnrichmentJobRequest, GetEnrichmentJobResponse>(config, agent);
+            return new Waiter<GetBlueGreenDeploymentRequest, GetBlueGreenDeploymentResponse>(config, agent);
         }
     }
 }

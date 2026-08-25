@@ -34,12 +34,8 @@ namespace Oci.GenerativeaidataService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// Enrichment job type. Currently supported Full Build (All supported objects in a given schema) and Partial Build (Selected tables and/or supported objects in a given schema).
+        /// Deprecated. Use EnrichmentJobConfiguration.enrichmentJobType instead.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "EnrichmentJobType is required.")]
         [JsonProperty(PropertyName = "enrichmentJobType")]
         [JsonConverter(typeof(StringEnumConverter))]
         public System.Nullable<EnrichmentJobType> EnrichmentJobType { get; set; }

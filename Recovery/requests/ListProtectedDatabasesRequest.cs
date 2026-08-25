@@ -22,10 +22,6 @@ namespace Oci.RecoveryService.Requests
         /// <value>
         /// The compartment OCID.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "CompartmentId is required.")]
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "compartmentId")]
         public string CompartmentId { get; set; }
         
@@ -58,6 +54,12 @@ namespace Oci.RecoveryService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "recoveryServiceSubnetId")]
         public string RecoveryServiceSubnetId { get; set; }
+        
+        /// <value>
+        /// Filter for cloud location of protected database.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "backupCloudLocation")]
+        public System.Nullable<BackupCloudLocation> BackupCloudLocation { get; set; }
         
         /// <value>
         /// The maximum number of items to return per page.

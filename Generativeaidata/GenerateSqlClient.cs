@@ -22,11 +22,13 @@ using Oci.GenerativeaidataService.Responses;
 
 namespace Oci.GenerativeaidataService
 {
-    /// <summary>Service client instance for GenerateSqlFromNlJob.</summary>
-    public class GenerateSqlFromNlJobClient : RegionalClientBase
+    /// <summary>Service client instance for GenerateSql.</summary>
+    public class GenerateSqlClient : RegionalClientBase
     {
         private readonly RetryConfiguration retryConfiguration;
         private const string basePathWithoutHost = "/20260325";
+
+        public GenerateSqlWaiters Waiters { get; }
 
         /// <summary>
         /// Creates a new service instance using the given authentication provider and/or client configuration and/or endpoint.
@@ -35,7 +37,7 @@ namespace Oci.GenerativeaidataService
         /// <param name="authenticationDetailsProvider">The authentication details provider. Required.</param>
         /// <param name="clientConfiguration">The client configuration that contains settings to adjust REST client behaviors. Optional.</param>
         /// <param name="endpoint">The endpoint of the service. If not provided and the client is a regional client, the endpoint will be constructed based on region information. Optional.</param>
-        public GenerateSqlFromNlJobClient(IBasicAuthenticationDetailsProvider authenticationDetailsProvider, ClientConfiguration clientConfiguration = null, string endpoint = null)
+        public GenerateSqlClient(IBasicAuthenticationDetailsProvider authenticationDetailsProvider, ClientConfiguration clientConfiguration = null, string endpoint = null)
             : base(authenticationDetailsProvider, clientConfiguration)
         {
             if (!DeveloperToolConfiguration.IsServiceEnabled("generativeaidata"))
@@ -44,7 +46,7 @@ namespace Oci.GenerativeaidataService
             }
             service = new Service
             {
-                ServiceName = "GENERATESQLFROMNLJOB",
+                ServiceName = "GENERATESQL",
                 ServiceEndpointPrefix = "",
                 ServiceEndpointTemplate = "https://inference.generativeai.{region}.oci.{secondLevelDomain}"
             };
@@ -64,10 +66,25 @@ namespace Oci.GenerativeaidataService
             }
 
             this.retryConfiguration = clientConfigurationToUse.RetryConfiguration;
+            Waiters = new GenerateSqlWaiters(this);
         }
 
         /// <summary>
         /// Generates a SQL query from a natural language input for the specified SemanticStore.
+        /// &lt;br/&gt;
+        /// This operation creates a GenerateSqlFromNlJob. The request can either be processed as a
+        /// background job or wait for completion, depending on completionMode.
+        /// &lt;br/&gt;
+        /// If modelId is provided, the service validates it and uses it for schema-linking in table selection,
+        /// SQL generation, and SQL refinement. If modelId is omitted, the service default model is used. The response
+        /// includes the modelId used for generation.
+        /// &lt;br/&gt;
+        /// Clients should inspect lifecycleState in the response:
+        /// - If lifecycleState is SUCCEEDED, SQL generation is complete and the result is available in jobOutput.
+        /// - If lifecycleState is ACCEPTED or IN_PROGRESS, poll GetGenerateSqlFromNlJob using the returned job id.
+        /// - If lifecycleState is FAILED or CANCELED, SQL generation did not complete. See lifecycleDetails for more information.
+        /// &lt;br/&gt;
+        /// The GetGenerateSqlFromNlJob endpoint is the source of truth for final job state and result availability.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -101,7 +118,7 @@ namespace Oci.GenerativeaidataService
                 stopWatch.Stop();
                 ApiDetails apiDetails = new ApiDetails
                 {
-                    ServiceName = "GenerateSqlFromNlJob",
+                    ServiceName = "GenerateSql",
                     OperationName = "GenerateSqlFromNl",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
                     ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/generative-ai-nl2sql/20260325/GenerateSqlFromNlJob/GenerateSqlFromNl",
@@ -119,6 +136,66 @@ namespace Oci.GenerativeaidataService
             catch (Exception e)
             {
                 logger.Error($"GenerateSqlFromNl failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Retrieves the current state of a GenerateSqlFromNlJob.
+        /// Clients should poll this endpoint until lifecycleState is SUCCEEDED or FAILED.
+        /// When lifecycleState is SUCCEEDED, the result is available in jobOutput.
+        /// The returned job includes the modelId used for generation.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/generativeaidata/GetGenerateSqlFromNlJob.cs.html">here</a> to see an example of how to use GetGenerateSqlFromNlJob API.</example>
+        public async Task<GetGenerateSqlFromNlJobResponse> GetGenerateSqlFromNlJob(GetGenerateSqlFromNlJobRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called getGenerateSqlFromNlJob");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/semanticStores/{semanticStoreId}/generateSqlFromNlJobs/{generateSqlFromNlJobId}".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "GenerateSql",
+                    OperationName = "GetGenerateSqlFromNlJob",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/generative-ai-nl2sql/20260325/GenerateSqlFromNlJob/GetGenerateSqlFromNlJob",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<GetGenerateSqlFromNlJobResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetGenerateSqlFromNlJob failed with error: {e.Message}");
                 throw;
             }
         }

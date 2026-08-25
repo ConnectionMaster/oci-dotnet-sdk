@@ -33,8 +33,7 @@ namespace Oci.GenerativeaidataService.Responses
 
 
         /// <value>
-        /// Unique Oracle-assigned identifier for the asynchronous work. You can use this to query its status.
-        /// 
+        /// Not used when `200` status is returned
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Header, "opc-work-request-id")]
         public string OpcWorkRequestId { get; set; }

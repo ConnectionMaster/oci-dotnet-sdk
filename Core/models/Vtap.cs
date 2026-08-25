@@ -242,7 +242,9 @@ namespace Oci.CoreService.Models
             [EnumMember(Value = "EXADATA_VM_CLUSTER")]
             ExadataVmCluster,
             [EnumMember(Value = "AUTONOMOUS_DATA_WAREHOUSE")]
-            AutonomousDataWarehouse
+            AutonomousDataWarehouse,
+            [EnumMember(Value = "NETWORK_FIREWALL")]
+            NetworkFirewall
         };
 
         /// <value>

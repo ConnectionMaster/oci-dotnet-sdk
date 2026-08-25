@@ -150,7 +150,7 @@ namespace Oci.GenerativeaiService.Models
         public System.Nullable<int> UnitCount { get; set; }
                 ///
         /// <value>
-        /// The shape of dedicated unit in this AI cluster. The underlying hardware configuration is hidden from customers.
+        /// The shape of dedicated unit in this AI cluster.
         /// </value>
         ///
         public enum UnitShapeEnum {
@@ -362,11 +362,51 @@ namespace Oci.GenerativeaiService.Models
             [EnumMember(Value = "OAI_B200_X8")]
             OaiB200X8,
             [EnumMember(Value = "SB_B200_X1")]
-            SbB200X1
+            SbB200X1,
+            [EnumMember(Value = "B200_X16")]
+            B200X16,
+            [EnumMember(Value = "B200_X32")]
+            B200X32,
+            [EnumMember(Value = "B300_X1")]
+            B300X1,
+            [EnumMember(Value = "B300_X2")]
+            B300X2,
+            [EnumMember(Value = "B300_X4")]
+            B300X4,
+            [EnumMember(Value = "B300_X8")]
+            B300X8,
+            [EnumMember(Value = "B300_X16")]
+            B300X16,
+            [EnumMember(Value = "B300_X32")]
+            B300X32,
+            [EnumMember(Value = "L40S_X1")]
+            L40SX1,
+            [EnumMember(Value = "L40S_X2")]
+            L40SX2,
+            [EnumMember(Value = "L40S_X4")]
+            L40SX4,
+            [EnumMember(Value = "L40S_X8")]
+            L40SX8,
+            [EnumMember(Value = "L40S_X16")]
+            L40SX16,
+            [EnumMember(Value = "L40S_X32")]
+            L40SX32,
+            [EnumMember(Value = "MI300X_X1")]
+            Mi300XX1,
+            [EnumMember(Value = "MI300X_X2")]
+            Mi300XX2,
+            [EnumMember(Value = "MI300X_X4")]
+            Mi300XX4,
+            [EnumMember(Value = "MI300X_X8")]
+            Mi300XX8,
+            [EnumMember(Value = "MI300X_X16")]
+            Mi300XX16,
+            [EnumMember(Value = "MI300X_X32")]
+            Mi300XX32
         };
 
         /// <value>
-        /// The shape of dedicated unit in this AI cluster. The underlying hardware configuration is hidden from customers.
+        /// The shape of dedicated unit in this AI cluster.
         /// </value>
         /// <remarks>
         /// Required

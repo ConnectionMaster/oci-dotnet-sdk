@@ -198,6 +198,12 @@ namespace Oci.BdsService.Models
         public string FaultDomain { get; set; }
         
         /// <value>
+        /// The OCID of the Compute capacity reservation used by this node.
+        /// </value>
+        [JsonProperty(PropertyName = "computeCapacityReservationId")]
+        public string ComputeCapacityReservationId { get; set; }
+        
+        /// <value>
         /// The time the node was created, shown as an RFC 3339 formatted datetime string.
         /// </value>
         /// <remarks>
