@@ -148,6 +148,153 @@ namespace Oci.BdsService
         }
 
         /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListBdsCapacityReservationAssociatedConfigurations operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListBdsCapacityReservationAssociatedConfigurationsResponse> ListBdsCapacityReservationAssociatedConfigurationsResponseEnumerator(ListBdsCapacityReservationAssociatedConfigurationsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListBdsCapacityReservationAssociatedConfigurationsRequest, ListBdsCapacityReservationAssociatedConfigurationsResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListBdsCapacityReservationAssociatedConfigurations(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the BdsCapacityReservationAssociatedConfigurationSummary objects
+        /// contained in responses from the ListBdsCapacityReservationAssociatedConfigurations operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<BdsCapacityReservationAssociatedConfigurationSummary> ListBdsCapacityReservationAssociatedConfigurationsRecordEnumerator(ListBdsCapacityReservationAssociatedConfigurationsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListBdsCapacityReservationAssociatedConfigurationsRequest, ListBdsCapacityReservationAssociatedConfigurationsResponse, BdsCapacityReservationAssociatedConfigurationSummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListBdsCapacityReservationAssociatedConfigurations(request, retryConfiguration, cancellationToken),
+                response => response.BdsCapacityReservationAssociatedConfigurationCollection.Items
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListBdsCapacityReservationConfigurations operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListBdsCapacityReservationConfigurationsResponse> ListBdsCapacityReservationConfigurationsResponseEnumerator(ListBdsCapacityReservationConfigurationsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListBdsCapacityReservationConfigurationsRequest, ListBdsCapacityReservationConfigurationsResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListBdsCapacityReservationConfigurations(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the BdsCapacityReservationConfigurationSummary objects
+        /// contained in responses from the ListBdsCapacityReservationConfigurations operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<BdsCapacityReservationConfigurationSummary> ListBdsCapacityReservationConfigurationsRecordEnumerator(ListBdsCapacityReservationConfigurationsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListBdsCapacityReservationConfigurationsRequest, ListBdsCapacityReservationConfigurationsResponse, BdsCapacityReservationConfigurationSummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListBdsCapacityReservationConfigurations(request, retryConfiguration, cancellationToken),
+                response => response.BdsCapacityReservationConfigurationCollection.Items
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListBdsCapacityReservations operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListBdsCapacityReservationsResponse> ListBdsCapacityReservationsResponseEnumerator(ListBdsCapacityReservationsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListBdsCapacityReservationsRequest, ListBdsCapacityReservationsResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListBdsCapacityReservations(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the BdsCapacityReservationSummary objects
+        /// contained in responses from the ListBdsCapacityReservations operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<BdsCapacityReservationSummary> ListBdsCapacityReservationsRecordEnumerator(ListBdsCapacityReservationsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListBdsCapacityReservationsRequest, ListBdsCapacityReservationsResponse, BdsCapacityReservationSummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListBdsCapacityReservations(request, retryConfiguration, cancellationToken),
+                response => response.BdsCapacityReservationCollection.Items
+            );
+        }
+
+        /// <summary>
         /// Creates a new enumerable which will iterate over the responses received from the ListBdsCertificateConfigurations operation. This enumerable
         /// will fetch more data from the server as needed.
         /// </summary>

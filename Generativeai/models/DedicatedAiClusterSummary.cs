@@ -123,7 +123,7 @@ namespace Oci.GenerativeaiService.Models
         public System.Nullable<int> UnitCount { get; set; }
         
         /// <value>
-        /// The shape of dedicated unit in this AI cluster. The underlying hardware configuration is hidden from customers.
+        /// The shape of dedicated unit in this AI cluster.
         /// </value>
         /// <remarks>
         /// Required

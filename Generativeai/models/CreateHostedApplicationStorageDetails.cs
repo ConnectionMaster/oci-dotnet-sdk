@@ -48,7 +48,7 @@ namespace Oci.GenerativeaiService.Models
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// type like Cache, Postgresql and ADB.
+        /// The managed storage type for the application.
         /// </value>
         /// <remarks>
         /// Required

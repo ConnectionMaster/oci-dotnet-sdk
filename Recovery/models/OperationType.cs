@@ -42,6 +42,14 @@ namespace Oci.RecoveryService.Models
       [EnumMember(Value = "DELETE_RECOVERY_SERVICE_SUBNET")]
       DeleteRecoveryServiceSubnet,
       [EnumMember(Value = "MOVE_RECOVERY_SERVICE_SUBNET")]
-      MoveRecoveryServiceSubnet
+      MoveRecoveryServiceSubnet,
+      [EnumMember(Value = "CREATE_LONG_TERM_BACKUP")]
+      CreateLongTermBackup,
+      [EnumMember(Value = "DELETE_LONG_TERM_BACKUP")]
+      DeleteLongTermBackup,
+      [EnumMember(Value = "UPDATE_LONG_TERM_BACKUP")]
+      UpdateLongTermBackup,
+      [EnumMember(Value = "CANCEL_LONG_TERM_BACKUP")]
+      CancelLongTermBackup
   }
 }

@@ -13,7 +13,7 @@ using System.Runtime.Serialization;
 namespace Oci.GenerativeaidataService.Models
 {
   /// <summary>
-  /// Enrichment job type. Currently supported Full Build (All supported objects in a given schema) and Partial Build (Selected tables and/or supported objects in a given schema).
+  /// Enrichment job type. Supported values are Full Build (all supported objects in a given schema), Partial Build (selected tables and/or supported objects in a given schema), and Delta Refresh (objects in a given schema that have changed since the previous enrichment job).
   /// </summary>
   public enum EnrichmentJobType {
       /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.

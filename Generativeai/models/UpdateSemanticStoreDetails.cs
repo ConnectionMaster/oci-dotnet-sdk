@@ -33,6 +33,19 @@ namespace Oci.GenerativeaiService.Models
         [JsonProperty(PropertyName = "displayName")]
         public string DisplayName { get; set; }
         
+        [JsonProperty(PropertyName = "modelSelection")]
+        public SemanticStoreModelSelection ModelSelection { get; set; }
+        
+        /// <value>
+        /// Whether to include user-defined semantic inputs, such as annotations, comments, and synonyms, during semantic-store enrichment.
+        /// When true, enrichment uses both metadata and user-defined semantics.
+        /// When false, enrichment uses metadata only.
+        /// If omitted, the existing setting is unchanged.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "isUserDefinedSemanticsEnabled")]
+        public System.Nullable<bool> IsUserDefinedSemanticsEnabled { get; set; }
+        
         [JsonProperty(PropertyName = "refreshSchedule")]
         public RefreshScheduleDetails RefreshSchedule { get; set; }
         

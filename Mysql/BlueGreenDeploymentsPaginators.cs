@@ -9,15 +9,15 @@
 
 using System.Collections.Generic;
 using System.Threading;
-using Oci.GenerativeaidataService.Requests;
-using Oci.GenerativeaidataService.Responses;
-using Oci.GenerativeaidataService.Models;
+using Oci.MysqlService.Requests;
+using Oci.MysqlService.Responses;
+using Oci.MysqlService.Models;
 
-namespace Oci.GenerativeaidataService
+namespace Oci.MysqlService
 {
     /// <summary>
     /// Collection of helper methods that can be used to provide an enumerator interface
-    /// to any list operations of ListEnrichmentJobs where multiple pages of data may be fetched.
+    /// to any list operations of BlueGreenDeployments where multiple pages of data may be fetched.
     /// Two styles of enumerators are supported:
     /// <list type="bullet">
     /// <item>
@@ -40,26 +40,26 @@ namespace Oci.GenerativeaidataService
     /// returned by calling a RecordEnumerator method would iterate over the User records and we don't have to deal with ListUsersResponse objects at all.
     /// In either case, pagination will be automatically handled so we can iterate until there are no more responses or no more resources/records available.
     /// </summary>
-    public class ListEnrichmentJobsPaginators
+    public class BlueGreenDeploymentsPaginators
     {
-        private readonly ListEnrichmentJobsClient client;
+        private readonly BlueGreenDeploymentsClient client;
 
-        public ListEnrichmentJobsPaginators(ListEnrichmentJobsClient client)
+        public BlueGreenDeploymentsPaginators(BlueGreenDeploymentsClient client)
         {
             this.client = client;
         }
 
         /// <summary>
-        /// Creates a new enumerable which will iterate over the responses received from the ListEnrichmentJobs operation. This enumerable
+        /// Creates a new enumerable which will iterate over the responses received from the ListBlueGreenDeployments operation. This enumerable
         /// will fetch more data from the server as needed.
         /// </summary>
         /// <param name="request">The request object containing the details to send</param>
         /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
         /// <param name="cancellationToken">The cancellation token object</param>
         /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
-        public IEnumerable<ListEnrichmentJobsResponse> ListEnrichmentJobsResponseEnumerator(ListEnrichmentJobsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        public IEnumerable<ListBlueGreenDeploymentsResponse> ListBlueGreenDeploymentsResponseEnumerator(ListBlueGreenDeploymentsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
         {
-            return new Common.Utils.ResponseEnumerable<ListEnrichmentJobsRequest, ListEnrichmentJobsResponse>(
+            return new Common.Utils.ResponseEnumerable<ListBlueGreenDeploymentsRequest, ListBlueGreenDeploymentsResponse>(
                 response => response.OpcNextPage,
                 input =>
                 {
@@ -69,21 +69,21 @@ namespace Oci.GenerativeaidataService
                     }
                     return request;
                 },
-                request => client.ListEnrichmentJobs(request, retryConfiguration, cancellationToken)
+                request => client.ListBlueGreenDeployments(request, retryConfiguration, cancellationToken)
             );
         }
 
         /// <summary>
-        /// Creates a new enumerable which will iterate over the EnrichmentJobSummary objects
-        /// contained in responses from the ListEnrichmentJobs operation. This enumerable will fetch more data from the server as needed.
+        /// Creates a new enumerable which will iterate over the BlueGreenDeploymentSummary objects
+        /// contained in responses from the ListBlueGreenDeployments operation. This enumerable will fetch more data from the server as needed.
         /// </summary>
         /// <param name="request">The request object containing the details to send</param>
         /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
         /// <param name="cancellationToken">The cancellation token object</param>
         /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
-        public IEnumerable<EnrichmentJobSummary> ListEnrichmentJobsRecordEnumerator(ListEnrichmentJobsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        public IEnumerable<BlueGreenDeploymentSummary> ListBlueGreenDeploymentsRecordEnumerator(ListBlueGreenDeploymentsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
         {
-            return new Common.Utils.ResponseRecordEnumerable<ListEnrichmentJobsRequest, ListEnrichmentJobsResponse, EnrichmentJobSummary>(
+            return new Common.Utils.ResponseRecordEnumerable<ListBlueGreenDeploymentsRequest, ListBlueGreenDeploymentsResponse, BlueGreenDeploymentSummary>(
                 response => response.OpcNextPage,
                 input =>
                 {
@@ -93,8 +93,8 @@ namespace Oci.GenerativeaidataService
                     }
                     return request;
                 },
-                request => client.ListEnrichmentJobs(request, retryConfiguration, cancellationToken),
-                response => response.EnrichmentJobCollection.Items
+                request => client.ListBlueGreenDeployments(request, retryConfiguration, cancellationToken),
+                response => response.BlueGreenDeploymentCollection.Items
             );
         }
 

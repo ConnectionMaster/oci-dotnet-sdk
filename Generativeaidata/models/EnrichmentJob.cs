@@ -17,7 +17,7 @@ namespace Oci.GenerativeaidataService.Models
 {
     /// <summary>
     /// Object representing to EnrichmentJob.
-    /// ocidEntityType: generativeaiEnrichmentJob
+    /// ocidEntityType: generativeaisemanticstorejob
     /// adLocality: regional
     /// 
     /// </summary>
@@ -25,7 +25,7 @@ namespace Oci.GenerativeaidataService.Models
     {
         
         /// <value>
-        /// Unique identifier that is immutable on creation.
+        /// The OCID of the Semantic Store job.
         /// </value>
         /// <remarks>
         /// Required
@@ -57,7 +57,7 @@ namespace Oci.GenerativeaidataService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// Enrichment job type. Currently supported Full Build (All supported objects in a given schema) and Partial Build (Selected tables and/or supported objects in a given schema).
+        /// Enrichment job type. Supported values are Full Build (all supported objects in a given schema), Partial Build (selected tables and/or supported objects in a given schema), and Delta Refresh (objects in a given schema that have changed since the previous enrichment job).
         /// </value>
         /// <remarks>
         /// Required
@@ -73,6 +73,16 @@ namespace Oci.GenerativeaidataService.Models
         [Required(ErrorMessage = "EnrichmentJobConfiguration is required.")]
         [JsonProperty(PropertyName = "enrichmentJobConfiguration")]
         public EnrichmentJobConfiguration EnrichmentJobConfiguration { get; set; }
+        
+        /// <value>
+        /// The generative AI modelId used for Enrichment. You can use the ListModels API to list the available models. https://docs.oracle.com/en-us/iaas/api/#/en/generative-ai/20231130/ModelCollection/ListModels
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "ModelId is required.")]
+        [JsonProperty(PropertyName = "modelId")]
+        public string ModelId { get; set; }
         
         /// <value>
         /// The date and time that the enrichment job was accepted in the format of an RFC3339 datetime string.
@@ -113,7 +123,7 @@ namespace Oci.GenerativeaidataService.Models
         public System.Nullable<float> PercentComplete { get; set; }
         
         /// <value>
-        /// The lifecycleState of GenerateSqlJob.
+        /// The lifecycle state of the EnrichmentJob.
         /// </value>
         /// <remarks>
         /// Required

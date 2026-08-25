@@ -47,6 +47,22 @@ namespace Oci.GenerativeaidataService.Models
         public string InputNaturalLanguageQuery { get; set; }
         
         /// <value>
+        /// The generative AI modelId to use for Generate SQL. You can use the ListModels API to list the available models. https://docs.oracle.com/en-us/iaas/api/#/en/generative-ai/20231130/ModelCollection/ListModels
+        /// </value>
+        [JsonProperty(PropertyName = "modelId")]
+        public string ModelId { get; set; }
+        
+        /// <value>
+        /// Controls whether GenerateSqlFromNl should be accepted as a background job or wait for completion.
+        /// BACKGROUND_JOB accepts the request for background processing and returns a pollable job.
+        /// WAIT_FOR_COMPLETION waits for completion within the service-defined timeout.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "completionMode")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<CompletionMode> CompletionMode { get; set; }
+        
+        /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.
         /// Example: {&quot;bar-key&quot;: &quot;value&quot;}
         /// </value>

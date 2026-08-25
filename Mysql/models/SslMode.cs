@@ -16,6 +16,9 @@ namespace Oci.MysqlService.Models
   /// The SSL mode of the Channel.
   /// </summary>
   public enum SslMode {
+      /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+      [EnumMember(Value = null)]
+      UnknownEnumValue,
       [EnumMember(Value = "VERIFY_IDENTITY")]
       VerifyIdentity,
       [EnumMember(Value = "VERIFY_CA")]

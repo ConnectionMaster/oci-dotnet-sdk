@@ -54,7 +54,7 @@ namespace Oci.GenerativeaiService.Models
         public string CompartmentId { get; set; }
                 ///
         /// <value>
-        /// type like Cache, Postgresql and ADB.
+        /// The managed storage type for the application.
         /// </value>
         ///
         public enum StorageTypeEnum {
@@ -70,7 +70,7 @@ namespace Oci.GenerativeaiService.Models
         };
 
         /// <value>
-        /// type like Cache, Postgresql and ADB.
+        /// The managed storage type for the application.
         /// </value>
         [JsonProperty(PropertyName = "storageType")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]

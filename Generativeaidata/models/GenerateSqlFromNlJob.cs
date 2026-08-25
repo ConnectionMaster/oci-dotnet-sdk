@@ -17,7 +17,7 @@ namespace Oci.GenerativeaidataService.Models
 {
     /// <summary>
     /// Object representing to GenerateSqlFromNlJob.
-    /// ocidEntityType: generativeaiGenerateSqlFromNlJob
+    /// ocidEntityType: generativeaisemanticstorejob
     /// adLocality: regional
     /// 
     /// </summary>
@@ -25,7 +25,7 @@ namespace Oci.GenerativeaidataService.Models
     {
         
         /// <value>
-        /// Unique identifier that is immutable on creation.
+        /// The OCID of the Semantic Store job.
         /// </value>
         /// <remarks>
         /// Required
@@ -57,7 +57,7 @@ namespace Oci.GenerativeaidataService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The date and time that the enrichment job was accepted in the format of an RFC3339 datetime string.
+        /// The date and time that the GenerateSqlFromNlJob was accepted in the format of an RFC3339 datetime string.
         /// </value>
         /// <remarks>
         /// Required
@@ -67,19 +67,25 @@ namespace Oci.GenerativeaidataService.Models
         public System.Nullable<System.DateTime> TimeAccepted { get; set; }
         
         /// <value>
-        /// The date and time that the enrichment job was started in the format of an RFC3339 datetime string.
+        /// The date and time that the GenerateSqlFromNlJob was started in the format of an RFC3339 datetime string.
         /// </value>
         [JsonProperty(PropertyName = "timeStarted")]
         public System.Nullable<System.DateTime> TimeStarted { get; set; }
         
         /// <value>
-        /// The date and time that the enrichment job was finished in the format of an RFC3339 datetime string.
+        /// The date and time that the GenerateSqlFromNlJob was finished in the format of an RFC3339 datetime string.
         /// </value>
         [JsonProperty(PropertyName = "timeFinished")]
         public System.Nullable<System.DateTime> TimeFinished { get; set; }
         
         /// <value>
-        /// The lifecycleState of GenerateSqlFromNlJob.
+        /// The current state of GenerateSqlFromNlJob.
+        /// <br/>
+        /// - ACCEPTED: Job has been created but not yet started.
+        /// - IN_PROGRESS: Job is currently running.
+        /// - SUCCEEDED: Job completed successfully. The result is available in jobOutput.
+        /// - FAILED: Job failed. See lifecycleDetails for error information.
+        /// 
         /// </value>
         /// <remarks>
         /// Required
@@ -107,6 +113,16 @@ namespace Oci.GenerativeaidataService.Models
         /// </value>
         [JsonProperty(PropertyName = "inputNaturalLanguageQuery")]
         public string InputNaturalLanguageQuery { get; set; }
+        
+        /// <value>
+        /// The generative AI modelId used for Generate SQL. You can use the ListModels API to list the available models. https://docs.oracle.com/en-us/iaas/api/#/en/generative-ai/20231130/ModelCollection/ListModels
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "ModelId is required.")]
+        [JsonProperty(PropertyName = "modelId")]
+        public string ModelId { get; set; }
         
         [JsonProperty(PropertyName = "jobOutput")]
         public JobOutput JobOutput { get; set; }
