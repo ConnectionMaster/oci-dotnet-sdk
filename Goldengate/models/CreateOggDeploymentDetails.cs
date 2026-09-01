@@ -67,6 +67,7 @@ namespace Oci.GoldengateService.Models
         /// This field will be deprecated and replaced by \"passwordSecretId\".
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "adminPassword")]
         public string AdminPassword { get; set; }
         
@@ -81,6 +82,7 @@ namespace Oci.GoldengateService.Models
         /// The base64 encoded content of the PEM file containing the private key.
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "key")]
         public string Key { get; set; }
         

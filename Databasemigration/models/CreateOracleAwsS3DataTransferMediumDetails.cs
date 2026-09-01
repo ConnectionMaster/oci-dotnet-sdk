@@ -43,6 +43,7 @@ namespace Oci.DatabasemigrationService.Models
         /// Details: https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "accessKeyId")]
         public string AccessKeyId { get; set; }
         
@@ -51,6 +52,7 @@ namespace Oci.DatabasemigrationService.Models
         /// Details: https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "secretAccessKey")]
         public string SecretAccessKey { get; set; }
         

@@ -38,6 +38,7 @@ namespace Oci.OdaService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "MsaAppPassword is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "msaAppPassword")]
         public string MsaAppPassword { get; set; }
         

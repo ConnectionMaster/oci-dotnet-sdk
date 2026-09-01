@@ -26,6 +26,7 @@ namespace Oci.OdaService.Models
         /// This is only returned this once.  If it is lost the keys will need to be rotated to generate a new key.
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "secretKey")]
         public string SecretKey { get; set; }
         

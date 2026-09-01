@@ -45,6 +45,7 @@ namespace Oci.GoldengateService.Models
         /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "accountKey")]
         public string AccountKey { get; set; }
         
@@ -65,6 +66,7 @@ namespace Oci.GoldengateService.Models
         /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "sasToken")]
         public string SasToken { get; set; }
         
@@ -100,6 +102,7 @@ namespace Oci.GoldengateService.Models
         /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "clientSecret")]
         public string ClientSecret { get; set; }
         

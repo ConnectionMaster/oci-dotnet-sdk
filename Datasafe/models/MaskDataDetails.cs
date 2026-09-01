@@ -95,12 +95,14 @@ namespace Oci.DatasafeService.Models
         /// <value>
         /// The seed value to be used in case of Deterministic Encryption and Deterministic Substitution masking formats.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "seed")]
         public string Seed { get; set; }
         
         /// <value>
         /// The seed value to be used in case of User Defined Function masking format. This is an optional parameter and needs to be passed only if any User Defined Function uses seed.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "userDefinedFunctionSeed")]
         public string UserDefinedFunctionSeed { get; set; }
         

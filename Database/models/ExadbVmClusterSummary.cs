@@ -254,7 +254,9 @@ namespace Oci.DatabaseService.Models
             [EnumMember(Value = "RELEASE_UPDATE")]
             ReleaseUpdate,
             [EnumMember(Value = "CUSTOM_IMAGE")]
-            CustomImage
+            CustomImage,
+            [EnumMember(Value = "GRID_HOME")]
+            GridHome
         };
 
         /// <value>

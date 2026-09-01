@@ -50,7 +50,7 @@ namespace Oci.IotService.Requests
         public System.Nullable<IotDomainGroup.LifecycleStateEnum> LifecycleState { get; set; }
         
         /// <value>
-        /// Filter resources by type. Valid values are LIGHTWEIGHT or STANDARD.
+        /// Filter resources by type. Valid values are DEVELOPMENT or PRODUCTION. LIGHTWEIGHT and STANDARD are deprecated aliases for DEVELOPMENT and PRODUCTION, respectively.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "type")]
         public System.Nullable<IotDomainGroup.TypeEnum> Type { get; set; }

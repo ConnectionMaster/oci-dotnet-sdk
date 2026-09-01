@@ -58,6 +58,7 @@ namespace Oci.OpsiService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "ConnectionPassword is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "connectionPassword")]
         public string ConnectionPassword { get; set; }
         

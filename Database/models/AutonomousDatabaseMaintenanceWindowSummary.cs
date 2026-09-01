@@ -41,5 +41,17 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "maintenanceEndTime")]
         public string MaintenanceEndTime { get; set; }
         
+        /// <value>
+        /// The AD in which the maintenance will occur.
+        /// </value>
+        [JsonProperty(PropertyName = "availabilityDomain")]
+        public string AvailabilityDomain { get; set; }
+        
+        /// <value>
+        /// Indicates if the maintenance window change is scheduled or not for the Autonomous AI Database.
+        /// </value>
+        [JsonProperty(PropertyName = "isMaintenanceWindowChangeScheduled")]
+        public System.Nullable<bool> IsMaintenanceWindowChangeScheduled { get; set; }
+        
     }
 }

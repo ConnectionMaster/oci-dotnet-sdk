@@ -36,6 +36,7 @@ namespace Oci.OdaService.Models
         /// <value>
         /// The Auth Token for the Twilio number.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "authToken")]
         public string AuthToken { get; set; }
         

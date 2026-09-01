@@ -78,6 +78,7 @@ namespace Oci.OdaService.Models
         /// <value>
         /// The authentication token to use when connecting to the Oracle Streaming Service.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "authToken")]
         public string AuthToken { get; set; }
         

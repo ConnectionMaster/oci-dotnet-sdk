@@ -49,6 +49,7 @@ namespace Oci.OdaService.Models
         /// <value>
         /// The password for the digital-assistant agent.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "password")]
         public string Password { get; set; }
         

@@ -42,12 +42,14 @@ namespace Oci.OdaService.Models
         /// <value>
         /// The Signing Secret for the Slack App.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "signingSecret")]
         public string SigningSecret { get; set; }
         
         /// <value>
         /// The Client Secret for the Slack App.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "clientSecret")]
         public string ClientSecret { get; set; }
         

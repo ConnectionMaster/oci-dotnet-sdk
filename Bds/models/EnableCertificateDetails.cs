@@ -24,6 +24,7 @@ namespace Oci.BdsService.Models
         /// <value>
         /// Base-64 encoded password for the cluster admin user.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "clusterAdminPassword")]
         public string ClusterAdminPassword { get; set; }
         
@@ -58,6 +59,7 @@ namespace Oci.BdsService.Models
         /// <value>
         /// Base-64 encoded password for CA certificate's private key. This value can be empty.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "serverKeyPassword")]
         public string ServerKeyPassword { get; set; }
         

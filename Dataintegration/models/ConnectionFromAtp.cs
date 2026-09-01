@@ -42,6 +42,7 @@ namespace Oci.DataintegrationService.Models
         /// <value>
         /// The password for the connection.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "password")]
         public string Password { get; set; }
         

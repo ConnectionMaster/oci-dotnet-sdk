@@ -37,6 +37,7 @@ namespace Oci.DatabaseService.Models
         /// <value>
         /// For TDE Wallet, enter the same password as the primary wallet password.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "tdeWalletPassword")]
         public string TdeWalletPassword { get; set; }
         

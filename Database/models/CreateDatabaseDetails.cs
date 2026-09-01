@@ -65,6 +65,7 @@ namespace Oci.DatabaseService.Models
         /// <value>
         /// The optional password to open the TDE wallet. The password must be at least nine characters and contain at least two uppercase, two lowercase, two numeric, and two special characters. The special characters must be _, \\#, or -.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "tdeWalletPassword")]
         public string TdeWalletPassword { get; set; }
         

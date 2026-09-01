@@ -48,6 +48,7 @@ namespace Oci.OdaService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "AuthToken is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "authToken")]
         public string AuthToken { get; set; }
         

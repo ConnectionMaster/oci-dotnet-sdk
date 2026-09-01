@@ -54,12 +54,14 @@ namespace Oci.BdsService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "BdsApiKeyPassphrase is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "bdsApiKeyPassphrase")]
         public string BdsApiKeyPassphrase { get; set; }
         
         /// <value>
         /// Base-64 encoded password for the cluster admin user.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "clusterAdminPassword")]
         public string ClusterAdminPassword { get; set; }
         

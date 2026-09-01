@@ -28,6 +28,7 @@ namespace Oci.LockboxService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "Details is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "details")]
         public System.Collections.Generic.Dictionary<string, string> Details { get; set; }
         
