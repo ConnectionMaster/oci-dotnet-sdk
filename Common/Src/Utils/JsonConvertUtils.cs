@@ -6,6 +6,7 @@
 using System;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
@@ -35,6 +36,81 @@ namespace Oci.Common.Utils
                 property.Converter = new DateTimeJsonConverter();
             }
             return property;
+        }
+    }
+
+    /// <summary>A custom resolver that redacts properties marked with <see cref="SensitiveAttribute"/>.</summary>
+    internal sealed class RedactingContractResolver : CustomResolver
+    {
+        protected override JsonProperty CreateProperty(MemberInfo member, MemberSerialization memberSerialization)
+        {
+            JsonProperty property = base.CreateProperty(member, memberSerialization);
+            if (member.GetCustomAttributes(typeof(SensitiveAttribute), true).Any())
+            {
+                property.ValueProvider = new RedactedValueProvider(property.ValueProvider);
+                property.Converter = new RedactedValueJsonConverter();
+            }
+            return property;
+        }
+    }
+
+    /// <summary>Supplies a redacted value without reading the underlying property.</summary>
+    internal sealed class RedactedValueProvider : IValueProvider
+    {
+        private readonly IValueProvider originalValueProvider;
+
+        public RedactedValueProvider(IValueProvider originalValueProvider)
+        {
+            this.originalValueProvider = originalValueProvider;
+        }
+
+        public object GetValue(object target)
+        {
+            return RedactedStringifier.RedactedValue;
+        }
+
+        public void SetValue(object target, object value)
+        {
+            originalValueProvider.SetValue(target, value);
+        }
+    }
+
+    /// <summary>A converter used only for diagnostic serialization of password property values.</summary>
+    internal sealed class RedactedValueJsonConverter : JsonConverter
+    {
+        public override bool CanConvert(Type objectType)
+        {
+            return true;
+        }
+
+        public override bool CanRead => false;
+
+        public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+        {
+            throw new NotSupportedException("RedactedValueJsonConverter supports serialization only.");
+        }
+
+        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+        {
+            writer.WriteValue(RedactedStringifier.RedactedValue);
+        }
+    }
+
+    /// <summary>Creates diagnostic-safe string representations of SDK models.</summary>
+    public static class RedactedStringifier
+    {
+        internal const string RedactedValue = "<redacted>";
+
+        /// <summary>Serializes a value for diagnostic output, redacting properties marked with <see cref="SensitiveAttribute"/>.</summary>
+        public static string ToString(object value)
+        {
+            return JsonConvert.SerializeObject(
+                value,
+                new JsonSerializerSettings
+                {
+                    ContractResolver = new RedactingContractResolver(),
+                    NullValueHandling = NullValueHandling.Ignore
+                });
         }
     }
 

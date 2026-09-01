@@ -58,7 +58,10 @@ namespace Oci.Common.Http.Internal
             js.Serialize(jtw, value);
             jtw.Flush();
             stream.Seek(0, SeekOrigin.Begin);
-            logger.Trace($"request content: {new StreamReader(stream, Encoding.UTF8).ReadToEnd()}");
+            if (logger.IsTraceEnabled)
+            {
+                logger.Trace($"request content: {RedactedStringifier.ToString(value)}");
+            }
         }
 
         /// <summary>Updates the Settable HttpContent Header with values provided in Request.</summary>

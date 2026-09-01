@@ -85,6 +85,7 @@ namespace Oci.GoldengateService.Models
         /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "password")]
         public string Password { get; set; }
         
@@ -125,6 +126,7 @@ namespace Oci.GoldengateService.Models
         /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "sslClientKeystoredb")]
         public string SslClientKeystoredb { get; set; }
         
@@ -148,6 +150,7 @@ namespace Oci.GoldengateService.Models
         /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "sslClientKeystash")]
         public string SslClientKeystash { get; set; }
         

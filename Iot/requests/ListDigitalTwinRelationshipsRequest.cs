@@ -20,7 +20,7 @@ namespace Oci.IotService.Requests
     {
         
         /// <value>
-        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the IoT domain in which to list digital twin resources.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the IoT domain in which to list IoT resources.
         /// 
         /// </value>
         /// <remarks>

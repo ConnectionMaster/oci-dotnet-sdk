@@ -51,6 +51,7 @@ namespace Oci.AidataplatformService.Models
         /// The Vector DB Lakehouse 26ai ADMIN user password.
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "vectorDbAdminCred")]
         public string VectorDbAdminCred { get; set; }
         

@@ -28,6 +28,7 @@ namespace Oci.IotService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "DbWorkspaceAdminInitialPassword is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "dbWorkspaceAdminInitialPassword")]
         public string DbWorkspaceAdminInitialPassword { get; set; }
         

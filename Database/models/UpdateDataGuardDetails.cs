@@ -27,6 +27,7 @@ namespace Oci.DatabaseService.Models
         /// **The password MUST be the same as the primary admin password.**
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "databaseAdminPassword")]
         public string DatabaseAdminPassword { get; set; }
                 ///

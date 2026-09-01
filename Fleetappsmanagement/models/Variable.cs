@@ -30,6 +30,7 @@ namespace Oci.FleetappsmanagementService.Models
         /// <value>
         /// The value corresponding to the variable name.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "value")]
         public string Value { get; set; }
         

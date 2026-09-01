@@ -34,6 +34,7 @@ namespace Oci.MysqlService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "SourceUrl is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "sourceUrl")]
         public string SourceUrl { get; set; }
         

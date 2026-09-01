@@ -271,6 +271,7 @@ namespace Oci.IdentitydomainsService.Models
         ///  - type: string
         ///  - uniqueness: none
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "oneTimePassword")]
         public string OneTimePassword { get; set; }
         

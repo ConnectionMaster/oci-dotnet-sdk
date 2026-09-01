@@ -23,6 +23,13 @@ namespace Oci.IotService.Models
     {
         
         /// <value>
+        /// Connectivity type of the digital twin instance.
+        /// </value>
+        [JsonProperty(PropertyName = "connectivityType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<DigitalTwinInstanceConnectivityType> ConnectivityType { get; set; }
+        
+        /// <value>
         /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the resource (like VaultSecret, ClientCertificate etc.,) used to authenticate the digital twin instance.
         /// </value>
         [JsonProperty(PropertyName = "authId")]

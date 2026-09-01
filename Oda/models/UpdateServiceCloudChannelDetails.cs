@@ -58,6 +58,7 @@ namespace Oci.OdaService.Models
         /// <value>
         /// The password for the Oracle B2C Service staff member who has the necessary profile permissions.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "password")]
         public string Password { get; set; }
         

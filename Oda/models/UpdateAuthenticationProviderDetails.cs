@@ -64,6 +64,7 @@ namespace Oci.OdaService.Models
         /// Registration. With Microsoft identity platform, use the application secret.
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "clientSecret")]
         public string ClientSecret { get; set; }
         

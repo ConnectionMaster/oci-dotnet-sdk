@@ -48,6 +48,7 @@ namespace Oci.BdsService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "PrivateKey is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "privateKey")]
         public string PrivateKey { get; set; }
         

@@ -50,6 +50,7 @@ namespace Oci.OdaService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "SigningSecret is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "signingSecret")]
         public string SigningSecret { get; set; }
         
@@ -60,6 +61,7 @@ namespace Oci.OdaService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "ClientSecret is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "clientSecret")]
         public string ClientSecret { get; set; }
         

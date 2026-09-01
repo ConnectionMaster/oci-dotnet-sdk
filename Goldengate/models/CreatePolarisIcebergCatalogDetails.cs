@@ -65,6 +65,7 @@ namespace Oci.GoldengateService.Models
         /// Client secret required to connect to Polaris.
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "clientSecret")]
         public string ClientSecret { get; set; }
         

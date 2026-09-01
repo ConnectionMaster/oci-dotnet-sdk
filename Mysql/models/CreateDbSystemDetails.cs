@@ -153,6 +153,7 @@ namespace Oci.MysqlService.Models
         /// 1 special (nonalphanumeric) character.
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "adminPassword")]
         public string AdminPassword { get; set; }
         

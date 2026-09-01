@@ -28,6 +28,7 @@ namespace Oci.OdaService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "AppSecret is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "appSecret")]
         public string AppSecret { get; set; }
         
@@ -38,6 +39,7 @@ namespace Oci.OdaService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "PageAccessToken is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "pageAccessToken")]
         public string PageAccessToken { get; set; }
         

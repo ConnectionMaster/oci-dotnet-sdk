@@ -28,6 +28,7 @@ namespace Oci.DatabaseService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "HsmPassword is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "hsmPassword")]
         public string HsmPassword { get; set; }
         

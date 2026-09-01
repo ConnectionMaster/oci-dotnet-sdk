@@ -31,12 +31,14 @@ namespace Oci.DatabaseService.Models
         /// <value>
         /// The DB system administrator password of the Container Database.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "containerDatabaseAdminPassword")]
         public string ContainerDatabaseAdminPassword { get; set; }
         
         /// <value>
         /// The existing TDE wallet password of the Container Database.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "tdeWalletPassword")]
         public string TdeWalletPassword { get; set; }
         

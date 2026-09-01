@@ -68,6 +68,7 @@ namespace Oci.DatasafeService.Models
         /// <value>
         /// The password to read the trust store and key store files, if they are password protected.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "storePassword")]
         public string StorePassword { get; set; }
         

@@ -61,6 +61,7 @@ namespace Oci.GoldengateService.Models
         /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "secretAccessKey")]
         public string SecretAccessKey { get; set; }
         

@@ -46,6 +46,7 @@ namespace Oci.MysqlService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "SourcePassword is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "sourcePassword")]
         public string SourcePassword { get; set; }
         

@@ -133,5 +133,11 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "sourceDbHomeId")]
         public string SourceDbHomeId { get; set; }
         
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Grid Infrastructure Home.
+        /// </value>
+        [JsonProperty(PropertyName = "sourceGiHomeId")]
+        public string SourceGiHomeId { get; set; }
+        
     }
 }

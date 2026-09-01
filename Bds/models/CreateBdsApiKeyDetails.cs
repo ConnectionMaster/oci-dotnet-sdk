@@ -38,6 +38,7 @@ namespace Oci.BdsService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "Passphrase is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "passphrase")]
         public string Passphrase { get; set; }
         

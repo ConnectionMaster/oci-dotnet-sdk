@@ -33,6 +33,7 @@ namespace Oci.DatabasemigrationService.Models
         /// Administrator password
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "password")]
         public string Password { get; set; }
         

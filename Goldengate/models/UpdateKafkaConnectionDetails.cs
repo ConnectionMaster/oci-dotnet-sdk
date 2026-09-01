@@ -71,6 +71,7 @@ namespace Oci.GoldengateService.Models
         /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "password")]
         public string Password { get; set; }
         
@@ -92,6 +93,7 @@ namespace Oci.GoldengateService.Models
         /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "trustStore")]
         public string TrustStore { get; set; }
         
@@ -110,6 +112,7 @@ namespace Oci.GoldengateService.Models
         /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "trustStorePassword")]
         public string TrustStorePassword { get; set; }
         
@@ -128,6 +131,7 @@ namespace Oci.GoldengateService.Models
         /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "keyStore")]
         public string KeyStore { get; set; }
         
@@ -146,6 +150,7 @@ namespace Oci.GoldengateService.Models
         /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "keyStorePassword")]
         public string KeyStorePassword { get; set; }
         
@@ -165,6 +170,7 @@ namespace Oci.GoldengateService.Models
         /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "sslKeyPassword")]
         public string SslKeyPassword { get; set; }
         

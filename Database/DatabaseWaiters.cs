@@ -3130,6 +3130,42 @@ namespace Oci.DatabaseService
         /// <param name="request">Request to send.</param>
         /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<CreateGiHomeRequest, CreateGiHomeResponse> ForCreateGiHome(CreateGiHomeRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return this.ForCreateGiHome(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<CreateGiHomeRequest, CreateGiHomeResponse> ForCreateGiHome(CreateGiHomeRequest request, WaiterConfiguration config, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return new Waiter<CreateGiHomeRequest, CreateGiHomeResponse>(() =>
+            {
+                var response = client.CreateGiHome(request).Result;
+                if (response.OpcWorkRequestId == null)
+                {
+                    return response;
+                }
+                var getWorkRequestRequest = new Oci.WorkrequestsService.Requests.GetWorkRequestRequest
+                {
+                    WorkRequestId = response.OpcWorkRequestId
+                };
+                workRequestClient.Waiters.ForWorkRequest(getWorkRequestRequest, config, targetStates).Execute();
+                return response;
+            });
+        }
+        
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<CreateOneoffPatchRequest, CreateOneoffPatchResponse> ForCreateOneoffPatch(CreateOneoffPatchRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
         {
             return this.ForCreateOneoffPatch(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
@@ -4371,6 +4407,42 @@ namespace Oci.DatabaseService
             return new Waiter<DeleteExternalPluggableDatabaseRequest, DeleteExternalPluggableDatabaseResponse>(() =>
             {
                 var response = client.DeleteExternalPluggableDatabase(request).Result;
+                if (response.OpcWorkRequestId == null)
+                {
+                    return response;
+                }
+                var getWorkRequestRequest = new Oci.WorkrequestsService.Requests.GetWorkRequestRequest
+                {
+                    WorkRequestId = response.OpcWorkRequestId
+                };
+                workRequestClient.Waiters.ForWorkRequest(getWorkRequestRequest, config, targetStates).Execute();
+                return response;
+            });
+        }
+        
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="statuses">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<DeleteGiHomeRequest, DeleteGiHomeResponse> ForDeleteGiHome(DeleteGiHomeRequest request, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return this.ForDeleteGiHome(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<DeleteGiHomeRequest, DeleteGiHomeResponse> ForDeleteGiHome(DeleteGiHomeRequest request, WaiterConfiguration config, params WorkrequestsService.Models.WorkRequest.StatusEnum[] targetStates)
+        {
+            return new Waiter<DeleteGiHomeRequest, DeleteGiHomeResponse>(() =>
+            {
+                var response = client.DeleteGiHome(request).Result;
                 if (response.OpcWorkRequestId == null)
                 {
                     return response;
@@ -7121,6 +7193,34 @@ namespace Oci.DatabaseService
                 targetStates.Contains(ExternalPluggableDatabase.LifecycleStateEnum.Terminated)
             );
             return new Waiter<GetExternalPluggableDatabaseRequest, GetExternalPluggableDatabaseResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetGiHomeRequest, GetGiHomeResponse> ForGiHome(GetGiHomeRequest request, params GiHome.LifecycleStateEnum[] targetStates)
+        {
+            return this.ForGiHome(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetGiHomeRequest, GetGiHomeResponse> ForGiHome(GetGiHomeRequest request, WaiterConfiguration config, params GiHome.LifecycleStateEnum[] targetStates)
+        {
+            var agent = new WaiterAgent<GetGiHomeRequest, GetGiHomeResponse>(
+                request,
+                request => client.GetGiHome(request),
+                response => targetStates.Contains(response.GiHome.LifecycleState.Value),
+                targetStates.Contains(GiHome.LifecycleStateEnum.Terminated)
+            );
+            return new Waiter<GetGiHomeRequest, GetGiHomeResponse>(config, agent);
         }
         /// <summary>
         /// Creates a waiter using default wait configuration.

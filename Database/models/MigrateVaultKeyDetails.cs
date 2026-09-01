@@ -48,12 +48,14 @@ namespace Oci.DatabaseService.Models
         /// <value>
         /// The existing TDE wallet password of the database.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "tdeWalletPassword")]
         public string TdeWalletPassword { get; set; }
         
         /// <value>
         /// The existing admin password of the database.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "adminPassword")]
         public string AdminPassword { get; set; }
         

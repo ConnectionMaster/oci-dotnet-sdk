@@ -30,6 +30,7 @@ namespace Oci.OdaService.Models
         /// <value>
         /// The client secret that you obtained from your bot registration.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "msaAppPassword")]
         public string MsaAppPassword { get; set; }
         

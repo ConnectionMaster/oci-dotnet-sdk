@@ -35,6 +35,7 @@ namespace Oci.DatabasemanagementService.Models
         /// The password for the database user name.
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "password")]
         public string Password { get; set; }
         
