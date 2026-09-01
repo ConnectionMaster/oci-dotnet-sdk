@@ -612,6 +612,15 @@ namespace Oci.DatabaseService.Models
         [JsonProperty(PropertyName = "timeMaintenancePauseUntil")]
         public System.Nullable<System.DateTime> TimeMaintenancePauseUntil { get; set; }
         
+        [JsonProperty(PropertyName = "scheduledMaintenanceWindow")]
+        public AutonomousDatabaseMaintenanceWindowSummary ScheduledMaintenanceWindow { get; set; }
+        
+        /// <value>
+        /// The date and time at which operation to change Maintenance Window is scheduled to take place.
+        /// </value>
+        [JsonProperty(PropertyName = "timeScheduledMaintenanceWindowUpdate")]
+        public System.Nullable<System.DateTime> TimeScheduledMaintenanceWindowUpdate { get; set; }
+        
         /// <value>
         /// True if the Autonomous AI Database is backup retention locked.
         /// </value>

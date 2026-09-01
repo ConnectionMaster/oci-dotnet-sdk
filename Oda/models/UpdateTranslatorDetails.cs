@@ -30,6 +30,7 @@ namespace Oci.OdaService.Models
         /// <value>
         /// The authentication token to use when invoking the Translation Service
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "authToken")]
         public string AuthToken { get; set; }
         

@@ -353,6 +353,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCI.DotNetSDK.Ddfs", "Ddfs\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCI.DotNetSDK.Distributeddatabasev26", "Distributeddatabasev26\OCI.DotNetSDK.Distributeddatabasev26.csproj", "{43B550BE-F7FB-4723-890B-8C71AFB0C7D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCI.DotNetSDK.Clusterhealth", "Clusterhealth\OCI.DotNetSDK.Clusterhealth.csproj", "{431CA563-54E2-44C9-98CB-EA0CE8CDEA1C}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3069,5 +3071,17 @@ Global
         {43B550BE-F7FB-4723-890B-8C71AFB0C7D0}.Release|x64.Build.0 = Release|Any CPU
         {43B550BE-F7FB-4723-890B-8C71AFB0C7D0}.Release|x86.ActiveCfg = Release|Any CPU
         {43B550BE-F7FB-4723-890B-8C71AFB0C7D0}.Release|x86.Build.0 = Release|Any CPU
+        {431CA563-54E2-44C9-98CB-EA0CE8CDEA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {431CA563-54E2-44C9-98CB-EA0CE8CDEA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {431CA563-54E2-44C9-98CB-EA0CE8CDEA1C}.Debug|x64.ActiveCfg = Debug|Any CPU
+        {431CA563-54E2-44C9-98CB-EA0CE8CDEA1C}.Debug|x64.Build.0 = Debug|Any CPU
+        {431CA563-54E2-44C9-98CB-EA0CE8CDEA1C}.Debug|x86.ActiveCfg = Debug|Any CPU
+        {431CA563-54E2-44C9-98CB-EA0CE8CDEA1C}.Debug|x86.Build.0 = Debug|Any CPU
+        {431CA563-54E2-44C9-98CB-EA0CE8CDEA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {431CA563-54E2-44C9-98CB-EA0CE8CDEA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+        {431CA563-54E2-44C9-98CB-EA0CE8CDEA1C}.Release|x64.ActiveCfg = Release|Any CPU
+        {431CA563-54E2-44C9-98CB-EA0CE8CDEA1C}.Release|x64.Build.0 = Release|Any CPU
+        {431CA563-54E2-44C9-98CB-EA0CE8CDEA1C}.Release|x86.ActiveCfg = Release|Any CPU
+        {431CA563-54E2-44C9-98CB-EA0CE8CDEA1C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

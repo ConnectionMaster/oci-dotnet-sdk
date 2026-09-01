@@ -24,12 +24,14 @@ namespace Oci.BdsService.Models
         /// <value>
         /// Base-64 encoded passphrase of the BDS Api Key. Set only if metastore's type is EXTERNAL.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "bdsApiKeyPassphrase")]
         public string BdsApiKeyPassphrase { get; set; }
         
         /// <value>
         /// Base-64 encoded password for the cluster admin user.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "clusterAdminPassword")]
         public string ClusterAdminPassword { get; set; }
         

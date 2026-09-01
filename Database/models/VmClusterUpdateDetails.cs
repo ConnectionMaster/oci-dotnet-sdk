@@ -27,6 +27,15 @@ namespace Oci.DatabaseService.Models
         /// </value>
         [JsonProperty(PropertyName = "updateId")]
         public string UpdateId { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Grid Infrastructure Home.
+        /// Specify this field for out of place Grid Infrastructure Home patching and upgrade of the VM Cluster. 
+        /// This is mutually exclusive option to `updateId` and `giSoftwareImageId` which are used for in place patching and upgrade using Oracle supplied and custom images respectively.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "giHomeId")]
+        public string GiHomeId { get; set; }
                 ///
         /// <value>
         /// The update mode to perform for OS Update.

@@ -116,6 +116,7 @@ namespace Oci.CloudmigrationsService.Models
         /// <value>
         /// Password of the host storage.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "password")]
         public string Password { get; set; }
         

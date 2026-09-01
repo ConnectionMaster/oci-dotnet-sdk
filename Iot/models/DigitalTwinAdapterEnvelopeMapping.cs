@@ -41,6 +41,7 @@ namespace Oci.IotService.Models
         
         /// <value>
         /// JSON Path string to override the context root before delegating to the adapter of the target digital twin instance.
+        /// 
         /// </value>
         [JsonProperty(PropertyName = "contentRoot")]
         public string ContentRoot { get; set; }

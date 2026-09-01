@@ -108,6 +108,7 @@ namespace Oci.OdaService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "ClientSecret is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "clientSecret")]
         public string ClientSecret { get; set; }
         

@@ -24,12 +24,14 @@ namespace Oci.OdaService.Models
         /// <value>
         /// The app secret for your Facebook app.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "appSecret")]
         public string AppSecret { get; set; }
         
         /// <value>
         /// The page access token that you generated for your Facebook page.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "pageAccessToken")]
         public string PageAccessToken { get; set; }
         

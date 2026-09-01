@@ -42,7 +42,7 @@ namespace Oci.IotService.Models
         public string IotDomainId { get; set; }
         
         /// <value>
-        /// Connectivity type of the digital twin instance
+        /// Connectivity type of the digital twin instance.
         /// </value>
         /// <remarks>
         /// Required

@@ -30,6 +30,7 @@ namespace Oci.DatabasetoolsruntimeService.Models
         /// <value>
         /// The password for the new credential.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "password")]
         public string Password { get; set; }
         

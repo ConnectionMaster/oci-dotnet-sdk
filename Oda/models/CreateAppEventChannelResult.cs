@@ -30,6 +30,7 @@ namespace Oci.OdaService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "SecretKey is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "secretKey")]
         public string SecretKey { get; set; }
         

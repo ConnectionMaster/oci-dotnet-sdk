@@ -33,6 +33,7 @@ namespace Oci.DatabaseService.Models
         /// <value>
         /// The DB link user password.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "dblinkUserPassword")]
         public string DblinkUserPassword { get; set; }
         
@@ -53,6 +54,7 @@ namespace Oci.DatabaseService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "SourceContainerDatabaseAdminPassword is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "sourceContainerDatabaseAdminPassword")]
         public string SourceContainerDatabaseAdminPassword { get; set; }
         

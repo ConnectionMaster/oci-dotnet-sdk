@@ -48,6 +48,7 @@ namespace Oci.KeymanagementService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "ClientAppSecret is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "clientAppSecret")]
         public string ClientAppSecret { get; set; }
         

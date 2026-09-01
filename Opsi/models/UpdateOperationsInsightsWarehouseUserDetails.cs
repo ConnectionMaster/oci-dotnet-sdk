@@ -24,6 +24,7 @@ namespace Oci.OpsiService.Models
         /// <value>
         /// User provided connection password for the AWR Data,  Enterprise Manager Data and Ops Insights OPSI Hub.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "connectionPassword")]
         public string ConnectionPassword { get; set; }
         

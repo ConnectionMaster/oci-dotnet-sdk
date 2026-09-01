@@ -89,6 +89,7 @@ namespace Oci.DatabasemigrationService.Models
         /// The password (credential) used when creating or updating this resource.
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "password")]
         public string Password { get; set; }
         
@@ -103,6 +104,7 @@ namespace Oci.DatabasemigrationService.Models
         /// The password (credential) used when creating or updating this resource.
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "replicationPassword")]
         public string ReplicationPassword { get; set; }
         

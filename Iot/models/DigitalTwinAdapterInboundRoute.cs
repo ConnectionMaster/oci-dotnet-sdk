@@ -42,6 +42,20 @@ namespace Oci.IotService.Models
         public DigitalTwinAdapterPayload ReferencePayload { get; set; }
         
         /// <value>
+        /// Optional. JQ expression to map the target resource, which is externalKey of digital twin instance, the incoming data belongs to.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "target")]
+        public string Target { get; set; }
+        
+        /// <value>
+        /// JSON Path string to override the context root before delegating to the adapter of the target digital twin instance.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "contentRoot")]
+        public string ContentRoot { get; set; }
+        
+        /// <value>
         /// A set of key-value JQ expressions used to transform the incoming payload into a shape
         /// compatible with the digital twin model's context or schema.
         /// <br/>

@@ -60,6 +60,7 @@ namespace Oci.GoldengateService.Models
         /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "password")]
         public string Password { get; set; }
         
@@ -128,6 +129,7 @@ namespace Oci.GoldengateService.Models
         /// https://docs.oracle.com/en-us/iaas/Content/servicechanges.htm#servicechanges_topic-GoldenGate
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "sslKey")]
         public string SslKey { get; set; }
         

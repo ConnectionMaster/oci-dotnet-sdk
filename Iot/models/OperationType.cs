@@ -40,6 +40,18 @@ namespace Oci.IotService.Models
       [EnumMember(Value = "CONFIGURE_DOMAIN_GROUP_DATA_ACCESS")]
       ConfigureDomainGroupDataAccess,
       [EnumMember(Value = "CHANGE_IOT_DOMAIN_DATA_RETENTION")]
-      ChangeIotDomainDataRetention
+      ChangeIotDomainDataRetention,
+      [EnumMember(Value = "CREATE_IOT_FLOW_RUNTIME")]
+      CreateIotFlowRuntime,
+      [EnumMember(Value = "UPDATE_IOT_FLOW_RUNTIME")]
+      UpdateIotFlowRuntime,
+      [EnumMember(Value = "DELETE_IOT_FLOW_RUNTIME")]
+      DeleteIotFlowRuntime,
+      [EnumMember(Value = "MOVE_IOT_FLOW_RUNTIME")]
+      MoveIotFlowRuntime,
+      [EnumMember(Value = "ACTIVATE_IOT_FLOW_RUNTIME")]
+      ActivateIotFlowRuntime,
+      [EnumMember(Value = "DEACTIVATE_IOT_FLOW_RUNTIME")]
+      DeactivateIotFlowRuntime
   }
 }

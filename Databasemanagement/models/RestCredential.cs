@@ -38,6 +38,7 @@ namespace Oci.DatabasemanagementService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "Password is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "password")]
         public string Password { get; set; }
                 ///
@@ -68,6 +69,7 @@ namespace Oci.DatabasemanagementService.Models
         /// <value>
         /// The password of the SSL truststore location in the agent.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "sslTrustStorePassword")]
         public string SslTrustStorePassword { get; set; }
         

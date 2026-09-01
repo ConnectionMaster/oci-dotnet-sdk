@@ -36,18 +36,21 @@ namespace Oci.DatabaseService.Models
         /// <value>
         /// A new strong password for SYS, SYSTEM, and the plugbable database ADMIN user. The password must be at least nine characters and contain at least two uppercase, two lowercase, two numeric, and two special characters. The special characters must be _, \\#, or -.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "newAdminPassword")]
         public string NewAdminPassword { get; set; }
         
         /// <value>
         /// The existing TDE wallet password. You must provide the existing password in order to set a new TDE wallet password.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "oldTdeWalletPassword")]
         public string OldTdeWalletPassword { get; set; }
         
         /// <value>
         /// The new password to open the TDE wallet. The password must be at least nine characters and contain at least two uppercase, two lowercase, two numeric, and two special characters. The special characters must be _, \\#, or -.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "newTdeWalletPassword")]
         public string NewTdeWalletPassword { get; set; }
         
@@ -83,6 +86,7 @@ namespace Oci.DatabaseService.Models
         /// **The password MUST be the same as the primary admin password.**
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "databaseAdminPassword")]
         public string DatabaseAdminPassword { get; set; }
                 ///

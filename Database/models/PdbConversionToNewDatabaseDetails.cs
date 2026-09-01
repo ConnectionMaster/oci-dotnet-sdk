@@ -39,18 +39,21 @@ namespace Oci.DatabaseService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "CdbAdminPassword is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "cdbAdminPassword")]
         public string CdbAdminPassword { get; set; }
         
         /// <value>
         /// A strong password for plugbable database ADMIN user of the container database after conversion. The password must be at least nine characters and contain at least two uppercase, two lowercase, two numeric, and two special characters. The special characters must be _, \\#, or -.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "pdbAdminPassword")]
         public string PdbAdminPassword { get; set; }
         
         /// <value>
         /// The password to open the TDE wallet of the container database after conversion. The password must be at least nine characters and contain at least two uppercase, two lowercase, two numeric, and two special characters. The special characters must be _, \\#, or -.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "cdbTdeWalletPassword")]
         public string CdbTdeWalletPassword { get; set; }
         
@@ -61,6 +64,7 @@ namespace Oci.DatabaseService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "NonCdbTdeWalletPassword is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "nonCdbTdeWalletPassword")]
         public string NonCdbTdeWalletPassword { get; set; }
         

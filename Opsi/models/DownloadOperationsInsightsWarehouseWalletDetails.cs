@@ -28,6 +28,7 @@ namespace Oci.OpsiService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "OperationsInsightsWarehouseWalletPassword is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "operationsInsightsWarehouseWalletPassword")]
         public string OperationsInsightsWarehouseWalletPassword { get; set; }
         

@@ -36,6 +36,7 @@ namespace Oci.IdentityService.Models
         /// for `ListAuthTokens` or `UpdateAuthToken`.
         /// 
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "token")]
         public string Token { get; set; }
         
