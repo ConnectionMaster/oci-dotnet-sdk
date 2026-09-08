@@ -61,7 +61,9 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Invokes a function
+        /// Note: Deprecated. Use the new operation instead.
+        /// \&quot;Invokes a function\&quot;
+        /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>

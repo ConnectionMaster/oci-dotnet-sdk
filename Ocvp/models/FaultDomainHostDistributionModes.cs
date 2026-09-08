@@ -9,22 +9,19 @@
 
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
 
-
-namespace Oci.FunctionsService.Models
+namespace Oci.OcvpService.Models
 {
-    /// <summary>
-    /// Note: Deprecated. Use the new resource model APIs instead.
-    /// Specifies no success destination
-    /// <br/>
-    /// Example: {&quot;kind&quot;: &quot;NONE&quot;}
-    /// </summary>
-    public class NoneSuccessDestinationDetails : SuccessDestinationDetails
-    {
-        
-        [JsonProperty(PropertyName = "kind")]
-        private readonly string kind = "NONE";
-    }
+  /// <summary>
+  /// Fault domain host distribution mode.
+  /// </summary>
+  public enum FaultDomainHostDistributionModes {
+      /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+      [EnumMember(Value = null)]
+      UnknownEnumValue,
+      [EnumMember(Value = "EVENLY_DISTRIBUTED")]
+      EvenlyDistributed,
+      [EnumMember(Value = "UNEVENLY_DISTRIBUTED")]
+      UnevenlyDistributed
+  }
 }

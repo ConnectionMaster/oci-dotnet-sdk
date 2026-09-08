@@ -9,22 +9,18 @@
 
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
 
-
-namespace Oci.FunctionsService.Models
+namespace Oci.OcvpService.Models
 {
-    /// <summary>
-    /// Note: Deprecated. Use the new resource model APIs instead.
-    /// Specifies no success destination
-    /// <br/>
-    /// Example: {&quot;kind&quot;: &quot;NONE&quot;}
-    /// </summary>
-    public class NoneSuccessDestinationDetails : SuccessDestinationDetails
-    {
-        
-        [JsonProperty(PropertyName = "kind")]
-        private readonly string kind = "NONE";
-    }
+  /// <summary>
+  /// Current ESXi host Fault Domain distribution state.
+  /// </summary>
+  public enum FaultDomainHostDistributionState {
+      [EnumMember(Value = "EVENLY_DISTRIBUTED")]
+      EvenlyDistributed,
+      [EnumMember(Value = "UNEVENLY_DISTRIBUTED")]
+      UnevenlyDistributed,
+      [EnumMember(Value = "UNSUPPORTED")]
+      Unsupported
+  }
 }

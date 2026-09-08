@@ -167,6 +167,14 @@ namespace Oci.OcvpService.Models
         [JsonProperty(PropertyName = "esxiSoftwareVersion")]
         public string EsxiSoftwareVersion { get; set; }
         
+        /// <value>
+        /// The initial fault domain host distribution mode for the Cluster.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "initialFaultDomainHostDistribution")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<FaultDomainHostDistributionModes> InitialFaultDomainHostDistribution { get; set; }
+        
         [JsonProperty(PropertyName = "clusterByolAllocationDetails")]
         public ClusterByolAllocationDetails ClusterByolAllocationDetails { get; set; }
         

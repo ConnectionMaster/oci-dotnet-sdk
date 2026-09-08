@@ -33,6 +33,14 @@ namespace Oci.OcvpService.Models
         public string EsxiSoftwareVersion { get; set; }
         
         /// <value>
+        /// Initial Fault Domain Host distribution mode for the ESXi host.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "initialFaultDomainHostDistribution")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<FaultDomainHostDistributionModes> InitialFaultDomainHostDistribution { get; set; }
+        
+        /// <value>
         /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Byol Allocation for VCF (VMware Cloud Foundation) deployment.
         /// 
         /// </value>

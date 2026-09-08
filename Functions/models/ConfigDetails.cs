@@ -16,7 +16,9 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
+    /// Note: Deprecated. Use the new resource model APIs instead.
     /// Details about the required and optional Function configurations needed for proper performance of the PBF.
+    /// 
     /// </summary>
     public class ConfigDetails 
     {

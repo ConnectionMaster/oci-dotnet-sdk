@@ -275,6 +275,38 @@ namespace Oci.RedisService.Models
         /// </value>
         [JsonProperty(PropertyName = "securityAttributes")]
         public System.Collections.Generic.Dictionary<string, System.Collections.Generic.Dictionary<string, System.Object>> SecurityAttributes { get; set; }
+                ///
+        /// <value>
+        /// The current role of the cluster.
+        /// </value>
+        ///
+        public enum ClusterRoleEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "PRIMARY")]
+            Primary,
+            [EnumMember(Value = "SECONDARY")]
+            Secondary,
+            [EnumMember(Value = "STANDALONE")]
+            Standalone
+        };
+
+        /// <value>
+        /// The current role of the cluster.
+        /// </value>
+        [JsonProperty(PropertyName = "clusterRole")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<ClusterRoleEnum> ClusterRole { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the primary cluster in CRR.
+        /// </value>
+        [JsonProperty(PropertyName = "primaryClusterId")]
+        public string PrimaryClusterId { get; set; }
+        
+        [JsonProperty(PropertyName = "clusterReplicationTopology")]
+        public ClusterReplicationTopology ClusterReplicationTopology { get; set; }
         
         /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.

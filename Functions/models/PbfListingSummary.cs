@@ -16,7 +16,9 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
+    /// Note: Deprecated. Use the new resource model APIs instead.
     /// Summary of the PbfListing.
+    /// 
     /// </summary>
     public class PbfListingSummary 
     {

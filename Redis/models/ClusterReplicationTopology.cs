@@ -13,35 +13,30 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
 
-namespace Oci.FunctionsService.Models
+namespace Oci.RedisService.Models
 {
     /// <summary>
-    /// Note: Deprecated. Use the new resource model APIs instead.
-    /// \"A policy required for this PBF execution.\"
-    /// 
+    /// Defines the replication topology of an OCI cache cluster, including the primary cluster and associated secondary clusters participating in replication.
     /// </summary>
-    public class PolicyDetails 
+    public class ClusterReplicationTopology 
     {
         
-        /// <value>
-        /// Policy required for PBF execution
-        /// </value>
         /// <remarks>
         /// Required
         /// </remarks>
-        [Required(ErrorMessage = "Policy is required.")]
-        [JsonProperty(PropertyName = "policy")]
-        public string Policy { get; set; }
+        [Required(ErrorMessage = "PrimaryCluster is required.")]
+        [JsonProperty(PropertyName = "primaryCluster")]
+        public MemberCluster PrimaryCluster { get; set; }
         
         /// <value>
-        /// Details about why this policy is required and what it will be used for.
+        /// The list of secondary clusters that replicate data from the primary cluster.
         /// </value>
         /// <remarks>
         /// Required
         /// </remarks>
-        [Required(ErrorMessage = "Description is required.")]
-        [JsonProperty(PropertyName = "description")]
-        public string Description { get; set; }
+        [Required(ErrorMessage = "SecondaryClusters is required.")]
+        [JsonProperty(PropertyName = "secondaryClusters")]
+        public System.Collections.Generic.List<MemberCluster> SecondaryClusters { get; set; }
         
     }
 }

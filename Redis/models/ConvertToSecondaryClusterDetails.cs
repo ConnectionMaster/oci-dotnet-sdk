@@ -13,29 +13,23 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
 
-namespace Oci.FunctionsService.Models
+namespace Oci.RedisService.Models
 {
     /// <summary>
-    /// Note: Deprecated. Use the new resource model APIs instead.
-    /// The source of the Function which is based on a Pre-Built Function Listing (PbfListing).
-    /// 
+    /// The information required to convert a cluster into a secondary cluster.
     /// </summary>
-    public class PreBuiltFunctionSourceDetails : FunctionSourceDetails
+    public class ConvertToSecondaryClusterDetails 
     {
         
         /// <value>
-        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the PbfListing this
-        /// function is sourced from.
-        /// 
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the primary cluster.
         /// </value>
         /// <remarks>
         /// Required
         /// </remarks>
-        [Required(ErrorMessage = "PbfListingId is required.")]
-        [JsonProperty(PropertyName = "pbfListingId")]
-        public string PbfListingId { get; set; }
+        [Required(ErrorMessage = "PrimaryClusterId is required.")]
+        [JsonProperty(PropertyName = "primaryClusterId")]
+        public string PrimaryClusterId { get; set; }
         
-        [JsonProperty(PropertyName = "sourceType")]
-        private readonly string sourceType = "PRE_BUILT_FUNCTIONS";
     }
 }

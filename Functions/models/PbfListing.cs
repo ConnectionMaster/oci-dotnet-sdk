@@ -16,7 +16,8 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
-    /// PbfListing resources provide details about the available PBFs for consumption by the user. 
+    /// Note: Deprecated. Use the new resource model APIs instead.
+    /// PbfListing resources provide details about the available PBFs for consumption by the user.
     /// This resource contains details about PBF's functionality, policies required, configuration parameters expected
     /// etc.
     /// 
