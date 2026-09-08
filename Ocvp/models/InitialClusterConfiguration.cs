@@ -150,6 +150,14 @@ namespace Oci.OcvpService.Models
         [JsonProperty(PropertyName = "datastoreClusterIds")]
         public System.Collections.Generic.List<string> DatastoreClusterIds { get; set; }
         
+        /// <value>
+        /// Initial Fault Domain Host distribution mode for the Cluster.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "initialFaultDomainHostDistribution")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<FaultDomainHostDistributionModes> InitialFaultDomainHostDistribution { get; set; }
+        
         [JsonProperty(PropertyName = "clusterByolAllocationDetails")]
         public ClusterByolAllocationDetails ClusterByolAllocationDetails { get; set; }
         

@@ -13,32 +13,33 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
 
-namespace Oci.FunctionsService.Models
+namespace Oci.RedisService.Models
 {
     /// <summary>
-    /// Note: Deprecated. Use the new resource model APIs instead.
-    /// Define the image signature verification policy for an application.
-    /// 
+    /// The details of a cluster participating in the replication setup.
     /// </summary>
-    public class ImagePolicyConfig 
+    public class MemberCluster 
     {
         
         /// <value>
-        /// Define if image signature verification policy is enabled for the application.
-        /// 
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm#Oracle) of the OCI Cache cluster.
         /// </value>
         /// <remarks>
         /// Required
         /// </remarks>
-        [Required(ErrorMessage = "IsPolicyEnabled is required.")]
-        [JsonProperty(PropertyName = "isPolicyEnabled")]
-        public System.Nullable<bool> IsPolicyEnabled { get; set; }
+        [Required(ErrorMessage = "OciCacheClusterId is required.")]
+        [JsonProperty(PropertyName = "ociCacheClusterId")]
+        public string OciCacheClusterId { get; set; }
         
         /// <value>
-        /// A list of KMS key details.
+        /// The OCI region to which the cluster belongs.
         /// </value>
-        [JsonProperty(PropertyName = "keyDetails")]
-        public System.Collections.Generic.List<KeyDetails> KeyDetails { get; set; }
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "Region is required.")]
+        [JsonProperty(PropertyName = "region")]
+        public string Region { get; set; }
         
     }
 }

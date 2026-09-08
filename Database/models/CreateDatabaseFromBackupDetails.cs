@@ -105,6 +105,7 @@ namespace Oci.DatabaseService.Models
         /// <value>
         /// The password for the VPC user that is used to access the Recovery Appliance, if the given backup is from a backup destination of type RECOVERY_APPLIANCE.
         /// </value>
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "recoveryApplianceVpcPassword")]
         public string RecoveryApplianceVpcPassword { get; set; }
         

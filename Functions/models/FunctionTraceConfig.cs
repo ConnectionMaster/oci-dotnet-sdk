@@ -16,6 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
+    /// Note: Deprecated. Use the new resource model APIs instead.      
     /// Define the tracing configuration for a function.
     /// 
     /// </summary>

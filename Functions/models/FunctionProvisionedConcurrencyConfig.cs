@@ -16,6 +16,7 @@ using Newtonsoft.Json.Linq;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
+    /// Note: Deprecated. Use the new resource model APIs instead.      
     /// Define the strategy for provisioned concurrency for the function.
     /// 
     /// </summary>
