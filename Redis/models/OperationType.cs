@@ -74,6 +74,18 @@ namespace Oci.RedisService.Models
       [EnumMember(Value = "PATCH_OCI_CACHE_CLUSTER")]
       PatchOciCacheCluster,
       [EnumMember(Value = "REPLACE_OCI_CACHE_NODE")]
-      ReplaceOciCacheNode
+      ReplaceOciCacheNode,
+      [EnumMember(Value = "CONVERT_TO_SECONDARY_CLUSTER")]
+      ConvertToSecondaryCluster,
+      [EnumMember(Value = "CONVERT_TO_STANDALONE_CLUSTER")]
+      ConvertToStandaloneCluster,
+      [EnumMember(Value = "ROLLBACK_CRR_SETUP")]
+      RollbackCrrSetup,
+      [EnumMember(Value = "SWITCHOVER")]
+      Switchover,
+      [EnumMember(Value = "SETUP_CRR")]
+      SetupCrr,
+      [EnumMember(Value = "CHANGE_ROLE_TO_SECONDARY")]
+      ChangeRoleToSecondary
   }
 }

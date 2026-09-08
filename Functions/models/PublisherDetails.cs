@@ -16,7 +16,9 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
+    /// Note: Deprecated. Use the new resource model APIs instead.
     /// Contains details about the publisher of this PBF Listing.
+    /// 
     /// </summary>
     public class PublisherDetails 
     {

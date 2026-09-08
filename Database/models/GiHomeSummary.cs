@@ -63,6 +63,12 @@ namespace Oci.DatabaseService.Models
         /// </value>
         [JsonProperty(PropertyName = "isDefaultCreated")]
         public System.Nullable<bool> IsDefaultCreated { get; set; }
+        
+        /// <value>
+        /// Indicates whether the Grid Infrastructure Home is currently active for the cluster.
+        /// </value>
+        [JsonProperty(PropertyName = "isActive")]
+        public System.Nullable<bool> IsActive { get; set; }
                 ///
         /// <value>
         /// The current state of the Grid Infrastructure Home.
@@ -102,6 +108,10 @@ namespace Oci.DatabaseService.Models
         /// <value>
         /// The time and date as an RFC3339 formatted string, e.g., 2024-04-11T01:59:07.032Z, when the grid infrastructure home was created
         /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "TimeCreated is required.")]
         [JsonProperty(PropertyName = "timeCreated")]
         public System.Nullable<System.DateTime> TimeCreated { get; set; }
         
@@ -114,6 +124,54 @@ namespace Oci.DatabaseService.Models
         [Required(ErrorMessage = "HomePath is required.")]
         [JsonProperty(PropertyName = "homePath")]
         public string HomePath { get; set; }
+                ///
+        ///
+        public enum AvailableActionsEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "PRECHECK")]
+            Precheck,
+            [EnumMember(Value = "ROLLING_APPLY")]
+            RollingApply,
+            [EnumMember(Value = "RETRY")]
+            Retry,
+            [EnumMember(Value = "ROLLBACK")]
+            Rollback
+        };
+
+        /// <value>
+        /// The possible Grid Infrastructure update actions that can be performed using this Grid Infrastructure Home.
+        /// </value>
+        [JsonProperty(PropertyName = "availableActions", ItemConverterType = typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Collections.Generic.List<AvailableActionsEnum> AvailableActions { get; set; }
+                ///
+        /// <value>
+        /// The type of update that the Grid Infrastructure Home can be used for.
+        /// </value>
+        ///
+        public enum AvailableTypeEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "GI_UPGRADE")]
+            GiUpgrade,
+            [EnumMember(Value = "GI_PATCH")]
+            GiPatch
+        };
+
+        /// <value>
+        /// The type of update that the Grid Infrastructure Home can be used for.
+        /// </value>
+        [JsonProperty(PropertyName = "availableType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<AvailableTypeEnum> AvailableType { get; set; }
+        
+        /// <value>
+        /// Additional information about the current lifecycle state.
+        /// </value>
+        [JsonProperty(PropertyName = "lifecycleDetails")]
+        public string LifecycleDetails { get; set; }
         
         /// <value>
         /// A valid Oracle Grid Infrastructure (GI) software version.
@@ -134,6 +192,10 @@ namespace Oci.DatabaseService.Models
         /// <value>
         /// The time and date as an RFC3339 formatted string, e.g., 2024-04-11T01:59:07.032Z, when the grid infrastructure home was updated
         /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "TimeUpdated is required.")]
         [JsonProperty(PropertyName = "timeUpdated")]
         public System.Nullable<System.DateTime> TimeUpdated { get; set; }
         

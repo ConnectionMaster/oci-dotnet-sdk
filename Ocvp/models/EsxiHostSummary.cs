@@ -206,6 +206,13 @@ namespace Oci.OcvpService.Models
         public string ComputeAvailabilityDomain { get; set; }
         
         /// <value>
+        /// The fault domain of the ESXi host.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "computeFaultDomain")]
+        public string ComputeFaultDomain { get; set; }
+        
+        /// <value>
         /// The compute shape name of the ESXi host.
         /// {@link #listSupportedHostShapes(ListSupportedHostShapesRequest) listSupportedHostShapes}.
         /// 

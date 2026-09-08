@@ -16,7 +16,9 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
+    /// Note: Deprecated. Use the new resource model APIs instead.
     /// PBF specific triggers for activating a PBF.
+    /// 
     /// </summary>
     public class Trigger 
     {

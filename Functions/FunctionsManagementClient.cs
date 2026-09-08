@@ -73,6 +73,7 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
+        /// Note: Deprecated. Use the new operation instead.
         /// Moves an application into a different compartment within the same tenancy.
         /// For information about moving resources between compartments, see [Moving Resources Between Compartments](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
@@ -131,7 +132,9 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Creates a new application.
+        /// Note: Deprecated. Use the new operation instead.
+        /// \&quot;Creates a new application.\&quot;
+        /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -187,7 +190,9 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Creates a new function.
+        /// Note: Deprecated. Use the new operation instead.
+        /// \&quot;Creates a new function.\&quot;
+        /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -243,7 +248,9 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
+        /// Note: Deprecated. Use the new operation instead.
         /// Deletes an application.
+        /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -299,7 +306,9 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
+        /// Note: Deprecated. Use the new operation instead.
         /// Deletes a function.
+        /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -355,7 +364,9 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Retrieves an application.
+        /// Note: Deprecated. Use the new operation instead.
+        /// \&quot;Retrieves an application.\&quot;
+        /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -411,7 +422,9 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Retrieves a function.
+        /// Note: Deprecated. Use the new operation instead.
+        /// \&quot;Retrieves a function.\&quot;
+        /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -467,6 +480,7 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
+        /// Note: Deprecated. Use the new operation instead.
         /// Fetches a Pre-built Function(PBF) Listing. Returns a PbfListing response model.
         /// 
         /// </summary>
@@ -524,7 +538,9 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
+        /// Note: Deprecated. Use the new operation instead.
         /// Gets a PbfListingVersion by identifier for a PbfListing.
+        /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -580,7 +596,9 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Lists applications for a compartment.
+        /// Note: Deprecated. Use the new operation instead.
+        /// \&quot;Lists applications for a compartment.\&quot;
+        /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -636,7 +654,9 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Lists functions for an application.
+        /// Note: Deprecated. Use the new operation instead.
+        /// \&quot;Lists functions for an application.\&quot;
+        /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -692,7 +712,8 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Fetches a wrapped list of all Pre-built Function(PBF) Listing versions. Returns a PbfListingVersionCollection 
+        /// Note: Deprecated. Use the new operation instead.
+        /// Fetches a wrapped list of all Pre-built Function(PBF) Listing versions. Returns a PbfListingVersionCollection
         /// containing an array of PbfListingVersionSummary response models.
         /// &lt;br/&gt;
         /// Note that the PbfListingIdentifier must be provided as a query parameter, otherwise an exception shall 
@@ -753,7 +774,8 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Fetches a wrapped list of all Pre-built Function(PBF) Listings. Returns a PbfListingCollection containing 
+        /// Note: Deprecated. Use the new operation instead.
+        /// Fetches a wrapped list of all Pre-built Function(PBF) Listings. Returns a PbfListingCollection containing
         /// an array of PbfListingSummary response models.
         /// 
         /// </summary>
@@ -811,6 +833,7 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
+        /// Note: Deprecated. Use the new operation instead.
         /// Returns a list of Triggers.
         /// 
         /// </summary>
@@ -868,7 +891,9 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Modifies an application
+        /// Note: Deprecated. Use the new operation instead.
+        /// \&quot;Modifies an application\&quot;
+        /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -924,7 +949,9 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Modifies a function
+        /// Note: Deprecated. Use the new operation instead.
+        /// \&quot;Modifies a function\&quot;
+        /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>

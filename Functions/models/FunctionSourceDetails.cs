@@ -16,6 +16,7 @@ using Newtonsoft.Json.Linq;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
+    /// Note: Deprecated. Use the new resource model APIs instead.
     /// The source details for the Function. The function can be created from various sources.
     /// 
     /// </summary>
