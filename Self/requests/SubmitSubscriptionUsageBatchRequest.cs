@@ -30,7 +30,7 @@ namespace Oci.SelfService.Requests
         public string CompartmentId { get; set; }
         
         /// <value>
-        /// UTF-8 CSV file with no more than 10,000 usage records and a maximum size of 50 MB.
+        /// UTF-8 CSV file with no more than 30,000 usage records and a maximum size of 50 MB.
         /// Required columns are `MarketplaceOfferId`, `Id`, `Amount`, `CurrencyCode`,
         /// `UsageStartTime`, `UsageEndTime`, and `UsageDimensionName`.
         /// Optional columns are `ConsumedQuantity`, `CustomerTenancyId`,

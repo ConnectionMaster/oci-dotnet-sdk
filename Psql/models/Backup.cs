@@ -202,6 +202,12 @@ namespace Oci.PsqlService.Models
         public System.Collections.Generic.List<BackupCopyStatusDetails> CopyStatus { get; set; }
         
         /// <value>
+        /// The OCID of the master encryption key for the backup.
+        /// </value>
+        [JsonProperty(PropertyName = "kmsKeyId")]
+        public string KmsKeyId { get; set; }
+        
+        /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.
         /// Example: {&quot;bar-key&quot;: &quot;value&quot;}
         /// </value>

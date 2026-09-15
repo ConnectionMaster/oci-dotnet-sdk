@@ -43,5 +43,11 @@ namespace Oci.PsqlService.Models
         [JsonProperty(PropertyName = "regions")]
         public System.Collections.Generic.List<string> Regions { get; set; }
         
+        /// <value>
+        /// List of key ids of the remote regions
+        /// </value>
+        [JsonProperty(PropertyName = "kmsKeyIds")]
+        public System.Collections.Generic.List<string> KmsKeyIds { get; set; }
+        
     }
 }
