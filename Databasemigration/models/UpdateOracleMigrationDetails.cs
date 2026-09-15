@@ -16,10 +16,16 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatabasemigrationService.Models
 {
     /// <summary>
-    /// Create Migration resource parameters.
+    /// Update Migration resource parameters.
+    /// Deprecated: The parent-level Oracle migration configuration properties on this model are deprecated.
+    /// Use `migrationSettings` instead.
+    /// 
     /// </summary>
     public class UpdateOracleMigrationDetails : UpdateMigrationDetails
     {
+        
+        [JsonProperty(PropertyName = "migrationSettings")]
+        public UpdateOracleMigrationSettings MigrationSettings { get; set; }
         
         [JsonProperty(PropertyName = "dataTransferMediumDetails")]
         public UpdateOracleDataTransferMediumDetails DataTransferMediumDetails { get; set; }

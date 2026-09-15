@@ -29,5 +29,11 @@ namespace Oci.PsqlService.Models
         [JsonProperty(PropertyName = "iops")]
         public System.Nullable<long> Iops { get; set; }
         
+        /// <value>
+        /// The OCID of the Vault service key to assign as the master encryption key for the database system.
+        /// </value>
+        [JsonProperty(PropertyName = "kmsKeyId")]
+        public string KmsKeyId { get; set; }
+        
     }
 }
