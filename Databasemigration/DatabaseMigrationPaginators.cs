@@ -393,6 +393,153 @@ namespace Oci.DatabasemigrationService
         }
 
         /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListDataVerificationObjectStatuses operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListDataVerificationObjectStatusesResponse> ListDataVerificationObjectStatusesResponseEnumerator(ListDataVerificationObjectStatusesRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListDataVerificationObjectStatusesRequest, ListDataVerificationObjectStatusesResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListDataVerificationObjectStatuses(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the DataVerificationObjectStatusSummary objects
+        /// contained in responses from the ListDataVerificationObjectStatuses operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<DataVerificationObjectStatusSummary> ListDataVerificationObjectStatusesRecordEnumerator(ListDataVerificationObjectStatusesRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListDataVerificationObjectStatusesRequest, ListDataVerificationObjectStatusesResponse, DataVerificationObjectStatusSummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListDataVerificationObjectStatuses(request, retryConfiguration, cancellationToken),
+                response => response.DataVerificationObjectStatusCollection.Items
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListDataVerificationObjectTypeCounts operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListDataVerificationObjectTypeCountsResponse> ListDataVerificationObjectTypeCountsResponseEnumerator(ListDataVerificationObjectTypeCountsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListDataVerificationObjectTypeCountsRequest, ListDataVerificationObjectTypeCountsResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListDataVerificationObjectTypeCounts(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the DataVerificationObjectTypeCountSummary objects
+        /// contained in responses from the ListDataVerificationObjectTypeCounts operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<DataVerificationObjectTypeCountSummary> ListDataVerificationObjectTypeCountsRecordEnumerator(ListDataVerificationObjectTypeCountsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListDataVerificationObjectTypeCountsRequest, ListDataVerificationObjectTypeCountsResponse, DataVerificationObjectTypeCountSummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListDataVerificationObjectTypeCounts(request, retryConfiguration, cancellationToken),
+                response => response.DataVerificationObjectTypeCountCollection.Items
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the responses received from the ListDataVerificationTableRowCounts operation. This enumerable
+        /// will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<ListDataVerificationTableRowCountsResponse> ListDataVerificationTableRowCountsResponseEnumerator(ListDataVerificationTableRowCountsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseEnumerable<ListDataVerificationTableRowCountsRequest, ListDataVerificationTableRowCountsResponse>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListDataVerificationTableRowCounts(request, retryConfiguration, cancellationToken)
+            );
+        }
+
+        /// <summary>
+        /// Creates a new enumerable which will iterate over the DataVerificationTableRowCountSummary objects
+        /// contained in responses from the ListDataVerificationTableRowCounts operation. This enumerable will fetch more data from the server as needed.
+        /// </summary>
+        /// <param name="request">The request object containing the details to send</param>
+        /// <param name="retryConfiguration">The configuration for retrying, may be null</param>
+        /// <param name="cancellationToken">The cancellation token object</param>
+        /// <returns>The enumerator, which supports a simple iteration over a collection of a specified type</returns>
+        public IEnumerable<DataVerificationTableRowCountSummary> ListDataVerificationTableRowCountsRecordEnumerator(ListDataVerificationTableRowCountsRequest request, Common.Retry.RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default)
+        {
+            return new Common.Utils.ResponseRecordEnumerable<ListDataVerificationTableRowCountsRequest, ListDataVerificationTableRowCountsResponse, DataVerificationTableRowCountSummary>(
+                response => response.OpcNextPage,
+                input =>
+                {
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        request.Page = input;
+                    }
+                    return request;
+                },
+                request => client.ListDataVerificationTableRowCounts(request, retryConfiguration, cancellationToken),
+                response => response.DataVerificationTableRowCountCollection.Items
+            );
+        }
+
+        /// <summary>
         /// Creates a new enumerable which will iterate over the responses received from the ListDatabaseConnectionType operation. This enumerable
         /// will fetch more data from the server as needed.
         /// </summary>

@@ -23,7 +23,7 @@ namespace Oci.SelfService.Models
     {
         
         /// <value>
-        /// The usage records to submit. The array must contain at least one record and no more than 100 records.
+        /// The usage records to submit. The array must contain at least one record and no more than 1,000 records.
         /// </value>
         /// <remarks>
         /// Required

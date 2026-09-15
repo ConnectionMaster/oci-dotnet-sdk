@@ -147,12 +147,6 @@ namespace Oci.SelfService.Models
         public System.Collections.Generic.List<ExtendedMetadata> AdditionalMetadata { get; set; }
         
         /// <value>
-        /// Partner-provided usage record identifier for traceability.
-        /// </value>
-        [JsonProperty(PropertyName = "usageRecordId")]
-        public string UsageRecordId { get; set; }
-        
-        /// <value>
         /// The inclusive start timestamp for the usage window. This value must be before `timeUsageEnded`.
         /// </value>
         /// <remarks>
