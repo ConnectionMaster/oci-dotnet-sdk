@@ -31,5 +31,12 @@ namespace Oci.MarketplacepublisherService.Models
         [JsonProperty(PropertyName = "contentUrl")]
         public string ContentUrl { get; set; }
         
+        /// <value>
+        /// The specified attachment type is Internal or External.
+        /// </value>
+        [JsonProperty(PropertyName = "sourceType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<ListingRevisionAttachment.SourceTypeEnum> SourceType { get; set; }
+        
     }
 }

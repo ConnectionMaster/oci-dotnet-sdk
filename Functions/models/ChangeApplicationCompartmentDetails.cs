@@ -16,7 +16,6 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
-    /// Note: Deprecated. Use the new resource model APIs instead.
     /// Properties to change the compartment of an application.
     /// 
     /// </summary>

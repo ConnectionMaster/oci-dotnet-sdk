@@ -34,13 +34,6 @@ namespace Oci.DistributeddatabaseService.Models
         public string Description { get; set; }
         
         /// <value>
-        /// The OCIDs of the network security groups that the private endpoint belongs to.
-        /// 
-        /// </value>
-        [JsonProperty(PropertyName = "nsgIds")]
-        public System.Collections.Generic.List<string> NsgIds { get; set; }
-        
-        /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.
         /// Example: {&quot;bar-key&quot;: &quot;value&quot;}
         /// </value>

@@ -33,9 +33,9 @@ namespace Oci.DatasafeService.Models
                 ///
         /// <value>
         /// The way in which this resource was affected by the operation that spawned the work request.
-        /// A resource being created, updated, or deleted will remain in the IN_PROGRESS state until
-        /// work is complete for that resource at which point it will transition to CREATED, UPDATED,
-        /// or DELETED, respectively.
+        /// A resource being created, updated, deleted, or tracked by a nested operation will remain in
+        /// the IN_PROGRESS state until work is complete for that resource at which point it will
+        /// transition to CREATED, UPDATED, DELETED, SUCCEEDED, FAILED, or CANCELED as appropriate.
         /// 
         /// </value>
         ///
@@ -51,15 +51,19 @@ namespace Oci.DatasafeService.Models
             Deleted,
             [EnumMember(Value = "IN_PROGRESS")]
             InProgress,
+            [EnumMember(Value = "SUCCEEDED")]
+            Succeeded,
             [EnumMember(Value = "FAILED")]
-            Failed
+            Failed,
+            [EnumMember(Value = "CANCELED")]
+            Canceled
         };
 
         /// <value>
         /// The way in which this resource was affected by the operation that spawned the work request.
-        /// A resource being created, updated, or deleted will remain in the IN_PROGRESS state until
-        /// work is complete for that resource at which point it will transition to CREATED, UPDATED,
-        /// or DELETED, respectively.
+        /// A resource being created, updated, deleted, or tracked by a nested operation will remain in
+        /// the IN_PROGRESS state until work is complete for that resource at which point it will
+        /// transition to CREATED, UPDATED, DELETED, SUCCEEDED, FAILED, or CANCELED as appropriate.
         /// 
         /// </value>
         /// <remarks>

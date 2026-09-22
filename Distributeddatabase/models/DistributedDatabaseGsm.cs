@@ -52,7 +52,7 @@ namespace Oci.DistributeddatabaseService.Models
         public System.Double DataStorageSizeInGbs { get; set; }
         
         /// <value>
-        /// The time the Global service manager instance was created. An RFC3339 formatted datetime string
+        /// The time the Global service manager instance was created. An RFC3339 formatted datetime string.
         /// </value>
         /// <remarks>
         /// Required
@@ -62,7 +62,7 @@ namespace Oci.DistributeddatabaseService.Models
         public System.Nullable<System.DateTime> TimeCreated { get; set; }
         
         /// <value>
-        /// The time the Global service manager instance was last updated. An RFC3339 formatted datetime string
+        /// The time the Global service manager instance was last updated. An RFC3339 formatted datetime string.
         /// </value>
         /// <remarks>
         /// Required

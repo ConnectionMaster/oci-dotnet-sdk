@@ -26,7 +26,7 @@ namespace Oci.FunctionsService
     public class FunctionsInvokeClient : ClientBase
     {
         private readonly RetryConfiguration retryConfiguration;
-        private const string basePathWithoutHost = "/20181201";
+        private const string basePathWithoutHost = "/20260325";
 
         /// <summary>
         /// Creates a new service instance using the given authentication provider and/or client configuration and/or endpoint.
@@ -61,9 +61,7 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
-        /// \&quot;Invokes a function\&quot;
-        /// 
+        /// Invokes a function
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -99,7 +97,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsInvoke",
                     OperationName = "InvokeFunction",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/Function/InvokeFunction",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/Function/InvokeFunction",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);

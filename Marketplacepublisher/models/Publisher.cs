@@ -20,29 +20,7 @@ namespace Oci.MarketplacepublisherService.Models
     /// </summary>
     public class Publisher 
     {
-                ///
-        /// <value>
-        /// publisher status.
-        /// </value>
-        ///
-        public enum PublisherStatusEnum {
-            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
-            [EnumMember(Value = null)]
-            UnknownEnumValue,
-            [EnumMember(Value = "NEW")]
-            New,
-            [EnumMember(Value = "APPROVED")]
-            Approved,
-            [EnumMember(Value = "SUSPENDED")]
-            Suspended,
-            [EnumMember(Value = "REMOVED")]
-            Removed,
-            [EnumMember(Value = "REJECTED")]
-            Rejected,
-            [EnumMember(Value = "CONTACTED")]
-            Contacted
-        };
-
+        
         /// <value>
         /// publisher status.
         /// </value>
@@ -52,7 +30,7 @@ namespace Oci.MarketplacepublisherService.Models
         [Required(ErrorMessage = "PublisherStatus is required.")]
         [JsonProperty(PropertyName = "publisherStatus")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
-        public System.Nullable<PublisherStatusEnum> PublisherStatus { get; set; }
+        public System.Nullable<PublisherStatus> PublisherStatus { get; set; }
         
         /// <value>
         /// The private email address of the publisher product team.
@@ -60,11 +38,23 @@ namespace Oci.MarketplacepublisherService.Models
         [JsonProperty(PropertyName = "notificationEmail")]
         public string NotificationEmail { get; set; }
         
+        /// <value>
+        /// Oracle Cloud Marketplace agreement status
+        /// </value>
+        [JsonProperty(PropertyName = "enrollmentStatus")]
+        public string EnrollmentStatus { get; set; }
+        
         [JsonProperty(PropertyName = "opnMembership")]
         public OpnMembership OpnMembership { get; set; }
         
         [JsonProperty(PropertyName = "privateOfferAccountDetails")]
         public PrivateOfferAccountDetails PrivateOfferAccountDetails { get; set; }
+        
+        /// <value>
+        /// Whether automatic FX conversion is enabled for the publisher.
+        /// </value>
+        [JsonProperty(PropertyName = "isFxEnabled")]
+        public System.Nullable<bool> IsFxEnabled { get; set; }
         
         /// <value>
         /// Unique OCID identifier for the publisher.
@@ -221,6 +211,54 @@ namespace Oci.MarketplacepublisherService.Models
         [Required(ErrorMessage = "TimeUpdated is required.")]
         [JsonProperty(PropertyName = "timeUpdated")]
         public System.Nullable<System.DateTime> TimeUpdated { get; set; }
+        
+        /// <value>
+        /// Email address of the publisher.
+        /// </value>
+        [JsonProperty(PropertyName = "email")]
+        public string Email { get; set; }
+        
+        /// <value>
+        /// The business phone number of the publisher.
+        /// </value>
+        [JsonProperty(PropertyName = "businessPhoneNumber")]
+        public string BusinessPhoneNumber { get; set; }
+        
+        /// <value>
+        /// Count of employees in publisher's company
+        /// </value>
+        [JsonProperty(PropertyName = "employeeCount")]
+        public System.Nullable<long> EmployeeCount { get; set; }
+        
+        /// <value>
+        /// A description of the publisher solutions.
+        /// </value>
+        [JsonProperty(PropertyName = "solutionDescription")]
+        public string SolutionDescription { get; set; }
+        
+        /// <value>
+        /// OPN membership number of the publisher
+        /// </value>
+        [JsonProperty(PropertyName = "opnNumber")]
+        public string OpnNumber { get; set; }
+        
+        /// <value>
+        /// Country in which partner company resides
+        /// </value>
+        [JsonProperty(PropertyName = "country")]
+        public string Country { get; set; }
+        
+        /// <value>
+        /// City in which partner company resides
+        /// </value>
+        [JsonProperty(PropertyName = "city")]
+        public string City { get; set; }
+        
+        /// <value>
+        /// State in which partner company resides
+        /// </value>
+        [JsonProperty(PropertyName = "state")]
+        public string State { get; set; }
         
         /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.

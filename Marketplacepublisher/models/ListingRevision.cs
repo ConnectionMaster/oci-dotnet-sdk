@@ -147,6 +147,9 @@ namespace Oci.MarketplacepublisherService.Models
         
         [JsonProperty(PropertyName = "icon")]
         public ListingRevisionIconAttachment Icon { get; set; }
+        
+        [JsonProperty(PropertyName = "banner")]
+        public ListingRevisionBannerAttachment Banner { get; set; }
                 ///
         /// <value>
         /// The current status for the Listing revision.

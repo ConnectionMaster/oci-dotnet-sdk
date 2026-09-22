@@ -20,7 +20,7 @@ namespace Oci.DistributeddatabaseService.Requests
     {
         
         /// <value>
-        /// Globally distributed database identifier
+        /// Globally distributed database identifier.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.DistributeddatabaseService.Requests
         public string DistributedDatabaseId { get; set; }
         
         /// <value>
-        /// Comma separated names of argument corresponding to which metadata need to be retrived.
+        /// Comma-separated argument names for which metadata should be retrieved.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "metadata")]

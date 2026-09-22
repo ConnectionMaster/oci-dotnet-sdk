@@ -252,6 +252,34 @@ namespace Oci.DatasafeService
         /// <param name="request">Request to send.</param>
         /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
         /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetCryptoAssessmentRequest, GetCryptoAssessmentResponse> ForCryptoAssessment(GetCryptoAssessmentRequest request, params CryptoAssessment.LifecycleStateEnum[] targetStates)
+        {
+            return this.ForCryptoAssessment(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);
+        }
+
+        /// <summary>
+        /// Creates a waiter using the provided configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="config">Wait Configuration</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
+        public Waiter<GetCryptoAssessmentRequest, GetCryptoAssessmentResponse> ForCryptoAssessment(GetCryptoAssessmentRequest request, WaiterConfiguration config, params CryptoAssessment.LifecycleStateEnum[] targetStates)
+        {
+            var agent = new WaiterAgent<GetCryptoAssessmentRequest, GetCryptoAssessmentResponse>(
+                request,
+                request => client.GetCryptoAssessment(request),
+                response => targetStates.Contains(response.CryptoAssessment.LifecycleState.Value),
+                targetStates.Contains(CryptoAssessment.LifecycleStateEnum.Deleted)
+            );
+            return new Waiter<GetCryptoAssessmentRequest, GetCryptoAssessmentResponse>(config, agent);
+        }
+        /// <summary>
+        /// Creates a waiter using default wait configuration.
+        /// </summary>
+        /// <param name="request">Request to send.</param>
+        /// <param name="targetStates">Desired resource states. If multiple states are provided then the waiter will return once the resource reaches any of the provided states</param>
+        /// <returns>a new Oci.common.Waiter instance</returns>
         public Waiter<GetDataSafeConfigurationRequest, GetDataSafeConfigurationResponse> ForDataSafeConfiguration(GetDataSafeConfigurationRequest request, params LifecycleState[] targetStates)
         {
             return this.ForDataSafeConfiguration(request, WaiterConfiguration.DefaultWaiterConfiguration, targetStates);

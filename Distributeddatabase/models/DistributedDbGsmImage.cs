@@ -32,14 +32,14 @@ namespace Oci.DistributeddatabaseService.Models
         public string Id { get; set; }
         
         /// <value>
-        /// The version number associated with the image identified by id.
+        /// The version associated with the image identified by id.
         /// </value>
         /// <remarks>
         /// Required
         /// </remarks>
-        [Required(ErrorMessage = "VersionNumber is required.")]
-        [JsonProperty(PropertyName = "versionNumber")]
-        public System.Nullable<int> VersionNumber { get; set; }
+        [Required(ErrorMessage = "Version is required.")]
+        [JsonProperty(PropertyName = "version")]
+        public string Version { get; set; }
         
     }
 }

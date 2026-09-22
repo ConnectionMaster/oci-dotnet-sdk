@@ -11,95 +11,28 @@ using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
+
 
 namespace Oci.DistributeddatabaseService.Models
 {
     /// <summary>
-    /// Globally distributed autonomous database catalog.
+    /// Globally distributed autonomous database catalog details.
     /// </summary>
-    [JsonConverter(typeof(DistributedAutonomousDatabaseCatalogModelConverter))]
     public class DistributedAutonomousDatabaseCatalog 
     {
-                ///
-        /// <value>
-        /// The source of Globally distributed autonomous database type: Use ADB_D for the Globally distributed autonomous database with
-        /// autonomous dedicated cloudautonomousvmclusters.
-        /// 
-        /// </value>
-        ///
-        public enum SourceEnum {
-            [EnumMember(Value = "ADB_D")]
-            AdbD
-        };
-
         
-        /// <value>
-        /// The name of catalog.
-        /// </value>
         /// <remarks>
         /// Required
         /// </remarks>
-        [Required(ErrorMessage = "Name is required.")]
-        [JsonProperty(PropertyName = "name")]
-        public string Name { get; set; }
+        [Required(ErrorMessage = "OriginalReplica is required.")]
+        [JsonProperty(PropertyName = "originalReplica")]
+        public DistributedAutonomousDatabaseCatalogReplica OriginalReplica { get; set; }
         
         /// <value>
-        /// The time the catalog was created. An RFC3339 formatted datetime string
+        /// The details of data guard replicas for the catalog.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "TimeCreated is required.")]
-        [JsonProperty(PropertyName = "timeCreated")]
-        public System.Nullable<System.DateTime> TimeCreated { get; set; }
+        [JsonProperty(PropertyName = "dataGuardReplicas")]
+        public System.Collections.Generic.List<DistributedAutonomousDatabaseCatalogReplica> DataGuardReplicas { get; set; }
         
-        /// <value>
-        /// The time the catalog was last updated. An RFC3339 formatted datetime string
-        /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "TimeUpdated is required.")]
-        [JsonProperty(PropertyName = "timeUpdated")]
-        public System.Nullable<System.DateTime> TimeUpdated { get; set; }
-        
-    }
-
-    public class DistributedAutonomousDatabaseCatalogModelConverter : JsonConverter
-    {
-        private static NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
-        public override bool CanWrite => false;
-        public override bool CanRead => true;
-        public override bool CanConvert(System.Type type)
-        {
-            return type == typeof(DistributedAutonomousDatabaseCatalog);
-        }
-        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
-        {
-            throw new System.InvalidOperationException("Use default serialization.");
-        }
-
-        public override object ReadJson(JsonReader reader, System.Type objectType, object existingValue, JsonSerializer serializer)
-        {
-            var jsonObject = JObject.Load(reader);
-            var obj = default(DistributedAutonomousDatabaseCatalog);
-            var discriminator = jsonObject["source"].Value<string>();
-            switch (discriminator)
-            {
-                case "ADB_D":
-                    obj = new DistributedAutonomousDatabaseCatalogWithDedicatedInfra();
-                    break;
-            }
-            if (obj != null)
-            {
-                serializer.Populate(jsonObject.CreateReader(), obj);
-            }
-            else
-            {
-                logger.Warn($"The type {discriminator} is not present under DistributedAutonomousDatabaseCatalog! Returning null value.");
-            }
-            return obj;
-        }
     }
 }

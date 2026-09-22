@@ -220,6 +220,12 @@ namespace Oci.MarketplacepublisherService.Models
         public string PartnerId { get; set; }
         
         /// <value>
+        /// The listing ocid of the listing
+        /// </value>
+        [JsonProperty(PropertyName = "publisherServiceListingId")]
+        public string PublisherServiceListingId { get; set; }
+        
+        /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.
         /// Example: {&quot;bar-key&quot;: &quot;value&quot;}
         /// </value>

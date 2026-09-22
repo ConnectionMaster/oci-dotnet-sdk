@@ -28,6 +28,14 @@ namespace Oci.DistributeddatabaseService.Models
         public string DisplayName { get; set; }
         
         /// <value>
+        /// The collection of [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the notification topics associated with the globally distributed autonomous database. 
+        /// Pass an empty list (`[]`) to remove existing notification topics (set `notificationTopicIds` to empty).
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "notificationTopicIds")]
+        public System.Collections.Generic.List<string> NotificationTopicIds { get; set; }
+        
+        /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.
         /// Example: {&quot;bar-key&quot;: &quot;value&quot;}
         /// </value>

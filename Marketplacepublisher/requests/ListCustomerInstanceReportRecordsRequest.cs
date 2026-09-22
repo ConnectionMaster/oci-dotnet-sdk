@@ -29,36 +29,6 @@ namespace Oci.MarketplacepublisherService.Requests
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "compartmentId")]
         public string CompartmentId { get; set; }
         
-        ///
-        /// <value>
-        /// The date range of the report
-        /// 
-        /// </value>
-        ///
-        public enum DateRangeEnum {
-            [EnumMember(Value = "THIS_WEEK")]
-            ThisWeek,
-            [EnumMember(Value = "LAST_WEEK")]
-            LastWeek,
-            [EnumMember(Value = "THIS_MONTH")]
-            ThisMonth,
-            [EnumMember(Value = "LAST_MONTH")]
-            LastMonth,
-            [EnumMember(Value = "LAST_THREE_MONTHS")]
-            LastThreeMonths
-        };
-
-        /// <value>
-        /// The date range of the report
-        /// 
-        /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "DateRange is required.")]
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "dateRange")]
-        public System.Nullable<DateRangeEnum> DateRange { get; set; }
-        
         /// <value>
         /// The client request ID for tracing.
         /// </value>
@@ -85,19 +55,17 @@ namespace Oci.MarketplacepublisherService.Requests
         
         ///
         /// <value>
-        /// The field to sort by. Only one sort order may be provided. Default order for timeCreated is descending. Default order for displayName is ascending.
+        /// The field to sort by. Only one sort order may be provided. Default order for instance_id is ascending.
         /// 
         /// </value>
         ///
         public enum SortByEnum {
-            [EnumMember(Value = "timeCreated")]
-            TimeCreated,
-            [EnumMember(Value = "displayName")]
-            DisplayName
+            [EnumMember(Value = "INSTANCE_ID")]
+            InstanceId
         };
 
         /// <value>
-        /// The field to sort by. Only one sort order may be provided. Default order for timeCreated is descending. Default order for displayName is ascending.
+        /// The field to sort by. Only one sort order may be provided. Default order for instance_id is ascending.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "sortBy")]
@@ -108,5 +76,103 @@ namespace Oci.MarketplacepublisherService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "name")]
         public string Name { get; set; }
+        
+        /// <value>
+        /// Listing OCID to query resource against.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "listingId")]
+        public string ListingId { get; set; }
+        
+        ///
+        /// <value>
+        /// A filter to return only report records that match the instance status.
+        /// </value>
+        ///
+        public enum StatusEnum {
+            [EnumMember(Value = "PROVISIONING")]
+            Provisioning,
+            [EnumMember(Value = "RUNNING")]
+            Running,
+            [EnumMember(Value = "STOPPED")]
+            Stopped,
+            [EnumMember(Value = "TERMINATING")]
+            Terminating,
+            [EnumMember(Value = "TERMINATED")]
+            Terminated,
+            [EnumMember(Value = "DISABLED")]
+            Disabled,
+            [EnumMember(Value = "STARTING")]
+            Starting,
+            [EnumMember(Value = "STOPPING")]
+            Stopping,
+            [EnumMember(Value = "SNAPSHOTTING")]
+            Snapshotting
+        };
+
+        /// <value>
+        /// A filter to return only report records that match the instance status.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "status")]
+        public System.Nullable<StatusEnum> Status { get; set; }
+        
+        /// <value>
+        /// A filter to return only report records that match the instance shape.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "shape")]
+        public string Shape { get; set; }
+        
+        /// <value>
+        /// A filter to return only report records that match the instance region.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "region")]
+        public string Region { get; set; }
+        
+        /// <value>
+        /// A filter to return only report records that match the instance realm.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "realm")]
+        public string Realm { get; set; }
+        
+        /// <value>
+        /// A filter to return only report records that match the tenant administrator domain.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "tenantAdminDomain")]
+        public string TenantAdminDomain { get; set; }
+        
+        /// <value>
+        /// A filter to return only report records that match the package version.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "packageVersion")]
+        public string PackageVersion { get; set; }
+        
+        /// <value>
+        /// A filter to return only report records that match the instance OCID.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "instanceOcid")]
+        public string InstanceOcid { get; set; }
+        
+        /// <value>
+        /// The inclusive earliest instance creation time, in RFC 3339 format.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "timeInstanceCreationFromDate")]
+        public System.Nullable<System.DateTime> TimeInstanceCreationFromDate { get; set; }
+        
+        /// <value>
+        /// The inclusive latest instance creation time, in RFC 3339 format.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "timeInstanceCreationToDate")]
+        public System.Nullable<System.DateTime> TimeInstanceCreationToDate { get; set; }
+        
+        /// <value>
+        /// The inclusive earliest instance termination time, in RFC 3339 format.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "timeInstanceTerminationFromDate")]
+        public System.Nullable<System.DateTime> TimeInstanceTerminationFromDate { get; set; }
+        
+        /// <value>
+        /// The inclusive latest instance termination time, in RFC 3339 format.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "timeInstanceTerminationToDate")]
+        public System.Nullable<System.DateTime> TimeInstanceTerminationToDate { get; set; }
     }
 }

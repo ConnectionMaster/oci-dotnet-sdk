@@ -34,6 +34,14 @@ namespace Oci.MarketplacepublisherService.Models
         public string Code { get; set; }
         
         /// <value>
+        /// The date and time the additional filter was created, in the format defined by [RFC3339](https://tools.ietf.org/html/rfc3339).
+        /// <br/>
+        /// Example: 2022-09-15T21:10:29.600Z
+        /// </value>
+        [JsonProperty(PropertyName = "timeCreated")]
+        public System.Nullable<System.DateTime> TimeCreated { get; set; }
+        
+        /// <value>
         /// Usage instructions for the properties
         /// </value>
         [JsonProperty(PropertyName = "usageInstructions")]

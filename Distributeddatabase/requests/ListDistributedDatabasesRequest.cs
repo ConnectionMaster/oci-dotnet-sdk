@@ -30,13 +30,19 @@ namespace Oci.DistributeddatabaseService.Requests
         public string CompartmentId { get; set; }
         
         /// <value>
+        /// When set to true, returns resources in the specified compartment and in all of its child compartments recursively. Defaults to false.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "compartmentIdInSubtree")]
+        public System.Nullable<bool> CompartmentIdInSubtree { get; set; }
+        
+        /// <value>
         /// A filter to return only resources that are associated with the given privateEndpointId.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "privateEndpointId")]
         public string PrivateEndpointId { get; set; }
         
         /// <value>
-        /// A filter to return only resources their lifecycleState matches the given lifecycleState.
+        /// A filter to return only resources whose lifecycleState matches the specified value.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "lifecycleState")]
         public System.Nullable<DistributedDatabase.LifecycleStateEnum> LifecycleState { get; set; }
@@ -86,19 +92,25 @@ namespace Oci.DistributeddatabaseService.Requests
         public string OpcRequestId { get; set; }
         
         /// <value>
+        /// A filter to return only resources where autoResourceManagement is enabled when set to `true`, or disabled when set to `false`. If omitted, no autoResourceManagement-based filtering is applied.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "isAutoResourceManagementEnabled")]
+        public System.Nullable<bool> IsAutoResourceManagementEnabled { get; set; }
+        
+        /// <value>
         /// A filter to return only Globally distributed databases that match the entire name given. The match is not case sensitive.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "displayName")]
         public string DisplayName { get; set; }
         
         /// <value>
-        /// A filter to return only resources their dbDeploymentType matches the given dbDeploymentType.
+        /// A filter to return only resources whose dbDeploymentType matches the specified value.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "dbDeploymentType")]
-        public System.Nullable<DistributedDatabase.DbDeploymentTypeEnum> DbDeploymentType { get; set; }
+        public string DbDeploymentType { get; set; }
         
         /// <value>
-        /// Comma separated names of argument corresponding to which metadata need to be retrived.
+        /// Comma-separated argument names for which metadata should be retrieved.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "metadata")]

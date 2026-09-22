@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DistributeddatabaseService.Models
 {
     /// <summary>
-    /// Provide PatchInstuction(s) in items array. All instructions in items have to be of same type.
+    /// Provide PatchInstruction(s) in items array. All instructions in items have to be of same type.
     /// All instructions in items have to either PatchInsertInstruction type, PatchRemoveInstruction or
     /// PatchMergeInstruction. Multiple instructions of different types is not allowed to be performed in
     /// single operation.

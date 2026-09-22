@@ -65,6 +65,8 @@ namespace Oci.DatasafeService.Models
             ActivateTargetDatabase,
             [EnumMember(Value = "DEACTIVATE_TARGET_DATABASE")]
             DeactivateTargetDatabase,
+            [EnumMember(Value = "UPDATE_TARGET_DATABASE_PRIVILEGE")]
+            UpdateTargetDatabasePrivilege,
             [EnumMember(Value = "DELETE_TARGET_DATABASE")]
             DeleteTargetDatabase,
             [EnumMember(Value = "CHANGE_TARGET_DATABASE_COMPARTMENT")]
@@ -131,6 +133,20 @@ namespace Oci.DatasafeService.Models
             UpdateFindingSeverity,
             [EnumMember(Value = "APPLY_TEMPLATE")]
             ApplyTemplate,
+            [EnumMember(Value = "UPDATE_CRYPTO_ASSESSMENT")]
+            UpdateCryptoAssessment,
+            [EnumMember(Value = "CREATE_CRYPTO_ASSESSMENT")]
+            CreateCryptoAssessment,
+            [EnumMember(Value = "REFRESH_CRYPTO_ASSESSMENT")]
+            RefreshCryptoAssessment,
+            [EnumMember(Value = "GENERATE_CRYPTO_ASSESSMENT_REPORT")]
+            GenerateCryptoAssessmentReport,
+            [EnumMember(Value = "DOWNLOAD_CRYPTO_ASSESSMENT_REPORT")]
+            DownloadCryptoAssessmentReport,
+            [EnumMember(Value = "CHANGE_CRYPTO_ASSESSMENT_COMPARTMENT")]
+            ChangeCryptoAssessmentCompartment,
+            [EnumMember(Value = "DELETE_CRYPTO_ASSESSMENT")]
+            DeleteCryptoAssessment,
             [EnumMember(Value = "DELETE_SQL_FIREWALL_ALLOWED_SQL")]
             DeleteSqlFirewallAllowedSql,
             [EnumMember(Value = "BULK_CREATE_SQL_FIREWALL_ALLOWED_SQL")]

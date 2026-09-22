@@ -73,5 +73,11 @@ namespace Oci.DatascienceService.Models
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<NetworkAccessTypeEnum> NetworkAccessType { get; set; }
         
+        /// <value>
+        /// This specifies the list of [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the customer-managed capacity reservation to be used for launching model deployment instances.
+        /// </value>
+        [JsonProperty(PropertyName = "capacityReservationIds")]
+        public System.Collections.Generic.List<string> CapacityReservationIds { get; set; }
+        
     }
 }

@@ -20,7 +20,7 @@ namespace Oci.DistributeddatabaseService.Requests
     {
         
         /// <value>
-        /// Globally distributed database identifier
+        /// Globally distributed database identifier.
         /// </value>
         /// <remarks>
         /// Required

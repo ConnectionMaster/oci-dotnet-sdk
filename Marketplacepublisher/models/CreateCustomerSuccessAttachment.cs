@@ -43,6 +43,13 @@ namespace Oci.MarketplacepublisherService.Models
         [JsonProperty(PropertyName = "productCodes")]
         public System.Collections.Generic.List<string> ProductCodes { get; set; }
         
+        /// <value>
+        /// The specified attachment type is Internal or External.
+        /// </value>
+        [JsonProperty(PropertyName = "sourceType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<ListingRevisionAttachment.SourceTypeEnum> SourceType { get; set; }
+        
         [JsonProperty(PropertyName = "attachmentType")]
         private readonly string attachmentType = "CUSTOMER_SUCCESS";
     }

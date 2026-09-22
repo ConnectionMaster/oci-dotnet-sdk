@@ -110,16 +110,16 @@ namespace Oci.MarketplacepublisherService.Models
         public string OciTenancy { get; set; }
         
         /// <value>
-        /// The name of the tenant adminstrator
+        /// The domain of the tenant administrator email address
         /// </value>
-        [JsonProperty(PropertyName = "tenantAdminName")]
-        public string TenantAdminName { get; set; }
+        [JsonProperty(PropertyName = "tenantAdminDomain")]
+        public string TenantAdminDomain { get; set; }
         
         /// <value>
-        /// The email of the tenant adminstrator
+        /// The legacy listing id of the listing
         /// </value>
-        [JsonProperty(PropertyName = "tenantAdminEmail")]
-        public string TenantAdminEmail { get; set; }
+        [JsonProperty(PropertyName = "legacyListingId")]
+        public string LegacyListingId { get; set; }
         
         /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.

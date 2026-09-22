@@ -22,7 +22,7 @@ namespace Oci.DatasafeService.Models
     {
         
         /// <value>
-        /// The OCID of the compartment that contains the user assessment.
+        /// This field is ignored when refreshing a user assessment.
         /// </value>
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }

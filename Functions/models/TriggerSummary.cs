@@ -16,9 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
-    /// Note: Deprecated. Use the new resource model APIs instead.
     /// Summary of the Trigger.
-    /// 
     /// </summary>
     public class TriggerSummary 
     {

@@ -48,6 +48,13 @@ namespace Oci.MarketplacepublisherService.Models
         [JsonConverter(typeof(StringEnumConverter))]
         public System.Nullable<SupportedServiceAttachment.TypeEnum> Type { get; set; }
         
+        /// <value>
+        /// The specified attachment type is Internal or External.
+        /// </value>
+        [JsonProperty(PropertyName = "sourceType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<ListingRevisionAttachment.SourceTypeEnum> SourceType { get; set; }
+        
         [JsonProperty(PropertyName = "attachmentType")]
         private readonly string attachmentType = "SUPPORTED_SERVICES";
     }

@@ -22,6 +22,13 @@ namespace Oci.MarketplacepublisherService.Models
     public class CreateScreenShotAttachmentDetails : CreateListingRevisionAttachmentDetails
     {
         
+        /// <value>
+        /// The specified attachment type is Internal or External.
+        /// </value>
+        [JsonProperty(PropertyName = "sourceType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<ListingRevisionAttachment.SourceTypeEnum> SourceType { get; set; }
+        
         [JsonProperty(PropertyName = "attachmentType")]
         private readonly string attachmentType = "SCREENSHOT";
     }

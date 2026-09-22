@@ -30,7 +30,11 @@ namespace Oci.MarketplacepublisherService.Models
             [EnumMember(Value = "METERED")]
             Metered,
             [EnumMember(Value = "FIXED")]
-            Fixed
+            Fixed,
+            [EnumMember(Value = "USAGE_BASED")]
+            UsageBased,
+            [EnumMember(Value = "HYBRID")]
+            Hybrid
         };
 
         
@@ -67,6 +71,12 @@ namespace Oci.MarketplacepublisherService.Models
             var discriminator = jsonObject["planType"].Value<string>();
             switch (discriminator)
             {
+                case "HYBRID":
+                    obj = new HybridPricingPlan();
+                    break;
+                case "USAGE_BASED":
+                    obj = new UsageBasedPricingPlan();
+                    break;
                 case "METERED":
                     obj = new MeteredPricingPlan();
                     break;
