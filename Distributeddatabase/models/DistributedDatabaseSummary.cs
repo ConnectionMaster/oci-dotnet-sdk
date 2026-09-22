@@ -102,9 +102,6 @@ namespace Oci.DistributeddatabaseService.Models
         [JsonProperty(PropertyName = "lifecycleDetails")]
         public string LifecycleDetails { get; set; }
         
-        [JsonProperty(PropertyName = "connectionStrings")]
-        public DistributedDbConnectionString ConnectionStrings { get; set; }
-        
         /// <value>
         /// Unique name prefix for the Globally distributed databases. Only alpha-numeric values are allowed. First character
         /// has to be a letter followed by any combination of letter and number.
@@ -128,15 +125,10 @@ namespace Oci.DistributeddatabaseService.Models
         public System.Collections.Generic.List<string> PrivateEndpointIds { get; set; }
         
         /// <value>
-        /// Sharding Methods for the Globally distributed database.
+        /// The collection of [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the notification topics associated with the globally distributed database.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "ShardingMethod is required.")]
-        [JsonProperty(PropertyName = "shardingMethod")]
-        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
-        public System.Nullable<DistributedDatabase.ShardingMethodEnum> ShardingMethod { get; set; }
+        [JsonProperty(PropertyName = "notificationTopicIds")]
+        public System.Collections.Generic.List<string> NotificationTopicIds { get; set; }
         
         /// <value>
         /// The character set for the database.
@@ -157,14 +149,6 @@ namespace Oci.DistributeddatabaseService.Models
         [Required(ErrorMessage = "NcharacterSet is required.")]
         [JsonProperty(PropertyName = "ncharacterSet")]
         public string NcharacterSet { get; set; }
-        
-        /// <value>
-        /// The default number of unique chunks in a shardspace. The value of chunks must be
-        /// greater than 2 times the size of the largest shardgroup in any shardspace.
-        /// 
-        /// </value>
-        [JsonProperty(PropertyName = "chunks")]
-        public System.Nullable<int> Chunks { get; set; }
         
         /// <value>
         /// The listener port number for the Globally distributed database.
@@ -203,28 +187,78 @@ namespace Oci.DistributeddatabaseService.Models
         public System.Nullable<int> OnsPortRemote { get; set; }
         
         /// <value>
-        /// The Replication method for Globally distributed database. Use RAFT for Raft replication, and DG for
-        /// DataGuard. If replicationMethod is not provided, it defaults to DG.
+        /// Count of chunks associated with system raft clusters or system data guard databases.
+        /// </value>
+        [JsonProperty(PropertyName = "systemChunkCount")]
+        public System.Nullable<int> SystemChunkCount { get; set; }
+        
+        [JsonProperty(PropertyName = "autoResourceManagementConfig")]
+        public AutoResourceManagementConfigurationDetails AutoResourceManagementConfig { get; set; }
+        
+        /// <value>
+        /// Number of replication units associated with system raft clusters.
+        /// </value>
+        [JsonProperty(PropertyName = "systemRaftReplicationUnitCount")]
+        public System.Nullable<int> SystemRaftReplicationUnitCount { get; set; }
+        
+        [JsonProperty(PropertyName = "metadata")]
+        public DistributedDbMetadata Metadata { get; set; }
+                ///
+        /// <value>
+        /// Sharding methods for the Globally distributed database.
+        /// </value>
+        ///
+        public enum ShardingMethodEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "USER")]
+            User,
+            [EnumMember(Value = "SYSTEM")]
+            System,
+            [EnumMember(Value = "COMPOSITE")]
+            Composite
+        };
+
+        /// <value>
+        /// Sharding methods for the Globally distributed database.
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "ShardingMethod is required.")]
+        [JsonProperty(PropertyName = "shardingMethod")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<ShardingMethodEnum> ShardingMethod { get; set; }
+                ///
+        /// <value>
+        /// The Replication method for Globally distributed database. Use RAFT for Raft based replication.
+        /// With RAFT replication, shards cannot have peers details set on them. In case shards need to
+        /// have peers, please do not set RAFT replicationMethod. For all non RAFT replication cases (with or
+        /// without peers), please set replicationMethod as DG or do not set any value for replicationMethod.
+        /// 
+        /// </value>
+        ///
+        public enum ReplicationMethodEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "RAFT")]
+            Raft,
+            [EnumMember(Value = "DG")]
+            Dg
+        };
+
+        /// <value>
+        /// The Replication method for Globally distributed database. Use RAFT for Raft based replication.
+        /// With RAFT replication, shards cannot have peers details set on them. In case shards need to
+        /// have peers, please do not set RAFT replicationMethod. For all non RAFT replication cases (with or
+        /// without peers), please set replicationMethod as DG or do not set any value for replicationMethod.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "replicationMethod")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
-        public System.Nullable<DistributedDatabase.ReplicationMethodEnum> ReplicationMethod { get; set; }
-        
-        /// <value>
-        /// The Replication factor for RAFT replication based Globally distributed database. Currently supported values are 3, 5 and 7.
-        /// 
-        /// </value>
-        [JsonProperty(PropertyName = "replicationFactor")]
-        public System.Nullable<int> ReplicationFactor { get; set; }
-        
-        /// <value>
-        /// The replication unit count for RAFT based distributed database. For RAFT replication based
-        /// Globally distributed database, the value should be at least twice the number of shards.
-        /// 
-        /// </value>
-        [JsonProperty(PropertyName = "replicationUnit")]
-        public System.Nullable<int> ReplicationUnit { get; set; }
+        public System.Nullable<ReplicationMethodEnum> ReplicationMethod { get; set; }
                 ///
         /// <value>
         /// The distributed database deployment type.
@@ -235,8 +269,8 @@ namespace Oci.DistributeddatabaseService.Models
             /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
             [EnumMember(Value = null)]
             UnknownEnumValue,
-            [EnumMember(Value = "EXADB_XS")]
-            ExadbXs
+            [EnumMember(Value = "EXADB")]
+            Exadb
         };
 
         /// <value>
@@ -250,9 +284,6 @@ namespace Oci.DistributeddatabaseService.Models
         [JsonProperty(PropertyName = "dbDeploymentType")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<DbDeploymentTypeEnum> DbDeploymentType { get; set; }
-        
-        [JsonProperty(PropertyName = "metadata")]
-        public DistributedDbMetadata Metadata { get; set; }
         
         /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.

@@ -16,20 +16,29 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DistributeddatabaseService.Models
 {
     /// <summary>
-    /// Globally distributed autonomous database shard with dedicated autonomous infrastructure.
+    /// Configuration for creating a distributed autonomous database shard using an existing ADB-D VM cluster.
     /// </summary>
-    public class CreateDistributedAutonomousDatabaseShardWithDedicatedInfraDetails : CreateDistributedAutonomousDatabaseShardDetails
+    public class CreateDistributedAutonomousDatabaseShardWithDedicatedInfraDetails : CreateDistributedAutonomousDatabaseShardDatabaseDetails
     {
         
         /// <value>
         /// Admin password for shard database.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "AdminPassword is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "adminPassword")]
         public string AdminPassword { get; set; }
+        
+        /// <value>
+        /// The OCI vault secret [/Content/General/Concepts/identifiers.htm]OCID. This cannot be used in conjunction with adminPassword.
+        /// </value>
+        [JsonProperty(PropertyName = "adminPasswordSecretId")]
+        public string AdminPasswordSecretId { get; set; }
+        
+        /// <value>
+        /// The version of the vault secret. If no version is specified, the latest version will be used.
+        /// </value>
+        [JsonProperty(PropertyName = "adminPasswordSecretVersionNumber")]
+        public System.Nullable<int> AdminPasswordSecretVersionNumber { get; set; }
         
         /// <value>
         /// The compute count for the shard database. It has to be in multiples of 2.
@@ -52,21 +61,19 @@ namespace Oci.DistributeddatabaseService.Models
         public System.Double DataStorageSizeInGbs { get; set; }
         
         /// <value>
-        /// The shard space name for the shard database. Shard space for existing shard cannot be changed, once shard is created.
-        /// Shard space name shall be used while creation of new shards. For User defined sharding, every shard must have a unique
-        /// shard space name. For system defined sharding, shard space name is not required.
+        /// The shard space name for the shard database. Shard space for an existing shard cannot be changed once the shard is created.
+        /// The shard space name is used when creating new shards. For user-defined sharding, every shard must have a unique
+        /// shard space name. For system-defined sharding, a shard space name is not required.
         /// 
         /// </value>
-        [JsonProperty(PropertyName = "shardSpace")]
-        public string ShardSpace { get; set; }
+        [JsonProperty(PropertyName = "shardSpaceName")]
+        public string ShardSpaceName { get; set; }
         
         /// <value>
-        /// Determines the auto-scaling mode for the shard database.
+        /// Indicates if vertical auto scaling is enabled for the Autonomous AI Database CPU core count.
+        /// The default value is `FALSE`.
+        /// 
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "IsAutoScalingEnabled is required.")]
         [JsonProperty(PropertyName = "isAutoScalingEnabled")]
         public System.Nullable<bool> IsAutoScalingEnabled { get; set; }
         
@@ -81,33 +88,19 @@ namespace Oci.DistributeddatabaseService.Models
         public string CloudAutonomousVmClusterId { get; set; }
         
         /// <value>
-        /// This field is deprecated. This should not be used while creation of new distributed autonomous database. To set the peers
-        /// on new shards of distributed autonomous database please use peerDetails.
-        /// 
-        /// </value>
-        [JsonProperty(PropertyName = "peerCloudAutonomousVmClusterIds")]
-        public System.Collections.Generic.List<string> PeerCloudAutonomousVmClusterIds { get; set; }
-        
-        /// <value>
-        /// The details required for creation of the peer for the autonomous dedicated infrastructure based shard.
-        /// </value>
-        [JsonProperty(PropertyName = "peerDetails")]
-        public System.Collections.Generic.List<CreateShardPeerWithDedicatedInfraDetails> PeerDetails { get; set; }
-        
-        /// <value>
         /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Oracle Cloud Infrastructure [vault](https://docs.oracle.com/iaas/Content/KeyManagement/Concepts/keyoverview.htm#concepts). This parameter and `kmsKeyId` are required for Customer Managed Keys.
         /// </value>
         [JsonProperty(PropertyName = "vaultId")]
         public string VaultId { get; set; }
         
         /// <value>
-        /// The OCID of the key container that is used as the master encryption key in database transparent data encryption (TDE) operations.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the key container that is used as the master encryption key in database transparent data encryption (TDE) operations.
         /// </value>
         [JsonProperty(PropertyName = "kmsKeyId")]
         public string KmsKeyId { get; set; }
         
         /// <value>
-        /// The OCID of the key container version that is used in database transparent data encryption (TDE) operations KMS Key can have multiple key versions.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the key container version that is used in database transparent data encryption (TDE) operations KMS Key can have multiple key versions.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "kmsKeyVersionId")]
@@ -122,10 +115,30 @@ namespace Oci.DistributeddatabaseService.Models
         /// <value>
         /// The OKV endpoint name.
         /// </value>
-        [JsonProperty(PropertyName = "okvEndPointGroup")]
-        public string OkvEndPointGroup { get; set; }
+        [JsonProperty(PropertyName = "okvEndPointGroupName")]
+        public string OkvEndPointGroupName { get; set; }
+        
+        /// <value>
+        /// The protection mode for the shard peer.
+        /// </value>
+        [JsonProperty(PropertyName = "protectionMode")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<DistributedAutonomousDbProtectionMode> ProtectionMode { get; set; }
+        
+        /// <value>
+        /// The lag time preference based on data loss tolerance in seconds.
+        /// </value>
+        [JsonProperty(PropertyName = "fastStartFailOverLagLimitInSeconds")]
+        public System.Nullable<int> FastStartFailOverLagLimitInSeconds { get; set; }
+        
+        /// <value>
+        /// The scheduling detail for the quarterly maintenance window of the standby Autonomous Container Database.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "standbyMaintenanceBufferInDays")]
+        public System.Nullable<int> StandbyMaintenanceBufferInDays { get; set; }
         
         [JsonProperty(PropertyName = "source")]
-        private readonly string source = "ADB_D";
+        private readonly string source = "ADBD_EXISTING_CLUSTER";
     }
 }

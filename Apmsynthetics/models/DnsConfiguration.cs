@@ -28,7 +28,7 @@ namespace Oci.ApmsyntheticsService.Models
         public System.Nullable<bool> IsOverrideDns { get; set; }
         
         /// <value>
-        /// Attribute to override the DNS IP value. This value will be honored only if isOverrideDns is set to true.
+        /// Attribute to override the DNS IP value. This value is required only if isOverrideDns is set to true.
         /// </value>
         [JsonProperty(PropertyName = "overrideDnsIp")]
         public string OverrideDnsIp { get; set; }

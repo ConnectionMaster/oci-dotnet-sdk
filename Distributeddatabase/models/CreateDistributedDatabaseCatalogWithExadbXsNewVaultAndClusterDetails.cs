@@ -16,57 +16,54 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DistributeddatabaseService.Models
 {
     /// <summary>
-    /// Globally distributed database catalog based on ExaDbXs.
+    /// Configuration for creating a distributed database catalog on a new ExaDB-XS VM cluster and storage vault.
     /// </summary>
-    public class CreateDistributedDatabaseCatalogWithExadbXsNewVaultAndClusterDetails : CreateDistributedDatabaseCatalogDetails
+    public class CreateDistributedDatabaseCatalogWithExadbXsNewVaultAndClusterDetails : CreateDistributedDatabaseCatalogDatabaseDetails
     {
         
         /// <value>
         /// The admin password for the catalog associated with Globally distributed database.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "AdminPassword is required.")]
         [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "adminPassword")]
         public string AdminPassword { get; set; }
         
         /// <value>
-        /// The details required for creation of the peer for the ExadbXs infrastructure based catalog.
+        /// The OCI vault secret [/Content/General/Concepts/identifiers.htm]OCID. This cannot be used in conjunction with adminPassword.
         /// </value>
-        [JsonProperty(PropertyName = "peerDetails")]
-        public System.Collections.Generic.List<CreateCatalogPeerWithExadbXsNewVaultAndClusterDetails> PeerDetails { get; set; }
+        [JsonProperty(PropertyName = "adminPasswordSecretId")]
+        public string AdminPasswordSecretId { get; set; }
         
         /// <value>
-        /// The shard space name for the Globally distributed database. Shard space for existing shard cannot be changed, once shard is created.
-        /// Shard space name shall be used while creation of new shards.
+        /// The version of the vault secret. If no version is specified, the latest version will be used.
+        /// </value>
+        [JsonProperty(PropertyName = "adminPasswordSecretVersionNumber")]
+        public System.Nullable<int> AdminPasswordSecretVersionNumber { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Oracle Cloud Infrastructure [vault](https://docs.oracle.com/iaas/Content/KeyManagement/Concepts/keyoverview.htm#concepts). 
+        /// This parameter and `kmsKeyId` are required for Customer Managed Keys.
         /// 
-        /// </value>
-        [JsonProperty(PropertyName = "shardSpace")]
-        public string ShardSpace { get; set; }
-        
-        /// <value>
-        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Oracle Cloud Infrastructure [vault](https://docs.oracle.com/iaas/Content/KeyManagement/Concepts/keyoverview.htm#concepts). This parameter and `kmsKeyId` are required for Customer Managed Keys.
         /// </value>
         [JsonProperty(PropertyName = "vaultId")]
         public string VaultId { get; set; }
         
         /// <value>
-        /// The OCID of the key container that is used as the master encryption key in database transparent data encryption (TDE) operations.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the key container that is used as the master encryption key in database transparent data encryption (TDE) operations.
+        /// 
         /// </value>
         [JsonProperty(PropertyName = "kmsKeyId")]
         public string KmsKeyId { get; set; }
         
         /// <value>
-        /// The OCID of the key container version that is used in database transparent data encryption (TDE) operations KMS Key can have multiple key versions.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the key container version that is used in database transparent data encryption (TDE) operations KMS Key can have multiple key versions.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "kmsKeyVersionId")]
         public string KmsKeyVersionId { get; set; }
         
         /// <value>
-        /// The name of the availability domain that the distributed database shard will be located in.
+        /// The name of the availability domain that the distributed database catalog will be located in.
         /// </value>
         /// <remarks>
         /// Required
@@ -89,7 +86,21 @@ namespace Oci.DistributeddatabaseService.Models
         [JsonProperty(PropertyName = "vmClusterDetails")]
         public VmClusterDetails VmClusterDetails { get; set; }
         
+        /// <value>
+        /// The protection mode used for the Data Guard association.
+        /// </value>
+        [JsonProperty(PropertyName = "protectionMode")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<DistributedDbProtectionMode> ProtectionMode { get; set; }
+        
+        /// <value>
+        /// The transport type used for the Data Guard association.
+        /// </value>
+        [JsonProperty(PropertyName = "transportType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<DistributedDbTransportType> TransportType { get; set; }
+        
         [JsonProperty(PropertyName = "source")]
-        private readonly string source = "NEW_VAULT_AND_CLUSTER";
+        private readonly string source = "XS_NEW_VAULT_AND_CLUSTER";
     }
 }

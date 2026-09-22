@@ -13,7 +13,7 @@ using System.Runtime.Serialization;
 namespace Oci.DistributeddatabaseService.Models
 {
   /// <summary>
-  /// The redo transport type to use for this Data Guard association.
+  /// The transport type to use for this Data Guard association.
   /// </summary>
   public enum DistributedDbTransportType {
       /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.

@@ -26,7 +26,7 @@ namespace Oci.FunctionsService
     public class FunctionsManagementClient : RegionalClientBase
     {
         private readonly RetryConfiguration retryConfiguration;
-        private const string basePathWithoutHost = "/20181201";
+        private const string basePathWithoutHost = "/20260325";
 
         public FunctionsManagementPaginators Paginators { get; }
 
@@ -73,7 +73,6 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
         /// Moves an application into a different compartment within the same tenancy.
         /// For information about moving resources between compartments, see [Moving Resources Between Compartments](https://docs.oracle.com/iaas/Content/Identity/Tasks/managingcompartments.htm#moveRes).
         /// 
@@ -112,7 +111,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsManagement",
                     OperationName = "ChangeApplicationCompartment",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/Application/ChangeApplicationCompartment",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/Application/ChangeApplicationCompartment",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -132,9 +131,7 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
-        /// \&quot;Creates a new application.\&quot;
-        /// 
+        /// Creates a new application.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -170,7 +167,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsManagement",
                     OperationName = "CreateApplication",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/Application/CreateApplication",
+                    ApiReferenceLink = "",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -190,9 +187,7 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
-        /// \&quot;Creates a new function.\&quot;
-        /// 
+        /// Creates a new function.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -228,7 +223,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsManagement",
                     OperationName = "CreateFunction",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/Function/CreateFunction",
+                    ApiReferenceLink = "",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -248,9 +243,7 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
         /// Deletes an application.
-        /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -286,7 +279,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsManagement",
                     OperationName = "DeleteApplication",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/Application/DeleteApplication",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/Application/DeleteApplication",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -306,9 +299,7 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
         /// Deletes a function.
-        /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -344,7 +335,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsManagement",
                     OperationName = "DeleteFunction",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/Function/DeleteFunction",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/Function/DeleteFunction",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -364,9 +355,7 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
-        /// \&quot;Retrieves an application.\&quot;
-        /// 
+        /// Retrieves an application.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -402,7 +391,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsManagement",
                     OperationName = "GetApplication",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/Application/GetApplication",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/Application/GetApplication",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -422,9 +411,7 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
-        /// \&quot;Retrieves a function.\&quot;
-        /// 
+        /// Retrieves a function.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -460,7 +447,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsManagement",
                     OperationName = "GetFunction",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/Function/GetFunction",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/Function/GetFunction",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -480,7 +467,120 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
+        /// Fetches a FunctionsRuntime by ID. Returns a FunctionsRuntime response model.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/functions/GetFunctionsRuntime.cs.html">here</a> to see an example of how to use GetFunctionsRuntime API.</example>
+        public async Task<GetFunctionsRuntimeResponse> GetFunctionsRuntime(GetFunctionsRuntimeRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called getFunctionsRuntime");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/functionsRuntimes/{functionsRuntimeId}".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "FunctionsManagement",
+                    OperationName = "GetFunctionsRuntime",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/FunctionsRuntime/GetFunctionsRuntime",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<GetFunctionsRuntimeResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetFunctionsRuntime failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Fetches a FunctionsRuntimeVersion by ID. Returns a FunctionsRuntimeVersion response model.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/functions/GetFunctionsRuntimeVersion.cs.html">here</a> to see an example of how to use GetFunctionsRuntimeVersion API.</example>
+        public async Task<GetFunctionsRuntimeVersionResponse> GetFunctionsRuntimeVersion(GetFunctionsRuntimeVersionRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called getFunctionsRuntimeVersion");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/functionsRuntimeVersions/{functionsRuntimeVersionId}".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "FunctionsManagement",
+                    OperationName = "GetFunctionsRuntimeVersion",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/FunctionsRuntimeVersion/GetFunctionsRuntimeVersion",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<GetFunctionsRuntimeVersionResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetFunctionsRuntimeVersion failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
         /// Fetches a Pre-built Function(PBF) Listing. Returns a PbfListing response model.
         /// 
         /// </summary>
@@ -518,7 +618,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsManagement",
                     OperationName = "GetPbfListing",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/PbfListing/GetPbfListing",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/PbfListing/GetPbfListing",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -538,9 +638,7 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
         /// Gets a PbfListingVersion by identifier for a PbfListing.
-        /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -576,7 +674,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsManagement",
                     OperationName = "GetPbfListingVersion",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/PbfListingVersion/GetPbfListingVersion",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/PbfListingVersion/GetPbfListingVersion",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -596,9 +694,7 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
-        /// \&quot;Lists applications for a compartment.\&quot;
-        /// 
+        /// Lists applications for a compartment.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -634,7 +730,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsManagement",
                     OperationName = "ListApplications",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/ApplicationSummary/ListApplications",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/ApplicationSummary/ListApplications",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -654,9 +750,7 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
-        /// \&quot;Lists functions for an application.\&quot;
-        /// 
+        /// Lists functions for an application.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -692,7 +786,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsManagement",
                     OperationName = "ListFunctions",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/FunctionSummary/ListFunctions",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/FunctionSummary/ListFunctions",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -712,8 +806,123 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
-        /// Fetches a wrapped list of all Pre-built Function(PBF) Listing versions. Returns a PbfListingVersionCollection
+        /// Fetches a wrapped list of all FunctionsRuntimeVersions. Returns a FunctionsRuntimeVersionCollection containing
+        /// an array of FunctionsRuntimeVersionSummary response models.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/functions/ListFunctionsRuntimeVersions.cs.html">here</a> to see an example of how to use ListFunctionsRuntimeVersions API.</example>
+        public async Task<ListFunctionsRuntimeVersionsResponse> ListFunctionsRuntimeVersions(ListFunctionsRuntimeVersionsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called listFunctionsRuntimeVersions");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/functionsRuntimeVersions".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "FunctionsManagement",
+                    OperationName = "ListFunctionsRuntimeVersions",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/FunctionsRuntimeVersion/ListFunctionsRuntimeVersions",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ListFunctionsRuntimeVersionsResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListFunctionsRuntimeVersions failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Fetches a wrapped list of all FunctionsRuntimes. Returns a FunctionsRuntimeCollection containing
+        /// an array of FunctionsRuntimeSummary response models.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/functions/ListFunctionsRuntimes.cs.html">here</a> to see an example of how to use ListFunctionsRuntimes API.</example>
+        public async Task<ListFunctionsRuntimesResponse> ListFunctionsRuntimes(ListFunctionsRuntimesRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called listFunctionsRuntimes");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/functionsRuntimes".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "FunctionsManagement",
+                    OperationName = "ListFunctionsRuntimes",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/FunctionsRuntime/ListFunctionsRuntimes",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ListFunctionsRuntimesResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ListFunctionsRuntimes failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Fetches a wrapped list of all Pre-built Function(PBF) Listing versions. Returns a PbfListingVersionCollection 
         /// containing an array of PbfListingVersionSummary response models.
         /// &lt;br/&gt;
         /// Note that the PbfListingIdentifier must be provided as a query parameter, otherwise an exception shall 
@@ -754,7 +963,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsManagement",
                     OperationName = "ListPbfListingVersions",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/PbfListingVersion/ListPbfListingVersions",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/PbfListingVersion/ListPbfListingVersions",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -774,8 +983,7 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
-        /// Fetches a wrapped list of all Pre-built Function(PBF) Listings. Returns a PbfListingCollection containing
+        /// Fetches a wrapped list of all Pre-built Function(PBF) Listings. Returns a PbfListingCollection containing 
         /// an array of PbfListingSummary response models.
         /// 
         /// </summary>
@@ -813,7 +1021,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsManagement",
                     OperationName = "ListPbfListings",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/PbfListing/ListPbfListings",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/PbfListing/ListPbfListings",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -833,7 +1041,6 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
         /// Returns a list of Triggers.
         /// 
         /// </summary>
@@ -871,7 +1078,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsManagement",
                     OperationName = "ListTriggers",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/TriggersCollection/ListTriggers",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/TriggersCollection/ListTriggers",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -891,9 +1098,7 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
-        /// \&quot;Modifies an application\&quot;
-        /// 
+        /// Modifies an application
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -929,7 +1134,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsManagement",
                     OperationName = "UpdateApplication",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/Application/UpdateApplication",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/Application/UpdateApplication",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -949,9 +1154,7 @@ namespace Oci.FunctionsService
         }
 
         /// <summary>
-        /// Note: Deprecated. Use the new operation instead.
-        /// \&quot;Modifies a function\&quot;
-        /// 
+        /// Modifies a function
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -987,7 +1190,7 @@ namespace Oci.FunctionsService
                     ServiceName = "FunctionsManagement",
                     OperationName = "UpdateFunction",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20181201/Function/UpdateFunction",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/functions/20260325/Function/UpdateFunction",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);

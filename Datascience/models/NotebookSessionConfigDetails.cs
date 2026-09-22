@@ -53,6 +53,13 @@ namespace Oci.DatascienceService.Models
         [JsonProperty(PropertyName = "privateEndpointId")]
         public string PrivateEndpointId { get; set; }
         
+        /// <value>
+        /// This specifies the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the customer-managed compute capacity reservation to be used for launching notebook sessions.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "capacityReservationId")]
+        public string CapacityReservationId { get; set; }
+        
         [JsonProperty(PropertyName = "notebookSessionShapeConfigDetails")]
         public NotebookSessionShapeConfigDetails NotebookSessionShapeConfigDetails { get; set; }
         

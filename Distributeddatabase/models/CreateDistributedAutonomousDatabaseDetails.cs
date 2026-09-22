@@ -72,34 +72,18 @@ namespace Oci.DistributeddatabaseService.Models
         [Required(ErrorMessage = "PrivateEndpointIds is required.")]
         [JsonProperty(PropertyName = "privateEndpointIds")]
         public System.Collections.Generic.List<string> PrivateEndpointIds { get; set; }
-                ///
+        
         /// <value>
-        /// Sharding Methods for the Globally distributed autonomous database.
+        /// The collection of [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the notification topics associated with the globally distributed autonomous database.
         /// </value>
-        ///
-        public enum ShardingMethodEnum {
-            [EnumMember(Value = "USER")]
-            User,
-            [EnumMember(Value = "SYSTEM")]
-            System
-        };
-
-        /// <value>
-        /// Sharding Methods for the Globally distributed autonomous database.
-        /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "ShardingMethod is required.")]
-        [JsonProperty(PropertyName = "shardingMethod")]
-        [JsonConverter(typeof(StringEnumConverter))]
-        public System.Nullable<ShardingMethodEnum> ShardingMethod { get; set; }
+        [JsonProperty(PropertyName = "notificationTopicIds")]
+        public System.Collections.Generic.List<string> NotificationTopicIds { get; set; }
                 ///
         /// <value>
         /// Possible workload types. Currently only OLTP workload type is supported.
         /// </value>
         ///
-        public enum DbWorkloadEnum {
+        public enum DbWorkloadTypeEnum {
             [EnumMember(Value = "OLTP")]
             Oltp,
             [EnumMember(Value = "DW")]
@@ -112,10 +96,10 @@ namespace Oci.DistributeddatabaseService.Models
         /// <remarks>
         /// Required
         /// </remarks>
-        [Required(ErrorMessage = "DbWorkload is required.")]
-        [JsonProperty(PropertyName = "dbWorkload")]
+        [Required(ErrorMessage = "DbWorkloadType is required.")]
+        [JsonProperty(PropertyName = "dbWorkloadType")]
         [JsonConverter(typeof(StringEnumConverter))]
-        public System.Nullable<DbWorkloadEnum> DbWorkload { get; set; }
+        public System.Nullable<DbWorkloadTypeEnum> DbWorkloadType { get; set; }
         
         /// <value>
         /// The character set for the database.
@@ -136,16 +120,6 @@ namespace Oci.DistributeddatabaseService.Models
         [Required(ErrorMessage = "NcharacterSet is required.")]
         [JsonProperty(PropertyName = "ncharacterSet")]
         public string NcharacterSet { get; set; }
-        
-        /// <value>
-        /// Number of chunks in a shardspace. The value of chunks must be
-        /// greater than 2 times the size of the largest shardgroup in any shardspace. Chunks is
-        /// required to be provided for distributed autonomous databases being created with
-        /// SYSTEM shardingMethod. For USER shardingMethod, chunks should not be set in create payload.
-        /// 
-        /// </value>
-        [JsonProperty(PropertyName = "chunks")]
-        public System.Nullable<int> Chunks { get; set; }
         
         /// <value>
         /// The listener port number for the Globally distributed autonomous database. The listener port number
@@ -195,79 +169,45 @@ namespace Oci.DistributeddatabaseService.Models
         [Required(ErrorMessage = "OnsPortRemote is required.")]
         [JsonProperty(PropertyName = "onsPortRemote")]
         public System.Nullable<int> OnsPortRemote { get; set; }
-                ///
-        /// <value>
-        /// The Replication method for Globally distributed autonomous database. Use RAFT for Raft based replication.
-        /// With RAFT replication, shards cannot have peers details set on them. In case shards need to
-        /// have peers, please do not set RAFT replicationMethod. For all non RAFT replication cases (with or
-        /// without peers), please set replicationMethod as DG or do not set any value for replicationMethod.
-        /// 
-        /// </value>
-        ///
-        public enum ReplicationMethodEnum {
-            [EnumMember(Value = "RAFT")]
-            Raft,
-            [EnumMember(Value = "DG")]
-            Dg
-        };
-
-        /// <value>
-        /// The Replication method for Globally distributed autonomous database. Use RAFT for Raft based replication.
-        /// With RAFT replication, shards cannot have peers details set on them. In case shards need to
-        /// have peers, please do not set RAFT replicationMethod. For all non RAFT replication cases (with or
-        /// without peers), please set replicationMethod as DG or do not set any value for replicationMethod.
-        /// 
-        /// </value>
-        [JsonProperty(PropertyName = "replicationMethod")]
-        [JsonConverter(typeof(StringEnumConverter))]
-        public System.Nullable<ReplicationMethodEnum> ReplicationMethod { get; set; }
         
         /// <value>
-        /// The Replication factor for RAFT replication based Globally distributed autonomous database. Currently supported values are 3, 5 and 7.
-        /// 
+        /// Count of chunks associated with system raft clusters or system data guard databases.
         /// </value>
-        [JsonProperty(PropertyName = "replicationFactor")]
-        public System.Nullable<int> ReplicationFactor { get; set; }
+        [JsonProperty(PropertyName = "systemChunkCount")]
+        public System.Nullable<int> SystemChunkCount { get; set; }
         
         /// <value>
-        /// The replication unit count for RAFT based distributed autonomous database. For RAFT replication based
-        /// Globally distributed autonomous database, the value should be at least twice the number of shards.
-        /// 
+        /// Number of replication units associated with system raft clusters.
         /// </value>
-        [JsonProperty(PropertyName = "replicationUnit")]
-        public System.Nullable<int> ReplicationUnit { get; set; }
-                ///
-        /// <value>
-        /// The distributed autonomous database deployment type.
-        /// 
-        /// </value>
-        ///
-        public enum DbDeploymentTypeEnum {
-            [EnumMember(Value = "ADB_D")]
-            AdbD
-        };
-
-        /// <value>
-        /// The distributed autonomous database deployment type.
-        /// 
-        /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "DbDeploymentType is required.")]
-        [JsonProperty(PropertyName = "dbDeploymentType")]
-        [JsonConverter(typeof(StringEnumConverter))]
-        public System.Nullable<DbDeploymentTypeEnum> DbDeploymentType { get; set; }
+        [JsonProperty(PropertyName = "systemRaftReplicationUnitCount")]
+        public System.Nullable<int> SystemRaftReplicationUnitCount { get; set; }
         
         /// <value>
-        /// Collection of shards for the Globally distributed autonomous database.
+        /// Collection of composite raft shards.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "ShardDetails is required.")]
-        [JsonProperty(PropertyName = "shardDetails")]
-        public System.Collections.Generic.List<CreateDistributedAutonomousDatabaseShardDetails> ShardDetails { get; set; }
+        [JsonProperty(PropertyName = "compositeRaftShardSpaces")]
+        public System.Collections.Generic.List<CreateAutonomousCompositeRaftShardSpaceDetails> CompositeRaftShardSpaces { get; set; }
+        
+        /// <value>
+        /// Collection of composite data guard shard spaces.
+        /// </value>
+        [JsonProperty(PropertyName = "compositeDataGuardShardSpaces")]
+        public System.Collections.Generic.List<CreateAutonomousCompositeDataGuardShardSpaceDetails> CompositeDataGuardShardSpaces { get; set; }
+        
+        /// <value>
+        /// Collection of system raft clusters.
+        /// </value>
+        [JsonProperty(PropertyName = "systemRaftClusters")]
+        public System.Collections.Generic.List<CreateAutonomousSystemRaftClusterDetails> SystemRaftClusters { get; set; }
+        
+        [JsonProperty(PropertyName = "systemDataGuardDatabases")]
+        public CreateAutonomousSystemDataGuardDatabaseDetails SystemDataGuardDatabases { get; set; }
+        
+        /// <value>
+        /// Collection of user defined shard spaces.
+        /// </value>
+        [JsonProperty(PropertyName = "userShardSpaces")]
+        public System.Collections.Generic.List<CreateAutonomousUserShardSpaceDetails> UserShardSpaces { get; set; }
         
         /// <value>
         /// Collection of catalog for the Globally distributed autonomous database.
@@ -277,10 +217,16 @@ namespace Oci.DistributeddatabaseService.Models
         /// </remarks>
         [Required(ErrorMessage = "CatalogDetails is required.")]
         [JsonProperty(PropertyName = "catalogDetails")]
-        public System.Collections.Generic.List<CreateDistributedAutonomousDatabaseCatalogDetails> CatalogDetails { get; set; }
+        public System.Collections.Generic.List<CreateAutonomousCatalogDetails> CatalogDetails { get; set; }
         
         [JsonProperty(PropertyName = "dbBackupConfig")]
         public DistributedAutonomousDbBackupConfig DbBackupConfig { get; set; }
+        
+        /// <value>
+        /// The list of network security group (NSG) details to be associated with the distributed autonomous database.
+        /// </value>
+        [JsonProperty(PropertyName = "vcnNsgIds")]
+        public System.Collections.Generic.List<VcnNsgIdsDetails> VcnNsgIds { get; set; }
         
         /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.

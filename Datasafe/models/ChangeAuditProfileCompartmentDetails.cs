@@ -16,7 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DatasafeService.Models
 {
     /// <summary>
-    /// Moves the specified audit profile and its assoicated resources into a different compartment.
+    /// Moves the specified audit profile and its associated resources into a different compartment.
     /// </summary>
     public class ChangeAuditProfileCompartmentDetails 
     {

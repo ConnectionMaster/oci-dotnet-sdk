@@ -60,5 +60,12 @@ namespace Oci.DatascienceService.Models
         [JsonProperty(PropertyName = "blockStorageSizeInGBsParameterized")]
         public string BlockStorageSizeInGBsParameterized { get; set; }
         
+        /// <value>
+        /// This specifies the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the customer-managed compute capacity reservation to be used for launching pipelines.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "capacityReservationId")]
+        public string CapacityReservationId { get; set; }
+        
     }
 }

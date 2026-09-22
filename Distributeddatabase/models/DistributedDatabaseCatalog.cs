@@ -11,104 +11,28 @@ using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
+
 
 namespace Oci.DistributeddatabaseService.Models
 {
     /// <summary>
-    /// Globally distributed database catalog.
+    /// Details of a Globally distributed database catalog.
     /// </summary>
-    [JsonConverter(typeof(DistributedDatabaseCatalogModelConverter))]
     public class DistributedDatabaseCatalog 
     {
-                ///
-        /// <value>
-        /// Type of Globally distributed database Shard or Catalog.
-        /// Use NEW_VAULT_AND_CLUSTER for a Globally distributed database on Exascale with new vaults and clusters created from scratch.
-        /// Use EXISTING_CLUSTER for a Globally distributed database on Exascale based on pre-existing clusters.
-        /// EXADB_XS is currently the same as EXISTING_CLUSTER and will be deprecated after the deprecation cycle.
-        /// 
-        /// </value>
-        ///
-        public enum SourceEnum {
-            [EnumMember(Value = "EXADB_XS")]
-            ExadbXs,
-            [EnumMember(Value = "NEW_VAULT_AND_CLUSTER")]
-            NewVaultAndCluster,
-            [EnumMember(Value = "EXISTING_CLUSTER")]
-            ExistingCluster
-        };
-
         
-        /// <value>
-        /// The name of catalog.
-        /// </value>
         /// <remarks>
         /// Required
         /// </remarks>
-        [Required(ErrorMessage = "Name is required.")]
-        [JsonProperty(PropertyName = "name")]
-        public string Name { get; set; }
+        [Required(ErrorMessage = "OriginalReplica is required.")]
+        [JsonProperty(PropertyName = "originalReplica")]
+        public DistributedDatabaseCatalogReplicaDetails OriginalReplica { get; set; }
         
         /// <value>
-        /// The time the catalog was created. An RFC3339 formatted datetime string
+        /// The details of data guard replicas for the catalog.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "TimeCreated is required.")]
-        [JsonProperty(PropertyName = "timeCreated")]
-        public System.Nullable<System.DateTime> TimeCreated { get; set; }
+        [JsonProperty(PropertyName = "dataGuardReplicas")]
+        public System.Collections.Generic.List<DistributedDatabaseCatalogReplicaDetails> DataGuardReplicas { get; set; }
         
-        /// <value>
-        /// The time the catalog was last updated. An RFC3339 formatted datetime string
-        /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "TimeUpdated is required.")]
-        [JsonProperty(PropertyName = "timeUpdated")]
-        public System.Nullable<System.DateTime> TimeUpdated { get; set; }
-        
-    }
-
-    public class DistributedDatabaseCatalogModelConverter : JsonConverter
-    {
-        private static NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
-        public override bool CanWrite => false;
-        public override bool CanRead => true;
-        public override bool CanConvert(System.Type type)
-        {
-            return type == typeof(DistributedDatabaseCatalog);
-        }
-        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
-        {
-            throw new System.InvalidOperationException("Use default serialization.");
-        }
-
-        public override object ReadJson(JsonReader reader, System.Type objectType, object existingValue, JsonSerializer serializer)
-        {
-            var jsonObject = JObject.Load(reader);
-            var obj = default(DistributedDatabaseCatalog);
-            var discriminator = jsonObject["source"].Value<string>();
-            switch (discriminator)
-            {
-                case "EXADB_XS":
-                    obj = new DistributedDatabaseCatalogWithExadbXs();
-                    break;
-                case "NEW_VAULT_AND_CLUSTER":
-                    obj = new DistributedDatabaseCatalogWithExadbXsNewVaultAndCluster();
-                    break;
-            }
-            if (obj != null)
-            {
-                serializer.Populate(jsonObject.CreateReader(), obj);
-            }
-            else
-            {
-                logger.Warn($"The type {discriminator} is not present under DistributedDatabaseCatalog! Returning null value.");
-            }
-            return obj;
-        }
     }
 }

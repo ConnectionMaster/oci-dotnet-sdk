@@ -16,7 +16,6 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
-    /// Note: Deprecated. Use the new resource model APIs instead.
     /// The destination stream in the Streaming service to which to send the response of the successful detached function invocation.
     /// <br/>
     /// Example: {&quot;kind&quot;: &quot;STREAM&quot;, &quot;streamId&quot;: &quot;stream_OCID&quot;}

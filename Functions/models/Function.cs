@@ -16,7 +16,6 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
-    /// Note: Deprecated. Use the new resource model APIs instead.
     /// A function resource defines the code (Docker image) and configuration for a specific function. Functions are defined in applications. Avoid entering confidential information.
     /// 
     /// </summary>
@@ -87,22 +86,10 @@ namespace Oci.FunctionsService.Models
         [JsonProperty(PropertyName = "compartmentId")]
         public string CompartmentId { get; set; }
         
-        /// <value>
-        /// The qualified name of the Docker image to use in the function, including the image tag.
-        /// The image should be in the OCI Registry that is in the same region as the function itself.
-        /// Example: phx.ocir.io/ten/functions/function:0.0.1
-        /// </value>
-        [JsonProperty(PropertyName = "image")]
-        public string Image { get; set; }
-        
-        /// <value>
-        /// The image digest for the version of the image that will be pulled when invoking this function.
-        /// If no value is specified, the digest currently associated with the image in the OCI Registry will be used.
-        /// Example: sha256:ca0eeb6fb05351dfc8759c20733c91def84cb8007aa89a5bf606bc8b315b9fc7
-        /// </value>
-        [JsonProperty(PropertyName = "imageDigest")]
-        public string ImageDigest { get; set; }
-        
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "SourceDetails is required.")]
         [JsonProperty(PropertyName = "sourceDetails")]
         public FunctionSourceDetails SourceDetails { get; set; }
                 ///

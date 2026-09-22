@@ -16,7 +16,6 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
-    /// Note: Deprecated. Use the new resource model APIs instead.
     /// Configuration specifying a constant amount of provisioned concurrency.
     /// 
     /// </summary>

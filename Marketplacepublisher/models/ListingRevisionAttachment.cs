@@ -90,6 +90,26 @@ namespace Oci.MarketplacepublisherService.Models
 
                 ///
         /// <value>
+        /// Possible values for the publisher listing revision attachments. The source type informs whether the type of attachment for the listing revision is external or internal.
+        /// 
+        /// </value>
+        ///
+        public enum SourceTypeEnum {
+            [EnumMember(Value = "EXTERNAL")]
+            External,
+            [EnumMember(Value = "INTERNAL")]
+            Internal
+        };
+
+        /// <value>
+        /// Possible values for the publisher listing revision attachments. The source type informs whether the type of attachment for the listing revision is external or internal.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "sourceType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<SourceTypeEnum> SourceType { get; set; }
+                ///
+        /// <value>
         /// The current state of the attachment.
         /// </value>
         ///

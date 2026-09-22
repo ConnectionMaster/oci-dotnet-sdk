@@ -20,7 +20,7 @@ namespace Oci.DistributeddatabaseService.Requests
     {
         
         /// <value>
-        /// Globally distributed autonomous database identifier
+        /// Globally distributed autonomous database identifier.
         /// </value>
         /// <remarks>
         /// Required
@@ -34,20 +34,6 @@ namespace Oci.DistributeddatabaseService.Requests
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "isSurrogate")]
         public System.Nullable<bool> IsSurrogate { get; set; }
-        
-        /// <value>
-        /// Specify the name of shard or catalog.
-        /// 
-        /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "resourceName")]
-        public string ResourceName { get; set; }
-        
-        /// <value>
-        /// The shardGroup name example Shardgroupa, Shardgroupb.
-        /// 
-        /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "shardGroup")]
-        public string ShardGroup { get; set; }
         
         /// <value>
         /// For optimistic concurrency control. In the PUT or DELETE call

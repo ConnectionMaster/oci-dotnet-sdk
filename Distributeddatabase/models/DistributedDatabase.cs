@@ -52,7 +52,7 @@ namespace Oci.DistributeddatabaseService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The time the Globally distributed database was created. An RFC3339 formatted datetime string
+        /// The time the Globally distributed database was created. An RFC3339 formatted datetime string.
         /// </value>
         /// <remarks>
         /// Required
@@ -62,7 +62,7 @@ namespace Oci.DistributeddatabaseService.Models
         public System.Nullable<System.DateTime> TimeCreated { get; set; }
         
         /// <value>
-        /// The time the Globally distributed database was last updated. An RFC3339 formatted datetime string
+        /// The time the Globally distributed database was last updated. An RFC3339 formatted datetime string.
         /// </value>
         /// <remarks>
         /// Required
@@ -117,6 +117,87 @@ namespace Oci.DistributeddatabaseService.Models
         [JsonProperty(PropertyName = "lifecycleState")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<LifecycleStateEnum> LifecycleState { get; set; }
+                ///
+        /// <value>
+        /// Sharding methods for the Globally distributed database.
+        /// </value>
+        ///
+        public enum ShardingMethodEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "USER")]
+            User,
+            [EnumMember(Value = "SYSTEM")]
+            System,
+            [EnumMember(Value = "COMPOSITE")]
+            Composite
+        };
+
+        /// <value>
+        /// Sharding methods for the Globally distributed database.
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "ShardingMethod is required.")]
+        [JsonProperty(PropertyName = "shardingMethod")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<ShardingMethodEnum> ShardingMethod { get; set; }
+                ///
+        /// <value>
+        /// The Replication method for Globally distributed database. Use RAFT for Raft based replication.
+        /// With RAFT replication, shards cannot have peers details set on them. In case shards need to
+        /// have peers, please do not set RAFT replicationMethod. For all non RAFT replication cases (with or
+        /// without peers), please set replicationMethod as DG or do not set any value for replicationMethod.
+        /// 
+        /// </value>
+        ///
+        public enum ReplicationMethodEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "RAFT")]
+            Raft,
+            [EnumMember(Value = "DG")]
+            Dg
+        };
+
+        /// <value>
+        /// The Replication method for Globally distributed database. Use RAFT for Raft based replication.
+        /// With RAFT replication, shards cannot have peers details set on them. In case shards need to
+        /// have peers, please do not set RAFT replicationMethod. For all non RAFT replication cases (with or
+        /// without peers), please set replicationMethod as DG or do not set any value for replicationMethod.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "replicationMethod")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<ReplicationMethodEnum> ReplicationMethod { get; set; }
+                ///
+        /// <value>
+        /// The distributed database deployment type.
+        /// 
+        /// </value>
+        ///
+        public enum DbDeploymentTypeEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "EXADB")]
+            Exadb
+        };
+
+        /// <value>
+        /// The distributed database deployment type.
+        /// 
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "DbDeploymentType is required.")]
+        [JsonProperty(PropertyName = "dbDeploymentType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<DbDeploymentTypeEnum> DbDeploymentType { get; set; }
         
         /// <value>
         /// The lifecycleDetails for the Globally distributed database.
@@ -153,33 +234,14 @@ namespace Oci.DistributeddatabaseService.Models
         [JsonProperty(PropertyName = "privateEndpointIds")]
         public System.Collections.Generic.List<string> PrivateEndpointIds { get; set; }
         
+        /// <value>
+        /// The collection of [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the notification topics associated with the globally distributed database.
+        /// </value>
+        [JsonProperty(PropertyName = "notificationTopicIds")]
+        public System.Collections.Generic.List<string> NotificationTopicIds { get; set; }
+        
         [JsonProperty(PropertyName = "latestGsmImageDetails")]
         public DistributedDbGsmImage LatestGsmImageDetails { get; set; }
-                ///
-        /// <value>
-        /// Sharding Methods for the Globally distributed database.
-        /// </value>
-        ///
-        public enum ShardingMethodEnum {
-            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
-            [EnumMember(Value = null)]
-            UnknownEnumValue,
-            [EnumMember(Value = "USER")]
-            User,
-            [EnumMember(Value = "SYSTEM")]
-            System
-        };
-
-        /// <value>
-        /// Sharding Methods for the Globally distributed database.
-        /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "ShardingMethod is required.")]
-        [JsonProperty(PropertyName = "shardingMethod")]
-        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
-        public System.Nullable<ShardingMethodEnum> ShardingMethod { get; set; }
         
         /// <value>
         /// The character set for the database.
@@ -200,14 +262,6 @@ namespace Oci.DistributeddatabaseService.Models
         [Required(ErrorMessage = "NcharacterSet is required.")]
         [JsonProperty(PropertyName = "ncharacterSet")]
         public string NcharacterSet { get; set; }
-        
-        /// <value>
-        /// The default number of unique chunks in a shardspace. The value of chunks must be
-        /// greater than 2 times the size of the largest shardgroup in any shardspace.
-        /// 
-        /// </value>
-        [JsonProperty(PropertyName = "chunks")]
-        public System.Nullable<int> Chunks { get; set; }
         
         /// <value>
         /// The Global service manager listener port number for the Globally distributed database.
@@ -246,102 +300,85 @@ namespace Oci.DistributeddatabaseService.Models
         public System.Nullable<int> OnsPortRemote { get; set; }
         
         /// <value>
-        /// The TCP Single Client Access Name (SCAN) port for Globally distributed database clusters.
+        /// The TCP SCAN listener port for database clusters with source type XS_NEW_VAULT_AND_CLUSTER or XS_NEW_CLUSTER.
         /// </value>
         [JsonProperty(PropertyName = "scanListenerPort")]
         public System.Nullable<int> ScanListenerPort { get; set; }
-                ///
-        /// <value>
-        /// The Replication method for Globally distributed database. Use RAFT for Raft replication, and DG for
-        /// DataGuard. If replicationMethod is not provided, it defaults to DG.
-        /// 
-        /// </value>
-        ///
-        public enum ReplicationMethodEnum {
-            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
-            [EnumMember(Value = null)]
-            UnknownEnumValue,
-            [EnumMember(Value = "RAFT")]
-            Raft,
-            [EnumMember(Value = "DG")]
-            Dg
-        };
-
-        /// <value>
-        /// The Replication method for Globally distributed database. Use RAFT for Raft replication, and DG for
-        /// DataGuard. If replicationMethod is not provided, it defaults to DG.
-        /// 
-        /// </value>
-        [JsonProperty(PropertyName = "replicationMethod")]
-        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
-        public System.Nullable<ReplicationMethodEnum> ReplicationMethod { get; set; }
         
         /// <value>
-        /// The Replication factor for RAFT replication based Globally distributed database. Currently supported values are 3, 5 and 7.
-        /// 
+        /// Count of chunks associated with system raft clusters or system data guard databases.
         /// </value>
-        [JsonProperty(PropertyName = "replicationFactor")]
-        public System.Nullable<int> ReplicationFactor { get; set; }
+        [JsonProperty(PropertyName = "systemChunkCount")]
+        public System.Nullable<int> SystemChunkCount { get; set; }
         
         /// <value>
-        /// The replication unit count for RAFT based distributed database. For RAFT replication based
-        /// Globally distributed database, the value should be at least twice the number of shards.
-        /// 
+        /// Number of replication units associated with system raft clusters.
         /// </value>
-        [JsonProperty(PropertyName = "replicationUnit")]
-        public System.Nullable<int> ReplicationUnit { get; set; }
-                ///
-        /// <value>
-        /// The distributed database deployment type.
-        /// 
-        /// </value>
-        ///
-        public enum DbDeploymentTypeEnum {
-            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
-            [EnumMember(Value = null)]
-            UnknownEnumValue,
-            [EnumMember(Value = "EXADB_XS")]
-            ExadbXs
-        };
-
-        /// <value>
-        /// The distributed database deployment type.
-        /// 
-        /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "DbDeploymentType is required.")]
-        [JsonProperty(PropertyName = "dbDeploymentType")]
-        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
-        public System.Nullable<DbDeploymentTypeEnum> DbDeploymentType { get; set; }
+        [JsonProperty(PropertyName = "systemRaftReplicationUnitCount")]
+        public System.Nullable<int> SystemRaftReplicationUnitCount { get; set; }
         
         /// <value>
-        /// Collection of shards associated with the Globally distributed database.
+        /// Collection of composite raft shards.
         /// </value>
-        [JsonProperty(PropertyName = "shardDetails")]
-        public System.Collections.Generic.List<DistributedDatabaseShard> ShardDetails { get; set; }
+        [JsonProperty(PropertyName = "compositeRaftShardSpaces")]
+        public System.Collections.Generic.List<CompositeRaftShardSpace> CompositeRaftShardSpaces { get; set; }
         
         /// <value>
-        /// Collection of catalogs associated with the Globally distributed database.
+        /// Collection of composite data guard shard spaces.
+        /// </value>
+        [JsonProperty(PropertyName = "compositeDataGuardShardSpaces")]
+        public System.Collections.Generic.List<CompositeDataGuardShardSpace> CompositeDataGuardShardSpaces { get; set; }
+        
+        /// <value>
+        /// Collection of system raft clusters.
+        /// </value>
+        [JsonProperty(PropertyName = "systemRaftClusters")]
+        public System.Collections.Generic.List<SystemRaftCluster> SystemRaftClusters { get; set; }
+        
+        [JsonProperty(PropertyName = "systemDataGuardDatabases")]
+        public SystemDataGuardDatabase SystemDataGuardDatabases { get; set; }
+        
+        /// <value>
+        /// Collection of user defined shard spaces.
+        /// </value>
+        [JsonProperty(PropertyName = "userShardSpaces")]
+        public System.Collections.Generic.List<UserShardSpace> UserShardSpaces { get; set; }
+        
+        /// <value>
+        /// Catalog details associated with the distributed database.
         /// </value>
         [JsonProperty(PropertyName = "catalogDetails")]
         public System.Collections.Generic.List<DistributedDatabaseCatalog> CatalogDetails { get; set; }
         
         /// <value>
-        /// Collection of catalogs associated with the Globally distributed database.
+        /// Global Service Manager (GSM) instances associated with the distributed database.
         /// </value>
         [JsonProperty(PropertyName = "gsmDetails")]
         public System.Collections.Generic.List<DistributedDatabaseGsm> GsmDetails { get; set; }
         
+        /// <value>
+        /// Global Database Services Control(GDS CTL) instances associated with the distributed database.
+        /// </value>
+        [JsonProperty(PropertyName = "gdsControlNodeDetails")]
+        public System.Collections.Generic.List<DistributedDatabaseGdsControlNode> GdsControlNodeDetails { get; set; }
+        
         [JsonProperty(PropertyName = "dbBackupConfig")]
         public DistributedDbBackupConfig DbBackupConfig { get; set; }
+        
+        [JsonProperty(PropertyName = "autoResourceManagementConfig")]
+        public AutoResourceManagementConfigurationDetails AutoResourceManagementConfig { get; set; }
         
         /// <value>
         /// The SSH public key for Global service manager instances.
         /// </value>
         [JsonProperty(PropertyName = "gsmSshPublicKey")]
         public string GsmSshPublicKey { get; set; }
+        
+        /// <value>
+        /// The list of network security group (NSG) details associated with the distributed database.
+        /// </value>
+        [JsonProperty(PropertyName = "vcnNsgIds")]
+        public System.Collections.Generic.List<VcnNsgIdsDetails> VcnNsgIds { get; set; }
         
         [JsonProperty(PropertyName = "metadata")]
         public DistributedDbMetadata Metadata { get; set; }

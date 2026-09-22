@@ -32,6 +32,12 @@ namespace Oci.DatascienceService.Models
         public string InstanceShape { get; set; }
         
         /// <value>
+        /// The list of [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compute capacity reservation.
+        /// </value>
+        [JsonProperty(PropertyName = "capacityReservationIds")]
+        public System.Collections.Generic.List<string> CapacityReservationIds { get; set; }
+        
+        /// <value>
         /// The size of the boot volume to attach to the instance.
         /// </value>
         [JsonProperty(PropertyName = "bootVolumeSizeInGBs")]

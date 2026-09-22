@@ -23,6 +23,12 @@ namespace Oci.MarketplacepublisherService.Models
     {
         
         /// <value>
+        /// Unique identifier of the pricing plan.
+        /// </value>
+        [JsonProperty(PropertyName = "pricingPlanKey")]
+        public string PricingPlanKey { get; set; }
+        
+        /// <value>
         /// The plan name.
         /// </value>
         /// <remarks>
@@ -54,8 +60,14 @@ namespace Oci.MarketplacepublisherService.Models
             Monthly,
             [EnumMember(Value = "QUARTERLY")]
             Quarterly,
-            [EnumMember(Value = "YEARLY")]
-            Yearly
+            [EnumMember(Value = "SEMI_ANNUAL")]
+            SemiAnnual,
+            [EnumMember(Value = "ANNUAL")]
+            Annual,
+            [EnumMember(Value = "BIENNIAL")]
+            Biennial,
+            [EnumMember(Value = "TRIENNIAL")]
+            Triennial
         };
 
         /// <value>
@@ -68,6 +80,35 @@ namespace Oci.MarketplacepublisherService.Models
         [JsonProperty(PropertyName = "billingFrequency")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<BillingFrequencyEnum> BillingFrequency { get; set; }
+                ///
+        /// <value>
+        /// The plan duration.
+        /// </value>
+        ///
+        public enum PlanDurationEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "MONTHLY")]
+            Monthly,
+            [EnumMember(Value = "QUARTERLY")]
+            Quarterly,
+            [EnumMember(Value = "SEMI_ANNUAL")]
+            SemiAnnual,
+            [EnumMember(Value = "ANNUAL")]
+            Annual,
+            [EnumMember(Value = "BIENNIAL")]
+            Biennial,
+            [EnumMember(Value = "TRIENNIAL")]
+            Triennial
+        };
+
+        /// <value>
+        /// The plan duration.
+        /// </value>
+        [JsonProperty(PropertyName = "planDuration")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<PlanDurationEnum> PlanDuration { get; set; }
         
         /// <value>
         /// Additional metadata key/value pairs for the saas pricing.

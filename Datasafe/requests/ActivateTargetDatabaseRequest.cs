@@ -20,16 +20,6 @@ namespace Oci.DatasafeService.Requests
     {
         
         /// <value>
-        /// The details used to reactivate a target database in Data Safe.
-        /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "ActivateTargetDatabaseDetails is required.")]
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Body)]
-        public ActivateTargetDatabaseDetails ActivateTargetDatabaseDetails { get; set; }
-        
-        /// <value>
         /// The OCID of the Data Safe target database.
         /// </value>
         /// <remarks>
@@ -38,6 +28,12 @@ namespace Oci.DatasafeService.Requests
         [Required(ErrorMessage = "TargetDatabaseId is required.")]
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Path, "targetDatabaseId")]
         public string TargetDatabaseId { get; set; }
+        
+        /// <value>
+        /// The details used to reactivate a target database in Data Safe.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Body)]
+        public ActivateTargetDatabaseDetails ActivateTargetDatabaseDetails { get; set; }
         
         /// <value>
         /// A token that uniquely identifies a request so it can be retried in case of a timeout or

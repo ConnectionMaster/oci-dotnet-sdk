@@ -27,6 +27,8 @@ namespace Oci.DistributeddatabaseService.Models
       PatchDistributedDbRemoveShards,
       [EnumMember(Value = "PATCH_DISTRIBUTED_DB_MERGE_CATALOG_SHARDS")]
       PatchDistributedDbMergeCatalogShards,
+      [EnumMember(Value = "PATCH_DISTRIBUTED_DB_NSGIDS")]
+      PatchDistributedDbNsgids,
       [EnumMember(Value = "DELETE_DISTRIBUTED_DB")]
       DeleteDistributedDb,
       [EnumMember(Value = "CHANGE_DISTRIBUTED_DB_COMPARTMENT")]
@@ -35,8 +37,6 @@ namespace Oci.DistributeddatabaseService.Models
       ConfigureDistributedDbGsms,
       [EnumMember(Value = "CONFIGURE_DISTRIBUTED_DB_SHARDING")]
       ConfigureDistributedDbSharding,
-      [EnumMember(Value = "GENERATE_DISTRIBUTED_DB_GSM_CERT_SIGNING_REQ")]
-      GenerateDistributedDbGsmCertSigningReq,
       [EnumMember(Value = "ROTATE_DISTRIBUTED_DB_PASSWORDS")]
       RotateDistributedDbPasswords,
       [EnumMember(Value = "START_DISTRIBUTED_DB")]
@@ -51,8 +51,6 @@ namespace Oci.DistributeddatabaseService.Models
       StopDistributedDbShard,
       [EnumMember(Value = "STOP_DISTRIBUTED_DB_CATALOG")]
       StopDistributedDbCatalog,
-      [EnumMember(Value = "UPLOAD_DISTRIBUTED_DB_SIGNED_CERT_AND_GENERATE_WALLET")]
-      UploadDistributedDbSignedCertAndGenerateWallet,
       [EnumMember(Value = "CREATE_DISTRIBUTED_DB_SHARD")]
       CreateDistributedDbShard,
       [EnumMember(Value = "CREATE_DISTRIBUTED_DB_CATALOG")]
@@ -69,6 +67,8 @@ namespace Oci.DistributeddatabaseService.Models
       CreatePrivateEndpoint,
       [EnumMember(Value = "DELETE_PRIVATE_ENDPOINT")]
       DeletePrivateEndpoint,
+      [EnumMember(Value = "PATCH_PRIVATE_ENDPOINT")]
+      PatchPrivateEndpoint,
       [EnumMember(Value = "CHANGE_PRIVATE_ENDPOINT_COMPARTMENT")]
       ChangePrivateEndpointCompartment,
       [EnumMember(Value = "REINSTATE_PROXY_INSTANCE")]
@@ -83,10 +83,14 @@ namespace Oci.DistributeddatabaseService.Models
       AddGdscontrolNode,
       [EnumMember(Value = "CHANGE_DISTRIBUTED_DB_BACKUP_CONFIG")]
       ChangeDistributedDbBackupConfig,
-      [EnumMember(Value = "ADD_DISTRIBUTED_DB_DG")]
-      AddDistributedDbDg,
-      [EnumMember(Value = "REMOVE_DISTRIBUTED_DB_DG")]
-      RemoveDistributedDbDg,
+      [EnumMember(Value = "ADD_DISTRIBUTED_DB_DG_EXADB")]
+      AddDistributedDbDgExadb,
+      [EnumMember(Value = "ADD_DISTRIBUTED_DB_DG_ADB")]
+      AddDistributedDbDgAdb,
+      [EnumMember(Value = "REMOVE_DISTRIBUTED_DB_DG_ADB")]
+      RemoveDistributedDbDgAdb,
+      [EnumMember(Value = "REMOVE_DISTRIBUTED_DB_DG_EXADB")]
+      RemoveDistributedDbDgExadb,
       [EnumMember(Value = "CONFIGURE_DISTRIBUTED_DB_GSMS_WALLET")]
       ConfigureDistributedDbGsmsWallet,
       [EnumMember(Value = "VALIDATE_CA_BUNDLE")]

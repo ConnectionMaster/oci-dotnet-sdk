@@ -16,7 +16,6 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
-    /// Note: Deprecated. Use the new resource model APIs instead.
     /// Define the image signature verification policy for an application.
     /// 
     /// </summary>

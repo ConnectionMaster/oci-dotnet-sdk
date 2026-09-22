@@ -16,28 +16,11 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
-    /// Note: Deprecated. Use the new resource model APIs instead.
     /// Updates attributes of a function.
     /// 
     /// </summary>
     public class UpdateFunctionDetails 
     {
-        
-        /// <value>
-        /// The qualified name of the Docker image to use in the function, including the image tag.
-        /// The image should be in the OCI Registry that is in the same region as the function itself.
-        /// If an image is specified but no value for imageDigest is provided, the digest currently associated with the image tag in the OCI Registry will be used.
-        /// Example: phx.ocir.io/ten/functions/function:0.0.1
-        /// </value>
-        [JsonProperty(PropertyName = "image")]
-        public string Image { get; set; }
-        
-        /// <value>
-        /// The image digest for the version of the image that will be pulled when invoking this function.
-        /// Example: sha256:ca0eeb6fb05351dfc8759c20733c91def84cb8007aa89a5bf606bc8b315b9fc7
-        /// </value>
-        [JsonProperty(PropertyName = "imageDigest")]
-        public string ImageDigest { get; set; }
         
         /// <value>
         /// Maximum usable memory for the function (MiB).
@@ -77,6 +60,9 @@ namespace Oci.FunctionsService.Models
         
         [JsonProperty(PropertyName = "traceConfig")]
         public FunctionTraceConfig TraceConfig { get; set; }
+        
+        [JsonProperty(PropertyName = "sourceDetails")]
+        public UpdateFunctionSourceDetails SourceDetails { get; set; }
         
         /// <value>
         /// Free-form tags for this resource. Each tag is a simple key-value pair with no predefined name, type, or namespace.

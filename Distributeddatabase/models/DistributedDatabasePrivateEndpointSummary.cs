@@ -78,11 +78,10 @@ namespace Oci.DistributeddatabaseService.Models
         public string DisplayName { get; set; }
         
         /// <value>
-        /// The OCIDs of the network security groups that the private endpoint belongs to.
-        /// 
+        /// The list of network security group (NSG) details associated with the private endpoint.
         /// </value>
-        [JsonProperty(PropertyName = "nsgIds")]
-        public System.Collections.Generic.List<string> NsgIds { get; set; }
+        [JsonProperty(PropertyName = "vcnNsgIds")]
+        public System.Collections.Generic.List<VcnNsgIdsDetails> VcnNsgIds { get; set; }
         
         /// <value>
         /// The time the the private endpoint was created. An RFC3339 formatted datetime string

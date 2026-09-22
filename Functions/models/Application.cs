@@ -16,7 +16,6 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
-    /// Note: Deprecated. Use the new resource model APIs instead.
     /// An application contains functions and defined attributes shared between those functions, such as network configuration and configuration. Avoid entering confidential information.
     /// 
     /// </summary>
