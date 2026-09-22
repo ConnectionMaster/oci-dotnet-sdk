@@ -26,7 +26,7 @@ namespace Oci.DistributeddatabaseService
     public class DistributedDbServiceClient : RegionalClientBase
     {
         private readonly RetryConfiguration retryConfiguration;
-        private const string basePathWithoutHost = "/20250101";
+        private const string basePathWithoutHost = "/20260101";
 
         public DistributedDbServicePaginators Paginators { get; }
 
@@ -110,7 +110,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "AddDistributedDatabaseGdsControlNode",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/AddDistributedDatabaseGdsControlNode",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/AddDistributedDatabaseGdsControlNode",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -167,7 +167,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "ChangeDistributedDatabaseCompartment",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/ChangeDistributedDatabaseCompartment",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/ChangeDistributedDatabaseCompartment",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -224,7 +224,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "ChangeDistributedDbBackupConfig",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/ChangeDistributedDbBackupConfig",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/ChangeDistributedDbBackupConfig",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -239,6 +239,63 @@ namespace Oci.DistributeddatabaseService
             catch (Exception e)
             {
                 logger.Error($"ChangeDistributedDbBackupConfig failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Configure autoResourceManagement options for the Globally distributed database.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ConfigureDistributedDatabaseAutoResourceManagement.cs.html">here</a> to see an example of how to use ConfigureDistributedDatabaseAutoResourceManagement API.</example>
+        public async Task<ConfigureDistributedDatabaseAutoResourceManagementResponse> ConfigureDistributedDatabaseAutoResourceManagement(ConfigureDistributedDatabaseAutoResourceManagementRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called configureDistributedDatabaseAutoResourceManagement");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/distributedDatabases/{distributedDatabaseId}/actions/configureAutoResourceManagement".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DistributedDbService",
+                    OperationName = "ConfigureDistributedDatabaseAutoResourceManagement",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/ConfigureDistributedDatabaseAutoResourceManagement",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ConfigureDistributedDatabaseAutoResourceManagementResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ConfigureDistributedDatabaseAutoResourceManagement failed with error: {e.Message}");
                 throw;
             }
         }
@@ -281,7 +338,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "ConfigureDistributedDatabaseGsms",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/ConfigureDistributedDatabaseGsms",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/ConfigureDistributedDatabaseGsms",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -342,7 +399,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "ConfigureDistributedDatabaseSharding",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/ConfigureDistributedDatabaseSharding",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/ConfigureDistributedDatabaseSharding",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -419,9 +476,7 @@ namespace Oci.DistributeddatabaseService
         }
 
         /// <summary>
-        /// Terminate the given Globally distributed databases.
-        /// For an EXADB_XS based distributed database, if the parameter mustDeleteInfra is set to true,
-        /// then the VmCluster and DbStorageVault associated with each shard and catalog will also be deleted.
+        /// Terminate the given Globally distributed database.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -458,7 +513,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "DeleteDistributedDatabase",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/DeleteDistributedDatabase",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/DeleteDistributedDatabase",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -473,125 +528,6 @@ namespace Oci.DistributeddatabaseService
             catch (Exception e)
             {
                 logger.Error($"DeleteDistributedDatabase failed with error: {e.Message}");
-                throw;
-            }
-        }
-
-        /// <summary>
-        /// Generate the common certificate signing request for GSMs. Download the &lt;globaldb-prefix&gt;.csr file from
-        /// API response. Users can use this .csr file to generate the CA signed certificate, and as a next step
-        /// use &#39;uploadSignedCertificateAndGenerateWallet&#39; API to upload the CA signed certificate to GSM, and
-        /// generate wallets for the GSM instances of the Globally distributed database.
-        /// 
-        /// </summary>
-        /// <param name="request">The request object containing the details to send. Required.</param>
-        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
-        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
-        /// <param name="completionOption">The completion option for this operation. Optional.</param>
-        /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/DownloadDistributedDatabaseGsmCertificateSigningRequest.cs.html">here</a> to see an example of how to use DownloadDistributedDatabaseGsmCertificateSigningRequest API.</example>
-        public async Task<DownloadDistributedDatabaseGsmCertificateSigningRequestResponse> DownloadDistributedDatabaseGsmCertificateSigningRequest(DownloadDistributedDatabaseGsmCertificateSigningRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
-        {
-            logger.Trace("Called downloadDistributedDatabaseGsmCertificateSigningRequest");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/distributedDatabases/{distributedDatabaseId}/actions/downloadGsmCertificateSigningRequest".Trim('/')));
-            HttpMethod method = new HttpMethod("POST");
-            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
-            requestMessage.Headers.Add("Accept", "application/octet-stream");
-            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
-            HttpResponseMessage responseMessage;
-
-            try
-            {
-                Stopwatch stopWatch = new Stopwatch();
-                stopWatch.Start();
-                if (retryingClient != null)
-                {
-                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
-                }
-                else
-                {
-                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
-                }
-                stopWatch.Stop();
-                ApiDetails apiDetails = new ApiDetails
-                {
-                    ServiceName = "DistributedDbService",
-                    OperationName = "DownloadDistributedDatabaseGsmCertificateSigningRequest",
-                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/DownloadDistributedDatabaseGsmCertificateSigningRequest",
-                    UserAgent = this.GetUserAgent()
-                };
-                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
-                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
-                return Converter.FromHttpResponseMessage<DownloadDistributedDatabaseGsmCertificateSigningRequestResponse>(responseMessage);
-            }
-            catch (OciException e)
-            {
-                logger.Error(e);
-                throw;
-            }
-            catch (Exception e)
-            {
-                logger.Error($"DownloadDistributedDatabaseGsmCertificateSigningRequest failed with error: {e.Message}");
-                throw;
-            }
-        }
-
-        /// <summary>
-        /// Generate the certificate signing request for GSM instances of the Globally distributed database. Once certificate signing
-        /// request is generated, then customers can download the certificate signing request using
-        /// &#39;downloadGsmCertificateSigningRequest&#39; api call.
-        /// 
-        /// </summary>
-        /// <param name="request">The request object containing the details to send. Required.</param>
-        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
-        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
-        /// <param name="completionOption">The completion option for this operation. Optional.</param>
-        /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/GenerateDistributedDatabaseGsmCertificateSigningRequest.cs.html">here</a> to see an example of how to use GenerateDistributedDatabaseGsmCertificateSigningRequest API.</example>
-        public async Task<GenerateDistributedDatabaseGsmCertificateSigningRequestResponse> GenerateDistributedDatabaseGsmCertificateSigningRequest(GenerateDistributedDatabaseGsmCertificateSigningRequestRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
-        {
-            logger.Trace("Called generateDistributedDatabaseGsmCertificateSigningRequest");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/distributedDatabases/{distributedDatabaseId}/actions/generateGsmCertificateSigningRequest".Trim('/')));
-            HttpMethod method = new HttpMethod("POST");
-            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
-            requestMessage.Headers.Add("Accept", "application/json");
-            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
-            HttpResponseMessage responseMessage;
-
-            try
-            {
-                Stopwatch stopWatch = new Stopwatch();
-                stopWatch.Start();
-                if (retryingClient != null)
-                {
-                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
-                }
-                else
-                {
-                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
-                }
-                stopWatch.Stop();
-                ApiDetails apiDetails = new ApiDetails
-                {
-                    ServiceName = "DistributedDbService",
-                    OperationName = "GenerateDistributedDatabaseGsmCertificateSigningRequest",
-                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/GenerateDistributedDatabaseGsmCertificateSigningRequest",
-                    UserAgent = this.GetUserAgent()
-                };
-                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
-                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
-                return Converter.FromHttpResponseMessage<GenerateDistributedDatabaseGsmCertificateSigningRequestResponse>(responseMessage);
-            }
-            catch (OciException e)
-            {
-                logger.Error(e);
-                throw;
-            }
-            catch (Exception e)
-            {
-                logger.Error($"GenerateDistributedDatabaseGsmCertificateSigningRequest failed with error: {e.Message}");
                 throw;
             }
         }
@@ -634,7 +570,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "GenerateDistributedDatabaseWallet",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/GenerateDistributedDatabaseWallet",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/GenerateDistributedDatabaseWallet",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -691,7 +627,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "GetDistributedDatabase",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/GetDistributedDatabase",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/GetDistributedDatabase",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -749,7 +685,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "GetDistributedDatabaseRaftMetric",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/GetDistributedDatabaseRaftMetric",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/GetDistributedDatabaseRaftMetric",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -764,6 +700,64 @@ namespace Oci.DistributeddatabaseService
             catch (Exception e)
             {
                 logger.Error($"GetDistributedDatabaseRaftMetric failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Operation to retrieve move RU invocation history and status for the Globally distributed database.
+        /// Results are ordered by created timestamp in descending order.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/GetDistributedDatabaseRuChangeLog.cs.html">here</a> to see an example of how to use GetDistributedDatabaseRuChangeLog API.</example>
+        public async Task<GetDistributedDatabaseRuChangeLogResponse> GetDistributedDatabaseRuChangeLog(GetDistributedDatabaseRuChangeLogRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called getDistributedDatabaseRuChangeLog");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/distributedDatabases/{distributedDatabaseId}/ruChangeLog".Trim('/')));
+            HttpMethod method = new HttpMethod("GET");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DistributedDbService",
+                    OperationName = "GetDistributedDatabaseRuChangeLog",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/GetDistributedDatabaseRuChangeLog",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<GetDistributedDatabaseRuChangeLogResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"GetDistributedDatabaseRuChangeLog failed with error: {e.Message}");
                 throw;
             }
         }
@@ -806,7 +800,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "ListDistributedDatabases",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabaseCollection/ListDistributedDatabases",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabaseCollection/ListDistributedDatabases",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -863,7 +857,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "MoveDistributedDatabaseReplicationUnit",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/MoveDistributedDatabaseReplicationUnit",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/MoveDistributedDatabaseReplicationUnit",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -886,8 +880,6 @@ namespace Oci.DistributeddatabaseService
         /// Patch operation to add, remove or update shards to the Globally distributed database topology. In single patch
         /// operation, multiple shards can be either added, or removed or updated. Combination of inserts, update
         /// and remove in single operation is not allowed.
-        /// For an EXADB_XS based distributed database, removing a shard with the parameter mustDeleteInfra set to true 
-        /// will also delete the associated VmCluster and DbStorageVault.
         /// 
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
@@ -924,7 +916,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "PatchDistributedDatabase",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/PatchDistributedDatabase",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/PatchDistributedDatabase",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -981,7 +973,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "RecreateFailedDistributedDatabaseResource",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/RecreateFailedDistributedDatabaseResource",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/RecreateFailedDistributedDatabaseResource",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1037,7 +1029,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "RotateDistributedDatabasePasswords",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/RotateDistributedDatabasePasswords",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/RotateDistributedDatabasePasswords",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1057,7 +1049,64 @@ namespace Oci.DistributeddatabaseService
         }
 
         /// <summary>
-        /// Start the shards, catalog and GSMs of Globally distributed database.
+        /// Scale global service manager(GSM aka shard manager) instances for the Globally distributed database.
+        /// 
+        /// </summary>
+        /// <param name="request">The request object containing the details to send. Required.</param>
+        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
+        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
+        /// <param name="completionOption">The completion option for this operation. Optional.</param>
+        /// <returns>A response object containing details about the completed operation</returns>
+        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/ScaleDistributedDatabaseGsms.cs.html">here</a> to see an example of how to use ScaleDistributedDatabaseGsms API.</example>
+        public async Task<ScaleDistributedDatabaseGsmsResponse> ScaleDistributedDatabaseGsms(ScaleDistributedDatabaseGsmsRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
+        {
+            logger.Trace("Called scaleDistributedDatabaseGsms");
+            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/distributedDatabases/{distributedDatabaseId}/actions/scaleGsms".Trim('/')));
+            HttpMethod method = new HttpMethod("POST");
+            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
+            requestMessage.Headers.Add("Accept", "application/json");
+            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
+            HttpResponseMessage responseMessage;
+
+            try
+            {
+                Stopwatch stopWatch = new Stopwatch();
+                stopWatch.Start();
+                if (retryingClient != null)
+                {
+                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
+                }
+                else
+                {
+                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
+                }
+                stopWatch.Stop();
+                ApiDetails apiDetails = new ApiDetails
+                {
+                    ServiceName = "DistributedDbService",
+                    OperationName = "ScaleDistributedDatabaseGsms",
+                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/ScaleDistributedDatabaseGsms",
+                    UserAgent = this.GetUserAgent()
+                };
+                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
+                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
+                return Converter.FromHttpResponseMessage<ScaleDistributedDatabaseGsmsResponse>(responseMessage);
+            }
+            catch (OciException e)
+            {
+                logger.Error(e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                logger.Error($"ScaleDistributedDatabaseGsms failed with error: {e.Message}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Start the shards, catalog, GSMs and GDSCTL instances of Globally distributed database.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -1093,7 +1142,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "StartDistributedDatabase",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/StartDistributedDatabase",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/StartDistributedDatabase",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1113,7 +1162,7 @@ namespace Oci.DistributeddatabaseService
         }
 
         /// <summary>
-        /// Stop the shards, catalog and GSM instances for the Globally distributed database.
+        /// Stop the shards, catalog, GSMs and GDSCTL instances for the Globally distributed database.
         /// </summary>
         /// <param name="request">The request object containing the details to send. Required.</param>
         /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
@@ -1149,7 +1198,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "StopDistributedDatabase",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/StopDistributedDatabase",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/StopDistributedDatabase",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1206,7 +1255,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "UpdateDistributedDatabase",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/UpdateDistributedDatabase",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/UpdateDistributedDatabase",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
@@ -1221,65 +1270,6 @@ namespace Oci.DistributeddatabaseService
             catch (Exception e)
             {
                 logger.Error($"UpdateDistributedDatabase failed with error: {e.Message}");
-                throw;
-            }
-        }
-
-        /// <summary>
-        /// Upload the CA signed certificate to the GSM instances and generate wallets for GSM instances of the
-        /// Globally distributed database. Customer shall provide the CA signed certificate key details by adding the certificate
-        /// in request body.
-        /// 
-        /// </summary>
-        /// <param name="request">The request object containing the details to send. Required.</param>
-        /// <param name="retryConfiguration">The retry configuration that will be used by to send this request. Optional.</param>
-        /// <param name="cancellationToken">The cancellation token to cancel this operation. Optional.</param>
-        /// <param name="completionOption">The completion option for this operation. Optional.</param>
-        /// <returns>A response object containing details about the completed operation</returns>
-        /// <example>Click <a href="https://docs.oracle.com/en-us/iaas/tools/dot-net-examples/latest/distributeddatabase/UploadDistributedDatabaseSignedCertificateAndGenerateWallet.cs.html">here</a> to see an example of how to use UploadDistributedDatabaseSignedCertificateAndGenerateWallet API.</example>
-        public async Task<UploadDistributedDatabaseSignedCertificateAndGenerateWalletResponse> UploadDistributedDatabaseSignedCertificateAndGenerateWallet(UploadDistributedDatabaseSignedCertificateAndGenerateWalletRequest request, RetryConfiguration retryConfiguration = null, CancellationToken cancellationToken = default, HttpCompletionOption completionOption = HttpCompletionOption.ResponseContentRead)
-        {
-            logger.Trace("Called uploadDistributedDatabaseSignedCertificateAndGenerateWallet");
-            Uri uri = new Uri(this.restClient.GetEndpoint(), System.IO.Path.Combine(basePathWithoutHost, "/distributedDatabases/{distributedDatabaseId}/actions/uploadSignedCertificateAndGenerateWallet".Trim('/')));
-            HttpMethod method = new HttpMethod("POST");
-            HttpRequestMessage requestMessage = Converter.ToHttpRequestMessage(uri, method, request);
-            requestMessage.Headers.Add("Accept", "application/json");
-            GenericRetrier retryingClient = Retrier.GetPreferredRetrier(retryConfiguration, this.retryConfiguration);
-            HttpResponseMessage responseMessage;
-
-            try
-            {
-                Stopwatch stopWatch = new Stopwatch();
-                stopWatch.Start();
-                if (retryingClient != null)
-                {
-                    responseMessage = await retryingClient.MakeRetryingCall(this.restClient.HttpSend, requestMessage, completionOption, cancellationToken).ConfigureAwait(false);
-                }
-                else
-                {
-                    responseMessage = await this.restClient.HttpSend(requestMessage, completionOption: completionOption).ConfigureAwait(false);
-                }
-                stopWatch.Stop();
-                ApiDetails apiDetails = new ApiDetails
-                {
-                    ServiceName = "DistributedDbService",
-                    OperationName = "UploadDistributedDatabaseSignedCertificateAndGenerateWallet",
-                    RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/UploadDistributedDatabaseSignedCertificateAndGenerateWallet",
-                    UserAgent = this.GetUserAgent()
-                };
-                this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);
-                logger.Debug($"Total Latency for this API call is: {stopWatch.ElapsedMilliseconds} ms");
-                return Converter.FromHttpResponseMessage<UploadDistributedDatabaseSignedCertificateAndGenerateWalletResponse>(responseMessage);
-            }
-            catch (OciException e)
-            {
-                logger.Error(e);
-                throw;
-            }
-            catch (Exception e)
-            {
-                logger.Error($"UploadDistributedDatabaseSignedCertificateAndGenerateWallet failed with error: {e.Message}");
                 throw;
             }
         }
@@ -1322,7 +1312,7 @@ namespace Oci.DistributeddatabaseService
                     ServiceName = "DistributedDbService",
                     OperationName = "ValidateDistributedDatabaseNetwork",
                     RequestEndpoint = $"{method.Method} {requestMessage.RequestUri}",
-                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20250101/DistributedDatabase/ValidateDistributedDatabaseNetwork",
+                    ApiReferenceLink = "https://docs.oracle.com/iaas/api/#/en/globally-distributed-database/20260101/DistributedDatabase/ValidateDistributedDatabaseNetwork",
                     UserAgent = this.GetUserAgent()
                 };
                 this.restClient.CheckHttpResponseMessage(requestMessage, responseMessage, apiDetails);

@@ -30,6 +30,12 @@ namespace Oci.DistributeddatabaseService.Requests
         public string CompartmentId { get; set; }
         
         /// <value>
+        /// When set to true, returns resources in the specified compartment and in all of its child compartments recursively. Defaults to false.
+        /// </value>
+        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "compartmentIdInSubtree")]
+        public System.Nullable<bool> CompartmentIdInSubtree { get; set; }
+        
+        /// <value>
         /// A filter to return only resources their lifecycleState matches the given lifecycleState.
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "lifecycleState")]

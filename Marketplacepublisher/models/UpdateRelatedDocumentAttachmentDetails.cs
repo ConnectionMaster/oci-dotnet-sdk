@@ -29,6 +29,12 @@ namespace Oci.MarketplacepublisherService.Models
         [JsonConverter(typeof(StringEnumConverter))]
         public System.Nullable<RelatedDocumentAttachment.DocumentCategoryEnum> DocumentCategory { get; set; }
         
+        /// <value>
+        /// The document URL of the listing revision attachment.
+        /// </value>
+        [JsonProperty(PropertyName = "sourceUrl")]
+        public string SourceUrl { get; set; }
+        
         [JsonProperty(PropertyName = "attachmentType")]
         private readonly string attachmentType = "RELATED_DOCUMENT";
     }

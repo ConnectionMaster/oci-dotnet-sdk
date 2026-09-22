@@ -21,10 +21,6 @@ namespace Oci.DatasafeService.Models
     public class ActivateTargetDatabaseDetails 
     {
         
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "Credentials is required.")]
         [JsonProperty(PropertyName = "credentials")]
         public Credentials Credentials { get; set; }
         

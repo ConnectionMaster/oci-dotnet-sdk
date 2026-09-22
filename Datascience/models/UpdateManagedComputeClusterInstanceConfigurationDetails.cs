@@ -22,6 +22,12 @@ namespace Oci.DatascienceService.Models
     {
         
         /// <value>
+        /// The list of [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compute capacity reservation.
+        /// </value>
+        [JsonProperty(PropertyName = "capacityReservationIds")]
+        public System.Collections.Generic.List<string> CapacityReservationIds { get; set; }
+        
+        /// <value>
         /// The shape used to launch the instances in compute target. Supported shapes can be retrieved using compute target shapes api.
         /// </value>
         [JsonProperty(PropertyName = "instanceShape")]

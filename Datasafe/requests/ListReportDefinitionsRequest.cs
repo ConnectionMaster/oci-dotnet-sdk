@@ -160,7 +160,9 @@ namespace Oci.DatasafeService.Requests
             [EnumMember(Value = "SUMMARY")]
             Summary,
             [EnumMember(Value = "ACTIVITY_AUDITING")]
-            ActivityAuditing
+            ActivityAuditing,
+            [EnumMember(Value = "CRYPTO_ASSESSMENT")]
+            CryptoAssessment
         };
 
         /// <value>

@@ -20,7 +20,7 @@ namespace Oci.DistributeddatabaseService.Requests
     {
         
         /// <value>
-        /// Globally distributed autonomous database identifier
+        /// Globally distributed autonomous database identifier.
         /// </value>
         /// <remarks>
         /// Required
@@ -30,7 +30,7 @@ namespace Oci.DistributeddatabaseService.Requests
         public string DistributedAutonomousDatabaseId { get; set; }
         
         /// <value>
-        /// Specify the name of Shard, Catalog or GSM.
+        /// Specify the name of the shard, catalog, or GSM.
         /// 
         /// </value>
         /// <remarks>
@@ -39,13 +39,6 @@ namespace Oci.DistributeddatabaseService.Requests
         [Required(ErrorMessage = "ResourceName is required.")]
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "resourceName")]
         public string ResourceName { get; set; }
-        
-        /// <value>
-        /// The shardGroup name example Shardgroupa, Shardgroupb.
-        /// 
-        /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "shardGroup")]
-        public string ShardGroup { get; set; }
         
         /// <value>
         /// The client request ID for tracing.

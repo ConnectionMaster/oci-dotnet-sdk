@@ -16,9 +16,7 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
-    /// Note: Deprecated. Use the new resource model APIs instead.
     /// The properties that define the kms keys used by Functions for Image Signature verification.
-    /// 
     /// </summary>
     public class KeyDetails 
     {

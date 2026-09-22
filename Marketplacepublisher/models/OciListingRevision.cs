@@ -68,6 +68,18 @@ namespace Oci.MarketplacepublisherService.Models
         public System.Collections.Generic.List<ListingProduct> Products { get; set; }
         
         /// <value>
+        /// The url provided by partner for the registration of subscription.
+        /// </value>
+        [JsonProperty(PropertyName = "partnerRegistrationUrl")]
+        public string PartnerRegistrationUrl { get; set; }
+        
+        /// <value>
+        /// The unique id of the term attached to the listing.
+        /// </value>
+        [JsonProperty(PropertyName = "termId")]
+        public string TermId { get; set; }
+        
+        /// <value>
         /// List of Pricing Plans provided by publisher.
         /// </value>
         [JsonProperty(PropertyName = "pricingPlans")]
@@ -108,6 +120,18 @@ namespace Oci.MarketplacepublisherService.Models
         /// </value>
         [JsonProperty(PropertyName = "isRoverExportable")]
         public System.Nullable<bool> IsRoverExportable { get; set; }
+        
+        /// <value>
+        /// Url to demo of the listing
+        /// </value>
+        [JsonProperty(PropertyName = "demoUrl")]
+        public string DemoUrl { get; set; }
+        
+        /// <value>
+        /// Url to training resources of the listing
+        /// </value>
+        [JsonProperty(PropertyName = "selfPacedTrainingUrl")]
+        public string SelfPacedTrainingUrl { get; set; }
         
         [JsonProperty(PropertyName = "listingType")]
         private readonly string listingType = "OCI_APPLICATION";

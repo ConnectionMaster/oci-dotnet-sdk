@@ -71,6 +71,13 @@ namespace Oci.MarketplacepublisherService.Models
         [JsonProperty(PropertyName = "attachmentType")]
         [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
         public System.Nullable<ListingRevisionAttachment.AttachmentTypeEnum> AttachmentType { get; set; }
+        
+        /// <value>
+        /// The specified attachment type is Internal or External.
+        /// </value>
+        [JsonProperty(PropertyName = "sourceType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<ListingRevisionAttachment.SourceTypeEnum> SourceType { get; set; }
                 ///
         /// <value>
         /// Possible lifecycle states.

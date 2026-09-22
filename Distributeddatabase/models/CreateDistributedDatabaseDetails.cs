@@ -64,7 +64,7 @@ namespace Oci.DistributeddatabaseService.Models
         public string Prefix { get; set; }
         
         /// <value>
-        /// The collection of [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private endpoint associated with Globally distributed autonomous database.
+        /// The collection of [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the private endpoints associated with the Globally distributed database.
         /// </value>
         /// <remarks>
         /// Required
@@ -72,28 +72,12 @@ namespace Oci.DistributeddatabaseService.Models
         [Required(ErrorMessage = "PrivateEndpointIds is required.")]
         [JsonProperty(PropertyName = "privateEndpointIds")]
         public System.Collections.Generic.List<string> PrivateEndpointIds { get; set; }
-                ///
+        
         /// <value>
-        /// Sharding Methods for the Globally distributed database.
+        /// The collection of [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) for the notification topics associated with the globally distributed database.
         /// </value>
-        ///
-        public enum ShardingMethodEnum {
-            [EnumMember(Value = "USER")]
-            User,
-            [EnumMember(Value = "SYSTEM")]
-            System
-        };
-
-        /// <value>
-        /// Sharding Methods for the Globally distributed database.
-        /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "ShardingMethod is required.")]
-        [JsonProperty(PropertyName = "shardingMethod")]
-        [JsonConverter(typeof(StringEnumConverter))]
-        public System.Nullable<ShardingMethodEnum> ShardingMethod { get; set; }
+        [JsonProperty(PropertyName = "notificationTopicIds")]
+        public System.Collections.Generic.List<string> NotificationTopicIds { get; set; }
         
         /// <value>
         /// The character set for the database.
@@ -116,16 +100,6 @@ namespace Oci.DistributeddatabaseService.Models
         public string NcharacterSet { get; set; }
         
         /// <value>
-        /// Number of chunks in a shardspace. The value of chunks must be
-        /// greater than 2 times the size of the largest shardgroup in any shardspace. Chunks is
-        /// required to be provided for distributed databases being created with
-        /// SYSTEM shardingMethod. For USER shardingMethod, chunks should not be set in create payload.
-        /// 
-        /// </value>
-        [JsonProperty(PropertyName = "chunks")]
-        public System.Nullable<int> Chunks { get; set; }
-        
-        /// <value>
         /// The listener port number for the Globally distributed database. The listener port number
         /// has to be unique for a customer tenancy across all distributed databases. Same port number should
         /// not be re-used for any other distributed database.
@@ -141,7 +115,7 @@ namespace Oci.DistributeddatabaseService.Models
         /// <value>
         /// The TLS listener port number for the Globally distributed database. The TLS listener port number
         /// has to be unique for a customer tenancy across all distributed databases. Same port number should
-        /// not be re-used for any other distributed database. For BASE_DB and EXADB_XS based distributed databases,
+        /// not be re-used for any other distributed database. For EXADB based distributed databases,
         /// tls is not supported hence the listenerPortTls is not needed to be provided in create payload.
         /// 
         /// </value>
@@ -175,90 +149,55 @@ namespace Oci.DistributeddatabaseService.Models
         public System.Nullable<int> OnsPortRemote { get; set; }
         
         /// <value>
-        /// The TCP Single Client Access Name (SCAN) port for clusters created for Globally distributed database.
-        /// The scanListenerPort number should only be provided if shard and catalog have source type NEW_VAULT_AND_CLUSTER.
-        /// If shard and catalog have source type NEW_VAULT_AND_CLUSTER and scanListenerPort is not provided then the
-        /// scanListenerPort will default to value 1521.
+        /// TCP SCAN listener port for new clusters to be created.
+        /// Applicable only when shard and catalog source types are XS_NEW_VAULT_AND_CLUSTER or XS_NEW_CLUSTER.
+        /// Defaults to 1521 when not provided.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "scanListenerPort")]
         public System.Nullable<int> ScanListenerPort { get; set; }
-                ///
-        /// <value>
-        /// The Replication method for Globally distributed database. Use RAFT for Raft based replication.
-        /// With RAFT replication, shards cannot have peers details set on them. In case shards need to
-        /// have peers, please do not set RAFT replicationMethod. For all non RAFT replication cases (with or
-        /// without peers), please set replicationMethod as DG or do not set any value for replicationMethod.
-        /// 
-        /// </value>
-        ///
-        public enum ReplicationMethodEnum {
-            [EnumMember(Value = "RAFT")]
-            Raft,
-            [EnumMember(Value = "DG")]
-            Dg
-        };
-
-        /// <value>
-        /// The Replication method for Globally distributed database. Use RAFT for Raft based replication.
-        /// With RAFT replication, shards cannot have peers details set on them. In case shards need to
-        /// have peers, please do not set RAFT replicationMethod. For all non RAFT replication cases (with or
-        /// without peers), please set replicationMethod as DG or do not set any value for replicationMethod.
-        /// 
-        /// </value>
-        [JsonProperty(PropertyName = "replicationMethod")]
-        [JsonConverter(typeof(StringEnumConverter))]
-        public System.Nullable<ReplicationMethodEnum> ReplicationMethod { get; set; }
         
         /// <value>
-        /// The Replication factor for RAFT replication based Globally distributed database. Currently supported values are 3, 5 and 7.
-        /// 
+        /// Count of chunks associated with system raft clusters or system data guard databases.
         /// </value>
-        [JsonProperty(PropertyName = "replicationFactor")]
-        public System.Nullable<int> ReplicationFactor { get; set; }
+        [JsonProperty(PropertyName = "systemChunkCount")]
+        public System.Nullable<int> SystemChunkCount { get; set; }
         
         /// <value>
-        /// The replication unit count for RAFT based distributed database. For RAFT replication based
-        /// Globally distributed database, the value should be at least twice the number of shards.
-        /// 
+        /// Number of replication units associated with system raft clusters.
         /// </value>
-        [JsonProperty(PropertyName = "replicationUnit")]
-        public System.Nullable<int> ReplicationUnit { get; set; }
-                ///
-        /// <value>
-        /// The distributed database deployment type.
-        /// 
-        /// </value>
-        ///
-        public enum DbDeploymentTypeEnum {
-            [EnumMember(Value = "EXADB_XS")]
-            ExadbXs
-        };
-
-        /// <value>
-        /// The distributed database deployment type.
-        /// 
-        /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "DbDeploymentType is required.")]
-        [JsonProperty(PropertyName = "dbDeploymentType")]
-        [JsonConverter(typeof(StringEnumConverter))]
-        public System.Nullable<DbDeploymentTypeEnum> DbDeploymentType { get; set; }
+        [JsonProperty(PropertyName = "systemRaftReplicationUnitCount")]
+        public System.Nullable<int> SystemRaftReplicationUnitCount { get; set; }
         
         /// <value>
-        /// Collection of shards for the Globally distributed database.
+        /// Collection of composite raft shards.
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "ShardDetails is required.")]
-        [JsonProperty(PropertyName = "shardDetails")]
-        public System.Collections.Generic.List<CreateDistributedDatabaseShardDetails> ShardDetails { get; set; }
+        [JsonProperty(PropertyName = "compositeRaftShardSpaces")]
+        public System.Collections.Generic.List<CreateCompositeRaftShardSpaceDetails> CompositeRaftShardSpaces { get; set; }
         
         /// <value>
-        /// Collection of catalog for the Globally distributed database.
+        /// Collection of composite data guard shard spaces.
+        /// </value>
+        [JsonProperty(PropertyName = "compositeDataGuardShardSpaces")]
+        public System.Collections.Generic.List<CreateCompositeDataGuardShardSpaceDetails> CompositeDataGuardShardSpaces { get; set; }
+        
+        /// <value>
+        /// Collection of system raft clusters.
+        /// </value>
+        [JsonProperty(PropertyName = "systemRaftClusters")]
+        public System.Collections.Generic.List<CreateSystemRaftClusterDetails> SystemRaftClusters { get; set; }
+        
+        [JsonProperty(PropertyName = "systemDataGuardDatabases")]
+        public CreateSystemDataGuardDatabaseDetails SystemDataGuardDatabases { get; set; }
+        
+        /// <value>
+        /// Collection of user defined shard spaces.
+        /// </value>
+        [JsonProperty(PropertyName = "userShardSpaces")]
+        public System.Collections.Generic.List<CreateUserShardSpaceDetails> UserShardSpaces { get; set; }
+        
+        /// <value>
+        /// Collection of catalog details for the Globally distributed database.
         /// </value>
         /// <remarks>
         /// Required
@@ -275,6 +214,12 @@ namespace Oci.DistributeddatabaseService.Models
         
         [JsonProperty(PropertyName = "dbBackupConfig")]
         public DistributedDbBackupConfig DbBackupConfig { get; set; }
+        
+        /// <value>
+        /// The list of network security group (NSG) details to be associated with the distributed database.
+        /// </value>
+        [JsonProperty(PropertyName = "vcnNsgIds")]
+        public System.Collections.Generic.List<VcnNsgIdsDetails> VcnNsgIds { get; set; }
         
         /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.

@@ -29,6 +29,14 @@ namespace Oci.MarketplacepublisherService.Models
       MoveOffer,
       [EnumMember(Value = "DELETE_OFFER_ATTACHMENT")]
       DeleteOfferAttachment,
+      [EnumMember(Value = "UPDATE_OFFER_QUOTE")]
+      UpdateOfferQuote,
+      [EnumMember(Value = "CREATE_OFFER_QUOTE")]
+      CreateOfferQuote,
+      [EnumMember(Value = "CREATE_OFFER_QUOTE_ATTACHMENT")]
+      CreateOfferQuoteAttachment,
+      [EnumMember(Value = "CREATE_CUSTOMER_INSTANCE_REPORT_EXPORT")]
+      CreateCustomerInstanceReportExport,
       [EnumMember(Value = "PUBLISH_LISTING_REVISION_PACKAGE")]
       PublishListingRevisionPackage,
       [EnumMember(Value = "UNPUBLISH_LISTING_REVISION_PACKAGE")]
@@ -60,6 +68,10 @@ namespace Oci.MarketplacepublisherService.Models
       [EnumMember(Value = "DELETE_ARTIFACT")]
       DeleteArtifact,
       [EnumMember(Value = "UPDATE_ARTIFACT")]
-      UpdateArtifact
+      UpdateArtifact,
+      [EnumMember(Value = "REALM_BUILD")]
+      RealmBuild,
+      [EnumMember(Value = "UPDATE_LISTING_REVISION_METADATA")]
+      UpdateListingRevisionMetadata
   }
 }

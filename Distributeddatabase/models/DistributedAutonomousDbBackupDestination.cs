@@ -31,8 +31,6 @@ namespace Oci.DistributeddatabaseService.Models
             UnknownEnumValue,
             [EnumMember(Value = "NFS")]
             Nfs,
-            [EnumMember(Value = "RECOVERY_APPLIANCE")]
-            RecoveryAppliance,
             [EnumMember(Value = "OBJECT_STORE")]
             ObjectStore,
             [EnumMember(Value = "LOCAL")]
@@ -57,18 +55,6 @@ namespace Oci.DistributeddatabaseService.Models
         /// </value>
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
-        
-        /// <value>
-        /// For a RECOVERY_APPLIANCE backup destination, the Virtual Private Catalog (VPC) user that is used to access the Recovery Appliance.
-        /// </value>
-        [JsonProperty(PropertyName = "vpcUser")]
-        public string VpcUser { get; set; }
-        
-        /// <value>
-        /// For a RECOVERY_APPLIANCE backup destination, the password for the VPC user that is used to access the Recovery Appliance.
-        /// </value>
-        [JsonProperty(PropertyName = "vpcPassword")]
-        public string VpcPassword { get; set; }
         
         /// <value>
         /// Proxy URL to connect to object store.

@@ -30,7 +30,7 @@ namespace Oci.DistributeddatabaseService.Requests
         public ConfigureDistributedAutonomousDatabaseGsmWalletDetails ConfigureDistributedAutonomousDatabaseGsmWalletDetails { get; set; }
         
         /// <value>
-        /// Globally distributed autonomous database identifier
+        /// Globally distributed autonomous database identifier.
         /// </value>
         /// <remarks>
         /// Required

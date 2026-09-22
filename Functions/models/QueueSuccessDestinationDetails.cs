@@ -16,7 +16,6 @@ using Newtonsoft.Json.Converters;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
-    /// Note: Deprecated. Use the new resource model APIs instead.
     /// The destination queue or channel in the Queue service to which to send the response of the successful detached function invocation.
     /// <br/>
     /// Example: {&quot;kind&quot;: &quot;QUEUE&quot;, &quot;queueId&quot;: &quot;queue_OCID&quot;, &quot;channelId&quot;: &quot;channel_Id&quot;}

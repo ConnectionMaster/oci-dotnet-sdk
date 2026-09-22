@@ -39,7 +39,15 @@ namespace Oci.MarketplacepublisherService.Requests
             [EnumMember(Value = "LAST_MONTH")]
             LastMonth,
             [EnumMember(Value = "LAST_THREE_MONTHS")]
-            LastThreeMonths
+            LastThreeMonths,
+            [EnumMember(Value = "LAST_SIX_MONTHS")]
+            LastSixMonths,
+            [EnumMember(Value = "LAST_TWELVE_MONTHS")]
+            LastTwelveMonths,
+            [EnumMember(Value = "LAST_EIGHTEEN_MONTHS")]
+            LastEighteenMonths,
+            [EnumMember(Value = "ALL_TIME")]
+            AllTime
         };
 
         /// <value>

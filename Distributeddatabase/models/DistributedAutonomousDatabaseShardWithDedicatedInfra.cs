@@ -16,9 +16,9 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DistributeddatabaseService.Models
 {
     /// <summary>
-    /// Globally distributed autonomous database shard with dedicated autonomous infrastructure.
+    /// Details of a distributed autonomous database shard on dedicated infrastructure.
     /// </summary>
-    public class DistributedAutonomousDatabaseShardWithDedicatedInfra : DistributedAutonomousDatabaseShard
+    public class DistributedAutonomousDatabaseShardWithDedicatedInfra : DistributedAutonomousDatabaseShardDatabase
     {
         
         /// <value>
@@ -42,27 +42,15 @@ namespace Oci.DistributeddatabaseService.Models
         public System.Double DataStorageSizeInGbs { get; set; }
         
         /// <value>
-        /// Determines the auto-scaling mode for the shard database.
+        /// Indicates if vertical auto scaling is enabled for the Autonomous AI Database CPU core count.
+        /// The default value is `FALSE`.
+        /// 
         /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "IsAutoScalingEnabled is required.")]
         [JsonProperty(PropertyName = "isAutoScalingEnabled")]
         public System.Nullable<bool> IsAutoScalingEnabled { get; set; }
         
         /// <value>
-        /// The name of the shardGroup for the shard.
-        /// </value>
-        /// <remarks>
-        /// Required
-        /// </remarks>
-        [Required(ErrorMessage = "ShardGroup is required.")]
-        [JsonProperty(PropertyName = "shardGroup")]
-        public string ShardGroup { get; set; }
-        
-        /// <value>
-        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cloudAutonomousVmCluster.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the cloud Autonomous Exadata VM Cluster.
         /// </value>
         /// <remarks>
         /// Required
@@ -72,40 +60,58 @@ namespace Oci.DistributeddatabaseService.Models
         public string CloudAutonomousVmClusterId { get; set; }
         
         /// <value>
-        /// This field is deprecated. For shard peer details please refer peerDetails attribute.
-        /// </value>
-        [JsonProperty(PropertyName = "peerCloudAutonomousVmClusterIds")]
-        public System.Collections.Generic.List<string> PeerCloudAutonomousVmClusterIds { get; set; }
-        
-        /// <value>
-        /// The shard space name for the Globally distributed autonomous database. Shard space for existing shard cannot be changed, once shard is created.
-        /// Shard space name shall be used while creation of new shards.
-        /// 
-        /// </value>
-        [JsonProperty(PropertyName = "shardSpace")]
-        public string ShardSpace { get; set; }
-        
-        /// <value>
         /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Oracle Cloud Infrastructure [vault](https://docs.oracle.com/iaas/Content/KeyManagement/Concepts/keyoverview.htm#concepts). This parameter and `kmsKeyId` are required for Customer Managed Keys.
         /// </value>
         [JsonProperty(PropertyName = "vaultId")]
         public string VaultId { get; set; }
         
         /// <value>
-        /// The OCID of the key container that is used as the master encryption key in database transparent data encryption (TDE) operations.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the key container that is used as the master encryption key in database transparent data encryption (TDE) operations.
         /// </value>
         [JsonProperty(PropertyName = "kmsKeyId")]
         public string KmsKeyId { get; set; }
         
         /// <value>
-        /// The OCID of the key container version that is used in database transparent data encryption (TDE) operations KMS Key can have multiple key versions.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the key container version that is used in database transparent data encryption (TDE) operations KMS Key can have multiple key versions.
         /// 
         /// </value>
         [JsonProperty(PropertyName = "kmsKeyVersionId")]
         public string KmsKeyVersionId { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the key store used to create the shard.
+        /// </value>
+        [JsonProperty(PropertyName = "okvKeyStoreId")]
+        public string OkvKeyStoreId { get; set; }
+        
+        /// <value>
+        /// The OKV endpoint name.
+        /// </value>
+        [JsonProperty(PropertyName = "okvEndPointGroupName")]
+        public string OkvEndPointGroupName { get; set; }
+        
+        /// <value>
+        /// The protection mode for the shard peer.
+        /// </value>
+        [JsonProperty(PropertyName = "protectionMode")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<DistributedAutonomousDbProtectionMode> ProtectionMode { get; set; }
+        
+        /// <value>
+        /// The lag time preference based on data loss tolerance in seconds.
+        /// </value>
+        [JsonProperty(PropertyName = "fastStartFailOverLagLimitInSeconds")]
+        public System.Nullable<int> FastStartFailOverLagLimitInSeconds { get; set; }
+        
+        /// <value>
+        /// The scheduling detail for the quarterly maintenance window of the standby Autonomous Container Database.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "standbyMaintenanceBufferInDays")]
+        public System.Nullable<int> StandbyMaintenanceBufferInDays { get; set; }
                 ///
         /// <value>
-        /// Status of shard with dedicated infrastructure for the Globally distributed autonomous database.
+        /// Status of the distributed autonomous database shard.
         /// </value>
         ///
         public enum StatusEnum {
@@ -133,7 +139,7 @@ namespace Oci.DistributeddatabaseService.Models
         };
 
         /// <value>
-        /// Status of shard with dedicated infrastructure for the Globally distributed autonomous database.
+        /// Status of the distributed autonomous database shard.
         /// </value>
         /// <remarks>
         /// Required
@@ -155,28 +161,7 @@ namespace Oci.DistributeddatabaseService.Models
         [JsonProperty(PropertyName = "containerDatabaseId")]
         public string ContainerDatabaseId { get; set; }
         
-        /// <value>
-        /// Peer details for the shard with dedicated infrastructure.
-        /// </value>
-        [JsonProperty(PropertyName = "peerDetails")]
-        public System.Collections.Generic.List<ShardPeerWithDedicatedInfra> PeerDetails { get; set; }
-        
-        /// <value>
-        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the key store used to create the shard.
-        /// </value>
-        [JsonProperty(PropertyName = "okvKeyStoreId")]
-        public string OkvKeyStoreId { get; set; }
-        
-        /// <value>
-        /// The OKV endpoint name.
-        /// </value>
-        [JsonProperty(PropertyName = "okvEndPointGroup")]
-        public string OkvEndPointGroup { get; set; }
-        
-        [JsonProperty(PropertyName = "metadata")]
-        public DistributedAutonomousDbMetadata Metadata { get; set; }
-        
         [JsonProperty(PropertyName = "source")]
-        private readonly string source = "ADB_D";
+        private readonly string source = "ADBD_EXISTING_CLUSTER";
     }
 }

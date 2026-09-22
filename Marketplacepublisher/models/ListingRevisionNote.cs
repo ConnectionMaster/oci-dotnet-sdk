@@ -85,6 +85,12 @@ namespace Oci.MarketplacepublisherService.Models
         [Required(ErrorMessage = "NoteDetails is required.")]
         [JsonProperty(PropertyName = "noteDetails")]
         public string NoteDetails { get; set; }
+        
+        /// <value>
+        /// Email address of the administrator who created the note, if available.
+        /// </value>
+        [JsonProperty(PropertyName = "adminEmail")]
+        public string AdminEmail { get; set; }
                 ///
         /// <value>
         /// The current state of the listing revision note.

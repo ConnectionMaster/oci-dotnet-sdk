@@ -30,20 +30,34 @@ namespace Oci.MarketplacepublisherService.Models
         [Required(ErrorMessage = "Sku is required.")]
         [JsonProperty(PropertyName = "sku")]
         public string Sku { get; set; }
+        
+        /// <value>
+        /// Unique identifier of the pricing plan.
+        /// </value>
+        [JsonProperty(PropertyName = "pricingPlanKey")]
+        public string PricingPlanKey { get; set; }
                 ///
         /// <value>
-        /// The part's metric.
+        /// The billing model for SaaS paid listing parts.
         /// </value>
         ///
-        public enum MetricTypeEnum {
-            [EnumMember(Value = "OCPU_HOURS")]
-            OcpuHours,
-            [EnumMember(Value = "INSTANCE_HOURS")]
-            InstanceHours,
-            [EnumMember(Value = "CORE_HOURS")]
-            CoreHours
+        public enum BillingModelEnum {
+            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
+            [EnumMember(Value = null)]
+            UnknownEnumValue,
+            [EnumMember(Value = "FLAT_RATE")]
+            FlatRate,
+            [EnumMember(Value = "USAGE_BASED")]
+            UsageBased
         };
 
+        /// <value>
+        /// The billing model for SaaS paid listing parts.
+        /// </value>
+        [JsonProperty(PropertyName = "billingModel")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<BillingModelEnum> BillingModel { get; set; }
+        
         /// <value>
         /// The part's metric.
         /// </value>
@@ -52,8 +66,8 @@ namespace Oci.MarketplacepublisherService.Models
         /// </remarks>
         [Required(ErrorMessage = "MetricType is required.")]
         [JsonProperty(PropertyName = "metricType")]
-        [JsonConverter(typeof(StringEnumConverter))]
-        public System.Nullable<MetricTypeEnum> MetricType { get; set; }
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<MetricType> MetricType { get; set; }
         
         /// <value>
         /// rate allocation, these are calculated based on rate information at listing revision.

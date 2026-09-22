@@ -49,17 +49,17 @@ namespace Oci.DistributeddatabaseService.Requests
         
         ///
         /// <value>
-        /// The field to sort by. Only one sort order may be provided. Default order for timeAccepted is descending.
+        /// The field to sort by. Only one sort order may be provided. Default order for timestamp is descending.
         /// 
         /// </value>
         ///
         public enum SortByEnum {
-            [EnumMember(Value = "timeAccepted")]
-            TimeAccepted
+            [EnumMember(Value = "timestamp")]
+            Timestamp
         };
 
         /// <value>
-        /// The field to sort by. Only one sort order may be provided. Default order for timeAccepted is descending.
+        /// The field to sort by. Only one sort order may be provided. Default order for timestamp is descending.
         /// 
         /// </value>
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "sortBy")]

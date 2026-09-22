@@ -11,66 +11,28 @@ using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
-using Newtonsoft.Json.Linq;
+
 
 namespace Oci.DistributeddatabaseService.Models
 {
     /// <summary>
-    /// Details of the Globally distributed database catalog.
+    /// Details required to create a Globally distributed database catalog.
     /// </summary>
-    [JsonConverter(typeof(CreateDistributedDatabaseCatalogDetailsModelConverter))]
     public class CreateDistributedDatabaseCatalogDetails 
     {
-                ///
-        /// <value>
-        /// Type of Globally distributed database Shard or Catalog.
-        /// Use NEW_VAULT_AND_CLUSTER for a Globally distributed database on Exascale with new vaults and clusters created from scratch.
-        /// Use EXISTING_CLUSTER for a Globally distributed database on Exascale based on pre-existing clusters.
-        /// EXADB_XS is currently the same as EXISTING_CLUSTER and will be deprecated after the deprecation cycle.
-        /// 
-        /// </value>
-        ///
-        public enum SourceEnum {
-            [EnumMember(Value = "EXADB_XS")]
-            ExadbXs,
-            [EnumMember(Value = "NEW_VAULT_AND_CLUSTER")]
-            NewVaultAndCluster,
-            [EnumMember(Value = "EXISTING_CLUSTER")]
-            ExistingCluster
-        };
-
         
-    }
-
-    public class CreateDistributedDatabaseCatalogDetailsModelConverter : JsonConverter
-    {
-        public override bool CanWrite => false;
-        public override bool CanRead => true;
-        public override bool CanConvert(System.Type type)
-        {
-            return type == typeof(CreateDistributedDatabaseCatalogDetails);
-        }
-        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
-        {
-            throw new System.InvalidOperationException("Use default serialization.");
-        }
-
-        public override object ReadJson(JsonReader reader, System.Type objectType, object existingValue, JsonSerializer serializer)
-        {
-            var jsonObject = JObject.Load(reader);
-            var obj = default(CreateDistributedDatabaseCatalogDetails);
-            var discriminator = jsonObject["source"].Value<string>();
-            switch (discriminator)
-            {
-                case "NEW_VAULT_AND_CLUSTER":
-                    obj = new CreateDistributedDatabaseCatalogWithExadbXsNewVaultAndClusterDetails();
-                    break;
-                case "EXADB_XS":
-                    obj = new CreateDistributedDatabaseCatalogWithExadbXsDetails();
-                    break;
-            }
-            serializer.Populate(jsonObject.CreateReader(), obj);
-            return obj;
-        }
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "OriginalReplica is required.")]
+        [JsonProperty(PropertyName = "originalReplica")]
+        public CreateDistributedDatabaseCatalogReplicaDetails OriginalReplica { get; set; }
+        
+        /// <value>
+        /// Details required to create data guard replicas for the catalog.
+        /// </value>
+        [JsonProperty(PropertyName = "dataGuardReplicas")]
+        public System.Collections.Generic.List<CreateDistributedDatabaseCatalogReplicaDetails> DataGuardReplicas { get; set; }
+        
     }
 }

@@ -32,29 +32,13 @@ namespace Oci.MarketplacepublisherService.Models
         /// </value>
         [JsonProperty(PropertyName = "timeEnd")]
         public System.Nullable<System.DateTime> TimeEnd { get; set; }
-                ///
-        /// <value>
-        /// OPN status
-        /// </value>
-        ///
-        public enum OpnStatusEnum {
-            /// This value is used if a service returns a value for this enum that is not recognized by this version of the SDK.
-            [EnumMember(Value = null)]
-            UnknownEnumValue,
-            [EnumMember(Value = "ACTIVE")]
-            Active,
-            [EnumMember(Value = "INACTIVE")]
-            Inactive,
-            [EnumMember(Value = "RENEWAL_IN_PROGRESS")]
-            RenewalInProgress
-        };
-
+        
         /// <value>
         /// OPN status
         /// </value>
         [JsonProperty(PropertyName = "opnStatus")]
-        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
-        public System.Nullable<OpnStatusEnum> OpnStatus { get; set; }
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<AdminOpnPartnerSummary.MembershipStatusEnum> OpnStatus { get; set; }
         
         /// <value>
         /// OPN Number number

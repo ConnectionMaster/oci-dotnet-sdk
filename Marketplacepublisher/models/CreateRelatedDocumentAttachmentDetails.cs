@@ -33,6 +33,25 @@ namespace Oci.MarketplacepublisherService.Models
         [JsonConverter(typeof(StringEnumConverter))]
         public System.Nullable<RelatedDocumentAttachment.DocumentCategoryEnum> DocumentCategory { get; set; }
         
+        /// <value>
+        /// The document URL of the listing revision attachment.
+        /// </value>
+        [JsonProperty(PropertyName = "sourceUrl")]
+        public string SourceUrl { get; set; }
+        
+        /// <value>
+        /// The specified attachment type is Internal or External.
+        /// </value>
+        [JsonProperty(PropertyName = "sourceType")]
+        [JsonConverter(typeof(StringEnumConverter))]
+        public System.Nullable<ListingRevisionAttachment.SourceTypeEnum> SourceType { get; set; }
+        
+        /// <value>
+        /// Identifies whether the attachment is for Internal Oracle Users or external users as well.
+        /// </value>
+        [JsonProperty(PropertyName = "isOracleUsersOnly")]
+        public System.Nullable<bool> IsOracleUsersOnly { get; set; }
+        
         [JsonProperty(PropertyName = "attachmentType")]
         private readonly string attachmentType = "RELATED_DOCUMENT";
     }

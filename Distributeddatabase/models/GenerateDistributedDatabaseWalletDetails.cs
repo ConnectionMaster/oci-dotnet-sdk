@@ -29,6 +29,7 @@ namespace Oci.DistributeddatabaseService.Models
         /// Required
         /// </remarks>
         [Required(ErrorMessage = "Password is required.")]
+        [Oci.Common.Utils.Sensitive]
         [JsonProperty(PropertyName = "password")]
         public string Password { get; set; }
         

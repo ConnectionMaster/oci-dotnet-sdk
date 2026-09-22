@@ -30,7 +30,7 @@ namespace Oci.DistributeddatabaseService.Requests
         public ChangeDistributedDatabaseCompartmentDetails ChangeDistributedDatabaseCompartmentDetails { get; set; }
         
         /// <value>
-        /// Globally distributed database identifier
+        /// Globally distributed database identifier.
         /// </value>
         /// <remarks>
         /// Required

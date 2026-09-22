@@ -16,13 +16,23 @@ using Newtonsoft.Json.Converters;
 namespace Oci.DistributeddatabaseService.Models
 {
     /// <summary>
-    /// The Exadata VM cluster for Distributed Database Resource
+    /// The Exadata VM cluster for Distributed Database Resource.
     /// </summary>
     public class DistributedDbVmCluster 
     {
         
         /// <value>
-        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the Exadata VM cluster on Exascale Infrastructure.
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment for VM Cluster.
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "CompartmentId is required.")]
+        [JsonProperty(PropertyName = "compartmentId")]
+        public string CompartmentId { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the VM cluster.
         /// </value>
         [JsonProperty(PropertyName = "vmClusterId")]
         public string VmClusterId { get; set; }
@@ -176,6 +186,12 @@ namespace Oci.DistributeddatabaseService.Models
         /// </value>
         [JsonProperty(PropertyName = "isIncidentLogsEnabled")]
         public System.Nullable<bool> IsIncidentLogsEnabled { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subscription with which resource needs to be associated with.
+        /// </value>
+        [JsonProperty(PropertyName = "subscriptionId")]
+        public string SubscriptionId { get; set; }
         
     }
 }

@@ -22,6 +22,13 @@ namespace Oci.ApmsyntheticsService.Models
     {
         
         /// <value>
+        /// Type of maintenance window schedule. If not provided, a schedule with timeStarted and timeEnded is treated as ONE_TIME.
+        /// </value>
+        [JsonProperty(PropertyName = "scheduleType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<MaintenanceWindowScheduleType> ScheduleType { get; set; }
+        
+        /// <value>
         /// Start time of the maintenance window, expressed in [RFC 3339](https://tools.ietf.org/html/rfc3339) timestamp format.
         /// Example: 2020-02-12T22:47:12.613Z
         /// </value>
@@ -34,6 +41,13 @@ namespace Oci.ApmsyntheticsService.Models
         /// </value>
         [JsonProperty(PropertyName = "timeEnded")]
         public System.Nullable<System.DateTime> TimeEnded { get; set; }
+        
+        /// <value>
+        /// Type of recurrence for a recurring maintenance window.
+        /// </value>
+        [JsonProperty(PropertyName = "recurrenceType")]
+        [JsonConverter(typeof(Oci.Common.Utils.ResponseEnumConverter))]
+        public System.Nullable<MaintenanceWindowRecurrenceType> RecurrenceType { get; set; }
         
     }
 }

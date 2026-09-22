@@ -53,6 +53,13 @@ namespace Oci.DatascienceService.Models
         [JsonProperty(PropertyName = "blockStorageSizeInGBs")]
         public System.Nullable<int> BlockStorageSizeInGBs { get; set; }
         
+        /// <value>
+        /// This specifies the [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the customer-managed compute capacity reservation to be used for launching jobs.
+        /// 
+        /// </value>
+        [JsonProperty(PropertyName = "capacityReservationId")]
+        public string CapacityReservationId { get; set; }
+        
         [JsonProperty(PropertyName = "jobShapeConfigDetails")]
         public JobShapeConfigDetails JobShapeConfigDetails { get; set; }
         

@@ -178,6 +178,54 @@ namespace Oci.MarketplacepublisherService.Models
         public System.Nullable<System.DateTime> TimeUpdated { get; set; }
         
         /// <value>
+        /// Email address of the publisher.
+        /// </value>
+        [JsonProperty(PropertyName = "email")]
+        public string Email { get; set; }
+        
+        /// <value>
+        /// The business phone number of the publisher.
+        /// </value>
+        [JsonProperty(PropertyName = "businessPhoneNumber")]
+        public string BusinessPhoneNumber { get; set; }
+        
+        /// <value>
+        /// Count of employees in publisher's company
+        /// </value>
+        [JsonProperty(PropertyName = "employeeCount")]
+        public System.Nullable<long> EmployeeCount { get; set; }
+        
+        /// <value>
+        /// A description of the publisher solutions.
+        /// </value>
+        [JsonProperty(PropertyName = "solutionDescription")]
+        public string SolutionDescription { get; set; }
+        
+        /// <value>
+        /// OPN membership number of the publisher
+        /// </value>
+        [JsonProperty(PropertyName = "opnNumber")]
+        public string OpnNumber { get; set; }
+        
+        /// <value>
+        /// Country in which partner company resides
+        /// </value>
+        [JsonProperty(PropertyName = "country")]
+        public string Country { get; set; }
+        
+        /// <value>
+        /// City in which partner company resides
+        /// </value>
+        [JsonProperty(PropertyName = "city")]
+        public string City { get; set; }
+        
+        /// <value>
+        /// State in which partner company resides
+        /// </value>
+        [JsonProperty(PropertyName = "state")]
+        public string State { get; set; }
+        
+        /// <value>
         /// Simple key-value pair that is applied without any predefined name, type or scope. Exists for cross-compatibility only.
         /// Example: {&quot;bar-key&quot;: &quot;value&quot;}
         /// </value>

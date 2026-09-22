@@ -16,7 +16,6 @@ using Newtonsoft.Json.Linq;
 namespace Oci.FunctionsService.Models
 {
     /// <summary>
-    /// Note: Deprecated. Use the new resource model APIs instead.
     /// The source details for the Function. The function can be created from various sources.
     /// 
     /// </summary>
@@ -25,13 +24,17 @@ namespace Oci.FunctionsService.Models
     {
                 ///
         /// <value>
-        /// Type of the Function Source. Possible values: PBF.
+        /// Type of the Function Source. Possible values: CONTAINER_IMAGE, PBF and ARCHIVE.
         /// 
         /// </value>
         ///
         public enum SourceTypeEnum {
             [EnumMember(Value = "PRE_BUILT_FUNCTIONS")]
-            PreBuiltFunctions
+            PreBuiltFunctions,
+            [EnumMember(Value = "ARCHIVE")]
+            Archive,
+            [EnumMember(Value = "CONTAINER_IMAGE")]
+            ContainerImage
         };
 
         
@@ -58,6 +61,12 @@ namespace Oci.FunctionsService.Models
             var discriminator = jsonObject["sourceType"].Value<string>();
             switch (discriminator)
             {
+                case "CONTAINER_IMAGE":
+                    obj = new ContainerImageFunctionSourceDetails();
+                    break;
+                case "ARCHIVE":
+                    obj = new ArchiveFunctionSourceDetails();
+                    break;
                 case "PRE_BUILT_FUNCTIONS":
                     obj = new PreBuiltFunctionSourceDetails();
                     break;

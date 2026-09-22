@@ -25,6 +25,8 @@ namespace Oci.DatasafeService.Models
       Alerts,
       [EnumMember(Value = "SECURITY_ASSESSMENT")]
       SecurityAssessment,
+      [EnumMember(Value = "CRYPTO_ASSESSMENT")]
+      CryptoAssessment,
       [EnumMember(Value = "VIOLATIONS")]
       Violations,
       [EnumMember(Value = "ALLOWED_SQL")]

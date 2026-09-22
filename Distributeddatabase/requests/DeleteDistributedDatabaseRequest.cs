@@ -20,7 +20,7 @@ namespace Oci.DistributeddatabaseService.Requests
     {
         
         /// <value>
-        /// Globally distributed database identifier
+        /// Globally distributed database identifier.
         /// </value>
         /// <remarks>
         /// Required
@@ -28,12 +28,6 @@ namespace Oci.DistributeddatabaseService.Requests
         [Required(ErrorMessage = "DistributedDatabaseId is required.")]
         [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Path, "distributedDatabaseId")]
         public string DistributedDatabaseId { get; set; }
-        
-        /// <value>
-        /// The flag to indicate if infra like VmCluster & DbStorageVault associated with the resource should be deleted.
-        /// </value>
-        [Oci.Common.Http.HttpConverter(Oci.Common.Http.TargetEnum.Query, "mustDeleteInfra")]
-        public System.Nullable<bool> MustDeleteInfra { get; set; }
         
         /// <value>
         /// The client request ID for tracing.

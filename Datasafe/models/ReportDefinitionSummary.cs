@@ -57,6 +57,8 @@ namespace Oci.DatasafeService.Models
             ActivityAuditing,
             [EnumMember(Value = "SECURITY_ASSESSMENT")]
             SecurityAssessment,
+            [EnumMember(Value = "CRYPTO_ASSESSMENT")]
+            CryptoAssessment,
             [EnumMember(Value = "FIREWALL_VIOLATIONS")]
             FirewallViolations,
             [EnumMember(Value = "ALLOWED_SQL")]

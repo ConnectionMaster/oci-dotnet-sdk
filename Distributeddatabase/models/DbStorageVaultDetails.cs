@@ -23,6 +23,16 @@ namespace Oci.DistributeddatabaseService.Models
     {
         
         /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the compartment for Db Storage Vault.
+        /// </value>
+        /// <remarks>
+        /// Required
+        /// </remarks>
+        [Required(ErrorMessage = "CompartmentId is required.")]
+        [JsonProperty(PropertyName = "compartmentId")]
+        public string CompartmentId { get; set; }
+        
+        /// <value>
         /// Total storage capacity in GB for vault storage.
         /// </value>
         /// <remarks>
@@ -37,6 +47,24 @@ namespace Oci.DistributeddatabaseService.Models
         /// </value>
         [JsonProperty(PropertyName = "additionalFlashCacheInPercent")]
         public System.Nullable<int> AdditionalFlashCacheInPercent { get; set; }
+        
+        /// <value>
+        /// The [OCID](https://docs.oracle.com/iaas/Content/General/Concepts/identifiers.htm) of the subscription with which resource needs to be associated with.
+        /// </value>
+        [JsonProperty(PropertyName = "subscriptionId")]
+        public string SubscriptionId { get; set; }
+        
+        /// <value>
+        /// Indicates if autoscale feature is enabled for the Database Storage Vault. The default value is `FALSE`.
+        /// </value>
+        [JsonProperty(PropertyName = "isAutoscaleEnabled")]
+        public System.Nullable<bool> IsAutoscaleEnabled { get; set; }
+        
+        /// <value>
+        /// The maximum limit, in gigabytes, to which the Vault storage size can automatically scale when auto scaling is enabled for the Database Storage Vault.
+        /// </value>
+        [JsonProperty(PropertyName = "autoscaleLimitInGBs")]
+        public System.Nullable<int> AutoscaleLimitInGBs { get; set; }
         
     }
 }

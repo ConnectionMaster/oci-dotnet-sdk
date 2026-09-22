@@ -73,6 +73,12 @@ namespace Oci.MarketplacepublisherService.Models
         public string NoteDetails { get; set; }
         
         /// <value>
+        /// Email address of the administrator who created the note, if available.
+        /// </value>
+        [JsonProperty(PropertyName = "adminEmail")]
+        public string AdminEmail { get; set; }
+        
+        /// <value>
         /// The current state of the note.
         /// </value>
         [JsonProperty(PropertyName = "lifecycleState")]
